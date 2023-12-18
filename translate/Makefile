@@ -35,7 +35,7 @@ translate:
 	$(SCRIPT) ru Russian
 	#$(SCRIPT) gv Manx # unstable
 
-done:
+_done:
 	$(SCRIPT) eo "English and Esperanto" # partial
 	$(SCRIPT) en English
 	$(SCRIPT) el "Modern Greek"
