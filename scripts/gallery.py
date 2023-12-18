@@ -1,7 +1,6 @@
 import sys, os, re, common, xml7shi
 
-def get_sample(tdir, d, n=1):
-    xml = os.path.join(tdir, d, "inferno", "01.xml")
+def get_sample(xml, n=1):
     if not os.path.exists(xml):
         return "", [], []
     with open(xml, "r", encoding="utf-8") as f:
@@ -33,8 +32,12 @@ def get_sample(tdir, d, n=1):
 
 if __name__ == "__main__":
     args = sys.argv[1:]
+    filename = "inferno/01.xml"
+    if len(args) > 1 and args[0] == "-f":
+        filename = args[1]
+        args = args[2:]
     if len(args) != 1:
-        print(f"Usage: python {sys.argv[0]} translate-dir", file=sys.stderr)
+        print(f"Usage: python {sys.argv[0]} [-f dir/xml] translate-dir", file=sys.stderr)
         sys.exit(1)
 
     tdir = args[0]
@@ -42,7 +45,7 @@ if __name__ == "__main__":
     it = []
 
     for d in os.listdir(tdir):
-        lang, it, ts = get_sample(tdir, d, 2)
+        lang, it, ts = get_sample(f"{tdir}/{d}/{filename}", 2)
         if lang:
             texts.append((lang, ts))
 
