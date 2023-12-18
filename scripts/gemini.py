@@ -136,17 +136,17 @@ def query(prompt, info=None, show=False, retry=True, check_length=False):
             if m := re.search("text: ", err):
                 r, _ = parse(err, m.end())
                 r = r.rstrip()
-                q.result = r
-                if show:
-                    print()
-                    print(r)
+                if not (check_length and len(r) > len(prompt) * 3):
+                    q.result = r
+                    if show:
+                        print()
+                        print(r)
+                    break
+            if not retry or chat_count == 1:
                 break
-            elif not retry or chat_count == 1:
-                break
-            else:
-                q.retry = True
-                if show:
-                    print()
-                print("Retrying...", file=sys.stderr)
-                start()
+            q.retry = True
+            if show:
+                print()
+            print("Retrying...", file=sys.stderr)
+            start()
     return q
