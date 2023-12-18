@@ -1,8 +1,34 @@
 import sys, os, re, xml7shi, common
 
 args = sys.argv[1:]
+
+once   = False
+retry  = True
+show   = True
+chklen = False
+i = 0
+while i < len(args):
+    if args[i] == "-1":
+        once = True
+        args.pop(i)
+    elif args[i] == "--no-retry":
+        retry = False
+        args.pop(i)
+    elif args[i] == "--no-show":
+        show = False
+        args.pop(i)
+    elif args[i] == "--check-length":
+        chklen = True
+        args.pop(i)
+    else:
+        i += 1
+
 if len(args) != 3:
     print(f"Usage: python {sys.argv[0]} italian-dir output-dir language", file=sys.stderr)
+    print("  -1: just do one canto", file=sys.stderr)
+    print("  --no-retry: don't retry queries", file=sys.stderr)
+    print("  --no-show: don't show queries and responses", file=sys.stderr)
+    print("  --check-length: check that responses aren't too long", file=sys.stderr)
     sys.exit(1)
 
 itdir, outdir, language = args
@@ -41,7 +67,7 @@ def send_lines(line_count, *plines):
             prompt += "\n"
         line = f"{ln + 1} {it[ln]}"
         prompt += "\n" + line
-    return gemini.query(prompt, info, show=True, retry=True)
+    return gemini.query(prompt, info, show, retry, chklen)
 
 def write(f, text):
     f.write(text.encode("utf_8"))
@@ -77,4 +103,5 @@ for directory in ["Inferno", "Purgatorio", "Paradiso"]:
             write(f, '<?xml version="1.0" encoding="utf-8"?>\n')
             for q in queries:
                 write(f, str(q))
-        sys.exit(0)
+        if once:
+            sys.exit(0)

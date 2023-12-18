@@ -102,7 +102,7 @@ def start():
     chat_count = 0
     watcher.countup()
 
-def query(prompt, info=None, show=False, retry=True):
+def query(prompt, info=None, show=False, retry=True, check_length=False):
     global chat_count
     q = common.query()
     q.prompt = prompt.replace("\r\n", "\n").rstrip()
@@ -120,8 +120,8 @@ def query(prompt, info=None, show=False, retry=True):
             watcher.countup()
             convo.send_message(q.prompt)
             r = convo.last.text.rstrip()
-            # if len(r) > len(prompt) * 3:
-            #     raise(Exception(f"Response too long: {len(r)}"))
+            if check_length and len(r) > len(prompt) * 3:
+                raise(Exception(f"Response too long: {len(r)}"))
             q.result = r
             if show:
                 print()
