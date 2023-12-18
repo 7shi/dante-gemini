@@ -1,4 +1,4 @@
-import sys, os, re, xml7shi, gallery
+import sys, os, re, xml7shi, common
 
 args = sys.argv[1:]
 if len(args) != 3:
@@ -23,7 +23,7 @@ for i in range(1, 5):
         with open(fxml, "r", encoding="utf-8") as f:
             xml = f.read()
         xr = xml7shi.reader(xml)
-        qs = [gallery.query(xr) for _ in range(2)]
+        qs = [common.parse(xr) for _ in range(2)]
         history = [
             qs[0].prompt,
             qs[0].result,
@@ -77,4 +77,4 @@ for directory in ["Inferno", "Purgatorio", "Paradiso"]:
             write(f, '<?xml version="1.0" encoding="utf-8"?>\n')
             for q in queries:
                 write(f, str(q))
-        # sys.exit(0)
+        sys.exit(0)
