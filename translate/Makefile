@@ -1,7 +1,6 @@
 SCRIPT = python ../scripts/translate.py ../it
 
 translate:
-	$(SCRIPT) fr French
 	$(SCRIPT) es Spanish
 	$(SCRIPT) pt Portuguese
 	$(SCRIPT) bg Bulgarian
@@ -34,6 +33,7 @@ translate:
 	#$(SCRIPT) gv Manx # unstable
 
 _done:
+	$(SCRIPT) fr French
 	$(SCRIPT) et Estonian
 	$(SCRIPT) ko Korean
 	$(SCRIPT) zh Chinese
