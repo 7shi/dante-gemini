@@ -126,7 +126,7 @@ def query(prompt, info=None, show=False, retry=True):
             if show:
                 print()
                 print(r)
-            return
+            break
         except Exception as e:
             err = str(e).rstrip()
             q.error = err
@@ -140,9 +140,9 @@ def query(prompt, info=None, show=False, retry=True):
                 if show:
                     print()
                     print(r)
-                return
+                break
             elif not retry or chat_count == 1:
-                return
+                break
             else:
                 q.retry = True
                 if show:
