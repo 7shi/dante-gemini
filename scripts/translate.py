@@ -1,4 +1,4 @@
-import sys, os, re
+import sys, os, re, xml7shi, gallery
 
 args = sys.argv[1:]
 if len(args) != 3:
@@ -15,6 +15,20 @@ it = []
 current = 0
 directory = ""
 canto = 0
+
+history = None
+fxml = os.path.join(outdir, "inferno", "01.xml")
+if os.path.exists(fxml):
+    with open(fxml, "r", encoding="utf-8") as f:
+        xml = f.read()
+    xr = xml7shi.reader(xml)
+    qs = [gallery.query(xr) for _ in range(2)]
+    history = [
+        qs[0].prompt,
+        qs[0].result,
+        qs[1].prompt,
+        qs[1].result
+    ]
 
 def send_lines(line_count, *plines):
     info = f"[{directory} Canto {canto}] {current + 1}/{len(it)}"
@@ -49,7 +63,7 @@ for directory in ["Inferno", "Purgatorio", "Paradiso"]:
             it = [l for line in f if (l := line.strip())]
         current = 0
         queries = []
-        gemini.init()
+        gemini.init(*history)
         while current < len(it):
             length = min(3, len(it) - current)
             while current + length < len(it) and not it[current + length - 1].endswith("."):
