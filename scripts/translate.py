@@ -17,18 +17,20 @@ directory = ""
 canto = 0
 
 history = None
-fxml = os.path.join(outdir, "inferno", "01.xml")
-if os.path.exists(fxml):
-    with open(fxml, "r", encoding="utf-8") as f:
-        xml = f.read()
-    xr = xml7shi.reader(xml)
-    qs = [gallery.query(xr) for _ in range(2)]
-    history = [
-        qs[0].prompt,
-        qs[0].result,
-        qs[1].prompt,
-        qs[1].result
-    ]
+for i in range(1, 5):
+    fxml = os.path.join(outdir, "inferno", f"{i:02}.xml")
+    if os.path.exists(fxml):
+        with open(fxml, "r", encoding="utf-8") as f:
+            xml = f.read()
+        xr = xml7shi.reader(xml)
+        qs = [gallery.query(xr) for _ in range(2)]
+        history = [
+            qs[0].prompt,
+            qs[0].result,
+            qs[1].prompt,
+            qs[1].result
+        ]
+        break
 
 def send_lines(line_count, *plines):
     info = f"[{directory} Canto {canto}] {current + 1}/{len(it)}"
