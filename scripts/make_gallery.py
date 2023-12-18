@@ -1,47 +1,74 @@
 import sys, os, re, xml7shi
 
-args = sys.argv[1:]
-if len(args) != 1:
-    print(f"Usage: python {sys.argv[0]} translate-dir", file=sys.stderr)
-    sys.exit(1)
+class query:
+    def __init__(self, xr):
+        self.retry  = False
+        self.prompt = None
+        self.error  = None
+        self.result = None
+        while xr.read():
+            if xr.tag == "prompt":
+                self.retry = xr.has_key("retry") and xr["retry"] == "true"
+                if xr.read():
+                    self.prompt = xr.text.strip()
+            elif xr.tag == "error" and xr.read():
+                self.error = xr.text.strip()
+            elif xr.tag == "result" and xr.read():
+                self.result = xr.text.strip()
+            elif xr.tag == "/query":
+                break
 
-tdir = args[0]
-texts = []
-it = ""
-
-for d in os.listdir(tdir):
+def get_sample(tdir, d, n=1):
     xml = os.path.join(tdir, d, "inferno", "01.xml")
     if not os.path.exists(xml):
-        continue
+        return "", [], []
     with open(xml, "r", encoding="utf-8") as f:
         xml = f.read()
     xr = xml7shi.reader(xml)
-    if not (xr.find("prompt") and xr.read()):
-        continue
-    prompt = xr.text.strip()
-    if not (m := re.search(r"into (.*)\.", prompt)):
-        continue
-    lang = m.group(1)
-    if m := re.search(r" and (.*)", lang):
-        lang = m.group(1)
-    if not it:
-        it = prompt.split("\n")[2:5]
-    if xr.read() and xr.tag == "error":
-        if not (xr.read() and xr.read()):
+    texts1 = []
+    texts2 = []
+    for _ in range(n):
+        q = query(xr)
+        if not (q.result and (m := re.search(r"into (.*)\.", q.prompt))):
             continue
-    if not (xr.tag == "result" and xr.read()):
-        continue
-    lines = xr.text.strip().split("\n")
-    for i in range(len(lines), 0, -1):
-        if lines[i - 1].startswith("1 "):
-            break
-    texts.append((lang, xr.text.strip().split("\n")[i - 1 : i + 2]))
+        lang = m.group(1)
+        if m := re.search(r" and (.*)", lang):
+            lang = m.group(1)
+        it = q.prompt.split("\n")[2:]
+        if not (m := re.match(r"(\d+ )", it[0])):
+            continue
+        ln = m.group(1)
+        lines = q.result.split("\n")
+        for i in range(len(lines) - 1, -1, -1):
+            if lines[i].startswith(ln):
+                break
+        if texts1:
+            texts1.append("")
+            texts2.append("")
+        texts1 += it
+        texts2 += lines[i : i + len(it)]
+    return lang, texts1, texts2
 
-texts.sort(key=lambda lang: lang[0])
-print("<table>")
-print("<tr><th>Language</th><th>Text</th></tr>")
-print("<tr><td>Italian</td><td>", "<br>".join(it), "</td></tr>", sep="")
-for lang, text in texts:
-    attrs = ' dir="rtl" align="right"' if lang in ["Arabic", "Hebrew"] else ''
-    print(f"<tr><td>{lang}</td><td{attrs}>", "<br>".join(text), "</td></tr>", sep="")
-print("</table>")
+if __name__ == "__main__":
+    args = sys.argv[1:]
+    if len(args) != 1:
+        print(f"Usage: python {sys.argv[0]} translate-dir", file=sys.stderr)
+        sys.exit(1)
+
+    tdir = args[0]
+    texts = []
+    it = []
+
+    for d in os.listdir(tdir):
+        lang, it, ts = get_sample(tdir, d, 2)
+        if lang:
+            texts.append((lang, ts))
+
+    texts.sort(key=lambda lang: lang)
+    print("<table>")
+    print("<tr><th>Language</th><th>Text</th></tr>")
+    print("<tr><td>Italian</td><td>", "<br>".join(it), "</td></tr>", sep="")
+    for lang, text in texts:
+        attrs = ' dir="rtl" align="right"' if lang in ["Arabic", "Hebrew"] else ''
+        print(f"<tr><td>{lang}</td><td{attrs}>", "<br>".join(text), "</td></tr>", sep="")
+    print("</table>")
