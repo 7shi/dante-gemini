@@ -16,7 +16,7 @@ translate:
 	$(SCRIPT) bn Bengali
 	$(SCRIPT) vi Vietnamese
 	$(SCRIPT) id Indonesian
-	$(SCRIPT) sl Slovenian
+	$(SCRIPT) sl Slovene
 	$(SCRIPT) fi Finnish
 	$(SCRIPT) hu Hungarian
 	$(SCRIPT) tr Turkish
