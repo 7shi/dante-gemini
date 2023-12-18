@@ -8,7 +8,7 @@ Italian
 
 * [La Divina Commedia di Dante: Complete by Dante Alighieri | Project Gutenberg](https://www.gutenberg.org/ebooks/1000)
 
-## Gallary
+## Gallery
 
 <table>
 <tr><th>Language</th><th>Text</th></tr>
