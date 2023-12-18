@@ -41,7 +41,7 @@ def send_lines(line_count, *plines):
             prompt += "\n"
         line = f"{ln + 1} {it[ln]}"
         prompt += "\n" + line
-    return gemini.Query(prompt, info, show=True, retry=True)
+    return gemini.query(prompt, info, show=True, retry=True)
 
 def write(f, text):
     f.write(text.encode("utf_8"))

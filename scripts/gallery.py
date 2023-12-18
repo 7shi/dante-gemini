@@ -1,22 +1,4 @@
-import sys, os, re, xml7shi
-
-class query:
-    def __init__(self, xr):
-        self.retry  = False
-        self.prompt = None
-        self.error  = None
-        self.result = None
-        while xr.read():
-            if xr.tag == "prompt":
-                self.retry = xr.has_key("retry") and xr["retry"] == "true"
-                if xr.read():
-                    self.prompt = xr.text.strip()
-            elif xr.tag == "error" and xr.read():
-                self.error = xr.text.strip()
-            elif xr.tag == "result" and xr.read():
-                self.result = xr.text.strip()
-            elif xr.tag == "/query":
-                break
+import sys, os, re, common, xml7shi
 
 def get_sample(tdir, d, n=1):
     xml = os.path.join(tdir, d, "inferno", "01.xml")
@@ -28,7 +10,7 @@ def get_sample(tdir, d, n=1):
     texts1 = []
     texts2 = []
     for _ in range(n):
-        q = query(xr)
+        q = common.parse(xr)
         if not (q.result and (m := re.search(r"into (.*)\.", q.prompt))):
             continue
         lang = m.group(1)
