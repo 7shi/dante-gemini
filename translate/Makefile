@@ -36,39 +36,39 @@ translate:
 	#$(SCRIPT) gv Manx # unstable
 
 _done:
-	$(SCRIPT) eo "English and Esperanto" # partial
-	$(SCRIPT) en English
-	$(SCRIPT) el "Modern Greek"
-	$(SCRIPT) hi Hindi
-	$(SCRIPT) ja Japanese
 	$(SCRIPT) zh Chinese
+	$(SCRIPT) ja Japanese
+	$(SCRIPT) hi Hindi
+	$(SCRIPT) el "Modern Greek"
+	$(SCRIPT) en English
+	$(SCRIPT) eo "English and Esperanto" # partial
 
 _error:
-	$(SCRIPT) yi Yiddish
-	$(SCRIPT) is Icelandic
-	$(SCRIPT) ur Urdu
-	$(SCRIPT) mt Maltese
-	$(SCRIPT) ca Catalan
-	$(SCRIPT) ga Irish
-	$(SCRIPT) cy Welsh
-	$(SCRIPT) mn Mongolian
-	$(SCRIPT) rw Kinyarwanda
-	$(SCRIPT) ta Tamil
-	$(SCRIPT) ka Georgian
-	$(SCRIPT) hy Armenian
-	$(SCRIPT) sq Albanian
-	$(SCRIPT) fa Persian
-	$(SCRIPT) tl Tagalog
-	$(SCRIPT) km Khmer
-	$(SCRIPT) my Burmese
-	$(SCRIPT) mk Macedonian
-	$(SCRIPT) eu Basque
 	$(SCRIPT) af Afrikaans
-	$(SCRIPT) be Belarusian
-	$(SCRIPT) mr Marathi
-	$(SCRIPT) pa Punjabi
-	$(SCRIPT) gu Gujarati
-	$(SCRIPT) ne Nepali
 	$(SCRIPT) am Amharic
+	$(SCRIPT) be Belarusian
+	$(SCRIPT) ca Catalan
+	$(SCRIPT) cy Welsh
+	$(SCRIPT) eu Basque
+	$(SCRIPT) fa Persian
+	$(SCRIPT) ga Irish
 	$(SCRIPT) gd "Scottish Gaelic"
+	$(SCRIPT) gu Gujarati
+	$(SCRIPT) hy Armenian
+	$(SCRIPT) is Icelandic
+	$(SCRIPT) ka Georgian
+	$(SCRIPT) km Khmer
 	$(SCRIPT) kw Cornish # unstable
+	$(SCRIPT) mk Macedonian
+	$(SCRIPT) mn Mongolian
+	$(SCRIPT) mr Marathi
+	$(SCRIPT) mt Maltese
+	$(SCRIPT) my Burmese
+	$(SCRIPT) ne Nepali
+	$(SCRIPT) pa Punjabi
+	$(SCRIPT) rw Kinyarwanda
+	$(SCRIPT) sq Albanian
+	$(SCRIPT) ta Tamil
+	$(SCRIPT) tl Tagalog
+	$(SCRIPT) ur Urdu
+	$(SCRIPT) yi Yiddish
