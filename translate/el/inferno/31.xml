@@ -2,7 +2,7 @@
 <query>
 <info>[Inferno Canto 31] 1/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 1 Una medesma lingua pria mi morse,
 2 sì che mi tinse l’una e l’altra guancia,
@@ -15,32 +15,32 @@ Please translate literally into Modern Greek.
 <result>
 1 Μια ίδια γλώσσα με δάγκωσε πρώτα,
 2 έτσι που μου έβαψε και τα δυο μάγουλα,
-3 και μετά μου έδωσε το φάρμακο·
+3 και ύστερα μου πρόσφερε το φάρμακο.
 
-4 έτσι ακούω ότι συνήθιζε να κάνει η λόγχη
+4 Έτσι κι εγώ που συνήθιζα να κάνω τη λόγχη
 5 του Αχιλλέα και του πατέρα του να είναι αιτία
-6 πρώτα κακής και μετά καλής αμοιβής.
+6 πρώτα κακής και ύστερα καλής φιλοδωρίας.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 7/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 7 Noi demmo il dosso al misero vallone
 8 su per la ripa che ’l cinge dintorno,
 9 attraversando sanza alcun sermone.
 </prompt>
 <result>
-7 Εμείς στρέψαμε την πλάτη μας στην άθλια κοιλάδα
-8 και ανεβήκαμε στην πλαγιά που την περιβάλλει τριγύρω,
-9 διασχίζοντάς την χωρίς καμία συζήτηση.
+7 Αφήσαμε πίσω μας την άθλια κοιλάδα
+8 ανεβαίνοντας την πλαγιά που την περιβάλλει τριγύρω,
+9 διασχίζοντάς την χωρίς να πούμε κουβέντα.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 10/145</info>
-<prompt>
-Please translate literally into Modern Greek.
+<prompt retry="true">
+Please translate each line literally into Modern Greek.
 
 10 Quiv’ era men che notte e men che giorno,
 11 sì che ’l viso m’andava innanzi poco;
@@ -50,20 +50,31 @@ Please translate literally into Modern Greek.
 14 che, contra sé la sua via seguitando,
 15 dirizzò li occhi miei tutti ad un loco.
 </prompt>
-<result>
-10 Εδώ ήταν λιγότερο από νύχτα και λιγότερο από μέρα,
-11 έτσι που το βλέμμα μου προχωρούσε ελάχιστα μπροστά μου·
-12 αλλά άκουσα να ηχεί ένα δυνατό κόρνο,
-
-13 τόσο δυνατό που θα έκανε κάθε βροντή να φανεί ασθενής,
-14 το οποίο, συνεχίζοντας την πορεία του προς την αντίθετη κατεύθυνση,
-15 κατεύθυνε τα μάτια μου όλα σε ένα σημείο.
-</result>
+<error>
+index: 0
+finish_reason: OTHER
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 </query>
 <query>
 <info>[Inferno Canto 31] 16/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 16 Dopo la dolorosa rotta, quando
 17 Carlo Magno perdé la santa gesta,
@@ -71,44 +82,44 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 16 Μετά την οδυνηρή ήττα, όταν
-17 ο Καρλομάγνος έχασε τον ιερό αγώνα,
-18 δεν ηχούσε τόσο τρομερά ο Ορλάνδος.
+17 ο Καρλομάγνος έχασε την ιερή εκστρατεία,
+18 δεν ούρλιαξε τόσο τρομερά ο Ορλάντο.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 19/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 19 Poco portäi in là volta la testa,
 20 che me parve veder molte alte torri;
 21 ond’ io: «Maestro, dì, che terra è questa?».
 </prompt>
 <result>
-19 Λίγο γύρισα το κεφάλι μου προς τα εκεί,
-20 και μου φάνηκε ότι είδα πολλούς ψηλούς πύργους·
-21 γι' αυτό είπα: «Δάσκαλε, πες μου, ποια γη είναι αυτή;».
+19 Λίγο πιο πέρα γύρισα το κεφάλι,
+20 και μου φάνηκε ότι είδα πολλούς ψηλούς πύργους.
+21 Γι’ αυτό είπα: «Δάσκαλε, πες μου, ποια γη είναι αυτή;».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 22/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 22 Ed elli a me: «Però che tu trascorri
 23 per le tenebre troppo da la lungi,
 24 avvien che poi nel maginare abborri.
 </prompt>
 <result>
-22 Και εκείνος σε μένα: «Επειδή διασχίζεις
-23 το σκοτάδι από πολύ μακριά,
-24 συμβαίνει μετά να αποστρέφεσαι στη φαντασία σου.
+22 Και εκείνος σε μένα: «Επειδή περνάς
+23 μέσα από το σκοτάδι πάρα πολύ μακριά,
+24 συμβαίνει έπειτα να αποστρέφεσαι στη φαντασία σου.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 25/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 25 Tu vedrai ben, se tu là ti congiungi,
 26 quanto ’l senso s’inganna di lontano;
@@ -116,14 +127,14 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 25 Θα δεις καλά, αν φτάσεις εκεί,
-26 πόσο εξαπατάται η αίσθηση από μακριά·
-27 γι' αυτό σπρώξε τον εαυτό σου λίγο παραπάνω».
+26 πόσο η αίσθηση εξαπατάται από μακριά.
+27 Γι’ αυτό σπρώξε τον εαυτό σου λίγο παραπέρα.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 28/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 28 Poi caramente mi prese per mano
 29 e disse: «Pria che noi siam più avanti,
@@ -134,19 +145,19 @@ Please translate literally into Modern Greek.
 33 da l’umbilico in giuso tutti quanti».
 </prompt>
 <result>
-28 Μετά με πήρε στοργικά από το χέρι
-29 και είπε: «Πριν προχωρήσουμε παρακάτω,
+28 Έπειτα με πήρε στοργικά από το χέρι
+29 και είπε: «Πριν προχωρήσουμε παραπέρα,
 30 για να σου φαίνεται λιγότερο παράξενο το γεγονός,
 
 31 μάθε ότι δεν είναι πύργοι, αλλά γίγαντες,
-32 και βρίσκονται γύρω γύρω στον λάκκο από την πλαγιά
+32 και βρίσκονται στον λάκκο γύρω από την πλαγιά
 33 από τον ομφαλό και κάτω όλοι τους».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 34/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 34 Come quando la nebbia si dissipa,
 35 lo sguardo a poco a poco raffigura
@@ -167,25 +178,24 @@ Please translate literally into Modern Greek.
 <result>
 34 Όπως όταν διαλύεται η ομίχλη,
 35 το βλέμμα σιγά σιγά διακρίνει
-36 αυτό που κρύβει ο ατμός που πυκνώνει τον αέρα,
+36 αυτό που κρύβει ο υδρατμός που πυκνώνει τον αέρα,
 
 37 έτσι διαπερνώντας τον πυκνό και σκοτεινό αέρα,
-38 όσο πλησιάζω περισσότερο προς την άκρη,
-39 με εγκαταλείπει το λάθος και μεγαλώνει ο φόβος μου·
+38 όσο πλησιάζω περισσότερο στην άκρη,
+39 με εγκαταλείπει το λάθος και μεγαλώνει ο φόβος μου.
 
-40 επειδή, όπως στην κυκλική περίμετρο
+40 Διότι, όπως στην κυκλική περίμετρο
 41 το Μοντερετζιόνε στεφανώνεται από πύργους,
-42 έτσι την άκρη που περιβάλλει τον λάκκο
+42 έτσι η άκρη που περιβάλλει τον λάκκο
 
-43 την υψώνονταν μέχρι τη μέση του σώματος
-44 οι φοβεροί γίγαντες, τους οποίους απειλεί
-45 ο Δίας από τον ουρανό ακόμα και όταν βροντά.
+43 υψώνονταν ως τη μέση οι φοβεροί γίγαντες, τους οποίους απειλεί
+44 ο Δίας από τον ουρανό ακόμα και όταν βροντά.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 46/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 46 E io scorgeva già d’alcun la faccia,
 47 le spalle e ’l petto e del ventre gran parte,
@@ -200,7 +210,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 31] 49/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 49 Natura certo, quando lasciò l’arte
 50 di sì fatti animali, assai fé bene
@@ -215,7 +225,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 31] 52/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 52 E s’ella d’elefanti e di balene
 53 non si pente, chi guarda sottilmente,
@@ -228,17 +238,17 @@ Please translate literally into Modern Greek.
 <result>
 52 Και αν δεν μετανιώνει για τους ελέφαντες και τις φάλαινες,
 53 όποιος παρατηρεί προσεκτικά,
-54 την θεωρεί πιο δίκαιη και πιο συνετή·
+54 την θεωρεί πιο δίκαιη και πιο συνετή.
 
-55 επειδή εκεί που το επιχείρημα του νου
+55 Διότι εκεί που το επιχείρημα του νου
 56 προστίθεται στην κακή θέληση και στη δύναμη,
-57 κανένα καταφύγιο δεν μπορεί να φτιάξει ο κόσμος.
+57 κανένα καταφύγιο δεν μπορεί να φτιάξει ο άνθρωπος.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 58/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 58 La faccia sua mi parea lunga e grossa
 59 come la pina di San Pietro a Roma,
@@ -255,21 +265,21 @@ Please translate literally into Modern Greek.
 <result>
 58 Το πρόσωπό του μου φαινόταν μακρύ και χοντρό
 59 σαν την κουκουνάρα του Αγίου Πέτρου στη Ρώμη,
-60 και ανάλογα με αυτό ήταν και τα άλλα κόκαλα·
+60 και ανάλογα με αυτό ήταν και τα άλλα κόκαλα.
 
-61 έτσι ώστε η πλαγιά, που ήταν σαν ζώνη
-62 από τη μέση και κάτω, έδειχνε αρκετά από αυτό
-63 από πάνω, ώστε για να φτάσουν στην κορυφή
+61 Έτσι ώστε η πλαγιά, που ήταν σαν ζώνη
+62 από τη μέση και κάτω, έδειχνε καλά τόσο πολύ
+63 από πάνω, που για να φτάσουν στην κορυφή
 
-64 τρεις Φρίσοι θα είχαν καυχηθεί μάταια·
-65 επειδή εγώ έβλεπα τριάντα μεγάλες παλάμες
+64 τρεις Φρίσοι θα είχαν καυχηθεί μάταια.
+65 Διότι εγώ έβλεπα τριάντα μεγάλες παλάμες
 66 από το σημείο και κάτω όπου ο άνθρωπος δένει το πανωφόρι.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 67/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 67 «Raphèl maì amècche zabì almi»,
 68 cominciò a gridar la fiera bocca,
@@ -284,7 +294,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 31] 70/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 70 E ’l duca mio ver’ lui: «Anima sciocca,
 71 tienti col corno, e con quel ti disfoga
@@ -295,7 +305,7 @@ Please translate literally into Modern Greek.
 75 e vedi lui che ’l gran petto ti doga».
 </prompt>
 <result>
-70 Και ο δούκας μου προς αυτόν: «Ανόητη ψυχή,
+70 Και ο δικός μου οδηγός προς αυτόν: «Ανόητη ψυχή,
 71 κράτα το κέρατό σου και με αυτό ξεσπάθωσε
 72 όταν σε αγγίζει ο θυμός ή άλλο πάθος!
 
@@ -307,37 +317,37 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 31] 76/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 76 Poi disse a me: «Elli stessi s’accusa;
 77 questi è Nembrotto per lo cui mal coto
 78 pur un linguaggio nel mondo non s’usa.
 </prompt>
 <result>
-76 Μετά μου είπε: «Ο ίδιος κατηγορεί τον εαυτό του·
-77 αυτός είναι ο Νεβρώδ, εξαιτίας του κακού σχεδίου του οποίου
+76 Έπειτα μου είπε: «Ο ίδιος κατηγορεί τον εαυτό του.
+77 Αυτός είναι ο Νεβρώδ, εξαιτίας του κακού σχεδίου του οποίου
 78 δεν χρησιμοποιείται πλέον μία γλώσσα στον κόσμο.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 79/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 79 Lasciànlo stare e non parliamo a vòto;
 80 ché così è a lui ciascun linguaggio
 81 come ’l suo ad altrui, ch’a nullo è noto».
 </prompt>
 <result>
-79 Ας τον αφήσουμε ήσυχο και ας μην μιλάμε μάταια·
-80 επειδή γι' αυτόν κάθε γλώσσα είναι
-81 όπως η δική του για τους άλλους, που δεν είναι γνωστή σε κανέναν».
+79 Ας τον αφήσουμε ήσυχο και ας μην μιλάμε μάταια.
+80 Διότι έτσι είναι γι’ αυτόν κάθε γλώσσα
+81 όπως η δική του για τους άλλους, που σε κανέναν δεν είναι γνωστή.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 82/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 82 Facemmo adunque più lungo vïaggio,
 83 vòlti a sinistra; e al trar d’un balestro
@@ -345,14 +355,14 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 82 Κάναμε λοιπόν μεγαλύτερο ταξίδι,
-83 στρίβοντας αριστερά· και σε απόσταση βαλλίστρας
+83 στρίβοντας αριστερά. Και σε απόσταση βαλλίστρας
 84 βρήκαμε τον άλλον πολύ πιο άγριο και μεγαλύτερο.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 85/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 85 A cigner lui qual che fosse ’l maestro,
 86 non so io dir, ma el tenea soccinto
@@ -365,17 +375,17 @@ Please translate literally into Modern Greek.
 <result>
 85 Ποιος ήταν ο δάσκαλος που τον έδεσε,
 86 δεν ξέρω να πω, αλλά τον κρατούσε δεμένο
-87 μπροστά τον έναν και πίσω τον δεξιό βραχίονα
+87 μπροστά ο ένας και πίσω ο δεξιός βραχίονας
 
-88 με μια αλυσίδα που τον κρατούσε δεμένο
-89 από τον λαιμό και κάτω, έτσι ώστε στο εκτεθειμένο μέρος
+88 μιας αλυσίδας που τον κρατούσε δεμένο
+89 από τον λαιμό και κάτω, έτσι ώστε πάνω στο εκτεθειμένο
 90 να τυλίγεται μέχρι τον πέμπτο γύρο.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 91/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 91 «Questo superbo volle esser esperto
 92 di sua potenza contra ’l sommo Giove»,
@@ -384,13 +394,13 @@ Please translate literally into Modern Greek.
 <result>
 91 «Αυτός ο υπερήφανος ήθελε να δοκιμάσει
 92 τη δύναμή του ενάντια στον ύψιστο Δία»,
-93 είπε ο δούκας μου, «γι' αυτό έχει τέτοια ανταμοιβή.
+93 είπε ο οδηγός μου, «γι’ αυτό έχει τέτοια τιμωρία.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 94/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 94 Fïalte ha nome, e fece le gran prove
 95 quando i giganti fer paura a’ dèi;
@@ -398,14 +408,14 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 94 Φιάλτης ονομάζεται και έκανε τα μεγάλα κατορθώματα
-95 όταν οι γίγαντες τρόμαξαν τους θεούς·
-96 τα χέρια που κούνησε, δεν τα κουνάει πια».
+95 όταν οι γίγαντες τρόμαξαν τους θεούς.
+96 Τα χέρια που κούνησε, δεν τα κουνάει πια.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 97/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 97 E io a lui: «S’esser puote, io vorrei
 98 che de lo smisurato Brïareo
@@ -413,20 +423,20 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 97 Και εγώ σε αυτόν: «Αν είναι δυνατόν, θα ήθελα
-98 να είχαν τα μάτια μου εμπειρία του τεράστιου Βριάρεω».
+98 να είχαν τα μάτια μου εμπειρία του αχανή Βριάρεω».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 100/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 100 Ond’ ei rispuose: «Tu vedrai Anteo
 101 presso di qui che parla ed è disciolto,
 102 che ne porrà nel fondo d’ogne reo.
 </prompt>
 <result>
-100 Γι' αυτό εκείνος απάντησε: «Θα δεις τον Ανταίο
+100 Γι’ αυτό εκείνος απάντησε: «Θα δεις τον Ανταίο
 101 κοντά εδώ που μιλάει και είναι ελεύθερος,
 102 ο οποίος θα μας βάλει στον πάτο κάθε κακού.
 </result>
@@ -434,7 +444,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 31] 103/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 103 Quel che tu vuo’ veder, più là è molto
 104 ed è legato e fatto come questo,
@@ -443,13 +453,13 @@ Please translate literally into Modern Greek.
 <result>
 103 Αυτό που θέλεις να δεις, είναι πολύ πιο πέρα
 104 και είναι δεμένος και φτιαγμένος σαν αυτόν,
-105 εκτός από το ότι φαίνεται πιο άγριος στο πρόσωπο».
+105 εκτός από το ότι φαίνεται πιο άγριος στο πρόσωπο.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 106/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 106 Non fu tremoto già tanto rubesto,
 107 che scotesse una torre così forte,
@@ -464,7 +474,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 31] 109/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 109 Allor temett’ io più che mai la morte,
 110 e non v’era mestier più che la dotta,
@@ -472,14 +482,14 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 109 Τότε φοβήθηκα περισσότερο από ποτέ τον θάνατο,
-110 και δεν υπήρχε ανάγκη περισσότερο από την φοβισμένη,
+110 και δεν χρειαζόταν τίποτα περισσότερο από την εμπειρία,
 111 αν δεν είχα δει τα δεσμά.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 112/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 112 Noi procedemmo più avante allotta,
 113 e venimmo ad Anteo, che ben cinque alle,
@@ -487,14 +497,14 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 112 Προχωρήσαμε περισσότερο τότε,
-113 και φτάσαμε στον Ανταίο, ο οποίος πέντε πήχες,
+113 και φτάσαμε στον Ανταίο, που πέντε πήχες,
 114 χωρίς το κεφάλι, έβγαινε έξω από το σπήλαιο.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 115/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 115 «O tu che ne la fortunata valle
 116 che fece Scipïon di gloria reda,
@@ -518,14 +528,14 @@ Please translate literally into Modern Greek.
 120 των αδελφών σου, φαίνεται ακόμα ότι πιστεύεται
 
 121 ότι θα είχαν νικήσει οι γιοι της γης:
-122 κατέβασέ μας κάτω, και μην σε πιάσει αηδία,
+122 κατέβασέ μας κάτω, και μην σε πειράζει,
 123 εκεί που ο Κωκυτός κλείνει το κρύο.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 124/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 124 Non ci fare ire a Tizio né a Tifo:
 125 questi può dar di quel che qui si brama;
@@ -533,14 +543,14 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 124 Μην μας κάνεις να πάμε στον Τιτυό ή στον Τυφώνα:
-125 αυτός μπορεί να δώσει από αυτό που επιθυμούμε εδώ·
-126 γι' αυτό σκύψε και μην στρίβεις το πρόσωπό σου.
+125 αυτός μπορεί να δώσει αυτό που επιθυμούμε εδώ.
+126 Γι’ αυτό σκύψε και μην γυρνάς το πρόσωπό σου.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 127/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 127 Ancor ti può nel mondo render fama,
 128 ch’el vive, e lunga vita ancor aspetta
@@ -548,29 +558,29 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 127 Μπορεί ακόμα να σου δώσει φήμη στον κόσμο,
-128 επειδή ζει και περιμένει ακόμα μεγάλη ζωή
-129 αν η χάρη δεν τον καλέσει κοντά της πριν την ώρα του».
+128 γιατί ζει και περιμένει ακόμα μακρά ζωή
+129 αν η χάρη δεν τον καλέσει κοντά της πρόωρα.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 130/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 130 Così disse ’l maestro; e quelli in fretta
 131 le man distese, e prese ’l duca mio,
 132 ond’ Ercule sentì già grande stretta.
 </prompt>
 <result>
-130 Έτσι είπε ο δάσκαλος· και εκείνος γρήγορα
-131 άπλωσε τα χέρια του και πήρε τον δούκα μου,
-132 έτσι που ο Ηρακλής ένιωσε ήδη μεγάλη πίεση.
+130 Έτσι είπε ο δάσκαλος. Και εκείνος γρήγορα
+131 άπλωσε τα χέρια του και πήρε τον οδηγό μου,
+132 έτσι ώστε ο Ηρακλής ένιωσε ήδη μεγάλη πίεση.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 133/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 133 Virgilio, quando prender si sentio,
 134 disse a me: «Fatti qua, sì ch’io ti prenda»;
@@ -578,14 +588,14 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 133 Ο Βιργίλιος, όταν ένιωσε ότι τον έπιασε,
-134 μου είπε: «Έλα εδώ, για να σε πιάσω κι εγώ·
-135 μετά έκανε έτσι ώστε να είμαστε ένα δέμα αυτός και εγώ.
+134 μου είπε: «Έλα εδώ, για να σε πιάσω».
+135 Έπειτα έκανε έτσι ώστε να είμαστε ένα δέμα αυτός και εγώ.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 31] 136/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 136 Qual pare a riguardar la Carisenda
 137 sotto ’l chinato, quando un nuvol vada
@@ -598,7 +608,7 @@ Please translate literally into Modern Greek.
 <result>
 136 Όπως φαίνεται να κοιτάς την Καρισέντα
 137 κάτω από την κλίση, όταν ένα σύννεφο πηγαίνει
-138 πάνω από αυτήν, έτσι ώστε να γέρνει απέναντί του:
+138 πάνω από αυτήν, έτσι ώστε να κρέμεται απέναντί της:
 
 139 έτσι μου φάνηκε ο Ανταίος που περίμενε
 140 να τον δω να σκύβει, και ήταν μια τέτοια στιγμή
@@ -608,7 +618,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 31] 142/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 142 Ma lievemente al fondo che divora
 143 Lucifero con Giuda, ci sposò;
@@ -618,8 +628,9 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 142 Αλλά μας μετέφερε ελαφρά στον πάτο που καταβροχθίζει
-143 ο Λουσιφέρ με τον Ιούδα·
-144 και, τόσο σκυφτός, έμεινε εκεί,
+143 ο Λουσιφέρ με τον Ιούδα.
+144 Και, τόσο σκυφτός, έμεινε εκεί,
+
 145 και σηκώθηκε σαν κατάρτι σε πλοίο.
 </result>
 </query>

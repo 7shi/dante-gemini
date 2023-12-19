@@ -2,22 +2,48 @@
 <query>
 <info>[Paradiso Canto 21] 1/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 1 Già eran li occhi miei rifissi al volto
 2 de la mia donna, e l’animo con essi,
 3 e da ogne altro intento s’era tolto.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "1 Already were my eyes fixed on the face\n2 of my lady, and my mind with them,\n3 and from every other thought it had withdrawn itself."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-1 My eyes were already fixed on the face
-2 of my lady, and my soul with them,
-3 and from every other intent it had been taken.
+1 Already were my eyes fixed on the face
+2 of my lady, and my mind with them,
+3 and from every other thought it had withdrawn itself.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 4/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 4 E quella non ridea; ma «S’io ridessi»,
 5 mi cominciò, «tu ti faresti quale
@@ -32,23 +58,23 @@ Please translate literally into English.
 12 sarebbe fronda che trono scoscende.
 </prompt>
 <result>
-4 And she did not smile; but "If I smiled,"
+4 And she did not laugh; but "If I were to laugh,"
 5 she began to me, "you would become like
 6 Semele when she turned to ashes:
 
-7 because my beauty, which on the stairs
-8 of the eternal palace grows brighter,
-9 as you have seen, the more one ascends,
+7 for my beauty, which is kindled more
+8 on the stairs of the eternal palace,
+9 as you have seen, the higher one ascends,
 
-10 if it were not tempered, shines so much,
-11 that your mortal power, at its brilliance,
+10 if it were not tempered, shines so brightly
+11 that your mortal capacity, in its radiance,
 12 would be a leaf that a thunderbolt knocks down.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 13/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 13 Noi sem levati al settimo splendore,
 14 che sotto ’l petto del Leone ardente
@@ -63,7 +89,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 16/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 16 Ficca di retro a li occhi tuoi la mente,
 17 e fa di quelli specchi a la figura
@@ -78,7 +104,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 19/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 19 Qual savesse qual era la pastura
 20 del viso mio ne l’aspetto beato
@@ -89,19 +115,19 @@ Please translate literally into English.
 24 contrapesando l’un con l’altro lato.
 </prompt>
 <result>
-19 Whoever knew what was the nourishment
-20 of my face in the blessed aspect
-21 when I transformed myself to another care,
+19 If one could know what was the nourishment
+20 of my gaze on the blessed aspect
+21 when I turned to another concern,
 
-22 would know how pleasing it was to me
+22 one would understand how pleasing it was to me
 23 to obey my celestial guide,
-24 counterbalancing one side with the other.
+24 weighing the one side against the other.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 25/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 25 Dentro al cristallo che ’l vocabol porta,
 26 cerchiando il mondo, del suo caro duce
@@ -114,32 +140,32 @@ Please translate literally into English.
 <result>
 25 Within the crystal that bears the name,
 26 encircling the world, of its dear leader
-27 beneath whom every evil lay dead,
+27 beneath whom every evil lies slain,
 
-28 of a golden color in which a ray shines through
-29 I saw a stairway rising up
+28 in a golden color through which a ray shines,
+29 I saw a stairway rising upward
 30 so high that my sight could not follow it.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 31/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 31 Vidi anche per li gradi scender giuso
 32 tanti splendor, ch’io pensai ch’ogne lume
 33 che par nel ciel, quindi fosse diffuso.
 </prompt>
 <result>
-31 I also saw so many splendors descending down
-32 the steps that I thought that every light
+31 I also saw so many splendors descending
+32 down the steps that I thought every light
 33 that appears in the sky was diffused from there.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 34/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 34 E come, per lo natural costume,
 35 le pole insieme, al cominciar del giorno,
@@ -154,23 +180,23 @@ Please translate literally into English.
 42 sì come in certo grado si percosse.
 </prompt>
 <result>
-34 And as, by natural habit,
-35 the magpies together, at the beginning of the day,
+34 And just as, by natural instinct,
+35 the magpies together, at the beginning of day,
 36 move to warm their cold feathers;
 
 37 then some go away without returning,
-38 others turn back to where they started,
-39 and others, wheeling, remain;
+38 others turn back to where they were stirred,
+39 and others hover, wheeling around;
 
-40 in such a way it seemed to me that it was here
-41 in that sparkling that came together,
-42 as if it struck a certain level.
+40 in that sparkling which came together,
+41 it seemed to me that the same manner was here,
+42 just as it struck a certain level.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 43/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 43 E quel che presso più ci si ritenne,
 44 si fé sì chiaro, ch’io dicea pensando:
@@ -179,13 +205,13 @@ Please translate literally into English.
 <result>
 43 And the one that remained closest to us
 44 became so bright that I said, thinking:
-45 ‘I see well the love that you indicate to me.
+45 ‘I see well the love that you signal to me.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 46/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 46 Ma quella ond’ io aspetto il come e ’l quando
 47 del dire e del tacer, si sta; ond’ io,
@@ -193,14 +219,14 @@ Please translate literally into English.
 </prompt>
 <result>
 46 But the one from whom I await the how and when
-47 of speaking and being silent, remains silent; therefore I,
+47 of speaking and being silent remains still; therefore I,
 48 against my desire, do well not to ask’.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 49/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 49 Per ch’ella, che vedëa il tacer mio
 50 nel veder di colui che tutto vede,
@@ -215,7 +241,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 52/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 52 E io incominciai: «La mia mercede
 53 non mi fa degno de la tua risposta;
@@ -246,22 +272,22 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 61/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 61 «Tu hai l’udir mortal sì come il viso»,
 62 rispuose a me; «onde qui non si canta
 63 per quel che Bëatrice non ha riso.
 </prompt>
 <result>
-61 “Your hearing is mortal, just like your sight”,
-62 she replied to me; “therefore here there is no singing
-63 because Beatrice has not smiled.
+61 “Your hearing is as mortal as your sight”,
+62 she replied to me; “therefore one does not sing here
+63 for the reason that Beatrice has not smiled.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 64/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 64 Giù per li gradi de la scala santa
 65 discesi tanto sol per farti festa
@@ -276,15 +302,15 @@ Please translate literally into English.
 65 I descended only to do you honor
 66 with speech and with the light that cloaks me;
 
-67 nor did greater love make me swifter,
-68 for as much love and more fervently burns up here,
+67 nor did greater love make me more prompt,
+68 for as much and even more love burns up here,
 69 as the flaming reveals to you.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 70/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 70 Ma l’alta carità, che ci fa serve
 71 pronte al consiglio che ’l mondo governa,
@@ -293,13 +319,13 @@ Please translate literally into English.
 <result>
 70 But the high charity, which makes us handmaidens
 71 ready for the counsel that governs the world,
-72 draws lots here as you observe”.
+72 draws lots here, as you observe”.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 73/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 73 «Io veggio ben», diss’ io, «sacra lucerna,
 74 come libero amore in questa corte
@@ -316,13 +342,13 @@ Please translate literally into English.
 
 76 but this is what I find hard to discern,
 77 why you alone were predestined
-78 to this office among your companions”.
+78 for this office among your companions”.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 79/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 79 Né venni prima a l’ultima parola,
 80 che del suo mezzo fece il lume centro,
@@ -342,8 +368,8 @@ Please translate literally into English.
 81 spinning like a swift millstone;
 
 82 then the love that was within it replied:
-83 “Divine light converges upon me,
-84 penetrating through this light in which I am wrapped,
+83 “Divine light focuses on me,
+84 penetrating through this in which I am,
 
 85 whose power, joined with my sight,
 86 raises me above myself so much that I see
@@ -353,7 +379,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 88/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 88 Quinci vien l’allegrezza ond’ io fiammeggio;
 89 per ch’a la vista mia, quant’ ella è chiara,
@@ -361,14 +387,14 @@ Please translate literally into English.
 </prompt>
 <result>
 88 From here comes the joy with which I flame;
-89 because to my sight, as clear as it is,
+89 for to my sight, as clear as it is,
 90 I match the brightness of the flame.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 91/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 91 Ma quell’ alma nel ciel che più si schiara,
 92 quel serafin che ’n Dio più l’occhio ha fisso,
@@ -380,7 +406,7 @@ Please translate literally into English.
 </prompt>
 <result>
 91 But that soul in heaven that shines the brightest,
-92 that seraph who fixes his eye most on God,
+92 that seraph who fixes his gaze on God the most,
 93 would not satisfy your request,
 
 94 because what you ask delves so deeply into the abyss
@@ -391,7 +417,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 97/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 97 E al mondo mortal, quando tu riedi,
 98 questo rapporta, sì che non presumma
@@ -400,13 +426,13 @@ Please translate literally into English.
 <result>
 97 And when you return to the mortal world,
 98 report this, so that no one presumes
-99 to set foot on so high a path.
+99 to set foot on so lofty a path.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 100/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 100 La mente, che qui luce, in terra fumma;
 101 onde riguarda come può là giùe
@@ -415,13 +441,13 @@ Please translate literally into English.
 <result>
 100 The mind, which shines here, smokes on earth;
 101 therefore consider how it can down there
-102 understand that which it could not because heaven assumes it”.
+102 grasp that which it could not because heaven exalts it”.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 103/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 103 Sì mi prescrisser le parole sue,
 104 ch’io lasciai la quistione e mi ritrassi
@@ -436,7 +462,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 106/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 106 «Tra ’ due liti d’Italia surgon sassi,
 107 e non molto distanti a la tua patria,
@@ -459,7 +485,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 112/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 112 Così ricominciommi il terzo sermo;
 113 e poi, continüando, disse: «Quivi
@@ -472,17 +498,17 @@ Please translate literally into English.
 <result>
 112 Thus the third spirit began again to speak to me;
 113 and then, continuing, he said: “There
-114 in the service of God he made me so steadfast,
+114 I made myself so steadfast in the service of God,
 
-115 that even with food of olive oil
-116 I passed through heat and cold lightly,
+115 that with only food of olive oil
+116 I passed through heat and cold with ease,
 117 content in contemplative thoughts.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 118/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 118 Render solea quel chiostro a questi cieli
 119 fertilemente; e ora è fatto vano,
@@ -497,7 +523,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 121/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 121 In quel loco fu’ io Pietro Damiano,
 122 e Pietro Peccator fu’ ne la casa
@@ -512,7 +538,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 124/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 124 Poca vita mortal m’era rimasa,
 125 quando fui chiesto e tratto a quel cappello,
@@ -527,7 +553,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 127/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 127 Venne Cefàs e venne il gran vasello
 128 de lo Spirito Santo, magri e scalzi,
@@ -542,7 +568,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 130/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 130 Or voglion quinci e quindi chi rincalzi
 131 li moderni pastori e chi li meni,
@@ -557,22 +583,22 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 133/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 133 Cuopron d’i manti loro i palafreni,
 134 sì che due bestie van sott’ una pelle:
 135 oh pazïenza che tanto sostieni!».
 </prompt>
 <result>
-133 They cover their palfreys with their cloaks,
+133 They cover their palfreys with their mantles,
 134 so that two beasts go under one skin:
-135 oh patience that endures so much!”.
+135 oh patience, that you endure so much!”.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 21] 136/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 136 A questa voce vid’ io più fiammelle
 137 di grado in grado scendere e girarsi,
@@ -587,7 +613,7 @@ Please translate literally into English.
 <query>
 <info>[Paradiso Canto 21] 139/142</info>
 <prompt>
-Please translate literally into English.
+Please translate each line literally into English.
 
 139 Dintorno a questa vennero e fermarsi,
 140 e fero un grido di sì alto suono,

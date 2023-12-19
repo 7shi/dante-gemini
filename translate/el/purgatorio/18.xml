@@ -2,7 +2,7 @@
 <query>
 <info>[Purgatorio Canto 18] 1/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 1 Posto avea fine al suo ragionamento
 2 l’alto dottore, e attento guardava
@@ -13,19 +13,19 @@ Please translate literally into Modern Greek.
 6 lo troppo dimandar ch’io fo li grava’.
 </prompt>
 <result>
-1 Ο λόγιος είχε τελειώσει την ομιλία του
-2 και με κοίταζε προσεκτικά
-3 για να δει αν ήμουν ευχαριστημένος.
+1 Όταν τελείωσε την ομιλία του
+2 ο υψηλός δάσκαλος, και με κοίταζε προσεκτικά
+3 στα μάτια μου για να δει αν ήμουν ευχαριστημένος.
 
-4 Εγώ, που με έτρωγε ακόμα η δίψα για γνώση,
-5 σιωπούσα εξωτερικά, αλλά μέσα μου έλεγα: «Ίσως
-6 τον κουράζω με τις πολλές ερωτήσεις που του κάνω».
+4 Και εγώ, που με κατέτρωγε ακόμα μια νέα δίψα,
+5 εξωτερικά σιωπούσα, και μέσα μου έλεγα: «Ίσως
+6 το να τον ρωτάω υπερβολικά τον βαραίνει».
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 7/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 7 Ma quel padre verace, che s’accorse
 8 del timido voler che non s’apriva,
@@ -33,14 +33,14 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 7 Αλλά εκείνος ο αληθινός πατέρας, που κατάλαβε
-8 την ντροπαλή επιθυμία που δεν εκφραζόταν,
+8 τη δειλή επιθυμία που δεν εκφραζόταν,
 9 μιλώντας, μου έδωσε το θάρρος να μιλήσω.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 10/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 10 Ond’ io: «Maestro, il mio veder s’avviva
 11 sì nel tuo lume, ch’io discerno chiaro
@@ -49,28 +49,28 @@ Please translate literally into Modern Greek.
 <result>
 10 Τότε εγώ: «Δάσκαλε, η όρασή μου ζωντανεύει
 11 τόσο στο φως σου, που διακρίνω καθαρά
-12 πόσο η λογική σου εξηγεί ή περιγράφει τα πράγματα.
+12 πόσο ο λόγος σου εξηγεί ή περιγράφει.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 13/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 13 Però ti prego, dolce padre caro,
 14 che mi dimostri amore, a cui reduci
 15 ogne buono operare e ’l suo contraro».
 </prompt>
 <result>
-13 Γι’ αυτό σε παρακαλώ, γλυκέ και αγαπητέ πατέρα,
-14 να μου δείξεις αγάπη, στην οποία οδηγείς
+13 Γι’ αυτό σε παρακαλώ, γλυκέ πατέρα αγαπητέ,
+14 να μου δείξεις την αγάπη, στην οποία οδηγείς
 15 κάθε καλή πράξη και το αντίθετό της.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 16/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 16 «Drizza», disse, «ver’ me l’agute luci
 17 de lo ’ntelletto, e fieti manifesto
@@ -78,29 +78,55 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 16 «Στρέψε», είπε, «προς εμένα τις οξυδερκείς ακτίνες
-17 της διάνοιάς σου, και θα σου φανερωθεί
+17 της διάνοιας, και θα σου φανερωθεί
 18 το σφάλμα των τυφλών που γίνονται οδηγοί.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 19/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 19 L’animo, ch’è creato ad amar presto,
 20 ad ogne cosa è mobile che piace,
 21 tosto che dal piacere in atto è desto.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "19 Η ψυχή, που είναι φτιαγμένη να αγαπάει γρήγορα,\n20 είναι ευάλωτη σε κάθε τι που της αρέσει,\n21 μόλις διεγερθεί από την απόλαυση στην πράξη."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-19 Η ψυχή, που είναι φτιαγμένη για να αγαπάει γρήγορα,
-20 είναι ευκίνητη σε κάθε τι που της αρέσει,
+19 Η ψυχή, που είναι φτιαγμένη να αγαπάει γρήγορα,
+20 είναι ευάλωτη σε κάθε τι που της αρέσει,
 21 μόλις διεγερθεί από την απόλαυση στην πράξη.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 22/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 22 Vostra apprensiva da esser verace
 23 tragge intenzione, e dentro a voi la spiega,
@@ -111,19 +137,19 @@ Please translate literally into Modern Greek.
 27 che per piacer di novo in voi si lega.
 </prompt>
 <result>
-22 Η αντιληπτική σας ικανότητα, για να είναι αληθινή,
+22 Η δεκτικότητά σας να είναι αληθινή
 23 αντλεί την πρόθεση και την εξηγεί μέσα σας,
-24 έτσι που κάνει την ψυχή να στρέφεται προς αυτήν.
+24 έτσι που την κάνει να στρέφει προς αυτήν την ψυχή.
 
-25 Και αν, στρεφόμενη, υποκλίνεται προς αυτήν,
-26 αυτή η υποκλιτικότητα είναι αγάπη, αυτή είναι η φύση
-27 που για την απόλαυση του καινούργιου συνδέεται μέσα σας.
+25 Και αν, στρεφόμενη, σκύψει προς αυτήν,
+26 αυτή η κλίση είναι αγάπη, αυτή είναι η φύση
+27 που για να ευχαριστηθεί από κάτι καινούργιο συνδέεται μαζί σας.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 28/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 28 Poi, come ’l foco movesi in altura
 29 per la sua forma ch’è nata a salire
@@ -135,8 +161,8 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 28 Έπειτα, όπως η φωτιά κινείται προς τα πάνω
-29 λόγω της μορφής της που είναι φτιαγμένη για να ανεβαίνει
-30 εκεί όπου η ύλη της είναι πιο πυκνή,
+29 λόγω της μορφής της που είναι φτιαγμένη να ανεβαίνει
+30 εκεί όπου η ύλη της είναι πιο ανθεκτική,
 
 31 έτσι και η ψυχή που έχει κυριευτεί μπαίνει στην επιθυμία,
 32 που είναι πνευματική κίνηση και ποτέ δεν ησυχάζει
@@ -146,7 +172,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 34/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 34 Or ti puote apparer quant’ è nascosa
 35 la veritate a la gente ch’avvera
@@ -157,11 +183,11 @@ Please translate literally into Modern Greek.
 39 è buono, ancor che buona sia la cera».
 </prompt>
 <result>
-34 Τώρα μπορείς να καταλάβεις πόσο κρυμμένη
+34 Τώρα μπορεί να σου φανεί πόσο κρυμμένη
 35 είναι η αλήθεια στους ανθρώπους που θεωρούν
-36 κάθε αγάπη ως κάτι επαινετό από μόνο του.
+36 κάθε αγάπη ως κάτι επαινετό από μόνη της.
 
-37 Επειδή ίσως φαίνεται η ύλη της
+37 Επειδή ίσως φαίνεται η ουσία της
 38 να είναι πάντα καλή, αλλά δεν είναι κάθε σημάδι
 39 καλό, ακόμα κι αν το κερί είναι καλό.
 </result>
@@ -169,7 +195,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 40/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 40 «Le tue parole e ’l mio seguace ingegno»,
 41 rispuos’ io lui, «m’hanno amor discoverto,
@@ -185,21 +211,21 @@ Please translate literally into Modern Greek.
 42 αλλά αυτό με γέμισε με περισσότερες αμφιβολίες.
 
 43 Επειδή, αν η αγάπη μας προσφέρεται απ’ έξω
-44 και η ψυχή δεν προχωράει με άλλο βήμα,
-45 δεν είναι δική της αξία αν πηγαίνει ίσια ή στραβά».
+44 και η ψυχή δεν βαδίζει με άλλο πόδι,
+45 δεν είναι δική της αξία αν βαδίζει ίσια ή στραβά».
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 46/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 46 Ed elli a me: «Quanto ragion qui vede,
 47 dir ti poss’ io; da indi in là t’aspetta
 48 pur a Beatrice, ch’è opra di fede.
 </prompt>
 <result>
-46 Και εκείνος σε μένα: «Όσα μπορεί να δει εδώ η λογική,
+46 Και εκείνος σε μένα: «Όσο η λογική βλέπει εδώ,
 47 μπορώ να σου πω. Από εκεί και πέρα, περίμενε
 48 μόνο τη Βεατρίκη, γιατί είναι έργο πίστης.
 </result>
@@ -207,7 +233,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 49/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 49 Ogne forma sustanzïal, che setta
 50 è da matera ed è con lei unita,
@@ -222,7 +248,7 @@ Please translate literally into Modern Greek.
 50 με την ύλη και είναι ενωμένη μαζί της,
 51 έχει συγκεντρωμένη μέσα της μια συγκεκριμένη αρετή,
 
-52 η οποία δεν γίνεται αντιληπτή χωρίς να δράσει,
+52 η οποία δεν γίνεται αντιληπτή χωρίς να ενεργεί,
 53 ούτε ποτέ δεν εκδηλώνεται παρά μόνο μέσω του αποτελέσματος,
 54 όπως η ζωή στο φυτό μέσω των πράσινων φύλλων.
 </result>
@@ -230,7 +256,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 55/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 55 Però, là onde vegna lo ’ntelletto
 56 de le prime notizie, omo non sape,
@@ -243,7 +269,7 @@ Please translate literally into Modern Greek.
 <result>
 55 Γι’ αυτό, από πού προέρχεται η διάνοια
 56 των πρώτων γνώσεων, ο άνθρωπος δεν ξέρει,
-57 και η αγάπη για τα πρώτα επιθυμητά,
+57 και η αγάπη των πρώτων επιθυμητών,
 
 58 που είναι μέσα σας όπως η προσπάθεια της μέλισσας
 59 να φτιάξει μέλι. Και αυτή η πρώτη επιθυμία
@@ -253,7 +279,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 61/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 61 Or perché a questa ogn’ altra si raccoglia,
 62 innata v’è la virtù che consiglia,
@@ -268,7 +294,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 64/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 64 Quest’ è ’l principio là onde si piglia
 65 ragion di meritare in voi, secondo
@@ -277,28 +303,28 @@ Please translate literally into Modern Greek.
 <result>
 64 Αυτή είναι η αρχή από την οποία λαμβάνεται
 65 ο λόγος για να αξίζετε, ανάλογα
-66 με το πώς δέχεστε και φυλάτε τις καλές και τις κακές αγάπες.
+66 με το πώς δέχεται και φυλάει τις καλές και κακές αγάπες.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 67/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 67 Color che ragionando andaro al fondo,
 68 s’accorser d’esta innata libertate;
 69 però moralità lasciaro al mondo.
 </prompt>
 <result>
-67 Όσοι με τη λογική τους έφτασαν στο βάθος,
+67 Όσοι με τη λογική έφτασαν στο βάθος,
 68 κατάλαβαν αυτή την έμφυτη ελευθερία.
-69 Γι’ αυτό άφησαν στον κόσμο την ηθική.
+69 Γι’ αυτό άφησαν την ηθική στον κόσμο.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 70/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 70 Onde, poniam che di necessitate
 71 surga ogne amor che dentro a voi s’accende,
@@ -307,28 +333,28 @@ Please translate literally into Modern Greek.
 <result>
 70 Έτσι, ας υποθέσουμε ότι από ανάγκη
 71 προκύπτει κάθε αγάπη που ανάβει μέσα σας,
-72 η εξουσία να τη συγκρατήσετε είναι δική σας.
+72 η εξουσία να την κρατήσετε είναι δική σας.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 73/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 73 La nobile virtù Beatrice intende
 74 per lo libero arbitrio, e però guarda
 75 che l’abbi a mente, s’a parlar ten prende».
 </prompt>
 <result>
-74 Η ευγενής αρετή που εννοεί η Βεατρίκη
-75 είναι η ελεύθερη βούληση. Γι’ αυτό πρόσεξε
-76 να την έχεις στο μυαλό σου, αν αναλάβεις να μιλήσεις.
+73 Η ευγενής αρετή που εννοεί η Βεατρίκη
+74 είναι η ελεύθερη βούληση, και γι’ αυτό πρόσεχε
+75 να την έχεις στο μυαλό σου, αν αναλάβεις να μιλήσεις.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 76/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 76 La luna, quasi a mezza notte tarda,
 77 facea le stelle a noi parer più rade,
@@ -341,17 +367,17 @@ Please translate literally into Modern Greek.
 <result>
 76 Το φεγγάρι, σχεδόν τα μεσάνυχτα αργά,
 77 έκανε τα αστέρια να μας φαίνονται πιο αραιά,
-78 φτιαγμένο σαν ένα κουβά που καίγεται συνέχεια.
+78 φτιαγμένο σαν ένα κουβά που καίει συνέχεια.
 
-79 Και έτρεχε αντίθετα στον ουρανό στους δρόμους
-80 που φλογίζει ο ήλιος όταν εκείνος από τη Ρώμη
+79 Και έτρεχε ενάντια στον ουρανό στους δρόμους
+80 που ο ήλιος φλογίζει όταν εκείνος από τη Ρώμη
 81 τον βλέπει να δύει ανάμεσα στους Σαρδηνούς και τους Κορσικανούς.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 82/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 82 E quell’ ombra gentil per cui si noma
 83 Pietola più che villa mantoana,
@@ -364,7 +390,7 @@ Please translate literally into Modern Greek.
 <result>
 82 Και εκείνη η ευγενική σκιά για την οποία ονομάζεται
 83 η Πιετόλα περισσότερο από πόλη της Μάντοβας,
-84 είχε αποθέσει το βάρος μου.
+84 είχε απαλλαγεί από το βάρος μου.
 
 85 Έτσι εγώ, που είχα συλλέξει τον ξεκάθαρο και απλό λόγο
 86 πάνω στις ερωτήσεις μου,
@@ -374,14 +400,14 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 88/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 88 Ma questa sonnolenza mi fu tolta
 89 subitamente da gente che dopo
 90 le nostre spalle a noi era già volta.
 </prompt>
 <result>
-88 Αλλά αυτή η υπνηλία μου διώχτηκε
+88 Αλλά αυτή η υπνηλία μου αφαιρέθηκε
 89 ξαφνικά από ανθρώπους που μετά
 90 είχαν ήδη γυρίσει τις πλάτες τους σε εμάς.
 </result>
@@ -389,7 +415,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 91/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 91 E quale Ismeno già vide e Asopo
 92 lungo di sè di notte furia e calca,
@@ -404,7 +430,7 @@ Please translate literally into Modern Greek.
 92 κατά μήκος τους τη νύχτα ορμή και πλήθος,
 93 μόνο και μόνο επειδή οι Θηβαίοι είχαν ανάγκη από τον Βάκχο,
 
-94 έτσι και σε εκείνο τον κύκλο του ο βηματισμός τους επιταχύνεται,
+94 έτσι και σε εκείνο τον κύκλο του ο βηματισμός του μειώνεται,
 95 για ό,τι είδα από αυτούς, καθώς έρχονταν,
 96 τους οποίους καβαλάει η καλή θέληση και ο δίκαιος έρωτας.
 </result>
@@ -412,7 +438,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 97/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 97 Tosto fur sovr’ a noi, perché correndo
 98 si movea tutta quella turba magna;
@@ -423,8 +449,8 @@ Please translate literally into Modern Greek.
 102 punse Marsilia e poi corse in Ispagna».
 </prompt>
 <result>
-97 Γρήγορα έφτασαν πάνω από εμάς, επειδή τρέχοντας
-98 κινούνταν όλο εκείνο το μεγάλο πλήθος.
+97 Γρήγορα έφτασαν πάνω μας, επειδή τρέχοντας
+98 κινούνταν όλο αυτό το μεγάλο πλήθος.
 99 Και δύο μπροστά φώναζαν κλαίγοντας:
 
 100 «Η Μαρία έτρεξε βιαστικά στο βουνό.
@@ -435,7 +461,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 103/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 103 «Ratto, ratto, che ’l tempo non si perda
 104 per poco amor», gridavan li altri appresso,
@@ -450,7 +476,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 106/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 106 «O gente in cui fervore aguto adesso
 107 ricompie forse negligenza e indugio
@@ -473,14 +499,14 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 112/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 112 Parole furon queste del mio duca;
 113 e un di quelli spirti disse: «Vieni
 114 di retro a noi, e troverai la buca.
 </prompt>
 <result>
-112 Αυτά ήταν τα λόγια του οδηγού μου.
+112 Αυτά ήταν τα λόγια του δάσκαλού μου.
 113 Και ένα από εκείνα τα πνεύματα είπε: «Έλα
 114 πίσω μας και θα βρεις το πέρασμα.
 </result>
@@ -488,7 +514,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 115/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 115 Noi siam di voglia a muoverci sì pieni,
 116 che restar non potem; però perdona,
@@ -497,28 +523,28 @@ Please translate literally into Modern Greek.
 <result>
 115 Είμαστε τόσο γεμάτοι από την επιθυμία να κινηθούμε,
 116 που δεν μπορούμε να μείνουμε. Γι’ αυτό συγχώρεσέ μας,
-117 αν θεωρείς αγένεια την δικαιοσύνη μας.
+117 αν θεωρείς αγένεια τη δικαιοσύνη μας.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 118/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 118 Io fui abate in San Zeno a Verona
 119 sotto lo ’mperio del buon Barbarossa,
 120 di cui dolente ancor Milan ragiona.
 </prompt>
 <result>
-118 Ήμουν ηγούμενος στο Σαν Ζένο της Βερόνας
+118 Ήμουν ηγούμενος στο Σαν Ζένο στη Βερόνα
 119 υπό την εξουσία του καλού Φρειδερίκου Βαρβαρόσσα,
-120 για τον οποίο το Μιλάνο ακόμα θρηνεί.
+120 για τον οποίο το Μιλάνο ακόμα μιλάει με θλίψη.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 121/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 121 E tale ha già l’un piè dentro la fossa,
 122 che tosto piangerà quel monastero,
@@ -541,7 +567,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 127/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 127 Io non so se più disse o s’ei si tacque,
 128 tant’ era già di là da noi trascorso;
@@ -549,14 +575,14 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 127 Δεν ξέρω αν είπε περισσότερα ή αν σώπασε,
-128 τόσο είχε ήδη προχωρήσει μακριά από εμάς.
+128 τόσο είχε ήδη περάσει μακριά μας.
 129 Αλλά αυτό το άκουσα και μου άρεσε να το θυμάμαι.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 130/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 130 E quei che m’era ad ogne uopo soccorso
 131 disse: «Volgiti qua: vedine due
@@ -571,7 +597,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 133/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 133 Di retro a tutti dicean: «Prima fue
 134 morta la gente a cui il mar s’aperse,
@@ -586,7 +612,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 136/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 136 E quella che l’affanno non sofferse
 137 fino a la fine col figlio d’Anchise,
@@ -601,7 +627,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Purgatorio Canto 18] 139/145</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 139 Poi quando fuor da noi tanto divise
 140 quell’ ombre, che veder più non potiersi,
@@ -619,8 +645,8 @@ Please translate literally into Modern Greek.
 141 μια νέα σκέψη μπήκε μέσα μου,
 
 142 από την οποία γεννήθηκαν και άλλες πολλές και διαφορετικές.
-143 Και τόσο παρασύρθηκα από τη μία στην άλλη,
-144 που έκλεισα τα μάτια μου από ευχαρίστηση,
+143 Και τόσο παραληρούσα από τη μία στην άλλη,
+144 που έκλεισα τα μάτια μου από επιθυμία,
 
 145 και μετέτρεψα τη σκέψη σε όνειρο.
 </result>

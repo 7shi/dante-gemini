@@ -2,7 +2,7 @@
 <query>
 <info>[Inferno Canto 7] 1/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 1 «Pape Satàn, pape Satàn aleppe!»,
 2 cominciò Pluto con la voce chioccia;
@@ -17,15 +17,15 @@ Please translate literally into Modern Greek.
 2 άρχισε ο Πλούτωνας με φωνή βραχνή.
 3 Και εκείνος ο σοφός ευγενής, που τα ήξερε όλα,
 
-4 είπε για να με παρηγορήσει: «Μην σε βλάψει
-5 ο φόβος σου, γιατί, όση δύναμη κι αν έχει,
+4 είπε για να με παρηγορήσει: «Μην σε φοβίζει
+5 ο φόβος σου. Γιατί, όση δύναμη κι αν έχει,
 6 δεν θα μας εμποδίσει να κατέβουμε αυτόν τον βράχο».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 7/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 7 Poi si rivolse a quella ’nfiata labbia,
 8 e disse: «Taci, maladetto lupo!
@@ -35,7 +35,7 @@ Please translate literally into Modern Greek.
 index: 0
 content {
   parts {
-    text: "7 Στη συνέχεια στράφηκε προς εκείνο το φουσκωμένο χείλος,\n8 και είπε: «Σώπα, καταραμένε λύκε!\n9 Καταβρόχθισε τον εαυτό σου με την οργή σου."
+    text: "7 Ύστερα στράφηκε σ’ εκείνο το φουσκωμένο στόμα,\n8 και είπε: «Σώπα, καταραμένε λύκε!\n9 Να καταναλωθείς από μέσα σου με την οργή σου."
   }
   role: "model"
 }
@@ -46,7 +46,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
+  probability: LOW
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
@@ -58,21 +58,21 @@ safety_ratings {
 }
 </error>
 <result>
-7 Στη συνέχεια στράφηκε προς εκείνο το φουσκωμένο χείλος,
+7 Ύστερα στράφηκε σ’ εκείνο το φουσκωμένο στόμα,
 8 και είπε: «Σώπα, καταραμένε λύκε!
-9 Καταβρόχθισε τον εαυτό σου με την οργή σου.
+9 Να καταναλωθείς από μέσα σου με την οργή σου.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 10/130</info>
 <prompt retry="true">
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 10 Non è sanza cagion l’andare al cupo:
 11 vuolsi ne l’alto, là dove Michele
 12 fé la vendetta del superbo strupo».
 </prompt>
-<error>
+<error result="true">
 index: 0
 finish_reason: SAFETY
 safety_ratings {
@@ -92,11 +92,16 @@ safety_ratings {
   probability: NEGLIGIBLE
 }
 </error>
+<result>
+10 Δεν είναι χωρίς λόγο το να πηγαίνεις στα βάθη:
+11 πρέπει να πας ψηλά, εκεί που ο Μιχαήλ
+12 εκδικήθηκε τον υπερήφανο βιασμό».
+</result>
 </query>
 <query>
 <info>[Inferno Canto 7] 13/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 13 Quali dal vento le gonfiate vele
 14 caggiono avvolte, poi che l’alber fiacca,
@@ -104,21 +109,21 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 13 Όπως τα φουσκωμένα πανιά από τον άνεμο
-14 πέφτουν τυλιγμένα, όταν σπάσει το κατάρτι,
-15 έτσι έπεσε στη γη το άγριο θηρίο.
+14 πέφτουν τυλιγμένα, όταν το κατάρτι σπάσει,
+15 έτσι έπεσε στο έδαφος το άγριο θηρίο.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 16/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 16 Così scendemmo ne la quarta lacca,
 17 pigliando più de la dolente ripa
 18 che ’l mal de l’universo tutto insacca.
 </prompt>
 <result>
-16 Έτσι κατεβήκαμε στον τέταρτο λάκκο,
+16 Έτσι κατεβήκαμε στην τέταρτη τάφρο,
 17 παίρνοντας περισσότερο από την οδυνηρή όχθη
 18 που περιέχει όλο το κακό του σύμπαντος.
 </result>
@@ -126,7 +131,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 7] 19/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 19 Ahi giustizia di Dio! tante chi stipa
 20 nove travaglie e pene quant’ io viddi?
@@ -139,17 +144,17 @@ Please translate literally into Modern Greek.
 <result>
 19 Αχ, δικαιοσύνη του Θεού! Πόσους στοιβαγμένους
 20 νέους κόπους και πόνους είδα;
-21 Και γιατί η δική μας ενοχή μας καταστρέφει έτσι;
+21 Και γιατί η ενοχή μας μας καταστρέφει τόσο;
 
 22 Όπως κάνει το κύμα εκεί πάνω από τη Χάρυβδη,
-23 που σπάει με εκείνο που συναντά,
-24 έτσι πρέπει να χορεύει εδώ ο κόσμος.
+23 που σπάει με αυτό που συναντά,
+24 έτσι πρέπει να στριφογυρίζει εδώ ο κόσμος.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 25/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 25 Qui vid’ i’ gente più ch’altrove troppa,
 26 e d’una parte e d’altra, con grand’ urli,
@@ -164,22 +169,22 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 7] 28/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 28 Percotëansi ’ncontro; e poscia pur lì
 29 si rivolgea ciascun, voltando a retro,
 30 gridando: «Perché tieni?» e «Perché burli?».
 </prompt>
 <result>
-28 Χτυπιούνται μεταξύ τους και μετά εκεί
-29 γυρίζει ο καθένας πίσω, γυρίζοντας πίσω,
+28 Χτυπιούνταν μεταξύ τους και μετά εκεί
+29 γυρνούσε ο καθένας πίσω,
 30 φωνάζοντας: «Γιατί κρατάς;» και «Γιατί κοροϊδεύεις;».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 31/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 31 Così tornavan per lo cerchio tetro
 32 da ogne mano a l’opposito punto,
@@ -193,14 +198,14 @@ Please translate literally into Modern Greek.
 32 από κάθε πλευρά στο αντίθετο σημείο,
 33 φωνάζοντας ο ένας στον άλλον με υβριστικά λόγια.
 
-34 Στη συνέχεια, ο καθένας γυρνούσε, όταν έφτανε,
+34 Μετά γύριζε ο καθένας, όταν έφτανε,
 35 από τη μέση του κύκλου του στην άλλη πάλη.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 36/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 36 E io, ch’avea lo cor quasi compunto,
 
@@ -212,13 +217,14 @@ Please translate literally into Modern Greek.
 36 Και εγώ, που είχα την καρδιά μου σχεδόν ραγισμένη,
 
 37 είπα: «Δάσκαλέ μου, τώρα δείξε μου
-38 ποιοι είναι αυτοί οι άνθρωποι και αν όλοι αυτοί οι κουρεμένοι στα αριστερά μας ήταν κληρικοί».
+38 ποιοι είναι αυτοί οι άνθρωποι και αν ήταν όλοι κληρικοί
+39 αυτοί οι κουρεμένοι στα αριστερά μας».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 40/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 40 Ed elli a me: «Tutti quanti fuor guerci
 41 sì de la mente in la vita primaia,
@@ -227,13 +233,13 @@ Please translate literally into Modern Greek.
 <result>
 40 Και εκείνος σε μένα: «Όλοι αυτοί ήταν τυφλοί
 41 στο μυαλό τους στην πρώτη ζωή,
-42 που με μέτρο κανένα δεν έκαναν έξοδα.
+42 που δεν έκαναν καμία δαπάνη με μέτρο.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 43/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 43 Assai la voce lor chiaro l’abbaia,
 44 quando vegnono a’ due punti del cerchio
@@ -242,13 +248,13 @@ Please translate literally into Modern Greek.
 <result>
 43 Η φωνή τους το φωνάζει πολύ καθαρά,
 44 όταν φτάνουν στα δύο σημεία του κύκλου
-45 όπου αντίθετη ενοχή τους χωρίζει.
+45 όπου η αντίθετη ενοχή τους χωρίζει.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 46/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 46 Questi fuor cherci, che non han coperchio
 47 piloso al capo, e papi e cardinali,
@@ -263,14 +269,14 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 7] 49/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 49 E io: «Maestro, tra questi cotali
 50 dovre’ io ben riconoscere alcuni
 51 che furo immondi di cotesti mali».
 </prompt>
 <result>
-49 Και εγώ: «Δάσκαλε, ανάμεσα σε αυτούς τους τέτοιους
+49 Και εγώ: «Δάσκαλε, ανάμεσα σε αυτούς τους ανθρώπους
 50 θα έπρεπε να αναγνωρίσω μερικούς
 51 που ήταν ακάθαρτοι από αυτά τα κακά».
 </result>
@@ -278,14 +284,14 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 7] 52/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 52 Ed elli a me: «Vano pensiero aduni:
 53 la sconoscente vita che i fé sozzi,
 54 ad ogne conoscenza or li fa bruni.
 </prompt>
 <result>
-52 Και εκείνος σε μένα: «Μάταιες σκέψεις μαζεύεις:
+52 Και εκείνος σε μένα: «Μάταιες σκέψεις κάνεις:
 53 η άγνωστη ζωή που τους έκανε βρώμικους,
 54 τους κάνει τώρα σκοτεινούς σε κάθε γνώση.
 </result>
@@ -293,7 +299,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 7] 55/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 55 In etterno verranno a li due cozzi:
 56 questi resurgeranno del sepulcro
@@ -302,13 +308,13 @@ Please translate literally into Modern Greek.
 <result>
 55 Θα έρχονται αιώνια στις δύο συγκρούσεις:
 56 αυτοί θα αναστηθούν από τον τάφο
-57 με σφιγμένη τη γροθιά και αυτοί με τα μαλλιά κομμένα.
+57 με τις γροθιές σφιγμένες και αυτοί με τα μαλλιά κομμένα.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 58/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 58 Mal dare e mal tener lo mondo pulcro
 59 ha tolto loro, e posti a questa zuffa:
@@ -316,14 +322,14 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 58 Το να δίνουν άσχημα και να κρατούν άσχημα τον κόσμο όμορφο
-59 τους έχει αφαιρέσει και τους έχει βάλει σε αυτή τη μάχη:
+59 τους έχει αφαιρέσει και τους έχει βάλει σε αυτή την πάλη:
 60 όποια και αν είναι, δεν στολίζουμε τα λόγια μας γι' αυτήν.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 61/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 61 Or puoi, figliuol, veder la corta buffa
 62 d’i ben che son commessi a la fortuna,
@@ -334,8 +340,8 @@ Please translate literally into Modern Greek.
 66 non poterebbe farne posare una».
 </prompt>
 <result>
-61 Τώρα, γιε μου, μπορείς να δεις τη σύντομη φάρσα
-62 των αγαθών που είναι ανατεθειμένα στη μοίρα,
+61 Τώρα, γιε μου, μπορείς να δεις την κοντή φάρσα
+62 των αγαθών που είναι ανατεθειμένα στην τύχη,
 63 για τα οποία οι άνθρωποι μαλώνουν μεταξύ τους.
 
 64 Γιατί όλος ο χρυσός που υπάρχει κάτω από το φεγγάρι
@@ -346,7 +352,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 7] 67/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 67 «Maestro mio», diss’ io, «or mi dì anche:
 68 questa fortuna di che tu mi tocche,
@@ -354,14 +360,14 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 67 «Δάσκαλέ μου», είπα, «τώρα πες μου και αυτό:
-68 αυτή η μοίρα για την οποία μου μιλάς,
-69 τι είναι, που έχει έτσι στα χέρια της τα αγαθά του κόσμου;».
+68 αυτή η τύχη για την οποία μου μιλάς,
+69 τι είναι, που έχει τα αγαθά του κόσμου στα νύχια της;».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 70/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 70 E quelli a me: «Oh creature sciocche,
 71 quanta ignoranza è quella che v’offende!
@@ -371,7 +377,7 @@ Please translate literally into Modern Greek.
 index: 0
 content {
   parts {
-    text: "70 Και εκείνος σε μένα: «Ω ανόητα πλάσματα,\n71 πόση άγνοια είναι αυτή που σας προσβάλλει!\n72 Τώρα θέλω να βάλεις στο στόμα σου την απόφασή μου."
+    text: "70 Και εκείνος σε μένα: «Ω ανόητα πλάσματα,\n71 πόση άγνοια είναι αυτή που σας προσβάλλει!\n72 Τώρα θέλω να βάλεις στο στόμα σου την κρίση μου."
   }
   role: "model"
 }
@@ -396,13 +402,13 @@ safety_ratings {
 <result>
 70 Και εκείνος σε μένα: «Ω ανόητα πλάσματα,
 71 πόση άγνοια είναι αυτή που σας προσβάλλει!
-72 Τώρα θέλω να βάλεις στο στόμα σου την απόφασή μου.
+72 Τώρα θέλω να βάλεις στο στόμα σου την κρίση μου.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 73/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 73 Colui lo cui saver tutto trascende,
 74 fece li cieli e diè lor chi conduce
@@ -412,16 +418,16 @@ Please translate literally into Modern Greek.
 </prompt>
 <result>
 73 Εκείνος του οποίου η γνώση τα υπερβαίνει όλα,
-74 έφτιαξε τους ουρανούς και τους έδωσε κάποιον να τους οδηγεί
-75 έτσι, ώστε κάθε μέρος να λάμπει σε κάθε μέρος,
+74 έφτιαξε τους ουρανούς και τους έδωσε κάποιον να τους οδηγεί,
+75 έτσι ώστε κάθε μέρος να λάμπει σε κάθε μέρος,
 
-76 μοιράζοντας το φως εξίσου.
+76 μοιράζοντας το φως ισότιμα.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 77/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 77 Similemente a li splendor mondani
 78 ordinò general ministra e duce
@@ -435,12 +441,12 @@ Please translate literally into Modern Greek.
 84 che è occulto come in erba l’angue.
 </prompt>
 <result>
-77 Παρομοίως για τις κοσμικές λαμπρότητες
-78 διόρισε γενική υπουργό και ηγέτη
+77 Παρομοίως για τις κοσμικές λάμψεις
+78 διόρισε γενική υπουργό και οδηγό,
 
-79 που να ανταλλάσσει έγκαιρα τα μάταια αγαθά
+79 που να αλλάζει έγκαιρα τα μάταια αγαθά
 80 από λαό σε λαό και από το ένα αίμα στο άλλο,
-81 πέρα από την υπεράσπιση των ανθρώπινων αισθήσεων.
+81 πέρα από την υπεράσπιση της ανθρώπινης λογικής.
 
 82 Γι' αυτό ο ένας λαός κυριαρχεί και ο άλλος μαραζώνει,
 83 ακολουθώντας την κρίση αυτής,
@@ -450,7 +456,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 7] 85/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 85 Vostro saver non ha contasto a lei:
 86 questa provede, giudica, e persegue
@@ -465,7 +471,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 7] 88/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 88 Le sue permutazion non hanno triegue:
 89 necessità la fa esser veloce;
@@ -480,7 +486,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 7] 91/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 91 Quest’ è colei ch’è tanto posta in croce
 92 pur da color che le dovrien dar lode,
@@ -491,9 +497,9 @@ Please translate literally into Modern Greek.
 96 volve sua spera e beata si gode.
 </prompt>
 <result>
-91 Αυτή είναι εκείνη που τόσο πολύ σταυρώνεται
+91 Αυτή είναι αυτή που τόσο πολύ σταυρώνεται
 92 ακριβώς από αυτούς που θα έπρεπε να την επαινούν,
-93 δίνοντάς της άδικα κατηγόριες και κακή φήμη.
+93 δίνοντάς της άδικα κατηγορίες και κακή φήμη.
 
 94 Αλλά αυτή είναι ευτυχισμένη και δεν το ακούει:
 95 χαρούμενη με τα άλλα πρώτα πλάσματα
@@ -503,7 +509,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 7] 97/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 97 Or discendiamo omai a maggior pieta;
 98 già ogne stella cade che saliva
@@ -512,13 +518,13 @@ Please translate literally into Modern Greek.
 <result>
 97 Τώρα ας κατεβούμε πια σε μεγαλύτερη συμπόνια.
 98 Ήδη πέφτει κάθε αστέρι που ανέβαινε
-99 όταν ξεκίνησα, και απαγορεύεται να μείνουμε πολύ».
+99 όταν ξεκίνησα, και απαγορεύεται να μείνω πολύ».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 100/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 100 Noi ricidemmo il cerchio a l’altra riva
 101 sovr’ una fonte che bolle e riversa
@@ -527,13 +533,13 @@ Please translate literally into Modern Greek.
 <result>
 100 Διασχίσαμε τον κύκλο στην άλλη όχθη
 101 πάνω από μια πηγή που βράζει και χύνεται
-102 μέσα από ένα χαντάκι που πηγάζει από αυτήν.
+102 σε ένα χαντάκι που πηγάζει από αυτήν.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 103/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 103 L’acqua era buia assai più che persa;
 104 e noi, in compagnia de l’onde bige,
@@ -542,13 +548,13 @@ Please translate literally into Modern Greek.
 <result>
 103 Το νερό ήταν πολύ πιο σκοτεινό από το χαμένο.
 104 Και εμείς, μαζί με τα γκρίζα κύματα,
-105 μπήκαμε κάτω από ένα διαφορετικό δρόμο.
+105 μπήκαμε κάτω από έναν διαφορετικό δρόμο.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 106/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 106 In la palude va c’ha nome Stige
 107 questo tristo ruscel, quand’ è disceso
@@ -557,28 +563,28 @@ Please translate literally into Modern Greek.
 <result>
 106 Στον βάλτο που ονομάζεται Στύγα
 107 πηγαίνει αυτό το θλιβερό ρυάκι, όταν κατεβαίνει
-108 στους πρόποδες των κακών γκρίζων ακτών.
+108 στους πρόποδες των κακών γκρίζων πλαγιών.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 109/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 109 E io, che di mirare stava inteso,
 110 vidi genti fangose in quel pantano,
 111 ignude tutte, con sembiante offeso.
 </prompt>
 <result>
-109 Και εγώ, που ήμουν προσηλωμένος στο να κοιτάζω,
+109 Και εγώ, που στεκόμουν προσηλωμένος στο να κοιτάζω,
 110 είδα λασπωμένους ανθρώπους σε εκείνο τον βάλτο,
-111 όλους γυμνούς, με προσβεβλημένη όψη.
+111 όλοι γυμνοί, με προσβεβλημένη όψη.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 112/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 112 Queste si percotean non pur con mano,
 113 ma con la testa e col petto e coi piedi,
@@ -588,7 +594,7 @@ Please translate literally into Modern Greek.
 index: 0
 content {
   parts {
-    text: "112 Αυτοί χτυπιούνται όχι μόνο με τα χέρια τους,\n113 αλλά και με το κεφάλι, το στήθος και τα πόδια τους,\n114 κόβοντας τον εαυτό τους με τα δόντια τους σε κομμάτια."
+    text: "112 Αυτοί χτυπιούνται όχι μόνο με τα χέρια τους,\n113 αλλά και με το κεφάλι, το στήθος και τα πόδια τους,\n114 κόβοντας ο ένας τον άλλον με τα δόντια τους σε κομμάτια."
   }
   role: "model"
 }
@@ -599,7 +605,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
+  probability: LOW
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
@@ -613,13 +619,13 @@ safety_ratings {
 <result>
 112 Αυτοί χτυπιούνται όχι μόνο με τα χέρια τους,
 113 αλλά και με το κεφάλι, το στήθος και τα πόδια τους,
-114 κόβοντας τον εαυτό τους με τα δόντια τους σε κομμάτια.
+114 κόβοντας ο ένας τον άλλον με τα δόντια τους σε κομμάτια.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 115/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 115 Lo buon maestro disse: «Figlio, or vedi
 116 l’anime di color cui vinse l’ira;
@@ -636,13 +642,13 @@ Please translate literally into Modern Greek.
 
 118 ότι κάτω από το νερό υπάρχουν άνθρωποι που στενάζουν,
 119 και κάνουν αυτό το νερό να αναβλύζει στην επιφάνεια,
-120 όπως σου λέει το μάτι σου, όπου κινείται».
+120 όπως σου λέει το μάτι σου, όπου και αν κοιτάζει».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 121/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 121 Fitti nel limo dicon: “Tristi fummo
 122 ne l’aere dolce che dal sol s’allegra,
@@ -653,7 +659,7 @@ Please translate literally into Modern Greek.
 <result>
 121 Βυθισμένοι στη λάσπη λένε: «Δυστυχισμένοι ήμασταν
 122 στον γλυκό αέρα που χαίρεται από τον ήλιο,
-123 κουβαλώντας μέσα μας καπνό οργής:
+123 κουβαλώντας μέσα μας κακόβουλο καπνό:
 
 124 τώρα λυπούμαστε στη μαύρη λάσπη».
 </result>
@@ -661,7 +667,7 @@ Please translate literally into Modern Greek.
 <query>
 <info>[Inferno Canto 7] 125/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 125 Quest’ inno si gorgoglian ne la strozza,
 126 ché dir nol posson con parola integra».
@@ -676,13 +682,13 @@ Please translate literally into Modern Greek.
 
 127 Έτσι γυρίσαμε από τη βρώμικη λίμνη
 128 ένα μεγάλο τόξο ανάμεσα στην ξηρή όχθη και το μέσο,
-129 με τα μάτια στραμμένα σε εκείνους που πνίγονται στη λάσπη.
+129 με τα μάτια στραμμένα σε εκείνους που καταπίνουν τη λάσπη.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 130/130</info>
 <prompt>
-Please translate literally into Modern Greek.
+Please translate each line literally into Modern Greek.
 
 130 Venimmo al piè d’una torre al da sezzo.
 </prompt>
