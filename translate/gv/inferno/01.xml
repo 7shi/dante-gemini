@@ -2,7 +2,7 @@
 <query>
 <info>[Inferno Canto 1] 1/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 1 Nel mezzo del cammin di nostra vita
 2 mi ritrovai per una selva oscura,
@@ -17,7 +17,7 @@ Please translate literally into Manx.
 <query>
 <info>[Inferno Canto 1] 4/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 4 Ahi quanto a dir qual era è cosa dura
 5 esta selva selvaggia e aspra e forte
@@ -29,33 +29,33 @@ Please translate literally into Manx.
 </prompt>
 <result>
 4 Aynsagh, cre'n erbee dy ghra myr shen!
-5 Yn asagh shen, feamagh as doillee ascreoi,
+5 Ynasagh shen, feamagh as doillee as creoi,
 6 Tacur my chree er-ash dy row!
 
 7 Sheerbeesh en dy velnys 'trosheynabaase;
 8 Agh ersondy ghrajeh'n vieys ta mee erchosney,
-9 Gheearey-ms dy red elley ta mee er vakin.
+9 Gheearey-ms dyre delley ta mee er vakin.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 10/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 10 Io non so ben ridir com’ i’ v’intrai,
 11 tant’ era pien di sonno a quel punto
 12 che la verace via abbandonai.
 </prompt>
 <result>
-10 Cha nel mee hassoo dy ghra myr haink mee stiagh,
-11 Va mee chree cha leah er cadley ec y traa shen
-12 Dy jagh mee raad firrinagh er y laue.
+10 Cha nel mee hassoo dy jarrood cre'n erbee mychione dy vaik rish,
+11 Shegin dooinney dy cadley va mee ec y traa shen
+12 Dy vel mee yn raad firrinagh.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 13/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 13 Ma poi ch’i’ fui al piè d’un colle giunto,
 14 là dove terminava quella valle
@@ -66,19 +66,19 @@ Please translate literally into Manx.
 18 che mena dritto altrui per ogne calle.
 </prompt>
 <result>
-13 Agh tra lurg shen, tra hooar mee mee hene ec bun y chronk,
-14 Ayns y raad va'n glean shen çheet er e jerrey,
-15 Va'n glen va cur my chree lesh aggle.
+13 Agh tra lurg shen, tra hooar mee mee hene ec bun y clieau,
+14 raad va'n glean shen çheet er e jerrey,
+15 va'n glean va mee chree lhieeney lesh aggle.
 
 16 Yeeagh mee seose as honnick mee e ghuallianyn
-17 Currit foast lesh geayltyn y ghrian
-18 Ta stiurey deiney er nyn raad dy firrinagh.
+17 foastrit magh lesh giareynyn y ghrian
+18 t'eh stiurey deiney dy kiart er dagh raad.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 19/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 19 Allor fu la paura un poco queta,
 20 che nel lago del cor m’era durata
@@ -86,14 +86,14 @@ Please translate literally into Manx.
 </prompt>
 <result>
 19 Eisht va'n aggle soit çheet dy beaggan,
-20 Va'n aggle va'n aalin 'sy chree aym
-21 Yn oie va mee goll er ny hassoo lesh shen.
+20 va va mee chree lhieeney rish y nahgh
+21 y nahgh shen va mee çheet trooid lesh ymmodee chymmey.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 22/136</info>
-<prompt>
-Please translate literally into Manx.
+<prompt retry="true">
+Please translate each line literally into Manx.
 
 22 E come quei che con lena affannata,
 23 uscito fuor del pelago a la riva,
@@ -103,35 +103,55 @@ Please translate literally into Manx.
 26 si volse a retro a rimirar lo passo
 27 che non lasciò già mai persona viva.
 </prompt>
+<error result="true">
+index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-22 As myr fer ta goll er yn aal lesh strughid,
-23 Ta çheet ass y cheayn dy liooar er y traie,
-24 Ta cur magh er yn ushtey chynnagh as ta jeeaghyn,
+22 Asy'n fer enney lesh anaase aalin,
+23 Erreish ass y cheayn gys y traie,
+24 Jean eh hionnaghey er y ushtey gaase as geaysh,
 
-25 Myr shen va m'annym, va foast er e jeeayrt,
-26 Va currit er e cheeill dy yeeaghyn er y raad
-27 Nagh daaghee rieau dooinney bio.
+25 Myr shen va my chree, va foast er echey,
+26 Hie er-ash dys y raad va'n raad shen
+27 Nagh vel ayn dooinney bio erbee erbee er lhieh.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 28/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 28 Poi ch’èi posato un poco il corpo lasso,
 29 ripresi via per la piaggia diserta,
 30 sì che ’l piè fermo sempre era ’l più basso.
 </prompt>
 <result>
-28 Lurg dy ren mee my chorp shassoo dy beaggan,
-29 Hie mee er my raad reesht er y traie aarloo,
-30 Myr shen dy row my chass share er y thalloo.
+28 Erreish my hassoo yn beag my chorp shass,
+29 Hie mee er-ash trooid y traie feamagh,
+30 Myr shen va'n cass thie jeeragh dy kinjagh.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 31/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 31 Ed ecco, quasi al cominciar de l’erta,
 32 una lonza leggera e presta molto,
@@ -142,19 +162,19 @@ Please translate literally into Manx.
 36 ch’i’ fui per ritornar più volte vòlto.
 </prompt>
 <result>
-31 As eisht, myrgeddin ec toshiaght y raad seose,
-32 Va longey çhiass as tappee dy liooar,
-33 Va coodit lesh bleaystyn spyrrydit;
+31 As, jeeagh, myrgeddin ec y raad dy heet,
+32 Un lhong dooghy, çhiass as feer tappee,
+33 Va'n eaddagh breck er e hooill;
 
-34 As cha jagh ee mee er y raad,
-35 Agh ren ee my raad dy çhiass,
-36 Myr shen dy row mee er my raad dy hyndaa dy mennick.
+34 As cha row ee faagail my enney,
+35 Agh va gee ee red er my raad,
+36 Myr shen va mee er-çheu dy hyndaa dy liooar.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 37/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 37 Temp’ era dal principio del mattino,
 38 e ’l sol montava ’n sù con quelle stelle
@@ -170,37 +190,37 @@ Please translate literally into Manx.
 </prompt>
 <result>
 37 Va'n traa ec toshiaght y laa,
-38 As va'n ghrian çheet seose marish ny rollageyn
-39 Va marish ec y traa va'n graih jeeragh
+38 As va'n ghrian er-jerrey lesh ny rollageyn shen
+39 Va marish ec y traa va graih Jee
 
-40 Dy chroo ny redyn aalin shen er y chied laa;
-41 Myr shen dy row mee er my aght dy ve er ennagh
-42 Mychione y beisht lesh y chrackan aalin
+40 Er ny h-obbraghey ec y toshiaght ny redyn aalin shen;
+41 Myr shen va mee er-çheu dy ve er-çheu dy aashagh
+42 Ayns y chione shen lesh y chrackan glass
 
-43 Yn oor jeh'n traa as y imbagh aalin;
-44 Agh cha row eh myr shen nagh jinnagh aggle dou
-45 Ec y raad ta jeeagh mee jeh lhione.
+43 Traa yn imbagh as y imbil aalin;
+44 Agh cha nee myr shen nagh jinnagh aggle orrym
+45 Ec y raad shoh my haink er my enney.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 46/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 46 Questi parea che contra me venisse
 47 con la test’ alta e con rabbiosa fame,
 48 sì che parea che l’aere ne tremesse.
 </prompt>
 <result>
-46 Va shen cosoylagh dy row eh çheet my raad
-47 Marish e chione er yrjid as marish accan dy liooar,
-48 Myr shen dy row eh cosoylagh dy row yn aer çheet er e chreesh.
+46 Va'n fer shen er-çheu dy heet orrym
+47 Marish y chione er-jerrey as accan feer gharroo,
+48 Myr shen va'n aer er-çheu dy chraa.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 49/136</info>
-<prompt>
-Please translate literally into Manx.
+<prompt retry="true">
+Please translate each line literally into Manx.
 
 49 Ed una lupa, che di tutte brame
 50 sembiava carca ne la sua magrezza,
@@ -210,20 +230,23 @@ Please translate literally into Manx.
 53 con la paura ch’uscia di sua vista,
 54 ch’io perdei la speranza de l’altezza.
 </prompt>
+<error result="true">
+Response too long: 4769
+</error>
 <result>
-49 As va lhione, va cosoylagh dy row ee lane lesh dy chooid,
-50 Ayns e meeaghey,
-51 As va mooinjer veih e chied laa er nyn goll,
+49 Ashoh, ashoon, vaaish vagh erbee,
+50 Vaarey lhieen rish y chree er-ash dy brastyl,
+51 Ashoh, t'er ny smoo dy velgey erbee,
 
-52 Ren ee shen cur dou ymmodee trimshey
-53 Marish yn aggle va çheet ass e raad,
-54 Myr shen dy jagh mee my hengey jeh'n yrjid.
+52 Hug eh my chree rish e aggle
+53 Vagh vaink eh ass e sooillyn,
+54 Ashoh, hug mee er-ash dy ve er-ash dy gholl.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 55/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 55 E qual è quei che volontieri acquista,
 56 e giugne ’l tempo che perder lo face,
@@ -234,68 +257,64 @@ Please translate literally into Manx.
 60 mi ripigneva là dove ’l sol tace.
 </prompt>
 <result>
-55 As cosoylagh rish y fer ta coyrlaghey dy mie,
-56 As ta'n traa çheet dy vel eh eh colliud,
-57 Ta geayrt ayns ooilley e chiaraghyn as ta bront,
+55 Ashoh, myr ta myr shen ta coinaghtyn dy mie,
+56 Ashoh, as ta’n traa er jeet dy vel eh,
+57 Ashoh, ta’n fer shen goaill stiagh as brishey e chree;
 
-58 Myr shen ren y beisht gyn shee dou,
-59 Va çheet my raad, as dy beaggan dy beaggan
-60 Va cur mee er ash reesht raad nagh vel y ghrian soilshey.
+58 Myr shen hug y beisht shen my chree dy vel,
+59 Ashoh, myr haink eh my hiaccys, beagyn-beagyn,
+60 Hug eh my reesht gys y raad nagh vel y ghrian dy gheddyn.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 61/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 61 Mentre ch’i’ rovinava in basso loco,
 62 dinanzi a li occhi mi si fu offerto
 63 chi per lungo silenzio parea fioco.
 </prompt>
 <result>
-61 Tra va mee tuittym sheese dy liooar,
-62 Va fer er ny hoilsyn aym
-63 Va cosoylagh dy row eh çheet er e chree lesh y raad va mee er nyn goll.
+61 Myr vaink mee sheese gys ynnyd injil,
+62 Haink fer my hiaccys, ashoh, vaarey va dooghyssit,
+63 Ashoh, myr vaarey va er-ash dy loayrt er son traa foddey.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 64/136</info>
-<prompt retry="true">
-Please translate literally into Manx.
+<prompt>
+Please translate each line literally into Manx.
 
 64 Quando vidi costui nel gran diserto,
 65 «Miserere di me», gridai a lui,
 66 «qual che tu sii, od ombra od omo certo!».
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-</error>
 <result>
-64 Tra ren mee eh 'sy çheet ayns y çhonnaghey mooar,
-65 "Myrran orrym", ghreeg mee rish,
-66 "Cre'n erriu, edyr scadoo ny deiney firrinagh!".
+64 Myr honnick mee eh 'sy çheet dy vel,
+65 «Myrree orrym», ghreeg mee huggey,
+66 «Cre'er erbee oo, boddagh ny dooinney dy firrinagh!».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 67/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 67 Rispuosemi: «Non omo, omo già fui,
 68 e li parenti miei furon lombardi,
 69 mantoani per patrïa ambedui.
 </prompt>
 <result>
-67 Doort eh rhym: "Cha nel mee deiney, deiney va mee,
-68 As va mee ayr as my voir Lombardaagh,
-69 As va shin dy jeeragh ass Mantova nyn-bee."
+67 Doort eh rhym: «Cha nel mee dooinney, va mee dooinney kied,
+68 Ashoh, va my ayr as my voir Lombardaagh,
+69 Ashoh, va ad nyn ghooie hene Mantovanee».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 70/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 70 Nacqui sub Iulio, ancor che fosse tardi,
 71 e vissi a Roma sotto ’l buono Augusto
@@ -303,74 +322,74 @@ Please translate literally into Manx.
 </prompt>
 <result>
 70 Ruggyms fo Iulius, ga dy row eh jeianagh,
-71 As va mee cummal ayns Rome fo'n Augustus mie,
-72 Ayns traa ny jiaghyn breagagh as y vaght feallagh.
+71 Ashoh, va mee cummal ayns Rome fo’n Augustus mie,
+72 Ayns traa ny jeeghyn breagagh as ny lhiabbaghyn.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 73/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 73 Poeta fui, e cantai di quel giusto
 74 figliuol d’Anchise che venne di Troia,
 75 poi che ’l superbo Ilïón fu combusto.
 </prompt>
 <result>
-73 Va mee ny vardagh, as ren mee goaill rish y fer coir,
-74 Mac Ankhises, haink veih Troia,
-75 Lurg dy row yn Ilïón mooar losht.
+73 Va mee ny vardagh, as ren mee arrane er y fer coir,
+74 Mac Anchise, vaink eh ass Troia,
+75 Lurg dy row yn Ilïón mooar lostey.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 76/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 76 Ma tu perché ritorni a tanta noia?
 77 perché non sali il dilettoso monte
 78 ch’è principio e cagion di tutta gioia?».
 </prompt>
 <result>
-76 Agh kys t'ou çheet erash dy chooilley neu-aigney?
-77 Kys nagh vel oo shirrey yn slieau taitnysoil
-78 T'eh toshiaght as bun-oaylleeaght dagh ooashley?".
+76 Agh cre'n fa dy vel oo reesht gys y chreeaght shen?
+77 Cre'n fa nagh vel oo goll seose er y slieau taitnyssagh,
+78 T'eh toshiaght as bunnys dagh ooilley boggey?».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 79/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 79 «Or se’ tu quel Virgilio e quella fonte
 80 che spandi di parlar sì largo fiume?»,
 81 rispuos’ io lui con vergognosa fronte.
 </prompt>
 <result>
-79 "Vel oo shen yn Virgil shen as y tobar shen
-80 T'eh skeaylley awin choh liauyr jeh goan?
-81" doort mee rish, my eddin lhieent lesh nearey.
+79 «Vel oo shen y Virgil shen as y tobar shen,
+80 Ta cur magh awin cho lieh dy loayrt?»,
+81 Doort mee huggey lesh eddin mygeayrt.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 82/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 82 «O de li altri poeti onore e lume,
 83 vagliami ’l lungo studio e ’l grande amore
 84 che m’ha fatto cercar lo tuo volume.
 </prompt>
 <result>
-82 "O enmys y vardee as soilshey jeh ny bardyn elley,
-83 Cur-my-ner my oayllys liauyr as my ghaue mooar
-84 Ta mee er chur dy yannoo shirrey jeh dty lioar.
+82 «O onnor as soilshey da ny bardaghyn elley,
+83 Lhig da’n studeyrys liauyr as y ghaue mooar,
+84 Ta’n er n’yannoo dy hirrey er dty lioar.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 85/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 85 Tu se’ lo mio maestro e ’l mio autore,
 86 tu se’ solo colui da cu’ io tolsi
@@ -380,14 +399,14 @@ Please translate literally into Manx.
 index: 0
 content {
   parts {
-    text: "85 T\'ou my ynseyder as my screeudeyr,\n86 T\'ou yn fer ayninnagh veih quoi\'s ghow mee\n87 Yn çhengey aalin ta er chur enmys orrym."
+    text: "85 Oo ta my ynseyder as my screeudeyr,\n86 Oo ta yn fer ayninnagh va mee goaill eie jeh,\n87 Y stoyl aalin ta’n er n’yannoo onnor dou."
   }
   role: "model"
 }
 finish_reason: SAFETY
 safety_ratings {
   category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
+  probability: HIGH
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
@@ -403,30 +422,30 @@ safety_ratings {
 }
 </error>
 <result>
-85 T'ou my ynseyder as my screeudeyr,
-86 T'ou yn fer ayninnagh veih quoi's ghow mee
-87 Yn çhengey aalin ta er chur enmys orrym.
+85 Oo ta my ynseyder as my screeudeyr,
+86 Oo ta yn fer ayninnagh va mee goaill eie jeh,
+87 Y stoyl aalin ta’n er n’yannoo onnor dou.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 88/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 88 Vedi la bestia per cu’ io mi volsi;
 89 aiutami da lei, famoso saggio,
 90 ch’ella mi fa tremar le vene e i polsi».
 </prompt>
 <result>
-88 "Jeeagh er y beisht er son dy vel mee er-haghney;
-89 Cooin mee veih, oo ard-ocklagh enmyssagh,
-90 Er e jannoo my chleayney as my lhiattaghyn cryssagh."
+88 Jean feyshtyn rish y beisht va mee er n’yannoo chyndaa;
+89 Cooin mee veih, o ghooinney creeney ennoil,
+90 Ta mee craa as my lhiattaghyn dy chree er-ash.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 91/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 91 «A te convien tenere altro vïaggio»,
 92 rispuose, poi che lagrimar mi vide,
@@ -444,7 +463,7 @@ Please translate literally into Manx.
 index: 0
 content {
   parts {
-    text: "91 \"Shegin ort goaill raad elley,\"\n92 doort eh, lurg dy vaik eh mee geayrt,\n93 \"My ta dty aigney dy scapail ass y çhyndaa çhonnaghey shoh;\n\n94 Son y beisht shoh, t\'ou geamagh er e son,\n95 Cha lhig eh da deiney elley goll tessen y raad echey,\n96 Agh t\'eh cur orroo choh mooar dy vel eh dy varroo;\n\n97 As ta e chymmey choh olk as choh mee-chrauee,\n98 Nagh vel eh rieau lhieeney e yannoo;\n99 As lurg y vea, t\'eh ny s\'ocree na roish.\""
+    text: "91 «Ta feme dy gholl raad elley»,\n92 Doort eh, lurg dy honnick eh mee geayrt,\n93 «My ta oo aagail dy scapail ass y çheet dy vel shen;\n\n94 Son y beisht shen, t’ou geamagh er,\n95 Cha lhig ee dooinney elley dy gholl t’ee raad,\n96 Agh ta ee cur sheese eh as dy choyrt eh gy baase;\n\n97 As ta cree er-ash cho olk as cho mee-chrauee,\n98 Nagh vel ee rieau dy lhieeney e shennaghys,\n99 As lurg y bee, ta ny smoo shennaghys eck na roish»."
   }
   role: "model"
 }
@@ -459,7 +478,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
+  probability: LOW
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -467,83 +486,83 @@ safety_ratings {
 }
 </error>
 <result>
-91 "Shegin ort goaill raad elley,"
-92 doort eh, lurg dy vaik eh mee geayrt,
-93 "My ta dty aigney dy scapail ass y çhyndaa çhonnaghey shoh;
+91 «Ta feme dy gholl raad elley»,
+92 Doort eh, lurg dy honnick eh mee geayrt,
+93 «My ta oo aagail dy scapail ass y çheet dy vel shen;
 
-94 Son y beisht shoh, t'ou geamagh er e son,
-95 Cha lhig eh da deiney elley goll tessen y raad echey,
-96 Agh t'eh cur orroo choh mooar dy vel eh dy varroo;
+94 Son y beisht shen, t’ou geamagh er,
+95 Cha lhig ee dooinney elley dy gholl t’ee raad,
+96 Agh ta ee cur sheese eh as dy choyrt eh gy baase;
 
-97 As ta e chymmey choh olk as choh mee-chrauee,
-98 Nagh vel eh rieau lhieeney e yannoo;
-99 As lurg y vea, t'eh ny s'ocree na roish."
+97 As ta cree er-ash cho olk as cho mee-chrauee,
+98 Nagh vel ee rieau dy lhieeney e shennaghys,
+99 As lurg y bee, ta ny smoo shennaghys eck na roish».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 100/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 100 Molti son li animali a cui s’ammoglia,
 101 e più saranno ancora, infin che ’l veltro
 102 verrà, che la farà morir con doglia.
 </prompt>
 <result>
-100 S'cosoylagh eh rish ymmodee beishtyn,
-101 As bee ymmodee elley foast, derrey yn veltro
-102 Haink, as bee eh currit eh dys baase lesh pian.
+100 Ta ymmodee beishtyn ry hoiaghey rish,
+101 Ashoh, bee ny smoo foast, derrey hig y veltro,
+102 Ashoh, nee eh ee dy baase lesh pian.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 103/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 103 Questi non ciberà terra né peltro,
 104 ma sapïenza, amore e virtute,
 105 e sua nazion sarà tra feltro e feltro.
 </prompt>
 <result>
-103 Cha bee eh gee thalloo ny argid,
-104 Agh tushtey, graih as mie-churrym,
-105 As bee e chynney eddyr feltro as feltro.
+103 Cha bee eh gee eirinee ny argid,
+104 Agh creeneydys, graih as mie-churrym,
+105 Ashoh, bee e ashoon eddyr feltro as feltro.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 106/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 106 Di quella umile Italia fia salute
 107 per cui morì la vergine Cammilla,
 108 Eurialo e Turno e Niso di ferute.
 </prompt>
 <result>
-106 Veih'n Iddaal eeasleenagh shen bee yn slaynt
-107 Er son dy hooar y vooinjer Camilla baase,
-108 As Eurialo as Turnus as Niso liorish goartyn.
+106 Vees eh yn slayntys da’n Iddaal injil shen,
+107 Va’n moir Cammilla er n’yiool er e son,
+108 Ashoh, va Eurialo as Turno as Niso er nyn ngortey.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 109/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 109 Questi la caccerà per ogne villa,
 110 fin che l’avrà rimessa ne lo ’nferno,
 111 là onde ’nvidia prima dipartilla.
 </prompt>
 <result>
-109 Bee eh currit eh trooid dagh balley,
-110 Derrey vees eh er chur erash stiagh ayns yn Ifarn,
-111 Ynnyd raad hooar yn anveaghys e chied er-haghney.
+109 Nee eh ee dy shelg ayns dagh balley,
+110 Derrey nee eh currit ee reesht gys yn Ifarn,
+111 Ynnyd va’n doilleeaght er n’yiool dy chur ee ersooyl.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 112/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 112 Ond’ io per lo tuo me’ penso e discerno
 113 che tu mi segui, e io sarò tua guida,
@@ -558,23 +577,23 @@ Please translate literally into Manx.
 120 quando che sia a le beate genti.
 </prompt>
 <result>
-112 Agh er son dty vie, ta mee smooinaghtyn as toiggal
-113 Dy vel oo er my eiyrt, as bee'm dty leeideyr,
-114 As troggam oo veih shoh trooid ynnyd shassooil;
+112 Ashoh, ta mee smooinaghtyn as ta mee er n’yannoo soilshaghey er dty hon,
+113 Dy vel oo my hiaccys, ashoh, bee’m dty leeideyr,
+114 Ashoh, nee’m dy chur ort veih shoh trooid ynnyd shassooagh;
 
-115 Raad nee oo clashtyn ny geamaghyn anveagh,
-116 As nee oo fakin ny spyrrydyn shenn doillee,
-117 Ta dagh fer jeu geamagh er y nah vaynt;
+115 Raad nagh vel oo clashtyn ny geamaghyn dy aghin,
+116 Raad nagh vel oo fakin ny spyrrydyn shenn dy chreeaghyn,
+117 Raad ta dagh fer dy geamagh er y nah vaynt;
 
-118 As nee oo fakin ny h-ynnyn ta sooilley
-119 Ayns y aile, er-yn-oyr dy vel ad nyn ghoill
-120 Dy heet, tra ta'n traa çheet, lesh ny sleih bannee.
+118 Ashoh, raad nagh vel oo fakin ny ta boggoil
+119 Ayns y aile, er-yn-oyr dy vel nyn ghoill dy heet
+120 Traa erbee gys ny sleih vannee.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 121/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 121 A le quai poi se tu vorrai salire,
 122 anima fia a ciò più di me degna:
@@ -585,34 +604,34 @@ Please translate literally into Manx.
 126 non vuol che ’n sua città per me si vegna.
 </prompt>
 <result>
-121 As my smooinee oo er n'gholl seose,
-122 Bee ayn spyrryd ny s'odjey nagh mee:
-123 Bee'm faagail oo echey tra ta mee er my gholl;
+121 Ashoh, my nee oo aarloo goll seose gys shen,
+122 Bee’n annym ny smoo feeu dy shen na mish:
+123 Nee’m dy faagail ort lesh e tra my ayr;
 
-124 Son dy row mee er n'gholl noi e leigh,
-125 Cha vaik yn impir shen ta stiagh reill
-126 Dy jigym trooid e chaayr er my hon.
+124 Er-yn-oyr dy va mee er n’yannoo erskyn er y reiltys shen ta reill shassoo,
+125 Er-yn-oyr dy va mee er n’yannoo erskyn er y reiltys shen ta reill shassoo,
+126 Cha vel eh aarloo dy jig mee stiagh gys e chaayr.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 127/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 127 In tutte parti impera e quivi regge;
 128 quivi è la sua città e l’alto seggio:
 129 oh felice colui cu’ ivi elegge!».
 </prompt>
 <result>
-127 Ayns dagh ynnyd ta e reill as stiagh ta e stiurey;
-128 Shen ta e chaayr as e ard-hie;
-129 O slane yn fer ta e rogh shen!
+127 Ta eh dy reill ayns dagh ynnyd as dy reill ayns shoh;
+128 Shoh ynnyd e chaayr as e ynnyd ard-reill;
+129 O slane yn fer ta goit e reih ayns shen!».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 130/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 130 E io a lui: «Poeta, io ti richeggio
 131 per quello Dio che tu non conoscesti,
@@ -623,23 +642,23 @@ Please translate literally into Manx.
 135 e color cui tu fai cotanto mesti».
 </prompt>
 <result>
-130 As doort mee rish: "O vardagh, ta mee geearree ort
-131 Trooid yn Jee shen nagh row ayd fys er,
-132 Dy voddym shassoo veih shoh as veih ny s'messey,
+130 Ashoh, doort mee huggey: «O vardagh, ta mee dy yannoo aghin ort,
+131 Er-yn-oyr y Jee nagh vel fys ayd,
+132 Dy vel mee dy gheddyn ersooyl veih shoh as veih ny smoo er-chee,
 
-133 Dy voddyms oo mee huggey raad dooys oo ynnyd shen,
-134 Dy voddym fakin geurey Noo Petyr
-135 As ny h-ynnyn ta oo cur choh doillee."
+133 Dy vel oo my chur gys y raad va oo dy ghra myr shoh,
+134 Dy vel mee dy akin y ghiare dy Pher Veyr
+135 Ashoh, ny ta oo dy yannoo cha trimshagh».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 136/136</info>
 <prompt>
-Please translate literally into Manx.
+Please translate each line literally into Manx.
 
 136 Allor si mosse, e io li tenni dietro.
 </prompt>
 <result>
-Eisht hug eh er n'gholl, as ren mee e eiyrt.
+136 Eisht hug eh er n’immeeaght, ashoh, va mee er n’yiool.
 </result>
 </query>
