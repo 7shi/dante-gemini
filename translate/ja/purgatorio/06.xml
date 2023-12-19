@@ -2,7 +2,7 @@
 <query>
 <info>[Purgatorio Canto 6] 1/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 1 Quando si parte il gioco de la zara,
 2 colui che perde si riman dolente,
@@ -17,23 +17,23 @@ Please translate literally into Japanese.
 9 e così da la calca si difende.
 </prompt>
 <result>
-1 賽のゲームが始まると、
+1 賽の目が転がるとき、
 2 負けた者は悲しみに暮れ、
-3 何度も繰り返して、悲しみながら学ぶ。
+3 何度も繰り返して、悲しみを学びます。
 
-4 他の人々は皆、勝者についていく。
-5 ある者は先頭に立ち、ある者は後ろからついていき、
-6 ある者は横から彼を思い出す。
+4 勝った者には皆がついていきます。
+5 前を歩く者もいれば、後ろから追いかける者もいて、
+6 横からそっと近づく者もいます。
 
-7 彼は立ち止まらず、あちらこちらに気を配る。
-8 手を差し伸べられた者は、もう急がない。
-9 そして、このようにして群衆から身を守る。
+7 勝者は立ち止まらず、あちこちに気を配ります。
+8 手を差し伸べられた者は、もう急ぎません。
+9 こうして群衆から身を守ります。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 10/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 10 Tal era io in quella turba spessa,
 11 volgendo a loro, e qua e là, la faccia,
@@ -43,7 +43,7 @@ Please translate literally into Japanese.
 index: 0
 content {
   parts {
-    text: "10 私はその密集した群衆の中で、\n11 彼らの方を向き、あちらこちらに顔を向け、\n12 約束をして、そこから抜け出した。"
+    text: "10 私はその密集した群衆の中で、\n11 あちらこちらに顔を向け、\n12 約束をして、そこから抜け出しました。"
   }
   role: "model"
 }
@@ -58,7 +58,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
+  probability: NEGLIGIBLE
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -67,42 +67,42 @@ safety_ratings {
 </error>
 <result>
 10 私はその密集した群衆の中で、
-11 彼らの方を向き、あちらこちらに顔を向け、
-12 約束をして、そこから抜け出した。
+11 あちらこちらに顔を向け、
+12 約束をして、そこから抜け出しました。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 13/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 13 Quiv’ era l’Aretin che da le braccia
 14 fiere di Ghin di Tacco ebbe la morte,
 15 e l’altro ch’annegò correndo in caccia.
 </prompt>
 <result>
-13 そこには、ギンのタッコの腕によって死んだアレッツォの男がおり、
-14 もう一人は、狩りの途中で溺れ死んだ男がいた。
+13 そこには、ギンのタッコの腕によって命を落としたアレッツォの男がいて、
+14 そして狩りの最中に溺れ死んだもう一人の男がいた。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 16/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 16 Quivi pregava con le mani sporte
 17 Federigo Novello, e quel da Pisa
 18 che fé parer lo buon Marzucco forte.
 </prompt>
 <result>
-16 そこでは、フェデリコ・ノヴェッロが手を広げて祈り、
-17 ピサ出身の男が、善良なマルズッコを強く見せた。
+16 そこでは、手を広げて祈るフェデリコ・ノヴェッロがいて、
+17 そして、善良なマルズッコを強く見せたピサの男がいた。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 19/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 19 Vidi conte Orso e l’anima divisa
 20 dal corpo suo per astio e per inveggia,
@@ -112,21 +112,44 @@ Please translate literally into Japanese.
 23 mentr’ è di qua, la donna di Brabante,
 24 sì che però non sia di peggior greggia.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "19 私は、憎しみと嫉妬のために魂が肉体から引き裂かれたオルソ伯爵を見ました。\n20 それは彼の犯した罪ではなく、彼が言ったように、\n21 ピエール・ド・ラ・ブロワのことです。そして、彼がまだこの世にいる間に、\n22 ブラバントの女性が注意を払うように。\n23 そうすれば、彼女はより悪い群れに属さずに済むでしょう。"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-19 私は、オルソ伯爵と、
-20 憎しみと嫉妬のために肉体から魂が引き裂かれたのを見た。
-21 彼は、それは自分の犯した罪のためではないと言っていた。
-
-22 私はピエール・ド・ラ・ブロースのことを言っている。
-23 そして、彼がまだこの世にいる間に、
-24 ブラバントの女性が注意を払うように。
-25 そうすれば、彼女はより悪い群れに属さなくて済むだろう。
+19 私は、憎しみと嫉妬のために魂が肉体から引き裂かれたオルソ伯爵を見ました。
+20 それは彼の犯した罪ではなく、彼が言ったように、
+21 ピエール・ド・ラ・ブロワのことです。そして、彼がまだこの世にいる間に、
+22 ブラバントの女性が注意を払うように。
+23 そうすれば、彼女はより悪い群れに属さずに済むでしょう。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 25/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 25 Come libero fui da tutte quante
 26 quell’ ombre che pregar pur ch’altri prieghi,
@@ -141,22 +164,21 @@ Please translate literally into Japanese.
 33 o non m’è ’l detto tuo ben manifesto?».
 </prompt>
 <result>
-25 私は、他者の祈りを求めるだけの影たちから解放されると、
-26 彼らが早く聖人になれるようにと祈った。
+25 私が、ただ他者の祈りを願うだけの影たち全員から解放されると、
+26 彼らが早く聖人になれるように、
 
-28 私は言った。「私の光よ、あなたは、
-29 天の定めが敬虔な祈りを曲げると、
-30 どの文章にも明言していないように思われます。
+27 私は尋ね始めました。「私の光よ、あなたは、
+28 天の定めが敬虔な祈りを曲げると、どの書物にも明言していないように思われます。
 
-31 そして、この人々はまさにそれを祈っています。
-32 彼らの希望は無駄なのでしょうか？
-33 それとも、あなたの言葉が私には十分に理解できていないのでしょうか？」
+29 そして、この人々はまさにそれを祈っています。
+30 彼らの希望は無駄なのでしょうか？
+31 それとも、あなたの言葉が私には十分に理解できていないのでしょうか？」
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 34/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 34 Ed elli a me: «La mia scrittura è piana;
 35 e la speranza di costor non falla,
@@ -171,87 +193,87 @@ Please translate literally into Japanese.
 42 perché ’l priego da Dio era disgiunto.
 </prompt>
 <result>
-34 すると彼は私に言った。「私の文章は明快です。
+34 すると彼は私にこう言いました。「私の文章は明快です。
 35 そして、この人々の希望は、
-36 正しい心で見れば、決して裏切られることはありません。
+36 正気で見れば、決して裏切られることはありません。
 
 37 なぜなら、裁きの頂点は、
-38 愛の炎が一瞬にして、
-39 ここにとどまる者に満足を与えるべきことを成し遂げるからといって、
-40 弱まることはないからです。
+38 愛の炎が一瞬で、
+39 ここにとどまる者に満足を与えるべきものを成し遂げるからといって、
+40 決して屈することはないからです。
 
 41 そして、私がその点を定めたとき、
-42 祈っても欠陥は補われなかった。
+42 祈っても欠陥は埋められませんでした。
 43 なぜなら、その祈りは神から切り離されていたからです。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 43/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 43 Veramente a così alto sospetto
 44 non ti fermar, se quella nol ti dice
 45 che lume fia tra ’l vero e lo ’ntelletto.
 </prompt>
 <result>
-43 しかし、もし、真と知性の間に光となる者が、
-44 あなたにそう言わなければ、そのように強く疑ってはいけません。
+43 本当に、それほど疑わしいことには、
+44 真実と知性の間の光となる者がそれを言わない限り、こだわらないでください。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 46/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 46 Non so se ’ntendi: io dico di Beatrice;
 47 tu la vedrai di sopra, in su la vetta
 48 di questo monte, ridere e felice».
 </prompt>
 <result>
-46 あなたが理解しているかどうか分かりませんが、私はベアトリーチェのことを言っています。
-47 あなたは、この山の頂上で、彼女が笑い、幸せそうにしているのを見るでしょう。
+46 私が何を言っているのかわかりませんか？私はベアトリーチェのことを言っています。
+47 あなたは彼女を、この山の頂上で、笑って幸せそうにしているのを見るでしょう。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 49/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 49 E io: «Segnore, andiamo a maggior fretta,
 50 ché già non m’affatico come dianzi,
 51 e vedi omai che ’l poggio l’ombra getta».
 </prompt>
 <result>
-49 すると私は言った。「主よ、もっと急ぎましょう。
+49 すると私は言いました。「主よ、もっと急ぎましょう。
 50 もう以前のように疲れていませんし、丘が影を落としているのがわかります。」
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 52/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 52 «Noi anderem con questo giorno innanzi»,
 53 rispuose, «quanto più potremo omai;
 54 ma ’l fatto è d’altra forma che non stanzi.
 </prompt>
 <result>
-52 彼は答えた。「私たちは、今日一日、できるだけ早く進みましょう。
-53 しかし、事態はあなたが考えているようには進んでいません。
+52 彼は答えました。「私たちは、今日一日、できる限り前に進みましょう。
+53 しかし、事態はあなたが考えているようなものではありません。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 55/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 55 Prima che sie là sù, tornar vedrai
 56 colui che già si cuopre de la costa,
 57 sì che ’ suoi raggi tu romper non fai.
 </prompt>
 <result>
-55 あなたがそこへたどり着く前に、
+55 あなたがそこに行く前に、
 56 すでに丘の陰に隠れている者が戻ってくるのを見るでしょう。
 57 そうすれば、あなたは彼の光を遮ることはできません。
 </result>
@@ -259,7 +281,7 @@ Please translate literally into Japanese.
 <query>
 <info>[Purgatorio Canto 6] 58/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 58 Ma vedi là un’anima che, posta
 59 sola soletta, inverso noi riguarda:
@@ -267,14 +289,14 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 58 しかし、そこを見てください。一人の魂が、
-59 まったく一人で、私たちの方を向いて立っています。
-60 あの人が、私たちに最短の道を教えてくれるでしょう。
+59 たった一人で、私たちの方を向いています。
+60 あの人が、もっとも早い道を教えてくれるでしょう。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 61/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 61 Venimmo a lei: o anima lombarda,
 62 come ti stavi altera e disdegnosa
@@ -285,19 +307,18 @@ Please translate literally into Japanese.
 66 a guisa di leon quando si posa.
 </prompt>
 <result>
-61 私たちは彼女のところへやって来た。「ああ、ロンバルディアの魂よ、
-62 あなたはなんと誇り高く、尊大に立っていたことか。
-63 そして、あなたの目の動きはなんと慎ましく、ゆっくりとしていたことか。
+61 私たちは彼女のところに行きました。ああ、ロンバルディアの魂よ、
+62 あなたはなんと誇り高く、尊大に立っていたことでしょう。
+63 そして、あなたの目の動きはなんと慎ましく、ゆっくりとしていたことでしょう。
 
-64 彼女は私たちに何も言わなかったが、
-65 ただ、ライオンが休んでいるときのように、私たちを通り過ぎさせて、
-66 ただ見つめているだけだった。
+64 彼女は私たちに何も言いませんでしたが、
+65 ただ私たちを行かせ、ライオンが休んでいるときのように、ただ見つめているだけでした。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 67/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 67 Pur Virgilio si trasse a lei, pregando
 68 che ne mostrasse la miglior salita;
@@ -311,48 +332,23 @@ Please translate literally into Japanese.
 74 dicendo: «O Mantoano, io son Sordello
 75 de la tua terra!»; e l’un l’altro abbracciava.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "67 しかし、ウェルギリウスは彼女に近づき、\n68 最善の登り道を教えてくれるように頼んだ。\n69 しかし、彼女は彼の質問には答えなかったが、\n\n70 私たちの出身地と人生について尋ねた。\n71 すると、優しいウェルギリウス公は「マントヴァ . . . 」と話し始めた。\n72 すると、その影は、それまで立っていた場所から彼の方へ立ち上がり、\n73 「ああ、マントヴァの人よ、私はあなたの土地のソルデッロです！」と言った。\n74 そして、二人は互いに抱き合った。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-67 しかし、ウェルギリウスは彼女に近づき、
-68 最善の登り道を教えてくれるように頼んだ。
-69 しかし、彼女は彼の質問には答えなかったが、
+67 それでもウェルギリウスは彼女に近づき、
+68 最もよい登り道を教えてくれるよう頼みました。
+69 しかし、彼女は彼の質問には答えませんでした。
 
-70 私たちの出身地と人生について尋ねた。
-71 すると、優しいウェルギリウス公は「マントヴァ . . . 」と話し始めた。
-72 すると、その影は、それまで立っていた場所から彼の方へ立ち上がり、
-73 「ああ、マントヴァの人よ、私はあなたの土地のソルデッロです！」と言った。
-74 そして、二人は互いに抱き合った。
+70 代わりに、彼女は私たちの出身地と人生について尋ねました。
+71 すると、優しいウェルギリウスは「マントヴァ . . . 」と答え始めました。
+72 すると、その影は、それまでいた場所から静かに立ち上がり、
+
+73 「ああ、マントヴァの人よ、私はあなたの土地のソルデロです！」と言いました。
+74 そして、二人は互いに抱き合いました。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 76/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 76 Ahi serva Italia, di dolore ostello,
 77 nave sanza nocchiere in gran tempesta,
@@ -370,14 +366,14 @@ Please translate literally into Japanese.
 index: 0
 content {
   parts {
-    text: "76 ああ、イタリアよ、悲しみの宿よ、\n77 大嵐の中の船頭のない船よ、\n78 州の女性ではなく、売春宿よ！\n\n79 その高貴な魂は、\n80 ただ故郷の甘い音色を聞いただけで、\n81 そこで自分の市民を歓迎するのにとても急いでいた。\n\n82 そして今、あなたの中では、\n83 あなたの生者たちは争いなしにはいられず、\n84 同じ壁と堀に囲まれた者同士が、互いに食い合っている。"
+    text: "76 ああ、イタリアよ、悲しみの宿よ、\n77 大嵐の中の船頭のない船よ、\n78 州の女性ではなく、売春宿よ！\n\n79 その高貴な魂は、\n80 ただ故郷の甘い音色を聞いただけで、\n81 そこで自分の同郷の市民を歓迎するのにとても熱心でした。\n\n82 そして今、あなたの中では、あなたの生者たちが争いなく過ごすことはなく、\n83 そして、一人の壁と堀に囲まれた人々が互いに争い合っています。"
   }
   role: "model"
 }
 finish_reason: SAFETY
 safety_ratings {
   category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
+  probability: LOW
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
@@ -385,7 +381,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
+  probability: MEDIUM
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -399,17 +395,16 @@ safety_ratings {
 
 79 その高貴な魂は、
 80 ただ故郷の甘い音色を聞いただけで、
-81 そこで自分の市民を歓迎するのにとても急いでいた。
+81 そこで自分の同郷の市民を歓迎するのにとても熱心でした。
 
-82 そして今、あなたの中では、
-83 あなたの生者たちは争いなしにはいられず、
-84 同じ壁と堀に囲まれた者同士が、互いに食い合っている。
+82 そして今、あなたの中では、あなたの生者たちが争いなく過ごすことはなく、
+83 そして、一人の壁と堀に囲まれた人々が互いに争い合っています。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 85/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 85 Cerca, misera, intorno da le prode
 86 le tue marine, e poi ti guarda in seno,
@@ -419,7 +414,7 @@ Please translate literally into Japanese.
 index: 0
 content {
   parts {
-    text: "85 不幸な者よ、あなたの海岸の周りを探り、\n86 そしてあなたの内側を見てください。\n87 あなたの中で平和を享受している部分があるかどうか。"
+    text: "85 不幸な者よ、海岸の周りを探して、\n86 そして自分の内側を見て、\n87 あなたの中で平和を享受している部分があるかどうかを確認してください。"
   }
   role: "model"
 }
@@ -434,7 +429,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
+  probability: NEGLIGIBLE
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -442,30 +437,30 @@ safety_ratings {
 }
 </error>
 <result>
-85 不幸な者よ、あなたの海岸の周りを探り、
-86 そしてあなたの内側を見てください。
-87 あなたの中で平和を享受している部分があるかどうか。
+85 不幸な者よ、海岸の周りを探して、
+86 そして自分の内側を見て、
+87 あなたの中で平和を享受している部分があるかどうかを確認してください。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 88/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 88 Che val perché ti racconciasse il freno
 89 Iustinïano, se la sella è vòta?
 90 Sanz’ esso fora la vergogna meno.
 </prompt>
 <result>
-88 ユスティニアヌスが手綱を直してくれたとしても、
-89 鞍が空っぽなら、何の価値があるのか？
-90 鞍がなければ、恥は少なかっただろう。
+88 ユスティニアヌスが手綱を締め直したとしても、
+89 鞍が空っぽなら何の価値があるでしょうか？
+90 鞍がなければ、恥はもっと少なかったでしょう。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 91/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 91 Ahi gente che dovresti esser devota,
 92 e lasciar seder Cesare in la sella,
@@ -477,17 +472,17 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 91 ああ、敬虔であるべき人々よ、
-92 そして、たとえ神があなたに示すことを正しく理解していても、
+92 そして、たとえ神があなたに何を求めているのかを理解していても、
 93 カエサルを鞍に座らせておくべきだ。
 
-94 手綱を握って以来、この獣がいかに凶暴になったかを見てみよ。
-95 拍車によって矯正されていないからだ。
+94 手綱を握って以来、この獣がいかに凶暴になったかを見てください。
+95 拍車によって矯正されていないからです。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 97/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 97 O Alberto tedesco ch’abbandoni
 98 costei ch’è fatta indomita e selvaggia,
@@ -502,23 +497,23 @@ Please translate literally into Japanese.
 105 che ’l giardin de lo ’mperio sia diserto.
 </prompt>
 <result>
-97 ドイツ人アルベルトよ、
-98 お前は、手なずけられず、野蛮になったこの獣を置き去りにし、
+97 ドイツのアルベルトよ、
+98 あなたは、飼いならされず、野蛮になったこの獣を置き去りにし、
 99 その鞍にまたがるべきだった。
 
 100 正しい裁きが星々からあなたの血の上に降り注ぎ、
-101 新しく、そして明らかに、
-102 あなたの後継者がそれを恐れるように！
+101 新しく、明白なものとなり、
+102 あなたの後継者がそれを恐れるようになるでしょう！
 
 103 あなたとあなたの父は、
 104 この地の強欲のために苦しみ、
-105 帝国の庭園が荒れ果ててしまった。
+105 帝国の庭が荒れ果ててしまった。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 106/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 106 Vieni a veder Montecchi e Cappelletti,
 107 Monaldi e Filippeschi, uom sanza cura:
@@ -533,38 +528,37 @@ Please translate literally into Japanese.
 114 «Cesare mio, perché non m’accompagne?».
 </prompt>
 <result>
-106 無関心な人よ、モンテッキ家とカペレッティ家、
+106 無関心な男よ、モンテッキ家とカペレッティ家、
 107 モナルディ家とフィリッペスキ家を見に来なさい。
-108 あちらはすでに悲しみ、こちらは疑念を抱いている！
+108 あちらはすでに悲惨で、こちらは疑心暗鬼だ！
 
-109 残酷な人よ、来て、あなたの貴族たちの苦しみを見て、
+109 残酷な人よ、来て、あなたの同胞の苦しみを見て、
 110 彼らの苦しみを癒してください。
 111 そして、サンタフィオーレがいかに暗いかを見てください！
 
-112 寡婦のように泣き、独りぼっちで、
-113 昼も夜も呼びかけるあなたのローマを見に来なさい。
-114 「私の皇帝よ、なぜ私を一人ぼっちにするのですか？」と。
+112 寡婦のように泣き、独りぼっちで、昼も夜も呼びかけるあなたのローマを見に来てください。
+113 「私の皇帝よ、なぜ私を一人ぼっちにするのですか？」と。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 115/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 115 Vieni a veder la gente quanto s’ama!
 116 e se nulla di noi pietà ti move,
 117 a vergognar ti vien de la tua fama.
 </prompt>
 <result>
-115 人々がいかに愛し合っているかを見に来なさい！
-116 そして、私たちに対する憐憫の情が何もあなたを動かさないとしても、
+115 人々がいかに愛し合っているかを見に来てください！
+116 そして、私たちに対する憐れみが何もあなたを動かさないとしても、
 117 あなたの名誉を恥じるために来てください。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 118/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 118 E se licito m’è, o sommo Giove
 119 che fosti in terra per noi crucifisso,
@@ -578,30 +572,55 @@ Please translate literally into Japanese.
 125 son di tiranni, e un Marcel diventa
 126 ogne villan che parteggiando viene.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "118 そして、私が言うことを許されるなら、至高のユーピテルよ、\n119 あなたは私たちのために地上で十字架にかけられました。\n120 あなたの正しい目は他の場所に向けられているのでしょうか？\n\n121 それとも、あなたはあなたの計り知れない知恵の中で、\n122 何か良いことのために、深淵の中で準備をしているのでしょうか？\n\n123 イタリアのすべての都市は暴君でいっぱいで、\n124 党派に加わるすべての村人はマルケルスになります。"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-118 そして、もし私が許されるなら、至高のユーピテルよ、
-119 あなたは私たちのために地上で十字架にかけられた。
-120 あなたの正しい目は、他の場所に向けられているのですか？
+118 そして、私が言うことを許されるなら、至高のユーピテルよ、
+119 あなたは私たちのために地上で十字架にかけられました。
+120 あなたの正しい目は他の場所に向けられているのでしょうか？
 
-121 それとも、それはあなたの計り知れない計画の中で、
-122 私たちの理解を超えた何らかの善のために、
-123 深淵の中で準備されていることなのでしょうか？
+121 それとも、あなたはあなたの計り知れない知恵の中で、
+122 何か良いことのために、深淵の中で準備をしているのでしょうか？
 
-124 イタリアの都市はすべて暴君でいっぱいで、
-125 党派に加わるすべての村人はマルケルスになる。
+123 イタリアのすべての都市は暴君でいっぱいで、
+124 党派に加わるすべての村人はマルケルスになります。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 127/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 127 Fiorenza mia, ben puoi esser contenta
 128 di questa digression che non ti tocca,
 129 mercé del popol tuo che si argomenta.
 </prompt>
 <result>
-127 私のフィレンツェよ、あなたは、
+127 わがフィレンツェよ、あなたは、
 128 あなたに触れないこの逸脱に満足することができます。
 129 努力しているあなたの人々のおかげで。
 </result>
@@ -609,7 +628,7 @@ Please translate literally into Japanese.
 <query>
 <info>[Purgatorio Canto 6] 130/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 130 Molti han giustizia in cuore, e tardi scocca
 131 per non venir sanza consiglio a l’arco;
@@ -617,21 +636,21 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 130 多くの人は心に正義を持っていますが、
-131 弓に当てずに放つために、それを遅らせています。
+131 弓に当てずに放つために、それを放つのが遅れます。
 132 しかし、あなたの人々はそれを口の端にしています。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 133/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 133 Molti rifiutan lo comune incarco;
 134 ma il popol tuo solicito risponde
 135 sanza chiamare, e grida: «I’ mi sobbarco!».
 </prompt>
 <result>
-133 多くの人は、公共の負担を拒否します。
+133 多くの人は、共通の負担を拒否します。
 134 しかし、あなたの人々は、呼ばれなくてもすぐに応えて、
 135 「私が引き受けます！」と叫びます。
 </result>
@@ -639,22 +658,22 @@ Please translate literally into Japanese.
 <query>
 <info>[Purgatorio Canto 6] 136/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 136 Or ti fa lieta, ché tu hai ben onde:
 137 tu ricca, tu con pace e tu con senno!
 138 S’io dico ’l ver, l’effetto nol nasconde.
 </prompt>
 <result>
-136 今、あなたは喜びなさい。なぜなら、あなたはそうする理由があるからです。
-137 あなたは豊かで、平和で、そして賢明です！
+136 今、あなたは幸せになりなさい。なぜなら、あなたは幸せになる理由があるからです。
+137 あなたは豊かで、平和で、賢明です！
 138 私が真実を語っているなら、その結果は隠されていません。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 139/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 139 Atene e Lacedemona, che fenno
 140 l’antiche leggi e furon sì civili,
@@ -666,15 +685,15 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 139 古代の法律を作り、非常に文明的であったアテネとラケダイモンは、
-140 あなたが非常に精巧な規定を作っていることを考えると、
-141 あなたの生活の質を少ししか示していません。
-142 10月に紡いだものが、11月半ばまでに届かないのです。
+140 あなたが非常に精巧な規定を作っているのに対して、
+141 あなたの生活の質を少ししか向上させませんでした。
+142 10月に紡いだものが11月半ばに届かないほどです。
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 145/151</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 145 Quante volte, del tempo che rimembre,
 146 legge, moneta, officio e costume
@@ -688,13 +707,12 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 145 あなたが覚えている時代から、
-146 法律、通貨、役職、習慣を何回も変え、
+146 何度も法律、通貨、役職、習慣を変え、
 147 そして、新しい制度を導入してきました。
 
 148 そして、あなたがよく覚えていて、光を見ているなら、
-149 あなたは、羽毛の上で安らぎを見つけることができない、
-150 病人に似ていることに気づくでしょう。
+149 あなたは、羽毛の上で安らぎを見つけることができない病人に似ていることに気づくでしょう。
 
-151 しかし、彼女は寝返りを打つことで、自分の痛みを和らげます。
+150 しかし、寝返りを打つことで、その痛みを和らげています。
 </result>
 </query>

@@ -2,7 +2,7 @@
 <query>
 <info>[Inferno Canto 7] 1/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 1 «Pape Satàn, pape Satàn aleppe!»,
 2 cominciò Pluto con la voce chioccia;
@@ -13,11 +13,11 @@ Please translate literally into Japanese.
 6 non ci torrà lo scender questa roccia».
 </prompt>
 <result>
-1 「パペ・サタン、パペ・サタン・アレッペ！」
-2 プルートはがらがら声で話し始めた。
-3 そして、すべてを知っていたあの賢い紳士は、
+1 「悪魔よ、悪魔よ、悪魔よ！」
+2 プルートーはがらがら声で話し始めた。
+3 そして、すべてを知っていた賢い詩人は、
 
-4 私の不安を和らげるために言った。「恐れるな。
+4 慰めるように言った。「恐れるな。
 5 彼がどんな力を持っていようと、
 6 この岩を下ることはできないだろう。」
 </result>
@@ -25,7 +25,7 @@ Please translate literally into Japanese.
 <query>
 <info>[Inferno Canto 7] 7/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 7 Poi si rivolse a quella ’nfiata labbia,
 8 e disse: «Taci, maladetto lupo!
@@ -35,7 +35,7 @@ Please translate literally into Japanese.
 index: 0
 content {
   parts {
-    text: "7 それから、彼はその膨れ上がった口元に語りかけた。\n8 「黙れ、呪われた狼よ！\n9 お前の怒りで身を持ち崩せ。」"
+    text: "7 それから、彼はその膨れ上がった口元に振り返り、\n8 「黙れ、呪われた狼よ！」と言った。\n9 お前の怒りで身を持ち崩せ。"
   }
   role: "model"
 }
@@ -46,7 +46,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
+  probability: LOW
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
@@ -58,75 +58,60 @@ safety_ratings {
 }
 </error>
 <result>
-7 それから、彼はその膨れ上がった口元に語りかけた。
-8 「黙れ、呪われた狼よ！
-9 お前の怒りで身を持ち崩せ。」
+7 それから、彼はその膨れ上がった口元に振り返り、
+8 「黙れ、呪われた狼よ！」と言った。
+9 お前の怒りで身を持ち崩せ。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 10/130</info>
-<prompt retry="true">
-Please translate literally into Japanese.
+<prompt>
+Please translate each line literally into Japanese.
 
 10 Non è sanza cagion l’andare al cupo:
 11 vuolsi ne l’alto, là dove Michele
 12 fé la vendetta del superbo strupo».
 </prompt>
-<error>
-index: 0
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
+<result>
+10 深淵に行くのは理由もなくしてではない。
+11 高みに行かねばならぬ。ミケーレが
+12 傲慢な強奪者の復讐を果たした場所へ。
+</result>
 </query>
 <query>
 <info>[Inferno Canto 7] 13/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 13 Quali dal vento le gonfiate vele
 14 caggiono avvolte, poi che l’alber fiacca,
 15 tal cadde a terra la fiera crudele.
 </prompt>
 <result>
-13 風によって膨らんだ帆が
-14 マストが折れると、たたまれて落ちるように
-15 残酷な獣は地面に倒れた
+13 風に膨らんだ帆が
+14 マストが折れるとたたまれて落ちるように、
+15 残酷な獣は地面に倒れた。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 16/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 16 Così scendemmo ne la quarta lacca,
 17 pigliando più de la dolente ripa
 18 che ’l mal de l’universo tutto insacca.
 </prompt>
 <result>
-16 私たちは第四の圏に降りていき、
-17 悲しみの岸辺をさらに進んでいき、
+16 我々は第四の圏に降りていった。
+17 悲しみの岸辺に沿って進み、
 18 それは宇宙のあらゆる悪を袋詰めにしていた。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 19/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 19 Ahi giustizia di Dio! tante chi stipa
 20 nove travaglie e pene quant’ io viddi?
@@ -137,49 +122,49 @@ Please translate literally into Japanese.
 24 così convien che qui la gente riddi.
 </prompt>
 <result>
-19 ああ、神の正義よ！どれほど多くの人が、
-20 私が見たほどの苦しみと罰を味わっているのだろうか？
-21 そしてなぜ私たちの罪は私たちをこのように傷つけるのだろうか？
+19 ああ、神の正義よ！どれほど多くの人々が
+20 私が見たほどの新しい苦しみと罰を詰め込まれているのか？
+21 そしてなぜ私たちの罪は私たちをこのように傷つけるのか？
 
-22 カリブディスの上にある波が、
+22 カリブディスの上での波のように、
 23 ぶつかった波とぶつかり合って砕けるように、
-24 ここでも人々が輪になって踊らなければならない。
+24 ここでも人々が渦巻くように踊らなければならない。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 25/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 25 Qui vid’ i’ gente più ch’altrove troppa,
 26 e d’una parte e d’altra, con grand’ urli,
 27 voltando pesi per forza di poppa.
 </prompt>
 <result>
-25 私はここで、他の場所よりも多くの人々を見ました。
-26 彼らは両側から大きな叫び声を上げながら、
-27 船尾の力で重りを持って回っていました。
+25 私はここで、他のどの場所よりも多くの人々を見た。
+26 彼らは両側にいて、大きな叫び声を上げながら、
+27 力任せに重りを行ったり来たりさせていた。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 28/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 28 Percotëansi ’ncontro; e poscia pur lì
 29 si rivolgea ciascun, voltando a retro,
 30 gridando: «Perché tieni?» e «Perché burli?».
 </prompt>
 <result>
-28 彼らは互いにぶつかり合い、その後すぐに、
-29 それぞれが振り返って逆方向に回り、
-30 「なぜ持っているのか？」「なぜからかうのか？」と叫びました。
+28 彼らは互いにぶつかり合い、そしてその場で
+29 それぞれが振り返り、後ずさりしながら、
+30 「なぜ持っているんだ？」「なぜからかうんだ？」と叫んだ。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 31/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 31 Così tornavan per lo cerchio tetro
 32 da ogne mano a l’opposito punto,
@@ -189,18 +174,18 @@ Please translate literally into Japanese.
 35 per lo suo mezzo cerchio a l’altra giostra.
 </prompt>
 <result>
-31 彼らは暗澹たる輪の中を、
-32 それぞれが反対側に向かって戻り、
-33 お互いに罵詈雑言を浴びせ合いながら、
+31 彼らは暗い輪の中をこのようにして
+32 それぞれの側から反対側へと戻り、
+33 お互いに恥ずべき言葉を叫び合った。
 
-34 そしてそれぞれが、反対側にたどり着くと、
-35 自分の半分の輪を回って、次の勝負に向かいました。
+34 そして、それぞれが到着すると振り返り、
+35 自分の半分の輪を通り抜けて、反対側の競技場へと向かった。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 36/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 36 E io, ch’avea lo cor quasi compunto,
 
@@ -209,87 +194,90 @@ Please translate literally into Japanese.
 39 questi chercuti a la sinistra nostra».
 </prompt>
 <result>
-36 そして私は、心が張り裂けそうになりながら、
+36 そして、私は心が張り裂けそうになりながら、
 
-37 「先生、この人々は誰なのか、そして私たちの左側にいる坊主頭の彼らは皆聖職者なのかを教えてください」と言いました。
+37 「先生、この人々がどのような人なのか、
+38 そして、私たちの左側にいる剃髪した人々が皆聖職者なのかどうかを教えてください」と言った。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 40/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 40 Ed elli a me: «Tutti quanti fuor guerci
 41 sì de la mente in la vita primaia,
 42 che con misura nullo spendio ferci.
 </prompt>
 <result>
-40 そして彼は私に言いました。「彼らは皆、
-41 最初の人生で精神的に盲目であり、
-42 何の節度もなく浪費していました。
+40 すると彼は私に言った。「彼らは皆、
+41 前世において精神的に盲目であり、
+42 何の節度もなく浪費した。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 43/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 43 Assai la voce lor chiaro l’abbaia,
 44 quando vegnono a’ due punti del cerchio
 45 dove colpa contraria li dispaia.
 </prompt>
 <result>
-43 彼らの声は、輪の二つの点にたどり着いたとき、
-45 反対の罪が彼らを分かつとき、それをはっきりと吠えます。
+43 彼らの声は、彼らが輪の二つの点に到達したとき、
+44 非常に明確にそれを吠える。
+45 そこで、反対の罪が彼らを分かつ。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 46/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 46 Questi fuor cherci, che non han coperchio
 47 piloso al capo, e papi e cardinali,
 48 in cui usa avarizia il suo soperchio».
 </prompt>
 <result>
-46 これらは坊主頭で、頭に毛深い覆いを持たない聖職者、
-47 教皇や枢機卿であり、その中で強欲がはびこっています。
+46 これらは聖職者であり、頭には
+47 毛深い覆いを持たず、法王や枢機卿であり、
+48 彼らの中で強欲がその極致に達している。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 49/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 49 E io: «Maestro, tra questi cotali
 50 dovre’ io ben riconoscere alcuni
 51 che furo immondi di cotesti mali».
 </prompt>
 <result>
-49 そして私は言いました。「先生、このような人々の中には、
-50 このような悪事にまみれた人々を何人か見覚えがあるはずです。」
+49 そして私は言った。「先生、このような人々の中には、
+50 このような悪で汚れていた人々を何人か認識できるはずです。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 52/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 52 Ed elli a me: «Vano pensiero aduni:
 53 la sconoscente vita che i fé sozzi,
 54 ad ogne conoscenza or li fa bruni.
 </prompt>
 <result>
-52 そして彼は私に言いました。「あなたは無駄な考えを抱いています。
-53 彼らを汚らわしくした見知らぬ人生が、
-54 今では彼らにあらゆる知識を暗くしています。
+52 すると彼は私に言った。「あなたは無駄な考えを抱いている。
+53 彼らを汚らわしくした無知な人生が、
+54 今では彼らを認識できないほどに暗くしている。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 55/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 55 In etterno verranno a li due cozzi:
 56 questi resurgeranno del sepulcro
@@ -299,7 +287,7 @@ Please translate literally into Japanese.
 index: 0
 content {
   parts {
-    text: "55 彼らは永遠に二つの衝突を繰り返すでしょう。\n56 これらは墓からよみがえり、\n57 拳を握りしめ、髪を切り落とします。"
+    text: "55 彼らは永遠に二つの角突き合いを続けるだろう。\n56 これらは墓からよみがえり、\n57 拳を握りしめ、髪を切り落とされて。"
   }
   role: "model"
 }
@@ -322,15 +310,15 @@ safety_ratings {
 }
 </error>
 <result>
-55 彼らは永遠に二つの衝突を繰り返すでしょう。
+55 彼らは永遠に二つの角突き合いを続けるだろう。
 56 これらは墓からよみがえり、
-57 拳を握りしめ、髪を切り落とします。
+57 拳を握りしめ、髪を切り落とされて。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 58/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 58 Mal dare e mal tener lo mondo pulcro
 59 ha tolto loro, e posti a questa zuffa:
@@ -338,14 +326,14 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 58 悪しき与え方と悪しき持ち方が、この美しい世界から彼らを奪い、
-59 この争いに巻き込んだのです。
-60 それがどのようなものかを、言葉で飾ることはできません。
+59 この争いに追いやった。
+60 それがどのようなものかを、言葉で飾ることはできない。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 61/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 61 Or puoi, figliuol, veder la corta buffa
 62 d’i ben che son commessi a la fortuna,
@@ -356,74 +344,49 @@ Please translate literally into Japanese.
 66 non poterebbe farne posare una».
 </prompt>
 <result>
-61 今、我が子よ、あなたは幸運に委ねられた財産の短い戯れを見ることができます。
-62 それゆえに、人間は争い合うのです。
+61 今、我が子よ、幸運に委ねられた財産の
+62 短い戯れを見ることができるだろう。
+63 人々が争うのはそのためだ。
 
-63 月の下にあるすべての金、
-64 そしてかつてあった金は、これらの疲れた魂を
-65 一人たりとも休ませることはできないでしょう。
+64 月の下にあるすべての金と
+65 かつてあった金は、これらの疲れた魂を
+66 一人たりとも休ませることはできないだろう。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 67/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 67 «Maestro mio», diss’ io, «or mi dì anche:
 68 questa fortuna di che tu mi tocche,
 69 che è, che i ben del mondo ha sì tra branche?».
 </prompt>
 <result>
-67 「先生、教えてください。
-68 あなたが私に触れたその幸運とは何ですか？
+67 「先生、もう一つ教えてください。
+68 あなたが私に言及したその幸運とは何ですか？
 69 それは、世の財産をその手に握っているのでしょうか？」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 70/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 70 E quelli a me: «Oh creature sciocche,
 71 quanta ignoranza è quella che v’offende!
 72 Or vo’ che tu mia sentenza ne ’mbocche.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 そして彼は私に言いました。「ああ、愚かな生き物よ、\n71 あなた方を傷つける無知はなんと大きいことか！\n72 今、私の判決をあなたに伝えよう。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-70 そして彼は私に言いました。「ああ、愚かな生き物よ、
+70 すると彼は私に言った。「ああ、愚かな者よ、
 71 あなた方を傷つける無知はなんと大きいことか！
-72 今、私の判決をあなたに伝えよう。
+72 今、私の言葉をよく聞きなさい。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 73/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 73 Colui lo cui saver tutto trascende,
 74 fece li cieli e diè lor chi conduce
@@ -433,16 +396,16 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 73 その知識がすべてを超越する方は、
-74 天を創造し、それを導く者を授けました。
-75 そのように、あらゆる部分があらゆる部分に輝き、
+74 天を創造し、天を導く者を授け、
+75 すべての部分がすべての部分に輝き、
 
-76 光を均等に分配しています。
+76 光を均等に分配した。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 77/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 77 Similemente a li splendor mondani
 78 ordinò general ministra e duce
@@ -456,37 +419,37 @@ Please translate literally into Japanese.
 84 che è occulto come in erba l’angue.
 </prompt>
 <result>
-77 同様に、世俗の輝きに対して、
-78 彼は総理大臣と指導者を任命しました。
+77 同様に、世俗的な輝きにも
+78 総括的な管理者と指導者を任命し、
 
-79 彼女は、人から人へ、血統から血統へと、
-80 つまらない財産を時宜に応じて入れ替えるのです。
-81 人間的感覚の防御を超えて。
+79 人から人へ、血統から血統へと、
+80 つまらない財産を時とともに移り変わらせ、
+81 人間の知恵の防御を超えて。
 
-82 そのため、ある民族は支配し、別の民族は衰退します。
-83 彼女の判断に従って、
-84 彼女は草の中の蛇のように隠れています。
+82 そのため、ある民族は支配し、別の民族は衰退し、
+83 この者の判断に従う。
+84 この者は、草の中の蛇のように隠されている。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 85/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 85 Vostro saver non ha contasto a lei:
 86 questa provede, giudica, e persegue
 87 suo regno come il loro li altri dèi.
 </prompt>
 <result>
-85 あなた方の知識は彼女と争うことはできません。
-86 彼女は、他の神々が自分たちの王国を支配するのと同じように、
-87 自分の王国を備え、裁き、追求します。
+85 あなた方の知識は彼女に敵いません。
+86 彼女は、他の神々が自分たちの領域を支配するのと同じように、
+87 自分の領域を管理し、裁き、追求します。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 88/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 88 Le sue permutazion non hanno triegue:
 89 necessità la fa esser veloce;
@@ -496,7 +459,7 @@ Please translate literally into Japanese.
 index: 0
 content {
   parts {
-    text: "88 彼女の入れ替えには休止がありません。\n89 必要性が彼女を迅速にさせます。\n90 入れ替わりが訪れるのはそれほど頻繁です。"
+    text: "88 彼女の交代には休止がありません。\n89 必要性が彼女を迅速にさせます。\n90 交代が訪れるのはそれほど頻繁です。"
   }
   role: "model"
 }
@@ -519,15 +482,15 @@ safety_ratings {
 }
 </error>
 <result>
-88 彼女の入れ替えには休止がありません。
+88 彼女の交代には休止がありません。
 89 必要性が彼女を迅速にさせます。
-90 入れ替わりが訪れるのはそれほど頻繁です。
+90 交代が訪れるのはそれほど頻繁です。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 91/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 91 Quest’ è colei ch’è tanto posta in croce
 92 pur da color che le dovrien dar lode,
@@ -537,61 +500,35 @@ Please translate literally into Japanese.
 95 con l’altre prime creature lieta
 96 volve sua spera e beata si gode.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "91 彼女は、賞賛されるべき人々からさえ、\n92 十字架にかけられ、\n93 不当な非難と悪口を浴びせられています。\n\n94 しかし、彼女は至福であり、それを聞いていません。\n95 他の一番目の被造物と一緒に喜んで、\n96 彼女は自分の球を回転させ、至福を味わっています。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 91 彼女は、賞賛されるべき人々からさえ、
-92 十字架にかけられ、
-93 不当な非難と悪口を浴びせられています。
+92 非常に十字架にかけられており、
+93 不当な非難と悪口を言われている。
 
-94 しかし、彼女は至福であり、それを聞いていません。
-95 他の一番目の被造物と一緒に喜んで、
-96 彼女は自分の球を回転させ、至福を味わっています。
+94 しかし、彼女は至福であり、それを聞いていない。
+95 他の一番目の被造物たちと一緒に喜んで、
+96 彼女は自分の天球を回転させ、至福を享受している。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 97/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 97 Or discendiamo omai a maggior pieta;
 98 già ogne stella cade che saliva
 99 quand’ io mi mossi, e ’l troppo star si vieta».
 </prompt>
 <result>
-97 今、もっと大きな慈悲へと降りていきましょう。
+97 今、もっと大きな憐れみへと降りていこう。
 98 私が動き出したとき昇っていたすべての星がすでに沈み、
-99 長く滞在することは禁じられています。
+99 長居は無用だ。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 100/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 100 Noi ricidemmo il cerchio a l’altra riva
 101 sovr’ una fonte che bolle e riversa
@@ -600,124 +537,73 @@ Please translate literally into Japanese.
 <result>
 100 私たちは輪を切って反対側の岸にたどり着き、
 101 沸騰して流れ落ちる泉の上に立ち、
-102 そこから流れ出る溝の上を歩きました。
+102 その泉から流れ出る溝に沿って進んだ。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 103/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 103 L’acqua era buia assai più che persa;
 104 e noi, in compagnia de l’onde bige,
 105 intrammo giù per una via diversa.
 </prompt>
 <result>
-103 水は失われたものよりもはるかに暗く、
+103 水は黒鉛よりもはるかに暗く、
 104 私たちは、灰色の波を伴って、
-105 異なる道を下っていきました。
+105 異なる道を下っていった。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 106/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 106 In la palude va c’ha nome Stige
 107 questo tristo ruscel, quand’ è disceso
 108 al piè de le maligne piagge grige.
 </prompt>
 <result>
-106 この悲惨な小川は、灰色の悪意のある斜面のふもとに降りると、
-107 スティクスと呼ばれる沼地へと流れていきます。
+106 この悲惨な小川は、
+107 灰色で邪悪な崖のふもとに降り立ったとき、
+108 スティクスと呼ばれる沼へと流れ込む。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 109/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 109 E io, che di mirare stava inteso,
 110 vidi genti fangose in quel pantano,
 111 ignude tutte, con sembiante offeso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 私は見つめることに集中していましたが、\n110 その沼地で泥だらけの人々、\n111 全員が裸で、顔は傷ついているのを見ました。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-109 私は見つめることに集中していましたが、
-110 その沼地で泥だらけの人々、
-111 全員が裸で、顔は傷ついているのを見ました。
+109 私は注意深く観察していたが、
+110 その沼の中で泥だらけの人々を見た。
+111 彼らは皆裸で、顔は傷ついていた。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 112/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 112 Queste si percotean non pur con mano,
 113 ma con la testa e col petto e coi piedi,
 114 troncandosi co’ denti a brano a brano.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "112 彼女らは手だけでなく、\n113 頭、胸、足で互いに打ち合い、\n114 歯で引き裂いてバラバラにします。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-112 彼女らは手だけでなく、
-113 頭、胸、足で互いに打ち合い、
-114 歯で引き裂いてバラバラにします。
+112 彼らは手だけでなく、
+113 頭、胸、足でも互いに殴り合い、
+114 歯で互いの体を切り裂いていた。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 115/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 115 Lo buon maestro disse: «Figlio, or vedi
 116 l’anime di color cui vinse l’ira;
@@ -728,18 +614,17 @@ Please translate literally into Japanese.
 120 come l’occhio ti dice, u’ che s’aggira.
 </prompt>
 <result>
-115 善き師は言いました。「我が子よ、今、あなたは怒りに負けた人々の魂を見なさい。
-117 そして、あなたは確かに信じなければなりません。
-
-118 水の下にはため息をつく人々がいて、
-119 この水を表面に湧き上がらせているのです。
-120 あなたの目があなたに告げるように、それがどこをさまよっているのか。」
+115 善良な師は言った。「我が子よ、今、
+116 怒りに負けた人々の魂を見よ。
+117 そして、水の下にはため息をつく人々がいて、
+118 この水を表面に湧き上がらせていることを、
+119 あなたの目が見ているところから分かるだろう。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 121/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 121 Fitti nel limo dicon: “Tristi fummo
 122 ne l’aere dolce che dal sol s’allegra,
@@ -748,17 +633,17 @@ Please translate literally into Japanese.
 124 or ci attristiam ne la belletta negra”.
 </prompt>
 <result>
-121 泥の中に沈んで、彼らは言います。「私たちは悲惨でした。
-122 太陽が喜びを与える甘い空気の中で、
-123 怒りの煙を内に秘めていました。
+121 泥の中に埋もれた彼らは言う。「私たちは、
+122 太陽が喜びをもたらす甘い空気の中で悲惨だった。
+123 私たちは内に怒りの煙を宿していた。
 
-124 今、私たちは黒い化粧品の中で悲しんでいます。」
+124 今、私たちは黒い泥の中で悲しんでいる。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 125/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 125 Quest’ inno si gorgoglian ne la strozza,
 126 ché dir nol posson con parola integra».
@@ -768,22 +653,22 @@ Please translate literally into Japanese.
 129 con li occhi vòlti a chi del fango ingozza.
 </prompt>
 <result>
-125 彼らは完全な言葉でそれを言うことができないので、
-126 この賛美歌を喉の中でつぶやきます。」
+125 彼らは完全な言葉で言うことができないので、
+126 この賛歌を喉の中でつぶやいている。」
 
-127 私たちは汚れた水たまりを大きく回り、
-128 乾いた岸と真ん中の間を、
-129 泥を飲み込む人々の方を向いて歩きました。
+127 私たちは汚れた沼から大きな弧を描き、
+128 乾いた岸と中央の間を回り、
+129 泥を飲み込む者たちの方を向いて目を凝らした。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 7] 130/130</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 130 Venimmo al piè d’una torre al da sezzo.
 </prompt>
 <result>
-130 私たちはついに塔のふもとにたどり着きました。
+130 私たちはついに塔のふもとにたどり着いた。
 </result>
 </query>

@@ -2,35 +2,34 @@
 <query>
 <info>[Inferno Canto 33] 1/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 1 La bocca sollevò dal fiero pasto
 2 quel peccator, forbendola a’ capelli
 3 del capo ch’elli avea di retro guasto.
 </prompt>
 <result>
-1 その罪人は、その恐ろしい食事から口を上げ、
-2 自分の後ろで傷ついていた頭の髪でそれを拭った。
-3
+1 その罪人は、その恐ろしい食事から口を上げ
+2 自分の後ろで傷ついた頭の髪でそれを拭った
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 4/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 4 Poi cominciò: «Tu vuo’ ch’io rinovelli
 5 disperato dolor che ’l cor mi preme
 6 già pur pensando, pria ch’io ne favelli.
 </prompt>
 <result>
-4 それから彼は話し始めた。「あなたは、私が絶望的な苦しみを新たに語ってほしいと望んでいるが、その苦しみは、私が話す前から考えているだけで、私の心を締め付けている。」
+4 それから彼は話し始めた。「あなたは、私が絶望的な苦しみを新たに語ってほしいと望んでいるのか。そのことについて話す前に、それを考えるだけで、私の心は押しつぶされそうだ。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 7/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 7 Ma se le mie parole esser dien seme
 8 che frutti infamia al traditor ch’i’ rodo,
@@ -40,7 +39,7 @@ Please translate literally into Japanese.
 index: 0
 content {
   parts {
-    text: "7 しかし、私の言葉が、私が憎んでいる裏切り者に不名誉をもたらす実を結ぶ種となるのであれば、あなたは私が同時に話し、涙を流すのを見るだろう。"
+    text: "7 しかし、私の言葉が、私が噛み砕いている裏切り者に不名誉をもたらす実を結ぶ種となるのであれば、\n8 あなたは、私が話し、同時に涙を流すのを見るだろう。"
   }
   role: "model"
 }
@@ -63,67 +62,43 @@ safety_ratings {
 }
 </error>
 <result>
-7 しかし、私の言葉が、私が憎んでいる裏切り者に不名誉をもたらす実を結ぶ種となるのであれば、あなたは私が同時に話し、涙を流すのを見るだろう。
+7 しかし、私の言葉が、私が噛み砕いている裏切り者に不名誉をもたらす実を結ぶ種となるのであれば、
+8 あなたは、私が話し、同時に涙を流すのを見るだろう。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 10/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 10 Io non so chi tu se’ né per che modo
 11 venuto se’ qua giù; ma fiorentino
 12 mi sembri veramente quand’ io t’odo.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 あなたが誰なのか、またどのような方法でここに来たのか、私は知らない。しかし、あなたの話を聞くと、あなたは本当にフィレンツェ人のようだ。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-10 あなたが誰なのか、またどのような方法でここに来たのか、私は知らない。しかし、あなたの話を聞くと、あなたは本当にフィレンツェ人のようだ。
+10 あなたが誰なのか、またどのようにして
+11 ここへ来たのかはわかりません。しかし、あなたの話を聞くと、あなたは本当にフィレンツェ人のようです。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 13/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 13 Tu dei saper ch’i’ fui conte Ugolino,
 14 e questi è l’arcivescovo Ruggieri:
 15 or ti dirò perché i son tal vicino.
 </prompt>
 <result>
-13 あなたは、私がウゴリーノ伯爵であったことを知るべきだ。
-14 そして、これはルジェーリ大司教だ。
-15 今から、なぜ私が彼とこんなに親しいのかを話そう。
+13 私はウーゴリーノ伯爵だったことを知っておくべきだ。
+14 そして、これはルッジェーリ大司教だ。
+15 今から、なぜ私がこんなにも近くに彼がいるのかを話そう。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 16/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 16 Che per l’effetto de’ suo’ mai pensieri,
 17 fidandomi di lui, io fossi preso
@@ -134,17 +109,19 @@ Please translate literally into Japanese.
 21 udirai, e saprai s’e’ m’ha offeso.
 </prompt>
 <result>
-16 彼の邪悪な考えの結果、私は彼を信頼して捕らえられ、
-17 その後殺されたことは言うまでもない。
+16 彼の考えの結果として、
+17 私は彼を信頼し、捕らえられ、
+18 その後殺された。言うまでもないことだ。
 
-19 しかし、あなたがまだ聞いていないこと、つまり私の死がいかに残酷であったかについては、
-20 あなたは聞いて、彼が私を傷つけたかどうかを知るだろう。
+19 しかし、あなたがまだ聞いていないこと、
+20 つまり私の死がいかに残酷であったか、
+21 それを聞いて、彼が私を傷つけたかどうかを知ることになるだろう。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 22/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 22 Breve pertugio dentro da la Muda,
 23 la qual per me ha ’l titol de la fame,
@@ -155,74 +132,74 @@ Please translate literally into Japanese.
 27 che del futuro mi squarciò ’l velame.
 </prompt>
 <result>
-22 ムーダの内部にある小さな穴は、
-23 私のために飢餓の称号を持ち、
-24 そして他の人も閉じ込められるべきものであるが、
+22 ムーダの小さな穴は、
+23 それは私にとっては飢餓の称号を持ち、
+24 そして他の人も閉じ込められるべきである。
 
-25 その穴を通して、私はすでに多くの月を見ていた。私が悪夢を見て、
-26 未来のベールを引き裂いたときだ。
+25 その穴を通して、私はすでに多くの月を見ていた。私が悪夢を見たとき、
+27 それは未来のベールを引き裂いた。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 28/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 28 Questi pareva a me maestro e donno,
 29 cacciando il lupo e ’ lupicini al monte
 30 per che i Pisan veder Lucca non ponno.
 </prompt>
 <result>
-28 彼は私にとって師であり主人であるように思われ、
-29 山で狼と子狼を狩り、
-30 ピサの人々がルッカを見ることができないようにした。
+28 彼は私にとって師であり、主人であるように思われた。
+29 山でオオカミとその子を追いかけ、
+30 ピサ人がルッカを見ることができないようにするためだ。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 31/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 31 Con cagne magre, studïose e conte
 32 Gualandi con Sismondi e con Lanfranchi
 33 s’avea messi dinanzi da la fronte.
 </prompt>
 <result>
-31 ガランディは、やせ細った犬たちを連れて、注意深く、慎重に、
-32 シスモンディとランフランキと一緒に、自分の前に立たせていた。
+31 ガリャンディは、やせ細り、熱心で、気品のある猟犬を連れて、
+32 シスモンディとランフランキと一緒に、正面に配置していた。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 34/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 34 In picciol corso mi parieno stanchi
 35 lo padre e ’ figli, e con l’agute scane
 36 mi parea lor veder fender li fianchi.
 </prompt>
 <result>
-34 短い追跡で、私は父親と息子たちが疲れ果てているように見え、鋭い牙で彼らの脇腹を切り裂いているように見えた。
+34 短い追跡で、私は父親と息子たちが疲れ果てているように見えた。そして、鋭い牙で、私は彼らが自分の脇腹を切り裂くのを見ているように思えた。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 37/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 37 Quando fui desto innanzi la dimane,
 38 pianger senti’ fra ’l sonno i miei figliuoli
 39 ch’eran con meco, e dimandar del pane.
 </prompt>
 <result>
-37 翌朝、目覚める前に、
-38 私は一緒にいた息子たちが眠りの中で泣いているのを聞き、パンを求めているのが聞こえた。
+37 夜明け前に目覚めたとき、
+38 私は自分の息子たちが私のそばで泣いているのを聞いた。彼らは私と一緒にいて、パンを求めていた。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 40/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 40 Ben se’ crudel, se tu già non ti duoli
 41 pensando ciò che ’l mio cor s’annunziava;
@@ -237,48 +214,49 @@ Please translate literally into Japanese.
 48 nel viso a’ mie’ figliuoi sanza far motto.
 </prompt>
 <result>
-40 もしあなたが、私の心が予感していたことを考えて、まだ悲しんでいないのであれば、あなたは残酷だ。
-42 もしあなたが泣かないのであれば、あなたは普段何のために泣くのか？
+40 もしあなたが、私の心が予感していたことを考えて、まだ悲しんでいないのであれば、あなたは残酷です。
+41 もしあなたが泣かないのであれば、あなたは普段何のために泣くのですか？
 
-43 彼らはすでに起きていて、食べ物が運ばれてくるはずの時間が近づいていた。
-45 そして、それぞれの夢のために、誰もが疑っていた。
+42 彼らはすでに起きていて、食事が運ばれてくる時間が近づいていました。
+43 そして、それぞれの夢のために、誰もが疑っていました。
 
-46 そして私は、恐ろしい塔の下の扉が鍵をかけられるのを聞いた。そこで私は、
-47 何も言わずに、息子たちの顔を見た。
+44 そして私は、恐ろしい塔の下のドアが鍵をかけられるのを聞いた。そこで私は、
+45 一言も発せずに、自分の子供たちの顔を見ました。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 49/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 49 Io non piangëa, sì dentro impetrai:
 50 piangevan elli; e Anselmuccio mio
 51 disse: “Tu guardi sì, padre! che hai?”.
 </prompt>
 <result>
-49 私は泣かなかった。私はそれほどまでに心を固めていた。
-50 彼らは泣いていた。そして私の息子アンセルムッチョは言った。「父さん、あなたはとても見つめているけど、どうしたの？」
+49 私は泣きませんでした。私はそれほどまでに心を固くしていました。
+50 彼らは泣いていました。そして私の小さなアンセルムは言いました。
+51 「父さん、そんなにじっと見ているのはなぜですか？どうしたの？」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 52/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 52 Perciò non lagrimai né rispuos’ io
 53 tutto quel giorno né la notte appresso,
 54 infin che l’altro sol nel mondo uscìo.
 </prompt>
 <result>
-52 だから私はその日もその次の夜も泣かず、答えもしなかった。
-54 もう一つの太陽が世界に昇るまで。
+52 だから私はその日も次の夜も泣きもせず、答えもしませんでした。
+53 もう一つの太陽が世界に昇るまで。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 55/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 55 Come un poco di raggio si fu messo
 56 nel doloroso carcere, e io scorsi
@@ -293,18 +271,20 @@ Please translate literally into Japanese.
 63 queste misere carni, e tu le spoglia”.
 </prompt>
 <result>
-55 わずかな光が悲惨な牢獄に入り、私が4つの顔に自分の姿を見たとき、
+55 わずかな光が
+56 苦痛の監獄に入り、私は
+57 4つの顔に自分の姿を見たとき、
 
-58 私は悲しみで両手を噛んだ。
-59 そして彼らは、私が食べることを望んでそうしていると勘違いして、すぐに立ち上がり、
+58 私は悲しみで両手を噛みました。
+59 そして彼らは、私がそれを食べることを望んでそうしていると信じて、すぐに立ち上がり、
 
-60 「父さん、あなたが私たちを食べるなら、私たちはもっと悲しみを和らげることができます。あなたは私たちにこのみじめな肉を着せ、そしてあなたはそれを脱がせるのです」と言った。
+60 「父さん、あなたが私たちを食べるなら、私たちはそれほど悲しくありません。あなたは私たちにこのみじめな肉を着せ、そしてあなたはそれを脱がせます」と言いました。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 64/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 64 Queta’mi allor per non farli più tristi;
 65 lo dì e l’altro stemmo tutti muti;
@@ -315,17 +295,19 @@ Please translate literally into Japanese.
 69 dicendo: “Padre mio, ché non m’aiuti?”.
 </prompt>
 <result>
-64 私は彼らをさらに悲しませないように、そのとき静かになった。
-65 私たちは一日ともう一日、皆無言で過ごした。ああ、固い大地よ、なぜあなたは開かなかったのか？
+64 私は彼らをさらに悲しませないように、そのとき静かになりました。
+65 その日と次の日は、私たちは皆無言でした。
+66 ああ、固い大地よ、なぜあなたは開かなかったのか？
 
-66 4日目に達したとき、
-68 ガッドが私の足元に倒れ込み、「父さん、なぜ助けてくれないの？」と言った。
+67 4日目が来たとき、
+68 ガッドが私の足元に倒れ込み、
+69 「父さん、なぜ助けてくれないの？」と言いました。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 70/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 70 Quivi morì; e come tu mi vedi,
 71 vid’ io cascar li tre ad uno ad uno
@@ -335,17 +317,17 @@ Please translate literally into Japanese.
 74 e due dì li chiamai, poi che fur morti.
 </prompt>
 <result>
-70 そこで彼は死んだ。そしてあなたが私を見るように、
-71 私は5日目と6日目の間に、3人が一人ずつ倒れるのを見た。そこで私は、
+70 そこで彼は死にました。そしてあなたが私を見るように、
+71 私は5日目と6日目の間に、3人が次々と倒れるのを見ました。そこで私は、
 
-73 すでに盲目になって、一人ひとりの上を這いずり回り、
-74 彼らが死んでから2日間、彼らを呼んだ。
+73 すでに盲目になって、一人ひとりの上を這い回り、
+74 彼らが死んでから2日間、私は彼らを呼びました。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 75/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 75 Poscia, più che ’l dolor, poté ’l digiuno».
 
@@ -354,16 +336,16 @@ Please translate literally into Japanese.
 78 che furo a l’osso, come d’un can, forti.
 </prompt>
 <result>
-75 その後、悲しみよりも断食が強くなった。」
+75 その後、苦しみよりも、空腹が勝りました」。
 
 76 彼はそう言うと、ねじれた目で、
-77 犬のように骨に強い歯で、惨めな頭蓋骨を再びつかんだ。
+77 犬のように骨に食い込んだ哀れな頭蓋骨を歯で再びつかみました。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 79/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 79 Ahi Pisa, vituperio de le genti
 80 del bel paese là dove ’l sì suona,
@@ -381,7 +363,7 @@ Please translate literally into Japanese.
 index: 0
 content {
   parts {
-    text: "79 ああ、ピサよ、美しい国で「はい」と言う人々の恥辱よ、\n80 あなたの隣人があなたを罰することをためらっているなら、\n\n82 カプラーヤとゴルゴーナを動かし、\n83 アルノ川の河口に垣根を作り、\n84 すべての人があなたの中で溺れ死ぬように！\n\n85 ウゴリーノ伯爵が城を裏切ったという噂があったとしても、\n86 あなたは彼の息子たちをそのような十字架にかけるべきではなかった。"
+    text: "79 ああ、ピサよ、美しい国で「はい」が聞こえる場所の民の恥辱よ、\n80 あなたの隣人があなたを罰することをためらっているなら、\n\n82 カプラーヤとゴルゴーナを動かし、\n83 アルノ川の河口に垣根を作り、\n84 すべての人があなたの中で溺れ死ぬように！\n\n85 ウゴリーノ伯爵があなたの城を裏切ったという噂があったとしても、\n86 あなたは彼の息子たちをそのような十字架にかけるべきではなかった。"
   }
   role: "model"
 }
@@ -404,50 +386,51 @@ safety_ratings {
 }
 </error>
 <result>
-79 ああ、ピサよ、美しい国で「はい」と言う人々の恥辱よ、
+79 ああ、ピサよ、美しい国で「はい」が聞こえる場所の民の恥辱よ、
 80 あなたの隣人があなたを罰することをためらっているなら、
 
 82 カプラーヤとゴルゴーナを動かし、
 83 アルノ川の河口に垣根を作り、
 84 すべての人があなたの中で溺れ死ぬように！
 
-85 ウゴリーノ伯爵が城を裏切ったという噂があったとしても、
+85 ウゴリーノ伯爵があなたの城を裏切ったという噂があったとしても、
 86 あなたは彼の息子たちをそのような十字架にかけるべきではなかった。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 88/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 88 Innocenti facea l’età novella,
 89 novella Tebe, Uguiccione e ’l Brigata
 90 e li altri due che ’l canto suso appella.
 </prompt>
 <result>
-88 幼い年齢は彼らを無実なものにし、
-89 新しいテーベ、ウグッチオーネ、ブリガタ、
+88 若さは彼らを無実なものにし、
+89 新しいテーベ、ウグッチオーネとブリガタ、
 90 そして歌の中で上に呼ばれている他の2人。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 91/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 91 Noi passammo oltre, là ’ve la gelata
 92 ruvidamente un’altra gente fascia,
 93 non volta in giù, ma tutta riversata.
 </prompt>
 <result>
-91 私たちは、凍てつく氷が別の集団を荒々しく包み、
-92 下を向いているのではなく、すべてが倒れている場所を通り過ぎた。
+91 私たちはさらに進んで、凍てつく氷が
+92 別の人々を荒々しく包み込み、
+93 下を向いているのではなく、すべてが倒れている場所へ。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 94/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 94 Lo pianto stesso lì pianger non lascia,
 95 e ’l duol che truova in su li occhi rintoppo,
@@ -459,18 +442,18 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 94 そこで泣くこと自体が泣くことを許さず、
-95 そして目に障害物を見つける悲しみは、
-96 内側に転じて苦しみを増大させる。
+95 そして目の中で障害を見つける悲しみは、
+96 内側に向きを変えて苦しみを大きくします。
 
 97 最初の涙が固まり、
-98 クリスタルのバイザーのように、
-99 まぶたの真下のカップ全体を満たす。
+98 そしてクリスタルのバイザーのように、
+99 まぶたのしたのカップ全体を満たします。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 100/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 100 E avvegna che, sì come d’un callo,
 101 per la freddura ciascun sentimento
@@ -482,32 +465,33 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 100 そして、たこのできもののように、
-101 寒さのために私の顔の場所のすべての感覚が失われたとしても、
+101 寒さのために私の顔の場所のすべての感覚が
+102 失われていたとしても、
 
-103 私はすでに少し風が吹いているように感じていた。
-104 そこで私は言った。「私の先生、これは誰が動かしているのですか？
+103 私はすでに少し風が吹いているように感じていました。
+104 そこで私は尋ねました。「私の先生、これは誰が動かしているのですか？
 105 ここにはすべての蒸気が消えていないのですか？」。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 106/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 106 Ond’ elli a me: «Avaccio sarai dove
 107 di ciò ti farà l’occhio la risposta,
 108 veggendo la cagion che ’l fiato piove».
 </prompt>
 <result>
-106 そこで彼は私に言った。「あなたはすぐに、
-107 目があなたに答えをさせる場所にいるでしょう。
-108 息を吹きかける原因を見ます。」
+106 そこで彼は私に言いました。「あなたはすぐに、
+107 そこであなたの目はあなたに答えを与え、
+108 息を降らせる原因を見ます。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 109/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 109 E un de’ tristi de la fredda crosta
 110 gridò a noi: «O anime crudeli
@@ -518,62 +502,62 @@ Please translate literally into Japanese.
 114 un poco, pria che ’l pianto si raggeli».
 </prompt>
 <result>
-109 そして、冷たい氷の皮の1人が、
-110 私たちに叫んだ。「ああ、残酷な魂よ、
-111 あなたが最後の場所を与えられたほどに、
+109 そして、冷たい地殻の悲惨な者の1人が
+110 私たちに叫びました。「ああ、残酷な魂よ、
+111 あなた方に最後の場所が与えられたほどに、
 
-112 私の顔から硬いベールを取り除いてください。
-113 そうすれば、涙が凍る前に、私の心を満たす悲しみを少し吐き出すことができます。」
+112 私の顔から固いベールを取り除いてください。
+113 涙が凍る前に、私の心を満たす悲しみを少し吐き出させてください。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 115/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 115 Per ch’io a lui: «Se vuo’ ch’i’ ti sovvegna,
 116 dimmi chi se’, e s’io non ti disbrigo,
 117 al fondo de la ghiaccia ir mi convegna».
 </prompt>
 <result>
-115 そこで私は彼に言った。「私があなたを思い出してほしいのであれば、
-116 あなたが誰なのか教えてください。そして、私があなたを解放しなければ、
+115 そこで私は彼に言いました。「私があなたを思い出してほしいのであれば、
+116 あなたが誰なのかを教えてください。そして、私があなたを解放しなければ、
 117 氷の底に行かなければなりません。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 118/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 118 Rispuose adunque: «I’ son frate Alberigo;
 119 i’ son quel da le frutta del mal orto,
 120 che qui riprendo dattero per figo».
 </prompt>
 <result>
-118 そこで彼は答えた。「私は修道士アルベリゴです。
+118 そこで彼は答えました。「私は修道士アルベリゴです。
 119 私は悪い果樹園の果物の男です。
-120 ここで私はイチジクのためにナツメヤシを収穫しています。」
+120 ここで私はイチジクのためにナツメヤシを受け取っています。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 121/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 121 «Oh», diss’ io lui, «or se’ tu ancor morto?».
 122 Ed elli a me: «Come ’l mio corpo stea
 123 nel mondo sù, nulla scïenza porto.
 </prompt>
 <result>
-121 「ああ」と私は彼に言った。「あなたはまだ死んでいるのですか？」
-122 そして彼は私に言った。「私の体が地上でどうなっているのか、私は何も知りません。
+121 「ああ」と私は彼に言いました。「あなたはまだ死んでいるのですか？」
+122 そして彼は私に言いました。「私の体が地上でどうなっているのか、私は何も知りません。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 124/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 124 Cotal vantaggio ha questa Tolomea,
 125 che spesse volte l’anima ci cade
@@ -581,13 +565,14 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 124 このトロメアにはそのような利点があり、
-125 魂がしばしばアトロポスがそれを動かす前にそこに落ちます。
+125 魂がしばしばそこに落ちます
+126 アトロポスがそれを動かす前に。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 127/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 127 E perché tu più volentier mi rade
 128 le ’nvetrïate lagrime dal volto,
@@ -598,15 +583,18 @@ Please translate literally into Japanese.
 132 mentre che ’l tempo suo tutto sia vòlto.
 </prompt>
 <result>
-127 そして、あなたがより喜んで私の凍った涙を私の顔から取り除くために、
-128 私がしたように魂が裏切ったとき、その体は悪魔によって奪われます。
-129 その後、その悪魔は、その時間が完全に経過するまでその体を支配します。
+127 そして、あなたがより喜んで私の凍った涙を私の顔から剃り落とすために、
+128 私がそうしたように魂が裏切ったとき、その体は
+129 悪魔によって奪われ、その後、その悪魔がその体を支配します。
+130 その時間がすべて終わるまで。
+
+131 その時間がすべて終わるまで。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 133/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 133 Ella ruina in sì fatta cisterna;
 134 e forse pare ancor lo corpo suso
@@ -616,7 +604,7 @@ Please translate literally into Japanese.
 index: 0
 content {
   parts {
-    text: "133 彼女はそのような穴に落ちます。\n134 そして、おそらく私の後ろから私を冬眠させる影の体はまだ上に現れているでしょう。"
+    text: "133 彼女はそのような貯水槽に落ちます。\n134 そしておそらく私の後ろから私を冬眠させる影の体はまだ上に現れているように見えます。"
   }
   role: "model"
 }
@@ -631,7 +619,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
+  probability: NEGLIGIBLE
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -639,43 +627,43 @@ safety_ratings {
 }
 </error>
 <result>
-133 彼女はそのような穴に落ちます。
-134 そして、おそらく私の後ろから私を冬眠させる影の体はまだ上に現れているでしょう。
+133 彼女はそのような貯水槽に落ちます。
+134 そしておそらく私の後ろから私を冬眠させる影の体はまだ上に現れているように見えます。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 136/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 136 Tu ’l dei saper, se tu vien pur mo giuso:
 137 elli è ser Branca Doria, e son più anni
 138 poscia passati ch’el fu sì racchiuso».
 </prompt>
 <result>
-136 あなたはそれを知るべきです。あなたが今まさに降りてきたのであれば。
-137 彼はブランカ・ドリア卿であり、彼がこのように閉じ込められてから何年も経っています。」
+136 あなたはそれを知るべきです。あなたが今降りてきたのであれば。
+137 彼はブランカ・ドリア卿であり、彼が閉じ込められてから何年も経っています。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 139/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 139 «Io credo», diss’ io lui, «che tu m’inganni;
 140 ché Branca Doria non morì unquanche,
 141 e mangia e bee e dorme e veste panni».
 </prompt>
 <result>
-139 「私は」と私は彼に言った。「あなたが私を騙していると思います。
+139 私は言いました。「あなたは私を騙していると思います。
 140 ブランカ・ドリアは決して死なず、
-141 食べたり、飲んだり、眠ったり、服を着たりしています。」
+141 食べ、飲み、眠り、服を着ています。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 142/157</info>
-<prompt>
-Please translate literally into Japanese.
+<prompt retry="true">
+Please translate each line literally into Japanese.
 
 142 «Nel fosso sù», diss’ el, «de’ Malebranche,
 143 là dove bolle la tenace pece,
@@ -685,32 +673,53 @@ Please translate literally into Japanese.
 146 nel corpo suo, ed un suo prossimano
 147 che ’l tradimento insieme con lui fece.
 </prompt>
+<error result="true">
+index: 0
+finish_reason: OTHER
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-142 「上の穴の中で」と彼は言った。「粘り強いピッチが沸騰するマレブランケの、
-143 ミケーレ・ザンケはまだ到着していませんでした。
-144 この男が悪魔を自分の代わりに残し、
-145 そして彼と一緒に裏切りを行った彼の隣人。」
+142「マレブランケの堀に」と彼は言った、「粘り気のあるピッチが煮えたぎる場所で、
+143 ミケーレ・ザンケはまだ到着していなかった、
+
+144 悪魔が彼の代わりにこの男を残し、
+145 そして彼の仲間が彼と一緒に裏切りを行った。」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 148/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 148 Ma distendi oggimai in qua la mano;
 149 aprimi li occhi». E io non gliel’ apersi;
 150 e cortesia fu lui esser villano.
 </prompt>
 <result>
-148 「しかし、今すぐここに手を伸ばしてください。
-149 私の目を開けてください。」そして私は彼を開きませんでした。
-150 そして、彼が無作法であることは彼にとって礼儀正しさでした。
+148 しかし今すぐこちらに手を伸ばしなさい。
+149 目を開けなさい。」私は目を開けなかった。
+150 そして彼が失礼だったのは礼儀正しさだった。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 151/157</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 151 Ahi Genovesi, uomini diversi
 152 d’ogne costume e pien d’ogne magagna,
@@ -723,13 +732,13 @@ Please translate literally into Japanese.
 157 e in corpo par vivo ancor di sopra.
 </prompt>
 <result>
-151 ああ、ジェノヴァ人よ、あらゆる習慣が異なり、あらゆる悪に満ちている人々よ、
-152 あなた方はなぜ世界に散らばっていないのですか？
+151 ああ、ジェノヴァ人よ、あらゆる習慣が異なり、あらゆる悪に満ちた人々よ、
+152 なぜお前たちは世界に散らばっていないのか？
 
-153 ロマーニャの最悪の精神で、
-154 私はあなたの一人を見つけました。彼の行為のために、
-155 魂はすでにコキュートスで水浴びをし、
+153 ロマーニャで最悪の精神を持った
+154 お前たちの一人を見つけたが、彼の行いによって
+155 彼の魂はすでにコキュートスで水浴びをし、
 
-156 そして体はまだ上では生きているように見えます。
+156 そして彼の肉体は地上でまだ生きているように見える。
 </result>
 </query>

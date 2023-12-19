@@ -2,7 +2,7 @@
 <query>
 <info>[Inferno Canto 6] 1/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 1 Al tornar de la mente, che si chiuse
 2 dinanzi a la pietà d’i due cognati,
@@ -13,36 +13,34 @@ Please translate literally into Japanese.
 6 e ch’io mi volga, e come che io guati.
 </prompt>
 <result>
-1 思いが戻ってくると、それは閉じられてしまった
-2 二人の義理の兄弟の慈悲の前に
-3 悲しみが私を完全に混乱させた
+1 2人の義兄弟の慈悲の前に
+2 心が閉じ、我に返ったとき
+3 悲しみに我はすっかり混乱した
 
-4 新たな苦しみと新たな苦しむ人々が
-5 私がどう動こうと、どう向きを変えようと、どう見ようとも
-6 私の周りに見える
+4 新たな苦しみと新たな苦しむ者たちが
+5 私がどう動こうと、どう向きを変えようと
+6 どう眺めようと、私の周りに見える
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 7/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 7 Io sono al terzo cerchio, de la piova
 8 etterna, maladetta, fredda e greve;
 9 regola e qualità mai non l’è nova.
 </prompt>
 <result>
-7 私は第三の圏にいる、永遠の雨の
-8 呪われた、冷たくて重い雨の
-9 規則と性質は決して変わらない
-
-※「etterna」は「eterna」の古い綴りです。
+7 私は第3の圏にいる、永遠の
+8 呪われた、冷たくて重い雨の中に
+9 規則や性質は決して変わらない
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 10/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 10 Grandine grossa, acqua tinta e neve
 11 per l’aere tenebroso si riversa;
@@ -52,14 +50,12 @@ Please translate literally into Japanese.
 10 大きな雹、汚れた水、雪が
 11 暗い空から降り注ぐ
 12 それを受ける大地は腐敗する
-
-※「pute」は「puzza」の古い綴りです。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 13/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 13 Cerbero, fiera crudele e diversa,
 14 con tre gole caninamente latra
@@ -67,34 +63,55 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 13 ケルベロス、残酷で異形の獣は
-14 三つの犬の頭で吠え立てる
-15 ここで溺れている人々の頭上で
-
-※「sommersa」は「sommersa」の古い綴りです。
+14 3つの犬の頭で吠え立てる
+15 ここに沈められた人々の群れに向かって
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 16/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 16 Li occhi ha vermigli, la barba unta e atra,
 17 e ’l ventre largo, e unghiate le mani;
 18 graffia li spirti ed iscoia ed isquatra.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "16 目は真っ赤で、髭は脂ぎっていて黒い\n17 腹は大きく、手には爪がある\n18 霊魂を引っ掻き、剥ぎ取り、引き裂く"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-16 目は真っ赤で、髭は脂ぎっていて黒く
-17 腹は大きく、爪は鋭い
+16 目は真っ赤で、髭は脂ぎっていて黒い
+17 腹は大きく、手には爪がある
 18 霊魂を引っ掻き、剥ぎ取り、引き裂く
-
-※「iscoia」は「scortica」の古い綴りです。
-※「isquatra」は「squarta」の古い綴りです。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 19/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 19 Urlar li fa la pioggia come cani;
 20 de l’un de’ lati fanno a l’altro schermo;
@@ -102,16 +119,14 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 19 雨は彼らを犬のように吠えさせる
-20 一方の側からもう一方の側に身を隠す
+20 彼らは片側からもう一方側に身を隠し
 21 哀れな罪人は頻繁にひっくり返る
-
-※「profani」は「dannati」の古い言い方です。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 22/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 22 Quando ci scorse Cerbero, il gran vermo,
 23 le bocche aperse e mostrocci le sanne;
@@ -119,17 +134,14 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 22 巨大な怪物ケルベロスが私たちを見ると
-23 口を開けて牙を見せた
+23 口を開けて牙をむき出しにした
 24 じっとしている肢体はなかった
-
-※「vermo」は「verme」の古い綴りです。
-※「sanne」は「zanne」の古い綴りです。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 25/115</info>
-<prompt retry="true">
-Please translate literally into Japanese.
+<prompt>
+Please translate each line literally into Japanese.
 
 25 E ’l duca mio distese le sue spanne,
 26 prese la terra, e con piene le pugna
@@ -139,7 +151,7 @@ Please translate literally into Japanese.
 index: 0
 content {
   parts {
-    text: "25 そして私の公爵は両手を広げ、\n26 土を取り、両手いっぱいに握って\n27 それを欲しがる筒の中に投げ入れた。"
+    text: "25 そして私の案内役は両手を広げ\n26 地面をつかみ、両手いっぱいにすくって\n27 それを貪欲な喉の奥に投げ入れた"
   }
   role: "model"
 }
@@ -154,7 +166,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
+  probability: LOW
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -162,15 +174,15 @@ safety_ratings {
 }
 </error>
 <result>
-25 そして私の公爵は両手を広げ、
-26 土を取り、両手いっぱいに握って
-27 それを欲しがる筒の中に投げ入れた。
+25 そして私の案内役は両手を広げ
+26 地面をつかみ、両手いっぱいにすくって
+27 それを貪欲な喉の奥に投げ入れた
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 28/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 28 Qual è quel cane ch’abbaiando agogna,
 29 e si racqueta poi che ’l pasto morde,
@@ -181,166 +193,134 @@ Please translate literally into Japanese.
 33 l’anime sì, ch’esser vorrebber sorde.
 </prompt>
 <result>
-28 吠えながら欲しがる犬は何か、
-29 そして餌を噛むと静かになり、
-30 ただそれをむさぼり食うことに専念し、争う、
+28 吠えながら獲物を欲しがる犬が
+29 獲物を噛むと静かになり
+30 ただそれをむさぼり食うことに専念して戦うように
 
-31 悪魔ケルベロスの汚い顔は、
-32 魂を震わせ、聞こえなくなればいいと願うほどだ。
+31 悪魔ケルベロスの汚れた顔もそうだった
+32 魂を吠え立てて、魂は耳が聞こえなくなればいいと願うほどだ
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 34/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 34 Noi passavam su per l’ombre che adona
 35 la greve pioggia, e ponavam le piante
 36 sovra lor vanità che par persona.
 </prompt>
 <result>
-34 我々は、激しい雨が影を落とす中を通り過ぎ、
-35 人のように見える彼らの虚しさの上に足を踏み入れた。
-
-36 我々は、激しい雨が影を落とす中を通り過ぎ、
-37 人のように見える彼らの虚しさの上に足を踏み入れた。
+34 私たちは重い雨が打ちつける影の上を通り過ぎ
+35 足をその虚ろさに載せたが、それは人のように見えた
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 37/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 37 Elle giacean per terra tutte quante,
 38 fuor d’una ch’a seder si levò, ratto
 39 ch’ella ci vide passarsi davante.
 </prompt>
 <result>
-37 彼女たちはみな地面に横たわっていたが、
-38 私たちが通り過ぎるのを目にした一人が、すぐに立ち上がって座った。
-
-38 彼女たちはみな地面に横たわっていたが、
-39 私たちが通り過ぎるのを目にした一人が、すぐに立ち上がって座った。
+37 彼女たちはみな地面に横たわっていたが
+38 1人だけが立ち上がって座った、私たちが目の前を通り過ぎるのを素早く見たので
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 40/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 40 «O tu che se’ per questo ’nferno tratto»,
 41 mi disse, «riconoscimi, se sai:
 42 tu fosti, prima ch’io disfatto, fatto».
 </prompt>
 <result>
-40 「あなたはこの地獄に引きずり込まれた人ですか」と、
-41 彼女は私に言った。「もしわかるなら、私を思い出してください。
-42 あなたは、私が滅びる前に、私を作った人です。」
-
-40 「あなたはこの地獄に引きずり込まれた人ですか」と、
-41 彼女は私に言った。「もしわかるなら、私を思い出してください。
-42 あなたは、私が滅びる前に、私を作った人です。」
+40 「ああ、この地獄に引きずり込まれたあなた」
+41 彼女は私に言った、「私を思い出してください、もしあなたが知っているなら：
+42 あなたは、私が滅びる前に、作られたのです」
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 43/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 43 E io a lui: «L’angoscia che tu hai
 44 forse ti tira fuor de la mia mente,
 45 sì che non par ch’i’ ti vedessi mai.
 </prompt>
 <result>
-43 そして私は彼に言った。「あなたの苦しみは、
-44 おそらく私の心からあなたを引き離しているのでしょう。
-45 なので、私はあなたに会ったことがないように思えます。
-
-43 そして私は彼に言った。「あなたの苦しみは、
-44 おそらく私の心からあなたを引き離しているのでしょう。
-45 なので、私はあなたに会ったことがないように思えます。
+43 そして私は彼に言った：「あなたの苦しみは
+44 おそらくあなたを私の心から引き離しているのでしょう、
+45 なので私はあなたに会ったことがないように思えます。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 46/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 46 Ma dimmi chi tu se’ che ’n sì dolente
 47 loco se’ messo, e hai sì fatta pena,
 48 che, s’altra è maggio, nulla è sì spiacente».
 </prompt>
 <result>
-46 しかし、あなたはなぜ、こんなにも悲惨な
-47 場所に置かれ、こんなにも苦しんでいるのか教えてください。
-48 もし他に大きな苦しみがあるとしても、これほど不快なものはありません。
-
-46 しかし、あなたはなぜ、こんなにも悲惨な
-47 場所に置かれ、こんなにも苦しんでいるのか教えてください。
-48 もし他に大きな苦しみがあるとしても、これほど不快なものはありません。
+46 しかし、あなたは誰なのか教えてください、あなたはとても悲惨な
+47 場所に置かれ、とてもひどい苦しみを受けています、
+48 もし他に大きな苦しみがあるとしても、それはそれほど不快ではありません」。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 49/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 49 Ed elli a me: «La tua città, ch’è piena
 50 d’invidia sì che già trabocca il sacco,
 51 seco mi tenne in la vita serena.
 </prompt>
 <result>
-49 そして彼は私に言った。「あなたの街は、
-50 嫉妬でいっぱいなので、袋はすでに溢れています。
-51 穏やかな人生の中で、私をその中に閉じ込めていました。
-
-49 そして彼は私に言った。「あなたの街は、
-50 嫉妬でいっぱいなので、袋はすでに溢れています。
-51 穏やかな人生の中で、私をその中に閉じ込めていました。
+49 そして彼は私に言った：「あなたの街は、とても嫉妬深く、袋がすでに溢れています、
+50 私を穏やかな人生に閉じ込めておきました。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 52/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 52 Voi cittadini mi chiamaste Ciacco:
 53 per la dannosa colpa de la gola,
 54 come tu vedi, a la pioggia mi fiacco.
 </prompt>
 <result>
-52 市民たちは私をチャッコと呼びました。
-53 貪欲という有害な罪のために、
-54 あなたがご覧のように、私は雨に打たれています。
-
-52 市民たちは私をチャッコと呼びました。
-53 貪欲という有害な罪のために、
-54 あなたがご覧のように、私は雨に打たれています。
+52 市民の皆さんは私をチャッコと呼びました：
+53 喉の渇きの有害な罪のために、
+54 あなたが見ているように、私は雨に打ちのめされています。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 55/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 55 E io anima trista non son sola,
 56 ché tutte queste a simil pena stanno
 57 per simil colpa». E più non fé parola.
 </prompt>
 <result>
-55 そして私は悲惨な魂ではなく、
-56 これらすべてが同様の罪のために同様の苦しみを受けています。」
-そしてそれ以上は何も言いませんでした。
-
-55 そして私は悲惨な魂ではなく、
-56 これらすべてが同様の罪のために同様の苦しみを受けています。」
-そしてそれ以上は何も言いませんでした。
+55 そして私は悲惨な魂だけではありません、
+56 これらすべてが同様の罪のために同様の苦しみを受けています」。そしてそれ以上は何も言いませんでした。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 58/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 58 Io li rispuosi: «Ciacco, il tuo affanno
 59 mi pesa sì, ch’a lagrimar mi ’nvita;
@@ -351,74 +331,90 @@ Please translate literally into Japanese.
 63 per che l’ha tanta discordia assalita».
 </prompt>
 <result>
-58 私は彼に答えました。「チャッコ、あなたの苦しみは、
-59 私が泣きたくなるほど私を苦しめています。
-60 しかし、もしあなたが知っているなら、教えてください。分裂した街の市民はどうなるのでしょうか。
-61 正義の人はいるのでしょうか。そして、なぜそんなに不和が襲ったのか教えてください。」
+58 私は彼に答えました：「チャッコ、あなたの苦しみは
+59 私が泣きたくなるほど私を苦しめます。
+60 しかし、もしあなたが知っているなら、教えてください、何が起こるのか
 
-58 私は彼に答えました。「チャッコ、あなたの苦しみは、
-59 私が泣きたくなるほど私を苦しめています。
-60 しかし、もしあなたが知っているなら、教えてください。分裂した街の市民はどうなるのでしょうか。
-61 正義の人はいるのでしょうか。そして、なぜそんなに不和が襲ったのか教えてください。」
+61 分裂した街の市民に。
+62 正義の人はいるのか。そして教えてください、なぜ
+63 それほど多くの不和がそれを襲ったのか」。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 64/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 64 E quelli a me: «Dopo lunga tencione
 65 verranno al sangue, e la parte selvaggia
 66 caccerà l’altra con molta offensione.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "64 そして彼は私に言った：「長い争いの後、\n65 彼らは血を流し、野蛮な党派は\n66 多くの攻撃で他方を追い出すでしょう。"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-64 そして彼は私に言った。「長い争いの後、
-65 血が流れ、野蛮な側は多くの攻撃で反対側を追放するでしょう。
-
-64 そして彼は私に言った。「長い争いの後、
-65 血が流れ、野蛮な側は多くの攻撃で反対側を追放するでしょう。
+64 そして彼は私に言った：「長い争いの後、
+65 彼らは血を流し、野蛮な党派は
+66 多くの攻撃で他方を追い出すでしょう。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 67/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 67 Poi appresso convien che questa caggia
 68 infra tre soli, e che l’altra sormonti
 69 con la forza di tal che testé piaggia.
 </prompt>
 <result>
-67 その後、この側は3つの太陽の間に倒れ、反対側は、
-68 今は媚びへつらう者の力で勝利する必要があります。
-
-67 その後、この側は3つの太陽の間に倒れ、反対側は、
-68 今は媚びへつらう者の力で勝利する必要があります。
+67 その後、この派閥は
+68 3つの太陽の間に倒れ、もう一方の派閥は
+69 今は媚びへつらう者の力で勝利するだろう。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 70/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 70 Alte terrà lungo tempo le fronti,
 71 tenendo l’altra sotto gravi pesi,
 72 come che di ciò pianga o che n’aonti.
 </prompt>
 <result>
-70 長い間、その側は額を高く上げ、
-71 反対側を重い重荷の下に置き続けます。
-72 それが泣こうと恥じようとお構いなしに。
-
-70 長い間、その側は額を高く上げ、
-71 反対側を重い重荷の下に置き続けます。
+70 長い間、その派閥は頭を高く上げ、
+71 もう一方の派閥を重い重荷の下に置き、
 72 それが泣こうと恥じようとお構いなしに。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 73/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 73 Giusti son due, e non vi sono intesi;
 74 superbia, invidia e avarizia sono
@@ -426,16 +422,14 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 73 正義の人は2人いますが、彼らは理解されていません。
-74 傲慢、嫉妬、強欲は、心を燃やす3つの火花です。
-
-73 正義の人は2人いますが、彼らは理解されていません。
-74 傲慢、嫉妬、強欲は、心を燃やす3つの火花です。
+74 傲慢、嫉妬、強欲は
+75 心を燃やす3つの火花です」。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 76/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 76 Qui puose fine al lagrimabil suono.
 77 E io a lui: «Ancor vo’ che mi ’nsegni
@@ -443,18 +437,14 @@ Please translate literally into Japanese.
 </prompt>
 <result>
 76 そこで彼は悲しみの音に終止符を打ちました。
-77 そして私は彼に言いました。「あなたは私にさらに教えてくれて、
-78 もっと話をしてくれることを望んでいます。
-
-76 そこで彼は悲しみの音に終止符を打ちました。
-77 そして私は彼に言いました。「あなたは私にさらに教えてくれて、
-78 もっと話をしてくれることを望んでいます。
+77 そして私は彼に言いました：「私はまだあなたが私に教えてくれることを望んでいます、
+78 そして私にさらに多くの話をさせてください。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 79/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 79 Farinata e ’l Tegghiaio, che fuor sì degni,
 80 Iacopo Rusticucci, Arrigo e ’l Mosca
@@ -465,44 +455,33 @@ Please translate literally into Japanese.
 84 se ’l ciel li addolcia o lo ’nferno li attosca».
 </prompt>
 <result>
-79 ファリナータとテッギアイオ、彼らはとても立派でした。
+79 ファリナータとテッギアイオ、とても立派な人々、
 80 ヤコポ・ルスティッチ、アルリゴとモスカ、
-81 そして善行に才能を発揮した他の人々。
+81 そして善行に知恵を働かせた他の人々、
 
 82 彼らがどこにいるのか教えてくれて、私が彼らを知ることができるようにしてください。
-83 天国が彼らを甘くしているのか、地獄が彼らを苦しめているのかを知りたいという大きな願望が私を締め付けています。
-
-79 ファリナータとテッギアイオ、彼らはとても立派でした。
-80 ヤコポ・ルスティッチ、アルリゴとモスカ、
-81 そして善行に才能を発揮した他の人々。
-
-82 彼らがどこにいるのか教えてくれて、私が彼らを知ることができるようにしてください。
-83 天国が彼らを甘くしているのか、地獄が彼らを苦しめているのかを知りたいという大きな願望が私を締め付けています。
+83 彼らが天国で甘やかされているのか、地獄で苦しめられているのかを知りたいという強い願望が私を締め付けています」。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 85/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 85 E quelli: «Ei son tra l’anime più nere;
 86 diverse colpe giù li grava al fondo:
 87 se tanto scendi, là i potrai vedere.
 </prompt>
 <result>
-85 そして彼は言った。「彼らは最も黒い魂の中にいます。
+85 そして彼は言いました：「彼らは最も黒い魂の中にいます。
 86 さまざまな罪が彼らを底に押しやっています。
-87 もしそこまで降りていけば、あなたは彼らを見ることができます。
-
-85 そして彼は言った。「彼らは最も黒い魂の中にいます。
-86 さまざまな罪が彼らを底に押しやっています。
-87 もしそこまで降りていけば、あなたは彼らを見ることができます。
+87 もしあなたがそこまで降りていけば、あなたはそこで彼らを見ることができます。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 88/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 88 Ma quando tu sarai nel dolce mondo,
 89 priegoti ch’a la mente altrui mi rechi:
@@ -511,36 +490,28 @@ Please translate literally into Japanese.
 <result>
 88 しかし、あなたが甘い世界にいるとき、
 89 あなたが私のことを他人の心に留めてくれることを願っています。
-90 私はこれ以上何も言いませんし、これ以上答えません。
-
-88 しかし、あなたが甘い世界にいるとき、
-89 あなたが私のことを他人の心に留めてくれることを願っています。
-90 私はこれ以上何も言いませんし、これ以上答えません。
+90 私はこれ以上何も言いませんし、これ以上あなたに答えません」。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 91/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 91 Li diritti occhi torse allora in biechi;
 92 guardommi un poco e poi chinò la testa:
 93 cadde con essa a par de li altri ciechi.
 </prompt>
 <result>
-91 そのとき、彼はまっすぐな目を斜めにそらしました。
+91 彼はまっすぐな目を斜めにそらしました。
 92 彼は私を少し見つめてから頭を下げました。
-93 彼はそれとともに他の盲目の人の隣に倒れました。
-
-91 そのとき、彼はまっすぐな目を斜めにそらしました。
-92 彼は私を少し見つめてから頭を下げました。
-93 彼はそれとともに他の盲目の人の隣に倒れました。
+93 彼は他の盲目の人々と並んで倒れました。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 94/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 94 E ’l duca disse a me: «Più non si desta
 95 di qua dal suon de l’angelica tromba,
@@ -551,27 +522,19 @@ Please translate literally into Japanese.
 99 udirà quel ch’in etterno rimbomba».
 </prompt>
 <result>
-94 そして案内人は私に言った。「この世では、
-95 天使のラッパの音から目覚めることはありません。
-96 敵の力がやってくるとき。
+94 そして案内人は私に言いました：「彼はもう目覚めません
+95 天使のラッパの音の向こう側から、
+96 敵の力がやってくるとき：
 
 97 誰もが悲惨な墓を見直し、
-98 肉体と姿を取り戻し、
-99 永遠に響き渡るものを聞くでしょう。」
-
-94 そして案内人は私に言った。「この世では、
-95 天使のラッパの音から目覚めることはありません。
-96 敵の力がやってくるとき。
-
-97 誰もが悲惨な墓を見直し、
-98 肉体と姿を取り戻し、
-99 永遠に響き渡るものを聞くでしょう。」
+98 自分の肉と姿を取り戻し、
+99 永遠に響き渡るものを聞くでしょう」。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 100/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 100 Sì trapassammo per sozza mistura
 101 de l’ombre e de la pioggia, a passi lenti,
@@ -582,61 +545,47 @@ Please translate literally into Japanese.
 105 o fier minori, o saran sì cocenti?».
 </prompt>
 <result>
-100 私たちは汚い影と雨の中をゆっくりと歩き、
-101 来世に少し触れました。
+100 私たちは影と雨の汚い混合物を通り抜けました、ゆっくりとした歩みで、
+102 来世に少し触れました。
 
-102 そこで私は言いました。「先生、これらの苦しみは、
-103 大いなる裁きの後に増すのでしょうか、
-104 それとも激しく減少するのでしょうか、それともそれほど激しくなるのでしょうか？」
-
-100 私たちは汚い影と雨の中をゆっくりと歩き、
-101 来世に少し触れました。
-
-102 そこで私は言いました。「先生、これらの苦しみは、
-103 大いなる裁きの後に増すのでしょうか、
-104 それとも激しく減少するのでしょうか、それともそれほど激しくなるのでしょうか？」
+103 私は言った：「先生、これらの苦しみは
+104 大いなる裁きの後に増すのでしょうか、
+105 それとも激しく減るのでしょうか、それともそれほど激しく燃えるのでしょうか？」。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 106/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 106 Ed elli a me: «Ritorna a tua scïenza,
 107 che vuol, quanto la cosa è più perfetta,
 108 più senta il bene, e così la doglienza.
 </prompt>
 <result>
-106 そして彼は私に言った。「あなたの知識に戻りなさい。
+106 そして彼は私に言いました：「あなたの知識に戻りなさい、
 107 それは、物事がより完璧であるほど、
-108 より多くの善と同様に苦しみを感じたいと考えています。
-
-106 そして彼は私に言った。「あなたの知識に戻りなさい。
-107 それは、物事がより完璧であるほど、
-108 より多くの善と同様に苦しみを感じたいと考えています。
+108 より善を感じ、そして同様に苦しみを感じたいと考えています。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 109/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 109 Tutto che questa gente maladetta
 110 in vera perfezion già mai non vada,
 111 di là più che di qua essere aspetta».
 </prompt>
 <result>
-109 この呪われた人々が真の完成に決して到達しないとしても、
-110 彼らは向こう側でこちらよりも完成することを期待しています。
-
-109 この呪われた人々が真の完成に決して到達しないとしても、
-110 彼らは向こう側でこちらよりも完成することを期待しています。
+109 この呪われた人々が真の完全さに達することは決してないとしても、
+110 彼らは向こう側でこちらよりも完全になることを期待しています」。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 6] 112/115</info>
 <prompt>
-Please translate literally into Japanese.
+Please translate each line literally into Japanese.
 
 112 Noi aggirammo a tondo quella strada,
 113 parlando più assai ch’i’ non ridico;
@@ -647,14 +596,8 @@ Please translate literally into Japanese.
 <result>
 112 私たちはその道をぐるぐると回り、
 113 私が言うよりもはるかに多くを話しました。
-114 私たちは降りる場所に到着しました。
+114 私たちは降りていく場所に到着しました。
 
-115 そこで私たちは冥界の王であるプルートーを見つけました。
-
-112 私たちはその道をぐるぐると回り、
-113 私が言うよりもはるかに多くを話しました。
-114 私たちは降りる場所に到着しました。
-
-115 そこで私たちは冥界の王であるプルートーを見つけました。
+115 そこで私たちは冥界の王、偉大な敵であるプルートを見つけました。
 </result>
 </query>
