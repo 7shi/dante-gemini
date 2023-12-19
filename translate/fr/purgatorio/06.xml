@@ -2,7 +2,7 @@
 <query>
 <info>[Purgatorio Canto 6] 1/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 1 Quando si parte il gioco de la zara,
 2 colui che perde si riman dolente,
@@ -17,23 +17,23 @@ Please translate literally into French.
 9 e così da la calca si difende.
 </prompt>
 <result>
-1 Quand on commence le jeu de dés,
+1 Quand commence le jeu de dés,
 2 celui qui perd reste affligé,
-3 répétant les fois, et triste il apprend ;
+3 répétant les lancers, et triste il apprend ;
 
 4 avec l'autre s'en va tout le monde ;
-5 qui va devant, et qui le prend par derrière,
-6 et qui de côté se le rappelle ;
+5 l'un va devant, et l'autre le prend par derrière,
+6 et l'autre à côté se le rappelle ;
 
-7 et il ne s'arrête pas, et il entend celui-ci et celui-là ;
-8 à qui il tend la main, il ne fait plus la queue ;
+7 et il ne s'arrête pas, et celui-ci et celui-là il entend ;
+8 à qui il tend la main, il ne se presse plus ;
 9 et ainsi il se défend de la foule.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 10/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 10 Tal era io in quella turba spessa,
 11 volgendo a loro, e qua e là, la faccia,
@@ -43,7 +43,7 @@ Please translate literally into French.
 index: 0
 content {
   parts {
-    text: "10 Tel j\'étais dans cette foule épaisse,\n11 tournant vers eux, et ici et là, le visage,\n12 et en promettant je me dégageais d\'elle."
+    text: "10 Tel j\'étais dans cette foule dense,\n11 tournant vers eux, et ici et là, le visage,\n12 et en promettant je me libérais d\'elle."
   }
   role: "model"
 }
@@ -58,7 +58,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
+  probability: NEGLIGIBLE
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -66,22 +66,22 @@ safety_ratings {
 }
 </error>
 <result>
-10 Tel j'étais dans cette foule épaisse,
+10 Tel j'étais dans cette foule dense,
 11 tournant vers eux, et ici et là, le visage,
-12 et en promettant je me dégageais d'elle.
+12 et en promettant je me libérais d'elle.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 13/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 13 Quiv’ era l’Aretin che da le braccia
 14 fiere di Ghin di Tacco ebbe la morte,
 15 e l’altro ch’annegò correndo in caccia.
 </prompt>
 <result>
-13 Ici était l'Arétin qui des bras
+13 Là était l'Aretin qui des bras
 14 fiers de Ghin di Tacco eut la mort,
 15 et l'autre qui se noya en courant à la chasse.
 </result>
@@ -89,22 +89,48 @@ Please translate literally into French.
 <query>
 <info>[Purgatorio Canto 6] 16/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 16 Quivi pregava con le mani sporte
 17 Federigo Novello, e quel da Pisa
 18 che fé parer lo buon Marzucco forte.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "16 Là priait les mains tendues\n17 Federigo Novello, et celui de Pise\n18 qui fit parer le bon Marzucco avec force."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
 16 Là priait les mains tendues
 17 Federigo Novello, et celui de Pise
-18 qui fit paraître le bon Marzucco fort.
+18 qui fit parer le bon Marzucco avec force.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 19/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 19 Vidi conte Orso e l’anima divisa
 20 dal corpo suo per astio e per inveggia,
@@ -119,7 +145,7 @@ Please translate literally into French.
 20 de son corps par haine et par envie,
 21 comme il le disait, non pour une faute commise ;
 
-22 Pierre de la Broce je dis ; et qu'y prenne garde,
+22 Je parle de Pierre de la Broccia ; et qu'elle y prenne garde,
 23 tant qu'elle est ici-bas, la dame de Brabant,
 24 afin qu'elle ne soit pas pour cela d'un pire troupeau.
 </result>
@@ -127,7 +153,7 @@ Please translate literally into French.
 <query>
 <info>[Purgatorio Canto 6] 25/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 25 Come libero fui da tutte quante
 26 quell’ ombre che pregar pur ch’altri prieghi,
@@ -143,22 +169,22 @@ Please translate literally into French.
 </prompt>
 <result>
 25 Dès que je fus libre de toutes ces
-26 ombres qui ne priaient que pour que d'autres prient,
-27 afin qu'elles deviennent saintes plus vite,
+26 ombres qui ne demandaient que d'autres prières,
+27 afin qu'elles s'empressent de devenir saintes,
 
 28 je commençai : « Il semble que tu me nies,
-29 ô ma lumière, exprimé dans un quelconque texte
+29 ô ma lumière, expressément dans un texte quelconque
 30 qu'un décret du ciel fléchisse une pieuse oraison ;
 
 31 et ces gens ne prient que pour cela :
 32 leur espérance serait-elle donc vaine,
-33 ou tes paroles ne me sont-elles pas bien claires ? ».
+33 ou bien tes paroles ne me sont-elles pas bien claires ? ».
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 34/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 34 Ed elli a me: «La mia scrittura è piana;
 35 e la speranza di costor non falla,
@@ -175,21 +201,21 @@ Please translate literally into French.
 <result>
 34 Et lui à moi : « Mon écriture est claire ;
 35 et l'espérance de ceux-ci ne fa pas défaut,
-36 si l'on y regarde bien avec un esprit sain ;
+36 si on la considère bien avec un esprit sain ;
 
 37 car le sommet du jugement ne s'abaisse pas
 38 parce qu'un feu d'amour accomplit en un instant
 39 ce qui doit satisfaire celui qui s'installe ici ;
 
 40 et là où j'ai fixé ce point,
-41 on ne réparait pas, par la prière, le défaut,
+41 on ne réparait pas, par la prière, un défaut,
 42 parce que la prière était séparée de Dieu.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 43/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 43 Veramente a così alto sospetto
 44 non ti fermar, se quella nol ti dice
@@ -204,7 +230,7 @@ Please translate literally into French.
 <query>
 <info>[Purgatorio Canto 6] 46/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 46 Non so se ’ntendi: io dico di Beatrice;
 47 tu la vedrai di sopra, in su la vetta
@@ -213,13 +239,13 @@ Please translate literally into French.
 <result>
 46 Je ne sais si tu comprends : je parle de Béatrice ;
 47 tu la verras là-haut, au sommet
-48 de cette montagne, riante et heureuse ».
+48 de cette montagne, riante et heureuse.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 49/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 49 E io: «Segnore, andiamo a maggior fretta,
 50 ché già non m’affatico come dianzi,
@@ -228,13 +254,13 @@ Please translate literally into French.
 <result>
 49 Et moi : « Seigneur, allons plus vite,
 50 car je ne m'épuise plus comme auparavant,
-51 et tu vois maintenant que la colline projette son ombre ».
+51 et tu vois déjà que la colline projette son ombre ».
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 52/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 52 «Noi anderem con questo giorno innanzi»,
 53 rispuose, «quanto più potremo omai;
@@ -243,13 +269,13 @@ Please translate literally into French.
 <result>
 52 « Nous irons avec ce jour devant nous »,
 53 répondit-il, « autant que nous le pourrons désormais ;
-54 mais le fait est d'une autre manière que tu ne le penses.
+54 mais le fait est d’une autre manière que tu ne l’imagines.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 55/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 55 Prima che sie là sù, tornar vedrai
 56 colui che già si cuopre de la costa,
@@ -257,14 +283,14 @@ Please translate literally into French.
 </prompt>
 <result>
 55 Avant que tu sois là-haut, tu verras revenir
-56 celui qui déjà se cache derrière la côte,
+56 celui qui déjà se cache derrière la colline,
 57 de sorte que tu ne brises pas ses rayons.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 58/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 58 Ma vedi là un’anima che, posta
 59 sola soletta, inverso noi riguarda:
@@ -272,14 +298,14 @@ Please translate literally into French.
 </prompt>
 <result>
 58 Mais vois là une âme qui, placée
-59 toute seule, nous regarde :
-60 celle-ci nous enseignera le chemin le plus rapide ».
+59 toute seule, regarde vers nous :
+60 celle-ci nous enseignera le chemin le plus court.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 61/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 61 Venimmo a lei: o anima lombarda,
 62 come ti stavi altera e disdegnosa
@@ -292,17 +318,17 @@ Please translate literally into French.
 <result>
 61 Nous vînmes à elle : ô âme lombarde,
 62 comme tu te tenais fière et dédaigneuse,
-63 et dans le mouvement de tes yeux honnête et lente !
+63 et dans le mouvement de tes yeux, honnête et lente !
 
 64 Elle ne nous disait rien,
-65 mais nous laissait passer, en nous regardant seulement
+65 mais nous laissait aller, en nous regardant seulement
 66 à la manière d'un lion lorsqu'il se repose.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 67/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 67 Pur Virgilio si trasse a lei, pregando
 68 che ne mostrasse la miglior salita;
@@ -321,8 +347,8 @@ Please translate literally into French.
 68 de nous montrer la meilleure montée ;
 69 et celle-ci ne répondit pas à sa demande,
 
-70 mais nous interrogea sur notre pays et notre vie ;
-71 et le doux duc commença « Mantoue... », et l'ombre, toute en elle-même retirée,
+70 mais elle nous interrogea sur notre pays et sur notre vie ;
+71 et le doux duc commença : « Mantoue... », et l'ombre, toute recueillie en elle-même,
 
 73 se leva vers lui de l'endroit où elle se tenait auparavant,
 74 en disant : « Ô Mantouan, je suis Sordello
@@ -332,7 +358,7 @@ Please translate literally into French.
 <query>
 <info>[Purgatorio Canto 6] 76/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 76 Ahi serva Italia, di dolore ostello,
 77 nave sanza nocchiere in gran tempesta,
@@ -347,7 +373,7 @@ Please translate literally into French.
 84 di quei ch’un muro e una fossa serra.
 </prompt>
 <result>
-76 Ah, Italie serve, auberge de la douleur,
+76 Ah ! Italie serve, demeure de la douleur,
 77 navire sans nocher dans une grande tempête,
 78 non pas dame de provinces, mais bordel !
 
@@ -355,7 +381,7 @@ Please translate literally into French.
 80 rien que pour le doux son de sa terre,
 81 à faire fête à son concitoyen ici ;
 
-82 et maintenant en toi tes vivants ne sont pas sans guerre,
+82 et maintenant, en toi, tes vivants ne sont pas sans guerre,
 83 et l'un ronge l'autre
 84 de ceux qu'un mur et un fossé enferment.
 </result>
@@ -363,7 +389,7 @@ Please translate literally into French.
 <query>
 <info>[Purgatorio Canto 6] 85/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 85 Cerca, misera, intorno da le prode
 86 le tue marine, e poi ti guarda in seno,
@@ -373,7 +399,7 @@ Please translate literally into French.
 index: 0
 content {
   parts {
-    text: "85 Cherche, misérable, autour de tes rivages\n86 tes marines, et puis regarde en ton sein,\n87 si quelque partie en toi jouit de la paix."
+    text: "85 Cherche, misérable, autour de tes rivages\n86 tes marines, et puis regarde en ton sein,\n87 si quelque partie de toi jouit de la paix."
   }
   role: "model"
 }
@@ -398,20 +424,20 @@ safety_ratings {
 <result>
 85 Cherche, misérable, autour de tes rivages
 86 tes marines, et puis regarde en ton sein,
-87 si quelque partie en toi jouit de la paix.
+87 si quelque partie de toi jouit de la paix.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 88/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 88 Che val perché ti racconciasse il freno
 89 Iustinïano, se la sella è vòta?
 90 Sanz’ esso fora la vergogna meno.
 </prompt>
 <result>
-88 À quoi bon que Justinien te raccommodât le frein,
+88 À quoi bon que Justinien t'ait raccommodé le frein,
 89 si la selle est vide ?
 90 Sans lui, la honte serait moindre.
 </result>
@@ -419,7 +445,7 @@ Please translate literally into French.
 <query>
 <info>[Purgatorio Canto 6] 91/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 91 Ahi gente che dovresti esser devota,
 92 e lasciar seder Cesare in la sella,
@@ -430,9 +456,9 @@ Please translate literally into French.
 96 poi che ponesti mano a la predella.
 </prompt>
 <result>
-91 Ah, peuple qui devrais être dévot,
+91 Ah ! peuple qui devrais être dévot,
 92 et laisser César s'asseoir en selle,
-93 si tu comprends bien ce que Dieu te fait remarquer,
+93 si tu comprends bien ce que Dieu te fait savoir,
 
 94 regarde comme cette bête est devenue méchante
 95 pour ne pas être corrigée par les éperons,
@@ -442,7 +468,7 @@ Please translate literally into French.
 <query>
 <info>[Purgatorio Canto 6] 97/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 97 O Alberto tedesco ch’abbandoni
 98 costei ch’è fatta indomita e selvaggia,
@@ -460,14 +486,14 @@ Please translate literally into French.
 index: 0
 content {
   parts {
-    text: "97 Ô Albert l\'Allemand qui abandonnes\n98 celle-ci qui est devenue indomptable et sauvage,\n99 et qui devrais enfourcher ses arçons,\n\n100 qu\'un juste jugement tombe des étoiles\n101 sur ton sang, et qu\'il soit nouveau et évident,\n102 de sorte que ton successeur en ait peur !\n\n103 Qu\'avez-vous souffert, toi et ton père,\n104 par cupidité de ces régions,\n105 pour que le jardin de l\'empire soit désert."
+    text: "97 Ô Albert l\'Allemand qui abandonnes\n98 celle-ci qui est devenue indomptable et sauvage,\n99 et qui devrais enfourcher sa selle,\n\n100 qu\'un juste jugement tombe des étoiles\n101 sur ton sang, et qu\'il soit nouveau et évident,\n102 de sorte que ton successeur en ait peur !\n\n103 Que n\'avez-vous pas souffert, toi et ton père,\n104 par cupidité de ces régions,\n105 pour que le jardin de l\'empire soit désert."
   }
   role: "model"
 }
 finish_reason: SAFETY
 safety_ratings {
   category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
+  probability: HIGH
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
@@ -485,13 +511,13 @@ safety_ratings {
 <result>
 97 Ô Albert l'Allemand qui abandonnes
 98 celle-ci qui est devenue indomptable et sauvage,
-99 et qui devrais enfourcher ses arçons,
+99 et qui devrais enfourcher sa selle,
 
 100 qu'un juste jugement tombe des étoiles
 101 sur ton sang, et qu'il soit nouveau et évident,
 102 de sorte que ton successeur en ait peur !
 
-103 Qu'avez-vous souffert, toi et ton père,
+103 Que n'avez-vous pas souffert, toi et ton père,
 104 par cupidité de ces régions,
 105 pour que le jardin de l'empire soit désert.
 </result>
@@ -499,7 +525,7 @@ safety_ratings {
 <query>
 <info>[Purgatorio Canto 6] 106/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 106 Vieni a veder Montecchi e Cappelletti,
 107 Monaldi e Filippeschi, uom sanza cura:
@@ -530,7 +556,7 @@ Please translate literally into French.
 <query>
 <info>[Purgatorio Canto 6] 115/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 115 Vieni a veder la gente quanto s’ama!
 116 e se nulla di noi pietà ti move,
@@ -545,7 +571,7 @@ Please translate literally into French.
 <query>
 <info>[Purgatorio Canto 6] 118/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 118 E se licito m’è, o sommo Giove
 119 che fosti in terra per noi crucifisso,
@@ -560,23 +586,22 @@ Please translate literally into French.
 126 ogne villan che parteggiando viene.
 </prompt>
 <result>
-118 Et s'il m'est permis, ô souverain Jupiter
+118 Et s'il m'est permis, ô souverain Jupiter,
 119 qui fus crucifié sur terre pour nous,
 120 tes justes yeux sont-ils tournés ailleurs ?
 
-121 Ou est-ce une préparation que dans l'abîme
-122 de ton conseil tu fais pour quelque bien
+121 Ou est-ce une préparation que tu fais dans l'abîme
+122 de ton conseil pour un bien
 123 totalement séparé de notre entendement ?
 
 124 Car les cités d'Italie sont toutes pleines
-125 de tyrans, et chaque vilain qui vient à prendre parti
-126 devient un Marcel.
+125 de tyrans, et chaque vilain qui prend parti devient un Marcel.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 127/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 127 Fiorenza mia, ben puoi esser contenta
 128 di questa digression che non ti tocca,
@@ -584,14 +609,14 @@ Please translate literally into French.
 </prompt>
 <result>
 127 Ma Florence, tu peux bien être contente
-128 de cette digression qui ne te touche pas,
+128 de cette digression qui ne te concerne pas,
 129 grâce à ton peuple qui s'efforce.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 130/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 130 Molti han giustizia in cuore, e tardi scocca
 131 per non venir sanza consiglio a l’arco;
@@ -599,14 +624,14 @@ Please translate literally into French.
 </prompt>
 <result>
 130 Beaucoup ont la justice dans le cœur, et elle tarde à décocher
-131 pour ne pas venir sans réflexion à l'arc ;
-132 mais ton peuple l'a au bout de la bouche.
+131 pour ne pas venir à l'arc sans conseil ;
+132 mais ton peuple l'a au bout des lèvres.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 133/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 133 Molti rifiutan lo comune incarco;
 134 ma il popol tuo solicito risponde
@@ -615,13 +640,13 @@ Please translate literally into French.
 <result>
 133 Beaucoup refusent la charge commune ;
 134 mais ton peuple répond avec empressement
-135 sans qu'on l'appelle, et crie : « Je m'en charge ! ».
+135 sans être appelé, et crie : « Je m'en charge ! ».
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 136/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 136 Or ti fa lieta, ché tu hai ben onde:
 137 tu ricca, tu con pace e tu con senno!
@@ -629,14 +654,14 @@ Please translate literally into French.
 </prompt>
 <result>
 136 Maintenant, réjouis-toi, car tu en as bien des raisons :
-137 toi riche, toi en paix et toi sensée !
+137 tu es riche, tu es en paix et tu es sage !
 138 Si je dis vrai, l'effet ne le cache pas.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 6] 139/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 139 Atene e Lacedemona, che fenno
 140 l’antiche leggi e furon sì civili,
@@ -659,7 +684,7 @@ Please translate literally into French.
 <query>
 <info>[Purgatorio Canto 6] 145/151</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 145 Quante volte, del tempo che rimembre,
 146 legge, moneta, officio e costume

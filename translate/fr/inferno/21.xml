@@ -2,7 +2,7 @@
 <query>
 <info>[Inferno Canto 21] 1/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 1 Così di ponte in ponte, altro parlando
 2 che la mia comedìa cantar non cura,
@@ -15,7 +15,7 @@ Please translate literally into French.
 <result>
 1 Ainsi de pont en pont, parlant d'autre chose
 2 que ma comédie ne se soucie pas de chanter,
-3 nous arrivâmes ; et nous tenions le sommet, quand
+3 nous arrivâmes ; et nous étions au sommet, quand
 
 4 nous nous arrêtâmes pour voir l'autre fissure
 5 de Malebolge et les autres vains tourments ;
@@ -25,7 +25,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 7/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 7 Quale ne l’arzanà de’ Viniziani
 8 bolle l’inverno la tenace pece
@@ -48,15 +48,15 @@ Please translate literally into French.
 8 bout en hiver la poix tenace
 9 pour calfater leurs navires abîmés,
 
-10 qui ne peuvent pas naviguer—à cette place
-11 qui construit son nouveau navire et qui rebouche
+10 qui ne peuvent naviguer—à cette place
+11 qui construit son navire neuf et qui répare
 12 les flancs de celui qui a fait le plus de voyages ;
 
 13 qui recloue à la proue et qui à la poupe ;
-14 d'autres fabriquent des rames et d'autres enroulent des cordages ;
-15 qui rapièce la voile de misaine et la voile de perroquet—:
+14 d'autres font des rames et d'autres enroulent des cordages ;
+15 qui raccommode la voile de misaine et la voile de perroquet—:
 
-16 ainsi, non par le feu mais par l'art divin,
+16 ainsi, non par le feu mais par art divin,
 17 bouillonnait là-bas une poix épaisse,
 18 qui engluait la berge de toutes parts.
 </result>
@@ -64,22 +64,48 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 19/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 19 I’ vedea lei, ma non vedëa in essa
 20 mai che le bolle che ’l bollor levava,
 21 e gonfiar tutta, e riseder compressa.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "19 Je la voyais, mais je ne voyais en elle\n20 que les bulles que la chaleur soulevait,\n21 et se gonfler toute, et se rasseoir comprimée."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
 19 Je la voyais, mais je ne voyais en elle
-20 que les bulles que l'ébullition soulevait,
-21 et se gonfler tout entière, et se rasseoir comprimée.
+20 que les bulles que la chaleur soulevait,
+21 et se gonfler toute, et se rasseoir comprimée.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 22/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 22 Mentr’ io là giù fisamente mirava,
 23 lo duca mio, dicendo «Guarda, guarda!»,
@@ -94,7 +120,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 25/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 25 Allor mi volsi come l’uom cui tarda
 26 di veder quel che li convien fuggire
@@ -109,7 +135,7 @@ Please translate literally into French.
 26 à voir ce qu'il doit fuir
 27 et que la peur soudaine décourage,
 
-28 qui, pour voir, ne retarde pas le départ :
+28 qui, pour voir, ne tarde pas à partir :
 29 et je vis derrière nous un diable noir
 30 courant sur le rocher venir.
 </result>
@@ -117,7 +143,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 31/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 31 Ahi quant’ elli era ne l’aspetto fero!
 32 e quanto mi parea ne l’atto acerbo,
@@ -128,19 +154,19 @@ Please translate literally into French.
 36 e quei tenea de’ piè ghermito ’l nerbo.
 </prompt>
 <result>
-31 Ah, comme il était féroce dans son aspect !
+31 Ah ! combien il était féroce dans son aspect !
 32 Et combien il me paraissait cruel dans son attitude,
 33 avec les ailes ouvertes et léger sur ses pieds !
 
 34 Son épaule, qui était pointue et superbe,
 35 portait un pécheur avec ses deux hanches,
-36 et celui-ci tenait le tendon du pied agrippé.
+36 et celui-ci tenait le jarret du diable agrippé avec ses pieds.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 37/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 37 Del nostro ponte disse: «O Malebranche,
 38 ecco un de li anzïan di Santa Zita!
@@ -151,11 +177,11 @@ Please translate literally into French.
 42 del no, per li denar, vi si fa ita».
 </prompt>
 <result>
-37 De notre pont il dit : « Ô Malebranche,
+37 Du haut de notre pont, il dit : « Ô Malebranche,
 38 voici un des anciens de Sainte Zita !
 39 Mettez-le en bas, car je retourne encore
 
-40 dans cette terre, qui en est bien pourvue :
+40 dans cette terre qui en est bien pourvue :
 41 tout homme y est fourbe, sauf Bonturo ;
 42 du non, pour de l'argent, on y fait oui ».
 </result>
@@ -163,7 +189,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 43/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 43 Là giù ’l buttò, e per lo scoglio duro
 44 si volse; e mai non fu mastino sciolto
@@ -172,13 +198,13 @@ Please translate literally into French.
 <result>
 43 Là-bas il le jeta, et sur le rocher dur
 44 il se retourna ; et jamais mâtin déchaîné
-45 ne fut aussi prompt à suivre la fureur.
+45 ne fut aussi prompt à suivre le voleur.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 46/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 46 Quel s’attuffò, e tornò sù convolto;
 47 ma i demon che del ponte avean coperchio,
@@ -189,26 +215,26 @@ Please translate literally into French.
 51 non far sopra la pegola soverchio».
 </prompt>
 <result>
-46 Celui-ci plongea, et remonta enroulé ;
+46 Celui-ci plongea et remonta tout englué ;
 47 mais les démons qui couvraient le pont,
-48 crièrent : « Ici n'a pas lieu le Saint Visage !
+48 crièrent : « Ici n'a pas lieu la Sainte Face !
 
 49 Ici on nage autrement que dans le Serchio !
-50 Donc, si tu ne veux pas de nos griffes,
+50 C'est pourquoi, si tu ne veux pas de nos griffes,
 51 ne fais pas trop le malin sur la poix ».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 52/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 52 Poi l’addentar con più di cento raffi,
 53 disser: «Coverto convien che qui balli,
 54 sì che, se puoi, nascosamente accaffi».
 </prompt>
 <result>
-52 Puis ils le mordirent avec plus de cent crocs,
+52 Puis ils le saisirent avec plus de cent crocs,
 53 dirent : « Il faut que tu danses ici couvert,
 54 de sorte que, si tu peux, tu attrapes quelque chose en cachette ».
 </result>
@@ -216,22 +242,22 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 55/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 55 Non altrimenti i cuoci a’ lor vassalli
 56 fanno attuffare in mezzo la caldaia
 57 la carne con li uncin, perché non galli.
 </prompt>
 <result>
-55 Pas autrement les cuisiniers à leurs valets
-56 font plonger au milieu du chaudron
+55 Pas autrement les cuisiniers font plonger à leurs valets
+56 au milieu du chaudron
 57 la viande avec les crochets, pour qu'elle ne flotte pas.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 58/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 58 Lo buon maestro «Acciò che non si paia
 59 che tu ci sia», mi disse, «giù t’acquatta
@@ -242,9 +268,9 @@ Please translate literally into French.
 63 perch’ altra volta fui a tal baratta».
 </prompt>
 <result>
-58 Le bon maître « Afin qu'il ne paraisse pas
+58 Le bon maître « Pour qu'on ne voie pas
 59 que tu es là », me dit-il, « accroupis-toi
-60 derrière un éclat de roche, qui te serve d'écran ;
+60 derrière un éclat de roche, qui te serve d'abri ;
 
 61 et pour aucune offense qui me soit faite,
 62 ne crains pas, car je connais les choses,
@@ -254,7 +280,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 64/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 64 Poscia passò di là dal co del ponte;
 65 e com’ el giunse in su la ripa sesta,
@@ -269,7 +295,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 67/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 67 Con quel furore e con quella tempesta
 68 ch’escono i cani a dosso al poverello
@@ -290,7 +316,7 @@ Please translate literally into French.
 
 70 ceux-là sortirent de dessous le petit pont,
 71 et tournèrent contre lui tous les crocs ;
-72 mais il cria : « Qu'aucun de vous ne soit cruel !
+72 mais il cria : « Qu'aucun de vous ne soit féroce !
 
 73 Avant que votre crochet ne me prenne,
 74 qu'un de vous s'avance pour m'écouter,
@@ -300,7 +326,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 76/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 76 Tutti gridaron: «Vada Malacoda!»;
 77 per ch’un si mosse—e li altri stetter fermi—
@@ -309,13 +335,13 @@ Please translate literally into French.
 <result>
 76 Tous crièrent : « Que Malacoda y aille ! » ;
 77 c'est pourquoi l'un d'eux se mit en mouvement—et les autres restèrent immobiles—
-78 et vint à lui en disant : « Que lui sert-il ? ».
+78 et vint à lui en disant : « Que lui veut-il ? ».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 79/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 79 «Credi tu, Malacoda, qui vedermi
 80 esser venuto», disse ’l mio maestro,
@@ -338,7 +364,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 85/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 85 Allor li fu l’orgoglio sì caduto,
 86 ch’e’ si lasciò cascar l’uncino a’ piedi,
@@ -353,22 +379,22 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 88/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 88 E ’l duca mio a me: «O tu che siedi
 89 tra li scheggion del ponte quatto quatto,
 90 sicuramente omai a me ti riedi».
 </prompt>
 <result>
-88 Et mon guide à moi : « Ô toi qui es assis
-89 entre les éclats du pont tout doucement,
+88 Et mon guide me dit : « Ô toi qui es assis
+89 entre les éclats du pont, tapi,
 90 reviens maintenant vers moi en toute sécurité ».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 91/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 91 Per ch’io mi mossi e a lui venni ratto;
 92 e i diavoli si fecer tutti avanti,
@@ -383,7 +409,7 @@ Please translate literally into French.
 92 et les diables s'avancèrent tous,
 93 si bien que je craignis qu'ils ne tinssent pas leur pacte ;
 
-94 ainsi je vis déjà craindre les fantassins
+94 ainsi vis-je déjà craindre les fantassins
 95 qui sortaient de Caprona après avoir négocié,
 96 se voyant parmi tant d'ennemis.
 </result>
@@ -391,7 +417,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 97/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 97 I’ m’accostai con tutta la persona
 98 lungo ’l mio duca, e non torceva li occhi
@@ -406,7 +432,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 100/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 100 Ei chinavan li raffi e «Vuo’ che ’l tocchi»,
 101 diceva l’un con l’altro, «in sul groppone?».
@@ -415,13 +441,13 @@ Please translate literally into French.
 <result>
 100 Ils baissaient les crocs et « Veux-tu que je le touche »,
 101 disait l'un à l'autre, « sur la croupe ? ».
-102 Et ils répondaient : « Oui, fais en sorte de l'atteindre ».
+102 Et ils répondaient : « Oui, fais-lui-en sentir le coup ».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 103/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 103 Ma quel demonio che tenea sermone
 104 col duca mio, si volse tutto presto
@@ -436,7 +462,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 106/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 106 Poi disse a noi: «Più oltre andar per questo
 107 iscoglio non si può, però che giace
@@ -451,7 +477,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 109/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 109 E se l’andare avante pur vi piace,
 110 andatevene su per questa grotta;
@@ -466,22 +492,22 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 112/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 112 Ier, più oltre cinqu’ ore che quest’ otta,
 113 mille dugento con sessanta sei
 114 anni compié che qui la via fu rotta.
 </prompt>
 <result>
-112 Hier, il y a plus de cinq heures que cette heure-ci,
-113 mille deux cents avec soixante-six
-114 ans accomplis que le chemin fut rompu ici.
+112 Hier, cinq heures plus tard que cette heure-ci,
+113 mille deux cent soixante-six
+114 ans se sont écoulés depuis que le chemin fut rompu ici.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 115/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 115 Io mando verso là di questi miei
 116 a riguardar s’alcun se ne sciorina;
@@ -489,21 +515,21 @@ Please translate literally into French.
 </prompt>
 <result>
 115 J'envoie de ces miens vers là-bas
-116 pour voir si quelqu'un s'y promène ;
+116 pour voir si quelqu'un s'y glisse ;
 117 allez avec eux, ils ne seront pas méchants ».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 118/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 118 «Tra’ti avante, Alichino, e Calcabrina»,
 119 cominciò elli a dire, «e tu, Cagnazzo;
 120 e Barbariccia guidi la decina.
 </prompt>
 <result>
-118 « Avancez, Alichino, et Calcabrina »,
+118 « Avancez, Alichino et Calcabrina »,
 119 commença-t-il à dire, « et toi, Cagnazzo ;
 120 et que Barbariccia guide la dizaine.
 </result>
@@ -511,7 +537,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 121/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 121 Libicocco vegn’ oltre e Draghignazzo,
 122 Cirïatto sannuto e Graffiacane
@@ -519,14 +545,14 @@ Please translate literally into French.
 </prompt>
 <result>
 121 Que Libicocco vienne aussi et Draghignazzo,
-122 Ciriatto au museau pointu et Graffiacane
+122 Ciriatto au nez pointu et Graffiacane
 123 et Farfarello et Rubicante le fou.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 124/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 124 Cercate ’ntorno le boglienti pane;
 125 costor sian salvi infino a l’altro scheggio
@@ -534,14 +560,14 @@ Please translate literally into French.
 </prompt>
 <result>
 124 Cherchez autour des bouillantes cuves ;
-125 que ceux-ci soient saufs jusqu'à l'autre rocher
+125 que ceux-ci soient saufs jusqu'à l'autre éclat de roche
 126 qui va tout entier au-dessus des tanières ».
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 127/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 127 «Omè, maestro, che è quel ch’i’ veggio?»,
 128 diss’ io, «deh, sanza scorta andianci soli,
@@ -549,14 +575,14 @@ Please translate literally into French.
 </prompt>
 <result>
 127 « Hélas, maître, qu'est-ce que je vois ? »,
-128 dis-je, « de grâce, allons-y seuls sans escorte,
+128 dis-je, « oh, allons-y seuls, sans escorte,
 129 si tu sais y aller ; car pour moi je ne la demande pas.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 21] 130/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 130 Se tu se’ sì accorto come suoli,
 131 non vedi tu ch’e’ digrignan li denti
@@ -571,7 +597,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 133/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 133 Ed elli a me: «Non vo’ che tu paventi;
 134 lasciali digrignar pur a lor senno,
@@ -586,7 +612,7 @@ Please translate literally into French.
 <query>
 <info>[Inferno Canto 21] 136/139</info>
 <prompt>
-Please translate literally into French.
+Please translate each line literally into French.
 
 136 Per l’argine sinistro volta dienno;
 137 ma prima avea ciascun la lingua stretta
@@ -598,7 +624,7 @@ Please translate literally into French.
 index: 0
 content {
   parts {
-    text: "136 Ils tournèrent à gauche le long de la berge ;\n137 mais chacun avait d\'abord serré la langue\n138 avec les dents, vers leur chef, en signe ;\n\n139 et celui-ci avait fait de son cul une trompette."
+    text: "136 Ils tournèrent à gauche le long de la berge ;\n137 mais chacun avait d\'abord la langue serrée\n138 avec les dents, vers leur chef, en signe ;\n\n139 et celui-ci avait fait de son cul une trompette."
   }
   role: "model"
 }
@@ -622,7 +648,7 @@ safety_ratings {
 </error>
 <result>
 136 Ils tournèrent à gauche le long de la berge ;
-137 mais chacun avait d'abord serré la langue
+137 mais chacun avait d'abord la langue serrée
 138 avec les dents, vers leur chef, en signe ;
 
 139 et celui-ci avait fait de son cul une trompette.
