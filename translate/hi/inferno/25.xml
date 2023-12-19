@@ -2,22 +2,22 @@
 <query>
 <info>[Inferno Canto 25] 1/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 1 Al fine de le sue parole il ladro
 2 le mani alzò con amendue le fiche,
 3 gridando: «Togli, Dio, ch’a te le squadro!».
 </prompt>
 <result>
-1 अपने शब्दों के अंत में चोर ने
-2 दोनों हाथों से दोनों अंजीरें दिखाईं,
-3 चिल्लाते हुए: "ले जाओ, भगवान, मैं उन्हें तुम्हारे लिए खोलता हूँ!"।
+1 अपनी बातों के अंत में चोर ने
+2 दोनों हाथों से अंजीर दिखाते हुए,
+3 चिल्लाते हुए कहा: "हे भगवान, मैं तुम्हें दिखाता हूँ!"।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 4/151</info>
-<prompt>
-Please translate literally into Hindi.
+<prompt retry="true">
+Please translate each line literally into Hindi.
 
 4 Da indi in qua mi fuor le serpi amiche,
 5 perch’ una li s’avvolse allora al collo,
@@ -27,20 +27,40 @@ Please translate literally into Hindi.
 8 ribadendo sé stessa sì dinanzi,
 9 che non potea con esse dare un crollo.
 </prompt>
+<error result="true">
+index: 0
+finish_reason: OTHER
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-4 उस समय से साँप मेरे मित्र हो गए,
-5 क्योंकि एक ने तभी उसके गले में लिपटकर,
-6 मानो यह कह दिया कि 'मैं नहीं चाहता कि तुम और कुछ कहो';
+4 वहाँ से आगे मुझे साँप मित्रवत मिले,
+5 क्योंकि एक ने तब मेरी गर्दन के चारों ओर खुद को लपेट लिया,
+6 जैसे कह रहा हो 'मैं नहीं चाहता कि तुम और कुछ कहो';
 
-7 और दूसरे ने उसकी बाँहों को जकड़ लिया, और उसे बांध दिया,
-8 खुद को उसके सामने इस तरह से लपेटकर,
-9 कि वह अपने हाथों को हिला भी नहीं सकता था।
+7 और एक और ने मेरी बाँहों को पकड़ लिया, और मुझे बांध दिया,
+8 खुद को मेरे सामने इस तरह से लपेटकर,
+9 कि मैं उनके साथ एक भी कदम नहीं हिल सकता था।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 10/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 10 Ahi Pistoia, Pistoia, ché non stanzi
 11 d’incenerarti sì che più non duri,
@@ -51,19 +71,19 @@ Please translate literally into Hindi.
 15 non quel che cadde a Tebe giù da’ muri.
 </prompt>
 <result>
-10 हाय पिस्टोइया, पिस्टोइया, तुम क्यों नहीं ठहरते
-11 अपने आपको जलाने से, ताकि तुम और अधिक न रहो,
-12 जब से तुम बुराई करने में अपने बीज को आगे बढ़ा रहे हो?
+10 हाय पिस्टोइया, पिस्टोइया, तू क्यों नहीं रुकती
+11 खुद को इस तरह से जलाने से कि तू और अधिक न रहे,
+12 जबकि तू बुरे काम करने में अपने बीज को आगे बढ़ाती है?
 
 13 नरक के सभी अंधेरे घेरे में
-14 मैंने भगवान में इतना घमंडी कोई आत्मा नहीं देखी,
-15 वह भी नहीं जो थेबे की दीवारों से नीचे गिर गया।
+14 मैंने ईश्वर में इतना अभिमानी कोई आत्मा नहीं देखी,
+15 वह नहीं जो थेबे की दीवारों से नीचे गिर गया।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 16/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 16 El si fuggì che non parlò più verbo;
 17 e io vidi un centauro pien di rabbia
@@ -72,13 +92,13 @@ Please translate literally into Hindi.
 <result>
 16 वह भाग गया और फिर कभी बोला नहीं;
 17 और मैंने एक सेंटॉर को क्रोध से भरा हुआ देखा
-18 पुकारता हुआ आते हुए: "कहाँ है, कहाँ है वह क्रूर?"।
+18 पुकारते हुए आते हुए: "कहाँ है, कहाँ है वह क्रूर?"।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 19/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 19 Maremma non cred’ io che tante n’abbia,
 20 quante bisce elli avea su per la groppa
@@ -86,14 +106,14 @@ Please translate literally into Hindi.
 </prompt>
 <result>
 19 मुझे नहीं लगता कि मारेम्मा में इतने सारे हैं,
-20 जितने साँप उसके पीठ पर थे
+20 जितने सांप उसकी पीठ पर थे
 21 वहाँ तक जहाँ हमारे होंठ शुरू होते हैं।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 22/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 22 Sovra le spalle, dietro da la coppa,
 23 con l’ali aperte li giacea un draco;
@@ -103,7 +123,7 @@ Please translate literally into Hindi.
 index: 0
 content {
   parts {
-    text: "22 उसके कंधों पर, गर्दन के पीछे,\n23 खुले पंखों के साथ एक अजगर लेटा हुआ था;\n24 और वह जो कोई भी उसके संपर्क में आता है, उसे जला देता है।"
+    text: "22 कंधों पर, गर्दन के पीछे,\n23 खुले पंखों के साथ एक ड्रैगन लेटा हुआ था;\n24 और वह जो कोई भी उसके संपर्क में आता है उसे जला देता है।"
   }
   role: "model"
 }
@@ -114,7 +134,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
+  probability: LOW
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
@@ -126,15 +146,15 @@ safety_ratings {
 }
 </error>
 <result>
-22 उसके कंधों पर, गर्दन के पीछे,
-23 खुले पंखों के साथ एक अजगर लेटा हुआ था;
-24 और वह जो कोई भी उसके संपर्क में आता है, उसे जला देता है।
+22 कंधों पर, गर्दन के पीछे,
+23 खुले पंखों के साथ एक ड्रैगन लेटा हुआ था;
+24 और वह जो कोई भी उसके संपर्क में आता है उसे जला देता है।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 25/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 25 Lo mio maestro disse: «Questi è Caco,
 26 che, sotto ’l sasso di monte Aventino,
@@ -149,7 +169,7 @@ Please translate literally into Hindi.
 <query>
 <info>[Inferno Canto 25] 28/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 28 Non va co’ suoi fratei per un cammino,
 29 per lo furto che frodolente fece
@@ -160,11 +180,11 @@ Please translate literally into Hindi.
 33 gliene diè cento, e non sentì le diece».
 </prompt>
 <result>
-28 वह अपने भाइयों के साथ एक ही रास्ते पर नहीं जाता,
+28 वह अपने भाइयों के साथ एक रास्ते पर नहीं जाता,
 29 उस चोरी के कारण जो उसने कपटपूर्ण तरीके से की थी
 30 उस बड़े झुंड का जो उसके पास था;
 
-31 इसलिए उसके बुरे कामों को रोक दिया गया
+31 इसलिए उसके बुरे कामों को रोकने के लिए
 32 हरक्यूलिस के गदा के नीचे, जिसने शायद
 33 उसे सौ वार किए, और उसने दस भी महसूस नहीं किए।
 </result>
@@ -172,7 +192,7 @@ Please translate literally into Hindi.
 <query>
 <info>[Inferno Canto 25] 34/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 34 Mentre che sì parlava, ed el trascorse,
 35 e tre spiriti venner sotto noi,
@@ -195,7 +215,7 @@ Please translate literally into Hindi.
 <query>
 <info>[Inferno Canto 25] 40/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 40 Io non li conoscea; ma ei seguette,
 41 come suol seguitar per alcun caso,
@@ -206,34 +226,34 @@ Please translate literally into Hindi.
 45 mi puosi ’l dito su dal mento al naso.
 </prompt>
 <result>
-40 मैं उन्हें नहीं जानता था; लेकिन वे पीछे-पीछे आ रहे थे,
-41 जैसे किसी मामले में अक्सर होता है,
-42 कि एक को दूसरे का नाम लेना पड़ता है,
+40 मैं उन्हें नहीं जानता था; लेकिन वे पीछा करते रहे,
+41 जैसे किसी मामले में पीछा करना आम बात है,
+42 कि एक को दूसरे का नाम लेना पड़ा,
 
 43 यह कहते हुए: "सियानफा कहाँ रह गया होगा?";
 44 इसलिए, ताकि गुरु ध्यान दें,
-45 मैंने अपनी उंगली अपनी ठुड्डी से नाक तक रख ली।
+45 मैंने अपनी उंगली अपनी ठुड्डी से अपनी नाक तक रख ली।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 46/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 46 Se tu se’ or, lettore, a creder lento
 47 ciò ch’io dirò, non sarà maraviglia,
 48 ché io che ’l vidi, a pena il mi consento.
 </prompt>
 <result>
-46 यदि तुम, पाठक, अब यह मानने में धीमे हो
-47 जो मैं कहूँगा, तो कोई आश्चर्य नहीं होगा,
-48 क्योंकि मैंने जो देखा, मैं उसे मुश्किल से मान पाया।
+46 यदि तुम अब, पाठक, जो मैं कहूँगा उस पर विश्वास करने में धीमे हो,
+47 तो कोई आश्चर्य नहीं होगा,
+48 क्योंकि मैंने जो देखा, मैं खुद को मुश्किल से मान पाया।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 49/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 49 Com’ io tenea levate in lor le ciglia,
 50 e un serpente con sei piè si lancia
@@ -241,14 +261,14 @@ Please translate literally into Hindi.
 </prompt>
 <result>
 49 जैसे ही मैंने अपनी पलकें उनकी ओर उठाईं,
-50 और छह पैरों वाला एक साँप कूद पड़ा
-एक के सामने, और उससे पूरी तरह से चिपक गया।
+50 और छह पैरों वाला एक सांप उछलता है
+51 एक के सामने, और उससे पूरी तरह से चिपक जाता है।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 52/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 52 Co’ piè di mezzo li avvinse la pancia
 53 e con li anterïor le braccia prese;
@@ -262,7 +282,7 @@ Please translate literally into Hindi.
 index: 0
 content {
   parts {
-    text: "52 अपने बीच के पैरों से उसने उसके पेट को जकड़ लिया\n53 और अपने अगले पैरों से उसकी बाँहों को पकड़ लिया;\n54 फिर उसने उसके दोनों गालों को काट लिया;\n\n55 उसने अपने पिछले पैरों को उसकी जाँघों पर फैला दिया,\n56 और अपनी पूँछ को उसके दोनों पैरों के बीच में रख दिया\n57 और उसे पीछे से उसकी कमर पर ऊपर खींच लिया।"
+    text: "52 अपने बीच के पैरों से उसने उसके पेट को लपेट लिया\n53 और अपने अगले पैरों से उसकी बाहों को पकड़ लिया;\n54 फिर उसने उसके दोनों गालों को काट लिया;\n\n55 उसने अपने पिछले पैरों को उसकी जांघों तक फैला दिया,\n56 और अपनी पूंछ उसके दोनों पैरों के बीच में डाल दी\n57 और उसे पीछे उसकी कमर के ऊपर खींच लिया।"
   }
   role: "model"
 }
@@ -285,34 +305,34 @@ safety_ratings {
 }
 </error>
 <result>
-52 अपने बीच के पैरों से उसने उसके पेट को जकड़ लिया
-53 और अपने अगले पैरों से उसकी बाँहों को पकड़ लिया;
+52 अपने बीच के पैरों से उसने उसके पेट को लपेट लिया
+53 और अपने अगले पैरों से उसकी बाहों को पकड़ लिया;
 54 फिर उसने उसके दोनों गालों को काट लिया;
 
-55 उसने अपने पिछले पैरों को उसकी जाँघों पर फैला दिया,
-56 और अपनी पूँछ को उसके दोनों पैरों के बीच में रख दिया
-57 और उसे पीछे से उसकी कमर पर ऊपर खींच लिया।
+55 उसने अपने पिछले पैरों को उसकी जांघों तक फैला दिया,
+56 और अपनी पूंछ उसके दोनों पैरों के बीच में डाल दी
+57 और उसे पीछे उसकी कमर के ऊपर खींच लिया।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 58/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 58 Ellera abbarbicata mai non fue
 59 ad alber sì, come l’orribil fiera
 60 per l’altrui membra avviticchiò le sue.
 </prompt>
 <result>
-58 आइवी कभी किसी पेड़ से इस तरह नहीं लिपटी,
+58 आइवी कभी किसी पेड़ से इस तरह नहीं चिपकी,
 59 जैसे उस भयानक जानवर ने
-60 दूसरे के अंगों को अपने अंगों से लपेट लिया।
+60 दूसरे के अंगों के चारों ओर अपनी बेलें लपेट दीं।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 61/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 61 Poi s’appiccar, come di calda cera
 62 fossero stati, e mischiar lor colore,
@@ -328,14 +348,14 @@ Please translate literally into Hindi.
 63 न तो एक और न ही दूसरा अब वैसा दिखाई दे रहा था जैसा वह था:
 
 64 जैसे आग से पहले,
-65 पेपिरस पर ऊपर की ओर, एक भूरा रंग फैलता है
+65 पपीरस पर ऊपर की ओर, एक भूरा रंग फैलता है
 66 जो अभी काला नहीं है और सफेद मर रहा है।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 67/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 67 Li altri due ’l riguardavano, e ciascuno
 68 gridava: «Omè, Agnel, come ti muti!
@@ -343,14 +363,14 @@ Please translate literally into Hindi.
 </prompt>
 <result>
 67 अन्य दो उसे देख रहे थे, और प्रत्येक
-68 चिल्ला रहा था: "ओह, एग्नेल, तुम कैसे बदल रहे हो!
+68 चिल्ला रहा था: "हे भगवान, एग्नेल, तुम कैसे बदल रहे हो!
 69 देखो कि अब तुम न तो दो हो और न ही एक"।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 70/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 70 Già eran li due capi un divenuti,
 71 quando n’apparver due figure miste
@@ -358,43 +378,44 @@ Please translate literally into Hindi.
 </prompt>
 <result>
 70 दोनों सिर पहले ही एक हो चुके थे,
-71 जब दो मिश्रित आकृतियाँ एक चेहरे में दिखाई दीं, जहाँ दो खो गए थे।
+71 जब दो मिश्रित आकृतियाँ दिखाई दीं
+72 एक चेहरे में, जहाँ दो खो गए थे।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 73/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 73 Fersi le braccia due di quattro liste;
 74 le cosce con le gambe e ’l ventre e ’l casso
 75 divenner membra che non fuor mai viste.
 </prompt>
 <result>
-चार भुजाएँ दो भुजाओं से बन गईं;
-74 पैरों के साथ जाँघें और पेट और छाती
+73 चार सूचियों से दो भुजाएँ बनीं;
+74 पैरों के साथ जांघें और पेट और छाती
 75 ऐसे अंग बन गए जो पहले कभी नहीं देखे गए।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 76/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 76 Ogne primaio aspetto ivi era casso:
 77 due e nessun l’imagine perversa
 78 parea; e tal sen gio con lento passo.
 </prompt>
 <result>
-76 वहाँ हर पहला रूप नष्ट हो गया था:
-77 दो और कोई नहीं, विकृत छवि
+76 वहाँ हर प्राथमिक पहलू नष्ट हो गया था:
+77 दो और कोई नहीं वह विकृत छवि
 78 प्रतीत हुई; और वह धीमी गति से चली गई।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 79/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 79 Come ’l ramarro sotto la gran fersa
 80 dei dì canicular, cangiando sepe,
@@ -410,20 +431,19 @@ Please translate literally into Hindi.
 </prompt>
 <result>
 79 जैसे कुत्ते के दिनों में बड़ी गर्मी के नीचे छिपकली, अपनी खाल बदलते हुए,
-80 यदि वह सड़क पार करती है तो बिजली की तरह लगती है,
+80 बिजली की तरह लगती है अगर वह सड़क पार करती है,
 
-82 वैसे ही लग रहा था, अन्य दो के पास आते हुए, एक जलता हुआ छोटा सांप,
+82 वैसे ही लग रहा था, अन्य दो की ओर आते हुए, एक जलता हुआ छोटा सांप,
 83 काली मिर्च के दाने की तरह पीला और काला;
 
-84 और वह हिस्सा जहाँ से पहले
-85 हमारा भोजन लिया जाता है, उसने उनमें से एक को छेद दिया;
-87 फिर उसके सामने नीचे गिर गया।
+84 और वह हिस्सा जहाँ से पहले हमारा भोजन लिया जाता है, उसने उनमें से एक को छेद दिया;
+85 फिर उसके सामने नीचे गिर गया।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 88/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 88 Lo trafitto ’l mirò, ma nulla disse;
 89 anzi, co’ piè fermati, sbadigliava
@@ -438,37 +458,37 @@ Please translate literally into Hindi.
 <query>
 <info>[Inferno Canto 25] 91/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 91 Elli ’l serpente e quei lui riguardava;
 92 l’un per la piaga e l’altro per la bocca
 93 fummavan forte, e ’l fummo si scontrava.
 </prompt>
 <result>
-91 वह सांप को देख रहा था और वह उसे देख रहा था;
-92 एक घाव से और दूसरा मुँह से
-93 जोर से धुआँ निकल रहा था, और धुआँ आपस में टकरा रहा था।
+91 वह सांप और वह उसे देख रहा था;
+92 एक घाव के लिए और दूसरा मुंह के लिए
+93 जोर से धुआं उगल रहे थे, और धुआं आपस में टकरा रहा था।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 94/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 94 Taccia Lucano ormai là dov’ e’ tocca
 95 del misero Sabello e di Nasidio,
 96 e attenda a udir quel ch’or si scocca.
 </prompt>
 <result>
-94 लुकेन अब चुप हो जाए जहाँ वह
-95 दुखी सबेलो और नासिडियो के बारे में बात करता है,
-96 और सुनने के लिए तैयार रहे कि अब क्या होता है।
+94 लुकेन अब चुप हो जाओ जहाँ वह छूता है
+95 दुखी सबेलो और नासिडियो के बारे में,
+96 और सुनने के लिए प्रतीक्षा करें कि अब क्या निकलता है।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 97/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 97 Taccia di Cadmo e d’Aretusa Ovidio,
 98 ché se quello in serpente e quella in fonte
@@ -479,71 +499,69 @@ Please translate literally into Hindi.
 102 a cambiar lor matera fosser pronte.
 </prompt>
 <result>
-97 ओविड कैडमस और एरेथुसा के बारे में चुप रहे,
-98 क्योंकि अगर वह कविता में उसे सांप में और उसे फव्वारे में
-100 बदल देता है, तो मैं उससे ईर्ष्या नहीं करता;
+97 कैडमस और एरेथुसा के बारे में ओविड चुप हो जाओ,
+98 क्योंकि अगर वह कविता में उसे सांप में और उसे फव्वारे में बदल देता है, तो मैं उससे ईर्ष्या नहीं करता;
 
-100 क्योंकि दो प्रकृतियाँ कभी भी आमने-सामने नहीं बदलीं
-101 ताकि दोनों रूप
-102 अपनी सामग्री को बदलने के लिए तैयार हों।
+99 क्योंकि दो प्रकृतियाँ कभी भी आमने-सामने नहीं बदलीं
+100 ताकि दोनों रूप उनकी सामग्री को बदलने के लिए तैयार हों।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 103/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 103 Insieme si rispuosero a tai norme,
 104 che ’l serpente la coda in forca fesse,
 105 e ’l feruto ristrinse insieme l’orme.
 </prompt>
 <result>
-103 उन्होंने एक साथ ऐसे नियमों का जवाब दिया,
+103 उन्होंने एक साथ उन मानदंडों का उत्तर दिया,
 104 कि सांप ने अपनी पूंछ को कांटे में बदल दिया,
-105 और घायल ने अपने कदमों को एक साथ सिकोड़ लिया।
+105 और घायल ने अपने कदमों को एक साथ समेट लिया।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 106/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 106 Le gambe con le cosce seco stesse
 107 s’appiccar sì, che ’n poco la giuntura
 108 non facea segno alcun che si paresse.
 </prompt>
 <result>
-106 पैर जाँघों के साथ आपस में चिपक गए,
+106 पैर जांघों के साथ आपस में चिपक गए,
 107 ताकि थोड़े समय में जोड़
-108 कोई संकेत नहीं दिखाता था कि वह दिखाई दे रहा था।
+108 कोई संकेत नहीं दिखाता था जो दिखाई देता हो।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 109/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 109 Togliea la coda fessa la figura
 110 che si perdeva là, e la sua pelle
 111 si facea molle, e quella di là dura.
 </prompt>
 <result>
-109 कांटेदार पूंछ ने वह आकृति ले ली
-110 जो वहाँ खो गई थी, और उसकी त्वचा
-111 मुलायम हो गई, और वह कठोर हो गई।
+109 फटी हुई पूंछ ने वह आकृति ले ली
+110 जो वहाँ खो गई थी, और उसकी खाल
+111 मुलायम हो गई, और वह वहाँ से सख्त हो गई।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 112/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 112 Io vidi intrar le braccia per l’ascelle,
 113 e i due piè de la fiera, ch’eran corti,
 114 tanto allungar quanto accorciavan quelle.
 </prompt>
 <result>
-112 मैंने देखा कि बाहें कांखों से अंदर जा रही हैं,
+112 मैंने देखा कि बाहें कांख से अंदर जा रही हैं,
 113 और जानवर के दो पैर, जो छोटे थे,
 114 उतने ही लंबे हो गए जितने वे छोटे थे।
 </result>
@@ -551,7 +569,7 @@ Please translate literally into Hindi.
 <query>
 <info>[Inferno Canto 25] 115/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 115 Poscia li piè di rietro, insieme attorti,
 116 diventaron lo membro che l’uom cela,
@@ -559,14 +577,14 @@ Please translate literally into Hindi.
 </prompt>
 <result>
 115 फिर पीछे के पैर, एक साथ मुड़े हुए,
-116 वह अंग बन गए जिसे मनुष्य छुपाता है,
-117 और उसके पास उसके दो दरवाजे थे।
+116 वह अंग बन गया जिसे मनुष्य छुपाता है,
+117 और उसके दुखी के पास उसके दो बंदरगाह थे।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 118/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 118 Mentre che ’l fummo l’uno e l’altro vela
 119 di color novo, e genera ’l pel suso
@@ -577,19 +595,18 @@ Please translate literally into Hindi.
 123 sotto le quai ciascun cambiava muso.
 </prompt>
 <result>
-118 जबकि धुआँ एक और दूसरे को
-119 नए रंग से ढकता है, और ऊपर की ओर बाल पैदा करता है
-120 एक तरफ से और दूसरी तरफ से उसे छीलता है,
+118 जबकि धुआं एक और दूसरे को ढकता है
+119 नए रंग के साथ, और एक तरफ से ऊपर की ओर बाल उत्पन्न करता है और दूसरी तरफ से उसे हटाता है,
 
-121 एक उठा और दूसरा नीचे गिर गया,
-122 लेकिन उन दुष्ट दीयों को नहीं मोड़ रहा था,
+120 एक उठा और दूसरा नीचे गिर गया,
+122 लेकिन अपनी दुष्ट आंखों को नहीं मोड़ रहा है,
 123 जिसके नीचे हर कोई अपना चेहरा बदल रहा था।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 124/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 124 Quel ch’era dritto, il trasse ver’ le tempie,
 125 e di troppa matera ch’in là venne
@@ -600,9 +617,9 @@ Please translate literally into Hindi.
 129 e le labbra ingrossò quanto convenne.
 </prompt>
 <result>
-124 जो सीधा था, उसने उसे मंदिरों की ओर खींचा,
+124 जो सीधा था, उसने उसे मंदिरों की ओर खींच लिया,
 125 और बहुत अधिक सामग्री जो वहाँ आई
-126 कानों को गालों से बाहर निकाल दिया;
+126 साधारण गालों से कान निकले;
 
 127 जो पीछे नहीं भागा और रुक गया
 128 उस अतिरिक्त से, चेहरे पर नाक बनाई
@@ -612,7 +629,7 @@ Please translate literally into Hindi.
 <query>
 <info>[Inferno Canto 25] 130/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 130 Quel che giacëa, il muso innanzi caccia,
 131 e li orecchi ritira per la testa
@@ -624,18 +641,18 @@ Please translate literally into Hindi.
 </prompt>
 <result>
 130 जो लेटा हुआ था, वह थूथन को आगे बढ़ाता है,
-131 और सिर के लिए कानों को पीछे खींचता है
+131 और सिर के लिए कान वापस लेता है
 132 जैसे घोंघा सींग बनाता है;
 
 133 और जीभ, जो पहले एकजुट और बोलने के लिए तैयार थी,
 134 फट जाती है, और कांटा
-135 दूसरे में बंद हो जाता है; और धुआँ रह जाता है।
+135 दूसरे में बंद हो जाता है; और धुआं रह जाता है।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 136/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 136 L’anima ch’era fiera divenuta,
 137 suffolando si fugge per la valle,
@@ -644,13 +661,13 @@ Please translate literally into Hindi.
 <result>
 136 वह आत्मा जो जंगली हो गई थी,
 137 घाटी से फुफकारती हुई भाग जाती है,
-138 और दूसरा उसके पीछे बोलते हुए थूकता है।
+138 और दूसरा उसके पीछे थूकता हुआ बोलता है।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 139/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 139 Poscia li volse le novelle spalle,
 140 e disse a l’altro: «I’ vo’ che Buoso corra,
@@ -659,13 +676,13 @@ Please translate literally into Hindi.
 <result>
 139 फिर उसने उसे नए कंधे दिए,
 140 और दूसरे से कहा: "मैं चाहता हूं कि बुओसो दौड़े,
-141 जैसे मैंने किया, इस गली से रेंगते हुए"।
+141 जैसा मैंने किया, इस गली से कार्पोन"।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 142/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 142 Così vid’ io la settima zavorra
 143 mutare e trasmutare; e qui mi scusi
@@ -673,14 +690,14 @@ Please translate literally into Hindi.
 </prompt>
 <result>
 142 इस प्रकार मैंने सातवें गिट्टी को देखा
-143 बदलना और बदलना; और यहाँ मुझे माफ कर दो
-144 नवीनता अगर कलम फूल को नष्ट कर देती है।
+143 बदलना और बदलना; और यहाँ मुझे क्षमा करें
+144 नवीनता अगर कलम फूल को घृणा करती है।
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 145/151</info>
 <prompt>
-Please translate literally into Hindi.
+Please translate each line literally into Hindi.
 
 145 E avvegna che li occhi miei confusi
 146 fossero alquanto e l’animo smagato,
@@ -698,8 +715,8 @@ Please translate literally into Hindi.
 147 वे इतने बंद होकर नहीं भाग सकते थे,
 
 148 कि मैं पुसियो सियानकाटो को अच्छी तरह से नहीं देख पाया;
-149 और वह वही था जो अकेला, तीन साथियों में से
-150 जो पहले आए थे, नहीं बदला था;
+149 और वह अकेला था, तीन साथियों में से
+150 जो पहले आए थे, नहीं बदले थे;
 
 151 दूसरा वह था जिसे तुम, गेविले, रोते हो।
 </result>
