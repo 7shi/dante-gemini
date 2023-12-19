@@ -42,7 +42,7 @@ current = 0
 directory = ""
 canto = 0
 
-history = None
+history = []
 for i in range(1, 5):
     fxml = os.path.join(outdir, "inferno", f"{i:02}.xml")
     if os.path.exists(fxml):
@@ -96,7 +96,7 @@ for directory in ["Inferno", "Purgatorio", "Paradiso"]:
             length = min(3, len(it) - current)
             while current + length < len(it) and not it[current + length - 1].endswith("."):
                 length += 1
-            q = send_lines(length, f"Please translate literally into {language}.")
+            q = send_lines(length, f"Please translate each line literally into {language}.")
             queries.append(q)
             current += length
         with open(xml, "wb") as f:
