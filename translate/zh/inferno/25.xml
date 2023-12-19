@@ -2,22 +2,22 @@
 <query>
 <info>[Inferno Canto 25] 1/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 1 Al fine de le sue parole il ladro
 2 le mani alzò con amendue le fiche,
 3 gridando: «Togli, Dio, ch’a te le squadro!».
 </prompt>
 <result>
-1 在他说完话的时候，小偷
-2 双手举起两根无花果，
-3 大声喊道：“拿去，上帝，我把它给你！”
+1 在他说完这些话的时候，那个小偷
+2 双手举起，竖起两个中指，
+3 大喊：“上帝啊，我向你竖起中指！”
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 4/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 4 Da indi in qua mi fuor le serpi amiche,
 5 perch’ una li s’avvolse allora al collo,
@@ -28,7 +28,7 @@ Please translate literally into Chinese.
 9 che non potea con esse dare un crollo.
 </prompt>
 <result>
-4 从那时起，蛇对我来说是友好的，
+4 从那时起，蛇对我来说不再是敌人，
 5 因为它当时缠绕在他的脖子上，
 6 仿佛在说“我不想让你再说下去了”；
 
@@ -40,7 +40,7 @@ Please translate literally into Chinese.
 <query>
 <info>[Inferno Canto 25] 10/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 10 Ahi Pistoia, Pistoia, ché non stanzi
 11 d’incenerarti sì che più non duri,
@@ -54,7 +54,7 @@ Please translate literally into Chinese.
 index: 0
 content {
   parts {
-    text: "10 啊，皮斯托亚，皮斯托亚，你为什么不\n11 自焚，以至于你不再存在，\n12 既然你在作恶方面胜过你的祖先？\n\n13 在所有黑暗的地狱圈中，\n14 我没有看到任何灵魂在上帝面前如此傲慢，\n15 即使是那个从底比斯城墙上掉下来的灵魂也不如此。"
+    text: "10 啊，皮斯托亚，皮斯托亚，你为什么不\n11 自焚殆尽，以至于不再存在，\n12 既然你在作恶方面如此胜过你的祖先？\n\n13 在所有黑暗的地狱的圈子里，\n14 我没有看到任何一个在上帝面前如此傲慢的灵魂，\n15 即使是那个从底比斯城墙上摔下来的灵魂也不例外。"
   }
   role: "model"
 }
@@ -78,18 +78,18 @@ safety_ratings {
 </error>
 <result>
 10 啊，皮斯托亚，皮斯托亚，你为什么不
-11 自焚，以至于你不再存在，
-12 既然你在作恶方面胜过你的祖先？
+11 自焚殆尽，以至于不再存在，
+12 既然你在作恶方面如此胜过你的祖先？
 
-13 在所有黑暗的地狱圈中，
-14 我没有看到任何灵魂在上帝面前如此傲慢，
-15 即使是那个从底比斯城墙上掉下来的灵魂也不如此。
+13 在所有黑暗的地狱的圈子里，
+14 我没有看到任何一个在上帝面前如此傲慢的灵魂，
+15 即使是那个从底比斯城墙上摔下来的灵魂也不例外。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 16/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 16 El si fuggì che non parlò più verbo;
 17 e io vidi un centauro pien di rabbia
@@ -98,69 +98,43 @@ Please translate literally into Chinese.
 <result>
 16 他逃跑了，没有再说一句话；
 17 我看到一个充满愤怒的半人马
-18 喊道：“他在哪里，他在哪里，那个残忍的人？”
+18 喊道：“他在哪里，他在哪里，那个可恶的家伙？”
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 19/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 19 Maremma non cred’ io che tante n’abbia,
 20 quante bisce elli avea su per la groppa
 21 infin ove comincia nostra labbia.
 </prompt>
 <result>
-19 我不相信马雷马有那么多，
-20 有多少蛇在他背上
-21 直到我们人类的嘴唇开始的地方。
+19 我不相信马雷马沼泽有那么多蛇，
+20 有多少蛇爬在他的背上，
+21 一直到我们人类的领地。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 22/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 22 Sovra le spalle, dietro da la coppa,
 23 con l’ali aperte li giacea un draco;
 24 e quello affuoca qualunque s’intoppa.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "22 在他的肩膀上，在后脑勺后面，\n23 一条龙张开翅膀躺着；\n24 它喷火烧死任何挡路的人。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-22 在他的肩膀上，在后脑勺后面，
-23 一条龙张开翅膀躺着；
-24 它喷火烧死任何挡路的人。
+22 在他的肩膀上，在脖子的后面，
+23 一条龙展开翅膀躺在那里；
+24 它喷出火焰，烧毁任何挡路的东西。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 25/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 25 Lo mio maestro disse: «Questi è Caco,
 26 che, sotto ’l sasso di monte Aventino,
@@ -169,13 +143,13 @@ Please translate literally into Chinese.
 <result>
 25 我的老师说：“这是卡科，
 26 他在阿文提诺山的岩石下，
-27 用鲜血填满了许多湖泊。
+27 用鲜血填满了许多水坑。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 28/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 28 Non va co’ suoi fratei per un cammino,
 29 per lo furto che frodolente fece
@@ -190,14 +164,15 @@ Please translate literally into Chinese.
 29 因为他欺诈性地偷窃了
 30 他附近的一大群牛；
 
-31 因此，他的邪恶行为在他被赫拉克勒斯用棍棒打死时停止了，赫拉克勒斯可能
-32 给了他一百下，但他没有感觉到十下。
+31 因此，为了制止他的卑鄙行为，
+32 他死在了赫拉克勒斯的狼牙棒下，赫拉克勒斯可能
+33 给了他一百下，但他没有感觉到十下。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 34/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 34 Mentre che sì parlava, ed el trascorse,
 35 e tre spiriti venner sotto noi,
@@ -208,19 +183,19 @@ Please translate literally into Chinese.
 39 e intendemmo pur ad essi poi.
 </prompt>
 <result>
-34 当他这样说话并走过时，
+34 当他这样说话并走过去时，
 35 有三个灵魂来到我们下方，
 36 我和我的向导都没有注意到他们，
 
 37 直到他们喊道：“你们是谁？”；
 38 因此我们的谈话停止了，
-39 然后我们只注意他们。
+39 然后我们才注意到他们。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 40/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 40 Io non li conoscea; ma ei seguette,
 41 come suol seguitar per alcun caso,
@@ -231,9 +206,9 @@ Please translate literally into Chinese.
 45 mi puosi ’l dito su dal mento al naso.
 </prompt>
 <result>
-40 我不认识他们；但他们继续前进，
-41 就像在某些情况下通常会发生的那样，
-42 一个必须说出另一个的名字，
+40 我不认识他们；但他们跟着我们，
+41 就像在某些情况下经常发生的那样，
+42 其中一个必须说出另一个的名字，
 
 43 说道：“奇安法在哪里？”；
 44 因此，为了让向导注意，
@@ -243,7 +218,7 @@ Please translate literally into Chinese.
 <query>
 <info>[Inferno Canto 25] 46/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 46 Se tu se’ or, lettore, a creder lento
 47 ciò ch’io dirò, non sarà maraviglia,
@@ -251,14 +226,14 @@ Please translate literally into Chinese.
 </prompt>
 <result>
 46 读者，如果你现在难以相信
-47 我要说的话，那就不足为奇，
-48 因为我亲眼所见，我几乎都不敢相信。
+47 我将要说的，那并不奇怪，
+48 因为我自己看到了，也几乎无法相信。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 49/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 49 Com’ io tenea levate in lor le ciglia,
 50 e un serpente con sei piè si lancia
@@ -266,14 +241,14 @@ Please translate literally into Chinese.
 </prompt>
 <result>
 49 当我把目光投向他们时，
-50 一条六足蛇突然出现在其中一个人的面前，
-51 并紧紧地缠绕着他。
+50 一条六足蛇突然冲向
+其中一个，并紧紧缠绕住他。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 52/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 52 Co’ piè di mezzo li avvinse la pancia
 53 e con li anterïor le braccia prese;
@@ -283,32 +258,6 @@ Please translate literally into Chinese.
 56 e miseli la coda tra ’mbedue
 57 e dietro per le ren sù la ritese.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "52 它用中间的脚缠住他的肚子，\n53 用前脚抓住他的手臂；\n54 然后它咬了他的左右脸颊；\n\n55 它把后脚伸展到他的大腿上，\n56 把尾巴放在它们之间，\n57 并从后面沿着他的肾脏向上拉。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 52 它用中间的脚缠住他的肚子，
 53 用前脚抓住他的手臂；
@@ -316,28 +265,28 @@ safety_ratings {
 
 55 它把后脚伸展到他的大腿上，
 56 把尾巴放在它们之间，
-57 并从后面沿着他的肾脏向上拉。
+57 并从后面沿着他的脊椎向上拉。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 58/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 58 Ellera abbarbicata mai non fue
 59 ad alber sì, come l’orribil fiera
 60 per l’altrui membra avviticchiò le sue.
 </prompt>
 <result>
-58 常春藤从未像
-59 如此可怕的野兽一样缠绕在树上，
-60 它用它的身体缠绕着另一个人的身体。
+58 缠绕在树上的常春藤，
+59 从未像这可怕的野兽
+60 用它的身体缠绕住另一个人的身体。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 61/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 61 Poi s’appiccar, come di calda cera
 62 fossero stati, e mischiar lor colore,
@@ -348,19 +297,19 @@ Please translate literally into Chinese.
 66 che non è nero ancora e ’l bianco more.
 </prompt>
 <result>
-61 然后它们粘在一起，好像是由热蜡制成的一样，
-62 并混合了它们的颜色，
-63 它们都不再像以前那样了：
+61 然后它们粘合在一起，就好像它们是由热蜡制成的一样，
+62 并且混合了它们的颜色，
+63 它们都不再像它们原本的样子：
 
-64 就像在火中，
-65 一种棕褐色从纸莎草向上蔓延，
-66 它还不是黑色，白色也消失了。
+64 就像在火焰中，
+65 一种棕褐色沿着纸莎草向上蔓延，
+66 它还不是黑色，但白色正在消失。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 67/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 67 Li altri due ’l riguardavano, e ciascuno
 68 gridava: «Omè, Agnel, come ti muti!
@@ -368,44 +317,44 @@ Please translate literally into Chinese.
 </prompt>
 <result>
 67 另外两个人看着他，每个人都在喊：
-68 “哦，阿涅尔，你变成了什么样子！
-69 你看，你现在既不是两个人也不是一个人。”
+68 “哦，阿涅洛，你发生了什么变化！
+69 你看，你现在既不是两个人，也不是一个人。”
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 70/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 70 Già eran li due capi un divenuti,
 71 quando n’apparver due figure miste
 72 in una faccia, ov’ eran due perduti.
 </prompt>
 <result>
-70 当两个头已经合二为一时，
-71 出现了两个混合在一起的人物
+70 两个头已经合二为一，
+71 这时出现了两个混合在一起的人物
 72 在一张脸上，两个人消失了。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 73/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 73 Fersi le braccia due di quattro liste;
 74 le cosce con le gambe e ’l ventre e ’l casso
 75 divenner membra che non fuor mai viste.
 </prompt>
 <result>
-四条手臂变成了两条；
-74 大腿、小腿、腹部和胸部
-75 变成了一些从未见过的肢体。
+73 四条手臂变成了两条；
+74 大腿、小腿、肚子和胸部
+75 变成了从未见过的肢体。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 76/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 76 Ogne primaio aspetto ivi era casso:
 77 due e nessun l’imagine perversa
@@ -413,14 +362,14 @@ Please translate literally into Chinese.
 </prompt>
 <result>
 76 那里所有的原始面貌都消失了：
-77 邪恶的形象既是两个人又不是一个人；
-78 它就这样慢慢地走了。
+77 扭曲的形象既是两个人，又不是两个人；
+78 它就这样慢慢地走开了。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 79/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 79 Come ’l ramarro sotto la gran fersa
 80 dei dì canicular, cangiando sepe,
@@ -435,68 +384,68 @@ Please translate literally into Chinese.
 87 poi cadde giuso innanzi lui disteso.
 </prompt>
 <result>
-79 就如同在炎热的日子里，壁虎在巨大的蕨类植物下，
-80 改变了它的树篱，
+79 就如同在炎热的日子里，壁虎在烈日下
+80 改变着它的颜色，
 81 如果它穿过道路，它看起来就像一道闪电，
 
 82 当它朝另外两个人的脚踝走来时，
-83 它看起来像一条燃烧的小蛇，
+83 它看起来就像一条燃烧的小蛇，
 84 像胡椒粒一样青黑色；
 
-85 那部分是我们首先摄取食物的地方，
-86 刺穿了他们中的一个；
+85 它首先咬住的地方
+86 是其中一个人的食物来源；
 87 然后它倒在地上，伸展在他面前。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 88/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 88 Lo trafitto ’l mirò, ma nulla disse;
 89 anzi, co’ piè fermati, sbadigliava
 90 pur come sonno o febbre l’assalisse.
 </prompt>
 <result>
-88 被刺中的人看着他，但什么也没说；
+88 被咬的人看着他，但什么也没说；
 89 相反，他站着不动，打着哈欠，
-90 就像是被睡意或发烧袭击了一样。
+90 就像困意或发烧袭击了他一样。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 91/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 91 Elli ’l serpente e quei lui riguardava;
 92 l’un per la piaga e l’altro per la bocca
 93 fummavan forte, e ’l fummo si scontrava.
 </prompt>
 <result>
-91 蛇看着他，他也看着蛇；
+91 他看着蛇，蛇也看着他；
 92 一个从伤口，另一个从嘴巴
-93 强烈地冒着烟，烟雾相互碰撞。
+93 猛烈地冒出烟雾，烟雾相互碰撞。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 94/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 94 Taccia Lucano ormai là dov’ e’ tocca
 95 del misero Sabello e di Nasidio,
 96 e attenda a udir quel ch’or si scocca.
 </prompt>
 <result>
-94 卢坎现在应该闭嘴，在那里他提到了
-95 可怜的萨贝罗和纳西迪奥，
-96 并等待听听现在发生了什么。
+94 卢坎现在应该闭嘴，
+95 不要再提可怜的萨贝罗和纳西迪奥，
+96 而应该听听现在发生的事情。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 97/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 97 Taccia di Cadmo e d’Aretusa Ovidio,
 98 ché se quello in serpente e quella in fonte
@@ -507,33 +456,33 @@ Please translate literally into Chinese.
 102 a cambiar lor matera fosser pronte.
 </prompt>
 <result>
-97 奥维德应该闭嘴，关于卡德摩斯和阿雷图萨，
-98 因为如果他通过诗歌将那个变成蛇，将这个变成喷泉，
+97 奥维德不要再提卡德摩斯和阿雷图萨，
+98 因为如果他在诗中把前者变成蛇，把后者变成泉水，
 99 我并不嫉妒他；
 
-100 因为两种自然从未面对面地转变，
-101 以至于两种形式都准备好改变它们的物质。
+100 因为从来没有两种生物面对面地互相转化，
+101 以至于它们都准备好改变它们的物质。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 103/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 103 Insieme si rispuosero a tai norme,
 104 che ’l serpente la coda in forca fesse,
 105 e ’l feruto ristrinse insieme l’orme.
 </prompt>
 <result>
-103 它们同时对这些规则做出了回应，
-104 蛇将尾巴分成两半，
-105 而受伤的人则收紧了他的脚步。
+103 它们同时按照这些规则互相回应，
+104 蛇把尾巴分成两半，
+105 而受伤的人把脚缩在一起。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 106/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 106 Le gambe con le cosce seco stesse
 107 s’appiccar sì, che ’n poco la giuntura
@@ -542,13 +491,13 @@ Please translate literally into Chinese.
 <result>
 106 他的腿和大腿粘在一起，
 107 以至于在很短的时间内，
-108 关节没有任何可见的痕迹。
+108 接缝处没有任何可见的痕迹。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 109/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 109 Togliea la coda fessa la figura
 110 che si perdeva là, e la sua pelle
@@ -557,13 +506,13 @@ Please translate literally into Chinese.
 <result>
 109 分叉的尾巴取走了
 110 在那里消失的形状，它的皮肤
-111 变软了，而那边的皮肤变硬了。
+111 变得柔软，而那边的皮肤变得坚硬。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 112/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 112 Io vidi intrar le braccia per l’ascelle,
 113 e i due piè de la fiera, ch’eran corti,
@@ -572,28 +521,28 @@ Please translate literally into Chinese.
 <result>
 112 我看到手臂进入腋窝，
 113 野兽的两只脚很短，
-114 当那些脚缩短时，它们伸长了很多。
+114 当那些脚缩短时，它们变得很长。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 115/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 115 Poscia li piè di rietro, insieme attorti,
 116 diventaron lo membro che l’uom cela,
 117 e ’l misero del suo n’avea due porti.
 </prompt>
 <result>
-115 然后，后面的脚扭在一起，
+115 随后，后面的脚扭在一起，
 116 变成人类隐藏的器官，
-117 而可怜的人有两个。
+117 而可怜的人有两个这样的器官。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 118/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 118 Mentre che ’l fummo l’uno e l’altro vela
 119 di color novo, e genera ’l pel suso
@@ -604,18 +553,18 @@ Please translate literally into Chinese.
 123 sotto le quai ciascun cambiava muso.
 </prompt>
 <result>
-118 当烟雾用新的颜色覆盖他们俩，
-119 并在一侧产生皮毛，而在另一侧将其剥落时，
+118 当烟雾将它们两个都覆盖成
+120 新的颜色，并在一边产生毛发，而在另一边脱毛时，
 
-120 一个站起来，另一个倒下，
-122 但并没有扭动他们邪恶的眼睛，
+121 一个站起来，另一个倒下，
+122 但它们邪恶的眼睛却没有转动，
 123 在这些眼睛下，每个人都改变了面孔。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 124/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 124 Quel ch’era dritto, il trasse ver’ le tempie,
 125 e di troppa matera ch’in là venne
@@ -626,19 +575,19 @@ Please translate literally into Chinese.
 129 e le labbra ingrossò quanto convenne.
 </prompt>
 <result>
-124 原本直立的那个，将它拉向太阳穴，
-125 多余的物质来到那里，
-126 耳朵从光滑的脸颊上长了出来；
+124 原本直立的部分向太阳穴延伸，
+125 多余的物质从那里出来，
+126 从光滑的脸颊上长出耳朵；
 
-127 没有向后流失并保留的
-128 多余的部分，形成了脸上的鼻子，
-129 并使嘴唇增厚到适当的程度。
+127 没有向后延伸并保留的部分
+128 从多余的部分形成了鼻子，
+129 并使嘴唇变得适当的粗大。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 130/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 130 Quel che giacëa, il muso innanzi caccia,
 131 e li orecchi ritira per la testa
@@ -649,19 +598,19 @@ Please translate literally into Chinese.
 135 ne l’altro si richiude; e ’l fummo resta.
 </prompt>
 <result>
-130 原本躺着的那个人，将鼻子向前伸出，
-131 并将耳朵缩回头部，
-132 就像蜗牛长出角一样；
+130 原本躺着的那个人，把鼻子向前伸，
+131 把耳朵缩进头里，
+132 就像蜗牛伸出触角一样；
 
-133 他的舌头原本是统一的，可以
-134 很快地说话，现在分裂了，而分叉的
-135 舌头在另一个人身上闭合；烟雾消失了。
+133 原本用来说话的舌头，
+134 现在分裂成两半，而另一半则闭合；
+135 烟雾消失了。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 136/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 136 L’anima ch’era fiera divenuta,
 137 suffolando si fugge per la valle,
@@ -669,29 +618,29 @@ Please translate literally into Chinese.
 </prompt>
 <result>
 136 变得凶猛的灵魂，
-137 嘶嘶地逃离山谷，
-138 另一个在他身后边走边吐口水。
+137 嘶嘶地逃进山谷，
+138 另一个在他后面边追边吐口水。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 139/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 139 Poscia li volse le novelle spalle,
 140 e disse a l’altro: «I’ vo’ che Buoso corra,
 141 com’ ho fatt’ io, carpon per questo calle».
 </prompt>
 <result>
-139 然后他转过他新的肩膀，
-140 并对另一个人说：“我要布奥索像我一样，
+139 然后他转过他新长出的背，
+140 对另一个人说：“我要布奥索像我一样，
 141 沿着这条小路爬行。”
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 142/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 142 Così vid’ io la settima zavorra
 143 mutare e trasmutare; e qui mi scusi
@@ -699,14 +648,14 @@ Please translate literally into Chinese.
 </prompt>
 <result>
 142 所以我看到了第七个压舱物
-143 改变和转变；如果新奇的事物使我的笔讨厌开花，
+143 改变和转化；如果新奇的事物使我的笔讨厌开花，
 144 那么请原谅我。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 145/151</info>
 <prompt>
-Please translate literally into Chinese.
+Please translate each line literally into Chinese.
 
 145 E avvegna che li occhi miei confusi
 146 fossero alquanto e l’animo smagato,
@@ -719,14 +668,14 @@ Please translate literally into Chinese.
 151 l’altr’ era quel che tu, Gaville, piagni.
 </prompt>
 <result>
-145 尽管我的眼睛有些混乱，
-146 我的灵魂也有些惊慌，
-147 他们无法逃脱得如此隐蔽，
+145 尽管我的眼睛有些模糊，
+146 我的心也有些惊慌，
+147 但他们无法逃得太远，
 
-148 以至于我没有很好地认出普乔·希安卡托；
+148 以至于我没有认出普乔·希安卡托；
 149 在三个先来的同伴中，只有他
 150 没有改变；
 
-151 另一个是你，加维勒，所哀悼的。
+151 另一个是你，加维莱，所哀悼的。
 </result>
 </query>
