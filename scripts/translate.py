@@ -2,6 +2,7 @@ import sys, os, re, xml7shi, common
 
 args = sys.argv[1:]
 
+directories = "Inferno Purgatorio Paradiso"
 once   = False
 retry  = True
 show   = True
@@ -20,11 +21,15 @@ while i < len(args):
     elif args[i] == "--check-length":
         chklen = True
         args.pop(i)
+    elif args[i] == "-d" and len(args) > i + 1:
+        directories = args.pop(i + 1)
+        args.pop(i)
     else:
         i += 1
 
 if len(args) != 3:
     print(f"Usage: python {sys.argv[0]} italian-dir output-dir language", file=sys.stderr)
+    print("  -d: specify sub directory", file=sys.stderr)
     print("  -1: just do one canto", file=sys.stderr)
     print("  --no-retry: don't retry queries", file=sys.stderr)
     print("  --no-show: don't show queries and responses", file=sys.stderr)
@@ -72,7 +77,7 @@ def send_lines(line_count, *plines):
 def write(f, text):
     f.write(text.encode("utf_8"))
 
-for directory in ["Inferno", "Purgatorio", "Paradiso"]:
+for directory in directories.split():
     path = os.path.join(outdir, directory.lower())
     if not os.path.exists(path):
         os.mkdir(path)
