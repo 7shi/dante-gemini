@@ -1,7 +1,6 @@
 SCRIPT = python ../scripts/translate.py ../it
 
 translate:
-	$(SCRIPT) pt Portuguese
 	$(SCRIPT) bg Bulgarian
 	$(SCRIPT) sr "Serbian (Latin)"
 	$(SCRIPT) no Norwegian
@@ -29,9 +28,10 @@ translate:
 	$(SCRIPT) cs Czech
 	$(SCRIPT) uk Ukrainian
 	$(SCRIPT) ru Russian
-	#$(SCRIPT) gv Manx # unstable
+	$(SCRIPT) gv Manx --check-length # unstable
 
 _done:
+	$(SCRIPT) pt Portuguese
 	$(SCRIPT) es Spanish
 	$(SCRIPT) fr French
 	$(SCRIPT) et Estonian
@@ -41,7 +41,7 @@ _done:
 	$(SCRIPT) hi Hindi
 	$(SCRIPT) el "Modern Greek"
 	$(SCRIPT) en English
-	$(SCRIPT) eo "English and Esperanto" # partial
+	$(SCRIPT) eo "English and Esperanto" --no-retry # partial
 
 _error:
 	$(SCRIPT) af Afrikaans
