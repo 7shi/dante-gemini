@@ -2,7 +2,7 @@
 <query>
 <info>[Paradiso Canto 22] 1/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 1 Oppresso di stupore, a la mia guida
 2 mi volsi, come parvol che ricorre
@@ -27,19 +27,19 @@ Please translate literally into Spanish.
 <result>
 1 Oprimido de asombro, a mi guía
 2 me volví, como niño que recurre
-3 siempre allá donde más confía;
+3 siempre allí donde más confía;
 
 4 y aquella, como madre que socorre
 5 súbitamente al hijo pálido y anhelante
-6 con su voz, que suele tranquilizarlo,
+6 con su voz, que el suelo bien dispone,
 
 7 me dijo: «¿No sabes que estás en el cielo?
 8 ¿Y no sabes que el cielo es todo santo,
-9 y que todo lo que aquí se hace proviene de buen celo?
+9 y lo que aquí se hace viene de buen celo?
 
 10 Cómo te habría transformado el canto,
 11 y yo riendo, ahora puedes pensarlo,
-12 puesto que el grito te ha conmovido tanto;
+12 después que el grito te ha conmovido tanto;
 
 13 en el cual, si hubieras entendido sus ruegos,
 14 ya te sería conocida la venganza
@@ -49,7 +49,7 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 16/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 16 La spada di qua sù non taglia in fretta
 17 né tardo, ma’ ch’al parer di colui
@@ -64,37 +64,63 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 19/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 19 Ma rivolgiti omai inverso altrui;
 20 ch’assai illustri spiriti vedrai,
 21 se com’ io dico l’aspetto redui».
 </prompt>
 <result>
-19 Pero vuélvete ahora hacia los demás;
+19 Pero vuélvete ahora hacia otros;
 20 porque verás muchos espíritus ilustres,
-21 si diriges la mirada como yo te digo.
+21 si como yo digo diriges la mirada.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 22/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 22 Come a lei piacque, li occhi ritornai,
 23 e vidi cento sperule che ’nsieme
 24 più s’abbellivan con mutüi rai.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "22 Como a ella le gustó, volví los ojos,\n23 y vi cien pequeñas esferas que juntas\n24 se embellecían más con mutuos rayos."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-22 Como a ella le agradó, volví los ojos,
-23 y vi cien esferas que juntas
+22 Como a ella le gustó, volví los ojos,
+23 y vi cien pequeñas esferas que juntas
 24 se embellecían más con mutuos rayos.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 25/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 25 Io stava come quei che ’n sé repreme
 26 la punta del disio, e non s’attenta
@@ -143,14 +169,14 @@ safety_ratings {
 <query>
 <info>[Paradiso Canto 22] 31/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 31 Poi dentro a lei udi’: «Se tu vedessi
 32 com’ io la carità che tra noi arde,
 33 li tuoi concetti sarebbero espressi.
 </prompt>
 <result>
-31 Luego dentro de ella oí: «Si tú vieras
+31 Después dentro de ella oí: «Si vieras
 32 cómo arde entre nosotros la caridad,
 33 tus conceptos serían expresados.
 </result>
@@ -158,7 +184,7 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 34/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 34 Ma perché tu, aspettando, non tarde
 35 a l’alto fine, io ti farò risposta
@@ -167,13 +193,13 @@ Please translate literally into Spanish.
 <result>
 34 Pero para que tú, esperando, no tardes
 35 en el alto fin, yo te responderé
-36 solo al pensamiento, puesto que tanto te preocupa.
+36 sólo al pensamiento, ya que tanto te preocupa.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 37/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 37 Quel monte a cui Cassino è ne la costa
 38 fu frequentato già in su la cima
@@ -188,7 +214,7 @@ Please translate literally into Spanish.
 45 da l’empio cólto che ’l mondo sedusse.
 </prompt>
 <result>
-37 Aquel monte en cuya ladera está Casina
+37 Aquel monte en cuya ladera está Cassino
 38 fue frecuentado antaño en su cima
 39 por gente engañada y mal dispuesta;
 
@@ -204,7 +230,7 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 46/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 46 Questi altri fuochi tutti contemplanti
 47 uomini fuoro, accesi di quel caldo
@@ -212,14 +238,14 @@ Please translate literally into Spanish.
 </prompt>
 <result>
 46 Todas estas otras luces contemplativas
-47 fueron hombres, encendidos por ese calor
+47 fueron hombres, encendidos de aquel ardor
 48 que hace nacer las flores y los frutos santos.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 49/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 49 Qui è Maccario, qui è Romoaldo,
 50 qui son li frati miei che dentro ai chiostri
@@ -234,7 +260,7 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 52/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 52 E io a lui: «L’affetto che dimostri
 53 meco parlando, e la buona sembianza
@@ -250,14 +276,14 @@ Please translate literally into Spanish.
 54 que veo y noto en todos vuestros ardores,
 
 55 así ha dilatado mi confianza,
-56 como el sol hace con la rosa cuando abierta
-57 se vuelve tan grande como su capacidad.
+56 como el sol hace la rosa cuando abierta
+57 se vuelve tan grande como puede.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 58/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 58 Però ti priego, e tu, padre, m’accerta
 59 s’io posso prender tanta grazia, ch’io
@@ -272,7 +298,7 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 61/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 61 Ond’ elli: «Frate, il tuo alto disio
 62 s’adempierà in su l’ultima spera,
@@ -287,7 +313,7 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 64/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 64 Ivi è perfetta, matura e intera
 65 ciascuna disïanza; in quella sola
@@ -303,21 +329,21 @@ Please translate literally into Spanish.
 66 está cada parte donde siempre estuvo,
 
 67 porque no está en lugar y no se mueve;
-68 y nuestra escalera hasta ella llega,
+68 y nuestra escalera llega hasta ella,
 69 por lo que así se te escapa de la vista.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 70/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 70 Infin là sù la vide il patriarca
 71 Iacobbe porger la superna parte,
 72 quando li apparve d’angeli sì carca.
 </prompt>
 <result>
-70 Hasta allá arriba la vio el patriarca
+70 Hasta allí arriba la vio el patriarca
 71 Jacob extender la parte superior,
 72 cuando se le apareció tan cargada de ángeles.
 </result>
@@ -325,22 +351,22 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 73/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 73 Ma, per salirla, mo nessun diparte
 74 da terra i piedi, e la regola mia
 75 rimasa è per danno de le carte.
 </prompt>
 <result>
-73 Pero, para subirla, ahora nadie aparta
-74 de la tierra los pies, y mi regla
+73 Pero, para subirla, ahora nadie
+74 aparta los pies de la tierra, y mi regla
 75 ha quedado por daño de las cartas.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 76/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 76 Le mura che solieno esser badia
 77 fatte sono spelonche, e le cocolle
@@ -348,14 +374,14 @@ Please translate literally into Spanish.
 </prompt>
 <result>
 76 Los muros que solían ser abadía
-77 se han convertido en cuevas, y las cogullas
+77 se han hecho cuevas, y las cogullas
 78 son sacos llenos de mala harina.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 79/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 79 Ma grave usura tanto non si tolle
 80 contra ’l piacer di Dio, quanto quel frutto
@@ -366,11 +392,11 @@ Please translate literally into Spanish.
 84 non di parenti né d’altro più brutto.
 </prompt>
 <result>
-79 Pero la usura grave no se cobra tanto
-80 contra el placer de Dios, como ese fruto
-81 que vuelve tan loco el corazón de los monjes;
+79 Pero grave usura no se cobra tanto
+80 contra el placer de Dios, como aquel fruto
+81 que hace el corazón de los monjes tan loco;
 
-82 porque todo lo que la Iglesia guarda
+82 porque todo lo que la Iglesia guarda,
 83 es de la gente que pide por Dios;
 84 no de parientes ni de otro más feo.
 </result>
@@ -378,7 +404,7 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 85/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 85 La carne d’i mortali è tanto blanda,
 86 che giù non basta buon cominciamento
@@ -387,13 +413,13 @@ Please translate literally into Spanish.
 <result>
 85 La carne de los mortales es tan blanda,
 86 que abajo no basta un buen comienzo
-87 desde el nacimiento del roble hasta la formación de la bellota.
+87 desde que nace el roble hasta que da la bellota.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 88/154</info>
-<prompt>
-Please translate literally into Spanish.
+<prompt retry="true">
+Please translate each line literally into Spanish.
 
 88 Pier cominciò sanz’ oro e sanz’ argento,
 89 e io con orazione e con digiuno,
@@ -403,20 +429,24 @@ Please translate literally into Spanish.
 92 poscia riguardi là dov’ è trascorso,
 93 tu vederai del bianco fatto bruno.
 </prompt>
+<error result="true">
+index: 0
+finish_reason: OTHER
+</error>
 <result>
 88 Pedro comenzó sin oro y sin plata,
 89 y yo con oración y con ayuno,
 90 y Francisco humildemente su convento;
 
 91 y si miras el principio de cada uno,
-92 luego miras hacia dónde ha ido,
-93 verás que lo blanco se ha vuelto oscuro.
+92 luego miras hacia dónde ha ido a parar,
+93 verás que de lo blanco se ha hecho oscuro.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 94/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 94 Veramente Iordan vòlto retrorso
 95 più fu, e ’l mar fuggir, quando Dio volse,
@@ -425,13 +455,13 @@ Please translate literally into Spanish.
 <result>
 94 Verdaderamente el Jordán volvió hacia atrás
 95 más, y el mar huyó, cuando Dios quiso,
-96 admirable de ver que aquí el socorro».
+96 milagroso de ver que aquí el socorro».
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 97/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 97 Così mi disse, e indi si raccolse
 98 al suo collegio, e ’l collegio si strinse;
@@ -446,7 +476,7 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 100/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 100 La dolce donna dietro a lor mi pinse
 101 con un sol cenno su per quella scala,
@@ -457,8 +487,8 @@ Please translate literally into Spanish.
 105 ch’agguagliar si potesse a la mia ala.
 </prompt>
 <result>
-100 La dulce dama me empujó tras ellos
-101 con un solo gesto por esa escalera,
+100 La dulce dama detrás de ellos me empujó
+101 con un solo gesto hacia arriba por esa escalera,
 102 así su virtud venció mi naturaleza;
 
 103 ni nunca aquí abajo donde se sube y se baja
@@ -469,7 +499,7 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 106/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 106 S’io torni mai, lettore, a quel divoto
 107 trïunfo per lo quale io piango spesso
@@ -484,15 +514,15 @@ Please translate literally into Spanish.
 107 triunfo por el cual lloro a menudo
 108 mis pecados y me golpeo el pecho,
 
-109 tú no habrías metido y puesto el dedo en el fuego
-110 en tanto tiempo como yo vi el signo
+109 tú no habrías tenido tiempo de meter
+110 el dedo en el fuego, en cuanto vi el signo
 111 que sigue a Tauro y estuve dentro de él.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 112/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 112 O glorïose stelle, o lume pregno
 113 di gran virtù, dal quale io riconosco
@@ -516,14 +546,14 @@ Please translate literally into Spanish.
 117 cuando sentí por primera vez el aire toscano;
 
 118 y luego, cuando me fue concedida la gracia
-119 de entrar en la alta rueda que os gira,
-120 vuestra región me fue otorgada.
+119 de entrar en la alta rueda que os hace girar,
+120 vuestra región me fue asignada.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 121/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 121 A voi divotamente ora sospira
 122 l’anima mia, per acquistar virtute
@@ -532,13 +562,13 @@ Please translate literally into Spanish.
 <result>
 121 A vosotras suspira ahora devotamente
 122 mi alma, para adquirir virtud
-123 para el paso fuerte que la atrae hacia sí.
+123 en el paso fuerte que la atrae hacia sí.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 124/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 124 «Tu se’ sì presso a l’ultima salute»,
 125 cominciò Bëatrice, «che tu dei
@@ -553,7 +583,7 @@ Please translate literally into Spanish.
 132 che lieta vien per questo etera tondo».
 </prompt>
 <result>
-124 «Estás tan cerca de la última salvación»,
+124 «Estás tan cerca de la salvación final»,
 125 comenzó Beatriz, «que debes
 126 tener tus ojos claros y agudos;
 
@@ -561,15 +591,15 @@ Please translate literally into Spanish.
 128 mira hacia abajo y ve cuánto mundo
 129 ya te hice estar bajo tus pies;
 
-130 para que tu corazón, todo lo que pueda, alegre
+130 para que tu corazón, tanto como pueda, alegre
 131 se presente a la multitud triunfante
-132 que viene alegre por este éter redondo».
+132 que alegre viene por este éter redondo».
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 133/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 133 Col viso ritornai per tutte quante
 134 le sette spere, e vidi questo globo
@@ -580,7 +610,7 @@ Please translate literally into Spanish.
 138 chiamar si puote veramente probo.
 </prompt>
 <result>
-133 Volví el rostro por todas
+133 Con la vista volví por todas
 134 las siete esferas, y vi este globo
 135 tal, que sonreí de su vil semblante;
 
@@ -592,22 +622,22 @@ Please translate literally into Spanish.
 <query>
 <info>[Paradiso Canto 22] 139/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 139 Vidi la figlia di Latona incensa
 140 sanza quell’ ombra che mi fu cagione
 141 per che già la credetti rara e densa.
 </prompt>
 <result>
-139 Vi la hija de Latona encendida
+139 Vi a la hija de Latona encendida
 140 sin esa sombra que me fue causa
-141 por la que antes la creí rara y densa.
+141 por la que ya la creí rara y densa.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 142/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 142 L’aspetto del tuo nato, Iperïone,
 143 quivi sostenni, e vidi com’ si move
@@ -616,13 +646,13 @@ Please translate literally into Spanish.
 <result>
 142 La mirada de tu hijo, Hiperión,
 143 allí sostuve, y vi cómo se mueven
-144 alrededor y cerca de él Maya y Dione.
+144 cerca y alrededor de él Maya y Dione.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 145/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 145 Quindi m’apparve il temperar di Giove
 146 tra ’l padre e ’l figlio; e quindi mi fu chiaro
@@ -633,19 +663,19 @@ Please translate literally into Spanish.
 150 e come sono in distante riparo.
 </prompt>
 <result>
-145 Luego me apareció el temperamento de Júpiter
-146 entre el padre y el hijo; y luego me quedó claro
-147 la variación que hacen de su lugar;
+145 Entonces me apareció el temperamento de Júpiter
+146 entre el padre y el hijo; y entonces me quedó claro
+147 el variar que hacen de su lugar;
 
 148 y todos los siete se me mostraron
-149 cuán grandes son y cuán veloces
+149 cuán grandes son y cuán veloces son
 150 y cómo están en distante refugio.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 22] 151/154</info>
 <prompt>
-Please translate literally into Spanish.
+Please translate each line literally into Spanish.
 
 151 L’aiuola che ci fa tanto feroci,
 152 volgendom’ io con li etterni Gemelli,
@@ -654,9 +684,9 @@ Please translate literally into Spanish.
 154 poscia rivolsi li occhi a li occhi belli.
 </prompt>
 <result>
-151 La parcela que nos hace tan feroces,
-152 girando yo con los eternos Gemelos,
-153 toda se me apareció desde los collados hasta las desembocaduras;
+151 El jardín que nos hace tan feroces,
+152 volviéndome yo con los eternos Géminis,
+153 todo se me apareció desde las colinas hasta las desembocaduras;
 
 154 luego volví los ojos a los bellos ojos.
 </result>
