@@ -1,7 +1,6 @@
 SCRIPT = python ../scripts/translate.py ../it
 
 translate:
-	$(SCRIPT) lt Lithuanian
 	$(SCRIPT) lv Latvian
 	$(SCRIPT) bn Bengali
 	$(SCRIPT) vi Vietnamese
@@ -25,6 +24,7 @@ translate:
 	$(SCRIPT) gv Manx # unstable
 
 _done:
+	$(SCRIPT) lt Lithuanian
 	$(SCRIPT) ia Interlingua --need-space # unstable
 	$(SCRIPT) ro Romanian
 	$(SCRIPT) nl Dutch
