@@ -16,13 +16,22 @@ Please translate each line literally into Dutch.
 8 parer la fiamma; e pur a tanto indizio
 9 vidi molt’ ombre, andando, poner mente.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+1 Terwijl we zo langs de rand liepen, de een voor de ander,
+2 zei de goede meester vaak tegen mij: "Kijk goed, het is goed dat ik je wijs maak";
+
+3 de zon scheen op mijn rechter schouder,
+4 die, stralend, het hele westen
+5 veranderde in een witte kleur van lichtblauw;
+
+6 en ik maakte met mijn schaduw, die steeds donkerder werd,
+7 de vlam lijken; en alleen aan dat teken
+8 zag ik, terwijl ik liep, veel schaduwen opmerken.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 10/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 10 Questa fu la cagion che diede inizio
@@ -33,44 +42,49 @@ Please translate each line literally into Dutch.
 14 certi si fero, sempre con riguardo
 15 di non uscir dove non fosser arsi.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+10 Dit was de reden dat ze
+11 over mij begonnen te praten; en ze begonnen
+12 te zeggen: "Die man lijkt geen stoffelijk lichaam te zijn";
+
+13 toen kwamen sommigen naar me toe, zo dichtbij als ze konden komen,
+14 altijd voorzichtig
+15 om niet naar een plek te gaan waar ze verbrand zouden worden.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 16/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 16 «O tu che vai, non per esser più tardo,
 17 ma forse reverente, a li altri dopo,
 18 rispondi a me che ’n sete e ’n foco ardo.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+16 "O jij die daar loopt, niet omdat je langzamer bent,
+17 maar misschien uit respect, achter de anderen,
+18 antwoord mij, want ik brand van dorst en vuur.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 19/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 19 Né solo a me la tua risposta è uopo;
 20 ché tutti questi n’hanno maggior sete
 21 che d’acqua fredda Indo o Etïopo.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-19 Niet alleen ik heb behoefte aan jouw antwoord;
-20 want al deze mensen hier dorsten er meer naar
+19 En niet alleen ik heb behoefte aan jouw antwoord;
+20 want al deze anderen hebben een grotere dorst
 21 dan naar koud water uit India of Ethiopië.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 22/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 22 Dinne com’ è che fai di te parete
@@ -78,12 +92,35 @@ Please translate each line literally into Dutch.
 24 di morte intrato dentro da la rete».
 </prompt>
 <error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+index: 0
+content {
+  parts {
+    text: "22 Vertel ons hoe het komt dat je jezelf als een muur\n23 voor de zon plaatst, terwijl je nog niet\n24 gevangen bent door het net van de dood\"."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 <result>
-22 Vertel me, hoe komt het dat jij je als een muur
-23 voor de zon plaatst, terwijl je toch nog niet
-24 door het net van de dood bent gegaan?
+22 Vertel ons hoe het komt dat je jezelf als een muur
+23 voor de zon plaatst, terwijl je nog niet
+24 gevangen bent door het net van de dood".
 </result>
 </query>
 <query>
@@ -100,18 +137,18 @@ Please translate each line literally into Dutch.
 30 la qual mi fece a rimirar sospeso.
 </prompt>
 <result>
-25 Ja, een van hen sprak tegen mij; en ik zou me
-26 al bekend hebben gemaakt, als ik niet had gewacht
-27 op iets nieuws dat toen verscheen;
+25 Zo sprak een van hen tegen mij; en ik zou me
+26 al bekend hebben gemaakt, als ik niet was afgeleid
+27 door iets nieuws dat toen verscheen;
 
 28 want midden op het verlichte pad
-29 kwam een groep mensen aanlopen met het gezicht naar deze groep toegekeerd,
+29 kwamen mensen aan met hun gezicht naar deze mensen toe,
 30 waardoor ik nieuwsgierig werd om te kijken.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 31/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 31 Lì veggio d’ogne parte farsi presta
@@ -122,13 +159,19 @@ Please translate each line literally into Dutch.
 35 s’ammusa l’una con l’altra formica,
 36 forse a spïar lor via e lor fortuna.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+31 Daar zie ik aan alle kanten
+32 elke schaduw zich haasten en elkaar kussen
+33 zonder te stoppen, tevreden met een kort feest;
+
+34 zo snuffelt binnen hun bruine groep
+35 de ene mier aan de andere,
+36 misschien om elkaars weg en lot te bespioneren.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 37/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 37 Tosto che parton l’accoglienza amica,
@@ -139,17 +182,14 @@ Please translate each line literally into Dutch.
 41 e l’altra: «Ne la vacca entra Pasife,
 42 perché ’l torello a sua lussuria corra».
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-37 Zodra ze de vriendelijke ontvangst achter zich laten,
-38 voordat ze daar de eerste stap zetten,
-39 doet ieder zijn best om boven de ander uit te schreeuwen:
+37 Zodra ze de vriendelijke begroeting beëindigen,
+38 voordat de eerste stap daar voorbij is,
+39 roept elk van hen hardop:
 
 40 de nieuwe groep: "Sodom en Gomorra";
 41 en de andere: "Pasiphaë gaat de koe binnen,
-42 zodat de stier naar haar lust toe rent".
+42 zodat de stier naar haar lust zal rennen".
 </result>
 </query>
 <query>
@@ -170,17 +210,17 @@ Please translate each line literally into Dutch.
 51 attenti ad ascoltar ne’ lor sembianti.
 </prompt>
 <result>
-43 Daarna, zoals kraanvogels die vanaf de Rifeus-bergen
-44 deels wegvliegen en deels naar de zandvlakten,
+43 Daarna, zoals kraanvogels die naar de Rifeïsche bergen
+44 vliegen, sommigen naar het oosten en sommigen naar het westen,
 45 deze bang voor de kou, die voor de zon,
 
-46 vertrekt de ene groep en komt de andere;
+46 gaat de ene groep weg en komt de andere;
 47 en ze keren, wenend, terug naar de eerste gezangen
-48 en naar het geschreeuw dat hun het meest past;
+48 en naar het geschreeuw dat het beste bij hen past;
 
 49 en ze komen weer bij me staan, zoals eerder,
-50 dezelfde groep die me had gesmeekt,
-51 aandachtig luisterend, te zien aan hun gezichten.
+50 dezelfde mensen die me hadden gevraagd,
+51 aandachtig om te luisteren, te zien aan hun gezichten.
 </result>
 </query>
 <query>
@@ -197,13 +237,12 @@ Please translate each line literally into Dutch.
 57 col sangue suo e con le sue giunture.
 </prompt>
 <result>
-52 Ik, die hen twee keer hun dankbaarheid had zien tonen,
-53 begon: "O zielen die er zeker van kunnen zijn
-54 dat jullie ooit een staat van vrede zullen bereiken,
+52 Ik, die hun verlangen twee keer had gezien,
+53 begon: "O zielen die zeker zijn
+54 van een staat van vrede, wanneer dan ook,
 
-55 mijn ledematen zijn daar niet achtergebleven, onrijp of rijp,
-56 maar zijn hier bij me,
-57 met hun bloed en hun gewrichten.
+55 mijn ledematen zijn daar niet onrijp of rijp achtergebleven, maar zijn hier bij me
+56 met hun bloed en hun gewrichten.
 </result>
 </query>
 <query>
@@ -217,8 +256,8 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 58 Ik ga hierheen om niet langer blind te zijn;
-59 boven is een vrouw die mij genade verschaft,
-60 waardoor ik de sterfelijke door jullie wereld leid.
+59 boven is een vrouw die mij genade verwerft,
+60 waardoor ik de sterfelijke wereld naar jullie wereld breng.
 </result>
 </query>
 <query>
@@ -239,14 +278,14 @@ Please translate each line literally into Dutch.
 62 zodat de hemel jullie huisvest,
 63 die vol liefde is en zich ruimer uitstrekt,
 
-64 vertel me dan, zodat ik het nog op papier kan zetten,
+64 vertel me, zodat ik er nog over kan schrijven,
 65 wie jullie zijn en wie die groep is
 66 die achter jullie ruggen aan loopt".
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 67/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 67 Non altrimenti stupido si turba
@@ -269,29 +308,24 @@ Please translate each line literally into Dutch.
 80 rimproverando a sé com’ hai udito,
 81 e aiutan l’arsura vergognando.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-67 Niet anders wordt de bergbewoner verward
-68 en kijkt stom om zich heen,
-69 wanneer hij onbeschaafd en onbesuisd de stad intrekt,
+67 Niet anders wordt de bergbewoner verward en stom,
+68 als hij naar de stad gaat en rondkijkt,
+69 dan elke schaduw in zijn verschijning;
+70 maar toen ze bevrijd waren van hun verbazing,
+71 die in nobele harten snel wegebt,
 
-70 omdat elke schaduw hem doet schrikken;
-71 maar zodra de verbazing is verdwenen,
-72 die in nobele harten snel wegebt,
+72 begon degene die me eerder had gevraagd:
+73 "Gelukkig jij, die uit onze streken
+74 vertrekt om beter te sterven, en ervaring opdoet!
 
-73 "Gelukkig jij, die uit onze streken",
-74 begon opnieuw zij die mij eerst had aangesproken,
-75 "om beter te sterven, ervaring opdoet!
+75 De mensen die niet met ons meegaan, hebben zich schuldig gemaakt
+76 aan datgene waarvoor Caesar, toen hij triomfeerde,
+77 "Koningin" tegen zichzelf hoorde roepen:
 
-76 De mensen die niet met ons meegaan, zijn schuldig
-77 aan datgene waarvoor Caesar, toen hij triomfeerde,
-78 "Koningin" tegen zichzelf hoorde roepen:
-
-79 daarom vertrekken ze roepend "Sodom",
-80 zichzelf verwijtend zoals je hebt gehoord,
-81 en helpen de brand uit schaamte.
+79 daarom roepen ze "Sodom",
+80 verwijten ze zichzelf zoals je hebt gehoord,
+81 en helpen ze de brand te blussen uit schaamte.
 </result>
 </query>
 <query>
@@ -308,13 +342,13 @@ Please translate each line literally into Dutch.
 87 che s’imbestiò ne le ’mbestiate schegge.
 </prompt>
 <result>
-82 Onze zonde was tweeslachtig;
+82 Onze zonde was hermafrodiet;
 83 maar omdat we de menselijke wet niet naleefden,
 84 en als beesten onze lusten volgden,
 
-85 wordt ter onzer schande, voor ons,
-86 wanneer je vertrekt, de naam genoemd van haar
-87 die zich beestachtig gedroeg in de beestachtige brokstukken.
+85 wordt, tot onze schande, de naam van haar
+86 die zich vermengde met de beestachtige splinters,
+87 genoemd wanneer je vertrekt.
 </result>
 </query>
 <query>
@@ -329,7 +363,7 @@ Please translate each line literally into Dutch.
 <result>
 88 Nu weet je wat we deden en waaraan we schuldig waren:
 89 als je misschien bij naam wilt weten wie we zijn,
-90 is er geen tijd om het te zeggen, en ik zou het niet weten.
+90 is er geen tijd om het te vertellen, en ik zou het niet weten.
 </result>
 </query>
 <query>
@@ -342,9 +376,9 @@ Please translate each line literally into Dutch.
 93 per ben dolermi prima ch’a lo stremo».
 </prompt>
 <result>
-91 Ik zal je verlangen naar mij wel bevredigen:
+91 Ik zal je wel een verlangen naar mij ontnemen:
 92 ik ben Guido Guinizzelli, en ik zuiver mezelf al
-93 door goed berouw te tonen voordat ik sterf».
+93 door goed berouw te tonen voordat het einde komt".
 </result>
 </query>
 <query>
@@ -367,14 +401,14 @@ Please translate each line literally into Dutch.
 <result>
 94 Zoals in de droefheid van Lycurgus
 95 twee zonen elkaar ontmoetten om hun moeder weer te zien,
-96 zo deed ik, maar ik verhef me niet zo hoog,
+96 zo deed ik, maar ik stijg niet zo hoog op,
 
-97 toen ik mezelf de vader hoorde noemen
-98 van mij en van mijn andere betere voorgangers die ooit
+97 toen ik mijn vader zichzelf hoorde noemen,
+98 en de beste van mijn andere voorgangers, die ooit
 99 zoete en sierlijke liefdesgedichten schreven;
 
 100 en zonder te horen of te spreken liep ik peinzend
-101 lange tijd rond terwijl ik hem bekeek,
+101 langdurig rond terwijl ik naar hem keek,
 102 en vanwege het vuur ging ik niet dichterbij.
 </result>
 </query>
@@ -404,7 +438,7 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 106 En hij tegen mij: "Je laat zo'n spoor achter,
-107 door wat ik hoor, in mij, en zo duidelijk,
+107 voor zover ik hoor, in mij, en zo duidelijk,
 108 dat Lethe het niet kan wegnemen of grijs kan maken.
 </result>
 </query>
@@ -419,8 +453,8 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 109 Maar als je woorden nu de waarheid spreken,
-110 zeg me dan wat de reden is dat je laat zien
-111 in je woorden en je blik dat je om me geeft».
+110 vertel me dan wat de reden is dat je laat zien
+111 in je woorden en je blik dat je om me geeft".
 </result>
 </query>
 <query>
@@ -435,7 +469,7 @@ Please translate each line literally into Dutch.
 <result>
 112 En ik tegen hem: "Uw zoete woorden,
 113 die, zolang het moderne gebruik zal duren,
-114 hun inkt nog waardevol zullen maken».
+114 hun inkt nog waardevol zullen maken".
 </result>
 </query>
 <query>
@@ -466,7 +500,7 @@ Please translate each line literally into Dutch.
 index: 0
 content {
   parts {
-    text: "118 Liefdesverzen en proza van romans\n119 overtrof hij iedereen; en laat de dwazen maar zeggen\n120 dat zij denken dat die van Limoges hem overtreft."
+    text: "118 Hij overtrof iedereen in liefdesverzen en proza van romans;\n119 en laat de dwazen maar zeggen dat ze denken dat die van Limoges beter is."
   }
   role: "model"
 }
@@ -489,9 +523,8 @@ safety_ratings {
 }
 </error>
 <result>
-118 Liefdesverzen en proza van romans
-119 overtrof hij iedereen; en laat de dwazen maar zeggen
-120 dat zij denken dat die van Limoges hem overtreft.
+118 Hij overtrof iedereen in liefdesverzen en proza van romans;
+119 en laat de dwazen maar zeggen dat ze denken dat die van Limoges beter is.
 </result>
 </query>
 <query>
@@ -504,27 +537,24 @@ Please translate each line literally into Dutch.
 123 prima ch’arte o ragion per lor s’ascolti.
 </prompt>
 <result>
-121 Ze richten hun blik meer op het gerucht dan op de waarheid,
+121 Ze richten hun gezichten meer naar geruchten dan naar de waarheid,
 122 en zo vormen ze hun mening
 123 voordat ze naar kunst of rede luisteren.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 124/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 124 Così fer molti antichi di Guittone,
 125 di grido in grido pur lui dando pregio,
 126 fin che l’ha vinto il ver con più persone.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-124 Zo deden vele voorgangers van Guittone,
-125 hem steeds meer prijzend,
-126 totdat de waarheid het bij de meeste mensen won.
+124 Zo deden veel voorgangers van Guittone,
+125 hem alleen maar prijzend van gerucht tot gerucht,
+126 totdat de waarheid hem bij meer mensen heeft overwonnen.
 </result>
 </query>
 <query>
@@ -541,13 +571,13 @@ Please translate each line literally into Dutch.
 132 dove poter peccar non è più nostro».
 </prompt>
 <result>
-127 Nu jij zo'n groot voorrecht hebt,
-128 dat het jou toegestaan is om naar het klooster te gaan
-129 waar Christus de abt is van de gemeenschap,
+127 Als je nu zo'n groot voorrecht hebt,
+128 dat het je is toegestaan om naar het klooster te gaan
+129 waar Christus de abt is van het college,
 
 130 bid dan voor mij een onzevader,
 131 zoveel als wij in deze wereld nodig hebben,
-132 waar wij niet langer de mogelijkheid hebben om te zondigen».
+132 waar het niet langer in onze macht ligt om te zondigen".
 </result>
 </query>
 <query>
@@ -560,9 +590,9 @@ Please translate each line literally into Dutch.
 135 come per l’acqua il pesce andando al fondo.
 </prompt>
 <result>
-133 Daarna, misschien om plaats te maken voor de ander
-134 die dichtbij hem stond, verdween hij in het vuur,
-135 zoals een vis in het water naar de bodem zinkt.
+133 Daarna, misschien om plaats te maken voor een ander
+134 die dichtbij was, verdween hij door het vuur,
+135 zoals een vis door het water naar de bodem gaat.
 </result>
 </query>
 <query>
@@ -575,26 +605,23 @@ Please translate each line literally into Dutch.
 138 apparecchiava grazïoso loco.
 </prompt>
 <result>
-136 Ik liep een stukje voor degene die zich had getoond,
+136 Ik ging een stukje naar voren naar degene die was aangewezen,
 137 en zei dat mijn verlangen een vriendelijke plaats voor zijn naam voorbereidde.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 139/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 139 El cominciò liberamente a dire:
 140 «Tan m’abellis vostre cortes deman,
 141 qu’ieu no me puesc ni voill a vos cobrire.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
 139 Hij begon vrijmoedig te zeggen:
-140 "Uw beleefde vraag bevalt mij zozeer,
-141 dat ik mij niet kan noch wil verbergen voor u.
+140 "Uw hoffelijke vraag bevalt me zozeer,
+141 dat ik me niet kan en wil verbergen voor u.
 </result>
 </query>
 <query>
@@ -608,8 +635,8 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 142 Ik ben Arnaut, die ween en zingend ga;
-143 vol berouw zie ik de dwaasheid van het verleden,
-144 en ik zie het genot dat ik hoop te vinden, voor mij.
+143 berouwvol zie ik de dwaasheid van het verleden,
+144 en ik zie de vreugde die ik hoop te vinden, voor me.
 </result>
 </query>
 <query>
@@ -623,8 +650,8 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 145 Nu vraag ik u, bij die kracht
-146 die u naar de top van de trap leidde,
-147 denk op tijd aan mijn lijden!".
+146 die u naar de top van de trap leidt,
+147 denk op tijd aan mijn pijn!".
 </result>
 </query>
 <query>
@@ -635,6 +662,6 @@ Please translate each line literally into Dutch.
 148 Poi s’ascose nel foco che li affina.
 </prompt>
 <result>
-148 Daarna verborg hij zich in het vuur dat hem zuivert.
+148 Daarna verborg hij zich in het vuur dat hen zuivert.
 </result>
 </query>

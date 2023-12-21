@@ -48,19 +48,19 @@ Please translate each line literally into Dutch.
 21 quand’ Ëolo scilocco fuor discioglie.
 </prompt>
 <result>
-7 Een zachte wind, zonder verandering
+7 Een zachte bries, zonder verandering
 8 in zichzelf, raakte mijn voorhoofd,
-9 niet harder dan een zachte bries;
+9 niet harder dan een zachte wind;
 
 10 waardoor de bladeren, trillend, snel
 11 allemaal bogen naar de kant
 12 waar de heilige berg zijn eerste schaduw werpt;
 
 13 maar toch niet zozeer van hun rechte stand
-14 dat de vogeltjes in de toppen
+14 verwijderd, dat de vogeltjes in de toppen
 15 zouden ophouden met al hun kunstjes;
 
-16 maar met volle vreugde verwelkomen ze de eerste uren,
+16 maar met volle vreugde ontvangen zij de eerste uren,
 17 zingend, tussen de bladeren,
 18 die het refrein vormden voor hun melodieën,
 
@@ -84,7 +84,7 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 22 Mijn langzame stappen hadden mij al
-23 zo ver in het oude bos gebracht, dat ik
+23 zo diep in het oude woud gebracht, dat ik
 24 niet meer kon zien waar ik was binnengegaan;
 
 25 en zie, verder gaan werd mij belet door een beek,
@@ -107,12 +107,12 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 28 Al het water dat hier zuiverder is,
-29 zou lijken een mengsel te bevatten
+29 zou lijken een of andere vermenging te bevatten
 30 vergeleken met dat, dat niets verbergt,
 
 31 hoewel het bruin en donker stroomt
 32 onder de eeuwige schaduw, die daar nooit
-33 zon of maan laat schijnen.
+33 zon noch maan laat schijnen.
 </result>
 </query>
 <query>
@@ -137,8 +137,8 @@ Please translate each line literally into Dutch.
 35 voorbij de kleine rivier, om te aanschouwen
 36 de grote verscheidenheid aan frisse meien;
 
-37 en daar verscheen ze voor me, zoals plotseling
-38 iets verschijnt dat alle andere gedachten verdrijft
+37 en daar verscheen mij, zoals plotseling verschijnt
+38 iets dat alle andere gedachten verdrijft
 39 door verbazing,
 
 40 een eenzame vrouw die voortging
@@ -171,20 +171,22 @@ Please translate each line literally into Dutch.
 </query>
 <query>
 <info>[Purgatorio Canto 28] 49/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 49 Tu mi fai rimembrar dove e qual era
 50 Proserpina nel tempo che perdette
 51 la madre lei, ed ella primavera».
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+49 Je doet mij herinneren waar en hoe
+50 Proserpina was in de tijd dat zij
+51 haar moeder verloor, en zij de lente.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 52/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 52 Come si volge, con le piante strette
@@ -199,52 +201,94 @@ Please translate each line literally into Dutch.
 59 sì appressando sé, che ’l dolce suono
 60 veniva a me co’ suoi intendimenti.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "52 Zoals een vrouw die danst, met haar voeten dicht\n53 bij elkaar en naar binnen gericht, zich draait,\n54 en nauwelijks de ene voet voor de andere zet,\n\n55 zo draaide zij zich naar mij toe, over de rode en gele\n56 bloemetjes, niet anders\n57 dan een maagd die haar eerbare ogen neerslaat;\n\n58 en zij vervulde mijn verzoek,\n59 door zo dichtbij te komen dat het zoete geluid\n60 met zijn bedoelingen tot mij kwam."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
+<result>
+52 Zoals een vrouw die danst, met haar voeten dicht
+53 bij elkaar en naar binnen gericht, zich draait,
+54 en nauwelijks de ene voet voor de andere zet,
+
+55 zo draaide zij zich naar mij toe, over de rode en gele
+56 bloemetjes, niet anders
+57 dan een maagd die haar eerbare ogen neerslaat;
+
+58 en zij vervulde mijn verzoek,
+59 door zo dichtbij te komen dat het zoete geluid
+60 met zijn bedoelingen tot mij kwam.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 61/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 61 Tosto che fu là dove l’erbe sono
 62 bagnate già da l’onde del bel fiume,
 63 di levar li occhi suoi mi fece dono.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+61 Zodra zij daar was waar de grassen al
+62 bevochtigd werden door de golven van de mooie rivier,
+63 schonk zij mij het geschenk haar ogen op te slaan.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 64/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 64 Non credo che splendesse tanto lume
 65 sotto le ciglia a Venere, trafitta
 66 dal figlio fuor di tutto suo costume.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+64 Ik geloof niet dat er zoveel licht schitterde
+65 onder de wimpers van Venus, getroffen
+66 door haar zoon, buiten al zijn gewoonten om.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 67/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 67 Ella ridea da l’altra riva dritta,
 68 trattando più color con le sue mani,
 69 che l’alta terra sanza seme gitta.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+67 Zij lachte vanaf de andere oever, recht tegenover mij,
+68 terwijl zij met haar handen meer bloemen plukte
+69 dan de vruchtbare aarde zonder zaad voortbrengt.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 70/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 70 Tre passi ci facea il fiume lontani;
@@ -255,13 +299,19 @@ Please translate each line literally into Dutch.
 74 per mareggiare intra Sesto e Abido,
 75 che quel da me perch’ allor non s’aperse.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+70 De rivier hield ons drie passen uit elkaar;
+71 maar de Hellespont, waar Xerxes overstak,
+72 nog steeds een beteugeling voor alle menselijke hoogmoed,
+
+73 werd niet meer gehaat door Leander
+74 toen hij tussen Sestos en Abydos zwom,
+75 dan die door mij omdat hij zich toen niet opende.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 76/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 76 «Voi siete nuovi, e forse perch’ io rido»,
@@ -272,74 +322,90 @@ Please translate each line literally into Dutch.
 80 ma luce rende il salmo Delectasti,
 81 che puote disnebbiar vostro intelletto.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+76 "Jullie zijn nieuwkomers, en misschien omdat ik lach",
+77 begon zij, "op deze uitverkoren plek
+78 die de menselijke natuur als haar nest heeft,
+
+79 houdt een of andere verdenking jullie in spanning;
+80 maar het lied Delectasti geeft licht,
+81 dat jullie verstand kan verhelderen.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 82/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 82 E tu che se’ dinanzi e mi pregasti,
 83 dì s’altro vuoli udir; ch’i’ venni presta
 84 ad ogne tua question tanto che basti».
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+82 En jij die voorop loopt en mij hebt gevraagd,
+83 zeg of je nog iets anders wilt horen; want ik kwam snel
+84 naar al je vragen, zolang het maar genoeg is.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 85/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 85 «L’acqua», diss’ io, «e ’l suon de la foresta
 86 impugnan dentro a me novella fede
 87 di cosa ch’io udi’ contraria a questa».
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+85 "Het water", zei ik, "en het geluid van het bos
+86 wekken in mij een nieuw geloof
+87 in iets dat ik hoorde dat hiermee in strijd is."
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 88/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 88 Ond’ ella: «Io dicerò come procede
 89 per sua cagion ciò ch’ammirar ti face,
 90 e purgherò la nebbia che ti fiede.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+88 Waarop zij: "Ik zal uitleggen hoe het komt
+89 dat wat je verbaast door zijn oorzaak gebeurt,
+90 en ik zal de nevel verdrijven die je hindert.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 91/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 91 Lo sommo Ben, che solo esso a sé piace,
 92 fé l’uom buono e a bene, e questo loco
 93 diede per arr’ a lui d’etterna pace.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+91 Het hoogste Goed, dat alleen in zichzelf behagen schept,
+92 schiep de mens goed en voor het goede, en deze plek
+93 gaf Hij hem als onderpand voor eeuwige vrede.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 94/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 94 Per sua difalta qui dimorò poco;
 95 per sua difalta in pianto e in affanno
 96 cambiò onesto riso e dolce gioco.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+94 Door zijn eigen schuld verbleef hij hier kort;
+95 door zijn eigen schuld veranderde hij eerlijke lach en zoet spel
+96 in geween en ellende.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 97/148</info>
@@ -355,10 +421,12 @@ Please translate each line literally into Dutch.
 102 e libero n’è d’indi ove si serra.
 </prompt>
 <result>
-97 Omdat de verstoring die de dampen van het water en de aarde onder zich veroorzaken,
-98 die zoveel mogelijk de warmte volgen,
-99 de mens geen enkele strijd zou bezorgen,
-100 beklom deze berg zo hoog naar de hemel,
+97 Opdat de verstoring die onder hen veroorzaakt wordt
+98 door de uitwasemingen van het water en de aarde,
+99 die zoveel mogelijk de warmte volgen,
+
+100 de mens geen enkele strijd zou bezorgen,
+101 steeg deze berg zo hoog op naar de hemel,
 102 en is daar vrij van waar hij wordt ingesloten.
 </result>
 </query>
@@ -384,16 +452,16 @@ Please translate each line literally into Dutch.
 114 di diverse virtù diverse legna.
 </prompt>
 <result>
-103 Nu, omdat de lucht in zijn geheel in een kringloop
-104 met de eerste omwenteling draait,
-105 als de cirkel ervan niet door een bepaalde hoek wordt verbroken,
+103 Nu omdat de lucht in zijn geheel in een kringloop
+104 ronddraait met de eerste omwenteling,
+105 als zijn cirkel niet ergens wordt doorbroken,
 
-106 op deze hoogte die geheel is opgelost
+106 op deze hoogte die geheel oplost
 107 in de levende lucht, slaat zo'n beweging toe,
-108 en doet het woud ruisen omdat het dicht is;
+108 en doet het bos ruisen omdat het dicht is;
 
 109 en de getroffen plant kan zoveel,
-110 dat de lucht met zijn kracht wordt doordrenkt
+110 dat hij de lucht doordrenkt met zijn kracht
 111 en die vervolgens, ronddraaiend, in de omgeving verspreidt;
 
 112 en de andere aarde, naar gelang ze waardig is
@@ -403,16 +471,18 @@ Please translate each line literally into Dutch.
 </query>
 <query>
 <info>[Purgatorio Canto 28] 115/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 115 Non parrebbe di là poi maraviglia,
 116 udito questo, quando alcuna pianta
 117 sanza seme palese vi s’appiglia.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+115 Het zou daarna niet verwonderlijk lijken,
+116 na dit gehoord te hebben, wanneer een plant
+117 zich daar zonder zichtbaar zaad hecht.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 28] 118/148</info>
@@ -424,9 +494,9 @@ Please translate each line literally into Dutch.
 120 e frutto ha in sé che di là non si schianta.
 </prompt>
 <result>
-118 En om te weten dat het heilige land
-119 waar jij bent, vol is van elk zaad,
-120 en vrucht draagt die daar niet verloren gaat.
+118 En je moet weten dat de heilige vlakte
+119 waar je bent, vol is van allerlei zaden,
+120 en vruchten draagt die daar niet worden geplukt.
 </result>
 </query>
 <query>
@@ -444,12 +514,12 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 121 Het water dat je ziet, ontspringt niet uit een bron
-122 die de damp voedt die in ijs verandert,
+122 die de dampen aanvult die de vorst omzet,
 123 zoals een rivier die kracht wint en verliest;
 
 124 maar het komt uit een vaste en zekere bron,
-125 die net zoveel van Gods wil terugkrijgt,
-126 als ze aan beide kanten open giet.
+125 die evenveel van Gods wil terugkrijgt
+126 als ze aan beide kanten open verspilt.
 </result>
 </query>
 <query>
@@ -462,8 +532,8 @@ Please translate each line literally into Dutch.
 129 da l’altra d’ogne ben fatto la rende.
 </prompt>
 <result>
-127 Aan deze kant daalt met kracht
-128 datgene neer dat anderen de herinnering aan de zonde ontneemt;
+127 Aan deze kant daalt het met een kracht af
+128 die de herinnering aan de zonde wegneemt;
 129 aan de andere kant geeft het alle goede daden terug.
 </result>
 </query>
@@ -481,7 +551,7 @@ Please translate each line literally into Dutch.
 <result>
 130 Hier Lethe; zo wordt het aan de andere kant
 131 Eunoë genoemd, en het werkt niet
-132 als het niet eerst hier en daar geproefd is:
+132 als het niet eerst aan beide kanten is geproefd:
 
 133 het staat boven alle andere smaken.
 </result>
@@ -499,12 +569,12 @@ Please translate each line literally into Dutch.
 138 se oltre promession teco si spazia.
 </prompt>
 <result>
-134 En hoewel je dorst goed gelest kan zijn
-135 zodat ik je niet meer hoef te onthullen,
+134 En hoewel je dorst al goed gelest kan zijn
+135 omdat ik je niet meer onthul,
 
-136 zal ik je uit genade nog een aanvulling geven;
+136 zal ik je uit gunst nog een aanvulling geven;
 137 en ik denk niet dat mijn woorden je minder dierbaar zullen zijn,
-138 als ik verder ga dan beloofd.
+138 als ik mijn belofte overschrijd en verder met je praat.
 </result>
 </query>
 <query>
@@ -553,6 +623,6 @@ Please translate each line literally into Dutch.
 146 naar mijn dichters, en zag dat ze met een glimlach
 147 de laatste woorden hadden gehoord;
 
-148 daarna keerde ik mijn gezicht weer naar de mooie vrouw.
+148 daarna wendde ik mijn gezicht weer naar de mooie vrouw.
 </result>
 </query>

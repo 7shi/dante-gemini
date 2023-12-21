@@ -35,7 +35,7 @@ Please translate each line literally into Dutch.
 
 7 Hij leek mij door zichzelf berispt:
 8 o waardige en zuivere geweten,
-9 hoe bitter is voor jou een kleine fout!
+9 hoe bitter is voor jou een kleine vergissing!
 
 10 Toen zijn voeten de haast lieten varen,
 11 die de eerbaarheid bij elke daad verzwakt,
@@ -48,20 +48,17 @@ Please translate each line literally into Dutch.
 </query>
 <query>
 <info>[Purgatorio Canto 3] 16/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 16 Lo sol, che dietro fiammeggiava roggio,
 17 rotto m’era dinanzi a la figura,
 18 ch’avëa in me de’ suoi raggi l’appoggio.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-16 De zon, die achter mij rood gloeide,
+16 De zon, die achter mij roodgloeiend straalde,
 17 werd voor mij gebroken door de gedaante,
-18 die de steun van zijn stralen in mij had.
+18 die in mij de steun van zijn stralen had.
 </result>
 </query>
 <query>
@@ -82,15 +79,15 @@ Please translate each line literally into Dutch.
 27 Napoli l’ha, e da Brandizio è tolto.
 </prompt>
 <result>
-19 Ik draaide mij angstig om,
-20 uit vrees dat ik in de steek was gelaten, toen ik zag
-21 dat alleen de donkere aarde voor mij lag;
+19 Ik draaide mij opzij uit angst
+20 om in de steek gelaten te worden, toen ik zag
+21 alleen voor mij de donkere aarde;
 
-22 en mijn troost [Vergilius] begon tegen mij te zeggen, helemaal naar mij toegewend:
-23 "Waarom twijfel je toch nog steeds?"
-24 "Geloof je niet dat ik bij je ben en dat ik je leid?
+22 en mijn troost: "Waarom twijfel je toch?",
+23 begon tegen mij te zeggen, helemaal naar mij toegewend;
+24 "geloof je niet dat ik bij je ben en dat ik je leid?
 
-25 Het is al avond daar waar het lichaam begraven ligt
+25 De avond is al daar waar het lichaam begraven is
 26 waarin ik een schaduw wierp;
 27 Napels heeft het, en het is weggehaald uit Brindisi.
 </result>
@@ -107,7 +104,7 @@ Please translate each line literally into Dutch.
 <result>
 28 Nu, als er niets voor mij een schaduw werpt,
 29 wees dan niet verbaasd, net zoals de hemelen
-30 elkaar niet belemmeren in hun stralen.
+30 elkaar niet elkaars stralen belemmeren.
 </result>
 </query>
 <query>
@@ -120,8 +117,9 @@ Please translate each line literally into Dutch.
 33 che, come fa, non vuol ch’a noi si sveli.
 </prompt>
 <result>
-31 De Deugd stelt zulke lichamen bloot aan het lijden, aan hitte en kou,
-32 die, zoals zij doet, niet wil dat aan ons wordt onthuld.
+31 Om pijnigingen te ondergaan, warm en koud,
+32 bereidt de Deugd zulke lichamen voor,
+33 die, zoals ze doet, niet wil dat ze aan ons worden onthuld.
 </result>
 </query>
 <query>
@@ -133,10 +131,36 @@ Please translate each line literally into Dutch.
 35 possa trascorrer la infinita via
 36 che tiene una sustanza in tre persone.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "34 Dwaas is hij die hoopt dat onze rede\n35 de oneindige weg kan overschrijden\n36 die een substantie in drie personen houdt."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
 34 Dwaas is hij die hoopt dat onze rede
 35 de oneindige weg kan overschrijden
-36 die één substantie in drie personen houdt.
+36 die een substantie in drie personen houdt.
 </result>
 </query>
 <query>
@@ -157,17 +181,17 @@ Please translate each line literally into Dutch.
 45 e più non disse, e rimase turbato.
 </prompt>
 <result>
-37 Wees tevreden, mensen, met het 'quia';
+37 Wees tevreden, mensheid, met het 'quia';
 38 want als jullie alles hadden kunnen zien,
 39 was het niet nodig geweest dat Maria zou baren;
 
-40 en jullie verlangden tevergeefs om
-41 hen te zien die hun verlangen zouden stillen,
-42 wat hun voor eeuwig als rouw is gegeven:
+40 en jullie verlangden tevergeefs te zien
+41 degenen wiens verlangen zou zijn gestild,
+42 dat hun voor eeuwig als rouw is gegeven:
 
 43 ik bedoel Aristoteles en Plato
 44 en vele anderen"; en hier boog hij zijn hoofd,
-45 en zei niets meer, en bleef verward achter.
+45 en zei niets meer, en bleef verstoord.
 </result>
 </query>
 <query>
@@ -196,8 +220,8 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 49 Tussen Lerici en Turbia is de meest verlaten,
-50 de meest gebroken puinhoop een trap,
-51 vergeleken met die, gemakkelijk en open.
+50 de meest gebroken ruïne een trap,
+51 vergeleken daarmee, gemakkelijk en open.
 </result>
 </query>
 <query>
@@ -210,7 +234,7 @@ Please translate each line literally into Dutch.
 54 «sì che possa salir chi va sanz’ ala?».
 </prompt>
 <result>
-52 "Wie weet nu langs welke kant de helling afdaalt",
+52 "Nu, wie weet van welke kant de helling afdaalt",
 53 zei mijn meester terwijl hij zijn pas stopte,
 54 "zodat hij die zonder vleugels gaat, kan klimmen?".
 </result>
@@ -248,7 +272,7 @@ Please translate each line literally into Dutch.
 63 se tu da te medesmo aver nol puoi».
 </prompt>
 <result>
-61 "Kijk op", zei ik, "meester, hef je ogen op:
+61 "Til", zei ik, "meester, je ogen op:
 62 hier is iemand die ons advies zal geven,
 63 als je het zelf niet kunt vinden".
 </result>
@@ -265,7 +289,7 @@ Please translate each line literally into Dutch.
 <result>
 64 Hij keek toen, en met een vrije blik
 65 antwoordde hij: "Laten we daarheen gaan, want ze komen langzaam;
-66 en jij, mijn lieve zoon, houd de hoop vast".
+66 en houd de hoop vast, lieve zoon".
 </result>
 </query>
 <query>
@@ -282,13 +306,13 @@ Please translate each line literally into Dutch.
 72 com’ a guardar, chi va dubbiando, stassi.
 </prompt>
 <result>
-67 Die groep mensen was nog ver weg,
+67 Die mensen waren nog ver weg,
 68 ik zeg na onze duizend stappen,
-69 zo ver als een goede werper met zijn hand zou kunnen gooien,
+69 zo ver als een goede werper met zijn hand zou gooien,
 
 70 toen ze zich allemaal verzamelden bij de harde rotsen
-71 van de hoge oever, en stil en dicht opeengepakt bleven staan,
-72 zoals iemand die twijfelt, stilstaat om te kijken.
+71 van de hoge oever, en stil en dicht opeengepakt stonden
+72 als iemand die twijfelt en toekijkt.
 </result>
 </query>
 <query>
@@ -305,7 +329,7 @@ Please translate each line literally into Dutch.
 78 ché perder tempo a chi più sa più spiace».
 </prompt>
 <result>
-73 "O goed geëindigden, o reeds uitverkoren geesten",
+73 "O goed geëindigde, o reeds uitverkoren geesten",
 74 begon Vergilius, "bij die vrede
 75 waarvan ik geloof dat jullie die allemaal verwachten,
 
@@ -332,9 +356,9 @@ Please translate each line literally into Dutch.
 87 pudica in faccia e ne l’andare onesta.
 </prompt>
 <result>
-79 Zoals de schapen uit de omheining komen
-80 een voor een, twee voor twee, drie voor drie, en de anderen blijven staan
-81 schuchter met hun ogen en snuit naar de grond gericht;
+79 Zoals de schapen uit de stal komen
+80 een voor een, twee voor twee, drie voor drie, en de anderen staan
+81 verlegen met hun ogen en snuit naar de grond gericht;
 
 82 en wat de eerste doet, doen de anderen ook,
 83 zich tegen haar aandrukkend als ze stopt,
@@ -393,7 +417,7 @@ Please translate each line literally into Dutch.
 <result>
 97 Wees niet verbaasd, maar geloof
 98 dat ik niet zonder deugd die uit de hemel komt
-99 probeer deze wand te overwinnen".
+99 probeer deze muur te overwinnen".
 </result>
 </query>
 <query>
@@ -407,8 +431,8 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 100 Zo sprak de meester; en die waardige mensen
-101 zeiden: "Keer terug, ga dus voor ons uit",
-102 terwijl ze met de ruggen van hun handen een teken gaven.
+101 "Keer terug", zeiden ze, "ga dus naar voren",
+102 met de ruggen van hun handen een teken gevend.
 </result>
 </query>
 <query>
@@ -422,26 +446,23 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 103 En een van hen begon: "Wie je ook bent,
-104 draai je gezicht om terwijl je zo verdergaat:
+104 draai je gezicht om terwijl je zo loopt:
 105 bedenk of je me ooit daar hebt gezien".
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 106/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 106 Io mi volsi ver’ lui e guardail fiso:
 107 biondo era e bello e di gentile aspetto,
 108 ma l’un de’ cigli un colpo avea diviso.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
 106 Ik draaide me naar hem toe en keek hem aandachtig aan:
-107 hij was blond en knap en zag er vriendelijk uit,
-108 maar een van zijn wenkbrauwen was door een slag gespleten.
+107 hij was blond en knap en had een vriendelijk uiterlijk,
+108 maar een van zijn wenkbrauwen was door een klap gespleten.
 </result>
 </query>
 <query>
@@ -455,8 +476,8 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 109 Toen ik nederig had ontkend
-110 dat ik hem ooit had gezien, zei hij: "Kijk nu maar";
-111 en hij liet me een wond zien op zijn borst.
+110 hem ooit gezien te hebben, zei hij: "Kijk nu";
+111 en hij liet me een wond op zijn borst zien.
 </result>
 </query>
 <query>
@@ -475,7 +496,7 @@ Please translate each line literally into Dutch.
 <result>
 112 Toen zei hij glimlachend: "Ik ben Manfred,
 113 kleinzoon van keizerin Constantia;
-114 daarom vraag ik je dat, wanneer je terugkeert,
+114 daarom vraag ik je dat, als je terugkeert,
 
 115 je naar mijn mooie dochter gaat, de moeder
 116 van de eer van Sicilië en Aragon,
@@ -494,7 +515,7 @@ Please translate each line literally into Dutch.
 <result>
 118 Nadat ik mijn lichaam had doorboord
 119 met twee dodelijke punten, gaf ik me over,
-120 wenend, aan Hem die graag vergeeft.
+120 wenend, aan hem die graag vergeeft.
 </result>
 </query>
 <query>
@@ -514,7 +535,7 @@ Please translate each line literally into Dutch.
 </query>
 <query>
 <info>[Purgatorio Canto 3] 124/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 124 Se ’l pastor di Cosenza, che a la caccia
@@ -525,52 +546,43 @@ Please translate each line literally into Dutch.
 128 in co del ponte presso a Benevento,
 129 sotto la guardia de la grave mora.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-124 Als de herder van Cosenza, die toen door Clemens op mij afgestuurd werd,
-125 in Gods gelaat goed had kunnen lezen,
+124 Als de herder van Cosenza, die toen door Clemens
+125 op jacht naar mij was gestuurd,
+126 dit gezicht goed in God had gelezen,
 
-126 dan zouden de beenderen van mijn lichaam nog steeds
-127 op de brug bij Benevento liggen,
-128 onder de bewaking van de zware hoop stenen.
+127 zouden de botten van mijn lichaam nog steeds
+128 aan het hoofdeinde van de brug bij Benevento liggen,
+129 onder de bewaking van de zware hoop stenen.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 130/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 130 Or le bagna la pioggia e move il vento
 131 di fuor dal regno, quasi lungo ’l Verde,
 132 dov’ e’ le trasmutò a lume spento.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-130 Nu wast het water door de regen en de wind
-131 buiten het rijk in beweging gebracht, bijna langs de rivier de Verde,
-132 waar hij ze in het donker had veranderd.
+130 Nu bevochtigt de regen ze en beweegt de wind ze
+131 buiten het koninkrijk, bijna langs de Verde,
+132 waar hij ze verplaatste toen het licht uit was.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 133/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 133 Per lor maladizion sì non si perde,
 134 che non possa tornar, l’etterno amore,
 135 mentre che la speranza ha fior del verde.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-133 Door hun vloek gaat de eeuwige liefde niet verloren,
-134 zolang de hoop nog een groene bloem heeft.
-135
+133 Door hun vervloeking gaat de eeuwige liefde niet verloren,
+134 zodat ze niet kan terugkeren, zolang de hoop nog groen is.
 </result>
 </query>
 <query>
@@ -587,13 +599,12 @@ Please translate each line literally into Dutch.
 141 più corto per buon prieghi non diventa.
 </prompt>
 <result>
-136 Het is waar dat wie in de ban van de Heilige Kerk sterft,
-137 ook al heeft hij zich op het einde bekeerd,
-138 hier aan deze oever buiten moet blijven,
+136 Het is waar dat iemand die in de ban van
+137 de Heilige Kerk sterft, ook al heeft hij zich op het einde bekeerd,
+138 hier buiten deze oever moet blijven,
 
-139 dertig keer de tijd dat hij in zijn hoogmoed heeft volhard,
-140 tenzij dit vonnis door goede gebeden wordt verkort.
-141
+139 voor elke tijd dat hij in zijn hoogmoed is geweest, dertig keer,
+140 als dat decreet niet door goede gebeden wordt verkort.
 </result>
 </query>
 <query>
@@ -608,11 +619,10 @@ Please translate each line literally into Dutch.
 145 ché qui per quei di là molto s’avanza».
 </prompt>
 <result>
-142 Zie nu of jij mij gelukkig kunt maken,
-143 door aan mijn goede Costanza te vertellen
-144 hoe je mij hebt gezien, en ook dit verbod;
+142 Zie nu of je me gelukkig kunt maken,
+143 door aan mijn goede Constantia te onthullen
+144 hoe je me hebt gezien, en ook dit verbod;
 
-145 want hiermee kan ik veel bereiken bij degenen daarboven».
-145
+145 want hier wordt veel bereikt door degenen daarboven".
 </result>
 </query>

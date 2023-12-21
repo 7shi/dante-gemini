@@ -12,13 +12,19 @@ Please translate each line literally into Dutch.
 5 disse: «Muta pensier; pensa ch’i’ sono
 6 presso a colui ch’ogne torto disgrava».
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+1 Hij genoot al alleen van zijn woord,
+2 die gelukzalige spiegel, en ik proefde
+3 het mijne, verzachtend met het zoete het bittere;
+
+4 en die vrouw die mij naar God leidde
+5 zei: "Verander van gedachten; bedenk dat ik
+6 dichtbij hem ben die elke fout vergeeft".
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 18] 7/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 7 Io mi rivolsi a l’amoroso suono
@@ -29,9 +35,15 @@ Please translate each line literally into Dutch.
 11 ma per la mente che non può redire
 12 sovra sé tanto, s’altri non la guidi.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+7 Ik wendde mij tot het liefdevolle geluid
+8 van mijn troost; en welke liefde ik toen zag
+9 in de heilige ogen, laat ik hier achterwege:
+
+10 niet omdat ik niet vertrouw op mijn eigen woorden,
+11 maar omdat de geest niet zo ver terug kan keren
+12 naar zichzelf, als iemand hem niet leidt.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 18] 13/136</info>
@@ -46,14 +58,40 @@ Please translate each line literally into Dutch.
 17 raggiava in Bëatrice, dal bel viso
 18 mi contentava col secondo aspetto.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "13 Zoveel kan ik vertellen over dat moment,\n14 dat, toen ik haar zag, mijn genegenheid\n15 vrij was van elk ander verlangen,\n\n16 totdat het eeuwige genoegen, dat rechtstreeks\n17 straalde in Beatrice, mij met haar tweede verschijning\n18 tevreden stelde."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
 13 Zoveel kan ik vertellen over dat moment,
 14 dat, toen ik haar zag, mijn genegenheid
 15 vrij was van elk ander verlangen,
 
 16 totdat het eeuwige genoegen, dat rechtstreeks
-17 straalde in Beatrice, vanaf haar mooie gezicht
-18 mij tevreden stelde met het tweede aspect.
+17 straalde in Beatrice, mij met haar tweede verschijning
+18 tevreden stelde.
 </result>
 </query>
 <query>
@@ -73,7 +111,7 @@ Please translate each line literally into Dutch.
 </query>
 <query>
 <info>[Paradiso Canto 18] 22/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 22 Come si vede qui alcuna volta
@@ -84,17 +122,14 @@ Please translate each line literally into Dutch.
 26 a ch’io mi volsi, conobbi la voglia
 27 in lui di ragionarmi ancora alquanto.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-22 Zoals men hier soms ziet
-23 dat de liefde in de blik, als die groot is,
-24 zo sterk is dat de ziel er helemaal door wordt ingenomen,
+22 Zoals men hier soms
+23 de genegenheid in de blik ziet, als die zo groot is
+24 dat de hele ziel erdoor wordt ingenomen,
 
 25 zo herkende ik in het flitsen van de heilige bliksem,
-26 waarnaar ik me wendde, zijn verlangen
-27 om nog een tijdje met me te praten.
+26 waarnaar ik mij wendde, het verlangen
+27 in hem om nog wat langer met mij te praten.
 </result>
 </query>
 <query>
@@ -112,12 +147,12 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 28 Hij begon: "In deze vijfde kring
-29 van de boom die leeft van zijn kruin
+29 van de boom die leeft van de top
 30 en altijd vruchten draagt en nooit zijn bladeren verliest,
 
-31 bevinden zich zalige geesten, die beneden, voordat
-32 ze naar de hemel kwamen, met luide stem zongen,
-33 zodat elke muze erdoor verrijkt zou worden.
+31 zijn de zielen zalig, die beneden, voordat
+32 ze naar de hemel kwamen, met een luide stem zongen,
+33 zodat elke muze er rijk van zou worden.
 </result>
 </query>
 <query>
@@ -132,7 +167,7 @@ Please translate each line literally into Dutch.
 <result>
 34 Kijk daarom naar de uiteinden van het kruis:
 35 degene die ik zal noemen, zal daar de handeling uitvoeren
-36 die zijn snelle vuur in een wolk doet.
+36 die zijn snelle vuur in de wolk doet.
 </result>
 </query>
 <query>
@@ -145,9 +180,9 @@ Please translate each line literally into Dutch.
 39 né mi fu noto il dir prima che ’l fatto.
 </prompt>
 <result>
-37 Ik zag een licht langs het kruis bewegen
-38 toen de naam Jozua werd genoemd, zoals hij dat deed;
-39 en ik wist niet wat er gezegd werd voordat het gebeurde.
+37 Ik zag een licht langs het kruis schieten
+38 bij het noemen van Jozua, zoals hij deed;
+39 en ik wist niet wat hij zei voordat hij het deed.
 </result>
 </query>
 <query>
@@ -161,7 +196,7 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 40 En bij de naam van de verheven Makkabeeër
-41 zag ik een ander licht ronddraaiend bewegen,
+41 zag ik een ander ronddraaiend bewegen,
 42 en vreugde was de zweep van de tol.
 </result>
 </query>
@@ -175,7 +210,8 @@ Please translate each line literally into Dutch.
 45 com’ occhio segue suo falcon volando.
 </prompt>
 <result>
-43 Zo volgden er twee mijn aandachtige blik, voor Karel de Grote en voor Orlando,
+43 Zo volgden er twee mijn aandachtige blik
+44 voor Karel de Grote en voor Orlando,
 45 zoals een oog zijn valk volgt die vliegt.
 </result>
 </query>
@@ -190,7 +226,8 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 46 Daarna trok mijn blik Willem en Reinoud
-47 en hertog Godfried langs dat kruis, en Robert Guiscard.
+47 en hertog Godfried langs dat kruis,
+48 en Robert Guiscard.
 </result>
 </query>
 <query>
@@ -203,8 +240,8 @@ Please translate each line literally into Dutch.
 51 qual era tra i cantor del cielo artista.
 </prompt>
 <result>
-49 Toen wees de ziel die met me had gesproken,
-50 me te midden van de andere lichten, gemengd en verward,
+49 Toen wees de ziel die met mij had gesproken
+50 mij, tussen de andere lichten, gemengd en bewogen,
 51 aan als een kunstenaar onder de hemelse zangers.
 </result>
 </query>
@@ -222,13 +259,13 @@ Please translate each line literally into Dutch.
 57 vinceva li altri e l’ultimo solere.
 </prompt>
 <result>
-52 Ik wendde me naar mijn rechterkant
-53 om in Beatrice te zien wat mijn plicht was,
-54 door een teken, door een woord of door een handeling;
+52 Ik wendde mij van mijn rechterkant af
+53 om in Beatrice mijn plicht te zien,
+54 door een teken of een handeling, aangegeven;
 
 55 en ik zag haar ogen zo puur,
 56 zo vreugdevol, dat haar verschijning
-57 de andere lichten en de laatste zon overtrof.
+57 de andere en de laatste zon overtrof.
 </result>
 </query>
 <query>
@@ -250,7 +287,7 @@ Please translate each line literally into Dutch.
 
 60 zo merkte ik dat mijn rondgang
 61 samen met de hemel de boog had vergroot,
-62 toen ik dat wonder mooier zag worden.
+62 toen ik dat wonder mooier zag.
 </result>
 </query>
 <query>
@@ -269,11 +306,11 @@ Please translate each line literally into Dutch.
 <result>
 64 En zoals de verandering in een kort tijdsbestek
 65 van een jonge vrouw in het wit, wanneer haar gezicht
-66 wordt ontdaan van de last van de schaamte,
+66 wordt ontlast van de last van de schaamte,
 
-67 zo was het in mijn ogen, toen ik me omdraaide,
+67 zo was het in mijn ogen, toen ik mij omdraaide,
 68 door de helderheid van de gematigde zesde ster,
-69 die me in zich had opgenomen.
+69 die mij in zich had opgenomen.
 </result>
 </query>
 <query>
@@ -288,7 +325,7 @@ Please translate each line literally into Dutch.
 <result>
 70 Ik zag in die vreugdevolle fakkel
 71 het schitteren van de liefde die daar was
-72 onze taal voor mijn ogen tekenen.
+72 onze taal aan mijn ogen tonen.
 </result>
 </query>
 <query>
@@ -305,12 +342,12 @@ Please translate each line literally into Dutch.
 78 or D, or I, or L in sue figure.
 </prompt>
 <result>
-73 En zoals vogels die uit de rivier opvliegen,
+73 En zoals vogels die van de oever opstijgen,
 74 alsof ze elkaar feliciteren met hun weiden,
 75 nu eens een ronde, dan weer een andere formatie vormen,
 
 76 zo vlogen de heilige wezens zingend door de lichten,
-77 en vormden met hun bewegingen nu eens een D, dan weer een I of een L.
+77 en vormden nu eens een D, dan weer een I, dan weer een L met hun figuren.
 </result>
 </query>
 <query>
@@ -324,7 +361,7 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 79 Eerst bewogen ze zich zingend naar hun noot;
-80 daarna, als ze een van deze tekens vormden,
+80 daarna, als ze een van deze tekens werden,
 81 bleven ze een tijdje stil en zwegen.
 </result>
 </query>
@@ -346,17 +383,17 @@ Please translate each line literally into Dutch.
 90 le parti sì, come mi parver dette.
 </prompt>
 <result>
-82 O goddelijke Pegasus, die de geesten
-83 beroemd maakt en hen een lang leven schenkt,
-84 en met hen de steden en koninkrijken,
+82 O goddelijke Pegasus die de geesten
+83 verheerlijkt en hen een lang leven schenkt,
+84 en zij met jou de steden en koninkrijken,
 
-85 verlicht me met jouw kracht, zodat ik
+85 verlicht mij met jouw kracht, zodat ik
 86 hun figuren kan beschrijven zoals ik ze heb opgevat:
 87 laat jouw macht blijken in deze korte verzen!
 
-88 Dus verschenen er in vijf keer zeven
+88 Dus toonden ze zich in vijf keer zeven
 89 klinkers en medeklinkers; en ik merkte op
-90 de delen, zoals ze me leken te worden genoemd.
+90 de delen, zoals ze mij leken te worden genoemd.
 </result>
 </query>
 <query>
@@ -385,7 +422,7 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 94 Daarna bleven ze geordend in de M van het vijfde woord;
-95 zodat Jupiter daar leek op zilver dat van goud was onderscheiden.
+95 zodat Jupiter daar leek op zilver dat van goud is onderscheiden.
 </result>
 </query>
 <query>
@@ -399,7 +436,7 @@ Please translate each line literally into Dutch.
 </prompt>
 <result>
 97 En ik zag andere lichten neerdalen waar
-98 de top van de M was, en daar bleven ze stilstaan,
+98 de top van de M was, en daar tot rust komen,
 99 zingend, denk ik, het goede dat hen daartoe aanzet.
 </result>
 </query>
@@ -421,48 +458,52 @@ Please translate each line literally into Dutch.
 108 rappresentare a quel distinto foco.
 </prompt>
 <result>
-100 Daarna, zoals bij het slaan op brandende stukken hout
+100 Daarna, zoals bij het slaan op brandende stronken
 101 talloze vonken opspringen,
-102 waaruit de dwazen gewoon zijn voorspellingen te doen,
+102 waaruit de dwazen gewoon zijn te voorspellen,
 
-103 schenen er meer dan duizend lichten vandaar omhoog te rijzen,
-104 sommige veel, andere weinig,
-105 zoals de zon die hen ontsteekt dat bepaalt;
+103 schenen daar meer dan duizend
+104 lichten te herrijzen en op te stijgen, sommige veel, andere weinig,
+105 zoals de zon die hen ontsteekt ze toebedeelt;
 
 106 en toen elk op zijn plaats tot rust was gekomen,
 107 zag ik het hoofd en de nek van een adelaar
-108 door dat onderscheiden vuur worden afgebeeld.
+108 door dat onderscheiden vuur worden weergegeven.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 18] 109/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 109 Quei che dipinge lì, non ha chi ’l guidi;
 110 ma esso guida, e da lui si rammenta
 111 quella virtù ch’è forma per li nidi.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+109 Hij die daar schildert, heeft niemand die hem leidt;
+110 maar hij leidt zelf, en door hem wordt herinnerd
+111 aan die deugd die de vorm is voor de nesten.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 18] 112/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 112 L’altra bëatitudo, che contenta
 113 pareva prima d’ingigliarsi a l’emme,
 114 con poco moto seguitò la ’mprenta.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+112 De andere gelukzaligheid, die tevreden leek
+113 voordat ze zich in de M tooide met lelies,
+114 volgde met een kleine beweging de afdruk.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 18] 115/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 115 O dolce stella, quali e quante gemme
@@ -477,13 +518,22 @@ Please translate each line literally into Dutch.
 122 del comperare e vender dentro al templo
 123 che si murò di segni e di martìri.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+115 O zoete ster, welke en hoeveel edelstenen
+116 toonden mij dat onze gerechtigheid
+117 het gevolg is van de hemel die jij met edelstenen versiert!
+
+118 Daarom bid ik de geest waarin jouw beweging en jouw deugd beginnen,
+119 dat hij zal kijken waar de rook vandaan komt die jouw stralen bezoedelt;
+
+120 zodat hij zich nogmaals zal verontwaardigen
+121 over het kopen en verkopen in de tempel
+122 die werd gebouwd met tekenen en martelaarschap.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 18] 124/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Dutch.
 
 124 O milizia del ciel cu’ io contemplo,
@@ -494,9 +544,15 @@ Please translate each line literally into Dutch.
 128 ma or si fa togliendo or qui or quivi
 129 lo pan che ’l pïo Padre a nessun serra.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+124 O hemelse strijdmacht die ik aanschouw,
+125 bid voor hen die op aarde zijn
+126 en allemaal zijn afgedwaald door het slechte voorbeeld!
+
+127 Vroeger werd er met zwaarden oorlog gevoerd;
+128 maar nu wordt het gedaan door hier en daar
+129 het brood weg te nemen dat de vrome Vader voor niemand afsluit.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 18] 130/136</info>
@@ -508,7 +564,7 @@ Please translate each line literally into Dutch.
 132 per la vigna che guasti, ancor son vivi.
 </prompt>
 <result>
-130 Maar jij die alleen maar schrijft om uit te wissen,
+130 Maar jij die alleen schrijft om uit te wissen,
 131 bedenk dat Petrus en Paulus, die stierven
 132 voor de wijngaard die jij verwoest, nog steeds leven.
 </result>
@@ -525,10 +581,10 @@ Please translate each line literally into Dutch.
 136 ch’io non conosco il pescator né Polo».
 </prompt>
 <result>
-133 Je kunt wel zeggen: "Ik heb mijn verlangen gericht
+133 Je kunt wel zeggen: "Ik heb mijn verlangen zo gericht
 134 op hem die alleen wilde leven
 135 en die met sprongen naar het martelaarschap werd gebracht,
 
-136 want ik ken de visser noch Paulus".
+136 dat ik de visser noch Paulus ken".
 </result>
 </query>
