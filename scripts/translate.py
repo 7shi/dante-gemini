@@ -6,7 +6,6 @@ directories = "Inferno Purgatorio Paradiso"
 once   = False
 retry  = True
 show   = True
-chklen = False
 i = 0
 while i < len(args):
     if args[i] == "-1":
@@ -17,9 +16,6 @@ while i < len(args):
         args.pop(i)
     elif args[i] == "--no-show":
         show = False
-        args.pop(i)
-    elif args[i] == "--check-length":
-        chklen = True
         args.pop(i)
     elif args[i] == "-d" and len(args) > i + 1:
         directories = args.pop(i + 1)
@@ -33,10 +29,10 @@ if len(args) != 3:
     print("  -1: just do one canto", file=sys.stderr)
     print("  --no-retry: don't retry queries", file=sys.stderr)
     print("  --no-show: don't show queries and responses", file=sys.stderr)
-    print("  --check-length: check that responses aren't too long", file=sys.stderr)
     sys.exit(1)
 
 itdir, outdir, language = args
+checklen = 6 if " and " in language else 3
 if not os.path.exists(outdir):
     os.mkdir(outdir)
 
@@ -72,7 +68,15 @@ def send_lines(line_count, *plines):
             prompt += "\n"
         line = f"{ln + 1} {it[ln]}"
         prompt += "\n" + line
-    return gemini.query(prompt, info, show, retry, chklen)
+    def check(r):
+        if len(r) > len(prompt) * checklen:
+            return f"Response too long: ({len(r)} > {len(prompt) * checklen})"
+        for line in r.split("\n"):
+            if m := re.match(r"(\d+[^\d ])", line):
+                return f"Too few spaces[{m.group(1)}]: {line}"
+        return None
+    q = gemini.query(prompt, info, show, retry, check)
+    return q
 
 def write(f, text):
     f.write(text.encode("utf_8"))

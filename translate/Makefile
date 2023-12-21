@@ -22,7 +22,7 @@ translate:
 	$(SCRIPT) cs Czech
 	$(SCRIPT) uk Ukrainian
 	$(SCRIPT) ru Russian
-	$(SCRIPT) gv Manx --check-length # unstable
+	$(SCRIPT) gv Manx # unstable
 
 _done:
 	$(SCRIPT) ro Romanian
