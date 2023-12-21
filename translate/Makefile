@@ -72,3 +72,6 @@ _error:
 	$(SCRIPT) tl Tagalog
 	$(SCRIPT) ur Urdu
 	$(SCRIPT) yi Yiddish
+
+check:
+	grep developers.generativeai.google */*/*.xml || true

@@ -16,9 +16,19 @@ Please translate each line literally into Romanian.
 8 ne li occhi guercia, e sovra i piè distorta,
 9 con le man monche, e di colore scialba.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+1 În ora în care căldura zilei nu mai poate
+2 încălzi frigul lunii,
+3 învins de pământ și uneori de Saturn
+
+4 —când geomantii văd Fortuna lor cea Mare
+5 în răsărit, înainte de zori,
+6 răsărind pe o cale care puțin îi stă întunecată—,
+
+7 mi-a venit în vis o femeie bâlbâită,
+8 cu ochii strabici și cu picioarele strâmbe,
+9 cu mâinile ciuntite și de culoare palidă.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 10/145</info>
@@ -34,31 +44,33 @@ Please translate each line literally into Romanian.
 15 com’ amor vuol, così le colorava.
 </prompt>
 <result>
-10 Eu o priveam; și cum soarele mângâia
-11 membrele reci pe care noaptea le apăsa,
-12 așa privirea mea îi era călăuză
+10 Eu o priveam; și cum soarele încălzea
+11 membrele reci pe care noaptea le îngreuna,
+12 așa privirea mea îi însoțea
 
-13 limbii, și apoi o îndrepta toată
+13 limba, și apoi o îndrepta toată
 14 într-un timp scurt, și fața pierdută,
 15 cum vrea iubirea, așa o colora.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 16/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 16 Poi ch’ell’ avea ’l parlar così disciolto,
 17 cominciava a cantar sì, che con pena
 18 da lei avrei mio intento rivolto.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+16 După ce și-a dezlegat vorba,
+17 începea să cânte așa, încât cu greu
+18 mi-aș fi întors atenția de la ea.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 19/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 19 «Io son», cantava, «io son dolce serena,
@@ -69,78 +81,120 @@ Please translate each line literally into Romanian.
 23 al canto mio; e qual meco s’ausa,
 24 rado sen parte; sì tutto l’appago!».
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+19 „Eu sunt”, cânta ea, „eu sunt dulcea sirenă,
+20 care îi tulbură pe marinari în mijlocul mării;
+21 atât de plină de plăcere sunt de auzit!
+
+22 Eu l-am abătut pe Ulise de la călătoria lui rătăcitoare
+23 cu cântecul meu; și cel care îndrăznește să stea cu mine,
+24 rareori pleacă; atât de mult îl satisfac!”.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 25/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 25 Ancor non era sua bocca richiusa,
 26 quand’ una donna apparve santa e presta
 27 lunghesso me per far colei confusa.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+25 Gura ei încă nu se închisese,
+26 când o femeie sfântă și grabnică apăru
+27 lângă mine ca să o facă pe aceea confuză.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 28/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 28 «O Virgilio, Virgilio, chi è questa?»,
 29 fieramente dicea; ed el venìa
 30 con li occhi fitti pur in quella onesta.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+28 „O Virgiliu, Virgiliu, cine este aceasta?”,
+29 spunea ea cu furie; și el venea
+30 cu ochii ațintiți doar asupra acelei femei cinstite.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 31/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 31 L’altra prendea, e dinanzi l’apria
 32 fendendo i drappi, e mostravami ’l ventre;
 33 quel mi svegliò col puzzo che n’uscia.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "31 Cealaltă o apuca și o deschidea în față,\n32 rupând hainele, și îmi arăta pântecele;\n33 acela m-a trezit cu duhoarea care ieșea de acolo."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
+<result>
+31 Cealaltă o apuca și o deschidea în față,
+32 rupând hainele, și îmi arăta pântecele;
+33 acela m-a trezit cu duhoarea care ieșea de acolo.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 34/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 34 Io mossi li occhi, e ’l buon maestro: «Almen tre
 35 voci t’ho messe!», dicea, «Surgi e vieni;
 36 troviam l’aperta per la qual tu entre».
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+34 Mi-am mișcat ochii, iar bunul învățător: „Cel puțin trei
+35 voci ți-am dat!”, spunea el, „Ridică-te și vino;
+36 să găsim deschiderea prin care să intri”.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 37/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 37 Sù mi levai, e tutti eran già pieni
 38 de l’alto dì i giron del sacro monte,
 39 e andavam col sol novo a le reni.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+37 M-am ridicat, și toate erau deja pline
+38 de ziua înaltă cercurile muntelui sacru,
+39 și mergeam cu soarele nou în spate.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 40/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 40 Seguendo lui, portava la mia fronte
@@ -151,120 +205,105 @@ Please translate each line literally into Romanian.
 44 parlare in modo soave e benigno,
 45 qual non si sente in questa mortal marca.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+40 Urmându-l, îmi purtam fruntea
+41 ca acela care o are încărcată de gânduri,
+42 care face din sine o jumătate de arc de pod;
+
+43 când am auzit „Veniți; aici se trece”
+44 vorbind într-un mod blând și binevoitor,
+45 cum nu se aude în această lume muritoare.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 46/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 46 Con l’ali aperte, che parean di cigno,
 47 volseci in sù colui che sì parlonne
 48 tra due pareti del duro macigno.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+46 Cu aripile deschise, care păreau de lebădă,
+47 ne-a întors în sus cel care vorbește așa
+48 între doi pereți de piatră tare.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 49/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 49 Mosse le penne poi e ventilonne,
 50 ‘Qui lugent’ affermando esser beati,
 51 ch’avran di consolar l’anime donne.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+49 Și-a mișcat apoi penele și a fluturat,
+50 afirmând că cei care plâng sunt fericiți,
+51 căci vor avea sufletele doamnelor de consolat.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 52/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 52 «Che hai che pur inver’ la terra guati?»,
 53 la guida mia incominciò a dirmi,
 54 poco amendue da l’angel sormontati.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
 52 „Ce ai de te uiți mereu spre pământ?”,
-53 începu să-mi spună călăuza mea,
-54 amândoi fiind puțin mai sus decât îngerul.
+53 a început să-mi spună călăuza mea,
+54 amândoi fiind depășiți puțin de înger.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 55/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 55 E io: «Con tanta sospeccion fa irmi
 56 novella visïon ch’a sé mi piega,
 57 sì ch’io non posso dal pensar partirmi».
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+55 Și eu: „O viziune nouă, care mă îndoaie spre sine,
+56 mă face să mă îndoiesc atât de mult,
+57 încât nu mă pot abține să nu mă gândesc la ea”.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 58/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 58 «Vedesti», disse, «quell’antica strega
 59 che sola sovr’ a noi omai si piagne;
 60 vedesti come l’uom da lei si slega.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "58 „Vezi”, a spus ea, „acea vrăjitoare bătrână\n59 care singură deasupra noastră acum plânge;\n60 vezi cum omul se desprinde de ea."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-58 „Vezi”, a spus ea, „acea vrăjitoare bătrână
-59 care singură deasupra noastră acum plânge;
-60 vezi cum omul se desprinde de ea.
+58 „Ai văzut”, a spus el, „acea vrăjitoare veche
+59 care singură plânge acum deasupra noastră;
+60 ai văzut cum se desprinde omul de ea.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 61/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 61 Bastiti, e batti a terra le calcagne;
 62 li occhi rivolgi al logoro che gira
 63 lo rege etterno con le rote magne».
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+61 Destul, și lovește-ți călcâiele de pământ;
+62 întoarce-ți ochii spre cel uzat care se învârte
+63 regele etern cu roțile sale mari”.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 64/145</info>
@@ -280,13 +319,13 @@ Please translate each line literally into Romanian.
 69 n’andai infin dove ’l cerchiar si prende.
 </prompt>
 <result>
-64 Ca șoimul, care mai întâi se uită la picioare,
-65 apoi se întoarce la strigăt și se apleacă
+64 Ca șoimul, care mai întâi se privește la picioare,
+65 apoi se întoarce la strigăt și se întinde
 66 din dorința hranei care îl atrage acolo,
 
-67 așa am făcut și eu; și așa, pe cât se despică
+67 așa am făcut și eu; și așa, cât de mult se despică
 68 stânca pentru a da cale celui care urcă,
-69 am mers până unde se încheie cercul.
+69 am mers până unde se prinde cercul.
 </result>
 </query>
 <query>
@@ -300,8 +339,8 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 70 Când am fost dezvăluit în al cincilea cerc,
-71 am văzut oameni care plângeau acolo,
-72 zăcând la pământ, cu toții cu fața în jos.
+71 am văzut oameni care plângeau prin el,
+72 zăcând pe pământ, cu toții întorși în jos.
 </result>
 </query>
 <query>
@@ -315,7 +354,7 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 73 „Adhaesit pavimento anima mea”
-74 îi auzeam spunând cu suspine atât de profunde,
+74 îi auzeam spunând cu suspine atât de puternice,
 75 încât cuvintele abia se înțelegeau.
 </result>
 </query>
@@ -330,8 +369,8 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 76 „O aleșii lui Dumnezeu, ale căror suferințe
-77 dreptatea și speranța le fac mai suportabile,
-78 îndreptați-ne spre urcușurile mai înalte”.
+77 dreptatea și speranța le fac mai puțin dure,
+78 îndreptați-ne spre urcușurile înalte”.
 </result>
 </query>
 <query>
@@ -346,7 +385,7 @@ Please translate each line literally into Romanian.
 <result>
 79 „Dacă veniți din zăcere în siguranță,
 80 și vreți să găsiți calea mai repede,
-81 mâinile voastre drepte să fie mereu în afară”.
+81 dreptele voastre să fie mereu în afară”.
 </result>
 </query>
 <query>
@@ -363,12 +402,12 @@ Please translate each line literally into Romanian.
 87 ciò che chiedea la vista del disio.
 </prompt>
 <result>
-82 Așa a rugat poetul și așa i s-a răspuns
+82 Așa s-a rugat poetul, și așa s-a răspuns
 83 puțin înaintea noastră; de aceea
-84 în vorbire am bănuit pe celălalt ascuns,
+84 în vorbire am observat celălalt ascuns,
 
 85 și mi-am întors ochii spre ochii stăpânului meu:
-86 de unde el mi-a încuviințat cu un semn vesel
+86 de unde el mi-a aprobat cu un semn vesel
 87 ceea ce cerea vederea dorinței.
 </result>
 </query>
@@ -386,13 +425,13 @@ Please translate each line literally into Romanian.
 93 sosta un poco per me tua maggior cura.
 </prompt>
 <result>
-88 După ce am putut să fac cu mine după voia mea,
-89 m-am apropiat de acea făptură
-90 ale cărei cuvinte mai înainte m-au făcut să iau aminte,
+88 După ce am putut să fac de mine însumi după bunul meu plac,
+89 m-am apropiat de acea creatură
+90 ale cărei cuvinte m-au făcut mai întâi să observ,
 
 91 spunând: „Spirit în care plânsul maturizează
 92 acel fără de care nu te poți întoarce la Dumnezeu,
-93 oprește-te puțin pentru mine, mai marea ta grijă.
+93 oprește-te puțin pentru mine cea mai mare grijă a ta.
 </result>
 </query>
 <query>
@@ -405,9 +444,9 @@ Please translate each line literally into Romanian.
 96 cosa di là ond’ io vivendo mossi».
 </prompt>
 <result>
-94 Cine ai fost și de ce v-ați întors spatele
-95 spre înălțime, spune-mi, și dacă vrei să-ți obțin
-96 ceva de acolo de unde am plecat viu”.
+94 Cine ai fost și de ce vă întoarceți spatele
+95 în sus, spune-mi, și dacă vrei să-ți obțin
+96 ceva de acolo de unde am plecat trăind”.
 </result>
 </query>
 <query>
@@ -420,9 +459,9 @@ Please translate each line literally into Romanian.
 99 scias quod ego fui successor Petri.
 </prompt>
 <result>
-97 Și el mi-a zis: „De ce cerul își îndreaptă spre sine căile noastre,
-98 vei ști; dar mai întâi
-99 să știi că eu am fost urmașul lui Petru.
+97 Și el către mine: „De ce cerul își întoarce căile
+98 spre sine, vei ști; dar mai întâi
+99 să știi că eu am fost succesorul lui Petru.
 </result>
 </query>
 <query>
@@ -437,7 +476,7 @@ Please translate each line literally into Romanian.
 <result>
 100 Între Sestri și Chiavari se numea
 101 un râu frumos, iar din numele său
-102 titlul sângelui meu își face culmea.
+102 titlul sângelui meu își face vârful.
 </result>
 </query>
 <query>
@@ -450,8 +489,8 @@ Please translate each line literally into Romanian.
 105 che piuma sembran tutte l’altre some.
 </prompt>
 <result>
-103 O lună și puțin mai mult am încercat eu cum
-104 apasă mantia grea pe cel care o privește din noroi,
+103 O lună și puțin mai mult am încercat cum
+104 cântărește mantia mare pe cel care o privește din noroi,
 105 căci toate celelalte poveri par pene.
 </result>
 </query>
@@ -466,7 +505,7 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 106 Conversiunea mea, vai!, a fost târzie;
-107 dar, când am devenit păstor roman,
+107 dar, cum am fost făcut păstor roman,
 108 așa am descoperit viața mincinoasă.
 </result>
 </query>
@@ -497,7 +536,7 @@ Please translate each line literally into Romanian.
 <result>
 112 Până în acel moment am fost un suflet mizerabil și despărțit
 113 de Dumnezeu, cu totul avar;
-114 acum, după cum vezi, aici sunt pedepsit pentru asta.
+114 acum, după cum vezi, aici sunt pedepsit.
 </result>
 </query>
 <query>
@@ -526,8 +565,8 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 118 Așa cum ochii noștri nu s-au ridicat
-119 în sus, fixați pe lucrurile pământești,
-120 așa dreptatea aici ne-a cufundat în pământ.
+119 în sus, fixați asupra lucrurilor pământești,
+120 așa dreptatea aici pe pământ i-a scufundat.
 </result>
 </query>
 <query>
@@ -545,7 +584,7 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 121 Cum avariția a stins în fiecare bine
-122 dragostea noastră, prin care s-a pierdut acțiunea,
+122 dragostea noastră, de unde s-a pierdut acțiunea,
 123 așa dreptatea aici ne ține strânși,
 
 124 cu picioarele și cu mâinile legate și prinse;
@@ -567,9 +606,9 @@ Please translate each line literally into Romanian.
 <result>
 127 Eu îngenuncheasem și voiam să spun;
 128 dar cum am început și el și-a dat seama,
-129 doar ascultând, de plecăciunea mea,
+129 doar ascultând, de reverența mea,
 
-130 „Ce motiv”, a spus el, „te-a făcut să te apleci așa?”.
+130 „Ce motiv”, a spus el, „te-a făcut să te întorci așa în jos?”.
 </result>
 </query>
 <query>
@@ -585,7 +624,7 @@ Please translate each line literally into Romanian.
 135 teco e con li altri ad una podestate.
 </prompt>
 <result>
-131 Și eu i-am spus: „Pentru demnitatea voastră
+131 Și eu către el: „Pentru demnitatea voastră
 132 conștiința mea m-a mustrat pe drept”.
 
 133 „Îndreaptă-ți picioarele, ridică-te, frate!”,
@@ -603,8 +642,8 @@ Please translate each line literally into Romanian.
 138 ben puoi veder perch’ io così ragiono.
 </prompt>
 <result>
-136 Dacă ai înțeles acel sfânt sunet evanghelic
-137 care spune „Nici nu se vor căsători”,
+136 Dacă mai înțelegeai acel sunet evanghelic sfânt
+137 care spune „Neque nubent”,
 138 poți vedea bine de ce raționez așa.
 </result>
 </query>
@@ -619,7 +658,7 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 139 Du-te acum: nu vreau să mai zăbovești;
-140 căci prezența ta îmi tulbură plânsul,
+140 căci prezența ta îmi îngreunează plânsul,
 141 cu care maturizez ceea ce ai spus.
 </result>
 </query>
@@ -636,9 +675,9 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 142 Am o nepoată acolo care se numește Alagia,
-143 bună de la sine, numai să nu-i facă casa noastră
-144 un exemplu rău;
+143 bună de la sine, numai că familia noastră
+144 să nu o facă pe ea un exemplu rău;
 
-145 și numai ea mi-a mai rămas de acolo”.
+145 și numai aceasta mi-a mai rămas de acolo”.
 </result>
 </query>

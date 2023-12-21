@@ -8,9 +8,11 @@ Please translate each line literally into Romanian.
 2 superillustrans claritate tua
 3 felices ignes horum malacòth!».
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+1 „Osana, sfânt Dumnezeule Savaot,
+2 luminând cu strălucirea Ta
+3 fericitele focuri ale acestor malakot!”.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 7] 4/148</info>
@@ -26,13 +28,13 @@ Please translate each line literally into Romanian.
 9 mi si velar di sùbita distanza.
 </prompt>
 <result>
-4 Astfel, întorcându-se la cântecul ei,
+4 Astfel, întorcându-se la melodia sa,
 5 mi s-a părut că acea ființă cântă,
 6 deasupra căreia străluceau cele două lumini;
 
 7 și ea și celelalte s-au mișcat în dansul lor,
 8 și ca niște scântei foarte rapide
-9 mi s-au ascuns din cauza distanței brusc apărute.
+9 s-au ascuns de mine dintr-o dată, din cauza distanței.
 </result>
 </query>
 <query>
@@ -45,14 +47,14 @@ Please translate each line literally into Romanian.
 12 che mi diseta con le dolci stille’.
 </prompt>
 <result>
-10 Eu ezitam și spuneam „Spune-i, spune-i!”
-11 în sinea mea, „spune-i”, spuneam, „doamnei mele
-12 care mă înseta cu dulcile ei glas”.
+10 Eu ezitam și îmi spuneam „Spune-i, spune-i!”
+11 în sinea mea, „spune-i”, îi spuneam „doamnei mele
+12 care mă îmbăta cu dulcile ei glas”.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 7] 13/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 13 Ma quella reverenza che s’indonna
@@ -60,17 +62,40 @@ Please translate each line literally into Romanian.
 15 mi richinava come l’uom ch’assonna.
 </prompt>
 <error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+index: 0
+content {
+  parts {
+    text: "13 Dar acea venerație care m-a cuprins\n14 în întregime, atât pentru Beatrice, cât și pentru ice,\n15 mă făcea să mă plec ca un om adormit."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 <result>
-13 Dar acea venerație care s-a înstăpânit
-14 asupra întregii mele ființe, doar pentru Beatrice și pentru el,
-15 mă făcea să mă plec precum omul care adoarme.
+13 Dar acea venerație care m-a cuprins
+14 în întregime, atât pentru Beatrice, cât și pentru ice,
+15 mă făcea să mă plec ca un om adormit.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 7] 16/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 16 Poco sofferse me cotal Beatrice
@@ -85,21 +110,18 @@ Please translate each line literally into Romanian.
 23 e tu ascolta, ché le mie parole
 24 di gran sentenza ti faran presente.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-16 Beatrice a suferit puțin pentru mine
+16 Beatrice m-a lăsat să sufăr puțin așa
 17 și a început, luminându-mă cu un zâmbet
 18 care l-ar face fericit pe om chiar și în foc:
 
 19 „După părerea mea infailibilă,
-20 așa cum o răzbunare dreaptă a fost pedepsită pe drept,
+20 cum o răzbunare dreaptă a fost pedepsită pe drept,
 21 te-a pus pe gânduri;
 
 22 dar eu îți voi elibera imediat mintea;
 23 și tu ascultă, căci cuvintele mele
-24 îți vor prezenta o mare sentință.
+24 îți vor aduce o mare învățătură.
 </result>
 </query>
 <query>
@@ -121,16 +143,16 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 25 Pentru a nu suferi virtutea care vrea
-26 frâu pentru binele său, acel om care nu s-a născut,
+26 o frână pentru binele ei, acel om care nu s-a născut,
 27 damnându-se pe sine, și-a damnat toată progenitura;
 
 28 de unde specia umană bolnavă a zăcut
 29 timp de multe secole în mare eroare,
-30 până când Verbul lui Dumnezeu a binevoit să coboare
+30 până când Cuvântului lui Dumnezeu i-a plăcut să coboare
 
-31 unde natura, care de Creatorul său
-32 se îndepărtase, s-a unit cu sine în persoană
-33 doar prin actul iubirii sale eterne.
+31 unde natura, care se îndepărtase de Creatorul ei,
+32 s-a unit cu El în persoană
+33 doar prin actul iubirii Sale eterne.
 </result>
 </query>
 <query>
@@ -148,7 +170,7 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 34 Acum îndreaptă-ți privirea spre ceea ce se discută acum:
-35 această natură unită cu Creatorul său,
+35 această natură unită cu Creatorul ei,
 36 așa cum a fost creată, a fost sinceră și bună;
 
 37 dar prin ea însăși a fost totuși izgonită
@@ -171,8 +193,8 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 40 Prin urmare, pedeapsa pe care a adus-o crucea
-41 dacă este măsurată la natura asumată,
-42 niciodată nimic nu a fost mai just pedepsit;
+41 dacă se măsoară la natura asumată,
+42 niciodată nu a mai existat una atât de justă;
 
 43 și astfel nimic nu a fost o atât de mare nedreptate,
 44 privind la persoana care a suferit,
@@ -189,7 +211,7 @@ Please translate each line literally into Romanian.
 48 per lei tremò la terra e ’l ciel s’aperse.
 </prompt>
 <result>
-46 De aceea, dintr-un act au ieșit lucruri diferite:
+46 Dar dintr-un singur act au ieșit lucruri diferite:
 47 căci lui Dumnezeu și evreilor le-a plăcut o moarte;
 48 din cauza ei a tremurat pământul și s-a deschis cerul.
 </result>
@@ -234,9 +256,9 @@ Please translate each line literally into Romanian.
 57 a nostra redenzion pur questo modo”.
 </prompt>
 <result>
-55 Tu spui: „Discern bine ceea ce aud;
+55 Tu spui: „Înțeleg bine ce aud;
 56 dar de ce a vrut Dumnezeu, îmi este ascuns,
-57 pentru răscumpărarea noastră tocmai acest mod”.
+57 tocmai acest mod pentru răscumpărarea noastră”.
 </result>
 </query>
 <query>
@@ -249,9 +271,9 @@ Please translate each line literally into Romanian.
 60 ne la fiamma d’amor non è adulto.
 </prompt>
 <result>
-58 Acest decret, frate, este îngropat
-59 în ochii fiecăruia al cărui intelect
-60 nu este adult în flacăra iubirii.
+58 Acest decret, frate, este ascuns
+59 ochilor fiecăruia a cărui inteligență
+60 nu este matură în flacăra iubirii.
 </result>
 </query>
 <query>
@@ -264,8 +286,8 @@ Please translate each line literally into Romanian.
 63 dirò perché tal modo fu più degno.
 </prompt>
 <result>
-61 Într-adevăr, pentru că la acest semn
-62 se privește mult și se discerne puțin,
+61 Într-adevăr, dar pentru că la acest semn
+62 se admiră mult și se discerne puțin,
 63 voi spune de ce acest mod a fost mai demn.
 </result>
 </query>
@@ -296,7 +318,7 @@ Please translate each line literally into Romanian.
 <result>
 67 Ceea ce distilează din ea fără mijloc
 68 nu are apoi sfârșit, pentru că nu se mișcă
-69 amprenta sa când sigilează.
+69 amprenta ei când pecetluiește.
 </result>
 </query>
 <query>
@@ -310,7 +332,7 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 70 Ceea ce plouă din ea fără mijloc
-71 este totul liber, pentru că nu este supus
+71 este complet liber, pentru că nu se supune
 72 virtuții lucrurilor noi.
 </result>
 </query>
@@ -325,8 +347,8 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 73 Cu cât îi este mai conform, cu atât îi place mai mult;
-74 căci ardoarea sfântă care radiază orice lucru,
-75 în cel mai asemănător este mai vie.
+74 căci ardoarea sfântă care radiază în orice lucru,
+75 este mai vie în cel mai asemănător.
 </result>
 </query>
 <query>
@@ -339,8 +361,8 @@ Please translate each line literally into Romanian.
 78 di sua nobilità convien che caggia.
 </prompt>
 <result>
-76 Dintre toate aceste daruri beneficiază
-77 creatura umană, și dacă una lipsește,
+76 Creatura umană beneficiază de toate aceste daruri,
+77 și dacă unul lipsește,
 78 trebuie să cadă din noblețea sa.
 </result>
 </query>
@@ -360,16 +382,16 @@ Please translate each line literally into Romanian.
 <result>
 79 Numai păcatul este cel care o dezavantajează
 80 și o face diferită de binele suprem,
-81 pentru că din lumina sa se albește puțin;
+81 pentru că din lumina sa se îmbogățește puțin;
 
-82 și în demnitatea sa nu revine niciodată,
-83 dacă nu umple, acolo unde vina golește,
-84 împotriva plăcerii rele cu pedepse drepte.
+82 și nu își recapătă niciodată demnitatea,
+83 decât dacă umple, acolo unde păcatul a golit,
+84 plăcerea rea cu pedepse drepte.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 7] 85/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 85 Vostra natura, quando peccò tota
@@ -384,39 +406,33 @@ Please translate each line literally into Romanian.
 92 dimesso avesse, o che l’uom per sé isso
 93 avesse sodisfatto a sua follia.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
 85 Natura voastră, când a păcătuit toată
 86 în sămânța sa, de aceste demnități,
-87 ca de la paradis, a fost îndepărtată;
+87 ca de paradis, a fost îndepărtată;
 
-88 nici nu vă puteți recupera, dacă observați
+88 și nu le puteți recăpăta, dacă nu observați
 89 foarte atent, prin nicio cale,
 90 fără să treceți prin una dintre aceste vami:
 
-91 sau ca Dumnezeu singur, prin bunăvoința sa,
-92 să fi iertat, sau ca omul, prin sine însuși,
-93 să fi ispășit pentru nebunia sa.
+91 fie ca Dumnezeu singur, prin bunătatea Sa,
+92 să fi iertat, fie ca omul însuși
+93 să fi satisfăcut pentru nebunia sa.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 7] 94/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 94 Ficca mo l’occhio per entro l’abisso
 95 de l’etterno consiglio, quanto puoi
 96 al mio parlar distrettamente fisso.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-94 Înfige-ți privirea în abisul
-95 sfatului etern, cât poți,
-96 cu atenție la vorbele mele.
+94 Acum înfige-ți privirea în abisul
+95 sfatului etern, cât poți
+96 cu atenție fixată la vorbirea mea.
 </result>
 </query>
 <query>
@@ -434,12 +450,12 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 97 Omul nu putea în termenii săi
-98 să se mulțumească vreodată, pentru că nu putea merge în jos
-99 cu umilință, ascultând apoi,
+98 să satisfacă niciodată, pentru că nu putea merge în jos
+99 cu umilință, supunându-se apoi,
 
-100 cât de mult a înțeles să meargă în sus neascultând;
+100 cât de mult a intenționat să urce neascultând;
 101 și acesta este motivul pentru care omul a fost
-102 deschis să poată mulțumi pentru sine.
+102 deschis să poată satisface pentru sine.
 </result>
 </query>
 <query>
@@ -452,8 +468,8 @@ Please translate each line literally into Romanian.
 105 dico con l’una, o ver con amendue.
 </prompt>
 <result>
-103 Așadar, lui Dumnezeu îi convenea cu căile sale
-104 să-l repare pe om la viața sa întreagă,
+103 Prin urmare, lui Dumnezeu îi convenea cu căile Sale
+104 să repare omul la viața sa întreagă,
 105 spun cu una sau cu amândouă.
 </result>
 </query>
@@ -500,11 +516,11 @@ Please translate each line literally into Romanian.
 <result>
 112 Nici între ultima noapte și prima zi
 113 un proces atât de înalt sau atât de măreț,
-114 fie pentru una, fie pentru cealaltă, a fost sau va fi:
+114 fie prin una, fie prin cealaltă, nu a fost sau nu va fi:
 
-115 căci Dumnezeu a fost mai darnic în a se dărui pe sine
+115 căci Dumnezeu a fost mai generos să se dea pe Sine
 116 pentru a-l face pe om capabil să se ridice,
-117 decât dacă el ar fi renunțat doar de la sine;
+117 decât dacă ar fi iertat doar de la Sine;
 
 118 și toate celelalte moduri erau insuficiente
 119 pentru dreptate, dacă Fiul lui Dumnezeu
@@ -521,14 +537,14 @@ Please translate each line literally into Romanian.
 123 perché tu veggi lì così com’ io.
 </prompt>
 <result>
-121 Acum, pentru a-ți împlini bine orice dorință,
+121 Acum, pentru a-ți satisface bine orice dorință,
 122 mă întorc să-ți explic în anumite locuri,
 123 pentru ca tu să vezi acolo așa cum văd eu.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 7] 124/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 124 Tu dici: “Io veggio l’acqua, io veggio il foco,
@@ -539,16 +555,13 @@ Please translate each line literally into Romanian.
 128 per che, se ciò ch’è detto è stato vero,
 129 esser dovrien da corruzion sicure”.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
 124 Tu spui: „Văd apa, văd focul,
 125 aerul și pământul și toate amestecurile lor
-126 ajungând la corupție și durând puțin;
+126 venind la corupție și durând puțin;
 
-127 și aceste lucruri au fost totuși creaturi;
-128 de aceea, dacă ceea ce s-a spus este adevărat,
+127 și aceste lucruri au fost totuși create;
+128 de aceea, dacă ceea ce s-a spus a fost adevărat,
 129 ar trebui să fie în siguranță de corupție”.
 </result>
 </query>
@@ -567,7 +580,7 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 130 Îngerii, frate, și țara sinceră
-131 în care ești, se pot spune create,
+131 în care te afli, se pot spune că au fost create,
 132 așa cum sunt, în ființa lor întreagă;
 
 133 dar alimentele pe care le-ai numit
@@ -585,14 +598,14 @@ Please translate each line literally into Romanian.
 138 in queste stelle che ’ntorno a lor vanno.
 </prompt>
 <result>
-136 Creată a fost materia pe care o au;
-137 creată a fost virtutea informatoare
-138 în aceste stele care în jurul lor merg.
+136 Materia pe care o au a fost creată;
+137 virtutea informatoare a fost creată
+138 în aceste stele care se învârt în jurul lor.
 </result>
 </query>
 <query>
 <info>[Paradiso Canto 7] 139/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 139 L’anima d’ogne bruto e de le piante
@@ -603,16 +616,13 @@ Please translate each line literally into Romanian.
 143 la somma beninanza, e la innamora
 144 di sé sì che poi sempre la disira.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-139 Sufletul oricărei făpturi și al plantelor
-140 prin complexiune potențată atrage
+139 Sufletul fiecărei fiare și al plantelor
+140 trage din complexiunea potențată
 141 raza și mișcarea luminilor sfinte;
 
-142 dar viața voastră fără mijloc inspiră
-143 suprema bunătate și o îndrăgostește
+142 dar viața voastră respiră fără mijloc
+143 bunătatea supremă și o îndrăgostește
 144 de sine, astfel încât apoi o dorește mereu.
 </result>
 </query>
@@ -630,8 +640,8 @@ Please translate each line literally into Romanian.
 <result>
 145 Și de aici poți argumenta încă
 146 învierea voastră, dacă te gândești
-147 cum carnea umană a făcut atunci
+147 cum s-a făcut carnea umană atunci
 
-148 când primii părinți s-au făcut amândoi.
+148 când primii părinți s-au făcut amândoi”.
 </result>
 </query>

@@ -14,7 +14,7 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 1 „O Tatăl nostru, care stai în ceruri,
-2 nu circumscris, ci pentru mai multă iubire
+2 nu ești limitat, ci din iubire mai mare
 3 pe care o ai față de primele efecte de acolo de sus,
 
 4 lăudat fie numele tău și valoarea ta
@@ -54,29 +54,32 @@ Please translate each line literally into Romanian.
 </query>
 <query>
 <info>[Purgatorio Canto 11] 13/142</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 13 Dà oggi a noi la cotidiana manna,
 14 sanza la qual per questo aspro diserto
 15 a retro va chi più di gir s’affanna.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+13 Dă-ne astăzi pâinea noastră cea de toate zilele,
+14 fără de care, prin acest aspru deșert,
+15 cel ce se străduiește mai mult să meargă înainte, merge înapoi.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 11] 16/142</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 16 E come noi lo mal ch’avem sofferto
 17 perdoniamo a ciascuno, e tu perdona
 18 benigno, e non guardar lo nostro merto.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+16 Și precum noi iertăm fiecăruia răul pe care l-am suferit,
+17 iartă-ne și tu cu bunăvoință și nu ține cont de meritul nostru.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 11] 19/142</info>
@@ -88,25 +91,43 @@ Please translate each line literally into Romanian.
 21 ma libera da lui che sì la sprona.
 </prompt>
 <error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+block_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 </query>
 <query>
 <info>[Purgatorio Canto 11] 22/142</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 22 Quest’ ultima preghiera, segnor caro,
 23 già non si fa per noi, ché non bisogna,
 24 ma per color che dietro a noi restaro».
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+22 Această ultimă rugăciune, domnule drag,
+23 nu se mai face pentru noi, căci nu e nevoie,
+24 ci pentru cei care au rămas în urma noastră.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 11] 25/142</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 25 Così a sé e noi buona ramogna
@@ -117,13 +138,18 @@ Please translate each line literally into Romanian.
 29 e lasse su per la prima cornice,
 30 purgando la caligine del mondo.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+25 Astfel, rugându-se, acele umbre își luau rămas bun de la el și de la noi, mergând sub povară,
+26 asemenea celui care uneori visează,
+
+28 toate fiind chinuite în mod diferit în jur
+29 și obosite pe prima cornișă,
+30 purgându-și întunericul lumii.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 11] 31/142</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 31 Se di là sempre ben per noi si dice,
@@ -134,13 +160,19 @@ Please translate each line literally into Romanian.
 35 che portar quinci, sì che, mondi e lievi,
 36 possano uscire a le stellate ruote.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+31 Dacă de acolo se spune mereu bine despre noi,
+32 ce se poate spune și face aici pentru ei
+33 de către cei care au o rădăcină bună în voință?
+
+34 Ei trebuie să-și spele bine petele
+35 pe care le-au adus aici, astfel încât, curați și ușori,
+36 să poată ieși la roțile înstelate.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 11] 37/142</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 37 «Deh, se giustizia e pietà vi disgrievi
@@ -155,12 +187,9 @@ Please translate each line literally into Romanian.
 44 de la carne d’Adamo onde si veste,
 45 al montar sù, contra sua voglia, è parco».
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-37 „Ah, dacă dreptatea și mila vă îndurerează
-38 îndată, așa încât să puteți mișca aripile,
+37 „Ah, dacă dreptatea și mila vă înduioșează
+38 repede, astfel încât să vă puteți mișca aripile,
 39 ca să vă ridicați după dorința voastră,
 
 40 arătați-ne din ce parte spre scară
@@ -187,17 +216,17 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 46 Cuvintele lor, pe care le voi reda acestora
-47 pe care le-a spus cel cu care eu îl urmam,
-48 nu au fost clare pentru cel de la care veneau;
+47 pe care le-a spus cel cu care mergeam,
+48 nu au fost clare pentru cei de la care veneau;
 
-49 dar mi s-a spus: „Pe partea dreaptă, de-a lungul malului
+49 dar mi s-a spus: „Pe malul drept
 50 veniți cu noi și veți găsi trecerea
-51 posibilă de urcat pentru o persoană vie.
+51 posibilă pentru o persoană vie să urce.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 11] 52/142</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 52 E s’io non fossi impedito dal sasso
@@ -208,9 +237,15 @@ Please translate each line literally into Romanian.
 56 guardere’ io, per veder s’i’ ’l conosco,
 57 e per farlo pietoso a questa soma.
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+52 Și dacă nu aș fi împiedicat de piatra
+53 care îmi supune gâtul mândru,
+54 din cauza căreia trebuie să-mi port fața plecată,
+
+55 pe acesta, care încă trăiește și nu-și spune numele,
+56 l-aș privi, ca să văd dacă-l cunosc,
+57 și ca să-l fac milostiv față de această povară.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 11] 58/142</info>
@@ -222,8 +257,8 @@ Please translate each line literally into Romanian.
 60 non so se ’l nome suo già mai fu vosco.
 </prompt>
 <result>
-58 Eu am fost latin și născut dintr-un mare toscan:
-59 Guglielmo Aldobrandesco a fost tatăl meu;
+58 Am fost latin și născut dintr-un mare toscan:
+59 Guiglielmo Aldobrandesco a fost tatăl meu;
 60 nu știu dacă numele său a fost vreodată cunoscut de voi.
 </result>
 </query>
@@ -240,40 +275,14 @@ Please translate each line literally into Romanian.
 65 ch’io ne mori’, come i Sanesi sanno,
 66 e sallo in Campagnatico ogne fante.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "61 Sângele străvechi și faptele mărețe\n62 ale strămoșilor mei m-au făcut atât de arogant,\n63 încât, nemaiținând cont de mama noastră comună,\n\n64 am disprețuit pe toți oamenii atât de mult,\n65 încât am ucis, așa cum știu sienezi,\n66 și știe orice copil din Campagnatico."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-61 Sângele străvechi și faptele mărețe
+61 Sângele străvechi și faptele nobile
 62 ale strămoșilor mei m-au făcut atât de arogant,
-63 încât, nemaiținând cont de mama noastră comună,
+63 încât, ne gândindu-mă la mama noastră comună,
 
-64 am disprețuit pe toți oamenii atât de mult,
-65 încât am ucis, așa cum știu sienezi,
-66 și știe orice copil din Campagnatico.
+64 am disprețuit atât de mult pe fiecare om,
+65 încât am murit din cauza asta, așa cum știu sienezi,
+66 și o știe fiecare copil din Campagnatico.
 </result>
 </query>
 <query>
@@ -286,27 +295,29 @@ Please translate each line literally into Romanian.
 69 ha ella tratti seco nel malanno.
 </prompt>
 <result>
-67 Eu sunt Omberto; și nu doar mie rău
-68 mi-a făcut mândria, căci pe toți ai mei
+67 Eu sunt Omberto; și nu doar mie îmi face rău
+68 mândria, căci pe toți ai mei
 69 i-a târât cu ea în nenorocire.
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 11] 70/142</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 70 E qui convien ch’io questo peso porti
 71 per lei, tanto che a Dio si sodisfaccia,
 72 poi ch’io nol fe’ tra ’ vivi, qui tra ’ morti».
 </prompt>
-<error>
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
+<result>
+70 Și aici trebuie să port această povară
+71 din cauza ei, până când Dumnezeu va fi satisfăcut,
+72 deoarece nu am făcut-o printre cei vii, aici printre cei morți”.
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 11] 73/142</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Romanian.
 
 73 Ascoltando chinai in giù la faccia;
@@ -317,17 +328,14 @@ Please translate each line literally into Romanian.
 77 tenendo li occhi con fatica fisi
 78 a me che tutto chin con loro andava.
 </prompt>
-<error result="true">
-500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-</error>
 <result>
-73 Ascultând,mi-amînclinatcapulînjos;
-74 șiunuldintr-ei,nuacelacarevorbea,
-75 s-aîntorsdedessubtulgreutății,careîiîmpovăra,
+73 Ascultând, mi-am plecat fața în jos;
+74 și unul dintre ei, nu cel care vorbea,
+75 s-a întors sub povara care-i împiedică,
 
-76 și-amăvăzutși-amrecunoscutși-măchema,
-77 ținându-șiprivireafixatăasupramea,cudificultate,
-78 întimpceeu,plecat,mergeamîmpreunăcuei.
+76 m-a văzut și m-a recunoscut și m-a strigat,
+77 ținându-și ochii cu greu fixați
+78 asupra mea, care mergeam cu ei, tot plecat.
 </result>
 </query>
 <query>
@@ -340,8 +348,8 @@ Please translate each line literally into Romanian.
 81 ch’alluminar chiamata è in Parisi?».
 </prompt>
 <result>
-79 „Oh!”, i-am spus eu, „nu ești tu Oderisi,
-80 onoarea orașului Gubbio și onoarea acelei arte
+79 „Oh!”, i-am spus, „nu ești tu Oderisi,
+80 onoarea lui Agobbio și onoarea acelei arte
 81 care la Paris este numită iluminare?”.
 </result>
 </query>
@@ -370,9 +378,9 @@ Please translate each line literally into Romanian.
 87 de l’eccellenza ove mio core intese.
 </prompt>
 <result>
-85 N-aș fi fost atât de politicos
+85 Nu aș fi fost atât de politicos
 86 cât timp am trăit, din cauza dorinței mari
-87 de excelență, la care inima mea aspira.
+87 de excelență spre care inima mea tindea.
 </result>
 </query>
 <query>
@@ -385,9 +393,9 @@ Please translate each line literally into Romanian.
 90 che, possendo peccar, mi volsi a Dio.
 </prompt>
 <result>
-88 Pentru o asemenea mândrie se plătește aici prețul;
-89 și încă n-aș fi aici, dacă n-ar fi fost
-90 că, având posibilitatea de a păcătui, m-am întors la Dumnezeu.
+88 Aici se plătește prețul pentru o astfel de mândrie;
+89 și încă nu aș fi aici, dacă nu ar fi fost
+90 că, putând să păcătuiesc, m-am întors la Dumnezeu.
 </result>
 </query>
 <query>
@@ -404,13 +412,13 @@ Please translate each line literally into Romanian.
 96 sì che la fama di colui è scura.
 </prompt>
 <result>
-91 O, vană glorie a puterilor omenești!
-92 Cât de puțină verdeață pe vârful aspru,
-93 dacă nu a ajuns din timpuri străvechi!
+91 Oh, vană glorie a puterilor umane!
+92 Cât de puțină verdeață pe vârful dur,
+93 dacă nu a ajuns din epocile grosiere!
 
-94 Cimabue a crezut că în pictură
-95 deține supremația, dar acum Giotto are faima,
-96 astfel încât renumele celuilalt este întunecat.
+94 Cimabue a crezut în pictură
+95 că deține câmpul, și acum Giotto are strigătul,
+96 astfel încât faima celuilalt este întunecată.
 </result>
 </query>
 <query>
@@ -439,8 +447,8 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 100 Zgomotul lumii nu este altceva decât o suflare
-101 de vânt, care acum vine de aici, acum vine de acolo,
-102 și își schimbă numele pentru că își schimbă direcția.
+101 de vânt, care acum vine de aici și acum vine de acolo,
+102 și își schimbă numele pentru că își schimbă latura.
 </result>
 </query>
 <query>
@@ -457,13 +465,13 @@ Please translate each line literally into Romanian.
 108 al cerchio che più tardi in cielo è torto.
 </prompt>
 <result>
-103 Ce voce vei mai avea tu, dacă bătrânețea îți desparte
-104 carnea de tine, decât dacă ai fi murit
+103 Ce voce vei mai avea tu, dacă bătrân desparți
+104 de tine carnea, decât dacă ai fi murit
 105 înainte de a lăsa „pappo” și „dindi”,
 
-106 înainte de a trece o mie de ani? Căci este un timp mai scurt
-107 pentru eternitate, decât o clipită
-108 pentru cercul care se rotește cel mai încet pe cer.
+106 înainte de a trece o mie de ani? care este un spațiu mai scurt
+107 pentru eternitate, decât o mișcare de gene
+108 pentru cercul care se rotește cel mai târziu pe cer.
 </result>
 </query>
 <query>
@@ -483,7 +491,7 @@ Please translate each line literally into Romanian.
 index: 0
 content {
   parts {
-    text: "109 Cel care a parcurs atât de puțin din drum\n110 înaintea mea, a fost vestit în toată Toscana;\n111 și acum abia se mai vorbește despre el în Siena,\n\n112 unde era domn când a fost distrusă\n113 furia florentină, care pe atunci era la fel de mândră\n114 cum acum este desfrânată."
+    text: "109 Cel care ia atât de puțin din drum\n110 înaintea mea, a răsunat în toată Toscana;\n111 și acum abia se șoptește despre el în Siena,\n\n112 unde era domn când a fost distrusă\n113 furia florentină, care pe atunci era mândră\n114 așa cum acum este curvă."
   }
   role: "model"
 }
@@ -494,7 +502,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
+  probability: HIGH
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
@@ -506,13 +514,13 @@ safety_ratings {
 }
 </error>
 <result>
-109 Cel care a parcurs atât de puțin din drum
-110 înaintea mea, a fost vestit în toată Toscana;
-111 și acum abia se mai vorbește despre el în Siena,
+109 Cel care ia atât de puțin din drum
+110 înaintea mea, a răsunat în toată Toscana;
+111 și acum abia se șoptește despre el în Siena,
 
 112 unde era domn când a fost distrusă
-113 furia florentină, care pe atunci era la fel de mândră
-114 cum acum este desfrânată.
+113 furia florentină, care pe atunci era mândră
+114 așa cum acum este curvă.
 </result>
 </query>
 <query>
@@ -525,9 +533,9 @@ Please translate each line literally into Romanian.
 117 per cui ella esce de la terra acerba».
 </prompt>
 <result>
-115 Renumele vostru este ca iarba,
-116 care vine și pleacă, și acela îl decolorează
-117 prin care ea iese din pământ crudă.
+115 Renumele vostru este culoarea ierbii,
+116 care vine și pleacă, și o decolorează
+117 cel prin care ea iese din pământ crudă”.
 </result>
 </query>
 <query>
@@ -540,9 +548,9 @@ Please translate each line literally into Romanian.
 120 ma chi è quei di cui tu parlavi ora?».
 </prompt>
 <result>
-118 Și eu i-am spus: „Vorbele tale adevărate îmi dau curaj,
-119 smerenia bună și îmi potolesc mândria mare;
-120 dar cine este acela despre care vorbeai acum?”.
+118 Și eu i-am spus: „Adevărul tău mă încurajează
+119 bună umilință și îmi netezești mare umflătură;
+120 dar cine este cel despre care vorbeai acum?”.
 </result>
 </query>
 <query>
@@ -570,9 +578,9 @@ Please translate each line literally into Romanian.
 126 a sodisfar chi è di là troppo oso».
 </prompt>
 <result>
-124 Așa este și așa merge, fără odihnă,
+124 Așa este și merge, fără odihnă,
 125 după ce a murit; o astfel de monedă plătește
-126 pentru a-i satisface pe cei care sunt prea îndrăzneți acolo.
+126 pentru a-l satisface pe cel care este prea îndrăzneț acolo”.
 </result>
 </query>
 <query>
@@ -594,8 +602,8 @@ Please translate each line literally into Romanian.
 129 locuiește aici jos și nu urcă acolo sus,
 
 130 dacă o rugăciune bună nu-l ajută,
-131 înainte de a trece un timp cât a trăit,
-132 cum i-a fost îngăduită venirea lui?”.
+131 înainte de a trece timpul cât a trăit,
+132 cum i-a fost permisă venirea lui?”.
 </result>
 </query>
 <query>
@@ -613,12 +621,12 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 133 „Când trăia mai glorios”, a spus el,
-134 „liber de bunăvoie în Câmpia Sienei,
+134 „liber în Câmpul Sienei,
 135 a renunțat la orice rușine;
 
-136 și acolo, pentru a-și elibera prietenul de pedeapsă,
-137 pe care o suferea în închisoarea lui Carol,
-138 s-a dus să tremure prin fiecare venă.
+136 și acolo, pentru a-și scoate prietenul din suferință,
+137 pe care o îndura în închisoarea lui Carol,
+138 s-a adus să tremure prin fiecare venă.
 </result>
 </query>
 <query>
@@ -632,7 +640,7 @@ Please translate each line literally into Romanian.
 </prompt>
 <result>
 139 Nu voi mai spune, și știu că vorbesc obscur;
-140 dar va trece puțin timp și vecinii tăi
+140 dar va trece puțin timp, iar vecinii tăi
 141 vor face în așa fel încât vei putea să-l interpretezi.
 </result>
 </query>
@@ -644,6 +652,6 @@ Please translate each line literally into Romanian.
 142 Quest’ opera li tolse quei confini».
 </prompt>
 <result>
-142 Această operă le-a îndepărtat acele limite”.
+142 Această operă i-a luat acele limite”.
 </result>
 </query>
