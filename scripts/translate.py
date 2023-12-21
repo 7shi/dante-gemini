@@ -81,7 +81,7 @@ def send_lines(line_count, *plines):
                 if m := re.match(r"(\d+)", line):
                     text = line[m.end():]
                     if not text.startswith(" ") or " " not in text[1:]:
-                        return f"Too few spaces: {line}"
+                        return f"Too few spaces: {repr(r)}"
         return None
     q = gemini.query(prompt, info, show, retry, check)
     return q
