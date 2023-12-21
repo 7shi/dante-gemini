@@ -25,6 +25,7 @@ translate:
 	$(SCRIPT) gv Manx # unstable
 
 _done:
+	$(SCRIPT) ia Interlingua --need-space # unstable
 	$(SCRIPT) ro Romanian
 	$(SCRIPT) nl Dutch
 	$(SCRIPT) de German
@@ -62,6 +63,7 @@ _error:
 	$(SCRIPT) mk Macedonian
 	$(SCRIPT) mn Mongolian
 	$(SCRIPT) mr Marathi
+	$(SCRIPT) ms Malay
 	$(SCRIPT) mt Maltese
 	$(SCRIPT) my Burmese
 	$(SCRIPT) ne Nepali
