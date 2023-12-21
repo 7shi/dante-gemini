@@ -1,4 +1,4 @@
-SCRIPT = python ../scripts/translate.py ../it -d Inferno
+SCRIPT = python ../scripts/translate.py ../it
 
 translate:
 	$(SCRIPT) bg Bulgarian
