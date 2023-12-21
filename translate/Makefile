@@ -1,7 +1,6 @@
 SCRIPT = python ../scripts/translate.py ../it
 
 translate:
-	$(SCRIPT) no Norwegian
 	$(SCRIPT) de German
 	$(SCRIPT) nl Dutch
 	$(SCRIPT) ro Romanian
@@ -29,6 +28,7 @@ translate:
 	$(SCRIPT) gv Manx --check-length # unstable
 
 _done:
+	$(SCRIPT) no Norwegian
 	$(SCRIPT) sr "Serbian (Latin)"
 	$(SCRIPT) bg Bulgarian
 	$(SCRIPT) pt Portuguese
