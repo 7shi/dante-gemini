@@ -70,7 +70,7 @@ class Watcher:
 
     def countup(self):
         if len(self.history) == 60:
-            diff = self.history.pop(0) + 61 - time.time()
+            diff = self.history.pop(0) + 62 - time.time()
             if diff > 0:
                 time.sleep(diff)
         self.history.append(time.time())
@@ -133,6 +133,8 @@ def query(prompt, info=None, show=False, retry=True, check=None):
             if show:
                 print()
                 print(err)
+            if "developers.generativeai.google" in err:
+                time.sleep(5)
             if m := re.search("text: ", err):
                 r, _ = parse(err, m.end())
                 r = r.rstrip()
