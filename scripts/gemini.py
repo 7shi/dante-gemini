@@ -129,12 +129,15 @@ def query(prompt, info=None, show=False, retry=True, check=None):
             break
         except Exception as e:
             err = str(e).rstrip()
-            q.error = err
             if show:
                 print()
                 print(err)
             if "developers.generativeai.google" in err:
+                print("Retrying...", file=sys.stderr)
                 time.sleep(5)
+                start()
+                continue
+            q.error = err
             if m := re.search("text: ", err):
                 r, _ = parse(err, m.end())
                 r = r.rstrip()
