@@ -26,24 +26,24 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 1 若き年のその時期に
-2 太陽が水瓶座の下で髪を和らげ
-3 そして夜がすでに真昼に近づいているとき、
+2 太陽が水瓶座の下で髪をとかし
+3 夜がすでに真昼に近づいているとき
 
 4 霜が地上に
-5 その白い妹の姿を模倣するが、
-6 その羽の模様は長くは続かない、
+5 その白い姉妹の姿を模倣するが
+6 その羽の模様は長くは続かない
 
-7 財産のない農夫は、
+7 財産のない農民は
 8 起きて、外を見て、野原が
-9一面真っ白になっているのを見る。それで彼は自分の腰を叩き、
+9一面真っ白になっているのを見る。それで彼は腰を叩き
 
-10 家に戻り、あちこちで不平を言う、
-11 何をすべきかわからない哀れな人のように。
-12 それから彼は戻ってきて、希望を取り戻す、
+10 家に戻り、あちこちで嘆き悲しむ
+11 何をすべきかわからない哀れな人のように
+12 それからまた外に出て、希望を取り戻す
 
-13 世界が短時間で
-14 姿を変えたのを見て、彼は自分の杖を取り、
-15 羊を放牧するために外に追い出す。
+13 世界が短時間のうちに
+14 姿を変えたのを見て、彼は自分の杖を取り
+15 羊を放牧するために外に出かける
 </result>
 </query>
 <query>
@@ -60,12 +60,14 @@ Please translate each line literally into Japanese.
 21 dolce ch’io vidi prima a piè del monte.
 </prompt>
 <result>
-16 師匠がこのように狼狽するのを見て、私は肝を冷やした
-17 そして、すぐにその傷に膏薬が塗られた。
+16 師匠がこのように狼狽するのを見て私は仰天した
+17 そしてすぐにその傷に薬が塗られた
 
-18 なぜなら、私たちが壊れた橋にたどり着いたとき、
-19 師匠はあの優しいまなざしで私に振り向き、
-20 私が最初に山のふもとで見たあのまなざしだった。
+18 私たちが壊れた橋にたどり着いたとき
+19 師匠はあの優しい表情で私に振り向き
+20 私が最初に山のふもとで見たあの表情で
+
+21 「これは神の御業だ」と言った
 </result>
 </query>
 <query>
@@ -77,9 +79,36 @@ Please translate each line literally into Japanese.
 23 eletto seco riguardando prima
 24 ben la ruina, e diedemi di piglio.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "22 いくつかの助言の後、腕を広げて\n23 まずは破壊された部分をよく見てから\n24 彼は私をしっかりと抱きかかえた"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-22 いくつかの助言の後、腕を広げ、
-23 まずその崩壊をよく見てから、私をつかんだ。
+22 いくつかの助言の後、腕を広げて
+23 まずは破壊された部分をよく見てから
+24 彼は私をしっかりと抱きかかえた
 </result>
 </query>
 <query>
@@ -96,14 +125,15 @@ Please translate each line literally into Japanese.
 30 ma tenta pria s’è tal ch’ella ti reggia».
 </prompt>
 <result>
-25 そして、常に先を見据えているように見える、
-26 働き、評価する人のように、
+25 そして、常に先を見据えているかのように働き、評価する人のように
 
-27 彼は私を岩山の頂上に持ち上げ、
-28 他の岩片を注意深く見て、
+26 彼は私を頂上まで引き上げながら
 
-29 「その岩にしがみつきなさい」と言った。
-30 「しかし、それがあなたを支えられるかどうか、まず試してみてください。」
+27 岩の裂け目の別の破片を注意深く見て
+
+28 「その上にしがみつけばいい」と言った
+
+29 「でも、それがあなたを支えられるかどうか、まず確かめてごらん」
 </result>
 </query>
 <query>
@@ -116,9 +146,11 @@ Please translate each line literally into Japanese.
 33 potavam sù montar di chiappa in chiappa.
 </prompt>
 <result>
-31 外套を着たままでは登れなかった。
+31 私たちはマントを着ていなかった
+
 32 なぜなら、彼が軽く、私が押されて、
-33 岩から岩へと登ることがやっとだったからだ。
+
+33 かろうじて岩の破片から破片へと登ることができたからである
 </result>
 </query>
 <query>
@@ -131,9 +163,11 @@ Please translate each line literally into Japanese.
 36 non so di lui, ma io sarei ben vinto.
 </prompt>
 <result>
-34 そして、その場所から反対側よりも
-35 距離が短くなければ、
-36 私はどうなったかわからないが、彼は負けていただろう。
+34 そして、その場所から反対側よりも距離が短くなければ
+
+35 彼についてはわからないが、私は負けていただろう
+
+36 （私はとても疲れていたから）
 </result>
 </query>
 <query>
@@ -150,13 +184,15 @@ Please translate each line literally into Japanese.
 42 onde l’ultima pietra si scoscende.
 </prompt>
 <result>
-37 しかし、マレボルジェが最も低い井戸の入り口に向かって
-38 全体的に傾いているため、
-39 各谷の場所は
+37 しかし、マレボルジェは最も低い井戸の入り口に向かって傾いているため
 
-40 一方の斜面が上昇し、もう一方の斜面が下降することを意味する。
-41 それでも私たちはついに、
-42 最後の石が崩れ落ちる場所の頂上にたどり着いた。
+38 各谷の場所は
+
+39 一方の斜面が上昇し、もう一方の斜面が下降している
+
+40 私たちはついに最後の石が崩れ落ちる地点にたどり着いた
+
+41 （そして、私たちはついに最後の石が崩れ落ちる地点にたどり着いた）
 </result>
 </query>
 <query>
@@ -169,9 +205,11 @@ Please translate each line literally into Japanese.
 45 anzi m’assisi ne la prima giunta.
 </prompt>
 <result>
-43 私が頂上にたどり着いたとき、私の肺の力はとても弱っていて、
-44 もうこれ以上進むことができず、
-45 むしろ最初にたどり着いた場所で座り込んだ。
+43 私が頂上にたどり着いたとき、肺の力はすっかり失われていて
+
+44 もうこれ以上進むことができず
+
+45 最初に着いたところで座り込んだ
 </result>
 </query>
 <query>
@@ -188,13 +226,17 @@ Please translate each line literally into Japanese.
 51 qual fummo in aere e in acqua la schiuma.
 </prompt>
 <result>
-46 「今こそ、あなたは自分自身を奮い立たせなければならない」と、
-47 師匠は言った。「なぜなら、羽毛の上に座っていても、
-48 名声は得られないし、毛布の下でも得られない。
+46 「さあ、あなたはもっと頑張らなければなりません」と師匠は言った
 
-49 それを得られないままに人生を費やす人は、
-50 地上に残す足跡は、
-51 空気中の煙や水の中の泡のようなものだ。
+47 「なぜなら、羽毛のベッドに座っていても
+
+48 名声は得られず、毛布の下でも得られないからです
+
+49 名声なしに人生を費やす人は
+
+50 地上に残す足跡は
+
+51 空気中の煙や水の中の泡のようなものです
 </result>
 </query>
 <query>
@@ -207,9 +249,13 @@ Please translate each line literally into Japanese.
 54 se col suo grave corpo non s’accascia.
 </prompt>
 <result>
-52 だから立ち上がれ。息切れに打ち勝て。
-53 あらゆる戦いに打ち勝つ精神で、
-54 その重い肉体に押しつぶされない限り。
+52 だから立ち上がって、苦しみを克服しなさい
+
+53 あらゆる戦いに打ち勝つ精神で
+
+54 その重い肉体が屈服しない限り
+
+55 （その重い肉体が屈服しない限り）
 </result>
 </query>
 <query>
@@ -222,9 +268,11 @@ Please translate each line literally into Japanese.
 57 Se tu mi ’ntendi, or fa sì che ti vaglia».
 </prompt>
 <result>
-55 もっと長い階段を登らなければならない。
-56 彼らから離れるだけでは十分ではない。
-57 もし私の言うことが理解できるなら、今こそそれを活かしてください。」
+55 もっと長い階段を登らなければならない
+
+56 彼らから離れるだけでは十分ではない
+
+57 もし私の言っていることが理解できるなら、今こそそれを活かしてくれ
 </result>
 </query>
 <query>
@@ -237,9 +285,9 @@ Please translate each line literally into Japanese.
 60 e dissi: «Va, ch’i’ son forte e ardito».
 </prompt>
 <result>
-58 私は立ち上がり、自分が感じていたよりも
-59 十分な力を備えていることを示した。
-60 そして言った。「行こう。私は強く、勇敢だ。」
+58 私は立ち上がり、自分が思っていたよりも体力があることを示した
+
+59 そして言った。「さあ、行きましょう。私は強く、勇敢です」
 </result>
 </query>
 <query>
@@ -252,9 +300,11 @@ Please translate each line literally into Japanese.
 63 ed erto più assai che quel di pria.
 </prompt>
 <result>
-61 私たちは岩の上を歩き始めた。
-62 それはでこぼこしていて、狭く、歩きにくく、
-63 以前のものよりもはるかに急だった。
+61 私たちは岩の上を歩き始めた
+
+62 それは険しく、狭く、歩きにくい道で
+
+63 以前の道よりもはるかに急だった
 </result>
 </query>
 <query>
@@ -267,9 +317,11 @@ Please translate each line literally into Japanese.
 66 a parole formar disconvenevole.
 </prompt>
 <result>
-64 彼は弱々しく見えないように話し続けながら歩いていた。
-65 すると、反対側の溝から声が聞こえてきた。
-66 それは言葉にするにはふさわしくないものだった。
+64 彼は弱々しく見えないように話し続けながら歩いていた
+
+65 すると、別の溝から声が聞こえてきた
+
+66 それは言葉にするにはふさわしくないものだった
 </result>
 </query>
 <query>
@@ -282,9 +334,11 @@ Please translate each line literally into Japanese.
 69 ma chi parlava ad ire parea mosso.
 </prompt>
 <result>
-67 私は彼が何を言ったのかわからない。なぜなら、私はすでに
-68 そこで渡るアーチの真上にいたからだ。
-69 しかし、話している人は怒りに駆られているようだった。
+67 私は彼が何を言ったのかわからない
+
+68 私はすでにその場所を横断するアーチの上にいたにもかかわらず
+
+69 しかし、話している人は怒りに駆られているようだった
 </result>
 </query>
 <query>
@@ -301,11 +355,13 @@ Please translate each line literally into Japanese.
 75 così giù veggio e neente affiguro».
 </prompt>
 <result>
-70 私は下を向いていたが、私の生きている目は
-71 暗闇のために底まで届かなかった。
-72 だから私は言った。「師匠、反対側の帯状の岩まで行き、
-73 壁から降りてください。なぜなら、私がここで聞くことはできても理解できず、
-74 同じように、私は下を見ても何も理解できないからです。」
+70 私は下を向いていたが、目は暗闇のために底まで届かなかった
+
+71 そこで私は言った。「師匠、反対側の帯状の土地まで行って、壁から降りてください
+
+72 ここからは音が聞こえるが、何を言っているのかわからないし
+
+73 下を見ると何も見えないからです」
 </result>
 </query>
 <query>
@@ -318,8 +374,11 @@ Please translate each line literally into Japanese.
 78 si de’ seguir con l’opera tacendo».
 </prompt>
 <result>
-76 「別の返事はしない」と彼は言った。「行動することだ。なぜなら、正直な要求は、
-77 黙って行動することで実行されるべきだからだ。」
+76 「他に答えることはしない」と彼は言った
+
+77 「ただ行動するだけだ。なぜなら、正当な要求には
+
+78 黙って行動で応えるべきだからだ」
 </result>
 </query>
 <query>
@@ -336,13 +395,17 @@ Please translate each line literally into Japanese.
 84 che la memoria il sangue ancor mi scipa.
 </prompt>
 <result>
-79 私たちは橋を降りて、
-80 8番目の堤防と合流する場所から降りた。
-81 そして、その谷が私に明らかになった。
+79 私たちは橋の頭から降りていった
 
-82 私はその中に恐ろしい蛇の群れを見た。
-83 そして、その種類は非常に多様で、
-84 その記憶は今でも私の血を凍らせる。
+80 そこで橋は8番目の堤防と合流する
+
+81 そして、その谷が私に明らかになった
+
+82 私はその中に恐ろしい数の蛇がひしめき合っているのを見た
+
+83 そして、その種類はあまりにも多様で
+
+84 その記憶は今でも私の血を凍らせる
 </result>
 </query>
 <query>
@@ -359,12 +422,13 @@ Please translate each line literally into Japanese.
 90 né con ciò che di sopra al Mar Rosso èe.
 </prompt>
 <result>
-85 リビアはもはやその砂漠を自慢すべきではない。
-86 なぜなら、たとえそれがケリドロス、ヤク、フェアリー、
-87 そしてアンフィズベーナを伴うカニを産み出したとしても、
+85 リビアはもはやその砂漠を自慢すべきではない
 
-88 エチオピア全体、そして紅海の向こうにあるものすべてを合わせても、
-89 これほど多くの疫病や悪を示したことはないからだ。
+86 そこがコブラ、槍を持った蛇、アスピス、双頭の蛇を生み出すとしても
+
+87 エチオピア全体、さらには紅海の上にあるものすべてを合わせても
+
+88 これほど多くの、これほど恐ろしい疫病を示したことは一度もない
 </result>
 </query>
 <query>
@@ -380,40 +444,18 @@ Please translate each line literally into Japanese.
 95 quelle ficcavan per le ren la coda
 96 e ’l capo, ed eran dinanzi aggroppate.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "91 この残酷で悲惨な群衆の中で、\n92 裸で怯えた人々が走り回り、\n93 抜け穴やエリトロピアを期待することなく。\n\n94 彼らの手は後ろで蛇で縛られていた。\n95 それらは尻尾と頭を彼らの腰に突き刺し、\n96 そして前に絡み合っていた。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-91 この残酷で悲惨な群衆の中で、
-92 裸で怯えた人々が走り回り、
-93 抜け穴やエリトロピアを期待することなく。
+91 この残酷で悲惨な大群の中で
 
-94 彼らの手は後ろで蛇で縛られていた。
-95 それらは尻尾と頭を彼らの腰に突き刺し、
-96 そして前に絡み合っていた。
+92 裸で怯えた人々が走り回っていた
+
+93 逃げ道やエリトロピアの石を期待することなく
+
+94 彼らの手は後ろで蛇で縛られていた
+
+95 蛇は尻尾と頭を彼らの腰に突き刺し
+
+96 前で絡み合っていた
 </result>
 </query>
 <query>
@@ -426,8 +468,11 @@ Please translate each line literally into Japanese.
 99 là dove ’l collo a le spalle s’annoda.
 </prompt>
 <result>
-97 そして、私たちの側にいた一匹の蛇が、
-98 彼の首が肩に結びついているところに噛み付いた。
+97 そして、私たちの側にいた一人の男に
+
+98 蛇が襲いかかり、首と肩がつながる部分に噛み付いた
+
+99 （首と肩がつながる部分に噛み付いた）
 </result>
 </query>
 <query>
@@ -444,13 +489,15 @@ Please translate each line literally into Japanese.
 105 e ’n quel medesmo ritornò di butto.
 </prompt>
 <result>
-100 OがIと書くよりも早く、
-101 彼は燃え上がり、灰になり、
-102 倒れて灰にならざるを得なかった。
+100 OやIが書かれるよりも早く
 
-103 そして、彼が地面で完全に破壊された後、
-104 その粉はそれ自体を集め、
-105 すぐに同じものに戻った。
+101 彼は燃え上がり、灰になって崩れ落ちた
+
+102 そして、彼が地面に崩れ落ちると
+
+103 その灰はそれ自体を集めて
+
+104 すぐに元の姿に戻った
 </result>
 </query>
 <query>
@@ -467,13 +514,15 @@ Please translate each line literally into Japanese.
 111 e nardo e mirra son l’ultime fasce.
 </prompt>
 <result>
-106 偉大な賢者たちによって、
-107 不死鳥は死んでから蘇ると信じられている。
-108 500年が近づくと、
+106 偉大な賢者たちは、不死鳥が死んでから蘇ると認めている
 
-109 その生涯で草や穀物を食べることはなく、
-110 ただ乳香の涙とアモモ、
-111 そしてナルドと没薬が最後の包帯となる。
+107 500年が近づくと
+
+108 不死鳥は生涯、草や穀物を食べず
+
+109 乳香、アモモムム、ナルド、没薬の涙だけで生き
+
+110 それらが不死鳥の最後の装束となる
 </result>
 </query>
 <query>
@@ -492,14 +541,17 @@ Please translate each line literally into Japanese.
 118 tal era ’l peccator levato poscia.
 </prompt>
 <result>
-112 そして、悪魔の力によって地面に引きずり下ろされたり、
-113 または人を縛る他の障害によって、
-114 倒れて、立ち上がるとき、彼は自分の周りをぐるぐる見回す。
+112 そして、悪魔の力によって地面に引きずり下ろされたり
 
-115 彼は自分が経験した大きな苦痛から完全に混乱し、
-116 そしてため息をつきながら見つめる。
+113 あるいは人を縛る他の障害によって倒れたりして
 
-117 罪人はその後、このように立ち上がった。
+114 どうして倒れたのかわからない人が
+
+115 立ち上がると、自分が経験した大きな苦痛から
+
+116 すべてを忘れてしまい、周りを見回してため息をつく
+
+117 罪人はその後、立ち上がったときもそのような状態だった
 </result>
 </query>
 <query>
@@ -515,12 +567,15 @@ Please translate each line literally into Japanese.
 123 poco tempo è, in questa gola fiera.
 </prompt>
 <result>
-119 神の力はなんと厳格なのだろう。
-120 彼は復讐のためにそのような打撃を浴びせる。
+119 神の力はなんと厳格なのだろう
 
-121 師匠は彼に彼が誰であるかを尋ねた。
-122 彼は答えた。「私はトスカーナから落ちました。
-123 この恐ろしい谷に、それほど時間は経っていません。
+120 復讐のためにこのような打撃を次々と与えるとは！
+
+121 師匠は彼に誰が何者であるかを尋ねた
+
+122 すると彼は答えた。「私はトスカーナから来ました
+
+123 この恐ろしい谷に落ちてきたのはつい最近のことです
 </result>
 </query>
 <query>
@@ -533,9 +588,11 @@ Please translate each line literally into Japanese.
 126 bestia, e Pistoia mi fu degna tana».
 </prompt>
 <result>
-124 私は人間ではなく、獣のような人生を好みました。
-125 私がロバであったように。私はヴァンニ・フッチ、
-126 獣であり、ピストイアは私にふさわしい巣でした。」
+124 私は人間らしい生活ではなく、獣のような生活を好みました
+
+125 ロバのように。私はヴァンニ・フッチです
+
+126 野獣であり、ピストイアは私にふさわしい巣でした」
 </result>
 </query>
 <query>
@@ -548,9 +605,11 @@ Please translate each line literally into Japanese.
 129 ch’io ’l vidi uomo di sangue e di crucci».
 </prompt>
 <result>
-127 そして私は師匠に言った。「彼に隠れないように言いなさい。
-128 そして、彼がここで罰せられた罪を尋ねなさい。
-129 なぜなら、私は彼が血と怒りに満ちた男であるのを見た。」
+127 私は師匠に言った。「彼に黙るな
+
+128 そして、彼がなぜここに落とされたのかを尋ねなさい
+
+129 私は彼が血と苦しみの人であるのを見た」
 </result>
 </query>
 <query>
@@ -567,13 +626,15 @@ Please translate each line literally into Japanese.
 135 che quando fui de l’altra vita tolto.
 </prompt>
 <result>
-130 そして、それを聞いた罪人は隠さず、
-131 しかし、私の方へ心と顔を向け、
-132 そして悲しみの恥で染まった。
+130 罪人はそれを聞いて、ごまかさず
 
-133 それから彼は言った。「私が他の命を奪われたときよりも、
-134 あなたが私をあなたが見ているような惨めな状態で見つけたことが、
-135 私をさらに悲しませます。
+131 しかし、私の方を向き直り、顔を上げ
+
+132 悲しげな恥の色に染まった
+
+133 それから言った。「私がこの惨めな姿であなたに見つかったことが
+
+134 私がこの世から連れ去られたときよりも、もっとつらい」
 </result>
 </query>
 <query>
@@ -588,11 +649,13 @@ Please translate each line literally into Japanese.
 139 e falsamente già fu apposto altrui.
 </prompt>
 <result>
-136 あなたが求めることを私は否定できません。
-137 私は、美しい調度品の聖具室で盗みを働いたために、
-138 ここまでの下に置かれています。
+136 あなたが尋ねていることを否定することはできません
 
-139 そして、それはすでに他人に偽って非難されました。
+137 私がここに落とされたのは、私が
+
+138 聖具室から美しい調度品を盗んだからです
+
+139 そして、その罪はすでに偽って他人に着せられました
 </result>
 </query>
 <query>
@@ -606,10 +669,11 @@ Please translate each line literally into Japanese.
 142 apri li orecchi al mio annunzio, e odi.
 </prompt>
 <result>
-140 しかし、なぜあなたがそのような光景を楽しめないのか、
-141 もしあなたが暗い場所から外に出ることがあれば、
+140 しかし、もしあなたがいつかこの暗い場所から出ることがあれば
 
-142 あなたの耳を私の発表に開き、聞いてください。
+141 この光景を楽しめないのはなぜなのか
+
+142 私の予言に耳を傾け、聞きなさい
 </result>
 </query>
 <query>
@@ -629,15 +693,19 @@ Please translate each line literally into Japanese.
 150 sì ch’ogne Bianco ne sarà feruto.
 </prompt>
 <result>
-143 ピストイアは最初にネリ党によって衰退する。
-144 それからフィレンツェは人々と習慣を一新する。
+143 ピストイアは最初にネリ党によって衰退する
 
-145 マルスは、暗い雲に包まれたヴァル・ディ・マグラから蒸気を引き出す。
-146 そして、激しく激しい嵐とともに、
+144 それからフィレンツェは人々と習慣を一新する
 
-147 カンポ・ピチェンの上で戦いが行われる。
-148 そこで彼は突然霧を晴らし、
-149 すべてのビアンキ党員が傷つくことになる。
+145 マルスは、暗雲に包まれたヴァル・ディ・マグラから蒸気を引き出す
+
+146 そして、激しく激しい嵐とともに
+
+147 カンポ・ピチェーノの上で戦いが行われるだろう
+
+148 そこで彼は突然霧を晴らし
+
+149 すべてのビアンキ党員が傷つくことになるだろう
 </result>
 </query>
 <query>
@@ -647,7 +715,33 @@ Please translate each line literally into Japanese.
 
 151 E detto l’ho perché doler ti debbia!».
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "151 そして、私はあなたに苦しんでほしいと思ってこれを言ったのです！」"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-151 そして、私はあなたが悲しむべきであるためにそれを言いました！」
+151 そして、私はあなたに苦しんでほしいと思ってこれを言ったのです！」
 </result>
 </query>
