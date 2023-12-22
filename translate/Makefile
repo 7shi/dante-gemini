@@ -1,7 +1,6 @@
 SCRIPT = python ../scripts/translate.py ../it
 
 translate:
-	$(SCRIPT) sw Swahili
 	$(SCRIPT) da Danish
 	$(SCRIPT) sv Swedish
 	$(SCRIPT) ar Arabic
@@ -15,6 +14,7 @@ translate:
 	$(SCRIPT) gv Manx # unstable
 
 _done:
+	$(SCRIPT) sw Swahili
 	$(SCRIPT) th Thai
 	$(SCRIPT) tr Turkish
 	$(SCRIPT) hu Hungarian
