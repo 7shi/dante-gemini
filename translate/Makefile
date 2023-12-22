@@ -1,7 +1,6 @@
 SCRIPT = python ../scripts/translate.py ../it
 
 translate:
-	$(SCRIPT) vi Vietnamese
 	$(SCRIPT) id Indonesian
 	$(SCRIPT) sl Slovene
 	$(SCRIPT) fi Finnish
@@ -22,6 +21,7 @@ translate:
 	$(SCRIPT) gv Manx # unstable
 
 _done:
+	$(SCRIPT) vi Vietnamese
 	$(SCRIPT) bn Bengali
 	$(SCRIPT) lv Latvian
 	$(SCRIPT) lt Lithuanian
