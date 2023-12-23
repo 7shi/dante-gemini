@@ -1,7 +1,7 @@
 SCRIPT = python ../scripts/translate.py ../it
 
 pickup:
-	for d in ??; do python ../scripts/$@.py $$d/*/*.xml > $$d/error.txt; done
+	for d in ??; do python ../scripts/$@.py $$d/*/*.xml > $$d/error.xml; done
 
 translate:
 
