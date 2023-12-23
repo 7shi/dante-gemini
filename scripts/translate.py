@@ -1,4 +1,4 @@
-import sys, os, re, xml7shi, common
+import sys, os, re, common
 
 args = sys.argv[1:]
 
@@ -76,9 +76,6 @@ def send_lines(line_count, *plines):
         return None
     q = gemini.query(prompt, info, show, retry, check)
     return q
-
-def write(f, text):
-    f.write(text.encode("utf_8"))
 
 for directory in directories.split():
     path = os.path.join(outdir, directory.lower())
