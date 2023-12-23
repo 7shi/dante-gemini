@@ -67,5 +67,5 @@ def unzip(qs):
     ret = []
     for q in qs:
         ret.append(q.prompt)
-        ret.apoend(q.result)
+        ret.append(q.result)
     return ret
