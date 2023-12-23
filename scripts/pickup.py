@@ -1,26 +1,20 @@
-import sys, common, xml7shi
+import sys, common
 
 args = sys.argv[1:]
-if not args:
-    print(f"Usage: python {sys.argv[0]} file1 [file2 ...]", file=sys.stderr)
+if len(args) < 2:
+    print(f"Usage: python {sys.argv[0]} output file1 [file2 ...]", file=sys.stderr)
     sys.exit(1)
 
-all = 0
-errors = []
+output = args.pop(0)
+
+whole = 0
+queries = []
 for f in args:
-    with open(f, "r", encoding="utf-8") as f:
-        xml = f.read()
-    xr = xml7shi.reader(xml)
-    while (q := common.parse(xr)).prompt:
-        all += 1
+    for q in common.read_queries(f):
+        whole += 1
         if q.error and not q.result:
-            errors.append(q)
+            queries.append(q)
 
 d = args[0].split("/")[0]
-print(f"{d}: error {len(errors)}/{all}", file=sys.stderr)
-
-print(xml7shi.declaration)
-print(f'<errors count="{len(errors)}" all="{all}">')
-for q in errors:
-    print(q, end="")
-print("</errors>")
+print(f"{d}: error {len(queries)}/{whole}", file=sys.stderr)
+common.write_queries(output, queries, count=len(queries), whole=whole)

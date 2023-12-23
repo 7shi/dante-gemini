@@ -52,16 +52,7 @@ history = []
 for i in range(1, 5):
     fxml = os.path.join(outdir, "inferno", f"{i:02}.xml")
     if os.path.exists(fxml):
-        with open(fxml, "r", encoding="utf-8") as f:
-            xml = f.read()
-        xr = xml7shi.reader(xml)
-        qs = [common.parse(xr) for _ in range(2)]
-        history = [
-            qs[0].prompt,
-            qs[0].result,
-            qs[1].prompt,
-            qs[1].result
-        ]
+        history = common.unzip(common.read_queries(fxml))
         break
 
 def send_lines(line_count, *plines):
@@ -116,9 +107,6 @@ for directory in directories.split():
             q = send_lines(length, f"Please translate each line literally into {language}.")
             queries.append(q)
             current += length
-        with open(xml, "wb") as f:
-            write(f, xml7shi.declaration + "\n")
-            for q in queries:
-                write(f, str(q))
+        common.write_queries(xml, queries, count=len(queries))
         if once:
             sys.exit(0)

@@ -40,3 +40,32 @@ def parse(xr: xml7shi.reader):
         elif xr.tag == "/query":
             break
     return q
+
+def read_queries(file):
+    with open(file, "r", encoding="utf-8") as f:
+        xml = f.read()
+    xr = xml7shi.reader(xml)
+    qs = []
+    while xr.read():
+        if xr.tag == "query":
+            qs.append(parse(xr))
+    return qs
+
+def write(f, text="", end="\n"):
+    f.write((str(text) + end).encode("utf_8"))
+
+def write_queries(file, qs, **root_attrs):
+    with open(file, "wb") as f:
+        write(f, xml7shi.declaration)
+        attrs = "".join(f' {k}="{v}"' for k, v in root_attrs.items())
+        write(f, f"<queries{attrs}>")
+        for q in qs:
+            write(f, q, end="")
+        write(f, "</queries>")
+
+def unzip(qs):
+    ret = []
+    for q in qs:
+        ret.append(q.prompt)
+        ret.apoend(q.result)
+    return ret
