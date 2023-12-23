@@ -74,8 +74,7 @@ def send_lines(line_count, *plines):
                     if not text.startswith(" ") or " " not in text[1:]:
                         return f"Too few spaces: {repr(r)}"
         return None
-    q = gemini.query(prompt, info, show, retry, check)
-    return q
+    return gemini.query(prompt, info, show, retry, check)
 
 for directory in directories.split():
     path = os.path.join(outdir, directory.lower())
