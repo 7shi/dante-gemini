@@ -1,48 +1,48 @@
 SCRIPT = python ../scripts/translate.py ../it
 
 translate:
-	$(SCRIPT) gv Manx # unstable
 
 _done:
-	$(SCRIPT) ru Russian
-	$(SCRIPT) uk Ukrainian
-	$(SCRIPT) cs Czech
-	$(SCRIPT) sk Slovak
-	$(SCRIPT) hr Croatian
-	$(SCRIPT) pl Polish
-	$(SCRIPT) he Hebrew
 	$(SCRIPT) ar Arabic
-	$(SCRIPT) sv Swedish
-	$(SCRIPT) da Danish
-	$(SCRIPT) sw Swahili
-	$(SCRIPT) th Thai
-	$(SCRIPT) tr Turkish
-	$(SCRIPT) hu Hungarian
-	$(SCRIPT) fi Finnish
-	$(SCRIPT) sl Slovene
-	$(SCRIPT) id Indonesian
-	$(SCRIPT) vi Vietnamese
-	$(SCRIPT) bn Bengali
-	$(SCRIPT) lv Latvian
-	$(SCRIPT) lt Lithuanian
-	$(SCRIPT) ia Interlingua --need-space # unstable
-	$(SCRIPT) ro Romanian
-	$(SCRIPT) nl Dutch
-	$(SCRIPT) de German
-	$(SCRIPT) no Norwegian
-	$(SCRIPT) sr "Serbian (Latin)"
 	$(SCRIPT) bg Bulgarian
-	$(SCRIPT) pt Portuguese
-	$(SCRIPT) es Spanish
-	$(SCRIPT) fr French
-	$(SCRIPT) et Estonian
-	$(SCRIPT) ko Korean
-	$(SCRIPT) zh Chinese
-	$(SCRIPT) ja Japanese
-	$(SCRIPT) hi Hindi
+	$(SCRIPT) bn Bengali
+	$(SCRIPT) cs Czech
+	$(SCRIPT) da Danish
+	$(SCRIPT) de German
 	$(SCRIPT) el "Modern Greek"
 	$(SCRIPT) en English
 	$(SCRIPT) eo "English and Esperanto" --no-retry # unstable
+	$(SCRIPT) es Spanish
+	$(SCRIPT) et Estonian
+	$(SCRIPT) fi Finnish
+	$(SCRIPT) fr French
+	$(SCRIPT) gv Manx # unstable
+	$(SCRIPT) he Hebrew
+	$(SCRIPT) hi Hindi
+	$(SCRIPT) hr Croatian
+	$(SCRIPT) hu Hungarian
+	$(SCRIPT) ia Interlingua --need-space # unstable
+	$(SCRIPT) id Indonesian
+	$(SCRIPT) ja Japanese
+	$(SCRIPT) ko Korean
+	$(SCRIPT) lt Lithuanian
+	$(SCRIPT) lv Latvian
+	$(SCRIPT) nl Dutch
+	$(SCRIPT) no Norwegian
+	$(SCRIPT) pl Polish
+	$(SCRIPT) pt Portuguese
+	$(SCRIPT) ro Romanian
+	$(SCRIPT) ru Russian
+	$(SCRIPT) sk Slovak
+	$(SCRIPT) sl Slovene
+	$(SCRIPT) sr "Serbian (Latin)"
+	$(SCRIPT) sv Swedish
+	$(SCRIPT) sw Swahili
+	$(SCRIPT) th Thai
+	$(SCRIPT) tr Turkish
+	$(SCRIPT) uk Ukrainian
+	$(SCRIPT) vi Vietnamese
+	$(SCRIPT) zh Chinese
 
 _error:
 	$(SCRIPT) af Afrikaans
