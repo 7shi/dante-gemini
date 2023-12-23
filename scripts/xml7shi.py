@@ -1,6 +1,8 @@
 # public domain
 import io
 
+declaration = '<?xml version="1.0" encoding="UTF-8"?>'
+
 def replaces(s, args):
     for key, value in args.items():
         s = s.replace(key, value)

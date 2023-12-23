@@ -117,7 +117,7 @@ for directory in directories.split():
             queries.append(q)
             current += length
         with open(xml, "wb") as f:
-            write(f, '<?xml version="1.0" encoding="utf-8"?>\n')
+            write(f, xml7shi.declaration + "\n")
             for q in queries:
                 write(f, str(q))
         if once:
