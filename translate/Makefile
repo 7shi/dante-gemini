@@ -1,12 +1,12 @@
 SCRIPT = python ../scripts/translate.py ../it
 
 translate:
-	$(SCRIPT) cs Czech
 	$(SCRIPT) uk Ukrainian
 	$(SCRIPT) ru Russian
 	$(SCRIPT) gv Manx # unstable
 
 _done:
+	$(SCRIPT) cs Czech
 	$(SCRIPT) sk Slovak
 	$(SCRIPT) hr Croatian
 	$(SCRIPT) pl Polish
