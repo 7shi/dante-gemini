@@ -1,5 +1,8 @@
 SCRIPT = python ../scripts/translate.py ../it
 
+pickup:
+	for d in ??; do python ../scripts/$@.py $$d/*/*.xml > $$d/error.txt; done
+
 translate:
 
 _done:
