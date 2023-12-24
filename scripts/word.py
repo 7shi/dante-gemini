@@ -3,7 +3,9 @@ import sys, os, re, common
 args = sys.argv[1:]
 
 directories = "Inferno Purgatorio Paradiso"
-once = False
+once  = False
+show  = True
+retry = True
 i = 0
 while i < len(args):
     if args[i] == "-d" and len(args) > i + 1:
@@ -11,6 +13,12 @@ while i < len(args):
         args.pop(i)
     elif args[i] == "-1":
         once = True
+        args.pop(i)
+    elif args[i] == "--no-show":
+        show = False
+        args.pop(i)
+    elif args[i] == "--no-retry":
+        retry = False
         args.pop(i)
     else:
         i += 1
@@ -43,7 +51,11 @@ def send_lines(line_count, *plines):
     info = f"[{directory} Canto {canto}] {current + 1}/{len(it)}"
     ls = it[current:current+line_count]
     prompt = " ".join(plines) + "\n" + "\n".join(ls)
-    return gemini.query(prompt, info, show=True)
+    def check(r):
+        if "|---||" in r:
+            return f"Table broken: {repr(r)}"
+        return None
+    return gemini.query(prompt, info, show, retry, check)
 
 for directory in directories.split():
     path = os.path.join(outdir, directory.lower())
