@@ -75,18 +75,26 @@ class Watcher:
                 time.sleep(diff)
         self.history.append(time.time())
 
+def make_history(history):
+    if history is None:
+        return None
+    ret = []
+    role = ["user", "model"]
+    for i, h in enumerate(history):
+        ret.append({ "role": role[i % 2], "parts": h.strip() })
+    return ret
+
 watcher = Watcher()
-history = None
+init_history = None
+init_prompts = None
 model = None
 convo = None
 chat_count = 0
 
-def init(*hist):
-    global history
-    history = []
-    role = ["user", "model"]
-    for i, h in enumerate(hist):
-        history.append({ "role": role[i % 2], "parts": h.strip() })
+def init(history=None, prompts=None):
+    global init_history, init_prompts
+    init_history = make_history(history)
+    init_prompts = prompts
     start()
 
 def start():
@@ -95,10 +103,14 @@ def start():
     model = genai.GenerativeModel(model_name="gemini-pro",
                                   generation_config=generation_config,
                                   safety_settings=safety_settings)
-    if history:
-        convo = model.start_chat(history=history)
+    if init_history:
+        convo = model.start_chat(history=init_history)
     else:
         convo = model.start_chat()
+    if init_prompts:
+        for p in init_prompts:
+            convo.send_message(p)
+            print(convo.last.text.rstrip())
     chat_count = 0
     watcher.countup()
 

@@ -33,14 +33,10 @@ itdir, initxml, outdir = args
 if not os.path.exists(outdir):
     os.mkdir(outdir)
 
-history = common.unzip(common.read_queries(initxml))
-init_prompt = "Create a word table.\n" + "\n".join(history[2].split("\n")[-4:])
+init_qs = common.read_queries(initxml)
+history = common.unzip(init_qs)
 
 import gemini
-
-def init():
-    gemini.init(*history)
-    gemini.query(init_prompt)
 
 it = []
 current = 0
@@ -78,10 +74,9 @@ for directory in directories.split():
         queries = []
         while current < len(it):
             if current % 30 == 0:
-                init()
+                gemini.init(history, [init_qs[2].prompt])
             queries.append(send_lines(3, "Create a word table."))
             current += 3
-        gemini.init(*history)
         common.write_queries(xml, queries, count=len(queries))
         if once:
             sys.exit(0)

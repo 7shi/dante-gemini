@@ -95,7 +95,7 @@ for directory in directories.split():
             it = [l for line in f if (l := line.strip())]
         current = 0
         queries = []
-        gemini.init(*history)
+        gemini.init(history)
         while current < len(it):
             length = min(3, len(it) - current)
             while current + length < len(it) and not it[current + length - 1].endswith("."):
