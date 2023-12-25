@@ -110,7 +110,6 @@ def start():
     if init_prompts:
         for p in init_prompts:
             convo.send_message(p)
-            print(convo.last.text.rstrip())
     chat_count = 0
     watcher.countup()
 
