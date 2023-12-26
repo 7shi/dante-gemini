@@ -1,7 +1,7 @@
 all:
 
 pickup:
-	python ../scripts/$@.py error.xml */*.xml
+	python ../scripts/$@.py 1-error.xml */*.xml
 
 word:
 	python ../scripts/word.py --no-retry ../it init.xml .
