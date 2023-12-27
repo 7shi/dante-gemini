@@ -1,5 +1,6 @@
-# public domain
-import io
+# CC0 http://creativecommons.org/publicdomain/zero/1.0/
+
+import io, html
 
 declaration = '<?xml version="1.0" encoding="UTF-8"?>'
 
@@ -7,14 +8,6 @@ def replaces(s, args):
     for key, value in args.items():
         s = s.replace(key, value)
     return s
-
-def from_entity(s):
-    return replaces(s, {
-        "&lt;"  : '<',
-        "&gt;"  : '>',
-        "&quot;": '"',
-        "&nbsp;": ' ',
-        "&amp;" : '&'})
 
 class reader:
 
@@ -69,10 +62,10 @@ class reader:
     def read_text(self):
         p = self.src.find("<", self.pos)
         if p < 0:
-            self.text = from_entity(self.src[self.pos:])
+            self.text = html.unescape(self.src[self.pos:])
             self.pos = len(self.src)
         else:
-            self.text = from_entity(self.src[self.pos:p])
+            self.text = html.unescape(self.src[self.pos:p])
             self.pos = p + 1
             self.read_tag()
 
