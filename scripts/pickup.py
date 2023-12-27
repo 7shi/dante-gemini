@@ -12,7 +12,7 @@ queries = []
 for f in args:
     for q in common.read_queries(f):
         whole += 1
-        if q.error and not q.result:
+        if not q.result:
             queries.append(q)
 
 d = args[0].split("/")[0]
