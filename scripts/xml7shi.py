@@ -4,11 +4,6 @@ import io, html
 
 declaration = '<?xml version="1.0" encoding="UTF-8"?>'
 
-def replaces(s, args):
-    for key, value in args.items():
-        s = s.replace(key, value)
-    return s
-
 class reader:
 
     def __init__(self, src):
