@@ -22,24 +22,25 @@ class reader:
     def get(self, key, default=None):
         return self.values.get(key, default)
 
-    def check(self, tag, **values):
+    def check(self, tag, **kwargs):
         if tag != self.tag: return False
-        for key, value in values.items():
+        for key, value in kwargs.items():
+            key = key.removesuffix("_")
             if key not in self or self[key] != value:
                 return False
         return True
 
-    def find(self, tag, **values):
+    def find(self, tag, **kwargs):
         while self.read():
-            if self.check(tag, **values):
+            if self.check(tag, **kwargs):
                 return True
         return False
 
-    def each(self, tag = "", **values):
+    def each(self, tag = "", **kwargs):
         end = "/" + self.tag
         i = 0
         while self.tag != end and self.read():
-            if tag == "" or self.check(tag, **values):
+            if tag == "" or self.check(tag, **kwargs):
                 yield i
                 i += 1
 
