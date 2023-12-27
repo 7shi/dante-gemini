@@ -125,7 +125,7 @@ def query(prompt, info=None, show=False, retry=True, check=None):
             print(info)
         for line in prompt.split("\n"):
             print(">", line)
-    for _ in range(2):
+    for _ in range(5):
         try:
             chat_count += 1
             watcher.countup()
@@ -145,7 +145,7 @@ def query(prompt, info=None, show=False, retry=True, check=None):
                 print(err)
             if "developers.generativeai.google" in err:
                 print("Retrying...", file=sys.stderr)
-                time.sleep(5)
+                time.sleep(10)
                 start()
                 continue
             q.error = err
