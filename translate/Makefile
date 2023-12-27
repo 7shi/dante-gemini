@@ -2,10 +2,10 @@ SCRIPT = python ../scripts/translate.py ../it
 
 all:
 
-pickup:
+check:
 	for d in ??; do python ../scripts/$@.py $$d/error.xml $$d/*/*.xml; done
 
-translate:
+run:
 
 _done:
 	$(SCRIPT) ar Arabic
@@ -79,6 +79,3 @@ _error:
 	$(SCRIPT) tl Tagalog
 	$(SCRIPT) ur Urdu
 	$(SCRIPT) yi Yiddish
-
-check:
-	grep developers.generativeai.google */*/*.xml || true
