@@ -76,19 +76,18 @@ class reader:
         return self.cur
 
     def read_tag(self):
-        t = io.StringIO()
-        while self.read_char() != "":
-            ch = self.cur
-            if ch == ">" or (ch == "/" and t.tell() > 0):
-                break
-            elif ch > " ":
-                t.write(ch)
-                if t.tell() == 3 and t.getvalue() == "!--":
+        with io.StringIO() as t:
+            while self.read_char() != "":
+                ch = self.cur
+                if ch == ">" or (ch == "/" and t.tell() > 0):
                     break
-            elif t.tell() > 0:
-                break
-        self.tag = t.getvalue().lower()
-        t.close()
+                elif ch > " ":
+                    t.write(ch)
+                    if t.tell() == 3 and t.getvalue() == "!--":
+                        break
+                elif t.tell() > 0:
+                    break
+            self.tag = t.getvalue().lower()
         if ch == "/":
             self.reserved = "/" + self.tag
             ch = self.read_char()
@@ -119,20 +118,18 @@ class reader:
         return self.cur != ">"
 
     def read_value(self, isleft):
-        v = io.StringIO()
-        while self.read_char() != "":
-            ch = self.cur
-            if ch == ">" or (isleft and (ch == "=" or ch == "/")):
-                break
-            elif ch == '"':
-                while self.read_char() != "":
-                    if self.cur == '"': break
-                    v.write(self.cur)
-                break
-            elif ch > " ":
-                v.write(ch)
-            elif v.tell() > 0:
-                break
-        ret = v.getvalue()
-        v.close()
-        return ret
+        with io.StringIO() as v:
+            while self.read_char() != "":
+                ch = self.cur
+                if ch == ">" or (isleft and (ch == "=" or ch == "/")):
+                    break
+                elif ch == '"':
+                    while self.read_char() != "":
+                        if self.cur == '"': break
+                        v.write(self.cur)
+                    break
+                elif ch > " ":
+                    v.write(ch)
+                elif v.tell() > 0:
+                    break
+            return v.getvalue()
