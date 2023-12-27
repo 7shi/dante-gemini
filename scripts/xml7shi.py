@@ -5,7 +5,6 @@ import io, html
 declaration = '<?xml version="1.0" encoding="UTF-8"?>'
 
 class reader:
-
     def __init__(self, src):
         self.pos = 0
         self.reserved = ""
