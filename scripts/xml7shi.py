@@ -19,30 +19,33 @@ class reader:
         self.values = {}
         self.src = src
 
+    def __contains__(self, key):
+        return key in self.values
+
     def __getitem__(self, key):
         return self.values[key]
 
-    def has_key(self, key):
-        return key in self.values
+    def get(self, key, default=None):
+        return self.values.get(key, default)
 
-    def check(self, tag, values):
+    def check(self, tag, **values):
         if tag != self.tag: return False
         for key, value in values.items():
-            if not self.has_key(key) or self[key] != value:
+            if key not in self or self[key] != value:
                 return False
         return True
 
-    def find(self, tag, values = {}):
+    def find(self, tag, **values):
         while self.read():
-            if self.check(tag, values):
+            if self.check(tag, **values):
                 return True
         return False
 
-    def each(self, tag = "", values = {}):
+    def each(self, tag = "", **values):
         end = "/" + self.tag
         i = 0
         while self.tag != end and self.read():
-            if tag == "" or self.check(tag, values):
+            if tag == "" or self.check(tag, **values):
                 yield i
                 i += 1
 

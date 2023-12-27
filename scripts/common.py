@@ -28,7 +28,7 @@ def parse(xr: xml7shi.reader):
     q = query()
     while xr.read():
         if xr.tag == "prompt":
-            q.retry = xr.has_key("retry") and xr["retry"] == "true"
+            q.retry = xr.get("retry") == "true"
             if xr.read():
                 q.prompt = xr.text.strip()
         elif xr.tag == "info" and xr.read():
