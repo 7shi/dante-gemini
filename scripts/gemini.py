@@ -109,7 +109,7 @@ def start():
         convo = model.start_chat()
     if init_prompts:
         for p in init_prompts:
-            convo.send_message(p)
+            query(p)
     chat_count = 0
     watcher.countup()
 
