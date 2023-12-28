@@ -1,5 +1,7 @@
 import xml7shi
 
+directories = ["inferno", "purgatorio", "paradiso"]
+
 def escape(s):
     return s.replace("<", "&lt;").replace(">", "&gt;").replace("&", "&amp;")
 

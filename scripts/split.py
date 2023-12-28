@@ -26,7 +26,7 @@ while (line := sys.stdin.readline()):
         pass
     elif line in ["Inferno", "Purgatorio", "Paradiso"]:
         write()
-        dir = line
+        dir = line.lower()
         if not os.path.exists(dir):
             os.mkdir(dir)
         line = sys.stdin.readline().rstrip()

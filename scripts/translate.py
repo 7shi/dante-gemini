@@ -2,7 +2,7 @@ import sys, os, re, common
 
 args = sys.argv[1:]
 
-directories = "Inferno Purgatorio Paradiso"
+directories = common.directories
 once   = False
 retry  = True
 show   = True
