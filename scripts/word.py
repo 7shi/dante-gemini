@@ -27,6 +27,8 @@ if len(args) != 3:
     print(f"Usage: python {sys.argv[0]} italian-dir init-xml output-dir", file=sys.stderr)
     print("  -d: specify sub directory", file=sys.stderr)
     print("  -1: just do one canto", file=sys.stderr)
+    print("  --no-retry: don't retry queries", file=sys.stderr)
+    print("  --no-show: don't show queries and responses", file=sys.stderr)
     sys.exit(1)
 
 itdir, initxml, outdir = args
