@@ -1,4 +1,4 @@
-import xml7shi
+import sys, os, re, xml7shi
 
 directories = ["inferno", "purgatorio", "paradiso"]
 
@@ -71,3 +71,87 @@ def unzip(qs):
         ret.append(q.prompt)
         ret.append(q.result)
     return ret
+
+# table
+
+def read_table(src):
+    ret = []
+    for line in src.split("\n"):
+        if line.startswith("|"):
+            ret.append([t.strip() for t in line.split("|")[1:-1]])
+        elif ret:
+            break
+    if len(ret) > 1 and not re.match(r"-+$", ret[1][0]):
+        ret.insert(1, ["---"] * len(ret[0]))
+    return ret
+
+abbrevs = {
+    "singular": "sg.", "plural": "pl.",
+    "masculine": "m.", "feminine": "f.", "neuter": "n.",
+    "first": "1", "second": "2", "third": "3",
+    "1st": "1", "2nd": "2", "3rd": "3",
+}
+
+def fix_cell(cell):
+    cell = cell.strip()
+    if cell in ["-", "n/a", "N/A"]:
+        return ""
+    ab = abbrevs.get(cell.lower())
+    if ab:
+        return ab
+    return cell
+
+def fix_table(lines):
+    output = ""
+    for line in lines.split("\n"):
+        if line.endswith("\r"):
+            line = line[:-1]
+        if line.startswith("|"):
+            data = [fix_cell(cell) for cell in line.split("|")]
+            line = "|".join(data)
+        output += line + "\n"
+    return output.rstrip()
+
+# source
+
+def read_source(language, path):
+    srcs = []
+    src_lines = {}
+    if os.path.exists(file := f"{path}.txt"):
+        with open(file, "r", encoding="utf-8") as f:
+            ln = 1
+            lines = []
+            for line in f:
+                line = line.strip()
+                if line:
+                    line = f"{ln} {line}"
+                    src_lines[ln] = line
+                    ln += 1
+                    lines.append(line)
+                    if len(lines) == 3:
+                        srcs.append(lines)
+                        lines = []
+            if lines:
+                srcs.append(lines)
+    elif os.path.exists(file := f"{path}.xml"):
+        qs = read_queries(file)
+        if qs and (m := re.search(r"/(\d+)", qs[0].info)):
+            src_lines = {int(m.group(1)): None}
+        for q in qs:
+            if not q.result:
+                continue
+            r = q.result
+            if language in r:
+                r = r[r.find("\n", r.find(language)):]
+            lines = []
+            for line in (r.strip() + "\n").split("\n"):
+                if m := re.match(r"(\d+)", line):
+                    src_lines[int(m.group(1))] = line
+                if line:
+                    lines.append(line)
+                else:
+                    srcs.append(lines)
+                    lines = []
+    else:
+        print(f"no source files found in {path}", file=sys.stderr)
+    return srcs, src_lines

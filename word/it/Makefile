@@ -1,10 +1,19 @@
+LANG    = Italian
+TOPDIR  = ../..
+SCRIPTS = $(TOPDIR)/scripts
+SRCDIR  = $(TOPDIR)/it
+INIT    = $(TOPDIR)/init/it.xml
+
 all:
 
+init:
+	python $(SCRIPTS)/init.py -i $(INIT) $(LANG) $(SRCDIR)
+
 run:
-	python ../scripts/word.py --no-retry ../it init.xml .
+	python $(SCRIPTS)/word.py --no-retry $(SRCDIR) $(INIT)
 
 check:
-	python ../scripts/pickup.py 1-error.xml */*.xml
+	python $(SCRIPTS)/pickup.py 1-error.xml */*.xml
 
 fix:
-	python ../scripts/word-fix.py
+	python $(SCRIPTS)/word-fix.py

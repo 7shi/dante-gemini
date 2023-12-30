@@ -1,179 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="5">
+<queries count="2">
 <query>
 <prompt>
-The preposition Lemma fused with the article separates the article.
-Examples: nel = in + il, del = di + il
+Show contractions of preposition and article in Italian. No examples are needed.
 </prompt>
 <result>
-This phenomenon is called crasis.
-
-Here are some more examples of crasis in Old Italian:
-
+* del = di + il
+* dello = di + lo
+* della = di + la
+* dei = di + i
+* degli = di + gli
+* delle = di + le
 * al = a + il
-* col = con + il
+* allo = a + lo
+* alla = a + la
+* ai = a + i
+* agli = a + gli
+* alle = a + le
+* dal = da + il
+* dallo = da + lo
+* dalla = da + la
+* dai = da + i
+* dagli = da + gli
+* dalle = da + le
+* nel = in + il
+* nello = in + lo
+* nella = in + la
+* nei = in + i
+* negli = in + gli
+* nelle = in + le
+* sul = su + il
 * sullo = su + lo
-* pel = per + il
-* tra 'l = tra + il
+* sulla = su + la
+* sui = su + i
+* sugli = su + gli
+* sulle = su + le
+* col = con + il
+* collo = con + lo
+* colla = con + la
+* coi = con + i
+* cogli = con + gli
+* colle = con + le
 </result>
 </query>
 <query>
 <prompt>
-Create a word table showing the Lemma for each word. The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+This text is written in Italian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
 
+* Decompose the contraction in Lemma.
 * Leave blank if not applicable.
-* Part of speech, Gender, Number and Person should be indicated by abbreviation.
 * Words linked by an apostrophe should be separated.
 * The Note should be writtern in brief, e.g. archaic.
 * Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
-* If the verb and the other word are combined, they should be separated by Lemma. In such cases, only the verb information should be written in the other columns.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
 
-Nel mezzo del cammin di nostra vita
-dirò de l’altre cose ch’i’ v’ho scorte.
-Poi ch’èi posato un poco il corpo lasso,
-Rispuosemi: «Non omo, omo già fui,
+1 Nel mezzo del cammin di nostra vita
+9 dirò de l’altre cose ch’i’ v’ho scorte.
+28 Poi ch’èi posato un poco il corpo lasso,
+67 Rispuosemi: «Non omo, omo già fui,
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|Word|Lemma|Part of Speech|Gender|Number|Person|Tense|Mood|Note|
 |---|---|---|---|---|---|---|---|---|
-| Nel | in + il | prep. + art. | m. | sg. | | | | |
-| mezzo | mezzo | n. | m. | sg. | | | | |
-| del | di + il | prep. | m. | sg. | | | | |
-| cammin | cammino | n. | m. | sg. | | | | |
-| di | di | prep. | | | | | | |
-| nostra | nostro | adj. | f. | sg. | | | | |
-| vita | vita | n. | f. | sg. | | | | |
-| dirò | dire | v. | | sg. | 1st | future | indicative | |
-| de | di | prep. | | | | | | |
-| l’ | lo | art. | m. | pl. | | | | |
-| altre | altro | adj. | f. | pl. | | | | |
-| cose | cosa | n. | f. | pl. | | | | |
-| ch’ | che | rel. pron. | | pl. | | | | |
-| i’ | io | pron. | | sg. | 1st | | | |
-| v’ | vi | adv. | | | | | | |
-| ho | avere | v. | | sg. | 1st | present | indicative | |
-| scorte | scorgere | v. | | pl. | | past | participle | |
-| Poi | poi | adv. | | | | | | |
-| ch’ | che | conj. | | | | | | |
-| èi | essere | v. | | sg. | 3rd | past | indicative | archaic |
-| posato | posare | v. | | sg. | 3rd | past | participle | |
-| un | uno | art. | m. | sg. | | | | |
-| poco | poco | adv. | | | | | | |
-| il | il | art. | m. | sg. | | | | |
-| corpo | corpo | n. | m. | sg. | | | | |
-| lasso | lasso | adj. | m. | sg. | | | | |
-| Rispuosemi | rispondere + mi | v. | | sg. | 3rd | past | indicative | |
-| Non | non | adv. | | | | | | |
-| omo | uomo | n. | m. | sg. | | | | |
-| omo | uomo | n. | m. | sg. | | | | |
-| già | già | adv. | | | | | | |
-| fui | essere | v. | | sg. | 1st | past | indicative | |
-</result>
-</query>
-<query>
-<info>[Inferno Canto 1] 1/136</info>
-<prompt>
-Create a word table.
-Nel mezzo del cammin di nostra vita
-mi ritrovai per una selva oscura,
-ché la diritta via era smarrita.
-</prompt>
-<result>
-| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
-|---|---|---|---|---|---|---|---|---|
-| Nel | in + il | prep. + art. | m. | sg. | | | | |
-| mezzo | mezzo | n. | m. | sg. | | | | |
-| del | di + il | prep. | m. | sg. | | | | |
-| cammin | cammino | n. | m. | sg. | | | | |
-| di | di | prep. | | | | | | |
-| nostra | nostro | adj. | f. | sg. | | | | |
-| vita | vita | n. | f. | sg. | | | | || mi | io | pron. | | sg. | 1st | | | |
-| ritrovai | ritrovare | v. | | sg. | 1st | past | indicative | |
-| per | per | prep. | | | | | | |
-| una | uno | art. | f. | sg. | | | | |
-| selva | selva | n. | f. | sg. | | | | |
-| oscura | oscuro | adj. | f. | sg. | | | | |
-| ché | che | conj. | | | | | | |
-| la | il | art. | f. | sg. | | | | |
-| diritta | diritto | adj. | f. | sg. | | | | |
-| via | via | n. | f. | sg. | | | | |
-| era | essere | v. | | sg. | 3rd | past | indicative | |
-| smarrita | smarrire | v. | | sg. | 3rd | past | participle | |
-</result>
-</query>
-<query>
-<info>[Inferno Canto 1] 4/136</info>
-<prompt>
-Create a word table.
-Ahi quanto a dir qual era è cosa dura
-esta selva selvaggia e aspra e forte
-che nel pensier rinova la paura!
-</prompt>
-<result>
-| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
-|---|---|---|---|---|---|---|---|---|
-| Ahi | ahi | interj. | | | | | | |
-| quanto | quanto | adv. | | | | | | |
-| a | a | prep. | | | | | | |
-| dir | dire | v. | | inf. | | | | |
-| qual | quale | adj. | | sg. | | | | |
-| era | essere | v. | | sg. | 3rd | past | indicative | |
-| è | essere | v. | | sg. | 3rd | present | indicative | |
-| cosa | cosa | n. | f. | sg. | | | | |
-| dura | duro | adj. | f. | sg. | | | | |
-| esta | questo | adj. | f. | sg. | | | | |
-| selva | selva | n. | f. | sg. | | | | |
-| selvaggia | selvatico | adj. | f. | sg. | | | | |
-| e | e | conj. | | | | | | |
-| aspra | aspro | adj. | f. | sg. | | | | |
-| e | e | conj. | | | | | | |
-| forte | forte | adj. | f. | sg. | | | | |
-| che | che | conj. | | | | | | |
-| nel | in + il | prep. + art. | m. | sg. | | | | |
-| pensier | pensiero | n. | m. | sg. | | | | |
-| rinova | rinnovare | v. | | sg. | 3rd | present | indicative | |
-| la | il | art. | f. | sg. | | | | |
-| paura | paura | n. | f. | sg. | | | | |
-</result>
-</query>
-<query>
-<info>[Inferno Canto 1] 7/136</info>
-<prompt>
-Create a word table.
-Tant’ è amara che poco è più morte;
-ma per trattar del ben ch’i’ vi trovai,
-dirò de l’altre cose ch’i’ v’ho scorte.
-</prompt>
-<result>
-| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
-|---|---|---|---|---|---|---|---|---|
-| Tant’ | tanto | adv. | | sg. | | | | |
-| è | essere | v. | | sg. | 3rd | present | indicative | |
-| amara | amaro | adj. | f. | sg. | | | | |
-| che | che | conj. | | | | | | |
-| poco | poco | adv. | | | | | | |
-| è | essere | v. | | sg. | 3rd | present | indicative | |
-| più | più | adv. | | | | | | |
-| morte | morte | n. | f. | sg. | | | | |
-| ma | ma | conj. | | | | | | |
-| per | per | prep. | | | | | | |
-| trattar | trattare | v. | | inf. | | | | |
-| del | di + il | prep. | m. | sg. | | | | |
-| ben | bene | n. | m. | sg. | | | | |
-| ch’ | che | rel. pron. | | sg. | | | | |
-| i’ | io | pron. | | sg. | 1st | | | |
-| vi | vi | adv. | | | | | | |
-| trovai | trovare | v. | | sg. | 1st | past | indicative | |
-| dirò | dire | v. | | sg. | 1st | future | indicative | |
-| de | di | prep. | | | | | | |
-| l’ | lo | art. | m. | pl. | | | | |
-| altre | altro | adj. | f. | pl. | | | | |
-| cose | cosa | n. | f. | pl. | | | | |
-| ch’ | che | rel. pron. | | pl. | | | | |
-| i’ | io | pron. | | sg. | 1st | | | |
-| v’ | vi | adv. | | | | | | |
-| ho | avere | v. | | sg. | 1st | present | indicative | |
-| scorte | scorgere | v. | | pl. | | past | participle | |
+|Nel|in + il|preposition|m.|sg.|||||
+|mezzo|mezzo|noun|m.|sg.|||||
+|del|di + il|preposition|m.|sg.|||||
+|cammin|cammino|noun|m.|sg.|||||
+|di|di|preposition|||||||
+|nostra|nostro|adjective|f.|sg.|||||
+|vita|vita|noun|f.|sg.|||||
+|dirò|dire|verb||sg.|1|future|indicative||
+|de|di|preposition|||||||
+|l’|il|definite article|m.|sg.|||||
+|altre|altro|adjective|f.|pl.|||||
+|cose|cosa|noun|f.|pl.|||||
+|ch’|che|conjunction|||||||
+|i’|io|pronoun||sg.|1|||archaic|
+|v’|vi|pronoun||pl.|2|||archaic|
+|ho|avere|verb||sg.|1|present|indicative||
+|scorte|scorgere|verb||sg.|1|past participle|||
+|Poi|poi|adverb|||||||
+|ch’|che|conjunction|||||||
+|èi|essere|verb||sg.|1|past remote|indicative|archaic|
+|posato|posare|verb||sg.|1|past participle|||
+|un|uno|indefinite article|m.|sg.|||||
+|poco|poco|adjective|||||||
+|il|il|definite article|m.|sg.|||||
+|corpo|corpo|noun|m.|sg.|||||
+|lasso|lasso|adjective|m.|sg.|||||
+|Rispuosemi|rispondere|verb||sg.|3|past remote|indicative||
+|Non|non|adverb|||||||
+|omo|uomo|noun|m.|sg.|||||
+|omo|uomo|noun|m.|sg.|||||
+|già|già|adverb|||||||
+|fui|essere|verb||sg.|1|past remote|indicative||
 </result>
 </query>
 </queries>
