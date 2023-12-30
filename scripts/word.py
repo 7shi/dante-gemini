@@ -9,7 +9,7 @@ retry = True
 i = 0
 while i < len(args):
     if args[i] == "-d" and len(args) > i + 1:
-        directories = args.pop(i + 1)
+        directories = args.pop(i + 1).split()
         args.pop(i)
     elif args[i] == "-1":
         once = True
@@ -23,62 +23,55 @@ while i < len(args):
     else:
         i += 1
 
-if len(args) != 3:
-    print(f"Usage: python {sys.argv[0]} italian-dir init-xml output-dir", file=sys.stderr)
+if len(args) != 4:
+    print(f"Usage: python {sys.argv[0]} language source-dir init-xml output-dir", file=sys.stderr)
     print("  -d: specify sub directory", file=sys.stderr)
     print("  -1: just do one canto", file=sys.stderr)
-    print("  --no-retry: don't retry queries", file=sys.stderr)
-    print("  --no-show: don't show queries and responses", file=sys.stderr)
     sys.exit(1)
 
-itdir, initxml, outdir = args
+language, srcdir, initxml, outdir = args
 if not os.path.exists(outdir):
     os.mkdir(outdir)
 
 init_qs = common.read_queries(initxml)
 history = common.unzip(init_qs)
+if init_qs[0].prompt[:8] in ["This tex", "Create a"]:
+    init_ps = [init_qs[0].prompt]
+else:
+    init_ps = [init_qs[1].prompt]
 
 import gemini
 
-it = []
-current = 0
-directory = ""
-canto = 0
+def send(text, info):
+    prompt = "Create a word table.\n\n" + text
+    return gemini.query(prompt, info, show, retry)
 
-def send_lines(line_count, *plines):
-    info = f"[{directory} Canto {canto}] {current + 1}/{len(it)}"
-    ls = it[current:current+line_count]
-    prompt = " ".join(plines) + "\n" + "\n".join(ls)
-    def check(r):
-        if "|---||" in r:
-            return f"Table broken: {repr(r)}"
-        return None
-    return gemini.query(prompt, info, show, retry, check)
-
-for directory in directories.split():
-    path = os.path.join(outdir, directory.lower())
-    if not os.path.exists(path):
-        os.mkdir(path)
-    itfiles = [
-        (int(m.group(1)), os.path.join(itdir, directory, f))
-        for f in sorted(os.listdir(os.path.join(itdir, directory)))
-        if (m := re.match(r"(\d+)\.txt", f))
-    ]
-    for canto, itf in itfiles:
-        xml = os.path.join(path, f"{canto:02}.xml")
+for directory in directories:
+    diru = directory[0].upper() + directory[1:]
+    path_s = os.path.join(srcdir, directory)
+    path_o = os.path.join(outdir, directory)
+    if not os.path.exists(path_o):
+        os.mkdir(path_o)
+    nmax = max(int(m.group(1)) for f in os.listdir(path_s) if (m := re.match(r"(\d+)\.", f)))
+    for canto in range(1, nmax + 1):
+        xml = os.path.join(path_o, f"{canto:02}.xml")
         if os.path.exists(xml):
             continue
         print()
-        print(f"# {directory} Canto {canto}")
-        with open(itf, "r", encoding="utf-8") as f:
-            it = [l for line in f if (l := line.strip())]
-        current = 0
-        queries = []
-        while current < len(it):
-            if current % 30 == 0:
-                gemini.init(history, [init_qs[2].prompt])
-            queries.append(send_lines(3, "Create a word table."))
-            current += 3
-        common.write_queries(xml, queries, count=len(queries))
+        print(f"# {diru} Canto {canto}")
+        srcs, src_lines = common.read_source(language, os.path.join(path_s, f"{canto:02}"))
+        lmax = max(src_lines)
+        qs = []
+        for lines in srcs:
+            text = "\n".join(lines)
+            if not (m := re.match(r"(\d+) ", text)):
+                continue
+            if len(qs) % 10 == 0:
+                gemini.init(history, init_ps)
+            info = f"[{diru} Canto {canto}] {m.group(1)}/{lmax}"
+            q = send(text, info)
+            if q:
+                qs.append(q)
+        common.write_queries(xml, qs, count=len(qs))
         if once:
             sys.exit(0)

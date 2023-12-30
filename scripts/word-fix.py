@@ -1,4 +1,12 @@
-import common, os, re
+import sys, os, re, common
+
+args = sys.argv[1:]
+
+if len(args) != 1:
+    print(f"usage: python {sys.argv[0]} init", file=sys.stderr)
+    sys.exit(1)
+
+init_xml = args[0]
 
 error_qs = common.read_queries("1-error.xml")
 errors = {q.info: q for q in error_qs}
@@ -15,14 +23,18 @@ for f in os.listdir("."):
 
 # sys.exit(0)
 
-init_qs = common.read_queries("init.xml")
+init_qs = common.read_queries(init_xml)
 history = common.unzip(init_qs)
+if init_qs[0].prompt[:8] in ["This tex", "Create a"]:
+    init_ps = [init_qs[0].prompt]
+else:
+    init_ps = [init_qs[1].prompt]
 # init_prompt = "Create a word table.\n" + "\n".join(history[2].split("\n")[-4:])
 
 import gemini
 
 def init():
-    gemini.init(history, [init_qs[2].prompt])
+    gemini.init(history, init_ps)
 
 qs = []
 
@@ -42,7 +54,7 @@ for q in error_qs:
         continue
     if one_line:
         lines = q.prompt.split("\n")
-        for i, line in enumerate(lines[1:]):
+        for i, line in enumerate(lines[2:]):
             info = f"{q.info}+{i}"
             if info in fix:
                 continue

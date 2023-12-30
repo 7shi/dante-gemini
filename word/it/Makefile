@@ -9,11 +9,14 @@ all:
 init:
 	python $(SCRIPTS)/init.py -i $(INIT) $(LANG) $(SRCDIR)
 
+test:
+	python $(SCRIPTS)/init.py -t -i $(INIT) $(LANG) $(SRCDIR)
+
 run:
-	python $(SCRIPTS)/word.py --no-retry $(SRCDIR) $(INIT)
+	python $(SCRIPTS)/word.py $(LANG) $(SRCDIR) $(INIT) .
 
 check:
 	python $(SCRIPTS)/pickup.py 1-error.xml */*.xml
 
 fix:
-	python $(SCRIPTS)/word-fix.py
+	python $(SCRIPTS)/word-fix.py $(INIT)
