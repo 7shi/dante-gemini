@@ -6,4 +6,4 @@ TOPDIR  = ../..
 
 all:
 
-include ../word.mk
+include ../common.mk

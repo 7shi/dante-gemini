@@ -5,4 +5,4 @@ SRCDIR  = $(TOPDIR)/it
 
 all:
 
-include ../word.mk
+include ../common.mk
