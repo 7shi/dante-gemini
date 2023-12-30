@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Polish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 W połowie drogi naszego życia
+9 opowiem o innych rzeczach, które tam dostrzegłem.
+28 Kiedy nieco odpocząłem zmęczonym ciałem,
+67 Odpowiedział mi: „Nie człowiek, człowiekiem niegdyś byłem,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|W|w|preposition||||||||
+|połowie|połowa|noun|f.|locative|sg.|||||
+|drogi|droga|noun|f.|genitive|sg.|||||
+|naszego|nasz|adjective|m.|genitive|sg.||||possessive|
+|życia|życie|noun|n.|genitive|sg.|||||
+|opowiem|opowiadać|verb||||1|future|indicative||
+|o|o|preposition||||||||
+|innych|inny|adjective|m.|accusative|pl.|||||
+|rzeczach|rzecz|noun|f.|accusative|pl.|||||
+|które|który|pronoun||accusative|pl.||||relative|
+|tam|tam|adverb||||||||
+|dostrzegłem|dostrzegać|verb||||1|past|indicative||
+|Kiedy|kiedy|conjunction||||||||
+|nieco|nieco|adverb||||||||
+|odpocząłem|odpoczywać|verb||||1|past|indicative||
+|zmęczonym|zmęczony|adjective|m.|instrumental|sg.|||||
+|ciałem|ciało|noun|n.|instrumental|sg.|||||
+|Odpowiedział|odpowiadać|verb||||3|past|indicative||
+|mi|ja|pronoun||dative|sg.|||||
+|Nie|nie|adverb|||||||negation|
+|człowiek|człowiek|noun|m.|nominative|sg.|||||
+|człowiekiem|człowiek|noun|m.|instrumental|sg.|||||
+|niegdyś|niegdyś|adverb|||||||archaic|
+|byłem|być|verb||||1|past|indicative||
+</result>
+</query>
+</queries>

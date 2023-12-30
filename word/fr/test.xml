@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in French.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Au milieu du chemin de notre vie
+9 je dirai des autres choses que j’y ai vues.
+28 Puisque j’eus un peu reposé mon corps las,
+67 Il me répondit : « Pas un homme, un homme je fus jadis,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Au | à + le | preposition | m. | sg. |  |  |  | contraction |
+| milieu | milieu | noun | m. | sg. |  |  |  |  |
+| du | de + le | preposition | m. | sg. |  |  |  | contraction |
+| chemin | chemin | noun | m. | sg. |  |  |  |  |
+| de | de | preposition |  |  |  |  |  |  |
+| notre | notre | possessive adjective |  |  |  |  |  |  |
+| vie | vie | noun | f. | sg. |  |  |  |  |
+| je | je | pronoun |  |  | 1 |  |  |  |
+| dirai | dire | verb |  |  | 1 | future | indicative |  |
+| des | de + les | preposition |  | pl. |  |  |  | contraction |
+| autres | autre | adjective |  | pl. |  |  |  |  |
+| choses | chose | noun | f. | pl. |  |  |  |  |
+| que | que | conjunction |  |  |  |  |  |  |
+| j’ | je | pronoun |  |  | 1 |  |  |  |
+| y | y | adverb |  |  |  |  |  |  |
+| ai | avoir | verb |  |  | 1 | present | indicative |  |
+| vues | voir | verb |  | pl. |  | past | participle |  |
+| Puisque | puisque | conjunction |  |  |  |  |  |  |
+| j’ | je | pronoun |  |  | 1 |  |  |  |
+| eus | avoir | verb |  |  | 1 | past | subjunctive |  |
+| un | un | indefinite article | m. | sg. |  |  |  |  |
+| peu | peu | adverb |  |  |  |  |  |  |
+| reposé | reposer | verb |  |  |  | past | participle |  |
+| mon | mon | possessive adjective | m. | sg. |  |  |  |  |
+| corps | corps | noun | m. | sg. |  |  |  |  |
+| las | las | adjective | m. | sg. |  |  |  |  |
+| Il | il | pronoun | m. | sg. | 3 |  |  |  |
+| me | me | pronoun |  |  | 1 |  |  |  |
+| répondit | répondre | verb |  |  | 3 | past | indicative |  |
+| Pas | pas | adverb |  |  |  |  |  |  |
+| un | un | indefinite article | m. | sg. |  |  |  |  |
+| homme | homme | noun | m. | sg. |  |  |  |  |
+| un | un | indefinite article | m. | sg. |  |  |  |  |
+| homme | homme | noun | m. | sg. |  |  |  |  |
+| je | je | pronoun |  |  | 1 |  |  |  |
+| fus | être | verb |  |  | 1 | past | indicative |  |
+| jadis | jadis | adverb |  |  |  |  |  | archaic |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Au milieu du chemin de notre vie
+2 je me retrouvai dans une forêt obscure,
+3 car la voie droite était perdue.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Au | à + le | preposition | m. | sg. |  |  |  | contraction |
+| milieu | milieu | noun | m. | sg. |  |  |  |  |
+| du | de + le | preposition | m. | sg. |  |  |  | contraction |
+| chemin | chemin | noun | m. | sg. |  |  |  |  |
+| de | de | preposition |  |  |  |  |  |  |
+| notre | notre | possessive adjective |  |  |  |  |  |  |
+| vie | vie | noun | f. | sg. |  |  |  |  |
+| je | je | pronoun |  |  | 1 |  |  |  |
+| me | me | pronoun |  |  | 1 |  |  |  |
+| retrouvai | retrouver | verb |  |  | 1 | past | indicative |  |
+| dans | dans | preposition |  |  |  |  |  |  |
+| une | un | indefinite article | f. | sg. |  |  |  |  |
+| forêt | forêt | noun | f. | sg. |  |  |  |  |
+| obscure | obscure | adjective | f. | sg. |  |  |  |  |
+| car | car | conjunction |  |  |  |  |  |  |
+| la | le | definite article | f. | sg. |  |  |  |  |
+| voie | voie | noun | f. | sg. |  |  |  |  |
+| droite | droit | adjective | f. | sg. |  |  |  |  |
+| était | être | verb |  |  | 3 | past | indicative |  |
+| perdue | perdre | verb |  |  |  | past | participle |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ah ! que dire quelle était est chose dure
+5 cette forêt sauvage, âpre et forte
+6 qui dans la pensée renouvelle la peur !
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Ah | ah | interjection |  |  |  |  |  |  |
+| que | que | conjunction |  |  |  |  |  |  |
+| dire | dire | verb |  |  |  | infinitive |  |  |
+| quelle | quel | interrogative adjective | f. | sg. |  |  |  |  |
+| était | être | verb |  |  | 3 | past | indicative |  |
+| est | être | verb |  |  | 3 | present | indicative |  |
+| chose | chose | noun | f. | sg. |  |  |  |  |
+| dure | dur | adjective | f. | sg. |  |  |  |  |
+| cette | ce | demonstrative adjective | f. | sg. |  |  |  |  |
+| forêt | forêt | noun | f. | sg. |  |  |  |  |
+| sauvage | sauvage | adjective | f. | sg. |  |  |  |  |
+| âpre | âpre | adjective | f. | sg. |  |  |  |  |
+| et | et | conjunction |  |  |  |  |  |  |
+| forte | fort | adjective | f. | sg. |  |  |  |  |
+| qui | qui | relative pronoun |  |  |  |  |  |  |
+| dans | dans | preposition |  |  |  |  |  |  |
+| la | le | definite article | f. | sg. |  |  |  |  |
+| pensée | pensée | noun | f. | sg. |  |  |  |  |
+| renouvelle | renouveler | verb |  |  | 3 | present | indicative |  |
+| la | le | definite article | f. | sg. |  |  |  |  |
+| peur | peur | noun | f. | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Elle est si amère qu’un peu plus c’est la mort ;
+8 mais pour traiter du bien que j’y trouvai,
+9 je dirai des autres choses que j’y ai vues.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Elle | elle | pronoun | f. | sg. |  |  |  |  |
+| est | être | verb |  |  | 3 | present | indicative |  |
+| si | si | adverb |  |  |  |  |  |  |
+| amère | amer | adjective | f. | sg. |  |  |  |  |
+| que | que | conjunction |  |  |  |  |  |  |
+| un | un | indefinite article | m. | sg. |  |  |  |  |
+| peu | peu | adverb |  |  |  |  |  |  |
+| plus | plus | adverb |  |  |  |  |  |  |
+| c’est | ce | demonstrative pronoun |  |  | 3 | present | indicative |  |
+| la | le | definite article | f. | sg. |  |  |  |  |
+| mort | mort | noun | f. | sg. |  |  |  |  |
+| mais | mais | conjunction |  |  |  |  |  |  |
+| pour | pour | preposition |  |  |  |  |  |  |
+| traiter | traiter | verb |  |  |  | infinitive |  |  |
+| du | de + le | preposition | m. | sg. |  |  |  | contraction |
+| bien | bien | noun | m. | sg. |  |  |  |  |
+| que | que | conjunction |  |  |  |  |  |  |
+| j’y | je | pronoun |  |  | 1 |  |  |  |
+| trouvai | trouver | verb |  |  | 1 | past | indicative |  |
+| je | je | pronoun |  |  | 1 |  |  |  |
+| dirai | dire | verb |  |  | 1 | future | indicative |  |
+| des | de + les | preposition |  | pl. |  |  |  | contraction |
+| autres | autre | adjective |  | pl. |  |  |  |  |
+| choses | chose | noun | f. | pl. |  |  |  |  |
+| que | que | conjunction |  |  |  |  |  |  |
+| j’y | je | pronoun |  |  | 1 |  |  |  |
+| ai | avoir | verb |  |  | 1 | present | indicative |  |
+| vues | voir | verb |  | pl. |  | past | participle |  |
+</result>
+</query>
+</queries>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Interlingua.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 In le medio del cammino de nostre vita
+9 dicera del altere cosas que io ibi habeva vidite.
+28 Postea que io habeva pausate un poco le corpore lasse,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Tense|Mood|Note|
+|---|---|---|---|---|---|
+|In|in|preposition||||
+|le|le|definite article||||
+|medio|medio|noun||||
+|del|de|preposition||||
+|cammino|cammino|noun||||
+|de|de|preposition||||
+|nostre|nostro|adjective||||
+|vita|vita|noun||||
+|dicera|dicere|verb|imperfect|indicative||
+|del|de|preposition||||
+|altere|altere|adjective||||
+|cosas|cosa|noun||||
+|que|que|conjunction||||
+|io|io|pronoun||||
+|ibi|ibi|adverb||||
+|habeva|habere|verb|imperfect|indicative||
+|vidite|videre|verb|perfect|indicative||
+|Postea|postea|adverb||||
+|que|que|conjunction||||
+|io|io|pronoun||||
+|habeva|habere|verb|imperfect|indicative||
+|pausate|pausare|verb|perfect|participle||
+|un|un|indefinite article||||
+|poco|poco|adverb||||
+|le|le|definite article||||
+|corpore|corpore|noun||||
+|lasse|lasso|adjective||||
+</result>
+</query>
+</queries>

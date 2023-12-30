@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Portuguese.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 No meio do caminho da nossa vida
+9 direi das outras coisas que lá vi.
+28 Depois que descansei um pouco o corpo cansado,
+67 Respondeu-me: "Não sou homem, homem já fui,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| No | no | preposition |  |  |  |  |  |  |
+| meio | meio | noun | m. | sg. |  |  |  |  |
+| do | de + o | preposition | m. | sg. |  |  |  | contraction |
+| caminho | caminho | noun | m. | sg. |  |  |  |  |
+| da | de + a | preposition | f. | sg. |  |  |  | contraction |
+| nossa | nossa | possessive adjective | f. | sg. |  |  |  |  |
+| vida | vida | noun | f. | sg. |  |  |  |  |
+| direi | dizer | verb |  |  | 1 | future | indicative |  |
+| das | de + as | preposition | f. | pl. |  |  |  | contraction |
+| outras | outro | adjective | f. | pl. |  |  |  |  |
+| coisas | coisa | noun | f. | pl. |  |  |  |  |
+| que | que | relative pronoun |  |  | 3 |  |  |  |
+| lá | lá | adverb |  |  |  |  |  |  |
+| vi | ver | verb |  |  | 1 | past | indicative |  |
+| Depois | depois | adverb |  |  |  |  |  |  |
+| que | que | conjunction |  |  |  |  |  |  |
+| descansei | descansar | verb |  |  | 1 | past | indicative |  |
+| um | um | indefinite article | m. | sg. |  |  |  |  |
+| pouco | pouco | adverb |  |  |  |  |  |  |
+| o | o | definite article | m. | sg. |  |  |  |  |
+| corpo | corpo | noun | m. | sg. |  |  |  |  |
+| cansado | cansado | adjective | m. | sg. |  |  |  |  |
+| Respondeu | responder | verb |  |  | 3 | past | indicative |  |
+| -me | me | pronoun |  |  | 1 |  |  | clitic pronoun |
+| Não | não | negation |  |  |  |  |  |  |
+| sou | ser | verb |  |  | 1 | present | indicative |  |
+| homem | homem | noun | m. | sg. |  |  |  |  |
+| homem | homem | noun | m. | sg. |  |  |  |  |
+| já | já | adverb |  |  |  |  |  |  |
+| fui | ser | verb |  |  | 1 | past | indicative |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 No meio do caminho da nossa vida
+2 me encontrei em uma selva escura,
+3 porque o caminho reto estava perdido.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| No | no | preposition |  |  |  |  |  |  |
+| meio | meio | noun | m. | sg. |  |  |  |  |
+| do | de + o | preposition | m. | sg. |  |  |  | contraction |
+| caminho | caminho | noun | m. | sg. |  |  |  |  |
+| da | de + a | preposition | f. | sg. |  |  |  | contraction |
+| nossa | nossa | possessive adjective | f. | sg. |  |  |  |  |
+| vida | vida | noun | f. | sg. |  |  |  |  |
+| me | me | pronoun |  |  | 1 |  |  | clitic pronoun |
+| encontrei | encontrar | verb |  |  | 1 | past | indicative |  |
+| em | em | preposition |  |  |  |  |  |  |
+| uma | um | indefinite article | f. | sg. |  |  |  |  |
+| selva | selva | noun | f. | sg. |  |  |  |  |
+| escura | escuro | adjective | f. | sg. |  |  |  |  |
+| porque | porque | conjunction |  |  |  |  |  |  |
+| o | o | definite article | m. | sg. |  |  |  |  |
+| caminho | caminho | noun | m. | sg. |  |  |  |  |
+| reto | reto | adjective | m. | sg. |  |  |  |  |
+| estava | estar | verb |  |  | 3 | past | indicative |  |
+| perdido | perdido | adjective | m. | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ah, quão difícil é dizer o que era
+5 esta selva selvagem, áspera e forte
+6 que no pensamento renova o medo!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Ah | ah | interjection |  |  |  |  |  |  |
+| quão | quão | adverb |  |  |  |  |  |  |
+| difícil | difícil | adjective |  |  |  |  |  |  |
+| é | ser | verb |  |  | 3 | present | indicative |  |
+| dizer | dizer | verb |  |  |  |  |  | infinitive |
+| o | o | definite article | m. | sg. |  |  |  |  |
+| que | que | relative pronoun |  |  |  |  |  |  |
+| era | ser | verb |  |  | 3 | past | indicative |  |
+| esta | este | demonstrative adjective | f. | sg. |  |  |  |  |
+| selva | selva | noun | f. | sg. |  |  |  |  |
+| selvagem | selvagem | adjective |  |  |  |  |  |  |
+| áspera | áspero | adjective | f. | sg. |  |  |  |  |
+| e | e | conjunction |  |  |  |  |  |  |
+| forte | forte | adjective |  |  |  |  |  |  |
+| que | que | relative pronoun |  |  |  |  |  |  |
+| no | em + o | preposition | m. | sg. |  |  |  | contraction |
+| pensamento | pensamento | noun | m. | sg. |  |  |  |  |
+| renova | renovar | verb |  |  | 3 | present | indicative |  |
+| o | o | definite article | m. | sg. |  |  |  |  |
+| medo | medo | noun | m. | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 É tão amarga que pouco é mais que a morte;
+8 mas para tratar do bem que lá encontrei,
+9 direi das outras coisas que lá vi.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| É | ser | verb |  |  | 3 | present | indicative |  |
+| tão | tão | adverb |  |  |  |  |  |  |
+| amarga | amargo | adjective | f. | sg. |  |  |  |  |
+| que | que | conjunction |  |  |  |  |  |  |
+| pouco | pouco | adverb |  |  |  |  |  |  |
+| é | ser | verb |  |  | 3 | present | indicative |  |
+| mais | mais | adverb |  |  |  |  |  |  |
+| que | que | conjunction |  |  |  |  |  |  |
+| a | a | definite article | f. | sg. |  |  |  |  |
+| morte | morte | noun | f. | sg. |  |  |  |  |
+| mas | mas | conjunction |  |  |  |  |  |  |
+| para | para | preposition |  |  |  |  |  |  |
+| tratar | tratar | verb |  |  |  |  |  | infinitive |
+| do | de + o | preposition | m. | sg. |  |  |  | contraction |
+| bem | bem | noun | m. | sg. |  |  |  |  |
+| que | que | relative pronoun |  |  |  |  |  |  |
+| lá | lá | adverb |  |  |  |  |  |  |
+| encontrei | encontrar | verb |  |  | 1 | past | indicative |  |
+| direi | dizer | verb |  |  | 1 | future | indicative |  |
+| das | de + as | preposition | f. | pl. |  |  |  | contraction |
+| outras | outro | adjective | f. | pl. |  |  |  |  |
+| coisas | coisa | noun | f. | pl. |  |  |  |  |
+| que | que | relative pronoun |  |  |  |  |  |  |
+| lá | lá | adverb |  |  |  |  |  |  |
+| vi | ver | verb |  |  | 1 | past | indicative |  |
+</result>
+</query>
+</queries>

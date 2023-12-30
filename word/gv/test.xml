@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Manx.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Ayns meanyraad jeh'n veaynnydain
+9 Gheearey-ms dyre delley ta mee er vakin.
+28 Erreish my hassoo yn beag my chorp shass,
+67 Doort eh rhym: «Cha nel mee dooinney, va mee dooinney kied,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Ayns | ayns | preposition |  |  |  |  |  |  |  |
+| meanyraad | meanyraad | noun |  |  | sg |  |  |  |  |
+| jeh'n | jeh + yn | preposition + definite article |  |  |  |  |  |  |  |
+| veaynnydain | veaynnydain | noun |  |  | sg |  |  |  |  |
+| Gheearey-ms | gheearey + ms | verb + 1st person singular present tense marker |  |  |  | 1 | present | indicative |  |
+| dyre | dyre | adjective |  |  |  |  |  |  |  |
+| delley | delley | noun |  |  | sg |  |  |  |  |
+| ta | ta | verb |  |  |  | 3 | present | indicative |  |
+| mee | mee | pronoun |  |  | sg | 1 |  |  |  |
+| er | er | preposition |  |  |  |  |  |  |  |
+| vakin | vakin | verb |  |  |  | 1 | present | indicative |  |
+| Erreish | erreish | conjunction |  |  |  |  |  |  |  |
+| my | my | particle |  |  |  |  |  |  |  |
+| hassoo | hassoo | verb |  |  |  | 3 | present | indicative |  |
+| yn | yn | definite article |  |  |  |  |  |  |  |
+| beag | beag | adjective |  |  |  |  |  |  |  |
+| my | my | pronoun |  |  | sg | 1 |  |  |  |
+| chorp | chorp | noun |  |  | sg |  |  |  |  |
+| shass | shass | verb |  |  |  | 3 | past | indicative |  |
+| Doort | doort | verb |  |  |  | 3 | past | indicative |  |
+| eh | eh | pronoun |  |  | sg | 3 |  |  |  |
+| rhym | rhym | pronoun |  |  | sg | 2 |  |  |  |
+| Cha | cha | verb |  |  |  | 3 | present | indicative |  |
+| nel | nel | verb |  |  |  | 3 | present | indicative |  |
+| mee | mee | pronoun |  |  | sg | 1 |  |  |  |
+| dooinney | dooinney | noun |  |  | sg |  |  |  |  |
+| va | va | verb |  |  |  | 3 | past | indicative |  |
+| mee | mee | pronoun |  |  | sg | 1 |  |  |  |
+| dooinney | dooinney | noun |  |  | sg |  |  |  |  |
+| kied | kied | adverb |  |  |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Ayns meanyraad jeh'n veaynnydain
+2 haink mee hene er my honerynaasagh dorraghey,
+3 ersondyrowyraad jeeraghernycailleil.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Ayns | ayns | preposition |  |  |  |  |  |  |  |
+| meanyraad | meanyraad | noun |  |  | sg |  |  |  |  |
+| jeh'n | jeh + yn | preposition + definite article |  |  |  |  |  |  |  |
+| veaynnydain | veaynnydain | noun |  |  | sg |  |  |  |  |
+| haink | haink | verb |  |  |  | 3 | past | indicative |  |
+| mee | mee | pronoun |  |  | sg | 1 |  |  |  |
+| hene | hene | pronoun |  |  | sg | 3 |  |  | reflexive |
+| er | er | preposition |  |  |  |  |  |  |  |
+| my | my | pronoun |  |  | sg | 1 |  |  |  |
+| honerynaasagh | honerynaasagh | noun |  |  | sg |  |  |  |  |
+| dorraghey | dorraghey | noun |  |  | sg |  |  |  |  |
+| ersondyrowyraad | ersondyrowyraad | noun |  |  | sg |  |  |  |  |
+| jeeraghernycailleil | jeeraghernycailleil | noun |  |  | sg |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Aynsagh, cre'n erbee dy ghra myr shen!
+5 Ynasagh shen, feamagh as doillee as creoi,
+6 Tacur my chree er-ash dy row!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Aynsagh | aynsagh | interjection |  |  |  |  |  |  |  |
+| cre'n | cre + yn | interrogative pronoun + definite article |  |  |  |  |  |  |  |
+| erbee | erbee | pronoun |  |  |  |  |  |  |  |
+| dy | dy | conjunction |  |  |  |  |  |  |  |
+| ghra | ghra | noun |  |  | sg |  |  |  |  |
+| myr | myr | preposition |  |  |  |  |  |  |  |
+| shen | shen | pronoun |  |  | sg | 3 |  |  |  |
+| Ynasagh | yn + agh | definite article + noun |  |  | sg |  |  |  |  |
+| shen | shen | pronoun |  |  | sg | 3 |  |  |  |
+| feamagh | feamagh | adjective |  |  |  |  |  |  |  |
+| as | as | conjunction |  |  |  |  |  |  |  |
+| doillee | doillee | adjective |  |  |  |  |  |  |  |
+| as | as | conjunction |  |  |  |  |  |  |  |
+| creoi | creoi | noun |  |  | sg |  |  |  |  |
+| Tacur | tacur | verb |  |  |  | 3 | present | subjunctive |  |
+| my | my | pronoun |  |  | sg | 1 |  |  |  |
+| chree | chree | noun |  |  | sg |  |  |  |  |
+| er-ash | er + ash | preposition + pronoun |  |  |  |  |  |  |  |
+| dy | dy | conjunction |  |  |  |  |  |  |  |
+| row | row | verb |  |  |  | 3 | present | subjunctive |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Sheerbeesh en dy velnys 'trosheynabaase;
+8 Agh ersondy ghrajeh'n vieys ta mee erchosney,
+9 Gheearey-ms dyre delley ta mee er vakin.
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+</queries>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Latvian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Mūsu dzīves ceļā vidū
+9 es pastāstīšu par citām lietām, ko tur ieraudzīju.
+28 Kad biju nedaudz atpūtinājis savu nogurušo ķermeni,
+67 Viņš man atbildēja: «Nevis cilvēks, cilvēks es kādreiz biju,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Mūsu | mēs | pronoun | 1st person | genitive | pl. | | | | |
+| dzīves | dzīve | noun | f. | genitive | sg. | | | | |
+| ceļā | ceļš | noun | m. | locative | sg. | | | | |
+| vidū | vidus | noun | m. | locative | sg. | | | | |
+| es | es | pronoun | 1st person | nominative | sg. | | | | |
+| pastāstīšu | pastāstīt | verb | | | | 1st person | future | indicative | |
+| par | par | preposition | | | | | | | |
+| citām | cits | pronoun | f. | dative | pl. | | | | |
+| lietām | lieta | noun | f. | dative | pl. | | | | |
+| ko | kas | pronoun | | accusative | sg. | | | | |
+| tur | tur | adverb | | | | | | | |
+| ieraudzīju | ieraudzīt | verb | | | | 1st person | past | indicative | |
+| Kad | kad | conjunction | | | | | | | |
+| biju | būt | verb | | | | 1st person | past | indicative | |
+| nedaudz | nedaudz | adverb | | | | | | | |
+| atpūtinājis | atpūtināt | verb | | | | 1st person | past | indicative | |
+| savu | savs | pronoun | | accusative | sg. | | | | |
+| nogurušo | noguris | adjective | m. | accusative | sg. | | | | |
+| ķermeni | ķermenis | noun | m. | accusative | sg. | | | | |
+| Viņš | viņš | pronoun | 3rd person | nominative | sg. | | | | |
+| man | es | pronoun | 1st person | dative | sg. | | | | |
+| atbildēja | atbildēt | verb | | | | 3rd person | past | indicative | |
+| Nevis | nevis | conjunction | | | | | | | |
+| cilvēks | cilvēks | noun | m. | nominative | sg. | | | | |
+| cilvēks | cilvēks | noun | m. | nominative | sg. | | | | |
+| es | es | pronoun | 1st person | nominative | sg. | | | | |
+| kādreiz | kādreiz | adverb | | | | | | | |
+| biju | būt | verb | | | | 1st person | past | indicative | |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Mūsu dzīves ceļā vidū
+2 es atrados tumšā mežā,
+3 jo taisnais ceļš bija pazudis.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Mūsu | mēs | pronoun | 1st person | genitive | pl. | | | | |
+| dzīves | dzīve | noun | f. | genitive | sg. | | | | |
+| ceļā | ceļš | noun | m. | locative | sg. | | | | |
+| vidū | vidus | noun | m. | locative | sg. | | | | |
+| es | es | pronoun | 1st person | nominative | sg. | | | | |
+| atrados | atrasties | verb | | | | 1st person | past | indicative | |
+| tumšā | tumšs | adjective | m. | locative | sg. | | | | |
+| mežā | mežs | noun | m. | locative | sg. | | | | |
+| jo | jo | conjunction | | | | | | | |
+| taisnais | taisns | adjective | m. | nominative | sg. | | | | |
+| ceļš | ceļš | noun | m. | nominative | sg. | | | | |
+| bija | būt | verb | | | | 3rd person | past | indicative | |
+| pazudis | pazust | verb | | | | | | | past participle |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ak, cik grūti tev pateikt, kāds tas bija
+5 šis mežonīgais, skarbais un spēcīgais mežs,
+6 kas atmiņā atjauno bailes!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Ak | ak | interjection | | | | | | | |
+| cik | cik | pronoun | | | | | | | |
+| grūti | grūts | adjective | | | | | | | |
+| tev | tu | pronoun | 2nd person | dative | sg. | | | | |
+| pateikt | pateikt | verb | | | | 1st person | infinitive | | |
+| kāds | kāds | pronoun | | | | | | | |
+| tas | tas | pronoun | | | | | | | |
+| bija | būt | verb | | | | 3rd person | past | indicative | |
+| šis | šis | pronoun | m. | nominative | sg. | | | | |
+| mežonīgais | mežonīgs | adjective | m. | nominative | sg. | | | | |
+| skarbais | skarbš | adjective | m. | nominative | sg. | | | | |
+| un | un | conjunction | | | | | | | |
+| spēcīgais | spēcīgs | adjective | m. | nominative | sg. | | | | |
+| mežs | mežs | noun | m. | nominative | sg. | | | | |
+| kas | kas | pronoun | | | | | | | |
+| atmiņā | atmiņa | noun | f. | locative | sg. | | | | |
+| atjauno | atjaunot | verb | | | | 3rd person | present | indicative | |
+| bailes | bailes | noun | f. | accusative | pl. | | | | |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Tas ir tik rūgts, ka mazliet vairāk ir nāve;
+8 bet, lai runātu par labo, ko tur atradu,
+9 es pastāstīšu par citām lietām, ko tur ieraudzīju.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Tas | tas | pronoun | | | | | | | |
+| ir | būt | verb | | | | 3rd person | present | indicative | |
+| tik | tik | adverb | | | | | | | |
+| rūgts | rūgts | adjective | | | | | | | |
+| ka | ka | conjunction | | | | | | | |
+| mazliet | mazliet | adverb | | | | | | | |
+| vairāk | vairāk | adverb | | | | | | | |
+| ir | būt | verb | | | | 3rd person | present | indicative | |
+| nāve | nāve | noun | f. | nominative | sg. | | | | |
+| bet | bet | conjunction | | | | | | | |
+| lai | lai | conjunction | | | | | | | |
+| runātu | runāt | verb | | | | 1st person | past | subjunctive | |
+| par | par | preposition | | | | | | | |
+| labo | labs | adjective | m. | accusative | sg. | | | | |
+| ko | kas | pronoun | | | | | | | |
+| tur | tur | adverb | | | | | | | |
+| atradu | atrast | verb | | | | 1st person | past | indicative | |
+| es | es | pronoun | 1st person | nominative | sg. | | | | |
+| pastāstīšu | pastāstīt | verb | | | | 1st person | future | indicative | |
+| par | par | preposition | | | | | | | |
+| citām | cits | pronoun | f. | dative | pl. | | | | |
+| lietām | lieta | noun | f. | dative | pl. | | | | |
+| ko | kas | pronoun | | | | | | | |
+| tur | tur | adverb | | | | | | | |
+| ieraudzīju | ieraudzīt | verb | | | | 1st person | past | indicative | |
+</result>
+</query>
+</queries>

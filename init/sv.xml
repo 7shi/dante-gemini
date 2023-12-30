@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Swedish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Mitt i vår levnads vandring
+9 ska jag berätta om de andra sakerna som jag såg där.
+28 Sedan jag vilat min trötta kropp en stund,
+67 Han svarade mig: ”Ingen människa, människa var jag en gång,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Number|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|
+|Mitt|mitt|pronoun|n.|sg.||||
+|i|i|preposition||||||
+|vår|vår|noun|m.|sg.||||
+|levnads|levnad|noun|f.|sg.||||
+|vandring|vandring|noun|f.|sg.||||
+|ska|skola|verb|||future|indicative||
+|jag|jag|pronoun||sg.||||
+|berätta|berätta|verb|||infinitive|||
+|om|om|preposition||||||
+|de|de|pronoun||pl.||||
+|andra|annan|adjective||pl.||||
+|sakerna|sak|noun|f.|pl.||||
+|som|som|conjunction||||||
+|jag|jag|pronoun||sg.||||
+|såg|se|verb|||past|indicative||
+|där|där|adverb||||||
+|Sedan|sedan|conjunction||||||
+|jag|jag|pronoun||sg.||||
+|vilat|vila|verb|||past participle|||
+|min|min|pronoun||sg.||||
+|trötta|trött|adjective||sg.||||
+|kropp|kropp|noun|m.|sg.||||
+|en|en|indefinite article||sg.||||
+|stund|stund|noun|f.|sg.||||
+|Han|han|pronoun|m.|sg.||||
+|svarade|svara|verb|||past|indicative||
+|mig|mig|pronoun||sg.||||
+|Ingen|ingen|pronoun||sg.||||
+|människa|människa|noun|f.|sg.||||
+|människa|människa|noun|f.|sg.||||
+|var|vara|verb|||past|indicative||
+|jag|jag|pronoun||sg.||||
+|en|en|indefinite article||sg.||||
+|gång|gång|noun|f.|sg.||||
+</result>
+</query>
+</queries>

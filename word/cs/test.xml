@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Czech.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Uprostřed cesty našeho života
+9 povím o dalších věcech, které jsem tam spatřil.
+28 Když jsem si trochu odpočinul od unaveného těla,
+67 Odpověděl mi: „Nejsem člověk, kdysi jsem byl člověk,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Uprostřed | uprostřed | preposition |  |  |  |  |  |  |  |
+| cesty | cesta | noun | f. | genitive | sg. |  |  |  |  |
+| našeho | náš | adjective | m. | genitive | sg. |  |  |  |  |
+| života | život | noun | m. | genitive | sg. |  |  |  |  |
+| povím | povědět | verb |  |  |  | 1 | future | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| dalších | další | adjective |  |  | pl. |  |  |  |  |
+| věcech | věc | noun | f. | locative | pl. |  |  |  |  |
+| které | který | pronoun |  |  | pl. |  |  |  | relative |
+| jsem | já | pronoun |  |  | sg. | 1 | present | indicative |  |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| spatřil | spatřit | verb |  |  | sg. | 3 | past | indicative |  |
+| Když | když | conjunction |  |  |  |  |  |  |  |
+| jsem | já | pronoun |  |  | sg. | 1 | present | indicative |  |
+| si | se | pronoun |  |  | sg. | 3 | present | indicative | reflexive |
+| trochu | trochu | adverb |  |  |  |  |  |  |  |
+| odpočinul | odpočinout | verb |  |  | sg. | 3 | past | indicative |  |
+| od | od | preposition |  |  |  |  |  |  |  |
+| unaveného | unavený | adjective | m. | genitive | sg. |  |  |  |  |
+| těla | tělo | noun | n. | genitive | sg. |  |  |  |  |
+| Odpověděl | odpovědět | verb |  |  | sg. | 3 | past | indicative |  |
+| mi | já | pronoun |  |  | sg. | 1 | present | indicative | dative |
+| Nejsem | být | verb |  |  | sg. | 1 | present | indicative |  |
+| člověk | člověk | noun | m. | nominative | sg. |  |  |  |  |
+| kdysi | kdysi | adverb |  |  |  |  |  |  |  |
+| jsem | já | pronoun |  |  | sg. | 1 | present | indicative |  |
+| byl | být | verb |  |  | sg. | 3 | past | indicative |  |
+| člověk | člověk | noun | m. | nominative | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Uprostřed cesty našeho života
+2 jsem se ocitl v temném lese,
+3 neboť přímá cesta byla ztracena.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Uprostřed | uprostřed | preposition |  |  |  |  |  |  |  |
+| cesty | cesta | noun | f. | genitive | sg. |  |  |  |  |
+| našeho | náš | adjective | m. | genitive | sg. |  |  |  |  |
+| života | život | noun | m. | genitive | sg. |  |  |  |  |
+| jsem | já | pronoun |  |  | sg. | 1 | present | indicative |  |
+| se | se | pronoun |  |  | sg. | 3 | present | indicative | reflexive |
+| ocitl | ocitnout | verb |  |  | sg. | 3 | past | indicative |  |
+| v | v | preposition |  |  |  |  |  |  |  |
+| temném | temný | adjective | m. | locative | sg. |  |  |  |  |
+| lese | les | noun | m. | locative | sg. |  |  |  |  |
+| neboť | neboť | conjunction |  |  |  |  |  |  |  |
+| přímá | přímý | adjective | f. | nominative | sg. |  |  |  |  |
+| cesta | cesta | noun | f. | nominative | sg. |  |  |  |  |
+| byla | být | verb |  |  | sg. | 3 | past | indicative |  |
+| ztracena | ztratit | verb |  |  | sg. | 3 | past | passive |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ach, jak těžké je říci, jaká to byla věc
+5 tento divoký, drsný a silný les,
+6 který v myšlenkách znovu probouzí strach!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Ach | ach | interjection |  |  |  |  |  |  |  |
+| jak | jak | adverb |  |  |  |  |  |  |  |
+| těžké | těžký | adjective | n. | nominative | sg. |  |  |  |  |
+| je | být | verb |  |  | sg. | 3 | present | indicative |  |
+| říci | říci | verb |  |  |  |  |  | infinitive |  |
+| jaká | jaký | pronoun | f. | nominative | sg. |  |  |  |  |
+| to | ten | pronoun | n. | nominative | sg. |  |  |  |  |
+| byla | být | verb |  |  | sg. | 3 | past | indicative |  |
+| věc | věc | noun | f. | nominative | sg. |  |  |  |  |
+| tento | tento | pronoun | m. | nominative | sg. |  |  |  |  |
+| divoký | divoký | adjective | m. | nominative | sg. |  |  |  |  |
+| drsný | drsný | adjective | m. | nominative | sg. |  |  |  |  |
+| a | a | conjunction |  |  |  |  |  |  |  |
+| silný | silný | adjective | m. | nominative | sg. |  |  |  |  |
+| les | les | noun | m. | nominative | sg. |  |  |  |  |
+| který | který | pronoun | m. | nominative | sg. |  |  |  | relative |
+| v | v | preposition |  |  |  |  |  |  |  |
+| myšlenkách | myšlenka | noun | f. | locative | pl. |  |  |  |  |
+| znovu | znovu | adverb |  |  |  |  |  |  |  |
+| probouzí | probudit | verb |  |  | sg. | 3 | present | indicative |  |
+| strach | strach | noun | m. | accusative | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Je tak hořký, že smrt je o málo horší;
+8 ale abych pojednal o dobru, které jsem tam nalezl,
+9 povím o dalších věcech, které jsem tam spatřil.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Je | být | verb |  |  | sg. | 3 | present | indicative |  |
+| tak | tak | adverb |  |  |  |  |  |  |  |
+| hořký | hořký | adjective | m. | nominative | sg. |  |  |  |  |
+| že | že | conjunction |  |  |  |  |  |  |  |
+| smrt | smrt | noun | f. | nominative | sg. |  |  |  |  |
+| je | být | verb |  |  | sg. | 3 | present | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| málo | málo | adverb |  |  |  |  |  |  |  |
+| horší | horší | adjective |  |  |  |  |  | comparative |  |
+| ale | ale | conjunction |  |  |  |  |  |  |  |
+| abych | já | pronoun |  |  | sg. | 1 | present | subjunctive |  |
+| pojednal | pojednat | verb |  |  | sg. | 3 | past | subjunctive |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| dobru | dobrý | adjective | n. | locative | sg. |  |  |  |  |
+| které | který | pronoun | n. | accusative | sg. |  |  |  | relative |
+| jsem | já | pronoun |  |  | sg. | 1 | present | indicative |  |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| nalezl | nalézt | verb |  |  | sg. | 3 | past | indicative |  |
+| povím | povědět | verb |  |  |  | 1 | future | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| dalších | další | adjective |  |  | pl. |  |  |  |  |
+| věcech | věc | noun | f. | locative | pl. |  |  |  |  |
+| které | který | pronoun |  |  | pl. |  |  |  | relative |
+| jsem | já | pronoun |  |  | sg. | 1 | present | indicative |  |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| spatřil | spatřit | verb |  |  | sg. | 3 | past | indicative |  |
+</result>
+</query>
+</queries>

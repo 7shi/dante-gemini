@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Manx.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Ayns meanyraad jeh'n veaynnydain
+9 Gheearey-ms dyre delley ta mee er vakin.
+28 Erreish my hassoo yn beag my chorp shass,
+67 Doort eh rhym: «Cha nel mee dooinney, va mee dooinney kied,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|Ayns|ayns|preposition||||||||
+|meanyraad|meanyraad|noun|||sg.|||||
+|jeh'n|jeh + yn|preposition + definite article||||||||
+|veaynnydain|veaynnydain|noun|||sg.|||||
+|Gheearey-ms|gheearey + ms|verb + 1st person singular present tense marker||||1|present|indicative||
+|dyre|dyre|adjective||||||||
+|delley|delley|noun|||sg.|||||
+|ta|ta|verb||||3|present|indicative||
+|mee|mee|pronoun|||sg.|1||||
+|er|er|preposition||||||||
+|vakin|vakin|verb||||1|present|indicative||
+|Erreish|erreish|conjunction||||||||
+|my|my|particle||||||||
+|hassoo|hassoo|verb||||3|present|indicative||
+|yn|yn|definite article||||||||
+|beag|beag|adjective||||||||
+|my|my|pronoun|||sg.|1||||
+|chorp|chorp|noun|||sg.|||||
+|shass|shass|verb||||3|past|indicative||
+|Doort|doort|verb||||3|past|indicative||
+|eh|eh|pronoun|||sg.|3||||
+|rhym|rhym|pronoun|||sg.|2||||
+|Cha|cha|verb||||3|present|indicative||
+|nel|nel|verb||||3|present|indicative||
+|mee|mee|pronoun|||sg.|1||||
+|dooinney|dooinney|noun|||sg.|||||
+|va|va|verb||||3|past|indicative||
+|mee|mee|pronoun|||sg.|1||||
+|dooinney|dooinney|noun|||sg.|||||
+|kied|kied|adverb||||||||
+</result>
+</query>
+</queries>

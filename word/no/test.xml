@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Norwegian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Midtveis på vår livsvei
+9 vil jeg fortelle om de andre tingene jeg så der.
+28 Etter at jeg hadde hvilt min slitne kropp en stund,
+67 Han svarte meg: «Ikke et menneske, et menneske var jeg en gang,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| Midtveis | midtveis | adverb |  |  |  |  |  |
+| på | på | preposition |  |  |  |  |  |
+| vår | vår | pronoun |  |  |  |  | possessive |
+| livsvei | livsvei | noun |  |  |  |  |  |
+| vil | ville | verb |  |  | future | indicative |  |
+| jeg | jeg | pronoun |  |  |  |  |  |
+| fortelle | fortelle | verb |  |  | present | infinitive |  |
+| om | om | preposition |  |  |  |  |  |
+| de | de | pronoun |  |  |  |  |  |
+| andre | annen | adjective |  |  |  |  |  |
+| tingene | ting | noun |  | plural |  |  |  |
+| jeg | jeg | pronoun |  |  |  |  |  |
+| så | se | verb |  |  | past | indicative |  |
+| der | der | adverb |  |  |  |  |  |
+| Etter | etter | preposition |  |  |  |  |  |
+| at | at | conjunction |  |  |  |  |  |
+| jeg | jeg | pronoun |  |  |  |  |  |
+| hadde | ha | verb |  |  | past | indicative |  |
+| hvilt | hvile | verb |  |  | past | participle |  |
+| min | min | pronoun |  |  |  |  | possessive |
+| slitne | sliten | adjective |  |  |  |  |  |
+| kropp | kropp | noun |  |  |  |  |  |
+| en | en | indefinite article |  |  |  |  |  |
+| stund | stund | noun |  |  |  |  |  |
+| Han | han | pronoun | masculine | singular |  |  |  |
+| svarte | svare | verb |  |  | past | indicative |  |
+| meg | meg | pronoun |  |  |  |  |  |
+| Ikke | ikke | adverb |  |  |  |  |  |
+| et | en | indefinite article |  |  |  |  |  |
+| menneske | menneske | noun | neuter | singular |  |  |  |
+| et | en | indefinite article |  |  |  |  |  |
+| menneske | menneske | noun | neuter | singular |  |  |  |
+| var | være | verb |  |  | past | indicative |  |
+| jeg | jeg | pronoun |  |  |  |  |  |
+| en | en | indefinite article |  |  |  |  |  |
+| gang | gang | noun |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Midtveis på vår livsvei
+2 befant jeg meg i en mørk skog,
+3 for den rette veien var gått tapt.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| Midtveis | midtveis | adverb |  |  |  |  |  |
+| på | på | preposition |  |  |  |  |  |
+| vår | vår | pronoun |  |  |  |  | possessive |
+| livsvei | livsvei | noun |  |  |  |  |  |
+| befant | befinne | verb |  |  | past | indicative |  |
+| jeg | jeg | pronoun |  |  |  |  |  |
+| meg | meg | pronoun |  |  |  |  |  |
+| i | i | preposition |  |  |  |  |  |
+| en | en | indefinite article |  |  |  |  |  |
+| mørk | mørk | adjective |  |  |  |  |  |
+| skog | skog | noun |  |  |  |  |  |
+| for | for | conjunction |  |  |  |  |  |
+| den | den | pronoun |  |  |  |  |  |
+| rette | rett | adjective |  |  |  |  |  |
+| veien | vei | noun |  |  |  |  |  |
+| var | være | verb |  |  | past | indicative |  |
+| gått | gå | verb |  |  | past | participle |  |
+| tapt | tape | verb |  |  | past | participle |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Å, hvor vanskelig det er å fortelle deg
+5 om denne ville og harde og sterke skogen,
+6 som bare tanken på den fornyer frykten!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| Å | å | interjection |  |  |  |  |  |
+| hvor | hvor | adverb |  |  |  |  |  |
+| vanskelig | vanskelig | adjective |  |  |  |  |  |
+| det | det | pronoun |  |  |  |  |  |
+| er | være | verb |  |  | present | indicative |  |
+| å | å | infinitive marker |  |  |  |  |  |
+| fortelle | fortelle | verb |  |  | present | infinitive |  |
+| deg | du | pronoun |  |  |  |  | objective |
+| om | om | preposition |  |  |  |  |  |
+| denne | denne | pronoun |  |  |  |  |  |
+| ville | vill | adjective |  |  |  |  |  |
+| og | og | conjunction |  |  |  |  |  |
+| harde | hard | adjective |  |  |  |  |  |
+| og | og | conjunction |  |  |  |  |  |
+| sterke | sterk | adjective |  |  |  |  |  |
+| skogen | skog | noun |  |  |  |  |  |
+| som | som | conjunction |  |  |  |  |  |
+| bare | bare | adverb |  |  |  |  |  |
+| tanken | tanke | noun |  |  |  |  |  |
+| på | på | preposition |  |  |  |  |  |
+| den | den | pronoun |  |  |  |  |  |
+| fornyer | fornye | verb |  |  | present | indicative |  |
+| frykten | frykt | noun |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Den er så bitter at den nesten er verre enn døden;
+8 men for å fortelle om det gode jeg fant der,
+9 vil jeg fortelle om de andre tingene jeg så der.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| Den | den | pronoun |  |  |  |  |  |
+| er | være | verb |  |  | present | indicative |  |
+| så | så | adverb |  |  |  |  |  |
+| bitter | bitter | adjective |  |  |  |  |  |
+| at | at | conjunction |  |  |  |  |  |
+| den | den | pronoun |  |  |  |  |  |
+| nesten | nesten | adverb |  |  |  |  |  |
+| er | være | verb |  |  | present | indicative |  |
+| verre | verre | adjective |  |  |  |  | comparative |
+| enn | enn | conjunction |  |  |  |  |  |
+| døden | død | noun |  |  |  |  |  |
+| men | men | conjunction |  |  |  |  |  |
+| for | for | preposition |  |  |  |  |  |
+| å | å | infinitive marker |  |  |  |  |  |
+| fortelle | fortelle | verb |  |  | present | infinitive |  |
+| om | om | preposition |  |  |  |  |  |
+| det | det | pronoun |  |  |  |  |  |
+| gode | god | adjective |  |  |  |  |  |
+| jeg | jeg | pronoun |  |  |  |  |  |
+| fant | finne | verb |  |  | past | indicative |  |
+| der | der | adverb |  |  |  |  |  |
+| vil | ville | verb |  |  | future | indicative |  |
+| jeg | jeg | pronoun |  |  |  |  |  |
+| fortelle | fortelle | verb |  |  | present | infinitive |  |
+| om | om | preposition |  |  |  |  |  |
+| de | de | pronoun |  |  |  |  |  |
+| andre | annen | adjective |  |  |  |  |  |
+| tingene | ting | noun |  | plural |  |  |  |
+| jeg | jeg | pronoun |  |  |  |  |  |
+| så | se | verb |  |  | past | indicative |  |
+| der | der | adverb |  |  |  |  |  |
+</result>
+</query>
+</queries>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Slovak.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 V polovici cesty nášho života
+9 poviem o ďalších veciach, ktoré som tam zbadal.
+28 Potom, čo som si trochu oddýchol od unaveného tela,
+67 Odpovedal mi: „Nie som človek, kedysi som bol človek,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|V|v|preposition||||||||
+|polovici|polovica|noun|f.|locative|sg.|||||
+|cesty|cesta|noun|f.|genitive|sg.|||||
+|nášho|náš|adjective|m.|genitive|sg.||||possessive|
+|života|život|noun|m.|genitive|sg.|||||
+|Poviem|povedať|verb||||1|future|indicative||
+|o|o|preposition||||||||
+|ďalších|ďalší|adjective|m.|accusative|pl.|||||
+|veciach|vec|noun|f.|accusative|pl.|||||
+|ktoré|ktorý|pronoun||accusative|pl.||||relative|
+|som|byť|verb||||1|present|indicative||
+|tam|tam|adverb||||||||
+|zbadal|zbačiť|verb||||1|past|indicative||
+|Potom|potom|adverb||||||||
+|čo|čo|pronoun||nominative|sg.||||interrogative|
+|som|byť|verb||||1|past|indicative||
+|si|sa|pronoun||||1|||reflexive|
+|trochu|trochu|adverb||||||||
+|oddýchol|oddýchnuť|verb||||1|past|indicative||
+|od|od|preposition||||||||
+|unaveného|unavený|adjective|m.|genitive|sg.|||||
+|tela|telo|noun|m.|genitive|sg.|||||
+|Odpovedal|odpovedať|verb||||1|past|indicative||
+|mi|ja|pronoun||dative|sg.|||||
+|Nie|nie|adverb|||||||negation|
+|som|byť|verb||||1|present|indicative||
+|človek|človek|noun|m.|nominative|sg.|||||
+|kedysi|kedysi|adverb||||||||
+|som|byť|verb||||1|past|indicative||
+|bol|byť|verb||||1|past|indicative||
+</result>
+</query>
+</queries>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Russian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 На середине пути нашей жизни
+9 я расскажу о других вещах, которые я там увидел.
+28 После того, как я немного отдохнул своим усталым телом,
+67 Он ответил мне: «Не человек, человеком я когда-то был,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|На|на|preposition||||||||
+|середине|середина|noun|f.|prepositional|sg.|||||
+|пути|путь|noun|m.|genitive|sg.|||||
+|нашей|наш|pronoun|f.|genitive|sg.||||possessive|
+|жизни|жизнь|noun|f.|genitive|sg.|||||
+|я|я|pronoun||nominative|sg.|1||||
+|расскажу|рассказать|verb||future|sg.|1|indicative|||
+|о|о|preposition||||||||
+|других|другой|pronoun|m.|prepositional|pl.|||||
+|вещах|вещь|noun|f.|prepositional|pl.|||||
+|которые|который|pronoun|m.|nominative|pl.||||relative|
+|я|я|pronoun||nominative|sg.|1||||
+|там|там|adverb||||||||
+|увидел|увидеть|verb||past|sg.|1|indicative|||
+|После|после|preposition||||||||
+|того|тот|pronoun|m.|genitive|sg.||||demonstrative|
+|как|как|conjunction||||||||
+|я|я|pronoun||nominative|sg.|1||||
+|немного|немного|adverb||||||||
+|отдохнул|отдохнуть|verb||past|sg.|1|indicative|||
+|своим|свой|pronoun|m.|instrumental|sg.||||possessive|
+|усталым|усталый|adjective|m.|instrumental|sg.|||||
+|телом|тело|noun|n.|instrumental|sg.|||||
+|Он|он|pronoun|m.|nominative|sg.|3||||
+|ответил|ответить|verb||past|sg.|3|indicative|||
+|мне|я|pronoun||dative|sg.|3||||
+|Не|не|particle|||||||negation|
+|человек|человек|noun|m.|nominative|sg.|||||
+|человеком|человек|noun|m.|instrumental|sg.|||||
+|я|я|pronoun||nominative|sg.|1||||
+|когда-то|когда-то|adverb||||||||
+|был|быть|verb||past|sg.|1|indicative|||
+</result>
+</query>
+</queries>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Bulgarian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 По средата на пътя на нашия живот
+9 ще кажа за другите неща, които видях.
+28 След като малко си починах умореното тяло,
+67 Той ми отговори: „Не човек, човек бях някога,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|
+|По|по|preposition|||||||
+|средата|среда|noun|f.|sg.|||||
+|на|на|preposition|||||||
+|пътя|път|noun|m.|sg.|||||
+|на|на|preposition|||||||
+|нашия|наш|pronoun|m.|sg.||||possessive|
+|живот|живот|noun|m.|sg.|||||
+|ще|ще|auxiliary verb||||future|||
+|кажа|кажа|verb|||1|future|indicative||
+|за|за|preposition|||||||
+|другите|друг|pronoun|m.|pl.|||||
+|неща|нещо|noun|n.|pl.|||||
+|които|който|pronoun|m.|pl.||||relative|
+|видях|видя|verb|||1|past|indicative||
+|След|след|preposition|||||||
+|като|като|conjunction|||||||
+|малко|малко|adverb|||||||
+|си|се|reflexive pronoun|||3||||
+|починах|почина|verb|||1|past|indicative||
+|умореното|уморен|adjective|n.|sg.|||||
+|тяло|тяло|noun|n.|sg.|||||
+|Той|той|pronoun|m.|sg.|||||
+|ми|ми|personal pronoun|||1|||dative|
+|отговори|отговори|verb|||3|past|indicative||
+|Не|не|negation|||||||
+|човек|човек|noun|m.|sg.|||||
+|човек|човек|noun|m.|sg.|||||
+|бях|бъда|verb|||1|past|indicative||
+|някога|някога|adverb|||||||
+</result>
+</query>
+</queries>

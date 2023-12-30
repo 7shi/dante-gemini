@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Dutch.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Midden op het pad van ons leven
+9 zal ik vertellen over de andere dingen die ik er zag.
+28 Nadat ik mijn vermoeide lichaam een beetje had laten rusten,
+67 Hij antwoordde mij: "Geen mens, ooit was ik een mens,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Midden | midden | adjective | n. | sg. |  |  |  |  |
+| op | op | preposition |  |  |  |  |  |  |
+| het | het | definite article | n. | sg. |  |  |  |  |
+| pad | pad | noun | n. | sg. |  |  |  |  |
+| van | van | preposition |  |  |  |  |  |  |
+| ons | ons | personal pronoun |  | pl. | 1 |  |  |  |
+| leven | leven | noun | n. | sg. |  |  |  |  |
+| zal | zullen | auxiliary verb |  |  | 1 | future | indicative |  |
+| ik | ik | personal pronoun |  | sg. | 1 |  |  |  |
+| vertellen | vertellen | verb |  |  | 1 | future | indicative |  |
+| over | over | preposition |  |  |  |  |  |  |
+| de | de | definite article |  | pl. |  |  |  |  |
+| andere | andere | adjective |  | pl. |  |  |  |  |
+| dingen | ding | noun | n. | pl. |  |  |  |  |
+| die | die | relative pronoun |  | pl. |  |  |  |  |
+| ik | ik | personal pronoun |  | sg. | 1 |  |  |  |
+| er | er | adverb |  |  |  |  |  |  |
+| zag | zien | verb |  |  | 1 | past | indicative |  |
+| Nadat | nadat | conjunction |  |  |  |  |  |  |
+| ik | ik | personal pronoun |  | sg. | 1 |  |  |  |
+| mijn | mijn | possessive pronoun |  | sg. | 1 |  |  |  |
+| vermoeide | vermoeide | adjective |  | sg. |  |  |  |  |
+| lichaam | lichaam | noun | n. | sg. |  |  |  |  |
+| een | een | indefinite article |  | sg. |  |  |  |  |
+| beetje | beetje | noun | n. | sg. |  |  |  |  |
+| had | hebben | auxiliary verb |  |  | 1 | past | indicative |  |
+| laten | laten | verb |  |  | 1 | past | participle |  |
+| rusten | rusten | verb |  |  | 1 | past | participle |  |
+| Hij | hij | personal pronoun | m. | sg. | 3 |  |  |  |
+| antwoordde | antwoorden | verb |  |  | 3 | past | indicative |  |
+| mij | mij | personal pronoun |  | sg. | 1 |  |  |  |
+| Geen | geen | indefinite pronoun |  | sg. |  |  |  |  |
+| mens | mens | noun | m. | sg. |  |  |  |  |
+| ooit | ooit | adverb |  |  |  |  |  |  |
+| was | zijn | verb |  |  | 1 | past | indicative |  |
+| ik | ik | personal pronoun |  | sg. | 1 |  |  |  |
+| een | een | indefinite article |  | sg. |  |  |  |  |
+| mens | mens | noun | m. | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Midden op het pad van ons leven
+2 bevond ik mij in een donker woud,
+3 want de rechte weg was verloren.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Midden | midden | adjective | n. | sg. |  |  |  |  |
+| op | op | preposition |  |  |  |  |  |  |
+| het | het | definite article | n. | sg. |  |  |  |  |
+| pad | pad | noun | n. | sg. |  |  |  |  |
+| van | van | preposition |  |  |  |  |  |  |
+| ons | ons | personal pronoun |  | pl. | 1 |  |  |  |
+| leven | leven | noun | n. | sg. |  |  |  |  |
+| bevond | bevinden | verb |  |  | 1 | past | indicative |  |
+| ik | ik | personal pronoun |  | sg. | 1 |  |  |  |
+| mij | mij | personal pronoun |  | sg. | 1 |  |  |  |
+| in | in | preposition |  |  |  |  |  |  |
+| een | een | indefinite article |  | sg. |  |  |  |  |
+| donker | donker | adjective |  | sg. |  |  |  |  |
+| woud | woud | noun | n. | sg. |  |  |  |  |
+| want | want | conjunction |  |  |  |  |  |  |
+| de | de | definite article |  | sg. |  |  |  |  |
+| rechte | rechte | adjective |  | sg. |  |  |  |  |
+| weg | weg | noun | m. | sg. |  |  |  |  |
+| was | zijn | verb |  |  | 3 | past | indicative |  |
+| verloren | verloren | adjective |  | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ach, hoe moeilijk is het om te zeggen hoe
+5 dit woud was, wild en ruig en hard,
+6 dat in mijn gedachten de angst weer doet herleven!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Ach | ach | interjection |  |  |  |  |  |  |
+| hoe | hoe | interrogative adverb |  |  |  |  |  |  |
+| moeilijk | moeilijk | adjective |  | sg. |  |  |  |  |
+| is | zijn | verb |  |  | 3 | present | indicative |  |
+| het | het | personal pronoun | n. | sg. |  |  |  |  |
+| om | om | preposition |  |  |  |  |  |  |
+| te | te | infinitive marker |  |  |  |  |  |  |
+| zeggen | zeggen | verb |  |  | 1 | infinitive |  |  |
+| hoe | hoe | interrogative adverb |  |  |  |  |  |  |
+| dit | dit | demonstrative pronoun | n. | sg. |  |  |  |  |
+| woud | woud | noun | n. | sg. |  |  |  |  |
+| was | zijn | verb |  |  | 3 | past | indicative |  |
+| wild | wild | adjective |  | sg. |  |  |  |  |
+| en | en | conjunction |  |  |  |  |  |  |
+| ruig | ruig | adjective |  | sg. |  |  |  |  |
+| en | en | conjunction |  |  |  |  |  |  |
+| hard | hard | adjective |  | sg. |  |  |  |  |
+| dat | dat | relative pronoun | n. | sg. |  |  |  |  |
+| in | in | preposition |  |  |  |  |  |  |
+| mijn | mijn | possessive pronoun |  | sg. | 1 |  |  |  |
+| gedachten | gedachte | noun | f. | pl. |  |  |  |  |
+| de | de | definite article |  | pl. |  |  |  |  |
+| angst | angst | noun | f. | sg. |  |  |  |  |
+| weer | weer | adverb |  |  |  |  |  |  |
+| doet | doen | verb |  |  | 3 | present | indicative |  |
+| herleven | herleven | verb |  |  | 3 | infinitive |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Het is zo bitter dat de dood nauwelijks erger is;
+8 maar om te spreken over het goede dat ik er vond,
+9 zal ik vertellen over de andere dingen die ik er zag.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Het | het | personal pronoun | n. | sg. |  |  |  |  |
+| is | zijn | verb |  |  | 3 | present | indicative |  |
+| zo | zo | adverb |  |  |  |  |  |  |
+| bitter | bitter | adjective |  | sg. |  |  |  |  |
+| dat | dat | conjunction |  |  |  |  |  |  |
+| de | de | definite article |  | sg. |  |  |  |  |
+| dood | dood | noun | f. | sg. |  |  |  |  |
+| nauwelijks | nauwelijks | adverb |  |  |  |  |  |  |
+| erger | erg | adjective |  | comp. |  |  |  |  |
+| is | zijn | verb |  |  | 3 | present | indicative |  |
+| maar | maar | conjunction |  |  |  |  |  |  |
+| om | om | preposition |  |  |  |  |  |  |
+| te | te | infinitive marker |  |  |  |  |  |  |
+| spreken | spreken | verb |  |  | 1 | infinitive |  |  |
+| over | over | preposition |  |  |  |  |  |  |
+| het | het | definite article | n. | sg. |  |  |  |  |
+| goede | goed | adjective | n. | sg. |  |  |  |  |
+| dat | dat | relative pronoun | n. | sg. |  |  |  |  |
+| ik | ik | personal pronoun |  | sg. | 1 |  |  |  |
+| er | er | adverb |  |  |  |  |  |  |
+| vond | vinden | verb |  |  | 1 | past | indicative |  |
+| zal | zullen | auxiliary verb |  |  | 1 | future | indicative |  |
+| ik | ik | personal pronoun |  | sg. | 1 |  |  |  |
+| vertellen | vertellen | verb |  |  | 1 | future | indicative |  |
+| over | over | preposition |  |  |  |  |  |  |
+| de | de | definite article |  | pl. |  |  |  |  |
+| andere | andere | adjective |  | pl. |  |  |  |  |
+| dingen | ding | noun | n. | pl. |  |  |  |  |
+| die | die | relative pronoun |  | pl. |  |  |  |  |
+| ik | ik | personal pronoun |  | sg. | 1 |  |  |  |
+| er | er | adverb |  |  |  |  |  |  |
+| zag | zien | verb |  |  | 1 | past | indicative |  |
+</result>
+</query>
+</queries>

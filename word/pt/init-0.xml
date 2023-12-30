@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+Show contractions of preposition and article in Portuguese. No examples are needed.
+</prompt>
+<result>
+* no = em + o
+* na = em + a
+* do = de + o
+* da = de + a
+* dos = de + os
+* das = de + as
+* ao = a + o
+* à = a + a
+* pelo = por + o
+* pela = por + a
+</result>
+</query>
+<query>
+<prompt>
+Create a word table showing the Lemma for each word. The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma. In such cases, only the verb information should be written in the other columns.
+
+No meio do caminho da nossa vida
+direi das outras coisas que lá vi.
+Depois que descansei um pouco o corpo cansado,
+Respondeu-me: "Não sou homem, homem já fui,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| No | em + o | preposition | | | | | | |
+| meio | meio | noun | masculine | singular | | | | |
+| do | de + o | preposition | masculine | singular | | | | crasis |
+| caminho | caminho | noun | masculine | singular | | | | |
+| da | de + a | preposition | feminine | singular | | | | crasis |
+| nossa | nosso | adjective | feminine | singular | | | | |
+| vida | vida | noun | feminine | singular | | | | |
+| direi | dizer | verb | | | 1st | future | indicative | |
+| das | de + as | preposition | feminine | plural | | | | crasis |
+| outras | outro | adjective | feminine | plural | | | | |
+| coisas | coisa | noun | feminine | plural | | | | |
+| que | que | relative pronoun | | | | | | |
+| lá | lá | adverb | | | | | | |
+| vi | ver | verb | | | 1st | past | indicative | |
+| Depois | depois | adverb | | | | | | |
+| que | que | conjunction | | | | | | |
+| descansei | descansar | verb | | | 1st | past | indicative | |
+| um | um | article | masculine | singular | | | | |
+| pouco | pouco | adverb | | | | | | |
+| o | o | article | masculine | singular | | | | |
+| corpo | corpo | noun | masculine | singular | | | | |
+| cansado | cansado | adjective | masculine | singular | | | | |
+| Respondeu | responder | verb | | | 3rd | perfect | indicative | |
+| -me | me | pronoun | | singular | 1st | | | indirect object |
+| Não | não | adverb | | | | | | |
+| sou | ser | verb | | | 1st | present | indicative | |
+| homem | homem | noun | masculine | singular | | | | |
+| homem | homem | noun | masculine | singular | | | | archaic |
+| já | já | adverb | | | | | | |
+| fui | ser | verb | | | 1st | perfect | indicative | |
+</result>
+</query>
+<query>
+<info>[Inferno Canto 1] 1/136</info>
+<prompt>
+Create a word table.
+
+1 No meio do caminho da nossa vida
+2 me encontrei em uma selva escura,
+3 porque o caminho reto estava perdido.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| No | em + o | preposition | | | | | | |
+| meio | meio | noun | masculine | singular | | | | |
+| do | de + o | preposition | masculine | singular | | | | crasis |
+| caminho | caminho | noun | masculine | singular | | | | |
+| da | de + a | preposition | feminine | singular | | | | crasis |
+| nossa | nosso | adjective | feminine | singular | | | | |
+| vida | vida | noun | feminine | singular | | | | |
+| me | eu | pronoun | | singular | 1st | | | indirect object |
+| encontrei | encontrar | verb | | | 1st | past | indicative | |
+| em | em | preposition | | | | | | |
+| uma | um | article | feminine | singular | | | | |
+| selva | selva | noun | feminine | singular | | | | |
+| escura | escuro | adjective | feminine | singular | | | | |
+| porque | porque | conjunction | | | | | | |
+| o | o | article | masculine | singular | | | | |
+| caminho | caminho | noun | masculine | singular | | | | |
+| reto | reto | adjective | masculine | singular | | | | |
+| estava | estar | verb | | | 3rd | past | indicative | |
+| perdido | perder | verb | | | 3rd | past | participle | |
+</result>
+</query>
+<query>
+<info>[Inferno Canto 1] 4/136</info>
+<prompt>
+Create a word table.
+
+4 Ah, quão difícil é dizer o que era
+5 esta selva selvagem, áspera e forte
+6 que no pensamento renova o medo!
+
+7 É tão amarga que pouco é mais que a morte;
+8 mas para tratar do bem que lá encontrei,
+9 direi das outras coisas que lá vi.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Ah | ah | interjection | | | | | | |
+| quão | quão | adverb | | | | | | |
+| difícil | difícil | adjective | | singular | | | | |
+| é | ser | verb | | | 3rd | present | indicative | |
+| dizer | dizer | verb | | infinitive | | | | |
+| o | o | article | masculine | singular | | | | |
+| que | que | relative pronoun | | | | | | |
+| era | ser | verb | | | 3rd | past | indicative | |
+| esta | este | demonstrative adjective | feminine | singular | | | | |
+| selva | selva | noun | feminine | singular | | | | |
+| selvagem | selvagem | adjective | feminine | singular | | | | |
+| áspera | áspero | adjective | feminine | singular | | | | |
+| e | e | conjunction | | | | | | |
+| forte | forte | adjective | feminine | singular | | | | |
+| que | que | conjunction | | | | | | |
+| no | em + o | preposition | masculine | singular | | | | crasis |
+| pensamento | pensamento | noun | masculine | singular | | | | |
+| renova | renovar | verb | | | 3rd | present | indicative | |
+| o | o | article | masculine | singular | | | | |
+| medo | medo | noun | masculine | singular | | | | |
+| É | ser | verb | | | 3rd | present | indicative | |
+| tão | tão | adverb | | | | | | |
+| amarga | amargo | adjective | feminine | singular | | | | |
+| que | que | conjunction | | | | | | |
+| pouco | pouco | adverb | | | | | | |
+| é | ser | verb | | | 3rd | present | indicative | |
+| mais | mais | adverb | | | | | | |
+| que | que | conjunction | | | | | | |
+| a | a | article | feminine | singular | | | | |
+| morte | morte | noun | feminine | singular | | | | |
+| mas | mas | conjunction | | | | | | |
+| para | para | preposition | | | | | | |
+| tratar | tratar | verb | | infinitive | | | | |
+| do | de + o | preposition | masculine | singular | | | | crasis |
+| bem | bem | noun | masculine | singular | | | | |
+| que | que | relative pronoun | | | | | | |
+| lá | lá | adverb | | | | | | |
+| encontrei | encontrar | verb | | | 1st | past | indicative | |
+| direi | dizer | verb | | | 1st | future | indicative | |
+| das | de + as | preposition | feminine | plural | | | | crasis |
+| outras | outro | adjective | feminine | plural | | | | |
+| coisas | coisa | noun | feminine | plural | | | | |
+| que | que | relative pronoun | | | | | | |
+| lá | lá | adverb | | | | | | |
+| vi | ver | verb | | | 1st | past | indicative | |
+</result>
+</query>
+</queries>

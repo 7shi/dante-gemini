@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Croatian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Napolovici puta našeg života
+9 reći ću o drugim stvarima koje sam tamo ugledao.
+28 Kad sam malo odmorio umorno tijelo,
+67 Odgovori mi: „Nisam čovjek, čovjek sam nekada bio,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|Napolovici|napola|adverb||||||||
+|puta|put|noun|m.|genitive|sg.|||||
+|našeg|naš|pronoun|m.|genitive|sg.|||||
+|života|život|noun|m.|genitive|sg.|||||
+|reći|reći|verb||||1|future|indicative||
+|ću|ću|auxiliary verb||||1|future|indicative||
+|o|o|preposition||||||||
+|drugim|drugi|adjective|m.|dative|pl.|||||
+|stvarima|stvar|noun|f.|dative|pl.|||||
+|koje|koji|pronoun||accusative|pl.|||||
+|sam|sam|pronoun||nominative|sg.|1||||
+|tamo|tamo|adverb||||||||
+|ugledao|ugledati|verb|m.|nominative|sg.|1|past|indicative||
+|Kad|kad|conjunction||||||||
+|sam|sam|pronoun||nominative|sg.|1||||
+|malo|malo|adverb||||||||
+|odmorio|odmoriti|verb|m.|nominative|sg.|1|past|indicative||
+|umorno|umoran|adjective|m.|accusative|sg.|||||
+|tijelo|tijelo|noun|n.|accusative|sg.|||||
+|Odgovori|odgovoriti|verb||||2|imperative|||
+|mi|mi|pronoun||dative|sg.|1||||
+|Nisam|biti|verb||||1|present|indicative|contracted form of "ni jesam"|
+|čovjek|čovjek|noun|m.|nominative|sg.|||||
+|čovjek|čovjek|noun|m.|nominative|sg.|||||
+|sam|sam|pronoun||nominative|sg.|1||||
+|nekada|nekada|adverb||||||||
+|bio|biti|verb|m.|nominative|sg.|1|past|indicative||
+</result>
+</query>
+</queries>

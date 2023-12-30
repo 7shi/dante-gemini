@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Esperanto.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 En la mezo de la vojo de nia vivo
+9 mi diros pri la aliaj aferoj, kiujn mi tie rimarkis.
+28 Post kiam iom ripozis la laca korpo,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Tense|Mood|Note|
+|---|---|---|---|---|---|
+|En|en|preposition||||
+|la|la|definite article||||
+|mezo|mezo|noun||||
+|de|de|preposition||||
+|la|la|definite article||||
+|vojo|vojo|noun||||
+|de|de|preposition||||
+|nia|nia|possessive adjective||||
+|vivo|vivo|noun||||
+|mi|mi|personal pronoun||||
+|diros|diri|verb|future|indicative||
+|pri|pri|preposition||||
+|la|la|definite article||||
+|aliaj|alia|adjective||||
+|aferoj|afero|noun||||
+|kiujn|kiu|relative pronoun||||
+|mi|mi|personal pronoun||||
+|tie|tie|adverb||||
+|rimarkis|rimarki|verb|past|indicative||
+|Post|post|preposition||||
+|kiam|kiam|conjunction||||
+|iom|iom|adverb||||
+|ripozis|ripozi|verb|past|indicative||
+|la|la|definite article||||
+|laca|laca|adjective||||
+|korpo|korpo|noun||||
+</result>
+</query>
+</queries>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Romanian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 În mijlocul călătoriei vieții noastre
+2 m-am trezit într-o pădure întunecată,
+28 După ce și-a odihnit puțin trupul obosit,
+67 Mi-a răspuns: „Nu om, om am fost odată,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| În | în | preposition |  |  |  |  |  |  |
+| mijlocul | mijloc | noun | m. | sg. |  |  |  |  |
+| călătoriei | călătorie | noun | f. | sg. |  |  |  |  |
+| vieții | viață | noun | f. | sg. |  |  |  |  |
+| noastre | nostru | adjective | f. | pl. |  |  |  |  |
+| m-am | m- | pronoun |  |  | 1 | past | indicative | clitic pronoun |
+| trezit | trezi | verb |  |  | 1 | past | participle |  |
+| într-o | în + o | preposition + article | f. | sg. |  |  |  | contraction |
+| pădure | pădure | noun | f. | sg. |  |  |  |  |
+| întunecată | întunecat | adjective | f. | sg. |  |  |  |  |
+| După | după | preposition |  |  |  |  |  |  |
+| ce | ce | pronoun |  |  |  |  |  | relative pronoun |
+| și-a | se | pronoun |  |  | 3 | past | indicative | reflexive pronoun |
+| odihnit | odihni | verb |  |  | 3 | past | participle |  |
+| puțin | puțin | adjective | n. | sg. |  |  |  |  |
+| trupul | trup | noun | m. | sg. |  |  |  |  |
+| obosit | obosit | adjective | m. | sg. |  |  |  |  |
+| Mi-a | mi | pronoun |  |  | 1 | past | indicative | clitic pronoun |
+| răspuns | răspunde | verb |  |  | 3 | past | indicative |  |
+| Nu | nu | adverb |  |  |  |  |  | negation |
+| om | om | noun | m. | sg. |  |  |  |  |
+| om | om | noun | m. | sg. |  |  |  |  |
+| am | avea | verb |  |  | 1 | past | indicative | auxiliary verb |
+| fost | fi | verb |  |  | 1 | past | participle |  |
+| odată | odată | adverb |  |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 În mijlocul călătoriei vieții noastre
+2 m-am trezit într-o pădure întunecată,
+3 căci calea cea dreaptă era pierdută.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| În | în | preposition |  |  |  |  |  |  |
+| mijlocul | mijloc | noun | m. | sg. |  |  |  |  |
+| călătoriei | călătorie | noun | f. | sg. |  |  |  |  |
+| vieții | viață | noun | f. | sg. |  |  |  |  |
+| noastre | nostru | adjective | f. | pl. |  |  |  |  |
+| m-am | m- | pronoun |  |  | 1 | past | indicative | clitic pronoun |
+| trezit | trezi | verb |  |  | 1 | past | participle |  |
+| într-o | în + o | preposition + article | f. | sg. |  |  |  | contraction |
+| pădure | pădure | noun | f. | sg. |  |  |  |  |
+| întunecată | întunecat | adjective | f. | sg. |  |  |  |  |
+| căci | căci | conjunction |  |  |  |  |  |  |
+| calea | cale | noun | f. | sg. |  |  |  |  |
+| cea | ce | pronoun | f. | sg. |  |  |  | definite article |
+| dreaptă | drept | adjective | f. | sg. |  |  |  |  |
+| era | fi | verb |  |  | 3 | past | indicative | imperfect |
+| pierdută | pierde | verb | f. | sg. |  | past | participle |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ah, cât de greu este de spus cum era
+5 această pădure sălbatică, aspră și puternică,
+6 care în gând reînnoiește frica!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Ah | ah | interjection |  |  |  |  |  |  |
+| cât | cât | adverb |  |  |  |  |  |  |
+| de | de | preposition |  |  |  |  |  |  |
+| greu | greu | adjective | n. | sg. |  |  |  |  |
+| este | fi | verb |  |  | 3 | present | indicative |  |
+| de | de | preposition |  |  |  |  |  |  |
+| spus | spune | verb |  |  |  | past | infinitive |  |
+| cum | cum | adverb |  |  |  |  |  | interrogative |
+| era | fi | verb |  |  | 3 | past | indicative | imperfect |
+| această | acesta | pronoun | f. | sg. |  |  |  | demonstrative |
+| pădure | pădure | noun | f. | sg. |  |  |  |  |
+| sălbatică | sălbatic | adjective | f. | sg. |  |  |  |  |
+| aspră | aspr | adjective | f. | sg. |  |  |  |  |
+| și | și | conjunction |  |  |  |  |  |  |
+| puternică | puternic | adjective | f. | sg. |  |  |  |  |
+| care | care | pronoun |  |  |  |  |  | relative pronoun |
+| în | în | preposition |  |  |  |  |  |  |
+| gând | gând | noun | m. | sg. |  |  |  |  |
+| reînnoiește | reînnoi | verb |  |  | 3 | present | indicative |  |
+| frica | frică | noun | f. | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Atât de amară este, încât puțin mai mult este moartea;
+8 dar pentru a trata despre binele pe care l-am găsit acolo,
+9 voi spune despre celelalte lucruri pe care le-am zărit acolo.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Atât | atât | adverb |  |  |  |  |  |  |
+| de | de | preposition |  |  |  |  |  |  |
+| amară | amar | adjective | f. | sg. |  |  |  |  |
+| este | fi | verb |  |  | 3 | present | indicative |  |
+| încât | încât | conjunction |  |  |  |  |  |  |
+| puțin | puțin | adjective | n. | sg. |  |  |  |  |
+| mai | mai | adverb |  |  |  |  |  |  |
+| mult | mult | adjective | n. | sg. |  |  |  |  |
+| este | fi | verb |  |  | 3 | present | indicative |  |
+| moartea | moarte | noun | f. | sg. |  |  |  |  |
+| dar | dar | conjunction |  |  |  |  |  |  |
+| pentru | pentru | preposition |  |  |  |  |  |  |
+| a | a | preposition |  |  |  |  |  |  |
+| trata | trata | verb |  |  |  | infinitive |  |  |
+| despre | despre | preposition |  |  |  |  |  |  |
+| binele | bine | noun | n. | sg. |  |  |  |  |
+| pe | pe | preposition |  |  |  |  |  |  |
+| care | care | pronoun |  |  |  |  |  | relative pronoun |
+| l-am | l- | pronoun |  |  | 1 | past | indicative | clitic pronoun |
+| găsit | găsi | verb |  |  | 1 | past | participle |  |
+| acolo | acolo | adverb |  |  |  |  |  |  |
+| voi | voi | pronoun |  |  | 1 | future | indicative |  |
+| spune | spune | verb |  |  | 1 | future | indicative |  |
+| despre | despre | preposition |  |  |  |  |  |  |
+| celelalte | celălalt | pronoun | f. | pl. |  |  |  |  |
+| lucruri | lucru | noun | n. | pl. |  |  |  |  |
+| pe | pe | preposition |  |  |  |  |  |  |
+| care | care | pronoun |  |  |  |  |  | relative pronoun |
+| le-am | le | pronoun |  |  | 1 | past | indicative | clitic pronoun |
+| zărit | zări | verb |  |  | 1 | past | participle |  |
+| acolo | acolo | adverb |  |  |  |  |  |  |
+</result>
+</query>
+</queries>

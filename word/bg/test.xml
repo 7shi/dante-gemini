@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Bulgarian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 По средата на пътя на нашия живот
+9 ще кажа за другите неща, които видях.
+28 След като малко си починах умореното тяло,
+67 Той ми отговори: „Не човек, човек бях някога,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| По | по | preposition |  |  |  |  |  |  |
+| средата | среда | noun | f. | sg. |  |  |  |  |
+| на | на | preposition |  |  |  |  |  |  |
+| пътя | път | noun | m. | sg. |  |  |  |  |
+| на | на | preposition |  |  |  |  |  |  |
+| нашия | наш | pronoun | m. | sg. |  |  |  | possessive |
+| живот | живот | noun | m. | sg. |  |  |  |  |
+| ще | ще | auxiliary verb |  |  |  | future | indicative |  |
+| кажа | кажа | verb |  |  | 1 | future | indicative |  |
+| за | за | preposition |  |  |  |  |  |  |
+| другите | друг | pronoun | m. | pl. |  |  |  |  |
+| неща | нещо | noun | n. | pl. |  |  |  |  |
+| които | който | pronoun | m. | pl. |  |  |  | relative |
+| видях | видя | verb |  |  | 1 | past | indicative |  |
+| След | след | preposition |  |  |  |  |  |  |
+| като | като | conjunction |  |  |  |  |  |  |
+| малко | малко | adverb |  |  |  |  |  |  |
+| си | се | reflexive pronoun |  |  | 3 |  |  |  |
+| починах | почина | verb |  |  | 1 | past | indicative |  |
+| умореното | уморен | adjective | n. | sg. |  |  |  |  |
+| тяло | тяло | noun | n. | sg. |  |  |  |  |
+| Той | той | pronoun | m. | sg. |  |  |  |  |
+| ми | ми | personal pronoun |  |  | 1 |  |  | dative |
+| отговори | отговори | verb |  |  | 3 | past | indicative |  |
+| Не | не | negation |  |  |  |  |  |  |
+| човек | човек | noun | m. | sg. |  |  |  |  |
+| човек | човек | noun | m. | sg. |  |  |  |  |
+| бях | бъда | verb |  |  | 1 | past | indicative |  |
+| някога | някога | adverb |  |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 По средата на пътя на нашия живот
+2 се озовах в една тъмна гора,
+3 защото правият път беше изгубен.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| По | по | preposition |  |  |  |  |  |  |
+| средата | среда | noun | f. | sg. |  |  |  |  |
+| на | на | preposition |  |  |  |  |  |  |
+| пътя | път | noun | m. | sg. |  |  |  |  |
+| на | на | preposition |  |  |  |  |  |  |
+| нашия | наш | pronoun | m. | sg. |  |  |  | possessive |
+| живот | живот | noun | m. | sg. |  |  |  |  |
+| се | се | reflexive pronoun |  |  | 3 |  |  |  |
+| озовах | озова | verb |  |  | 1 | past | indicative |  |
+| в | в | preposition |  |  |  |  |  |  |
+| една | един | pronoun | f. | sg. |  |  |  |  |
+| тъмна | тъмен | adjective | f. | sg. |  |  |  |  |
+| гора | гора | noun | f. | sg. |  |  |  |  |
+| защото | защото | conjunction |  |  |  |  |  |  |
+| правият | прав | adjective | m. | sg. |  |  |  |  |
+| път | път | noun | m. | sg. |  |  |  |  |
+| беше | бъда | verb |  |  | 3 | past | indicative |  |
+| изгубен | изгубен | adjective | m. | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ах, колко е трудно да се каже каква беше
+5 тази дива, груба и силна гора,
+6 която в мисълта ми отново поражда страх!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Ах | ах | interjection |  |  |  |  |  |  |
+| колко | колко | pronoun |  |  |  |  |  |  |
+| е | е | copula |  |  | 3 | present | indicative |  |
+| трудно | труден | adjective |  |  |  |  |  |  |
+| да | да | particle |  |  |  |  |  |  |
+| се | се | reflexive pronoun |  |  | 3 |  |  |  |
+| каже | кажа | verb |  |  | 3 | present | subjunctive |  |
+| каква | какъв | pronoun | f. | sg. |  |  |  |  |
+| беше | бъда | verb |  |  | 3 | past | indicative |  |
+| тази | този | pronoun | f. | sg. |  |  |  |  |
+| дива | див | adjective | f. | sg. |  |  |  |  |
+| груба | груб | adjective | f. | sg. |  |  |  |  |
+| и | и | conjunction |  |  |  |  |  |  |
+| силна | силен | adjective | f. | sg. |  |  |  |  |
+| гора | гора | noun | f. | sg. |  |  |  |  |
+| която | който | pronoun | f. | sg. |  |  |  | relative |
+| в | в | preposition |  |  |  |  |  |  |
+| мисълта | мисъл | noun | f. | sg. |  |  |  |  |
+| ми | ми | personal pronoun |  |  | 1 |  |  | dative |
+| отново | отново | adverb |  |  |  |  |  |  |
+| поражда | поражда | verb |  |  | 3 | present | indicative |  |
+| страх | страх | noun | m. | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Толкова е горчива, че малко е повече от смъртта;
+8 но за да разкажа за доброто, което там намерих,
+9 ще кажа за другите неща, които видях.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Толкова | толкова | adverb |  |  |  |  |  |  |
+| е | е | copula |  |  | 3 | present | indicative |  |
+| горчива | горчив | adjective | f. | sg. |  |  |  |  |
+| че | че | conjunction |  |  |  |  |  |  |
+| малко | малко | adverb |  |  |  |  |  |  |
+| е | е | copula |  |  | 3 | present | indicative |  |
+| повече | много | adverb |  |  |  | comparative |  |  |
+| от | от | preposition |  |  |  |  |  |  |
+| смъртта | смърт | noun | f. | sg. |  |  |  |  |
+| но | но | conjunction |  |  |  |  |  |  |
+| за | за | preposition |  |  |  |  |  |  |
+| да | да | particle |  |  |  |  |  |  |
+| разкажа | разкажа | verb |  |  | 1 | present | subjunctive |  |
+| за | за | preposition |  |  |  |  |  |  |
+| доброто | добър | adjective | n. | sg. |  |  |  |  |
+| което | който | pronoun | n. | sg. |  |  |  | relative |
+| там | там | adverb |  |  |  |  |  |  |
+| намерих | намеря | verb |  |  | 1 | past | indicative |  |
+| ще | ще | auxiliary verb |  |  |  | future | indicative |  |
+| кажа | кажа | verb |  |  | 1 | future | indicative |  |
+| за | за | preposition |  |  |  |  |  |  |
+| другите | друг | pronoun | m. | pl. |  |  |  |  |
+| неща | нещо | noun | n. | pl. |  |  |  |  |
+| които | който | pronoun | m. | pl. |  |  |  | relative |
+| видях | видя | verb |  |  | 1 | past | indicative |  |
+</result>
+</query>
+</queries>

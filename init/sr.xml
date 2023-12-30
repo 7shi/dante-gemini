@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Serbian (Latin).
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Na polovini puta našeg života
+9 reći ću o drugim stvarima koje sam tamo ugledao.
+28 Pošto sam malo odmorio umorno telo,
+67 Odgovori mi: „Nisam čovek, čovek sam nekada bio,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|Na|na|preposition||||||||
+|polovini|polovina|noun|f.|locative|sg.|||||
+|puta|put|noun|m.|genitive|sg.|||||
+|našeg|naš|adjective|m.|genitive|sg.||||possessive|
+|života|život|noun|m.|genitive|sg.|||||
+|reći|reći|verb||||1|future|indicative||
+|ću|ću|auxiliary verb||||1|future|indicative||
+|o|o|preposition||||||||
+|drugim|drugi|adjective|m.|instrumental|pl.|||||
+|stvarima|stvar|noun|f.|instrumental|pl.|||||
+|koje|koji|pronoun||accusative|pl.||||relative|
+|sam|sam|pronoun||nominative|sg.|1|||emphatic|
+|tamo|tamo|adverb||||||||
+|ugledao|ugledati|verb|m.|past participle|sg.||past|indicative||
+|Pošto|pošto|conjunction|||||||causal|
+|sam|sam|pronoun||nominative|sg.|1|||emphatic|
+|malo|malo|adverb||||||||
+|odmorio|odmoriti|verb|m.|past participle|sg.||past|indicative||
+|umorno|umoran|adjective|m.|accusative|sg.|||||
+|telo|telo|noun|n.|accusative|sg.|||||
+|Odgovori|odgovoriti|verb|m.|imperative|sg.|2||imperative||
+|mi|mi|pronoun||dative|sg.|1||||
+|Nisam|biti|verb||present|indicative|1|negative||contraction of "ni jesam"|
+|čovek|čovek|noun|m.|nominative|sg.|||||
+|čovek|čovek|noun|m.|nominative|sg.|||||
+|sam|sam|pronoun||nominative|sg.|1|||emphatic|
+|nekada|nekada|adverb||||||||
+|bio|biti|verb|m.|past participle|sg.||past|indicative||
+</result>
+</query>
+</queries>

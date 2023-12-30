@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Polish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 W połowie drogi naszego życia
+9 opowiem o innych rzeczach, które tam dostrzegłem.
+28 Kiedy nieco odpocząłem zmęczonym ciałem,
+67 Odpowiedział mi: „Nie człowiek, człowiekiem niegdyś byłem,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| W | w | preposition |  |  |  |  |  |  |  |
+| połowie | połowa | noun | f. | locative | sg. |  |  |  |  |
+| drogi | droga | noun | f. | genitive | sg. |  |  |  |  |
+| naszego | nasz | adjective | m. | genitive | sg. |  |  |  | possessive |
+| życia | życie | noun | n. | genitive | sg. |  |  |  |  |
+| opowiem | opowiadać | verb |  |  |  | 1 | future | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| innych | inny | adjective | m. | accusative | pl. |  |  |  |  |
+| rzeczach | rzecz | noun | f. | accusative | pl. |  |  |  |  |
+| które | który | pronoun |  | accusative | pl. |  |  |  | relative |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| dostrzegłem | dostrzegać | verb |  |  |  | 1 | past | indicative |  |
+| Kiedy | kiedy | conjunction |  |  |  |  |  |  |  |
+| nieco | nieco | adverb |  |  |  |  |  |  |  |
+| odpocząłem | odpoczywać | verb |  |  |  | 1 | past | indicative |  |
+| zmęczonym | zmęczony | adjective | m. | instrumental | sg. |  |  |  |  |
+| ciałem | ciało | noun | n. | instrumental | sg. |  |  |  |  |
+| Odpowiedział | odpowiadać | verb |  |  |  | 3 | past | indicative |  |
+| mi | ja | pronoun |  | dative | sg. |  |  |  |  |
+| Nie | nie | adverb |  |  |  |  |  |  | negation |
+| człowiek | człowiek | noun | m. | nominative | sg. |  |  |  |  |
+| człowiekiem | człowiek | noun | m. | instrumental | sg. |  |  |  |  |
+| niegdyś | niegdyś | adverb |  |  |  |  |  |  | archaic |
+| byłem | być | verb |  |  |  | 1 | past | indicative |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 W połowie drogi naszego życia
+2 znalazłem się w ciemnym lesie,
+3 bo prosta droga została zgubiona.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| W | w | preposition |  |  |  |  |  |  |  |
+| połowie | połowa | noun | f. | locative | sg. |  |  |  |  |
+| drogi | droga | noun | f. | genitive | sg. |  |  |  |  |
+| naszego | nasz | adjective | m. | genitive | sg. |  |  |  | possessive |
+| życia | życie | noun | n. | genitive | sg. |  |  |  |  |
+| znalazłem | znaleźć | verb |  |  |  | 1 | past | indicative |  |
+| się | się | reflexive particle |  |  |  |  |  |  |  |
+| w | w | preposition |  |  |  |  |  |  |  |
+| ciemnym | ciemny | adjective | m. | instrumental | sg. |  |  |  |  |
+| lesie | las | noun | m. | locative | sg. |  |  |  |  |
+| bo | bo | conjunction |  |  |  |  |  |  |  |
+| prosta | prosty | adjective | f. | nominative | sg. |  |  |  |  |
+| droga | droga | noun | f. | nominative | sg. |  |  |  |  |
+| została | zostać | verb |  |  |  | 3 | past | indicative | passive |
+| zgubiona | zgubić | verb |  |  |  | 3 | past | passive | participle |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ach, jak trudno powiedzieć, jaka była
+5 ta dzika, szorstka i twarda puszcza,
+6 która w myśli odnawia strach!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Ach | ach | interjection |  |  |  |  |  |  |  |
+| jak | jak | conjunction |  |  |  |  |  |  |  |
+| trudno | trudny | adjective |  |  |  |  |  |  |  |
+| powiedzieć | powiedzieć | verb |  |  |  |  | infinitive |  |  |
+| jaka | jaki | pronoun | f. | nominative | sg. |  |  |  |  |
+| była | być | verb |  |  |  | 3 | past | indicative |  |
+| ta | ten | pronoun | f. | nominative | sg. |  |  |  |  |
+| dzika | dziki | adjective | f. | nominative | sg. |  |  |  |  |
+| szorstka | szorstki | adjective | f. | nominative | sg. |  |  |  |  |
+| i | i | conjunction |  |  |  |  |  |  |  |
+| twarda | twardy | adjective | f. | nominative | sg. |  |  |  |  |
+| puszcza | puszcza | noun | f. | nominative | sg. |  |  |  |  |
+| która | który | pronoun | f. | nominative | sg. |  |  |  | relative |
+| w | w | preposition |  |  |  |  |  |  |  |
+| myśli | myśl | noun | f. | locative | sg. |  |  |  |  |
+| odnawia | odnawiać | verb |  |  |  | 3 | present | indicative |  |
+| strach | strach | noun | m. | accusative | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Jest tak gorzka, że niewiele bardziej śmierć;
+8 ale aby mówić o dobru, które tam znalazłem,
+9 opowiem o innych rzeczach, które tam dostrzegłem.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Jest | być | verb |  |  |  | 3 | present | indicative |  |
+| tak | tak | adverb |  |  |  |  |  |  |  |
+| gorzka | gorzki | adjective | f. | nominative | sg. |  |  |  |  |
+| że | że | conjunction |  |  |  |  |  |  |  |
+| niewiele | niewiele | adverb |  |  |  |  |  |  |  |
+| bardziej | bardziej | adverb |  |  |  |  |  |  | comparative |
+| śmierć | śmierć | noun | f. | nominative | sg. |  |  |  |  |
+| ale | ale | conjunction |  |  |  |  |  |  |  |
+| aby | aby | conjunction |  |  |  |  |  |  |  |
+| mówić | mówić | verb |  |  |  |  | infinitive |  |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| dobru | dobry | adjective | n. | locative | sg. |  |  |  |  |
+| które | który | pronoun | n. | accusative | sg. |  |  |  | relative |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| znalazłem | znaleźć | verb |  |  |  | 1 | past | indicative |  |
+| opowiem | opowiadać | verb |  |  |  | 1 | future | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| innych | inny | adjective | m. | accusative | pl. |  |  |  |  |
+| rzeczach | rzecz | noun | f. | accusative | pl. |  |  |  |  |
+| które | który | pronoun |  | accusative | pl. |  |  |  | relative |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| dostrzegłem | dostrzegać | verb |  |  |  | 1 | past | indicative |  |
+</result>
+</query>
+</queries>

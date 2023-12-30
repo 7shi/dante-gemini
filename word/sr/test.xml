@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Serbian (Latin).
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Na polovini puta našeg života
+9 reći ću o drugim stvarima koje sam tamo ugledao.
+28 Pošto sam malo odmorio umorno telo,
+67 Odgovori mi: „Nisam čovek, čovek sam nekada bio,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Na | na | preposition |  |  |  |  |  |  |  |
+| polovini | polovina | noun | f. | locative | sg. |  |  |  |  |
+| puta | put | noun | m. | genitive | sg. |  |  |  |  |
+| našeg | naš | adjective | m. | genitive | sg. |  |  |  | possessive |
+| života | život | noun | m. | genitive | sg. |  |  |  |  |
+| reći | reći | verb |  |  |  | 1 | future | indicative |  |
+| ću | ću | auxiliary verb |  |  |  | 1 | future | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| drugim | drugi | adjective | m. | instrumental | pl. |  |  |  |  |
+| stvarima | stvar | noun | f. | instrumental | pl. |  |  |  |  |
+| koje | koji | pronoun |  | accusative | pl. |  |  |  | relative |
+| sam | sam | pronoun |  | nominative | sg. | 1 |  |  | emphatic |
+| tamo | tamo | adverb |  |  |  |  |  |  |  |
+| ugledao | ugledati | verb | m. | past participle | sg. |  | past | indicative |  |
+| Pošto | pošto | conjunction |  |  |  |  |  |  | causal |
+| sam | sam | pronoun |  | nominative | sg. | 1 |  |  | emphatic |
+| malo | malo | adverb |  |  |  |  |  |  |  |
+| odmorio | odmoriti | verb | m. | past participle | sg. |  | past | indicative |  |
+| umorno | umoran | adjective | m. | accusative | sg. |  |  |  |  |
+| telo | telo | noun | n. | accusative | sg. |  |  |  |  |
+| Odgovori | odgovoriti | verb |  |  |  | 2 | imperative | imperative |  |
+| mi | mi | pronoun |  | dative | sg. | 1 |  |  |  |
+| Nisam | biti | verb |  | present | indicative | 1 | negative |  | contraction of "nijesam" |
+| čovek | čovek | noun | m. | nominative | sg. |  |  |  |  |
+| čovek | čovek | noun | m. | nominative | sg. |  |  |  |  |
+| sam | sam | pronoun |  | nominative | sg. | 1 |  |  | emphatic |
+| nekada | nekada | adverb |  |  |  |  |  |  |  |
+| bio | biti | verb | m. | past participle | sg. |  | past | indicative |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Na polovini puta našeg života
+2 našao sam se u mračnoj šumi,
+3 jer pravi put beše izgubljen.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Na | na | preposition |  |  |  |  |  |  |  |
+| polovini | polovina | noun | f. | locative | sg. |  |  |  |  |
+| puta | put | noun | m. | genitive | sg. |  |  |  |  |
+| našeg | naš | adjective | m. | genitive | sg. |  |  |  | possessive |
+| života | život | noun | m. | genitive | sg. |  |  |  |  |
+| našao | naći | verb | m. | past participle | sg. |  | past | indicative |  |
+| sam | sam | pronoun |  | nominative | sg. | 1 |  |  | emphatic |
+| se | se | reflexive pronoun |  | accusative | sg. | 3 |  |  |  |
+| u | u | preposition |  |  |  |  |  |  |  |
+| mračnoj | mračan | adjective | f. | locative | sg. |  |  |  |  |
+| šumi | šuma | noun | f. | locative | sg. |  |  |  |  |
+| jer | jer | conjunction |  |  |  |  |  |  | causal |
+| pravi | pravi | adjective | m. | nominative | sg. |  |  |  |  |
+| put | put | noun | m. | nominative | sg. |  |  |  |  |
+| beše | biti | verb |  | imperfect | 3 |  |  |  | archaic |
+| izgubljen | izgubiti | verb | m. | past participle | sg. |  | past | indicative |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ah, kako je teško reći kakva je bila
+5 ova divlja, surova i jaka šuma
+6 koja u mislima ponovo budi strah!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Ah | ah | interjection |  |  |  |  |  |  |  |
+| kako | kako | adverb |  |  |  |  |  |  |  |
+| je | biti | verb |  | present | 3 |  |  | indicative |  |
+| teško | težak | adjective |  |  |  |  |  |  |  |
+| reći | reći | verb |  |  |  | 1 | future | indicative |  |
+| kakva | kakav | pronoun | f. | nominative | sg. |  |  |  |  |
+| je | biti | verb |  | present | 3 |  |  | indicative |  |
+| bila | biti | verb | f. | past participle | sg. |  | past | indicative |  |
+| ova | ovaj | pronoun | f. | nominative | sg. |  |  |  |  |
+| divlja | divlji | adjective | f. | nominative | sg. |  |  |  |  |
+| surova | surov | adjective | f. | nominative | sg. |  |  |  |  |
+| i | i | conjunction |  |  |  |  |  |  |  |
+| jaka | jak | adjective | f. | nominative | sg. |  |  |  |  |
+| šuma | šuma | noun | f. | nominative | sg. |  |  |  |  |
+| koja | koji | pronoun | f. | nominative | sg. |  |  |  | relative |
+| u | u | preposition |  |  |  |  |  |  |  |
+| mislima | misao | noun | f. | locative | pl. |  |  |  |  |
+| ponovo | ponovo | adverb |  |  |  |  |  |  |  |
+| budi | buditi | verb |  | present | 3 |  |  | indicative |  |
+| strah | strah | noun | m. | accusative | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Toliko je gorka da je malo više od smrti;
+8 ali da bih govorio o dobru koje sam tamo našao,
+9 reći ću o drugim stvarima koje sam tamo ugledao.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Toliko | toliko | adverb |  |  |  |  |  |  |  |
+| je | biti | verb |  | present | 3 |  |  | indicative |  |
+| gorka | gorak | adjective | f. | nominative | sg. |  |  |  |  |
+| da | da | conjunction |  |  |  |  |  |  |  |
+| je | biti | verb |  | present | 3 |  |  | indicative |  |
+| malo | malo | adverb |  |  |  |  |  |  |  |
+| više | više | adverb |  |  |  |  |  |  | comparative |
+| od | od | preposition |  |  |  |  |  |  |  |
+| smrti | smrt | noun | f. | genitive | sg. |  |  |  |  |
+| ali | ali | conjunction |  |  |  |  |  |  |  |
+| da | da | conjunction |  |  |  |  |  |  |  |
+| bih | biti | verb |  | conditional | 1 |  |  | conditional |  |
+| govorio | govoriti | verb | m. | past participle | sg. |  | past | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| dobru | dobar | adjective | n. | locative | sg. |  |  |  |  |
+| koje | koji | pronoun | n. | accusative | sg. |  |  |  | relative |
+| sam | sam | pronoun |  | nominative | sg. | 1 |  |  | emphatic |
+| tamo | tamo | adverb |  |  |  |  |  |  |  |
+| našao | naći | verb | m. | past participle | sg. |  | past | indicative |  |
+| reći | reći | verb |  |  |  | 1 | future | indicative |  |
+| ću | ću | auxiliary verb |  |  |  | 1 | future | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| drugim | drugi | adjective | m. | instrumental | pl. |  |  |  |  |
+| stvarima | stvar | noun | f. | instrumental | pl. |  |  |  |  |
+| koje | koji | pronoun |  | accusative | pl. |  |  |  | relative |
+| sam | sam | pronoun |  | nominative | sg. | 1 |  |  | emphatic |
+| tamo | tamo | adverb |  |  |  |  |  |  |  |
+| ugledao | ugledati | verb | m. | past participle | sg. |  | past | indicative |  |
+</result>
+</query>
+</queries>

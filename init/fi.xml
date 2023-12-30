@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Finnish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Puolivälissä elämämme matkaa
+9 kerron muista asioista, joita siellä näin.
+28 Kun olin levännyt hieman väsynyttä ruumistani,
+67 Hän vastasi minulle: ”En ole ihminen, ihminen minä joskus olin,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|
+|Puolivälissä|puolivälissä|adverb|||||||
+|elämämme|elämä|noun|genitive|sg.|||||
+|matkaa|matka|noun|partitive|sg.|||||
+|kerron|kertoa|verb||sg.|1|present|indicative||
+|muista|muu|adjective|pl.||||||
+|asioista|asia|noun|pl.||||||
+|joita|joka|pronoun|accusative|pl.|||||
+|siellä|siellä|adverb|||||||
+|näin|nähdä|verb||sg.|1|past|indicative||
+|Kun|kun|conjunction|||||||
+|olin|olla|verb||sg.|1|past|indicative||
+|levännyt|levätä|verb||sg.||past participle|||
+|hieman|hieman|adverb|||||||
+|väsynyttä|väsynyt|adjective|accusative|sg.|||||
+|ruumistani|ruumis|noun|partitive|sg.|||||
+|Hän|hän|pronoun|nominative|sg.|3||||
+|vastasi|vastata|verb||sg.|3|past|indicative||
+|minulle|minä|pronoun|dative|sg.|1||||
+|En|ei|verb||sg.|1|present|indicative|contracted|
+|ole|olla|verb||sg.|1|present|indicative||
+|ihminen|ihminen|noun|nominative|sg.|||||
+|ihminen|ihminen|noun|nominative|sg.|||||
+|minä|minä|pronoun|nominative|sg.|1st person||||
+|joskus|joskus|adverb|||||||
+|olin|olla|verb||sg.|1|past|indicative||
+</result>
+</query>
+</queries>

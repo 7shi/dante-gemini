@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Slovene.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Sredi poti našega življenja
+9 bom povedal o drugih stvareh, ki sem jih tam uzrl.
+28 Ko sem nekoliko odpočil utrujeno telo,
+67 Odgovoril mi je: »Nisem človek, človek sem že bil,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Sredi | sredi | preposition |  |  |  |  |  |  |  |
+| poti | pot | noun | f. | genitive | sg. |  |  |  |  |
+| našega | naš | adjective | m. | genitive | sg. |  |  |  | possessive |
+| življenja | življenje | noun | n. | genitive | sg. |  |  |  |  |
+| bom | biti | verb |  |  |  | 1 | future | indicative |  |
+| povedal | povedati | verb |  |  |  | 1 | past | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| drugih | drug | adjective | m. | genitive | pl. |  |  |  |  |
+| stvareh | stvar | noun | f. | locative | pl. |  |  |  |  |
+| ki | ki | pronoun |  |  |  |  |  |  | relative |
+| sem | biti | verb |  |  |  | 1 | present | indicative |  |
+| jih | on | pronoun | m. | accusative | pl. |  |  |  |  |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| uzrl | uzreti | verb |  |  |  | 1 | past | indicative |  |
+| Ko | ko | conjunction |  |  |  |  |  |  |  |
+| sem | biti | verb |  |  |  | 1 | past | indicative |  |
+| nekoliko | nekoliko | adverb |  |  |  |  |  |  |  |
+| odpočil | odpočiti | verb |  |  |  | 1 | past | indicative |  |
+| utrujeno | utrujen | adjective | n. | accusative | sg. |  |  |  |  |
+| telo | telo | noun | n. | accusative | sg. |  |  |  |  |
+| Odgovoril | odgovoriti | verb |  |  |  | 1 | past | indicative |  |
+| mi | jaz | pronoun |  | dative | sg. |  |  |  |  |
+| je | biti | verb |  |  |  | 3 | present | indicative |  |
+| Nisem | biti | verb |  |  |  | 1 | present | indicative | negated |
+| človek | človek | noun | m. | nominative | sg. |  |  |  |  |
+| človek | človek | noun | m. | nominative | sg. |  |  |  |  |
+| sem | biti | verb |  |  |  | 1 | present | indicative |  |
+| že | že | adverb |  |  |  |  |  |  |  |
+| bil | biti | verb |  |  |  | 1 | past | indicative |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Sredi poti našega življenja
+2 sem se znašel v temnem gozdu,
+3 ker je bila prava pot izgubljena.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Sredi | sredi | preposition |  |  |  |  |  |  |  |
+| poti | pot | noun | f. | genitive | sg. |  |  |  |  |
+| našega | naš | adjective | m. | genitive | sg. |  |  |  | possessive |
+| življenja | življenje | noun | n. | genitive | sg. |  |  |  |  |
+| sem | biti | verb |  |  |  | 1 | past | indicative |  |
+| se | se | pronoun |  | accusative | sg. |  |  |  | reflexive |
+| znašel | znajti | verb |  |  |  | 1 | past | indicative |  |
+| v | v | preposition |  | accusative |  |  |  |  |  |
+| temnem | temen | adjective | m. | locative | sg. |  |  |  |  |
+| gozdu | gozd | noun | m. | locative | sg. |  |  |  |  |
+| ker | ker | conjunction |  |  |  |  |  |  |  |
+| je | biti | verb |  |  |  | 3 | present | indicative |  |
+| bila | biti | verb | f. | nominative | sg. |  | past | indicative |  |
+| prava | prav | adjective | f. | nominative | sg. |  |  |  |  |
+| pot | pot | noun | f. | nominative | sg. |  |  |  |  |
+| izgubljena | izgubiti | verb | f. | nominative | sg. |  | past | indicative | passive |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ah, kako težko je povedati, kakšen je bil
+5 ta divji in grob in trd gozd,
+6 ki v mislih znova obudi strah!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Ah | ah | interjection |  |  |  |  |  |  |  |
+| kako | kako | adverb |  |  |  |  |  |  |  |
+| težko | težak | adjective | n. | nominative | sg. |  |  |  |  |
+| je | biti | verb |  |  |  | 3 | present | indicative |  |
+| povedati | povedati | verb |  |  |  |  | infinitive |  |  |
+| kakšen | kakšen | adjective | m. | nominative | sg. |  |  |  |  |
+| je | biti | verb |  |  |  | 3 | present | indicative |  |
+| bil | biti | verb | m. | nominative | sg. |  | past | indicative |  |
+| ta | ta | pronoun | m. | nominative | sg. |  |  |  | demonstrative |
+| divji | divji | adjective | m. | nominative | sg. |  |  |  |  |
+| in | in | conjunction |  |  |  |  |  |  |  |
+| grob | grob | adjective | m. | nominative | sg. |  |  |  |  |
+| in | in | conjunction |  |  |  |  |  |  |  |
+| trd | trd | adjective | m. | nominative | sg. |  |  |  |  |
+| gozd | gozd | noun | m. | nominative | sg. |  |  |  |  |
+| ki | ki | pronoun |  |  |  |  |  |  | relative |
+| v | v | preposition |  | accusative |  |  |  |  |  |
+| mislih | misel | noun | f. | locative | pl. |  |  |  |  |
+| znova | znova | adverb |  |  |  |  |  |  |  |
+| obudi | obuditi | verb |  |  |  | 3 | present | indicative |  |
+| strah | strah | noun | m. | accusative | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Tako grenak je, da je malo hujša smrt;
+8 toda da bi govoril o dobrem, ki sem ga tam našel,
+9 bom povedal o drugih stvareh, ki sem jih tam uzrl.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Tako | tako | adverb |  |  |  |  |  |  |  |
+| grenak | grenak | adjective | m. | nominative | sg. |  |  |  |  |
+| je | biti | verb |  |  |  | 3 | present | indicative |  |
+| da | da | conjunction |  |  |  |  |  |  |  |
+| je | biti | verb |  |  |  | 3 | present | indicative |  |
+| malo | malo | adverb |  |  |  |  |  |  |  |
+| hujša | hud | adjective | f. | nominative | sg. |  | comparative |  |  |
+| smrt | smrt | noun | f. | nominative | sg. |  |  |  |  |
+| toda | toda | conjunction |  |  |  |  |  |  |  |
+| da | da | conjunction |  |  |  |  |  |  |  |
+| bi | biti | verb |  |  |  | 1 | conditional |  |  |
+| govoril | govoriti | verb |  |  |  | 1 | past | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| dobrem | dober | adjective | n. | locative | sg. |  |  |  |  |
+| ki | ki | pronoun |  |  |  |  |  |  | relative |
+| sem | biti | verb |  |  |  | 1 | past | indicative |  |
+| ga | on | pronoun | m. | accusative | sg. |  |  |  |  |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| našel | najti | verb |  |  |  | 1 | past | indicative |  |
+| bom | biti | verb |  |  |  | 1 | future | indicative |  |
+| povedal | povedati | verb |  |  |  | 1 | past | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| drugih | drug | adjective | m. | genitive | pl. |  |  |  |  |
+| stvareh | stvar | noun | f. | locative | pl. |  |  |  |  |
+| ki | ki | pronoun |  |  |  |  |  |  | relative |
+| sem | biti | verb |  |  |  | 1 | past | indicative |  |
+| jih | on | pronoun | m. | accusative | pl. |  |  |  |  |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| uzrl | uzreti | verb |  |  |  | 1 | past | indicative |  |
+</result>
+</query>
+</queries>

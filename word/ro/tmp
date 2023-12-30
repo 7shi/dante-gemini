@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+The preposition Lemma fused with the article separates the article.
+Examples: într-o = în + o, într-un = în + un
+</prompt>
+<result>
+This phenomenon is called crasis.
+
+Here are some more examples of crasis in Romanian:
+
+* dintr-o = din + o
+* dintr-un = din + un
+</result>
+</query>
+<query>
+<prompt>
+Create a word table showing the Lemma for each word. The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma. In such cases, only the verb information should be written in the other columns.
+
+1 În mijlocul călătoriei vieții noastre
+9 voi spune despre celelalte lucruri pe care le-am zărit acolo.
+28 După ce și-a odihnit puțin trupul obosit,
+67 Mi-a răspuns: „Nu om, om am fost odată,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| În | în | preposition | | | | | | |
+| mijlocul | mijloc | noun | masculine | singular | | | | |
+| călătoriei | călătorie | noun | feminine | singular | | | | |
+| vieții | viață | noun | feminine | singular | | | | |
+| noastre | nostru | adjective | feminine | plural | | | | possessive |
+| voi | voi | pronoun | | | 1st | future | indicative | |
+| spune | spune | verb | | | 1st | future | indicative | |
+| despre | despre | preposition | | | | | | |
+| celelalte | celălalt | adjective | neuter | plural | | | | |
+| lucruri | lucru | noun | neuter | plural | | | | |
+| pe | pe | preposition | | | | | | |
+| care | care | pronoun | | | | | | relative |
+| le-am | le | pronoun | | | 1st | past | indicative | enclitic |
+| zărit | zări | verb | | | 1st | past | indicative | |
+| acolo | acolo | adverb | | | | | | |
+| După | după | preposition | | | | | | |
+| ce | ce | pronoun | | | | | | interrogative |
+| și-a | se | pronoun | | | 3rd | past | indicative | reflexive |
+| odihnit | odihni | verb | | | 3rd | past | indicative | |
+| puțin | puțin | adverb | | | | | | |
+| trupul | trup | noun | masculine | singular | | | | |
+| obosit | obosit | adjective | masculine | singular | | | | |
+| Mi-a | mi | pronoun | | | 1st | past | indicative | enclitic |
+| răspuns | răspunde | verb | | | 3rd | past | indicative | |
+| Nu | nu | adverb | | | | | | negation |
+| om | om | noun | masculine | singular | | | | |
+| om | om | noun | masculine | singular | | | | |
+| am | avea | verb | | | 1st | past | indicative | auxiliary |
+| fost | fi | verb | | | 1st | past | participle | |
+| odată | odată | adverb | | | | | | |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 În mijlocul călătoriei vieții noastre
+2 m-am trezit într-o pădure întunecată,
+3 căci calea cea dreaptă era pierdută.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| În | în | preposition | | | | | | |
+| mijlocul | mijloc | noun | masculine | singular | | | | |
+| călătoriei | călătorie | noun | feminine | singular | | | | |
+| vieții | viață | noun | feminine | singular | | | | |
+| noastre | nostru | adjective | feminine | plural | | | | possessive |
+| m-am | mă | pronoun | | | 1st | past | indicative | enclitic |
+| trezit | trezi | verb | | | 1st | past | indicative | |
+| într-o | în + o | preposition + article | feminine | singular | | | | contraction |
+| pădure | pădure | noun | feminine | singular | | | | |
+| întunecată | întunecat | adjective | feminine | singular | | | | |
+| căci | căci | conjunction | | | | | | causal |
+| calea | cale | noun | feminine | singular | | | | |
+| cea | cel | adjective | feminine | singular | | | | definite |
+| dreaptă | drept | adjective | feminine | singular | | | | |
+| era | fi | verb | | | 3rd | past | indicative | imperfect |
+| pierdută | pierde | verb | | | 3rd | past | participle | |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ah, cât de greu este de spus cum era
+5 această pădure sălbatică, aspră și puternică,
+6 care în gând reînnoiește frica!
+
+7 Atât de amară este, încât puțin mai mult este moartea;
+8 dar pentru a trata despre binele pe care l-am găsit acolo,
+9 voi spune despre celelalte lucruri pe care le-am zărit acolo.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Ah | ah | interjection | | | | | | exclamation |
+| cât | cât | adverb | | | | | | interrogative |
+| de | de | preposition | | | | | | |
+| greu | greu | adjective | | | | | | |
+| este | fi | verb | | | 3rd | present | indicative | |
+| de | de | preposition | | | | | | |
+| spus | spune | verb | | | 3rd | past | participle | |
+| cum | cum | adverb | | | | | | interrogative |
+| era | fi | verb | | | 3rd | past | indicative | imperfect |
+| această | acesta | adjective | feminine | singular | | | | demonstrative |
+| pădure | pădure | noun | feminine | singular | | | | |
+| sălbatică | sălbatic | adjective | feminine | singular | | | | |
+| aspră | aspră | adjective | feminine | singular | | | | |
+| și | și | conjunction | | | | | | coordinating |
+| puternică | puternic | adjective | feminine | singular | | | | |
+| care | care | pronoun | | | | | | relative |
+| în | în | preposition | | | | | | |
+| gând | gând | noun | masculine | singular | | | | |
+| reînnoiește | reînnoi | verb | | | 3rd | present | indicative | |
+| frica | frică | noun | feminine | singular | | | | |
+| Atât | atât | adverb | | | | | | degree |
+| de | de | preposition | | | | | | |
+| amară | amar | adjective | feminine | singular | | | | |
+| este | fi | verb | | | 3rd | present | indicative | |
+| încât | încât | conjunction | | | | | | concessive |
+| puțin | puțin | adverb | | | | | | degree |
+| mai | mai | adverb | | | | | | degree |
+| mult | mult | adverb | | | | | | degree |
+| este | fi | verb | | | 3rd | present | indicative | |
+| moartea | moarte | noun | feminine | singular | | | | |
+| dar | dar | conjunction | | | | | | adversative |
+| pentru | pentru | preposition | | | | | | |
+| a | a | preposition | | | | | | |
+| trata | trata | verb | | | 3rd | infinitive | | |
+| despre | despre | preposition | | | | | | |
+| binele | bine | noun | masculine | singular | | | | |
+| pe | pe | preposition | | | | | | |
+| care | care | pronoun | | | | | | relative |
+| l-am | l | pronoun | | | 1st | past | indicative | enclitic |
+| găsit | găsi | verb | | | 1st | past | participle | |
+| acolo | acolo | adverb | | | | | | place |
+| voi | voi | pronoun | | | 1st | future | indicative | |
+| spune | spune | verb | | | 1st | future | indicative | |
+| despre | despre | preposition | | | | | | |
+| celelalte | celălalt | adjective | neuter | plural | | | | |
+| lucruri | lucru | noun | neuter | plural | | | | |
+| pe | pe | preposition | | | | | | |
+| care | care | pronoun | | | | | | relative |
+| le-am | le | pronoun | | | 1st | past | indicative | enclitic |
+| zărit | zări | verb | | | 1st | past | indicative | |
+| acolo | acolo | adverb | | | | | | place |
+</result>
+</query>
+</queries>

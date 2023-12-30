@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Ukrainian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 На середині шляху нашого життя
+9 я розповім про інші речі, які я там побачив.
+28 Коли я трохи відпочив своє втомлене тіло,
+67 Він відповів мені: «Не людина, людиною я колись був,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| На | на | preposition |  |  |  |  |  |  |  |
+| середині | середина | noun | f. | locative | sg. |  |  |  |  |
+| шляху | шлях | noun | m. | genitive | sg. |  |  |  |  |
+| нашого | наш | pronoun | m. | genitive | sg. |  |  |  | possessive |
+| життя | життя | noun | n. | genitive | sg. |  |  |  |  |
+| я | я | pronoun |  | nominative | sg. | 1 |  |  |  |
+| розповім | розповісти | verb |  | future | 1 |  | indicative |  |  |
+| про | про | preposition |  |  |  |  |  |  |  |
+| інші | інший | pronoun |  | accusative | pl. |  |  |  |  |
+| речі | річ | noun | f. | accusative | pl. |  |  |  |  |
+| які | який | pronoun |  | accusative | pl. |  |  |  | relative |
+| я | я | pronoun |  | nominative | sg. | 1 |  |  |  |
+| там | там | adverb |  |  |  |  |  |  |  |
+| побачив | побачити | verb |  | past | 1 |  | indicative |  |  |
+| Коли | коли | conjunction |  |  |  |  |  |  |  |
+| я | я | pronoun |  | nominative | sg. | 1 |  |  |  |
+| трохи | трохи | adverb |  |  |  |  |  |  |  |
+| відпочив | відпочити | verb |  | past | 1 |  | indicative |  |  |
+| своє | свій | pronoun | n. | accusative | sg. |  |  |  | possessive |
+| втомлене | втомлений | adjective | n. | accusative | sg. |  |  |  |  |
+| тіло | тіло | noun | n. | accusative | sg. |  |  |  |  |
+| Він | він | pronoun | m. | nominative | sg. | 3 |  |  |  |
+| відповів | відповісти | verb |  | past | 3 |  | indicative |  |  |
+| мені | я | pronoun |  | dative | sg. | 1 |  |  |  |
+| Не | не | particle |  |  |  |  |  |  | negation |
+| людина | людина | noun | f. | nominative | sg. |  |  |  |  |
+| людиною | людина | noun | f. | instrumental | sg. |  |  |  |  |
+| я | я | pronoun |  | nominative | sg. | 1 |  |  |  |
+| колись | колись | adverb |  |  |  |  |  |  |  |
+| був | бути | verb | m. | past | 3 |  | indicative |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 На середині шляху нашого життя
+2 я опинився в темному лісі,
+3 бо правильний шлях був загублений.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| На | на | preposition |  |  |  |  |  |  |  |
+| середині | середина | noun | f. | locative | sg. |  |  |  |  |
+| шляху | шлях | noun | m. | genitive | sg. |  |  |  |  |
+| нашого | наш | pronoun | m. | genitive | sg. |  |  |  | possessive |
+| життя | життя | noun | n. | genitive | sg. |  |  |  |  |
+| я | я | pronoun |  | nominative | sg. | 1 |  |  |  |
+| опинився | опинитися | verb |  | past | 1 |  | indicative |  |  |
+| в | в | preposition |  |  |  |  |  |  |  |
+| темному | темний | adjective | m. | locative | sg. |  |  |  |  |
+| лісі | ліс | noun | m. | locative | sg. |  |  |  |  |
+| бо | бо | conjunction |  |  |  |  |  |  |  |
+| правильний | правильний | adjective | m. | nominative | sg. |  |  |  |  |
+| шлях | шлях | noun | m. | nominative | sg. |  |  |  |  |
+| був | бути | verb | m. | past | 3 |  | indicative |  |  |
+| загублений | загубити | verb | m. | past passive | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ох, як важко розповісти, яким був
+5 цей дикий ліс, суворий і міцний,
+6 що в думках відновлює страх!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Ох | ох | interjection |  |  |  |  |  |  |  |
+| як | як | conjunction |  |  |  |  |  |  |  |
+| важко | важкий | adjective |  |  |  |  |  |  |  |
+| розповісти | розповісти | verb |  | infinitive |  |  |  |  |  |
+| яким | який | pronoun | m. | instrumental | sg. |  |  |  |  |
+| був | бути | verb | m. | past | 3 |  | indicative |  |  |
+| цей | цей | pronoun | m. | nominative | sg. |  |  |  | demonstrative |
+| дикий | дикий | adjective | m. | nominative | sg. |  |  |  |  |
+| ліс | ліс | noun | m. | nominative | sg. |  |  |  |  |
+| суворий | суворий | adjective | m. | nominative | sg. |  |  |  |  |
+| і | і | conjunction |  |  |  |  |  |  |  |
+| міцний | міцний | adjective | m. | nominative | sg. |  |  |  |  |
+| що | що | pronoun |  | nominative | sg. |  |  |  | relative |
+| в | в | preposition |  |  |  |  |  |  |  |
+| думках | думка | noun | f. | locative | pl. |  |  |  |  |
+| відновлює | відновити | verb |  | present | 3 |  | indicative |  |  |
+| страх | страх | noun | m. | accusative | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Він такий гіркий, що трохи більше смерті;
+8 але щоб розповісти про добро, яке я там знайшов,
+9 я розповім про інші речі, які я там побачив.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Він | він | pronoun | m. | nominative | sg. | 3 |  |  |  |
+| такий | такий | pronoun | m. | nominative | sg. |  |  |  |  |
+| гіркий | гіркий | adjective | m. | nominative | sg. |  |  |  |  |
+| що | що | conjunction |  |  |  |  |  |  |  |
+| трохи | трохи | adverb |  |  |  |  |  |  |  |
+| більше | більше | adverb |  |  |  |  |  |  | comparative |
+| смерті | смерть | noun | f. | genitive | sg. |  |  |  |  |
+| але | але | conjunction |  |  |  |  |  |  |  |
+| щоб | щоб | conjunction |  |  |  |  |  |  |  |
+| розповісти | розповісти | verb |  | infinitive |  |  |  |  |  |
+| про | про | preposition |  |  |  |  |  |  |  |
+| добро | добро | noun | n. | accusative | sg. |  |  |  |  |
+| яке | який | pronoun | n. | accusative | sg. |  |  |  | relative |
+| я | я | pronoun |  | nominative | sg. | 1 |  |  |  |
+| там | там | adverb |  |  |  |  |  |  |  |
+| знайшов | знайти | verb | m. | past | 1 |  | indicative |  |  |
+| я | я | pronoun |  | nominative | sg. | 1 |  |  |  |
+| розповім | розповісти | verb |  | future | 1 |  | indicative |  |  |
+| про | про | preposition |  |  |  |  |  |  |  |
+| інші | інший | pronoun |  | accusative | pl. |  |  |  |  |
+| речі | річ | noun | f. | accusative | pl. |  |  |  |  |
+| які | який | pronoun |  | accusative | pl. |  |  |  | relative |
+| я | я | pronoun |  | nominative | sg. | 1 |  |  |  |
+| там | там | adverb |  |  |  |  |  |  |  |
+| побачив | побачити | verb |  | past | 1 |  | indicative |  |  |
+</result>
+</query>
+</queries>

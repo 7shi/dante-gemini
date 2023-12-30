@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Danish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 På livets halve vej
+9 vil jeg fortælle om de andre ting, jeg så der.
+28 Da jeg havde hvilet min trætte krop lidt,
+67 Han svarede mig: «Ikke et menneske, et menneske var jeg engang,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Number|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|
+|På|på|preposition||||||
+|livets|liv|noun|n.|sg.||||
+|halve|halv|adjective||sg.||||
+|vej|vej|noun|f.|sg.||||
+|vil|ville|verb|||future|indicative||
+|jeg|jeg|pronoun||sg.||||
+|fortælle|fortælle|verb|||present|infinitive||
+|om|om|preposition|||||
+|de|de|pronoun||pl.||||
+|andre|anden|adjective||pl.||||
+|ting|ting|noun|f.|pl.||||
+|jeg|jeg|pronoun||sg.||||
+|så|se|verb|||past|indicative||
+|der|der|adverb||||||
+|Da|da|conjunction||||||
+|jeg|jeg|pronoun||sg.||||
+|havde|have|verb|||past|indicative||
+|hvilet|hvile|verb|||past|participle||
+|min|min|pronoun||sg.||||
+|trætte|træt|adjective||sg.||||
+|krop|krop|noun|f.|sg.||||
+|lidt|lidt|adverb||||||
+|Han|han|pronoun|m.|sg.||||
+|svarede|svare|verb|||past|indicative||
+|mig|mig|pronoun||sg.||||
+|Ikke|ikke|adverb||||||
+|et|en|indefinite article|n.|sg.||||
+|menneske|menneske|noun|n.|sg.||||
+|et|en|indefinite article|n.|sg.||||
+|menneske|menneske|noun|n.|sg.||||
+|var|være|verb|||past|indicative||
+|jeg|jeg|pronoun||sg.||||
+|engang|engang|adverb||||||
+</result>
+</query>
+</queries>

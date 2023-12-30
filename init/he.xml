@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Hebrew.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Roman (Word), Lemma, Roman (Lemma), Part of Speech, Gender, Case, Number, Person, Tense and Note.
+
+* Lemma means the dictionary headword form.
+* Leave blank if not applicable.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded.
+
+1 באמצע דרך חיינו
+9 אספר על הדברים האחרים שראיתי בו.
+28 לאחר שהנחתי מעט את גופי העייף,
+67 הוא ענה לי: "לא אדם, אדם הייתי פעם,
+</prompt>
+<result>
+|word|roman (word)|lemma|roman (lemma)|part of speech|gender|case|number|person|tense|note|
+|---|---|---|---|---|---|---|---|---|---|---|
+|באמצע|be'emtza|בְּאֶמְצַע|bə'emtza|preposition|||||||
+|דרך|derekh|דֶּרֶךְ|derekh|noun|f.||sg.||||
+|חיינו|khayenu|חַיֵּינוּ|khayeynu|noun|m.|construct|dual||||
+|אספר|aseper|סָפַר|saper|verb|||sg.|1|future||
+|על|al|עַל|al|preposition|||||||
+|הדברים|hadevarim|הַדְּבָרִים|hadevarim|noun|m.|nominative|pl.||||
+|האחרים|ha'akharim|הָאַחֵרִים|ha'akharim|adjective|m.|nominative|pl.||||
+|שראיתי|sherayiti|רָאָה|ra'ah|verb|||sg.|1|past||
+|בו|bo|בּוֹ|bo|pronoun|m.|accusative|sg.|3|||
+|לאחר|le'akhar|לְאַחַר|le'akhar|preposition|||||||
+|שהנחתי|shehenakhti|נָחַת|nakhat|verb|||sg.|1|past||
+|מעט|meat|מְעַט|meat|adverb|||||||
+|את|et|אֶת|et|preposition|||||||
+|גופי|gufi|גּוּפִי|gufi|noun|m.|construct|sg.|1|||
+|העייף|ha'ayef|הָעָיֵף|ha'ayef|adjective|m.|nominative|sg.||||
+|הוא|hu|הוּא|hu|pronoun|m.|nominative|sg.|3|||
+|ענה|anah|עָנָה|anah|verb|||sg.|3|past||
+|לי|li|לִי|li|pronoun||dative|sg.|1|||
+|לא|lo|לֹא|lo|negation|||||||
+|אדם|adam|אָדָם|adam|noun|m.|nominative|sg.||||
+|אדם|adam|אָדָם|adam|noun|m.|nominative|sg.||||
+|הייתי|hayiti|הָיָה|haya|verb|||sg.|1|past||
+|פעם|pa'am|פַּעַם|pa'am|noun|f.|nominative|sg.||||
+</result>
+</query>
+</queries>

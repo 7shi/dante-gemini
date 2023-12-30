@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Estonian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Meie elutee poolel
+9 siis räägin ma teistest asjadest, mida ma seal nägin.
+28 Kui ma olin oma väsinud keha veidi puhanud,
+67 Ta vastas mulle: «Mitte inimene, inimene ma kunagi olin,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Meie | meie | pronoun | nominative | pl. | 1 |  |  |  |
+| elutee | elutee | noun | nominative | sg. |  |  |  |  |
+| poolel | pool | noun | adessive | sg. |  |  |  |  |
+| siis | siis | adverb |  |  |  |  |  |  |
+| räägin | rääkima | verb | 1 | sg. |  | present | indicative |  |
+| ma | mina | pronoun | nominative | sg. | 1 |  |  |  |
+| teistest | teine | pronoun | ablative | pl. |  |  |  |  |
+| asjadest | asi | noun | ablative | pl. |  |  |  |  |
+| mida | mis | pronoun | accusative | sg. |  |  |  |  |
+| ma | mina | pronoun | nominative | sg. | 1 |  |  |  |
+| seal | seal | adverb |  |  |  |  |  |  |
+| nägin | nägema | verb | 1 | sg. |  | past | indicative |  |
+| Kui | kui | conjunction |  |  |  |  |  |  |
+| ma | mina | pronoun | nominative | sg. | 1 |  |  |  |
+| olin | olema | verb | 1 | sg. |  | past | indicative |  |
+| oma | oma | pronoun | genitive | sg. |  |  |  |  |
+| väsinud | väsima | verb | past participle | sg. |  |  |  |  |
+| keha | keha | noun | accusative | sg. |  |  |  |  |
+| veidi | veidi | adverb |  |  |  |  |  |  |
+| puhanud | puhkama | verb | past participle | sg. |  |  |  |  |
+| Ta | ta | pronoun | nominative | sg. | 3 |  |  |  |
+| vastas | vastama | verb | 3 | sg. |  | past | indicative |  |
+| mulle | mina | pronoun | dative | sg. | 1 |  |  |  |
+| Mitte | mitte | adverb |  |  |  |  |  |  |
+| inimene | inimene | noun | nominative | sg. |  |  |  |  |
+| inimene | inimene | noun | nominative | sg. |  |  |  |  |
+| ma | mina | pronoun | nominative | sg. | 1 |  |  |  |
+| kunagi | kunagi | adverb |  |  |  |  |  |  |
+| olin | olema | verb | 1 | sg. |  | past | indicative |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Meie elutee poolel
+2 leidsin end pimedast metsast,
+3 sest õige tee oli kadunud.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Meie | meie | pronoun | nominative | pl. | 1 |  |  |  |
+| elutee | elutee | noun | nominative | sg. |  |  |  |  |
+| poolel | pool | noun | adessive | sg. |  |  |  |  |
+| leidsin | leidma | verb | 1 | sg. |  | past | indicative |  |
+| end | ennast | pronoun | accusative | sg. | 3 |  |  | reflexive |
+| pimedast | pime | adjective | ablative | sg. |  |  |  |  |
+| metsast | mets | noun | ablative | sg. |  |  |  |  |
+| sest | sest | conjunction |  |  |  |  |  |  |
+| õige | õige | adjective | nominative | sg. |  |  |  |  |
+| tee | tee | noun | nominative | sg. |  |  |  |  |
+| oli | olema | verb | 3 | sg. |  | past | indicative |  |
+| kadunud | kaduma | verb | past participle | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Oh, kui raske on sulle öelda,
+5 kui metsik, jäme ja raske oli see mets,
+6 mis mõttes hirmutades seda meelde tuletab!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Oh | oh | interjection |  |  |  |  |  |  |
+| kui | kui | conjunction |  |  |  |  |  |  |
+| raske | raske | adjective | nominative | sg. |  |  |  |  |
+| on | olema | verb | 3 | sg. |  | present | indicative |  |
+| sulle | sina | pronoun | allative | sg. | 2 |  |  |  |
+| öelda | ütlema | verb | infinitive |  |  |  |  |  |
+| kui | kui | conjunction |  |  |  |  |  |  |
+| metsik | metsik | adjective | nominative | sg. |  |  |  |  |
+| jäme | jäme | adjective | nominative | sg. |  |  |  |  |
+| ja | ja | conjunction |  |  |  |  |  |  |
+| raske | raske | adjective | nominative | sg. |  |  |  |  |
+| oli | olema | verb | 3 | sg. |  | past | indicative |  |
+| see | see | pronoun | nominative | sg. | 3 |  |  |  |
+| mets | mets | noun | nominative | sg. |  |  |  |  |
+| mis | mis | pronoun | nominative | sg. |  |  |  |  |
+| mõttes | mõte | noun | inessive | pl. |  |  |  |  |
+| hirmutades | hirmutama | verb | adessive | pl. |  | present | participle |  |
+| seda | see | pronoun | accusative | sg. | 3 |  |  |  |
+| meelde | meel | noun | allative | sg. |  |  |  |  |
+| tuletab | tuletama | verb | 3 | sg. |  | present | indicative |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Nii kibedat, et surm on vaevu hullem;
+8 aga et rääkida heast, mis ma seal leidsin,
+9 siis räägin ma teistest asjadest, mida ma seal nägin.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Nii | nii | adverb |  |  |  |  |  |  |
+| kibedat | kibed | adjective | accusative | sg. |  |  |  |  |
+| et | et | conjunction |  |  |  |  |  |  |
+| surm | surm | noun | nominative | sg. |  |  |  |  |
+| on | olema | verb | 3 | sg. |  | present | indicative |  |
+| vaevu | vaevu | adverb |  |  |  |  |  |  |
+| hullem | hull | adjective | superlative | sg. |  |  |  |  |
+| aga | aga | conjunction |  |  |  |  |  |  |
+| et | et | conjunction |  |  |  |  |  |  |
+| rääkida | rääkima | verb | infinitive |  |  |  |  |  |
+| heast | hea | adjective | ablative | sg. |  |  |  |  |
+| mis | mis | pronoun | nominative | sg. |  |  |  |  |
+| ma | mina | pronoun | nominative | sg. | 1 |  |  |  |
+| seal | seal | adverb |  |  |  |  |  |  |
+| leidsin | leidma | verb | 1 | sg. |  | past | indicative |  |
+| siis | siis | adverb |  |  |  |  |  |  |
+| räägin | rääkima | verb | 1 | sg. |  | present | indicative |  |
+| ma | mina | pronoun | nominative | sg. | 1 |  |  |  |
+| teistest | teine | pronoun | ablative | pl. |  |  |  |  |
+| asjadest | asi | noun | ablative | pl. |  |  |  |  |
+| mida | mis | pronoun | accusative | sg. |  |  |  |  |
+| ma | mina | pronoun | nominative | sg. | 1 |  |  |  |
+| seal | seal | adverb |  |  |  |  |  |  |
+| nägin | nägema | verb | 1 | sg. |  | past | indicative |  |
+</result>
+</query>
+</queries>

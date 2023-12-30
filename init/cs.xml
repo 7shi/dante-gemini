@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Czech.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Uprostřed cesty našeho života
+9 povím o dalších věcech, které jsem tam spatřil.
+28 Když jsem si trochu odpočinul od unaveného těla,
+67 Odpověděl mi: „Nejsem člověk, kdysi jsem byl člověk,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|Uprostřed|uprostřed|preposition||||||||
+|cesty|cesta|noun|f.|genitive|sg.|||||
+|našeho|náš|adjective|m.|genitive|sg.|||||
+|života|život|noun|m.|genitive|sg.|||||
+|povím|povědět|verb||||1|future|indicative||
+|o|o|preposition||||||||
+|dalších|další|adjective|||pl.|||||
+|věcech|věc|noun|f.|locative|pl.|||||
+|které|který|pronoun|||pl.||||relative|
+|jsem|já|pronoun|||sg.|1|present|indicative||
+|tam|tam|adverb||||||||
+|spatřil|spatřit|verb|||sg.|3|past|indicative||
+|Když|když|conjunction||||||||
+|jsem|já|pronoun|||sg.|1|present|indicative||
+|si|se|pronoun|||sg.|3|present|indicative|reflexive|
+|trochu|trochu|adverb||||||||
+|odpočinul|odpočinout|verb|||sg.|3|past|indicative||
+|od|od|preposition||||||||
+|unaveného|unavený|adjective|m.|genitive|sg.|||||
+|těla|tělo|noun|n.|genitive|sg.|||||
+|Odpověděl|odpovědět|verb|||sg.|3|past|indicative||
+|mi|já|pronoun|||sg.|1|present|indicative|dative|
+|Nejsem|být|verb|||sg.|1|present|indicative||
+|člověk|člověk|noun|m.|nominative|sg.|||||
+|kdysi|kdysi|adverb||||||||
+|jsem|já|pronoun|||sg.|1|present|indicative||
+|byl|být|verb|||sg.|3|past|indicative||
+|člověk|člověk|noun|m.|nominative|sg.|||||
+</result>
+</query>
+</queries>

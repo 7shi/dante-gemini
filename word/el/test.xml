@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Modern Greek.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Στη μέση της διαδρομής της ζωής μας
+9 θα πω για τα άλλα πράγματα που είδα εκεί.
+28 Αφού ξεκούρασα λίγο το κουρασμένο σώμα μου,
+67 Μου απάντησε: «Δεν είμαι άνθρωπος, άνθρωπος ήμουν κάποτε,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Στη | σε + τη | definite article | f. | accusative | sg. |  |  |  | contraction |
+| μέση | μέση | noun | f. | accusative | sg. |  |  |  |  |
+| της | ο | definite article | f. | genitive | sg. |  |  |  |  |
+| διαδρομής | διαδρομή | noun | f. | genitive | sg. |  |  |  |  |
+| της | ο | definite article | f. | genitive | sg. |  |  |  |  |
+| ζωής | ζωή | noun | f. | genitive | sg. |  |  |  |  |
+| μας | εμείς | personal pronoun |  | accusative | pl. | 1 |  |  |  |
+| θα | θέλω | verb |  |  |  | 1 | future | indicative |  |
+| πω | λέω | verb |  |  |  | 1 | future | indicative |  |
+| για | για | preposition |  |  |  |  |  |  |  |
+| τα | ο | definite article | n. | accusative | pl. |  |  |  |  |
+| άλλα | άλλος | adjective | n. | accusative | pl. |  |  |  |  |
+| πράγματα | πράγμα | noun | n. | accusative | pl. |  |  |  |  |
+| που | που | relative pronoun |  |  |  |  |  |  |  |
+| είδα | βλέπω | verb |  | aorist | indicative | 1 |  |  |  |
+| εκεί | εκεί | adverb |  |  |  |  |  |  |  |
+| Αφού | αφού | conjunction |  |  |  |  |  |  |  |
+| ξεκούρασα | ξεκουράζω | verb |  | aorist | indicative | 1 |  |  |  |
+| λίγο | λίγος | adjective | n. | accusative | sg. |  |  |  |  |
+| το | ο | definite article | n. | accusative | sg. |  |  |  |  |
+| κουρασμένο | κουρασμένος | adjective | n. | accusative | sg. |  |  |  |  |
+| σώμα | σώμα | noun | n. | accusative | sg. |  |  |  |  |
+| μου | εγώ | personal pronoun |  | genitive | sg. | 1 |  |  |  |
+| Μου | εγώ | personal pronoun |  | dative | sg. | 1 |  |  |  |
+| απάντησε | απαντώ | verb |  | aorist | indicative | 3 |  |  |  |
+| Δεν | δεν | negation |  |  |  |  |  |  |  |
+| είμαι | είμαι | verb |  | present | indicative | 1 |  |  |  |
+| άνθρωπος | άνθρωπος | noun | m. | nominative | sg. |  |  |  |  |
+| άνθρωπος | άνθρωπος | noun | m. | nominative | sg. |  |  |  |  |
+| ήμουν | είμαι | verb |  | imperfect | indicative | 1 |  |  |  |
+| κάποτε | κάποτε | adverb |  |  |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Στη μέση της διαδρομής της ζωής μας
+2 βρέθηκα σε ένα σκοτεινό δάσος,
+3 γιατί ο ίσιος δρόμος είχε χαθεί.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Στη | σε + τη | definite article | f. | accusative | sg. |  |  |  | contraction |
+| μέση | μέση | noun | f. | accusative | sg. |  |  |  |  |
+| της | ο | definite article | f. | genitive | sg. |  |  |  |  |
+| διαδρομής | διαδρομή | noun | f. | genitive | sg. |  |  |  |  |
+| της | ο | definite article | f. | genitive | sg. |  |  |  |  |
+| ζωής | ζωή | noun | f. | genitive | sg. |  |  |  |  |
+| μας | εμείς | personal pronoun |  | accusative | pl. | 1 |  |  |  |
+| βρέθηκα | βρίσκω | verb |  | aorist | indicative | 1 |  |  |  |
+| σε | σε | preposition |  |  |  |  |  |  |  |
+| ένα | ένας | indefinite article | n. | accusative | sg. |  |  |  |  |
+| σκοτεινό | σκοτεινός | adjective | n. | accusative | sg. |  |  |  |  |
+| δάσος | δάσος | noun | n. | accusative | sg. |  |  |  |  |
+| γιατί | γιατί | conjunction |  |  |  |  |  |  |  |
+| ο | ο | definite article | m. | nominative | sg. |  |  |  |  |
+| ίσιος | ίσιος | adjective | m. | nominative | sg. |  |  |  |  |
+| δρόμος | δρόμος | noun | m. | nominative | sg. |  |  |  |  |
+| είχε | έχω | verb |  | imperfect | indicative | 3 |  |  |  |
+| χαθεί | χάνομαι | verb |  | aorist | passive | 3 |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Αχ, πόσο δύσκολο είναι να πω πώς ήταν
+5 αυτό το άγριο και τραχύ και σκληρό δάσος
+6 που στη σκέψη ανανεώνει τον φόβο!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Αχ | αχ | interjection |  |  |  |  |  |  |  |
+| πόσο | πόσος | interrogative adjective |  |  |  |  |  |  |  |
+| δύσκολο | δύσκολος | adjective | n. | nominative | sg. |  |  |  |  |
+| είναι | είμαι | verb |  | present | indicative | 3 |  |  |  |
+| να | να | infinitive marker |  |  |  |  |  |  |  |
+| πω | λέω | verb |  | present | subjunctive | 1 |  |  |  |
+| πώς | πώς | interrogative adverb |  |  |  |  |  |  |  |
+| ήταν | είμαι | verb |  | imperfect | indicative | 3 |  |  |  |
+| αυτό | αυτός | demonstrative pronoun | n. | nominative | sg. |  |  |  |  |
+| το | ο | definite article | n. | accusative | sg. |  |  |  |  |
+| άγριο | άγριος | adjective | n. | accusative | sg. |  |  |  |  |
+| και | και | conjunction |  |  |  |  |  |  |  |
+| τραχύ | τραχύς | adjective | n. | accusative | sg. |  |  |  |  |
+| και | και | conjunction |  |  |  |  |  |  |  |
+| σκληρό | σκληρός | adjective | n. | accusative | sg. |  |  |  |  |
+| δάσος | δάσος | noun | n. | accusative | sg. |  |  |  |  |
+| που | που | relative pronoun |  |  |  |  |  |  |  |
+| στη | σε + τη | definite article | f. | accusative | sg. |  |  |  | contraction |
+| σκέψη | σκέψη | noun | f. | accusative | sg. |  |  |  |  |
+| ανανεώνει | ανανεώνω | verb |  | present | indicative | 3 |  |  |  |
+| τον | ο | definite article | m. | accusative | sg. |  |  |  |  |
+| φόβο | φόβος | noun | m. | accusative | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Τόσο πικρό είναι που λίγο απέχει από το θάνατο.
+8 Αλλά για να μιλήσω για το καλό που βρήκα εκεί,
+9 θα πω για τα άλλα πράγματα που είδα εκεί.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Τόσο | τόσος | demonstrative adjective | n. | nominative | sg. |  |  |  |  |
+| πικρό | πικρός | adjective | n. | nominative | sg. |  |  |  |  |
+| είναι | είμαι | verb |  | present | indicative | 3 |  |  |  |
+| που | που | conjunction |  |  |  |  |  |  |  |
+| λίγο | λίγος | adjective | n. | nominative | sg. |  |  |  |  |
+| απέχει | απέχω | verb |  | present | indicative | 3 |  |  |  |
+| από | από | preposition |  |  |  |  |  |  |  |
+| το | ο | definite article | n. | accusative | sg. |  |  |  |  |
+| θάνατο | θάνατος | noun | m. | accusative | sg. |  |  |  |  |
+| Αλλά | αλλά | conjunction |  |  |  |  |  |  |  |
+| για | για | preposition |  |  |  |  |  |  |  |
+| να | να | infinitive marker |  |  |  |  |  |  |  |
+| μιλήσω | μιλώ | verb |  | present | subjunctive | 1 |  |  |  |
+| για | για | preposition |  |  |  |  |  |  |  |
+| το | ο | definite article | n. | accusative | sg. |  |  |  |  |
+| καλό | καλός | adjective | n. | accusative | sg. |  |  |  |  |
+| που | που | relative pronoun |  |  |  |  |  |  |  |
+| βρήκα | βρίσκω | verb |  | aorist | indicative | 1 |  |  |  |
+| εκεί | εκεί | adverb |  |  |  |  |  |  |  |
+| θα | θέλω | verb |  |  |  | 1 | future | indicative |  |
+| πω | λέω | verb |  |  |  | 1 | future | indicative |  |
+| για | για | preposition |  |  |  |  |  |  |  |
+| τα | ο | definite article | n. | accusative | pl. |  |  |  |  |
+| άλλα | άλλος | adjective | n. | accusative | pl. |  |  |  |  |
+| πράγματα | πράγμα | noun | n. | accusative | pl. |  |  |  |  |
+| που | που | relative pronoun |  |  |  |  |  |  |  |
+| είδα | βλέπω | verb |  | aorist | indicative | 1 |  |  |  |
+| εκεί | εκεί | adverb |  |  |  |  |  |  |  |
+</result>
+</query>
+</queries>

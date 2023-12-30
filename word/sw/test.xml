@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Swahili.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Class, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Katikati ya safari ya maisha yetu
+9 nitaelezea mambo mengine niliyoyaona.
+28 Baada ya mwili wangu kupumzika kidogo,
+67 Alinijibu: "Si mimi sio mtu, nilikuwa mtu zamani,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Class | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Katikati | katikati | noun | common | sg. |  |  |  |  |
+| ya | ya | preposition |  |  |  |  |  |  |
+| safari | safari | noun | common | sg. |  |  |  |  |
+| ya | ya | preposition |  |  |  |  |  |  |
+| maisha | maisha | noun | common | pl. |  |  |  |  |
+| yetu | yetu | pronoun | personal | pl. | 1 |  |  |  |
+| nitaelezea | eleza | verb | transitive |  | 1 | future | indicative |  |
+| mambo | mambo | noun | common | pl. |  |  |  |  |
+| mengine | mwingine | pronoun | indefinite | pl. |  |  |  |  |
+| niliyoyaona | ona | verb | transitive |  | 1 | past | indicative |  |
+| Baada | baada | preposition |  |  |  |  |  |  |
+| ya | ya | preposition |  |  |  |  |  |  |
+| mwili | mwili | noun | common | sg. |  |  |  |  |
+| wangu | wangu | pronoun | personal | sg. | 1 |  |  |  |
+| kupumzika | pumzika | verb | intransitive |  |  | infinitive |  |  |
+| kidogo | kidogo | adjective |  |  |  |  |  |  |
+| Alinijibu | jibu | verb | transitive |  | 3 | past | indicative |  |
+| Si | si | verb | copula |  |  | present | indicative |  |
+| mimi | mimi | pronoun | personal | sg. | 1 |  |  |  |
+| sio | si | verb | copula |  |  | present | indicative |  |
+| mtu | mtu | noun | common | sg. |  |  |  |  |
+| nilikuwa | kuwa | verb | copula |  | 1 | past | indicative |  |
+| mtu | mtu | noun | common | sg. |  |  |  |  |
+| zamani | zamani | noun | common | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Katikati ya safari ya maisha yetu
+2 nilijikuta katika msitu wenye giza,
+3 kwa sababu njia iliyonyooka ilikuwa imepotea.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Class | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Katikati | katikati | noun | common | sg. |  |  |  |  |
+| ya | ya | preposition |  |  |  |  |  |  |
+| safari | safari | noun | common | sg. |  |  |  |  |
+| ya | ya | preposition |  |  |  |  |  |  |
+| maisha | maisha | noun | common | pl. |  |  |  |  |
+| yetu | yetu | pronoun | personal | pl. | 1 |  |  |  |
+| nilijikuta | jikuta | verb | reflexive |  | 1 | past | indicative |  |
+| katika | katika | preposition |  |  |  |  |  |  |
+| msitu | msitu | noun | common | sg. |  |  |  |  |
+| wenye | mwenye | adjective | relative | sg. |  |  |  |  |
+| giza | giza | noun | common | sg. |  |  |  |  |
+| kwa | kwa | preposition |  |  |  |  |  |  |
+| sababu | sababu | noun | common | sg. |  |  |  |  |
+| njia | njia | noun | common | sg. |  |  |  |  |
+| iliyonyooka | nyooka | adjective | relative | sg. |  |  |  |  |
+| ilikuwa | kuwa | verb | copula |  |  | past | indicative |  |
+| imepotea | potea | verb | intransitive |  |  | past | indicative |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ah, ni vigumu sana kwangu kukuambia
+5 jinsi msitu huu ulivyokuwa wa pori, mgumu na wenye nguvu,
+6 kiasi kwamba mawazo yangu yanajazwa na hofu upya!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Class | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Ah | ah | interjection |  |  |  |  |  |  |
+| ni | ni | verb | copula |  |  | present | indicative |  |
+| vigumu | vigumu | adjective |  |  |  |  |  |  |
+| sana | sana | adverb |  |  |  |  |  |  |
+| kwangu | kwangu | pronoun | personal | sg. | 1 |  |  |  |
+| kukuambia | kuambia | verb | transitive |  | 1 | infinitive |  |  |
+| jinsi | jinsi | conjunction |  |  |  |  |  |  |
+| msitu | msitu | noun | common | sg. |  |  |  |  |
+| huu | huu | pronoun | demonstrative | sg. |  |  |  |  |
+| ulivyokuwa | kuwa | verb | copula |  |  | past | indicative |  |
+| wa | wa | preposition |  |  |  |  |  |  |
+| pori | pori | noun | common | sg. |  |  |  |  |
+| mgumu | mgumu | adjective |  |  |  |  |  |  |
+| na | na | conjunction |  |  |  |  |  |  |
+| wenye | mwenye | adjective | relative | sg. |  |  |  |  |
+| nguvu | nguvu | noun | common | pl. |  |  |  |  |
+| kiasi | kiasi | noun | common | sg. |  |  |  |  |
+| kwamba | kwamba | conjunction |  |  |  |  |  |  |
+| mawazo | mawazo | noun | common | pl. |  |  |  |  |
+| yangu | yangu | pronoun | personal | sg. | 1 |  |  |  |
+| yanajazwa | jaza | verb | transitive |  | 3 | present | indicative |  |
+| na | na | conjunction |  |  |  |  |  |  |
+| hofu | hofu | noun | common | sg. |  |  |  |  |
+| upya | upya | noun | common | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Ni chungu sana kwamba ni sawa na kifo;
+8 lakini ili kuzungumzia mema niliyoyaona humo,
+9 nitaelezea mambo mengine niliyoyaona.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Class | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Ni | ni | verb | copula |  |  | present | indicative |  |
+| chungu | chungu | adjective |  |  |  |  |  |  |
+| sana | sana | adverb |  |  |  |  |  |  |
+| kwamba | kwamba | conjunction |  |  |  |  |  |  |
+| ni | ni | verb | copula |  |  | present | indicative |  |
+| sawa | sawa | adjective |  |  |  |  |  |  |
+| na | na | conjunction |  |  |  |  |  |  |
+| kifo | kifo | noun | common | sg. |  |  |  |  |
+| lakini | lakini | conjunction |  |  |  |  |  |  |
+| ili | ili | conjunction |  |  |  |  |  |  |
+| kuzungumzia | zungumzia | verb | transitive |  | 1 | infinitive |  |  |
+| mema | mema | noun | common | pl. |  |  |  |  |
+| niliyoyaona | ona | verb | transitive |  | 1 | past | indicative |  |
+| humo | humo | adverb |  |  |  |  |  |  |
+| nitaelezea | eleza | verb | transitive |  | 1 | future | indicative |  |
+| mambo | mambo | noun | common | pl. |  |  |  |  |
+| mengine | mwingine | pronoun | indefinite | pl. |  |  |  |  |
+| niliyoyaona | ona | verb | transitive |  | 1 | past | indicative |  |
+</result>
+</query>
+</queries>

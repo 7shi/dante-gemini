@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Swedish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Mitt i vår levnads vandring
+9 ska jag berätta om de andra sakerna som jag såg där.
+28 Sedan jag vilat min trötta kropp en stund,
+67 Han svarade mig: ”Ingen människa, människa var jag en gång,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| Mitt | mitt | pronoun | n. | sg. |  |  |  |
+| i | i | preposition |  |  |  |  |  |
+| vår | vår | noun | m. | sg. |  |  |  |
+| levnads | levnad | noun | f. | sg. |  |  |  |
+| vandring | vandring | noun | f. | sg. |  |  |  |
+| ska | skola | verb |  |  | future | indicative |  |
+| jag | jag | pronoun |  | sg. |  |  |  |
+| berätta | berätta | verb |  |  | infinitive |  |  |
+| om | om | preposition |  |  |  |  |  |
+| de | de | pronoun |  | pl. |  |  |  |
+| andra | annan | adjective |  | pl. |  |  |  |
+| sakerna | sak | noun | f. | pl. |  |  |  |
+| som | som | conjunction |  |  |  |  |  |
+| jag | jag | pronoun |  | sg. |  |  |  |
+| såg | se | verb |  |  | past | indicative |  |
+| där | där | adverb |  |  |  |  |  |
+| Sedan | sedan | conjunction |  |  |  |  |  |
+| jag | jag | pronoun |  | sg. |  |  |  |
+| vilat | vila | verb |  |  | past participle |  |  |
+| min | min | pronoun |  | sg. |  |  |  |
+| trötta | trött | adjective |  | sg. |  |  |  |
+| kropp | kropp | noun | m. | sg. |  |  |  |
+| en | en | indefinite article |  | sg. |  |  |  |
+| stund | stund | noun | f. | sg. |  |  |  |
+| Han | han | pronoun | m. | sg. |  |  |  |
+| svarade | svara | verb |  |  | past | indicative |  |
+| mig | mig | pronoun |  | sg. |  |  |  |
+| Ingen | ingen | pronoun |  | sg. |  |  |  |
+| människa | människa | noun | f. | sg. |  |  |  |
+| människa | människa | noun | f. | sg. |  |  |  |
+| var | vara | verb |  |  | past | indicative |  |
+| jag | jag | pronoun |  | sg. |  |  |  |
+| en | en | indefinite article |  | sg. |  |  |  |
+| gång | gång | noun | f. | sg. |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Mitt i vår levnads vandring
+2 befann jag mig i en mörk skog,
+3 ty den rätta vägen hade jag förlorat.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| Mitt | mitt | pronoun | n. | sg. |  |  |  |
+| i | i | preposition |  |  |  |  |  |
+| vår | vår | noun | m. | sg. |  |  |  |
+| levnads | levnad | noun | f. | sg. |  |  |  |
+| vandring | vandring | noun | f. | sg. |  |  |  |
+| befann | befinna | verb |  |  | past | indicative |  |
+| jag | jag | pronoun |  | sg. |  |  |  |
+| mig | mig | pronoun |  | sg. |  |  |  |
+| i | i | preposition |  |  |  |  |  |
+| en | en | indefinite article |  | sg. |  |  |  |
+| mörk | mörk | adjective |  | sg. |  |  |  |
+| skog | skog | noun | f. | sg. |  |  |  |
+| ty | ty | conjunction |  |  |  |  |  |
+| den | den | pronoun |  | sg. |  |  |  |
+| rätta | rätt | adjective |  | sg. |  |  |  |
+| vägen | väg | noun | f. | sg. |  |  |  |
+| hade | ha | verb |  |  | past | indicative |  |
+| jag | jag | pronoun |  | sg. |  |  |  |
+| förlorat | förlora | verb |  |  | past participle |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ack, hur svårt är det inte att beskriva för dig
+5 denna vilda, hårda och svårgenomträngliga skog
+6 som i tanken förnyar rädslan!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| Ack | ack | interjection |  |  |  |  |  |
+| hur | hur | adverb |  |  |  |  |  |
+| svårt | svår | adjective |  | sg. |  |  |  |
+| är | vara | verb |  |  | present | indicative |  |
+| det | det | pronoun | n. | sg. |  |  |  |
+| inte | inte | adverb |  |  |  |  |  |
+| att | att | conjunction |  |  |  |  |  |
+| beskriva | beskriva | verb |  |  | infinitive |  |  |
+| för | för | preposition |  |  |  |  |  |
+| dig | du | pronoun |  | sg. |  |  |  |
+| denna | denna | pronoun |  | sg. |  |  |  |
+| vilda | vild | adjective |  | sg. |  |  |  |
+| hårda | hård | adjective |  | sg. |  |  |  |
+| och | och | conjunction |  |  |  |  |  |
+| svårgenomträngliga | svårgenomtränglig | adjective |  | sg. |  |  |  |
+| skog | skog | noun | f. | sg. |  |  |  |
+| som | som | conjunction |  |  |  |  |  |
+| i | i | preposition |  |  |  |  |  |
+| tanken | tanke | noun | f. | sg. |  |  |  |
+| förnyar | förnya | verb |  |  | present | indicative |  |
+| rädslan | rädsla | noun | f. | sg. |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Så bitter är den att döden är föga bittrare;
+8 men för att tala om det goda som jag fann där,
+9 ska jag berätta om de andra sakerna som jag såg där.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| Så | så | adverb |  |  |  |  |  |
+| bitter | bitter | adjective |  | sg. |  |  |  |
+| är | vara | verb |  |  | present | indicative |  |
+| den | den | pronoun |  | sg. |  |  |  |
+| att | att | conjunction |  |  |  |  |  |
+| döden | död | noun | m. | sg. |  |  |  |
+| är | vara | verb |  |  | present | indicative |  |
+| föga | föga | adverb |  |  |  |  |  |
+| bittrare | bitter | adjective |  | comp. |  |  |  |
+| men | men | conjunction |  |  |  |  |  |
+| för | för | preposition |  |  |  |  |  |
+| att | att | conjunction |  |  |  |  |  |
+| tala | tala | verb |  |  | infinitive |  |  |
+| om | om | preposition |  |  |  |  |  |
+| det | det | pronoun | n. | sg. |  |  |  |
+| goda | god | adjective |  | sg. |  |  |  |
+| som | som | conjunction |  |  |  |  |  |
+| jag | jag | pronoun |  | sg. |  |  |  |
+| fann | finna | verb |  |  | past | indicative |  |
+| där | där | adverb |  |  |  |  |  |
+| ska | skola | verb |  |  | future | indicative |  |
+| jag | jag | pronoun |  | sg. |  |  |  |
+| berätta | berätta | verb |  |  | infinitive |  |  |
+| om | om | preposition |  |  |  |  |  |
+| de | de | pronoun |  | pl. |  |  |  |
+| andra | annan | adjective |  | pl. |  |  |  |
+| sakerna | sak | noun | f. | pl. |  |  |  |
+| som | som | conjunction |  |  |  |  |  |
+| jag | jag | pronoun |  | sg. |  |  |  |
+| såg | se | verb |  |  | past | indicative |  |
+| där | där | adverb |  |  |  |  |  |
+</result>
+</query>
+</queries>

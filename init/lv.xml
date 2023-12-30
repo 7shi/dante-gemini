@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Latvian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Mūsu dzīves ceļā vidū
+9 es pastāstīšu par citām lietām, ko tur ieraudzīju.
+28 Kad biju nedaudz atpūtinājis savu nogurušo ķermeni,
+67 Viņš man atbildēja: «Nevis cilvēks, cilvēks es kādreiz biju,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|Mūsu|mēs|pronoun|1st person|genitive|pl.|||||
+|dzīves|dzīve|noun|f.|genitive|sg.|||||
+|ceļā|ceļš|noun|m.|locative|sg.|||||
+|vidū|vidus|noun|m.|locative|sg.|||||
+|es|es|pronoun|1st person|nominative|sg.|||||
+|pastāstīšu|pastāstīt|verb||||1st person|future|indicative||
+|par|par|preposition||||||||
+|citām|cits|pronoun|f.|dative|pl.|||||
+|lietām|lieta|noun|f.|dative|pl.|||||
+|ko|kas|pronoun||accusative|sg.|||||
+|tur|tur|adverb||||||||
+|ieraudzīju|ieraudzīt|verb||||1st person|past|indicative||
+|Kad|kad|conjunction||||||||
+|biju|būt|verb||||1st person|past|indicative||
+|nedaudz|nedaudz|adverb||||||||
+|atpūtinājis|atpūtināt|verb||||1st person|past|indicative||
+|savu|savs|pronoun||accusative|sg.|||||
+|nogurušo|noguris|adjective|m.|accusative|sg.|||||
+|ķermeni|ķermenis|noun|m.|accusative|sg.|||||
+|Viņš|viņš|pronoun|3rd person|nominative|sg.|||||
+|man|es|pronoun|1st person|dative|sg.|||||
+|atbildēja|atbildēt|verb||||3rd person|past|indicative||
+|Nevis|nevis|conjunction||||||||
+|cilvēks|cilvēks|noun|m.|nominative|sg.|||||
+|cilvēks|cilvēks|noun|m.|nominative|sg.|||||
+|es|es|pronoun|1st person|nominative|sg.|||||
+|kādreiz|kādreiz|adverb||||||||
+|biju|būt|verb||||1st person|past|indicative||
+</result>
+</query>
+</queries>

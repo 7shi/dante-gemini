@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Korean.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Roman (Word), Lemma, Roman (Lemma), Part of Speech, Case and Note.
+
+* Leave blank if not applicable.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded.
+
+1 우리 인생의 한가운데 길에서
+9 내가 그곳에서 본 다른 것들에 대해 말씀드려야 합니다.
+28 지친 몸을 조금 쉬인 후,
+67 그는 나에게 대답했습니다. "나는 사람이 아니고, 한때 사람이었습니다.
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Case | Note |
+|---|---|---|---|---|---|---|
+| 우리 | uri | 우리 | uri | pronoun | nominative | 1st person plural |
+| 인생 | insaeng | 인생 | insaeng | noun | nominative | |
+| 의 | ui | 의 | ui | particle | genitive | |
+| 한가운데 | hangawunde | 한가운데 | hangawunde | noun | nominative | |
+| 길 | gil | 길 | gil | noun | nominative | |
+| 에서 | eoseo | 에서 | eoseo | particle | locative | |
+| 내가 | naega | 나 | na | pronoun | nominative | 1st person singular |
+| 그곳 | geukot | 그곳 | geukot | noun | nominative | |
+| 에서 | eoseo | 에서 | eoseo | particle | locative | |
+| 본 | bon | 보다 | boda | verb | past tense | |
+| 다른 | daleun | 다르다 | dareuda | adjective | | |
+| 것들 | geotdeul | 것 | geot | noun | nominative | |
+| 에 | e | 에 | e | particle | dative | |
+| 대해 | daehae | 대하다 | daehada | verb | | |
+| 말씀드려야 | malsseumdeoryeo | 말씀드리다 | malsseumdeurida | verb | | |
+| 합니다 | hamnida | 하다 | hada | verb | present tense | |
+| 지친 | jichin | 지치다 | jichida | adjective | | |
+| 몸 | mom | 몸 | mom | noun | nominative | |
+| 을 | eul | 을 | eul | particle | accusative | |
+| 조금 | jogeum | 조금 | jogeum | adverb | | |
+| 쉬인 | swiin | 쉬다 | swida | verb | past tense | |
+| 후 | hu | 후 | hu | particle | after | |
+| 그는 | geuneun | 그는 | geuneun | pronoun | nominative | 3rd person singular |
+| 나에게 | naege | 나 | na | pronoun | dative | 1st person singular |
+| 대답했습니다 | daebaphaessumnida | 대답하다 | daebaphada | verb | past tense | |
+| 나는 | naneun | 나 | na | pronoun | nominative | 1st person singular |
+| 사람이 | sarami | 사람 | saram | noun | nominative | |
+| 아니고 | anigo | 아니다 | anida | verb | present tense | |
+| 한때 | hantoe | 한때 | hantoe | noun | nominative | |
+| 사람이었습니다 | saramiessumnida | 사람이다 | saramida | verb | past tense | |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 우리 인생의 한가운데 길에서
+2 나는 어두운 숲속에 있었습니다.
+3 바른 길을 잃었기 때문입니다.
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Case | Note |
+|---|---|---|---|---|---|---|
+| 우리 | uri | 우리 | uri | pronoun | nominative | 1st person plural |
+| 인생 | insaeng | 인생 | insaeng | noun | nominative | |
+| 의 | ui | 의 | ui | particle | genitive | |
+| 한가운데 | hangawunde | 한가운데 | hangawunde | noun | nominative | |
+| 길 | gil | 길 | gil | noun | nominative | |
+| 에서 | eoseo | 에서 | eoseo | particle | locative | |
+| 나는 | naneun | 나 | na | pronoun | nominative | 1st person singular |
+| 어두운 | eoduun | 어둡다 | eodupda | adjective | | |
+| 숲속 | supsok | 숲 | sup | noun | nominative | |
+| 에 | e | 에 | e | particle | locative | |
+| 있었습니다 | issumnida | 있다 | issda | verb | past tense | |
+| 바른 | bareun | 바르다 | bareuda | adjective | | |
+| 길 | gil | 길 | gil | noun | accusative | |
+| 을 | eul | 을 | eul | particle | accusative | |
+| 잃었기 | ireossge | 잃다 | ireotda | verb | past tense | |
+| 때문입니다 | daemeunibnida | 때문이다 | daemeunida | verb | present tense | |
+
+**Note:**
+
+* The word "숲속" is a compound noun consisting of "숲" (forest) and "속" (inside).
+* The word "바른" is an attributive adjective modifying the noun "길."
+* The word "잃었기" is a verb phrase consisting of the verb "잃다" (to lose) and the past tense ending "-었."
+* The word "때문입니다" is a verb phrase consisting of the noun "때문" (reason) and the verb "이다" (to be).
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 아, 그 숲이 어땠는지 말하기는 참으로 어렵습니다.
+5 그 거칠고 험하고 힘든 숲은
+6 생각만 해도 두려움이 되살아납니다!
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Case | Note |
+|---|---|---|---|---|---|---|
+| 아 | a | 아 | a | interjection | | |
+| 그 | geu | 그 | geu | pronoun | nominative | 3rd person singular |
+| 숲이 | sup이 | 숲 | sup | noun | nominative | |
+| 어땠는지 | eotteonngeonji | 어떠하다 | eotteohda | adjective | | |
+| 말하기는 | malhagineun | 말하다 | malhada | verb | | |
+| 참으로 | chameuro | 참 | cham | adverb | | |
+| 어렵습니다 | eoreobsumnida | 어렵다 | eoreobda | adjective | | |
+| 그 | geu | 그 | geu | pronoun | nominative | 3rd person singular |
+| 거칠고 | geochilgo | 거칠다 | geochilda | adjective | | |
+| 험하고 | heomhago | 험하다 | heomhada | adjective | | |
+| 힘든 | himdeun | 힘들다 | himdeulda | adjective | | |
+| 숲은 | sup은 | 숲 | sup | noun | nominative | |
+| 생각만 | saenggakman | 생각 | saenggak | noun | accusative | |
+| 해도 | haedo | 하다 | hada | verb | | |
+| 두려움이 | dureumeumi | 두려움 | dureum | noun | nominative | |
+| 되살아납니다 | doesaranabnida | 되살아나다 | doesaranada | verb | present tense | |
+
+**Note:**
+
+* The word "숲이" is a noun phrase consisting of the noun "숲" (forest) and the topic-marking particle "이."
+* The word "어땠는지" is a verb phrase consisting of the verb "어떠하다" (to be how) and the past tense ending "-었."
+* The word "말하기는" is a verb phrase consisting of the verb "말하다" (to speak) and the quotative particle "는."
+* The word "참으로" is an adverb meaning "truly" or "really."
+* The word "어렵습니다" is an adjective phrase consisting of the adjective "어렵다" (difficult) and the present tense ending "-습니다."
+* The word "그" is a pronoun referring to the forest mentioned in the previous sentence.
+* The word "거칠고" is an attributive adjective modifying the noun "숲."
+* The word "험하고" is an attributive adjective modifying the noun "숲."
+* The word "힘든" is an attributive adjective modifying the noun "숲."
+* The word "생각만" is a noun phrase consisting of the noun "생각" (thought) and the particle "만" (only).
+* The word "해도" is a conjunction meaning "even if."
+* The word "두려움이" is a noun phrase consisting of the noun "두려움" (fear) and the topic-marking particle "이."
+* The word "되살아납니다" is a verb phrase consisting of the verb "되살아나다" (to come back to life) and the present tense ending "-습니다."
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 너무나도 쓰라워서 죽음보다 조금 나을 뿐입니다.
+8 하지만 그곳에서 내가 발견한 좋은 것에 대해 말씀드리려면
+9 내가 그곳에서 본 다른 것들에 대해 말씀드려야 합니다.
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Case | Note |
+|---|---|---|---|---|---|---|
+| 너무나도 | neomunado | 너무나 | neomuna | adverb | | |
+| 쓰라워서 | seurawoseo | 쓰라프다 | seurapda | adjective | | |
+| 죽음보다 | jugumboda | 죽음 | jugeum | noun | ablative | |
+| 조금 | jogeum | 조금 | jogeum | adverb | | |
+| 나을 | naul | 나으다 | nauda | adjective | | |
+| 뿐입니다 | ppunibnida | 뿐이다 | ppunida | verb | present tense | |
+| 하지만 | hajiman | 하지만 | hajiman | conjunction | | |
+| 그곳에서 | geukoteseo | 그곳 | geukot | noun | locative | |
+| 내가 | naega | 나 | na | pronoun | nominative | 1st person singular |
+| 발견한 | balgyeonhan | 발견하다 | balgyeonhada | verb | past tense | |
+| 좋은 | joheun | 좋다 | johda | adjective | | |
+| 것에 | geose | 것 | geot | noun | dative | |
+| 대해 | daehae | 대하다 | daehada | verb | | |
+| 말씀드리려면 | malsseumdeurimyeon | 말씀드리다 | malsseumdeurida | verb | conditional | |
+| 내가 | naega | 나 | na | pronoun | nominative | 1st person singular |
+| 그곳에서 | geukoteseo | 그곳 | geukot | noun | locative | |
+| 본 | bon | 보다 | boda | verb | past tense | |
+| 다른 | daleun | 다르다 | dareuda | adjective | | |
+| 것들에 | geotdeule | 것 | geot | noun | dative | |
+| 대해 | daehae | 대하다 | daehada | verb | | |
+| 말씀드려야 | malsseumdeoryeo | 말씀드리다 | malsseumdeurida | verb | | |
+| 합니다 | hamnida | 하다 | hada | verb | present tense | |
+
+**Note:**
+
+* The word "너무나도" is an adverb meaning "very much" or "extremely."
+* The word "쓰라워서" is an adjective phrase consisting of the adjective "쓰라프다" (bitter) and the quotative particle "서."
+* The word "죽음보다" is a noun phrase consisting of the noun "죽음" (death) and the ablative particle "보다" (than).
+* The word "조금" is an adverb meaning "a little" or "slightly."
+* The word "나을" is an adjective meaning "better."
+* The word "뿐입니다" is a verb phrase consisting of the verb "뿐이다" (to be only) and the present tense ending "-습니다."
+* The word "하지만" is a conjunction meaning "but" or "however."
+* The word "그곳에서" is a noun phrase consisting of the noun "그곳" (that place) and the locative particle "에서."
+* The word "내가" is a pronoun referring to the speaker.
+* The word "발견한" is a verb phrase consisting of the verb "발견하다" (to discover) and the past tense ending "-었."
+* The word "좋은" is an attributive adjective modifying the noun "것."
+* The word "것에" is a noun phrase consisting of the noun "것" (thing) and the dative particle "에."
+* The word "대해" is a postposition meaning "about" or "concerning."
+* The word "말씀드리려면" is a verb phrase consisting of the verb "말씀드리다" (to tell) and the conditional ending "-면."
+* The word "내가" is a pronoun referring to the speaker.
+* The word "그곳에서" is a noun phrase consisting of the noun "그곳" (that place) and the locative particle "에서."
+* The word "본" is a verb phrase consisting of the verb "보다" (to see) and the past tense ending "-었."
+* The word "다른" is an attributive adjective modifying the noun "것들."
+* The word "것들에" is a noun phrase consisting of the noun "것들" (things) and the dative particle "에."
+* The word "대해" is a postposition meaning "about" or "concerning."
+* The word "말씀드려야" is a verb phrase consisting of the verb "말씀드리다" (to tell) and the quotative particle "야."
+</result>
+</query>
+</queries>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Slovak.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 V polovici cesty nášho života
+9 poviem o ďalších veciach, ktoré som tam zbadal.
+28 Potom, čo som si trochu oddýchol od unaveného tela,
+67 Odpovedal mi: „Nie som človek, kedysi som bol človek,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| V | v | preposition |  |  |  |  |  |  |  |
+| polovici | polovica | noun | f. | locative | sg. |  |  |  |  |
+| cesty | cesta | noun | f. | genitive | sg. |  |  |  |  |
+| nášho | náš | adjective | m. | genitive | sg. |  |  |  | possessive |
+| života | život | noun | m. | genitive | sg. |  |  |  |  |
+| poviem | povedať | verb |  |  |  | 1 | future | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| ďalších | ďalší | adjective | m. | accusative | pl. |  |  |  |  |
+| veciach | vec | noun | f. | accusative | pl. |  |  |  |  |
+| ktoré | ktorý | pronoun |  | accusative | pl. |  |  |  | relative |
+| som | byť | verb |  |  |  | 1 | present | indicative |  |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| zbadal | zbačiť | verb |  |  |  | 1 | past | indicative |  |
+| Potom | potom | adverb |  |  |  |  |  |  |  |
+| čo | čo | pronoun |  | nominative | sg. |  |  |  | interrogative |
+| som | byť | verb |  |  |  | 1 | past | indicative |  |
+| si | sa | pronoun |  |  |  | 1 |  |  | reflexive |
+| trochu | trochu | adverb |  |  |  |  |  |  |  |
+| oddýchol | oddýchnuť | verb |  |  |  | 1 | past | indicative |  |
+| od | od | preposition |  |  |  |  |  |  |  |
+| unaveného | unavený | adjective | m. | genitive | sg. |  |  |  |  |
+| tela | telo | noun | m. | genitive | sg. |  |  |  |  |
+| Odpovedal | odpovedať | verb |  |  |  | 1 | past | indicative |  |
+| mi | ja | pronoun |  | dative | sg. |  |  |  |  |
+| Nie | nie | adverb |  |  |  |  |  |  | negation |
+| som | byť | verb |  |  |  | 1 | present | indicative |  |
+| človek | človek | noun | m. | nominative | sg. |  |  |  |  |
+| kedysi | kedysi | adverb |  |  |  |  |  |  |  |
+| som | byť | verb |  |  |  | 1 | past | indicative |  |
+| bol | byť | verb |  |  |  | 1 | past | indicative |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 V polovici cesty nášho života
+2 som sa ocitol v temnom lese,
+3 lebo priama cesta bola stratená.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| V | v | preposition |  |  |  |  |  |  |  |
+| polovici | polovica | noun | f. | locative | sg. |  |  |  |  |
+| cesty | cesta | noun | f. | genitive | sg. |  |  |  |  |
+| nášho | náš | adjective | m. | genitive | sg. |  |  |  | possessive |
+| života | život | noun | m. | genitive | sg. |  |  |  |  |
+| som | byť | verb |  |  |  | 1 | past | indicative |  |
+| sa | sa | pronoun |  |  |  | 1 |  |  | reflexive |
+| ocitol | ocitnúť | verb |  |  |  | 1 | past | indicative |  |
+| v | v | preposition |  |  |  |  |  |  |  |
+| temnom | temný | adjective | m. | locative | sg. |  |  |  |  |
+| lese | les | noun | m. | locative | sg. |  |  |  |  |
+| lebo | lebo | conjunction |  |  |  |  |  |  |  |
+| priama | priamy | adjective | f. | nominative | sg. |  |  |  |  |
+| cesta | cesta | noun | f. | nominative | sg. |  |  |  |  |
+| bola | byť | verb |  |  |  | 3 | past | indicative |  |
+| stratená | stratiť | verb |  |  |  | 3 | past | passive |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ach, aké ťažké je povedať, aký bol
+5 tento divoký, drsný a silný les,
+6 ktorý v myšlienkach obnovuje strach!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Ach | ach | interjection |  |  |  |  |  |  |  |
+| aké | aký | adjective | n. | nominative | pl. |  |  |  |  |
+| ťažké | ťažký | adjective | n. | nominative | sg. |  |  |  |  |
+| je | byť | verb |  |  |  | 3 | present | indicative |  |
+| povedať | povedať | verb |  |  |  |  | infinitive |  |  |
+| aký | aký | adjective | m. | nominative | sg. |  |  |  |  |
+| bol | byť | verb |  |  |  | 3 | past | indicative |  |
+| tento | tento | pronoun | m. | nominative | sg. |  |  |  | demonstrative |
+| divoký | divoký | adjective | m. | nominative | sg. |  |  |  |  |
+| drsný | drsný | adjective | m. | nominative | sg. |  |  |  |  |
+| a | a | conjunction |  |  |  |  |  |  |  |
+| silný | silný | adjective | m. | nominative | sg. |  |  |  |  |
+| les | les | noun | m. | nominative | sg. |  |  |  |  |
+| ktorý | ktorý | pronoun | m. | nominative | sg. |  |  |  | relative |
+| v | v | preposition |  |  |  |  |  |  |  |
+| myšlienkach | myšlienka | noun | f. | locative | pl. |  |  |  |  |
+| obnovuje | obnoviť | verb |  |  |  | 3 | present | indicative |  |
+| strach | strach | noun | m. | accusative | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Je taký horký, že je o málo viac ako smrť;
+8 ale aby som hovoril o dobre, ktoré som tam našiel,
+9 poviem o ďalších veciach, ktoré som tam zbadal.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Je | byť | verb |  |  |  | 3 | present | indicative |  |
+| taký | taký | adjective | m. | nominative | sg. |  |  |  |  |
+| horký | horký | adjective | m. | nominative | sg. |  |  |  |  |
+| že | že | conjunction |  |  |  |  |  |  |  |
+| je | byť | verb |  |  |  | 3 | present | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| málo | málo | adverb |  |  |  |  |  |  |  |
+| viac | viac | adverb |  |  |  |  |  |  | comparative |
+| ako | ako | conjunction |  |  |  |  |  |  |  |
+| smrť | smrť | noun | f. | nominative | sg. |  |  |  |  |
+| ale | ale | conjunction |  |  |  |  |  |  |  |
+| aby | aby | conjunction |  |  |  |  |  |  |  |
+| som | byť | verb |  |  |  | 1 | past | subjunctive |  |
+| hovoril | hovoriť | verb |  |  |  | 1 | past | subjunctive |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| dobre | dobrý | adjective | n. | locative | sg. |  |  |  |  |
+| ktoré | ktorý | pronoun | n. | accusative | sg. |  |  |  | relative |
+| som | byť | verb |  |  |  | 1 | past | indicative |  |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| našiel | nájsť | verb |  |  |  | 1 | past | indicative |  |
+| poviem | povedať | verb |  |  |  | 1 | future | indicative |  |
+| o | o | preposition |  |  |  |  |  |  |  |
+| ďalších | ďalší | adjective | m. | accusative | pl. |  |  |  |  |
+| veciach | vec | noun | f. | accusative | pl. |  |  |  |  |
+| ktoré | ktorý | pronoun |  | accusative | pl. |  |  |  | relative |
+| som | byť | verb |  |  |  | 1 | past | indicative |  |
+| tam | tam | adverb |  |  |  |  |  |  |  |
+| zbadal | zbačiť | verb |  |  |  | 1 | past | indicative |  |
+</result>
+</query>
+</queries>

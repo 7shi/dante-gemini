@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="2">
+<query>
+<prompt>
+Show contractions of preposition and article in Romanian. No examples are needed.
+</prompt>
+<result>
+* într-o = în + o
+* într-un = în + un
+* dintr-o = din + o
+* dintr-un = din + un
+</result>
+</query>
+<query>
+<prompt>
+This text is written in Romanian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 În mijlocul călătoriei vieții noastre
+2 m-am trezit într-o pădure întunecată,
+28 După ce și-a odihnit puțin trupul obosit,
+67 Mi-a răspuns: „Nu om, om am fost odată,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|
+|În|în|preposition|||||||
+|mijlocul|mijloc|noun|m.|sg.|||||
+|călătoriei|călătorie|noun|f.|sg.|||||
+|vieții|viață|noun|f.|sg.|||||
+|noastre|nostru|adjective|f.|pl.|||||
+|m-am|m-|pronoun|||1|past|indicative|clitic pronoun|
+|trezit|trezi|verb|||1|past|participle||
+|într-o|în + o|preposition + article|f.|sg.||||contraction|
+|pădure|pădure|noun|f.|sg.|||||
+|întunecată|întunecat|adjective|f.|sg.|||||
+|După|după|preposition|||||||
+|ce|ce|pronoun||||||relative pronoun|
+|și-a|se|pronoun|||3|past|indicative|reflexive pronoun|
+|odihnit|odihni|verb|||3|past|participle||
+|puțin|puțin|adjective|n.|sg.|||||
+|trupul|trup|noun|m.|sg.|||||
+|obosit|obosit|adjective|m.|sg.|||||
+|Mi-a|mi|pronoun|||1|past|indicative|clitic pronoun|
+|răspuns|răspunde|verb|||3|past|indicative||
+|Nu|nu|adverb||||||negation|
+|om|om|noun|m.|sg.|||||
+|om|om|noun|m.|sg.|||||
+|am|avea|verb|||1|past|indicative|auxiliary verb|
+|fost|fi|verb|||1|past|participle||
+|odată|odată|adverb|||||||
+</result>
+</query>
+</queries>

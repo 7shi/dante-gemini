@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in German.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Auf der Hälfte des Weges unseres Lebens
+9 werde ich von den anderen Dingen erzählen, die ich dort erblickte.
+28 Nachdem ich meinen müden Körper ein wenig ausgeruht hatte,
+67 Er antwortete mir: „Ich bin kein Mensch, ich war einst ein Mensch,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|Auf|auf|preposition||||||||
+|der|der|definite article|m.|dative|sg.|||||
+|Hälfte|Hälfte|noun|f.|dative|sg.|||||
+|des|des|definite article|m.|genitive|sg.|||||
+|Weges|Weg|noun|m.|genitive|sg.|||||
+|unseres|unser|possessive pronoun|m.|genitive|sg.|||||
+|Lebens|Leben|noun|n.|genitive|sg.|||||
+|werde|werden|auxiliary verb||||1|future|indicative||
+|ich|ich|personal pronoun||nominative|sg.|1||||
+|von|von|preposition||||||||
+|den|der|definite article|m.|dative|pl.|||||
+|anderen|ander|adjective|m.|dative|pl.|||||
+|Dingen|Ding|noun|n.|dative|pl.|||||
+|erzählen|erzählen|verb||||1|future|indicative||
+|die|der|definite article|m.|accusative|pl.|||||
+|ich|ich|personal pronoun||nominative|sg.|1||||
+|dort|dort|adverb||||||||
+|erblickte|erblicken|verb||||1|past|indicative||
+|Nachdem|nachdem|conjunction||||||||
+|ich|ich|personal pronoun||nominative|sg.|1||||
+|meinen|mein|possessive pronoun|m.|accusative|sg.|||||
+|müden|müde|adjective|m.|accusative|sg.|||||
+|Körper|Körper|noun|m.|accusative|sg.|||||
+|ein|ein|indefinite article|m.|accusative|sg.|||||
+|wenig|wenig|adverb||||||||
+|ausgeruht|ausruhen|verb||||1|past|participle||
+|hatte|haben|auxiliary verb||||1|past|indicative||
+|Er|er|personal pronoun|m.|nominative|sg.|3||||
+|antwortete|antworten|verb||||3|past|indicative||
+|mir|mir|personal pronoun||dative|sg.|1||||
+|„Ich|ich|personal pronoun||nominative|sg.|1||||
+|bin|sein|verb||||1|present|indicative||
+|kein|kein|indefinite pronoun||||||||
+|Mensch|Mensch|noun|m.|nominative|sg.|||||
+|ich|ich|personal pronoun||nominative|sg.|1||||
+|war|sein|verb||||1|past|indicative||
+|einst|einst|adverb||||||||
+|ein|ein|indefinite article|m.|nominative|sg.|||||
+|Mensch|Mensch|noun|m.|nominative|sg.|||||
+</result>
+</query>
+</queries>

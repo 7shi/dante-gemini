@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<info>Crasis</info>
+<prompt>
+Show contractions of preposition and article in Portuguese.
+</prompt>
+<result>
+| Contraction | Expansion | Example |
+|---|---|---|
+| à | a + a | Vou à praia. |
+| ao | a + o | Vou ao cinema. |
+| da | de + a | A casa da minha mãe é grande. |
+| do | de + o | O livro do meu irmão é interessante. |
+| na | em + a | Estou na sala de aula. |
+| no | em + o | Estou no carro. |
+| pela | por + a | Vou pela rua principal. |
+| pelo | por + o | Vou pelo parque. |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table showing the Lemma for each word. The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Leave blank if not applicable.
+* Part of speech, Gender, Number and Person should be indicated by abbreviation.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma. In such cases, only the verb information should be written in the other columns.
+1 No meio do caminho da nossa vida
+9 direi das outras coisas que lá vi.
+28 Depois que descansei um pouco o corpo cansado,
+67 Respondeu-me: "Não sou homem, homem já fui,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| No | no | article | masculine | singular |  |  |  | archaic |
+| meio | meio | noun | masculine | singular |  |  |  |  |
+| do | di + il | preposition | masculine | singular |  |  |  |  |
+| caminho | cammino | noun | masculine | singular |  |  |  |  |
+| da | di + la | preposition | feminine | singular |  |  |  |  |
+| nossa | nostro | adjective | feminine | singular |  |  |  |  |
+| vida | vita | noun | feminine | singular |  |  |  |  |
+| direi | dire | verb |  | singular | 1st | future | indicative |  |
+| das | di + le | preposition | feminine | plural |  |  |  |  |
+| outras | altro | adjective | feminine | plural |  |  |  |  |
+| coisas | cosa | noun | feminine | plural |  |  |  |  |
+| que | che | relative pronoun |  | singular |  |  |  |  |
+| lá | là | adverb |  |  |  |  |  |  |
+| vi | vedere | verb |  | singular | 1st | past | indicative |  |
+| Depois | dopo | adverb |  |  |  |  |  |  |
+| que | che | conjunction |  |  |  |  |  |  |
+| descansei | descasare | verb |  | singular | 1st | past | indicative |  |
+| um | uno | article | masculine | singular |  |  |  |  |
+| pouco | poco | adverb |  |  |  |  |  |  |
+| o | il | article | masculine | singular |  |  |  |  |
+| corpo | corpo | noun | masculine | singular |  |  |  |  |
+| cansado | cansare | verb |  | singular | 3rd | past | participle |  |
+| Respondeu | rispondere | verb |  | singular | 3rd | past | indicative |  |
+| -me |  | pronoun |  | singular | 1st |  |  | clitic |
+| Não | non | adverb |  |  |  |  |  |  |
+| sou | essere | verb |  | singular | 1st | present | indicative |  |
+| homem | uomo | noun | masculine | singular |  |  |  |  |
+| homem | uomo | noun | masculine | singular |  |  |  |  |
+| já | già | adverb |  |  |  |  |  |  |
+| fui | essere | verb |  | singular | 1st | past | indicative |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 No meio do caminho da nossa vida
+2 me encontrei em uma selva escura,
+3 porque o caminho reto estava perdido.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| No | no | article | masculine | singular |  |  |  | archaic |
+| meio | meio | noun | masculine | singular |  |  |  |  |
+| do | di + il | preposition | masculine | singular |  |  |  |  |
+| caminho | cammino | noun | masculine | singular |  |  |  |  |
+| da | di + la | preposition | feminine | singular |  |  |  |  |
+| nossa | nostro | adjective | feminine | singular |  |  |  |  |
+| vida | vita | noun | feminine | singular |  |  |  |  |
+| me | io | pronoun |  | singular | 1st |  |  |  |
+| encontrei | incontrare | verb |  | singular | 1st | past | indicative |  |
+| em | in | preposition |  |  |  |  |  |  |
+| uma | uno | article | feminine | singular |  |  |  |  |
+| selva | selva | noun | feminine | singular |  |  |  |  |
+| escura | oscuro | adjective | feminine | singular |  |  |  |  |
+| porque | perché | conjunction |  |  |  |  |  |  |
+| o | il | article | masculine | singular |  |  |  |  |
+| caminho | cammino | noun | masculine | singular |  |  |  |  |
+| reto | retto | adjective | masculine | singular |  |  |  |  |
+| estava | essere | verb |  | singular | 3rd | past | indicative |  |
+| perdido | perdere | verb |  | singular | 3rd | past | participle |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ah, quão difícil é dizer o que era
+5 esta selva selvagem, áspera e forte
+6 que no pensamento renova o medo!
+
+7 É tão amarga que pouco é mais que a morte;
+8 mas para tratar do bem que lá encontrei,
+9 direi das outras coisas que lá vi.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Ah | ahi | interjection |  |  |  |  |  |  |
+| quão | quanto | adverb |  |  |  |  |  |  |
+| difícil | difficile | adjective |  | singular |  |  |  |  |
+| é | essere | verb |  | singular | 3rd | present | indicative |  |
+| dizer | dire | verb |  | infinitive |  |  |  |  |
+| o | il | article | masculine | singular |  |  |  |  |
+| que | che | relative pronoun |  | singular |  |  |  |  |
+| era | essere | verb |  | singular | 3rd | past | indicative |  |
+| esta | questo | adjective | feminine | singular |  |  |  |  |
+| selva | selva | noun | feminine | singular |  |  |  |  |
+| selvagem | selvatico | adjective | feminine | singular |  |  |  |  |
+| áspera | aspro | adjective | feminine | singular |  |  |  |  |
+| e | e | conjunction |  |  |  |  |  |  |
+| forte | forte | adjective | feminine | singular |  |  |  |  |
+| que | che | conjunction |  |  |  |  |  |  |
+| no | in + il | preposition | masculine | singular |  |  |  |  |
+| pensamento | pensiero | noun | masculine | singular |  |  |  |  |
+| renova | rinnovare | verb |  | singular | 3rd | present | indicative |  |
+| o | il | article | masculine | singular |  |  |  |  |
+| medo | medo | noun | masculine | singular |  |  |  |  |
+| É | essere | verb |  | singular | 3rd | present | indicative |  |
+| tão | tanto | adverb |  |  |  |  |  |  |
+| amarga | amaro | adjective | feminine | singular |  |  |  |  |
+| que | che | conjunction |  |  |  |  |  |  |
+| pouco | poco | adverb |  |  |  |  |  |  |
+| é | essere | verb |  | singular | 3rd | present | indicative |  |
+| mais | più | adverb |  |  |  |  |  |  |
+| que | che | conjunction |  |  |  |  |  |  |
+| a | il | article | feminine | singular |  |  |  |  |
+| morte | morte | noun | feminine | singular |  |  |  |  |
+| mas | ma | conjunction |  |  |  |  |  |  |
+| para | per | preposition |  |  |  |  |  |  |
+| tratar | trattare | verb |  | infinitive |  |  |  |  |
+| do | di + il | preposition | masculine | singular |  |  |  |  |
+| bem | bene | noun | masculine | singular |  |  |  |  |
+| que | che | relative pronoun |  | singular |  |  |  |  |
+| lá | là | adverb |  |  |  |  |  |  |
+| encontrei | incontrare | verb |  | singular | 1st | past | indicative |  |
+| direi | dire | verb |  | singular | 1st | future | indicative |  |
+| das | di + le | preposition | feminine | plural |  |  |  |  |
+| outras | altro | adjective | feminine | plural |  |  |  |  |
+| coisas | cosa | noun | feminine | plural |  |  |  |  |
+| que | che | relative pronoun |  | plural |  |  |  |  |
+| lá | là | adverb |  |  |  |  |  |  |
+| vi | vedere | verb |  | singular | 1st | past | indicative |  |
+</result>
+</query>
+</queries>

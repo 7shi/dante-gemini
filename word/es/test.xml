@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Spanish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 En la mitad del camino de nuestra vida
+9 diré de las otras cosas que allí vi.
+28 Después que hube reposado un poco el cuerpo cansado,
+67 Me respondió: «No hombre, hombre fui ya,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| En | en | preposition |  |  |  |  |  |  |
+| la | el | definite article | f. | sg. |  |  |  |  |
+| mitad | mitad | noun | f. | sg. |  |  |  |  |
+| del | de + el | preposition + article |  |  |  |  |  |  |
+| camino | camino | noun | m. | sg. |  |  |  |  |
+| de | de | preposition |  |  |  |  |  |  |
+| nuestra | nuestro | possessive adjective | f. | sg. |  |  |  |  |
+| vida | vida | noun | f. | sg. |  |  |  |  |
+| diré | decir | verb |  |  | 1 | future | indicative |  |
+| de | de | preposition |  |  |  |  |  |  |
+| las | el | definite article | f. | pl. |  |  |  |  |
+| otras | otro | indefinite article | f. | pl. |  |  |  |  |
+| cosas | cosa | noun | f. | pl. |  |  |  |  |
+| que | que | relative pronoun |  |  |  |  |  |  |
+| allí | allí | adverb |  |  |  |  |  |  |
+| vi | ver | verb |  |  | 1 | past | indicative |  |
+| Después | después | adverb |  |  |  |  |  |  |
+| que | que | conjunction |  |  |  |  |  |  |
+| hube | haber | verb |  |  | 3 | past | subjunctive |  |
+| reposado | reposar | verb |  |  | 1 | past | participle |  |
+| un | un | indefinite article | m. | sg. |  |  |  |  |
+| poco | poco | adverb |  |  |  |  |  |  |
+| el | el | definite article | m. | sg. |  |  |  |  |
+| cuerpo | cuerpo | noun | m. | sg. |  |  |  |  |
+| cansado | cansado | adjective | m. | sg. |  |  |  |  |
+| Me | me | personal pronoun |  |  | 1 |  |  |  |
+| respondió | responder | verb |  |  | 3 | past | indicative |  |
+| No | no | negation |  |  |  |  |  |  |
+| hombre | hombre | noun | m. | sg. |  |  |  |  |
+| hombre | hombre | noun | m. | sg. |  |  |  |  |
+| fui | ser | verb |  |  | 1 | past | indicative |  |
+| ya | ya | adverb |  |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 En la mitad del camino de nuestra vida
+2 me encontré por una selva oscura,
+3 porque la vía recta estaba perdida.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| En | en | preposition |  |  |  |  |  |  |
+| la | el | definite article | f. | sg. |  |  |  |  |
+| mitad | mitad | noun | f. | sg. |  |  |  |  |
+| del | de + el | preposition + article |  |  |  |  |  |  |
+| camino | camino | noun | m. | sg. |  |  |  |  |
+| de | de | preposition |  |  |  |  |  |  |
+| nuestra | nuestro | possessive adjective | f. | sg. |  |  |  |  |
+| vida | vida | noun | f. | sg. |  |  |  |  |
+| me | me | personal pronoun |  |  | 1 |  |  |  |
+| encontré | encontrar | verb |  |  | 1 | past | indicative |  |
+| por | por | preposition |  |  |  |  |  |  |
+| una | un | indefinite article | f. | sg. |  |  |  |  |
+| selva | selva | noun | f. | sg. |  |  |  |  |
+| oscura | oscuro | adjective | f. | sg. |  |  |  |  |
+| porque | porque | conjunction |  |  |  |  |  |  |
+| la | el | definite article | f. | sg. |  |  |  |  |
+| vía | vía | noun | f. | sg. |  |  |  |  |
+| recta | recto | adjective | f. | sg. |  |  |  |  |
+| estaba | estar | verb |  |  | 3 | past | indicative |  |
+| perdida | perder | verb |  |  | 1 | past | participle |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 ¡Ay, cuán duro es decir cuál era
+5 esta selva salvaje y áspera y fuerte
+6 que en el pensamiento renueva el miedo!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| ¡Ay | ay | interjection |  |  |  |  |  |  |
+| cuán | cuán | adverb |  |  |  |  |  |  |
+| duro | duro | adjective | m. | sg. |  |  |  |  |
+| es | ser | verb |  |  | 3 | present | indicative |  |
+| decir | decir | verb |  |  |  |  |  | infinitive |
+| cuál | cuál | interrogative adjective |  |  |  |  |  |  |
+| era | ser | verb |  |  | 3 | past | indicative |  |
+| esta | este | demonstrative adjective | f. | sg. |  |  |  |  |
+| selva | selva | noun | f. | sg. |  |  |  |  |
+| salvaje | salvaje | adjective | f. | sg. |  |  |  |  |
+| y | y | conjunction |  |  |  |  |  |  |
+| áspera | áspero | adjective | f. | sg. |  |  |  |  |
+| y | y | conjunction |  |  |  |  |  |  |
+| fuerte | fuerte | adjective | f. | sg. |  |  |  |  |
+| que | que | relative pronoun |  |  |  |  |  |  |
+| en | en | preposition |  |  |  |  |  |  |
+| el | el | definite article | m. | sg. |  |  |  |  |
+| pensamiento | pensamiento | noun | m. | sg. |  |  |  |  |
+| renueva | renovar | verb |  |  | 3 | present | indicative |  |
+| el | el | definite article | m. | sg. |  |  |  |  |
+| miedo | miedo | noun | m. | sg. |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Tan amarga es que poco más es la muerte;
+8 pero para tratar del bien que allí encontré,
+9 diré de las otras cosas que allí vi.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Tan | tan | adverb |  |  |  |  |  |  |
+| amarga | amargo | adjective | f. | sg. |  |  |  |  |
+| es | ser | verb |  |  | 3 | present | indicative |  |
+| que | que | conjunction |  |  |  |  |  |  |
+| poco | poco | adverb |  |  |  |  |  |  |
+| más | más | adverb |  |  |  |  |  |  |
+| es | ser | verb |  |  | 3 | present | indicative |  |
+| la | el | definite article | f. | sg. |  |  |  |  |
+| muerte | muerte | noun | f. | sg. |  |  |  |  |
+| pero | pero | conjunction |  |  |  |  |  |  |
+| para | para | preposition |  |  |  |  |  |  |
+| tratar | tratar | verb |  |  |  |  |  | infinitive |
+| del | de + el | preposition + article |  |  |  |  |  |  |
+| bien | bien | noun | m. | sg. |  |  |  |  |
+| que | que | relative pronoun |  |  |  |  |  |  |
+| allí | allí | adverb |  |  |  |  |  |  |
+| encontré | encontrar | verb |  |  | 1 | past | indicative |  |
+| diré | decir | verb |  |  | 1 | future | indicative |  |
+| de | de | preposition |  |  |  |  |  |  |
+| las | el | definite article | f. | pl. |  |  |  |  |
+| otras | otro | indefinite article | f. | pl. |  |  |  |  |
+| cosas | cosa | noun | f. | pl. |  |  |  |  |
+| que | que | relative pronoun |  |  |  |  |  |  |
+| allí | allí | adverb |  |  |  |  |  |  |
+| vi | ver | verb |  |  | 1 | past | indicative |  |
+</result>
+</query>
+</queries>

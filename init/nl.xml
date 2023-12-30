@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Dutch.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Midden op het pad van ons leven
+9 zal ik vertellen over de andere dingen die ik er zag.
+28 Nadat ik mijn vermoeide lichaam een beetje had laten rusten,
+67 Hij antwoordde mij: "Geen mens, ooit was ik een mens,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|
+|Midden|midden|adjective|n.|sg.|||||
+|op|op|preposition|||||||
+|het|het|definite article|n.|sg.|||||
+|pad|pad|noun|n.|sg.|||||
+|van|van|preposition|||||||
+|ons|ons|personal pronoun||pl.|1||||
+|leven|leven|noun|n.|sg.|||||
+|zal|zullen|auxiliary verb|||1|future|indicative||
+|ik|ik|personal pronoun||sg.|1||||
+|vertellen|vertellen|verb|||1|future|indicative||
+|over|over|preposition|||||||
+|de|de|definite article||pl.|||||
+|andere|andere|adjective||pl.|||||
+|dingen|ding|noun|n.|pl.|||||
+|die|die|relative pronoun||pl.|||||
+|ik|ik|personal pronoun||sg.|1||||
+|er|er|adverb|||||||
+|zag|zien|verb|||1|past|indicative||
+|Nadat|nadat|conjunction|||||||
+|ik|ik|personal pronoun||sg.|1||||
+|mijn|mijn|possessive pronoun||sg.|1||||
+|vermoeide|vermoeide|adjective||sg.|||||
+|lichaam|lichaam|noun|n.|sg.|||||
+|een|een|indefinite article||sg.|||||
+|beetje|beetje|noun|n.|sg.|||||
+|had|hebben|auxiliary verb|||1|past|indicative||
+|laten|laten|verb|||1|past|participle||
+|rusten|rusten|verb|||1|past|participle||
+|Hij|hij|personal pronoun|m.|sg.|3||||
+|antwoordde|antwoorden|verb|||3|past|indicative||
+|mij|mij|personal pronoun||sg.|1||||
+|Geen|geen|indefinite pronoun||sg.|||||
+|mens|mens|noun|m.|sg.|||||
+|ooit|ooit|adverb|||||||
+|was|zijn|verb|||1|past|indicative||
+|ik|ik|personal pronoun||sg.|1||||
+|een|een|indefinite article||sg.|||||
+|mens|mens|noun|m.|sg.|||||
+</result>
+</query>
+</queries>

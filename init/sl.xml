@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Slovene.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Sredi poti našega življenja
+9 bom povedal o drugih stvareh, ki sem jih tam uzrl.
+28 Ko sem nekoliko odpočil utrujeno telo,
+67 Odgovoril mi je: »Nisem človek, človek sem že bil,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|Sredi|sredi|preposition||||||||
+|poti|pot|noun|f.|genitive|sg.|||||
+|našega|naš|adjective|m.|genitive|sg.||||possessive|
+|življenja|življenje|noun|n.|genitive|sg.|||||
+|bom|biti|verb||||1|future|indicative||
+|povedal|povedati|verb||||1|past|indicative||
+|o|o|preposition||||||||
+|drugih|drug|adjective|m.|genitive|pl.|||||
+|stvareh|stvar|noun|f.|locative|pl.|||||
+|ki|ki|pronoun|||||||relative|
+|sem|biti|verb||||1|present|indicative||
+|jih|on|pronoun|m.|accusative|pl.|||||
+|tam|tam|adverb||||||||
+|uzrl|uzreti|verb||||1|past|indicative||
+|Ko|ko|conjunction||||||||
+|sem|biti|verb||||1|past|indicative||
+|nekoliko|nekoliko|adverb||||||||
+|odpočil|odpočiti|verb||||1|past|indicative||
+|utrujeno|utrujen|adjective|n.|accusative|sg.|||||
+|telo|telo|noun|n.|accusative|sg.|||||
+|Odgovoril|odgovoriti|verb||||1|past|indicative||
+|mi|jaz|pronoun||dative|sg.|||||
+|je|biti|verb||||3|present|indicative||
+|Nisem|biti|verb||||1|present|indicative|negated|
+|človek|človek|noun|m.|nominative|sg.|||||
+|človek|človek|noun|m.|nominative|sg.|||||
+|sem|biti|verb||||1|present|indicative||
+|že|že|adverb||||||||
+|bil|biti|verb||||1|past|indicative||
+</result>
+</query>
+</queries>

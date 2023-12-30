@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="2">
+<query>
+<prompt>
+The preposition Lemma fused with the article separates the article.
+Examples: στο = σε + το, στη = σε + τη
+</prompt>
+<result>
+This phenomenon is called crasis.
+
+Here are some more examples of crasis in Modern Greek:
+
+* στα = σε + τα
+* στην = σε + την
+* στις = σε + τις
+* στον = σε + τον
+* στους = σε + τους
+* στης = σε + της
+* στου = σε + του
+* στων = σε + των
+</result>
+</query>
+<query>
+<prompt>
+This text is written in Modern Greek.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Στη μέση της διαδρομής της ζωής μας
+9 θα πω για τα άλλα πράγματα που είδα εκεί.
+28 Αφού ξεκούρασα λίγο το κουρασμένο σώμα μου,
+67 Μου απάντησε: «Δεν είμαι άνθρωπος, άνθρωπος ήμουν κάποτε,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|Στη|σε + τη|definite article|f.|accusative|sg.||||contraction|
+|μέση|μέση|noun|f.|accusative|sg.|||||
+|της|ο|definite article|f.|genitive|sg.|||||
+|διαδρομής|διαδρομή|noun|f.|genitive|sg.|||||
+|της|ο|definite article|f.|genitive|sg.|||||
+|ζωής|ζωή|noun|f.|genitive|sg.|||||
+|μας|εμείς|personal pronoun||accusative|pl.|1||||
+|θα|θέλω|verb||||1|future|indicative||
+|πω|λέω|verb||||1|future|indicative||
+|για|για|preposition||||||||
+|τα|ο|definite article|n.|accusative|pl.|||||
+|άλλα|άλλος|adjective|n.|accusative|pl.|||||
+|πράγματα|πράγμα|noun|n.|accusative|pl.|||||
+|που|που|relative pronoun||||||||
+|είδα|βλέπω|verb||aorist|indicative|1||||
+|εκεί|εκεί|adverb||||||||
+|Αφού|αφού|conjunction||||||||
+|ξεκούρασα|ξεκουράζω|verb||aorist|indicative|1||||
+|λίγο|λίγος|adjective|n.|accusative|sg.|||||
+|το|ο|definite article|n.|accusative|sg.|||||
+|κουρασμένο|κουρασμένος|adjective|n.|accusative|sg.|||||
+|σώμα|σώμα|noun|n.|accusative|sg.|||||
+|μου|εγώ|personal pronoun||genitive|sg.|1||||
+|Μου|εγώ|personal pronoun||dative|sg.|1||||
+|απάντησε|απαντώ|verb||aorist|indicative|3||||
+|Δεν|δεν|negation||||||||
+|είμαι|είμαι|verb||present|indicative|1||||
+|άνθρωπος|άνθρωπος|noun|m.|nominative|sg.|||||
+|άνθρωπος|άνθρωπος|noun|m.|nominative|sg.|||||
+|ήμουν|είμαι|verb||imperfect|indicative|1||||
+|κάποτε|κάποτε|adverb||||||||
+</result>
+</query>
+</queries>

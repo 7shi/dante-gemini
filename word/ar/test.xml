@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Arabic.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Roman (Word), Lemma, Roman (Lemma), Part of Speech, Gender, Case, Number, Person, Tense, Mood, Voice and Note.
+
+* Leave blank if not applicable.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded.
+
+1 في منتصف طريق حياتنا
+9 سأقول أشياء أخرى رأيتها هناك.
+28 بعد أن أرحت جسدي المتعب قليلاً،
+67 أجابني: "لست إنسانًا، كنت إنسانًا في يوم من الأيام،
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Voice | Note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| في | fī | في | fī | preposition |  |  |  |  |  |  |  |  |
+| منتصف | muntasaf | منتصف | muntasaf | noun | masculine | accusative | singular |  |  |  |  |  |
+| طريق | ṭarīq | طريق | ṭarīq | noun | masculine | accusative | singular |  |  |  |  |  |
+| حياتنا | ḥayātinā | حياة | ḥayāh | noun | feminine | genitive | dual |  |  |  |  |  |
+| سأقول | sa-a-qul | قول | qawl | verb |  |  |  | 1 | future | indicative | active |  |
+| أشياء | ašyāʾ | شيء | šayʾ | noun | masculine | accusative | plural |  |  |  |  |  |
+| أخرى | uḫrā | آخر | āḫir | adjective | feminine | accusative | plural |  |  |  |  |  |
+| رأيتها | ra-aytu-hā | رؤية | ruʾyah | verb |  |  |  | 1 | past | indicative | active |  |
+| هناك | hunāk | هناك | hunāk | adverb |  |  |  |  |  |  |  |  |
+| بعد | baʿd | بعد | baʿd | preposition |  |  |  |  |  |  |  |  |
+| أن | ʾan | أن | ʾan | conjunction |  |  |  |  |  |  |  |  |
+| أرحت | ar-raḥtu | راحة | rāḥah | verb |  |  |  | 1 | past | indicative | active |  |
+| جسدي | jasadī | جسد | jasad | noun | masculine | accusative | singular |  |  |  |  |  |
+| المتعب | al-mutaʿib | تعب | taʿb | adjective | masculine | accusative | singular |  |  |  |  |  |
+| قليلاً | qalīlan | قليل | qalīl | adjective | masculine | accusative | singular |  |  |  |  |  |
+| أجابني | ʾa-jābanī | جواب | jawāb | verb |  |  |  | 3 | past | indicative | active |  |
+| لست | lastu | ليس | laysa | verb |  |  |  | 1 | present | indicative | active |  |
+| إنسانًا | insān-an | إنسان | insān | noun | masculine | accusative | singular |  |  |  |  |  |
+| كنت | kuntu | كان | kāna | verb |  |  |  | 1 | past | indicative | active |  |
+| إنسانًا | insān-an | إنسان | insān | noun | masculine | accusative | singular |  |  |  |  |  |
+| في | fī | في | fī | preposition |  |  |  |  |  |  |  |  |
+| يوم | yawm | يوم | yawm | noun | masculine | accusative | singular |  |  |  |  |  |
+| من | min | من | min | preposition |  |  |  |  |  |  |  |  |
+| الأيام | al-ayyām | يوم | yawm | noun | masculine | genitive | plural |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 في منتصف طريق حياتنا
+2 وجدت نفسي في غابة مظلمة،
+3 لأن الطريق المستقيم قد ضاع.
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Voice | Note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| في | fī | في | fī | preposition |  |  |  |  |  |  |  |  |
+| منتصف | muntasaf | منتصف | muntasaf | noun | masculine | accusative | singular |  |  |  |  |  |
+| طريق | ṭarīq | طريق | ṭarīq | noun | masculine | genitive | singular |  |  |  |  |  |
+| حياتنا | ḥayātinā | حياة | ḥayāh | noun | feminine | genitive | dual |  |  |  |  |  |
+| وجدت | wajadtu | وجود | wujūd | verb |  |  |  | 1 | past | indicative | active |  |
+| نفسي | nafsī | نفس | nafs | noun | feminine | accusative | singular |  |  |  |  |  |
+| في | fī | في | fī | preposition |  |  |  |  |  |  |  |  |
+| غابة | ġābah | غابة | ġābah | noun | feminine | accusative | singular |  |  |  |  |  |
+| مظلمة | muẓlimah | مظلم | muẓlim | adjective | feminine | accusative | singular |  |  |  |  |  |
+| لأن | li-anna | لأن | li-anna | conjunction |  |  |  |  |  |  |  |  |
+| الطريق | al-ṭarīq | طريق | ṭarīq | noun | masculine | nominative | singular |  |  |  |  | definite |
+| المستقيم | al-mustaqīm | مستقيم | mustaqīm | adjective | masculine | nominative | singular |  |  |  |  | definite |
+| قد | qad | قد | qad | particle |  |  |  |  |  |  |  |  |
+| ضاع | ḍāʿa | ضياع | ḍiyāʿ | verb |  |  |  | 3 | past | indicative | active |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 آه كم هو صعب أن أصف
+5 هذه الغابة المتوحشة والقاسية والقوية
+6 التي تجدد الخوف في الفكر!
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Voice | Note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| آه | āh | آه | āh | interjection |  |  |  |  |  |  |  |  |
+| كم | kam | كم | kam | interrogative pronoun |  |  |  |  |  |  |  |  |
+| هو | huwa | هو | huwa | pronoun | masculine | nominative | singular | 3 |  |  |  |  |
+| صعب | ṣaʿb | صعب | ṣaʿb | adjective | masculine | nominative | singular |  |  |  |  |  |
+| أن | ʾan | أن | ʾan | conjunction |  |  |  |  |  |  |  |  |
+| أصف | ʾaṣifu | وصف | waṣf | verb |  |  |  | 1 | future | subjunctive | active |  |
+| هذه | hāḏihi | هذا | hāḏā | demonstrative pronoun | feminine | nominative | singular |  |  |  |  |  |
+| الغابة | al-ġābah | غابة | ġābah | noun | feminine | nominative | singular |  |  |  |  | definite |
+| المتوحشة | al-muta-waḥḥišah | توحش | tawḥiš | adjective | feminine | nominative | singular |  |  |  |  | definite |
+| والقاسية | wa-al-qāsiyah | قسوة | qaswah | adjective | feminine | nominative | singular |  |  |  |  | definite |
+| والقوية | wa-al-qawiyyah | قوة | quwwah | adjective | feminine | nominative | singular |  |  |  |  | definite |
+| التي | allatī | الذي | alladhī | relative pronoun | feminine | nominative | singular |  |  |  |  |  |
+| تجدد | tujaddidu | تجديد | tajdīd | verb |  |  |  | 3 | present | indicative | active |  |
+| الخوف | al-khawf | خوف | khawf | noun | masculine | accusative | singular |  |  |  |  | definite |
+| في | fī | في | fī | preposition |  |  |  |  |  |  |  |  |
+| الفكر | al-fikr | فكر | fikr | noun | masculine | accusative | singular |  |  |  |  | definite |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 إنها مرة لدرجة أنها تكاد تكون أكثر من الموت؛
+8 ولكن لأتحدث عن الخير الذي وجدته هناك،
+9 سأقول أشياء أخرى رأيتها هناك.
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Voice | Note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| إنها | hiya | هو | huwa | pronoun | feminine | nominative | singular | 3 |  |  |  |  |
+| مرة | murrah | مر | murr | adjective | feminine | nominative | singular |  |  |  |  |  |
+| لدرجة | li-darajah | درجة | darajah | noun | feminine | accusative | singular |  |  |  |  |  |
+| أنها | ʾanna-hā | أن | ʾan | conjunction |  |  |  | 3 |  |  |  |  |
+| تكاد | takādu | كاد | kāda | verb |  |  |  | 3 | present | indicative | active |  |
+| تكون | takūnu | كان | kāna | verb |  |  |  | 3 | present | indicative | active |  |
+| أكثر | ʾakṯar | كثير | kaṯīr | adjective |  |  |  |  |  |  |  | comparative |
+| من | min | من | min | preposition |  |  |  |  |  |  |  |  |
+| الموت | al-mawt | موت | mawt | noun | masculine | genitive | singular |  |  |  |  | definite |
+| ولكن | wa-lākin | لكن | lakin | conjunction |  |  |  |  |  |  |  |  |
+| لأتحدث | li-ʾat-ḥaddatha | حديث | ḥadīth | verb |  |  |  | 1 | jussive | subjunctive | active |  |
+| عن | ʿan | عن | ʿan | preposition |  |  |  |  |  |  |  |  |
+| الخير | al-khayru | خير | khayrun | noun | masculine | accusative | singular |  |  |  |  | definite |
+| الذي | alladhī | الذي | alladhī | relative pronoun | masculine | nominative | singular |  |  |  |  |  |
+| وجدته | wajadtu-hu | وجود | wujūd | verb |  |  |  | 1 | past | indicative | active |  |
+| هناك | hunāk | هناك | hunāk | adverb |  |  |  |  |  |  |  |  |
+| سأقول | sa-a-qul | قول | qawl | verb |  |  |  | 1 | future | indicative | active |  |
+| أشياء | ašyāʾ | شيء | šayʾ | noun | masculine | accusative | plural |  |  |  |  |  |
+| أخرى | uḫrā | آخر | āḫir | adjective | feminine | accusative | plural |  |  |  |  |  |
+| رأيتها | ra-aytu-hā | رؤية | ruʾyah | verb |  |  |  | 1 | past | indicative | active |  |
+| هناك | hunāk | هناك | hunāk | adverb |  |  |  |  |  |  |  |  |
+</result>
+</query>
+</queries>

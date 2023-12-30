@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="2">
+<query>
+<prompt>
+Show contractions of preposition and article in Spanish. No examples are needed.
+</prompt>
+<result>
+* al = a + el
+* del = de + el
+</result>
+</query>
+<query>
+<prompt>
+This text is written in Spanish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 En la mitad del camino de nuestra vida
+9 diré de las otras cosas que allí vi.
+28 Después que hube reposado un poco el cuerpo cansado,
+67 Me respondió: «No hombre, hombre fui ya,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|
+|En|en|preposition|||||||
+|la|el|definite article|f.|sg.|||||
+|mitad|mitad|noun|f.|sg.|||||
+|del|de + el|preposition + article|||||||
+|camino|camino|noun|m.|sg.|||||
+|de|de|preposition|||||||
+|nuestra|nuestro|possessive adjective|f.|sg.|||||
+|vida|vida|noun|f.|sg.|||||
+|diré|decir|verb|||1|future|indicative||
+|de|de|preposition|||||||
+|las|el|definite article|f.|pl.|||||
+|otras|otro|indefinite article|f.|pl.|||||
+|cosas|cosa|noun|f.|pl.|||||
+|que|que|relative pronoun|||||||
+|allí|allí|adverb|||||||
+|vi|ver|verb|||1|past|indicative||
+|Después|después|adverb|||||||
+|que|que|conjunction|||||||
+|hube|haber|verb|||3|past|subjunctive||
+|reposado|reposar|verb|||1|past|participle||
+|un|un|indefinite article|m.|sg.|||||
+|poco|poco|adverb|||||||
+|el|el|definite article|m.|sg.|||||
+|cuerpo|cuerpo|noun|m.|sg.|||||
+|cansado|cansado|adjective|m.|sg.|||||
+|Me|me|personal pronoun|||1||||
+|respondió|responder|verb|||3|past|indicative||
+|No|no|negation|||||||
+|hombre|hombre|noun|m.|sg.|||||
+|hombre|hombre|noun|m.|sg.|||||
+|fui|ser|verb|||1|past|indicative||
+|ya|ya|adverb|||||||
+</result>
+</query>
+</queries>

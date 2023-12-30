@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="2">
+<query>
+<prompt>
+Show contractions of preposition and article in French. No examples are needed.
+</prompt>
+<result>
+* au = à + le
+* aux = à + les
+* du = de + le
+* des = de + les
+</result>
+</query>
+<query>
+<prompt>
+This text is written in French.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Au milieu du chemin de notre vie
+9 je dirai des autres choses que j’y ai vues.
+28 Puisque j’eus un peu reposé mon corps las,
+67 Il me répondit : « Pas un homme, un homme je fus jadis,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|
+|Au|à + le|preposition|m.|sg.||||contraction|
+|milieu|milieu|noun|m.|sg.|||||
+|du|de + le|preposition|m.|sg.||||contraction|
+|chemin|chemin|noun|m.|sg.|||||
+|de|de|preposition|||||||
+|notre|notre|possessive adjective|||||||
+|vie|vie|noun|f.|sg.|||||
+|je|je|pronoun|||1||||
+|dirai|dire|verb|||1|future|indicative||
+|des|de + les|preposition||pl.||||contraction|
+|autres|autre|adjective||pl.|||||
+|choses|chose|noun|f.|pl.|||||
+|que|que|conjunction|||||||
+|j’|je|pronoun|||1||||
+|y|y|adverb|||||||
+|ai|avoir|verb|||1|present|indicative||
+|vues|voir|verb||pl.||past|participle||
+|Puisque|puisque|conjunction|||||||
+|j’|je|pronoun|||1||||
+|eus|avoir|verb|||1|past|subjunctive||
+|un|un|indefinite article|m.|sg.|||||
+|peu|peu|adverb|||||||
+|reposé|reposer|verb||||past|participle||
+|mon|mon|possessive adjective|m.|sg.|||||
+|corps|corps|noun|m.|sg.|||||
+|las|las|adjective|m.|sg.|||||
+|Il|il|pronoun|m.|sg.|3||||
+|me|me|pronoun|||1||||
+|répondit|répondre|verb|||3|past|indicative||
+|Pas|pas|adverb|||||||
+|un|un|indefinite article|m.|sg.|||||
+|homme|homme|noun|m.|sg.|||||
+|un|un|indefinite article|m.|sg.|||||
+|homme|homme|noun|m.|sg.|||||
+|je|je|pronoun|||1||||
+|fus|être|verb|||1|past|indicative||
+|jadis|jadis|adverb||||||archaic|
+</result>
+</query>
+</queries>

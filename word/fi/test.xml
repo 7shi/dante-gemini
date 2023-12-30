@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Finnish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Puolivälissä elämämme matkaa
+9 kerron muista asioista, joita siellä näin.
+28 Kun olin levännyt hieman väsynyttä ruumistani,
+67 Hän vastasi minulle: ”En ole ihminen, ihminen minä joskus olin,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Puolivälissä | puolivälissä | adverb |  |  |  |  |  |  |
+| elämämme | elämä | noun | genitive | singular |  |  |  |  |
+| matkaa | matka | noun | partitive | singular |  |  |  |  |
+| kerron | kertoa | verb | 1st person singular | singular | present | indicative |  |
+| muista | muu | adjective | plural |  |  |  |  |  |
+| asioista | asia | noun | plural |  |  |  |  |  |
+| joita | joka | pronoun | accusative | plural |  |  |  |  |
+| siellä | siellä | adverb |  |  |  |  |  |  |
+| näin | nähdä | verb | 1st person singular | singular | past | indicative |  |
+| Kun | kun | conjunction |  |  |  |  |  |  |
+| olin | olla | verb | 1st person singular | singular | past | indicative |  |
+| levännyt | levätä | verb | past participle | singular |  |  |  |  |
+| hieman | hieman | adverb |  |  |  |  |  |  |
+| väsynyttä | väsynyt | adjective | accusative | singular |  |  |  |  |
+| ruumistani | ruumis | noun | partitive | singular |  |  |  |  |
+| Hän | hän | pronoun | nominative | singular | 3rd person |  |  |  |
+| vastasi | vastata | verb | past | singular | 3rd person | indicative |  |
+| minulle | minä | pronoun | dative | singular | 1st person |  |  |  |
+| En | ei | verb | 1st person singular | singular | present | indicative | contracted |
+| ole | olla | verb | 1st person singular | singular | present | indicative |  |
+| ihminen | ihminen | noun | nominative | singular |  |  |  |  |
+| ihminen | ihminen | noun | nominative | singular |  |  |  |  |
+| minä | minä | pronoun | nominative | singular | 1st person |  |  |  |
+| joskus | joskus | adverb |  |  |  |  |  |  |
+| olin | olla | verb | 1st person singular | singular | past | indicative |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Puolivälissä elämämme matkaa
+2 eksyin synkkään metsään,
+3 sillä oikea tie oli hukassa.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Puolivälissä | puolivälissä | adverb |  |  |  |  |  |  |
+| elämämme | elämä | noun | genitive | singular |  |  |  |  |
+| matkaa | matka | noun | partitive | singular |  |  |  |  |
+| eksyin | eksyä | verb | 1st person singular | singular | past | indicative |  |
+| synkkään | synkkä | adjective | illative | singular |  |  |  |  |
+| metsään | metsä | noun | illative | singular |  |  |  |  |
+| sillä | se | pronoun | adessive | singular |  |  |  |  |
+| oikea | oikea | adjective | nominative | singular |  |  |  |  |
+| tie | tie | noun | nominative | singular |  |  |  |  |
+| oli | olla | verb | 3rd person singular | singular | past | indicative |  |
+| hukassa | hukassa | adverb |  |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Voi kuinka vaikeaa onkaan kertoa sinulle, millainen
+5 tuo villi, karu ja ankara metsä oli,
+6 joka ajatuksissani herättää pelon uudelleen!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Voi | voi | interjection |  |  |  |  |  |  |
+| kuinka | kuinka | adverb |  |  |  |  |  |  |
+| vaikeaa | vaikea | adjective | nominative | singular |  |  |  |  |
+| onkaan | olla | verb | 3rd person singular | singular | present | indicative | contracted |
+| kertoa | kertoa | verb | infinitive |  |  |  |  |  |
+| sinulle | sinä | pronoun | dative | singular | 2nd person |  |  |  |
+| millainen | millainen | pronoun | nominative | singular |  |  |  |  |
+| tuo | tuo | demonstrative pronoun | nominative | singular |  |  |  |  |
+| villi | villi | adjective | nominative | singular |  |  |  |  |
+| karu | karu | adjective | nominative | singular |  |  |  |  |
+| ja | ja | conjunction |  |  |  |  |  |  |
+| ankara | ankara | adjective | nominative | singular |  |  |  |  |
+| metsä | metsä | noun | nominative | singular |  |  |  |  |
+| oli | olla | verb | 3rd person singular | singular | past | indicative |  |
+| joka | joka | pronoun | nominative | singular |  |  |  |  |
+| ajatuksissani | ajatus | noun | inessive | plural | 1st person |  |  |  |
+| herättää | herättää | verb | 3rd person singular | singular | present | indicative |  |
+| pelon | pelko | noun | partitive | singular |  |  |  |  |
+| uudelleen | uudelleen | adverb |  |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Se on niin katkera, että kuolema on tuskin pahempaa;
+8 mutta kertoakseni siitä hyvästä, jonka siellä löysin,
+9 kerron muista asioista, joita siellä näin.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|
+| Se | se | pronoun | nominative | singular |  |  |  |  |
+| on | olla | verb | 3rd person singular | singular | present | indicative |  |
+| niin | niin | adverb |  |  |  |  |  |  |
+| katkera | katkera | adjective | nominative | singular |  |  |  |  |
+| että | että | conjunction |  |  |  |  |  |  |
+| kuolema | kuolema | noun | nominative | singular |  |  |  |  |
+| on | olla | verb | 3rd person singular | singular | present | indicative |  |
+| tuskin | tuskin | adverb |  |  |  |  |  |  |
+| pahempaa | paha | adjective | comparative | singular |  |  |  |  |
+| mutta | mutta | conjunction |  |  |  |  |  |  |
+| kertoakseni | kertoa | verb | infinitive |  | 1st person |  |  |  |
+| siitä | se | pronoun | ablative | singular |  |  |  |  |
+| hyvästä | hyvä | adjective | elative | singular |  |  |  |  |
+| jonka | joka | pronoun | genitive | singular |  |  |  |  |
+| siellä | siellä | adverb |  |  |  |  |  |  |
+| löysin | löytää | verb | 1st person singular | singular | past | indicative |  |
+| kerron | kertoa | verb | 1st person singular | singular | present | indicative |  |
+| muista | muu | adjective | plural |  |  |  |  |  |
+| asioista | asia | noun | plural |  |  |  |  |  |
+| joita | joka | pronoun | accusative | plural |  |  |  |  |
+| siellä | siellä | adverb |  |  |  |  |  |  |
+| näin | nähdä | verb | 1st person singular | singular | past | indicative |  |
+</result>
+</query>
+</queries>

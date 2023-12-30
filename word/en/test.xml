@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in English.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 In the middle of the journey of our life
+9 I will tell of the other things that I perceived there.
+28 After I had rested my weary body a little,
+67 He replied to me: “Not a man, a man I once was,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Tense | Mood | Note |
+|---|---|---|---|---|---|
+| In | in | preposition |  |  |  |
+| the | the | determiner |  |  |  |
+| middle | middle | noun |  |  |  |
+| of | of | preposition |  |  |  |
+| the | the | determiner |  |  |  |
+| journey | journey | noun |  |  |  |
+| of | of | preposition |  |  |  |
+| our | our | pronoun |  |  | possessive |
+| life | life | noun |  |  |  |
+| I | I | pronoun |  |  |  |
+| will | will | modal verb | future |  |  |
+| tell | tell | verb | future |  |  |
+| of | of | preposition |  |  |  |
+| the | the | determiner |  |  |  |
+| other | other | adjective |  |  |  |
+| things | thing | noun | plural |  |  |
+| that | that | pronoun |  |  |  |
+| I | I | pronoun |  |  |  |
+| perceived | perceive | verb | past |  |  |
+| there | there | adverb |  |  |  |
+| After | after | preposition |  |  |  |
+| I | I | pronoun |  |  |  |
+| had | have | verb | past |  |  |
+| rested | rest | verb | past |  |  |
+| my | my | pronoun |  |  | possessive |
+| weary | weary | adjective |  |  |  |
+| body | body | noun |  |  |  |
+| a | a | determiner |  |  |  |
+| little | little | adjective |  |  |  |
+| He | he | pronoun |  |  |  |
+| replied | reply | verb | past |  |  |
+| to | to | preposition |  |  |  |
+| me | me | pronoun |  |  |  |
+| Not | not | adverb |  |  |  |
+| a | a | determiner |  |  |  |
+| man | man | noun |  |  |  |
+| a | a | determiner |  |  |  |
+| man | man | noun |  |  |  |
+| I | I | pronoun |  |  |  |
+| once | once | adverb |  |  |  |
+| was | be | verb | past |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 In the middle of the journey of our life
+2 I found myself within a dark wood,
+3 for the straight way was lost.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Tense | Mood | Note |
+|---|---|---|---|---|---|
+| In | in | preposition |  |  |  |
+| the | the | determiner |  |  |  |
+| middle | middle | noun |  |  |  |
+| of | of | preposition |  |  |  |
+| the | the | determiner |  |  |  |
+| journey | journey | noun |  |  |  |
+| of | of | preposition |  |  |  |
+| our | our | pronoun |  |  | possessive |
+| life | life | noun |  |  |  |
+| I | I | pronoun |  |  |  |
+| found | find | verb | past |  |  |
+| myself | myself | pronoun |  |  | reflexive |
+| within | within | preposition |  |  |  |
+| a | a | determiner |  |  |  |
+| dark | dark | adjective |  |  |  |
+| wood | wood | noun |  |  |  |
+| for | for | conjunction |  |  |  |
+| the | the | determiner |  |  |  |
+| straight | straight | adjective |  |  |  |
+| way | way | noun |  |  |  |
+| was | be | verb | past |  |  |
+| lost | lose | verb | past participle |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ah, how hard it is to tell what it was,
+5 this wild, savage and rough wood,
+6 which in my mind renews the fear!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Tense | Mood | Note |
+|---|---|---|---|---|---|
+| Ah | ah | interjection |  |  |  |
+| how | how | adverb |  |  |  |
+| hard | hard | adjective |  |  |  |
+| it | it | pronoun |  |  |  |
+| is | be | verb | present | indicative |  |
+| to | to | preposition |  |  |  |
+| tell | tell | verb | infinitive |  |  |
+| what | what | pronoun |  |  | interrogative |
+| it | it | pronoun |  |  |  |
+| was | be | verb | past | indicative |  |
+| this | this | determiner |  |  | demonstrative |
+| wild | wild | adjective |  |  |  |
+| savage | savage | adjective |  |  |  |
+| and | and | conjunction |  |  |  |
+| rough | rough | adjective |  |  |  |
+| wood | wood | noun |  |  |  |
+| which | which | pronoun |  |  | relative |
+| in | in | preposition |  |  |  |
+| my | my | pronoun |  |  | possessive |
+| mind | mind | noun |  |  |  |
+| renews | renew | verb | present | indicative |  |
+| the | the | determiner |  |  |  |
+| fear | fear | noun |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 So bitter is it, that death is hardly more so;
+8 but to treat of the good that I found there,
+9 I will tell of the other things that I perceived there.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Tense | Mood | Note |
+|---|---|---|---|---|---|
+| So | so | adverb |  |  |  |
+| bitter | bitter | adjective |  |  |  |
+| is | be | verb | present | indicative |  |
+| it | it | pronoun |  |  |  |
+| that | that | conjunction |  |  |  |
+| death | death | noun |  |  |  |
+| is | be | verb | present | indicative |  |
+| hardly | hardly | adverb |  |  |  |
+| more | more | adjective | comparative |  |  |
+| so | so | adverb |  |  |  |
+| but | but | conjunction |  |  |  |
+| to | to | preposition |  |  |  |
+| treat | treat | verb | infinitive |  |  |
+| of | of | preposition |  |  |  |
+| the | the | determiner |  |  |  |
+| good | good | noun |  |  |  |
+| that | that | pronoun |  |  |  |
+| I | I | pronoun |  |  |  |
+| found | find | verb | past |  |  |
+| there | there | adverb |  |  |  |
+| I | I | pronoun |  |  |  |
+| will | will | modal verb | future |  |  |
+| tell | tell | verb | future |  |  |
+| of | of | preposition |  |  |  |
+| the | the | determiner |  |  |  |
+| other | other | adjective |  |  |  |
+| things | thing | noun | plural |  |  |
+| that | that | pronoun |  |  |  |
+| I | I | pronoun |  |  |  |
+| perceived | perceive | verb | past |  |  |
+| there | there | adverb |  |  |  |
+</result>
+</query>
+</queries>

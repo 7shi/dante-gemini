@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Turkish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Hayat yolculuğumuzun ortasında
+9 size orada gördüğüm diğer şeyleri anlatacağım.
+28 Yorgun bedenimi biraz dinlendirdikten sonra,
+67 Bana cevap verdi: «İnsan değilim, bir zamanlar insandım,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|
+|Hayat|hayat|noun|nominative|sg.|||||
+|yolculuğumuzun|yolculuk|noun|genitive|sg.|1st person plural||||
+|ortasında|ortası|noun|locative|sg.|||||
+|size|siz|pronoun|dative|sg.|2nd person plural||||
+|orada|orası|pronoun|locative|sg.|||||
+|gördüğüm|görmek|verb|accusative|sg.|1st person singular|past|indicative||
+|diğer|diğer|adjective|nominative|sg.|||||
+|şeyleri|şey|noun|accusative|pl.|||||
+|anlatacağım|anlatmak|verb|future|1st person singular|||indicative||
+|Yorgun|yorgun|adjective|nominative|sg.|||||
+|bedenimi|beden|noun|accusative|sg.|1st person singular||||
+|biraz|biraz|adverb|||||||
+|dinlendirdikten|dinlendirmek|verb|ablative|sg.|1st person singular|past|indicative||
+|sonra|sonra|adverb|||||||
+|Bana|ben|pronoun|dative|sg.|1st person singular||||
+|cevap|cevap|noun|accusative|sg.|||||
+|verdi|vermek|verb|past|3rd person singular|||indicative||
+|İnsan|insan|noun|nominative|sg.|||||
+|değilim|değil|verb|present|1st person singular|||indicative||
+|bir|bir|numeral|nominative|sg.|||||
+|zamanlar|zaman|noun|nominative|pl.|||||
+|insandım|insan|noun|past|1st person singular|||indicative||
+</result>
+</query>
+</queries>

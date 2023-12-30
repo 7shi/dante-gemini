@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Danish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 På livets halve vej
+9 vil jeg fortælle om de andre ting, jeg så der.
+28 Da jeg havde hvilet min trætte krop lidt,
+67 Han svarede mig: «Ikke et menneske, et menneske var jeg engang,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| På | på | preposition |  |  |  |  |  |
+| livets | liv | noun | n. | sg. |  |  |  |
+| halve | halv | adjective |  | sg. |  |  |  |
+| vej | vej | noun | f. | sg. |  |  |  |
+| vil | ville | verb |  |  | future | indicative |  |
+| jeg | jeg | pronoun |  | sg. |  |  |  |
+| fortælle | fortælle | verb |  |  | present | infinitive |  |
+| om | om | preposition |  |  |  |  |  |
+| de | de | pronoun |  | pl. |  |  |  |
+| andre | anden | adjective |  | pl. |  |  |  |
+| ting | ting | noun | f. | pl. |  |  |  |
+| jeg | jeg | pronoun |  | sg. |  |  |  |
+| så | se | verb |  |  | past | indicative |  |
+| der | der | adverb |  |  |  |  |  |
+| Da | da | conjunction |  |  |  |  |  |
+| jeg | jeg | pronoun |  | sg. |  |  |  |
+| havde | have | verb |  |  | past | indicative |  |
+| hvilet | hvile | verb |  |  | past | participle |  |
+| min | min | pronoun |  | sg. |  |  |  |
+| trætte | træt | adjective |  | sg. |  |  |  |
+| krop | krop | noun | f. | sg. |  |  |  |
+| lidt | lidt | adverb |  |  |  |  |  |
+| Han | han | pronoun | m. | sg. |  |  |  |
+| svarede | svare | verb |  |  | past | indicative |  |
+| mig | mig | pronoun |  | sg. |  |  |  |
+| Ikke | ikke | adverb |  |  |  |  |  |
+| et | en | indefinite article | n. | sg. |  |  |  |
+| menneske | menneske | noun | n. | sg. |  |  |  |
+| et | en | indefinite article | n. | sg. |  |  |  |
+| menneske | menneske | noun | n. | sg. |  |  |  |
+| var | være | verb |  |  | past | indicative |  |
+| jeg | jeg | pronoun |  | sg. |  |  |  |
+| engang | engang | adverb |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 På livets halve vej
+2 befandt jeg mig i en mørk skov,
+3 thi den rette vej var tabt.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| På | på | preposition |  |  |  |  |  |
+| livets | liv | noun | n. | sg. |  |  |  |
+| halve | halv | adjective |  | sg. |  |  |  |
+| vej | vej | noun | f. | sg. |  |  |  |
+| befandt | befinde | verb |  |  | past | indicative |  |
+| jeg | jeg | pronoun |  | sg. |  |  |  |
+| mig | mig | pronoun |  | sg. |  |  |  |
+| i | i | preposition |  |  |  |  |  |
+| en | en | indefinite article |  | sg. |  |  |  |
+| mørk | mørk | adjective |  | sg. |  |  |  |
+| skov | skov | noun | f. | sg. |  |  |  |
+| thi | thi | conjunction |  |  |  |  | archaic |
+| den | den | pronoun |  | sg. |  |  |  |
+| rette | ret | adjective |  | sg. |  |  |  |
+| vej | vej | noun | f. | sg. |  |  |  |
+| var | være | verb |  |  | past | indicative |  |
+| tabt | tabe | verb |  |  | past | participle |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ak, hvor svært det er at fortælle dig,
+5 hvor vild og barsk og hård denne skov var,
+6 som i tanken vækker frygten på ny!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| Ak | ak | interjection |  |  |  |  |  |
+| hvor | hvor | adverb |  |  |  |  |  |
+| svært | svær | adjective |  |  |  |  |  |
+| det | det | pronoun | n. | sg. |  |  |  |
+| er | være | verb |  |  | present | indicative |  |
+| at | at | conjunction |  |  |  |  |  |
+| fortælle | fortælle | verb |  |  | present | infinitive |  |
+| dig | du | pronoun |  | sg. |  |  | object form |
+| hvor | hvor | adverb |  |  |  |  |  |
+| vild | vild | adjective |  |  |  |  |  |
+| og | og | conjunction |  |  |  |  |  |
+| barsk | barsk | adjective |  |  |  |  |  |
+| og | og | conjunction |  |  |  |  |  |
+| hård | hård | adjective |  |  |  |  |  |
+| denne | denne | pronoun |  | sg. |  |  |  |
+| skov | skov | noun | f. | sg. |  |  |  |
+| var | være | verb |  |  | past | indicative |  |
+| som | som | conjunction |  |  |  |  |  |
+| i | i | preposition |  |  |  |  |  |
+| tanken | tanke | noun | f. | sg. |  |  |  |
+| vækker | vække | verb |  |  | present | indicative |  |
+| frygten | frygt | noun | f. | sg. |  |  |  |
+| på | på | preposition |  |  |  |  |  |
+| ny | ny | adjective |  | sg. |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Så bitter er den, at døden er lidt værre;
+8 men for at fortælle om det gode, jeg fandt der,
+9 vil jeg fortælle om de andre ting, jeg så der.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Number | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|
+| Så | så | adverb |  |  |  |  |  |
+| bitter | bitter | adjective |  |  |  |  |  |
+| er | være | verb |  |  | present | indicative |  |
+| den | den | pronoun |  | sg. |  |  |  |
+| at | at | conjunction |  |  |  |  |  |
+| døden | død | noun | f. | sg. |  |  |  |
+| er | være | verb |  |  | present | indicative |  |
+| lidt | lidt | adverb |  |  |  |  |  |
+| værre | værre | adjective |  |  | comparative |  |  |
+| men | men | conjunction |  |  |  |  |  |
+| for | for | preposition |  |  |  |  |  |
+| at | at | conjunction |  |  |  |  |  |
+| fortælle | fortælle | verb |  |  | present | infinitive |  |
+| om | om | preposition |  |  |  |  |  |
+| det | det | pronoun | n. | sg. |  |  |  |
+| gode | god | adjective | n. | sg. |  |  |  |
+| jeg | jeg | pronoun |  | sg. |  |  |  |
+| fandt | finde | verb |  |  | past | indicative |  |
+| der | der | adverb |  |  |  |  |  |
+| vil | ville | verb |  |  | future | indicative |  |
+| jeg | jeg | pronoun |  | sg. |  |  |  |
+| fortælle | fortælle | verb |  |  | present | infinitive |  |
+| om | om | preposition |  |  |  |  |  |
+| de | de | pronoun |  | pl. |  |  |  |
+| andre | anden | adjective |  | pl. |  |  |  |
+| ting | ting | noun | f. | pl. |  |  |  |
+| jeg | jeg | pronoun |  | sg. |  |  |  |
+| så | se | verb |  |  | past | indicative |  |
+| der | der | adverb |  |  |  |  |  |
+</result>
+</query>
+</queries>

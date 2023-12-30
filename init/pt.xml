@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="2">
+<query>
+<prompt>
+Show contractions of preposition and article in Portuguese. No examples are needed.
+</prompt>
+<result>
+* ao = a + o
+* aos = a + os
+* à = a + a
+* às = a + as
+* do = de + o
+* dos = de + os
+* da = de + a
+* das = de + as
+* no = em + o
+* nos = em + os
+* na = em + a
+* nas = em + as
+* pelo = por + o
+* pelos = por + os
+* pela = por + a
+* pelas = por + as
+</result>
+</query>
+<query>
+<prompt>
+This text is written in Portuguese.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 No meio do caminho da nossa vida
+9 direi das outras coisas que lá vi.
+28 Depois que descansei um pouco o corpo cansado,
+67 Respondeu-me: "Não sou homem, homem já fui,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|
+|No|em + o|preposition|m.|sg.|3|||contraction|
+|meio|meio|noun|m.|sg.|||||
+|do|de + o|preposition|m.|sg.|3|||contraction|
+|caminho|caminho|noun|m.|sg.|||||
+|da|de + a|preposition|f.|sg.|3|||contraction|
+|nossa|nossa|possessive adjective|f.|sg.|1||||
+|vida|vida|noun|f.|sg.|||||
+|direi|dizer|verb|||1|future|indicative||
+|das|de + as|preposition|f.|pl.|3|||contraction|
+|outras|outro|adjective|f.|pl.|||||
+|coisas|coisa|noun|f.|pl.|||||
+|que|que|relative pronoun|||3||||
+|lá|lá|adverb|||||||
+|vi|ver|verb|||1|past|indicative||
+|Depois|depois|adverb|||||||
+|que|que|conjunction|||||||
+|descansei|descansar|verb|||1|past|indicative||
+|um|um|indefinite article|m.|sg.|||||
+|pouco|pouco|adverb|||||||
+|o|o|definite article|m.|sg.|||||
+|corpo|corpo|noun|m.|sg.|||||
+|cansado|cansado|adjective|m.|sg.|||||
+|Respondeu|responder|verb|||3|past|indicative||
+|-me|me|pronoun|||1|||clitic pronoun|
+|Não|não|negation|||||||
+|sou|ser|verb|||1|present|indicative||
+|homem|homem|noun|m.|sg.|||||
+|homem|homem|noun|m.|sg.|||||
+|já|já|adverb|||||||
+|fui|ser|verb|||1|past|indicative||
+</result>
+</query>
+</queries>

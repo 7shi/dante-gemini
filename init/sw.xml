@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Swahili.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Class, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Katikati ya safari ya maisha yetu
+9 nitaelezea mambo mengine niliyoyaona.
+28 Baada ya mwili wangu kupumzika kidogo,
+67 Alinijibu: "Si mimi sio mtu, nilikuwa mtu zamani,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Class|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|
+|Katikati|katikati|noun|common|sg.|||||
+|ya|ya|preposition|||||||
+|safari|safari|noun|common|sg.|||||
+|ya|ya|preposition|||||||
+|maisha|maisha|noun|common|pl.|||||
+|yetu|yetu|pronoun|personal|pl.|1||||
+|nitaelezea|eleza|verb|transitive||1|future|indicative||
+|mambo|mambo|noun|common|pl.|||||
+|mengine|mwingine|pronoun|indefinite|pl.|||||
+|niliyoyaona|ona|verb|transitive||1|past|indicative||
+|Baada|baada|preposition|||||||
+|ya|ya|preposition|||||||
+|mwili|mwili|noun|common|sg.|||||
+|wangu|wangu|pronoun|personal|sg.|1||||
+|kupumzika|pumzika|verb|intransitive|||infinitive|||
+|kidogo|kidogo|adjective|||||||
+|Alinijibu|jibu|verb|transitive||3|past|indicative||
+|Si|si|verb|copula|||present|indicative||
+|mimi|mimi|pronoun|personal|sg.|1||||
+|sio|si|verb|copula|||present|indicative||
+|mtu|mtu|noun|common|sg.|||||
+|nilikuwa|kuwa|verb|copula||1|past|indicative||
+|mtu|mtu|noun|common|sg.|||||
+|zamani|zamani|noun|common|sg.|||||
+</result>
+</query>
+</queries>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Hebrew.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Roman (Word), Lemma, Roman (Lemma), Part of Speech, Gender, Case, Number, Person, Tense and Note.
+
+* Lemma means the dictionary headword form.
+* Leave blank if not applicable.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded.
+
+1 באמצע דרך חיינו
+9 אספר על הדברים האחרים שראיתי בו.
+28 לאחר שהנחתי מעט את גופי העייף,
+67 הוא ענה לי: "לא אדם, אדם הייתי פעם,
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| באמצע | be'emtza | בְּאֶמְצַע | bə'emtza | preposition |  |  |  |  |  |  |
+| דרך | derekh | דֶּרֶךְ | derekh | noun | feminine |  | singular |  |  |  |
+| חיינו | khayenu | חַיֵּינוּ | khayeynu | noun | masculine | construct | dual |  |  |  |
+| אספר | aseper | סָפַר | saper | verb |  |  | singular | 1st | future |  |
+| על | al | עַל | al | preposition |  |  |  |  |  |  |
+| הדברים | hadevarim | הַדְּבָרִים | hadevarim | noun | masculine | nominative | plural |  |  |  |
+| האחרים | ha'akharim | הָאַחֵרִים | ha'akharim | adjective | masculine | nominative | plural |  |  |  |
+| שראיתי | sherayiti | רָאָה | ra'ah | verb |  |  | singular | 1st | past |  |
+| בו | bo | בּוֹ | bo | pronoun | masculine | accusative | singular | 3rd |  |  |
+| לאחר | le'akhar | לְאַחַר | le'akhar | preposition |  |  |  |  |  |  |
+| שהנחתי | shehenakhti | נָחַת | nakhat | verb |  |  | singular | 1st | past |  |
+| מעט | meat | מְעַט | meat | adverb |  |  |  |  |  |  |
+| את | et | אֶת | et | preposition |  |  |  |  |  |  |
+| גופי | gufi | גּוּפִי | gufi | noun | masculine | construct | singular | 1st |  |  |
+| העייף | ha'ayef | הָעָיֵף | ha'ayef | adjective | masculine | nominative | singular |  |  |  |
+| הוא | hu | הוּא | hu | pronoun | masculine | nominative | singular | 3rd |  |  |
+| ענה | anah | עָנָה | anah | verb |  |  | singular | 3rd | past |  |
+| לי | li | לִי | li | pronoun |  | dative | singular | 1st |  |  |
+| לא | lo | לֹא | lo | negation |  |  |  |  |  |  |
+| אדם | adam | אָדָם | adam | noun | masculine | nominative | singular |  |  |  |
+| אדם | adam | אָדָם | adam | noun | masculine | nominative | singular |  |  |  |
+| הייתי | hayiti | הָיָה | haya | verb |  |  | singular | 1st | past |  |
+| פעם | pa'am | פַּעַם | pa'am | noun | feminine | nominative | singular |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 באמצע דרך חיינו
+2 מצאתי את עצמי ביער אפל,
+3 כי הדרך הישרה אבדה.
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| באמצע | be'emtza | בְּאֶמְצַע | bə'emtza | preposition |  |  |  |  |  |  |
+| דרך | derekh | דֶּרֶךְ | derekh | noun | feminine |  | singular |  |  |  |
+| חיינו | khayenu | חַיֵּינוּ | khayeynu | noun | masculine | construct | dual |  |  |  |
+| מצאתי | matzati | מָצָא | matza | verb |  |  | singular | 1st | past |  |
+| את | et | אֶת | et | preposition |  |  |  |  |  |  |
+| עצמי | atzmi | עַצְמִי | atzmi | pronoun |  |  | singular | 1st |  |  |
+| ביער | ba'yar | בַּיַּעַר | ba'ya'ar | noun | masculine |  | singular |  |  |  |
+| אפל | apel | אָפֵל | apel | adjective | masculine | nominative | singular |  |  |  |
+| כי | ki | כִּי | ki | conjunction |  |  |  |  |  |  |
+| הדרך | haderekh | הַדֶּרֶךְ | haderekh | noun | feminine | nominative | singular |  |  |  |
+| הישרה | hayisharah | הַיְּשָׁרָה | hayisharah | adjective | feminine | nominative | singular |  |  |  |
+| אבדה | avdah | אָבַד | avad | verb |  |  | singular | feminine | past |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 אה, כמה קשה לומר מה היה
+5 היער הפראי והקשה והחזק הזה
+6 שמחשבת ומחדשת את הפחד!
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| אה | ah | אָח | ah | interjection |  |  |  |  |  |  |
+| כמה | kamah | כַּמָּה | kamah | interrogative pronoun |  |  |  |  |  |  |
+| קשה | kashah | קָשֶׁה | kashah | adjective |  |  | singular |  |  |  |
+| לומר | lemor | אָמַר | amar | verb |  |  | infinitive |  |  |  |
+| מה | mah | מָה | mah | interrogative pronoun |  |  |  |  |  |  |
+| היה | hayah | הָיָה | haya | verb |  |  | singular | masculine | past |  |
+| היער | ha'ya'ar | הַיַּעַר | ha'ya'ar | noun | masculine | nominative | singular |  |  |  |
+| הפראי | hapara'i | הַפְּרָאִי | hapara'i | adjective | masculine | nominative | singular |  |  |  |
+| והקשה | vehakaseh | וְהַקָּשֶׁה | vehakaseh | adjective | masculine | nominative | singular |  |  |  |
+| והחזק | vehachazak | וְהֶחָזָק | vehachazak | adjective | masculine | nominative | singular |  |  |  |
+| הזה | hazeh | הַזֶּה | hazeh | demonstrative pronoun | masculine | nominative | singular |  |  |  |
+| שמחשבת | shemakhshevet | שָׂחַק | sakhak | verb |  |  | singular | feminine | past |  |
+| ומחדשת | umechadeshet | חָדַשׁ | chadash | verb |  |  | singular | feminine | present |  |
+| את | et | אֶת | et | preposition |  |  |  |  |  |  |
+| הפחד | hapachad | הַפַּחַד | hapachad | noun | masculine | accusative | singular |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 הוא כל כך מר שמוות עדיף מעט;
+8 אבל כדי לדבר על הטוב שמצאתי בו,
+9 אספר על הדברים האחרים שראיתי בו.
+</prompt>
+<result>
+| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| הוא | hu | הוּא | hu | pronoun | masculine | nominative | singular | 3rd |  |  |
+| כל | kol | כָּל | kol | determiner |  |  |  |  |  |  |
+| כך | kakh | כָּךְ | kakh | adverb |  |  |  |  |  |  |
+| מר | mar | מַר | mar | adjective | masculine | nominative | singular |  |  |  |
+| שמוות | shemavet | מָוֶת | mavet | noun | masculine | nominative | singular |  |  |  |
+| עדיף | adif | עָדַף | adif | verb |  |  | singular | masculine | present |  |
+| מעט | meat | מְעַט | meat | adverb |  |  |  |  |  |  |
+| אבל | aval | אֲבָל | aval | conjunction |  |  |  |  |  |  |
+| כדי | kedei | כְּדֵי | kedei | preposition |  |  |  |  |  |  |
+| לדבר | ledaber | דִּבֵּר | dibbeir | verb |  |  | infinitive |  |  |  |
+| על | al | עַל | al | preposition |  |  |  |  |  |  |
+| הטוב | hatov | הַטּוֹב | hatov | adjective | masculine | accusative | singular |  |  |  |
+| שמצאתי | shematzati | מָצָא | matza | verb |  |  | singular | 1st | past |  |
+| בו | bo | בּוֹ | bo | pronoun | masculine | accusative | singular | 3rd |  |  |
+| אספר | aseper | סָפַר | saper | verb |  |  | singular | 1st | future |  |
+| על | al | עַל | al | preposition |  |  |  |  |  |  |
+| הדברים | hadevarim | הַדְּבָרִים | hadevarim | noun | masculine | accusative | plural |  |  |  |
+| האחרים | ha'akharim | הָאַחֵרִים | ha'akharim | adjective | masculine | accusative | plural |  |  |  |
+| שראיתי | sherayiti | רָאָה | ra'ah | verb |  |  | singular | 1st | past |  |
+| בו | bo | בּוֹ | bo | pronoun | masculine | accusative | singular | 3rd |  |  |
+</result>
+</query>
+</queries>

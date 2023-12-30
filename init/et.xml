@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Estonian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Meie elutee poolel
+9 siis räägin ma teistest asjadest, mida ma seal nägin.
+28 Kui ma olin oma väsinud keha veidi puhanud,
+67 Ta vastas mulle: «Mitte inimene, inimene ma kunagi olin,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|
+|Meie|meie|pronoun|nominative|pl.|1||||
+|elutee|elutee|noun|nominative|sg.|||||
+|poolel|pool|noun|adessive|sg.|||||
+|siis|siis|adverb|||||||
+|räägin|rääkima|verb||sg.|1|present|indicative||
+|ma|mina|pronoun|nominative|sg.|1||||
+|teistest|teine|pronoun|ablative|pl.|||||
+|asjadest|asi|noun|ablative|pl.|||||
+|mida|mis|pronoun|accusative|sg.|||||
+|ma|mina|pronoun|nominative|sg.|1||||
+|seal|seal|adverb|||||||
+|nägin|nägema|verb||sg.|1|past|indicative||
+|Kui|kui|conjunction|||||||
+|ma|mina|pronoun|nominative|sg.|1||||
+|olin|olema|verb||sg.|1|past|indicative||
+|oma|oma|pronoun|genitive|sg.|||||
+|väsinud|väsima|verb||sg.||past participle|||
+|keha|keha|noun|accusative|sg.|||||
+|veidi|veidi|adverb|||||||
+|puhanud|puhkama|verb||sg.||past participle|||
+|Ta|ta|pronoun|nominative|sg.|3||||
+|vastas|vastama|verb|3|sg.||past|indicative||
+|mulle|mina|pronoun|dative|sg.|1||||
+|Mitte|mitte|adverb|||||||
+|inimene|inimene|noun|nominative|sg.|||||
+|inimene|inimene|noun|nominative|sg.|||||
+|ma|mina|pronoun|nominative|sg.|1||||
+|kunagi|kunagi|adverb|||||||
+|olin|olema|verb||sg.|1|past|indicative||
+</result>
+</query>
+</queries>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Lithuanian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Mūsų gyvenimo kelio viduryje
+9 papasakosiu apie kitus dalykus, kuriuos ten išvydau.
+28 Kai šiek tiek pailsinau savo pavargusį kūną,
+67 Jis man atsakė: „Ne žmogus, kadaise buvau žmogus,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|Mūsų|mūsų|pronoun|common|genitive|sg.|1||||
+|gyvenimo|gyvenimas|noun|m.|genitive|sg.|||||
+|kelio|kelias|noun|m.|genitive|sg.|||||
+|viduryje|vidurys|noun|m.|locative|sg.|||||
+|papasakosiu|papasakoti|verb||||1|future|indicative||
+|apie|apie|preposition||||||||
+|kitus|kitas|pronoun|common|accusative|pl.|||||
+|dalykus|dalykas|noun|m.|accusative|pl.|||||
+|kuriuos|kuris|pronoun|common|accusative|pl.|||||
+|ten|ten|adverb||||||||
+|išvydau|išvysti|verb||||1|past|indicative||
+|Kai|kai|conjunction||||||||
+|šiek|šiek|pronoun|common|accusative|sg.|||||
+|tiek|tiek|pronoun|common|accusative|sg.|||||
+|pailsinau|pailsėti|verb||||1|past|indicative||
+|savo|savas|pronoun|common|accusative|sg.|||||
+|pavargusį|pavargęs|adjective|m.|accusative|sg.|||||
+|kūną|kūnas|noun|m.|accusative|sg.|||||
+|Jis|jis|pronoun|m.|nominative|sg.|3||||
+|man|man|pronoun|common|dative|sg.|1||||
+|atsakė|atsakyti|verb||||3|past|indicative||
+|Ne|ne|particle||||||||
+|žmogus|žmogus|noun|m.|nominative|sg.|||||
+|kadaise|kadaise|adverb||||||||
+|buvau|būti|verb||||1|past|indicative||
+|žmogus|žmogus|noun|m.|nominative|sg.|||||
+</result>
+</query>
+</queries>

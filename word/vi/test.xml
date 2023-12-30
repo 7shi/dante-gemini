@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Vietnamese.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Tense and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Giữa chặng đường đời,
+9 tôi sẽ kể về những điều khác mà tôi đã chứng kiến.
+28 Sau khi tôi nghỉ ngơi một chút cho cơ thể mệt mỏi,
+67 Người đó trả lời tôi: "Ta không phải là người, ta đã từng là người,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Tense | Note |
+|---|---|---|---|---|
+| Giữa | giữa | preposition |  |  |
+| chặng | chặng | noun |  |  |
+| đường | đường | noun |  |  |
+| đời | đời | noun |  |  |
+| tôi | tôi | pronoun |  |  |
+| sẽ | sẽ | auxiliary verb | future |  |
+| kể | kể | verb | future |  |
+| về | về | preposition |  |  |
+| những | những | determiner |  |  |
+| điều | điều | noun |  |  |
+| khác | khác | adjective |  |  |
+| mà | mà | conjunction |  |  |
+| tôi | tôi | pronoun |  |  |
+| đã | đã | auxiliary verb | perfect |  |
+| chứng | chứng | verb | perfect |  |
+| kiến | kiến | verb | perfect |  |
+| Sau | sau | preposition |  |  |
+| khi | khi | conjunction |  |  |
+| tôi | tôi | pronoun |  |  |
+| nghỉ | nghỉ | verb |  |  |
+| ngơi | ngơi | verb |  |  |
+| một | một | determiner |  |  |
+| chút | chút | noun |  |  |
+| cho | cho | preposition |  |  |
+| cơ | cơ | noun |  |  |
+| thể | thể | noun |  |  |
+| mệt | mệt | adjective |  |  |
+| mỏi | mỏi | adjective |  |  |
+| Người | người | noun |  |  |
+| đó | đó | pronoun |  |  |
+| trả | trả | verb |  |  |
+| lời | lời | noun |  |  |
+| tôi | tôi | pronoun |  |  |
+| Ta | ta | pronoun |  |  |
+| không | không | adverb |  |  |
+| phải | phải | verb |  |  |
+| là | là | verb |  |  |
+| người | người | noun |  |  |
+| ta | ta | pronoun |  |  |
+| đã | đã | auxiliary verb | perfect |  |
+| từng | từng | auxiliary verb | perfect |  |
+| là | là | verb |  |  |
+| người | người | noun |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Giữa chặng đường đời,
+2 tôi thấy mình lạc vào một khu rừng tối tăm,
+3 vì con đường ngay thẳng đã mất hút.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Tense | Note |
+|---|---|---|---|---|
+| Giữa | giữa | preposition |  |  |
+| chặng | chặng | noun |  |  |
+| đường | đường | noun |  |  |
+| đời | đời | noun |  |  |
+| tôi | tôi | pronoun |  |  |
+| thấy | thấy | verb | present |  |
+| mình | mình | pronoun |  |  |
+| lạc | lạc | verb | present |  |
+| vào | vào | preposition |  |  |
+| một | một | determiner |  |  |
+| khu | khu | noun |  |  |
+| rừng | rừng | noun |  |  |
+| tối | tối | adjective |  |  |
+| tăm | tăm | noun |  |  |
+| vì | vì | conjunction |  |  |
+| con | con | noun |  |  |
+| đường | đường | noun |  |  |
+| ngay | ngay | adverb |  |  |
+| thẳng | thẳng | adjective |  |  |
+| đã | đã | auxiliary verb | perfect |  |
+| mất | mất | verb | perfect |  |
+| hút | hút | verb | perfect |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Than ôi, thật khó để diễn tả
+5 khu rừng rậm rạp, gai góc và dữ dội này
+6 khiến nỗi sợ hãi sống lại trong tâm trí!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Tense | Note |
+|---|---|---|---|---|
+| Than | than | interjection |  |  |
+| ôi | ôi | interjection |  |  |
+| thật | thật | adverb |  |  |
+| khó | khó | adjective |  |  |
+| để | để | preposition |  |  |
+| diễn | diễn | verb | infinitive |  |
+| tả | tả | verb | infinitive |  |
+| khu | khu | noun |  |  |
+| rừng | rừng | noun |  |  |
+| rậm | rậm | adjective |  |  |
+| rạp | rạp | adjective |  |  |
+| gai | gai | noun |  |  |
+| góc | góc | noun |  |  |
+| và | và | conjunction |  |  |
+| dữ | dữ | adjective |  |  |
+| dội | dội | adjective |  |  |
+| này | này | demonstrative pronoun |  |  |
+| khiến | khiến | verb | present |  |
+| nỗi | nỗi | noun |  |  |
+| sợ | sợ | noun |  |  |
+| hãi | hãi | noun |  |  |
+| sống | sống | verb | present |  |
+| lại | lại | adverb |  |  |
+| trong | trong | preposition |  |  |
+| tâm | tâm | noun |  |  |
+| trí | trí | noun |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Nó đắng cay đến nỗi chỉ còn kém cái chết một chút;
+8 nhưng để nói về điều tốt đẹp mà tôi tìm thấy ở đó,
+9 tôi sẽ kể về những điều khác mà tôi đã chứng kiến.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Tense | Note |
+|---|---|---|---|---|
+| Nó | nó | pronoun |  |  |
+| đắng | đắng | adjective |  |  |
+| cay | cay | adjective |  |  |
+| đến | đến | preposition |  |  |
+| nỗi | nỗi | noun |  |  |
+| chỉ | chỉ | adverb |  |  |
+| còn | còn | verb | present |  |
+| kém | kém | verb | present |  |
+| cái | cái | determiner |  |  |
+| chết | chết | noun |  |  |
+| một | một | determiner |  |  |
+| chút | chút | noun |  |  |
+| nhưng | nhưng | conjunction |  |  |
+| để | để | preposition |  |  |
+| nói | nói | verb | infinitive |  |
+| về | về | preposition |  |  |
+| điều | điều | noun |  |  |
+| tốt | tốt | adjective |  |  |
+| đẹp | đẹp | adjective |  |  |
+| mà | mà | conjunction |  |  |
+| tôi | tôi | pronoun |  |  |
+| tìm | tìm | verb | present |  |
+| thấy | thấy | verb | present |  |
+| ở | ở | preposition |  |  |
+| đó | đó | pronoun |  |  |
+| tôi | tôi | pronoun |  |  |
+| sẽ | sẽ | auxiliary verb | future |  |
+| kể | kể | verb | future |  |
+| về | về | preposition |  |  |
+| những | những | determiner |  |  |
+| điều | điều | noun |  |  |
+| khác | khác | adjective |  |  |
+| mà | mà | conjunction |  |  |
+| tôi | tôi | pronoun |  |  |
+| đã | đã | auxiliary verb | perfect |  |
+| chứng | chứng | verb | perfect |  |
+| kiến | kiến | verb | perfect |  |
+</result>
+</query>
+</queries>

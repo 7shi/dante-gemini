@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Hungarian.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Életünk útjának felén
+9 elmondom a többi dolgot, amit ott láttam.
+28 Miután kissé megpihentettem fáradt testemet,
+67 Felelte nekem: „Nem ember, ember voltam egykor,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|
+|Életünk|élet|noun|accusative|sg.|1||||
+|útjának|út|noun|dative|sg.|3||||
+|felén|fél|noun|adessive|sg.|3||||
+|elmondom|elmond|verb|1|sg.|1|present|indicative||
+|a|a|definite article|accusative|sg.|3||||
+|többi|többi|pronoun|accusative|sg.|3||||
+|dolgot|dolog|noun|accusative|sg.|3||||
+|amit|ami|pronoun|accusative|sg.|3||||
+|ott|ott|adverb||||||
+|láttam|lát|verb|1|sg.|1|past|indicative||
+|Miután|miután|conjunction|||||||
+|kissé|kissé|adverb|||||||
+|megpihentettem|megpihentet|verb|1|sg.|1|past|indicative||
+|fáradt|fáradt|adjective|accusative|sg.|3||||
+|testemet|test|noun|accusative|sg.|1||||
+|Felelte|felel|verb|3|sg.|3|past|indicative||
+|nekem|én|pronoun|dative|sg.|1||||
+|Nem|nem|adverb|||||||
+|ember|ember|noun|nominative|sg.|3||||
+|ember|ember|noun|nominative|sg.|1||||
+|voltam|volt|verb|1|sg.|1|past|indicative||
+|egykor|egykor|adverb|||||||
+</result>
+</query>
+</queries>
