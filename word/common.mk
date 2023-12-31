@@ -1,6 +1,6 @@
 SCRIPTS  = $(TOPDIR)/scripts
-INIT     = $(TOPDIR)/init/$(LCODE).xml
 SRCDIR  ?= $(TOPDIR)/translate/$(LCODE)
+INIT    ?= init.xml
 COLUMNS ?=
 OPTIONS ?=
 
