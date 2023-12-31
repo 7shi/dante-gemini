@@ -1,20 +1,19 @@
 SCRIPTS  = $(TOPDIR)/scripts
 SRCDIR  ?= $(TOPDIR)/translate/$(LCODE)
-INIT    ?= init.xml
 COLUMNS ?=
 OPTIONS ?=
 
 init:
-	python $(SCRIPTS)/init.py -n $(COLUMNS) -i $(INIT) $(LANG) $(SRCDIR)
+	python $(SCRIPTS)/init.py -n $(COLUMNS) $(LANG) $(SRCDIR)
 
 test:
-	python $(SCRIPTS)/init.py -t -i $(INIT) $(LANG) $(SRCDIR)
+	python $(SCRIPTS)/init.py -t $(LANG) $(SRCDIR)
 
 run:
-	python $(SCRIPTS)/word.py $(OPTIONS) $(LANG) $(SRCDIR) $(INIT) .
+	python $(SCRIPTS)/word.py $(OPTIONS) $(LANG) $(SRCDIR) .
 
 check:
 	python $(SCRIPTS)/pickup.py 1-error.xml */*.xml
 
 fix:
-	python $(SCRIPTS)/word-fix.py $(INIT)
+	python $(SCRIPTS)/word-fix.py

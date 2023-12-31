@@ -3,37 +3,44 @@ import sys, os, re, common
 args = sys.argv[1:]
 
 directories = common.directories
+init_xml = "init.xml"
 once  = False
-show  = True
 retry = True
+show  = True
 i = 0
 while i < len(args):
     if args[i] == "-d" and len(args) > i + 1:
         directories = args.pop(i + 1).split()
         args.pop(i)
+    elif args[i] == "-i" and len(args) > i + 1:
+        init_xml = args.pop(i + 1)
+        args.pop(i)
     elif args[i] == "-1":
         once = True
         args.pop(i)
-    elif args[i] == "--no-show":
-        show = False
-        args.pop(i)
     elif args[i] == "--no-retry":
         retry = False
+        args.pop(i)
+    elif args[i] == "--no-show":
+        show = False
         args.pop(i)
     else:
         i += 1
 
 if len(args) != 4:
-    print(f"Usage: python {sys.argv[0]} language source-dir init-xml output-dir", file=sys.stderr)
+    print(f"Usage: python {sys.argv[0]} language source-dir output-dir", file=sys.stderr)
+    print("  -i: specify init.xml", file=sys.stderr)
     print("  -d: specify sub directory", file=sys.stderr)
     print("  -1: just do one canto", file=sys.stderr)
+    print("  --no-retry: don't retry queries", file=sys.stderr)
+    print("  --no-show: don't show queries and responses", file=sys.stderr)
     sys.exit(1)
 
-language, srcdir, initxml, outdir = args
+language, srcdir, outdir = args
 if not os.path.exists(outdir):
     os.mkdir(outdir)
 
-init_qs = common.read_queries(initxml)
+init_qs = common.read_queries(init_xml)
 history = common.unzip(init_qs)
 if init_qs[0].prompt[:8] in ["This tex", "Create a"]:
     init_ps = [init_qs[0].prompt]

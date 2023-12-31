@@ -2,11 +2,14 @@ import sys, os, re, common
 
 args = sys.argv[1:]
 
-if len(args) != 1:
-    print(f"usage: python {sys.argv[0]} init", file=sys.stderr)
-    sys.exit(1)
+init_xml = "init.xml"
+if len(args) > 1 and args[0] == "-i":
+    init_xml = args[1]
+    args = args[2:]
 
-init_xml = args[0]
+if args:
+    print(f"usage: python {sys.argv[0]} [-i init]", file=sys.stderr)
+    sys.exit(1)
 
 error_qs = common.read_queries("1-error.xml")
 errors = {q.info: q for q in error_qs}
