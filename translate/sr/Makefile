@@ -1,4 +1,4 @@
-LANG    = Serbian (Latin)
+LANG    = "Serbian (Latin)"
 LCODE   = sr
 TOPDIR  = ../..
 

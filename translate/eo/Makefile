@@ -1,4 +1,4 @@
-LANG    = English and Esperanto
+LANG    = "English and Esperanto"
 LCODE   = eo
 TOPDIR  = ../..
 OPTIONS = --no-retry # unstable
