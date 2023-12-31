@@ -1,6 +1,6 @@
 LANG    = Vietnamese
 LCODE   = vi
-COLUMNS = -c "Word, Lemma, Part of Speech, Tense and Note"
+COLUMNS = -c "Word, Part of Speech, Tense and Note"
 OPTIONS = -1
 TOPDIR  = ../..
 
