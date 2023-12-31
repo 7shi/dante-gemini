@@ -149,7 +149,7 @@ def read_source(path, language=None):
                     src_lines[int(m.group(1))] = line
                 if line:
                     lines.append(line)
-                else:
+                if lines and (len(lines) == 3 or not line):
                     srcs.append(lines)
                     lines = []
     else:
