@@ -1,11 +1,6 @@
-SCRIPT = python ../scripts/translate.py ../it
+SCRIPT = echo
 
 all:
-
-check:
-	for d in ??; do python ../scripts/$@.py $$d/error.xml $$d/*/*.xml; done
-
-run:
 
 _done:
 	$(SCRIPT) ar Arabic
