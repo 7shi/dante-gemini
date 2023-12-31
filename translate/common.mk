@@ -6,7 +6,7 @@ run:
 	python $(SCRIPTS)/translate.py $(OPTIONS) $(LANG) $(SRCDIR) .
 
 check:
-	python $(SCRIPTS)/pickup.py error.xml */*.xml
+	python $(SCRIPTS)/pickup.py 1-error.xml */*.xml
 
 fix:
 	python $(SCRIPTS)/word-fix.py
