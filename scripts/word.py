@@ -59,7 +59,7 @@ for directory in directories:
             continue
         print()
         print(f"# {diru} Canto {canto}")
-        srcs, src_lines = common.read_source(language, os.path.join(path_s, f"{canto:02}"))
+        srcs, src_lines = common.read_source(os.path.join(path_s, f"{canto:02}"), language)
         lmax = max(src_lines)
         qs = []
         for lines in srcs:

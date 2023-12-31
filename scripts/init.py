@@ -34,7 +34,7 @@ import gemini, common
 def query(prompt):
     return gemini.query(prompt, show=True, retry=False)
 
-srcs, src_lines = common.read_source(language, f"{srcdir}/inferno/01")
+srcs, src_lines = common.read_source(f"{srcdir}/inferno/01", language)
 
 prompt_table = f"""
 This text is written in {language}.

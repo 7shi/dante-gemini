@@ -114,7 +114,7 @@ def fix_table(lines):
 
 # source
 
-def read_source(language, path):
+def read_source(path, language=None):
     srcs = []
     src_lines = {}
     if os.path.exists(file := f"{path}.txt"):
@@ -141,7 +141,7 @@ def read_source(language, path):
             if not q.result:
                 continue
             r = q.result
-            if language in r:
+            if language and language in r:
                 r = r[r.find("\n", r.find(language)):]
             lines = []
             for line in (r.strip() + "\n").split("\n"):
