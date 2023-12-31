@@ -155,3 +155,17 @@ def read_source(language, path):
     else:
         print(f"no source files found in {path}", file=sys.stderr)
     return srcs, src_lines
+
+# fix
+
+def read_fixes(*fix_files):
+    ret = {}
+    for f in fix_files:
+        for q in read_queries(f):
+            info = q.info
+            if re.search(r"\+\d$", info):
+                info = info[:-2]
+            if info not in ret:
+                ret[info] = []
+            ret[info].append(q)
+    return ret
