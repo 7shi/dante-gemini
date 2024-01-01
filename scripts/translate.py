@@ -110,7 +110,7 @@ for directory in directories:
         current = 0
         qs = []
         while current < len(it):
-            if len(qs) % 10 == 0:
+            if not (0 <= gemini.chat_count < 10):
                 gemini.init(history)
             length = min(3, len(it) - current)
             while current + length < len(it) and not it[current + length - 1].endswith("."):

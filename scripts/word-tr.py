@@ -117,7 +117,7 @@ for directory in directories:
         queries = common.read_queries(file)
         qs = []
         for query in queries:
-            if len(qs) % interval == 0:
+            if not (0 <= gemini.chat_count < interval):
                 gemini.init(history)
             if not query.result and query.info in fixes:
                 for q in fixes[query.info]:

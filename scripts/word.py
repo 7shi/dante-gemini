@@ -73,7 +73,7 @@ for directory in directories:
             text = "\n".join(lines)
             if not (m := re.match(r"(\d+) ", text)):
                 continue
-            if len(qs) % 10 == 0:
+            if not (0 <= gemini.chat_count < 10):
                 gemini.init(history, init_ps)
             info = f"[{diru} Canto {canto}] {m.group(1)}/{lmax}"
             q = send(text, info)

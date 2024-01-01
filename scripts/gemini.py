@@ -89,7 +89,7 @@ init_history = None
 init_prompts = None
 model = None
 convo = None
-chat_count = 0
+chat_count = -1
 
 def init(history=None, prompts=None):
     global init_history, init_prompts

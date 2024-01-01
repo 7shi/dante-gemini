@@ -50,8 +50,17 @@ qs = []
 
 one_line = True
 
-count = 0
 fixed = 0
+
+def query(prompt, info):
+    global fixed
+    if not (0 <= gemini.chat_count < 10):
+        init()
+    q = gemini.query(prompt, info, show=True, retry=False)
+    qs.append(q)
+    if q.result:
+        fixed += 1
+
 for q in error_qs:
     if q.info in fix:
         continue
@@ -61,23 +70,11 @@ for q in error_qs:
             info = f"{q.info}+{i}"
             if info in fix:
                 continue
-            if count % 30 == 0:
-                init()
-            count += 1
-            qq = gemini.query(f"{lines[0]}\n{line}", info, show=True, retry=False)
-            qs.append(qq)
-            if qq.result:
-                fixed += 1
+            query(f"{lines[0]}\n{line}", info)
     else:
-        if count % 30 == 0:
-            init()
-        count += 1
-        qq = gemini.query(q.prompt, q.info, show=True, retry=False)
-        qs.append(qq)
-        if qq.result:
-            fixed += 1
+        query(q.prompt, q.info)
 
-print("Fixed:", fixed, "/", count)
+print("Fixed:", fixed, "/", len(qs))
 
 if qs:
     prefix = "fix" if fixed else "error"
