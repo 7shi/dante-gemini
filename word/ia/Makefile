@@ -1,6 +1,6 @@
 LANG    = Interlingua
 LCODE   = ia
-COLUMNS = -c "Word, Lemma, Part of Speech, Tense, Mood and Note"
+INITOPT = -n -c "Word, Lemma, Part of Speech, Tense, Mood and Note"
 OPTIONS = -1
 TOPDIR  = ../..
 

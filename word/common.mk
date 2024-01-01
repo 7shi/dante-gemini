@@ -1,10 +1,10 @@
 SCRIPTS  = $(TOPDIR)/scripts
 SRCDIR  ?= $(TOPDIR)/translate/$(LCODE)
-COLUMNS ?=
+INITOPT ?=
 OPTIONS ?=
 
 init:
-	python $(SCRIPTS)/init.py -n $(COLUMNS) $(LANG) $(SRCDIR)
+	python $(SCRIPTS)/init.py $(INITOPT) $(LANG) $(SRCDIR)
 
 test:
 	python $(SCRIPTS)/init.py -t $(LANG) $(SRCDIR)

@@ -1,6 +1,6 @@
 LANG    = Thai
 LCODE   = th
-COLUMNS = -c "Word, Romanize, Tone, Part of Speech, Tense and Note"
+INITOPT = -n -c "Word, Romanize, Tone, Part of Speech, Tense and Note"
 OPTIONS = -1
 TOPDIR  = ../..
 
