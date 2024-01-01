@@ -27,7 +27,7 @@ while i < len(args):
     else:
         i += 1
 
-if len(args) != 4:
+if len(args) != 3:
     print(f"Usage: python {sys.argv[0]} language source-dir output-dir", file=sys.stderr)
     print("  -i: specify init.xml", file=sys.stderr)
     print("  -d: specify sub directory", file=sys.stderr)
