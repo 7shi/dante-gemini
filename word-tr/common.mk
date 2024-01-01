@@ -3,6 +3,8 @@ SRCDIR   = $(TOPDIR)/word/$(LCODE)
 OPTIONS ?=
 FIXES   ?=
 
+all: run check
+
 run:
 	python $(SCRIPTS)/word-tr.py $(OPTIONS) $(LANG) $(SRCDIR) . $(FIXES)
 

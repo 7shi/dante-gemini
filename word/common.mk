@@ -3,13 +3,17 @@ SRCDIR  ?= $(TOPDIR)/translate/$(LCODE)
 INITOPT ?=
 OPTIONS ?=
 
-init:
+all: run check
+
+init: init.xml
+
+init.xml:
 	python $(SCRIPTS)/init.py $(INITOPT) $(LANG) $(SRCDIR)
 
-test:
+test: init.xml
 	python $(SCRIPTS)/init.py -t $(LANG) $(SRCDIR)
 
-run:
+run: init.xml
 	python $(SCRIPTS)/word.py $(OPTIONS) $(LANG) $(SRCDIR) .
 
 check:

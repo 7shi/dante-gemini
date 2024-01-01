@@ -2,6 +2,8 @@ SCRIPTS  = $(TOPDIR)/scripts
 SRCDIR   = $(TOPDIR)/it
 OPTIONS ?=
 
+all: run check
+
 run:
 	python $(SCRIPTS)/translate.py $(OPTIONS) $(LANG) $(SRCDIR) .
 
