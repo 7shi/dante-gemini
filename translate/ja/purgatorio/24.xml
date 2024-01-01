@@ -14,12 +14,12 @@ Please translate each line literally into Japanese.
 6 traean di me, di mio vivere accorte.
 </prompt>
 <result>
-1 語ることや歩くこと、あるいはよりゆっくり歩くことさえせず
-2 しかし、議論をしながら力強く進んでいった
-3 まるで追い風を受けて進む船のように
+1 行くこと、あるいはよりゆっくり行くことを言うことはなかった
+2 しかし、議論しながら力強く進んだ
+3 まるで追い風を受けている船のように
 
-4 そして、死んだもののようだった影は
-5 目の窪みから驚きを引き出し
+4 影は死んだもののようだったが
+5 目の窪みから驚きを呼び起こし
 6 私の生き方に気づいていた
 </result>
 </query>
@@ -32,9 +32,36 @@ Please translate each line literally into Japanese.
 8 dissi: «Ella sen va sù forse più tarda
 9 che non farebbe, per altrui cagione.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "7 私は自分の話を続けながら言った\n8 「彼女は、おそらく他人のせいで、\n9 いつもより遅く昇っているのでしょう」"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-7 そして私は自分の話を続けながら言った
-8 「彼女は、他人のために、おそらく通常よりも遅く昇っていくのでしょう。
+7 私は自分の話を続けながら言った
+8 「彼女は、おそらく他人のせいで、
+9 いつもより遅く昇っているのでしょう」
 </result>
 </query>
 <query>
@@ -47,8 +74,8 @@ Please translate each line literally into Japanese.
 12 tra questa gente che sì mi riguarda».
 </prompt>
 <result>
-10 しかし、もしご存知なら教えてください、ピッカルダはどこにいるのですか。
-11 この私を見つめる人々の中に、私が注目すべき人物がいるかどうか教えてください。
+10 しかし、もしあなたが知っているなら、ピッカルダはどこにいるのか教えてください。
+11 この私を見つめている人々の中に、注目すべき人物がいるかどうか教えてください。
 </result>
 </query>
 <query>
@@ -61,7 +88,8 @@ Please translate each line literally into Japanese.
 15 ne l’alto Olimpo già di sua corona».
 </prompt>
 <result>
-13 「私の妹は、美しさと優しさのどちらがより優れているのかわかりませんが、すでに高いオリンポスで彼女の王冠とともに勝利を収めています。」
+13 「私の妹は、美しさと優しさのどちらが勝っていたかわからないほど、
+14 今は高いオリンポスで、その冠を喜び勇んで掲げています。」
 </result>
 </query>
 <query>
@@ -74,7 +102,8 @@ Please translate each line literally into Japanese.
 18 nostra sembianza via per la dïeta.
 </prompt>
 <result>
-16 最初にそう言い、それからこう言った。「ここでは、私たちの外観が食事によって失われてしまったため、誰もが名前を挙げることが禁じられていません。
+16 最初にそう言い、それからこう続けた。
+17 「ここでは、誰も名前を名乗ることを禁じられていません。なぜなら、私たちの姿は、この食事によってすっかりやせ細ってしまったからです。
 </result>
 </query>
 <query>
@@ -91,9 +120,11 @@ Please translate each line literally into Japanese.
 24 l’anguille di Bolsena e la vernaccia».
 </prompt>
 <result>
-19 「この人」と彼は指を指して言った。「ボナギウンタ、ルッカのボナギウンタだ。そして彼の向こうの顔は、他の顔よりもはっきりと見える。
+19 「この人」と彼は指を指して言った。「ボナギウンタです。
+20 ルッカのボナギウンタです。そして、彼の向こうにいるその顔は、他の誰よりも際立っています。
 
-22 聖なる教会は彼をその腕の中に抱いていた。彼はトルソ出身で、ボルセーナのウナギとヴェルナッチャを断食することで清めている。」
+22 聖なる教会がその腕の中に抱いたのです。
+23 トルソ出身で、ボルセーナのウナギとヴェルナッチャを断食して清めています。」
 </result>
 </query>
 <query>
@@ -106,9 +137,9 @@ Please translate each line literally into Japanese.
 27 sì ch’io però non vidi un atto bruno.
 </prompt>
 <result>
-25 彼は他にもたくさん名前を挙げた。
-26 そして、誰もが名前を挙げられることを喜んでいるようだった。
-27 だから私は不機嫌な様子を見なかった。
+25 彼は他にもたくさん名前を挙げました。一人一人。
+26 そして、誰もが自分の名前を呼ばれることを喜んでいるようでした。
+27 そのため、私は不機嫌な顔を見ることはありませんでした。
 </result>
 </query>
 <query>
@@ -121,8 +152,9 @@ Please translate each line literally into Japanese.
 30 che pasturò col rocco molte genti.
 </prompt>
 <result>
-28 ウバルディーノ・ダッラ・ピラとボニファツィオが空腹のために歯をむき出しにして食べているのを見た。
-29 ボニファツィオは多くの人々を司教杖で養った。
+28 空腹のために歯をむき出しにして食べているのを見た
+29 ウバルディーノ・ダッラ・ピラとボニファツィオは
+30 司教杖で多くの人々を養った。
 </result>
 </query>
 <query>
@@ -134,9 +166,36 @@ Please translate each line literally into Japanese.
 32 già di bere a Forlì con men secchezza,
 33 e sì fu tal, che non si sentì sazio.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "31 マルケス卿を見た。かつては\n32 フォルリでより潤沢に飲んでいたが、\n33 それでも満足することはなかった。"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-31 メッセル・マルケーゼを見た。彼はかつてフォルリでより潤沢に飲んでいたが、
-32 それでも満足できなかった。
+31 マルケス卿を見た。かつては
+32 フォルリでより潤沢に飲んでいたが、
+33 それでも満足することはなかった。
 </result>
 </query>
 <query>
@@ -149,8 +208,8 @@ Please translate each line literally into Japanese.
 36 che più parea di me aver contezza.
 </prompt>
 <result>
-34 しかし、ある人よりも別の人をより高く評価し、見つめる人は、私がルッカ出身の彼にしたように、
-35 彼は私についてより多くを知っているように見えた。
+34 しかし、あるものと別のものを比較して、どちらをより高く評価するかを判断する人のように、
+35 私はルッカ出身の彼に尋ねました。彼は私について最もよく知っているようでした。
 </result>
 </query>
 <query>
@@ -163,8 +222,9 @@ Please translate each line literally into Japanese.
 39 de la giustizia che sì li pilucca.
 </prompt>
 <result>
-37 彼はつぶやいていた。そして私は「ジェントゥッカ」という言葉を聞いた。
-38 そこで私は、彼らがむしられる正義の傷を感じた。
+37 彼はつぶやいていた。そして私は「ジェントゥッカ」という名前を
+38 彼の傷口が正義によってむしりとられているのと同じ場所で聞いた
+39 正義は彼らをむしりとる
 </result>
 </query>
 <query>
@@ -177,7 +237,9 @@ Please translate each line literally into Japanese.
 42 e te e me col tuo parlare appaga».
 </prompt>
 <result>
-40 「ああ、魂よ」と私は言った。「私と話すことをとても望んでいるように見える。私があなたを理解できるようにしてください。そして、あなたの言葉であなたと私を満足させてください。」
+40 「ああ、魂よ」と私は言った。「あなたは
+41 私と話すことをとても望んでいるようですね。話してください。
+42 あなたの話で私とあなたを満足させてください。」
 </result>
 </query>
 <query>
@@ -190,7 +252,9 @@ Please translate each line literally into Japanese.
 45 la mia città, come ch’om la riprenda.
 </prompt>
 <result>
-43 「女性が生まれ、まだ目隠しをされていません」と彼は始めました。「彼女は私の街をあなたに気に入らせるでしょう。たとえ人々がそれを非難しても。」
+43 「ある女性が生まれました。まだベールをかぶっていませんが」
+44 彼は話し始めました。「彼女はあなたを喜ばせるでしょう
+45 私の街を、たとえ人がそれを非難しても。」
 </result>
 </query>
 <query>
@@ -203,9 +267,9 @@ Please translate each line literally into Japanese.
 48 dichiareranti ancor le cose vere.
 </prompt>
 <result>
-46 あなたはこの予見を持って去るでしょう。
-47 もし私のつぶやきを誤解したなら、
-48 真実のこともまだあなたに明らかにされるでしょう。
+46 あなたはこの予言を持って行くでしょう。
+47 もし私のつぶやきを誤解したとしても、
+48 真実はまだあなたに明らかにされるでしょう。
 </result>
 </query>
 <query>
@@ -218,8 +282,9 @@ Please translate each line literally into Japanese.
 51 ‘Donne ch’avete intelletto d’amore’».
 </prompt>
 <result>
-49 しかし、私がここで、外で新しい韻を紡ぎ出したのを見たかどうか教えてください。
-50 「愛の知恵を持つ女性たち」から始まります。
+49 しかし、ここで私が外で
+50 9つの韻を紡ぎ出したのを見たかどうか教えてください。それはこう始まります。
+51 「愛の知恵を持つ女性たちよ」
 </result>
 </query>
 <query>
@@ -232,7 +297,9 @@ Please translate each line literally into Japanese.
 54 ch’e’ ditta dentro vo significando».
 </prompt>
 <result>
-52 そして私は彼に言った。「私は、アモールが私にインスピレーションを与えたときに、それを書き留め、彼が内側で言うように、それを意味のあるものとして表現する者です。」
+52 私は彼に言いました。「私は、愛が
+53 霊感を与えてくれるとき、それを書き留め、そのように
+54 心の中で言われたことを意味づけていきます。」
 </result>
 </query>
 <query>
@@ -253,13 +320,15 @@ Please translate each line literally into Japanese.
 63 e, quasi contentato, si tacette.
 </prompt>
 <result>
-55 「ああ、兄弟よ、今私は、ノターロとグイットーネと私を、私が聞く甘い新しいスタイルのこちら側に引き止めていた結び目を見ます！」
+55 「ああ、兄弟よ、今私はその結び目を見る」と彼は言った。「その結び目は、ノターロとグイットーネと私を
+56 私が聞く新しい甘美なスタイルのこちら側に引き止めていたのだ！
 
-56 彼は言った。「私は、あなた方のペンが、模倣する者の後ろをぴったりとついていく様子をよく理解しています。それは確かに私たちのペンでは起こりませんでした。
+57 あなた方のペンが
+58 書き手の後にぴったりとついていく様子がよくわかる。それは確かに私たちのペンでは起こらなかったことだ。
 
-57 そして、より好かれようとさらに努力する人は、あるスタイルから別のスタイルへの移行を認識しなくなります。」
-
-58 そして、ほぼ満足して、彼は黙った。
+59 そして、より好かれようとさらに努力する人は、
+60 一つのスタイルから別のスタイルへの違いをもう見ることができない」と。
+61 そして、ほぼ満足したように、彼は黙った。
 </result>
 </query>
 <query>
@@ -276,13 +345,13 @@ Please translate each line literally into Japanese.
 69 e per magrezza e per voler leggera.
 </prompt>
 <result>
-64 ナイル川沿いに春を告げる鳥たちが、
-65 時折空中で群れを作り、
-66 その後、より速く飛び、一列に並んでいきます。
+64 ナイル川沿いに春になると、
+65 鳥たちが時々空に群れを作り、
+66 そしてより速く飛び、一列に並んでいく。
 
 67 同じように、そこにいた人々は皆、
 68 顔を向け、歩みを速め、
-69 やせ細り、軽くなることを望んでいました。
+69 やせ細り、身軽になりたがっていた。
 </result>
 </query>
 <query>
@@ -299,13 +368,13 @@ Please translate each line literally into Japanese.
 75 dicendo: «Quando fia ch’io ti riveggia?».
 </prompt>
 <result>
-70 そして、速足で走って疲れた人は、
-71 仲間たちを先に進ませ、歩き続け、
-72 息切れが収まるまで歩きます。
+70 そして、駆け足に疲れた人は、
+71 仲間たちを先に行かせ、歩き続け、
+72 息切れが収まるまで歩くように、
 
-73 聖なる群れはフォレーゼに追い越され、
-74 彼は私の後ろを歩きながら、
-75 「いつになったら私はあなたに会えるでしょうか？」と言いました。
+73 聖なる群れはフォレーゼを先に行かせ、
+74 私はその後ろを歩き、
+75 「いつになったらまた会えるだろうか？」と言った。
 </result>
 </query>
 <query>
@@ -322,12 +391,13 @@ Please translate each line literally into Japanese.
 81 e a trista ruina par disposto».
 </prompt>
 <result>
-76 私は彼に答えました。「私は自分がどれほど生きるか分かりません。
-77 しかし、私が自分の意志で岸辺に着く前に、すぐに帰ってくることはありません。
+76 「いつまで生きられるかわからない」と私は彼に答えた。
+77 「しかし、私が戻ってくるのは、
+78 望みが岸辺にたどり着く前ではないだろう。
 
-78 私が住むために置かれた場所は、
-79 日を追うごとにますますその良さを失い、
-80 悲惨な崩壊に向かっているようです。」
+79 なぜなら、私が住むために置かれた場所は、
+80 日ごとに善を失い、
+81 悲惨な破滅に向かっているように見えるからだ。」
 </result>
 </query>
 <query>
@@ -340,9 +410,9 @@ Please translate each line literally into Japanese.
 84 inver’ la valle ove mai non si scolpa.
 </prompt>
 <result>
-82 「さあ、行きなさい」と彼は言いました。「最も罪深い者は、
-83 私が獣の尻尾に引っ張られて、
-84 決して許されない谷に向かっていくのを見ます。
+82 「さあ、行け」と彼は言った。「最も罪深い者どもを
+83 私は獣の尻尾に縛り付けられて
+84 決して許されない谷へと引きずられていくのを見た。
 </result>
 </query>
 <query>
@@ -355,9 +425,9 @@ Please translate each line literally into Japanese.
 87 e lascia il corpo vilmente disfatto.
 </prompt>
 <result>
-85 獣は一歩ごとに速く進み、
-86 常に成長し、ついに彼を打ち倒し、
-87 卑劣にも打ちのめされた体を残します。
+85 その獣は歩みを速め、
+86 大きくなり続け、ついに彼を打ち据え、
+87 その卑しい肉体を打ち砕いた。
 </result>
 </query>
 <query>
@@ -370,8 +440,9 @@ Please translate each line literally into Japanese.
 90 ciò che ’l mio dir più dichiarar non puote.
 </prompt>
 <result>
-88 「それらの車輪が回転するまでには長くはかからない」と彼は言い、
-89 天国に目を向けました。「私の言葉ではさらに説明できないことが、あなたにはっきり分かるでしょう。
+88 「その車輪が回転するまでには時間はかからないだろう」
+89 彼は空を見上げて言った。「私の言葉では言い表せないことが、
+90 はっきり分かるだろう。
 </result>
 </query>
 <query>
@@ -384,8 +455,8 @@ Please translate each line literally into Japanese.
 93 venendo teco sì a paro a paro».
 </prompt>
 <result>
-91 「あなたはもう残ってください。この領域では時間が貴重なので、
-92 あなたとこのように並んでいると、私は多くの時間を失います。」
+91 お前はもうここで待っていなさい。この領域では時間が貴重なので、
+92 お前と並んで歩くのに時間をかけすぎている。
 </result>
 </query>
 <query>
@@ -402,11 +473,11 @@ Please translate each line literally into Japanese.
 99 che fuor del mondo sì gran marescalchi.
 </prompt>
 <result>
-94 騎士が隊列から駆け出すことがあるように、
-95 最初の衝突で名誉を得るために進みます。
+94 騎士が隊列から飛び出して、
+95 最初の障害物を乗り越えて名誉を得ようとするように、
 
-96 彼はそのように、より大きな歩幅で私たちから離れていきました。
-97 そして私は、世界の偉大な元帥である2人と道に残されました。
+96 彼は私たちからより速い歩調で去っていった。
+97 そして私は、この世の偉大な元帥である二人と一緒に道を進んだ。
 </result>
 </query>
 <query>
@@ -424,11 +495,11 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 100 そして彼が私たちの前に進んだとき、
-101 私の目は彼に従い、
-102 私の心が彼の言葉に従うように、
+101 私の目は彼を追いかけ、
+102 私の心が彼の言葉を追いかけるように、
 
-103 枝が別の果実で実り、生き生きとしているように見え、
-104 ちょうどそのとき絡み合っていたため、それほど遠くはありませんでした。
+103 枝が別の果実で重く、生き生きとしているように見えた。
+104 そして、ついさっき罠にかけられたばかりなので、それほど遠くはなかった。
 </result>
 </query>
 <query>
@@ -445,13 +516,13 @@ Please translate each line literally into Japanese.
 111 tien alto lor disio e nol nasconde.
 </prompt>
 <result>
-106 私はその下で人々が手を上げ、
-107 葉に向かって何かを叫んでいるのを見ました。
-まるで欲求不満で無駄な子供たちのようでした。
+106 その木の下で人々が手を上げ、
+107 葉に向かって何か叫んでいるのを見た。
+108 まるで欲しがるばかりで何もできない子供たちが、
 
-109 彼らは祈りますが、祈られた者は答えません。
-110 しかし、彼らの願望を鋭くするために、
-111 彼は彼らの欲望を高く保ち、それを隠しません。
+109 祈っても祈りが聞き入れられず、
+110 しかし、その願いをより強くするために、
+111 自分の欲望を高く掲げ、隠そうとしない。
 </result>
 </query>
 <query>
@@ -464,8 +535,8 @@ Please translate each line literally into Japanese.
 114 che tanti prieghi e lagrime rifiuta.
 </prompt>
 <result>
-112 それから彼女は考え直したように去っていきました。
-113 そして私たちは今、多くの祈りや涙を拒否する大きな木にやってきました。
+112 そして、考え直したように立ち去った。
+113 そして私たちは今、多くの祈りや涙を拒否する大きな木にたどり着いた。
 </result>
 </query>
 <query>
@@ -478,9 +549,9 @@ Please translate each line literally into Japanese.
 117 e questa pianta si levò da esso».
 </prompt>
 <result>
-115 「近づかずに通り過ぎてください。
-116 エバにかじられた木がもっと上にあり、
-117 この木はその木から生えました。」
+115 「近づかずに通り過ぎなさい。
+116 エバが噛んだ木がもっと上にあり、
+117 この木はその木から生えたのです。」
 </result>
 </query>
 <query>
@@ -493,9 +564,9 @@ Please translate each line literally into Japanese.
 120 oltre andavam dal lato che si leva.
 </prompt>
 <result>
-118 茂みの中で誰が言ったのか分かりません。
+118 茂みの中で誰かがそう言っているのが聞こえた。
 119 そこでウェルギリウス、スタティウス、そして私は身を寄せ合って、
-120 上昇する側を通り過ぎていきました。
+120 上昇する側を通り過ぎていった。
 </result>
 </query>
 <query>
@@ -512,12 +583,13 @@ Please translate each line literally into Japanese.
 126 quando inver’ Madïan discese i colli».
 </prompt>
 <result>
-121 「呪われた者たちが雲の中に形作られ、満腹になって、
-122 テセウスが二重の胸で戦ったことを覚えていますか？
+121 「あなたは覚えているだろう」と彼は言った、「呪われた者たちが
+122 雲の中に姿を変え、満腹になって、
+123 テセウスが二つの胸を持つ者たちと戦ったこと。
 
-123 そして、ユダヤ人が木に弱々しく見えたとき、
-124 ゲデオンが彼らを仲間として望まなかったため、
-125 マディアンに向かって丘を下ったとき。」
+124 そしてユダヤ人が木の下で弱々しく見えたこと、
+125 それでギデオンは彼らを仲間として連れて行かなかった、
+126 ミディアンに向かって丘を下ったとき。」
 </result>
 </query>
 <query>
@@ -530,8 +602,9 @@ Please translate each line literally into Japanese.
 129 seguite già da miseri guadagni.
 </prompt>
 <result>
-127 2つの生垣のうちの1つに近づき、
-128 惨めな利益によってすでに続いている、大食いの罪を聞いて通り過ぎました。
+127 二つの縁のうちの一方に近づき
+128 私たちは通り過ぎ、むさぼり食う罪を聞き、
+129 それはすでに惨めな利益に続いていた。
 </result>
 </query>
 <query>
@@ -544,9 +617,9 @@ Please translate each line literally into Japanese.
 132 contemplando ciascun sanza parola.
 </prompt>
 <result>
-130 その後、孤独な道を広げて、
-131 1000歩以上私たちをさらに先に連れて行き、
-132 誰も一言も発せずに熟考しました。
+130 それから、人通りのない道を広げて、
+131 千歩以上も先へと進み、
+132 それぞれが一言も発せずに思いを巡らせていた。
 </result>
 </query>
 <query>
@@ -559,9 +632,9 @@ Please translate each line literally into Japanese.
 135 come fan bestie spaventate e poltre.
 </prompt>
 <result>
-133 「あなたたち3人だけが何を考えているのですか？」
-134 突然の声が言ったので、私は震え上がりました。
-135 怖がって怠惰な獣がするように。
+133 「なぜ、あなたたち三人はそんなに黙って歩いているのか？」
+134 突然の声が言ったので、私は
+135 驚いて飛び起きた、まるで怖がって怠惰な獣のように。
 </result>
 </query>
 <query>
@@ -578,11 +651,13 @@ Please translate each line literally into Japanese.
 141 quinci si va chi vuole andar per pace».
 </prompt>
 <result>
-136 私は頭を上げて誰が誰なのかを見ました。
-137 炉の中で、ガラスや金属がこれほど光沢があり、赤く見えたことはありません。
+136 私は頭を上げて、誰が話しているのかを見ようとした。
+137 炉の中で、
+138 ガラスや金属がこれほど光り輝き、赤く見えたことはなかった。
 
-138 「あなたがたが上りたいのであれば、ここで折り返さなければなりません」と言う人が見えました。
-139 「ここから、平和を求める人は行きます。」
+139 そして私はこう言う人を見た。「もしあなたがたが
+140 上りたいと思うなら、ここで方向転換する必要がある。
+141 平和に行きたい人はここから行くのだ。」
 </result>
 </query>
 <query>
@@ -594,9 +669,36 @@ Please translate each line literally into Japanese.
 143 per ch’io mi volsi dietro a’ miei dottori,
 144 com’ om che va secondo ch’elli ascolta.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "142 彼の姿は私の視界を奪っていた。\n143 それで私は自分の師匠たちの方を振り返った。\n144 聞くままに進む人のように。"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-142 彼の姿は私の視力を奪いました。
-143 そこで私は、聞いたことに従って進む人として、私の教師たちの後ろを振り返りました。
+142 彼の姿は私の視界を奪っていた。
+143 それで私は自分の師匠たちの方を振り返った。
+144 聞くままに進む人のように。
 </result>
 </query>
 <query>
@@ -615,11 +717,11 @@ Please translate each line literally into Japanese.
 <result>
 145 そして、夜明けを告げるものとして、
 146 5月の風が動き、香りを放ち、
-147 草や花に完全に染み込んでいます。
+147 草や花々に染み込んでいる。
 
-148 私はそのような風が額の真ん中を吹き抜けるのを感じ、
-149 羽根が動くのを感じ、
-150 アンブロシアの香りを漂わせました。
+148 私はそんな風に、風が額の真ん中を吹き抜け、
+149 羽が動くのを感じ、
+150 その香りはアンブロシアを思わせた。
 </result>
 </query>
 <query>
@@ -634,10 +736,9 @@ Please translate each line literally into Japanese.
 154 esurïendo sempre quanto è giusto!».
 </prompt>
 <result>
-151 そして私はこう言うのを聞きました。「恵みによってそれほど照らされ、
-152 胸の中の食欲が過剰な欲望を燃やさない人々は幸いです。
-
-153 常に正しい分だけ空腹であること！」
+151 そして私はこう言うのを聞いた。「恵みによって照らされ、
+152 味覚への愛が胸の中で過剰な欲望を燃やさない人々は、
+153 常に適度な空腹を感じているので、祝福されている！」
 </result>
 </query>
 </queries>

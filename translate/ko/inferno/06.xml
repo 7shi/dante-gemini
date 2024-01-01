@@ -16,11 +16,11 @@ Please translate each line literally into Korean.
 <result>
 1 두 형제의 자비 앞에서
 2 마음이 닫히고 돌아왔을 때,
-3 슬픔이 나를 온통 혼란스럽게 했을 때,
+3 슬픔이 나를 온통 혼란스럽게 했는데,
 
 4 새로운 고통과 새로운 고통받는 자들이
-5 내 주변에 보입니다. 내가 어디로 움직이든
-6 내가 어디로 돌든, 내가 어디를 바라보든 말입니다.
+5 내 주위에 보이는데, 내가 어디로 움직이든
+6 어디로 돌아보든, 어디를 응시하든 말이다.
 </result>
 </query>
 <query>
@@ -33,9 +33,9 @@ Please translate each line literally into Korean.
 9 regola e qualità mai non l’è nova.
 </prompt>
 <result>
-7 나는 세 번째 원에 있습니다. 영원한 비가
-8 저주받고, 차갑고, 무겁습니다.
-9 규칙과 성질이 결코 새롭지 않습니다.
+7 나는 세 번째 원에 있는데, 비가
+8 영원히 내리고 저주받고 차갑고 무겁다.
+9 규칙과 특성이 결코 새롭지 않다.
 </result>
 </query>
 <query>
@@ -48,9 +48,9 @@ Please translate each line literally into Korean.
 12 pute la terra che questo riceve.
 </prompt>
 <result>
-10 큰 우박, 얼룩진 물, 눈이
-11 어두운 공기를 통해 쏟아집니다.
-12 이것을 받아들이는 땅이 썩습니다.
+10 큰 우박, 더러운 물, 눈이
+11 어두운 공기를 통해 쏟아진다.
+12 이것을 받는 땅이 썩는다.
 </result>
 </query>
 <query>
@@ -62,36 +62,10 @@ Please translate each line literally into Korean.
 14 con tre gole caninamente latra
 15 sovra la gente che quivi è sommersa.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "13 케르베로스, 잔인하고 이상한 짐승이\n14 세 개의 개 머리로 짖습니다.\n15 여기 잠긴 사람들을 향해."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-13 케르베로스, 잔인하고 이상한 짐승이
-14 세 개의 개 머리로 짖습니다.
-15 여기 잠긴 사람들을 향해.
+13 세 개의 개 머리를 가진 사나운 짐승 세르베루스가
+14 개처럼 짖으며
+15 여기 잠긴 사람들을 향해 으르렁거린다.
 </result>
 </query>
 <query>
@@ -104,9 +78,9 @@ Please translate each line literally into Korean.
 18 graffia li spirti ed iscoia ed isquatra.
 </prompt>
 <result>
-16 그의 눈은 붉고, 수염은 기름지고 검고,
-17 배는 크고, 손톱은 길다.
-18 그는 영혼을 긁고, 찢고, 찢어발긴다.
+16 눈은 붉고, 수염은 기름지고 검고,
+17 배는 크고, 손톱은 날카롭다.
+18 영혼들을 긁고 찢고 갈가리 찢는다.
 </result>
 </query>
 <query>
@@ -122,7 +96,7 @@ Please translate each line literally into Korean.
 index: 0
 content {
   parts {
-    text: "19 비가 그들을 개처럼 울부짖게 한다.\n20 한쪽은 다른 쪽에 방패가 된다.\n21 불쌍한 이교도들은 자주 뒤집힌다."
+    text: "19 비가 그들을 개처럼 울부짖게 하고,\n20 한쪽은 다른 쪽을 가리며 방패가 되고,\n21 불쌍한 이교도들은 자주 뒤집힌다."
   }
   role: "model"
 }
@@ -145,8 +119,8 @@ safety_ratings {
 }
 </error>
 <result>
-19 비가 그들을 개처럼 울부짖게 한다.
-20 한쪽은 다른 쪽에 방패가 된다.
+19 비가 그들을 개처럼 울부짖게 하고,
+20 한쪽은 다른 쪽을 가리며 방패가 되고,
 21 불쌍한 이교도들은 자주 뒤집힌다.
 </result>
 </query>
@@ -159,10 +133,36 @@ Please translate each line literally into Korean.
 23 le bocche aperse e mostrocci le sanne;
 24 non avea membro che tenesse fermo.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "22 거대한 짐승 세르베루스가 우리를 보자\n23 입을 벌리고 송곳니를 드러냈다.\n24 가만히 있는 신체 부위가 하나도 없었다."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-22 거대한 벌레인 케르베로스가 우리를 보았을 때,
-23 입을 벌리고 이빨을 드러냈다.
-24 가만히 움직이지 않는 신체 부위가 없었다.
+22 거대한 짐승 세르베루스가 우리를 보자
+23 입을 벌리고 송곳니를 드러냈다.
+24 가만히 있는 신체 부위가 하나도 없었다.
 </result>
 </query>
 <query>
@@ -175,8 +175,8 @@ Please translate each line literally into Korean.
 27 la gittò dentro a le bramose canne.
 </prompt>
 <result>
-25 나의 안내자는 손을 뻗어
-26 땅을 움켜쥐고, 주먹을 가득 채워
+25 나의 안내자는 손을 벌리고
+26 땅을 움켜쥐고 주먹을 가득 채워
 27 탐욕스러운 목구멍 속으로 던졌다.
 </result>
 </query>
@@ -194,13 +194,13 @@ Please translate each line literally into Korean.
 33 l’anime sì, ch’esser vorrebber sorde.
 </prompt>
 <result>
-28 짖어대며 먹이를 갈망하는 개가
-29 먹이를 물면 조용해지는 것처럼,
-30 오직 먹이를 삼키는 데만 신경을 쓰고 싸우는 것처럼,
+28 짖으며 먹이를 갈망하는 개가
+29 먹이를 물면 조용해지듯이,
+30 오직 먹는 것만을 생각하고 싸우듯이,
 
-31 더러운 얼굴을 한 악마 케르베로스도 그러했다.
-32 그는 영혼들을 울부짖게 만들어서
-33 그들은 귀가 먹고 싶어한다.
+31 더러운 얼굴을 한 악마 세르베루스도 그랬다.
+32 영혼들을 으르렁거리며 괴롭히는데,
+33 영혼들은 귀가 먹고 싶어한다.
 </result>
 </query>
 <query>
@@ -213,8 +213,8 @@ Please translate each line literally into Korean.
 36 sovra lor vanità che par persona.
 </prompt>
 <result>
-34 우리는 무거운 비가 내리는 그늘 위를 지나갔고,
-35 발을 내딛었는데, 그것은 사람처럼 보이는 허무함 위였다.
+34 우리는 무거운 비에 맞아 더러워진 그늘 위로 지나갔고,
+35 그들의 허영심 위에 발을 디뎠는데, 그것은 사람처럼 보인다.
 </result>
 </query>
 <query>
@@ -228,8 +228,7 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 37 그들은 모두 땅에 누워 있었고,
-38 한 명만 앉아 일어났는데,
-39 우리가 지나가는 것을 보고 재빨리 일어났다.
+38 한 명만이 우리가 지나가는 것을 보고 재빨리 일어나 앉았다.
 </result>
 </query>
 <query>
@@ -243,8 +242,8 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 40 "이 지옥으로 끌려온 자여,"
-41 그는 나에게 말했다. "나를 알아보거라, 네가 알 수 있다면:
-42 내가 망가지기 전에 네가 태어났다."
+41 그는 나에게 말했다. "나를 알아보지 못하니?
+42 내가 망가지기 전에, 네가 나를 만들었지."
 </result>
 </query>
 <query>
@@ -258,8 +257,8 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 43 그리고 나는 그에게 말했다. "네가 겪고 있는 고통이
-44 아마도 너를 내 기억에서 몰아냈을 것이다.
-45 그래서 내가 너를 본 적이 없는 것처럼 보인다.
+44 아마도 너를 내 기억에서 지워버렸을 거야.
+45 그래서 내가 너를 본 적이 없는 것처럼 보일지도 몰라."
 </result>
 </query>
 <query>
@@ -273,8 +272,8 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 46 하지만 네가 이렇게 슬픈
-47 곳에 놓여 있고, 이렇게 큰 고통을 받고 있는 네가 누구인지 말해줘.
-48 다른 고통이 더 크다면 그것은 없을 것이고, 아무것도 이렇게 불쾌하지 않을 것이다."
+47 곳에 놓여 있고, 이렇게 큰 고통을 받고 있는지 말해줘.
+48 다른 고통이 더 크다면 모르겠지만, 이보다 더 안타까운 것은 없을 거야."
 </result>
 </query>
 <query>
@@ -288,8 +287,8 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 49 그리고 그는 나에게 말했다. "네 도시는 시기로 가득 차서
-50 이미 자루가 넘쳐흐르고,
-51 평화로운 삶에서 나를 그곳에 가두었다.
+50 이미 자루가 터져버렸고,
+51 그래서 평화로운 삶을 살 때 나를 그곳에 가두어 두었지."
 </result>
 </query>
 <query>
@@ -302,9 +301,9 @@ Please translate each line literally into Korean.
 54 come tu vedi, a la pioggia mi fiacco.
 </prompt>
 <result>
-52 시민들은 나를 치아코라고 불렀다.
+52 시민들이 나를 치아코라고 불렀지.
 53 탐식이라는 해로운 죄 때문에,
-54 네가 보듯이, 나는 비에 몸을 굽힌다.
+54 네가 보듯이, 나는 비에 젖어 지쳐버렸지.
 </result>
 </query>
 <query>
@@ -317,9 +316,9 @@ Please translate each line literally into Korean.
 57 per simil colpa». E più non fé parola.
 </prompt>
 <result>
-55 그리고 나는 외로운 슬픈 영혼이 아니다.
-56 이 모든 영혼들이 비슷한 죄 때문에
-57 비슷한 고통을 겪고 있다." 그리고 그는 더 이상 말하지 않았다.
+55 그리고 나는 슬픈 영혼만이 아니야.
+56 이 모든 영혼들이 비슷한 죄로
+57 비슷한 고통을 받고 있거든." 그러고는 더 이상 말하지 않았다.
 </result>
 </query>
 <query>
@@ -336,12 +335,11 @@ Please translate each line literally into Korean.
 63 per che l’ha tanta discordia assalita».
 </prompt>
 <result>
-58 나는 그에게 대답했다. "치아코, 네 고통이
-59 나에게 너무나 무겁기 때문에 눈물이 나게 한다.
-60 하지만 네가 안다면 말해줘, 분열된 도시의 시민들에게
-61 무슨 일이 일어날 것인가?
-62 의로운 사람이 있는가? 그리고 말해줘, 왜
-63 그렇게 많은 불화가 그들을 덮쳤는가?"
+58 나는 그에게 대답했다. "치아코, 네 슬픔이
+59 너무나도 무거워서 눈물이 나게 해.
+60 하지만 네가 안다면 말해줘. 갈라진 도시의 시민들이
+61 어떻게 될지; 의로운 사람이 있는지; 그리고 그 도시가
+62 왜 그렇게 큰 불화에 시달리는지 말해줘."
 </result>
 </query>
 <query>
@@ -395,9 +393,8 @@ Please translate each line literally into Korean.
 69 con la forza di tal che testé piaggia.
 </prompt>
 <result>
-67 그런 다음 이 파벌이
-68 세 해가 지나지 않아 무너지고, 다른 파벌이
-69 지금은 아첨하는 자의 힘으로 승리할 것이다.
+67 그러면 세 해가 지나지 않아 이 파벌이 무너지고,
+68 다른 파벌이 현재 아첨하는 자의 힘으로 승리할 것이다.
 </result>
 </query>
 <query>
@@ -410,9 +407,9 @@ Please translate each line literally into Korean.
 72 come che di ciò pianga o che n’aonti.
 </prompt>
 <result>
-70 그것은 오랫동안 우월하게 군림할 것이고,
-71 다른 파벌을 무거운 짐 아래에 두고,
-72 그것을 슬퍼하거나 부끄러워하더라도 말이다.
+70 높은 땅에서 오랫동안 이마를 숙이고,
+71 다른 하나는 무거운 짐을 지고,
+72 그것을 슬퍼하든지 싫어하든지.
 </result>
 </query>
 <query>
@@ -425,9 +422,8 @@ Please translate each line literally into Korean.
 75 le tre faville c’hanno i cuori accesi».
 </prompt>
 <result>
-73 의로운 사람은 두 명뿐이고, 그들은 이해받지 못한다.
-74 오만, 시기, 탐욕은
-75 마음에 불을 지른 세 개의 불씨이다."
+73 두 사람이 정의롭지만 서로 이해하지 못하고,
+74 교만, 시기, 탐욕이 세 개의 불꽃으로 그들의 마음을 불태운다."
 </result>
 </query>
 <query>
@@ -440,9 +436,9 @@ Please translate each line literally into Korean.
 78 e che di più parlar mi facci dono.
 </prompt>
 <result>
-76 여기서 그는 슬픈 말을 마쳤다.
-77 그리고 나는 그에게 말했다. "나는 당신이 나에게 더 가르쳐 주기를 바라며,
-78 더 많은 말을 해주기를 바랍니다.
+76 여기서 그는 슬픈 울음을 멈추었다.
+77 그리고 나는 그에게 말했다. "아직도 당신에게 배우고 싶은 것이 있습니다.
+78 그리고 더 많은 이야기를 들려주시길 바랍니다.
 </result>
 </query>
 <query>
@@ -461,10 +457,10 @@ Please translate each line literally into Korean.
 <result>
 79 파리나타와 테기아이오, 그토록 고귀했던 자들,
 80 야코포 루스티추치, 아리고, 모스카
-81 그리고 선행에 재능을 바친 다른 사람들,
+81 그리고 선행에 마음을 쏟았던 다른 사람들,
 
-82 그들이 어디에 있는지 말해주고 내가 그들을 알아보게 해줘.
-83 그들이 하늘에서 달콤함을 누리는지, 아니면 지옥에서 독을 마시는지 알고 싶은 강한 열망이 나를 괴롭히고 있거든."
+82 그들이 어디 있는지 말해주고 내가 그들을 알아볼 수 있게 해주세요.
+83 그들이 천국에서 달콤한 삶을 누리고 있는지, 아니면 지옥에서 고통을 받고 있는지 알고 싶은 마음이 간절합니다."
 </result>
 </query>
 <query>
@@ -480,7 +476,7 @@ Please translate each line literally into Korean.
 index: 0
 content {
   parts {
-    text: "85 그리고 그는 말했다. \"그들은 가장 검은 영혼들 사이에 있습니다.\n86 다양한 죄가 그들을 바닥으로 짓누르고 있습니다.\n87 그렇게 깊이 내려간다면 거기서 그들을 볼 수 있을 것입니다."
+    text: "85 그리고 그는 말했다. \"그들은 가장 검은 영혼들 사이에 있습니다.\n86 다양한 죄악들이 그들을 바닥으로 짓누르고 있습니다.\n87 그렇게 깊이 내려가면 그들을 볼 수 있을 것입니다."
   }
   role: "model"
 }
@@ -504,8 +500,8 @@ safety_ratings {
 </error>
 <result>
 85 그리고 그는 말했다. "그들은 가장 검은 영혼들 사이에 있습니다.
-86 다양한 죄가 그들을 바닥으로 짓누르고 있습니다.
-87 그렇게 깊이 내려간다면 거기서 그들을 볼 수 있을 것입니다.
+86 다양한 죄악들이 그들을 바닥으로 짓누르고 있습니다.
+87 그렇게 깊이 내려가면 그들을 볼 수 있을 것입니다.
 </result>
 </query>
 <query>
@@ -518,9 +514,9 @@ Please translate each line literally into Korean.
 90 più non ti dico e più non ti rispondo».
 </prompt>
 <result>
-88 하지만 네가 달콤한 세상에 있을 때,
-89 부탁이니 다른 사람들의 마음에 나를 상기시켜줘.
-90 더 이상 말하지 않겠고, 더 이상 대답하지 않겠어."
+88 하지만 네가 달콤한 세상에 돌아가면,
+89 부탁이니 나를 다른 사람들에게 기억해주길 바란다.
+90 더 이상 말할 것이 없고, 더 이상 대답하지 않겠다."
 </result>
 </query>
 <query>
@@ -533,9 +529,9 @@ Please translate each line literally into Korean.
 93 cadde con essa a par de li altri ciechi.
 </prompt>
 <result>
-91 그때 그는 똑바로 보던 눈을 사납게 돌렸다.
+91 그때 그는 곧은 눈을 사납게 돌렸다.
 92 나를 잠시 바라보더니 고개를 숙였다.
-93 그는 다른 맹인들과 함께 그곳에 쓰러졌다.
+93 그와 함께 다른 맹인들 옆으로 쓰러졌다.
 </result>
 </query>
 <query>
@@ -552,12 +548,11 @@ Please translate each line literally into Korean.
 99 udirà quel ch’in etterno rimbomba».
 </prompt>
 <result>
-94 그리고 안내자는 나에게 말했다. "이곳에서
-95 천사의 나팔 소리 이전에는 다시 일어나지 않을 것이다.
-96 적대적인 권능이 올 때 말이다.
+94 그리고 두체는 나에게 말했다. "이곳에서 천사의 나팔 소리가 들리기 전까지는,
+95 적대적인 권능이 올 때까지는 다시는 깨어나지 않을 것이다.
 
-97 각자는 슬픈 무덤을 다시 보게 될 것이고,
-98 자신의 육체와 모습을 되찾을 것이며,
+96 각자는 슬픈 무덤을 다시 보게 될 것이고,
+97 자신의 육체와 모습을 되찾을 것이며,
 99 영원히 울려 퍼지는 소리를 들을 것이다."
 </result>
 </query>
@@ -575,13 +570,13 @@ Please translate each line literally into Korean.
 105 o fier minori, o saran sì cocenti?».
 </prompt>
 <result>
-100 그래서 우리는 더러운 혼합물을 헤치고 지나갔다.
-101 그림자와 비 속에서 느린 걸음으로,
-102 미래의 삶을 조금이나마 만지면서 말이다.
+100 그래서 우리는 더러운 혼합물 속을
+101 그림자와 비 속을 천천히 걸으며 지나갔고,
+102 다가올 삶을 조금이나마 맛보았다.
 
 103 그래서 나는 말했다. "선생님, 이 고통은
-104 대심판 이후에 더 커질까요,
-105 아니면 훨씬 줄어들까요, 아니면 그렇게나 타오를까요?"
+104 대심판 이후에 더 커지거나,
+105 아니면 더 작아지거나, 아니면 여전히 이렇게 뜨거울까요?"
 </result>
 </query>
 <query>
@@ -594,9 +589,9 @@ Please translate each line literally into Korean.
 108 più senta il bene, e così la doglienza.
 </prompt>
 <result>
-106 그리고 그는 나에게 말했다. "네 지식으로 돌아가라.
-107 그것은 사물이 더 완벽할수록
-108 더 많은 선을 느끼고, 따라서 더 많은 고통을 느낀다고 말한다.
+106 그리고 그는 나에게 말했다. "네가 배운 것을 생각해보라.
+107 그것은 사물이 더 완벽할수록,
+108 더 많은 선을 느끼고, 따라서 더 많은 고통을 느낀다는 것을 말한다.
 </result>
 </query>
 <query>
@@ -612,7 +607,7 @@ Please translate each line literally into Korean.
 index: 0
 content {
   parts {
-    text: "109 이 저주받은 사람들이\n110 결코 진정한 완벽함에 이르지 못한다 해도,\n111 그들은 저쪽에서 이쪽보다 더 완벽해질 것으로 기대한다.\""
+    text: "109 저 저주받은 무리들이\n110 진정한 완벽함에 결코 이르지 못하고,\n111 저쪽에서 이쪽보다 더 많은 것을 기대한다»."
   }
   role: "model"
 }
@@ -635,9 +630,9 @@ safety_ratings {
 }
 </error>
 <result>
-109 이 저주받은 사람들이
-110 결코 진정한 완벽함에 이르지 못한다 해도,
-111 그들은 저쪽에서 이쪽보다 더 완벽해질 것으로 기대한다."
+109 저 저주받은 무리들이
+110 진정한 완벽함에 결코 이르지 못하고,
+111 저쪽에서 이쪽보다 더 많은 것을 기대한다».
 </result>
 </query>
 <query>
@@ -652,10 +647,11 @@ Please translate each line literally into Korean.
 115 quivi trovammo Pluto, il gran nemico.
 </prompt>
 <result>
-112 우리는 그 길을 돌아다니며,
-113 내가 말하지 않는 것보다 훨씬 더 많은 이야기를 나누었다.
-114 우리는 내려가는 지점에 도착했다.
-115 거기서 우리는 위대한 적 플루토를 만났다.
+112 우리는그길을빙빙돌았고,
+113 내가말하지않은것보다훨씬더많이이야기했다.
+114 우리는내려가는지점에왔다.
+
+115 거기서우리는위대한적플루토를만났다.
 </result>
 </query>
 </queries>

@@ -20,7 +20,7 @@ Please translate each line literally into Hungarian.
 
 4 Minden nyelv bizonyára elbukna
 5 beszédünk és elménk miatt,
-6 amelyeknek kevés érzékük van ennyi megértéshez.
+6 amelyeknek túl kevés érzékük van ahhoz, hogy felfogják.
 </result>
 </query>
 <query>
@@ -51,7 +51,7 @@ Please translate each line literally into Hungarian.
 <result>
 7 Ha még össze is gyűlne az összes ember,
 8 akik valaha Puglia szerencsés földjén
-9 vérüket ontották fájdalmasan
+9 vérüket ontották fájdalmukban
 
 10 a trójaiak és a hosszú háború miatt,
 11 amelyből olyan gazdag zsákmányt szereztek gyűrűk formájában,
@@ -59,14 +59,14 @@ Please translate each line literally into Hungarian.
 
 13 azokkal együtt, akik fájdalmas sebeket szenvedtek
 14 Róbert Guiscard elleni harcban;
-15 és a másikkal, akiknek csontjait még mindig gyűjtik
+15 és a többiekkel, akiknek csontjai még mindig összegyűlnek
 
 16 Ceperanónál, ahol minden egyes pugliai hazug volt,
 17 és Tagliacozzónál, ahol fegyver nélkül győzött az öreg Alardo;
 
-18 és aki megmutatná, hogy melyik tagját szúrták át, és melyiket vágták le,
-19 az egyenlő lenne
-20 a kilencedik pokolgödör mocskával.
+18 és ha mindenki megmutatná, melyik tagja van átlyukasztva vagy levágva,
+19 akkor sem lenne semmi ahhoz képest,
+20 amit a kilencedik pokol bugyra mutat.
 </result>
 </query>
 <query>
@@ -78,11 +78,26 @@ Please translate each line literally into Hungarian.
 23 com’ io vidi un, così non si pertugia,
 24 rotto dal mento infin dove si trulla.
 </prompt>
+<result>
+22 Már látom, hogy félúton a pokol felé,
+23 ahogy láttam valakit, akit nem lehet így átlyukasztani,
+24 akinek az álla és a feneke között szakadt ketté a teste.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 25/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
+
+25 Tra le gambe pendevan le minugia;
+26 la corata pareva e ’l tristo sacco
+27 che merda fa di quel che si trangugia.
+</prompt>
 <error result="true">
 index: 0
 content {
   parts {
-    text: "22 Már látom, hogy a közepén elveszítve vagy elrejtve,\n23 ahogy láttam egyet, nem így lyukasztják át,\n24 a szájától egészen a végbélnyílásig felhasítva."
+    text: "25 A lábai között lógtak a belei;\n26 látszott a szíve és a szomorú zsák,\n27 amely szart csinál abból, amit lenyelünk."
   }
   role: "model"
 }
@@ -105,50 +120,9 @@ safety_ratings {
 }
 </error>
 <result>
-22 Már látom, hogy a közepén elveszítve vagy elrejtve,
-23 ahogy láttam egyet, nem így lyukasztják át,
-24 a szájától egészen a végbélnyílásig felhasítva.
-</result>
-</query>
-<query>
-<info>[Inferno Canto 28] 25/142</info>
-<prompt>
-Please translate each line literally into Hungarian.
-
-25 Tra le gambe pendevan le minugia;
-26 la corata pareva e ’l tristo sacco
-27 che merda fa di quel che si trangugia.
-</prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 A lábai között lógtak a belei;\n26 látszott a szíve és a szomorú zsák,\n27 amely szart csinál abból, amit lenyel."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
 25 A lábai között lógtak a belei;
 26 látszott a szíve és a szomorú zsák,
-27 amely szart csinál abból, amit lenyel.
+27 amely szart csinál abból, amit lenyelünk.
 </result>
 </query>
 <query>
@@ -165,11 +139,11 @@ Please translate each line literally into Hungarian.
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
 <result>
-28 Miközben teljesen rá összpontosítottam a tekintetemet,
-29 rám nézett, és kezeivel feltépte a mellkasát,
-30 mondván: „Most látod, hogyan tépem magam szét!
+28 Miközben teljesen rá összpontosítottam a figyelmemet,
+29 rám nézett, és a kezével feltépte a mellkasát,
+30 miközben ezt mondta: „Nézd, hogyan tépem szét magam!
 
-31 Látod, milyen torz Mohamed!
+31 Nézd, milyen torz Mohamed!
 32 Előttem sírva megy Ali,
 33 akinek az arca az állától a homlokáig fel van hasítva.
 </result>
@@ -219,9 +193,9 @@ Please translate each line literally into Hungarian.
 <result>
 37 Egy ördög van itt mögöttünk, aki lemészárolja őket
 38 oly kegyetlenül, kardcsapással
-39 küldve vissza mindegyiket ebbe a csoportba,
+39 visszaküldve mindegyiket ebből a csoportból,
 
-40 amikor megfordulunk a fájdalmas úton;
+40 amikor megfordultunk a fájdalmas úton;
 41 mert a sebeik begyógyulnak
 42 mielőtt bárki más eléjük érne.
 </result>
@@ -237,8 +211,8 @@ Please translate each line literally into Hungarian.
 </prompt>
 <result>
 43 De te ki vagy, aki a sziklán időzöl,
-44 talán azért, hogy halogasd az ítéletet,
-45 amelyet a te vádjaid alapján hoztak?».
+44 talán azért, hogy késleltesd az ítéletet,
+45 amelyet a te vádad alapján hoztak rád?”.
 </result>
 </query>
 <query>
@@ -255,13 +229,13 @@ Please translate each line literally into Hungarian.
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
 <result>
-46 «Még nem érte el a halál, és nem is bűn vezeti őt»,
-47 válaszolta a mesterem, «hogy gyötörje;
+46 „Még nem érte el a halál, és nem is bűn vezeti őt”,
+47 válaszolta a mesterem, „hogy gyötörje;
 48 de hogy teljes tapasztalatot szerezzen,
 
 49 nekem, aki halott vagyok, el kell vezetnem őt
 50 a pokolban itt lent, körbe-körbe;
-51 és ez igaz, ahogy mondom neked».
+51 és ez igaz, ahogy mondom neked”.
 </result>
 </query>
 <query>
@@ -293,13 +267,13 @@ Please translate each line literally into Hungarian.
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55 «Mondd meg hát Dolcino testvérnek, hogy fegyverkezzen fel,
-56 te, aki talán hamarosan meglátod a napot,
-57 ha nem akar hamarosan követni engem ide,
+55 „MonddmegDolcinofivérnek,hogyfegyverkezzenfel,
+56 te,akilehet,hogyhamarosanmeglátodanapotazégbolton,
+57 hacsaknemakarittkövetniengem,
 
-58 olyan élelemmel, hogy a hó szorítása
-59 ne hozza meg a győzelmet a novaraiaknak,
-60 mert különben nem lenne könnyű megszerezni».
+58 olyanétellel,hogyahóesés
+59 nehozzagyozelmetanovaraiaknak,
+60 mertkülönbennehezenlehetnegyőzelmetaratni”.
 </result>
 </query>
 <query>
@@ -312,9 +286,9 @@ Please translate each line literally into Hungarian.
 63 indi a partirsi in terra lo distese.
 </prompt>
 <result>
-61 Miután az egyik lábát felemelte, hogy elinduljon,
-62 Mohamed mondta nekem ezeket a szavakat;
-63 majd elindult, és a földre fektette.
+61 Miután az egyik lábát felemelte, hogy belépjen,
+62 Mohamed ezt a szót mondta nekem;
+63 majd a földre fektette, hogy elinduljon.
 </result>
 </query>
 <query>
@@ -339,19 +313,19 @@ Please translate each line literally into Hungarian.
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64 Egy másik, akinek át volt szúrva a torka
-65 és le volt vágva az orra egészen a szemöldökéig,
+64 Egy másik, akinek a torka át volt vágva,
+65 és az orra le volt vágva egészen a szemöldökéig,
 66 és csak egy füle volt,
 
-67 megállt, hogy csodálkozva rám nézzen
-68 a többiekkel, és előttük kinyitotta a torkát,
+67 megállt, hogy csodálkozva nézzen,
+68 a többiekkel együtt, előrehajolva kinyitotta a torkát,
 69 amely kívülről mindenütt vörös volt,
 
-70 és azt mondta: «Ó, téged, akit nem ítél el bűn,
+70 és azt mondta: „Ó, téged, akit nem ítél el a bűn,
 71 és akit láttam a latin földön,
 72 ha a túlzott hasonlóság nem csal meg,
 
-73 emlékezz Pier da Medicinára,
+73 emlékezz meg Pier da Medicináról,
 74 ha valaha visszatérsz, hogy lásd az édes síkságot,
 75 amely Vercellitől Marcabòig lejt.
 </result>
@@ -372,9 +346,9 @@ Please translate each line literally into Hungarian.
 <result>
 76 És tudasd Fano két legjobbjával,
 77 Guido úrral és Angiolellóval is,
-78 hogy ha a jövőbelátásom itt nem hiábavaló,
+78 hogy ha a jövőbelátásom nem hiábavaló,
 
-79 kidobják őket a hajójukból
+79 kidobják őket a hajójukból,
 80 és megölik őket Cattolica közelében
 81 egy gonosz zsarnok árulása miatt.
 </result>
@@ -390,7 +364,7 @@ Please translate each line literally into Hungarian.
 </prompt>
 <result>
 82 Ciprus és Mallorca szigete között
-83 soha nem látott Neptunusz ilyen nagy bajt,
+83 Neptunusz még soha nem látott ilyen nagy bajt,
 84 sem kalózoktól, sem argoszi néptől.
 </result>
 </query>
@@ -409,12 +383,11 @@ Please translate each line literally into Hungarian.
 </prompt>
 <result>
 85 Az az áruló, aki csak az egyik szemével lát,
-86 és birtokolja azt a földet, amelyet
-87 olyan szeretne látni, mint én itt, éhezőn,
+86 és birtokolja azt a földet, amelyet ő is szeretne látni üresen,
 
-88 összehívja őket, hogy tárgyaljanak vele;
-89 aztán úgy intézi, hogy Focara szelében
-90 nem lesz szükségük fogadalomra vagy imára».
+87 összehívja őket, hogy tárgyaljanak vele;
+89 aztán gondoskodik róla, hogy a Focara-szélben
+90 ne legyen szükségük fogadalomra vagy imára.
 </result>
 </query>
 <query>
@@ -427,9 +400,9 @@ Please translate each line literally into Hungarian.
 93 chi è colui da la veduta amara».
 </prompt>
 <result>
-91 És én neki: «Mutasd meg és mondd el nekem,
-92 ha azt akarod, hogy hírt vigyek rólad odafent,
-93 ki az a keserű látású ember».
+91 És én neki: „Mondd el és magyarázd meg nekem,
+92 ha azt akarod, hogy hírt vigyek rólad,
+93 ki az a keserű látású ember”.
 </result>
 </query>
 <query>
@@ -444,7 +417,7 @@ Please translate each line literally into Hungarian.
 <result>
 94 Akkor a kezével megfogta
 95 egyik társának az állkapcsát, és kinyitotta a száját,
-96 kiáltva: «Ő az, és nem beszél.
+96 kiáltva: „Ő az, és nem beszél.
 </result>
 </query>
 <query>
@@ -457,9 +430,9 @@ Please translate each line literally into Hungarian.
 99 sempre con danno l’attender sofferse».
 </prompt>
 <result>
-97 Ez az ember, száműzetve, elültette a kétséget
-98 Caesarban, kijelentve, hogy a készenlétben várakozás
-99 mindig kárt okoz».
+97 Ő, száműzetve, elfojtotta a kétséget
+98 Caesarban, kijelentve, hogy a késlekedés
+99 mindig kárt okozva szenvedte meg a várakozást.
 </result>
 </query>
 <query>
@@ -482,15 +455,15 @@ Please translate each line literally into Hungarian.
 <result>
 100 Ó, mennyire rémültnek tűnt nekem
 101 a levágott nyelvvel a torkában
-102 Curio, aki olyan merész volt a beszédében!
+Curio, aki olyan bátor volt, hogy ezt kimondja!
 
 103 És egy másik, akinek mindkét kezét levágták,
-104 felemelve csonkjait a sötét levegőben,
-105 úgyhogy a vér bemocskolta az arcát,
+104 felemelve csonkjait a sötét levegőbe,
+105 úgyhogy a vér beszennyezte az arcát,
 
-106 felkiáltott: «Emlékezz meg Moscáról is,
-107 aki azt mondta, jaj!, hogy “A tettnek feje van”,
-108 ami rossz mag volt a toszkánok számára».
+106 felkiáltott: „Emlékezz meg Moscáról is,
+107 aki azt mondta, jaj!, hogy „A tettnek feje van”,
+108 ami rossz mag volt a toszkánok számára”.
 </result>
 </query>
 <query>
@@ -503,8 +476,8 @@ Please translate each line literally into Hungarian.
 111 sen gio come persona trista e matta.
 </prompt>
 <result>
-109 És én hozzátettem: «És a családod halála»;
-110 mire ő, fájdalmat fájdalomra halmozva,
+109 És én hozzátettem: „És a te fajtád halála”;
+110 mire ő, bánatot bánatra halmozva,
 111 elment, mint egy szomorú és őrült ember.
 </result>
 </query>
@@ -522,13 +495,13 @@ Please translate each line literally into Hungarian.
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112 De én ott maradtam, hogy szemügyre vegyem a csoportot,
-113 és olyan dolgot láttam, amelyről félnék,
-114 anélkül, hogy több bizonyítékom lenne, hogy egyedül elmeséljem;
+112 De én ottmaradtam, hogy szemügyre vegyem a sereget,
+113 és olyasmit láttam, amitől félnék,
+114 ha egyedül kellene elmesélnem;
 
-115 hacsak a lelkiismeretem nem biztosítana,
-116 a jó társaság, amely felszabadítja az embert
-117 a tiszta érzés páncélja alatt.
+115 hacsak a lelkiismeretem meg nem nyugtatna,
+116 a jó társaság, amely bátorrá teszi az embert,
+117 a tiszta lelkiismeret páncélja alatt.
 </result>
 </query>
 <query>
@@ -545,13 +518,13 @@ Please translate each line literally into Hungarian.
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118 Biztosan láttam, és még mindig úgy tűnik, hogy látom,
+118 Bizony láttam, és még mindig úgy tűnik, mintha látnám,
 119 egy törzset fej nélkül menni, ahogyan
-120 a többi is ment a szomorú nyájból;
+120 mentek a többiek a szomorú nyájból;
 
 121 és a levágott fejét a hajánál fogva tartotta,
-122 lóbálva a kezében, mint egy lámpást:
-123 és ránk nézett, és azt mondta: «Ó, én!».
+122 és kézzel lóbálta, mint egy lámpást:
+123 és ránk nézett, és ezt mondta: „Ó, én!”.
 </result>
 </query>
 <query>
@@ -566,7 +539,7 @@ Please translate each line literally into Hungarian.
 <result>
 124 Önmagából csinált magának lámpást,
 125 és ketten voltak egyben, és egy volt kettőben;
-126 hogy ez hogyan lehetséges, azt az tudja, aki így kormányoz.
+126 hogy ez hogyan lehetséges, azt az tudja, aki így irányítja.
 </result>
 </query>
 <query>
@@ -583,12 +556,12 @@ Please translate each line literally into Hungarian.
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127 Amikor egyenesen a híd lábánál volt,
-128 felemelte a karját, és az egész fejét,
+127 Amikor egyenesen a híd lábához ért,
+128 felemelte a magasba a karját az egész fejével együtt,
 129 hogy közelebb hozza a szavait,
 
-130 amelyek ezek voltak: «Most látod a fájdalmas büntetést,
-131 te, aki lélegezve látod a halottakat:
+130 amelyek ezek voltak: „Most látod a kínzó büntetést,
+131 te, aki lélegezve járod a holtakat:
 132 nézd meg, van-e nagyobb, mint ez.
 </result>
 </query>
@@ -602,7 +575,7 @@ Please translate each line literally into Hungarian.
 135 che diedi al re giovane i ma’ conforti.
 </prompt>
 <result>
-133 És hogy hírt vigyél rólam,
+133 És hogy híreket vigyél rólam,
 134 tudd meg, hogy én Bertram dal Bornio vagyok, az,
 135 aki rossz tanácsokat adtam a fiatal királynak.
 </result>
@@ -617,9 +590,9 @@ Please translate each line literally into Hungarian.
 138 e di Davìd coi malvagi punzelli.
 </prompt>
 <result>
-136 Én lázítottam fel az apát és a fiát egymás ellen;
-137 Ahitófel nem félt jobban Absolonnál
-138 és Dávidnál a gonosz tanácsadóival.
+136 Én lázítottam fel egymás ellen az apát és a fiát;
+137 Ahitófel nem tett többet Absolonnak
+138 és Dávidnak a gonosz tanácsadóival.
 </result>
 </query>
 <query>
@@ -633,8 +606,8 @@ Please translate each line literally into Hungarian.
 </prompt>
 <result>
 139 Mivel én így szétválasztottam az összetartozókat,
-140 szétválasztottan hordom az agyamat, jaj!,
-141 az eredetétől, amely ebben a csonkban van.
+140 szétválasztottan hordom az agyvelejét, jaj!,
+141 az eredetétől, ami ebben a csonkban van.
 </result>
 </query>
 <query>
@@ -645,7 +618,7 @@ Please translate each line literally into Hungarian.
 142 Così s’osserva in me lo contrapasso».
 </prompt>
 <result>
-142 Így figyelhető meg rajtam a megtorlás».
+142 Így teljesül be rajtam a megtorlás.”
 </result>
 </query>
 </queries>

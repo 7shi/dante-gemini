@@ -22,20 +22,20 @@ Please translate each line literally into Japanese.
 12 né nave a segno di terra o di stella.
 </prompt>
 <result>
-1 我はすでに騎士たちが野営を移動させ、
+1 私はすでに騎士たちが野営を移動させ、
 2 戦闘を開始し、隊列を整えるのを見た。
-3 そして時には、自分たちの逃走のために出発するのを見た。
+3 そして時には彼らが逃げるために出発するのを見た。
 
-4 あなた方の土地を騎兵が駆け抜け、
-5 アレッツォの人々よ、私はそれを目撃し、騎兵隊が巡回し、
+4 私はあなた方の土地、
+5 アレッツォの人々よ、騎兵隊が駆け巡るのを見た。
 6 トーナメントで槍を交え、馬上槍試合を駆け抜けるのを見た。
 
-7 時にはラッパで、時には鐘で、
-8 太鼓で、城からの合図で、
-9 そして地元のものと外国のものとで。
+7 時にはトランペットや鐘の音で、
+8 太鼓や城からの合図で、
+9 そして地元のものや珍しいもので。
 
-10 そして、これほどまでに異なる笛の音で、
-11 私は騎兵も歩兵も動くのを見たことがなく、
+10 私はこれほどまでに異なる合図で、
+11 騎士や歩兵が動くのを見たことがない。
 12 船が陸地や星の合図で動くのを見たことがない。
 </result>
 </query>
@@ -48,10 +48,36 @@ Please translate each line literally into Japanese.
 14 Ahi fiera compagnia! ma ne la chiesa
 15 coi santi, e in taverna coi ghiottoni.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "13 私たちは10人の悪魔と一緒に歩いていた。\n14 ああ、なんて恐ろしい仲間だ！しかし教会では\n15 聖人たちと一緒に、居酒屋では大食漢たちと一緒に。"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-13 我々は10人の悪魔たちと一緒に歩いていた。
-14 ああ、なんと恐ろしい仲間たちよ！しかし教会では
-15 聖人たちと一緒に、居酒屋では大食漢たちと一緒にいた。
+13 私たちは10人の悪魔と一緒に歩いていた。
+14 ああ、なんて恐ろしい仲間だ！しかし教会では
+15 聖人たちと一緒に、居酒屋では大食漢たちと一緒に。
 </result>
 </query>
 <query>
@@ -64,9 +90,9 @@ Please translate each line literally into Japanese.
 18 e de la gente ch’entro v’era incesa.
 </prompt>
 <result>
-16 私の注意はピッチの煮えたぎる池に注がれていた。
+16 私の注意はピッチ（松脂）に向けられていたが、
 17 ボルジアのあらゆる様子と、
-18 そこで燃やされていた人々を見届けるために。
+18 そこで燃やされている人々を見るためだった。
 </result>
 </query>
 <query>
@@ -83,12 +109,12 @@ Please translate each line literally into Japanese.
 24 e nascondea in men che non balena.
 </prompt>
 <result>
-19 イルカが、背中の弓で船乗りたちに合図を送り、
-20 彼らの船を救うように促すように、
+19 海の旅人たちに背中の弓で合図を送るイルカのように、
+20 彼らの船を救うために努力するように。
 
-21 時には、苦しみを和らげるために、
-22 罪人たちが背中を見せて、
-23 まばたきするよりも早く隠れるのを見た。
+22 時にはこのように、苦しみを和らげるために、
+23 罪人たちが背中を見せて、
+24 まばたきするよりも早く隠れた。
 </result>
 </query>
 <query>
@@ -105,13 +131,13 @@ Please translate each line literally into Japanese.
 30 così si ritraén sotto i bollori.
 </prompt>
 <result>
-25 そして、溝の水際で
-26 カエルが鼻だけ出してじっとしているように、
-27 足ともう一方の太い部分を隠しているように、
+25 そして堀の縁に、
+26 カエルたちが鼻だけ出して立っているように、
+27 足と残りの体を隠している。
 
-28 罪人たちはあらゆる場所でそのように立っていた。
-29 しかし、バルバリッチャが近づくと、
-30 彼らは煮えたぎる湯の下に身を隠した。
+28 罪人たちもそのように、あちこちに立っていた。
+29 しかしバルバリッチャが近づくと、
+30 煮えたぎるピッチの下に身を引いた。
 </result>
 </query>
 <query>
@@ -128,13 +154,13 @@ Please translate each line literally into Japanese.
 36 e trassel sù, che mi parve una lontra.
 </prompt>
 <result>
-31 私はそれを見て、今でも心が震えるが、
-32 一匹のカエルが残り、もう一匹が飛び跳ねるのを待つように、
-33 ある者がこのように待っているのを見た。
+31 私は見た、そして今でも心が震えるが、
+32 カエルが1匹残ってもう1匹が飛び跳ねるのを待つように、
+33 1人の罪人が待っているのを見た。
 
-34 そして、その者に最も近付いていたグラッフィアカーンは、
-35 その者のタールまみれの髪を鉤爪で引っ掻き、
-36 引きずり上げたが、それは私にカワウソのように見えた。
+34 そしてその罪人に最も近いところにいたグラッフィアカーンは、
+35 その罪人のピッチにまみれた髪を引っ掻き、
+36 引きずり上げた。それはカワウソのようだった。
 </result>
 </query>
 <query>
@@ -147,9 +173,9 @@ Please translate each line literally into Japanese.
 39 e poi ch’e’ si chiamaro, attesi come.
 </prompt>
 <result>
-37 私はすでに彼らの全員の名前を知っていた。
-38 彼らが選ばれたとき、私は彼らを記録し、
-39 そして彼らが呼ばれたとき、私はどのように呼ばれたのかを待った。
+37 私はすでに彼らの名前をすべて知っていた。
+38 彼らが選ばれたとき、私は彼らを記録した。
+39 そして彼らが呼ばれたとき、私は彼らがどのように呼ばれるかを待った。
 </result>
 </query>
 <query>
@@ -162,7 +188,7 @@ Please translate each line literally into Japanese.
 42 gridavan tutti insieme i maladetti.
 </prompt>
 <result>
-40 「ルビカンテよ、爪をその者の背中に立てて、皮を剥げ！」
+40 「ルビカンテよ、その爪を彼の背中に立てて、皮を剥げ！」
 41 悪党どもは皆一斉に叫んだ。
 </result>
 </query>
@@ -176,8 +202,8 @@ Please translate each line literally into Japanese.
 45 venuto a man de li avversari suoi».
 </prompt>
 <result>
-43 そして私は言った。「師よ、もしできるなら、
-44 敵の手に落ちたその不幸な者が誰かを知ってください。」
+43 そして私は言った。「先生、もしできるなら、
+44 敵の手に落ちたこの不幸な男が誰なのかを知ってください。」
 </result>
 </query>
 <query>
@@ -190,9 +216,9 @@ Please translate each line literally into Japanese.
 48 «I’ fui del regno di Navarra nato.
 </prompt>
 <result>
-46 私の案内人はその者のそばに近づき、
+46 私の案内人は彼のそばに近づき、
 47 彼がどこから来たのか尋ねると、彼は答えた。
-48 「私はナバラ王国で生まれました。
+48 「私はナバラ王国の生まれです。
 </result>
 </query>
 <query>
@@ -205,9 +231,9 @@ Please translate each line literally into Japanese.
 51 distruggitor di sé e di sue cose.
 </prompt>
 <result>
-49 私の母は私をある領主の召使いとして仕えさせました。
-50 彼は私を放蕩者から生み、
-51 自分自身と自分の財産を破壊しました。
+49 私の母は私をある殿様の召使いとして仕えさせました
+50 その殿様は私をならず者との間に儲けました
+51 彼は自分自身と自分の財産を破壊する者でした
 </result>
 </query>
 <query>
@@ -220,9 +246,9 @@ Please translate each line literally into Japanese.
 54 di ch’io rendo ragione in questo caldo».
 </prompt>
 <result>
-52 その後、私は善良な王テバルドの家臣になりました。
-53 そこで私は不正行為をするようになり、
-54 そのために私はこの熱湯の中で罰を受けています。」
+52 その後、私は善良な王テバルドの家臣となりました
+53 そこで私は不正行為をするようになりました
+54 そのことについては、この暑い地獄で罰を受けています
 </result>
 </query>
 <query>
@@ -235,8 +261,9 @@ Please translate each line literally into Japanese.
 57 li fé sentir come l’una sdruscia.
 </prompt>
 <result>
-55 そして、口の両側からイノシシのように牙が出ていたチリアットは、
-56 その牙がどのように引き裂くのかを彼に感じさせた。
+55 そしてキリャットは、その口から
+56 あらゆる方向に豚のように牙をむき出しにして
+57 彼らにその牙がどのように引き裂くかを感じさせました
 </result>
 </query>
 <query>
@@ -248,10 +275,36 @@ Please translate each line literally into Japanese.
 59 ma Barbariccia il chiuse con le braccia
 60 e disse: «State in là, mentr’ io lo ’nforco».
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "58 悪い猫の中にネズミが入り込んでしまった\n59 しかしバルバリッチャは彼を腕で締め上げて\n60 「離れろ、私がこいつを串刺しにするまで」と言った"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-58 悪い猫の中にネズミが入り込んでいた。
-59 しかし、バルバリッチャは腕で彼を締め付け、
-60 「私が彼を捕まえるまで、離れていろ」と言った。
+58 悪い猫の中にネズミが入り込んでしまった
+59 しかしバルバリッチャは彼を腕で締め上げて
+60 「離れろ、私がこいつを串刺しにするまで」と言った
 </result>
 </query>
 <query>
@@ -264,9 +317,9 @@ Please translate each line literally into Japanese.
 63 saper da lui, prima ch’altri ’l disfaccia».
 </prompt>
 <result>
-61 そして彼は私の師匠に顔を向け、
-62 「もし他に知りたいことがあれば、」と言った。
-63 「彼が壊される前に、彼に尋ねなさい。」
+61 そして彼は私の師匠の方を向き
+62 「尋ねよ」と言いました。「もし他に知りたいことがあれば
+63 彼が引き裂かれる前に」
 </result>
 </query>
 <query>
@@ -281,10 +334,10 @@ Please translate each line literally into Japanese.
 67 poco è, da un che fu di là vicino.
 </prompt>
 <result>
-64 そこで案内人は言った。「さあ、言え。他の罪人の中で、
-65 タールの下にラテン語を話す者はいるか？」すると彼は言った。「私は、
-
-67 少し前に、その近くから来た者と別れたばかりです。
+64 そこで案内人は言いました。「さあ、言え。他の罪人の中で
+65 ラテン語を話す者はいないか？
+66 この瀝青の下に？」すると彼は言いました。「私は去りました、
+67 少し前ですが、その近くから来た者から」
 </result>
 </query>
 <query>
@@ -300,12 +353,12 @@ Please translate each line literally into Japanese.
 72 sì che, stracciando, ne portò un lacerto.
 </prompt>
 <result>
-68 もし私がまだ彼と一緒に覆われていたら、
-69 爪も鉤も恐れることはなかっただろう！」
+68 ああ、私もまだ彼と一緒に覆われていたら、
+69 爪も鉤も恐れることはなかっただろうに！」
 
-70 そしてリビコッコは「私たちは十分に苦しんできた」と言った。
-71 そして鉤爪で彼の腕をつかみ、
-72 引き裂いて、一片を引きちぎった。
+70 するとリビコッコは「私たちは十分に苦しんだ」
+71 と言い、鉤爪で彼の腕をつかみ、
+72 引き裂いて、一片を切り取った。
 </result>
 </query>
 <query>
@@ -318,8 +371,9 @@ Please translate each line literally into Japanese.
 75 si volse intorno intorno con mal piglio.
 </prompt>
 <result>
-73 ドラギナッツォもまた彼の脚に爪を立てようとした。
-74 そこで彼らの隊長は、不機嫌な表情で辺りを見回した。
+73 ドラギナッツォもまた彼を捕まえようとした
+74 足元で。すると彼らの隊長は
+75 怒った様子で振り向いた。
 </result>
 </query>
 <query>
@@ -337,9 +391,9 @@ Please translate each line literally into Japanese.
 <result>
 76 彼らが少し落ち着くと、
 77 まだ自分の傷を見つめていた彼に、
-78 私の案内人はすぐに尋ねた。
+78 私の案内人はすぐに尋ねました。
 
-79 「岸にたどり着くために、ひどい別れをしたのは誰だったのか？」
+79 「お前が岸にたどり着くためにひどい別れをしたのは誰だ？」
 </result>
 </query>
 <query>
@@ -354,11 +408,11 @@ Please translate each line literally into Japanese.
 84 e fé sì lor, che ciascun se ne loda.
 </prompt>
 <result>
-81 すると彼は答えた。「それはフラテ・ゴミタでした。
+81 すると彼は答えました。「それはフラテ・ゴミタでした。
 
-82 ガッルーラ出身で、あらゆる不正行為の器であり、
-83 主君の敵を手にかけ、
-84 皆が彼を称賛するようなことをしました。
+82 ガッルーラ出身で、あらゆる不正行為の器。
+83 彼は主君の敵を手にかけ、
+84 彼らにそうしたことで、誰もが彼を褒め称えています。
 </result>
 </query>
 <query>
@@ -371,9 +425,9 @@ Please translate each line literally into Japanese.
 87 barattier fu non picciol, ma sovrano.
 </prompt>
 <result>
-85 彼は金を取り、計画通りに彼らを手放した、
-86 彼の言う通りだ。そして他の役職でも
-87 彼は小さな不正行為者ではなく、大物だった。
+85 ダナーは立ち去り、彼らを平穏なままにしておいた
+86 彼の言う通りに。そして他の役職でも
+87 彼は小さな詐欺師ではなく、大物詐欺師だった
 </result>
 </query>
 <query>
@@ -386,9 +440,8 @@ Please translate each line literally into Japanese.
 90 le lingue lor non si sentono stanche.
 </prompt>
 <result>
-88 彼はロゴドーロのドン・ミケーレ・ザンケと一緒にいる。
-89 そしてサルデーニャについて語ると、
-90 彼らの舌は疲れることを知らない。
+88 彼はサルデーニャのロゴドーロのドン・ミケーレ・ザンケと一緒にいる
+89 そしてサルデーニャ語を話しても、彼らの舌は疲れない
 </result>
 </query>
 <query>
@@ -401,8 +454,9 @@ Please translate each line literally into Japanese.
 93 non s’apparecchi a grattarmi la tigna».
 </prompt>
 <result>
-91 ああ、もう一人が歯ぎしりしているのを見てください。
-92 私も言いたいのですが、彼が私の頭のかゆみを掻く準備をしているのではないかと心配です。」
+91 ああ、もう一人、歯ぎしりしているのが見えるだろう
+92 私も言いたいが、彼が
+93 私の頭をかこうとしているのではないかと心配だ
 </result>
 </query>
 <query>
@@ -415,8 +469,9 @@ Please translate each line literally into Japanese.
 96 disse: «Fatti ’n costà, malvagio uccello!».
 </prompt>
 <result>
-94 そして大提督は、目をむいて攻撃しようとしていたファルファレッロに振り返り、
-95 「どけ、邪悪な鳥め！」と言った。
+94 そして大提督は、ファッファレッロの方を向き、
+95 彼は目をむいて威嚇していたが、
+96 「どけ、邪悪な鳥め！」と言った。
 </result>
 </query>
 <query>
@@ -437,13 +492,15 @@ Please translate each line literally into Japanese.
 105 di fare allor che fori alcun si mette».
 </prompt>
 <result>
-97 「もしあなたがトスカーナ人やロンバルディア人を見たり聞いたりしたいのであれば、」
-98 怯えた者が再び話し始めた。
-99 「私は彼らを連れてきます。しかし、マレブランケを少しの間離しておいてください。
-
-100 そうすれば、彼らはマレブランケの復讐を恐れることはないでしょう。そして私は、この同じ場所に座って、
-
-101 私が一人であるにもかかわらず、私が息を吹きかけると、7人を連れてきます。それは私たちが誰かが外に出るときにやる習慣です。」
+97 「もしあなたがたが見たり聞いたりしたいのなら」
+98 怯えた者が再び話し始めた
+99 「トスカーナ人かロンバルディア人なら、連れてくることができる
+100 だが、マレブランケたちは少しの間、引っ込んでいてくれ
+101 そうすれば、彼らは復讐を恐れることはないだろう
+102 そして、私はこの同じ場所に座って
+103 私が一人いるだけで、七人を連れてくることができる
+104 私が息を吹きかけるとき、それは私たちが
+105 誰かが外に出るときにやることだ」
 </result>
 </query>
 <query>
@@ -456,8 +513,9 @@ Please translate each line literally into Japanese.
 108 ch’elli ha pensata per gittarsi giuso!».
 </prompt>
 <result>
-106 カニャッツォはその言葉に鼻を上げ、
-107 頭を振りながら言った。「なんて悪知恵を働かせて、飛び降りようとしているんだ！」
+106 カニャッツォはその言葉に鼻を上げ
+107 頭を振りながら言った。「こいつは悪知恵だ
+108 飛び降りるために考えたんだな！」
 </result>
 </query>
 <query>
@@ -470,8 +528,9 @@ Please translate each line literally into Japanese.
 111 quand’ io procuro a’ mia maggior trestizia».
 </prompt>
 <result>
-109 そこで、たくさんのわなを持っていた彼は、
-110 「私が自分の最大の悲しみに向けて努力しているとき、私はあまりにも悪知恵を働かせています」と答えました。
+109 そこで、たくさんのわなを持っていた彼は
+110 「私が自分の最大の悲しみに向けて努力しているとき、
+111 私が悪知恵を働かせているというのはあまりにもひどい」と答えた。
 </result>
 </query>
 <query>
@@ -486,11 +545,11 @@ Please translate each line literally into Japanese.
 115 ma batterò sovra la pece l’ali.
 </prompt>
 <result>
-112 アリキンは我慢できず、他の者たちに反発して彼に言った。「もしお前が降りてきたら、
+112 アリキンは我慢できず、他の者たちを押し退けて
+113 彼に言った。「お前が降りてきたら、
+114 私はお前の後ろを駆けてはいかないぞ。
 
-113 私はお前の後ろをギャロップで追いかけない。
-
-114 しかし、タールの水面を羽ばたいていくよ。」
+115 しかし、お前の上を羽ばたいてやる」
 </result>
 </query>
 <query>
@@ -506,12 +565,12 @@ Please translate each line literally into Japanese.
 120 quel prima, ch’a ciò fare era più crudo.
 </prompt>
 <result>
-116 首を伸ばして、岸を盾にして、
-117 お前が私たちより優れているかどうかを見てみよう。」
+116 首を伸ばして、岸壁を盾にして、
+117 お前が私たちより優れているかどうかを見てみよう。
 
-118 読者よ、あなたは新しい遊びを聞くことになるだろう。
+118 読者よ、新しい遊びを聞くだろう。
 119 それぞれが反対側から目をそらし、
-120 最初にそれをしたのは、最も残酷な者だった。
+120 最初にそうすることをためらっていた者が、より残酷になった。
 </result>
 </query>
 <query>
@@ -524,7 +583,7 @@ Please translate each line literally into Japanese.
 123 saltò e dal proposto lor si sciolse.
 </prompt>
 <result>
-121 ナヴァッラ人はタイミングをうまくつかんだ。
+121 ナヴァッラ人はそのタイミングをうまくつかんだ。
 122 彼は地面に足をつけ、一瞬で
 123 飛び上がり、彼らの提案から逃れた。
 </result>
@@ -539,9 +598,9 @@ Please translate each line literally into Japanese.
 126 però si mosse e gridò: «Tu se’ giunto!».
 </prompt>
 <result>
-124 そこで、それぞれが罪悪感にさいなまれたが、
-125 欠陥の原因となった者ほどではなかった。
-126 そこで彼は動き出し、「お前は捕まった！」と叫んだ。
+124 そこでそれぞれが自分の罪を悔い改めたが、
+125 特にその欠陥の原因となった者はそうした。
+126 そこで彼は立ち上がり、叫んだ。「あなたはここに来たのだ！」
 </result>
 </query>
 <query>
@@ -558,13 +617,13 @@ Please translate each line literally into Japanese.
 132 ed ei ritorna sù crucciato e rotto.
 </prompt>
 <result>
-127 しかし、それはほとんど役に立たなかった。なぜなら、疑い深い者の翼は
-128 先に進むことができず、彼は下に降り、
-129 そして彼は飛んで胸を上に上げた。
+127 だがそれはほとんど役に立たなかった。なぜなら疑念の翼は
+128 前進することができず、彼は下に降り、
+129 そしてもう一方は飛んで彼の胸の上に立った。
 
-130 それと同じように、カモは、
-131 鷹が近づくと、すぐに水に飛び込み、
-132 そして鷹は怒りと挫折で舞い戻る。
+130 まさにカモが、
+131 鷹が近づくとすぐに下に飛び込み、
+132 そして鷹は腹を立てて打ちのめされて舞い戻るように。
 </result>
 </query>
 <query>
@@ -582,12 +641,12 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 133 怒ったカルカブリナは、
-134 後ろから飛び、争いをするために、
-135 その者が生き延びることを望んで追いかけた。
+134 後ろから飛んで彼らに付きまとった。争いをするために、
+135 あの男が生かされることを望んで。
 
-136 そして、その不正行為者が姿を消すと、
-137 彼は仲間の爪を向け、
-138 そして彼と一緒に溝の上でつかみ合った。
+136 そして詐欺師がいなくなると、
+137 彼は仲間の方に爪を向け、
+138 そして彼と一緒に堀の上に飛びかかった。
 </result>
 </query>
 <query>
@@ -600,8 +659,9 @@ Please translate each line literally into Japanese.
 141 cadder nel mezzo del bogliente stagno.
 </prompt>
 <result>
-139 しかし、もう一方は、彼をうまくつかむのに十分な鋭いタカであり、
-140 そして両者は煮えたぎる池の真ん中に落ちた。
+139 だがもう一方は、
+140 彼をうまく捕まえるのに十分な鋭いタカだった。そして二人は
+141 煮えたぎる沼の真ん中に落ちた。
 </result>
 </query>
 <query>
@@ -614,9 +674,9 @@ Please translate each line literally into Japanese.
 144 sì avieno inviscate l’ali sue.
 </prompt>
 <result>
-142 熱い解放者はすぐに現れた。
-143 しかし、それでも立ち上がることはできなかった。
-144 彼の翼はそれほど粘着質だった。
+142 熱い番人はすぐに彼らを捕まえた。
+143 しかし、そこから離れることはできなかった。
+144 彼の翼は粘着質で覆われていたからだ。
 </result>
 </query>
 <query>
@@ -633,13 +693,12 @@ Please translate each line literally into Japanese.
 150 ch’eran già cotti dentro da la crosta.
 </prompt>
 <result>
-145 バルバリッチャは、他の仲間たちと一緒に悲しみ、
-146 4人をすべての爪で反対側から飛ばし、
-147 そして非常に迅速に
+145 バルバリッチャは、他の仲間たちと一緒に悲しみながら、
+146 向こう岸から4匹を飛ばし、
+147 すべての鉤爪を使って、そして非常に素早く
 
-148 あちらこちらからその場所に降り立った。
-149 彼らは、すでに皮の中で煮られていた、
-150 粘着質にされた者たちに向かって鉤爪を差し出した。
+148 あちらこちらから、捕らえられた者たちのところに降り立った。
+149 彼らは、すでに皮が焼けた状態だった捕らえられた者たちに向かって鉤爪を突き出した。
 </result>
 </query>
 <query>

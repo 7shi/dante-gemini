@@ -11,7 +11,8 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 1 その罪人は、その恐ろしい食事から口を上げ
-2 自分の後ろで傷ついた頭の髪でそれを拭った
+2 髪の毛で拭きながら
+3 後ろで傷ついていた頭
 </result>
 </query>
 <query>
@@ -24,7 +25,9 @@ Please translate each line literally into Japanese.
 6 già pur pensando, pria ch’io ne favelli.
 </prompt>
 <result>
-4 それから彼は話し始めた。「あなたは、私が絶望的な苦しみを新たに語ってほしいと望んでいるのか。そのことについて話す前に、それを考えるだけで、私の心は押しつぶされそうだ。
+4 それから彼は話し始めた：「あなたは私が再び語ってほしいと望むのか
+5 絶望的な苦しみを、それは私の心を締め付ける
+6 それについて話す前であっても、ただ考えるだけでも」
 </result>
 </query>
 <query>
@@ -36,35 +39,10 @@ Please translate each line literally into Japanese.
 8 che frutti infamia al traditor ch’i’ rodo,
 9 parlar e lagrimar vedrai insieme.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "7 しかし、私の言葉が、私が噛み砕いている裏切り者に不名誉をもたらす実を結ぶ種となるのであれば、\n8 あなたは、私が話し、同時に涙を流すのを見るだろう。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-7 しかし、私の言葉が、私が噛み砕いている裏切り者に不名誉をもたらす実を結ぶ種となるのであれば、
-8 あなたは、私が話し、同時に涙を流すのを見るだろう。
+7 しかし、私の言葉が種となって
+8 私が噛み砕いている裏切り者に不名誉をもたらす果実を結ぶのであれば
+9 あなたは私が同時に話し、涙を流すのを見るだろう
 </result>
 </query>
 <query>
@@ -77,8 +55,9 @@ Please translate each line literally into Japanese.
 12 mi sembri veramente quand’ io t’odo.
 </prompt>
 <result>
-10 あなたが誰なのか、またどのようにして
-11 ここへ来たのかはわかりません。しかし、あなたの話を聞くと、あなたは本当にフィレンツェ人のようです。
+10 あなたが誰なのか、またどのような方法で
+11 ここへ来たのかは知らないが、あなたの話を聞くと
+12 あなたは本当にフィレンツェ人であるように思える
 </result>
 </query>
 <query>
@@ -91,9 +70,9 @@ Please translate each line literally into Japanese.
 15 or ti dirò perché i son tal vicino.
 </prompt>
 <result>
-13 私はウーゴリーノ伯爵だったことを知っておくべきだ。
-14 そして、これはルッジェーリ大司教だ。
-15 今から、なぜ私がこんなにも近くに彼がいるのかを話そう。
+13 私はウゴリーノ伯爵だったことをあなたは知るべきだ
+14 そしてこれはルッジェーリ大司教だ
+15 今から私がなぜこんなにも彼に近いのかを話そう
 </result>
 </query>
 <query>
@@ -110,13 +89,13 @@ Please translate each line literally into Japanese.
 21 udirai, e saprai s’e’ m’ha offeso.
 </prompt>
 <result>
-16 彼の考えの結果として、
-17 私は彼を信頼し、捕らえられ、
-18 その後殺された。言うまでもないことだ。
+16 彼の邪悪な考えの結果として、
+17 私は彼を信頼して捕らえられ
+18 その後殺されたことは言うまでもない
 
 19 しかし、あなたがまだ聞いていないこと、
 20 つまり私の死がいかに残酷であったか、
-21 それを聞いて、彼が私を傷つけたかどうかを知ることになるだろう。
+21 それを聞いて、彼が私を傷つけたかどうかを知ることになるだろう
 </result>
 </query>
 <query>
@@ -133,12 +112,12 @@ Please translate each line literally into Japanese.
 27 che del futuro mi squarciò ’l velame.
 </prompt>
 <result>
-22 ムーダの小さな穴は、
-23 それは私にとっては飢餓の称号を持ち、
-24 そして他の人も閉じ込められるべきである。
+22 ムーダの小さな穴から、
+23 それは私にとって飢餓の称号を持ち、
+24 そして他の人も閉じ込められることになるだろう、
 
-25 その穴を通して、私はすでに多くの月を見ていた。私が悪夢を見たとき、
-27 それは未来のベールを引き裂いた。
+25 その穴から私はもう何ヶ月も見ていた、私が悪夢を見たとき
+27 それは未来のヴェールを引き裂いた
 </result>
 </query>
 <query>
@@ -151,9 +130,9 @@ Please translate each line literally into Japanese.
 30 per che i Pisan veder Lucca non ponno.
 </prompt>
 <result>
-28 彼は私にとって師であり、主人であるように思われた。
-29 山でオオカミとその子を追いかけ、
-30 ピサ人がルッカを見ることができないようにするためだ。
+28 彼は私にとって師であり、主人であるように思えた、
+29 狼とその子たちを山で追い払うとき
+30 ピサの人々がルッカを見ることができないように
 </result>
 </query>
 <query>
@@ -166,8 +145,9 @@ Please translate each line literally into Japanese.
 33 s’avea messi dinanzi da la fronte.
 </prompt>
 <result>
-31 ガリャンディは、やせ細り、熱心で、気品のある猟犬を連れて、
-32 シスモンディとランフランキと一緒に、正面に配置していた。
+31 やせ細った犬たちを引き連れて、熱心に、注意深く
+32 グアランディはシズモンディとランフランキと一緒に
+33 彼らの前に配置していた
 </result>
 </query>
 <query>
@@ -180,7 +160,8 @@ Please translate each line literally into Japanese.
 36 mi parea lor veder fender li fianchi.
 </prompt>
 <result>
-34 短い追跡で、私は父親と息子たちが疲れ果てているように見えた。そして、鋭い牙で、私は彼らが自分の脇腹を切り裂くのを見ているように思えた。
+34 短い追跡で、私は父親と息子たちが疲れているように見えた
+35 そして鋭い牙で、私は彼らが脇腹を切り裂くのを見ているようだった
 </result>
 </query>
 <query>
@@ -193,8 +174,9 @@ Please translate each line literally into Japanese.
 39 ch’eran con meco, e dimandar del pane.
 </prompt>
 <result>
-37 夜明け前に目覚めたとき、
-38 私は自分の息子たちが私のそばで泣いているのを聞いた。彼らは私と一緒にいて、パンを求めていた。
+37 翌朝目覚めたとき、
+38 眠りの中で我が子たちが泣いているのが聞こえた
+39 息子たちは私と一緒にいて、パンをねだっていた
 </result>
 </query>
 <query>
@@ -215,14 +197,15 @@ Please translate each line literally into Japanese.
 48 nel viso a’ mie’ figliuoi sanza far motto.
 </prompt>
 <result>
-40 もしあなたが、私の心が予感していたことを考えて、まだ悲しんでいないのであれば、あなたは残酷です。
-41 もしあなたが泣かないのであれば、あなたは普段何のために泣くのですか？
+40 もしあなたが、私の心が予感していたことを考えれば、残酷ではないはずだ
+41 そしてもしあなたが泣かないのなら、あなたは普段何のために泣くのか？
 
-42 彼らはすでに起きていて、食事が運ばれてくる時間が近づいていました。
-43 そして、それぞれの夢のために、誰もが疑っていました。
+42 彼らはもう起きていて、時刻は近づいていた
+43 私たちに食べ物が届けられるはずの時間だ
+44 そして、それぞれの夢のために、誰もが疑っていた
 
-44 そして私は、恐ろしい塔の下のドアが鍵をかけられるのを聞いた。そこで私は、
-45 一言も発せずに、自分の子供たちの顔を見ました。
+45 そして私は、恐ろしい塔の下の戸を打ち付ける音が聞こえた
+46 そこで私は、何も言わずに我が子たちの顔を見た
 </result>
 </query>
 <query>
@@ -235,9 +218,9 @@ Please translate each line literally into Japanese.
 51 disse: “Tu guardi sì, padre! che hai?”.
 </prompt>
 <result>
-49 私は泣きませんでした。私はそれほどまでに心を固くしていました。
-50 彼らは泣いていました。そして私の小さなアンセルムは言いました。
-51 「父さん、そんなにじっと見ているのはなぜですか？どうしたの？」
+49 私は泣かなかった、それほどまでに固く決意していた
+50 彼らは泣いていた。そして私のアンセルムッチョが言った
+51 「父さん、そんなにじっと見ているのはなぜですか？どうしたんですか？」
 </result>
 </query>
 <query>
@@ -250,8 +233,8 @@ Please translate each line literally into Japanese.
 54 infin che l’altro sol nel mondo uscìo.
 </prompt>
 <result>
-52 だから私はその日も次の夜も泣きもせず、答えもしませんでした。
-53 もう一つの太陽が世界に昇るまで。
+52 だから私はその日も、その次の夜も泣かず、答えもしなかった
+53 太陽が再び世界に昇るまで
 </result>
 </query>
 <query>
@@ -273,13 +256,15 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 55 わずかな光が
-56 苦痛の監獄に入り、私は
+56 苦痛に満ちた牢獄に入り、私が
 57 4つの顔に自分の姿を見たとき、
 
-58 私は悲しみで両手を噛みました。
-59 そして彼らは、私がそれを食べることを望んでそうしていると信じて、すぐに立ち上がり、
+58 私は悲しみのあまり両手を噛んだ。
+59 息子たちは、私が食べたいがためにそうしていると勘違いして、
+60 急いで立ち上がり、
 
-60 「父さん、あなたが私たちを食べるなら、私たちはそれほど悲しくありません。あなたは私たちにこのみじめな肉を着せ、そしてあなたはそれを脱がせます」と言いました。
+61 「父さん、あなたが私たちを食べれば、ずっと苦痛は少ないでしょう。あなたは私たちに
+62 このみじめな肉体を与え、そしてそれを奪うのです」と言った。
 </result>
 </query>
 <query>
@@ -296,13 +281,13 @@ Please translate each line literally into Japanese.
 69 dicendo: “Padre mio, ché non m’aiuti?”.
 </prompt>
 <result>
-64 私は彼らをさらに悲しませないように、そのとき静かになりました。
-65 その日と次の日は、私たちは皆無言でした。
-66 ああ、固い大地よ、なぜあなたは開かなかったのか？
+64 私は彼らをさらに悲しませないために、黙った。
+65 その日と次の日は、私たちは皆、何も言わずに過ごした。
+66 ああ、固い大地よ、なぜお前は裂けなかったのか？
 
 67 4日目が来たとき、
-68 ガッドが私の足元に倒れ込み、
-69 「父さん、なぜ助けてくれないの？」と言いました。
+68 ガッゾが私の足元に倒れ込み、
+69 「父さん、なぜ助けてくれないんですか？」と言った。
 </result>
 </query>
 <query>
@@ -318,11 +303,11 @@ Please translate each line literally into Japanese.
 74 e due dì li chiamai, poi che fur morti.
 </prompt>
 <result>
-70 そこで彼は死にました。そしてあなたが私を見るように、
-71 私は5日目と6日目の間に、3人が次々と倒れるのを見ました。そこで私は、
+70 そこで彼は死んだ。そしてあなたが私を見るように、
+71 私は5日目と6日目の間に、3人が次々と倒れていくのを見た。そこで私は、
 
-73 すでに盲目になって、一人ひとりの上を這い回り、
-74 彼らが死んでから2日間、私は彼らを呼びました。
+72 すでに盲目になっていたが、一人ひとりの上に這いずり回って、
+73 2日間、彼らが死んでからも呼び続けた。
 </result>
 </query>
 <query>
@@ -337,10 +322,11 @@ Please translate each line literally into Japanese.
 78 che furo a l’osso, come d’un can, forti.
 </prompt>
 <result>
-75 その後、苦しみよりも、空腹が勝りました」。
+75 その後、悲しみよりも空腹が勝った」
 
-76 彼はそう言うと、ねじれた目で、
-77 犬のように骨に食い込んだ哀れな頭蓋骨を歯で再びつかみました。
+76 彼はそう言うと、ねじれた目で
+77 哀れな頭蓋骨を歯で再び噛みつき、
+78 犬のように骨まで噛み砕いた。
 </result>
 </query>
 <query>
@@ -364,14 +350,14 @@ Please translate each line literally into Japanese.
 index: 0
 content {
   parts {
-    text: "79 ああ、ピサよ、美しい国で「はい」が聞こえる場所の民の恥辱よ、\n80 あなたの隣人があなたを罰することをためらっているなら、\n\n82 カプラーヤとゴルゴーナを動かし、\n83 アルノ川の河口に垣根を作り、\n84 すべての人があなたの中で溺れ死ぬように！\n\n85 ウゴリーノ伯爵があなたの城を裏切ったという噂があったとしても、\n86 あなたは彼の息子たちをそのような十字架にかけるべきではなかった。"
+    text: "79 ああ、ピサよ、イタリア語が話される美しい国の民の恥辱よ、\n80 お前の隣人がお前を罰するのをためらっているのなら、\n\n82 カプラーヤ島とゴルゴーナ島が動き出し、\n83 アルノ川の河口に堤防を作って、\n84 お前の中にいるすべての人間を溺れさせろ！\n\n85 もしウゴリーノ伯爵がお前の城を裏切ったという噂があったとしても、\n86 お前は彼の息子たちをこんな苦しみの中に置くべきではなかった。"
   }
   role: "model"
 }
 finish_reason: SAFETY
 safety_ratings {
   category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
+  probability: LOW
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
@@ -387,15 +373,15 @@ safety_ratings {
 }
 </error>
 <result>
-79 ああ、ピサよ、美しい国で「はい」が聞こえる場所の民の恥辱よ、
-80 あなたの隣人があなたを罰することをためらっているなら、
+79 ああ、ピサよ、イタリア語が話される美しい国の民の恥辱よ、
+80 お前の隣人がお前を罰するのをためらっているのなら、
 
-82 カプラーヤとゴルゴーナを動かし、
-83 アルノ川の河口に垣根を作り、
-84 すべての人があなたの中で溺れ死ぬように！
+82 カプラーヤ島とゴルゴーナ島が動き出し、
+83 アルノ川の河口に堤防を作って、
+84 お前の中にいるすべての人間を溺れさせろ！
 
-85 ウゴリーノ伯爵があなたの城を裏切ったという噂があったとしても、
-86 あなたは彼の息子たちをそのような十字架にかけるべきではなかった。
+85 もしウゴリーノ伯爵がお前の城を裏切ったという噂があったとしても、
+86 お前は彼の息子たちをこんな苦しみの中に置くべきではなかった。
 </result>
 </query>
 <query>
@@ -408,9 +394,9 @@ Please translate each line literally into Japanese.
 90 e li altri due che ’l canto suso appella.
 </prompt>
 <result>
-88 若さは彼らを無実なものにし、
-89 新しいテーベ、ウグッチオーネとブリガタ、
-90 そして歌の中で上に呼ばれている他の2人。
+88 幼い年齢は彼らを無垢なものにしていた
+89 新しいテーバイ、ウグッチョーネとブリガータ
+90 そして、歌の中で上に挙げられた他の2人
 </result>
 </query>
 <query>
@@ -423,9 +409,9 @@ Please translate each line literally into Japanese.
 93 non volta in giù, ma tutta riversata.
 </prompt>
 <result>
-91 私たちはさらに進んで、凍てつく氷が
-92 別の人々を荒々しく包み込み、
-93 下を向いているのではなく、すべてが倒れている場所へ。
+91 我々はさらに進み、凍てつく氷が
+92 荒々しく別の人々を覆い、
+93 下を向いているのではなく、全員がひっくり返っている。
 </result>
 </query>
 <query>
@@ -442,13 +428,13 @@ Please translate each line literally into Japanese.
 99 rïempion sotto ’l ciglio tutto il coppo.
 </prompt>
 <result>
-94 そこで泣くこと自体が泣くことを許さず、
-95 そして目の中で障害を見つける悲しみは、
-96 内側に向きを変えて苦しみを大きくします。
+94 そこで泣くことさえ泣かせてくれず、
+95 目に障害物を見つけた悲しみは、
+96 内側に転じて苦しみを増大させる。
 
-97 最初の涙が固まり、
-98 そしてクリスタルのバイザーのように、
-99 まぶたのしたのカップ全体を満たします。
+97 最初の涙が固まってしまい、
+98 まるでクリスタルのバイザーのように、
+99 まぶたの縁の下の空間をすべて満たす。
 </result>
 </query>
 <query>
@@ -465,13 +451,12 @@ Please translate each line literally into Japanese.
 105 non è qua giù ogne vapore spento?».
 </prompt>
 <result>
-100 そして、たこのできもののように、
-101 寒さのために私の顔の場所のすべての感覚が
-102 失われていたとしても、
+100 そして、まるでたこができるように、
+101 寒さのために私の顔の感覚はすべて失われてしまったが、
 
-103 私はすでに少し風が吹いているように感じていました。
-104 そこで私は尋ねました。「私の先生、これは誰が動かしているのですか？
-105 ここにはすべての蒸気が消えていないのですか？」。
+102 すでに少し風が吹いているように思われた。
+103 そこで私は「先生、これは誰が動かしているのですか？
+104 ここにはすべての蒸気が消えてしまったのではないのですか？」と言った。
 </result>
 </query>
 <query>
@@ -484,9 +469,9 @@ Please translate each line literally into Japanese.
 108 veggendo la cagion che ’l fiato piove».
 </prompt>
 <result>
-106 そこで彼は私に言いました。「あなたはすぐに、
-107 そこであなたの目はあなたに答えを与え、
-108 息を降らせる原因を見ます。」
+106 すると彼は私に言った。「すぐに、
+107 そこであなたの目はその答えを教えてくれるでしょう。
+108 風が吹く原因を見れば。」
 </result>
 </query>
 <query>
@@ -503,12 +488,13 @@ Please translate each line literally into Japanese.
 114 un poco, pria che ’l pianto si raggeli».
 </prompt>
 <result>
-109 そして、冷たい地殻の悲惨な者の1人が
-110 私たちに叫びました。「ああ、残酷な魂よ、
-111 あなた方に最後の場所が与えられたほどに、
+109 そして、凍てつく氷の皮にいる罪人の一人が
+110 私達に叫んだ。「ああ、残酷な魂たちよ、
+111 最後の日が与えられたほどに、
 
-112 私の顔から固いベールを取り除いてください。
-113 涙が凍る前に、私の心を満たす悲しみを少し吐き出させてください。」
+112 私の顔からこの固いヴェールを取り除いてくれ。
+113 そうすれば、私の心を満たす悲しみを少しの間吐き出せるだろう。
+114 涙が凍りつく前に。」
 </result>
 </query>
 <query>
@@ -521,9 +507,9 @@ Please translate each line literally into Japanese.
 117 al fondo de la ghiaccia ir mi convegna».
 </prompt>
 <result>
-115 そこで私は彼に言いました。「私があなたを思い出してほしいのであれば、
-116 あなたが誰なのかを教えてください。そして、私があなたを解放しなければ、
-117 氷の底に行かなければなりません。」
+115 そこで私は彼に言った。「私があなたを助けたいと思うなら、
+116 あなたが誰なのか教えてください。そして、もし私があなたを助けなければ、
+117 氷の底まで行かなければならないでしょう。」
 </result>
 </query>
 <query>
@@ -536,9 +522,9 @@ Please translate each line literally into Japanese.
 120 che qui riprendo dattero per figo».
 </prompt>
 <result>
-118 そこで彼は答えました。「私は修道士アルベリゴです。
-119 私は悪い果樹園の果物の男です。
-120 ここで私はイチジクのためにナツメヤシを受け取っています。」
+118 すると彼は答えた。「私は修道士アルベリゴだ。
+119 私は悪い果樹園の果実を食べた者であり、
+120 ここでイチジクの代わりにナツメヤシを食べている。」
 </result>
 </query>
 <query>
@@ -551,8 +537,8 @@ Please translate each line literally into Japanese.
 123 nel mondo sù, nulla scïenza porto.
 </prompt>
 <result>
-121 「ああ」と私は彼に言いました。「あなたはまだ死んでいるのですか？」
-122 そして彼は私に言いました。「私の体が地上でどうなっているのか、私は何も知りません。
+121 「ああ」と私は彼に言った。「あなたはもう死んでいるのですか？」
+122 すると彼は私に言った。「私の体が地上でどうなっているのか、私は何も知りません。
 </result>
 </query>
 <query>
@@ -566,8 +552,8 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 124 このトロメアにはそのような利点があり、
-125 魂がしばしばそこに落ちます
-126 アトロポスがそれを動かす前に。
+125 魂がしばしばここに落ちることがある
+126 アトロポスが糸を断ち切る前に。
 </result>
 </query>
 <query>
@@ -584,12 +570,11 @@ Please translate each line literally into Japanese.
 132 mentre che ’l tempo suo tutto sia vòlto.
 </prompt>
 <result>
-127 そして、あなたがより喜んで私の凍った涙を私の顔から剃り落とすために、
-128 私がそうしたように魂が裏切ったとき、その体は
-129 悪魔によって奪われ、その後、その悪魔がその体を支配します。
-130 その時間がすべて終わるまで。
-
-131 その時間がすべて終わるまで。
+127 そして、あなたがより進んで私の凍てついた涙を顔から拭き取ってくれるように、
+128 知っておいてほしいのは、魂が
+129 私がしたように裏切ったとき、その体は
+130 悪魔に奪われ、その後、その悪魔がその体を支配する
+131 その魂の時間がすべて尽きるまで。
 </result>
 </query>
 <query>
@@ -605,7 +590,7 @@ Please translate each line literally into Japanese.
 index: 0
 content {
   parts {
-    text: "133 彼女はそのような貯水槽に落ちます。\n134 そしておそらく私の後ろから私を冬眠させる影の体はまだ上に現れているように見えます。"
+    text: "133 彼女はそんな穴に落ちた。\n134 そしておそらく彼女の体はまだ上にあるだろう\n135 私の後ろから私を震え上がらせる影の中に。"
   }
   role: "model"
 }
@@ -620,7 +605,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
+  probability: LOW
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -628,8 +613,9 @@ safety_ratings {
 }
 </error>
 <result>
-133 彼女はそのような貯水槽に落ちます。
-134 そしておそらく私の後ろから私を冬眠させる影の体はまだ上に現れているように見えます。
+133 彼女はそんな穴に落ちた。
+134 そしておそらく彼女の体はまだ上にあるだろう
+135 私の後ろから私を震え上がらせる影の中に。
 </result>
 </query>
 <query>
@@ -642,8 +628,9 @@ Please translate each line literally into Japanese.
 138 poscia passati ch’el fu sì racchiuso».
 </prompt>
 <result>
-136 あなたはそれを知るべきです。あなたが今降りてきたのであれば。
-137 彼はブランカ・ドリア卿であり、彼が閉じ込められてから何年も経っています。」
+136 あなたはそれを知るべきだ、もしあなたが今まさに下から来たのなら：
+137 彼はブランカ・ドーリア卿であり、それ以来何年も経ちました
+138 彼がこのように閉じ込められたのは
 </result>
 </query>
 <query>
@@ -656,14 +643,14 @@ Please translate each line literally into Japanese.
 141 e mangia e bee e dorme e veste panni».
 </prompt>
 <result>
-139 私は言いました。「あなたは私を騙していると思います。
-140 ブランカ・ドリアは決して死なず、
-141 食べ、飲み、眠り、服を着ています。」
+139 私は彼に言った、「あなたは私を騙していると思います。
+140 ブランカ・ドーリアは決して死なず、
+141 食べ、飲み、眠り、服を着ています」。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 33] 142/157</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Japanese.
 
 142 «Nel fosso sù», diss’ el, «de’ Malebranche,
@@ -674,32 +661,13 @@ Please translate each line literally into Japanese.
 146 nel corpo suo, ed un suo prossimano
 147 che ’l tradimento insieme con lui fece.
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-142「マレブランケの堀に」と彼は言った、「粘り気のあるピッチが煮えたぎる場所で、
-143 ミケーレ・ザンケはまだ到着していなかった、
+142 彼は言った、「上にある悪しき爪の堀の中で、
+143 粘り強いピッチが沸騰している場所で、
+144 ミケーレ・ザンケはまだ到着していなかった、
 
-144 悪魔が彼の代わりにこの男を残し、
-145 そして彼の仲間が彼と一緒に裏切りを行った。」
+145 この者が悪魔を自分の代わりに残し、
+146 そして彼と一緒に裏切りを行った彼の隣人を残した」。
 </result>
 </query>
 <query>
@@ -712,9 +680,9 @@ Please translate each line literally into Japanese.
 150 e cortesia fu lui esser villano.
 </prompt>
 <result>
-148 しかし今すぐこちらに手を伸ばしなさい。
-149 目を開けなさい。」私は目を開けなかった。
-150 そして彼が失礼だったのは礼儀正しさだった。
+148 しかし今すぐここに手を伸ばしてください。
+149 私の目を開けてください」。そして私は彼のためにそれを開けませんでした。
+150 そして彼が無作法であることは彼にとって礼儀正しさでした。
 </result>
 </query>
 <query>
@@ -733,14 +701,14 @@ Please translate each line literally into Japanese.
 157 e in corpo par vivo ancor di sopra.
 </prompt>
 <result>
-151 ああ、ジェノヴァ人よ、あらゆる習慣が異なり、あらゆる悪に満ちた人々よ、
-152 なぜお前たちは世界に散らばっていないのか？
+151 ああ、ジェノヴァ人よ、さまざまな習慣を持ち、あらゆる悪に満ちた人々よ、
+152 なぜあなたは世界に散らばっていないのですか？
 
-153 ロマーニャで最悪の精神を持った
-154 お前たちの一人を見つけたが、彼の行いによって
-155 彼の魂はすでにコキュートスで水浴びをし、
+153 ロマーニャで最悪の精神を持った者と一緒に
+154 あなた方の一人を見つけました。その者の行いによって
+155 魂はすでにコキュートスで水浴びをし、
 
-156 そして彼の肉体は地上でまだ生きているように見える。
+156 肉体は地上でまだ生きているように見えます。
 </result>
 </query>
 </queries>

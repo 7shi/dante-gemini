@@ -14,13 +14,13 @@ Please translate each line literally into Japanese.
 6 e ch’io mi volga, e come che io guati.
 </prompt>
 <result>
-1 2人の義兄弟の慈悲の前に
-2 心が閉じ、我に返ったとき
-3 悲しみに我はすっかり混乱した
+1 2人の義理の兄弟の慈悲の前に
+2 心が閉ざされ、意識が戻ったとき
+3 悲しみにすっかり打ちのめされていた
 
 4 新たな苦しみと新たな苦しむ者たちが
-5 私がどう動こうと、どう向きを変えようと
-6 どう眺めようと、私の周りに見える
+5 私がどこを動こうと、どこを向こうと、どこを見ようとも
+6 周囲に現れる
 </result>
 </query>
 <query>
@@ -34,7 +34,7 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 7 私は第3の圏にいる、永遠の
-8 呪われた、冷たくて重い雨の中に
+8 呪われた、冷たくて重い雨の中で
 9 規則や性質は決して変わらない
 </result>
 </query>
@@ -63,9 +63,9 @@ Please translate each line literally into Japanese.
 15 sovra la gente che quivi è sommersa.
 </prompt>
 <result>
-13 ケルベロス、残酷で異形の獣は
+13 ケルベロス、残忍で恐ろしい怪物は
 14 3つの犬の頭で吠え立てる
-15 ここに沈められた人々の群れに向かって
+15 そこに沈んでいる人々に向かって
 </result>
 </query>
 <query>
@@ -77,36 +77,10 @@ Please translate each line literally into Japanese.
 17 e ’l ventre largo, e unghiate le mani;
 18 graffia li spirti ed iscoia ed isquatra.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "16 目は真っ赤で、髭は脂ぎっていて黒い\n17 腹は大きく、手には爪がある\n18 霊魂を引っ掻き、剥ぎ取り、引き裂く"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-16 目は真っ赤で、髭は脂ぎっていて黒い
-17 腹は大きく、手には爪がある
-18 霊魂を引っ掻き、剥ぎ取り、引き裂く
+16 目は真っ赤で、髭は脂ぎって黒く
+17 腹は大きく、爪は鋭い
+18 霊魂を引っ掻き、引き裂き、切り裂く
 </result>
 </query>
 <query>
@@ -120,7 +94,7 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 19 雨は彼らを犬のように吠えさせる
-20 彼らは片側からもう一方側に身を隠し
+20 一方の側からもう一方の側に身を隠す
 21 哀れな罪人は頻繁にひっくり返る
 </result>
 </query>
@@ -152,7 +126,7 @@ Please translate each line literally into Japanese.
 index: 0
 content {
   parts {
-    text: "25 そして私の案内役は両手を広げ\n26 地面をつかみ、両手いっぱいにすくって\n27 それを貪欲な喉の奥に投げ入れた"
+    text: "25 そして私の案内人は両手を広げ\n26 地面をつかみ、両手いっぱいにすくって\n27 貪欲な喉の奥に投げ入れた"
   }
   role: "model"
 }
@@ -175,9 +149,9 @@ safety_ratings {
 }
 </error>
 <result>
-25 そして私の案内役は両手を広げ
+25 そして私の案内人は両手を広げ
 26 地面をつかみ、両手いっぱいにすくって
-27 それを貪欲な喉の奥に投げ入れた
+27 貪欲な喉の奥に投げ入れた
 </result>
 </query>
 <query>
@@ -196,10 +170,11 @@ Please translate each line literally into Japanese.
 <result>
 28 吠えながら獲物を欲しがる犬が
 29 獲物を噛むと静かになり
-30 ただそれをむさぼり食うことに専念して戦うように
+30 ただそれを貪り食うことに専念して戦うように
 
-31 悪魔ケルベロスの汚れた顔もそうだった
-32 魂を吠え立てて、魂は耳が聞こえなくなればいいと願うほどだ
+31 悪魔ケルベロスの汚い顔もそうだった
+32 魂を貪り食らい
+33 魂は耳が聞こえなくなればいいと願うほどだ
 </result>
 </query>
 <query>
@@ -212,8 +187,8 @@ Please translate each line literally into Japanese.
 36 sovra lor vanità che par persona.
 </prompt>
 <result>
-34 私たちは重い雨が打ちつける影の上を通り過ぎ
-35 足をその虚ろさに載せたが、それは人のように見えた
+34 私たちはひどい雨に打たれて横たわる影の上を歩き
+35 人間の姿をしているが中身のない影の上に足を踏み入れた
 </result>
 </query>
 <query>
@@ -226,8 +201,9 @@ Please translate each line literally into Japanese.
 39 ch’ella ci vide passarsi davante.
 </prompt>
 <result>
-37 彼女たちはみな地面に横たわっていたが
-38 1人だけが立ち上がって座った、私たちが目の前を通り過ぎるのを素早く見たので
+37 彼女たちはみな地面に横たわっていた
+38 ただ一人、立ち上がって座った者がいた
+39 私たちが目の前を通り過ぎるのを彼女が見たからである
 </result>
 </query>
 <query>
@@ -242,7 +218,7 @@ Please translate each line literally into Japanese.
 <result>
 40 「ああ、この地獄に引きずり込まれたあなた」
 41 彼女は私に言った、「私を思い出してください、もしあなたが知っているなら：
-42 あなたは、私が滅びる前に、作られたのです」
+42 私が滅びる前は、あなたは作られました」
 </result>
 </query>
 <query>
@@ -256,8 +232,8 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 43 そして私は彼に言った：「あなたの苦しみは
-44 おそらくあなたを私の心から引き離しているのでしょう、
-45 なので私はあなたに会ったことがないように思えます。
+44 おそらく私の心からあなたを引き離し、
+45 まるで私があなたを一度も見たことがないかのように思わせる」
 </result>
 </query>
 <query>
@@ -269,10 +245,36 @@ Please translate each line literally into Japanese.
 47 loco se’ messo, e hai sì fatta pena,
 48 che, s’altra è maggio, nulla è sì spiacente».
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "46 しかし、あなたは誰なのか教えてください。あなたはとても悲惨な\n47 場所に置かれ、とても苦しんでいます。\n48 もし他に大きな苦しみがあるとしても、それはそれほど悲惨ではありません」"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-46 しかし、あなたは誰なのか教えてください、あなたはとても悲惨な
-47 場所に置かれ、とてもひどい苦しみを受けています、
-48 もし他に大きな苦しみがあるとしても、それはそれほど不快ではありません」。
+46 しかし、あなたは誰なのか教えてください。あなたはとても悲惨な
+47 場所に置かれ、とても苦しんでいます。
+48 もし他に大きな苦しみがあるとしても、それはそれほど悲惨ではありません」
 </result>
 </query>
 <query>
@@ -285,8 +287,9 @@ Please translate each line literally into Japanese.
 51 seco mi tenne in la vita serena.
 </prompt>
 <result>
-49 そして彼は私に言った：「あなたの街は、とても嫉妬深く、袋がすでに溢れています、
-50 私を穏やかな人生に閉じ込めておきました。
+49 そして彼は私に言った：「あなたの街は、
+50 嫉妬でいっぱいになり、袋がすでに溢れかえっているが、
+51 平穏な人生の中で私をその中に閉じ込めておいた」
 </result>
 </query>
 <query>
@@ -299,9 +302,9 @@ Please translate each line literally into Japanese.
 54 come tu vedi, a la pioggia mi fiacco.
 </prompt>
 <result>
-52 市民の皆さんは私をチャッコと呼びました：
-53 喉の渇きの有害な罪のために、
-54 あなたが見ているように、私は雨に打ちのめされています。
+52 市民の皆さんは私をチャッコと呼んでいました：
+53 貪欲という有害な罪のために、
+54 あなたが見ているように、私は雨に打たれています。
 </result>
 </query>
 <query>
@@ -314,8 +317,8 @@ Please translate each line literally into Japanese.
 57 per simil colpa». E più non fé parola.
 </prompt>
 <result>
-55 そして私は悲惨な魂だけではありません、
-56 これらすべてが同様の罪のために同様の苦しみを受けています」。そしてそれ以上は何も言いませんでした。
+55 そして私は悲しみに暮れる魂ではなく、一人ではなく、
+56 これらすべてが同じ罪のために同じ苦しみを受けているのです」。そしてそれ以上は何も言わなかった。
 </result>
 </query>
 <query>
@@ -332,13 +335,10 @@ Please translate each line literally into Japanese.
 63 per che l’ha tanta discordia assalita».
 </prompt>
 <result>
-58 私は彼に答えました：「チャッコ、あなたの苦しみは
-59 私が泣きたくなるほど私を苦しめます。
-60 しかし、もしあなたが知っているなら、教えてください、何が起こるのか
-
-61 分裂した街の市民に。
-62 正義の人はいるのか。そして教えてください、なぜ
-63 それほど多くの不和がそれを襲ったのか」。
+58 私は彼に答えた：「チャッコ、あなたの苦しみは
+59 私の心に重くのしかかり、涙を誘う。
+60 しかし、もしあなたが知っているなら、教えてください。分裂した街の市民はどうなるのか。
+61 正しい人はいるのか。そして、なぜそのような不和が襲ったのかを教えてください。」
 </result>
 </query>
 <query>
@@ -354,7 +354,7 @@ Please translate each line literally into Japanese.
 index: 0
 content {
   parts {
-    text: "64 そして彼は私に言った：「長い争いの後、\n65 彼らは血を流し、野蛮な党派は\n66 多くの攻撃で他方を追い出すでしょう。"
+    text: "64 そして彼は私に言った：「長い争いの後、\n65 血が流れ、野蛮な党派が\n66 もう一方の党派を多くの攻撃で追い出すだろう。"
   }
   role: "model"
 }
@@ -369,7 +369,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
+  probability: HIGH
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -378,8 +378,8 @@ safety_ratings {
 </error>
 <result>
 64 そして彼は私に言った：「長い争いの後、
-65 彼らは血を流し、野蛮な党派は
-66 多くの攻撃で他方を追い出すでしょう。
+65 血が流れ、野蛮な党派が
+66 もう一方の党派を多くの攻撃で追い出すだろう。
 </result>
 </query>
 <query>
@@ -393,8 +393,8 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 67 その後、この派閥は
-68 3つの太陽の間に倒れ、もう一方の派閥は
-69 今は媚びへつらう者の力で勝利するだろう。
+68 三つの太陽の間に倒れ、もう一方の派閥が
+69 今は媚びへつらう者の力によって勝利するだろう。
 </result>
 </query>
 <query>
@@ -407,9 +407,9 @@ Please translate each line literally into Japanese.
 72 come che di ciò pianga o che n’aonti.
 </prompt>
 <result>
-70 長い間、その派閥は頭を高く上げ、
-71 もう一方の派閥を重い重荷の下に置き、
-72 それが泣こうと恥じようとお構いなしに。
+70 長い間額を高く上げ、
+71 もう一方の額には重い重りをかけて、
+72 それについて泣こうと、怒ろうと。
 </result>
 </query>
 <query>
@@ -422,9 +422,9 @@ Please translate each line literally into Japanese.
 75 le tre faville c’hanno i cuori accesi».
 </prompt>
 <result>
-73 正義の人は2人いますが、彼らは理解されていません。
+73 正しいのは二人だけだが、彼らは理解し合っていない。
 74 傲慢、嫉妬、強欲は
-75 心を燃やす3つの火花です」。
+75 人々の心を燃やす三つの火花である」。
 </result>
 </query>
 <query>
@@ -437,9 +437,9 @@ Please translate each line literally into Japanese.
 78 e che di più parlar mi facci dono.
 </prompt>
 <result>
-76 そこで彼は悲しみの音に終止符を打ちました。
-77 そして私は彼に言いました：「私はまだあなたが私に教えてくれることを望んでいます、
-78 そして私にさらに多くの話をさせてください。
+76 そこで彼は悲しみの音に終止符を打った。
+77 そして私は彼に言った。「私はまだあなたに教えてほしい。
+78 そしてもっと話をしてほしい。
 </result>
 </query>
 <query>
@@ -456,12 +456,12 @@ Please translate each line literally into Japanese.
 84 se ’l ciel li addolcia o lo ’nferno li attosca».
 </prompt>
 <result>
-79 ファリナータとテッギアイオ、とても立派な人々、
+79 ファリナータとテッギアイオ、彼らはとても高貴だった、
 80 ヤコポ・ルスティッチ、アルリゴとモスカ、
 81 そして善行に知恵を働かせた他の人々、
 
-82 彼らがどこにいるのか教えてくれて、私が彼らを知ることができるようにしてください。
-83 彼らが天国で甘やかされているのか、地獄で苦しめられているのかを知りたいという強い願望が私を締め付けています」。
+82 彼らがどこにいるのか教えてくれ、私が彼らを知ることができるように。
+83 彼らが天国で甘美な時を過ごしているのか、地獄で苦しんでいるのかを知りたいという強い願望があるから。
 </result>
 </query>
 <query>
@@ -474,9 +474,9 @@ Please translate each line literally into Japanese.
 87 se tanto scendi, là i potrai vedere.
 </prompt>
 <result>
-85 そして彼は言いました：「彼らは最も黒い魂の中にいます。
-86 さまざまな罪が彼らを底に押しやっています。
-87 もしあなたがそこまで降りていけば、あなたはそこで彼らを見ることができます。
+85 そして彼は言った。「彼らは最も黒い魂の中にいる。
+86 様々な罪が彼らを底に押しとどめている。
+87 もしそこまで降りて行けば、彼らを見ることができるだろう。
 </result>
 </query>
 <query>
@@ -490,8 +490,8 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 88 しかし、あなたが甘い世界にいるとき、
-89 あなたが私のことを他人の心に留めてくれることを願っています。
-90 私はこれ以上何も言いませんし、これ以上あなたに答えません」。
+89 あなたに頼む、私のことを他の人々に思い出させてほしい。
+90 それ以上は言わないし、それ以上は答えない」。
 </result>
 </query>
 <query>
@@ -504,9 +504,9 @@ Please translate each line literally into Japanese.
 93 cadde con essa a par de li altri ciechi.
 </prompt>
 <result>
-91 彼はまっすぐな目を斜めにそらしました。
-92 彼は私を少し見つめてから頭を下げました。
-93 彼は他の盲目の人々と並んで倒れました。
+91 彼は真っ直ぐな目を曲げて邪悪なものに変えた。
+92 彼は私を少し見つめてから頭を下げた。
+93 そして他の盲人たちと同じように倒れた。
 </result>
 </query>
 <query>
@@ -523,13 +523,13 @@ Please translate each line literally into Japanese.
 99 udirà quel ch’in etterno rimbomba».
 </prompt>
 <result>
-94 そして案内人は私に言いました：「彼はもう目覚めません
-95 天使のラッパの音の向こう側から、
-96 敵の力がやってくるとき：
+94 そして案内人は私に言った。「この場所から、
+95 天使のラッパの音の向こう側で、
+96 敵対する力がやってくるまでは、彼は目覚めない。
 
-97 誰もが悲惨な墓を見直し、
-98 自分の肉と姿を取り戻し、
-99 永遠に響き渡るものを聞くでしょう」。
+97 誰もが悲惨な墓を再び見て、
+98 肉体と姿を取り戻し、
+99 永遠に響き渡るものを聞くことになる」。
 </result>
 </query>
 <query>
@@ -546,12 +546,13 @@ Please translate each line literally into Japanese.
 105 o fier minori, o saran sì cocenti?».
 </prompt>
 <result>
-100 私たちは影と雨の汚い混合物を通り抜けました、ゆっくりとした歩みで、
-102 来世に少し触れました。
+100 私たちは汚い混ざり合ったものの中を通り過ぎた、
+101 影と雨の中を、ゆっくりとした足取りで、
+102 来世に少し触れながら。
 
-103 私は言った：「先生、これらの苦しみは
-104 大いなる裁きの後に増すのでしょうか、
-105 それとも激しく減るのでしょうか、それともそれほど激しく燃えるのでしょうか？」。
+103 そこで私は言った。「先生、これらの苦しみは
+104 最後の日が来た後も増し続けるのでしょうか、
+105 それとも減るのでしょうか、それとも同じように激しく燃え続けるのでしょうか？」。
 </result>
 </query>
 <query>
@@ -564,9 +565,9 @@ Please translate each line literally into Japanese.
 108 più senta il bene, e così la doglienza.
 </prompt>
 <result>
-106 そして彼は私に言いました：「あなたの知識に戻りなさい、
-107 それは、物事がより完璧であるほど、
-108 より善を感じ、そして同様に苦しみを感じたいと考えています。
+106 そして彼は私に言った。「あなたの知識に戻りなさい。
+107 それは、物事がより完全であるほど、
+108 より善を感じ、同様に苦しみも感じることを求めている。
 </result>
 </query>
 <query>
@@ -579,8 +580,9 @@ Please translate each line literally into Japanese.
 111 di là più che di qua essere aspetta».
 </prompt>
 <result>
-109 この呪われた人々が真の完全さに達することは決してないとしても、
-110 彼らは向こう側でこちらよりも完全になることを期待しています」。
+109 この呪われた人々は皆
+110 真の完全さには決して到達せず
+111 あちらの世界でこちらよりもひどい目に遭うだろう
 </result>
 </query>
 <query>
@@ -595,11 +597,11 @@ Please translate each line literally into Japanese.
 115 quivi trovammo Pluto, il gran nemico.
 </prompt>
 <result>
-112 私たちはその道をぐるぐると回り、
-113 私が言うよりもはるかに多くを話しました。
-114 私たちは降りていく場所に到着しました。
+112 私たちはぐるぐるとその道を歩き回り
+113 私が言い尽くせないほど多くのことを話した
+114 下っていく場所までやってきた
 
-115 そこで私たちは冥界の王、偉大な敵であるプルートを見つけました。
+115 そこで冥界の王プルートー、偉大なる敵に遭遇した
 </result>
 </query>
 </queries>

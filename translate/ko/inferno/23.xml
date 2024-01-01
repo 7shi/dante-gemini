@@ -11,7 +11,7 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 1 조용히, 혼자, 동반자 없이
-2 우리는 한 명이 앞서고 한 명이 뒤따라 걸었습니다.
+2 우리는 한 명이 앞서고 다른 한 명이 뒤따라 걸었는데,
 3 마치 작은 형제들이 길을 가는 것처럼.
 </result>
 </query>
@@ -29,13 +29,13 @@ Please translate each line literally into Korean.
 9 principio e fine con la mente fissa.
 </prompt>
 <result>
-4 이솝 우화 속에서
-5 현재의 다툼에 대한 나의 생각은 뒤집혔습니다.
-6 그가 개구리와 두꺼비에 대해 말한 대목에서 말입니다.
+4 이소포의 우화에 대한 나의 생각은
+5 현재의 다툼 때문에 뒤집혔는데,
+6 그가 개구리와 두꺼비에 대해 이야기한 곳에서 말이다.
 
-7 ‘지금’과 ‘그때’가
-8 서로를 비교할 수 없을 정도로
-9 마음을 고정시키고 시작과 끝을 연결하면 서로 어울립니다.
+7 지금과 과거가 서로 비슷하지 않은 것은
+8 처음과 끝을 확고한 마음으로 연결하면
+9 서로 잘 어울리기 때문이다.
 </result>
 </query>
 <query>
@@ -48,9 +48,9 @@ Please translate each line literally into Korean.
 12 che la prima paura mi fé doppia.
 </prompt>
 <result>
-10 한 가지 생각이 다른 생각을 터뜨리듯이
-11 그 생각에서 또 다른 생각이 생겨났고
-12 첫 번째 두려움이 두 배로 커졌습니다.
+10 그리고 한 가지 생각이 다른 생각을 터뜨리듯이,
+11 그 생각에서 또 다른 생각이 생겨났는데,
+12 그것은 나의 첫 번째 두려움을 두 배로 만들었다.
 </result>
 </query>
 <query>
@@ -62,10 +62,36 @@ Please translate each line literally into Korean.
 14 sono scherniti con danno e con beffa
 15 sì fatta, ch’assai credo che lor nòi.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "13 나는 이렇게 생각했다. ‘이들은 우리 때문에\n14 그토록 큰 피해와 조롱을 당했으니,\n15 그들의 종족이 매우 분노할 것이라고 생각한다."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-13 나는 이렇게 생각했습니다. ‘이들은 우리를 위해
-14 이렇게 큰 손해와 조롱을 받았고
-15 그래서 그들은 우리를 전혀 존중하지 않는다고 생각합니다.
+13 나는 이렇게 생각했다. ‘이들은 우리 때문에
+14 그토록 큰 피해와 조롱을 당했으니,
+15 그들의 종족이 매우 분노할 것이라고 생각한다.
 </result>
 </query>
 <query>
@@ -78,9 +104,9 @@ Please translate each line literally into Korean.
 18 che ’l cane a quella lievre ch’elli acceffa’.
 </prompt>
 <result>
-16 분노가 악의 위에 덤빈다면
-17 그들은 우리를 쫓아 더욱 잔인해질 것입니다.
-18 개가 토끼를 잡아뜯는 것처럼 말입니다.
+16 분노가 악의 위에 덧붙여진다면,
+17 그들은 우리를 쫓아올 것이고, 더욱 잔인할 것이다.
+18 개가 토끼를 쫓아가는 것보다 더 잔인하게 말이다.
 </result>
 </query>
 <query>
@@ -97,11 +123,12 @@ Please translate each line literally into Korean.
 24 io li ’magino sì, che già li sento».
 </prompt>
 <result>
-19 나는 두려움에 온 몸의 털이 곤두서지는 것을 느꼈고
-20 뒤로 물러나서 주의 깊게 살폈습니다.
-21 그때 내가 말했습니다. "선생님, 당신과 저를
-22 재빨리 숨기지 않으시면, 저는 악마들을 두렵습니다.
-23 그들은 이미 우리 뒤에 있습니다. 저는 그들을 상상할 수 있고, 이미 그들의 소리가 들립니다."
+19 나는 이미 두려움에 온몸의 털이 곤두서기를 느꼈고,
+20 뒤로 물러나 집중하고 있었는데,
+21 내가 말했다. "선생님, 당신과 저를 재빨리 숨기지 않으신다면,
+
+22 저는 악마들을 두려워합니다. 그들은 이미 우리를 쫓고 있습니다.
+23 저는 그들을 상상할 수 있고, 이미 그들의 소리가 들립니다."
 </result>
 </query>
 <query>
@@ -113,36 +140,10 @@ Please translate each line literally into Korean.
 26 l’imagine di fuor tua non trarrei
 27 più tosto a me, che quella dentro ’mpetro.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 그러자 그는 말했습니다. \"내가 납으로 된 유리였다면,\n26 당신의 외부 이미지가 나에게 들어오는 것보다\n27 내부 이미지가 나에게 더 빨리 들어올 것입니다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-25 그러자 그는 말했습니다. "내가 납으로 된 유리였다면,
-26 당신의 외부 이미지가 나에게 들어오는 것보다
-27 내부 이미지가 나에게 더 빨리 들어올 것입니다.
+25 그리고 그는 말했다. "내가 납으로 된 유리였다면,
+26 당신의 외부 이미지를 내게 가져오지 않을 것입니다.
+27 내 안에 있는 이미지보다 더 빨리 말입니다.
 </result>
 </query>
 <query>
@@ -155,9 +156,9 @@ Please translate each line literally into Korean.
 30 sì che d’intrambi un sol consiglio fei.
 </prompt>
 <result>
-28 방금 당신의 생각이 나의 생각들 사이로 들어왔는데
-29 비슷한 행동과 비슷한 표정으로 말입니다.
-30 그래서 저는 두 가지 생각을 하나의 결정으로 만들었습니다.
+28 그대의 생각이 내 생각 사이로 왔지만,
+29 비슷한 행동과 비슷한 표정으로,
+30 그래서 우리 둘의 생각이 하나의 결론이 되었다.
 </result>
 </query>
 <query>
@@ -170,9 +171,9 @@ Please translate each line literally into Korean.
 33 noi fuggirem l’imaginata caccia».
 </prompt>
 <result>
-31 오른쪽 둑이 그렇게 가파르다면
-32 우리가 다른 구덩이로 내려갈 수 있다면
-33 우리는 상상 속의 추격을 피할 수 있을 것입니다.
+31 만약 오른쪽 경사면이 그렇게 가파르다면,
+32 우리가 다른 구덩이로 내려갈 수 있을까,
+33 우리는 상상 속의 추격을 피할 수 있을 것이다."
 </result>
 </query>
 <query>
@@ -185,9 +186,9 @@ Please translate each line literally into Korean.
 36 non molto lungi, per volerne prendere.
 </prompt>
 <result>
-34 저는 그런 조언을 다 하기도 전에
-35 그들이 날개를 펼친 채로 날아오는 것을 보았습니다.
-36 우리를 잡으려고 그리 멀지 않은 곳에서 말입니다.
+34 그런 결론을 내리기도 전에,
+35 나는 그들이 날개를 펴고 날아오는 것을 보았다.
+36 그리 멀지 않은 곳에서, 우리를 잡으려고.
 </result>
 </query>
 <query>
@@ -208,17 +209,17 @@ Please translate each line literally into Korean.
 45 che l’un de’ lati a l’altra bolgia tura.
 </prompt>
 <result>
-37 나의 안내자는 갑자기 나를 붙잡았습니다.
-38 마치 소음에 잠에서 깬 어머니가
-39 옆에서 불이 붙은 것을 보고
+37 나의 안내자는 갑자기 나를 붙잡았다.
+38 마치 소음에 잠에서 깨어난 어머니가
+39 자기 곁에서 불이 타오르는 것을 보고,
 
-40 아들을 붙잡고 도망쳐서 멈추지 않고,
-41 자신보다 아들을 더 걱정하면서
-42 셔츠 한 장만 걸치고 말입니다.
+40 아들을 붙잡고 도망치며 멈추지 않는 것처럼,
+41 자기보다 아들을 더 아끼며,
+42 셔츠 한 장만 걸치고서;
 
 43 그리고 가파른 절벽의 목에서
-44 등을 대고 매달린 바위로 몸을 던졌습니다.
-45 그 바위는 한쪽이 다른 구덩이를 막고 있습니다.
+44 등을 대고 경사진 바위로 몸을 던졌다.
+45 그 바위는 한쪽으로 다른 구덩이를 막고 있었다.
 </result>
 </query>
 <query>
@@ -235,13 +236,13 @@ Please translate each line literally into Korean.
 51 come suo figlio, non come compagno.
 </prompt>
 <result>
-46 물레방아 바퀴를 돌리기 위해 물이 홈통을 타고
-47 그렇게 빨리 흘러간 적이 없습니다.
-48 물이 바퀴에 가장 가까워질 때 말입니다.
+46 물레방아의 바퀴를 돌리기 위해 물이 홈통을 타고
+47 그렇게 빨리 흐른 적이 없었다.
+48 물이 바퀴에 가장 가까이 다가갈 때,
 
-49 나의 안내자가 그 좁은 길을 따라
-50 나를 가슴에 안고 달려간 것은
-51 마치 아들을 안고 달리는 것처럼이지 동료처럼이 아닙니다.
+49 나의 스승은 그 경사면을 따라
+50 나를 가슴에 안고 달렸다.
+51 아들처럼, 동료처럼이 아니라.
 </result>
 </query>
 <query>
@@ -258,11 +259,12 @@ Please translate each line literally into Korean.
 57 poder di partirs’ indi a tutti tolle.
 </prompt>
 <result>
-52 그의 발이 바닥에 닿기도 전에
-53 그들은 우리 위의 언덕에 올라 있었습니다. 하지만 그곳에는 위험이 없었습니다.
+52 그의 발이 바닥에 닿자마자,
+53 그들은 우리 위의 언덕에 있었다.
+54 하지만 거기에는 의심할 여지가 없었다.
 
-54 그들을 다섯 번째 구덩이의 관리자로 삼으려고 한 높은 섭리가
-55 그곳을 떠나는 힘을 모두에게서 앗아갔기 때문입니다.
+55 그들을 다섯 번째 구덩이의 관리자로 삼으려고 한
+56 높은 섭리가 그곳을 떠나는 것을 모두에게 금지했기 때문이다.
 </result>
 </query>
 <query>
@@ -275,9 +277,9 @@ Please translate each line literally into Korean.
 60 piangendo e nel sembiante stanca e vinta.
 </prompt>
 <result>
-58 거기 아래에서 우리는 그림처럼 생긴 사람들을 발견했습니다.
-59 그들은 매우 느린 걸음으로 돌아다니며
-60 울고 있었고 얼굴은 지치고 힘이 빠진 듯했습니다.
+58 거기 아래에서 우리는 얼룩덜룩한 사람들을 발견했다.
+59 그들은 매우 느린 걸음으로 돌아다니며,
+60 울고 얼굴은 지치고 맥이 빠져 있었다.
 </result>
 </query>
 <query>
@@ -290,8 +292,8 @@ Please translate each line literally into Korean.
 63 che in Clugnì per li monaci fassi.
 </prompt>
 <result>
-61 그들은 눈 앞에 낮게 내려온 두건이 달린 망토를 입고 있었는데
-62 클뤼니의 수도사들이 입는 것과 같은 모양이었습니다.
+61 그들은 눈 앞에 낮게 내려진 후드가 달린 망토를 입고 있었는데,
+62 클륄리에서 수도사들이 입는 것과 같은 모양이었다.
 </result>
 </query>
 <query>
@@ -304,9 +306,9 @@ Please translate each line literally into Korean.
 66 che Federigo le mettea di paglia.
 </prompt>
 <result>
-64 겉은 금으로 도금되어 눈이 부시지만
-65 안은 모두 납으로 되어 있고 너무 무거워서
-66 페데리코 황제가 그것을 짚으로 만든 것처럼 보였습니다.
+64 겉은 금으로 도금되어 눈이 부시지만,
+65 안은 모두 납으로 되어 너무 무거워서,
+66 페데리코가 그것을 짚으로 만들었을 정도이다.
 </result>
 </query>
 <query>
@@ -324,12 +326,12 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 67 오, 영원히 지치게 하는 망토여!
-68 우리는 그들과 함께 왼쪽으로 돌아섰고
-69 슬픈 울음소리에 주의를 기울였습니다.
+68 우리는 여전히 왼쪽으로 돌아
+69 그들과 함께 슬픈 울음소리에 주의를 기울였다.
 
-70 하지만 그 무거운 짐 때문에 지친 사람들은
-71 너무 느리게 걸어왔고, 우리는
-72 그들이 한 걸음 내딛을 때마다 새로운 동료가 되었습니다.
+70 하지만 그 무거운 무게 때문에 지친 그 사람들은
+71 너무 느리게 걸어왔기 때문에, 우리는
+72 한 걸음 걸을 때마다 새로운 동반자가 생겼다.
 </result>
 </query>
 <query>
@@ -342,9 +344,9 @@ Please translate each line literally into Korean.
 75 e li occhi, sì andando, intorno movi».
 </prompt>
 <result>
-73 그래서 나는 나의 안내자에게 말했습니다. "당신이
-74 행동이나 이름으로 알 수 있는 사람을 찾아보고
-75 걸어가면서 주변을 살펴보세요."
+73 그래서 나는 나의 안내자에게 말했다. "당신이
+74 사실이나 이름으로 알려진 사람을 찾아내고,
+75 걸어가면서 주위를 살펴보세요."
 </result>
 </query>
 <query>
@@ -360,9 +362,10 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 76 그리고 토스카나 말을 이해한 사람이
-77 우리 뒤에서 소리쳤습니다. "어두운 공기를 헤치고 그렇게 뛰는 여러분, 잠깐만!"
+77 우리 뒤에서 소리쳤다. "서세요,
+78 이 어두운 공기를 헤치고 그렇게 달리는 여러분!
 
-78 아마도 당신은 나에게서 당신이 요구하는 것을 얻을 수 있을 것입니다."
+79 아마도 당신이 원하는 것을 내가 줄 수 있을 것입니다."
 </result>
 </query>
 <query>
@@ -378,12 +381,12 @@ Please translate each line literally into Korean.
 84 ma tardavali ’l carco e la via stretta.
 </prompt>
 <result>
-80 그러자 안내자가 돌아서서 말했습니다. "잠깐만 기다리게,
-81 그리고 그들의 속도에 맞춰 걸어가게."
+80 그러자 안내자가 돌아서서 말했다. "기다려라,
+81 그리고 그의 속도에 맞춰 걸어라."
 
-82 나는 멈춰서서 두 사람이 나와 함께 하려고
-83 마음과 얼굴에 큰 서두름을 보이는 것을 보았습니다.
-84 하지만 무거운 짐과 좁은 길 때문에 그들은 느리게 걸었습니다.
+82 나는 멈춰 서서, 두 사람이 나와 함께 하려고
+83 마음에 큰 서두름을 보이는 것을 얼굴에서 알 수 있었다.
+84 하지만 무거운 짐과 좁은 길 때문에 늦어지고 있었다.
 </result>
 </query>
 <query>
@@ -400,12 +403,12 @@ Please translate each line literally into Korean.
 90 vanno scoperti de la grave stola?».
 </prompt>
 <result>
-85 그들이 다가왔을 때, 그들은 매우 험악한 눈으로
-86 나를 바라보았지만 아무 말도 하지 않았습니다.
-87 그런 다음 그들은 서로를 바라보며 말했습니다.
+85 그들이 다가왔을 때, 매우 찌푸린 눈으로
+86 말 한마디 없이 나를 쳐다보았다.
+87 그러고 나서 서로를 돌아보며 말했다.
 
-88 "이 사람은 목구멍의 움직임으로 보아 살아 있는 듯하다.
-89 그리고 그들이 죽었다면, 어떤 특권으로
+88 "저 사람은 목구멍의 움직임으로 보아 살아 있는 듯하다.
+89 그리고 만약 그들이 죽었다면, 어떤 특권으로
 90 무거운 망토를 벗은 채로 다니는가?"
 </result>
 </query>
@@ -422,7 +425,7 @@ Please translate each line literally into Korean.
 index: 0
 content {
   parts {
-    text: "91 그런 다음 그들은 나에게 말했습니다. \"오, 위선자들의 집단에 온 토스카나 사람이여,\n92 당신이 누구인지 말하는 것을 경멸하지 마십시오.\""
+    text: "91 그러고 나서 그들은 나에게 말했다. \"오, 토스카나 사람이여, 위선자들의\n92 슬픈 집단에 온 당신은,\n93 당신이 누구인지 말하는 것을 경멸하지 마십시오.\""
   }
   role: "model"
 }
@@ -433,7 +436,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
-  probability: MEDIUM
+  probability: HIGH
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
@@ -445,8 +448,9 @@ safety_ratings {
 }
 </error>
 <result>
-91 그런 다음 그들은 나에게 말했습니다. "오, 위선자들의 집단에 온 토스카나 사람이여,
-92 당신이 누구인지 말하는 것을 경멸하지 마십시오."
+91 그러고 나서 그들은 나에게 말했다. "오, 토스카나 사람이여, 위선자들의
+92 슬픈 집단에 온 당신은,
+93 당신이 누구인지 말하는 것을 경멸하지 마십시오."
 </result>
 </query>
 <query>
@@ -459,9 +463,9 @@ Please translate each line literally into Korean.
 96 e son col corpo ch’i’ ho sempre avuto.
 </prompt>
 <result>
-94 그리고 나는 그들에게 말했습니다. "나는 아름다운 아르노 강 위의
-95 큰 도시에서 태어나고 자랐고,
-96 나는 항상 가지고 있던 몸과 함께 있습니다.
+94 그리고 나는 그들에게 말했다. "나는 태어나서 자랐다
+95 아름다운 아르노 강 위에 있는 큰 도시에서,
+96 그리고 나는 항상 가졌던 몸과 함께 있다.
 </result>
 </query>
 <query>
@@ -474,9 +478,9 @@ Please translate each line literally into Korean.
 99 e che pena è in voi che sì sfavilla?».
 </prompt>
 <result>
-97 하지만 여러분은 누구입니까? 내가 여러분의 뺨을 따라 흐르는
-98 고통을 보는 것처럼 많은 고통을 겪고 있습니까?
-99 그리고 여러분에게는 그렇게 번쩍이는 어떤 형벌이 있습니까?"
+97 하지만 여러분은 누구신가요? 눈물이
+98 얼굴을 타고 떨어지는 것을 보니 너무나도 슬퍼 보이시네요.
+99 그리고 여러분 안에 그렇게 번쩍이는 고통은 무엇인가요?"
 </result>
 </query>
 <query>
@@ -489,9 +493,9 @@ Please translate each line literally into Korean.
 102 fan così cigolar le lor bilance.
 </prompt>
 <result>
-100 그리고 한 사람이 나에게 대답했습니다. "주황색 망토는
-101 너무 무거운 납으로 만들어져서 그 무게 때문에
-102 저울이 삐걱거립니다.
+100 그리고 그들 중 한 명이 나에게 대답했다. "이 녹슨 망토는
+101 너무 무거운 납으로 만들어져 있어서 그 무게가
+102 저울의 추를 그렇게 삐걱거리게 한다.
 </result>
 </query>
 <query>
@@ -508,13 +512,13 @@ Please translate each line literally into Korean.
 108 ch’ancor si pare intorno dal Gardingo».
 </prompt>
 <result>
-103 우리는 볼로냐의 행복한 수도사였습니다.
-104 나는 카탈라노이고 이 사람은 로데링고입니다.
-105 우리는 당신의 고향에서 함께 잡혔습니다.
+103 우리는 볼로냐 출신의 행복한 수도사였고,
+104 나는 카탈라노이고 이 사람은 로데링고
+105라고 불리며, 당신의 고향에서 함께 잡혔습니다.
 
-106 외로운 사람을 잡는 것처럼
-107 그의 평화를 지키기 위해서였습니다. 그리고 우리는 그런 사람들이었습니다.
-108 가르딩고 주변에서도 여전히 그렇게 보입니다."
+106 외로운 사람을 잡는 것처럼,
+107 그의 평화를 지키기 위해서였고, 우리는 그런 사람들이었습니다.
+108 가르딩고 주변에서도 아직도 그런 사람들이 보입니다."
 </result>
 </query>
 <query>
@@ -527,9 +531,9 @@ Please translate each line literally into Korean.
 111 un, crucifisso in terra con tre pali.
 </prompt>
 <result>
-109 나는 말하기 시작했습니다. "오, 형제 여러분, 여러분의 고통은..."
-110 하지만 더 이상 말하지 못했습니다. 왜냐하면 내 눈에
-111 세 개의 말뚝에 땅에 십자가에 못 박힌 사람이 보였기 때문입니다.
+109 나는 말하기 시작했다. "오 형제여, 여러분의 고통은..."
+110 하지만 더 이상 말하지 못했다. 내 눈에
+111 세 개의 말뚝에 십자가에 못 박힌 사람이 보였기 때문이다.
 </result>
 </query>
 <query>
@@ -546,10 +550,13 @@ Please translate each line literally into Korean.
 117 porre un uom per lo popolo a’ martìri.
 </prompt>
 <result>
-112 그는 나를 보고 온통 몸을 비틀며
-113 수염을 불며 한숨을 쉬었습니다. 그리고 카탈란 수도사는 그것을 알아차리고
-114 나에게 말했습니다. "당신이 바라보는 그 십자가에 못 박힌 사람은
-115 바리새인들에게 한 사람을 백성을 위한 순교자로 삼아야 한다고 조언했습니다.
+112 그가 나를 보자 모든 것이 뒤틀렸고,
+113 수염에 한숨을 불어넣으며,
+114 그것을 눈치챈 카탈란 수사는
+
+115 내가 바라보는 그 싸움꾼은
+116 바리새인들에게 한 사람을 죽여서
+117 백성을 위해 순교자로 만들어야 한다고 조언했습니다.
 </result>
 </query>
 <query>
@@ -565,7 +572,7 @@ Please translate each line literally into Korean.
 index: 0
 content {
   parts {
-    text: "118 그는 벌거벗은 채 길을 가로질러 십자가에 못 박혔고,\n119 당신이 보듯이, 그가 지나가는 모든 사람이 얼마나 무거운지 먼저 느끼게 해야 합니다."
+    text: "118 그는 알몸으로 길을 가로질러 넘어졌고,\n119 네가 보듯이, 지나가는 모든 사람이\n120 그가 얼마나 무거운지 느낄 수밖에 없다."
   }
   role: "model"
 }
@@ -580,7 +587,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
+  probability: LOW
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -588,8 +595,9 @@ safety_ratings {
 }
 </error>
 <result>
-118 그는 벌거벗은 채 길을 가로질러 십자가에 못 박혔고,
-119 당신이 보듯이, 그가 지나가는 모든 사람이 얼마나 무거운지 먼저 느끼게 해야 합니다.
+118 그는 알몸으로 길을 가로질러 넘어졌고,
+119 네가 보듯이, 지나가는 모든 사람이
+120 그가 얼마나 무거운지 느낄 수밖에 없다.
 </result>
 </query>
 <query>
@@ -643,8 +651,10 @@ Please translate each line literally into Korean.
 126 tanto vilmente ne l’etterno essilio.
 </prompt>
 <result>
-124 그때 나는 베르길리오가
-125 영원한 추방에서 그렇게 비참하게 십자가에 못 박힌 사람을 보고 놀라는 것을 보았습니다.
+124 그때 나는 베르길리우스가
+125 십자가에 못박힌 자 위에
+126 영원한 추방에서 너무나 비참하게
+127 놀라는 것을 보았다.
 </result>
 </query>
 <query>
@@ -661,11 +671,13 @@ Please translate each line literally into Korean.
 132 che vegnan d’esto fondo a dipartirci».
 </prompt>
 <result>
-127 그런 다음 그는 수도사에게 이렇게 말했습니다. "당신이 허락한다면, 불쾌하게 생각하지 마시고
-129 오른쪽에 어떤 출구가 있는지 말씀해 주세요.
+127 그러고 나서 수사에게 이렇게 말했습니다.
+128 "우리가 물어도 괜찮다면,
+129 오른쪽에 어떤 출구가 있는지 말씀해 주시겠어요?
 
-130 우리 둘이 그곳에서 나갈 수 있도록
-131 이 심연에서 우리를 떠나게 하려고 검은 천사들이 오는 것을 강요하지 않고 말입니다."
+130 우리 둘이 거기서 빠져나갈 수 있도록,
+131 이 심연에서 우리를 떼어놓으려고
+132 검은 천사들이 오는 것을 막기 위해서요."
 </result>
 </query>
 <query>
@@ -682,13 +694,12 @@ Please translate each line literally into Korean.
 138 che giace in costa e nel fondo soperchia».
 </prompt>
 <result>
-133 그러자 그는 대답했습니다. "당신이 기대하는 것보다 더
-134 큰 바위가 다가오고 있습니다. 그것은 큰 원에서
-135 움직이며 모든 험한 골짜기를 건너갑니다.
+133 그러자 그는 대답했습니다. "당신이 기대하는 것보다 더 가까이에
+134 큰 원에서 움직여 나와 모든 험한 골짜기를 건너는 바위가 있습니다.
 
-136 다만 이곳에서는 부러져서 덮지 못합니다.
-137 여러분은 그 폐허 위로 올라갈 수 있습니다.
-138 그것은 경사면에 있고 바닥을 덮고 있습니다."
+135 다만 이곳에서만 부서져서 덮이지 않았습니다.
+136 그 폐허 위로 올라갈 수 있을 겁니다.
+137 비탈에 놓여 있고 바닥까지 덮여 있으니까요."
 </result>
 </query>
 <query>
@@ -701,9 +712,9 @@ Please translate each line literally into Korean.
 141 colui che i peccator di qua uncina».
 </prompt>
 <result>
-139 안내자는 고개를 숙인 채 잠시 멈춰 있었습니다.
-140 그런 다음 그는 말했습니다. "이곳에서 죄인들을 낚아채는 사람은
-141 일을 잘못 계산했습니다."
+139 두체는 고개를 숙인 채 잠시 서 있었습니다.
+140 그러고 나서 말했습니다. "이곳에서 죄인들을 낚아채는 자는
+141 계산을 잘못했습니다."
 </result>
 </query>
 <query>
@@ -715,10 +726,36 @@ Please translate each line literally into Korean.
 143 del diavol vizi assai, tra ’ quali udi’
 144 ch’elli è bugiardo, e padre di menzogna».
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "142 수사가 말했습니다. \"저는 이미 볼로냐에서\n143 악마의 악행에 대해 많이 들었습니다. 그중에서도\n144 그가 거짓말쟁이이고 거짓의 아버지라는 것을 들었습니다.\""
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-142 그리고 수도사는 말했습니다. "저는 이미 볼로냐에서
-143 악마의 많은 악덕에 대해 들었습니다. 그 중에서도
-144 그는 거짓말쟁이이고 거짓말의 아버지라는 것을 들었습니다."
+142 수사가 말했습니다. "저는 이미 볼로냐에서
+143 악마의 악행에 대해 많이 들었습니다. 그중에서도
+144 그가 거짓말쟁이이고 거짓의 아버지라는 것을 들었습니다."
 </result>
 </query>
 <query>
@@ -733,10 +770,11 @@ Please translate each line literally into Korean.
 148 dietro a le poste de le care piante.
 </prompt>
 <result>
-145 그런 다음 안내자는 큰 걸음으로 걸어갔습니다.
-146 얼굴에 약간의 분노가 떠올랐습니다. 그래서 저는 짐을 진 사람들로부터 떠났습니다.
+145 그러고 나서 두체는 큰 걸음으로 걸어갔고,
+146 얼굴에는 약간의 분노가 어렸습니다.
+147 그래서 나는 짐을 진 자들을 떠나
 
-148 그의 사랑하는 발자국을 따라갔습니다.
+148 사랑하는 발자취를 따라갔습니다.
 </result>
 </query>
 </queries>

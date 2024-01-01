@@ -10,9 +10,9 @@ Please translate each line literally into Manx.
 3 ché la diritta via era smarrita.
 </prompt>
 <result>
-1 Ayns meanyraad jeh'n veaynnydain
-2 haink mee hene er my honerynaasagh dorraghey,
-3 ersondyrowyraad jeeraghernycailleil.
+1 'Sy'n vean jeh'n raad jeh'n veaghyn ain
+2 haink mee hene er my hon hene ayns keyll dorraghey,
+3 erskyn dy row yn raad jeeragh er ny cailleil.
 </result>
 </query>
 <query>
@@ -29,13 +29,13 @@ Please translate each line literally into Manx.
 9 dirò de l’altre cose ch’i’ v’ho scorte.
 </prompt>
 <result>
-4 Aynsagh, cre'n erbee dy ghra myr shen!
-5 Ynasagh shen, feamagh as doillee as creoi,
-6 Tacur my chree er-ash dy row!
+4 Agh, s'cindy ghooie dy ghra myr share
+5 y chooid shoh ghlasht, ghlasht as lajer
+6 ta cur mygeayrt er aggle 'sy chooiley!
 
-7 Sheerbeesh en dy velnys 'trosheynabaase;
-8 Agh ersondy ghrajeh'n vieys ta mee erchosney,
-9 Gheearey-ms dyre delley ta mee er vakin.
+7 She chooid shoh chomyrshen as baase;
+8 agh dy ghra myr share er y vie ta hooar mee,
+9 jirym er ny reddyn elley ta hooar mee 'sy chooid.
 </result>
 </query>
 <query>
@@ -48,9 +48,9 @@ Please translate each line literally into Manx.
 12 che la verace via abbandonai.
 </prompt>
 <result>
-10 Cha nel mee hassoo dy jarrood cre'n erbee mychione dy vaik rish,
-11 Shegin dooinney dy cadley va mee ec y traa shen
-12 Dy vel mee yn raad firrinagh.
+10 Cha nel mee fys hra myr share kys haink mee stiagh,
+11 va mee cha ghoo cadjinit liorish cadley
+12 dy vel mee yn raad firrinagh.
 </result>
 </query>
 <query>
@@ -67,13 +67,13 @@ Please translate each line literally into Manx.
 18 che mena dritto altrui per ogne calle.
 </prompt>
 <result>
-13 Agh tra lurg shen, tra hooar mee mee hene ec bun y clieau,
-14 raad va'n glean shen çheet er e jerrey,
-15 va'n glean va mee chree lhieeney lesh aggle.
+13 Agh lurg shen tra haink mee dys y raad jeh'n cronk,
+14 raad va'n glean shid jannoo yn çheu,
+15 va my chree brisht liorish aggle,
 
-16 Yeeagh mee seose as honnick mee e ghuallianyn
-17 foastrit magh lesh giareynyn y ghrian
-18 t'eh stiurey deiney dy kiart er dagh raad.
+16 yeeagh mee seose as honnick mee e chullee
+17 currit ec yn ghrian
+18 ta stiurey deiney er dagh raad.
 </result>
 </query>
 <query>
@@ -86,9 +86,9 @@ Please translate each line literally into Manx.
 21 la notte ch’i’ passai con tanta pieta.
 </prompt>
 <result>
-19 Eisht va'n aggle soit çheet dy beaggan,
-20 va va mee chree lhieeney rish y nahgh
-21 y nahgh shen va mee çheet trooid lesh ymmodee chymmey.
+19 Eisht va'n aggle soit çheet,
+20 va'n aggle va'n aignagh 'syn chree aym
+21 y nahgh as mee goll er yn oie shen.
 </result>
 </query>
 <query>
@@ -106,6 +106,12 @@ Please translate each line literally into Manx.
 </prompt>
 <error result="true">
 index: 0
+content {
+  parts {
+    text: "22 Asy\'n fer enneyr lesh lheean stronnagh,\n23 hie erash ass y cheayn gys y traie,\n24 ghow eh thie er y ushtey chrauee as jeeagh eh urree,\n\n25 myr shen va m\'annym, va foast er e heaghyn,\n26 hie eh er e ais er-ash dy yeeaghyn er y raad\n27 nagh d\'aag eh rieau dooinney bio erbee."
+  }
+  role: "model"
+}
 finish_reason: SAFETY
 safety_ratings {
   category: HARM_CATEGORY_SEXUALLY_EXPLICIT
@@ -125,13 +131,13 @@ safety_ratings {
 }
 </error>
 <result>
-22 Asy'n fer enney lesh anaase aalin,
-23 Erreish ass y cheayn gys y traie,
-24 Jean eh hionnaghey er y ushtey gaase as geaysh,
+22 Asy'n fer enneyr lesh lheean stronnagh,
+23 hie erash ass y cheayn gys y traie,
+24 ghow eh thie er y ushtey chrauee as jeeagh eh urree,
 
-25 Myr shen va my chree, va foast er echey,
-26 Hie er-ash dys y raad va'n raad shen
-27 Nagh vel ayn dooinney bio erbee erbee er lhieh.
+25 myr shen va m'annym, va foast er e heaghyn,
+26 hie eh er e ais er-ash dy yeeaghyn er y raad
+27 nagh d'aag eh rieau dooinney bio erbee.
 </result>
 </query>
 <query>
@@ -143,10 +149,36 @@ Please translate each line literally into Manx.
 29 ripresi via per la piaggia diserta,
 30 sì che ’l piè fermo sempre era ’l più basso.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "28 Erreish lhiam my chorp boggey son lheid,\n29 ghow mee erash ass y traie çheet,\n30 myr share my chass traie va ny s\'inshley."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-28 Erreish my hassoo yn beag my chorp shass,
-29 Hie mee er-ash trooid y traie feamagh,
-30 Myr shen va'n cass thie jeeragh dy kinjagh.
+28 Erreish lhiam my chorp boggey son lheid,
+29 ghow mee erash ass y traie çheet,
+30 myr share my chass traie va ny s'inshley.
 </result>
 </query>
 <query>
@@ -163,18 +195,18 @@ Please translate each line literally into Manx.
 36 ch’i’ fui per ritornar più volte vòlto.
 </prompt>
 <result>
-31 As, jeeagh, myrgeddin ec y raad dy heet,
-32 Un lhong dooghy, çhiass as feer tappee,
-33 Va'n eaddagh breck er e hooill;
+31 As, ashoh, beagh ec, mychione er y raad jeh'n slieau,
+32 un lhargagh çheh, çhionn ashagh as tappee,
+33 as echey cooat dy hrooidyn er.
 
-34 As cha row ee faagail my enney,
-35 Agh va gee ee red er my raad,
-36 Myr shen va mee er-çheu dy hyndaa dy liooar.
+34 As cha row ee faagail my raad,
+35 agh ren ee cur raad er my choshey,
+36 dy row mee er çheu dy hyndaaghyn dy mennick.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 37/136</info>
-<prompt>
+<prompt retry="true">
 Please translate each line literally into Manx.
 
 37 Temp’ era dal principio del mattino,
@@ -189,18 +221,21 @@ Please translate each line literally into Manx.
 44 ma non sì che paura non mi desse
 45 la vista che m’apparve d’un leone.
 </prompt>
+<error result="true">
+Response too long: (5078 &amp;gt; 1197)
+</error>
 <result>
-37 Va'n traa ec toshiaght y laa,
-38 As va'n ghrian er-jerrey lesh ny rollageyn shen
-39 Va marish ec y traa va graih Jee
+37 Va'n traa va'n toshiaght jeh'n laa,
+38 as va'n ghrian ergystal rish ny rollageyn shen
+39 va marish traa dy row yn graih jeeragh
 
-40 Er ny h-obbraghey ec y toshiaght ny redyn aalin shen;
-41 Myr shen va mee er-çheu dy ve er-çheu dy aashagh
-42 Ayns y chione shen lesh y chrackan glass
+40 er chur er bun y chied nheeghyn aalin shen;
+41 myr shen dy row mee erbee dy yannoo dooys
+42 mychione y chialg dy row crauee eck
 
-43 Traa yn imbagh as y imbil aalin;
-44 Agh cha nee myr shen nagh jinnagh aggle orrym
-45 Ec y raad shoh my haink er my enney.
+43 yn oor jeh'n traa as y traa aalin;
+44 agh cha row eh shen dy vel mee erbee erbee
+45 rish y chiarail va hooar mee jeh lhione.
 </result>
 </query>
 <query>
@@ -213,14 +248,14 @@ Please translate each line literally into Manx.
 48 sì che parea che l’aere ne tremesse.
 </prompt>
 <result>
-46 Va'n fer shen er-çheu dy heet orrym
-47 Marish y chione er-jerrey as accan feer gharroo,
-48 Myr shen va'n aer er-çheu dy chraa.
+46 Va'n cosoylagh shen dy row eh çheet mygeayrt
+47 marish y chione er yrjid as y ghuttyn feohanagh,
+48 myr shen dy row eh cosoylagh dy row yn aer çheet er.
 </result>
 </query>
 <query>
 <info>[Inferno Canto 1] 49/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Manx.
 
 49 Ed una lupa, che di tutte brame
@@ -231,22 +266,13 @@ Please translate each line literally into Manx.
 53 con la paura ch’uscia di sua vista,
 54 ch’io perdei la speranza de l’altezza.
 </prompt>
-<error result="true">
-Response too long: 4769
+<error>
+Response too long: (5115 &amp;gt; 831)
 </error>
-<result>
-49 Ashoh, ashoon, vaaish vagh erbee,
-50 Vaarey lhieen rish y chree er-ash dy brastyl,
-51 Ashoh, t'er ny smoo dy velgey erbee,
-
-52 Hug eh my chree rish e aggle
-53 Vagh vaink eh ass e sooillyn,
-54 Ashoh, hug mee er-ash dy ve er-ash dy gholl.
-</result>
 </query>
 <query>
 <info>[Inferno Canto 1] 55/136</info>
-<prompt>
+<prompt retry="true">
 Please translate each line literally into Manx.
 
 55 E qual è quei che volontieri acquista,
@@ -257,14 +283,17 @@ Please translate each line literally into Manx.
 59 che, venendomi ’ncontro, a poco a poco
 60 mi ripigneva là dove ’l sol tace.
 </prompt>
+<error result="true">
+Response too long: (5456 &amp;gt; 894)
+</error>
 <result>
-55 Ashoh, myr ta myr shen ta coinaghtyn dy mie,
-56 Ashoh, as ta’n traa er jeet dy vel eh,
-57 Ashoh, ta’n fer shen goaill stiagh as brishey e chree;
+55 As'eshyn ta hooar dy mie lesh aigney,
+56 as'tayn y traa dy choayl eh,
+57 ta'n skeeal ayn jannoo eh geayney as brishey;
 
-58 Myr shen hug y beisht shen my chree dy vel,
-59 Ashoh, myr haink eh my hiaccys, beagyn-beagyn,
-60 Hug eh my reesht gys y raad nagh vel y ghrian dy gheddyn.
+58 myr shen ren mee yn beisht gyn shee,
+59 tra ren eh orrym, beagyn beg,
+60 as ren eh my chroghey erash dy vel y ghrian jannoo foill.
 </result>
 </query>
 <query>
@@ -277,9 +306,9 @@ Please translate each line literally into Manx.
 63 chi per lungo silenzio parea fioco.
 </prompt>
 <result>
-61 Myr vaink mee sheese gys ynnyd injil,
-62 Haink fer my hiaccys, ashoh, vaarey va dooghyssit,
-63 Ashoh, myr vaarey va er-ash dy loayrt er son traa foddey.
+61 Myr vaink mee sheese 'sy valley,
+62 haink fer my raad roish my hooillyn,
+63 va jeantys myr v'eh erreeish liorish y cheeilley.
 </result>
 </query>
 <query>
@@ -292,9 +321,9 @@ Please translate each line literally into Manx.
 66 «qual che tu sii, od ombra od omo certo!».
 </prompt>
 <result>
-64 Myr honnick mee eh 'sy çheet dy vel,
-65 «Myrree orrym», ghreeg mee huggey,
-66 «Cre'er erbee oo, boddagh ny dooinney dy firrinagh!».
+64 Tra hooar mee eh 'sy çheet mooar,
+65 «Myrreeys orrym», ghreeg mee rish,
+66 «quoi erbee's dy vel oo, bodjal ne dooinney!».
 </result>
 </query>
 <query>
@@ -307,9 +336,9 @@ Please translate each line literally into Manx.
 69 mantoani per patrïa ambedui.
 </prompt>
 <result>
-67 Doort eh rhym: «Cha nel mee dooinney, va mee dooinney kied,
-68 Ashoh, va my ayr as my voir Lombardaagh,
-69 Ashoh, va ad nyn ghooie hene Mantovanee».
+67 Doort eh rhym: «Cha nel mee dooinney nish, dooinney va mee,
+68 as va my ayr as my voir Lombardaagh,
+69 as va Mantovanee ynnyd ruggym».
 </result>
 </query>
 <query>
@@ -323,8 +352,8 @@ Please translate each line literally into Manx.
 </prompt>
 <result>
 70 Ruggyms fo Iulius, ga dy row eh jeianagh,
-71 Ashoh, va mee cummal ayns Rome fo’n Augustus mie,
-72 Ayns traa ny jeeghyn breagagh as ny lhiabbaghyn.
+71 as va mee cummal 'sy Rome fo'n Augustus mie,
+72 'sy traa dy vel ny jeeghyn breagagh as loayr.
 </result>
 </query>
 <query>
@@ -337,9 +366,9 @@ Please translate each line literally into Manx.
 75 poi che ’l superbo Ilïón fu combusto.
 </prompt>
 <result>
-73 Va mee ny vardagh, as ren mee arrane er y fer coir,
-74 Mac Anchise, vaink eh ass Troia,
-75 Lurg dy row yn Ilïón mooar lostey.
+73 Va mee ny vard, as ren mee goaill rish y dooinney cair,
+74 mac Anchise, haink veih Troia,
+75 lurg dy row yn Ilïón mooar lostey.
 </result>
 </query>
 <query>
@@ -352,9 +381,9 @@ Please translate each line literally into Manx.
 78 ch’è principio e cagion di tutta gioia?».
 </prompt>
 <result>
-76 Agh cre'n fa dy vel oo reesht gys y chreeaght shen?
-77 Cre'n fa nagh vel oo goll seose er y slieau taitnyssagh,
-78 T'eh toshiaght as bunnys dagh ooilley boggey?».
+76 Agh quoi er son dy vel oo çheet erash dy choayl shoh?
+77 Quoi er son nagh vel oo goll seose er y slieau taitnyssagh
+78 t'eh toshiaght as bunnys dagh ooilley boggey?».
 </result>
 </query>
 <query>
@@ -367,9 +396,9 @@ Please translate each line literally into Manx.
 81 rispuos’ io lui con vergognosa fronte.
 </prompt>
 <result>
-79 «Vel oo shen y Virgil shen as y tobar shen,
-80 Ta cur magh awin cho lieh dy loayrt?»,
-81 Doort mee huggey lesh eddin mygeayrt.
+79 «Vel oo shen yn Virgil shen as y tobar shen
+80 ta cur sheese awin choh mooar dy loayrt?»,
+81 doort mee rish, my eddin lhieggit fo nearey.
 </result>
 </query>
 <query>
@@ -382,9 +411,9 @@ Please translate each line literally into Manx.
 84 che m’ha fatto cercar lo tuo volume.
 </prompt>
 <result>
-82 «O onnor as soilshey da ny bardaghyn elley,
-83 Lhig da’n studeyrys liauyr as y ghaue mooar,
-84 Ta’n er n’yannoo dy hirrey er dty lioar.
+82 «O onnor as soilshey ny bardyn elley,
+83 cur lhiam yn studeyrys liauyr as y ghaue mooar
+84 ta currit orrym dy hirrey yn lioar ayd».
 </result>
 </query>
 <query>
@@ -396,36 +425,10 @@ Please translate each line literally into Manx.
 86 tu se’ solo colui da cu’ io tolsi
 87 lo bello stilo che m’ha fatto onore.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "85 Oo ta my ynseyder as my screeudeyr,\n86 Oo ta yn fer ayninnagh va mee goaill eie jeh,\n87 Y stoyl aalin ta’n er n’yannoo onnor dou."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-85 Oo ta my ynseyder as my screeudeyr,
-86 Oo ta yn fer ayninnagh va mee goaill eie jeh,
-87 Y stoyl aalin ta’n er n’yannoo onnor dou.
+85 Oo’s my ynseyder as my screeudeyr,
+86 oo’s ynrican dy ren mee er ny ghaa,
+87 yn aght obbyr vie jeh my ren enmyssit.
 </result>
 </query>
 <query>
@@ -438,9 +441,9 @@ Please translate each line literally into Manx.
 90 ch’ella mi fa tremar le vene e i polsi».
 </prompt>
 <result>
-88 Jean feyshtyn rish y beisht va mee er n’yannoo chyndaa;
-89 Cooin mee veih, o ghooinney creeney ennoil,
-90 Ta mee craa as my lhiattaghyn dy chree er-ash.
+88 Jeeagh er y beisht ren mee çhyndagh;
+89 cabbyr mee veih, oo ynseyder ainmitçhagh,
+90 er e jannoo my chree as my lhieggan çeeaghyn».
 </result>
 </query>
 <query>
@@ -460,44 +463,18 @@ Please translate each line literally into Manx.
 98 che mai non empie la bramosa voglia,
 99 e dopo ’l pasto ha più fame che pria.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "91 «Ta feme dy gholl raad elley»,\n92 Doort eh, lurg dy honnick eh mee geayrt,\n93 «My ta oo aagail dy scapail ass y çheet dy vel shen;\n\n94 Son y beisht shen, t’ou geamagh er,\n95 Cha lhig ee dooinney elley dy gholl t’ee raad,\n96 Agh ta ee cur sheese eh as dy choyrt eh gy baase;\n\n97 As ta cree er-ash cho olk as cho mee-chrauee,\n98 Nagh vel ee rieau dy lhieeney e shennaghys,\n99 As lurg y bee, ta ny smoo shennaghys eck na roish»."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-91 «Ta feme dy gholl raad elley»,
-92 Doort eh, lurg dy honnick eh mee geayrt,
-93 «My ta oo aagail dy scapail ass y çheet dy vel shen;
+91 «Ta feme dy ghoaill raad elley»,
+92 dooyrt eh, lurg dy vel eh mee geayrt,
+93 «my smooinagh oo çheet ass y çheer aashagh shoh;
 
-94 Son y beisht shen, t’ou geamagh er,
-95 Cha lhig ee dooinney elley dy gholl t’ee raad,
-96 Agh ta ee cur sheese eh as dy choyrt eh gy baase;
+94 son y beisht shoh, t’ou geamagh er,
+95 cha lhig ee rish dooinyn elley goll er e raad,
+96 agh t’ee cur roishyn as t’ee marroo ad.
 
-97 As ta cree er-ash cho olk as cho mee-chrauee,
-98 Nagh vel ee rieau dy lhieeney e shennaghys,
-99 As lurg y bee, ta ny smoo shennaghys eck na roish».
+97 As ta deiney aynjee myr shenjee as myr shen,
+98 nagh vel rieau cooilleenit liorish y ghraih,
+99 as lurg y vea, ta ny smoo geayrt aynjee.»
 </result>
 </query>
 <query>
@@ -511,8 +488,8 @@ Please translate each line literally into Manx.
 </prompt>
 <result>
 100 Ta ymmodee beishtyn ry hoiaghey rish,
-101 Ashoh, bee ny smoo foast, derrey hig y veltro,
-102 Ashoh, nee eh ee dy baase lesh pian.
+101 as bee ny smoo foast, derrey hig y veltro
+102 as goll eh ee dy baase lesh pian.
 </result>
 </query>
 <query>
@@ -525,9 +502,9 @@ Please translate each line literally into Manx.
 105 e sua nazion sarà tra feltro e feltro.
 </prompt>
 <result>
-103 Cha bee eh gee eirinee ny argid,
-104 Agh creeneydys, graih as mie-churrym,
-105 Ashoh, bee e ashoon eddyr feltro as feltro.
+103 Cha bee eh gee thalloo ny argid,
+104 agh tushtey, graih as vertu,
+105 as bee e thalloo eddyr filley as filley.
 </result>
 </query>
 <query>
@@ -540,9 +517,9 @@ Please translate each line literally into Manx.
 108 Eurialo e Turno e Niso di ferute.
 </prompt>
 <result>
-106 Vees eh yn slayntys da’n Iddaal injil shen,
-107 Va’n moir Cammilla er n’yiool er e son,
-108 Ashoh, va Eurialo as Turno as Niso er nyn ngortey.
+106 Veih'n Iddaal injil shen bee'n saualtys
+107 raad hooar y vooirg Cammilla baase,
+108 Eurialo as Turno as Niso liorish goartyn.
 </result>
 </query>
 <query>
@@ -555,9 +532,9 @@ Please translate each line literally into Manx.
 111 là onde ’nvidia prima dipartilla.
 </prompt>
 <result>
-109 Nee eh ee dy shelg ayns dagh balley,
-110 Derrey nee eh currit ee reesht gys yn Ifarn,
-111 Ynnyd va’n doilleeaght er n’yiool dy chur ee ersooyl.
+109 Bee eh currit ee trooid çheeraghyn,
+110 derrey vees eh currit ee stiagh 'syn Ifarn,
+111 raad hooar yn envy yn chied cheayrt ee.
 </result>
 </query>
 <query>
@@ -578,17 +555,16 @@ Please translate each line literally into Manx.
 120 quando che sia a le beate genti.
 </prompt>
 <result>
-112 Ashoh, ta mee smooinaghtyn as ta mee er n’yannoo soilshaghey er dty hon,
-113 Dy vel oo my hiaccys, ashoh, bee’m dty leeideyr,
-114 Ashoh, nee’m dy chur ort veih shoh trooid ynnyd shassooagh;
+112 Myr shen, ta mee smooinaghtyn as ta mee cur tastey
+113 dy vel oo er my eiyrt, as bee'm dty leeideyr,
+114 as troggam oo veih shoh trooid ynnydyn shassooagh;
 
-115 Raad nagh vel oo clashtyn ny geamaghyn dy aghin,
-116 Raad nagh vel oo fakin ny spyrrydyn shenn dy chreeaghyn,
-117 Raad ta dagh fer dy geamagh er y nah vaynt;
+115 raad hooar oo clashtyn ny geamaghyn anveagh,
+116 as hee'r oo ny spyrrydyn shenn treihys,
+117 ta gagh unnane geammagh er yn nah vaynt;
 
-118 Ashoh, raad nagh vel oo fakin ny ta boggoil
-119 Ayns y aile, er-yn-oyr dy vel nyn ghoill dy heet
-120 Traa erbee gys ny sleih vannee.
+118 as hee'r oo adsyn ta sooilley ayns y aile,
+119 er yn oyr dy vel ad jannoo nyn gys y sleih vannee.
 </result>
 </query>
 <query>
@@ -605,13 +581,13 @@ Please translate each line literally into Manx.
 126 non vuol che ’n sua città per me si vegna.
 </prompt>
 <result>
-121 Ashoh, my nee oo aarloo goll seose gys shen,
-122 Bee’n annym ny smoo feeu dy shen na mish:
-123 Nee’m dy faagail ort lesh e tra my ayr;
+121 My smooinagh oo er nyn geearree,
+122 bee ayn spyrryd ny smoo feeu dy yannoo shen:
+123 lhigim oo foast eck tra my haglym;
 
-124 Er-yn-oyr dy va mee er n’yannoo erskyn er y reiltys shen ta reill shassoo,
-125 Er-yn-oyr dy va mee er n’yannoo erskyn er y reiltys shen ta reill shassoo,
-126 Cha vel eh aarloo dy jig mee stiagh gys e chaayr.
+124 son yn impir shen ta reill heose,
+125 er yn oyr dy row mee neulhoostey rish e leigh,
+126 cha vaik eh dy vel mee çheet stiagh 'syn ard-valley echey.
 </result>
 </query>
 <query>
@@ -624,9 +600,9 @@ Please translate each line literally into Manx.
 129 oh felice colui cu’ ivi elegge!».
 </prompt>
 <result>
-127 Ta eh dy reill ayns dagh ynnyd as dy reill ayns shoh;
-128 Shoh ynnyd e chaayr as e ynnyd ard-reill;
-129 O slane yn fer ta goit e reih ayns shen!».
+127 Ta eh reill as stiurey ayns dagh çheer;
+128 she shoh yn ard-valley as y chiarn-volley echey:
+129 oh sniemmar yn fer ta goaill e raad ayn!
 </result>
 </query>
 <query>
@@ -642,14 +618,40 @@ Please translate each line literally into Manx.
 134 sì ch’io veggia la porta di san Pietro
 135 e color cui tu fai cotanto mesti».
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "130 As mish rish: «Bard, ta mee guee jeed ort\n131 liorish y Jee nagh vel fys ayd,\n132 dy voddym shaghney ass y droghys as ny smessey shoh,\n\n133 as dy vod uss mish gys y raad ren oo gra dy jarroo,\n134 dy voddym jeeaghney er geurey Noo Petyr\n135 as er y sleih ren oo cur trome-creeney»."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-130 Ashoh, doort mee huggey: «O vardagh, ta mee dy yannoo aghin ort,
-131 Er-yn-oyr y Jee nagh vel fys ayd,
-132 Dy vel mee dy gheddyn ersooyl veih shoh as veih ny smoo er-chee,
+130 As mish rish: «Bard, ta mee guee jeed ort
+131 liorish y Jee nagh vel fys ayd,
+132 dy voddym shaghney ass y droghys as ny smessey shoh,
 
-133 Dy vel oo my chur gys y raad va oo dy ghra myr shoh,
-134 Dy vel mee dy akin y ghiare dy Pher Veyr
-135 Ashoh, ny ta oo dy yannoo cha trimshagh».
+133 as dy vod uss mish gys y raad ren oo gra dy jarroo,
+134 dy voddym jeeaghney er geurey Noo Petyr
+135 as er y sleih ren oo cur trome-creeney».
 </result>
 </query>
 <query>
@@ -660,7 +662,7 @@ Please translate each line literally into Manx.
 136 Allor si mosse, e io li tenni dietro.
 </prompt>
 <result>
-136 Eisht hug eh er n’immeeaght, ashoh, va mee er n’yiool.
+136 Eisht hie eh, as ren mee er ash.
 </result>
 </query>
 </queries>

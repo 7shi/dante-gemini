@@ -16,11 +16,11 @@ Please translate each line literally into Japanese.
 <result>
 1 「ああ、聖なる川を渡ったあなたよ」
 2 鋭い言葉で私に語りかけながら
-3 以前は私には難解に思えたその言葉で
+3 以前は私には難解に思えた言葉で
 
-4 ためらうことなく続けながら、
-5 「言いなさい、言いなさい、これが真実かどうかを。その重大な非難には
-6 あなたの告白が伴わなければならないのです」
+4 ためらうことなく続けながら
+5 「言いなさい、言いなさい、これは本当ですか。その重大な非難には
+6 あなたの告白が伴わなければなりません」
 </result>
 </query>
 <query>
@@ -32,10 +32,36 @@ Please translate each line literally into Japanese.
 8 che la voce si mosse, e pria si spense
 9 che da li organi suoi fosse dischiusa.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "7 私の美徳はあまりにも混乱していて\n8 声は動き出し、消え去る前に\n9 その器官から発せられた"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-7 私の美徳はあまりにも混乱しており、
-8 声は発せられたが、消え去ってしまった
-9 その声帯から発せられる前に。
+7 私の美徳はあまりにも混乱していて
+8 声は動き出し、消え去る前に
+9 その器官から発せられた
 </result>
 </query>
 <query>
@@ -48,9 +74,9 @@ Please translate each line literally into Japanese.
 12 in te non sono ancor da l’acqua offense».
 </prompt>
 <result>
-10 彼は少しの間我慢したが、それから言った。「何を考えているのか？
+10 少しの間、苦しんだ後、彼は言った。「何を考えているのか？
 11 答えなさい。なぜなら、悲しい記憶は
-12 まだ水によってあなたの中で傷つけられていないからです」
+12 まだ水によって消されていないからです」
 </result>
 </query>
 <query>
@@ -64,8 +90,8 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 13 混乱と恐怖が入り混じって
-14 私の口から「はい」という言葉を引き出したが、
-15 それを理解するには、表情を見なければならなかった。
+14 私の口から「はい」という言葉を引き出し
+15 その意味を理解するには、見る必要があった
 </result>
 </query>
 <query>
@@ -82,12 +108,13 @@ Please translate each line literally into Japanese.
 21 e la voce allentò per lo suo varco.
 </prompt>
 <result>
-16 弓が引きすぎると、矢を放ったときに弓と弦が折れるように、
-17 矢は勢いを失い、的に届く
+16 弓が引きすぎると、矢を放ったとき
+17 弦と弓が折れてしまい
+18 矢は勢いよく的に届かない
 
-18 私は重荷の下で爆発し、
-19 涙と溜息が流れ出し、
-21 声は喉の奥から弱々しく漏れた。
+19 私も重い荷物の下で爆発し
+20 涙と溜息が流れ出し
+21 声は喉の奥から弱々しく漏れた
 </result>
 </query>
 <query>
@@ -108,16 +135,17 @@ Please translate each line literally into Japanese.
 30 per che dovessi lor passeggiare anzi?».
 </prompt>
 <result>
-22 そこで彼女は私に言った。「私の望みの中で、
-23 あなたを善を愛するように導いた望みの中で、
-24 その善を超えては何も望むべきものはないが、
+22 そこで彼女は私に言った。「私の望みの中で
+23 あなたを善を愛するように導いた
+24 その善を超えるものはない
 
-25 あなたはどのような森を抜け、どのような鎖を
-26 見つけたのか？そのために、希望を捨てて前に進むことを
-27 あきらめなければならなかったのか？
+25 どんな障害や鎖を
+26 あなたは通り抜け、希望を捨てて
+27 前に進まなければならなかったのか？
 
-28 そして、他の者たちの額にはどのような容易さや利点が
-29 示されていたのか？そのために、あなたは彼らの前を歩かなければならなかったのか？」
+28 そして、他の者たちの額には
+29 どんな容易さや利点が見えたのか？
+30 あなたが彼らの前を歩かなければならなかったのはなぜなのか？」
 </result>
 </query>
 <query>
@@ -130,8 +158,8 @@ Please translate each line literally into Japanese.
 33 e le labbra a fatica la formaro.
 </prompt>
 <result>
-31 苦い溜息をついた後、
-32 私はやっと声を出して答えることができ、
+31 苦い溜息の後、
+32 やっと私は答える声を得て、
 33 唇は辛うじてそれを形作った。
 </result>
 </query>
@@ -146,8 +174,8 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 34 私は泣きながら言った。「現在のものたちは
-35 その偽りの快楽で私の歩みを奪い、
-36 あなたの顔が隠れたとたんに」
+35 その偽りの快楽で私の歩みを誘い、
+36 あなたの顔が隠れた途端だった」
 </result>
 </query>
 <query>
@@ -164,11 +192,12 @@ Please translate each line literally into Japanese.
 42 rivolge sé contra ’l taglio la rota.
 </prompt>
 <result>
-37 彼女は言った。「もしあなたが黙ったり、否定したりしても
-38 あなたが告白したことは、それほど知られていないわけではないでしょう。そのような裁判官から石を投げられるのです！
+37 彼女は言った。「もしあなたが黙ったり否定したりしても
+38 あなたが告白したことは、それによってより知られることはないでしょう。なぜなら、そのような裁判官は石だから！
 
-39 しかし、罪の告発が自分の口から飛び出すとき、私たちの法廷では
-40 車輪は刃に向かって回転するのです。
+39 しかし、罪の告発が自分の口から出たとき、
+40 私たちの法廷では
+41 車輪は刃に向かって回転する。
 </result>
 </query>
 <query>
@@ -185,11 +214,13 @@ Please translate each line literally into Japanese.
 48 mover dovieti mia carne sepolta.
 </prompt>
 <result>
-43 しかし、なぜあなたは自分の過ちを恥じ、なぜ今度は
-44 セイレーンたちの歌を聞いて、より強くなるのか？
+43 しかし、なぜあなたは今、
+44 自分の過ちを恥じ、そして今度こそ、
+45 セイレーンたちの歌を聞いても、より強くあるために、
 
-45 泣くのをやめて、聞きなさい。
-46 そうすれば、私の埋葬された肉体がどのようにして反対の方向に動くべきかを聞くでしょう。
+46 泣くのをやめて、聞きなさい。
+47 そうすれば、私の埋葬された肉体が
+48 どのようにして反対の方向に動かなければならないか、あなたは聞くでしょう。
 </result>
 </query>
 <query>
@@ -210,12 +241,17 @@ Please translate each line literally into Japanese.
 57 di retro a me che non era più tale.
 </prompt>
 <result>
-49 自然も芸術も、私が閉じ込められていた美しい肢体ほど、あなたに喜びをもたらすことはなかったでしょう。そして、それが地上に散らばっているのです。
+49 自然も芸術も、かつてあなたに
+50 私が閉じ込められていた、そして地上に散らばっているこの美しい肢体ほど
+51 喜びをもたらすものはなかった
 
-50 そして、私の死によってその至上の喜びがあなたから失われたとしたら、死すべきどのようなものがその後、あなたをその欲望に引き込むことができたでしょうか？
+52 もし私の死によって至上の喜びが失われたのなら、
+53 この世のいかなるものが
+54 その後あなたをその欲望に引きずり込むことができたのか？
 
-51 偽りのものの最初の矢によって、あなたは立ち上がるべきでした。
-52 それはもはやそのようなものではなかった私を追いかけて。
+55 最初の矢、
+56 偽りのものの矢によって、あなたは当然
+57 もはやそのようなものではなかった私の後に続いて、立ち上がるべきだった
 </result>
 </query>
 <query>
@@ -228,7 +264,12 @@ Please translate each line literally into Japanese.
 60 o altra novità con sì breve uso.
 </prompt>
 <result>
-58 あなたは、もう一撃を待ったり、幼い少女や、あるいは他の新しいものとそのように短い付き合いをするために、翼を下ろすことに重荷を感じるべきではありませんでした。
+58 あなたは、もう一撃を待ったり、
+59 幼い娘よ、あるいは他の新しいものへの慣れがまだ浅いからといって、
+60 翼を下ろして留まるべきではなかった
+
+（意訳）
+あなたは、もう一撃を待ったり、幼い娘よ、あるいは他の新しいものへの慣れがまだ浅いからといって、翼を下ろして留まるべきではなかった
 </result>
 </query>
 <query>
@@ -241,8 +282,12 @@ Please translate each line literally into Japanese.
 63 rete si spiega indarno o si saetta».
 </prompt>
 <result>
-61 新しい小鳥は二、三羽を待つでしょう。
-62 しかし、翼のあるものの目の前では、網を張ったり、矢を放っても無駄です。
+61 新しい小鳥は二羽か三羽待つだろう
+62 だが、鳥たちの目の前では
+63 網を広げても、矢を放っても無駄だ
+
+（意訳）
+新しい小鳥は二羽か三羽待つだろうが、鳥たちの目の前では、網を広げても、矢を放っても無駄だ
 </result>
 </query>
 <query>
@@ -259,10 +304,14 @@ Please translate each line literally into Japanese.
 69 e prenderai più doglia riguardando».
 </prompt>
 <result>
-64 恥ずかしそうに、口を閉ざしたまま、子供たちが地面を見つめて立ち尽くし、
-65 耳を傾け、自分自身を認識し、悔い改めるとき、
+64 恥ずかしがって黙り込み、
+65 子供たちがうつむいて立ち、
+66 自分の過ちを認め、悔いているように、
 
-66 私はそのような状態にありました。彼女は言いました。「聞くことで悲しんでいるなら、顔を上げなさい。そして、見ることでさらに悲しみが増すでしょう。」
+67 私もそのようにしていた。すると彼女は言った。「聞くことで苦しんでいるのなら、顔を上げなさい。そうすれば、見ることでさらに苦しむことになるでしょう」。
+
+（意訳）
+恥ずかしがって黙り込み、子供たちがうつむいて立ち、自分の過ちを認め、悔いているように、私もそのようにしていた。すると彼女は言った。「聞くことで苦しんでいるのなら、顔を上げなさい。そうすれば、見ることでさらに苦しむことになるでしょう」。
 </result>
 </query>
 <query>
@@ -279,10 +328,16 @@ Please translate each line literally into Japanese.
 75 ben conobbi il velen de l’argomento.
 </prompt>
 <result>
-70 力強い樫の木が、私たちの風によって、あるいはヤルバの地の風によって、より少ない抵抗で根こそぎにされるように、
+70 頑丈な樫の木でさえ、
+71 私たちの風であろうと、
+72 あるいはヤルバの地の風であろうと、
+73 それほど抵抗することなく皮を剥がれる
 
-71 私は彼女の命令に顎を持ち上げました。そして、彼女が顎ではなく顔を求めたとき、
-72 私はその議論の毒をよく理解しました。
+74 そして彼女が顎を上げるように求めたとき、
+75 私はその言葉の毒をよく知っていた
+
+（意訳）
+頑丈な樫の木でさえ、私たちの風であろうと、あるいはヤルバの地の風であろうと、それほど抵抗することなく皮を剥がれる。そして彼女が顎を上げるように求めたとき、私はその言葉の毒をよく知っていた。
 </result>
 </query>
 <query>
@@ -299,11 +354,15 @@ Please translate each line literally into Japanese.
 81 ch’è sola una persona in due nature.
 </prompt>
 <result>
-76 そして、私の顔が伸びると、
-77 最初の生き物たちが、彼らの散水によって、私の目は理解しました。
+76 そして私の顔が落ち着いたとき、
+77 最初の生き物たちが降りてきて、
+78 私の目は彼らの振りまく水しぶきを捉えた
 
-78 そして、まだあまり確信を持てなかった私の目は、
-79 ベアトリーチェが、二つの性質を持つ唯一の存在である獣の上を向いているのを見ました。
+79 そしてまだあまり確かではない私の視力は、
+80 ベアトリーチェが、二つの性質を持つ唯一の存在である野獣の上を向いているのを見た
+
+（意訳）
+そして私の顔が落ち着いたとき、最初の生き物たちが降りてきて、私の目は彼らの振りまく水しぶきを捉えた。そしてまだあまり確かではない私の視力は、ベアトリーチェが、二つの性質を持つ唯一の存在である野獣の上を向いているのを見た。
 </result>
 </query>
 <query>
@@ -319,7 +378,7 @@ Please translate each line literally into Japanese.
 index: 0
 content {
   parts {
-    text: "82 彼女のベールの下で、そして川の向こうで、\n83 彼女は以前の自分自身よりも、そして彼女がここにいたときよりも、他の者たちよりも優れているように私には思われます。"
+    text: "82 ベールの下で、そして川の向こうで、\n83 彼女はかつての自分よりも美しく、\n84 彼女がここにいたときよりも他の者たちを凌駕しているように思えた\n\n（意訳）\nベールの下で、そして川の向こうで、彼女はかつての自分よりも美しく、彼女がここにいたときよりも他の者たちを凌駕しているように思えた。"
   }
   role: "model"
 }
@@ -342,8 +401,12 @@ safety_ratings {
 }
 </error>
 <result>
-82 彼女のベールの下で、そして川の向こうで、
-83 彼女は以前の自分自身よりも、そして彼女がここにいたときよりも、他の者たちよりも優れているように私には思われます。
+82 ベールの下で、そして川の向こうで、
+83 彼女はかつての自分よりも美しく、
+84 彼女がここにいたときよりも他の者たちを凌駕しているように思えた
+
+（意訳）
+ベールの下で、そして川の向こうで、彼女はかつての自分よりも美しく、彼女がここにいたときよりも他の者たちを凌駕しているように思えた。
 </result>
 </query>
 <query>
@@ -356,8 +419,13 @@ Please translate each line literally into Japanese.
 87 più nel suo amor, più mi si fé nemica.
 </prompt>
 <result>
-85 そこでイラクサが私を悔い改めさせ、
-86 他のすべてのものの中で、私を最もその愛に引き込んだものが、私を最も敵対視するようになりました。
+85 そこでイラクサが私を刺したので、
+86 他のすべてのものの中で、
+87 最も私の愛を引き寄せたものが、
+88 最も私の敵となった
+
+（意訳）
+そこでイラクサが私を刺したので、他のすべてのものの中で、最も私の愛を引き寄せたものが、最も私の敵となった。
 </result>
 </query>
 <query>
@@ -370,8 +438,12 @@ Please translate each line literally into Japanese.
 90 salsi colei che la cagion mi porse.
 </prompt>
 <result>
-88 そんな感謝の念が私の心を噛み締め、
-89 私は打ち負かされて倒れました。そして、そのとき私がどうなったのか、その原因を与えてくれた彼女は知っています。
+88 私はとても感謝の念に駆られ、
+89 屈服して倒れてしまった。そしてそのとき私がどうなったのか、
+90 その原因を与えてくれた彼女は知っていた
+
+（意訳）
+私はとても感謝の念に駆られ、屈服して倒れてしまった。そしてそのとき私がどうなったのか、その原因を与えてくれた彼女は知っていた。
 </result>
 </query>
 <query>
@@ -387,7 +459,7 @@ Please translate each line literally into Japanese.
 index: 0
 content {
   parts {
-    text: "91 それから、心が私に外的な力を与えてくれたとき、\n92 私が一人で出会った女性が、私の上に立って、「私を抱きしめて、抱きしめて！」と言いました。"
+    text: "91 それから、私の心が外から力を得たとき、\n92 私が一人で見つけた女性が\n93 私の上にいて、「私を抱きしめて、抱きしめて！」と言っていた\n\n（意訳）\nそれから、私の心が外から力を得たとき、私が一人で見つけた女性が私の上にいて、「私を抱きしめて、抱きしめて！」と言っていた。"
   }
   role: "model"
 }
@@ -410,8 +482,12 @@ safety_ratings {
 }
 </error>
 <result>
-91 それから、心が私に外的な力を与えてくれたとき、
-92 私が一人で出会った女性が、私の上に立って、「私を抱きしめて、抱きしめて！」と言いました。
+91 それから、私の心が外から力を得たとき、
+92 私が一人で見つけた女性が
+93 私の上にいて、「私を抱きしめて、抱きしめて！」と言っていた
+
+（意訳）
+それから、私の心が外から力を得たとき、私が一人で見つけた女性が私の上にいて、「私を抱きしめて、抱きしめて！」と言っていた。
 </result>
 </query>
 <query>
@@ -424,8 +500,9 @@ Please translate each line literally into Japanese.
 96 sovresso l’acqua lieve come scola.
 </prompt>
 <result>
-94 彼は私を首まで川に引きずり込み、
-95 そして私を引きずりながら、水の上を滑るように進んでいきました。
+94 彼は私を川の中で首まで引きずり込み、
+95 そして私を引きずりながら進んでいった
+96 水の上をまるで矢のように素早く。
 </result>
 </query>
 <query>
@@ -438,9 +515,9 @@ Please translate each line literally into Japanese.
 99 che nol so rimembrar, non ch’io lo scriva.
 </prompt>
 <result>
-97 私が祝福された岸に近づいたとき、
-98 「アスペルジェス・ミー」という言葉をとても甘く聞きました。
-99 それを書くどころか、思い出すことさえできません。
+97 私が祝福された岸辺に近づいたとき、
+98 「アスペルジェス・ミー（私を清めよ）」という言葉をとても甘美に聞いたが、
+99 それを思い出すことも、ましてや書き記すこともできない。
 </result>
 </query>
 <query>
@@ -456,7 +533,7 @@ Please translate each line literally into Japanese.
 index: 0
 content {
   parts {
-    text: "100 美しい女性は腕を広げて私を抱きしめ、\n101 私の頭を抱きしめ、私が水を飲み込まなければならない場所に私を沈めました。"
+    text: "100 その美しい女性は腕を広げて、\n101 私の頭を抱きしめ、水の中に沈めた。\n102 そこで私は水を飲み込まなければならなかった。"
   }
   role: "model"
 }
@@ -467,11 +544,11 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
+  probability: NEGLIGIBLE
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
+  probability: NEGLIGIBLE
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -479,8 +556,9 @@ safety_ratings {
 }
 </error>
 <result>
-100 美しい女性は腕を広げて私を抱きしめ、
-101 私の頭を抱きしめ、私が水を飲み込まなければならない場所に私を沈めました。
+100 その美しい女性は腕を広げて、
+101 私の頭を抱きしめ、水の中に沈めた。
+102 そこで私は水を飲み込まなければならなかった。
 </result>
 </query>
 <query>
@@ -496,7 +574,7 @@ Please translate each line literally into Japanese.
 index: 0
 content {
   parts {
-    text: "103 それから彼は私を連れて行き、濡れたまま、四人の美女の輪舞の中に差し出しました。\n104 そして、それぞれが腕で私を覆いました。"
+    text: "103 それから彼は私を連れて行き、濡れたままの私を\n104 四人の美しい女性たちの輪舞の中に差し出した。\n105 そして彼女たちはそれぞれ私の腕を覆った。"
   }
   role: "model"
 }
@@ -519,8 +597,9 @@ safety_ratings {
 }
 </error>
 <result>
-103 それから彼は私を連れて行き、濡れたまま、四人の美女の輪舞の中に差し出しました。
-104 そして、それぞれが腕で私を覆いました。
+103 それから彼は私を連れて行き、濡れたままの私を
+104 四人の美しい女性たちの輪舞の中に差し出した。
+105 そして彼女たちはそれぞれ私の腕を覆った。
 </result>
 </query>
 <query>
@@ -533,9 +612,9 @@ Please translate each line literally into Japanese.
 108 fummo ordinate a lei per sue ancelle.
 </prompt>
 <result>
-106 「私たちはここでニンフであり、天では星です。
-107 ベアトリーチェが地上に降りる前に、
-108 私たちは彼女のために侍女として任命されました。
+106 「私たちはここでニンフとして、天では星として存在しています。
+107 ベアトリーチェが地上に降りてくる前に、
+108 私たちは彼女に仕える侍女として任命されました。
 </result>
 </query>
 <query>
@@ -547,11 +626,56 @@ Please translate each line literally into Japanese.
 110 lume ch’è dentro aguzzeranno i tuoi
 111 le tre di là, che miran più profondo».
 </prompt>
+<result>
+109 彼女の目は慈悲深い。しかし、内にある喜びの
+110 光の中で、向こうの3人はより深く見つめているので、
+111 あなたの目は鋭くなるだろう。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 31] 112/145</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+112 Così cantando cominciaro; e poi
+113 al petto del grifon seco menarmi,
+114 ove Beatrice stava volta a noi.
+</prompt>
+<result>
+112 彼らは歌いながらそう言い始め、それから
+113 グリフォンの胸元まで私を連れて行き、
+114 そこでベアトリーチェが私たちの方を向いていた。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 31] 115/145</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+115 Disser: «Fa che le viste non risparmi;
+116 posto t’avem dinanzi a li smeraldi
+117 ond’ Amor già ti trasse le sue armi».
+</prompt>
+<result>
+115 彼らは言った。「遠慮せずにしっかり見なさい。
+116 あなたをエメラルドの前に立たせました。
+117 かつてアモールがそこからあなたに武器を向けたのです。」
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 31] 118/145</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+118 Mille disiri più che fiamma caldi
+119 strinsermi li occhi a li occhi rilucenti,
+120 che pur sopra ’l grifone stavan saldi.
+</prompt>
 <error result="true">
 index: 0
 content {
   parts {
-    text: "109 彼女の目を楽しませなさい。しかし、内側にある楽しい\n110 光の中で、より深く見つめる向こうの三人はあなたの目を研ぎ澄ますでしょう。」"
+    text: "118 炎よりも熱い千もの欲望が\n119 私の目を輝く瞳に引き寄せ、\n120 瞳はグリフォンの上にしっかりと留まっていた。"
   }
   role: "model"
 }
@@ -574,51 +698,9 @@ safety_ratings {
 }
 </error>
 <result>
-109 彼女の目を楽しませなさい。しかし、内側にある楽しい
-110 光の中で、より深く見つめる向こうの三人はあなたの目を研ぎ澄ますでしょう。」
-</result>
-</query>
-<query>
-<info>[Purgatorio Canto 31] 112/145</info>
-<prompt>
-Please translate each line literally into Japanese.
-
-112 Così cantando cominciaro; e poi
-113 al petto del grifon seco menarmi,
-114 ove Beatrice stava volta a noi.
-</prompt>
-<result>
-112 彼らは歌いながら始めました。そして、
-113 それから私をグリフォンの胸元に連れて行き、
-114 そこでベアトリーチェが私たちの方を向いていました。
-</result>
-</query>
-<query>
-<info>[Purgatorio Canto 31] 115/145</info>
-<prompt>
-Please translate each line literally into Japanese.
-
-115 Disser: «Fa che le viste non risparmi;
-116 posto t’avem dinanzi a li smeraldi
-117 ond’ Amor già ti trasse le sue armi».
-</prompt>
-<result>
-115 彼らは言いました。「遠慮せずに見てください。
-116 愛がかつてその武器を引き抜いたエメラルドの前にあなたを立たせました。」
-</result>
-</query>
-<query>
-<info>[Purgatorio Canto 31] 118/145</info>
-<prompt>
-Please translate each line literally into Japanese.
-
-118 Mille disiri più che fiamma caldi
-119 strinsermi li occhi a li occhi rilucenti,
-120 che pur sopra ’l grifone stavan saldi.
-</prompt>
-<result>
 118 炎よりも熱い千もの欲望が
-119 私の目を、グリフォンの上にしっかりと留まっていた輝く目へと引き寄せました。
+119 私の目を輝く瞳に引き寄せ、
+120 瞳はグリフォンの上にしっかりと留まっていた。
 </result>
 </query>
 <query>
@@ -631,9 +713,9 @@ Please translate each line literally into Japanese.
 123 or con altri, or con altri reggimenti.
 </prompt>
 <result>
-121 鏡の中の太陽のように、
-122 二重の獣がその中で輝いていました。
-123 今は別のものと、今は別のものと、統治を共にしています。
+121 鏡に映る太陽のように、それと同じように
+122 二重の獣がその中に輝きを放ち、
+123 今は他のものと、今は他のものと統治を共にしていた。
 </result>
 </query>
 <query>
@@ -646,9 +728,9 @@ Please translate each line literally into Japanese.
 126 e ne l’idolo suo si trasmutava.
 </prompt>
 <result>
-124 読者よ、私が驚いたことを考えてみてください。
-125 そのものが静止しているのを見て、
-126 そしてそれがその偶像へと変容するのを見て。
+124 読者よ、私が驚いたことを考えてほしい、
+125 そのものが静かに立っているのを見て、
+126 そしてそれが自分の偶像へと変容するのを見て。
 </result>
 </query>
 <query>
@@ -667,11 +749,11 @@ Please translate each line literally into Japanese.
 <result>
 127 私の魂が驚きと喜びに満ちて、
 128 その食べ物を味わっていたとき、
-129 それは満たすことで、自分自身を渇望させます。
+129 それは満たすことで渇きを生み、
 
-130 より高い部族であることをその行為で示しながら、
-131 他の三人は前に出てきて、
-132 天使のような輪になって踊りました。
+130 より高貴な種族であることをその行為で示し、
+131 他の3つは前に出てきて、
+132 天使のような輪になって踊り始めた。
 </result>
 </query>
 <query>
@@ -688,12 +770,12 @@ Please translate each line literally into Japanese.
 138 la seconda bellezza che tu cele».
 </prompt>
 <result>
-133 「ベアトリーチェ、あなたの聖なる目を向けなさい」
-134 それは彼らの歌でした。「あなたに会うために、
-135 多くの歩みを進めたあなたの忠実な者に！
+133 「ベアトリーチェよ、あなたの聖なる目を向けてください」
+134 それはその歌だった、「あなたの忠実な者に、
+135 あなたを見るために、多くの歩みを進めてきた者に！
 
-136 あなたの恵みによって、あなたの口を彼に明らかにしてください。
-137 そうすれば、彼があなたが隠している第二の美しさを識別することができます。」
+136 あなたの恵みによって、あなたの口が彼に明らかにし、
+137 あなたが称える第二の美しさを識別できるようにしてください」
 </result>
 </query>
 <query>
@@ -712,14 +794,14 @@ Please translate each line literally into Japanese.
 145 quando ne l’aere aperto ti solvesti?
 </prompt>
 <result>
-139 永遠の生きた光の輝きよ、
-140 パルナッソスの影の下で、あるいはその貯水池で水を飲んだ人は、
-141 誰が青ざめた顔をしたでしょうか？
+139 ああ、永遠の生きた光の輝きよ、
+140 パルナッソスの影の下で青ざめ、
+141 またはその泉で飲んだ者は、
 
-142 あなたが天が調和してあなたを覆い隠す場所で、
-143 あなたがどのような姿であったかを表現しようとして、心が混乱していないように見えるでしょうか？
+142 あなたを表現しようとして、心が乱れていないように見えなかった、
+143 あなたが天があなたを覆う調和のとれた場所で現れたとき、
 
-144 あなたが澄んだ空気の中で姿を現したとき？
+144 あなたが空中に姿を現したとき？
 </result>
 </query>
 </queries>

@@ -10,9 +10,9 @@ Please translate each line literally into Korean.
 3 che da neun sentiero era segnato.
 </prompt>
 <result>
-1 네소가 아직 저쪽에 도착하기도 전에,
-2 우리는 길이 표시되어 있지 않은 숲으로 들어갔습니다.
-3 그 숲은 어떤 길도 표시되어 있지 않았습니다.
+1 네소스가 아직 저쪽에 도착하기도 전에,
+2 우리는 길이 표시되지 않은
+3 숲 속으로 들어섰다.
 </result>
 </query>
 <query>
@@ -25,9 +25,9 @@ Please translate each line literally into Korean.
 6 non pomi v’eran, ma stecchi con tòsco.
 </prompt>
 <result>
-4 푸른 잎사귀가 아니라 검은색 잎사귀였고,
-5 곧은 가지가 아니라 매듭지고 꼬인 가지였고,
-6 과일나무는 없었고 독이 있는 가시나무뿐이었습니다.
+4 푸른 잎사귀는 없고, 검은색이었고,
+5 곧은 가지는 없고, 매듭지어지고 꼬여 있었고,
+6 과일은 없고, 독이 있는 가시만 있었다.
 </result>
 </query>
 <query>
@@ -40,8 +40,9 @@ Please translate each line literally into Korean.
 9 tra Cecina e Corneto i luoghi cólti.
 </prompt>
 <result>
-7 체치나와 코르네토 사이의 경작지에서 사나운 야생동물들이 싫어하는 곳만큼이나 가시가 많고 울창한 덤불은 없습니다.
-8 그 야생동물들은 경작지가 싫어합니다.
+7 체치나와 코르네토 사이의 야생 짐승들이 싫어하는
+8 경작된 땅에 있는 가시나무도 그렇게 거칠고 울창하지 않다.
+9
 </result>
 </query>
 <query>
@@ -53,10 +54,36 @@ Please translate each line literally into Korean.
 11 che cacciar de le Strofade i Troiani
 12 con tristo annunzio di futuro danno.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "10 거기에는 추악한 하르피들이 둥지를 틀었는데,\n11 미래의 재앙을 슬픈 소식으로 알려주며\n12 트로이 사람들을 스트로파데스에서 쫓아냈다."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-10 그곳에 추악한 하르피들이 둥지를 틀었습니다.
-11 그들은 미래의 재앙에 대한 슬픈 소식으로 트로이 사람들을 스트로파데스에서 쫓아냈습니다.
-12 그들은 트로이 사람들을 미래의 재앙에 대한 슬픈 소식으로 스트로파데스에서 쫓아냈습니다.
+10 거기에는 추악한 하르피들이 둥지를 틀었는데,
+11 미래의 재앙을 슬픈 소식으로 알려주며
+12 트로이 사람들을 스트로파데스에서 쫓아냈다.
 </result>
 </query>
 <query>
@@ -69,9 +96,9 @@ Please translate each line literally into Korean.
 15 fanno lamenti in su li alberi strani.
 </prompt>
 <result>
-13 그들은 박쥐의 날개와 인간의 목과 얼굴을 가지고 있습니다.
-14 발에는 발톱이 있고 큰 배에는 깃털이 있습니다.
-15 그들은 이상한 나무들 위에서 통곡합니다.
+13 날개는 박쥐처럼 생겼고, 목과 얼굴은 인간처럼 생겼고,
+14 발에는 발톱이 있고, 큰 배에는 깃털이 있다.
+15 이상한 나무 위에서 신음소리를 낸다.
 </result>
 </query>
 <query>
@@ -86,9 +113,10 @@ Please translate each line literally into Korean.
 19 che tu verrai ne l’orribil sabbione.
 </prompt>
 <result>
-16 선량한 스승이 말했습니다. "더 들어가기 전에,
-17 네가 두 번째 지옥에 있다는 것을 알아라."
-18 "그리고 네가 끔찍한 모래사장에 도착할 때까지 거기에 있을 것이다."
+16 선량한 스승이 "더 들어가기 전에,
+17 네가 두 번째 지옥에 있다는 것을 알아라"고
+18 말씀하시기 시작하셨고, "네가
+19 끔찍한 모래밭에 도착할 때까지 계속될 것이다.
 </result>
 </query>
 <query>
@@ -105,11 +133,11 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 20 그러니 잘 살펴보라. 그러면
-21 내 말을 믿지 못할 만한 것들을 볼 것이다."
+21 내 말을 믿지 않을 만한 것들을 볼 것이다."
 
 22 나는 사방에서 신음소리가 나는 것을 들었지만
-23 그 소리를 내는 사람은 보이지 않았습니다.
-24 그래서 나는 완전히 길을 잃고 멈춰 섰습니다.
+23 그 소리를 내는 사람은 보이지 않았다.
+24 그래서 나는 완전히 당황하여 멈춰 섰다.
 </result>
 </query>
 <query>
@@ -122,9 +150,9 @@ Please translate each line literally into Korean.
 27 da gente che per noi si nascondesse.
 </prompt>
 <result>
-25 나는 그가 내가 믿는다고 믿었다고 생각합니다.
-26 그 많은 목소리가 우리를 피해 숨은 사람들로부터 나온다고.
-27 그 많은 목소리가 우리를 피해 숨은 사람들로부터 나온다고.
+25 나는 그가 내가 믿고 있다고 믿었을 것이라고 생각한다.
+26 그 많은 목소리가 우리를 피해 숨은 사람들로부터
+27 나뭇가지 사이에서 나온다는 것을.
 </result>
 </query>
 <query>
@@ -137,9 +165,9 @@ Please translate each line literally into Korean.
 30 li pensier c’hai si faran tutti monchi».
 </prompt>
 <result>
-28 그래서 스승이 말했습니다. "네가
+28 그래서 스승이 말씀하셨다. "네가
 29 이 나무들 중 하나의 작은 가지를 꺾으면,
-30 네가 가진 생각은 모두 사라질 것이다."
+30 네가 하고 있는 생각은 모두 헛될 것이다."
 </result>
 </query>
 <query>
@@ -153,8 +181,8 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 31 그때 나는 손을 약간 앞으로 내밀어
-32 큰 자두나무에서 작은 가지를 따왔습니다.
-33 그리고 그 줄기가 소리쳤습니다. "왜 나를 꺾어?"
+32 큰 자두나무에서 작은 가지를 따왔다.
+33 그러자 그 줄기가 소리쳤다. "왜 나를 꺾는가?"
 </result>
 </query>
 <query>
@@ -171,12 +199,13 @@ Please translate each line literally into Korean.
 39 se state fossimo anime di serpi».
 </prompt>
 <result>
-34 그런 다음 그 줄기가 진한 피빛이 되자,
-35 다시 말하기 시작했습니다. "왜 나를 찢어?
-36 너는 전혀 자비심이 없니?
+34 그러자 피가 붉게 흐르기 시작했고,
+35 다시 말하기 시작했다. "왜 나를 찢어?
+36 너는 전혀 자비심이 없단 말이야?
 
-37 우리는 인간이었지만 이제는 나무가 되었습니다.
-38 우리가 뱀의 영혼이었다면 네 손이 훨씬 더 자비로워야 할 것입니다."
+37 우리는 인간이었지만 이제는 나무가 되었다.
+38 네 손이 더 자비로워야 할 텐데,
+39 우리가 뱀의 영혼이었다면 말이지."
 </result>
 </query>
 <query>
@@ -193,12 +222,13 @@ Please translate each line literally into Korean.
 45 cadere, e stetti come l’uom che teme.
 </prompt>
 <result>
-40 한쪽 끝이 타고 다른 한쪽 끝이 신음하는 푸른 막대기처럼
-41 바람이 지나가면서 삐걱거립니다.
+40 한쪽 끝이 타고 다른 쪽 끝이 신음하는
+41 녹색 막대기처럼
+42 바람이 지나가면서 삐걱거리듯이,
 
-42 그렇게 부러진 조각에서
-43 말과 피가 함께 나왔습니다. 그래서 나는 그 가지를
-44 떨어뜨리고 두려워하는 사람처럼 서 있었습니다.
+43 그 부러진 가지에서
+44 말과 피가 함께 나왔다. 그래서 나는
+45 꼭대기를 떨어뜨리고 두려워하는 사람처럼 서 있었다.
 </result>
 </query>
 <query>
@@ -216,12 +246,12 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 46 "그가 먼저 믿을 수 있었다면,"
-47 나의 현명한 스승이 대답했습니다. "상처받은 영혼이여,
-48 내가 내 운율로 본 것을,
+47 나의 현명한 스승이 대답했다. "상처받은 영혼이여,
+48 내가 운율로 본 것만으로도,
 
-49 그는 너에게 손을 뻗지 않았을 것이다.
-50 하지만 믿을 수 없는 일이 일어나서
-51 나 자신에게도 무거운 일을 하도록 만들었다."
+49 그는 너에게 손을 대지 않았을 것이다.
+50 하지만 믿을 수 없는 일이라서
+51 나 자신에게도 무거운 일을 하도록 만들었다.
 </result>
 </query>
 <query>
@@ -234,8 +264,9 @@ Please translate each line literally into Korean.
 54 nel mondo sù, dove tornar li lece».
 </prompt>
 <result>
-52 하지만 네가 누구였는지 말해줘. 그러면 어떤 보상 대신에
-53 네 명성을 세상 위에서 새롭게 할 수 있을 것이다. 그곳으로 돌아갈 수 있는 곳에서."
+52 하지만 네가 누구였는지 말해라. 그러면
+53 어떤 보상으로 네 명성을 되살릴 수 있을 테니,
+54 세상으로 돌아갈 수 있는 위쪽에서.
 </result>
 </query>
 <query>
@@ -248,8 +279,9 @@ Please translate each line literally into Korean.
 57 perch’ ïo un poco a ragionar m’inveschi.
 </prompt>
 <result>
-55 그러자 그 줄기가 말했습니다. "너의 달콤한 말이 나를 유혹해서
-56 나는 침묵할 수 없습니다. 그리고 내가 조금 이야기하는 것을 너무 심각하게 생각하지 마십시오.
+55 그러자 그 나무가 말했다. "너의 달콤한 말에 유혹되어
+56 나는 침묵할 수 없다. 그리고 너희는
+57 내가 조금 이야기하는 것을 심각하게 여기지 마라.
 </result>
 </query>
 <query>
@@ -266,12 +298,12 @@ Please translate each line literally into Korean.
 63 tanto ch’i’ ne perde’ li sonni e ’ polsi.
 </prompt>
 <result>
-58 나는 페데리고의 마음의 두 열쇠를 모두 쥐고 있었고, 그것을 돌렸습니다.
-59 열고 닫으면서 너무나 부드럽게,
+58 나는 페데리고의 마음의 두 열쇠를 모두 가지고 있었고,
+59 열고 닫으며 아주 부드럽게 돌렸다.
 
-60 그의 비밀에서 거의 모든 사람을 떼어놓았습니다.
-62 나는 영광스러운 직책에 충실했고,
-63 너무나도 내 수면과 손목을 잃었습니다.
+60 그래서 그의 비밀을 거의 모든 사람에게서 숨겼다.
+61 나는 영광스러운 직책에 충실했고,
+62 그래서 잠과 손목을 잃을 정도였다.
 </result>
 </query>
 <query>
@@ -288,12 +320,13 @@ Please translate each line literally into Korean.
 69 che ’ lieti onor tornaro in tristi lutti.
 </prompt>
 <result>
-64 카이사르의 숙소에서 눈을 돌리지 않던 창녀,
-65 죽음의 공통점이자 궁정의 악덕,
+64 카이사르의 궁전에서 눈을 돌리지 않던
+65 창녀,
+66 죽음의 공통점이자 궁정의 악덕인 그 여자가
 
-67 나에 대한 모든 사람의 마음에 불을 지폈습니다.
-68 그리고 그 불타는 사람들은 아우구스투스를 불태웠습니다.
-69 그래서 즐거운 영예가 슬픈 슬픔으로 돌아왔습니다.
+67 나에 대한 모든 사람의 마음을 불태웠다.
+68 그리고 불타오른 그들은 아우구스투스를 불태웠고,
+69 그래서 즐거운 영예가 슬픈 슬픔으로 돌아갔다.
 </result>
 </query>
 <query>
@@ -305,36 +338,10 @@ Please translate each line literally into Korean.
 71 credendo col morir fuggir disdegno,
 72 ingiusto fece me contra me giusto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 나의 마음은 경멸스러운 욕망 때문에,\n71 죽음으로 경멸을 피할 수 있다고 믿고,\n72 나를 정의로운 나에게 불의하게 만들었습니다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 70 나의 마음은 경멸스러운 욕망 때문에,
 71 죽음으로 경멸을 피할 수 있다고 믿고,
-72 나를 정의로운 나에게 불의하게 만들었습니다.
+72 나 자신에게 불의를 저질렀다.
 </result>
 </query>
 <query>
@@ -347,8 +354,8 @@ Please translate each line literally into Korean.
 75 al mio segnor, che fu d’onor sì degno.
 </prompt>
 <result>
-73 이 나무의 아홉 가지 뿌리로
-74 나는 결코 나의 주군에게 신의를 저버리지 않았다고 맹세합니다. 그는 매우 존경받을 만한 분이었습니다.
+73 이 나무의 아홉 개의 뿌리로 맹세하건대,
+74 나는 결코 나의 주군을 배신하지 않았다. 그는 매우 존귀한 분이셨다.
 </result>
 </query>
 <query>
@@ -362,8 +369,8 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 76 그리고 여러분 중 누군가가 세상으로 돌아간다면,
-77 나의 기억을 위로해주세요. 그것은 여전히
-78 시기가 준 타격으로 인해 누워 있습니다."
+77 나의 기억을 위로해주길 바란다. 그것은 여전히
+78 시기가 준 타격으로 인해 쓰러져 있다.
 </result>
 </query>
 <query>
@@ -376,9 +383,9 @@ Please translate each line literally into Korean.
 81 ma parla, e chiedi a lui, se più ti piace».
 </prompt>
 <result>
-79 그는 잠시 기다렸다가 "그가 침묵한 이후로,"
-80 시인이 나에게 말했습니다. "시간을 낭비하지 마십시오.
-81 하지만 말하고 그에게 물어보세요. 당신이 더 좋아한다면."
+79 조금 기다렸다가, "그가 침묵한 이후로,"
+80 시인이 나에게 말했다. "시간을 낭비하지 마라.
+81 하지만 말하고, 그에게 물어보라. 네가 더 좋아한다면."
 </result>
 </query>
 <query>
@@ -391,8 +398,8 @@ Please translate each line literally into Korean.
 84 ch’i’ non potrei, tanta pietà m’accora».
 </prompt>
 <result>
-82 그래서 나는 그에게 말했습니다. "당신이 나를 만족시킬 것이라고 믿는 것에 대해서도 물어보세요.
-83 나는 너무나도 슬퍼서 할 수 없습니다."
+82 그래서 나는 그에게 말했다. "당신이 내가 만족할 것이라고 생각하는 것에 대해 물어보세요.
+83 내가 너무나도 슬퍼서 할 수가 없어요."
 </result>
 </query>
 <query>
@@ -409,10 +416,11 @@ Please translate each line literally into Korean.
 90 s’alcuna mai di tai membra si spiega».
 </prompt>
 <result>
-85 그래서 그는 다시 시작했습니다. "만약 사람이 당신의 말이 간청하는 것을
-86 자유롭게 해준다면, 여전히 감옥에 갇힌 영혼이여, 당신은 여전히
-87 이러한 매듭에 영혼이 어떻게 묶이는지 말해주세요. 그리고 당신이 할 수 있다면 말해주세요.
-89 그러한 팔다리가 펼쳐진 적이 있는지."
+85 그래서 그는 다시 시작했다. "만약 사람이 당신이 말로 간청하는 것을
+86 자유롭게 해준다면, 감금된 영혼이여, 당신은 여전히
+87 이러한 마디들에 영혼이 어떻게 묶이는지 말하고 싶은가?
+88 그리고 말해봐, 만약 당신이 할 수 있다면,
+89 이러한 팔다리 중 어느 하나가 언젠가 풀려날 것인가?"
 </result>
 </query>
 <query>
@@ -426,7 +434,7 @@ Please translate each line literally into Korean.
 </prompt>
 <result>
 91 그때 줄기가 세게 불었고,
-92 그 바람은 그런 목소리로 바뀌었습니다.
+92 그 바람이 그런 목소리로 바뀌었다.
 93 "간단히 대답하겠습니다.
 </result>
 </query>
@@ -442,7 +450,7 @@ Please translate each line literally into Korean.
 <result>
 94 사나운 영혼이
 95 스스로 벗어난 몸에서 떠날 때,
-96 미노스는 그것을 일곱 번째 입구로 보냅니다.
+96 미노스는 그것을 일곱 번째 구덩이로 보낸다.
 </result>
 </query>
 <query>
@@ -455,9 +463,9 @@ Please translate each line literally into Korean.
 99 quivi germoglia come gran di spelta.
 </prompt>
 <result>
-97 그것은 숲에 떨어지고 선택된 부분이 없습니다.
-98 하지만 운이 그것을 쏘는 곳에서
-99 그것은 철자 씨앗처럼 싹이 텄습니다.
+97 그것은 숲에 떨어지고, 선택의 여지가 없다.
+98 하지만 운명이 그것을 내던지는 곳에서,
+99 그것은 보리알갱이처럼 싹이 튼다.
 </result>
 </query>
 <query>
@@ -470,9 +478,9 @@ Please translate each line literally into Korean.
 102 fanno dolore, e al dolor fenestra.
 </prompt>
 <result>
-100 그것은 어린 새싹과 야생 식물로 자랍니다.
-101 그런 다음 하르피들이 그 잎을 먹으면서
-102 고통을 주고 고통에 대한 창을 만듭니다.
+100 야생 나무와 식물로 자라난다.
+101 하피들이 그 잎을 먹으면서,
+102 고통을 주고, 고통을 드러낸다.
 </result>
 </query>
 <query>
@@ -485,9 +493,9 @@ Please translate each line literally into Korean.
 105 ché non è giusto aver ciò ch’om si toglie.
 </prompt>
 <result>
-103 우리는 다른 것들처럼 우리의 유해를 위해 올 것입니다.
-104 하지만 누구도 그것을 입지 않을 것입니다.
-105 사람이 빼앗은 것을 갖는 것은 옳지 않습니다.
+103 우리는 우리의 껍질을 위해 다른 것들처럼 올 것이지만,
+104 그러나 어느 누구도 그것을 다시 입지 않을 것이다.
+105 왜냐하면 사람이 벗은 것을 갖는 것은 옳지 않기 때문이다.
 </result>
 </query>
 <query>
@@ -500,9 +508,9 @@ Please translate each line literally into Korean.
 108 ciascuno al prun de l’ombra sua molesta».
 </prompt>
 <result>
-106 우리는 그것들을 이곳으로 끌고 갈 것이고, 슬픈
-107 숲에 우리의 몸이 매달릴 것입니다.
-108 각자는 자신의 불쾌한 그림자의 가시에 매달립니다."
+106 여기서 우리는 그것들을 끌고 갈 것이고, 슬픈
+107 숲에 우리의 몸이 매달릴 것이다.
+108 각자는 그늘이 불편한 가시나무에 매달린다."
 </result>
 </query>
 <query>
@@ -519,12 +527,12 @@ Please translate each line literally into Korean.
 114 ch’ode le bestie, e le frasche stormire.
 </prompt>
 <result>
-109 우리는 여전히 줄기를 기다리고 있었고,
-110 그가 다른 것을 말하고 싶어할 것이라고 믿었지만,
-111 우리는 소음에 놀랐습니다.
+109 우리는 여전히 줄기에 기대어 있었고,
+110 그가 다른 것을 말할 것이라고 생각했지만,
+111 우리는 소음에 놀랐다.
 
-112 돼지와 사냥이 자신의 자리로 오는 것을 듣는 사람처럼
-113 짐승과 나뭇잎이 울리는 소리를 듣습니다.
+112 마치 멧돼지와 사냥이 다가오는 것을 느끼는 사람처럼,
+113 그는 짐승과 나뭇가지가 바스락거리는 소리를 들었다.
 </result>
 </query>
 <query>
@@ -536,10 +544,36 @@ Please translate each line literally into Korean.
 116 nudi e graffiati, fuggendo sì forte,
 117 che de la selva rompieno ogne rosta.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "115 그리고보니왼쪽에서두사람이,\n116 벌거벗고긁힌채로,너무나도빠르게달려서,\n117 숲의모든가시덤불을부수고지나갔다."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-115 그리고 왼쪽에서 두 명이 나타났습니다.
-116 벌거벗고 긁힌 채로 너무나 빨리 달려서
-117 숲의 모든 덤불을 찢었습니다.
+115 그리고보니왼쪽에서두사람이,
+116 벌거벗고긁힌채로,너무나도빠르게달려서,
+117 숲의모든가시덤불을부수고지나갔다.
 </result>
 </query>
 <query>
@@ -554,9 +588,11 @@ Please translate each line literally into Korean.
 121 le gambe tue a le giostre dal Toppo!».
 </prompt>
 <result>
-118 앞에 있는 사람은 "이제 달려라, 달려라, 죽음아!"라고 말했습니다.
-119 그리고 너무 오래 기다리는 것처럼 보였던 다른 사람은
-120 "라노, 토포에서의 경마에서 네 다리가 그렇게 민첩하지 않았어!"라고 외쳤습니다.
+118 그 앞에있는사람이:"이제달려라,달려라,죽음아!".
+119 그리고너무느리다고생각되는다른사람은,
+120 "라노,토포에서의경마에서너의다리는그렇게민첩하지않았구나!"라고외쳤다.
+
+(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있습니다.)
 </result>
 </query>
 <query>
@@ -572,11 +608,13 @@ Please translate each line literally into Korean.
 126 come veltri ch’uscisser di catena.
 </prompt>
 <result>
-122 그리고 아마도 그에게 힘이 부족해지자,
-123 그는 자신과 덤불로 덩어리를 만들었습니다.
+122 그리고아마도그들에게힘이떨어지자,
+123 그는자신과덤불로뭉쳐버렸다.
 
-124 그들 뒤에는 검은 개들이 숲을 가득 채웠습니다.
-125 사슬에서 풀려난 사냥개처럼 탐욕스럽고 빠르게 달립니다.
+124 그들뒤로는숲이검은개들로가득찼고,
+125 그개들은사냥개가사슬에서풀려나듯이탐욕스럽고빠르게달려왔다.
+
+(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있고, 그들을 쫓는 검은 개들은 악마의 사냥개입니다.)
 </result>
 </query>
 <query>
@@ -588,37 +626,22 @@ Please translate each line literally into Korean.
 128 e quel dilaceraro a brano a brano;
 129 poi sen portar quelle membra dolenti.
 </prompt>
-<result>
-127 그가 숨은 사람의 이빨에 물렸고,
-128 그들은 그를 조각조각으로 찢었습니다.
-129 그런 다음 그들은 그 고통스러운 팔다리를 가져갔습니다.
-</result>
-</query>
-<query>
-<info>[Inferno Canto 13] 130/151</info>
-<prompt>
-Please translate each line literally into Korean.
-
-130 Presemi allor la mia scorta per mano,
-131 e menommi al cespuglio che piangea
-132 per le rotture sanguinenti in vano.
-</prompt>
 <error result="true">
 index: 0
 content {
   parts {
-    text: "130 그때 나의 호위자가 나의 손을 잡고\n131 나를 헛되이 피투성이로 찢어진 덤불로 데려갔습니다."
+    text: "127 그가숨은그것에게개들이이빨을갈았고,\n128 그를조각조각찢어발기고,\n129 그런후그들은그슬픈사지를가져갔다.\n\n(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개입니다. 개들은 라노를 잡아서 찢어발기고, 그의 사지를 가져갑니다.)"
   }
   role: "model"
 }
 finish_reason: SAFETY
 safety_ratings {
   category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
+  probability: NEGLIGIBLE
 }
 safety_ratings {
   category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
+  probability: HIGH
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
@@ -630,8 +653,27 @@ safety_ratings {
 }
 </error>
 <result>
-130 그때 나의 호위자가 나의 손을 잡고
-131 나를 헛되이 피투성이로 찢어진 덤불로 데려갔습니다.
+127 그가숨은그것에게개들이이빨을갈았고,
+128 그를조각조각찢어발기고,
+129 그런후그들은그슬픈사지를가져갔다.
+
+(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개입니다. 개들은 라노를 잡아서 찢어발기고, 그의 사지를 가져갑니다.)
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 130/151</info>
+<prompt>
+Please translate each line literally into Korean.
+
+130 Presemi allor la mia scorta per mano,
+131 e menommi al cespuglio che piangea
+132 per le rotture sanguinenti in vano.
+</prompt>
+<result>
+130 그때내안내자가나의손을잡고,
+131 나를헛되이피투성이로찢어진덤불로이끌었다.
+
+(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개였습니다. 단테의 안내자인 베르길리우스는 단테를 덤불로 이끌고 갑니다.)
 </result>
 </query>
 <query>
@@ -644,9 +686,11 @@ Please translate each line literally into Korean.
 135 che colpa ho io de la tua vita rea?».
 </prompt>
 <result>
-133 "오, 산토 안드레아의 야코포," 그는 말했습니다.
-134 "당신이 나를 방패로 삼아서 무엇이 좋았습니까?
-135 당신의 나쁜 삶에 대해 내가 무슨 잘못을 했습니까?"
+133 "오, 산트안드레아의 자코포여," 그는 말했다.
+134 "네가나를방패삼아도무슨소용이있었겠느냐?
+135 네가사악하게살아온것이내탓이란말이냐?"
+
+(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개였습니다. 단테의 안내자인 베르길리우스는 단테를 덤불로 이끌고 갑니다. 덤불 속에서 자코포는 라노에게 이렇게 말합니다.)
 </result>
 </query>
 <query>
@@ -659,9 +703,11 @@ Please translate each line literally into Korean.
 138 soffi con sangue doloroso sermo?».
 </prompt>
 <result>
-136 스승이 그 위에 굳게 서자,
-137 "당신은 누구였습니까? 그렇게 많은 뾰족한 것 때문에
-138 고통스러운 피의 설교로 고통을 겪습니까?"
+136 스승이그덤불위에서서자,
+137 "너는누구냐?이렇게많은가시에찔려
+138 피투성이가되도록고통을참아내느냐?"고물었다.
+
+(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개였습니다. 단테의 안내자인 베르길리우스는 단테를 덤불로 이끌고 갑니다. 덤불 속에서 자코포는 라노에게 이렇게 말하고, 베르길리우스는 자코포에게 이렇게 묻습니다.)
 </result>
 </query>
 <query>
@@ -676,10 +722,13 @@ Please translate each line literally into Korean.
 142 raccoglietele al piè del tristo cesto.
 </prompt>
 <result>
-139 그리고 그는 우리에게 말했습니다. "오, 영혼들이여
-140 내 잎사귀를 나에게서 떼어놓은 불명예스러운 학대를 보러 왔습니다.
+139 그리고그는우리에게이렇게말했다."오,여러분,
+140 내잎사귀가나에게서떨어져나가도록
+141 나를이렇게추하게찢어놓은것을보러온영혼들이여,
 
-142 슬픈 덤불의 발치에 그것들을 모으십시오.
+142 나의슬픈덤불아래에그것들을모아주시오.
+
+(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개였습니다. 단테의 안내자인 베르길리우스는 단테를 덤불로 이끌고 갑니다. 덤불 속에서 자코포는 라노에게 이렇게 말하고, 베르길리우스는 자코포에게 이렇게 묻습니다. 그리고 자코포는 베르길리우스와 단테에게 이렇게 말합니다.)
 </result>
 </query>
 <query>
@@ -699,26 +748,30 @@ Please translate each line literally into Korean.
 150 avrebber fatto lavorare indarno.
 </prompt>
 <result>
-143 나는 세례자 요한에서
-144 첫 번째 주인을 바꾼 도시에서 왔습니다. 그래서 그는 이 때문에
-145 항상 그의 예술로 그것을 슬프게 만들 것입니다.
-146 그리고 아르노의 통로에
-147 여전히 그의 모습이 남아 있지 않았다면,
-
-148 그 후에 그 도시를 재건한 시민들은
+143 나는침례자 요한이
+144 첫 번째 주인을 바꾼 도시에서 왔는데, 그래서 그는
+145 항상 자신의 기술로 그 도시를 슬프게 만들 것입니다.
+146 그리고 아르노 강의 통과 지점에
+147 그에 대한 어떤 흔적이 아직 남아 있지 않았다면,
+148 나중에 그 도시를 재건한 시민들은
 149 아틸라가 남긴 재 위에
 150 헛수고를 했을 것입니다.
+
+(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개였습니다. 단테의 안내자인 베르길리우스는 단테를 덤불로 이끌고 갑니다. 덤불 속에서 자코포는 라노에게 이렇게 말하고, 베르길리우스는 자코포에게 이렇게 묻습니다. 그리고 자코포는 베르길리우스와 단테에게 이렇게 말합니다. 자코포는 자신이 피렌체에서 왔다고 말합니다.)
 </result>
 </query>
 <query>
 <info>[Inferno Canto 13] 151/151</info>
-<prompt>
+<prompt retry="true">
 Please translate each line literally into Korean.
 
 151 Io fei gibetto a me de le mie case».
 </prompt>
+<error result="true">
+Response too long: (328 &amp;gt; 273)
+</error>
 <result>
-151 나는 나의 집에서 나에게 교수대를 만들었습니다."
+151 나는 내 집을 교수대 삼았다».
 </result>
 </query>
 </queries>

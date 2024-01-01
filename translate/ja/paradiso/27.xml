@@ -10,9 +10,9 @@ Please translate each line literally into Japanese.
 3 sì che m’inebrïava il dolce canto.
 </prompt>
 <result>
-1 「父と子と聖霊に」
-2 天国全体が「栄光あれ！」と歌い始め、
-3 その甘美な歌声に私は酔いしれた。
+1「父と子と聖霊に」
+2天国全体が「栄光あれ！」と歌い始め
+3その甘い歌声に私は酔いしれた
 </result>
 </query>
 <query>
@@ -25,7 +25,9 @@ Please translate each line literally into Japanese.
 6 intrava per l’udire e per lo viso.
 </prompt>
 <result>
-4 私が見たものは、宇宙の笑いのように思えた。なぜなら私の陶酔は、聴覚と視覚を通して入ってきたからだ。
+4 私が見たものは宇宙の笑いのように思えた
+5 なぜなら私の陶酔は
+6 聴覚と視覚を通して入ってきたから
 </result>
 </query>
 <query>
@@ -50,10 +52,12 @@ Please translate each line literally into Japanese.
 8 ああ、愛と平和に満ちた完全な命よ！
 9 ああ、欲望のない確かな富よ！
 
-10 私の目の前に四つのたいまつが灯っていて、最初に来たたいまつが
-11 より明るく輝き始め、
+10 私の目の前には4つのたいまつが
+11 灯っていて、最初に来たたいまつは
+12 より明るく輝き始め、
 
-12 その姿は、木星と火星が鳥になって羽を交換したらどうなるか、そんな風になった。
+13 その姿はまるで、もしユピテルとマルスが
+14 鳥になって羽を交換したらどうなるかのようなものだった。
 </result>
 </query>
 <query>
@@ -70,11 +74,13 @@ Please translate each line literally into Japanese.
 21 vedrai trascolorar tutti costoro.
 </prompt>
 <result>
-16 ここにおいて、副官と職務を配分する摂理は、
-17 至福の合唱隊に、あらゆる場所から沈黙を課していた。
+16 この場所で徳と役割を配分する摂理は
+17 祝福された合唱隊に
+18 あらゆる場所から沈黙を課していた
 
-18 すると私は、「もし私が色を変えたら、驚いてはいけない。私が語るとき、
-19 あなたは、この人々が皆、色を変えるのを見るだろう」という声を聞いた。
+19 すると私はこう聞いた。「もし私が色を変えたら
+20 驚いてはいけない。私が話している間、
+21 あなたは皆が色を変えるのを見るだろう。
 </result>
 </query>
 <query>
@@ -91,12 +97,12 @@ Please translate each line literally into Japanese.
 27 che cadde di qua sù, là giù si placa».
 </prompt>
 <result>
-22 地上で私の場所を奪っている者、
-23 私の場所、私の場所、それは空いている、
+22 地上で私の場所を奪う者、
+23 私の場所、私の場所、それは空いている
 24 神の子の御前において、
 
-25 私の墓地を血と悪臭の溜まり場にしている。そのために、
-26 この世から堕ちた邪悪な者が、あの世でなだめられているのだ」。
+25 私の墓地を血と悪臭の溜まり場にしている。それゆえ、
+26 この上から落ちた邪悪な者が、そこで落ち着いているのだ。
 </result>
 </query>
 <query>
@@ -109,8 +115,9 @@ Please translate each line literally into Japanese.
 30 vid’ ïo allora tutto ’l ciel cosperso.
 </prompt>
 <result>
-28 太陽が逆光で雲を染める色で、
-29 夕方と朝に、私はその時、空全体が覆われているのを見た。
+28 太陽が反対側にあるために
+29 雲が夕暮れと夜明けに染まる色で、
+30 私はその時、空全体が覆われているのを見た。
 </result>
 </query>
 <query>
@@ -126,12 +133,39 @@ Please translate each line literally into Japanese.
 35 e tale eclissi credo che ’n ciel fue
 36 quando patì la supprema possanza.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "31 自分の貞操を疑わず、他人の過ちを聞いても\n32 ただ耳を傾けるだけで、恥ずかしそうに顔を赤らめる貞淑な女性のように、\n\n34 ベアトリーチェは表情を変えた。\n35 そして、至高の力が苦しんだとき、\n36 天国でもこのような日食があったと私は思う。"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-31 自分の貞節を疑わず、他人の過ちを聞いても、
+31 自分の貞操を疑わず、他人の過ちを聞いても
 32 ただ耳を傾けるだけで、恥ずかしそうに顔を赤らめる貞淑な女性のように、
 
-33 ベアトリーチェは表情を変えた。
-34 そして、至高の存在が苦しんだとき、天国でもこのような日食があったと私は思う。
+34 ベアトリーチェは表情を変えた。
+35 そして、至高の力が苦しんだとき、
+36 天国でもこのような日食があったと私は思う。
 </result>
 </query>
 <query>
@@ -152,15 +186,15 @@ Please translate each line literally into Japanese.
 45 sparser lo sangue dopo molto fleto.
 </prompt>
 <result>
-37 それから彼女の言葉は、
-38 声が自分自身からそれほどに変えられて、
-39 表情はもはや変わらなかった。
+37 それから彼の言葉は
+38 声がすっかり変わって続いたが、
+39 姿は変わらなかった。
 
-40 キリストの花嫁は、私の血、リヌス、クレトの血で育てられたのではない、
-41 金銭を得るために利用されるためではない。
+40 「キリストの花嫁は、私の血、リヌス、クレトゥスの血で育てられたのではない。
+41 金銭を得るために使われるためではない。
 
-42 この幸福な人生を得るために、
-44 シクストゥス、ピウス、カリクストゥス、ウルバヌスは、
+42 この幸福な生活を得るために、
+44 シクストゥス、ピウス、カリクストゥス、ウルバヌスは
 45 長い嘆きの後に血を流した。
 </result>
 </query>
@@ -182,14 +216,15 @@ Please translate each line literally into Japanese.
 54 ond’ io sovente arrosso e disfavillo.
 </prompt>
 <result>
-46 私たちの後継者の一部が右側に座り、
-47 一部がキリスト教徒の民の左側に座ることを、私たちは意図していなかった。
+46 私たちの意図は、
+47 後継者の一部が右側に座り、
+48 一部がキリスト教徒の民の左側に座るということではなかった。
 
-48 そして、私に与えられた鍵が、
-49 洗礼を受けた者たちと戦う旗の印になることも意図していなかった。
+49 そして、私に授けられた鍵が、
+50 洗礼を受けた者と戦う旗の印になるということでもなかった。
 
-50 そして、私が売られたり偽造された特権の封印の図柄になることも意図していなかった。
-51 そのために私はしばしば赤面し、怒りを覚える。
+51 そして、私が売られたり偽造された特権の印になるということでもなかった。
+52 それゆえ、私はしばしば赤面し、怒りに震える。
 </result>
 </query>
 <query>
@@ -214,19 +249,21 @@ Please translate each line literally into Japanese.
 66 e non asconder quel ch’io non ascondo».
 </prompt>
 <result>
-55 羊飼いの衣装を着た強欲な狼が、
-56 あらゆる牧草地で、この世から見えている。
+55 羊飼いの衣装を着た強欲な狼が
+56 あらゆる牧草地で上から見えている。
 57 神よ、なぜあなたはただ横たわっているのですか？
 
-58 カオール人とガスコーニュ人は、私たちの血を飲もうとしている。
-59 ああ、良い始まりよ、あなたはなんと卑しい終わりを迎えることになるのか！
+58 カオール人とガスコーニュ人は私たちの血を
+59 飲もうとしている。ああ、良い始まりよ、
+60 あなたはなんと卑しい終わりを迎えることになるのか！
 
-60 しかし、スキピオと共にローマの世界の栄光を守った、
-61 高い摂理は、私が理解するように、すぐに救済をもたらすだろう。
+61 しかし、スキピオと共に
+62 ローマの世界の栄光を守った崇高な摂理が
+63 すぐに救済してくれるだろう、と私は信じている。
 
-62 そして、あなた、息子よ、死すべき重荷のために、
-63 まだ地上に戻ることになるだろう、口を開きなさい、
-64 そして私が隠していないことを隠さないでください。
+64 そして、息子よ、あなたは死すべき重荷のために
+65 まだ下に帰らなければならないが、口を開き、
+66 私が隠していないことを隠してはならない。
 </result>
 </query>
 <query>
@@ -243,11 +280,13 @@ Please translate each line literally into Japanese.
 72 che fatto avien con noi quivi soggiorno.
 </prompt>
 <result>
-67 私たちの空気の中で、天のヤギの角が太陽に触れるとき、
-68 凍った蒸気が下に向かって降り注ぐように、
+67 凍った蒸気が降り注ぐように
+68 私たちの空気の中を、角を持つ
+69 天のヤギが太陽に触れるとき、
 
-69 私はエーテルがこのように飾られ、
-70 私たちと一緒にそこに滞在していた勝利の蒸気が降り注ぐのを見た。
+70 私はエーテルがこのように飾られ、
+71 勝利の蒸気が降り注ぐのを見た
+72 それは私たちと一緒にここに滞在していた
 </result>
 </query>
 <query>
@@ -259,36 +298,10 @@ Please translate each line literally into Japanese.
 74 e seguì fin che ’l mezzo, per lo molto,
 75 li tolse il trapassar del più avanti.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "73 私の視線は彼女の姿を追いかけ、\n74 そして、その真ん中が、その多さのために、\n75 彼女がそれ以上進むのを妨げるまで、追いかけた。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-73 私の視線は彼女の姿を追いかけ、
-74 そして、その真ん中が、その多さのために、
-75 彼女がそれ以上進むのを妨げるまで、追いかけた。
+73 私の視線は彼らの姿を追いかけ、
+74 そして、その真ん中まで追いかけたが、その先には
+75 あまりにも多くのものがあり、それ以上進むことはできなかった。
 </result>
 </query>
 <query>
@@ -301,7 +314,8 @@ Please translate each line literally into Japanese.
 78 il viso e guarda come tu se’ vòlto».
 </prompt>
 <result>
-76 そこで、私が上を見るのをやめたのを見て、その女性は私に言った。「顔を上げなさい。そして、自分がどのように変わっているかを見なさい」。
+76 そこで、私が上を向いて待つことをやめたのを見て、女性は言った。
+77 「顔を上げて、自分がどうなっているかを見なさい」
 </result>
 </query>
 <query>
@@ -318,12 +332,12 @@ Please translate each line literally into Japanese.
 84 nel qual si fece Europa dolce carco.
 </prompt>
 <result>
-79 最初に見たときから、
-80 私は自分が、第一の気候帯の中心から端まで続く弧全体を移動しているのを見た。
+79 最初に見たときから
+80 私は自分が第一の気候帯の真ん中から端まで移動しているのを見た。
 
-82 そのため、私はガデスを越えて、
-83 ユリシーズの愚かな航海が見え、この近くには、
-84 ヨーロッパが甘い荷物を背負った海岸が見えた。
+81 だから私はガデスを越えて、
+82 ユリシーズの愚かな航海が見え、
+84 この近くには、ヨーロッパが甘い荷物を積んだ海岸が見えた。
 </result>
 </query>
 <query>
@@ -336,8 +350,9 @@ Please translate each line literally into Japanese.
 87 sotto i mie’ piedi un segno e più partito.
 </prompt>
 <result>
-85 そして、この小さな庭の場所がもっとよく見えていたでしょう。しかし、太陽は、
-86 私の足の下で、一つの星座とさらにいくつかの星座を通り過ぎていました。
+85 そして、この花壇の場所はもっとよく見えたでしょう。
+86 しかし、太陽は私の足元を通り過ぎて、
+87 一つの星座ともう一つの星座を通り過ぎていました。
 </result>
 </query>
 <query>
@@ -358,14 +373,15 @@ Please translate each line literally into Japanese.
 96 quando mi volsi al suo viso ridente.
 </prompt>
 <result>
-88 私の女性を常に愛する恋する心は、
-89 これまで以上に彼女に目を向けようとして燃えていた。
+88 恋する心は、私の女性と一緒にいることで、
+89 これまで以上に彼女の目を見つめようと燃えていた。
 
-90 そして、自然や芸術が、心を手に入れるために、
-91 人間の肉体やその絵画の中で、目を奪うような餌を作ったとしても、
+90 そして、自然や芸術が、心を奪うために、
+91 人間の肉体やその絵画の中で、目を楽しませるものを作ったとしても、
 
-92 それらすべてを集めても、
-93 彼女の微笑む顔を見たときに、私に輝いた神の喜びには何の価値もないように思えた。
+92 それらはすべて集まっても、
+93 私が彼女の笑顔を見たときに輝いた、
+94 神聖な喜びには何の価値もないように思えた。
 </result>
 </query>
 <query>
@@ -378,9 +394,9 @@ Please translate each line literally into Japanese.
 99 e nel ciel velocissimo m’impulse.
 </prompt>
 <result>
-97 そして、私にその視線を許してくれた美徳は、
+97 そして、その視線が私に微笑みかけてくれた美徳は、
 98 レダの美しい巣から私を引き離し、
-99 そして私を非常に速い天国に押しやった。
+99 天へと私を素早く押し上げた。
 </result>
 </query>
 <query>
@@ -392,33 +408,11 @@ Please translate each line literally into Japanese.
 101 sì uniforme son, ch’i’ non so dire
 102 qual Bëatrice per loco mi scelse.
 </prompt>
-<result>
-100 その非常に活気に満ちた、高貴な部分は、
-101 非常に均一なので、私はベアトリーチェが私をどの場所に選んだのかわかりません。
-</result>
-</query>
-<query>
-<info>[Paradiso Canto 27] 103/148</info>
-<prompt>
-Please translate each line literally into Japanese.
-
-103 Ma ella, che vedëa ’l mio disire,
-104 incominciò, ridendo tanto lieta,
-105 che Dio parea nel suo volto gioire:
-
-106 «La natura del mondo, che quïeta
-107 il mezzo e tutto l’altro intorno move,
-108 quinci comincia come da sua meta;
-
-109 e questo cielo non ha altro dove
-110 che la mente divina, in che s’accende
-111 l’amor che ’l volge e la virtù ch’ei piove.
-</prompt>
 <error result="true">
 index: 0
 content {
   parts {
-    text: "103 しかし、彼女は私の欲望を見て、\n104 とても嬉しそうに笑い始め、\n105 神が彼女の顔の中で喜んでいるように見えた。\n\n106 世界の自然は、\n107 中心を静かにし、他のすべてをその周りを動かし、\n108 ここから、その目標として始まります。\n\n109 そして、この天国には、\n110 神の心以外に場所はありません。その中で、\n111 それを回転させる愛と、それが降らせる美徳が点火されます。"
+    text: "100 彼女の最も生き生きとして崇高な部分は、\n101 あまりにも均一なので、私はわかりません。\n102 ベアトリーチェが私をどの場所に選んだのか。"
   }
   role: "model"
 }
@@ -441,17 +435,40 @@ safety_ratings {
 }
 </error>
 <result>
-103 しかし、彼女は私の欲望を見て、
+100 彼女の最も生き生きとして崇高な部分は、
+101 あまりにも均一なので、私はわかりません。
+102 ベアトリーチェが私をどの場所に選んだのか。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 27] 103/148</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+103 Ma ella, che vedëa ’l mio disire,
+104 incominciò, ridendo tanto lieta,
+105 che Dio parea nel suo volto gioire:
+
+106 «La natura del mondo, che quïeta
+107 il mezzo e tutto l’altro intorno move,
+108 quinci comincia come da sua meta;
+
+109 e questo cielo non ha altro dove
+110 che la mente divina, in che s’accende
+111 l’amor che ’l volge e la virtù ch’ei piove.
+</prompt>
+<result>
+103 しかし、彼女は私の望みを見て、
 104 とても嬉しそうに笑い始め、
-105 神が彼女の顔の中で喜んでいるように見えた。
+105 神が彼女の顔の中で喜んでいるようだった。
 
-106 世界の自然は、
-107 中心を静かにし、他のすべてをその周りを動かし、
-108 ここから、その目標として始まります。
+106 世界の自然は、静かに
+107 中心を動かし、他のすべてをその周りを動かし、
+108 ここから、その目標として始まる。
 
-109 そして、この天国には、
-110 神の心以外に場所はありません。その中で、
-111 それを回転させる愛と、それが降らせる美徳が点火されます。
+109 そして、この天は、
+110 神の心以外に場所がなく、そこで
+111 それを動かす愛と、それが降り注ぐ美徳が燃え上がる。
 </result>
 </query>
 <query>
@@ -464,9 +481,9 @@ Please translate each line literally into Japanese.
 114 colui che ’l cinge solamente intende.
 </prompt>
 <result>
-112 光と愛の輪がそれを包み込み、
-113 他の輪がそうであるように。そして、その輪を囲むものは、
-114 それを囲む者だけが理解している。
+112 光と愛が一つの輪の中でそれを包み込み、
+113 この輪が他の輪を包み込むように。そして、その輪を囲むものは、
+114 それを囲むものだけが理解している。
 </result>
 </query>
 <query>
@@ -483,11 +500,13 @@ Please translate each line literally into Japanese.
 120 omai a te può esser manifesto.
 </prompt>
 <result>
-115 その動きは他のものとは異なりませんが、
-116 他の動きはこの動きによって測定されます。ちょうど10が5と2によって測定されるように。
+115 それ自身の動きは他のものとは区別されず、
+116 しかし他のものはそれによって測定される、
+117 ちょうど10が5と2.5によって測定されるように。
 
-117 そして、時間がそのようなテキストの中でその根を持ち、他のテキストの中でその葉を持つ方法が、
-118 今やあなたに明らかになるでしょう。
+118 そして時間がその根をそのようなテキストに持ち、
+119 他のものには枝葉を持つように、
+120 今やあなたには明らかだろう。
 </result>
 </query>
 <query>
@@ -505,11 +524,12 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 121 ああ、死すべき者を沈める強欲よ、
-122 あなたの下で誰もあなたの波から目をそらすことができないほどに！
+122 あなたの下で誰も
+123 あなたの波から目をそらす力はない！
 
-124 人間の意志は確かに花を咲かせます。
-125 しかし、絶え間ない雨が、
-126 真の蕾を小さな実に変えてしまいます。
+124 人間の意志は確かに花開くが、
+125 しかし降り続く雨は
+126 真の蕾を腐った蕾に変えてしまう。
 </result>
 </query>
 <query>
@@ -522,9 +542,9 @@ Please translate each line literally into Japanese.
 129 pria fugge che le guance sian coperte.
 </prompt>
 <result>
-127 信仰と無垢は、
-128 幼い子供たちの中でのみ見出されます。その後、それぞれは、
-129 頬が覆われる前に逃げ出します。
+127 信仰と無垢は
+128 幼児にのみ見られる。その後、どちらの徳も
+129 頬が覆われる前に逃げてしまう。
 </result>
 </query>
 <query>
@@ -541,11 +561,12 @@ Please translate each line literally into Japanese.
 135 disïa poi di vederla sepolta.
 </prompt>
 <result>
-130 そのように、まだどもりながら、断食し、
-131 その後、舌が解けて、どんな食べ物でも、どんな月でもむさぼり食う。
+130 まだどもりながら、断食するが、
+131 その後、舌が解けて、どんな食べ物でも、どんな月でも貪り食う。
 
-133 そして、そのように、どもりながら、母親を愛し、母親の話を聞く。母親は、完全な言葉で、
-135 その後、母親が葬られるのを見たいと願う。
+133 また、どもりながら、母親を愛し、母親の言うことを聞くが、
+134 母親は流暢に話し、
+135 その後、母親が死ぬのを見たいと願う。
 </result>
 </query>
 <query>
@@ -558,8 +579,8 @@ Please translate each line literally into Japanese.
 138 di quel ch’apporta mane e lascia sera.
 </prompt>
 <result>
-136 そのように、朝をもたらし、夕べを残すものの美しい娘の、
-137 最初の様子では、白い肌が黒くなる。
+136 こうして白い肌は黒くなる
+137 朝をもたらし、夕べを残すものの美しい娘の第一印象で。
 </result>
 </query>
 <query>
@@ -573,8 +594,8 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 139 あなたが驚かないように、
-140 地上には統治者がいないことを考えてください。
-141 そのため、人間の家族はそれほど逸脱しているのです。
+140 地上には統治者がいないことを考えなさい。
+141 それゆえ、人類はこんなに堕落しているのだ。
 </result>
 </query>
 <query>
@@ -593,15 +614,15 @@ Please translate each line literally into Japanese.
 148 e vero frutto verrà dopo ’l fiore».
 </prompt>
 <result>
-142 しかし、1月がすべて冬から抜け出す前に、
-143 下で無視されている100番目のために、
-144 これらの最高位の円は輝きを放ちます。
+142 しかし、1月が過ぎ去る前に、
+143 下界で無視されている100番目のために、
+144 この至高の円環は回転し、
 
-145 非常に期待されている幸運が、
-146 船尾を船首がある場所に向け、
-147 そのため、船団はまっすぐに進むでしょう。
+145 長く待ち望まれていた幸運が、
+146 船首がある方向に船尾を向け、
+147 その結果、階級は正しい方向に進むだろう。
 
-148 そして、本当の果実は花の後に来るでしょう」。
+148 そして、花の後には真の果実が実るだろう」。
 </result>
 </query>
 </queries>

@@ -10,7 +10,7 @@ Please translate each line literally into Hungarian.
 3 felices ignes horum malacòth!».
 </prompt>
 <result>
-1 „Hozsánna, szent Úr szabaót,
+1 „Hozsánna, szent Seregek Istene,
 2 aki világosságoddal túláradtan megvilágítod
 3 e malakótok boldog tüzeit!”.
 </result>
@@ -50,7 +50,7 @@ Please translate each line literally into Hungarian.
 <result>
 10 Én kételkedtem és azt mondtam: „Mondd meg neki, mondd meg neki!”
 11 magamban, „mondd meg neki” – mondtam –, „az én hölgyemnek,
-12 aki édes szavaival szokott szólni hozzám”.
+12 aki édes szavaival szokott megszólítani engem”.
 </result>
 </query>
 <query>
@@ -119,7 +119,7 @@ Please translate each line literally into Hungarian.
 <result>
 25 Hogy ne szenvedjen az erény, amely akarja
 26 a maga hasznára a féket, az az ember, aki nem született,
-27 elítélve magát, elítélte az egész nemzetségét;
+27 elítélve magát, elítélte egész nemzetségét;
 
 28 ezért az emberi faj betegen feküdt
 29 sok évszázadon át nagy tévedésben,
@@ -144,13 +144,13 @@ Please translate each line literally into Hungarian.
 39 da via di verità e da sua vita.
 </prompt>
 <result>
-34 Most emeld fel az arcodat arra, amiről most beszélünk:
+34 Most emeld fel arcodat arra, amiről most beszélünk:
 35 ez a természet, amely egyesült Teremtőjével,
 36 amilyennek teremtetett, őszinte és jó volt;
 
-37 de önmagában mégis kiűzetett
+37 de önmagáért mégis kiűzetett
 38 a paradicsomból, mert elfordult
-39 az igazság útjától és az ő életétől.
+39 az igazság útjától és saját életétől.
 </result>
 </query>
 <query>
@@ -171,7 +171,7 @@ Please translate each line literally into Hungarian.
 41 ha az emberi természethez mérjük,
 42 soha semmi sem volt még ilyen igazságosan halálos;
 
-43 és így semmi sem volt olyan nagy sérelem,
+43 és így semmi sem volt ilyen nagy sértés,
 44 ha arra a személyre tekintünk, aki szenvedett,
 45 akiben ilyen természet egyesült.
 </result>
@@ -185,10 +185,36 @@ Please translate each line literally into Hungarian.
 47 ch’a Dio e a’ Giudei piacque una morte;
 48 per lei tremò la terra e ’l ciel s’aperse.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "46 Ezért egy tettből különböző dolgok származtak:\n47 mert Istennek és a zsidóknak egy halál tetszett;\n48 miatta megremegett a föld és megnyílt az ég."
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
 46 Ezért egy tettből különböző dolgok származtak:
 47 mert Istennek és a zsidóknak egy halál tetszett;
-48 miatta megremegett a föld, és megnyílt az ég.
+48 miatta megremegett a föld és megnyílt az ég.
 </result>
 </query>
 <query>
@@ -201,7 +227,7 @@ Please translate each line literally into Hungarian.
 51 poscia vengiata fu da giusta corte.
 </prompt>
 <result>
-49 Nem tűnhet már számodra túl erősnek,
+49 Nem kellene már nehezebbnek tűnnie számodra,
 50 amikor azt mondják, hogy az igazságos bosszút
 51 később igazságos bíróság állta meg.
 </result>
@@ -216,9 +242,9 @@ Please translate each line literally into Hungarian.
 54 del qual con gran disio solver s’aspetta.
 </prompt>
 <result>
-52 De most látom, hogy az elméd
-53 gondolatról gondolatra egy csomóba szorul,
-54 amelyből nagy vággyal várja, hogy kiszabaduljon.
+52 De én most látom a te szűk elmédet
+53 gondolatról gondolatra egy csomóban,
+54 amelyből nagy vággyal várja, hogy megoldódjon.
 </result>
 </query>
 <query>
@@ -232,7 +258,7 @@ Please translate each line literally into Hungarian.
 </prompt>
 <result>
 55 Azt mondod: „Jól megértem, amit hallok;
-56 de hogy Isten miért akarta, számomra rejtve van,
+56 de hogy Isten miért akarta, az rejtve van előttem,
 57 hogy megváltásunk éppen ilyen módon történjen”.
 </result>
 </query>
@@ -246,7 +272,7 @@ Please translate each line literally into Hungarian.
 60 ne la fiamma d’amor non è adulto.
 </prompt>
 <result>
-58 Ez a végzés, testvérem, el van rejtve
+58 Ez a végzés, testvér, el van rejtve
 59 mindenki szeme elől, akinek az értelme
 60 a szeretet lángjában nem érett meg.
 </result>
@@ -262,7 +288,7 @@ Please translate each line literally into Hungarian.
 </prompt>
 <result>
 61 Valóban, bár erre a jelre
-62 sokan tekintenek, és kevesen értik meg,
+62 sokan néznek, és kevesen értik meg,
 63 elmondom, miért volt ez a mód méltóbb.
 </result>
 </query>
@@ -276,9 +302,9 @@ Please translate each line literally into Hungarian.
 66 sì che dispiega le bellezze etterne.
 </prompt>
 <result>
-64 Az isteni jóság, amely elutasít magától
-65 minden rosszindulatot, önmagában égve, úgy ragyog,
-66 hogy kibontakoztatja az örök szépségeket.
+64 Az isteni jóság, amely önmagától elutasít
+65 minden rosszindulatot, önmagában égve, szikrázik,
+66 úgyhogy kibontja az örök szépségeket.
 </result>
 </query>
 <query>
@@ -306,7 +332,7 @@ Please translate each line literally into Hungarian.
 72 a la virtute de le cose nove.
 </prompt>
 <result>
-70 Ami belőle közvetlenül árad,
+70 Ami belőle közvetlenül esik,
 71 az teljesen szabad, mert nem veti alá magát
 72 az új dolgok erejének.
 </result>
@@ -323,7 +349,7 @@ Please translate each line literally into Hungarian.
 <result>
 73 Minél inkább hasonlít rá, annál jobban tetszik neki;
 74 mert a szent tűz, amely minden dolgot beragyog,
-75 a legjobban hasonlóban a legélénkebb.
+75 a legjobban hasonlóban a legerősebb.
 </result>
 </query>
 <query>
@@ -336,9 +362,9 @@ Please translate each line literally into Hungarian.
 78 di sua nobilità convien che caggia.
 </prompt>
 <result>
-77 Az emberi teremtmény mindezen tulajdonságokkal rendelkezik,
-78 és ha egy hiányzik,
-79 el kell veszítenie nemességét.
+76 Az emberi teremtmény mindezen tulajdonságokkal rendelkezik,
+77 és ha egy hiányzik,
+78 nemességéből ki kell esnie.
 </result>
 </query>
 <query>
@@ -355,13 +381,13 @@ Please translate each line literally into Hungarian.
 84 contra mal dilettar con giuste pene.
 </prompt>
 <result>
-79 Csak a bűn az, ami megfosztja őt ettől,
+79 Csak a bűn az, ami megfosztja,
 80 és hasonlóvá teszi a legfőbb jóhoz,
 81 ezért az ő fényéből keveset fehéredik;
 
-82 és soha nem tér vissza méltóságába,
-83 hacsak nem tölti ki azt, ahol a bűn hiányzik,
-84 a rossz élvezet ellen igazságos büntetéssel.
+82 és méltóságába soha nem tér vissza,
+83 hacsak nem tölti ki, ahol a bűn hiányzik,
+84 a rossz élvezet ellenében igazságos büntetésekkel.
 </result>
 </query>
 <query>
@@ -382,13 +408,13 @@ Please translate each line literally into Hungarian.
 93 avesse sodisfatto a sua follia.
 </prompt>
 <result>
-85 A tiéd természeted, amikor teljesen vétkezett
+85 A tiéd természet, amikor teljesen vétkezett
 86 magjában, ezektől a méltóságoktól,
-87 mint a paradicsomtól, eltávolodott;
+87 mint a paradicsomtól, eltávolíttatott;
 
-88 és nem szerezheti vissza, ha alaposan meggondolod,
+88 és nem nyerheted vissza, ha alaposan meggondolod,
 89 semmilyen módon,
-90 anélkül, hogy át ne menne ezen gázlókon:
+90 anélkül, hogy át ne kelj ezen a gázlón:
 
 91 vagy hogy Isten egyedül az ő kegyelméből
 92 megbocsátott volna, vagy hogy az ember maga
@@ -405,9 +431,9 @@ Please translate each line literally into Hungarian.
 96 al mio parlar distrettamente fisso.
 </prompt>
 <result>
-94 Most szegezd szemed az örök tanács
+94 Szegezd most szemed az örök tanács
 95 mélységébe, amennyire csak tudod,
-96 szavaimra szigorúan összpontosítva.
+96 szorosan összpontosítva szavaimra.
 </result>
 </query>
 <query>
@@ -424,13 +450,13 @@ Please translate each line literally into Hungarian.
 102 da poter sodisfar per sé dischiuso.
 </prompt>
 <result>
-97 Az ember a maga határain belül soha
-98 nem tudott volna elégtételt adni, mert nem tudott lemenni
-99 alázatosan engedelmeskedve,
+97 Az ember a maga határain belül
+98 soha nem tudott elégtételt adni, mert nem tudott alászállni
+99 alázatos engedelmességgel,
 
-100 amennyire engedetlenkedve fel akart menni;
-101 és ez az oka annak, hogy az embert
-102 elzárták attól, hogy maga elégtételt adhasson.
+100 amennyire engedetlenséggel fel akart emelkedni;
+101 és ez az oka annak, hogy az ember el lett zárva
+102 attól, hogy maga elégtételt adhasson.
 </result>
 </query>
 <query>
@@ -444,7 +470,7 @@ Please translate each line literally into Hungarian.
 </prompt>
 <result>
 103 Tehát Istennek az ő útjaival kellett
-104 helyreállítania az embert az ő teljes életében,
+104 helyrehoznia az embert az ő teljes életére nézve,
 105 mondom az egyikkel, vagy mindkettővel.
 </result>
 </query>
@@ -463,12 +489,12 @@ Please translate each line literally into Hungarian.
 </prompt>
 <result>
 106 De mivel a tett annál kedvesebb
-107 a cselekvőnek, minél jobban képviseli
+107 a cselekvőnek, minél inkább mutatja
 108 annak a szívnek a jóságát, ahonnan származik,
 
 109 az isteni jóság, amely a világot megpecsételi,
-110 hogy minden útján eljárjon,
-111 hogy felemeljen titeket, beleegyezett.
+110 arra, hogy minden útján eljárjon,
+111 hogy felemeljen titeket odafent, hajlandó volt.
 </result>
 </query>
 <query>
@@ -489,17 +515,17 @@ Please translate each line literally into Hungarian.
 120 non fosse umilïato ad incarnarsi.
 </prompt>
 <result>
-112 Nem volt az utolsó éjszaka és az első nap között
+112 Sem az utolsó éjszaka és az első nap között
 113 ilyen magas vagy ilyen nagyszerű folyamat,
-114 sem az egyik, sem a másik miatt, sem nem lesz:
+114 sem az egyik, sem a másik által, nem volt vagy nem lesz:
 
 115 mert Isten bőkezűbb volt önmaga adásában,
 116 hogy az embert alkalmassá tegye a felemelkedésre,
 117 mintha csak önmagától bocsátott volna meg;
 
-118 és minden más mód kevés lett volna
+118 és minden más mód elégtelen volt
 119 az igazságossághoz, ha Isten Fia
-120 nem lett volna megalázva, hogy megtestesüljön.
+120 nem lett volna megalázva a megtestesülés által.
 </result>
 </query>
 <query>
@@ -512,7 +538,7 @@ Please translate each line literally into Hungarian.
 123 perché tu veggi lì così com’ io.
 </prompt>
 <result>
-121 Most, hogy jól kielégítsek minden vágyadat,
+121 Most pedig, hogy minden vágyadat jól kielégítsem,
 122 visszatérek, hogy néhány helyen elmagyarázzam neked,
 123 hogy ott úgy láss, ahogy én.
 </result>
@@ -533,7 +559,7 @@ Please translate each line literally into Hungarian.
 <result>
 124 Azt mondod: „Látom a vizet, látom a tüzet,
 125 a levegőt, a földet és az összes keveréküket
-126 megromlani, és nem sokáig tartani;
+126 romlásba menni, és rövid ideig tartani;
 
 127 és ezek a dolgok mégis teremtmények voltak;
 128 ezért, ha igaz az, amit mondtak,
@@ -554,13 +580,13 @@ Please translate each line literally into Hungarian.
 135 da creata virtù sono informati.
 </prompt>
 <result>
-130 A testvérek, az angyalok és az a tiszta ország,
-131 amelyben te vagy, úgy mondhatók teremtményeknek,
-132 ahogy vannak, teljes lényükben;
+130 A testvérem, az angyalok és az a tiszta ország,
+131 amelyben vagy, mondhatók úgy teremtettnek,
+132 ahogy vannak, teljes lényegükben;
 
-133 de azok az élelmiszerek, amelyeket megneveztél,
+133 de azok az elemek, amelyeket megneveztél,
 134 és azok a dolgok, amelyek belőlük készülnek,
-135 teremtett erények által vannak megformálva.
+135 teremtett erő által vannak formálva.
 </result>
 </query>
 <query>
@@ -573,7 +599,7 @@ Please translate each line literally into Hungarian.
 138 in queste stelle che ’ntorno a lor vanno.
 </prompt>
 <result>
-136 Teremtve lett az anyag, amelyük van;
+136 Teremtve lett az anyag, amelyből vannak;
 137 teremtve lett a formáló erő
 138 ezekben a csillagokban, amelyek körülöttük járnak.
 </result>
@@ -593,12 +619,12 @@ Please translate each line literally into Hungarian.
 </prompt>
 <result>
 139 Minden állat és növény lelke
-140 a potenciális komplexumból vonja ki
-141 a szent fények sugarát és mozgását;
+140 a szent fények sugara és mozgása által
+141 fokozott összetételűvé válik;
 
-142 de a ti életeteket közvetlenül leheli
-143 a legfőbb jóság, és beleszeret
-144 önmagába, úgyhogy aztán mindig vágyik rá.
+142 de a ti életeteket közvetítő nélkül
+143 a legfőbb jóság leheli, és beleszeret
+144 önmagába, úgyhogy azután mindig vágyik rá.
 </result>
 </query>
 <query>
@@ -617,7 +643,7 @@ Please translate each line literally into Hungarian.
 146 hogy feltámadtok, ha arra gondolsz,
 147 hogy az emberi test hogyan keletkezett akkor,
 
-148 amikor az első szülők mindketten megteremtődtek.
+148 amikor az első szülők mindketten létrejöttek.
 </result>
 </query>
 </queries>

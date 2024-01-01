@@ -10,9 +10,9 @@ Please translate each line literally into Japanese.
 3 gridando: «Togli, Dio, ch’a te le squadro!».
 </prompt>
 <result>
-1 その泥棒は言葉の最後に
-2 両手で両方のイチジクを掲げて
-3 「神よ、私があなたにこれらを捧げますように！」と叫んだ。
+1 その泥棒は言葉が終わると
+2 両手を両方のイチジクとともに上げ
+3 叫んだ。「神よ、私があなたにこれを見せることを許してください！」
 </result>
 </query>
 <query>
@@ -29,13 +29,13 @@ Please translate each line literally into Japanese.
 9 che non potea con esse dare un crollo.
 </prompt>
 <result>
-4 それ以来、蛇たちは私に友好的になった。
-5 なぜなら、そのうちの1匹がそのとき彼の首に巻きつき、
-6 「もうこれ以上言うな」と言っているようだったからだ。
+4 それ以来、蛇たちは私の友人となった
+5 なぜならそのうちの1匹が首に巻き付き
+6 「これ以上は言うな」と言っているようだったからだ
 
-7 そしてもう1匹は彼の腕に巻きつき、彼を縛り上げ、
-8 自分自身を彼の前にしっかりと固定したので、
-9 彼がそれらで身動き一つ取れなくなった。
+7 もう1匹は腕に巻き付き、私を縛り上げ
+8 自分自身を前にしっかりと固定し
+9 そのせいで私は腕を動かすことができなかった
 </result>
 </query>
 <query>
@@ -55,7 +55,7 @@ Please translate each line literally into Japanese.
 index: 0
 content {
   parts {
-    text: "10 ああ、ピストイア、ピストイアよ、なぜお前は\n11 お前自身を焼き尽くして、二度と存在しなくなるまで立ち止まらないのか。\n12 お前の悪行の種がこれほどまでに増えているのに？\n\n13 地獄のすべての暗い輪の中をくまなく探しても、\n14 神に対してこれほど傲慢な霊は見たことがない。\n15 テーベの城壁から落ちたあの者でさえも。"
+    text: "10 ああピストイア、ピストイアよ、なぜお前は\n11 自らを焼き尽くして、二度と存在しなくなるまで立ち止まらないのか\n12 悪行において、お前の子孫は増え続けるのか？\n\n13 地獄のすべての暗い輪の中で\n14 神に対してこれほど傲慢な霊を見たことがない\n15 テーベの城壁から落ちたあの者でさえも。"
   }
   role: "model"
 }
@@ -70,7 +70,7 @@ safety_ratings {
 }
 safety_ratings {
   category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
+  probability: MEDIUM
 }
 safety_ratings {
   category: HARM_CATEGORY_DANGEROUS_CONTENT
@@ -78,12 +78,12 @@ safety_ratings {
 }
 </error>
 <result>
-10 ああ、ピストイア、ピストイアよ、なぜお前は
-11 お前自身を焼き尽くして、二度と存在しなくなるまで立ち止まらないのか。
-12 お前の悪行の種がこれほどまでに増えているのに？
+10 ああピストイア、ピストイアよ、なぜお前は
+11 自らを焼き尽くして、二度と存在しなくなるまで立ち止まらないのか
+12 悪行において、お前の子孫は増え続けるのか？
 
-13 地獄のすべての暗い輪の中をくまなく探しても、
-14 神に対してこれほど傲慢な霊は見たことがない。
+13 地獄のすべての暗い輪の中で
+14 神に対してこれほど傲慢な霊を見たことがない
 15 テーベの城壁から落ちたあの者でさえも。
 </result>
 </query>
@@ -97,9 +97,9 @@ Please translate each line literally into Japanese.
 18 venir chiamando: «Ov’ è, ov’ è l’acerbo?».
 </prompt>
 <result>
-16 彼は逃げ去り、もう一言も発しなかった。
-17 すると私は、怒りに満ちたケンタウロスがやって来て、
-18 「どこだ、どこにいるんだ、その残酷なやつは？」と叫んでいるのを見た。
+16 彼は逃げ去り、もう何も言わなかった
+17 すると私は怒りに満ちたケンタウロスがやって来て
+18 「どこだ、どこにいるんだ、その残酷なやつは？」と叫んでいるのを見た
 </result>
 </query>
 <query>
@@ -111,10 +111,35 @@ Please translate each line literally into Japanese.
 20 quante bisce elli avea su per la groppa
 21 infin ove comincia nostra labbia.
 </prompt>
+<error result="true">
+index: 0
+content {
+  parts {
+    text: "19 トスカーナ地方にさえ、彼のお尻の上にあったほどの数の大蛇はいないと思う\n20 私たちの言葉が始まる場所まで"
+  }
+  role: "model"
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+</error>
 <result>
-19 私は、トスカーナのマレンマ地方にさえ、
-20 彼が背中に乗せていたほどの多くのヘビがいるとは思わない。
-21 それは、私たち人間の唇が始まる場所まで続いた。
+19 トスカーナ地方にさえ、彼のお尻の上にあったほどの数の大蛇はいないと思う
+20 私たちの言葉が始まる場所まで
 </result>
 </query>
 <query>
@@ -127,9 +152,9 @@ Please translate each line literally into Japanese.
 24 e quello affuoca qualunque s’intoppa.
 </prompt>
 <result>
-22 肩の上、首の後ろには、
-23 翼を広げたドラゴンが横たわっていた。
-24 そしてそれは、それにぶつかる者をすべて焼き尽くす。
+22 肩の上、杯の後ろに
+23 翼を広げた竜が横たわっていた
+24 そしてそれはぶつかるものすべてを燃やす
 </result>
 </query>
 <query>
@@ -142,9 +167,9 @@ Please translate each line literally into Japanese.
 27 di sangue fece spesse volte laco.
 </prompt>
 <result>
-25 私の師は言った。「これはカコだ。
-26 アヴェンティーノの丘の下で、
-27 血の池を何度も作った。」
+25 私の師は言った。「これはカクスだ
+26 アヴェンティーノ山の岩の下で
+27 血の湖を何度も作った」
 </result>
 </query>
 <query>
@@ -161,13 +186,12 @@ Please translate each line literally into Japanese.
 33 gliene diè cento, e non sentì le diece».
 </prompt>
 <result>
-28 彼は、自分の兄弟たちとは別の道を歩んでいる。
-29 近くにあった大きな牛の群れを盗んだという、
-30 悪意のある盗みのために。
+28 彼は兄弟たちとは別の道を歩いている
+29 近くにあった大きな牛の群れを盗んだという悪行のために
 
-31 そのため、彼の卑劣な行いを終わらせるために、
-32 ヘラクレスの棍棒の下で、おそらく
-33 100回も打たれたが、彼は10回しか感じなかった。
+30 そのため、彼の卑劣な行いを終わらせるために
+31 ヘラクレスの棍棒の下で、おそらく
+32 100回も打たれたが、彼は10回しか感じなかった
 </result>
 </query>
 <query>
@@ -184,14 +208,13 @@ Please translate each line literally into Japanese.
 39 e intendemmo pur ad essi poi.
 </prompt>
 <result>
-34 彼がそう話している間、彼は通り過ぎ、
-35 そして3人の霊が私たちのところにやって来た。
-36 そのうち、私と私の案内人は、
+34 話している間に、彼は通り過ぎ
+35 3人の霊が私たちのところにやって来た
+36 それについて私と私の案内人は気づかなかった
 
-37 「お前たちは誰だ？」と叫ぶまで、
-38 彼らに気づかなかった。
-39 そのため、私たちの会話は中断され、
-40 私たちはその後、彼らに注意を向けた。
+37 彼らが「お前たちは誰だ？」と叫ぶまで
+38 そのため、私たちの会話は中断され
+39 そして私たちはその後、彼らに注意を向けた
 </result>
 </query>
 <query>
@@ -208,13 +231,12 @@ Please translate each line literally into Japanese.
 45 mi puosi ’l dito su dal mento al naso.
 </prompt>
 <result>
-40 私は彼らを知りませんでしたが、彼らは続きました。
-41 それは、ある場合にしばしば起こることですが、
-42 1人がもう1人の名前を呼ばなければならなかったのです。
+40 私は彼らを知らないが、彼らはついてきた
+41 偶然にも誰かが誰かの名前を呼ばなければならない場合のように
 
-43 「チアンファはどこにいるのか？」と言いました。
-44 そこで私は、案内人が注意を払うように、
-45 指をあごから鼻まで置きました。
+42 「チアンファはどこにいるんだ？」と言っている
+43 そこで私は案内人が注意を払うように
+44 指を顎から鼻まで置いた
 </result>
 </query>
 <query>
@@ -227,9 +249,10 @@ Please translate each line literally into Japanese.
 48 ché io che ’l vidi, a pena il mi consento.
 </prompt>
 <result>
-46 読者よ、もしあなたが今、私がこれから言うことを信じるのが遅いなら、
-47 それは不思議なことではありません。
-48 なぜなら、それを見た私でさえ、それを認めるのに苦労しているからです。
+46 読者よ、もしあなたが今、
+47 私がこれから言うことを信じるのが遅いなら、
+48 それは不思議なことではないだろう。
+49 なぜなら、それを見た私も、やっと信じることができたからだ。
 </result>
 </query>
 <query>
@@ -243,13 +266,13 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 49 私が彼らに視線を向けていると、
-50 6本の足を持つ蛇が1匹、
-51 1人の前に飛びかかり、彼にしがみつく。
+50 6本の足を持つ蛇が飛び出してきて、
+51 一人の前に立ち、彼にしがみつく。
 </result>
 </query>
 <query>
 <info>[Inferno Canto 25] 52/151</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Japanese.
 
 52 Co’ piè di mezzo li avvinse la pancia
@@ -260,34 +283,14 @@ Please translate each line literally into Japanese.
 56 e miseli la coda tra ’mbedue
 57 e dietro per le ren sù la ritese.
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-52 中間の足で腹を巻きつけ
-53 前の足で腕をつかんだ
-54 そして片方の頬ともう片方の頬をかみちぎった
+52 中間の足で腹を巻きつけ、
+53 前の足で腕をつかみ、
+54 そして片方ともう一方の頬を噛みちぎった。
 
-55 後ろ足を太ももに伸ばし
-56 そして尻尾を二人の間に挟み
-57 後ろから腰に巻きつけた
+55 後ろ足は太ももに伸ばし、
+56 尻尾を二人の間に差し込み、
+57 背中を這わせて後ろに引きずった。
 </result>
 </query>
 <query>
@@ -300,10 +303,8 @@ Please translate each line literally into Japanese.
 60 per l’altrui membra avviticchiò le sue.
 </prompt>
 <result>
-58 絡みつく蔦でさえ、木に絡みつくことはなかった
-59 恐ろしい獣が他の者の手足を絡みつけたように
-
-60 その手足は絡みついていた
+58 ツタが木に絡みつくことは決してない
+59 恐ろしい獣が他者の手足に絡みつくように。
 </result>
 </query>
 <query>
@@ -322,11 +323,11 @@ Please translate each line literally into Japanese.
 <result>
 61 それから、まるで熱い蝋のようにくっつき合い、
 62 色が混ざり合い、
-63 どちらがどちらなのかわからなくなった。
+63 どちらの姿も以前とは変わってしまった。
 
 64 燃える炎の前で、
-65 パピルスの上を茶色が広がっていくように、
-66 まだ黒ではなく、白が消えていく。
+65 パピルスの上で、
+66 まだ黒ではなく、白が消えつつある茶色が広がっていくように。
 </result>
 </query>
 <query>
@@ -339,8 +340,8 @@ Please translate each line literally into Japanese.
 69 Vedi che già non se’ né due né uno».
 </prompt>
 <result>
-67 他二人は彼を見て、それぞれが叫んだ。
-68 「ああ、アグネルよ、お前はどう変わるのか！
+67 他の二人はそれを見て、それぞれが叫んだ。
+68 「ああ、アグネルよ、お前はどう変わってしまったのか！
 69 お前はもう二人でも一人でもないのがわかるか？」
 </result>
 </query>
@@ -356,7 +357,7 @@ Please translate each line literally into Japanese.
 <result>
 70 二つの頭はすでに一つになっていたが、
 71 すると、二つの姿が混ざり合って一つの顔に現れ、
-72 そこには二人が失われていた。
+72 そこに二人が失われた。
 </result>
 </query>
 <query>
@@ -369,8 +370,8 @@ Please translate each line literally into Japanese.
 75 divenner membra che non fuor mai viste.
 </prompt>
 <result>
-73 四本の腕が二本になった。
-74 太ももと脚、腹と胸は、
+73 四本の腕が二本になり、
+74 太もも、脚、腹、胸は、
 75 かつて見たことのない手足になった。
 </result>
 </query>
@@ -384,8 +385,8 @@ Please translate each line literally into Japanese.
 78 parea; e tal sen gio con lento passo.
 </prompt>
 <result>
-76 以前の姿はすべて失われていた。
-77 二つでもなく、何もないような歪んだ姿は、
+76 以前の姿はすべて失われ、
+77 邪悪な姿は二人でもなく、一人でもなく、
 78 ゆっくりと歩いていった。
 </result>
 </query>
@@ -407,17 +408,15 @@ Please translate each line literally into Japanese.
 87 poi cadde giuso innanzi lui disteso.
 </prompt>
 <result>
-79 盛夏の太陽の下でトカゲが
-80 茂みを変えながら這うように、
-81 雷のように道を横切っていく。
+79 夏の暑い日に、茂みを変えながら這うとかげのように、
+80 雷が道を横切るように、
+81 他二人の前に現れたのは、
+82 小さな燃える蛇で、
+83 黒胡椒のように青黒かった。
 
-82 二匹の獣の間にやってくると、
-83 小さな燃える蛇のように見え、
-84 黒胡椒のように青黒かった。
-
-85 そして、私たちが最初に食物として摂取する部分に、
-86 二匹の獣の一匹を刺した。
-87 それから、その獣の前に倒れて横たわった。
+84 そして、私たちが最初に食物を得る部分に、
+85 その一人の体を突き刺し、
+86 それからその前に倒れて横たわった。
 </result>
 </query>
 <query>
@@ -430,8 +429,8 @@ Please translate each line literally into Japanese.
 90 pur come sonno o febbre l’assalisse.
 </prompt>
 <result>
-88 刺された獣は彼を見つめたが、何も言わなかった。
-89 むしろ、足を止めてあくびをし、
+88 ミロは彼を貫いたが、何も言わなかった。
+89 むしろ、足を止めてあくびをした。
 90 まるで眠気か熱に襲われたかのように。
 </result>
 </query>
@@ -445,8 +444,8 @@ Please translate each line literally into Japanese.
 93 fummavan forte, e ’l fummo si scontrava.
 </prompt>
 <result>
-91 蛇は彼を、彼は蛇を見つめていた。
-92 一匹は傷口から、もう一匹は口から
+91 蛇は彼を、彼は蛇を凝視していた。
+92 一方は傷口から、もう一方は口から
 93 激しく煙を吐き、その煙はぶつかり合った。
 </result>
 </query>
@@ -460,9 +459,8 @@ Please translate each line literally into Japanese.
 96 e attenda a udir quel ch’or si scocca.
 </prompt>
 <result>
-94 ルカヌスはもはや、
-95 不幸なサベッロとナシディオについて語ったところで黙り、
-96 今起こっていることを聞くことに専念すべきだ。
+94 ルカヌスはもはやサベッロとナシディオの悲惨な最期について語るのをやめよ。
+95 そして今起こっていることを聞くことに専念せよ。
 </result>
 </query>
 <query>
@@ -479,12 +477,10 @@ Please translate each line literally into Japanese.
 102 a cambiar lor matera fosser pronte.
 </prompt>
 <result>
-97 オウィディウスはカドモスとアレーテューサについて黙れ。
-98 もし彼が詩の中で彼を蛇に、彼女を泉に変えたとしても、私は彼を羨まない。
+97 オウィディウスはカドモスとアレーテューサについて語るのをやめよ。
+98 詩の中で彼が前者を蛇に、後者を泉に変えたとしても、私は彼をうらやまない。
 
-99 なぜなら、二つの自然が正面から向き合って、
-100 両方の形がその物質を変える準備ができていたように、
-101 変容したことは一度もなかったからだ。
+99 なぜなら、二つの存在が正面から向き合って、その両方の形がその物質を変える準備ができていたように変化したことは一度もないからだ。
 </result>
 </query>
 <query>
@@ -497,9 +493,9 @@ Please translate each line literally into Japanese.
 105 e ’l feruto ristrinse insieme l’orme.
 </prompt>
 <result>
-103 彼らはそのような法則に従って互いに答え、
-104 蛇は尾を二股に分裂させ、
-105 傷ついた獣は歩幅を狭めた。
+103 彼らはその命令に同時に答えた。
+104 蛇は尾をまたがせ、
+105 傷を負った者は歩幅を狭めた。
 </result>
 </query>
 <query>
@@ -512,8 +508,8 @@ Please translate each line literally into Japanese.
 108 non facea segno alcun che si paresse.
 </prompt>
 <result>
-106 脚と太ももは互いにくっつき合い、
-107 すぐに継ぎ目がまったく見えなくなった。
+106 彼の脚と太ももは互いにくっつき合い、
+107 そのつなぎ目はすぐに、それが別々のものであるかのように見える兆候を示さなくなった。
 </result>
 </query>
 <query>
@@ -526,9 +522,8 @@ Please translate each line literally into Japanese.
 111 si facea molle, e quella di là dura.
 </prompt>
 <result>
-109 二股に分かれた尾は、
-110 そこで失われていた形を取り戻し、
-111 その皮は柔らかく、反対側の皮は硬くなった。
+109 二つに分かれた尾は、そこで失われていく形を取り除き、
+110 その皮膚は柔らかくなり、反対側の皮膚は硬くなった。
 </result>
 </query>
 <query>
@@ -541,7 +536,7 @@ Please translate each line literally into Japanese.
 114 tanto allungar quanto accorciavan quelle.
 </prompt>
 <result>
-112 私は腕が脇の下に入り込むのを見て、
+112 私は腕が脇の下に入り込むのを見た。
 113 そして獣の二本の足は短かったが、
 114 腕が短くなるにつれて長くなった。
 </result>
@@ -559,7 +554,7 @@ Please translate each line literally into Japanese.
 index: 0
 content {
   parts {
-    text: "115 それから、後ろ足は互いに絡み合って、\n116 人間が隠している器官になり、\n117 不幸な獣は自分の器官を二つ持っていた。"
+    text: "115 その後、後ろ足は絡み合って、\n116 人間が隠している器官になり、\n117 哀れな男はそれを二つ持っていた。"
   }
   role: "model"
 }
@@ -582,9 +577,9 @@ safety_ratings {
 }
 </error>
 <result>
-115 それから、後ろ足は互いに絡み合って、
+115 その後、後ろ足は絡み合って、
 116 人間が隠している器官になり、
-117 不幸な獣は自分の器官を二つ持っていた。
+117 哀れな男はそれを二つ持っていた。
 </result>
 </query>
 <query>
@@ -602,10 +597,10 @@ Please translate each line literally into Japanese.
 </prompt>
 <result>
 118 煙が二人を新しい色で覆い、
-119 一方の皮を生やし、もう一方の皮を剥ぎ取る間、
+119 一方の側には毛が生え、もう一方の側からは毛が抜ける中、
 
-120 一人は立ち上がり、もう一人は倒れたが、
-122 しかし、その邪悪な目はそらさず、
+120 一人は立ち上がり、もう一人は倒れた。
+122 しかし、その邪悪な目は逸らさず、
 123 その下でそれぞれが顔を変えた。
 </result>
 </query>
@@ -623,13 +618,13 @@ Please translate each line literally into Japanese.
 129 e le labbra ingrossò quanto convenne.
 </prompt>
 <result>
-124 直立していた獣はそれをこめかみに引き寄せ、
-125 そこに流れ込んだ余分な物質から、
-126 単純な頬から耳が生えてきた。
+124 まっすぐだったものはこめかみに引き寄せられ
+125 そしてあまりにも多くの物質がそこに集まってきて
+126 耳が単純な頬から突き出た
 
-127 後ろに流れず、その余分な部分に留まったものは、
-128 顔に鼻を作り、
-129 唇を適切な大きさに厚くした。
+127 後ろに流れず、残ったその余分なものは
+128 顔に鼻を作り
+129 そして唇をふさわしい大きさに膨らませた
 </result>
 </query>
 <query>
@@ -646,12 +641,12 @@ Please translate each line literally into Japanese.
 135 ne l’altro si richiude; e ’l fummo resta.
 </prompt>
 <result>
-130 横たわっていた獣は、鼻を前に突き出し、
-131 カタツムリが角を出すように、耳を頭の中に引っ込めた。
+130 横たわっていたものは、鼻先を前に突き出し
+131 頭に耳を引っ込め
+132 カタツムリが角を出すように
 
-133 そして、以前は話すために一つにまとまって素早かった舌は、
-134 二つに分かれ、もう一方の獣の中に閉じ込められた。
-135 そして煙は消えた。
+133 以前は話すために素早く一つにまとまっていた舌は
+134 二つに分かれ、もう一方に閉じ込められる。そして煙が残る。
 </result>
 </query>
 <query>
@@ -664,9 +659,9 @@ Please translate each line literally into Japanese.
 138 e l’altro dietro a lui parlando sputa.
 </prompt>
 <result>
-136 獣になった魂は、
-137 息を吹きかけながら谷を逃げ去り、
-138 もう一方はその後に続いて、話しつつ唾を吐いた。
+136 獣と化した魂は
+137 息を荒くしながら谷間を逃げ去り
+138 もう一方はその後に続いて唾を吐きながら叫ぶ。
 </result>
 </query>
 <query>
@@ -679,9 +674,9 @@ Please translate each line literally into Japanese.
 141 com’ ho fatt’ io, carpon per questo calle».
 </prompt>
 <result>
-139 それから彼は新しい背中を向け、
-140 もう一方に言った。「私はブオーゾが、
-141 私がしたように、この道を這って走ることを望む。」
+139 それから新しい背を向け
+140 もう一方に言った。「ブオーゾに這って走らせたい
+141 この道で、私がしたように」
 </result>
 </query>
 <query>
@@ -694,9 +689,9 @@ Please translate each line literally into Japanese.
 144 la novità se fior la penna abborra.
 </prompt>
 <result>
-142 私はこのようにして、七番目の重荷が
-143 変化し、変容するのを見た。そしてここで、
-144 新しさのために私のペンが花を嫌うことを許してほしい。
+142 こうして私は7番目の重荷が
+143 変化し、姿を変えるのを見た。ここで許してほしい
+144 新しさのためにペンが花を嫌うことを。
 </result>
 </query>
 <query>
@@ -715,15 +710,14 @@ Please translate each line literally into Japanese.
 151 l’altr’ era quel che tu, Gaville, piagni.
 </prompt>
 <result>
-145 そして私の目はいくらか混乱し、
-146 心は動揺していたが、
-147 彼らが完全に隠れてしまうほど逃げることはできなかった。
+145 私の目はいくらか混乱し
+146 心は打ちのめされていたが
+147 彼らが逃げ去るのをはっきりと見ることができた
 
-148 私はプッチョ・シアンカートをしっかりと見ることができた。
-149 そして彼は、最初に来た三人の仲間の中で、
-150 唯一変化していなかった者だった。
+148 私はプッチョ・シアンカートをうまく見分けることができた。
+149 彼は最初に来た3人の仲間の中で唯一変化していなかった。
 
-151 もう一人は、ガヴィッレよ、あなたが嘆く者だった。
+150 もう一人は、ガヴィッレよ、お前が嘆くあの人物だった。
 </result>
 </query>
 </queries>
