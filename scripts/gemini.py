@@ -158,11 +158,13 @@ def query(prompt, info=None, show=False, retry=True, check=None):
                         print()
                         print(r)
                     break
-            if not retry or chat_count == 1:
+            if retry and chat_count != 1:
+                q.retry = True
+                if show:
+                    print()
+                print("Retrying...", file=sys.stderr)
+                start()
+            else:
+                start()
                 break
-            q.retry = True
-            if show:
-                print()
-            print("Retrying...", file=sys.stderr)
-            start()
     return q
