@@ -44,8 +44,14 @@ _done:
 	$(SCRIPT) vi Vietnamese
 	$(SCRIPT) zh Chinese
 
+_pending:
+	$(SCRIPT) grc "Ancient Greek"
+	$(SCRIPT) kw "English and Cornish"
+	$(SCRIPT) ms "English and Malay"
+	$(SCRIPT) sa "English and Sanskrit"
+
 _error:
-	$(SCRIPT) af Afrikaans
+	$(SCRIPT) af "English and Afrikaans" # unstable
 	$(SCRIPT) am Amharic
 	$(SCRIPT) be Belarusian
 	$(SCRIPT) ca Catalan
@@ -59,11 +65,10 @@ _error:
 	$(SCRIPT) is Icelandic
 	$(SCRIPT) ka Georgian
 	$(SCRIPT) km Khmer
-	$(SCRIPT) kw Cornish # unstable
+	$(SCRIPT) la "English and Latin" # unstable
 	$(SCRIPT) mk Macedonian
 	$(SCRIPT) mn Mongolian
 	$(SCRIPT) mr Marathi
-	$(SCRIPT) ms Malay
 	$(SCRIPT) mt Maltese
 	$(SCRIPT) my Burmese
 	$(SCRIPT) ne Nepali

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Sanskrit.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Roman (Word), Lemma, Roman (Lemma), Part of Speech, Gender, Case, Number, Person, Tense, Mood, Voice and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Madhye madhyenaśajīvanasya
+9 anyāḥ api vastūni yāni mayā tatra dṛṣṭāni, tāni vakṣyāmi.
+28 Tataḥ śrāntam śarīram alpaṃ sthāpayitvā,
+67 Pratyuvāca māṃ saḥ: "Na asmi, asmi pūrvaṃ āsīt,
+</prompt>
+<result>
+|Word|Roman (Word)|Lemma|Roman (Lemma)|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Voice|Note|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|Madhye|madhye|madhya|madhya|adverb|||||||||
+|madhyenaśajīvanasya|madhyenaśajīvanasya|madhyenaśajīvana|madhyenaśajīvana|adjective|m.|genitive|sg.||||||
+|anyāḥ|anyāḥ|anya|anya|pronoun|f.|nominative|pl.||||||
+|api|api|api|api|particle|||||||||
+|vastūni|vastūni|vastu|vastu|noun|n.|nominative|pl.||||||
+|yāni|yāni|ya|ya|pronoun|n.|nominative|pl.||||||
+|mayā|mayā|aham|aham|pronoun|m.|instrumental|sg.|1|||||
+|tatra|tatra|tatra|tatra|adverb|||||||||
+|dṛṣṭāni|dṛṣṭāni|dṛś|dṛś|verb|n.|nominative|pl.||perfect|passive|||
+|tāni|tāni|ta|ta|pronoun|n.|nominative|pl.||||||
+|vakṣyāmi|vakṣyāmi|vac|vac|verb|1|future|active|1|||||
+|Tataḥ|Tataḥ|tataḥ|tataḥ|adverb|||||||||
+|śrāntam|śrāntam|śrānta|śrānta|adjective|m.|accusative|sg.||||||
+|śarīram|śarīram|śarīra|śarīra|noun|n.|accusative|sg.||||||
+|alpaṃ|alpaṃ|alpa|alpa|adjective|n.|accusative|sg.||||||
+|sthāpayitvā|sthāpayitvā|sthāpay|sthāpay|verb|n.|accusative|sg.||perfect|active|||
+|Pratyuvāca|Pratyuvāca|prati-vac|prati-vac|verb|3|aorist|active|3|||||
+|māṃ|māṃ|aham|aham|pronoun|m.|accusative|sg.|1|||||
+|saḥ|saḥ|sa|sa|pronoun|m.|nominative|sg.|3|||||
+|Na|Na|na|na|particle|||||||||
+|asmi|asmi|as|as|verb|1|present|active|1|||||
+|asmi|asmi|as|as|verb|1|present|active|1|||||
+|pūrvaṃ|pūrvaṃ|pūrva|pūrva|adverb|||||||||
+|āsīt|āsīt|as|as|verb|3|imperfect|active|3|||||
+</result>
+</query>
+</queries>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Malay.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Tense and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Di tengah-tengah perjalanan hidup kita
+9 akan kukatakan hal-hal lain yang kulihat di sana.
+28 Setelah aku mengistirahatkan tubuhku yang lelah sejenak,
+67 Dia menjawabku: "Bukan manusia, manusia dulu aku,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Tense|Note|
+|---|---|---|---|---|
+|Di|di|preposition|||
+|tengah-tengah|tengah|noun|||
+|perjalanan|perjalanan|noun|||
+|hidup|hidup|noun|||
+|kita|kita|pronoun|||
+|akan|akan|auxiliary verb|future||
+|kukatakan|kata|verb|future||
+|hal-hal|hal|noun|||
+|lain|lain|adjective|||
+|yang|yang|relative pronoun|||
+|kulihat|lihat|verb|past||
+|di|di|preposition|||
+|sana|sana|adverb|||
+|Setelah|setelah|conjunction|||
+|aku|aku|pronoun|||
+|mengistirahatkan|istirahat|verb|past||
+|tubuhku|tubuh|noun|||
+|yang|yang|relative pronoun|||
+|lelah|lelah|adjective|||
+|sejenak|sejenak|adverb|||
+|Dia|dia|pronoun|||
+|menjawabku|jawab|verb|past||
+|Bukan|bukan|adverb|||
+|manusia|manusia|noun|||
+|manusia|manusia|noun|||
+|dulu|dulu|adverb|||
+|aku|aku|pronoun|||
+</result>
+</query>
+</queries>

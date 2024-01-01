@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Cornish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Y'n kres an fordh a'gan byw
+9 yth wra vy dywedha'n tra owerel awel ys vy.
+28 Wosa vy le a-barth y'm korf marow,
+67 Ev a leveris dhym: “Nyns yw den vy, den oen vy,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|Y'n|yn|preposition||||||||
+|kres|kres|noun|m.|sg.||||||
+|an|an|definite article|m.|sg.||||||
+|fordh|fordh|noun|f.|sg.||||||
+|a'gan|agan|possessive adjective||||1||||
+|byw|byw|noun|m.|sg.||||||
+|yth|yth|conjunction||||||||
+|wra|wra|verb||||3|past|indicative||
+|vy|vy|personal pronoun||||1||||
+|dywedha'n|dywedha|verb||||3|present|indicative||
+|tra|tra|noun|m.|sg.||||||
+|owerel|owerel|adjective||||||||
+|awel|awel|noun|m.|sg.||||||
+|ys|ys|verb||||3|present|indicative||
+|vy|vy|personal pronoun||||1||||
+|Wosa|wosa|conjunction||||||||
+|vy|vy|personal pronoun||||1||||
+|le|le|verb||||3|past|indicative||
+|a-barth|a-barth|preposition||||||||
+|y'm|ym|personal pronoun||||1||||
+|korf|korf|noun|m.|sg.||||||
+|marow|marow|adjective||||||||
+|Ev|ev|personal pronoun||||3||||
+|a|a|verb||||3|present|indicative||
+|leveris|leveris|verb||||3|past|indicative||
+|dhym|dhym|personal pronoun||||2||||
+|Nyns|nyns|adverb||||||||
+|yw|yw|verb||||3|present|indicative||
+|den|den|noun|m.|sg.||||||
+|vy|vy|personal pronoun||||1||||
+|den|den|noun|m.|sg.||||||
+|oen|oen|verb||||3|past|indicative||
+|vy|vy|personal pronoun||||1||||
+</result>
+</query>
+</queries>

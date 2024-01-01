@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Ancient Greek.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood, Voice and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Ἐν μέσῳ τῆς ὁδοῦ τῆς ζωῆς ἡμῶν
+9 θὰ πῶ γιὰ τἄλλα πράγματα ποὺ εἶδα ἐκεῖ.
+28 Ἔπειτα ἀφού ξεκούρασα λίγο τὸ κουρασμένο σῶμα,
+67 Ἀπεκρίθη μοι: «Οὐκ ἄνθρωπος, ἄνθρωπος ἤδη ἐγενόμην,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Voice|Note|
+|---|---|---|---|---|---|---|---|---|---|---|
+|Ἐν|ἐν|preposition|||||||||
+|μέσῳ|μέσος|adjective|m.|dative|sg.||||||
+|τῆς|ὁ|definite article|f.|genitive|sg.||||||
+|ὁδοῦ|ὁδός|noun|f.|genitive|sg.||||||
+|τῆς|ὁ|definite article|f.|genitive|sg.||||||
+|ζωῆς|ζωή|noun|f.|genitive|sg.||||||
+|ἡμῶν|ἡμεῖς|personal pronoun||genitive|pl.|1|||||
+|θὰ|θέλω|verb||||1|future|indicative|active||
+|πῶ|φημί|verb||present|subjunctive|1|||active||
+|γιὰ|διά|preposition|||||||||
+|τἄλλα|τά + ἄλλα|definite article|n.|accusative|pl.|||||contraction|
+|πράγματα|πρᾶγμα|noun|n.|accusative|pl.||||||
+|ποὺ|ὅς, ἥ, ὅ|relative pronoun||nominative|pl.|3|||||
+|εἶδα|ὁράω|verb||aorist|indicative|1|||active||
+|ἐκεῖ|ἐκεῖ|adverb|||||||||
+|Ἔπειτα|ἔπειτα|adverb|||||||||
+|ἀφού|ἐπεί|conjunction|||||||||
+|ξεκούρασα|ξεκουράζω|verb||aorist|indicative|1|||active||
+|λίγο|ὀλίγος|adjective|n.|accusative|sg.||||||
+|τὸ|ὁ|definite article|n.|accusative|sg.||||||
+|κουρασμένο|κουράζω|verb|n.|accusative|sg.||perfect|passive|||
+|σῶμα|σῶμα|noun|n.|accusative|sg.||||||
+|Ἀπεκρίθη|ἀποκρίνομαι|verb||aorist|indicative|3|||middle||
+|μοι|ἐγώ|personal pronoun||dative|sg.|1|||||
+|Οὐκ|οὐ|negative particle|||||||||
+|ἄνθρωπος|ἄνθρωπος|noun|m.|nominative|sg.||||||
+|ἄνθρωπος|ἄνθρωπος|noun|m.|nominative|sg.||||||
+|ἤδη|ἤδη|adverb|||||||||
+|ἐγενόμην|γίγνομαι|verb||aorist|indicative|1|||middle||
+</result>
+</query>
+</queries>

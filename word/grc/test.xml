@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Ancient Greek.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood, Voice and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Ἐν μέσῳ τῆς ὁδοῦ τῆς ζωῆς ἡμῶν
+9 θὰ πῶ γιὰ τἄλλα πράγματα ποὺ εἶδα ἐκεῖ.
+28 Ἔπειτα ἀφού ξεκούρασα λίγο τὸ κουρασμένο σῶμα,
+67 Ἀπεκρίθη μοι: «Οὐκ ἄνθρωπος, ἄνθρωπος ἤδη ἐγενόμην,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Voice | Note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Ἐν | ἐν | preposition |  |  |  |  |  |  |  |  |
+| μέσῳ | μέσος | adjective | m. | dative | sg. |  |  |  |  |  |
+| τῆς | ὁ | definite article | f. | genitive | sg. |  |  |  |  |  |
+| ὁδοῦ | ὁδός | noun | f. | genitive | sg. |  |  |  |  |  |
+| τῆς | ὁ | definite article | f. | genitive | sg. |  |  |  |  |  |
+| ζωῆς | ζωή | noun | f. | genitive | sg. |  |  |  |  |  |
+| ἡμῶν | ἡμεῖς | personal pronoun |  | genitive | pl. | 1 |  |  |  |  |
+| θὰ | θέλω | verb |  |  |  | 1 | future | indicative | active |  |
+| πῶ | φημί | verb |  | present | subjunctive | 1 |  |  | active |  |
+| γιὰ | διά | preposition |  |  |  |  |  |  |  |  |
+| τἄλλα | τά+ἄλλα | definite article | n. | accusative | pl. |  |  |  |  | contraction |
+| πράγματα | πρᾶγμα | noun | n. | accusative | pl. |  |  |  |  |  |
+| ποὺ | ὅς,ἥ,ὅ | relative pronoun |  | nominative | pl. | 3 |  |  |  |  |
+| εἶδα | ὁράω | verb |  | aorist | indicative | 1 |  |  | active |  |
+| ἐκεῖ | ἐκεῖ | adverb |  |  |  |  |  |  |  |  |
+| Ἔπειτα | ἔπειτα | adverb |  |  |  |  |  |  |  |  |
+| ἀφού | ἐπεί | conjunction |  |  |  |  |  |  |  |  |
+| ξεκούρασα | ξεκουράζω | verb |  | aorist | indicative | 1 |  |  | active |  |
+| λίγο | ὀλίγος | adjective | n. | accusative | sg. |  |  |  |  |  |
+| τὸ | ὁ | definite article | n. | accusative | sg. |  |  |  |  |  |
+| κουρασμένο | κουράζω | verb | n. | accusative | sg. |  | perfect | passive |  |  |
+| σῶμα | σῶμα | noun | n. | accusative | sg. |  |  |  |  |  |
+| Ἀπεκρίθη | ἀποκρίνομαι | verb |  | aorist | indicative | 3 |  |  | middle |  |
+| μοι | ἐγώ | personal pronoun |  | dative | sg. | 1 |  |  |  |  |
+| Οὐκ | οὐ | negative particle |  |  |  |  |  |  |  |  |
+| ἄνθρωπος | ἄνθρωπος | noun | m. | nominative | sg. |  |  |  |  |  |
+| ἄνθρωπος | ἄνθρωπος | noun | m. | nominative | sg. |  |  |  |  |  |
+| ἤδη | ἤδη | adverb |  |  |  |  |  |  |  |  |
+| ἐγενόμην | γίγνομαι | verb |  | aorist | indicative | 1 |  |  | middle |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Ἐν μέσῳ τῆς ὁδοῦ τῆς ζωῆς ἡμῶν
+2 εὗρον ἐμαυτόν διὰ δάσους σκοτεινοῦ,
+3 διότι ἡ ὀρθὴ ὁδός ἐχάθη.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Voice | Note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Ἐν | ἐν | preposition |  |  |  |  |  |  |  |  |
+| μέσῳ | μέσος | adjective | m. | dative | sg. |  |  |  |  |  |
+| τῆς | ὁ | definite article | f. | genitive | sg. |  |  |  |  |  |
+| ὁδοῦ | ὁδός | noun | f. | genitive | sg. |  |  |  |  |  |
+| τῆς | ὁ | definite article | f. | genitive | sg. |  |  |  |  |  |
+| ζωῆς | ζωή | noun | f. | genitive | sg. |  |  |  |  |  |
+| ἡμῶν | ἡμεῖς | personal pronoun |  | genitive | pl. | 1 |  |  |  |  |
+| εὗρον | εὑρίσκω | verb |  | aorist | indicative | 1 |  |  | active |  |
+| ἐμαυτόν | ἐμαυτόν | reflexive pronoun | m. | accusative | sg. | 1 |  |  |  |  |
+| διὰ | διά | preposition |  |  |  |  |  |  |  |  |
+| δάσους | δάσος | noun | n. | genitive | sg. |  |  |  |  |  |
+| σκοτεινοῦ | σκοτεινός | adjective | m. | genitive | sg. |  |  |  |  |  |
+| διότι | διότι | conjunction |  |  |  |  |  |  |  |  |
+| ἡ | ὁ | definite article | f. | nominative | sg. |  |  |  |  |  |
+| ὀρθὴ | ὀρθός | adjective | f. | nominative | sg. |  |  |  |  |  |
+| ὁδός | ὁδός | noun | f. | nominative | sg. |  |  |  |  |  |
+| ἐχάθη | χάνω | verb |  | aorist | indicative | 3 |  |  | passive |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ὦ πόσον δύσκολο νὰ εἰπῇ τις ποῖον ἦν
+5 τοῦτο τὸ δάσος ἄγριον καὶ τραχύ καὶ δυνατόν,
+6 τὸ ὁποῖον ἀνανεώνει τὸν φόβον στη σκέψη!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Voice | Note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Ὦ | ὤ | interjection |  |  |  |  |  |  |  | vocative |
+| πόσον | πόσος | adjective | n. | accusative | sg. |  |  |  |  |  |
+| δύσκολο | δύσκολος | adjective | n. | nominative | sg. |  |  |  |  |  |
+| νὰ | ναί | particle |  |  |  |  |  |  |  |  |
+| εἰπῇ | εἰπεῖν | verb |  | aorist | subjunctive | 3 |  |  | active |  |
+| τις | τις | indefinite pronoun |  | nominative | sg. | 3 |  |  |  |  |
+| ποῖον | ποῖος | interrogative pronoun | n. | accusative | sg. |  |  |  |  |  |
+| ἦν | εἰμί | verb |  | imperfect | indicative | 3 |  |  | active |  |
+| τοῦτο | οὗτος | demonstrative pronoun | n. | accusative | sg. |  |  |  |  |  |
+| τὸ | ὁ | definite article | n. | accusative | sg. |  |  |  |  |  |
+| δάσος | δάσος | noun | n. | nominative | sg. |  |  |  |  |  |
+| ἄγριον | ἄγριος | adjective | n. | accusative | sg. |  |  |  |  |  |
+| καὶ | καί | conjunction |  |  |  |  |  |  |  |  |
+| τραχύ | τραχύς | adjective | n. | accusative | sg. |  |  |  |  |  |
+| καὶ | καί | conjunction |  |  |  |  |  |  |  |  |
+| δυνατόν | δυνατός | adjective | n. | accusative | sg. |  |  |  |  |  |
+| τὸ | ὁ | definite article | n. | accusative | sg. |  |  |  |  |  |
+| ὁποῖον | ὅς,ἥ,ὅ | relative pronoun | n. | accusative | sg. |  |  |  |  |  |
+| ἀνανεώνει | ἀνανεόω | verb |  | present | indicative | 3 |  |  | active |  |
+| τὸν | ὁ | definite article | m. | accusative | sg. |  |  |  |  |  |
+| φόβον | φόβος | noun | m. | accusative | sg. |  |  |  |  |  |
+| στη | εἰς | preposition |  |  |  |  |  |  |  |  |
+| σκέψη | σκέψις | noun | f. | accusative | sg. |  |  |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Τόσο πικρό εἶναι ποὺ εἶναι λίγο περισσότερο ἀπὸ θάνατος.
+8 Ἀλλὰ γιὰ νὰ μιλήσω γιὰ τὸ καλὸ ποὺ βρῆκα ἐκεῖ,
+9 θὰ πῶ γιὰ τἄλλα πράγματα ποὺ εἶδα ἐκεῖ.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Voice | Note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Τόσο | τόσος | adjective | n. | nominative | sg. |  |  |  |  |  |
+| πικρό | πικρός | adjective | n. | nominative | sg. |  |  |  |  |  |
+| εἶναι | εἰμί | verb |  | present | indicative | 3 |  |  | active |  |
+| ποὺ | ὅς,ἥ,ὅ | relative pronoun |  | nominative | sg. | 3 |  |  |  |  |
+| εἶναι | εἰμί | verb |  | present | indicative | 3 |  |  | active |  |
+| λίγο | ὀλίγος | adjective | n. | accusative | sg. |  |  |  |  |  |
+| περισσότερο | πολύς | adjective | n. | accusative | sg. |  | comparative |  |  |  |
+| ἀπὸ | ἀπό | preposition |  |  |  |  |  |  |  |  |
+| θάνατος | θάνατος | noun | m. | accusative | sg. |  |  |  |  |  |
+| Ἀλλὰ | ἀλλά | conjunction |  |  |  |  |  |  |  |  |
+| γιὰ | διά | preposition |  |  |  |  |  |  |  |  |
+| νὰ | ναί | particle |  |  |  |  |  |  |  |  |
+| μιλήσω | μιλῶ | verb |  | aorist | subjunctive | 1 |  |  | active |  |
+| γιὰ | διά | preposition |  |  |  |  |  |  |  |  |
+| τὸ | ὁ | definite article | n. | accusative | sg. |  |  |  |  |  |
+| καλὸ | καλός | adjective | n. | accusative | sg. |  |  |  |  |  |
+| ποὺ | ὅς,ἥ,ὅ | relative pronoun |  | nominative | sg. | 3 |  |  |  |  |
+| βρῆκα | βρίσκω | verb |  | aorist | indicative | 1 |  |  | active |  |
+| ἐκεῖ | ἐκεῖ | adverb |  |  |  |  |  |  |  |  |
+| θὰ | θέλω | verb |  |  |  | 1 | future | indicative | active |  |
+| πῶ | φημί | verb |  | present | subjunctive | 1 |  |  | active |  |
+| γιὰ | διά | preposition |  |  |  |  |  |  |  |  |
+| τἄλλα | τά+ἄλλα | definite article | n. | accusative | pl. |  |  |  |  | contraction |
+| πράγματα | πρᾶγμα | noun | n. | accusative | pl. |  |  |  |  |  |
+| ποὺ | ὅς,ἥ,ὅ | relative pronoun |  | nominative | pl. | 3 |  |  |  |  |
+| εἶδα | ὁράω | verb |  | aorist | indicative | 1 |  |  | active |  |
+| ἐκεῖ | ἐκεῖ | adverb |  |  |  |  |  |  |  |  |
+</result>
+</query>
+</queries>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="4">
+<query>
+<prompt>
+This text is written in Cornish.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 Y'n kres an fordh a'gan byw
+9 yth wra vy dywedha'n tra owerel awel ys vy.
+28 Wosa vy le a-barth y'm korf marow,
+67 Ev a leveris dhym: “Nyns yw den vy, den oen vy,
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Y'n | yn | preposition |  |  |  |  |  |  |  |
+| kres | kres | noun | m. | sg. |  |  |  |  |  |
+| an | an | definite article | m. | sg. |  |  |  |  |  |
+| fordh | fordh | noun | f. | sg. |  |  |  |  |  |
+| a'gan | agan | possessive adjective |  |  |  |  |  |  |  |
+| byw | byw | noun | m. | sg. |  |  |  |  |  |
+| yth | yth | conjunction |  |  |  |  |  |  |  |
+| wra | wra | verb |  |  |  | 3 | past | indicative |  |
+| vy | vy | personal pronoun |  |  |  | 1 |  |  |  |
+| dywedha'n | dywedha | verb |  |  |  | 3 | present | indicative |  |
+| tra | tra | noun | m. | sg. |  |  |  |  |  |
+| owerel | owerel | adjective |  |  |  |  |  |  |  |
+| awel | awel | noun | m. | sg. |  |  |  |  |  |
+| ys | ys | verb |  |  |  | 3 | present | indicative |  |
+| vy | vy | personal pronoun |  |  |  | 1 |  |  |  |
+| Wosa | wosa | conjunction |  |  |  |  |  |  |  |
+| vy | vy | personal pronoun |  |  |  | 1 |  |  |  |
+| le | le | verb |  |  |  | 3 | past | indicative |  |
+| a-barth | a-barth | preposition |  |  |  |  |  |  |  |
+| y'm | ym | personal pronoun |  |  |  | 1 |  |  |  |
+| korf | korf | noun | m. | sg. |  |  |  |  |  |
+| marow | marow | adjective |  |  |  |  |  |  |  |
+| Ev | ev | personal pronoun |  |  |  | 3 |  |  |  |
+| a | a | verb |  |  |  | 3 | present | indicative |  |
+| leveris | leveris | verb |  |  |  | 3 | past | indicative |  |
+| dhym | dhym | personal pronoun |  |  |  | 2 |  |  |  |
+| Nyns | nyns | adverb |  |  |  |  |  |  |  |
+| yw | yw | verb |  |  |  | 3 | present | indicative |  |
+| den | den | noun | m. | sg. |  |  |  |  |  |
+| vy | vy | personal pronoun |  |  |  | 1 |  |  |  |
+| den | den | noun | m. | sg. |  |  |  |  |  |
+| oen | oen | verb |  |  |  | 3 | past | indicative |  |
+| vy | vy | personal pronoun |  |  |  | 1 |  |  |  |
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+1 Y'n kres an fordh a'gan byw
+2 y'm kavos yn koedh tywyll,
+3 ragan fordh onan oedh kollet.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Y'n | yn | preposition |  |  |  |  |  |  |  |
+| kres | kres | noun | m. | sg. |  |  |  |  |  |
+| an | an | definite article | m. | sg. |  |  |  |  |  |
+| fordh | fordh | noun | f. | sg. |  |  |  |  |  |
+| a'gan | agan | possessive adjective |  |  |  |  |  |  |  |
+| byw | byw | noun | m. | sg. |  |  |  |  |  |
+| y'm | ym | personal pronoun |  |  |  | 1 |  |  |  |
+| kavos | kavos | verb |  |  |  | 1 | past | indicative |  |
+| yn | yn | preposition |  |  |  |  |  |  |  |
+| koedh | koedh | noun | m. | sg. |  |  |  |  |  |
+| tywyll | tywyll | adjective |  |  |  |  |  |  |  |
+| ragan | ragan | verb |  |  |  | 1 | past | indicative |  |
+| fordh | fordh | noun | f. | sg. |  |  |  |  |  |
+| onan | onan | numeral |  |  |  |  |  |  |  |
+| oedh | oedh | verb |  |  |  | 3 | past | indicative | archaic |
+| kollet | kollet | verb |  |  |  | 3 | past | indicative |  |
+
+Note: The verb "oedh" is archaic and is no longer used in modern Cornish.
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+4 Ah! kemmys yw dywedh pyth yw
+5 an wals magh, gwyls ha kalet
+6 hag a wra'n poyntas nowyth da'n ofn!
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Ah! | ah | interjection |  |  |  |  |  |  |  |
+| kemmys | kemmys | adjective |  |  |  |  |  |  |  |
+| yw | yw | verb |  |  |  | 3 | present | indicative |  |
+| dywedh | dywedh | verb |  |  |  | 3 | present | indicative |  |
+| pyth | pyth | interrogative pronoun |  |  |  |  |  |  |  |
+| yw | yw | verb |  |  |  | 3 | present | indicative |  |
+| an | an | definite article | m. | sg. |  |  |  |  |  |
+| wals | wals | noun | m. | sg. |  |  |  |  |  |
+| magh | magh | noun | m. | sg. |  |  |  |  |  |
+| gwyls | gwyls | noun | m. | sg. |  |  |  |  |  |
+| ha | ha | conjunction |  |  |  |  |  |  |  |
+| kalet | kalet | adjective |  |  |  |  |  |  |  |
+| hag | hag | conjunction |  |  |  |  |  |  |  |
+| a | a | verb |  |  |  | 3 | present | indicative |  |
+| wra'n | wra | verb |  |  |  | 3 | past | indicative |  |
+| poyntas | poyntas | noun | m. | sg. |  |  |  |  |  |
+| nowyth | nowyth | adverb |  |  |  |  |  |  |  |
+| da'n | da | preposition |  |  |  |  |  |  |  |
+| ofn | ofn | noun | m. | sg. |  |  |  |  |  |
+
+Note: The verb "wra" is irregular in the past tense. The past tense form of "wra" is "wreugh".
+</result>
+</query>
+<query>
+<prompt>
+Create a word table.
+
+7 Kemmys yw fethna yw marow bys vyth;
+8 mes rag treylya an da ga vys vy,
+9 yth wra vy dywedha'n tra owerel awel ys vy.
+</prompt>
+<result>
+| Word | Lemma | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| Kemmys | kemmys | adjective |  |  |  |  |  |  |  |
+| yw | yw | verb |  |  |  | 3 | present | indicative |  |
+| fethna | fethna | noun | f. | sg. |  |  |  |  |  |
+| yw | yw | verb |  |  |  | 3 | present | indicative |  |
+| marow | marow | adjective |  |  |  |  |  |  |  |
+| bys | bys | preposition |  |  |  |  |  |  |  |
+| vyth | vyth | noun | m. | sg. |  |  |  |  |  |
+| mes | mes | conjunction |  |  |  |  |  |  |  |
+| rag | rag | preposition |  |  |  |  |  |  |  |
+| treylya | treylya | verb |  |  |  | 1 | present | subjunctive |  |
+| an | an | definite article | m. | sg. |  |  |  |  |  |
+| da | da | noun | m. | sg. |  |  |  |  |  |
+| ga | ga | preposition |  |  |  |  |  |  |  |
+| vys | vys | noun | m. | sg. |  |  |  |  |  |
+| vy | vy | personal pronoun |  |  |  | 1 |  |  |  |
+| yth | yth | conjunction |  |  |  |  |  |  |  |
+| wra | wra | verb |  |  |  | 3 | past | indicative |  |
+| vy | vy | personal pronoun |  |  |  | 1 |  |  |  |
+| dywedha'n | dywedha | verb |  |  |  | 3 | present | indicative |  |
+| tra | tra | noun | m. | sg. |  |  |  |  |  |
+| owerel | owerel | adjective |  |  |  |  |  |  |  |
+| awel | awel | noun | m. | sg. |  |  |  |  |  |
+| ys | ys | verb |  |  |  | 3 | present | indicative |  |
+| vy | vy | personal pronoun |  |  |  | 1 |  |  |  |
+
+Note: The verb "wra" is irregular in the past tense. The past tense form of "wra" is "wreugh".
+</result>
+</query>
+</queries>
