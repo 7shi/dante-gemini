@@ -1,7 +1,7 @@
 LANG    = Indonesian
 LCODE   = id
 TOPDIR  = ../..
-OPTIONS = -t "English,Italian,Arabic,Sanskrit"
+OPTIONS = -t "English,Italian,Malay,Arabic,Sanskrit"
 
 all:
 
