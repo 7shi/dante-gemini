@@ -4,6 +4,7 @@ args = sys.argv[1:]
 
 directories = common.directories
 init_xml = "init.xml"
+interval = 10
 once   = False
 retry  = True
 show   = True
@@ -28,6 +29,9 @@ while i < len(args):
     elif args[i] == "-i" and len(args) > i + 1:
         init_xml = args.pop(i + 1)
         args.pop(i)
+    elif args[i] == "-n" and len(args) > i + 1:
+        interval = int(args.pop(i + 1))
+        args.pop(i)
     else:
         i += 1
 
@@ -36,6 +40,7 @@ if len(args) != 3:
     print("  -i: specify init.xml", file=sys.stderr)
     print("  -d: specify sub directory", file=sys.stderr)
     print("  -1: just do one canto", file=sys.stderr)
+    print("  -n: specify interval (default 10)", file=sys.stderr)
     print("  --no-retry: don't retry queries", file=sys.stderr)
     print("  --no-show: don't show queries and responses", file=sys.stderr)
     print("  --need-space: require at least one space in each line", file=sys.stderr)
@@ -95,6 +100,7 @@ else:
         init_qs.append(q)
     common.write_queries(init_xml, init_qs, count=len(init_qs))
 history = common.unzip(init_qs)
+init_ps = history[:1] if interval == 1 else None
 
 for directory in directories:
     path = os.path.join(outdir, directory.lower())
@@ -116,8 +122,8 @@ for directory in directories:
         current = 0
         qs = []
         while current < len(it):
-            if not (0 <= gemini.chat_count < 10):
-                gemini.init(history)
+            if not (0 <= gemini.chat_count < interval):
+                gemini.init(history, init_ps)
             length = min(3, len(it) - current)
             while current + length < len(it) and not it[current + length - 1].endswith("."):
                 length += 1
