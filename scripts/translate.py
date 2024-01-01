@@ -86,7 +86,13 @@ else:
     canto = 1
     with open(os.path.join(itdir, directory, "01.txt"), "r", encoding="utf-8") as f:
         it = [l for line in f if (l := line.strip())]
-    init_qs = [send_lines(length, prompt) for length in [3, 6]]
+    init_qs = []
+    for length in [3, 6]:
+        q = send_lines(length, prompt)
+        if not q.result:
+            print("Abort.", file=sys.stderr)
+            sys.exit(1)
+        init_qs.append(q)
     common.write_queries(init_xml, init_qs, count=len(init_qs))
 history = common.unzip(init_qs)
 
