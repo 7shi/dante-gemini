@@ -1,7 +1,7 @@
 LANG    = Esperanto
 LCODE   = eo
 TOPDIR  = ../..
-OPTIONS = -t "English,Italian,Latin,French,German,Ancient Greek"
+OPTIONS = -f 1 -t "English,Italian,Latin,French,German,Ancient Greek"
 
 all:
 
