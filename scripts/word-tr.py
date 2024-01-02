@@ -97,6 +97,7 @@ else:
 history = common.unzip(init_qs)
 
 for directory in directories:
+    diru = directory[0].upper() + directory[1:]
     worddir2 = os.path.join(worddir, directory)
     if not os.path.exists(worddir2):
         continue
@@ -113,7 +114,7 @@ for directory in directories:
         if os.path.exists(xml):
             continue
         print()
-        print(f"# {directory} Canto {canto}")
+        print(f"# {diru} Canto {canto}")
         queries = common.read_queries(file)
         qs = []
         for query in queries:
