@@ -3,7 +3,7 @@ import sys, os, re, common
 args = sys.argv[1:]
 
 translate = ["English", "Italian"]
-fields = [1]
+fields = [0, 1]
 
 directories = common.directories
 init_xml = "init.xml"
@@ -63,7 +63,7 @@ import gemini
 
 def send(query):
     global fields
-    colstart = 3 if fields else 2
+    colstart = 3 if len(fields) > 1 else 2
     colnum = ", ".join(str(colstart + c) for c in range(len(translate)))
     prompt = f"For each row in the table, fill in columns {colnum} with the direct translation of column 1."
     if not query.result:
@@ -74,16 +74,17 @@ def send(query):
         return q
     table = []
     for i, row in enumerate(common.read_table(query.result)):
+        rowf = [row[f] for f in fields]
         if i == 0:
-            head = " | " + " ".join(row[f] for f in fields) if fields else ""
+            head = " | " + " ".join(rowf[1:]) if colstart == 3 else ""
             table.append(f"| {language}{head} | " + " | ".join(translate) + " |")
         elif i == 1:
-            table.append("|---" * ((2 if fields else 1) + len(translate)) + "|")
+            table.append("|" + "---|" * (colstart - 1 + len(translate)))
         else:
-            lemma = " | " + " ".join(row[f] for f in fields) if fields else ""
-            lu = (lemma if lemma else row[0]).strip().upper()
+            lemma = " | " + " ".join(rowf[1:]) if colstart == 3 else ""
+            lu = (lemma if lemma else rowf[0]).strip().upper()
             if lu != lu.lower():
-                table.append(f"| {row[0]}{lemma} |" + " |" * len(translate))
+                table.append(f"| {rowf[0]}{lemma} |" + " |" * len(translate))
     prompt += "\n\n"
     prompt += "\n".join(table)
     return gemini.query(prompt, query.info, show, retry)

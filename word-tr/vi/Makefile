@@ -1,7 +1,7 @@
 LANG    = Vietnamese
 LCODE   = vi
 TOPDIR  = ../..
-OPTIONS = -f "" -t "English, Italian, Chinese"
+OPTIONS = -f 0 -t "English, Italian, Chinese"
 
 all:
 
