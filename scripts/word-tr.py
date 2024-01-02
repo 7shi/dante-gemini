@@ -2,25 +2,27 @@ import sys, os, re, common
 
 args = sys.argv[1:]
 
-directories = common.directories
 translate = ["English", "Italian"]
-init_xml = "init.xml"
 fields = [1]
+
+directories = common.directories
+init_xml = "init.xml"
 interval = 10
 once  = False
-show  = True
 retry = True
+show  = True
+
 i = 0
 while i < len(args):
-    if args[i] == "-d" and len(args) > i + 1:
-        directories = args.pop(i + 1).split()
-        args.pop(i)
-    elif args[i] == "-t" and len(args) > i + 1:
+    if args[i] == "-t" and len(args) > i + 1:
         translate = [l.strip() for l in args.pop(i + 1).split(",")]
         args.pop(i)
     elif args[i] == "-f" and len(args) > i + 1:
         tmp = args.pop(i + 1).strip()
         fields = [int(f) for f in tmp.split(",")] if tmp else []
+        args.pop(i)
+    elif args[i] == "-d" and len(args) > i + 1:
+        directories = args.pop(i + 1).split()
         args.pop(i)
     elif args[i] == "-i" and len(args) > i + 1:
         init_xml = args.pop(i + 1)
@@ -31,11 +33,11 @@ while i < len(args):
     elif args[i] == "-1":
         once = True
         args.pop(i)
-    elif args[i] == "--no-show":
-        show = False
-        args.pop(i)
     elif args[i] == "--no-retry":
         retry = False
+        args.pop(i)
+    elif args[i] == "--no-show":
+        show = False
         args.pop(i)
     else:
         i += 1
@@ -44,9 +46,9 @@ if len(args) < 3:
     print(f"Usage: python {sys.argv[0]} language word-dir output-dir [fix ...]", file=sys.stderr)
     print("  -t: specify language to translate (comma separated)", file=sys.stderr)
     print("  -f: specify field to column 2 (0-based, comma separated)", file=sys.stderr)
+    print("  -d: specify sub directory", file=sys.stderr)
     print("  -i: specify init.xml", file=sys.stderr)
     print("  -n: specify interval (default 10)", file=sys.stderr)
-    print("  -d: specify sub directory", file=sys.stderr)
     print("  -1: just do one canto", file=sys.stderr)
     print("  --no-retry: don't retry queries", file=sys.stderr)
     print("  --no-show: don't show queries and responses", file=sys.stderr)
