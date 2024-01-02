@@ -92,7 +92,11 @@ else:
     print(f"making {init_xml}...")
     gemini.init()
     inferno1 = common.read_queries(os.path.join(worddir, "inferno", "01.xml"))
-    init_qs = [send(inferno1[0])]
+    q = send(inferno1[0])
+    if not q.result:
+        print("Abort.", file=sys.stderr)
+        sys.exit(1)
+    init_qs = [q]
     common.write_queries(init_xml, init_qs, count=len(init_qs))
 history = common.unzip(init_qs)
 
