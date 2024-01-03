@@ -3,7 +3,7 @@ import sys, os, re, common
 args = sys.argv[1:]
 
 translate = ["English", "Italian"]
-fields = [0, 1]
+fields = [[0], [1]]
 
 directories = common.directories
 init_xml = "init.xml"
@@ -18,8 +18,7 @@ while i < len(args):
         translate = [l.strip() for l in args.pop(i + 1).split(",")]
         args.pop(i)
     elif args[i] == "-f" and len(args) > i + 1:
-        tmp = args.pop(i + 1).strip()
-        fields = [int(f) for f in tmp.split(",")] if tmp else []
+        fields = [[int(f) for f in fs.split("+")] for fs in args.pop(i + 1).split(",")]
         args.pop(i)
     elif args[i] == "-d" and len(args) > i + 1:
         directories = args.pop(i + 1).split()
@@ -63,8 +62,8 @@ import gemini
 
 def send(query):
     global fields
-    colstart = 3 if len(fields) > 1 else 2
-    colnum = ", ".join(str(colstart + c) for c in range(len(translate)))
+    flen = len(fields)
+    colnum = ", ".join(str(flen + c + 1) for c in range(len(translate)))
     prompt = f"For each row in the table, fill in columns {colnum} with the direct translation of column 1."
     if not query.result:
         q = common.query()
@@ -74,17 +73,17 @@ def send(query):
         return q
     table = []
     for i, row in enumerate(common.read_table(query.result)):
-        rowf = [row[f] for f in fields]
+        if i == 1:
+            table.append("|" + "---|" * (flen + len(translate)))
+            continue
+        rowf = [" ".join(row[f].strip() for f in fs) for fs in fields]
         if i == 0:
-            head = " | " + " ".join(rowf[1:]) if colstart == 3 else ""
-            table.append(f"| {language}{head} | " + " | ".join(translate) + " |")
-        elif i == 1:
-            table.append("|" + "---|" * (colstart - 1 + len(translate)))
+            cells = " | ".join([language, *rowf[1:]])
+            table.append("| " + cells + " | " + " | ".join(translate) + " |")
         else:
-            lemma = " | " + " ".join(rowf[1:]) if colstart == 3 else ""
-            lu = (lemma if lemma else rowf[0]).strip().upper()
-            if lu != lu.lower():
-                table.append(f"| {rowf[0]}{lemma} |" + " |" * len(translate))
+            cells = " | ".join(rowf)
+            if cells.upper() != cells.lower():
+                table.append("| " + cells + " |" * (len(translate) + 1))
     prompt += "\n\n"
     prompt += "\n".join(table)
     return gemini.query(prompt, query.info, show, retry)
