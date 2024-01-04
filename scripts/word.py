@@ -4,9 +4,11 @@ args = sys.argv[1:]
 
 directories = common.directories
 init_xml = "init.xml"
+interval = 10
 once  = False
 retry = True
 show  = True
+
 i = 0
 while i < len(args):
     if args[i] == "-d" and len(args) > i + 1:
@@ -14,6 +16,9 @@ while i < len(args):
         args.pop(i)
     elif args[i] == "-i" and len(args) > i + 1:
         init_xml = args.pop(i + 1)
+        args.pop(i)
+    elif args[i] == "-n" and len(args) > i + 1:
+        interval = int(args.pop(i + 1))
         args.pop(i)
     elif args[i] == "-1":
         once = True
@@ -29,8 +34,9 @@ while i < len(args):
 
 if len(args) != 3:
     print(f"Usage: python {sys.argv[0]} language source-dir output-dir", file=sys.stderr)
-    print("  -i: specify init.xml", file=sys.stderr)
     print("  -d: specify sub directory", file=sys.stderr)
+    print("  -i: specify init.xml", file=sys.stderr)
+    print("  -n: specify interval (default 10)", file=sys.stderr)
     print("  -1: just do one canto", file=sys.stderr)
     print("  --no-retry: don't retry queries", file=sys.stderr)
     print("  --no-show: don't show queries and responses", file=sys.stderr)
@@ -73,7 +79,7 @@ for directory in directories:
             text = "\n".join(lines)
             if not (m := re.match(r"(\d+) ", text)):
                 continue
-            if not (0 <= gemini.chat_count < 10):
+            if not (0 <= gemini.chat_count < interval):
                 gemini.init(history, init_ps)
             info = f"[{diru} Canto {canto}] {m.group(1)}/{lmax}"
             q = send(text, info)
