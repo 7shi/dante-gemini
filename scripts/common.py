@@ -1,7 +1,5 @@
 import sys, os, re, xml7shi
 
-directories = ["inferno", "purgatorio", "paradiso"]
-
 def escape(s):
     return s.replace("<", "&lt;").replace(">", "&gt;").replace("&", "&amp;")
 
@@ -117,7 +115,9 @@ def fix_table(lines):
 def read_source(path, language=None):
     srcs = []
     src_lines = {}
-    if os.path.exists(file := f"{path}.txt"):
+
+    file = path
+    if path.endswith(".txt") or os.path.exists(file := f"{path}.txt"):
         with open(file, "r", encoding="utf-8") as f:
             ln = 1
             lines = []
@@ -133,7 +133,10 @@ def read_source(path, language=None):
                         lines = []
             if lines:
                 srcs.append(lines)
-    elif os.path.exists(file := f"{path}.xml"):
+        return srcs, src_lines
+
+    file = path
+    if path.endswith(".xml") or os.path.exists(file := f"{path}.xml"):
         qs = read_queries(file)
         if qs and (m := re.search(r"/(\d+)", qs[0].info)):
             src_lines = {int(m.group(1)): None}

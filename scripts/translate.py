@@ -1,67 +1,30 @@
-import sys, os, re, common
+import sys, os, re, common, option
 
-args = sys.argv[1:]
-
-directories = common.directories
-init_xml = "init.xml"
-interval = 10
-once   = False
-retry  = True
-show   = True
 needsp = False
-i = 0
-while i < len(args):
-    if args[i] == "-1":
-        once = True
-        args.pop(i)
-    elif args[i] == "--no-retry":
-        retry = False
-        args.pop(i)
-    elif args[i] == "--no-show":
-        show = False
-        args.pop(i)
-    elif args[i] == "--need-space":
-        needsp = True
-        args.pop(i)
-    elif args[i] == "-d" and len(args) > i + 1:
-        directories = args.pop(i + 1).split()
-        args.pop(i)
-    elif args[i] == "-i" and len(args) > i + 1:
-        init_xml = args.pop(i + 1)
-        args.pop(i)
-    elif args[i] == "-n" and len(args) > i + 1:
-        interval = int(args.pop(i + 1))
-        args.pop(i)
-    else:
-        i += 1
 
-if len(args) != 3:
+def parse(i, args):
+    global needsp
+    if args[i] == "--need-space":
+        args.pop(i)
+        needsp = True
+
+if not option.parse(parse) or option.args:
     print(f"Usage: python {sys.argv[0]} language italian-dir output-dir", file=sys.stderr)
-    print("  -i: specify init.xml", file=sys.stderr)
-    print("  -d: specify sub directory", file=sys.stderr)
-    print("  -1: just do one canto", file=sys.stderr)
-    print("  -n: specify interval (default 10)", file=sys.stderr)
-    print("  --no-retry: don't retry queries", file=sys.stderr)
-    print("  --no-show: don't show queries and responses", file=sys.stderr)
     print("  --need-space: require at least one space in each line", file=sys.stderr)
+    option.show()
     sys.exit(1)
 
-language, itdir, outdir = args
-checklen = 6 if " and " in language else 3
-if not os.path.exists(outdir):
-    os.mkdir(outdir)
+checklen = 6 if " and " in option.language else 3
 
 import gemini
 
 it = []
 current = 0
-directory = ""
-canto = 0
 
 def send_lines(line_count, *plines):
     global current
-    diru = directory[0].upper() + directory[1:]
-    info = f"[{diru} Canto {canto}] {current + 1}/{len(it)}"
+    diru = option.directory[0].upper() + option.directory[1:]
+    info = f"[{diru} Canto {option.canto}] {current + 1}/{len(it)}"
     prompt = " ".join(plines)
     for i in range(line_count):
         if i == 0 or current % 3 == 0:
@@ -79,17 +42,18 @@ def send_lines(line_count, *plines):
                     if not text.startswith(" ") or " " not in text[1:]:
                         return f"Too few spaces: {repr(r)}"
         return None
-    return gemini.query(prompt, info, show, retry, check)
+    return gemini.query(prompt, info, option.show, option.retry, check)
 
-prompt = f"Please translate each line literally into {language}."
-if os.path.exists(init_xml):
-    init_qs = common.read_queries(init_xml)
+prompt = f"Please translate each line literally into {option.language}."
+if os.path.exists(option.init):
+    init_qs = common.read_queries(option.init)
 else:
-    print(f"making {init_xml}...")
+    print(f"making {option.init}...")
     gemini.init()
-    directory = "inferno"
-    canto = 1
-    with open(os.path.join(itdir, directory, "01.txt"), "r", encoding="utf-8") as f:
+    option.directory = "inferno"
+    option.canto = 1
+    file = os.path.join(option.srcdir, option.directory, f"01.txt")
+    with open(file, "r", encoding="utf-8") as f:
         it = [l for line in f if (l := line.strip())]
     init_qs = []
     for length in [3, 6]:
@@ -98,36 +62,22 @@ else:
             print("Abort.", file=sys.stderr)
             sys.exit(1)
         init_qs.append(q)
-    common.write_queries(init_xml, init_qs, count=len(init_qs))
+    common.write_queries(option.init, init_qs, count=len(init_qs))
 history = common.unzip(init_qs)
-init_ps = history[:1] if interval == 1 else None
+init_ps = history[:1] if option.interval == 1 else None
 
-for directory in directories:
-    path = os.path.join(outdir, directory.lower())
-    if not os.path.exists(path):
-        os.mkdir(path)
-    itfiles = [
-        (int(m.group(1)), os.path.join(itdir, directory, f))
-        for f in sorted(os.listdir(os.path.join(itdir, directory)))
-        if (m := re.match(r"(\d+)\.txt", f))
-    ]
-    for canto, itf in itfiles:
-        xml = os.path.join(path, f"{canto:02}.xml")
-        if os.path.exists(xml):
-            continue
-        print()
-        print(f"# {directory} Canto {canto}")
-        with open(itf, "r", encoding="utf-8") as f:
-            it = [l for line in f if (l := line.strip())]
-        current = 0
-        qs = []
-        while current < len(it):
-            if not (0 <= gemini.chat_count < interval):
-                gemini.init(history, init_ps)
-            length = min(3, len(it) - current)
-            while current + length < len(it) and not it[current + length - 1].endswith("."):
-                length += 1
-            qs.append(send_lines(length, prompt))
-        common.write_queries(xml, qs, count=len(qs))
-        if once:
-            sys.exit(0)
+@option.proc
+def proc(src, xml):
+    global it, current
+    with open(src, "r", encoding="utf-8") as f:
+        it = [l for line in f if (l := line.strip())]
+    current = 0
+    qs = []
+    while current < len(it):
+        if not (0 <= gemini.chat_count < option.interval):
+            gemini.init(history, init_ps)
+        length = min(3, len(it) - current)
+        while current + length < len(it) and not it[current + length - 1].endswith("."):
+            length += 1
+        qs.append(send_lines(length, prompt))
+    common.write_queries(xml, qs, count=len(qs))

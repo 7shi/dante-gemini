@@ -1,63 +1,25 @@
-import sys, os, re, common
-
-args = sys.argv[1:]
+import sys, os, re, common, option
 
 derived = "Latin, Greek, Germanic"
 fields = [1]
 
-directories = common.directories
-init_xml = "init.xml"
-interval = 10
-once  = False
-retry = True
-show  = True
-
-i = 0
-while i < len(args):
+def parse(i, args):
+    global derived, fields
     if args[i] == "-e" and len(args) > i + 1:
-        derived = args.pop(i + 1)
         args.pop(i)
+        derived = args.pop(i)
     elif args[i] == "-f" and len(args) > i + 1:
-        tmp = args.pop(i + 1).strip()
-        fields = [int(f) for f in tmp.split(",")] if tmp else []
         args.pop(i)
-    elif args[i] == "-d" and len(args) > i + 1:
-        directories = args.pop(i + 1).split()
-        args.pop(i)
-    elif args[i] == "-i" and len(args) > i + 1:
-        init_xml = args.pop(i + 1)
-        args.pop(i)
-    elif args[i] == "-n" and len(args) > i + 1:
-        interval = int(args.pop(i + 1))
-        args.pop(i)
-    elif args[i] == "-1":
-        once = True
-        args.pop(i)
-    elif args[i] == "--no-retry":
-        retry = False
-        args.pop(i)
-    elif args[i] == "--no-show":
-        show = False
-        args.pop(i)
-    else:
-        i += 1
+        fields = [int(f) for f in args.pop(i).split(",")]
 
-if len(args) < 3:
+if not option.parse(parse):
     print(f"Usage: python {sys.argv[0]} language word-dir output-dir [fix ...]", file=sys.stderr)
     print("  -e: specify etymology language(s)", file=sys.stderr)
     print("  -f: specify field to column 2 (0-based, comma separated)", file=sys.stderr)
-    print("  -d: specify sub directory", file=sys.stderr)
-    print("  -i: specify init.xml", file=sys.stderr)
-    print("  -n: specify interval (default 10)", file=sys.stderr)
-    print("  -1: just do one canto", file=sys.stderr)
-    print("  --no-retry: don't retry queries", file=sys.stderr)
-    print("  --no-show: don't show queries and responses", file=sys.stderr)
+    option.show()
     sys.exit(1)
 
-language, worddir, outdir, *fix_files = args
-if not os.path.exists(outdir):
-    os.mkdir(outdir)
-fixes = common.read_fixes(*fix_files)
+fixes = common.read_fixes(*option.args)
 
 import gemini
 
@@ -81,59 +43,39 @@ def send(query):
         rowf = [row[f] for f in fields]
         if i == 0:
             head = " | " + " | ".join(rowf[1:]) if len(rowf) > 1 else ""
-            table.append(f"| {language}{head} | Derived | Etymology |")
+            table.append(f"| {option.language}{head} | Derived | Etymology |")
         elif i == 1:
             table.append("|" + "---|" * (len(fields) + 2))
         else:
             table.append(f"| " + " | ".join(rowf) + " | | |")
     prompt += "\n\n"
     prompt += "\n".join(table)
-    return gemini.query(prompt, query.info, show, retry)
+    return gemini.query(prompt, query.info, option.show, option.retry)
 
-if os.path.exists(init_xml):
-    init_qs = common.read_queries(init_xml)
-    prompt_template = init_qs[0].prompt.split("\n")[0]
+if os.path.exists(option.init):
+    init_qs = common.read_queries(option.init)
 else:
-    print(f"making {init_xml}...")
+    print(f"making {option.init}...")
     gemini.init()
-    inferno1 = common.read_queries(os.path.join(worddir, "inferno", "01.xml"))
+    inferno1 = common.read_queries(os.path.join(option.srcdir, "inferno", "01.xml"))
     q = send(inferno1[0])
     if not q.result:
         print("Abort.", file=sys.stderr)
         sys.exit(1)
     init_qs = [q]
-    common.write_queries(init_xml, init_qs, count=len(init_qs))
+    common.write_queries(option.init, init_qs, count=len(init_qs))
 history = common.unzip(init_qs)
 
-for directory in directories:
-    diru = directory[0].upper() + directory[1:]
-    worddir2 = os.path.join(worddir, directory)
-    if not os.path.exists(worddir2):
-        continue
-    outdir2 = os.path.join(outdir, directory)
-    if not os.path.exists(outdir2):
-        os.mkdir(outdir2)
-    files = [
-        (int(m.group(1)), os.path.join(worddir2, f))
-        for f in sorted(os.listdir(worddir2))
-        if (m := re.match(r"(\d+)\.xml", f))
-    ]
-    for canto, file in files:
-        xml = os.path.join(outdir2, f"{canto:02}.xml")
-        if os.path.exists(xml):
-            continue
-        print()
-        print(f"# {diru} Canto {canto}")
-        queries = common.read_queries(file)
-        qs = []
-        for query in queries:
-            if not (0 <= gemini.chat_count < interval):
-                gemini.init(history)
-            if not query.result and query.info in fixes:
-                for q in fixes[query.info]:
-                    qs.append(send(q))
-            else:
-                qs.append(send(query))
-        common.write_queries(xml, qs, count=len(qs))
-        if once:
-            sys.exit(0)
+@option.proc
+def proc(src, xml):
+    queries = common.read_queries(src)
+    qs = []
+    for query in queries:
+        if not (0 <= gemini.chat_count < option.interval):
+            gemini.init(history)
+        if not query.result and query.info in fixes:
+            for q in fixes[query.info]:
+                qs.append(send(q))
+        else:
+            qs.append(send(query))
+    common.write_queries(xml, qs, count=len(qs))
