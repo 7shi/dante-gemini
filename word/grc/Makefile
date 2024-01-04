@@ -1,4 +1,4 @@
-LANG    = "Ancient Greek"
+LANG    = Ancient Greek
 LCODE   = grc
 INITOPT = -n -c "Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood, Voice and Note"
 OPTIONS = -1

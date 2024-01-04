@@ -8,13 +8,13 @@ all: run check
 init: init.xml
 
 init.xml:
-	python $(SCRIPTS)/init.py $(INITOPT) $(LANG) $(SRCDIR)
+	python $(SCRIPTS)/init.py $(INITOPT) "$(LANG)" $(SRCDIR)
 
 test: init.xml
-	python $(SCRIPTS)/init.py -t $(LANG) $(SRCDIR)
+	python $(SCRIPTS)/init.py -t "$(LANG)" $(SRCDIR)
 
 run: init.xml
-	python $(SCRIPTS)/word.py $(OPTIONS) $(LANG) $(SRCDIR) .
+	python $(SCRIPTS)/word.py $(OPTIONS) "$(LANG)" $(SRCDIR) .
 
 check:
 	python $(SCRIPTS)/pickup.py 1-error.xml */*.xml

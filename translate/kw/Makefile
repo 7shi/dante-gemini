@@ -1,4 +1,4 @@
-LANG    = "English and Cornish"
+LANG    = English and Cornish
 LCODE   = kw
 TOPDIR  = ../..
 

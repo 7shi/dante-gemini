@@ -1,4 +1,4 @@
-LANG    = "Modern Greek"
+LANG    = Modern Greek
 LCODE   = el
 TOPDIR  = ../..
 

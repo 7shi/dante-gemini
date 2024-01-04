@@ -1,4 +1,4 @@
-LANG    = "Ancient Greek"
+LANG    = Ancient Greek
 LCODE   = grc
 TOPDIR  = ../..
 OPTIONS = -n 1 --no-retry
