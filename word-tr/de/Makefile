@@ -1,5 +1,5 @@
 LANG    = German
 LCODE   = de
-OPTIONS = -t "English,Italian,Dutch,Swedish,Norwegian,Danish,Esperanto"
+OPTIONS = --init-prompt -t "English,Italian,Old English,Dutch,Icelandic,Swedish,Norwegian,Danish,Esperanto"
 
 include ../common.mk
