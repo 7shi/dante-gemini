@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries count="1">
+<query>
+<prompt>
+This text is written in Old English.
+Create a word table showing the Lemma for each word.
+The entries in the table are Word, Lemma, Part of Speech, Gender, Case, Number, Person, Tense, Mood and Note.
+
+* Decompose the contraction in Lemma.
+* Leave blank if not applicable.
+* Words linked by an apostrophe should be separated.
+* The Note should be writtern in brief, e.g. archaic.
+* Quotation marks should be excluded. Apostrophes in contractions are not quotation marks.
+* If the verb and the other word are combined, they should be separated by Lemma.
+  In such cases, only the verb information should be written in the other columns.
+
+1 On middes wege ðæs lifes weges
+9 ic secge ða ðing ðe ic ðær geseah.
+28 Þa ic ðone wergan lichomne reste hæfde,
+67 He andswarode me: "Nis nan man, man ic wæs iu,
+</prompt>
+<result>
+|Word|Lemma|Part of Speech|Gender|Case|Number|Person|Tense|Mood|Note|
+|---|---|---|---|---|---|---|---|---|---|
+|On|on|preposition||||||||
+|middes|middes|adjective||||||||
+|wege|weg|noun|m.|dative|sg.|||||
+|ðæs|ðe|demonstrative pronoun||genitive|sg.|||||
+|lifes|lif|noun|n.|genitive|sg.|||||
+|weges|weg|noun|m.|genitive|sg.|||||
+|ic|ic|personal pronoun||nominative|sg.|1||||
+|secge|secgan|verb||||1|present|indicative||
+|ða|ðe|demonstrative pronoun||accusative|pl.|||||
+|ðing|ðing|noun|n.|accusative|pl.|||||
+|ðe|ðe|relative pronoun||accusative|sg.|||||
+|ic|ic|personal pronoun||nominative|sg.|1||||
+|ðær|ðær|adverb||||||||
+|geseah|geseon|verb||||1|past|indicative||
+|Þa|ða|conjunction||||||||
+|ic|ic|personal pronoun||nominative|sg.|1||||
+|ðone|ðe|demonstrative pronoun|m.|accusative|sg.|||||
+|wergan|werig|adjective|m.|accusative|sg.|||||
+|lichomne|lichama|noun|m.|accusative|sg.|||||
+|reste|rest|noun|f.|accusative|sg.|||||
+|hæfde|habban|verb||||1|past|indicative||
+|He|he|personal pronoun|m.|nominative|sg.|3||||
+|andswarode|andswarian|verb||||3|past|indicative||
+|me|me|personal pronoun||dative|sg.|1||||
+|Nis|ne|negation||||||||
+|nan|nan|indefinite pronoun|m.|nominative|sg.|||||
+|man|man|noun|m.|nominative|sg.|||||
+|man|man|noun|m.|nominative|sg.|||||
+|ic|ic|personal pronoun||nominative|sg.|1||||
+|wæs|wesan|verb||||1|past|indicative||
+|iu|iu|adverb||||||||
+</result>
+</query>
+</queries>
