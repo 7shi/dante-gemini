@@ -54,6 +54,7 @@ def send(query):
 
 if os.path.exists(option.init):
     init_qs = common.read_queries(option.init)
+    prompt_template = init_qs[0].prompt.split("\n")[0]
 else:
     print(f"making {option.init}...")
     gemini.init()
