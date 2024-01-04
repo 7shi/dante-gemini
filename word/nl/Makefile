@@ -2,8 +2,5 @@ LANG    = Dutch
 LCODE   = nl
 INITOPT = -n
 OPTIONS = -1
-TOPDIR  = ../..
-
-all:
 
 include ../common.mk

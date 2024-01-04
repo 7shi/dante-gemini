@@ -1,3 +1,4 @@
+TOPDIR  ?= ../..
 SCRIPTS  = $(TOPDIR)/scripts
 SRCDIR   = $(TOPDIR)/it
 OPTIONS ?=
