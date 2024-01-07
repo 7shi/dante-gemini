@@ -284,16 +284,16 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Gender</th><td></td><td>m.</td><td>m.</td><td>m.</td></tr>
 <tr><th>Case</th><td></td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
 <tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
-<tr><th>English</th><td>Halfway</td><td>of the way</td><td>our</td><td>life</td></tr>
-<tr><th>Italian</th><td>Ametà</td><td>del cammino</td><td>nostro</td><td>vita</td></tr>
-<tr><th>Russian</th><td>Наполовину</td><td>пути</td><td>нашего</td><td>жизни</td></tr>
-<tr><th>Ukrainian</th><td>Наполовину</td><td>шляху</td><td>нашого</td><td>життя</td></tr>
-<tr><th>Bulgarian</th><td>Наполовина</td><td>напътя</td><td>нашия</td><td>живота</td></tr>
-<tr><th>Polish</th><td>Wpołowie</td><td>drogi</td><td>naszego</td><td>życia</td></tr>
-<tr><th>Czech</th><td>Vpolovině</td><td>cesty</td><td>našeho</td><td>života</td></tr>
-<tr><th>Slovak</th><td>Napolovicu</td><td>cesty</td><td>nášho</td><td>života</td></tr>
-<tr><th>Serbian (Latin)</th><td>Napola</td><td>puta</td><td>našeg</td><td>života</td></tr>
-<tr><th>Slovene</th><td>Napol</td><td>poti</td><td>našega</td><td>življenja</td></tr>
+<tr><th>English</th><td>halfway</td><td>of the way</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>a metà</td><td>del cammino</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Russian</th><td>наполовину</td><td>пути</td><td>нашего</td><td>жизни</td></tr>
+<tr><th>Ukrainian</th><td>наполовину</td><td>шляху</td><td>нашого</td><td>життя</td></tr>
+<tr><th>Bulgarian</th><td>наполовина</td><td>на пътя</td><td>нашата</td><td>живота</td></tr>
+<tr><th>Polish</th><td>w połowie</td><td>drogi</td><td>naszego</td><td>życia</td></tr>
+<tr><th>Czech</th><td>v polovině</td><td>cesty</td><td>našeho</td><td>života</td></tr>
+<tr><th>Slovak</th><td>na polovicu</td><td>cesty</td><td>nášho</td><td>života</td></tr>
+<tr><th>Serbian (Latin)</th><td>napola</td><td>puta</td><td>našeg</td><td>života</td></tr>
+<tr><th>Slovene</th><td>na pol</td><td>poti</td><td>našega</td><td>življenja</td></tr>
 </table>
 
 ### Czech
@@ -329,14 +329,14 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>adjective</td><td>noun</td></tr>
 <tr><th>Gender</th><td></td><td>n.</td><td></td><td>f.</td></tr>
 <tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
-<tr><th>English</th><td>On</td><td>of life</td><td>half</td><td>way</td></tr>
-<tr><th>Italian</th><td>Su</td><td>della vita</td><td>metà</td><td>via</td></tr>
-<tr><th>Old English</th><td>On</td><td>of life</td><td>half</td><td>way</td></tr>
-<tr><th>German</th><td>Auf</td><td>des Lebens</td><td>halb</td><td>Weg</td></tr>
-<tr><th>Dutch</th><td>Op</td><td>van het leven</td><td>half</td><td>weg</td></tr>
-<tr><th>Icelandic</th><td>Á</td><td>lífsins</td><td>hálf</td><td>vegur</td></tr>
-<tr><th>Swedish</th><td>På</td><td>livets</td><td>halva</td><td>väg</td></tr>
-<tr><th>Norwegian</th><td>På</td><td>livets</td><td>halv</td><td>vei</td></tr>
+<tr><th>English</th><td>on</td><td>life's</td><td>half</td><td>way</td></tr>
+<tr><th>Italian</th><td>su</td><td>dellavita</td><td>metà</td><td>via</td></tr>
+<tr><th>Old English</th><td>on</td><td>lifes</td><td>healf</td><td>weg</td></tr>
+<tr><th>German</th><td>auf</td><td>desLebens</td><td>halb</td><td>Weg</td></tr>
+<tr><th>Dutch</th><td>op</td><td>vanhetleven</td><td>half</td><td>weg</td></tr>
+<tr><th>Icelandic</th><td>á</td><td>lífsins</td><td>hálf</td><td>vegur</td></tr>
+<tr><th>Swedish</th><td>på</td><td>livets</td><td>halva</td><td>väg</td></tr>
+<tr><th>Norwegian</th><td>på</td><td>livets</td><td>halv</td><td>vei</td></tr>
 </table>
 
 ### Dutch
@@ -389,11 +389,11 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Case</th><td>nominative</td><td>nominative</td><td>adessive</td></tr>
 <tr><th>Number</th><td>pl.</td><td>sg.</td><td>sg.</td></tr>
 <tr><th>Person</th><td>1</td><td></td><td></td></tr>
-<tr><th>English</th><td>We</td><td>life path</td><td>half</td></tr>
-<tr><th>Italian</th><td>Noi</td><td>percorso di vita</td><td>metà</td></tr>
-<tr><th>Finnish</th><td>Me</td><td>elämäntie</td><td>puoli</td></tr>
-<tr><th>Hungarian</th><td>Mi</td><td>életút</td><td>fél</td></tr>
-<tr><th>Turkish</th><td>Biz</td><td>yaşam yolu</td><td>yarısı</td></tr>
+<tr><th>English</th><td>we</td><td>life path</td><td>half</td></tr>
+<tr><th>Italian</th><td>noi</td><td>percorso di vita</td><td>metà</td></tr>
+<tr><th>Finnish</th><td>me</td><td>elämäntie</td><td>puoli</td></tr>
+<tr><th>Hungarian</th><td>mi</td><td>életút</td><td>fél</td></tr>
+<tr><th>Turkish</th><td>biz</td><td>yaşam yolu</td><td>yarısı</td></tr>
 <tr><th>Japanese</th><td>私達</td><td>人生</td><td>半分</td></tr>
 <tr><th>Korean</th><td>우리</td><td>인생</td><td>절반</td></tr>
 </table>
@@ -613,11 +613,11 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Case</th><td>genitive</td><td>genitive</td><td>locative</td><td>locative</td></tr>
 <tr><th>Number</th><td>pl.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
 <tr><th>Person</th><td>1</td><td></td><td></td><td></td></tr>
-<tr><th>English</th><td>Our</td><td>life</td><td>way</td><td>middle</td></tr>
-<tr><th>Italian</th><td>Nostro</td><td>vita</td><td>via</td><td>mezzo</td></tr>
-<tr><th>Lithuanian</th><td>Mūsų</td><td>gyvenimas</td><td>kelias</td><td>vidurys</td></tr>
-<tr><th>Slovak</th><td>Náš</td><td>život</td><td>cesta</td><td>stred</td></tr>
-<tr><th>Bulgarian</th><td>Нашият</td><td>животът</td><td>пътят</td><td>средата</td></tr>
+<tr><th>English</th><td>our</td><td>life</td><td>way</td><td>middle</td></tr>
+<tr><th>Italian</th><td>nostro</td><td>vita</td><td>via</td><td>mezzo</td></tr>
+<tr><th>Lithuanian</th><td>mūsų</td><td>gyvenimas</td><td>kelias</td><td>vidurys</td></tr>
+<tr><th>Slovak</th><td>náš</td><td>život</td><td>cesta</td><td>stred</td></tr>
+<tr><th>Bulgarian</th><td>нашият</td><td>животът</td><td>пътят</td><td>средата</td></tr>
 </table>
 
 ### Lithuanian
@@ -930,14 +930,14 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Part of Speech</th><td>preposition</td><td>definite article</td><td>noun</td><td>preposition + article</td><td>noun</td><td>preposition</td><td>possessive adjective</td><td>noun</td></tr>
 <tr><th>Gender</th><td></td><td>f.</td><td>f.</td><td></td><td>m.</td><td></td><td>f.</td><td>f.</td></tr>
 <tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td></td><td>sg.</td><td></td><td>sg.</td><td>sg.</td></tr>
-<tr><th>English</th><td>In</td><td>the</td><td>middle</td><td>of the</td><td>way</td><td>of</td><td>our</td><td>life</td></tr>
-<tr><th>Italian</th><td>In</td><td>il</td><td>metà</td><td>del</td><td>cammino</td><td>di</td><td>nostro</td><td>vita</td></tr>
-<tr><th>Latin</th><td>In</td><td>ille</td><td>medius</td><td>de + ille</td><td>caminus</td><td>de</td><td>noster</td><td>vita</td></tr>
-<tr><th>Interlingua</th><td>In</td><td>le</td><td>medie</td><td>dele</td><td>cammino</td><td>de</td><td>nostre</td><td>vita</td></tr>
-<tr><th>French</th><td>En</td><td>le</td><td>milieu</td><td>du</td><td>chemin</td><td>de</td><td>notre</td><td>vie</td></tr>
-<tr><th>Portuguese</th><td>Em</td><td>o</td><td>metade</td><td>do</td><td>caminho</td><td>de</td><td>nosso</td><td>vida</td></tr>
-<tr><th>Romanian</th><td>În</td><td>cel</td><td>mijloc</td><td>al</td><td>drum</td><td>de</td><td>nostru</td><td>viaţă</td></tr>
-<tr><th>Esperanto</th><td>En</td><td>la</td><td>mezo</td><td>dela</td><td>vojo</td><td>de</td><td>nia</td><td>vivo</td></tr>
+<tr><th>English</th><td>in</td><td>the</td><td>middle</td><td>of the</td><td>way</td><td>of</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>in</td><td>il</td><td>metà</td><td>del</td><td>cammino</td><td>di</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Latin</th><td>in</td><td>ille</td><td>medius</td><td>de + ille</td><td>caminus</td><td>de</td><td>noster</td><td>vita</td></tr>
+<tr><th>Interlingua</th><td>in</td><td>le</td><td>medie</td><td>dele</td><td>cammino</td><td>de</td><td>nostre</td><td>vita</td></tr>
+<tr><th>French</th><td>en</td><td>le</td><td>milieu</td><td>du</td><td>chemin</td><td>de</td><td>notre</td><td>vie</td></tr>
+<tr><th>Portuguese</th><td>em</td><td>o</td><td>metade</td><td>do</td><td>caminho</td><td>de</td><td>nosso</td><td>vida</td></tr>
+<tr><th>Romanian</th><td>în</td><td>cel</td><td>mijloc</td><td>al</td><td>drum</td><td>de</td><td>nostru</td><td>viaţă</td></tr>
+<tr><th>Esperanto</th><td>en</td><td>la</td><td>mezo</td><td>dela</td><td>vojo</td><td>de</td><td>nia</td><td>vivo</td></tr>
 </table>
 
 ### Swahili
@@ -1043,7 +1043,7 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 
 <table>
 <tr><th>Word</th><td>Giữa</td><td>chặng</td><td>đường</td><td>đời</td></tr>
-<tr><th>Part of Speech</th><td>Preposition</td><td>Noun</td><td>Noun</td><td>Noun</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>noun</td><td>noun</td></tr>
 <tr><th>English</th><td>between</td><td>stage</td><td>road</td><td>life</td></tr>
 <tr><th>Italian</th><td>tra</td><td>tappa</td><td>strada</td><td>vita</td></tr>
 <tr><th>Thai</th><td>ระหว่าง</td><td>ช่วง</td><td>ถนน</td><td>ชีวิต</td></tr>
