@@ -248,10 +248,11 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Traditional</th><td>在</td><td>我們</td><td>人生</td><td>的</td><td>中途</td></tr>
 <tr><th>Pinyin</th><td>zài</td><td>wǒmen</td><td>rénshēng</td><td>de</td><td>zhōngtú</td></tr>
 <tr><th>Part of Speech</th><td>preposition</td><td>pronoun</td><td>noun</td><td>particle</td><td>noun</td></tr>
-<tr><th>English</th><td>at</td><td>we</td><td>life</td><td>of</td><td>halfway</td></tr>
-<tr><th>Italian</th><td>a</td><td>noi</td><td>vita</td><td>di</td><td>a metà</td></tr>
-<tr><th>Japanese</th><td>に</td><td>私たち</td><td>人生</td><td>の</td><td>途中</td></tr>
-<tr><th>Vietnamese</th><td>tại</td><td>chúng tôi</td><td>cuộc sống</td><td>của</td><td>giữa chừng</td></tr>
+<tr><th>English</th><td>in</td><td>we</td><td>life</td><td>of</td><td>halfway</td></tr>
+<tr><th>Italian</th><td>in</td><td>noi</td><td>vita</td><td>di</td><td>a metà</td></tr>
+<tr><th>Japanese</th><td>に</td><td>私たち</td><td>人生</td><td>の</td><td>途中で</td></tr>
+<tr><th>Vietnamese</th><td>trong</td><td>chúng tôi</td><td>cuộc sống</td><td>của</td><td>giữa chừng</td></tr>
+<tr><th>Thai</th><td>ใน</td><td>เรา</td><td>ชีวิต</td><td>ของ</td><td>กลางทาง</td></tr>
 </table>
 
 ### Cornish
@@ -372,7 +373,7 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Latin</th><td>in</td><td>ille</td><td>medius</td><td>de</td><td>ille</td><td>via</td><td>de</td><td>noster</td><td>vita</td></tr>
 <tr><th>French</th><td>en</td><td>le</td><td>milieu</td><td>de</td><td>le</td><td>voie</td><td>de</td><td>notre</td><td>vie</td></tr>
 <tr><th>German</th><td>in</td><td>der</td><td>Mitte</td><td>von</td><td>der</td><td>Weg</td><td>von</td><td>unser</td><td>Leben</td></tr>
-<tr><th>Ancient Greek</th><td>ἐν</td><td>ὁ, ἡ, τό</td><td>μέσος</td><td>ἐκ, ἀπό</td><td>ὁ, ἡ, τό</td><td>ὁδός</td><td>ἐκ, ἀπό</td><td>ἡμέτερος</td><td>βίος</td></tr>
+<tr><th>Ancient Greek</th><td>ἐν</td><td>ὁ</td><td>μέσος</td><td>ἐκ,ἀπό</td><td>ὁ</td><td>ὁδός</td><td>ἐκ,ἀπό</td><td>ἡμέτερος</td><td>βίος</td></tr>
 <tr><th>Derived</th><td>French</td><td>French</td><td>Italian</td><td>French</td><td>French</td><td>French</td><td>French</td><td>Latin</td><td>Latin</td></tr>
 <tr><th>Etymology</th><td>en</td><td>le</td><td>mezzo</td><td>de</td><td>le</td><td>voie</td><td>de</td><td>noster</td><td>vita</td></tr>
 </table>
@@ -452,13 +453,14 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
 <tr><th>English</th><td>on</td><td>the</td><td>half</td><td>of the</td><td>way</td><td>our</td><td>life</td></tr>
 <tr><th>Italian</th><td>su</td><td>il</td><td>metà</td><td>del</td><td>via</td><td>nostro</td><td>vita</td></tr>
-<tr><th>Old English</th><td>on</td><td>se</td><td>healf</td><td>ðæs</td><td>weg</td><td>ūre</td><td>līf</td></tr>
+<tr><th>Old English</th><td>on</td><td>se</td><td>healf</td><td>ðæs</td><td>weg</td><td>ūre</td><td>lîf</td></tr>
+<tr><th>Yiddish</th><td>oyf</td><td>der</td><td>halbn</td><td>fun</td><td>veg</td><td>unzer</td><td>lebn</td></tr>
 <tr><th>Dutch</th><td>op</td><td>de</td><td>helft</td><td>van de</td><td>weg</td><td>onze</td><td>leven</td></tr>
-<tr><th>Icelandic</th><td>á</td><td>sá</td><td>helmingur</td><td>hins</td><td>vegur</td><td>okkar</td><td>líf</td></tr>
-<tr><th>Swedish</th><td>på</td><td>den</td><td>hälften</td><td>av</td><td>väg</td><td>vår</td><td>liv</td></tr>
-<tr><th>Norwegian</th><td>på</td><td>den</td><td>halvparten</td><td>av</td><td>vei</td><td>vår</td><td>liv</td></tr>
-<tr><th>Danish</th><td>på</td><td>den</td><td>halvdelen</td><td>af</td><td>vej</td><td>vores</td><td>liv</td></tr>
-<tr><th>Esperanto</th><td>sur</td><td>la</td><td>duono</td><td>de</td><td>vojo</td><td>nia</td><td>vivo</td></tr>
+<tr><th>Icelandic</th><td>á</td><td>sá</td><td>helmingur</td><td>helmingur</td><td>vegur</td><td>okkar</td><td>líf</td></tr>
+<tr><th>Swedish</th><td>på</td><td>den</td><td>hälften</td><td>hälftens</td><td>väg</td><td>vår</td><td>liv</td></tr>
+<tr><th>Norwegian</th><td>på</td><td>den</td><td>halvparten</td><td>halvpartens</td><td>vei</td><td>vår</td><td>liv</td></tr>
+<tr><th>Danish</th><td>på</td><td>den</td><td>halvdelen</td><td>halvdelens</td><td>vej</td><td>vores</td><td>liv</td></tr>
+<tr><th>Esperanto</th><td>sur</td><td>la</td><td>duono</td><td>de la</td><td>vojo</td><td>nia</td><td>vivo</td></tr>
 </table>
 
 ### Hebrew
@@ -477,6 +479,7 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>English</th><td>in the middle</td><td>way</td><td>our lives</td></tr>
 <tr><th>Italian</th><td>nel mezzo</td><td>via</td><td>le nostre vite</td></tr>
 <tr><th>Arabic</th><td>في الوسط</td><td>طريق</td><td>حياتنا</td></tr>
+<tr><th>Yiddish</th><td>אין מיטן</td><td>וועג</td><td>אונזערע לעבנס</td></tr>
 </table>
 
 ### Hindi
@@ -495,9 +498,10 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Person</th><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><th>English</th><td>our</td><td>life</td><td>of</td><td>journey</td><td>of</td><td>middle</td><td>in</td></tr>
 <tr><th>Italian</th><td>nostro</td><td>vita</td><td>di</td><td>viaggio</td><td>di</td><td>mezzo</td><td>in</td></tr>
-<tr><th>Sanskrit</th><td>अस्माकम्</td><td>जीवनम्</td><td>कस्य</td><td>यात्रा</td><td>कस्य</td><td>मध्ये</td><td>मध्ये</td></tr>
+<tr><th>Urdu</th><td>ہمارا</td><td>زندگی</td><td>کا</td><td>سفر</td><td>کا</td><td>وسط</td><td>میں</td></tr>
+<tr><th>Sanskrit</th><td>अस्माकम्</td><td>जीवनम्</td><td>कस्य</td><td>यात्रा</td><td>कस्य</td><td>मध्यम्</td><td>मध्ये</td></tr>
 <tr><th>Bengali</th><td>আমাদের</td><td>জীবন</td><td>এর</td><td>যাত্রা</td><td>এর</td><td>মাঝখানে</td><td>মধ্যে</td></tr>
-<tr><th>Japanese</th><td>私たちの</td><td>人生</td><td>の</td><td>旅</td><td>の</td><td>真ん中</td><td>中で</td></tr>
+<tr><th>Japanese</th><td>私たちの</td><td>生命</td><td>の</td><td>旅</td><td>の</td><td>中間</td><td>中</td></tr>
 <tr><th>Derived</th><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td></tr>
 <tr><th>Etymology</th><td>अस्मदीय (asmadīya)</td><td>जीव (jīva)</td><td>क (ka)</td><td>या (yā)</td><td>क (ka)</td><td>मध्य (madhya)</td><td>नि (ni)</td></tr>
 </table>
@@ -605,9 +609,10 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Word</th><td>Mūsu</td><td>dzīves</td><td>ceļā</td><td>vidū</td></tr>
 <tr><th>Lemma</th><td>mēs</td><td>dzīve</td><td>ceļš</td><td>vidus</td></tr>
 <tr><th>Part of Speech</th><td>pronoun</td><td>noun</td><td>noun</td><td>noun</td></tr>
-<tr><th>Gender</th><td>1st person</td><td>f.</td><td>m.</td><td>m.</td></tr>
+<tr><th>Gender</th><td></td><td>f.</td><td>m.</td><td>m.</td></tr>
 <tr><th>Case</th><td>genitive</td><td>genitive</td><td>locative</td><td>locative</td></tr>
 <tr><th>Number</th><td>pl.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Person</th><td>1</td><td></td><td></td><td></td></tr>
 <tr><th>English</th><td>Our</td><td>life</td><td>way</td><td>middle</td></tr>
 <tr><th>Italian</th><td>Nostro</td><td>vita</td><td>via</td><td>mezzo</td></tr>
 <tr><th>Lithuanian</th><td>Mūsų</td><td>gyvenimas</td><td>kelias</td><td>vidurys</td></tr>
@@ -623,7 +628,7 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Word</th><td>Mūsų</td><td>gyvenimo</td><td>kelio</td><td>viduryje</td></tr>
 <tr><th>Lemma</th><td>mūsų</td><td>gyvenimas</td><td>kelias</td><td>vidurys</td></tr>
 <tr><th>Part of Speech</th><td>pronoun</td><td>noun</td><td>noun</td><td>noun</td></tr>
-<tr><th>Gender</th><td>common</td><td>m.</td><td>m.</td><td>m.</td></tr>
+<tr><th>Gender</th><td></td><td>m.</td><td>m.</td><td>m.</td></tr>
 <tr><th>Case</th><td>genitive</td><td>genitive</td><td>genitive</td><td>locative</td></tr>
 <tr><th>Number</th><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
 <tr><th>Person</th><td>1</td><td></td><td></td><td></td></tr>
@@ -982,7 +987,9 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>adjective</td><td>noun</td><td>preposition</td><td>noun</td><td>preposition</td><td>pronoun</td></tr>
 <tr><th>English</th><td>in</td><td>period</td><td>middle</td><td>way</td><td>of</td><td>life</td><td>of</td><td>we</td></tr>
 <tr><th>Italian</th><td>in</td><td>periodo</td><td>mezzo</td><td>via</td><td>di</td><td>vita</td><td>di</td><td>noi</td></tr>
-<tr><th>Sanskrit</th><td>in</td><td>period</td><td>middle</td><td>way</td><td>of</td><td>life</td><td>of</td><td>we</td></tr>
+<tr><th>Vietnamese</th><td>trong</td><td>giai đoạn</td><td>giữa</td><td>cách</td><td>của</td><td>cuộc sống</td><td>của</td><td>chúng ta</td></tr>
+<tr><th>Chinese</th><td>在</td><td>期间</td><td>中间</td><td>方式</td><td>的</td><td>生活</td><td>的</td><td>我们</td></tr>
+<tr><th>Sanskrit</th><td>अन्दर</td><td>काल</td><td>मध्य</td><td>मार्ग</td><td>का</td><td>जीवन</td><td>का</td><td>वयम्</td></tr>
 </table>
 
 ### Turkish
@@ -998,6 +1005,7 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Person</th><td></td><td>1st person plural</td><td></td></tr>
 <tr><th>English</th><td>life</td><td>journey</td><td>middle</td></tr>
 <tr><th>Italian</th><td>vita</td><td>viaggio</td><td>mezzo</td></tr>
+<tr><th>Arabic</th><td>حياة</td><td>رحلة</td><td>منتصف</td></tr>
 <tr><th>Finnish</th><td>elämä</td><td>matka</td><td>keskellä</td></tr>
 <tr><th>Estonian</th><td>elu</td><td>reis</td><td>keskel</td></tr>
 <tr><th>Hungarian</th><td>élet</td><td>utazás</td><td>közepén</td></tr>
@@ -1036,7 +1044,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <table>
 <tr><th>Word</th><td>Giữa</td><td>chặng</td><td>đường</td><td>đời</td></tr>
 <tr><th>Part of Speech</th><td>Preposition</td><td>Noun</td><td>Noun</td><td>Noun</td></tr>
-<tr><th>English</th><td>Between</td><td>Stage</td><td>Road</td><td>Life</td></tr>
-<tr><th>Italian</th><td>Tra</td><td>Tappa</td><td>Strada</td><td>Vita</td></tr>
-<tr><th>Chinese</th><td>中间</td><td>阶段</td><td>道路</td><td>生活</td></tr>
+<tr><th>English</th><td>between</td><td>stage</td><td>road</td><td>life</td></tr>
+<tr><th>Italian</th><td>tra</td><td>tappa</td><td>strada</td><td>vita</td></tr>
+<tr><th>Thai</th><td>ระหว่าง</td><td>ช่วง</td><td>ถนน</td><td>ชีวิต</td></tr>
+<tr><th>Chinese</th><td>之间</td><td>阶段</td><td>道路</td><td>生活</td></tr>
 </table>
