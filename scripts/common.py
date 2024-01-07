@@ -172,3 +172,95 @@ def read_fixes(*fix_files):
                 ret[info] = []
             ret[info].append(q)
     return ret
+
+# Makefile
+
+def read_defs(mk):
+    ret = {}
+    with open(mk, "r", encoding="utf-8") as f:
+        for line in f:
+            if m := re.match(r"(\w+)\s*=\s*(.+)", line):
+                ret[m.group(1)] = m.group(2)
+    return ret
+
+# unify
+
+def read_tables(word, word_tr, etymology, index=0):
+    qs0 = read_queries(word)
+    qs1 = read_queries(word_tr)
+    qs2 = read_queries(etymology) if os.path.exists(etymology) else None
+    qi1 = {q.info: q for q in qs1}
+    qi2 = {q.info: q for q in qs2} if qs2 else None
+    for q0 in qs0:
+        if not q0.result:
+            continue
+        q1 = qi1.get(q0.info)
+        q2 = qi2.get(q0.info) if qi2 else None
+        if not q1 or (qi2 and not q2):
+            continue
+        if not (m := re.search(r"columns (\d+)", q1.prompt)):
+            print("no columns count:", q0.info, file=sys.stderr)
+            continue
+        col = int(m.group(1)) - 1
+        ts0 = read_table(q0.result)
+        ts1 = read_table(q1.result)
+        ts2 = read_table(q2.result) if q2 else None
+        length = len(ts1)
+        if ts2 and length != len(ts2):
+            print("length mismatch:", q0.info, file=sys.stderr)
+            continue
+        table = []
+        for i, r0 in enumerate(ts0):
+            r = len(table)
+            if r >= length:
+                break
+            if i > 1 and r0[index] != ts1[r][0]:
+                continue
+            row = r0 + ts1[r][col:]
+            if ts2:
+                row += ts2[r][-2:]
+            table.append(row)
+        if length != len(table):
+            print("word mismatch:", q0.info, file=sys.stderr)
+            continue
+        lines = [line for line in q0.prompt.split("\n")[1:] if line]
+        yield q0.info, lines, table
+
+def split_table(lines, table):
+    ret = [[] for _ in lines]
+    data = table[1:]
+    if data[0][0].startswith("---"):
+        data = data[1:]
+    ln = 0
+    start = 0
+    for rows in data:
+        w = rows[0]
+        i = -1
+        while i < 0:
+            i = lines[ln].find(w, start)
+            if i < 0:
+                start = 0
+                ln += 1
+                if ln == len(lines):
+                    break
+            else:
+                start = i + len(w)
+        if i < 0:
+            print(f"word not found: {w}", file=sys.stderr)
+            break
+        ret[ln].append(rows)
+    return ret
+
+def write_md(line, header, table):
+    ret = line + "\n\n"
+    ret += "<table>\n"
+    for i, h in enumerate(header):
+        cells = [row[i] for row in table]
+        if sum(map(len, cells)) == 0:
+            continue
+        row = "".join(f"<td>{td}</td>" for td in cells)
+        if h == "Etymology":
+            row = row.replace("<td>*", "<td><sup>*</sup>").replace("*</td>", "</td>")
+        ret += f"<tr><th>{h}</th>{row}</tr>\n"
+    ret += "</table>\n"
+    return ret

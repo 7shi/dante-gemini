@@ -10,47 +10,938 @@ Italian
 
 ## Gallery
 
+Here are formatted snippets of Gemini's output. Since these are intended to examine Gemini's capabilities, the content has not been modified. They may contain errors and are not guaranteed to be accurate.
+
+### Italian
+
+1 Nel mezzo del cammin di nostra vita
+
 <table>
-<tr><th>Language</th><th>Text</th></tr>
-<tr><td>Italian</td><td>1 Nel mezzo del cammin di nostra vita<br>2 mi ritrovai per una selva oscura,<br>3 ché la diritta via era smarrita.<br><br>4 Ahi quanto a dir qual era è cosa dura<br>5 esta selva selvaggia e aspra e forte<br>6 che nel pensier rinova la paura!<br><br>7 Tant’ è amara che poco è più morte;<br>8 ma per trattar del ben ch’i’ vi trovai,<br>9 dirò de l’altre cose ch’i’ v’ho scorte.</td></tr>
-<tr><td>Arabic</td><td dir="rtl" align="right">1 في منتصف طريق حياتنا<br>2 وجدت نفسي في غابة مظلمة،<br>3 لأن الطريق المستقيم قد ضاع.<br><br>4 آه كم هو صعب أن أصف<br>5 هذه الغابة المتوحشة والقاسية والقوية<br>6 التي تجدد الخوف في الفكر!<br><br>7 إنها مرة لدرجة أنها تكاد تكون أكثر من الموت؛<br>8 ولكن لأتحدث عن الخير الذي وجدته هناك،<br>9 سأقول أشياء أخرى رأيتها هناك.</td></tr>
-<tr><td>Bengali</td><td>1 আমাদের জীবনের পথের মাঝামাঝি<br>2 আমি নিজেকে একটি অন্ধকার জঙ্গলে পেলাম,<br>3 কারণ সঠিক পথ হারিয়ে গিয়েছিল।<br><br>4 আহা, সেই জঙ্গল কেমন ছিল তা বলা কত কঠিন<br>5 সেই বন্য, রুক্ষ এবং শক্তিশালী জঙ্গল<br>6 যা ভাবনাতেও ভয় কেনায়!<br><br>7 এতটাই তিক্ত যে মৃত্যুর চেয়ে একটু বেশি;<br>8 কিন্তু সেখানে আমি যে ভালো কিছু পেয়েছিলাম তার কথা বলার জন্য,<br>9 আমি সেখানে আরও যা দেখেছি তা বলব।</td></tr>
-<tr><td>Bulgarian</td><td>1 По средата на пътя на нашия живот<br>2 се озовах в една тъмна гора,<br>3 защото правият път беше изгубен.<br><br>4 Ах, колко е трудно да се каже каква беше<br>5 тази дива, груба и силна гора,<br>6 която в мисълта ми отново поражда страх!<br><br>7 Толкова е горчива, че малко е повече от смъртта;<br>8 но за да разкажа за доброто, което там намерих,<br>9 ще кажа за другите неща, които видях.</td></tr>
-<tr><td>Chinese</td><td>1 在我们人生的中途<br>2 我发现自己身处一片黑暗的森林，<br>3 因为正确的道路已经迷失。<br><br>4 啊，要描述那片森林是多么困难，<br>5 那片荒野的、崎岖的、险峻的森林，<br>6 它在我的脑海中重现了恐惧！<br><br>7 它如此苦涩，几乎比死亡好不了多少；<br>8 但为了讲述我在那里发现的美好，<br>9 我将讲述我在那里看到的所有其他事物。</td></tr>
-<tr><td>Croatian</td><td>1 Napolovici puta našeg života<br>2 našao sam se u mračnoj šumi,<br>3 jer pravi put bijaše izgubljen.<br><br>4 Ah, kako je teško reći kakva bijaše<br>5 ova divlja i gruba i tvrda šuma<br>6 koja u mislima obnavlja strah!<br><br>7 Toliko je gorka da je malo više od smrti;<br>8 ali da bih govorio o dobru koje sam tamo našao,<br>9 reći ću o drugim stvarima koje sam tamo ugledao.</td></tr>
-<tr><td>Czech</td><td>1 Uprostřed cesty našeho života<br>2 jsem se ocitl v temném lese,<br>3 neboť přímá cesta byla ztracena.<br><br>4 Ach, jak těžké je říci, jaká to byla věc<br>5 tento divoký, drsný a silný les,<br>6 který v myšlenkách znovu probouzí strach!<br><br>7 Je tak hořký, že smrt je o málo horší;<br>8 ale abych pojednal o dobru, které jsem tam nalezl,<br>9 povím o dalších věcech, které jsem tam spatřil.</td></tr>
-<tr><td>Danish</td><td>1 På livets halve vej<br>2 befandt jeg mig i en mørk skov,<br>3 thi den rette vej var tabt.<br><br>4 Ak, hvor svært det er at fortælle dig,<br>5 hvor vild og barsk og hård denne skov var,<br>6 som i tanken vækker frygten på ny!<br><br>7 Så bitter er den, at døden er lidt værre;<br>8 men for at fortælle om det gode, jeg fandt der,<br>9 vil jeg fortælle om de andre ting, jeg så der.</td></tr>
-<tr><td>Dutch</td><td>1 Midden op het pad van ons leven<br>2 bevond ik mij in een donker woud,<br>3 want de rechte weg was verloren.<br><br>4 Ach, hoe moeilijk is het om te zeggen hoe<br>5 dit woud was, wild en ruig en hard,<br>6 dat in mijn gedachten de angst weer doet herleven!<br><br>7 Het is zo bitter dat de dood nauwelijks erger is;<br>8 maar om te spreken over het goede dat ik er vond,<br>9 zal ik vertellen over de andere dingen die ik er zag.</td></tr>
-<tr><td>English</td><td>1 In the middle of the journey of our life<br>2 I found myself within a dark wood,<br>3 for the straight way was lost.<br><br>4 Ah, how hard it is to tell what it was,<br>5 this wild, savage and rough wood,<br>6 which in my mind renews the fear!<br><br>7 So bitter is it, that death is hardly more so;<br>8 but to treat of the good that I found there,<br>9 I will tell of the other things that I perceived there.</td></tr>
-<tr><td>Esperanto</td><td>1 En la mezo de la vojo de nia vivo<br>2 mi trovis min en malluma arbaro,<br>3 ĉar la rekta vojo estis perdita.<br><br>4 Ho ve, kiel diri kia ĝi estis estas malfacilaĵo<br>5 tiu sovaĝa kaj malglata kaj forta arbaro,<br>6 kiu en la penso renovigas la timon!<br><br>7 Ĝi estas tiom amara, ke morto estas nur iom pli;<br>8 sed por trakti la bonon, kiun mi tie trovis,<br>9 mi diros pri la aliaj aferoj, kiujn mi tie rimarkis.</td></tr>
-<tr><td>Estonian</td><td>1 Meie elutee poolel<br>2 leidsin end pimedast metsast,<br>3 sest õige tee oli kadunud.<br><br>4 Oh, kui raske on sulle öelda,<br>5 kui metsik, jäme ja raske oli see mets,<br>6 mis mõttes hirmutades seda meelde tuletab!<br><br>7 Nii kibedat, et surm on vaevu hullem;<br>8 aga et rääkida heast, mis ma seal leidsin,<br>9 siis räägin ma teistest asjadest, mida ma seal nägin.</td></tr>
-<tr><td>Finnish</td><td>1 Puolivälissä elämämme matkaa<br>2 eksyin synkkään metsään,<br>3 sillä oikea tie oli hukassa.<br><br>4 Voi kuinka vaikeaa onkaan kertoa sinulle, millainen<br>5 tuo villi, karu ja ankara metsä oli,<br>6 joka ajatuksissani herättää pelon uudelleen!<br><br>7 Se on niin katkera, että kuolema on tuskin pahempaa;<br>8 mutta kertoakseni siitä hyvästä, jonka siellä löysin,<br>9 kerron muista asioista, joita siellä näin.</td></tr>
-<tr><td>French</td><td>1 Au milieu du chemin de notre vie<br>2 je me retrouvai dans une forêt obscure,<br>3 car la voie droite était perdue.<br><br>4 Ah ! que dire quelle était est chose dure<br>5 cette forêt sauvage, âpre et forte<br>6 qui dans la pensée renouvelle la peur !<br><br>7 Elle est si amère qu’un peu plus c’est la mort ;<br>8 mais pour traiter du bien que j’y trouvai,<br>9 je dirai des autres choses que j’y ai vues.</td></tr>
-<tr><td>German</td><td>1 Auf der Hälfte des Weges unseres Lebens<br>2 fand ich mich in einem dunklen Wald wieder,<br>3 denn der gerade Weg war verloren gegangen.<br><br>4 Ach, wie schwer ist es, dir zu sagen, wie<br>5 dieser wilde, raue und harte Wald war,<br>6 der in der Erinnerung die Angst erneuert!<br><br>7 So bitter ist er, dass der Tod kaum bitterer ist;<br>8 aber um von dem Guten zu berichten, das ich dort fand,<br>9 werde ich von den anderen Dingen erzählen, die ich dort erblickte.</td></tr>
-<tr><td>Hebrew</td><td dir="rtl" align="right">1 באמצע דרך חיינו<br>2 מצאתי את עצמי ביער אפל,<br>3 כי הדרך הישרה אבדה.<br><br>4 אה, כמה קשה לומר מה היה<br>5 היער הפראי והקשה והחזק הזה<br>6 שמחשבת ומחדשת את הפחד!<br><br>7 הוא כל כך מר שמוות עדיף מעט;<br>8 אבל כדי לדבר על הטוב שמצאתי בו,<br>9 אספר על הדברים האחרים שראיתי בו.</td></tr>
-<tr><td>Hindi</td><td>1 हमारे जीवन की यात्रा के मध्य में<br>2 मैं एक अंधेरे जंगल में खो गया,<br>3 क्योंकि सीधा रास्ता खो गया था।<br><br>4 आह, यह कहना कितना कठिन है कि वह कैसा था<br>5 यह जंगली और ऊबड़-खाबड़ और मजबूत जंगल<br>6 जो विचार में भय को नया कर देता है!<br><br>7 यह इतना कड़वा है कि मृत्यु से थोड़ा ही अधिक है;<br>8 लेकिन उस भलाई के बारे में बताने के लिए जो मैंने वहां पाई,<br>9 मैं उन अन्य चीजों के बारे में बताऊंगा जो मैंने वहां देखीं।</td></tr>
-<tr><td>Hungarian</td><td>1 Életünk útjának felén<br>2 egy sötét erdőben találtam magam,<br>3 mert az egyenes út elveszett.<br><br>4 Ó, milyen nehéz elmondani, milyen volt<br>5 ez a vad, durva és erős erdő,<br>6 amelynek gondolata is megújítja a félelmet!<br><br>7 Olyan keserű, hogy alig több a halálnál;<br>8 de hogy elmondjam a jót, amit ott találtam,<br>9 elmondom a többi dolgot, amit ott láttam.</td></tr>
-<tr><td>Indonesian</td><td>1 Di tengah perjalanan hidup kami<br>2 aku menemukan diriku di hutan yang gelap,<br>3 karena jalan yang benar telah hilang.<br><br>4 Ah, betapa sulit untuk mengatakan seperti apa<br>5 hutan belantara yang liar, kasar, dan kuat itu<br>6 yang dalam pikiran membangkitkan kembali rasa takut!<br><br>7 Begitu pahitnya sehingga sedikit lebih dari kematian;<br>8 tetapi untuk membahas kebaikan yang kutemukan di sana,<br>9 akan kukatakan hal-hal lain yang kulihat di sana.</td></tr>
-<tr><td>Interlingua</td><td>1 In le medio del cammino de nostre vita<br>2 me trovava per un silva obscur,<br>3 que le directe via era perdite.<br><br>4 Ah quamto a dicer qual era es cosa dur<br>5 iste silva salvage e aspre e forte<br>6 que in le pensamento renova le paura!<br><br>7 Tanto es amara que poco es plus morte;<br>8 ma pro tractar del ben que io ibi trovava,<br>9 dicera del altere cosas que io ibi habeva vidite.</td></tr>
-<tr><td>Japanese</td><td>1 我が人生の半ばにして<br>2 我は暗き森に迷い入りたり<br>3 正しき道は失われし故に<br><br>4 ああ、その森がどんなものかを語ることはなんと難しいことか<br>5 この荒れ狂う、険しく、強靭な森は<br>6 思い出すだけでも恐怖が蘇る！<br><br>7 あまりにも苦く、死よりも少しマシなほどだ<br>8 しかし、そこで私が得た善について語るために<br>9 そこで私が見た他のことについて語ろう</td></tr>
-<tr><td>Korean</td><td>1 우리 인생의 한가운데 길에서<br>2 나는 어두운 숲속에 있었습니다.<br>3 바른 길을 잃었기 때문입니다.<br><br>4 아, 그 숲이 어땠는지 말하기는 참으로 어렵습니다.<br>5 그 거칠고 험하고 힘든 숲은<br>6 생각만 해도 두려움이 되살아납니다!<br><br>7 너무나도 쓰라워서 죽음보다 조금 나을 뿐입니다.<br>8 하지만 그곳에서 내가 발견한 좋은 것에 대해 말씀드리려면<br>9 내가 그곳에서 본 다른 것들에 대해 말씀드려야 합니다.</td></tr>
-<tr><td>Latvian</td><td>1 Mūsu dzīves ceļā vidū<br>2 es atrados tumšā mežā,<br>3 jo taisnais ceļš bija pazudis.<br><br>4 Ak, cik grūti tev pateikt, kāds tas bija<br>5 šis mežonīgais, skarbais un spēcīgais mežs,<br>6 kas atmiņā atjauno bailes!<br><br>7 Tas ir tik rūgts, ka mazliet vairāk ir nāve;<br>8 bet, lai runātu par labo, ko tur atradu,<br>9 es pastāstīšu par citām lietām, ko tur ieraudzīju.</td></tr>
-<tr><td>Lithuanian</td><td>1 Mūsų gyvenimo kelio viduryje<br>2 atsidūriau tamsiame miške,<br>3 nes tiesus kelias buvo pasiklydęs.<br><br>4 Ach, kaip sunku pasakyti, koks buvo<br>5 šis laukinis, šiurkštus ir sunkus miškas,<br>6 kuris vien pagalvojus vėl sukelia baimę!<br><br>7 Jis toks kartus, kad vos ne mirtis;<br>8 bet kad papasakočiau apie gėrį, kurį jame radau,<br>9 papasakosiu apie kitus dalykus, kuriuos ten išvydau.</td></tr>
-<tr><td>Manx</td><td>1 Ayns meanyraad jeh'n veaynnydain<br>2 haink mee hene er my honerynaasagh dorraghey,<br>3 ersondyrowyraad jeeraghernycailleil.<br><br>4 Aynsagh, cre'n erbee dy ghra myr shen!<br>5 Ynasagh shen, feamagh as doillee as creoi,<br>6 Tacur my chree er-ash dy row!<br><br>7 Sheerbeesh en dy velnys 'trosheynabaase;<br>8 Agh ersondy ghrajeh'n vieys ta mee erchosney,<br>9 Gheearey-ms dyre delley ta mee er vakin.</td></tr>
-<tr><td>Modern Greek</td><td>1 Στη μέση της διαδρομής της ζωής μας<br>2 βρέθηκα σε ένα σκοτεινό δάσος,<br>3 γιατί ο ίσιος δρόμος είχε χαθεί.<br><br>4 Αχ, πόσο δύσκολο είναι να πω πώς ήταν<br>5 αυτό το άγριο και τραχύ και σκληρό δάσος<br>6 που στη σκέψη ανανεώνει τον φόβο!<br><br>7 Τόσο πικρό είναι που λίγο απέχει από το θάνατο.<br>8 Αλλά για να μιλήσω για το καλό που βρήκα εκεί,<br>9 θα πω για τα άλλα πράγματα που είδα εκεί.</td></tr>
-<tr><td>Norwegian</td><td>1 Midtveis på vår livsvei<br>2 befant jeg meg i en mørk skog,<br>3 for den rette veien var gått tapt.<br><br>4 Å, hvor vanskelig det er å fortelle deg<br>5 om denne ville og harde og sterke skogen,<br>6 som bare tanken på den fornyer frykten!<br><br>7 Den er så bitter at den nesten er verre enn døden;<br>8 men for å fortelle om det gode jeg fant der,<br>9 vil jeg fortelle om de andre tingene jeg så der.</td></tr>
-<tr><td>Polish</td><td>1 W połowie drogi naszego życia<br>2 znalazłem się w ciemnym lesie,<br>3 bo prosta droga została zgubiona.<br><br>4 Ach, jak trudno powiedzieć, jaka była<br>5 ta dzika, szorstka i twarda puszcza,<br>6 która w myśli odnawia strach!<br><br>7 Jest tak gorzka, że niewiele bardziej śmierć;<br>8 ale aby mówić o dobru, które tam znalazłem,<br>9 opowiem o innych rzeczach, które tam dostrzegłem.</td></tr>
-<tr><td>Portuguese</td><td>1 No meio do caminho da nossa vida<br>2 me encontrei em uma selva escura,<br>3 porque o caminho reto estava perdido.<br><br>4 Ah, quão difícil é dizer o que era<br>5 esta selva selvagem, áspera e forte<br>6 que no pensamento renova o medo!<br><br>7 É tão amarga que pouco é mais que a morte;<br>8 mas para tratar do bem que lá encontrei,<br>9 direi das outras coisas que lá vi.</td></tr>
-<tr><td>Romanian</td><td>1 În mijlocul călătoriei vieții noastre<br>2 m-am trezit într-o pădure întunecată,<br>3 căci calea cea dreaptă era pierdută.<br><br>4 Ah, cât de greu este de spus cum era<br>5 această pădure sălbatică, aspră și puternică,<br>6 care în gând reînnoiește frica!<br><br>7 Atât de amară este, încât puțin mai mult este moartea;<br>8 dar pentru a trata despre binele pe care l-am găsit acolo,<br>9 voi spune despre celelalte lucruri pe care le-am zărit acolo.</td></tr>
-<tr><td>Russian</td><td>1 На середине пути нашей жизни<br>2 я очутился в мрачном лесу,<br>3 потому что прямой путь был утерян.<br><br>4 Увы, как трудно рассказать, каков был<br>5 этот дикий, дремучий и непроходимый лес,<br>6 который при одном воспоминании возобновляет страх!<br><br>7 Он так горек, что чуть ли не горше смерти;<br>8 но чтобы поведать о благе, которое я там обрел,<br>9 я расскажу о других вещах, которые я там увидел.</td></tr>
-<tr><td>Serbian (Latin)</td><td>1 Na polovini puta našeg života<br>2 našao sam se u mračnoj šumi,<br>3 jer pravi put beše izgubljen.<br><br>4 Ah, kako je teško reći kakva je bila<br>5 ova divlja, surova i jaka šuma<br>6 koja u mislima ponovo budi strah!<br><br>7 Toliko je gorka da je malo više od smrti;<br>8 ali da bih govorio o dobru koje sam tamo našao,<br>9 reći ću o drugim stvarima koje sam tamo ugledao.</td></tr>
-<tr><td>Slovak</td><td>1 V polovici cesty nášho života<br>2 som sa ocitol v temnom lese,<br>3 lebo priama cesta bola stratená.<br><br>4 Ach, aké ťažké je povedať, aký bol<br>5 tento divoký, drsný a silný les,<br>6 ktorý v myšlienkach obnovuje strach!<br><br>7 Je taký horký, že je o málo viac ako smrť;<br>8 ale aby som hovoril o dobre, ktoré som tam našiel,<br>9 poviem o ďalších veciach, ktoré som tam zbadal.</td></tr>
-<tr><td>Slovene</td><td>1 Sredi poti našega življenja<br>2 sem se znašel v temnem gozdu,<br>3 ker je bila prava pot izgubljena.<br><br>4 Ah, kako težko je povedati, kakšen je bil<br>5 ta divji in grob in trd gozd,<br>6 ki v mislih znova obudi strah!<br><br>7 Tako grenak je, da je malo hujša smrt;<br>8 toda da bi govoril o dobrem, ki sem ga tam našel,<br>9 bom povedal o drugih stvareh, ki sem jih tam uzrl.</td></tr>
-<tr><td>Spanish</td><td>1 En la mitad del camino de nuestra vida<br>2 me encontré por una selva oscura,<br>3 porque la vía recta estaba perdida.<br><br>4 ¡Ay, cuán duro es decir cuál era<br>5 esta selva salvaje y áspera y fuerte<br>6 que en el pensamiento renueva el miedo!<br><br>7 Tan amarga es que poco más es la muerte;<br>8 pero para tratar del bien que allí encontré,<br>9 diré de las otras cosas que allí vi.</td></tr>
-<tr><td>Swahili</td><td>1 Katikati ya safari ya maisha yetu<br>2 nilijikuta katika msitu wenye giza,<br>3 kwa sababu njia iliyonyooka ilikuwa imepotea.<br><br>4 Ah, ni vigumu sana kwangu kukuambia<br>5 jinsi msitu huu ulivyokuwa wa pori, mgumu na wenye nguvu,<br>6 kiasi kwamba mawazo yangu yanajazwa na hofu upya!<br><br>7 Ni chungu sana kwamba ni sawa na kifo;<br>8 lakini ili kuzungumzia mema niliyoyaona humo,<br>9 nitaelezea mambo mengine niliyoyaona.</td></tr>
-<tr><td>Swedish</td><td>1 Mitt i vår levnads vandring<br>2 befann jag mig i en mörk skog,<br>3 ty den rätta vägen hade jag förlorat.<br><br>4 Ack, hur svårt är det inte att beskriva för dig<br>5 denna vilda, hårda och svårgenomträngliga skog<br>6 som i tanken förnyar rädslan!<br><br>7 Så bitter är den att döden är föga bittrare;<br>8 men för att tala om det goda som jag fann där,<br>9 ska jag berätta om de andra sakerna som jag såg där.</td></tr>
-<tr><td>Thai</td><td>1 ในช่วงกลางทางแห่งชีวิตของเรา<br>2 ข้าพบว่าตนเองอยู่ในป่าทึบมืดมัว<br>3 เพราะว่าเส้นทางที่ถูกต้องได้สูญหายไปแล้ว<br><br>4 โอ้ช่างยากเย็นเหลือเกินที่จะบอกเล่า<br>5 ป่าเถื่อนป่าเถื่อนและป่าทึบแห่งนี้<br>6 ที่ความคิดย้อนรำลึกถึงความกลัว!<br><br>7 ขมขื่นยิ่งนักจนแทบไม่ต่างจากความตาย<br>8 แต่เพื่อจะกล่าวถึงสิ่งดีงามที่ข้าพบเห็นที่นั่น<br>9 ข้าจะบอกเล่าเรื่องราวอื่นๆที่ข้าได้พบเห็น</td></tr>
-<tr><td>Turkish</td><td>1 Hayat yolculuğumuzun ortasında<br>2 kendimi karanlık bir ormanda buldum,<br>3 çünkü doğru yol kaybolmuştu.<br><br>4 Ah, anlatması ne kadar zordur<br>5 bu vahşi, engebeli ve zorlu ormanı,<br>6 ki düşüncemde korkuyu yeniden canlandırıyor!<br><br>7 Öylesine acıdır ki ölümden biraz daha iyidir;<br>8 ama orada bulduğum iyilikten bahsetmek için,<br>9 size orada gördüğüm diğer şeyleri anlatacağım.</td></tr>
-<tr><td>Ukrainian</td><td>1 На середині шляху нашого життя<br>2 я опинився в темному лісі,<br>3 бо правильний шлях був загублений.<br><br>4 Ох, як важко розповісти, яким був<br>5 цей дикий ліс, суворий і міцний,<br>6 що в думках відновлює страх!<br><br>7 Він такий гіркий, що трохи більше смерті;<br>8 але щоб розповісти про добро, яке я там знайшов,<br>9 я розповім про інші речі, які я там побачив.</td></tr>
-<tr><td>Vietnamese</td><td>1 Giữa chặng đường đời,<br>2 tôi thấy mình lạc vào một khu rừng tối tăm,<br>3 vì con đường ngay thẳng đã mất hút.<br><br>4 Than ôi, thật khó để diễn tả<br>5 khu rừng rậm rạp, gai góc và dữ dội này<br>6 khiến nỗi sợ hãi sống lại trong tâm trí!<br><br>7 Nó đắng cay đến nỗi chỉ còn kém cái chết một chút;<br>8 nhưng để nói về điều tốt đẹp mà tôi tìm thấy ở đó,<br>9 tôi sẽ kể về những điều khác mà tôi đã chứng kiến.</td></tr>
+<tr><th>Word</th><td>Nel</td><td>mezzo</td><td>del</td><td>cammin</td><td>di</td><td>nostra</td><td>vita</td></tr>
+<tr><th>Lemma</th><td>in + il</td><td>mezzo</td><td>di + il</td><td>cammino</td><td>di</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>preposition</td><td>noun</td><td>preposition</td><td>adjective</td><td>noun</td></tr>
+<tr><th>Gender</th><td>m.</td><td>m.</td><td>m.</td><td>m.</td><td></td><td>f.</td><td>f.</td></tr>
+<tr><th>Number</th><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td></td><td>sg.</td><td>sg.</td></tr>
+<tr><th>English</th><td>in the</td><td>middle</td><td>of the</td><td>journey</td><td>of</td><td>our</td><td>life</td></tr>
+<tr><th>Latin</th><td>in illo</td><td>medium</td><td>de illo</td><td>caminus</td><td>de</td><td>noster</td><td>vita</td></tr>
+<tr><th>Interlingua</th><td>in le</td><td>medio</td><td>del le</td><td>cammino</td><td>de</td><td>nostre</td><td>vita</td></tr>
+<tr><th>French</th><td>dans le</td><td>milieu</td><td>du</td><td>chemin</td><td>de</td><td>notre</td><td>vie</td></tr>
+<tr><th>Spanish</th><td>en el</td><td>medio</td><td>del</td><td>camino</td><td>de</td><td>nuestro</td><td>vida</td></tr>
+<tr><th>Portuguese</th><td>no</td><td>meio</td><td>do</td><td>caminho</td><td>de</td><td>nosso</td><td>vida</td></tr>
+<tr><th>Romanian</th><td>în</td><td>mijloc</td><td>al</td><td>drum</td><td>de</td><td>nostru</td><td>viaţă</td></tr>
+<tr><th>Esperanto</th><td>en la</td><td>mezo</td><td>de la</td><td>vojo</td><td>de</td><td>nia</td><td>vivo</td></tr>
+<tr><th>Derived</th><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td></tr>
+<tr><th>Etymology</th><td>in + ille</td><td>medius</td><td>de + ille</td><td>caminus</td><td>de</td><td>noster</td><td>vita</td></tr>
+</table>
+
+### English
+
+1 In the middle of the journey of our life
+
+<table>
+<tr><th>Word</th><td>In</td><td>the</td><td>middle</td><td>of</td><td>the</td><td>journey</td><td>of</td><td>our</td><td>life</td></tr>
+<tr><th>Lemma</th><td>in</td><td>the</td><td>middle</td><td>of</td><td>the</td><td>journey</td><td>of</td><td>our</td><td>life</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>determiner</td><td>noun</td><td>preposition</td><td>determiner</td><td>noun</td><td>preposition</td><td>pronoun</td><td>noun</td></tr>
+<tr><th>Note</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>possessive</td><td></td></tr>
+<tr><th>Italian</th><td>in</td><td>il</td><td>mezzo</td><td>di</td><td>il</td><td>viaggio</td><td>di</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Old English</th><td>on</td><td>se</td><td>middel</td><td>of</td><td>se</td><td>iorðe</td><td>of</td><td>ure</td><td>líf</td></tr>
+<tr><th>German</th><td>in</td><td>der</td><td>Mitte</td><td>von</td><td>der</td><td>Reise</td><td>von</td><td>unser</td><td>Leben</td></tr>
+<tr><th>Dutch</th><td>in</td><td>de</td><td>midden</td><td>van</td><td>de</td><td>reis</td><td>van</td><td>onze</td><td>leven</td></tr>
+<tr><th>Icelandic</th><td>í</td><td>sá</td><td>miðja</td><td>af</td><td>sá</td><td>ferð</td><td>af</td><td>vor</td><td>líf</td></tr>
+<tr><th>Swedish</th><td>i</td><td>den</td><td>mitten</td><td>av</td><td>den</td><td>resa</td><td>av</td><td>vår</td><td>liv</td></tr>
+<tr><th>Norwegian</th><td>i</td><td>den</td><td>midten</td><td>av</td><td>den</td><td>reise</td><td>av</td><td>vår</td><td>liv</td></tr>
+<tr><th>Danish</th><td>i</td><td>den</td><td>midten</td><td>af</td><td>den</td><td>rejse</td><td>af</td><td>vores</td><td>liv</td></tr>
+<tr><th>French</th><td>dans</td><td>le</td><td>milieu</td><td>de</td><td>le</td><td>voyage</td><td>de</td><td>notre</td><td>vie</td></tr>
+<tr><th>Latin</th><td>in</td><td>the</td><td>medius</td><td>of</td><td>the</td><td>iter</td><td>of</td><td>noster</td><td>vita</td></tr>
+<tr><th>Esperanto</th><td>en</td><td>la</td><td>mezo</td><td>de</td><td>la</td><td>vojaĝo</td><td>de</td><td>nia</td><td>vivo</td></tr>
+<tr><th>Chinese</th><td>在</td><td>那</td><td>中间</td><td>的</td><td>那</td><td>旅程</td><td>的</td><td>我们的</td><td>生活</td></tr>
+<tr><th>Derived</th><td>Old English</td><td>Old English</td><td>Old English</td><td>Old English</td><td>Old English</td><td>Old French</td><td>Old English</td><td>Old English</td><td>Old English</td></tr>
+<tr><th>Etymology</th><td>in</td><td>ðe</td><td>middel</td><td>of</td><td>ðe</td><td>jorneie</td><td>of</td><td>ūre</td><td>līf</td></tr>
+</table>
+
+### Ancient Greek
+
+1 Ἐν μέσῳ τῆς ὁδοῦ τῆς ζωῆς ἡμῶν
+
+<table>
+<tr><th>Word</th><td>Ἐν</td><td>μέσῳ</td><td>τῆς</td><td>ὁδοῦ</td><td>τῆς</td><td>ζωῆς</td><td>ἡμῶν</td></tr>
+<tr><th>Lemma</th><td>ἐν</td><td>μέσος</td><td>ὁ</td><td>ὁδός</td><td>ὁ</td><td>ζωή</td><td>ἡμεῖς</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>adjective</td><td>definite article</td><td>noun</td><td>definite article</td><td>noun</td><td>personal pronoun</td></tr>
+<tr><th>Gender</th><td></td><td>m.</td><td>f.</td><td>f.</td><td>f.</td><td>f.</td><td></td></tr>
+<tr><th>Case</th><td></td><td>dative</td><td>genitive</td><td>genitive</td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>pl.</td></tr>
+<tr><th>Person</th><td></td><td></td><td></td><td></td><td></td><td></td><td>1</td></tr>
+<tr><th>English</th><td>in</td><td>middle</td><td>of the</td><td>road</td><td>of the</td><td>life</td><td>our</td></tr>
+<tr><th>Italian</th><td>in</td><td>mezzo</td><td>del</td><td>strada</td><td>del</td><td>vita</td><td>nostro</td></tr>
+<tr><th>Modern Greek</th><td>εν</td><td>μέσος</td><td>της</td><td>οδού</td><td>της</td><td>ζωής</td><td>ημών</td></tr>
+<tr><th>Latin</th><td>in</td><td>medius</td><td>ille</td><td>via</td><td>ille</td><td>vita</td><td>noster</td></tr>
+<tr><th>Lithuanian</th><td>į</td><td>vidurinis</td><td>to</td><td>kelio</td><td>to</td><td>gyvenimo</td><td>mūsų</td></tr>
+<tr><th>Esperanto</th><td>en</td><td>meza</td><td>dela</td><td>vojo</td><td>dela</td><td>vivo</td><td>nia</td></tr>
+<tr><th>Sanskrit</th><td>अधि</td><td>मध्य</td><td>तस्य</td><td>पथ</td><td>तस्य</td><td>जीवन</td><td>अस्माकम्</td></tr>
+</table>
+
+### Arabic
+
+1 في منتصف طريق حياتنا
+
+<table>
+<tr><th>Word</th><td>في</td><td>منتصف</td><td>طريق</td><td>حياتنا</td></tr>
+<tr><th>Roman (Word)</th><td>fī</td><td>muntasaf</td><td>ṭarīq</td><td>ḥayātinā</td></tr>
+<tr><th>Lemma</th><td>في</td><td>منتصف</td><td>طريق</td><td>حياة</td></tr>
+<tr><th>Roman (Lemma)</th><td>fī</td><td>muntasaf</td><td>ṭarīq</td><td>ḥayāh</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>noun</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>masculine</td><td>masculine</td><td>feminine</td></tr>
+<tr><th>Case</th><td></td><td>accusative</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>singular</td><td>singular</td><td>dual</td></tr>
+<tr><th>English</th><td>in</td><td>middle</td><td>road</td><td>our life</td></tr>
+<tr><th>Italian</th><td>in</td><td>metà</td><td>strada</td><td>la nostra vita</td></tr>
+<tr><th>Hebrew</th><td>בְּ-‎</td><td>אמצע</td><td>דֶּרֶךְ</td><td>חַיֵּינוּ</td></tr>
+</table>
+
+### Bengali
+
+1 আমাদের জীবনের পথের মাঝামাঝি
+
+<table>
+<tr><th>Word</th><td>আমাদের</td><td>জীবনের</td><td>পথের</td><td>মাঝামাঝি</td></tr>
+<tr><th>Roman (Word)</th><td>amādera</td><td>jībanera</td><td>pothera</td><td>mājhāmājhi</td></tr>
+<tr><th>Lemma</th><td>আমাদের</td><td>জীবন</td><td>পথ</td><td>মাঝামাঝি</td></tr>
+<tr><th>Roman (Lemma)</th><td>amādera</td><td>jīban</td><td>poth</td><td>mājhāmājhi</td></tr>
+<tr><th>Part of Speech</th><td>pronoun</td><td>noun</td><td>noun</td><td>adverb</td></tr>
+<tr><th>Gender</th><td></td><td>m.</td><td>m.</td><td></td></tr>
+<tr><th>Case</th><td></td><td>genitive</td><td>genitive</td><td></td></tr>
+<tr><th>Number</th><td>pl.</td><td>sg.</td><td>sg.</td><td></td></tr>
+<tr><th>Person</th><td>1</td><td></td><td></td><td></td></tr>
+<tr><th>English</th><td>our</td><td>of life</td><td>of the path</td><td>in the middle</td></tr>
+<tr><th>Italian</th><td>nostro</td><td>della vita</td><td>del sentiero</td><td>in mezzo</td></tr>
+<tr><th>Sanskrit</th><td>अस्माकम्</td><td>जीवनस्य</td><td>पथस्य</td><td>मध्ये</td></tr>
+<tr><th>Hindi</th><td>हमारा</td><td>जीवन का</td><td>पथ का</td><td>बीच में</td></tr>
+<tr><th>Japanese</th><td>私たちの</td><td>人生</td><td>道の</td><td>真ん中</td></tr>
+<tr><th>Derived</th><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td></tr>
+<tr><th>Etymology</th><td>amādarā</td><td>jīvana</td><td>patha</td><td>madhyamadhya</td></tr>
+</table>
+
+### Bulgarian
+
+1 По средата на пътя на нашия живот
+
+<table>
+<tr><th>Word</th><td>По</td><td>средата</td><td>на</td><td>пътя</td><td>на</td><td>нашия</td><td>живот</td></tr>
+<tr><th>Lemma</th><td>по</td><td>среда</td><td>на</td><td>път</td><td>на</td><td>наш</td><td>живот</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>preposition</td><td>noun</td><td>preposition</td><td>pronoun</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>f.</td><td></td><td>m.</td><td></td><td>m.</td><td>m.</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td></td><td>sg.</td><td></td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Note</th><td></td><td></td><td></td><td></td><td></td><td>possessive</td><td></td></tr>
+<tr><th>English</th><td>by</td><td>middle</td><td>of</td><td>road</td><td>of</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>di</td><td>mezzo</td><td>di</td><td>strada</td><td>di</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Russian</th><td>по</td><td>среда</td><td>на</td><td>дорога</td><td>на</td><td>наш</td><td>жизнь</td></tr>
+<tr><th>Ukrainian</th><td>по</td><td>середина</td><td>на</td><td>дорога</td><td>на</td><td>наш</td><td>життя</td></tr>
+<tr><th>Polish</th><td>po</td><td>środek</td><td>na</td><td>droga</td><td>na</td><td>nasz</td><td>życie</td></tr>
+<tr><th>Czech</th><td>po</td><td>střed</td><td>na</td><td>cesta</td><td>na</td><td>náš</td><td>život</td></tr>
+<tr><th>Slovak</th><td>po</td><td>stred</td><td>na</td><td>cesta</td><td>na</td><td>náš</td><td>život</td></tr>
+<tr><th>Serbian (Latin)</th><td>po</td><td>sredina</td><td>na</td><td>put</td><td>na</td><td>naš</td><td>život</td></tr>
+<tr><th>Croatian</th><td>po</td><td>sredina</td><td>na</td><td>put</td><td>na</td><td>naš</td><td>život</td></tr>
+<tr><th>Slovene</th><td>po</td><td>sreda</td><td>na</td><td>pot</td><td>na</td><td>naš</td><td>življenje</td></tr>
+</table>
+
+### Chinese
+
+1 在我们人生的中途
+
+<table>
+<tr><th>Word</th><td>在</td><td>我们</td><td>人生</td><td>的</td><td>中途</td></tr>
+<tr><th>Traditional</th><td>在</td><td>我們</td><td>人生</td><td>的</td><td>中途</td></tr>
+<tr><th>Pinyin</th><td>zài</td><td>wǒmen</td><td>rénshēng</td><td>de</td><td>zhōngtú</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>pronoun</td><td>noun</td><td>particle</td><td>noun</td></tr>
+<tr><th>English</th><td>at</td><td>we</td><td>life</td><td>of</td><td>halfway</td></tr>
+<tr><th>Italian</th><td>a</td><td>noi</td><td>vita</td><td>di</td><td>a metà</td></tr>
+<tr><th>Japanese</th><td>に</td><td>私たち</td><td>人生</td><td>の</td><td>途中</td></tr>
+<tr><th>Vietnamese</th><td>tại</td><td>chúng tôi</td><td>cuộc sống</td><td>của</td><td>giữa chừng</td></tr>
+</table>
+
+### Cornish
+
+1 Y'n kres an fordh a'gan byw
+
+<table>
+<tr><th>Word</th><td>Y'n</td><td>kres</td><td>an</td><td>fordh</td><td>a'gan</td><td>byw</td></tr>
+<tr><th>Lemma</th><td>yn</td><td>kres</td><td>an</td><td>fordh</td><td>agan</td><td>byw</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>definite article</td><td>noun</td><td>possessive adjective</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>m.</td><td>m.</td><td>f.</td><td></td><td>m.</td></tr>
+<tr><th>Case</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td></td><td>sg.</td></tr>
+<tr><th>English</th><td>in</td><td>middle</td><td>the</td><td>way</td><td>our</td><td>alive</td></tr>
+<tr><th>Italian</th><td>in</td><td>mezzo</td><td>il</td><td>via</td><td>nostro</td><td>vivo</td></tr>
+<tr><th>Irish</th><td>in</td><td>lár</td><td>an</td><td>bóthar</td><td>ár</td><td>beo</td></tr>
+<tr><th>Welsh</th><td>yn</td><td>canol</td><td>y</td><td>ffordd</td><td>ein</td><td>byw</td></tr>
+<tr><th>Manx</th><td>ayns</td><td>mean</td><td>yn</td><td>raad</td><td>ain</td><td>bio</td></tr>
+<tr><th>Latin</th><td>in</td><td>medius</td><td>ille</td><td>via</td><td>noster</td><td>vivus</td></tr>
+</table>
+
+### Croatian
+
+1 Napolovici puta našeg života
+
+<table>
+<tr><th>Word</th><td>Napolovici</td><td>puta</td><td>našeg</td><td>života</td></tr>
+<tr><th>Lemma</th><td>napola</td><td>put</td><td>naš</td><td>život</td></tr>
+<tr><th>Part of Speech</th><td>adverb</td><td>noun</td><td>pronoun</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>m.</td><td>m.</td><td>m.</td></tr>
+<tr><th>Case</th><td></td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>English</th><td>Halfway</td><td>of the way</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>Ametà</td><td>del cammino</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Russian</th><td>Наполовину</td><td>пути</td><td>нашего</td><td>жизни</td></tr>
+<tr><th>Ukrainian</th><td>Наполовину</td><td>шляху</td><td>нашого</td><td>життя</td></tr>
+<tr><th>Bulgarian</th><td>Наполовина</td><td>напътя</td><td>нашия</td><td>живота</td></tr>
+<tr><th>Polish</th><td>Wpołowie</td><td>drogi</td><td>naszego</td><td>życia</td></tr>
+<tr><th>Czech</th><td>Vpolovině</td><td>cesty</td><td>našeho</td><td>života</td></tr>
+<tr><th>Slovak</th><td>Napolovicu</td><td>cesty</td><td>nášho</td><td>života</td></tr>
+<tr><th>Serbian (Latin)</th><td>Napola</td><td>puta</td><td>našeg</td><td>života</td></tr>
+<tr><th>Slovene</th><td>Napol</td><td>poti</td><td>našega</td><td>življenja</td></tr>
+</table>
+
+### Czech
+
+1 Uprostřed cesty našeho života
+
+<table>
+<tr><th>Word</th><td>Uprostřed</td><td>cesty</td><td>našeho</td><td>života</td></tr>
+<tr><th>Lemma</th><td>uprostřed</td><td>cesta</td><td>náš</td><td>život</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>adjective</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>f.</td><td>m.</td><td>m.</td></tr>
+<tr><th>Case</th><td></td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>English</th><td>in the middle</td><td>of the road</td><td>of our</td><td>life</td></tr>
+<tr><th>Italian</th><td>nel mezzo</td><td>della strada</td><td>del nostro</td><td>vita</td></tr>
+<tr><th>Russian</th><td>посреди</td><td>дороги</td><td>нашего</td><td>жизни</td></tr>
+<tr><th>Ukrainian</th><td>посередині</td><td>дороги</td><td>нашого</td><td>життя</td></tr>
+<tr><th>Bulgarian</th><td>в средата</td><td>на пътя</td><td>на нашия</td><td>на живота</td></tr>
+<tr><th>Polish</th><td>wśrodku</td><td>drogi</td><td>naszego</td><td>życia</td></tr>
+<tr><th>Slovak</th><td>uprostred</td><td>cesty</td><td>nášho</td><td>života</td></tr>
+<tr><th>Serbian (Latin)</th><td>usred</td><td>puta</td><td>našeg</td><td>života</td></tr>
+<tr><th>Croatian</th><td>usred</td><td>puta</td><td>našeg</td><td>života</td></tr>
+<tr><th>Slovene</th><td>sredi</td><td>poti</td><td>našega</td><td>življenja</td></tr>
+</table>
+
+### Danish
+
+1 På livets halve vej
+
+<table>
+<tr><th>Word</th><td>På</td><td>livets</td><td>halve</td><td>vej</td></tr>
+<tr><th>Lemma</th><td>på</td><td>liv</td><td>halv</td><td>vej</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>adjective</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>n.</td><td></td><td>f.</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>English</th><td>On</td><td>of life</td><td>half</td><td>way</td></tr>
+<tr><th>Italian</th><td>Su</td><td>della vita</td><td>metà</td><td>via</td></tr>
+<tr><th>Old English</th><td>On</td><td>of life</td><td>half</td><td>way</td></tr>
+<tr><th>German</th><td>Auf</td><td>des Lebens</td><td>halb</td><td>Weg</td></tr>
+<tr><th>Dutch</th><td>Op</td><td>van het leven</td><td>half</td><td>weg</td></tr>
+<tr><th>Icelandic</th><td>Á</td><td>lífsins</td><td>hálf</td><td>vegur</td></tr>
+<tr><th>Swedish</th><td>På</td><td>livets</td><td>halva</td><td>väg</td></tr>
+<tr><th>Norwegian</th><td>På</td><td>livets</td><td>halv</td><td>vei</td></tr>
+</table>
+
+### Dutch
+
+1 Midden op het pad van ons leven
+
+<table>
+<tr><th>Word</th><td>Midden</td><td>op</td><td>het</td><td>pad</td><td>van</td><td>ons</td><td>leven</td></tr>
+<tr><th>Lemma</th><td>midden</td><td>op</td><td>het</td><td>pad</td><td>van</td><td>ons</td><td>leven</td></tr>
+<tr><th>Part of Speech</th><td>adjective</td><td>preposition</td><td>definite article</td><td>noun</td><td>preposition</td><td>personal pronoun</td><td>noun</td></tr>
+<tr><th>Gender</th><td>n.</td><td></td><td>n.</td><td>n.</td><td></td><td></td><td>n.</td></tr>
+<tr><th>Number</th><td>sg.</td><td></td><td>sg.</td><td>sg.</td><td></td><td>pl.</td><td>sg.</td></tr>
+<tr><th>Person</th><td></td><td></td><td></td><td></td><td></td><td>1</td><td></td></tr>
+<tr><th>English</th><td>middle</td><td>on</td><td>the</td><td>path</td><td>of</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>medio</td><td>su</td><td>il</td><td>sentiero</td><td>di</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Old English</th><td>middan</td><td>on</td><td>þæt</td><td>pæþ</td><td>of</td><td>ūre</td><td>līf</td></tr>
+<tr><th>German</th><td>mitten</td><td>auf</td><td>das</td><td>Pfad</td><td>von</td><td>unser</td><td>Leben</td></tr>
+<tr><th>Icelandic</th><td>miðja</td><td>á</td><td>það</td><td>stigur</td><td>af</td><td>okkar</td><td>líf</td></tr>
+<tr><th>Swedish</th><td>mitten</td><td>på</td><td>det</td><td>stig</td><td>av</td><td>vårt</td><td>liv</td></tr>
+<tr><th>Norwegian</th><td>midten</td><td>på</td><td>det</td><td>sti</td><td>av</td><td>vårt</td><td>liv</td></tr>
+<tr><th>Danish</th><td>midten</td><td>på</td><td>det</td><td>sti</td><td>af</td><td>vores</td><td>liv</td></tr>
+</table>
+
+### Esperanto
+
+1 En la mezo de la vojo de nia vivo
+
+<table>
+<tr><th>Word</th><td>En</td><td>la</td><td>mezo</td><td>de</td><td>la</td><td>vojo</td><td>de</td><td>nia</td><td>vivo</td></tr>
+<tr><th>Lemma</th><td>en</td><td>la</td><td>mezo</td><td>de</td><td>la</td><td>vojo</td><td>de</td><td>nia</td><td>vivo</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>definite article</td><td>noun</td><td>preposition</td><td>definite article</td><td>noun</td><td>preposition</td><td>possessive adjective</td><td>noun</td></tr>
+<tr><th>English</th><td>in</td><td>the</td><td>middle</td><td>of</td><td>the</td><td>way</td><td>of</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>in</td><td>il</td><td>mezzo</td><td>di</td><td>il</td><td>via</td><td>di</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Latin</th><td>in</td><td>ille</td><td>medius</td><td>de</td><td>ille</td><td>via</td><td>de</td><td>noster</td><td>vita</td></tr>
+<tr><th>French</th><td>en</td><td>le</td><td>milieu</td><td>de</td><td>le</td><td>voie</td><td>de</td><td>notre</td><td>vie</td></tr>
+<tr><th>German</th><td>in</td><td>der</td><td>Mitte</td><td>von</td><td>der</td><td>Weg</td><td>von</td><td>unser</td><td>Leben</td></tr>
+<tr><th>Ancient Greek</th><td>ἐν</td><td>ὁ, ἡ, τό</td><td>μέσος</td><td>ἐκ, ἀπό</td><td>ὁ, ἡ, τό</td><td>ὁδός</td><td>ἐκ, ἀπό</td><td>ἡμέτερος</td><td>βίος</td></tr>
+<tr><th>Derived</th><td>French</td><td>French</td><td>Italian</td><td>French</td><td>French</td><td>French</td><td>French</td><td>Latin</td><td>Latin</td></tr>
+<tr><th>Etymology</th><td>en</td><td>le</td><td>mezzo</td><td>de</td><td>le</td><td>voie</td><td>de</td><td>noster</td><td>vita</td></tr>
+</table>
+
+### Estonian
+
+1 Meie elutee poolel
+
+<table>
+<tr><th>Word</th><td>Meie</td><td>elutee</td><td>poolel</td></tr>
+<tr><th>Lemma</th><td>meie</td><td>elutee</td><td>pool</td></tr>
+<tr><th>Part of Speech</th><td>pronoun</td><td>noun</td><td>noun</td></tr>
+<tr><th>Case</th><td>nominative</td><td>nominative</td><td>adessive</td></tr>
+<tr><th>Number</th><td>pl.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Person</th><td>1</td><td></td><td></td></tr>
+<tr><th>English</th><td>We</td><td>life path</td><td>half</td></tr>
+<tr><th>Italian</th><td>Noi</td><td>percorso di vita</td><td>metà</td></tr>
+<tr><th>Finnish</th><td>Me</td><td>elämäntie</td><td>puoli</td></tr>
+<tr><th>Hungarian</th><td>Mi</td><td>életút</td><td>fél</td></tr>
+<tr><th>Turkish</th><td>Biz</td><td>yaşam yolu</td><td>yarısı</td></tr>
+<tr><th>Japanese</th><td>私達</td><td>人生</td><td>半分</td></tr>
+<tr><th>Korean</th><td>우리</td><td>인생</td><td>절반</td></tr>
+</table>
+
+### Finnish
+
+1 Puolivälissä elämämme matkaa
+
+<table>
+<tr><th>Word</th><td>Puolivälissä</td><td>elämämme</td><td>matkaa</td></tr>
+<tr><th>Lemma</th><td>puolivälissä</td><td>elämä</td><td>matka</td></tr>
+<tr><th>Part of Speech</th><td>adverb</td><td>noun</td><td>noun</td></tr>
+<tr><th>Case</th><td></td><td>genitive</td><td>partitive</td></tr>
+<tr><th>Number</th><td></td><td>singular</td><td>singular</td></tr>
+<tr><th>English</th><td>halfway</td><td>of our life</td><td>journey</td></tr>
+<tr><th>Italian</th><td>a metà</td><td>della nostra vita</td><td>viaggio</td></tr>
+<tr><th>Estonian</th><td>poolel teel</td><td>meie elu</td><td>teekond</td></tr>
+<tr><th>Hungarian</th><td>félúton</td><td>életünk</td><td>utazás</td></tr>
+<tr><th>Turkish</th><td>yarı yolda</td><td>hayatımızın</td><td>yolculuğumuzun</td></tr>
+<tr><th>Japanese</th><td>途中で</td><td>私たちの人生</td><td>旅</td></tr>
+<tr><th>Korean</th><td>중간에</td><td>우리 인생의</td><td>여행의</td></tr>
+</table>
+
+### French
+
+1 Au milieu du chemin de notre vie
+
+<table>
+<tr><th>Word</th><td>Au</td><td>milieu</td><td>du</td><td>chemin</td><td>de</td><td>notre</td><td>vie</td></tr>
+<tr><th>Lemma</th><td>à + le</td><td>milieu</td><td>de + le</td><td>chemin</td><td>de</td><td>notre</td><td>vie</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>preposition</td><td>noun</td><td>preposition</td><td>possessive adjective</td><td>noun</td></tr>
+<tr><th>Gender</th><td>m.</td><td>m.</td><td>m.</td><td>m.</td><td></td><td></td><td>f.</td></tr>
+<tr><th>Number</th><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td></td><td></td><td>sg.</td></tr>
+<tr><th>Note</th><td>contraction</td><td></td><td>contraction</td><td></td><td></td><td></td><td></td></tr>
+<tr><th>English</th><td>at the</td><td>middle</td><td>of the</td><td>road</td><td>of</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>al</td><td>mezzo</td><td>del</td><td>strada</td><td>di</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Latin</th><td>ad + le</td><td>medium</td><td>de + le</td><td>via</td><td>de</td><td>noster</td><td>vita</td></tr>
+<tr><th>Interlingua</th><td>al</td><td>medio</td><td>del</td><td>via</td><td>de</td><td>nostre</td><td>vita</td></tr>
+<tr><th>Spanish</th><td>en el</td><td>medio</td><td>del</td><td>camino</td><td>de</td><td>nuestro</td><td>vida</td></tr>
+<tr><th>Portuguese</th><td>no</td><td>meio</td><td>do</td><td>caminho</td><td>de</td><td>nosso</td><td>vida</td></tr>
+<tr><th>Romanian</th><td>la</td><td>mijlocul</td><td>al</td><td>drum</td><td>de</td><td>nostru</td><td>viaţă</td></tr>
+<tr><th>Esperanto</th><td>ĉe la</td><td>mezo</td><td>de la</td><td>vojo</td><td>de</td><td>nia</td><td>vivo</td></tr>
+<tr><th>Derived</th><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td></tr>
+<tr><th>Etymology</th><td>ad + illum</td><td>medius</td><td>de + illum</td><td>caminus</td><td>de</td><td>noster</td><td>vita</td></tr>
+</table>
+
+### German
+
+1 Auf der Hälfte des Weges unseres Lebens
+
+<table>
+<tr><th>Word</th><td>Auf</td><td>der</td><td>Hälfte</td><td>des</td><td>Weges</td><td>unseres</td><td>Lebens</td></tr>
+<tr><th>Lemma</th><td>auf</td><td>der</td><td>Hälfte</td><td>des</td><td>Weg</td><td>unser</td><td>Leben</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>definite article</td><td>noun</td><td>definite article</td><td>noun</td><td>possessive pronoun</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>m.</td><td>f.</td><td>m.</td><td>m.</td><td>m.</td><td>n.</td></tr>
+<tr><th>Case</th><td></td><td>dative</td><td>dative</td><td>genitive</td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>English</th><td>on</td><td>the</td><td>half</td><td>of the</td><td>way</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>su</td><td>il</td><td>metà</td><td>del</td><td>via</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Old English</th><td>on</td><td>se</td><td>healf</td><td>ðæs</td><td>weg</td><td>ūre</td><td>līf</td></tr>
+<tr><th>Dutch</th><td>op</td><td>de</td><td>helft</td><td>van de</td><td>weg</td><td>onze</td><td>leven</td></tr>
+<tr><th>Icelandic</th><td>á</td><td>sá</td><td>helmingur</td><td>hins</td><td>vegur</td><td>okkar</td><td>líf</td></tr>
+<tr><th>Swedish</th><td>på</td><td>den</td><td>hälften</td><td>av</td><td>väg</td><td>vår</td><td>liv</td></tr>
+<tr><th>Norwegian</th><td>på</td><td>den</td><td>halvparten</td><td>av</td><td>vei</td><td>vår</td><td>liv</td></tr>
+<tr><th>Danish</th><td>på</td><td>den</td><td>halvdelen</td><td>af</td><td>vej</td><td>vores</td><td>liv</td></tr>
+<tr><th>Esperanto</th><td>sur</td><td>la</td><td>duono</td><td>de</td><td>vojo</td><td>nia</td><td>vivo</td></tr>
+</table>
+
+### Hebrew
+
+1 באמצע דרך חיינו
+
+<table>
+<tr><th>Word</th><td>באמצע</td><td>דרך</td><td>חיינו</td></tr>
+<tr><th>Roman (Word)</th><td>be'emtza</td><td>derekh</td><td>khayenu</td></tr>
+<tr><th>Lemma</th><td>בְּאֶמְצַע</td><td>דֶּרֶךְ</td><td>חַיֵּינוּ</td></tr>
+<tr><th>Roman (Lemma)</th><td>bə'emtza</td><td>derekh</td><td>khayeynu</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>feminine</td><td>masculine</td></tr>
+<tr><th>Case</th><td></td><td></td><td>construct</td></tr>
+<tr><th>Number</th><td></td><td>singular</td><td>dual</td></tr>
+<tr><th>English</th><td>in the middle</td><td>way</td><td>our lives</td></tr>
+<tr><th>Italian</th><td>nel mezzo</td><td>via</td><td>le nostre vite</td></tr>
+<tr><th>Arabic</th><td>في الوسط</td><td>طريق</td><td>حياتنا</td></tr>
+</table>
+
+### Hindi
+
+1 हमारे जीवन की यात्रा के मध्य में
+
+<table>
+<tr><th>Word</th><td>हमारे</td><td>जीवन</td><td>की</td><td>यात्रा</td><td>के</td><td>मध्य</td><td>में</td></tr>
+<tr><th>Roman (Word)</th><td>hamaare</td><td>jeevan</td><td>kii</td><td>yaatraa</td><td>ke</td><td>madhy</td><td>men</td></tr>
+<tr><th>Lemma</th><td>हमारा</td><td>जीवन</td><td>का</td><td>यात्रा</td><td>का</td><td>मध्य</td><td>में</td></tr>
+<tr><th>Roman (Lemma)</th><td>hamaaraa</td><td>jeevan</td><td>kaa</td><td>yaatraa</td><td>kaa</td><td>madhya</td><td>men</td></tr>
+<tr><th>Part of Speech</th><td>possessive adjective</td><td>noun</td><td>postposition</td><td>noun</td><td>postposition</td><td>noun</td><td>postposition</td></tr>
+<tr><th>Gender</th><td>m.</td><td>m.</td><td></td><td>f.</td><td></td><td>m.</td><td></td></tr>
+<tr><th>Case</th><td>nominative</td><td>nominative</td><td></td><td>nominative</td><td></td><td>locative</td><td></td></tr>
+<tr><th>Number</th><td>sg.</td><td>sg.</td><td></td><td>sg.</td><td></td><td>sg.</td><td></td></tr>
+<tr><th>Person</th><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th>English</th><td>our</td><td>life</td><td>of</td><td>journey</td><td>of</td><td>middle</td><td>in</td></tr>
+<tr><th>Italian</th><td>nostro</td><td>vita</td><td>di</td><td>viaggio</td><td>di</td><td>mezzo</td><td>in</td></tr>
+<tr><th>Sanskrit</th><td>अस्माकम्</td><td>जीवनम्</td><td>कस्य</td><td>यात्रा</td><td>कस्य</td><td>मध्ये</td><td>मध्ये</td></tr>
+<tr><th>Bengali</th><td>আমাদের</td><td>জীবন</td><td>এর</td><td>যাত্রা</td><td>এর</td><td>মাঝখানে</td><td>মধ্যে</td></tr>
+<tr><th>Japanese</th><td>私たちの</td><td>人生</td><td>の</td><td>旅</td><td>の</td><td>真ん中</td><td>中で</td></tr>
+<tr><th>Derived</th><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td></tr>
+<tr><th>Etymology</th><td>अस्मदीय (asmadīya)</td><td>जीव (jīva)</td><td>क (ka)</td><td>या (yā)</td><td>क (ka)</td><td>मध्य (madhya)</td><td>नि (ni)</td></tr>
+</table>
+
+### Hungarian
+
+1 Életünk útjának felén
+
+<table>
+<tr><th>Word</th><td>Életünk</td><td>útjának</td><td>felén</td></tr>
+<tr><th>Lemma</th><td>élet</td><td>út</td><td>fél</td></tr>
+<tr><th>Part of Speech</th><td>noun</td><td>noun</td><td>noun</td></tr>
+<tr><th>Case</th><td>nominative</td><td>genitive</td><td>adessive</td></tr>
+<tr><th>Number</th><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Person</th><td>1</td><td>3</td><td>3</td></tr>
+<tr><th>English</th><td>our life</td><td>of the way</td><td>half</td></tr>
+<tr><th>Italian</th><td>la nostra vita</td><td>del cammino</td><td>metà</td></tr>
+<tr><th>Finnish</th><td>meidän elämämme</td><td>tien kulkua</td><td>puoliksi</td></tr>
+<tr><th>Estonian</th><td>meie elu</td><td>tee kulgu</td><td>poolel</td></tr>
+<tr><th>Turkish</th><td>bizim hayatımız</td><td>yolun</td><td>yarıda</td></tr>
+<tr><th>Japanese</th><td>私たちの人生</td><td>道の</td><td>半分</td></tr>
+<tr><th>Korean</th><td>우리의 삶</td><td>길의</td><td>절반에</td></tr>
+</table>
+
+### Indonesian
+
+1 Di tengah perjalanan hidup kami
+
+<table>
+<tr><th>Word</th><td>Di</td><td>tengah</td><td>perjalanan</td><td>hidup</td><td>kami</td></tr>
+<tr><th>Lemma</th><td>di</td><td>tengah</td><td>perjalanan</td><td>hidup</td><td>kami</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>noun</td><td>noun</td><td>pronoun</td></tr>
+<tr><th>English</th><td>at</td><td>middle</td><td>journey</td><td>life</td><td>we</td></tr>
+<tr><th>Italian</th><td>a</td><td>mezzo</td><td>viaggio</td><td>vita</td><td>noi</td></tr>
+<tr><th>Malay</th><td>di</td><td>tengah</td><td>perjalanan</td><td>hidup</td><td>kami</td></tr>
+<tr><th>Arabic</th><td>في</td><td>وسط</td><td>رحلة</td><td>حياة</td><td>نحن</td></tr>
+<tr><th>Sanskrit</th><td>अत्र</td><td>मध्ये</td><td>यात्रा</td><td>जीवन</td><td>वयम्</td></tr>
+</table>
+
+### Interlingua
+
+1 In le medio del cammino de nostre vita
+
+<table>
+<tr><th>Word</th><td>In</td><td>le</td><td>medio</td><td>del</td><td>cammino</td><td>de</td><td>nostre</td><td>vita</td></tr>
+<tr><th>Lemma</th><td>in</td><td>le</td><td>medio</td><td>de</td><td>cammino</td><td>de</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>definite article</td><td>noun</td><td>preposition</td><td>noun</td><td>preposition</td><td>adjective</td><td>noun</td></tr>
+<tr><th>English</th><td>in</td><td>the</td><td>middle</td><td>of the</td><td>way</td><td>of</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>in</td><td>il</td><td>mezzo</td><td>del</td><td>cammino</td><td>di</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Latin</th><td>in</td><td>le</td><td>medius</td><td>de</td><td>caminus</td><td>de</td><td>noster</td><td>vita</td></tr>
+<tr><th>French</th><td>dans</td><td>le</td><td>milieu</td><td>du</td><td>chemin</td><td>de</td><td>notre</td><td>vie</td></tr>
+<tr><th>Spanish</th><td>en</td><td>el</td><td>medio</td><td>del</td><td>camino</td><td>de</td><td>nuestro</td><td>vida</td></tr>
+<tr><th>Portuguese</th><td>em</td><td>o</td><td>meio</td><td>do</td><td>caminho</td><td>de</td><td>nosso</td><td>vida</td></tr>
+<tr><th>Romanian</th><td>în</td><td>le</td><td>mijloc</td><td>al</td><td>drum</td><td>de</td><td>nostru</td><td>viață</td></tr>
+<tr><th>Esperanto</th><td>en</td><td>la</td><td>mezo</td><td>dela</td><td>vojo</td><td>de</td><td>nia</td><td>vivo</td></tr>
+</table>
+
+### Japanese
+
+1 我々の人生の中間点で
+
+<table>
+<tr><th>Word</th><td>我々</td><td>の</td><td>人生</td><td>の</td><td>中間点</td><td>で</td></tr>
+<tr><th>Kana (Word)</th><td>われわれ</td><td>の</td><td>じんせい</td><td>の</td><td>ちゅうかんてん</td><td>で</td></tr>
+<tr><th>Roman (Word)</th><td>wareware</td><td>no</td><td>jinsei</td><td>no</td><td>chukanten</td><td>de</td></tr>
+<tr><th>Lemma</th><td>我々</td><td>の</td><td>人生</td><td>の</td><td>中間点</td><td>で</td></tr>
+<tr><th>Kana (Lemma)</th><td>われわれ</td><td>の</td><td>じんせい</td><td>の</td><td>ちゅうかんてん</td><td>で</td></tr>
+<tr><th>Roman (Lemma)</th><td>wareware</td><td>no</td><td>jinsei</td><td>no</td><td>chukanten</td><td>de</td></tr>
+<tr><th>Part of Speech</th><td>pronoun</td><td>particle</td><td>noun</td><td>particle</td><td>noun</td><td>particle</td></tr>
+<tr><th>English</th><td>we</td><td>of</td><td>life</td><td>of</td><td>midpoint</td><td>at</td></tr>
+<tr><th>Italian</th><td>noi</td><td>di</td><td>vita</td><td>di</td><td>puntomedio</td><td>a</td></tr>
+<tr><th>Korean</th><td>우리</td><td>의</td><td>인생</td><td>의</td><td>중간점</td><td>에서</td></tr>
+<tr><th>Chinese</th><td>我们</td><td>的</td><td>人生</td><td>的</td><td>中点</td><td>在</td></tr>
+<tr><th>Finnish</th><td>me</td><td>n</td><td>elämä</td><td>n</td><td>keskipiste</td><td>ssä</td></tr>
+<tr><th>Hungarian</th><td>mi</td><td>nak</td><td>élet</td><td>nak</td><td>középpont</td><td>ban</td></tr>
+<tr><th>Turkish</th><td>biz</td><td>in</td><td>hayat</td><td>in</td><td>ortanokta</td><td>de</td></tr>
+</table>
+
+### Korean
+
+1 우리 인생의 한가운데서
+
+<table>
+<tr><th>Word</th><td>우리</td><td>인생</td><td>의</td><td>한가운데서</td></tr>
+<tr><th>Roman (Word)</th><td>uri</td><td>insaeng</td><td>ui</td><td>hangawundeseo</td></tr>
+<tr><th>Lemma</th><td>우리</td><td>인생</td><td>의</td><td>한가운데</td></tr>
+<tr><th>Roman (Lemma)</th><td>uri</td><td>insaeng</td><td>ui</td><td>hangawunde</td></tr>
+<tr><th>Part of Speech</th><td>pronoun</td><td>noun</td><td>particle</td><td>noun</td></tr>
+<tr><th>Case</th><td>nominative</td><td>nominative</td><td>genitive</td><td>locative</td></tr>
+<tr><th>Note</th><td>1st person plural</td><td></td><td></td><td></td></tr>
+<tr><th>English</th><td>our</td><td>life</td><td>of</td><td>in the middle of</td></tr>
+<tr><th>Italian</th><td>nostro</td><td>vita</td><td>di</td><td>nel mezzo di</td></tr>
+<tr><th>Japanese</th><td>私たちの</td><td>人生</td><td>の</td><td>真ん中</td></tr>
+<tr><th>Chinese</th><td>我们的</td><td>人生</td><td>的</td><td>在中间</td></tr>
+<tr><th>Finnish</th><td>meidän</td><td>elämä</td><td>n</td><td>keskellä</td></tr>
+<tr><th>Hungarian</th><td>mi</td><td>élet</td><td>a/az</td><td>közepén</td></tr>
+<tr><th>Turkish</th><td>bizim</td><td>hayat</td><td>in</td><td>ortasında</td></tr>
+</table>
+
+### Latvian
+
+1 Mūsu dzīves ceļā vidū
+
+<table>
+<tr><th>Word</th><td>Mūsu</td><td>dzīves</td><td>ceļā</td><td>vidū</td></tr>
+<tr><th>Lemma</th><td>mēs</td><td>dzīve</td><td>ceļš</td><td>vidus</td></tr>
+<tr><th>Part of Speech</th><td>pronoun</td><td>noun</td><td>noun</td><td>noun</td></tr>
+<tr><th>Gender</th><td>1st person</td><td>f.</td><td>m.</td><td>m.</td></tr>
+<tr><th>Case</th><td>genitive</td><td>genitive</td><td>locative</td><td>locative</td></tr>
+<tr><th>Number</th><td>pl.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>English</th><td>Our</td><td>life</td><td>way</td><td>middle</td></tr>
+<tr><th>Italian</th><td>Nostro</td><td>vita</td><td>via</td><td>mezzo</td></tr>
+<tr><th>Lithuanian</th><td>Mūsų</td><td>gyvenimas</td><td>kelias</td><td>vidurys</td></tr>
+<tr><th>Slovak</th><td>Náš</td><td>život</td><td>cesta</td><td>stred</td></tr>
+<tr><th>Bulgarian</th><td>Нашият</td><td>животът</td><td>пътят</td><td>средата</td></tr>
+</table>
+
+### Lithuanian
+
+1 Mūsų gyvenimo kelio viduryje
+
+<table>
+<tr><th>Word</th><td>Mūsų</td><td>gyvenimo</td><td>kelio</td><td>viduryje</td></tr>
+<tr><th>Lemma</th><td>mūsų</td><td>gyvenimas</td><td>kelias</td><td>vidurys</td></tr>
+<tr><th>Part of Speech</th><td>pronoun</td><td>noun</td><td>noun</td><td>noun</td></tr>
+<tr><th>Gender</th><td>common</td><td>m.</td><td>m.</td><td>m.</td></tr>
+<tr><th>Case</th><td>genitive</td><td>genitive</td><td>genitive</td><td>locative</td></tr>
+<tr><th>Number</th><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Person</th><td>1</td><td></td><td></td><td></td></tr>
+<tr><th>English</th><td>our</td><td>life</td><td>road</td><td>middle</td></tr>
+<tr><th>Italian</th><td>nostro</td><td>vita</td><td>strada</td><td>mezzo</td></tr>
+<tr><th>Latvian</th><td>mūsu</td><td>dzīve</td><td>ceļš</td><td>vidus</td></tr>
+<tr><th>Slovak</th><td>náš</td><td>život</td><td>cesta</td><td>stred</td></tr>
+<tr><th>Bulgarian</th><td>наша</td><td>живот</td><td>път</td><td>среда</td></tr>
+</table>
+
+### Malay
+
+1 Di tengah-tengah perjalanan hidup kita
+
+<table>
+<tr><th>Word</th><td>Di</td><td>tengah-tengah</td><td>perjalanan</td><td>hidup</td><td>kita</td></tr>
+<tr><th>Lemma</th><td>di</td><td>tengah</td><td>perjalanan</td><td>hidup</td><td>kita</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>noun</td><td>noun</td><td>pronoun</td></tr>
+<tr><th>English</th><td>at</td><td>middle</td><td>journey</td><td>life</td><td>we</td></tr>
+<tr><th>Italian</th><td>a</td><td>mezzo</td><td>viaggio</td><td>vita</td><td>noi</td></tr>
+<tr><th>Indonesian</th><td>di</td><td>tengah</td><td>perjalanan</td><td>hidup</td><td>kita</td></tr>
+<tr><th>Arabic</th><td>في</td><td>وسط</td><td>رحلة</td><td>حياة</td><td>نحن</td></tr>
+<tr><th>Sanskrit</th><td>अत्र</td><td>मध्ये</td><td>यात्रा</td><td>जीवन</td><td>वयम्</td></tr>
+</table>
+
+### Manx
+
+1 'Sy'n vean jeh'n raad jeh'n veaghyn ain
+
+<table>
+<tr><th>Word</th><td>'Sy'n</td><td>vean</td><td>jeh'n</td><td>raad</td><td>jeh'n</td><td>veaghyn</td><td>ain</td></tr>
+<tr><th>Lemma</th><td>syn</td><td>vean</td><td>jeh'n</td><td>raad</td><td>jeh'n</td><td>veaghyn</td><td>ain</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>preposition</td><td>noun</td><td>preposition</td><td>noun</td><td>pronoun</td></tr>
+<tr><th>Gender</th><td></td><td>m.</td><td></td><td>m.</td><td></td><td>m.</td><td></td></tr>
+<tr><th>Case</th><td></td><td>nominative</td><td></td><td>nominative</td><td></td><td>nominative</td><td></td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td></td><td>sg.</td><td></td><td>pl.</td><td></td></tr>
+<tr><th>Person</th><td></td><td></td><td></td><td></td><td></td><td></td><td>1</td></tr>
+<tr><th>English</th><td>in the</td><td>little</td><td>of the</td><td>road</td><td>of the</td><td>cows</td><td>own</td></tr>
+<tr><th>Italian</th><td>nel</td><td>piccolo</td><td>del</td><td>strada</td><td>del</td><td>mucche</td><td>proprio</td></tr>
+<tr><th>Irish</th><td>sa</td><td>beag</td><td>den</td><td>bóthar</td><td>den</td><td>ba</td><td>féin</td></tr>
+<tr><th>Welsh</th><td>yn</td><td>bach</td><td>y</td><td>ffordd</td><td>y</td><td>gwartheg</td><td>ein</td></tr>
+<tr><th>Cornish</th><td>yn</td><td>byghan</td><td>an</td><td>fordh</td><td>an</td><td>besow</td><td>ow</td></tr>
+<tr><th>Latin</th><td>in</td><td>parvus</td><td>de</td><td>via</td><td>de</td><td>vaccae</td><td>proprius</td></tr>
+</table>
+
+### Modern Greek
+
+1 Στη μέση της διαδρομής της ζωής μας
+
+<table>
+<tr><th>Word</th><td>Στη</td><td>μέση</td><td>της</td><td>διαδρομής</td><td>της</td><td>ζωής</td><td>μας</td></tr>
+<tr><th>Lemma</th><td>σε + τη</td><td>μέση</td><td>ο</td><td>διαδρομή</td><td>ο</td><td>ζωή</td><td>εμείς</td></tr>
+<tr><th>Part of Speech</th><td>definite article</td><td>noun</td><td>definite article</td><td>noun</td><td>definite article</td><td>noun</td><td>personal pronoun</td></tr>
+<tr><th>Gender</th><td>f.</td><td>f.</td><td>f.</td><td>f.</td><td>f.</td><td>f.</td><td></td></tr>
+<tr><th>Case</th><td>accusative</td><td>accusative</td><td>genitive</td><td>genitive</td><td>genitive</td><td>genitive</td><td>accusative</td></tr>
+<tr><th>Number</th><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>pl.</td></tr>
+<tr><th>Person</th><td></td><td></td><td></td><td></td><td></td><td></td><td>1</td></tr>
+<tr><th>Note</th><td>contraction</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th>English</th><td>in the</td><td>middle</td><td>of the</td><td>journey</td><td>of the</td><td>life</td><td>our</td></tr>
+<tr><th>Italian</th><td>nella</td><td>mezzo</td><td>della</td><td>viaggio</td><td>della</td><td>vita</td><td>nostro</td></tr>
+<tr><th>Ancient Greek</th><td>ἐν τῇ</td><td>μέσῃ</td><td>τῆς</td><td>διαδρομῆς</td><td>τῆς</td><td>ζωῆς</td><td>ἡμῶν</td></tr>
+<tr><th>Latin</th><td>in</td><td>medius</td><td>de</td><td>iter</td><td>de</td><td>vita</td><td>noster</td></tr>
+<tr><th>Esperanto</th><td>en la</td><td>meza</td><td>de la</td><td>vojaĝo</td><td>de la</td><td>vivo</td><td>nia</td></tr>
+</table>
+
+### Norwegian
+
+1 Midtveis på vår livsvei
+
+<table>
+<tr><th>Word</th><td>Midtveis</td><td>på</td><td>vår</td><td>livsvei</td></tr>
+<tr><th>Lemma</th><td>midtveis</td><td>på</td><td>vår</td><td>livsvei</td></tr>
+<tr><th>Part of Speech</th><td>adverb</td><td>preposition</td><td>pronoun</td><td>noun</td></tr>
+<tr><th>Note</th><td></td><td></td><td>possessive</td><td></td></tr>
+<tr><th>English</th><td>midway</td><td>on</td><td>our</td><td>life path</td></tr>
+<tr><th>Italian</th><td>a metà strada</td><td>su</td><td>nostro</td><td>percorso di vita</td></tr>
+<tr><th>Old English</th><td>on middanwege</td><td>on</td><td>ūre</td><td>līfes weg</td></tr>
+<tr><th>German</th><td>mittwegs</td><td>auf</td><td>unser</td><td>Lebensweg</td></tr>
+<tr><th>Dutch</th><td>halverwege</td><td>op</td><td>onze</td><td>levenspad</td></tr>
+<tr><th>Icelandic</th><td>á miðri leið</td><td>á</td><td>vor</td><td>lífsleið</td></tr>
+<tr><th>Swedish</th><td>mitt i vägen</td><td>på</td><td>vår</td><td>livsväg</td></tr>
+<tr><th>Danish</th><td>midtvejs</td><td>på</td><td>vores</td><td>livsvej</td></tr>
+</table>
+
+### Old English
+
+1 On middes wege ðæs lifes weges
+
+<table>
+<tr><th>Word</th><td>On</td><td>middes</td><td>wege</td><td>ðæs</td><td>lifes</td><td>weges</td></tr>
+<tr><th>Lemma</th><td>on</td><td>middes</td><td>weg</td><td>ðe</td><td>lif</td><td>weg</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>adjective</td><td>noun</td><td>demonstrative pronoun</td><td>noun</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td></td><td>m.</td><td></td><td>n.</td><td>m.</td></tr>
+<tr><th>Case</th><td></td><td></td><td>dative</td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>English</th><td>on</td><td>amidst</td><td>way</td><td>that</td><td>life</td><td>way</td></tr>
+<tr><th>Italian</th><td>su</td><td>in mezzo</td><td>via</td><td>che</td><td>vita</td><td>via</td></tr>
+<tr><th>German</th><td>auf</td><td>inmitten</td><td>Weg</td><td>dass</td><td>Leben</td><td>Weg</td></tr>
+<tr><th>Dutch</th><td>op</td><td>midden</td><td>weg</td><td>dat</td><td>leven</td><td>weg</td></tr>
+<tr><th>Icelandic</th><td>á</td><td>á miðju</td><td>vegur</td><td>að</td><td>líf</td><td>vegur</td></tr>
+<tr><th>Swedish</th><td>på</td><td>mitt i</td><td>väg</td><td>att</td><td>liv</td><td>väg</td></tr>
+<tr><th>Norwegian</th><td>på</td><td>midt i</td><td>vei</td><td>at</td><td>liv</td><td>vei</td></tr>
+<tr><th>Danish</th><td>på</td><td>midt i</td><td>vej</td><td>at</td><td>liv</td><td>vej</td></tr>
+</table>
+
+### Polish
+
+1 W połowie drogi naszego życia
+
+<table>
+<tr><th>Word</th><td>W</td><td>połowie</td><td>drogi</td><td>naszego</td><td>życia</td></tr>
+<tr><th>Lemma</th><td>w</td><td>połowa</td><td>droga</td><td>nasz</td><td>życie</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>noun</td><td>adjective</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>f.</td><td>f.</td><td>m.</td><td>n.</td></tr>
+<tr><th>Case</th><td></td><td>locative</td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Note</th><td></td><td></td><td></td><td>possessive</td><td></td></tr>
+<tr><th>English</th><td>in</td><td>half</td><td>road</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>in</td><td>metà</td><td>strada</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Russian</th><td>в</td><td>половина</td><td>дорога</td><td>наш</td><td>жизнь</td></tr>
+<tr><th>Ukrainian</th><td>в</td><td>половина</td><td>дорога</td><td>наш</td><td>життя</td></tr>
+<tr><th>Bulgarian</th><td>в</td><td>половина</td><td>път</td><td>нашия</td><td>живот</td></tr>
+<tr><th>Czech</th><td>v</td><td>polovina</td><td>cesta</td><td>náš</td><td>život</td></tr>
+<tr><th>Slovak</th><td>v</td><td>polovica</td><td>cesta</td><td>náš</td><td>život</td></tr>
+<tr><th>Serbian (Latin)</th><td>u</td><td>polovina</td><td>put</td><td>naš</td><td>život</td></tr>
+<tr><th>Croatian</th><td>u</td><td>polovica</td><td>cesta</td><td>naš</td><td>život</td></tr>
+<tr><th>Slovene</th><td>v</td><td>polovica</td><td>cesta</td><td>naš</td><td>življenje</td></tr>
+</table>
+
+### Portuguese
+
+1 No meio do caminho da nossa vida
+
+<table>
+<tr><th>Word</th><td>No</td><td>meio</td><td>do</td><td>caminho</td><td>da</td><td>nossa</td><td>vida</td></tr>
+<tr><th>Lemma</th><td>em + o</td><td>meio</td><td>de + o</td><td>caminho</td><td>de + a</td><td>nossa</td><td>vida</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>preposition</td><td>noun</td><td>preposition</td><td>possessive adjective</td><td>noun</td></tr>
+<tr><th>Gender</th><td>m.</td><td>m.</td><td>m.</td><td>m.</td><td>f.</td><td>f.</td><td>f.</td></tr>
+<tr><th>Number</th><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Person</th><td>3</td><td></td><td>3</td><td></td><td>3</td><td>1</td><td></td></tr>
+<tr><th>Note</th><td>contraction</td><td></td><td>contraction</td><td></td><td>contraction</td><td></td><td></td></tr>
+<tr><th>English</th><td>in the</td><td>middle</td><td>of the</td><td>way</td><td>of the</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>nel</td><td>mezzo</td><td>del</td><td>cammino</td><td>della</td><td>nostra</td><td>vita</td></tr>
+<tr><th>Latin</th><td>in</td><td>medius</td><td>de</td><td>via</td><td>de</td><td>noster</td><td>vita</td></tr>
+<tr><th>Interlingua</th><td>in le</td><td>medio</td><td>del</td><td>cammino</td><td>del</td><td>nostre</td><td>vita</td></tr>
+<tr><th>French</th><td>dans le</td><td>milieu</td><td>du</td><td>chemin</td><td>de la</td><td>notre</td><td>vie</td></tr>
+<tr><th>Spanish</th><td>en el</td><td>medio</td><td>del</td><td>camino</td><td>de la</td><td>nuestra</td><td>vida</td></tr>
+<tr><th>Romanian</th><td>în</td><td>mijloc</td><td>al</td><td>cale</td><td>al</td><td>nostru</td><td>viață</td></tr>
+<tr><th>Esperanto</th><td>en la</td><td>mezo</td><td>de la</td><td>vojo</td><td>de la</td><td>nia</td><td>vivo</td></tr>
+</table>
+
+### Romanian
+
+1 În mijlocul călătoriei vieții noastre
+
+<table>
+<tr><th>Word</th><td>În</td><td>mijlocul</td><td>călătoriei</td><td>vieții</td><td>noastre</td></tr>
+<tr><th>Lemma</th><td>în</td><td>mijloc</td><td>călătorie</td><td>viață</td><td>nostru</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>noun</td><td>noun</td><td>adjective</td></tr>
+<tr><th>Gender</th><td></td><td>m.</td><td>f.</td><td>f.</td><td>f.</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>pl.</td></tr>
+<tr><th>English</th><td>in</td><td>middle</td><td>journey</td><td>life</td><td>our</td></tr>
+<tr><th>Italian</th><td>in</td><td>mezzo</td><td>viaggio</td><td>vita</td><td>nostro</td></tr>
+<tr><th>Latin</th><td>in</td><td>medius</td><td>iter</td><td>vita</td><td>noster</td></tr>
+<tr><th>Interlingua</th><td>in</td><td>medio</td><td>viage</td><td>vita</td><td>nostre</td></tr>
+<tr><th>French</th><td>dans</td><td>milieu</td><td>voyage</td><td>vie</td><td>notre</td></tr>
+<tr><th>Spanish</th><td>en</td><td>medio</td><td>viaje</td><td>vida</td><td>nuestro</td></tr>
+<tr><th>Portuguese</th><td>em</td><td>meio</td><td>viagem</td><td>vida</td><td>nosso</td></tr>
+<tr><th>Esperanto</th><td>en</td><td>mezo</td><td>vojaĝo</td><td>vivo</td><td>nia</td></tr>
+<tr><th>Derived</th><td>Latin</td><td>Slavic</td><td>Latin</td><td>Slavic</td><td>Latin</td></tr>
+<tr><th>Etymology</th><td>in</td><td>sredina</td><td>calator</td><td>životъ</td><td>noster</td></tr>
+</table>
+
+### Russian
+
+1 На середине пути нашей жизни
+
+<table>
+<tr><th>Word</th><td>На</td><td>середине</td><td>пути</td><td>нашей</td><td>жизни</td></tr>
+<tr><th>Lemma</th><td>на</td><td>середина</td><td>путь</td><td>наш</td><td>жизнь</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>noun</td><td>pronoun</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>f.</td><td>m.</td><td>f.</td><td>f.</td></tr>
+<tr><th>Case</th><td></td><td>prepositional</td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Note</th><td></td><td></td><td></td><td>possessive</td><td></td></tr>
+<tr><th>English</th><td>on</td><td>middle</td><td>way</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>su</td><td>metà</td><td>via</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Ukrainian</th><td>на</td><td>середина</td><td>шлях</td><td>нашої</td><td>життя</td></tr>
+<tr><th>Bulgarian</th><td>на</td><td>средата</td><td>път</td><td>наша</td><td>живот</td></tr>
+<tr><th>Polish</th><td>na</td><td>środek</td><td>droga</td><td>nasz</td><td>życie</td></tr>
+<tr><th>Czech</th><td>na</td><td>střed</td><td>cesta</td><td>náš</td><td>život</td></tr>
+<tr><th>Slovak</th><td>na</td><td>stred</td><td>cesta</td><td>náš</td><td>život</td></tr>
+<tr><th>Serbian (Latin)</th><td>na</td><td>sredina</td><td>put</td><td>naše</td><td>život</td></tr>
+<tr><th>Croatian</th><td>na</td><td>sredina</td><td>put</td><td>naš</td><td>život</td></tr>
+<tr><th>Slovene</th><td>na</td><td>sredina</td><td>pot</td><td>naš</td><td>življenje</td></tr>
+</table>
+
+### Sanskrit
+
+1 Madhye madhyenaśajīvanasya
+
+<table>
+<tr><th>Word</th><td>Madhye</td><td>madhyenaśajīvanasya</td></tr>
+<tr><th>Roman (Word)</th><td>madhye</td><td>madhyenaśajīvanasya</td></tr>
+<tr><th>Lemma</th><td>madhya</td><td>madhyenaśajīvana</td></tr>
+<tr><th>Roman (Lemma)</th><td>madhya</td><td>madhyenaśajīvana</td></tr>
+<tr><th>Part of Speech</th><td>adverb</td><td>adjective</td></tr>
+<tr><th>Gender</th><td></td><td>m.</td></tr>
+<tr><th>Case</th><td></td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td></tr>
+<tr><th>English</th><td>in the middle</td><td>of the one who lives in the middle</td></tr>
+<tr><th>Italian</th><td>nel mezzo</td><td>di colui che vive nel mezzo</td></tr>
+<tr><th>Hindi</th><td>बीच में</td><td>बीच में रहने वाले का</td></tr>
+<tr><th>Bengali</th><td>মাঝে</td><td>মাঝে বাস করার</td></tr>
+<tr><th>Latin</th><td>in medio</td><td>in medio viventis</td></tr>
+<tr><th>Greek</th><td>ἐν μέσῳ</td><td>ἐν μέσῳ ζῶντος</td></tr>
+<tr><th>Lithuanian</th><td>viduryje</td><td>viduryje gyvenančio</td></tr>
+</table>
+
+### Serbian (Latin)
+
+1 Na polovini puta našeg života
+
+<table>
+<tr><th>Word</th><td>Na</td><td>polovini</td><td>puta</td><td>našeg</td><td>života</td></tr>
+<tr><th>Lemma</th><td>na</td><td>polovina</td><td>put</td><td>naš</td><td>život</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>noun</td><td>adjective</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>f.</td><td>m.</td><td>m.</td><td>m.</td></tr>
+<tr><th>Case</th><td></td><td>locative</td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Note</th><td></td><td></td><td></td><td>possessive</td><td></td></tr>
+<tr><th>English</th><td>on</td><td>half</td><td>way</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>su</td><td>metà</td><td>via</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Russian</th><td>на</td><td>половина</td><td>путь</td><td>наш</td><td>жизнь</td></tr>
+<tr><th>Ukrainian</th><td>на</td><td>половина</td><td>шлях</td><td>наш</td><td>життя</td></tr>
+<tr><th>Bulgarian</th><td>на</td><td>половина</td><td>път</td><td>наш</td><td>живот</td></tr>
+<tr><th>Polish</th><td>na</td><td>połowa</td><td>droga</td><td>nasz</td><td>życie</td></tr>
+<tr><th>Czech</th><td>na</td><td>polovina</td><td>cesta</td><td>náš</td><td>život</td></tr>
+<tr><th>Slovak</th><td>na</td><td>polovica</td><td>cesta</td><td>náš</td><td>život</td></tr>
+<tr><th>Croatian</th><td>na</td><td>polovica</td><td>put</td><td>naš</td><td>život</td></tr>
+<tr><th>Slovene</th><td>na</td><td>polovica</td><td>pot</td><td>naš</td><td>življenje</td></tr>
+</table>
+
+### Slovak
+
+1 V polovici cesty nášho života
+
+<table>
+<tr><th>Word</th><td>V</td><td>polovici</td><td>cesty</td><td>nášho</td><td>života</td></tr>
+<tr><th>Lemma</th><td>v</td><td>polovica</td><td>cesta</td><td>náš</td><td>život</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>noun</td><td>adjective</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>f.</td><td>f.</td><td>m.</td><td>m.</td></tr>
+<tr><th>Case</th><td></td><td>locative</td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Note</th><td></td><td></td><td></td><td>possessive</td><td></td></tr>
+<tr><th>English</th><td>in</td><td>half</td><td>way</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>in</td><td>metà</td><td>strada</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Russian</th><td>в</td><td>половина</td><td>путь</td><td>наш</td><td>жизнь</td></tr>
+<tr><th>Ukrainian</th><td>в</td><td>половина</td><td>шлях</td><td>наш</td><td>життя</td></tr>
+<tr><th>Bulgarian</th><td>в</td><td>половината</td><td>път</td><td>нашия</td><td>живот</td></tr>
+<tr><th>Polish</th><td>w</td><td>połowa</td><td>droga</td><td>nasz</td><td>życie</td></tr>
+<tr><th>Czech</th><td>v</td><td>polovina</td><td>cesta</td><td>náš</td><td>život</td></tr>
+<tr><th>Serbian (Latin)</th><td>u</td><td>polovina</td><td>put</td><td>naš</td><td>život</td></tr>
+<tr><th>Croatian</th><td>u</td><td>polovica</td><td>put</td><td>naš</td><td>život</td></tr>
+<tr><th>Slovene</th><td>v</td><td>polovica</td><td>pot</td><td>naš</td><td>življenje</td></tr>
+</table>
+
+### Slovene
+
+1 Sredi poti našega življenja
+
+<table>
+<tr><th>Word</th><td>Sredi</td><td>poti</td><td>našega</td><td>življenja</td></tr>
+<tr><th>Lemma</th><td>sredi</td><td>pot</td><td>naš</td><td>življenje</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>adjective</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>f.</td><td>m.</td><td>n.</td></tr>
+<tr><th>Case</th><td></td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Note</th><td></td><td></td><td>possessive</td><td></td></tr>
+<tr><th>English</th><td>in the middle</td><td>of the path</td><td>of our</td><td>life</td></tr>
+<tr><th>Italian</th><td>nel mezzo</td><td>del sentiero</td><td>del nostro</td><td>vita</td></tr>
+<tr><th>Russian</th><td>посреди</td><td>пути</td><td>нашего</td><td>жизни</td></tr>
+<tr><th>Ukrainian</th><td>посередині</td><td>шляху</td><td>нашого</td><td>життя</td></tr>
+<tr><th>Bulgarian</th><td>сред</td><td>на пътя</td><td>нанашия</td><td>живот</td></tr>
+<tr><th>Polish</th><td>wśrodku</td><td>drogi</td><td>naszego</td><td>życia</td></tr>
+<tr><th>Czech</th><td>uprostřed</td><td>cesty</td><td>našeho</td><td>života</td></tr>
+<tr><th>Slovak</th><td>uprostred</td><td>cesty</td><td>nášho</td><td>života</td></tr>
+<tr><th>Serbian (Latin)</th><td>usred</td><td>puta</td><td>našeg</td><td>života</td></tr>
+<tr><th>Croatian</th><td>usred</td><td>puta</td><td>našeg</td><td>života</td></tr>
+</table>
+
+### Spanish
+
+1 En la mitad del camino de nuestra vida
+
+<table>
+<tr><th>Word</th><td>En</td><td>la</td><td>mitad</td><td>del</td><td>camino</td><td>de</td><td>nuestra</td><td>vida</td></tr>
+<tr><th>Lemma</th><td>en</td><td>el</td><td>mitad</td><td>de + el</td><td>camino</td><td>de</td><td>nuestro</td><td>vida</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>definite article</td><td>noun</td><td>preposition + article</td><td>noun</td><td>preposition</td><td>possessive adjective</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>f.</td><td>f.</td><td></td><td>m.</td><td></td><td>f.</td><td>f.</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td></td><td>sg.</td><td></td><td>sg.</td><td>sg.</td></tr>
+<tr><th>English</th><td>In</td><td>the</td><td>middle</td><td>of the</td><td>way</td><td>of</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>In</td><td>il</td><td>metà</td><td>del</td><td>cammino</td><td>di</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Latin</th><td>In</td><td>ille</td><td>medius</td><td>de + ille</td><td>caminus</td><td>de</td><td>noster</td><td>vita</td></tr>
+<tr><th>Interlingua</th><td>In</td><td>le</td><td>medie</td><td>dele</td><td>cammino</td><td>de</td><td>nostre</td><td>vita</td></tr>
+<tr><th>French</th><td>En</td><td>le</td><td>milieu</td><td>du</td><td>chemin</td><td>de</td><td>notre</td><td>vie</td></tr>
+<tr><th>Portuguese</th><td>Em</td><td>o</td><td>metade</td><td>do</td><td>caminho</td><td>de</td><td>nosso</td><td>vida</td></tr>
+<tr><th>Romanian</th><td>În</td><td>cel</td><td>mijloc</td><td>al</td><td>drum</td><td>de</td><td>nostru</td><td>viaţă</td></tr>
+<tr><th>Esperanto</th><td>En</td><td>la</td><td>mezo</td><td>dela</td><td>vojo</td><td>de</td><td>nia</td><td>vivo</td></tr>
+</table>
+
+### Swahili
+
+1 Katikati ya safari ya maisha yetu
+
+<table>
+<tr><th>Word</th><td>Katikati</td><td>ya</td><td>safari</td><td>ya</td><td>maisha</td><td>yetu</td></tr>
+<tr><th>Lemma</th><td>katikati</td><td>ya</td><td>safari</td><td>ya</td><td>maisha</td><td>yetu</td></tr>
+<tr><th>Part of Speech</th><td>noun</td><td>preposition</td><td>noun</td><td>preposition</td><td>noun</td><td>pronoun</td></tr>
+<tr><th>Class</th><td>common</td><td></td><td>common</td><td></td><td>common</td><td>personal</td></tr>
+<tr><th>Number</th><td>sg.</td><td></td><td>sg.</td><td></td><td>pl.</td><td>pl.</td></tr>
+<tr><th>Person</th><td></td><td></td><td></td><td></td><td></td><td>1</td></tr>
+<tr><th>English</th><td>middle</td><td>of</td><td>journey</td><td>of</td><td>life</td><td>our</td></tr>
+<tr><th>Italian</th><td>mezzo</td><td>di</td><td>viaggio</td><td>di</td><td>vita</td><td>nostro</td></tr>
+<tr><th>Arabic</th><td>وسط</td><td>من</td><td>رحلة</td><td>من</td><td>حياة</td><td>لدينا</td></tr>
+</table>
+
+### Swedish
+
+1 Mitt i vår levnads vandring
+
+<table>
+<tr><th>Word</th><td>Mitt</td><td>i</td><td>vår</td><td>levnads</td><td>vandring</td></tr>
+<tr><th>Lemma</th><td>mitt</td><td>i</td><td>vår</td><td>levnad</td><td>vandring</td></tr>
+<tr><th>Part of Speech</th><td>pronoun</td><td>preposition</td><td>noun</td><td>noun</td><td>noun</td></tr>
+<tr><th>Gender</th><td>n.</td><td></td><td>m.</td><td>f.</td><td>f.</td></tr>
+<tr><th>Number</th><td>sg.</td><td></td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>English</th><td>my</td><td>in</td><td>our</td><td>life</td><td>wandering</td></tr>
+<tr><th>Italian</th><td>mio</td><td>in</td><td>nostra</td><td>vita</td><td>vagabondaggio</td></tr>
+<tr><th>Old English</th><td>mīn</td><td>in</td><td>ūre</td><td>Līf</td><td>wandrian</td></tr>
+<tr><th>German</th><td>mein</td><td>in</td><td>unser</td><td>leben</td><td>Wandern</td></tr>
+<tr><th>Dutch</th><td>mijn</td><td>in</td><td>onze</td><td>leven</td><td>zwerven</td></tr>
+<tr><th>Icelandic</th><td>mín</td><td>í</td><td>vor</td><td>líf</td><td>vandrög</td></tr>
+<tr><th>Norwegian</th><td>mitt</td><td>i</td><td>vår</td><td>liv</td><td>vandring</td></tr>
+<tr><th>Danish</th><td>mit</td><td>i</td><td>vor</td><td>liv</td><td>vandring</td></tr>
+</table>
+
+### Thai
+
+1 ในช่วงกลางทางแห่งชีวิตของเรา
+
+<table>
+<tr><th>Word</th><td>ใน</td><td>ช่วง</td><td>กลาง</td><td>ทาง</td><td>แห่ง</td><td>ชีวิต</td><td>ของ</td><td>เรา</td></tr>
+<tr><th>Romanize</th><td>nai</td><td>chuang</td><td>klang</td><td>thang</td><td>haeng</td><td>chiwit</td><td>khong</td><td>rao</td></tr>
+<tr><th>Tone</th><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>adjective</td><td>noun</td><td>preposition</td><td>noun</td><td>preposition</td><td>pronoun</td></tr>
+<tr><th>English</th><td>in</td><td>period</td><td>middle</td><td>way</td><td>of</td><td>life</td><td>of</td><td>we</td></tr>
+<tr><th>Italian</th><td>in</td><td>periodo</td><td>mezzo</td><td>via</td><td>di</td><td>vita</td><td>di</td><td>noi</td></tr>
+<tr><th>Sanskrit</th><td>in</td><td>period</td><td>middle</td><td>way</td><td>of</td><td>life</td><td>of</td><td>we</td></tr>
+</table>
+
+### Turkish
+
+1 Hayat yolculuğumuzun ortasında
+
+<table>
+<tr><th>Word</th><td>Hayat</td><td>yolculuğumuzun</td><td>ortasında</td></tr>
+<tr><th>Lemma</th><td>hayat</td><td>yolculuk</td><td>ortası</td></tr>
+<tr><th>Part of Speech</th><td>noun</td><td>noun</td><td>noun</td></tr>
+<tr><th>Case</th><td>nominative</td><td>genitive</td><td>locative</td></tr>
+<tr><th>Number</th><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Person</th><td></td><td>1st person plural</td><td></td></tr>
+<tr><th>English</th><td>life</td><td>journey</td><td>middle</td></tr>
+<tr><th>Italian</th><td>vita</td><td>viaggio</td><td>mezzo</td></tr>
+<tr><th>Finnish</th><td>elämä</td><td>matka</td><td>keskellä</td></tr>
+<tr><th>Estonian</th><td>elu</td><td>reis</td><td>keskel</td></tr>
+<tr><th>Hungarian</th><td>élet</td><td>utazás</td><td>közepén</td></tr>
+<tr><th>Japanese</th><td>人生</td><td>旅</td><td>真ん中</td></tr>
+<tr><th>Korean</th><td>인생</td><td>여행</td><td>중간</td></tr>
+</table>
+
+### Ukrainian
+
+1 На середині шляху нашого життя
+
+<table>
+<tr><th>Word</th><td>На</td><td>середині</td><td>шляху</td><td>нашого</td><td>життя</td></tr>
+<tr><th>Lemma</th><td>на</td><td>середина</td><td>шлях</td><td>наш</td><td>життя</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>noun</td><td>noun</td><td>pronoun</td><td>noun</td></tr>
+<tr><th>Gender</th><td></td><td>f.</td><td>m.</td><td>m.</td><td>n.</td></tr>
+<tr><th>Case</th><td></td><td>locative</td><td>genitive</td><td>genitive</td><td>genitive</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Note</th><td></td><td></td><td></td><td>possessive</td><td></td></tr>
+<tr><th>English</th><td>on</td><td>middle</td><td>way</td><td>our</td><td>life</td></tr>
+<tr><th>Italian</th><td>su</td><td>metà</td><td>via</td><td>nostro</td><td>vita</td></tr>
+<tr><th>Russian</th><td>на</td><td>середина</td><td>путь</td><td>наш</td><td>жизнь</td></tr>
+<tr><th>Bulgarian</th><td>на</td><td>средата</td><td>път</td><td>наш</td><td>живот</td></tr>
+<tr><th>Polish</th><td>na</td><td>środek</td><td>droga</td><td>nasz</td><td>życie</td></tr>
+<tr><th>Czech</th><td>na</td><td>střed</td><td>cesta</td><td>náš</td><td>život</td></tr>
+<tr><th>Slovak</th><td>na</td><td>stred</td><td>cesta</td><td>náš</td><td>život</td></tr>
+<tr><th>Serbian (Latin)</th><td>na</td><td>sredina</td><td>put</td><td>naš</td><td>život</td></tr>
+<tr><th>Croatian</th><td>na</td><td>sredina</td><td>put</td><td>naš</td><td>život</td></tr>
+<tr><th>Slovene</th><td>na</td><td>sredina</td><td>pot</td><td>naš</td><td>življenje</td></tr>
+</table>
+
+### Vietnamese
+
+1 Giữa chặng đường đời,
+
+<table>
+<tr><th>Word</th><td>Giữa</td><td>chặng</td><td>đường</td><td>đời</td></tr>
+<tr><th>Part of Speech</th><td>Preposition</td><td>Noun</td><td>Noun</td><td>Noun</td></tr>
+<tr><th>English</th><td>Between</td><td>Stage</td><td>Road</td><td>Life</td></tr>
+<tr><th>Italian</th><td>Tra</td><td>Tappa</td><td>Strada</td><td>Vita</td></tr>
+<tr><th>Chinese</th><td>中间</td><td>阶段</td><td>道路</td><td>生活</td></tr>
 </table>
