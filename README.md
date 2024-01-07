@@ -34,6 +34,52 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Etymology</th><td>in + ille</td><td>medius</td><td>de + ille</td><td>caminus</td><td>de</td><td>noster</td><td>vita</td></tr>
 </table>
 
+2 mi ritrovai per una selva oscura,
+
+<table>
+<tr><th>Word</th><td>mi</td><td>ritrovai</td><td>per</td><td>una</td><td>selva</td><td>oscura</td></tr>
+<tr><th>Lemma</th><td>io</td><td>ritrovare</td><td>per</td><td>uno</td><td>selva</td><td>oscuro</td></tr>
+<tr><th>Part of Speech</th><td>pronoun</td><td>verb</td><td>preposition</td><td>indefinite article</td><td>noun</td><td>adjective</td></tr>
+<tr><th>Gender</th><td></td><td></td><td></td><td>f.</td><td>f.</td><td>f.</td></tr>
+<tr><th>Number</th><td>sg.</td><td>sg.</td><td></td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Person</th><td>1</td><td>1</td><td></td><td></td><td></td><td></td></tr>
+<tr><th>Tense</th><td></td><td>past remote</td><td></td><td></td><td></td><td></td></tr>
+<tr><th>Mood</th><td></td><td>indicative</td><td></td><td></td><td></td><td></td></tr>
+<tr><th>English</th><td>I</td><td>found again</td><td>through</td><td>a</td><td>forest</td><td>dark</td></tr>
+<tr><th>Latin</th><td>ego</td><td>retrovare</td><td>per</td><td>unus</td><td>silva</td><td>obscurus</td></tr>
+<tr><th>Interlingua</th><td>io</td><td>retrovar</td><td>per</td><td>un</td><td>silva</td><td>obscur</td></tr>
+<tr><th>French</th><td>je</td><td>retrouver</td><td>par</td><td>un</td><td>forêt</td><td>obscur</td></tr>
+<tr><th>Spanish</th><td>yo</td><td>reencontrar</td><td>por</td><td>un</td><td>selva</td><td>oscuro</td></tr>
+<tr><th>Portuguese</th><td>eu</td><td>reencontrar</td><td>por</td><td>um</td><td>selva</td><td>escuro</td></tr>
+<tr><th>Romanian</th><td>eu</td><td>regăsi</td><td>prin</td><td>un</td><td>silvă</td><td>obscur</td></tr>
+<tr><th>Esperanto</th><td>mi</td><td>retrovi</td><td>per</td><td>unu</td><td>arbaro</td><td>malhela</td></tr>
+<tr><th>Derived</th><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td></tr>
+<tr><th>Etymology</th><td>ego</td><td>retro + trovare</td><td>per</td><td>unus</td><td>silva</td><td>obscurus</td></tr>
+</table>
+
+3 ché la diritta via era smarrita.
+
+<table>
+<tr><th>Word</th><td>ché</td><td>la</td><td>diritta</td><td>via</td><td>era</td><td>smarrita</td></tr>
+<tr><th>Lemma</th><td>che</td><td>il</td><td>diritto</td><td>via</td><td>essere</td><td>smarrire</td></tr>
+<tr><th>Part of Speech</th><td>conjunction</td><td>definite article</td><td>adjective</td><td>noun</td><td>verb</td><td>verb</td></tr>
+<tr><th>Gender</th><td></td><td>f.</td><td>f.</td><td>f.</td><td></td><td></td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Person</th><td></td><td></td><td></td><td></td><td>3</td><td>3</td></tr>
+<tr><th>Tense</th><td></td><td></td><td></td><td></td><td>past remote</td><td>past participle</td></tr>
+<tr><th>Mood</th><td></td><td></td><td></td><td></td><td>indicative</td><td></td></tr>
+<tr><th>English</th><td>that</td><td>the</td><td>straight</td><td>way</td><td>was</td><td>lost</td></tr>
+<tr><th>Latin</th><td>quod</td><td>ille</td><td>directus</td><td>via</td><td>esse</td><td>smarrire</td></tr>
+<tr><th>Interlingua</th><td>que</td><td>le</td><td>directe</td><td>via</td><td>esser</td><td>smarrire</td></tr>
+<tr><th>French</th><td>que</td><td>le</td><td>droit</td><td>voie</td><td>être</td><td>égarer</td></tr>
+<tr><th>Spanish</th><td>que</td><td>el</td><td>derecho</td><td>vía</td><td>era</td><td>extraviar</td></tr>
+<tr><th>Portuguese</th><td>que</td><td>o</td><td>direito</td><td>via</td><td>era</td><td>extraviar</td></tr>
+<tr><th>Romanian</th><td>că</td><td>cel</td><td>drept</td><td>cale</td><td>era</td><td>rătăci</td></tr>
+<tr><th>Esperanto</th><td>ke</td><td>la</td><td>rekta</td><td>vojo</td><td>estis</td><td>perdi</td></tr>
+<tr><th>Derived</th><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td><td>Latin</td><td>Germanic</td></tr>
+<tr><th>Etymology</th><td>quod</td><td>ille</td><td>directus</td><td>via</td><td>esse</td><td><sup>*</sup>smarran</td></tr>
+</table>
+
 ### English
 
 1 In the middle of the journey of our life
@@ -57,6 +103,55 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Chinese</th><td>在</td><td>那</td><td>中间</td><td>的</td><td>那</td><td>旅程</td><td>的</td><td>我们的</td><td>生活</td></tr>
 <tr><th>Derived</th><td>Old English</td><td>Old English</td><td>Old English</td><td>Old English</td><td>Old English</td><td>Old French</td><td>Old English</td><td>Old English</td><td>Old English</td></tr>
 <tr><th>Etymology</th><td>in</td><td>ðe</td><td>middel</td><td>of</td><td>ðe</td><td>jorneie</td><td>of</td><td>ūre</td><td>līf</td></tr>
+</table>
+
+2 I found myself within a dark wood,
+
+<table>
+<tr><th>Word</th><td>I</td><td>found</td><td>myself</td><td>within</td><td>a</td><td>dark</td><td>wood</td></tr>
+<tr><th>Lemma</th><td>I</td><td>find</td><td>myself</td><td>within</td><td>a</td><td>dark</td><td>wood</td></tr>
+<tr><th>Part of Speech</th><td>pronoun</td><td>verb</td><td>pronoun</td><td>preposition</td><td>determiner</td><td>adjective</td><td>noun</td></tr>
+<tr><th>Tense</th><td></td><td>past</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th>Mood</th><td></td><td>indicative</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th>Note</th><td></td><td></td><td>reflexive</td><td></td><td></td><td></td><td></td></tr>
+<tr><th>Italian</th><td>io</td><td>trovare</td><td>mestesso</td><td>entro</td><td>un</td><td>scuro</td><td>bosco</td></tr>
+<tr><th>Old English</th><td>ic</td><td>findan</td><td>meself</td><td>innan</td><td>án</td><td>deorc</td><td>wudu</td></tr>
+<tr><th>German</th><td>ich</td><td>finden</td><td>michselbst</td><td>innerhalb</td><td>ein</td><td>dunkel</td><td>Wald</td></tr>
+<tr><th>Dutch</th><td>ik</td><td>vinden</td><td>mijzelf</td><td>binnen</td><td>een</td><td>donker</td><td>bos</td></tr>
+<tr><th>Icelandic</th><td>ég</td><td>finna</td><td>migsjálfur</td><td>innan</td><td>eitt</td><td>dökkur</td><td>skógur</td></tr>
+<tr><th>Swedish</th><td>jag</td><td>finna</td><td>migsjälv</td><td>inom</td><td>en</td><td>mörk</td><td>skog</td></tr>
+<tr><th>Norwegian</th><td>jeg</td><td>finne</td><td>megselv</td><td>innen</td><td>en</td><td>mørk</td><td>skog</td></tr>
+<tr><th>Danish</th><td>jeg</td><td>finde</td><td>migselv</td><td>inden</td><td>en</td><td>mørk</td><td>skov</td></tr>
+<tr><th>French</th><td>je</td><td>trouver</td><td>moi-même</td><td>dans</td><td>un</td><td>sombre</td><td>bois</td></tr>
+<tr><th>Latin</th><td>ego</td><td>invenio</td><td>meipsum</td><td>intra</td><td>a</td><td>obscurus</td><td>silva</td></tr>
+<tr><th>Esperanto</th><td>mi</td><td>trovi</td><td>mimem</td><td>ene</td><td>unu</td><td>malhela</td><td>arbaro</td></tr>
+<tr><th>Chinese</th><td>我</td><td>发现</td><td>我自己</td><td>在...之内</td><td>一个</td><td>黑暗的</td><td>木头</td></tr>
+<tr><th>Derived</th><td>Old English</td><td>Old English</td><td>Old English</td><td>Old English</td><td>Old English</td><td>Old English</td><td>Old English</td></tr>
+<tr><th>Etymology</th><td>ic</td><td>findan</td><td>mēselfne</td><td>innan</td><td>ān</td><td>deorc</td><td>wudu</td></tr>
+</table>
+
+3 for the straight way was lost.
+
+<table>
+<tr><th>Word</th><td>for</td><td>the</td><td>straight</td><td>way</td><td>was</td><td>lost</td></tr>
+<tr><th>Lemma</th><td>for</td><td>the</td><td>straight</td><td>way</td><td>be</td><td>lose</td></tr>
+<tr><th>Part of Speech</th><td>conjunction</td><td>determiner</td><td>adjective</td><td>noun</td><td>verb</td><td>verb</td></tr>
+<tr><th>Tense</th><td></td><td></td><td></td><td></td><td>past</td><td>past participle</td></tr>
+<tr><th>Mood</th><td></td><td></td><td></td><td></td><td>indicative</td><td></td></tr>
+<tr><th>Italian</th><td>per</td><td>il</td><td>dritto</td><td>via</td><td>era</td><td>perdere</td></tr>
+<tr><th>Old English</th><td>for</td><td>se</td><td>streht</td><td>weg</td><td>wæs</td><td>losian</td></tr>
+<tr><th>German</th><td>für</td><td>der</td><td>gerade</td><td>Weg</td><td>war</td><td>verlieren</td></tr>
+<tr><th>Dutch</th><td>voor</td><td>de</td><td>recht</td><td>weg</td><td>was</td><td>verliezen</td></tr>
+<tr><th>Icelandic</th><td>fyrir</td><td>sá</td><td>beinn</td><td>vegur</td><td>var</td><td>týna</td></tr>
+<tr><th>Swedish</th><td>för</td><td>den</td><td>rak</td><td>väg</td><td>var</td><td>förlora</td></tr>
+<tr><th>Norwegian</th><td>for</td><td>den</td><td>rett</td><td>vei</td><td>var</td><td>miste</td></tr>
+<tr><th>Danish</th><td>for</td><td>den</td><td>lige</td><td>vej</td><td>var</td><td>miste</td></tr>
+<tr><th>French</th><td>pour</td><td>le</td><td>droit</td><td>voie</td><td>était</td><td>perdre</td></tr>
+<tr><th>Latin</th><td>pro</td><td>the</td><td>rectus</td><td>via</td><td>erat</td><td>perdo</td></tr>
+<tr><th>Esperanto</th><td>por</td><td>la</td><td>rekta</td><td>vojo</td><td>estis</td><td>perdi</td></tr>
+<tr><th>Chinese</th><td>为了</td><td>那</td><td>笔直的</td><td>方式</td><td>是</td><td>失去</td></tr>
+<tr><th>Derived</th><td>Old English</td><td>Old English</td><td>Old English</td><td>Old English</td><td>Old English</td><td>Old English</td></tr>
+<tr><th>Etymology</th><td>for</td><td>ðe</td><td>streht</td><td>weg</td><td>bēon</td><td>losian</td></tr>
 </table>
 
 ### Ancient Greek

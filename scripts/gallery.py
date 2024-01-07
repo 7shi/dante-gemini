@@ -73,7 +73,7 @@ def type2(topdir, filename):
         lines, header, tables = langs[lang]
         print()
         print("###", lang)
-        for i in range(3 if lc in sp else 1):
+        for i in range(3 if lang in sp else 1):
             print()
             print(common.write_md(lines[i], header, tables[i]), end="")
 
