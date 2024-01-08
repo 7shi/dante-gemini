@@ -80,6 +80,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Etymology</th><td>quod</td><td>ille</td><td>directus</td><td>via</td><td>esse</td><td><sup>*</sup>smarran</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/it/inferno/01.md)
+
 ### English
 
 1 In the middle of the journey of our life
