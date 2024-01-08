@@ -185,6 +185,18 @@ def read_defs(mk):
 
 # unify
 
+def fix_length(lst, info, title):
+    first = True
+    length = len(lst[0])
+    for i in lst[1:]:
+        if length != len(i):
+            if first:
+                # print(f"{info} | length mismatch ({title}): {length} {lst[0]}", file=sys.stderr)
+                first = False
+            # print(f"    {len(i)} {i}", file=sys.stderr)
+            while length > len(i):
+                i.append("")
+
 def read_tables(word, word_tr, etymology, index=0):
     qs0 = read_queries(word)
     qs1 = read_queries(word_tr)
@@ -195,38 +207,52 @@ def read_tables(word, word_tr, etymology, index=0):
         if not q0.result:
             continue
         q1 = qi1.get(q0.info)
+        if not q1 or not q1.result:
+            continue
         q2 = qi2.get(q0.info) if qi2 else None
-        if not q1 or (qi2 and not q2):
+        if qi2 and (not q2 or not q2.result):
             continue
         if not (m := re.search(r"columns (\d+)", q1.prompt)):
             print("no columns count:", q0.info, file=sys.stderr)
             continue
         col = int(m.group(1)) - 1
         ts0 = read_table(q0.result)
+        tsp = read_table(q1.prompt)
         ts1 = read_table(q1.result)
         ts2 = read_table(q2.result) if q2 else None
+        if len(ts0) == 0 or len(ts1) == 0:
+            print(q0.info, "| empty table (error):", len(ts0), len(ts1), file=sys.stderr)
+            continue
+        fix_length(ts0, q0.info, "word")
+        fix_length(tsp, q1.info, "word-tr.prompt")
+        fix_length(ts1, q1.info, "word-tr")
+        fix_length(ts2, q2.info, "etymology") if ts2 else None
         length = len(ts1)
+        # if length != len(tsp):
+        #     print(q0.info, "(word-tr) | length mismatch:", len(tsp), "!=", length, file=sys.stderr)
         if ts2 and length != len(ts2):
-            print("length mismatch:", q0.info, file=sys.stderr)
+            print(q0.info, "(etymology) | length mismatch (error):", length, "!=", len(ts2), file=sys.stderr)
             continue
         table = []
         for i, r0 in enumerate(ts0):
             r = len(table)
             if r >= length:
                 break
-            if i > 1 and r0[index] != ts1[r][0]:
+            if i > 1 and r0[index] != tsp[r][0]:
+                # print(q0.info, "| word mismatch:", r0[index], "!=", tsp[r][0], file=sys.stderr)
                 continue
             row = r0 + ts1[r][col:]
             if ts2:
                 row += ts2[r][-2:]
             table.append(row)
         if length != len(table):
-            print("word mismatch:", q0.info, file=sys.stderr)
+            words = " ".join(r[0] for r in tsp[len(table):])
+            print(q0.info, "| unused words (error):", words, file=sys.stderr)
             continue
         lines = [line for line in q0.prompt.split("\n")[1:] if line]
         yield q0.info, lines, table
 
-def split_table(lines, table):
+def split_table(info, lines, table):
     ret = [[] for _ in lines]
     data = table[1:]
     if data[0][0].startswith("---"):
@@ -235,19 +261,27 @@ def split_table(lines, table):
     start = 0
     for rows in data:
         w = rows[0]
+        bak = ln, start
         i = -1
-        while i < 0:
-            i = lines[ln].find(w, start)
-            if i < 0:
-                start = 0
-                ln += 1
-                if ln == len(lines):
-                    break
-            else:
-                start = i + len(w)
+        if len(lines[ln]) - start < len(w):
+            ln += 1
+            start = 0
+        if ln == len(lines):
+            left = ""
+        else:
+            left = " " + repr(lines[ln][start:])
+            while i < 0:
+                i = lines[ln].find(w, start)
+                if i < 0:
+                    start = 0
+                    ln += 1
+                    if ln == len(lines):
+                        break
+                else:
+                    start = i + len(w)
         if i < 0:
-            print(f"word not found: {w}", file=sys.stderr)
-            break
+            print(f"{info} | word not found: {w}{left}", file=sys.stderr)
+            ln, start = bak
         ret[ln].append(rows)
     return ret
 

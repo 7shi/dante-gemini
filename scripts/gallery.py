@@ -64,9 +64,9 @@ def type2(topdir, filename):
         files = [f"{d}/{lc}/{filename}" for d in dirs]
         index = 1 if lc == "eo" else 0
         it = common.read_tables(*files, index)
-        _, lines, table = next(it)
+        info, lines, table = next(it)
         header = table[0]
-        tables = common.split_table(lines, table)
+        tables = common.split_table(info, lines, table)
         langs[lang] = (lines, header, tables)
     sp = ["Italian", "English"]
     for lang in sp + sorted(set(langs) - set(sp)):
@@ -77,13 +77,38 @@ def type2(topdir, filename):
             print()
             print(common.write_md(lines[i], header, tables[i]), end="")
 
+def type3(topdir, lc, filename):
+    dirs = [os.path.join(topdir, d) for d in ["word", "word-tr", "etymology"]]
+    files = [f"{d}/{lc}/{filename}" for d in dirs]
+    index = 1 if lc == "eo" else 0
+    first = True
+    for info, lines, table in common.read_tables(*files, index):
+        header = table[0]
+        tables = common.split_table(info, lines, table)
+        for i, line in enumerate(lines):
+            if first:
+                first = False
+            else:
+                print()
+            print(common.write_md(line, header, tables[i]), end="")
+
 if __name__ == "__main__":
     args = sys.argv[1:]
     filename = "inferno/01.xml"
-    if len(args) > 1 and args[0] == "-f":
-        filename = args[1]
-        args = args[2:]
+    lc = ""
+    while args:
+        if len(args) > 1 and args[0] == "-l":
+            lc = args[1]
+            args = args[2:]
+        elif len(args) > 1 and args[0] == "-f":
+            filename = args[1]
+            args = args[2:]
+        else:
+            break
     if len(args) != 1:
-        print(f"Usage: python {sys.argv[0]} [-f dir/xml] top-dir", file=sys.stderr)
+        print(f"Usage: python {sys.argv[0]} [-l lc] [-f dir/xml] top-dir", file=sys.stderr)
         sys.exit(1)
-    type2(args[0], filename)
+    if lc:
+        type3(args[0], lc, filename)
+    else:
+        type2(args[0], filename)
