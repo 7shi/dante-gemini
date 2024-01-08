@@ -156,6 +156,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Etymology</th><td>for</td><td>ðe</td><td>streht</td><td>weg</td><td>bēon</td><td>losian</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/en/inferno/01.md)
+
 ### Ancient Greek
 
 1 Ἐν μέσῳ τῆς ὁδοῦ τῆς ζωῆς ἡμῶν
