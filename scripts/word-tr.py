@@ -44,6 +44,10 @@ def send(query):
         if i == 1:
             table.append("|" + "---|" * (flen + len(translate)))
             continue
+        m = max(max(fs) for fs in fields)
+        if len(row) <= m:
+            print(f"Warning: {len(row)} <= {m} @ {query.info}", file=sys.stderr)
+            continue
         rowf = [" ".join(row[f].strip() for f in fs) for fs in fields]
         if i == 0:
             cells = " | ".join([option.language, *rowf[1:]])

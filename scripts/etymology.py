@@ -40,6 +40,10 @@ def send(query):
         return q
     table = []
     for i, row in enumerate(common.read_table(query.result)):
+        m = max(fields)
+        if len(row) <= m:
+            print(f"Warning: {len(row)} <= {m} @ {query.info}", file=sys.stderr)
+            continue
         rowf = [row[f] for f in fields]
         if i == 0:
             head = " | " + " | ".join(rowf[1:]) if len(rowf) > 1 else ""
