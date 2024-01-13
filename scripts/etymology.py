@@ -13,7 +13,7 @@ def parse(i, args):
         fields = [int(f) for f in args.pop(i).split(",")]
 
 if not option.parse(parse):
-    print(f"Usage: python {sys.argv[0]} language word-dir output-dir [fix ...]", file=sys.stderr)
+    print(f"Usage: python {sys.argv[0]} language word-tr-dir output-dir [fix ...]", file=sys.stderr)
     print("  -e: specify etymology language(s)", file=sys.stderr)
     print("  -f: specify field to column 2 (0-based, comma separated)", file=sys.stderr)
     option.show()
