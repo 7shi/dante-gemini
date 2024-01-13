@@ -69,12 +69,12 @@ def proc(f):
         path_o = os.path.join(outdir, directory)
         if not os.path.exists(path_o):
             os.mkdir(path_o)
-        files = [
-            (int(m.group(1)), os.path.join(path_s, f))
-            for f in sorted(os.listdir(path_s))
-            if (m := re.match(r"(\d+)\.", f))
-        ]
-        for canto, src in files:
+        for canto in range(1, 35):
+            src = os.path.join(path_s, f"{canto:02}.xml")
+            if not os.path.exists(src):
+                src = src[:-3] + "txt"
+            if not os.path.exists(src):
+                break
             xml = os.path.join(path_o, f"{canto:02}.xml")
             if os.path.exists(xml):
                 continue
