@@ -67,15 +67,17 @@ def type2(topdir, filename):
         info, lines, table = next(it)
         header = table[0]
         tables = common.split_table(info, lines, table)
-        langs[lang] = (lines, header, tables)
+        langs[lang] = (lc, lines, header, tables)
     sp = ["Italian", "English", "Hindi", "Chinese"]
     for lang in sp + sorted(set(langs) - set(sp)):
-        lines, header, tables = langs[lang]
+        lc, lines, header, tables = langs[lang]
         print()
         print("###", lang)
         for i in range(3 if lang in sp else 1):
             print()
             print(common.write_md(lines[i], header, tables[i]), end="")
+        print()
+        print(f"[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/{lc}/inferno/01.md)")
 
 def type3(topdir, lc, filename):
     dirs = [os.path.join(topdir, d) for d in ["word", "word-tr", "etymology"]]

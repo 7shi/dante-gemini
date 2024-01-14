@@ -297,6 +297,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Sanskrit</th><td>अधि</td><td>मध्य</td><td>तस्य</td><td>पथ</td><td>तस्य</td><td>जीवन</td><td>अस्माकम्</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/grc/inferno/01.md)
+
 ### Arabic
 
 1 في منتصف طريق حياتنا
@@ -314,6 +316,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Italian</th><td>in</td><td>metà</td><td>strada</td><td>la nostra vita</td></tr>
 <tr><th>Hebrew</th><td>בְּ-‎</td><td>אמצע</td><td>דֶּרֶךְ</td><td>חַיֵּינוּ</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/ar/inferno/01.md)
 
 ### Bengali
 
@@ -338,6 +342,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Etymology</th><td>amādarā</td><td>jīvana</td><td>patha</td><td>madhyamadhya</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/bn/inferno/01.md)
+
 ### Bulgarian
 
 1 По средата на пътя на нашия живот
@@ -361,6 +367,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Slovene</th><td>po</td><td>sreda</td><td>na</td><td>pot</td><td>na</td><td>naš</td><td>življenje</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/bg/inferno/01.md)
+
 ### Cornish
 
 1 Y'n kres an fordh a'gan byw
@@ -378,6 +386,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Manx</th><td>ayns</td><td>mean</td><td>yn</td><td>raad</td><td>ain</td><td>bio</td></tr>
 <tr><th>Latin</th><td>in</td><td>medius</td><td>ille</td><td>via</td><td>noster</td><td>vivus</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/kw/inferno/01.md)
 
 ### Croatian
 
@@ -402,6 +412,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Slovene</th><td>na pol</td><td>poti</td><td>našega</td><td>življenja</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/hr/inferno/01.md)
+
 ### Czech
 
 1 Uprostřed cesty našeho života
@@ -425,6 +437,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Slovene</th><td>sredi</td><td>poti</td><td>našega</td><td>življenja</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/cs/inferno/01.md)
+
 ### Danish
 
 1 På livets halve vej
@@ -444,6 +458,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Swedish</th><td>på</td><td>livets</td><td>halva</td><td>väg</td></tr>
 <tr><th>Norwegian</th><td>på</td><td>livets</td><td>halv</td><td>vei</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/da/inferno/01.md)
 
 ### Dutch
 
@@ -466,6 +482,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Danish</th><td>midten</td><td>på</td><td>det</td><td>sti</td><td>af</td><td>vores</td><td>liv</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/nl/inferno/01.md)
+
 ### Esperanto
 
 1 En la mezo de la vojo de nia vivo
@@ -483,6 +501,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Derived</th><td>French</td><td>French</td><td>Italian</td><td>French</td><td>French</td><td>French</td><td>French</td><td>Latin</td><td>Latin</td></tr>
 <tr><th>Etymology</th><td>en</td><td>le</td><td>mezzo</td><td>de</td><td>le</td><td>voie</td><td>de</td><td>noster</td><td>vita</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/eo/inferno/01.md)
 
 ### Estonian
 
@@ -504,6 +524,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Korean</th><td>우리</td><td>인생</td><td>절반</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/et/inferno/01.md)
+
 ### Finnish
 
 1 Puolivälissä elämämme matkaa
@@ -522,6 +544,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Japanese</th><td>途中で</td><td>私たちの人生</td><td>旅</td></tr>
 <tr><th>Korean</th><td>중간에</td><td>우리 인생의</td><td>여행의</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/fi/inferno/01.md)
 
 ### French
 
@@ -546,6 +570,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Etymology</th><td>ad + illum</td><td>medius</td><td>de + illum</td><td>caminus</td><td>de</td><td>noster</td><td>vita</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/fr/inferno/01.md)
+
 ### German
 
 1 Auf der Hälfte des Weges unseres Lebens
@@ -569,6 +595,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Esperanto</th><td>sur</td><td>la</td><td>duono</td><td>de la</td><td>vojo</td><td>nia</td><td>vivo</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/de/inferno/01.md)
+
 ### Hebrew
 
 1 באמצע דרך חיינו
@@ -587,6 +615,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Arabic</th><td>في الوسط</td><td>طريق</td><td>حياتنا</td></tr>
 <tr><th>Yiddish</th><td>אין מיטן</td><td>וועג</td><td>אונזערע לעבנס</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/he/inferno/01.md)
 
 ### Hungarian
 
@@ -608,6 +638,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Korean</th><td>우리의 삶</td><td>길의</td><td>절반에</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/hu/inferno/01.md)
+
 ### Indonesian
 
 1 Di tengah perjalanan hidup kami
@@ -622,6 +654,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Arabic</th><td>في</td><td>وسط</td><td>رحلة</td><td>حياة</td><td>نحن</td></tr>
 <tr><th>Sanskrit</th><td>अत्र</td><td>मध्ये</td><td>यात्रा</td><td>जीवन</td><td>वयम्</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/id/inferno/01.md)
 
 ### Interlingua
 
@@ -640,6 +674,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Romanian</th><td>în</td><td>le</td><td>mijloc</td><td>al</td><td>drum</td><td>de</td><td>nostru</td><td>viață</td></tr>
 <tr><th>Esperanto</th><td>en</td><td>la</td><td>mezo</td><td>dela</td><td>vojo</td><td>de</td><td>nia</td><td>vivo</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/ia/inferno/01.md)
 
 ### Japanese
 
@@ -662,6 +698,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Turkish</th><td>biz</td><td>in</td><td>hayat</td><td>in</td><td>ortanokta</td><td>de</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/ja/inferno/01.md)
+
 ### Korean
 
 1 우리 인생의 한가운데서
@@ -683,6 +721,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Turkish</th><td>bizim</td><td>hayat</td><td>in</td><td>ortasında</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/ko/inferno/01.md)
+
 ### Latvian
 
 1 Mūsu dzīves ceļā vidū
@@ -701,6 +741,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Slovak</th><td>náš</td><td>život</td><td>cesta</td><td>stred</td></tr>
 <tr><th>Bulgarian</th><td>нашият</td><td>животът</td><td>пътят</td><td>средата</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/lv/inferno/01.md)
 
 ### Lithuanian
 
@@ -721,6 +763,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Bulgarian</th><td>наша</td><td>живот</td><td>път</td><td>среда</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/lt/inferno/01.md)
+
 ### Malay
 
 1 Di tengah-tengah perjalanan hidup kita
@@ -735,6 +779,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Arabic</th><td>في</td><td>وسط</td><td>رحلة</td><td>حياة</td><td>نحن</td></tr>
 <tr><th>Sanskrit</th><td>अत्र</td><td>मध्ये</td><td>यात्रा</td><td>जीवन</td><td>वयम्</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/ms/inferno/01.md)
 
 ### Manx
 
@@ -756,6 +802,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Latin</th><td>in</td><td>parvus</td><td>de</td><td>via</td><td>de</td><td>vaccae</td><td>proprius</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/gv/inferno/01.md)
+
 ### Modern Greek
 
 1 Στη μέση της διαδρομής της ζωής μας
@@ -776,6 +824,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Esperanto</th><td>en la</td><td>meza</td><td>de la</td><td>vojaĝo</td><td>de la</td><td>vivo</td><td>nia</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/el/inferno/01.md)
+
 ### Norwegian
 
 1 Midtveis på vår livsvei
@@ -794,6 +844,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Swedish</th><td>mitt i vägen</td><td>på</td><td>vår</td><td>livsväg</td></tr>
 <tr><th>Danish</th><td>midtvejs</td><td>på</td><td>vores</td><td>livsvej</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/no/inferno/01.md)
 
 ### Old English
 
@@ -815,6 +867,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Norwegian</th><td>på</td><td>midt i</td><td>vei</td><td>at</td><td>liv</td><td>vei</td></tr>
 <tr><th>Danish</th><td>på</td><td>midt i</td><td>vej</td><td>at</td><td>liv</td><td>vej</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/ang/inferno/01.md)
 
 ### Polish
 
@@ -840,6 +894,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Slovene</th><td>v</td><td>polovica</td><td>cesta</td><td>naš</td><td>življenje</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/pl/inferno/01.md)
+
 ### Portuguese
 
 1 No meio do caminho da nossa vida
@@ -862,6 +918,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Esperanto</th><td>en la</td><td>mezo</td><td>de la</td><td>vojo</td><td>de la</td><td>nia</td><td>vivo</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/pt/inferno/01.md)
+
 ### Romanian
 
 1 În mijlocul călătoriei vieții noastre
@@ -883,6 +941,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Derived</th><td>Latin</td><td>Slavic</td><td>Latin</td><td>Slavic</td><td>Latin</td></tr>
 <tr><th>Etymology</th><td>in</td><td>sredina</td><td>calator</td><td>životъ</td><td>noster</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/ro/inferno/01.md)
 
 ### Russian
 
@@ -908,6 +968,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Slovene</th><td>na</td><td>sredina</td><td>pot</td><td>naš</td><td>življenje</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/ru/inferno/01.md)
+
 ### Sanskrit
 
 1 Madhye madhyenaśajīvanasya
@@ -929,6 +991,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Greek</th><td>ἐν μέσῳ</td><td>ἐν μέσῳ ζῶντος</td></tr>
 <tr><th>Lithuanian</th><td>viduryje</td><td>viduryje gyvenančio</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/sa/inferno/01.md)
 
 ### Serbian (Latin)
 
@@ -954,6 +1018,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Slovene</th><td>na</td><td>polovica</td><td>pot</td><td>naš</td><td>življenje</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/sr/inferno/01.md)
+
 ### Slovak
 
 1 V polovici cesty nášho života
@@ -977,6 +1043,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Croatian</th><td>u</td><td>polovica</td><td>put</td><td>naš</td><td>život</td></tr>
 <tr><th>Slovene</th><td>v</td><td>polovica</td><td>pot</td><td>naš</td><td>življenje</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/sk/inferno/01.md)
 
 ### Slovene
 
@@ -1002,6 +1070,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Croatian</th><td>usred</td><td>puta</td><td>našeg</td><td>života</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/sl/inferno/01.md)
+
 ### Spanish
 
 1 En la mitad del camino de nuestra vida
@@ -1022,6 +1092,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Esperanto</th><td>en</td><td>la</td><td>mezo</td><td>dela</td><td>vojo</td><td>de</td><td>nia</td><td>vivo</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/es/inferno/01.md)
+
 ### Swahili
 
 1 Katikati ya safari ya maisha yetu
@@ -1037,6 +1109,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Italian</th><td>mezzo</td><td>di</td><td>viaggio</td><td>di</td><td>vita</td><td>nostro</td></tr>
 <tr><th>Arabic</th><td>وسط</td><td>من</td><td>رحلة</td><td>من</td><td>حياة</td><td>لدينا</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/sw/inferno/01.md)
 
 ### Swedish
 
@@ -1058,6 +1132,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Danish</th><td>mit</td><td>i</td><td>vor</td><td>liv</td><td>vandring</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/sv/inferno/01.md)
+
 ### Thai
 
 1 ในช่วงกลางทางแห่งชีวิตของเรา
@@ -1073,6 +1149,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Chinese</th><td>在</td><td>期间</td><td>中间</td><td>方式</td><td>的</td><td>生活</td><td>的</td><td>我们</td></tr>
 <tr><th>Sanskrit</th><td>अन्दर</td><td>काल</td><td>मध्य</td><td>मार्ग</td><td>का</td><td>जीवन</td><td>का</td><td>वयम्</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/th/inferno/01.md)
 
 ### Turkish
 
@@ -1094,6 +1172,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Japanese</th><td>人生</td><td>旅</td><td>真ん中</td></tr>
 <tr><th>Korean</th><td>인생</td><td>여행</td><td>중간</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/tr/inferno/01.md)
 
 ### Ukrainian
 
@@ -1119,6 +1199,8 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Slovene</th><td>na</td><td>sredina</td><td>pot</td><td>naš</td><td>življenje</td></tr>
 </table>
 
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/uk/inferno/01.md)
+
 ### Vietnamese
 
 1 Giữa chặng đường đời,
@@ -1131,3 +1213,5 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Thai</th><td>ระหว่าง</td><td>ช่วง</td><td>ถนน</td><td>ชีวิต</td></tr>
 <tr><th>Chinese</th><td>之间</td><td>阶段</td><td>道路</td><td>生活</td></tr>
 </table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/vi/inferno/01.md)
