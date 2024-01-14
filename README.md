@@ -158,6 +158,76 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 
 [Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/en/inferno/01.md)
 
+### Hindi
+
+1 हमारे जीवन की यात्रा के मध्य में
+
+<table>
+<tr><th>Word</th><td>हमारे</td><td>जीवन</td><td>की</td><td>यात्रा</td><td>के</td><td>मध्य</td><td>में</td></tr>
+<tr><th>Roman (Word)</th><td>hamaare</td><td>jeevan</td><td>kii</td><td>yaatraa</td><td>ke</td><td>madhy</td><td>men</td></tr>
+<tr><th>Lemma</th><td>हमारा</td><td>जीवन</td><td>का</td><td>यात्रा</td><td>का</td><td>मध्य</td><td>में</td></tr>
+<tr><th>Roman (Lemma)</th><td>hamaaraa</td><td>jeevan</td><td>kaa</td><td>yaatraa</td><td>kaa</td><td>madhya</td><td>men</td></tr>
+<tr><th>Part of Speech</th><td>possessive adjective</td><td>noun</td><td>postposition</td><td>noun</td><td>postposition</td><td>noun</td><td>postposition</td></tr>
+<tr><th>Gender</th><td>m.</td><td>m.</td><td></td><td>f.</td><td></td><td>m.</td><td></td></tr>
+<tr><th>Case</th><td>nominative</td><td>nominative</td><td></td><td>nominative</td><td></td><td>locative</td><td></td></tr>
+<tr><th>Number</th><td>sg.</td><td>sg.</td><td></td><td>sg.</td><td></td><td>sg.</td><td></td></tr>
+<tr><th>Person</th><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th>English</th><td>our</td><td>life</td><td>of</td><td>journey</td><td>of</td><td>middle</td><td>in</td></tr>
+<tr><th>Italian</th><td>nostro</td><td>vita</td><td>di</td><td>viaggio</td><td>di</td><td>mezzo</td><td>in</td></tr>
+<tr><th>Urdu</th><td>ہمارا</td><td>زندگی</td><td>کا</td><td>سفر</td><td>کا</td><td>وسط</td><td>میں</td></tr>
+<tr><th>Sanskrit</th><td>अस्माकम्</td><td>जीवनम्</td><td>कस्य</td><td>यात्रा</td><td>कस्य</td><td>मध्यम्</td><td>मध्ये</td></tr>
+<tr><th>Bengali</th><td>আমাদের</td><td>জীবন</td><td>এর</td><td>যাত্রা</td><td>এর</td><td>মাঝখানে</td><td>মধ্যে</td></tr>
+<tr><th>Japanese</th><td>私たちの</td><td>生命</td><td>の</td><td>旅</td><td>の</td><td>中間</td><td>中</td></tr>
+<tr><th>Derived</th><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td></tr>
+<tr><th>Etymology</th><td>अस्मद् (asmad)</td><td>जीव (jīva)</td><td>कः (kaḥ)</td><td>यात्रा (yātrā)</td><td>कः (kaḥ)</td><td>मध्य (madhya)</td><td>मध्यम (madhyama)</td></tr>
+</table>
+
+2 मैं एक अंधेरे जंगल में खो गया,
+
+<table>
+<tr><th>Word</th><td>मैं</td><td>एक</td><td>अंधेरे</td><td>जंगल</td><td>में</td><td>खो</td><td>गया</td></tr>
+<tr><th>Roman (Word)</th><td>main</td><td>ek</td><td>andhere</td><td>jangal</td><td>men</td><td>kho</td><td>gayaa</td></tr>
+<tr><th>Lemma</th><td>मैं</td><td>एक</td><td>अंधेरा</td><td>जंगल</td><td>में</td><td>खोना</td><td>जाना</td></tr>
+<tr><th>Roman (Lemma)</th><td>main</td><td>ek</td><td>andheraa</td><td>jangal</td><td>men</td><td>khonaa</td><td>jaanaa</td></tr>
+<tr><th>Part of Speech</th><td>pronoun</td><td>numeral</td><td>adjective</td><td>noun</td><td>postposition</td><td>verb</td><td>verb</td></tr>
+<tr><th>Gender</th><td>m.</td><td></td><td>m.</td><td>m.</td><td></td><td>m.</td><td>m.</td></tr>
+<tr><th>Case</th><td>nominative</td><td></td><td>nominative</td><td>locative</td><td></td><td>past</td><td>past</td></tr>
+<tr><th>Number</th><td>sg.</td><td></td><td>sg.</td><td>sg.</td><td></td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Person</th><td>1</td><td></td><td></td><td></td><td></td><td>1</td><td>1</td></tr>
+<tr><th>English</th><td>I</td><td>one</td><td>dark</td><td>forest</td><td>in</td><td>lost</td><td>gone</td></tr>
+<tr><th>Italian</th><td>io</td><td>uno</td><td>buio</td><td>foresta</td><td>in</td><td>perso</td><td>andato</td></tr>
+<tr><th>Urdu</th><td>میں</td><td>ایک</td><td>اندھیرا</td><td>جنگل</td><td>میں</td><td>کھو</td><td>گیا</td></tr>
+<tr><th>Sanskrit</th><td>अहम्</td><td>एकः</td><td>अन्धकारः</td><td>वनम्</td><td>मध्ये</td><td>ख्यातः</td><td>गतः</td></tr>
+<tr><th>Bengali</th><td>আমি</td><td>এক</td><td>অন্ধকার</td><td>জঙ্গল</td><td>মধ্যে</td><td>হারিয়েগেছে</td><td>গেছে</td></tr>
+<tr><th>Japanese</th><td>私</td><td>一</td><td>暗い</td><td>森</td><td>中</td><td>失った</td><td>行っ</td></tr>
+<tr><th>Derived</th><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Persian</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td></tr>
+<tr><th>Etymology</th><td>अहम् (aham)</td><td>एक (eka)</td><td>अंधकार (andhakāra)</td><td>جنگل (jangal)</td><td>मध्यम (madhyama)</td><td>खो (kho)</td><td>गम (gam)</td></tr>
+</table>
+
+3 क्योंकि सीधा रास्ता खो गया था।
+
+<table>
+<tr><th>Word</th><td>क्योंकि</td><td>सीधा</td><td>रास्ता</td><td>खो</td><td>गया</td><td>था</td></tr>
+<tr><th>Roman (Word)</th><td>kyonki</td><td>seedhaa</td><td>rastaa</td><td>kho</td><td>gayaa</td><td>thaa</td></tr>
+<tr><th>Lemma</th><td>क्योंकि</td><td>सीधा</td><td>रास्ता</td><td>खोना</td><td>जाना</td><td>होना</td></tr>
+<tr><th>Roman (Lemma)</th><td>kyonki</td><td>seedhaa</td><td>rastaa</td><td>khonaa</td><td>jaanaa</td><td>honaa</td></tr>
+<tr><th>Part of Speech</th><td>conjunction</td><td>adjective</td><td>noun</td><td>verb</td><td>verb</td><td>verb</td></tr>
+<tr><th>Gender</th><td></td><td>m.</td><td>m.</td><td>m.</td><td>m.</td><td>m.</td></tr>
+<tr><th>Case</th><td></td><td>nominative</td><td>nominative</td><td>past</td><td>past</td><td>past</td></tr>
+<tr><th>Number</th><td></td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td><td>sg.</td></tr>
+<tr><th>Person</th><td></td><td></td><td></td><td></td><td>1</td><td></td></tr>
+<tr><th>English</th><td>because</td><td>straight</td><td>way</td><td>lost</td><td>gone</td><td>was</td></tr>
+<tr><th>Italian</th><td>perché</td><td>dritto</td><td>strada</td><td>perso</td><td>andato</td><td>era</td></tr>
+<tr><th>Urdu</th><td>کیونکہ</td><td>سیدھا</td><td>راستہ</td><td>کھو</td><td>گیا</td><td>تھا</td></tr>
+<tr><th>Sanskrit</th><td>यतः</td><td>ऋजुः</td><td>मार्गः</td><td>ख्यातः</td><td>गतः</td><td>आसीत्</td></tr>
+<tr><th>Bengali</th><td>কারণ</td><td>সোজা</td><td>রাস্তা</td><td>হারিয়েগেছে</td><td>গেছে</td><td>ছিল</td></tr>
+<tr><th>Japanese</th><td>なぜなら</td><td>まっすぐ</td><td>道</td><td>失った</td><td>行っ</td><td>あった</td></tr>
+<tr><th>Derived</th><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td></tr>
+<tr><th>Etymology</th><td>किम् (kim)</td><td>सरल (sarala)</td><td>मार्ग (mārga)</td><td>खो (kho)</td><td>गम (gam)</td><td>भू (bhū)</td></tr>
+</table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/hi/inferno/01.md)
+
 ### Ancient Greek
 
 1 Ἐν μέσῳ τῆς ὁδοῦ τῆς ζωῆς ἡμῶν
@@ -484,30 +554,6 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Italian</th><td>nel mezzo</td><td>via</td><td>le nostre vite</td></tr>
 <tr><th>Arabic</th><td>في الوسط</td><td>طريق</td><td>حياتنا</td></tr>
 <tr><th>Yiddish</th><td>אין מיטן</td><td>וועג</td><td>אונזערע לעבנס</td></tr>
-</table>
-
-### Hindi
-
-1 हमारे जीवन की यात्रा के मध्य में
-
-<table>
-<tr><th>Word</th><td>हमारे</td><td>जीवन</td><td>की</td><td>यात्रा</td><td>के</td><td>मध्य</td><td>में</td></tr>
-<tr><th>Roman (Word)</th><td>hamaare</td><td>jeevan</td><td>kii</td><td>yaatraa</td><td>ke</td><td>madhy</td><td>men</td></tr>
-<tr><th>Lemma</th><td>हमारा</td><td>जीवन</td><td>का</td><td>यात्रा</td><td>का</td><td>मध्य</td><td>में</td></tr>
-<tr><th>Roman (Lemma)</th><td>hamaaraa</td><td>jeevan</td><td>kaa</td><td>yaatraa</td><td>kaa</td><td>madhya</td><td>men</td></tr>
-<tr><th>Part of Speech</th><td>possessive adjective</td><td>noun</td><td>postposition</td><td>noun</td><td>postposition</td><td>noun</td><td>postposition</td></tr>
-<tr><th>Gender</th><td>m.</td><td>m.</td><td></td><td>f.</td><td></td><td>m.</td><td></td></tr>
-<tr><th>Case</th><td>nominative</td><td>nominative</td><td></td><td>nominative</td><td></td><td>locative</td><td></td></tr>
-<tr><th>Number</th><td>sg.</td><td>sg.</td><td></td><td>sg.</td><td></td><td>sg.</td><td></td></tr>
-<tr><th>Person</th><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th>English</th><td>our</td><td>life</td><td>of</td><td>journey</td><td>of</td><td>middle</td><td>in</td></tr>
-<tr><th>Italian</th><td>nostro</td><td>vita</td><td>di</td><td>viaggio</td><td>di</td><td>mezzo</td><td>in</td></tr>
-<tr><th>Urdu</th><td>ہمارا</td><td>زندگی</td><td>کا</td><td>سفر</td><td>کا</td><td>وسط</td><td>میں</td></tr>
-<tr><th>Sanskrit</th><td>अस्माकम्</td><td>जीवनम्</td><td>कस्य</td><td>यात्रा</td><td>कस्य</td><td>मध्यम्</td><td>मध्ये</td></tr>
-<tr><th>Bengali</th><td>আমাদের</td><td>জীবন</td><td>এর</td><td>যাত্রা</td><td>এর</td><td>মাঝখানে</td><td>মধ্যে</td></tr>
-<tr><th>Japanese</th><td>私たちの</td><td>生命</td><td>の</td><td>旅</td><td>の</td><td>中間</td><td>中</td></tr>
-<tr><th>Derived</th><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td><td>Sanskrit</td></tr>
-<tr><th>Etymology</th><td>अस्मदीय (asmadīya)</td><td>जीव (jīva)</td><td>क (ka)</td><td>या (yā)</td><td>क (ka)</td><td>मध्य (madhya)</td><td>नि (ni)</td></tr>
 </table>
 
 ### Hungarian
