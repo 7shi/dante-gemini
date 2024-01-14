@@ -68,7 +68,7 @@ def type2(topdir, filename):
         header = table[0]
         tables = common.split_table(info, lines, table)
         langs[lang] = (lines, header, tables)
-    sp = ["Italian", "English", "Hindi"]
+    sp = ["Italian", "English", "Hindi", "Chinese"]
     for lang in sp + sorted(set(langs) - set(sp)):
         lines, header, tables = langs[lang]
         print()

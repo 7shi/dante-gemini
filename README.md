@@ -228,6 +228,54 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 
 [Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/hi/inferno/01.md)
 
+### Chinese
+
+1 在我们人生的中途
+
+<table>
+<tr><th>Word</th><td>在</td><td>我们</td><td>人生</td><td>的</td><td>中途</td></tr>
+<tr><th>Traditional</th><td>在</td><td>我們</td><td>人生</td><td>的</td><td>中途</td></tr>
+<tr><th>Pinyin</th><td>zài</td><td>wǒmen</td><td>rénshēng</td><td>de</td><td>zhōngtú</td></tr>
+<tr><th>Part of Speech</th><td>preposition</td><td>pronoun</td><td>noun</td><td>particle</td><td>noun</td></tr>
+<tr><th>English</th><td>in</td><td>we</td><td>life</td><td>of</td><td>halfway</td></tr>
+<tr><th>Italian</th><td>in</td><td>noi</td><td>vita</td><td>di</td><td>a metà</td></tr>
+<tr><th>Japanese</th><td>に</td><td>私たち</td><td>人生</td><td>の</td><td>途中で</td></tr>
+<tr><th>Vietnamese</th><td>trong</td><td>chúng tôi</td><td>cuộc sống</td><td>của</td><td>giữa chừng</td></tr>
+<tr><th>Thai</th><td>ใน</td><td>เรา</td><td>ชีวิต</td><td>ของ</td><td>กลางทาง</td></tr>
+</table>
+
+2 我发现自己身处一片黑暗的森林，
+
+<table>
+<tr><th>Word</th><td>我</td><td>发现</td><td>自己</td><td>身处</td><td>一片</td><td>黑暗</td><td>的</td><td>森林</td></tr>
+<tr><th>Traditional</th><td>我</td><td>發現</td><td>自己</td><td>身處</td><td>一片</td><td>黑暗</td><td>的</td><td>森林</td></tr>
+<tr><th>Pinyin</th><td>wǒ</td><td>fāxiàn</td><td>zìjǐ</td><td>shēnchù</td><td>yīpiàn</td><td>hēi'àn</td><td>de</td><td>sēnlín</td></tr>
+<tr><th>Part of Speech</th><td>pronoun</td><td>verb</td><td>pronoun</td><td>verb</td><td>measure word</td><td>adjective</td><td>particle</td><td>noun</td></tr>
+<tr><th>Tense</th><td></td><td>past</td><td></td><td>present</td><td></td><td></td><td></td><td></td></tr>
+<tr><th>English</th><td>I</td><td>find</td><td>myself</td><td>be in</td><td>a piece of</td><td>darkness</td><td>of</td><td>forest</td></tr>
+<tr><th>Italian</th><td>io</td><td>scoprire</td><td>me stesso</td><td>trovarsi in</td><td>un pezzo di</td><td>oscurità</td><td>di</td><td>foresta</td></tr>
+<tr><th>Japanese</th><td>私は</td><td>見つける</td><td>自分自身</td><td>身を置く</td><td>一片</td><td>暗闇</td><td>の</td><td>森</td></tr>
+<tr><th>Vietnamese</th><td>tôi</td><td>phát hiện</td><td>bản thân mình</td><td>ở trong</td><td>một mảnh</td><td>bóng tối</td><td>của</td><td>rừng</td></tr>
+<tr><th>Thai</th><td>ฉัน</td><td>ค้นพบ</td><td>ตัวเอง</td><td>อยู่ใน</td><td>ชิ้นหนึ่ง</td><td>ความมืด</td><td>ของ</td><td>ป่า</td></tr>
+</table>
+
+3 因为正确的道路已经迷失。
+
+<table>
+<tr><th>Word</th><td>因为</td><td>正确</td><td>的</td><td>道路</td><td>已经</td><td>迷失</td></tr>
+<tr><th>Traditional</th><td>因為</td><td>正確</td><td>的</td><td>道路</td><td>已經</td><td>迷失</td></tr>
+<tr><th>Pinyin</th><td>yīnwèi</td><td>zhèngquè</td><td>de</td><td>dàolù</td><td>yǐjīng</td><td>míshī</td></tr>
+<tr><th>Part of Speech</th><td>conjunction</td><td>adjective</td><td>particle</td><td>noun</td><td>adverb</td><td>verb</td></tr>
+<tr><th>Tense</th><td></td><td></td><td></td><td></td><td></td><td>past</td></tr>
+<tr><th>English</th><td>because</td><td>correct</td><td>of</td><td>road</td><td>already</td><td>lose</td></tr>
+<tr><th>Italian</th><td>perché</td><td>corretto</td><td>di</td><td>strada</td><td>già</td><td>perdere</td></tr>
+<tr><th>Japanese</th><td>だから</td><td>正しい</td><td>の</td><td>道路</td><td>既に</td><td>迷う</td></tr>
+<tr><th>Vietnamese</th><td>bởi vì</td><td>chính xác</td><td>của</td><td>con đường</td><td>đã</td><td>lạc mất</td></tr>
+<tr><th>Thai</th><td>เพราะว่า</td><td>ถูกต้อง</td><td>ของ</td><td>ถนน</td><td>แล้ว</td><td>หลงทาง</td></tr>
+</table>
+
+[Read More](https://github.com/7shi/dante-gemini/blob/main/gallery/zh/inferno/01.md)
+
 ### Ancient Greek
 
 1 Ἐν μέσῳ τῆς ὁδοῦ τῆς ζωῆς ἡμῶν
@@ -311,22 +359,6 @@ Here are formatted snippets of Gemini's output. Since these are intended to exam
 <tr><th>Serbian (Latin)</th><td>po</td><td>sredina</td><td>na</td><td>put</td><td>na</td><td>naš</td><td>život</td></tr>
 <tr><th>Croatian</th><td>po</td><td>sredina</td><td>na</td><td>put</td><td>na</td><td>naš</td><td>život</td></tr>
 <tr><th>Slovene</th><td>po</td><td>sreda</td><td>na</td><td>pot</td><td>na</td><td>naš</td><td>življenje</td></tr>
-</table>
-
-### Chinese
-
-1 在我们人生的中途
-
-<table>
-<tr><th>Word</th><td>在</td><td>我们</td><td>人生</td><td>的</td><td>中途</td></tr>
-<tr><th>Traditional</th><td>在</td><td>我們</td><td>人生</td><td>的</td><td>中途</td></tr>
-<tr><th>Pinyin</th><td>zài</td><td>wǒmen</td><td>rénshēng</td><td>de</td><td>zhōngtú</td></tr>
-<tr><th>Part of Speech</th><td>preposition</td><td>pronoun</td><td>noun</td><td>particle</td><td>noun</td></tr>
-<tr><th>English</th><td>in</td><td>we</td><td>life</td><td>of</td><td>halfway</td></tr>
-<tr><th>Italian</th><td>in</td><td>noi</td><td>vita</td><td>di</td><td>a metà</td></tr>
-<tr><th>Japanese</th><td>に</td><td>私たち</td><td>人生</td><td>の</td><td>途中で</td></tr>
-<tr><th>Vietnamese</th><td>trong</td><td>chúng tôi</td><td>cuộc sống</td><td>của</td><td>giữa chừng</td></tr>
-<tr><th>Thai</th><td>ใน</td><td>เรา</td><td>ชีวิต</td><td>ของ</td><td>กลางทาง</td></tr>
 </table>
 
 ### Cornish
