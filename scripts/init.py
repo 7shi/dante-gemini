@@ -6,6 +6,7 @@ testonly = False
 crasis = True
 columns = "Word, Lemma, Part of Speech, Gender, Number, Person, Tense, Mood and Note"
 init_xml = "init.xml"
+subdir = "inferno"
 
 while args:
     if args[0] == "-t":
@@ -20,11 +21,14 @@ while args:
     elif args[0] == "-i" and len(args) > 1:
         init_xml = args[1]
         args = args[2:]
+    elif args[0] == "-d" and len(args) > 1:
+        subdir = args[1]
+        args = args[2:]
     else:
         break
 
 if len(args) != 2:
-    print(f"usage: python {sys.argv[0]} [-t] [-n] [-c columns] [-i init] language src-dir", file=sys.stderr)
+    print(f"usage: python {sys.argv[0]} [-t] [-n] [-c columns] [-i init] [-d dir] language src-dir", file=sys.stderr)
     sys.exit(1)
 
 language, srcdir = args
@@ -34,7 +38,7 @@ import gemini, common
 def query(prompt):
     return gemini.query(prompt, show=True, retry=False)
 
-srcs, src_lines = common.read_source(f"{srcdir}/inferno/01", language)
+srcs, src_lines = common.read_source(f"{srcdir}/{subdir}/01", language)
 
 prompt_table = f"""
 This text is written in {language}.
