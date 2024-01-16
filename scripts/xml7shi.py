@@ -48,11 +48,11 @@ class reader:
         self.text = ""
         self.tag  = ""
         self.values = {}
-        if self.pos >= len(self.src):
-            return False
-        elif self.reserved != "":
+        if self.reserved != "":
             self.tag = self.reserved
             self.reserved = ""
+        elif self.pos >= len(self.src):
+            return False
         else:
             self.read_text()
         return True
@@ -108,9 +108,10 @@ class reader:
 
     def read_values(self):
         nm = self.read_value(True).lower()
-        if nm == "": return False
         if self.cur == "/":
             self.reserved = "/" + self.tag
+            return True
+        if nm == "": return False
         if self.cur == "=":
             self.values[nm] = self.read_value(False)
         else:
