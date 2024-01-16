@@ -84,24 +84,15 @@ class reader:
                 elif ch > " ":
                     t.write(ch)
                     if t.tell() == 3 and t.getvalue() == "!--":
-                        break
+                        return self.read_comment()
                 elif t.tell() > 0:
                     break
             self.tag = t.getvalue().lower()
-        if ch == "/":
+        self.read_values()
+        if self.cur == "/":
             self.reserved = "/" + self.tag
-            ch = self.read_char()
-            while (ch := self.read_char()) != "" and ch != ">":
-                pass
-        if ch != ">":
-            if self.tag == "!--":
-                self.read_comment()
-            else:
-                while self.read_values(): pass
-                if self.cur == "/":
-                    self.reserved = "/" + self.tag
-                    while (ch := self.read_char()) != "" and ch <= " ":
-                        pass
+            self.read_char()
+            self.skip()
 
     def read_comment(self):
         p = self.src.find("-->", self.pos)
@@ -113,27 +104,32 @@ class reader:
             self.pos = p + 3
 
     def read_values(self):
-        nm = self.read_value(True).lower()
-        if nm == "": return False
-        if self.cur == "=":
-            self.values[nm] = self.read_value(False)
-        else:
-            self.values[nm] = ""
-        return self.cur != "/" and self.cur != ">"
+        while (nm := self.read_value(True).lower()):
+            if self.cur == "=":
+                self.read_char()
+                self.values[nm] = self.read_value(False)
+            else:
+                self.values[nm] = ""
 
     def read_value(self, isleft):
+        self.skip()
         with io.StringIO() as v:
-            while self.read_char() != "":
-                ch = self.cur
+            while ch := self.cur:
                 if ch == ">" or ch == "/" or (isleft and ch == "="):
                     break
                 elif ch == '"':
-                    while self.read_char() != "":
-                        if self.cur == '"': break
+                    while self.read_char() and self.cur != '"':
                         v.write(self.cur)
+                    self.read_char()
                     break
                 elif ch > " ":
                     v.write(ch)
                 elif v.tell() > 0:
                     break
+                self.read_char()
+            self.skip()
             return v.getvalue()
+
+    def skip(self):
+        while self.cur <= " " and self.read_char():
+            pass
