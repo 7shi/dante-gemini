@@ -91,11 +91,17 @@ class reader:
         if ch == "/":
             self.reserved = "/" + self.tag
             ch = self.read_char()
+            while (ch := self.read_char()) != "" and ch != ">":
+                pass
         if ch != ">":
             if self.tag == "!--":
                 self.read_comment()
             else:
                 while self.read_values(): pass
+                if self.cur == "/":
+                    self.reserved = "/" + self.tag
+                    while (ch := self.read_char()) != "" and ch <= " ":
+                        pass
 
     def read_comment(self):
         p = self.src.find("-->", self.pos)
@@ -108,21 +114,18 @@ class reader:
 
     def read_values(self):
         nm = self.read_value(True).lower()
-        if self.cur == "/":
-            self.reserved = "/" + self.tag
-            return True
         if nm == "": return False
         if self.cur == "=":
             self.values[nm] = self.read_value(False)
         else:
             self.values[nm] = ""
-        return self.cur != ">"
+        return self.cur != "/" and self.cur != ">"
 
     def read_value(self, isleft):
         with io.StringIO() as v:
             while self.read_char() != "":
                 ch = self.cur
-                if ch == ">" or (isleft and (ch == "=" or ch == "/")):
+                if ch == ">" or ch == "/" or (isleft and ch == "="):
                     break
                 elif ch == '"':
                     while self.read_char() != "":
