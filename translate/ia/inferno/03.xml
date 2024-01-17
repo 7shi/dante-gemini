@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries count="46">
 <query>
 <info>[Inferno Canto 3] 1/136</info>
 <prompt>
@@ -62,7 +62,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Inferno Canto 3] 13/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 13 Ed elli a me, come persona accorta:
@@ -76,7 +76,7 @@ finish_reason: OTHER
 </query>
 <query>
 <info>[Inferno Canto 3] 16/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 16 Noi siam venuti al loco ov’ i’ t’ho detto
@@ -97,32 +97,6 @@ Please translate each line literally into Interlingua.
 20 con lieto volto, ond’ io mi confortai,
 21 mi mise dentro a le segrete cose.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "19 E postea que su mano al mie poneva\n20 con lieto volto, del qual io me confortava,\n21 me mitteva adentro al le cosas secrete."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 19 E postea que su mano al mie poneva
 20 con lieto volto, del qual io me confortava,
@@ -152,16 +126,23 @@ Please translate each line literally into Interlingua.
 25 Diverse lingue, orribili favelle,
 26 parole di dolore, accenti d’ira,
 27 voci alte e fioche, e suon di man con elle
+</prompt>
+<result>
+25 Diverse linguas, horribile parolas,
+26 parolas de dolor, accentos de ira,
+27 voces alte e fioche, e sono de manos con illas
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 28/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 28 facevano un tumulto, il qual s’aggira
 29 sempre in quell’ aura sanza tempo tinta,
 30 come la rena quando turbo spira.
 </prompt>
 <result>
-25 Diverse linguas, horribile parolas,
-26 parolas de dolor, accentos de ira,
-27 voces alte e fioche, e sono de manos con illas
-
 28 faceva un tumulto, le qual se agita
 29 semper in ille aura sin tempore tincte,
 30 como le arena quando turbo spira.
@@ -169,7 +150,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Inferno Canto 3] 31/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 31 E io ch’avea d’error la testa cinta,
@@ -243,7 +224,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Inferno Canto 3] 46/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 46 Questi non hanno speranza di morte,
@@ -278,16 +259,23 @@ Please translate each line literally into Interlingua.
 52 E io, che riguardai, vidi una ’nsegna
 53 che girando correva tanto ratta,
 54 che d’ogne posa mi parea indegna;
+</prompt>
+<result>
+52 E io, que regardava, videva un signo
+53 que girante curreva tanto rapide,
+54 que de omne pausa me pareva indegne;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 55/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 55 e dietro le venìa sì lunga tratta
 56 di gente, ch’i’ non averei creduto
 57 che morte tanta n’avesse disfatta.
 </prompt>
 <result>
-52 E io, que regardava, videva un signo
-53 que girante curreva tanto rapide,
-54 que de omne pausa me pareva indegne;
-
 55 e retro illo veniva si longe sequito
 56 de gente, que io non haberea credite
 57 que morte tanto ne haberea disfacte.
@@ -295,17 +283,13 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Inferno Canto 3] 58/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 58 Poscia ch’io v’ebbi alcun riconosciuto,
 59 vidi e conobbi l’ombra di colui
 60 che fece per viltade il gran rifiuto.
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-</error>
 <result>
 58 Postea que io ibi habeva alcun recognoscite,
 59 videva e cognosceva le umbra de ille
@@ -329,7 +313,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Inferno Canto 3] 64/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 64 Questi sciaurati, che mai non fur vivi,
@@ -343,7 +327,7 @@ finish_reason: OTHER
 </query>
 <query>
 <info>[Inferno Canto 3] 67/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 67 Elle rigavan lor di sangue il volto,
@@ -363,16 +347,23 @@ Please translate each line literally into Interlingua.
 70 E poi ch’a riguardar oltre mi diedi,
 71 vidi genti a la riva d’un gran fiume;
 72 per ch’io dissi: «Maestro, or mi concedi
+</prompt>
+<result>
+70 E pois que a regardar ultra me dava,
+71 videva gentes al riva de un grande fluvio;
+72 per que io diceva: «Maestro, ora me concede
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 73/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 73 ch’i’ sappia quali sono, e qual costume
 74 le fa di trapassar parer sì pronte,
 75 com’ i’ discerno per lo fioco lume».
 </prompt>
 <result>
-70 E pois que a regardar ultra me dava,
-71 videva gentes al riva de un grande fluvio;
-72 per que io diceva: «Maestro, ora me concede
-
 73 que io sapia quales son, e qual costume
 74 le face de transpassar parer si prompte,
 75 como io discerne per le fioco lumine».
@@ -416,16 +407,23 @@ Please translate each line literally into Interlingua.
 82 Ed ecco verso noi venir per nave
 83 un vecchio, bianco per antico pelo,
 84 gridando: «Guai a voi, anime prave!
+</prompt>
+<result>
+82 E ecce verso nos venir per nave
+83 un vetule, blanc pro antique pilo,
+84 clamando: «Guai a vos, animas prave!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 85/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 85 Non isperate mai veder lo cielo:
 86 i’ vegno per menarvi a l’altra riva
 87 ne le tenebre etterne, in caldo e ’n gelo.
 </prompt>
 <result>
-82 E ecce verso nos venir per nave
-83 un vetule, blanc pro antique pilo,
-84 clamando: «Guai a vos, animas prave!
-
 85 Non sperate may vider le celo:
 86 io veni pro menar vos al altere riva
 87 in le tenebras eterne, in calido e in gelo.
@@ -439,16 +437,23 @@ Please translate each line literally into Interlingua.
 88 E tu che se’ costì, anima viva,
 89 pàrtiti da cotesti che son morti».
 90 Ma poi che vide ch’io non mi partiva,
+</prompt>
+<result>
+88 E tu que es hic, anima vive,
+89 parte te de iste que son morte».
+90 Ma pois que videva que io non me partiva,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 91/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 91 disse: «Per altra via, per altri porti
 92 verrai a piaggia, non qui, per passare:
 93 più lieve legno convien che ti porti».
 </prompt>
 <result>
-88 E tu que es hic, anima vive,
-89 parte te de iste que son morte».
-90 Ma pois que videva que io non me partiva,
-
 91 diceva: «Per altere via, per altere portes
 92 venira a plagia, non hic, pro passar:
 93 plus leve ligno conveni que te porta».
@@ -493,32 +498,6 @@ Please translate each line literally into Interlingua.
 101 cangiar colore e dibattero i denti,
 102 ratto che ’nteser le parole crude.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "100 Ma ille animas, que era lasse e nude,\n101 cambiar color e debattere le dentes,\n102 rapidemente que illos audeva le parolas crude."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 100 Ma ille animas, que era lasse e nude,
 101 cambiar color e debattere le dentes,
@@ -542,7 +521,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Inferno Canto 3] 106/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 106 Poi si ritrasser tutte quante insieme,
@@ -577,16 +556,23 @@ Please translate each line literally into Interlingua.
 112 Come d’autunno si levan le foglie
 113 l’una appresso de l’altra, fin che ’l ramo
 114 vede a la terra tutte le sue spoglie,
+</prompt>
+<result>
+112 Como de autumno se levan le folios
+113 le un post le altere, fin que le ramo
+114 vide a le terra tote su spolias,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 115/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 115 similemente il mal seme d’Adamo
 116 gittansi di quel lito ad una ad una,
 117 per cenni come augel per suo richiamo.
 </prompt>
 <result>
-112 Como de autumno se levan le folios
-113 le un post le altere, fin que le ramo
-114 vide a le terra tote su spolias,
-
 115 similiter le mal semine de Adam
 116 se jecta de ille lito a un a un,
 117 per signos como augel per su reclamo.
@@ -594,45 +580,44 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Inferno Canto 3] 118/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 118 Così sen vanno su per l’onda bruna,
 119 e avanti che sien di là discese,
 120 anche di qua nuova schiera s’auna.
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-</error>
-<result>
+<error>
 118Assivanosuperl’undabruna,
 119eavantichesiendiladecedite,
 120etiamdequaunanovaschieras’auna.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 3] 121/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 121 «Figliuol mio», disse ’l maestro cortese,
 122 «quelli che muoion ne l’ira di Dio
 123 tutti convegnon qui d’ogne paese;
+</prompt>
+<result>
+121 "Filiomeo", diceva le maestro curtese,
+122 "illos que moriva in le ira de Deo
+123 tote conveniva hic de omne pais;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 124/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 124 e pronti sono a trapassar lo rio,
 125 ché la divina giustizia li sprona,
 126 sì che la tema si volve in disio.
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-</error>
 <result>
-121 "Filiomeo", diceva le maestro curtese,
-122 "illos que moriva in le ira de Deo
-123 tote conveniva hic de omne pais;
-
 124 e prompte son a transpassar le fluvio,
 125 que le divin justitia los sprona,
 126 si que le timor se volve in desiro.
@@ -640,7 +625,7 @@ finish_reason: OTHER
 </query>
 <query>
 <info>[Inferno Canto 3] 127/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 127 Quinci non passa mai anima buona;
@@ -675,14 +660,21 @@ Please translate each line literally into Interlingua.
 133 La terra lagrimosa diede vento,
 134 che balenò una luce vermiglia
 135 la qual mi vinse ciascun sentimento;
-
-136 e caddi come l’uom cui sonno piglia.
 </prompt>
 <result>
 133 Le terra lacrimosa dava vento,
 134 que lampeggiava un lumine vermilion
 135 le qual me vinceva omne sentimento;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 136/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
+136 e caddi come l’uom cui sonno piglia.
+</prompt>
+<result>
 136 e cadeva como le homine que somno prende.
 </result>
 </query>

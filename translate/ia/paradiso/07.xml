@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="50">
 <query>
 <info>[Paradiso Canto 7] 1/148</info>
 <prompt>
@@ -16,56 +16,39 @@ finish_reason: OTHER
 </query>
 <query>
 <info>[Paradiso Canto 7] 4/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 4 Così, volgendosi a la nota sua,
 5 fu viso a me cantare essa sustanza,
 6 sopra la qual doppio lume s’addua;
-
-7 ed essa e l’altre mossero a sua danza,
-8 e quasi velocissime faville
-9 mi si velar di sùbita distanza.
 </prompt>
 <error>
 Too few spaces: '4Assi,volgendosealanota,\n5fuvisoa me cantareessa substantia,\n6superlaqualduplolume se addua;\n\n7eeessaelaltere moverona sua dansa,\n8equasi velocissime favillas\n9misevelar de subito distantia.'
 </error>
 </query>
 <query>
+<info>[Paradiso Canto 7] 7/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
+
+7 ed essa e l’altre mossero a sua danza,
+8 e quasi velocissime faville
+9 mi si velar di sùbita distanza.
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
 <info>[Paradiso Canto 7] 10/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 10 Io dubitava e dicea ‘Dille, dille!’
 11 fra me, ‘dille’ dicea, ‘a la mia donna
 12 che mi diseta con le dolci stille’.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10Io dubitava e diceva ‘Dicele, dicele!’\n11inter me, ‘dicele’ diceva, ‘a la mea domina\n12que me dissetasse cum le dulci stillas’."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 10 Io dubitava e diceva ‘Dice, dice!’
 11 inter me, ‘dice’ diceva, ‘a la mea femina
@@ -74,7 +57,7 @@ safety_ratings {
 </query>
 <query>
 <info>[Paradiso Canto 7] 13/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 13 Ma quella reverenza che s’indonna
@@ -94,24 +77,38 @@ Please translate each line literally into Interlingua.
 16 Poco sofferse me cotal Beatrice
 17 e cominciò, raggiandomi d’un riso
 18 tal, che nel foco faria l’uom felice:
+</prompt>
+<result>
+16 Poco suffreva me cotal Beatrice
+17 e comenciava, radiante me de un riso
+18 tal, que in le foco facerea le homine felice:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 19/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 19 «Secondo mio infallibile avviso,
 20 come giusta vendetta giustamente
 21 punita fosse, t’ha in pensier miso;
+</prompt>
+<result>
+19 «Secundo mi infallibile aviso,
+20 como justa vendetta justamente
+21 punitate fosse, te ha in pensamento misso;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 22/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 22 ma io ti solverò tosto la mente;
 23 e tu ascolta, ché le mie parole
 24 di gran sentenza ti faran presente.
 </prompt>
 <result>
-16 Poco suffreva me cotal Beatrice
-17 e comenciava, radiante me de un riso
-18 tal, que in le foco facerea le homine felice:
-
-19 «Secundo mi infallibile aviso,
-20 como justa vendetta justamente
-21 punitate fosse, te ha in pensamento misso;
-
 22 ma io te solvera tosto le mente;
 23 e tu ascolta, que le mie parolas
 24 de grande sententia te faran presente.
@@ -125,24 +122,38 @@ Please translate each line literally into Interlingua.
 25 Per non soffrire a la virtù che vole
 26 freno a suo prode, quell’ uom che non nacque,
 27 dannando sé, dannò tutta sua prole;
+</prompt>
+<result>
+25 Pro non suffrir a le virtute que vole
+26 freno a su pro, ille homine que non nasceva,
+27 damnante se, damnava tote su prole;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 28/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 28 onde l’umana specie inferma giacque
 29 giù per secoli molti in grande errore,
 30 fin ch’al Verbo di Dio discender piacque
+</prompt>
+<result>
+28 unde le specie human infirmo jaceva
+29 juso pro seculos multe in grande error,
+30 fin que al Verbo de Deo descender placeva
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 31/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 31 u’ la natura, che dal suo fattore
 32 s’era allungata, unì a sé in persona
 33 con l’atto sol del suo etterno amore.
 </prompt>
 <result>
-25 Pro non suffrir a le virtute que vole
-26 freno a su pro, ille homine que non nasceva,
-27 damnante se, damnava tote su prole;
-
-28 unde le specie human infirmo jaceva
-29 juso pro seculos multe in grande error,
-30 fin que al Verbo de Deo descender placeva
-
 31 ubi le natura, que del su factor
 32 se era allongate, univa a se in persona
 33 con le acto sol del su eterne amor.
@@ -156,16 +167,23 @@ Please translate each line literally into Interlingua.
 34 Or drizza il viso a quel ch’or si ragiona:
 35 questa natura al suo fattore unita,
 36 qual fu creata, fu sincera e buona;
+</prompt>
+<result>
+34 Ora driza le viso a que que ora se ragiona:
+35 iste natura a su factor unite,
+36 qual esseva create, esseva sincere e bone;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 37/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 37 ma per sé stessa pur fu ella sbandita
 38 di paradiso, però che si torse
 39 da via di verità e da sua vita.
 </prompt>
 <result>
-34 Ora driza le viso a que que ora se ragiona:
-35 iste natura a su factor unite,
-36 qual esseva create, esseva sincere e bone;
-
 37 ma pro se ipse pur esseva illa sbandite
 38 de paradiso, pro que se torceva
 39 de via de veritate e de su vita.
@@ -179,16 +197,23 @@ Please translate each line literally into Interlingua.
 40 La pena dunque che la croce porse
 41 s’a la natura assunta si misura,
 42 nulla già mai sì giustamente morse;
+</prompt>
+<result>
+40 Le pena dunque que le cruce porgeva
+41 se a le natura assumite se mesura,
+42 nulla jam mais si justamente mordeva;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 43/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 43 e così nulla fu di tanta ingiura,
 44 guardando a la persona che sofferse,
 45 in che era contratta tal natura.
 </prompt>
 <result>
-40 Le pena dunque que le cruce porgeva
-41 se a le natura assumite se mesura,
-42 nulla jam mais si justamente mordeva;
-
 43 e assi nulla esseva de tanto injuria,
 44 guardante a le persona que suffreva,
 45 in que esseva contracte tal natura.
@@ -241,7 +266,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Paradiso Canto 7] 55/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 55 Tu dici: “Ben discerno ciò ch’i’ odo;
@@ -270,7 +295,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Paradiso Canto 7] 61/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 61 Veramente, però ch’a questo segno
@@ -329,7 +354,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Paradiso Canto 7] 73/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 73 Più l’è conforme, e però più le piace;
@@ -343,7 +368,7 @@ finish_reason: OTHER
 </query>
 <query>
 <info>[Paradiso Canto 7] 76/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 76 Di tutte queste dote s’avvantaggia
@@ -363,16 +388,23 @@ Please translate each line literally into Interlingua.
 79 Solo il peccato è quel che la disfranca
 80 e falla dissimìle al sommo bene,
 81 per che del lume suo poco s’imbianca;
+</prompt>
+<result>
+79 Solmente le peccato es illo que la disfranca
+80 e la face dissimile al summe bene,
+81 pro que de su lumine poco se imbianca;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 82/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 82 e in sua dignità mai non rivene,
 83 se non rïempie, dove colpa vòta,
 84 contra mal dilettar con giuste pene.
 </prompt>
 <result>
-79 Solmente le peccato es illo que la disfranca
-80 e la face dissimile al summe bene,
-81 pro que de su lumine poco se imbianca;
-
 82 e in su dignitate nunquam retorna,
 83 si non reimple, ubi culpa evacua,
 84 contra mal delectar con juste penas.
@@ -380,20 +412,12 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Paradiso Canto 7] 85/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 85 Vostra natura, quando peccò tota
 86 nel seme suo, da queste dignitadi,
 87 come di paradiso, fu remota;
-
-88 né ricovrar potiensi, se tu badi
-89 ben sottilmente, per alcuna via,
-90 sanza passar per un di questi guadi:
-
-91 o che Dio solo per sua cortesia
-92 dimesso avesse, o che l’uom per sé isso
-93 avesse sodisfatto a sua follia.
 </prompt>
 <error>
 index: 0
@@ -401,8 +425,34 @@ finish_reason: OTHER
 </error>
 </query>
 <query>
+<info>[Paradiso Canto 7] 88/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
+
+88 né ricovrar potiensi, se tu badi
+89 ben sottilmente, per alcuna via,
+90 sanza passar per un di questi guadi:
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 7] 91/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
+
+91 o che Dio solo per sua cortesia
+92 dimesso avesse, o che l’uom per sé isso
+93 avesse sodisfatto a sua follia.
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
 <info>[Paradiso Canto 7] 94/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 94 Ficca mo l’occhio per entro l’abisso
@@ -416,16 +466,12 @@ finish_reason: OTHER
 </query>
 <query>
 <info>[Paradiso Canto 7] 97/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 97 Non potea l’uomo ne’ termini suoi
 98 mai sodisfar, per non potere ir giuso
 99 con umiltate obedïendo poi,
-
-100 quanto disobediendo intese ir suso;
-101 e questa è la cagion per che l’uom fue
-102 da poter sodisfar per sé dischiuso.
 </prompt>
 <error>
 index: 0
@@ -433,8 +479,21 @@ finish_reason: OTHER
 </error>
 </query>
 <query>
+<info>[Paradiso Canto 7] 100/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
+
+100 quanto disobediendo intese ir suso;
+101 e questa è la cagion per che l’uom fue
+102 da poter sodisfar per sé dischiuso.
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
 <info>[Paradiso Canto 7] 103/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 103 Dunque a Dio convenia con le vie sue
@@ -447,38 +506,39 @@ Too few spaces: '103 Dunqueadioconvenievaqueleconlesviasuas\n104 repararelhomosu
 </query>
 <query>
 <info>[Paradiso Canto 7] 106/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 106 Ma perché l’ovra tanto è più gradita
 107 da l’operante, quanto più appresenta
 108 de la bontà del core ond’ ell’ è uscita,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 7] 109/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 109 la divina bontà che ’l mondo imprenta,
 110 di proceder per tutte le sue vie,
 111 a rilevarvi suso, fu contenta.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
 <info>[Paradiso Canto 7] 112/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 112 Né tra l’ultima notte e ’l primo die
 113 sì alto o sì magnifico processo,
 114 o per l’una o per l’altra, fu o fie:
-
-115 ché più largo fu Dio a dar sé stesso
-116 per far l’uom sufficiente a rilevarsi,
-117 che s’elli avesse sol da sé dimesso;
-
-118 e tutti li altri modi erano scarsi
-119 a la giustizia, se ’l Figliuol di Dio
-120 non fosse umilïato ad incarnarsi.
 </prompt>
 <error>
 index: 0
@@ -486,8 +546,34 @@ finish_reason: OTHER
 </error>
 </query>
 <query>
+<info>[Paradiso Canto 7] 115/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
+
+115 ché più largo fu Dio a dar sé stesso
+116 per far l’uom sufficiente a rilevarsi,
+117 che s’elli avesse sol da sé dimesso;
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 7] 118/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
+
+118 e tutti li altri modi erano scarsi
+119 a la giustizia, se ’l Figliuol di Dio
+120 non fosse umilïato ad incarnarsi.
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
 <info>[Paradiso Canto 7] 121/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 121 Or per empierti bene ogne disio,
@@ -507,16 +593,23 @@ Please translate each line literally into Interlingua.
 124 Tu dici: “Io veggio l’acqua, io veggio il foco,
 125 l’aere e la terra e tutte lor misture
 126 venire a corruzione, e durar poco;
+</prompt>
+<result>
+124 Tu dice: “Io video le aqua, io video le foco,
+125 le aere e le terra e tote lor mixturas
+126 venir a corruption, e durar poco;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 127/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 127 e queste cose pur furon creature;
 128 per che, se ciò ch’è detto è stato vero,
 129 esser dovrien da corruzion sicure”.
 </prompt>
 <result>
-124 Tu dice: “Io video le aqua, io video le foco,
-125 le aere e le terra e tote lor mixturas
-126 venir a corruption, e durar poco;
-
 127 e iste cosas pur esseva creaturas;
 128 per que, si cio que es dicite es ver,
 129 esser deberea da corruption secur”.
@@ -530,16 +623,23 @@ Please translate each line literally into Interlingua.
 130 Li angeli, frate, e ’l paese sincero
 131 nel qual tu se’, dir si posson creati,
 132 sì come sono, in loro essere intero;
+</prompt>
+<result>
+130 Le angelos, frate, e le pais sincere
+131 in le qual tu es, pote esser dicite create,
+132 si como son, in lor esser integre;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 133/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 133 ma li alimenti che tu hai nomati
 134 e quelle cose che di lor si fanno
 135 da creata virtù sono informati.
 </prompt>
 <result>
-130 Le angelos, frate, e le pais sincere
-131 in le qual tu es, pote esser dicite create,
-132 si como son, in lor esser integre;
-
 133 ma le alimentos que tu ha nominate
 134 e ille cosas que de illos se face
 135 per create virtute son informate.
@@ -547,17 +647,13 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Paradiso Canto 7] 136/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 136 Creata fu la materia ch’elli hanno;
 137 creata fu la virtù informante
 138 in queste stelle che ’ntorno a lor vanno.
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-</error>
 <result>
 136 Create esseva le materia que illes habe;
 137 create esseva le virtute informante
@@ -572,16 +668,23 @@ Please translate each line literally into Interlingua.
 139 L’anima d’ogne bruto e de le piante
 140 di complession potenzïata tira
 141 lo raggio e ’l moto de le luci sante;
+</prompt>
+<result>
+139 Le anima de omne bruto e del plantas
+140 de complexion potentiate tira
+141 le radio e le movimento del luces sancte;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 142/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 142 ma vostra vita sanza mezzo spira
 143 la somma beninanza, e la innamora
 144 di sé sì che poi sempre la disira.
 </prompt>
 <result>
-139 Le anima de omne bruto e del plantas
-140 de complexion potentiate tira
-141 le radio e le movimento del luces sancte;
-
 142 ma vostre vita sin medio spira
 143 le summa benignitate, e le innamora
 144 de se si que postea semper le desira.
@@ -589,18 +692,27 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Paradiso Canto 7] 145/148</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 145 E quinci puoi argomentare ancora
 146 vostra resurrezion, se tu ripensi
 147 come l’umana carne fessi allora
-
-148 che li primi parenti intrambo fensi».
 </prompt>
 <error>
 index: 0
 finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 7] 148/148</info>
+<prompt>
+Please translate each line literally into Interlingua.
+
+148 che li primi parenti intrambo fensi».
+</prompt>
+<error>
+(no result)
 </error>
 </query>
 </queries>

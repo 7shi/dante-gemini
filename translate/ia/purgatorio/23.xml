@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="45">
 <query>
 <info>[Purgatorio Canto 23] 1/133</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Interlingua.
 1 Mentre che li occhi per la fronda verde
 2 ficcava ïo sì come far suole
 3 chi dietro a li uccellin sua vita perde,
+</prompt>
+<result>
+1 Dumque li oculos pro le fronde verde
+2 figeava io sí como facer sole
+3 qui retro a li aviculos su vita perde,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 4/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 4 lo più che padre mi dicea: «Figliuole,
 5 vienne oramai, ché ’l tempo che n’è imposto
 6 più utilmente compartir si vuole».
 </prompt>
 <result>
-1 Dumque li oculos pro le fronde verde
-2 figeava io sí como facer sole
-3 qui retro a li aviculos su vita perde,
-
 4 lo piú que patre mi diceva: «Figliolo,
 5 veni horamai, que le tempore que ne es imponite
 6 plus utilmente compartir se vole».
@@ -40,7 +47,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Purgatorio Canto 23] 10/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 10 Ed ecco piangere e cantar s’udìe
@@ -54,7 +61,7 @@ finish_reason: OTHER
 </query>
 <query>
 <info>[Purgatorio Canto 23] 13/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 13 «O dolce padre, che è quel ch’i’ odo?»,
@@ -67,25 +74,29 @@ Too few spaces: '13 «O dulcepatre, queesqueloqueioaudi?»,\n14 comenciavoio; ee
 </query>
 <query>
 <info>[Purgatorio Canto 23] 16/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 16 Sì come i peregrin pensosi fanno,
 17 giugnendo per cammin gente non nota,
 18 che si volgono ad essa e non restanno,
+</prompt>
+<result>
+16 Sicome i peregrinos pensosos facen,
+17 giungendo per cammino gente non cognoscite,
+18 que se volven a illas e non remanen,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 19/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 19 così di retro a noi, più tosto mota,
 20 venendo e trapassando ci ammirava
 21 d’anime turba tacita e devota.
 </prompt>
-<error result="true">
-Too few spaces: '16 Sicomeiliperegrinspensativosfanno,\n17 giungendopercammino gente non nota,\n18 quesivolgoneadessaenonrestanno,\n\n19 cosidiretranoin,plustostomoto,\n20 venendoetrapasandocinamirava\n21 danimeturbatacitaedevota.'
-</error>
 <result>
-16 Sicome i peregrinos pensosos facen,
-17 giungendo per cammino gente non cognoscite,
-18 que se volven a illas e non remanen,
-
 19 cosí de retro a nos, piú tosto muta,
 20 veniente e transpassante nos admirava
 21 de animas turba tacite e devote.
@@ -100,32 +111,6 @@ Please translate each line literally into Interlingua.
 23 palida ne la faccia, e tanto scema
 24 che da l’ossa la pelle s’informava.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "22 In le oculos era chascun obscur e cave,\n23 pallide in le facie, e tanto sceme\n24 que del ossa le pelle se informava."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 22 In le oculos era chascun obscur e cave,
 23 pallide in le facie, e tanto sceme
@@ -155,16 +140,23 @@ Please translate each line literally into Interlingua.
 28 Io dicea fra me stesso pensando: ‘Ecco
 29 la gente che perdé Ierusalemme,
 30 quando Maria nel figlio diè di becco!’
+</prompt>
+<result>
+28 Io diceva inter me mesme pensante: ‘Ecco
+29 le gente que perdeva Ierusalem,
+30 quando Maria in le filio dava de becco!’
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 31/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 31 Parean l’occhiaie anella sanza gemme:
 32 chi nel viso de li uomini legge ‘omo’
 33 ben avria quivi conosciuta l’emme.
 </prompt>
 <result>
-28 Io diceva inter me mesme pensante: ‘Ecco
-29 le gente que perdeva Ierusalem,
-30 quando Maria in le filio dava de becco!’
-
 31 Pareva le occhialie anellos sin gemmas:
 32 qui in le viso del homines lege ‘homo’
 33 ben haberea hic cognoscite le emme.
@@ -178,24 +170,38 @@ Please translate each line literally into Interlingua.
 34 Chi crederebbe che l’odor d’un pomo
 35 sì governasse, generando brama,
 36 e quel d’un’acqua, non sappiendo como?
+</prompt>
+<result>
+34 Qui crederea que le odor de un pomo
+35 sí governava, generante brama,
+36 e ille de un aqua, non sapente como?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 37/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 37 Già era in ammirar che sì li affama,
 38 per la cagione ancor non manifesta
 39 di lor magrezza e di lor trista squama,
+</prompt>
+<result>
+37 Iam era in admirar que sí los affama,
+38 pro le cagione ancora non manifesta
+39 de lor magreza e de lor triste squama,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 40/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 40 ed ecco del profondo de la testa
 41 volse a me li occhi un’ombra e guardò fiso;
 42 poi gridò forte: «Qual grazia m’è questa?».
 </prompt>
 <result>
-34 Qui crederea que le odor de un pomo
-35 sí governava, generante brama,
-36 e ille de un aqua, non sapente como?
-
-37 Iam era in admirar que sí los affama,
-38 pro le cagione ancora non manifesta
-39 de lor magreza e de lor triste squama,
-
 40 e ecco del profundo del testa
 41 volveva a me le oculos un umbra e guardava fixemente;
 42 postea clamava forte: «Qual gratia me es iste?».
@@ -203,7 +209,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Purgatorio Canto 23] 43/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 43 Mai non l’avrei riconosciuto al viso;
@@ -238,16 +244,23 @@ Please translate each line literally into Interlingua.
 49 «Deh, non contendere a l’asciutta scabbia
 50 che mi scolora», pregava, «la pelle,
 51 né a difetto di carne ch’io abbia;
+</prompt>
+<result>
+49 «Ah, non contender al sicce scabia
+50 que me discolora», pregava, «le pelle,
+51 ni a defecto de carne que io habe;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 52/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 52 ma dimmi il ver di te, dì chi son quelle
 53 due anime che là ti fanno scorta;
 54 non rimaner che tu non mi favelle!».
 </prompt>
 <result>
-49 «Ah, non contender al sicce scabia
-50 que me discolora», pregava, «le pelle,
-51 ni a defecto de carne que io habe;
-
 52 ma dic me le veritate de te, dic qui son illas
 53 duo animas que ibi te face scorta;
 54 non remaner que tu non me favella!».
@@ -270,7 +283,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Purgatorio Canto 23] 58/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 58 Però mi dì, per Dio, che sì vi sfoglia;
@@ -299,7 +312,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Purgatorio Canto 23] 64/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 64 Tutta esta gente che piangendo canta
@@ -334,16 +347,23 @@ Please translate each line literally into Interlingua.
 70 E non pur una volta, questo spazzo
 71 girando, si rinfresca nostra pena:
 72 io dico pena, e dovria dir sollazzo,
+</prompt>
+<result>
+70 E non pur un vice, iste spatio
+71 girante, se refrescara nostre pena:
+72 io dice pena, e deberea dicer solatio,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 73/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 73 ché quella voglia a li alberi ci mena
 74 che menò Cristo lieto a dire ‘Elì’,
 75 quando ne liberò con la sua vena».
 </prompt>
 <result>
-70 E non pur un vice, iste spatio
-71 girante, se refrescara nostre pena:
-72 io dice pena, e deberea dicer solatio,
-
 73 que ille desiro a li arbores nos mena
 74 que menava Christo liete a dicer ‘Eli’,
 75 quando nos liberava con su vena».
@@ -351,7 +371,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Purgatorio Canto 23] 76/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 76 E io a lui: «Forese, da quel dì
@@ -365,20 +385,29 @@ finish_reason: OTHER
 </query>
 <query>
 <info>[Purgatorio Canto 23] 79/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 79 Se prima fu la possa in te finita
 80 di peccar più, che sovvenisse l’ora
 81 del buon dolor ch’a Dio ne rimarita,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 82/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 82 come se’ tu qua sù venuto ancora?
 83 Io ti credea trovar là giù di sotto,
 84 dove tempo per tempo si ristora».
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -419,16 +448,23 @@ Please translate each line literally into Interlingua.
 91 Tanto è a Dio più cara e più diletta
 92 la vedovella mia, che molto amai,
 93 quanto in bene operare è più soletta;
+</prompt>
+<result>
+91 Tanto es a Deo plus cara e plus dilecte
+92 le viduetta mie, que multo amava,
+93 quanto in bene operar es plus solitari;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 94/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 94 ché la Barbagia di Sardigna assai
 95 ne le femmine sue più è pudica
 96 che la Barbagia dov’ io la lasciai.
 </prompt>
 <result>
-91 Tanto es a Deo plus cara e plus dilecte
-92 le viduetta mie, que multo amava,
-93 quanto in bene operar es plus solitari;
-
 94 que le Barbagia de Sardinia assai
 95 in le femininas su plus es pudic
 96 que le Barbagia ubi io le lassava.
@@ -442,42 +478,23 @@ Please translate each line literally into Interlingua.
 97 O dolce frate, che vuo’ tu ch’io dica?
 98 Tempo futuro m’è già nel cospetto,
 99 cui non sarà quest’ ora molto antica,
+</prompt>
+<result>
+97 O dulci fratre, que vole tu que io dica?
+98 Tempore futur es jam in le cospicere,
+99 cui non essera iste hora multo antique,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 100/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 100 nel qual sarà in pergamo interdetto
 101 a le sfacciate donne fiorentine
 102 l’andar mostrando con le poppe il petto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "97 O dulci fratre, que vole tu que io dica?\n98 Tempore futur es jam in le cospicere,\n99 cui non essera iste hora multo antique,\n\n100 in le qual essera in pergamo interdicte\n101 a le sfacciate femininas florentin\n102 le andar monstrar con le mammas le pectore."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-97 O dulci fratre, que vole tu que io dica?
-98 Tempore futur es jam in le cospicere,
-99 cui non essera iste hora multo antique,
-
 100 in le qual essera in pergamo interdicte
 101 a le sfacciate femininas florentin
 102 le andar monstrar con le mammas le pectore.
@@ -491,24 +508,38 @@ Please translate each line literally into Interlingua.
 103 Quai barbare fuor mai, quai saracine,
 104 cui bisognasse, per farle ir coperte,
 105 o spiritali o altre discipline?
+</prompt>
+<result>
+103 Qual barbaros esseva mai, qual saracenos,
+104 a qui bisognava, pro facer los ir coperte,
+105 o spiritual o altere disciplinas?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 106/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 106 Ma se le svergognate fosser certe
 107 di quel che ’l ciel veloce loro ammanna,
 108 già per urlare avrian le bocche aperte;
+</prompt>
+<result>
+106 Ma si le svergogniate esserea certe
+107 de illo que le celo veloce lor prepara,
+108 jam pro ulular haberea le bocas aperte;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 109/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 109 ché, se l’antiveder qui non m’inganna,
 110 prima fien triste che le guance impeli
 111 colui che mo si consola con nanna.
 </prompt>
 <result>
-103 Qual barbaros esseva mai, qual saracenos,
-104 a qui bisognava, pro facer los ir coperte,
-105 o spiritual o altere disciplinas?
-
-106 Ma si le svergogniate esserea certe
-107 de illo que le celo veloce lor prepara,
-108 jam pro ulular haberea le bocas aperte;
-
 109 que, si le previder hic non me inganna,
 110 prime seran triste que le genas impilia
 111 illo qui nunc se consola con nanna.
@@ -531,7 +562,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Purgatorio Canto 23] 115/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 115 Per ch’io a lui: «Se tu riduci a mente
@@ -544,25 +575,29 @@ Too few spaces: '115 Proqueioaluy:"Setureduceamente\n116 qualfostumeco,equaleiot
 </query>
 <query>
 <info>[Purgatorio Canto 23] 118/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 118 Di quella vita mi volse costui
 119 che mi va innanzi, l’altr’ ier, quando tonda
 120 vi si mostrò la suora di colui»,
+</prompt>
+<result>
+118 De ille vita me retornava iste
+119 qui me precedeva, le altere heri, quando rotunde
+120 se vos monstrava le soror de ille»,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 121/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 121 e ’l sol mostrai; «costui per la profonda
 122 notte menato m’ha d’i veri morti
 123 con questa vera carne che ’l seconda.
 </prompt>
-<error result="true">
-Too few spaces: "118 Dequellavitamevolsecostuy\n119 quemivainnanzi,laltrier,quandotota\n120 visimostravalasororadiceluy»,\n\n121 e'lsolmostravi;«costuyperlaprofunda\n122 noctemenatom'hadeiverimorti\n123 conquestaveracarneque'lseconda."
-</error>
 <result>
-118 De ille vita me retornava iste
-119 qui me precedeva, le altere heri, quando rotunde
-120 se vos monstrava le soror de ille»,
-
 121 e le sol monstrava; «iste per le profunde
 122 nocte me ha conducite de le ver mortes
 123 con iste ver carne que le secunde.
@@ -570,17 +605,13 @@ Too few spaces: "118 Dequellavitamevolsecostuy\n119 quemivainnanzi,laltrier,quan
 </query>
 <query>
 <info>[Purgatorio Canto 23] 124/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 124 Indi m’han tratto sù li suoi conforti,
 125 salendo e rigirando la montagna
 126 che drizza voi che ’l mondo fece torti.
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-</error>
 <result>
 124 Inde me ha tractate sur li su conforto,
 125 ascendente e regirante le montania
@@ -610,14 +641,21 @@ Please translate each line literally into Interlingua.
 130 Virgilio è questi che così mi dice»,
 131 e addita’lo; «e quest’ altro è quell’ ombra
 132 per cuï scosse dianzi ogne pendice
-
-133 lo vostro regno, che da sé lo sgombra».
 </prompt>
 <result>
 130 Virgilio es iste que assi me dice»,
 131 e lo indicava; «e iste altere es ille umbra
 132 per qui tremeva antea omne pendice
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 133/133</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
+133 lo vostro regno, che da sé lo sgombra».
+</prompt>
+<result>
 133 le vestre regno, que de se lo evacua».
 </result>
 </query>

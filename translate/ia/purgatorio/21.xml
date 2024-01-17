@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="33">
+<queries count="47">
 <query>
 <info>[Purgatorio Canto 21] 1/136</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Interlingua.
 1 La sete natural che mai non sazia
 2 se non con l’acqua onde la femminetta
 3 samaritana domandò la grazia,
+</prompt>
+<result>
+1 Le sete natural que nunquam se sacia
+2 si non con le aqua de que le feminette
+3 samaritana demandava le gratia,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 4/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 4 mi travagliava, e pungeami la fretta
 5 per la ’mpacciata via dietro al mio duca,
 6 e condoleami a la giusta vendetta.
 </prompt>
 <result>
-1 Le sete natural que nunquam se sacia
-2 si non con le aqua de que le feminette
-3 samaritana demandava le gratia,
-
 4 me travagliava, e pungeva me le fretta
 5 pro le impacciate via retro a mi duce,
 6 e condoleva me a le juste vendetta.
@@ -31,36 +38,46 @@ Please translate each line literally into Interlingua.
 7 Ed ecco, sì come ne scrive Luca
 8 che Cristo apparve a’ due ch’erano in via,
 9 già surto fuor de la sepulcral buca,
-
-10 ci apparve un’ombra, e dietro a noi venìa,
-11 dal piè guardando la turba che giace;
-12 né ci addemmo di lei, sì parlò pria,
-
-13 dicendo: «O frati miei, Dio vi dea pace».
 </prompt>
 <result>
 7 E ecce, si como ne scribe Luca
 8 que Christo appareva a le duo que era in via,
 9 jam surto foras del sepulcral buca,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 10/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
+10 ci apparve un’ombra, e dietro a noi venìa,
+11 dal piè guardando la turba che giace;
+12 né ci addemmo di lei, sì parlò pria,
+</prompt>
+<result>
 10 nos appareva un umbra, e retro a nos veniva,
 11 del pede guardante le turba que jace;
 12 ne nos addeva de illa, si parlava pria,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 13/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
+13 dicendo: «O frati miei, Dio vi dea pace».
+</prompt>
+<result>
 13 dicente: «O fratres mie, Deo vos dea pace».
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 21] 14/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 14 Noi ci volgemmo sùbiti, e Virgilio
 15 rendéli ’l cenno ch’a ciò si conface.
-
-16 Poi cominciò: «Nel beato concilio
-17 ti ponga in pace la verace corte
-18 che me rilega ne l’etterno essilio».
 </prompt>
 <error>
 index: 0
@@ -68,18 +85,27 @@ finish_reason: OTHER
 </error>
 </query>
 <query>
+<info>[Purgatorio Canto 21] 16/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
+
+16 Poi cominciò: «Nel beato concilio
+17 ti ponga in pace la verace corte
+18 che me rilega ne l’etterno essilio».
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
 <info>[Purgatorio Canto 21] 19/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 19 «Come!», diss’ elli, e parte andavam forte:
 20 «se voi siete ombre che Dio sù non degni,
 21 chi v’ha per la sua scala tanto scorte?».
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-</error>
 <result>
 19 «Como!», diceva ille, e parte andavamo forte:
 20 «si vos es umbras que Deo sursum non digna,
@@ -103,26 +129,29 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Purgatorio Canto 21] 25/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 25 Ma perché lei che dì e notte fila
 26 non li avea tratta ancora la conocchia
 27 che Cloto impone a ciascuno e compila,
+</prompt>
+<result>
+25 Ma perque illa que die e nocte fila
+26 non los habeva trahite ancora le conocchia
+27 que Cloto impone a cata uno e compila,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 28/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 28 l’anima sua, ch’è tua e mia serocchia,
 29 venendo sù, non potea venir sola,
 30 però ch’al nostro modo non adocchia.
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-</error>
 <result>
-25 Ma perque illa que die e nocte fila
-26 non los habeva trahite ancora le conocchia
-27 que Cloto impone a cata uno e compila,
-
 28 le anima sue, que es tue e mie serocchia,
 29 veniente sursum, non poteva venir sola,
 30 perque al nostre modo non adocchia.
@@ -137,32 +166,6 @@ Please translate each line literally into Interlingua.
 32 d’inferno per mostrarli, e mosterrolli
 33 oltre, quanto ’l potrà menar mia scola.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 Unde io fui trahite foras del ample gula\n32 de inferno pro monstrar los, e monstrara los\n33 ultra, quanto lo potera menar mie schola."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 31 Unde io fui trahite foras del ample gula
 32 de inferno pro monstrar los, e monstrara los
@@ -216,7 +219,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Purgatorio Canto 21] 43/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 43 Libero è qui da ogne alterazione:
@@ -236,24 +239,38 @@ Please translate each line literally into Interlingua.
 46 Per che non pioggia, non grando, non neve,
 47 non rugiada, non brina più sù cade
 48 che la scaletta di tre gradi breve;
+</prompt>
+<result>
+46 Per que non pluvia, non grandine, non nive,
+47 non rosada, non brina plus sur cade
+48 que le scaletta de tres grados breve;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 49/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 49 nuvole spesse non paion né rade,
 50 né coruscar, né figlia di Taumante,
 51 che di là cangia sovente contrade;
+</prompt>
+<result>
+49 nubes spesse non pare ni rade,
+50 ni coruscar, ni filia de Taumante,
+51 que de la cambia sovente contradas;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 52/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 52 secco vapor non surge più avante
 53 ch’al sommo d’i tre gradi ch’io parlai,
 54 dov’ ha ’l vicario di Pietro le piante.
 </prompt>
 <result>
-46 Per que non pluvia, non grandine, non nive,
-47 non rosada, non brina plus sur cade
-48 que le scaletta de tres grados breve;
-
-49 nubes spesse non pare ni rade,
-50 ni coruscar, ni filia de Taumante,
-51 que de la cambia sovente contradas;
-
 52 sicco vapor non surge plus avanti
 53 que al summo del tres grados que io parlava,
 54 ubi ha le vicario de Petro le plantas.
@@ -291,7 +308,7 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Purgatorio Canto 21] 61/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 61 De la mondizia sol voler fa prova,
@@ -304,16 +321,13 @@ Too few spaces: '61 Delamunditiasolvolerfacprova,\n62 que,tottoliberoamutarconve
 </query>
 <query>
 <info>[Purgatorio Canto 21] 64/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 64 Prima vuol ben, ma non lascia il talento
 65 che divina giustizia, contra voglia,
 66 come fu al peccar, pone al tormento.
 </prompt>
-<error result="true">
-Too few spaces: '64 Primavolben,manonlassailtalento\n65 quedivinajustitia,contravoglia,\n66 comefuapeccar,ponealtormento.'
-</error>
 <result>
 64 Prime vole ben, ma non lassa le talento
 65 que divin justitia, contra voglia,
@@ -322,16 +336,12 @@ Too few spaces: '64 Primavolben,manonlassailtalento\n65 quedivinajustitia,contra
 </query>
 <query>
 <info>[Purgatorio Canto 21] 67/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 67 E io, che son giaciuto a questa doglia
 68 cinquecent’ anni e più, pur mo sentii
 69 libera volontà di miglior soglia:
-
-70 però sentisti il tremoto e li pii
-71 spiriti per lo monte render lode
-72 a quel Segnor, che tosto sù li ’nvii».
 </prompt>
 <error>
 index: 0
@@ -339,17 +349,27 @@ finish_reason: OTHER
 </error>
 </query>
 <query>
+<info>[Purgatorio Canto 21] 70/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
+
+70 però sentisti il tremoto e li pii
+71 spiriti per lo monte render lode
+72 a quel Segnor, che tosto sù li ’nvii».
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
 <info>[Purgatorio Canto 21] 73/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 73 Così ne disse; e però ch’el si gode
 74 tanto del ber quant’ è grande la sete,
 75 non saprei dir quant’ el mi fece prode.
 </prompt>
-<error result="true">
-Too few spaces: '73Cossineidiceva;eperoqueleillesegaudeva\n74tantodelbenequantoesgrandelasite,\n75nonsapereidirequantoillomefeceutile.'
-</error>
 <result>
 73 Cossi ne diceva; e perque ille se gaude
 74 tanto del ben quanto es grande le sete,
@@ -394,16 +414,23 @@ Please translate each line literally into Interlingua.
 82 «Nel tempo che ’l buon Tito, con l’aiuto
 83 del sommo rege, vendicò le fóra
 84 ond’ uscì ’l sangue per Giuda venduto,
+</prompt>
+<result>
+82 “In le tempore que le bon Tito, con le adjuta
+83 del supreme rege, vindicava le injurias
+84 de que exiva le sanguine per Juda vendite,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 85/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 85 col nome che più dura e più onora
 86 era io di là», rispuose quello spirto,
 87 «famoso assai, ma non con fede ancora.
 </prompt>
 <result>
-82 “In le tempore que le bon Tito, con le adjuta
-83 del supreme rege, vindicava le injurias
-84 de que exiva le sanguine per Juda vendite,
-
 85 con le nomine que plus dura e plus honora
 86 era io de la”, respondeva ille spirito,
 87 “famoso assai, ma non con fide ancora.
@@ -441,20 +468,29 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Purgatorio Canto 21] 94/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 94 Al mio ardor fuor seme le faville,
 95 che mi scaldar, de la divina fiamma
 96 onde sono allumati più di mille;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 97/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 97 de l’Eneïda dico, la qual mamma
 98 fummi, e fummi nutrice, poetando:
 99 sanz’ essa non fermai peso di dramma.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -474,20 +510,29 @@ Please translate each line literally into Interlingua.
 </query>
 <query>
 <info>[Purgatorio Canto 21] 103/136</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Interlingua.
 
 103 Volser Virgilio a me queste parole
 104 con viso che, tacendo, disse ‘Taci’;
 105 ma non può tutto la virtù che vuole;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 106/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 106 ché riso e pianto son tanto seguaci
 107 a la passion di che ciascun si spicca,
 108 che men seguon voler ne’ più veraci.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -498,16 +543,23 @@ Please translate each line literally into Interlingua.
 109 Io pur sorrisi come l’uom ch’ammicca;
 110 per che l’ombra si tacque, e riguardommi
 111 ne li occhi ove ’l sembiante più si ficca;
+</prompt>
+<result>
+109 Io pur sorrideva como le homine que face le signo del oculo;
+110 pro que le umbra se taceva, e me regardava
+111 in le oculos ubi le imagine se fixa plus;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 112/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 112 e «Se tanto labore in bene assommi»,
 113 disse, «perché la tua faccia testeso
 114 un lampeggiar di riso dimostrommi?».
 </prompt>
 <result>
-109 Io pur sorrideva como le homine que face le signo del oculo;
-110 pro que le umbra se taceva, e me regardava
-111 in le oculos ubi le imagine se fixa plus;
-
 112 e "Si tanto labor in bene tu accumula",
 113 diceva, "pro que tu facie justo nunc
 114 un fulgurar de riso me demonstrava?".
@@ -521,16 +573,23 @@ Please translate each line literally into Interlingua.
 115 Or son io d’una parte e d’altra preso:
 116 l’una mi fa tacer, l’altra scongiura
 117 ch’io dica; ond’ io sospiro, e sono inteso
+</prompt>
+<result>
+115 Ora io son de un parte e de altere prendite:
+116 le un me face tacer, le altere me adjura
+117 que io dice; unde io suspira, e son intendite
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 118/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
 118 dal mio maestro, e «Non aver paura»,
 119 mi dice, «di parlar; ma parla e digli
 120 quel ch’e’ dimanda con cotanta cura».
 </prompt>
 <result>
-115 Ora io son de un parte e de altere prendite:
-116 le un me face tacer, le altere me adjura
-117 que io dice; unde io suspira, e son intendite
-
 118 per mi maestro, e "Non haber paura",
 119 me dice, "de parlar; ma parla e dice li
 120 que ille demanda con tanto cura".
@@ -604,14 +663,21 @@ Please translate each line literally into Interlingua.
 133 Ed ei surgendo: «Or puoi la quantitate
 134 comprender de l’amor ch’a te mi scalda,
 135 quand’ io dismento nostra vanitate,
-
-136 trattando l’ombre come cosa salda».
 </prompt>
 <result>
 133 E ille surgendo: "Ora tu pote le quantitate
 134 comprender del amor que a te me scalda,
 135 quando io oblida nostre vanitate,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 136/136</info>
+<prompt>
+Please translate each line literally into Interlingua.
 
+136 trattando l’ombre come cosa salda».
+</prompt>
+<result>
 136 tractando le umbras como cosa solide".
 </result>
 </query>
