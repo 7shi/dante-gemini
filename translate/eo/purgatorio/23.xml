@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="45">
 <query>
 <info>[Purgatorio Canto 23] 1/133</info>
 <prompt>
@@ -8,12 +8,8 @@ Please translate literally into English and Esperanto.
 1 Mentre che li occhi per la fronda verde
 2 ficcava ïo sì come far suole
 3 chi dietro a li uccellin sua vita perde,
-
-4 lo più che padre mi dicea: «Figliuole,
-5 vienne oramai, ché ’l tempo che n’è imposto
-6 più utilmente compartir si vuole».
 </prompt>
-<result>
+<error>
 **English:**
 
 1 While I was fixing my eyes on the green leaves,
@@ -27,11 +23,22 @@ Please translate literally into English and Esperanto.
 
 1 Dum mi fiksigis la okulojn sur la verda frondo
 2 kiel faras tiu, kiu malŝparas sian vivon post la birdoj,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 4/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+4 lo più che padre mi dicea: «Figliuole,
+5 vienne oramai, ché ’l tempo che n’è imposto
+6 più utilmente compartir si vuole».
+</prompt>
+<error>
 3 mia patro diris al mi: "Filo,
 4 venu nun, ĉar la tempo, kiu estas destinita al ni,
 5 devas esti pli utile dividita."
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 23] 7/133</info>
@@ -56,7 +63,7 @@ Please translate literally into English and Esperanto.
 11 ‘Labïa mëa, Domine’ per modo
 12 tal, che diletto e doglia parturìe.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 10 And behold, weeping and singing were heard,
@@ -64,7 +71,8 @@ Please translate literally into English and Esperanto.
 12 that it produced both delight and sorrow.
 
 **Esperanto:**
-
+</error>
+<result>
 10 Kaj jen plori kaj kanti oni aŭdis
 11 "Labia mea, Domine" tiel,
 12 ke ĝi naskis kaj plezuron kaj doloron.
@@ -92,12 +100,8 @@ Please translate literally into English and Esperanto.
 16 Sì come i peregrin pensosi fanno,
 17 giugnendo per cammin gente non nota,
 18 che si volgono ad essa e non restanno,
-
-19 così di retro a noi, più tosto mota,
-20 venendo e trapassando ci ammirava
-21 d’anime turba tacita e devota.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 16 As thoughtful pilgrims do,
@@ -109,11 +113,23 @@ Please translate literally into English and Esperanto.
 21 marveling at us.
 
 **Esperanto:**
-
+</error>
+<result>
 16 Kiel faras la pensigaj pilgrimantoj,
 17 alvenante sur vojo inter nekonataj homoj,
 18 kiuj sin turnas al ili kaj ne haltas,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 19/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+19 così di retro a noi, più tosto mota,
+20 venendo e trapassando ci ammirava
+21 d’anime turba tacita e devota.
+</prompt>
+<result>
 19 tiel malantaŭ ni, pli rapide,
 20 venante kaj preterpasante nin, miris nin
 21 amaso da silentaj kaj devotaj animoj.
@@ -142,7 +158,7 @@ Please translate literally into English and Esperanto.
 26 Erisittone fosse fatto secco,
 27 per digiunar, quando più n’ebbe tema.
 </prompt>
-<result>
+<error>
 **English:**
 
 25 I do not believe that Erysichthon was made so thin-skinned
@@ -152,7 +168,7 @@ Please translate literally into English and Esperanto.
 
 25 Mi ne kredas, ke Erisiktono tiel maldikiĝis
 26 pro fastado, kiam li plej timis ĝin.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 23] 28/133</info>
@@ -162,12 +178,8 @@ Please translate literally into English and Esperanto.
 28 Io dicea fra me stesso pensando: ‘Ecco
 29 la gente che perdé Ierusalemme,
 30 quando Maria nel figlio diè di becco!’
-
-31 Parean l’occhiaie anella sanza gemme:
-32 chi nel viso de li uomini legge ‘omo’
-33 ben avria quivi conosciuta l’emme.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 28 I said to myself, thinking: "Behold
@@ -179,11 +191,23 @@ Please translate literally into English and Esperanto.
 33 would have recognized the letter M here.
 
 **Esperanto:**
-
+</error>
+<result>
 28 Mi diris al mi mem, pensante: "Jen
 29 la popolo, kiu perdis Jerusalemon,
 30 kiam Maria bekis sian filon!"
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 31/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+31 Parean l’occhiaie anella sanza gemme:
+32 chi nel viso de li uomini legge ‘omo’
+33 ben avria quivi conosciuta l’emme.
+</prompt>
+<result>
 31 La okulringojn ŝajnis ringoj sen gemoj:
 32 kiu legas "homo" en la vizaĝo de homoj
 33 bone ĉi tie rekonus la literon M.
@@ -197,16 +221,8 @@ Please translate literally into English and Esperanto.
 34 Chi crederebbe che l’odor d’un pomo
 35 sì governasse, generando brama,
 36 e quel d’un’acqua, non sappiendo como?
-
-37 Già era in ammirar che sì li affama,
-38 per la cagione ancor non manifesta
-39 di lor magrezza e di lor trista squama,
-
-40 ed ecco del profondo de la testa
-41 volse a me li occhi un’ombra e guardò fiso;
-42 poi gridò forte: «Qual grazia m’è questa?».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 34 Who would believe that the smell of an apple
@@ -222,15 +238,38 @@ Please translate literally into English and Esperanto.
 42 then he cried out loudly: "What grace is this for me?"
 
 **Esperanto:**
-
+</error>
+<result>
 34 Kiu kredus, ke la odoro de pomo
 35 tiel regis, generante deziron,
 36 kaj tiu de akvo, ne sciante kiel?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 37/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+37 Già era in ammirar che sì li affama,
+38 per la cagione ancor non manifesta
+39 di lor magrezza e di lor trista squama,
+</prompt>
+<result>
 37 Mi jam miris, ke tiel malsatigas ilin,
 38 pro la ankoraŭ nekonata kaŭzo
 39 de ilia maldikeco kaj de ilia malgaja skvamo,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 40/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+40 ed ecco del profondo de la testa
+41 volse a me li occhi un’ombra e guardò fiso;
+42 poi gridò forte: «Qual grazia m’è questa?».
+</prompt>
+<result>
 40 kaj jen el la profundo de la kapo
 41 ombro turnis al mi la okulojn kaj rigardis fikse;
 42 poste ĝi kriis laŭte: "Kia graco estas ĉi tiu por mi?"
@@ -245,7 +284,7 @@ Please translate literally into English and Esperanto.
 44 ma ne la voce sua mi fu palese
 45 ciò che l’aspetto in sé avea conquiso.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 43 I would never have recognized him by his face;
@@ -253,7 +292,8 @@ Please translate literally into English and Esperanto.
 45 what his appearance had conquered in itself.
 
 **Esperanto:**
-
+</error>
+<result>
 43 Mi neniam rekonus lin laŭ la vizaĝo;
 44 sed en lia voĉo estis al mi evidenta
 45 kion la aspekto en si mem estis venkinta.
@@ -281,12 +321,8 @@ Please translate literally into English and Esperanto.
 49 «Deh, non contendere a l’asciutta scabbia
 50 che mi scolora», pregava, «la pelle,
 51 né a difetto di carne ch’io abbia;
-
-52 ma dimmi il ver di te, dì chi son quelle
-53 due anime che là ti fanno scorta;
-54 non rimaner che tu non mi favelle!».
 </prompt>
-<result>
+<error>
 **English:**
 
 49 "Ah, do not begrudge the dry scab
@@ -300,11 +336,22 @@ Please translate literally into English and Esperanto.
 
 49 "Ho, ne kontraŭstaru al seka skabio
 50 kiu senkolorigas mian haŭton," li petegis, "nek al manko de karno, kiun mi havas;
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 52/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+52 ma dimmi il ver di te, dì chi son quelle
+53 due anime che là ti fanno scorta;
+54 non rimaner che tu non mi favelle!».
+</prompt>
+<error>
 51 sed diru al mi la veron pri vi, diru, kiuj estas tiuj
 52 du animoj, kiuj tie akompanas vin;
 54 ne haltu, ke vi ne parolu al mi!"
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 23] 55/133</info>
@@ -329,7 +376,7 @@ Please translate literally into English and Esperanto.
 59 non mi far dir mentr’ io mi maraviglio,
 60 ché mal può dir chi è pien d’altra voglia».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 58 But tell me, for God's sake, what so strips you;
@@ -337,7 +384,8 @@ Please translate literally into English and Esperanto.
 60 for he who is full of other desire can speak poorly.
 
 **Esperanto:**
-
+</error>
+<result>
 58 Sed diru al mi, je Dio, kiu tiel vin senfoliigas;
 59 ne igu min paroli dum mi miras,
 60 ĉar malbone povas paroli, kiu estas plena de alia deziro.
@@ -352,7 +400,7 @@ Please translate literally into English and Esperanto.
 62 cade vertù ne l’acqua e ne la pianta
 63 rimasa dietro ond’ io sì m’assottiglio.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 61 And he to me: "From the eternal counsel
@@ -360,7 +408,8 @@ Please translate literally into English and Esperanto.
 63 that remained behind, from which I so waste away.
 
 **Esperanto:**
-
+</error>
+<result>
 61 Kaj li al mi: "El la eterna konsilo
 62 falas virto en la akvon kaj en la planton
 63 restintan malantaŭe, de kie mi tiel maldikiĝas.
@@ -402,14 +451,23 @@ Please translate literally into English and Esperanto.
 70 E non pur una volta, questo spazzo
 71 girando, si rinfresca nostra pena:
 72 io dico pena, e dovria dir sollazzo,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 73/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 73 ché quella voglia a li alberi ci mena
 74 che menò Cristo lieto a dire ‘Elì’,
 75 quando ne liberò con la sua vena».
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -434,12 +492,8 @@ Please translate literally into English and Esperanto.
 79 Se prima fu la possa in te finita
 80 di peccar più, che sovvenisse l’ora
 81 del buon dolor ch’a Dio ne rimarita,
-
-82 come se’ tu qua sù venuto ancora?
-83 Io ti credea trovar là giù di sotto,
-84 dove tempo per tempo si ristora».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 79 If the power to sin more was ended in you
@@ -451,11 +505,23 @@ Please translate literally into English and Esperanto.
 84 where time is restored for time.
 
 **Esperanto:**
-
+</error>
+<result>
 79 Se antaŭe la povo peki finiĝis en vi
 80 ol memorigis la horo
 81 de la bona doloro, kiu reedzigas nin al Dio,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 82/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+82 come se’ tu qua sù venuto ancora?
+83 Io ti credea trovar là giù di sotto,
+84 dove tempo per tempo si ristora».
+</prompt>
+<result>
 82 kiel vi venis ĉi tien supren denove?
 83 Mi kredis trovi vin tie malsupre,
 84 kie tempo por tempo estas kompensata.
@@ -470,7 +536,7 @@ Please translate literally into English and Esperanto.
 86 a ber lo dolce assenzo d’i martìri
 87 la Nella mia con suo pianger dirotto.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 85 Whereupon he to me: "So quickly has Nella
@@ -478,7 +544,8 @@ Please translate literally into English and Esperanto.
 87 with her tearful lamentation.
 
 **Esperanto:**
-
+</error>
+<result>
 85 Kieli li al mi: "Tiel rapide min kondukis
 86 trinki la dolĉan absinton de la martiroj
 87 la mia Nella per sia plorado."
@@ -506,14 +573,23 @@ Please translate literally into English and Esperanto.
 91 Tanto è a Dio più cara e più diletta
 92 la vedovella mia, che molto amai,
 93 quanto in bene operare è più soletta;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 94/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 94 ché la Barbagia di Sardigna assai
 95 ne le femmine sue più è pudica
 96 che la Barbagia dov’ io la lasciai.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -524,38 +600,8 @@ Please translate literally into English and Esperanto.
 97 O dolce frate, che vuo’ tu ch’io dica?
 98 Tempo futuro m’è già nel cospetto,
 99 cui non sarà quest’ ora molto antica,
-
-100 nel qual sarà in pergamo interdetto
-101 a le sfacciate donne fiorentine
-102 l’andar mostrando con le poppe il petto.
 </prompt>
 <error result="true">
-index: 0
-content {
-  parts {
-    text: "**English:**\n\n97 O sweet brother, what do you want me to say?\n98 I already see before me a future time,\n99 to which this hour will not be very ancient,\n\n100 in which it will be forbidden from the pulpit\n101 to the shameless Florentine women\n102 to go about showing their breasts with their bodices.\n\n**Esperanto:**\n\n97 Ho, dolĉa frato, kion vi volas, ke mi diru?\n98 Estonta tempo jam estas antaŭ mi,\n99 al kiu ĉi tiu horo ne estos tre antikva,\n\n100 en kiu estos malpermesite de la katedro\n101 al la senhontaj florentinaj virinoj\n102 iri montrante per la mamoj la bruston."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
 **English:**
 
 97 O sweet brother, what do you want me to say?
@@ -567,11 +613,23 @@ safety_ratings {
 102 to go about showing their breasts with their bodices.
 
 **Esperanto:**
-
+</error>
+<result>
 97 Ho, dolĉa frato, kion vi volas, ke mi diru?
 98 Estonta tempo jam estas antaŭ mi,
 99 al kiu ĉi tiu horo ne estos tre antikva,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 100/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+100 nel qual sarà in pergamo interdetto
+101 a le sfacciate donne fiorentine
+102 l’andar mostrando con le poppe il petto.
+</prompt>
+<result>
 100 en kiu estos malpermesite de la katedro
 101 al la senhontaj florentinaj virinoj
 102 iri montrante per la mamoj la bruston.
@@ -585,18 +643,36 @@ Please translate literally into English and Esperanto.
 103 Quai barbare fuor mai, quai saracine,
 104 cui bisognasse, per farle ir coperte,
 105 o spiritali o altre discipline?
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 106/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 106 Ma se le svergognate fosser certe
 107 di quel che ’l ciel veloce loro ammanna,
 108 già per urlare avrian le bocche aperte;
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 109/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 109 ché, se l’antiveder qui non m’inganna,
 110 prima fien triste che le guance impeli
 111 colui che mo si consola con nanna.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -608,7 +684,7 @@ Please translate literally into English and Esperanto.
 113 vedi che non pur io, ma questa gente
 114 tutta rimira là dove ’l sol veli».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 112 Ah, brother, now do not hide yourself from me any more!
@@ -616,7 +692,8 @@ Please translate literally into English and Esperanto.
 114 are looking there where the sun is setting.
 
 **Esperanto:**
-
+</error>
+<result>
 112 Ho, frato, nun faru, ke vi ne plu kaŝu vin de mi!
 113 vidu, ke ne nur mi, sed ĉi tiu popolo
 114 ĉiuj rigardas tien, kie la suno vualas.
@@ -631,7 +708,7 @@ Please translate literally into English and Esperanto.
 116 qual fosti meco, e qual io teco fui,
 117 ancor fia grave il memorar presente.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 115 Whereupon I to him: "If you recall
@@ -639,7 +716,8 @@ Please translate literally into English and Esperanto.
 117 the present memory will still be grievous."
 
 **Esperanto:**
-
+</error>
+<result>
 115 Kieli mi al li: "Se vi rememoras
 116 kia vi estis kun mi, kaj kia mi estis kun vi,
 117 ankoraŭ estos peza la nuna memoro."
@@ -653,14 +731,23 @@ Please translate literally into English and Esperanto.
 118 Di quella vita mi volse costui
 119 che mi va innanzi, l’altr’ ier, quando tonda
 120 vi si mostrò la suora di colui»,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 121/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 121 e ’l sol mostrai; «costui per la profonda
 122 notte menato m’ha d’i veri morti
 123 con questa vera carne che ’l seconda.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -672,7 +759,7 @@ Please translate literally into English and Esperanto.
 125 salendo e rigirando la montagna
 126 che drizza voi che ’l mondo fece torti.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 124 Then his words have drawn me up,
@@ -680,7 +767,8 @@ Please translate literally into English and Esperanto.
 126 that sets you upright who the world made crooked.
 
 **Esperanto:**
-
+</error>
+<result>
 124 Poste liaj konsoloj min suprenlevis,
 125 suprenirante kaj ĉirkaŭirante la monton
 126 kiu rektigas vin, kiun la mondo tordis.
@@ -695,7 +783,7 @@ Please translate literally into English and Esperanto.
 128 che io sarò là dove fia Beatrice;
 129 quivi convien che sanza lui rimagna.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 127 He says so much about making me his companion
@@ -703,7 +791,8 @@ Please translate literally into English and Esperanto.
 129 there it is necessary that I remain without him.
 
 **Esperanto:**
-
+</error>
+<result>
 127 Li tiom diras fari min lia kunulino
 128 ke mi estos tie, kie estos Beatrico;
 129 tie necesas, ke mi sen li restu.
@@ -717,12 +806,21 @@ Please translate literally into English and Esperanto.
 130 Virgilio è questi che così mi dice»,
 131 e addita’lo; «e quest’ altro è quell’ ombra
 132 per cuï scosse dianzi ogne pendice
-
-133 lo vostro regno, che da sé lo sgombra».
 </prompt>
 <error>
 index: 0
 finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 133/133</info>
+<prompt>
+Please translate literally into English and Esperanto.
+
+133 lo vostro regno, che da sé lo sgombra».
+</prompt>
+<error>
+(no result)
 </error>
 </query>
 </queries>

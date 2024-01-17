@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="48">
 <query>
 <info>[Inferno Canto 2] 1/142</info>
 <prompt>
@@ -8,12 +8,8 @@ Please translate literally into English and Esperanto.
 1 Lo giorno se n’andava, e l’aere bruno
 2 toglieva li animai che sono in terra
 3 da le fatiche loro; e io sol uno
-
-4 m’apparecchiava a sostener la guerra
-5 sì del cammino e sì de la pietate,
-6 che ritrarrà la mente che non erra.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 1 The day was going away, and the brown air
@@ -25,11 +21,23 @@ Please translate literally into English and Esperanto.
 6 which the mind that does not err will recount.
 
 **Esperanto:**
-
+</error>
+<result>
 1 La tago forpasis, kaj la bruna aero
 2 forprenis la bestojn, kiuj estas sur la tero,
 3 de iliaj laboroj; kaj mi sola
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 4/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+4 m’apparecchiava a sostener la guerra
+5 sì del cammino e sì de la pietate,
+6 che ritrarrà la mente che non erra.
+</prompt>
+<result>
 4 preparis min por elteni la militon
 5 kaj de la vojaĝo kaj de la kompato,
 6 kiun rakontos la menso, kiu ne eraras.
@@ -44,7 +52,7 @@ Please translate literally into English and Esperanto.
 8 o mente che scrivesti ciò ch’io vidi,
 9 qui si parrà la tua nobilitate.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 7 O Muses, O lofty genius, now help me;
@@ -52,7 +60,8 @@ Please translate literally into English and Esperanto.
 9 here your nobility will be shown.
 
 **Esperanto:**
-
+</error>
+<result>
 7 Ho muzoj, ho alta talento, nun helpu min;
 8 ho menso, kiu skribis tion, kion mi vidis,
 9 ĉi tie montriĝos via nobleco.
@@ -110,18 +119,36 @@ Please translate literally into English and Esperanto.
 16 Però, se l’avversario d’ogne male
 17 cortese i fu, pensando l’alto effetto
 18 ch’uscir dovea di lui, e ’l chi e ’l quale
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 19/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 19 non pare indegno ad omo d’intelletto;
 20 ch’e’ fu de l’alma Roma e di suo impero
 21 ne l’empireo ciel per padre eletto:
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 22/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 22 la quale e ’l quale, a voler dir lo vero,
 23 fu stabilita per lo loco santo
 24 u’ siede il successor del maggior Piero.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -133,7 +160,7 @@ Please translate literally into English and Esperanto.
 26 intese cose che furon cagione
 27 di sua vittoria e del papale ammanto.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 25 Through this journey, for which you give him praise,
@@ -141,7 +168,8 @@ Please translate literally into English and Esperanto.
 27 of his victory and of the papal mantle.
 
 **Esperanto:**
-
+</error>
+<result>
 25 Per tiu irado, pro kiu vi donas al li gloron,
 26 li aŭdis aferojn, kiuj estis la kaŭzo
 27 de lia venko kaj de la papa mantelo.
@@ -156,7 +184,7 @@ Please translate literally into English and Esperanto.
 29 per recarne conforto a quella fede
 30 ch’è principio a la via di salvazione.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 28 Then the Vessel of Election went there,
@@ -164,7 +192,8 @@ Please translate literally into English and Esperanto.
 30 which is the beginning of the way of salvation.
 
 **Esperanto:**
-
+</error>
+<result>
 28 Tien iris poste la Ujo de elekto,
 29 por reporti konsolon al tiu kredo,
 30 kiu estas la komenco de la vojo de savo.
@@ -179,7 +208,7 @@ Please translate literally into English and Esperanto.
 32 Io non Enëa, io non Paulo sono;
 33 me degno a ciò né io né altri ’l crede.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 31 But I, why should I go there? Or who grants it to me?
@@ -187,7 +216,8 @@ Please translate literally into English and Esperanto.
 33 neither I nor anyone else believes me worthy of this.
 
 **Esperanto:**
-
+</error>
+<result>
 31 Sed mi, kial tien veni? aŭ kiu tion permesas al mi?
 32 Mi ne estas Eneo, mi ne estas Paŭlo;
 33 nek mi nek aliulo kredas min inda je tio.
@@ -202,7 +232,7 @@ Please translate literally into English and Esperanto.
 35 temo che la venuta non sia folle.
 36 Se’ savio; intendi me’ ch’i’ non ragiono».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 34 For which, if I abandon myself to coming,
@@ -210,7 +240,8 @@ Please translate literally into English and Esperanto.
 36 You are wise; understand me better than I speak."
 
 **Esperanto:**
-
+</error>
+<result>
 34 Ĉar, se mi lasas min veni,
 35 mi timas, ke la veno ne estu malsaĝa.
 36 Vi estas saĝa; komprenu min pli bone ol mi parolas."
@@ -224,14 +255,23 @@ Please translate literally into English and Esperanto.
 37 E qual è quei che disvuol ciò che volle
 38 e per novi pensier cangia proposta,
 39 sì che dal cominciar tutto si tolle,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 40/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 40 tal mi fec’ ïo ’n quella oscura costa,
 41 perché, pensando, consumai la ’mpresa
 42 che fu nel cominciar cotanto tosta.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -242,12 +282,8 @@ Please translate literally into English and Esperanto.
 43 «S’i’ ho ben la parola tua intesa»,
 44 rispuose del magnanimo quell’ ombra,
 45 «l’anima tua è da viltade offesa;
-
-46 la qual molte fïate l’omo ingombra
-47 sì che d’onrata impresa lo rivolve,
-48 come falso veder bestia quand’ ombra.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 43 "If I have understood your words well,"
@@ -259,11 +295,23 @@ Please translate literally into English and Esperanto.
 48 like a false vision turns a beast when it sees a shadow.
 
 **Esperanto:**
-
+</error>
+<result>
 43 "Se mi bone komprenis vian vorton,"
 44 respondis el tiu ombro de la magnanima,
 45 "via animo estas ofendita de malbraveco;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 46/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+46 la qual molte fïate l’omo ingombra
+47 sì che d’onrata impresa lo rivolve,
+48 come falso veder bestia quand’ ombra.
+</prompt>
+<result>
 46 kiu ofte ĝenas homon
 47 tiel ke ĝi lin forturnas de honorinda entrepreno,
 48 kiel falsa vido forturnas beston kiam ĝi vidas ombron.
@@ -278,7 +326,7 @@ Please translate literally into English and Esperanto.
 50 dirotti perch’ io venni e quel ch’io ’ntesi
 51 nel primo punto che di te mi dolve.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 49 So that you may free yourself from this fear,
@@ -286,7 +334,8 @@ Please translate literally into English and Esperanto.
 51 at the first moment that I felt pity for you.
 
 **Esperanto:**
-
+</error>
+<result>
 49 Por ke vi liberiĝu de tiu timo,
 50 mi diros al vi kial mi venis kaj kion mi aŭdis
 51 en la unua momento, kiam mi ekdoloris pri vi.
@@ -314,20 +363,8 @@ Please translate literally into English and Esperanto.
 55 Lucevan li occhi suoi più che la stella;
 56 e cominciommi a dir soave e piana,
 57 con angelica voce, in sua favella:
-
-58 “O anima cortese mantoana,
-59 di cui la fama ancor nel mondo dura,
-60 e durerà quanto ’l mondo lontana,
-
-61 l’amico mio, e non de la ventura,
-62 ne la diserta piaggia è impedito
-63 sì nel cammin, che vòlt’ è per paura;
-
-64 e temo che non sia già sì smarrito,
-65 ch’io mi sia tardi al soccorso levata,
-66 per quel ch’i’ ho di lui nel cielo udito.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 55 His eyes shone more than the stars;
@@ -347,19 +384,53 @@ Please translate literally into English and Esperanto.
 66 for what I have heard of him in heaven.
 
 **Esperanto:**
-
+</error>
+<result>
 55 Liaj okuloj brilis pli ol la stelo;
 56 kaj li ekparolis al mi dolĉe kaj milde,
 57 per anĝela voĉo, en sia lingvo:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 58/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+58 “O anima cortese mantoana,
+59 di cui la fama ancor nel mondo dura,
+60 e durerà quanto ’l mondo lontana,
+</prompt>
+<result>
 58 "Ho ĝentila mantua animo,
 59 kies famo ankoraŭ en la mondo daŭras,
 60 kaj daŭros kiom la mondo foras,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 61/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+61 l’amico mio, e non de la ventura,
+62 ne la diserta piaggia è impedito
+63 sì nel cammin, che vòlt’ è per paura;
+</prompt>
+<result>
 61 mia amiko, kaj ne de la fortuno,
 62 en la dezerta ebenaĵo estas malhelpata
 63 tiel en la vojo, ke li turniĝis pro timo;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 64/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+64 e temo che non sia già sì smarrito,
+65 ch’io mi sia tardi al soccorso levata,
+66 per quel ch’i’ ho di lui nel cielo udito.
+</prompt>
+<result>
 64 kaj mi timas, ke li ne estu jam tiel perdita,
 65 ke mi estu malfrue leviĝinta al la helpo,
 66 pro tio, kion mi aŭdis pri li en la ĉielo.
@@ -374,7 +445,7 @@ Please translate literally into English and Esperanto.
 68 e con ciò c’ha mestieri al suo campare,
 69 l’aiuta sì ch’i’ ne sia consolata.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 67 Now move, and with your ornate speech
@@ -382,7 +453,8 @@ Please translate literally into English and Esperanto.
 69 help him so that I may be consoled.
 
 **Esperanto:**
-
+</error>
+<result>
 67 Nun ekmoviĝu, kaj per via ornamita parolado
 68 kaj per tio, kio necesas por lia saviĝo,
 69 helpu lin tiel, ke mi estu konsolata.
@@ -397,7 +469,7 @@ Please translate literally into English and Esperanto.
 71 vegno del loco ove tornar disio;
 72 amor mi mosse, che mi fa parlare.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 70 I am Beatrice who makes you go;
@@ -405,7 +477,8 @@ Please translate literally into English and Esperanto.
 72 love moves me, which makes me speak.
 
 **Esperanto:**
-
+</error>
+<result>
 70 Mi estas Beatrico, kiu vin irigas;
 71 mi venas de la loko, kien mi deziras reveni;
 72 amo min movis, kiu min paroliigas.
@@ -419,16 +492,8 @@ Please translate literally into English and Esperanto.
 73 Quando sarò dinanzi al segnor mio,
 74 di te mi loderò sovente a lui”.
 75 Tacette allora, e poi comincia’ io:
-
-76 “O donna di virtù sola per cui
-77 l’umana spezie eccede ogne contento
-78 di quel ciel c’ha minor li cerchi sui,
-
-79 tanto m’aggrada il tuo comandamento,
-80 che l’ubidir, se già fosse, m’è tardi;
-81 più non t’è uo’ ch’aprirmi il tuo talento.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 73 When I shall be before my Lord,
@@ -444,15 +509,38 @@ Please translate literally into English and Esperanto.
 81 there is nothing more for you to do than to reveal your desire to me.
 
 **Esperanto:**
-
+</error>
+<result>
 73 Kiam mi estos antaŭ mia Sinjoro,
 74 mi vin laŭdos ofte al li."
 75 Ŝi tiam silentis, kaj poste mi ekparolis:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 76/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+76 “O donna di virtù sola per cui
+77 l’umana spezie eccede ogne contento
+78 di quel ciel c’ha minor li cerchi sui,
+</prompt>
+<result>
 76 "Ho virta sinjorino sola, pro kiu
 77 la homa speco superas ĉiun kontenton
 78 de tiu ĉielo, kies cirkloj estas pli malgrandaj,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 79/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+79 tanto m’aggrada il tuo comandamento,
+80 che l’ubidir, se già fosse, m’è tardi;
+81 più non t’è uo’ ch’aprirmi il tuo talento.
+</prompt>
+<result>
 79 via ordono tiom plaĉas al mi,
 80 ke obei ĝin, se ĝi jam estus, malfruas por mi;
 81 plu ne estas por vi, ol malkaŝi al mi vian deziron.
@@ -467,7 +555,7 @@ Please translate literally into English and Esperanto.
 83 de lo scender qua giuso in questo centro
 84 de l’ampio loco ove tornar tu ardi”.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 82 But tell me the reason why you do not guard yourself
@@ -475,7 +563,8 @@ Please translate literally into English and Esperanto.
 84 of the vast place to which you burn to return."
 
 **Esperanto:**
-
+</error>
+<result>
 82 Sed diru al mi la kialon, kial vi vin ne gardas
 83 de malsupreniri ĉi tien en tiun ĉi centron
 84 de la vasta loko, kien vi ardas reveni."
@@ -490,7 +579,7 @@ Please translate literally into English and Esperanto.
 86 dirotti brievemente”, mi rispuose,
 87 “perch’ i’ non temo di venir qua entro.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 85 "Since you want to know so deeply,
@@ -498,7 +587,8 @@ Please translate literally into English and Esperanto.
 87 "why I do not fear to come in here.
 
 **Esperanto:**
-
+</error>
+<result>
 85 "Ĉar vi volas scii tiom profunde,
 86 mi diros al vi mallonge," ŝi respondis al mi,
 87 "kial mi ne timas veni ĉi tien."
@@ -513,7 +603,7 @@ Please translate literally into English and Esperanto.
 89 c’hanno potenza di fare altrui male;
 90 de l’altre no, ché non son paurose.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 88 One should only fear those things
@@ -521,7 +611,8 @@ Please translate literally into English and Esperanto.
 90 not the others, for they are not fearful.
 
 **Esperanto:**
-
+</error>
+<result>
 88 Oni devas timi nur tiujn aĵojn
 89 kiuj havas potencon fari al alian malon;
 90 ne la aliajn, ĉar ili ne estas timindaj.
@@ -536,7 +627,7 @@ Please translate literally into English and Esperanto.
 92 che la vostra miseria non mi tange,
 93 né fiamma d’esto ’ncendio non m’assale.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 91 I am made by God, his mercy, such
@@ -544,7 +635,8 @@ Please translate literally into English and Esperanto.
 93 nor does any flame of this fire assail me.
 
 **Esperanto:**
-
+</error>
+<result>
 91 Mi estas farita de Dio, lia kompato, tia,
 92 ke via mizero ne tuŝas min,
 93 nek flamo de tiu ĉi incendio atakas min.
@@ -573,7 +665,7 @@ Please translate literally into English and Esperanto.
 98 e disse:—Or ha bisogno il tuo fedele
 99 di te, e io a te lo raccomando—.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 97 This Lucia asked in her request
@@ -581,7 +673,8 @@ Please translate literally into English and Esperanto.
 99 and I commend him to you."
 
 **Esperanto:**
-
+</error>
+<result>
 97 Tion petis Lucia en sia peto
 98 kaj diris:—Nun bezonas vin via fidelulo,
 99 kaj mi lin rekomendas al vi.—
@@ -609,12 +702,8 @@ Please translate literally into English and Esperanto.
 103 Disse:—Beatrice, loda di Dio vera,
 104 ché non soccorri quei che t’amò tanto,
 105 ch’uscì per te de la volgare schiera?
-
-106 Non odi tu la pieta del suo pianto,
-107 non vedi tu la morte che ’l combatte
-108 su la fiumana ove ’l mar non ha vanto?—.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 103 She said: "Beatrice, true praise of God,
@@ -626,11 +715,23 @@ Please translate literally into English and Esperanto.
 108 on the river where the sea has no power?"
 
 **Esperanto:**
-
+</error>
+<result>
 103 Ŝi diris:—Beatrico, vera laŭdo de Dio,
 104 kial vi ne helpas tiun, kiu vin tiom amis,
 105 ke li eliris pro vi el la vulgara amaso?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 106/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+106 Non odi tu la pieta del suo pianto,
+107 non vedi tu la morte che ’l combatte
+108 su la fiumana ove ’l mar non ha vanto?—.
+</prompt>
+<result>
 106 Ĉu vi ne aŭdas la kompaton de lia ploro,
 107 ĉu vi ne vidas la morton, kiu lin kontraŭbatalas
 108 sur la rivero, kie la maro ne havas potencon?—
@@ -644,14 +745,23 @@ Please translate literally into English and Esperanto.
 109 Al mondo non fur mai persone ratte
 110 a far lor pro o a fuggir lor danno,
 111 com’ io, dopo cotai parole fatte,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 112/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 112 venni qua giù del mio beato scanno,
 113 fidandomi del tuo parlare onesto,
 114 ch’onora te e quei ch’udito l’hanno”.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -690,12 +800,8 @@ Please translate literally into English and Esperanto.
 121 Dunque: che è? perché, perché restai,
 122 perché tanta viltà nel core allette,
 123 perché ardire e franchezza non hai,
-
-124 poscia che tai tre donne benedette
-125 curan di te ne la corte del cielo,
-126 e ’l mio parlar tanto ben ti promette?».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 121 So then: what is it? Why, why did you remain,
@@ -707,11 +813,23 @@ Please translate literally into English and Esperanto.
 126 and my speech promises you so much good?"
 
 **Esperanto:**
-
+</error>
+<result>
 121 Do: kio estas? kial, kial vi restis,
 122 kial vi flegas tiom da malkuraĝo en la koro,
 123 kial vi ne havas kuraĝon kaj aŭdacon,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 124/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+124 poscia che tai tre donne benedette
+125 curan di te ne la corte del cielo,
+126 e ’l mio parlar tanto ben ti promette?».
+</prompt>
+<result>
 124 ĉar tri tiaj benataj damoj
 125 zorgas pri vi en la kortego de la ĉielo,
 126 kaj mia parolado tiom bone promesas al vi?"
@@ -725,22 +843,49 @@ Please translate literally into English and Esperanto.
 127 Quali fioretti dal notturno gelo
 128 chinati e chiusi, poi che ’l sol li ’mbianca,
 129 si drizzan tutti aperti in loro stelo,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 130/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 130 tal mi fec’ io di mia virtude stanca,
 131 e tanto buono ardire al cor mi corse,
 132 ch’i’ cominciai come persona franca:
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 133/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 133 «Oh pietosa colei che mi soccorse!
 134 e te cortese ch’ubidisti tosto
 135 a le vere parole che ti porse!
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 136/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 136 Tu m’hai con disiderio il cor disposto
 137 sì al venir con le parole tue,
 138 ch’i’ son tornato nel primo proposto.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -751,10 +896,8 @@ Please translate literally into English and Esperanto.
 139 Or va, ch’un sol volere è d’ambedue:
 140 tu duca, tu segnore e tu maestro».
 141 Così li dissi; e poi che mosso fue,
-
-142 intrai per lo cammino alto e silvestro.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 139 Now go, for one will is in both of us:
@@ -764,11 +907,21 @@ Please translate literally into English and Esperanto.
 142 I entered the high and wild path.
 
 **Esperanto:**
-
+</error>
+<result>
 139 Nun iru, ĉar unu volo estas de ambaŭ:
 140 vi gvidanto, vi sinjoro kaj vi majstro."
 141 Tiel mi diris al li; kaj post kiam li ekmoviĝis,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 142/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+142 intrai per lo cammino alto e silvestro.
+</prompt>
+<result>
 142 mi eniris per la alta kaj sovaĝa vojo.
 </result>
 </query>

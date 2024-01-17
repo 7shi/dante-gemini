@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="36">
+<queries count="54">
 <query>
 <info>[Inferno Canto 33] 1/157</info>
 <prompt>
@@ -9,7 +9,7 @@ Please translate literally into English and Esperanto.
 2 quel peccator, forbendola a’ capelli
 3 del capo ch’elli avea di retro guasto.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 1 The sinner raised his mouth from the fierce feast,
@@ -17,7 +17,8 @@ Please translate literally into English and Esperanto.
 3 of the head that he had mangled behind.
 
 **Esperanto:**
-
+</error>
+<result>
 1 La pekulo levis sian buŝon de la fiera festeno,
 2 viŝante ĝin per la haroj
 3 de la kapo, kiun li malbeligis malantaŭe.
@@ -32,7 +33,7 @@ Please translate literally into English and Esperanto.
 5 disperato dolor che ’l cor mi preme
 6 già pur pensando, pria ch’io ne favelli.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 4 Then he began: "You wish me to renew
@@ -40,7 +41,8 @@ Please translate literally into English and Esperanto.
 6 even just thinking about it, before I speak of it.
 
 **Esperanto:**
-
+</error>
+<result>
 4 Tiam li komencis: "Vi volas, ke mi renovigu
 5 malesperan doloron, kiu premas mian koron
 6 jam nur pensante, antaŭ ol mi parolu pri ĝi.
@@ -55,7 +57,7 @@ Please translate literally into English and Esperanto.
 8 che frutti infamia al traditor ch’i’ rodo,
 9 parlar e lagrimar vedrai insieme.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 7 But if my words are to be the seed
@@ -63,7 +65,8 @@ Please translate literally into English and Esperanto.
 9 you will see me speak and weep together.
 
 **Esperanto:**
-
+</error>
+<result>
 7 Sed se miaj vortoj estu semo
 8 kiu portas malfamon al perfidulo, kiun mi ronĝas,
 9 vi vidos min paroli kaj plori kune.
@@ -78,7 +81,7 @@ Please translate literally into English and Esperanto.
 11 venuto se’ qua giù; ma fiorentino
 12 mi sembri veramente quand’ io t’odo.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 10 I do not know who you are or by what means
@@ -86,7 +89,8 @@ Please translate literally into English and Esperanto.
 12 to be a Florentine when I hear you.
 
 **Esperanto:**
-
+</error>
+<result>
 10 Mi ne scias, kiu vi estas nek per kia maniero
 11 vi venis ĉi tien; sed florencano
 12 vi vere ŝajnas al mi, kiam mi aŭdas vin.
@@ -101,7 +105,7 @@ Please translate literally into English and Esperanto.
 14 e questi è l’arcivescovo Ruggieri:
 15 or ti dirò perché i son tal vicino.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 13 You must know that I was Count Ugolino,
@@ -109,7 +113,8 @@ Please translate literally into English and Esperanto.
 15 now I will tell you why I am such a neighbor to him.
 
 **Esperanto:**
-
+</error>
+<result>
 13 Vi devas scii, ke mi estis grafo Ugolino,
 14 kaj ĉi tiu estas ĉefepiskopo Ruggieri:
 15 nun mi diros al vi, kial mi estas tia najbaro al li.
@@ -123,38 +128,8 @@ Please translate literally into English and Esperanto.
 16 Che per l’effetto de’ suo’ mai pensieri,
 17 fidandomi di lui, io fossi preso
 18 e poscia morto, dir non è mestieri;
-
-19 però quel che non puoi avere inteso,
-20 cioè come la morte mia fu cruda,
-21 udirai, e saprai s’e’ m’ha offeso.
 </prompt>
 <error result="true">
-index: 0
-content {
-  parts {
-    text: "**English:**\n\n16 That through the effect of his evil designs,\n17 trusting in him, I was taken prisoner\n18 and then killed, there is no need to tell;\n\n19 but what you cannot have heard,\n20 that is, how cruel my death was,\n21 you shall hear, and you will know if he has wronged me.\n\n**Esperanto:**\n\n16 Ke pro la efekto de liaj ĉiam pensoj,\n17 fidante min je li, mi estis kaptita\n18 kaj poste mortigita, diri ne necesas;\n\n19 tamen tion, kion vi ne povis aŭdi,\n20 nome kiel mia morto estis kruela,\n21 vi aŭdos, kaj vi scios, ĉu li ofendis min."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
 **English:**
 
 16 That through the effect of his evil designs,
@@ -166,11 +141,23 @@ safety_ratings {
 21 you shall hear, and you will know if he has wronged me.
 
 **Esperanto:**
-
+</error>
+<result>
 16 Ke pro la efekto de liaj ĉiam pensoj,
 17 fidante min je li, mi estis kaptita
 18 kaj poste mortigita, diri ne necesas;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 19/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+19 però quel che non puoi avere inteso,
+20 cioè come la morte mia fu cruda,
+21 udirai, e saprai s’e’ m’ha offeso.
+</prompt>
+<result>
 19 tamen tion, kion vi ne povis aŭdi,
 20 nome kiel mia morto estis kruela,
 21 vi aŭdos, kaj vi scios, ĉu li ofendis min.
@@ -184,12 +171,8 @@ Please translate literally into English and Esperanto.
 22 Breve pertugio dentro da la Muda,
 23 la qual per me ha ’l titol de la fame,
 24 e che conviene ancor ch’altrui si chiuda,
-
-25 m’avea mostrato per lo suo forame
-26 più lune già, quand’ io feci ’l mal sonno
-27 che del futuro mi squarciò ’l velame.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 22 A small opening within the Muda,
@@ -201,11 +184,23 @@ Please translate literally into English and Esperanto.
 27 that tore away the veil of the future for me.
 
 **Esperanto:**
-
+</error>
+<result>
 22 Mallarĝa truo ene de la Muda,
 23 kiu por mi ha la titolon de malsato,
 24 kaj kiu konvenas, ke ankaŭ aliaj estu enfermitaj,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 25/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+25 m’avea mostrato per lo suo forame
+26 più lune già, quand’ io feci ’l mal sonno
+27 che del futuro mi squarciò ’l velame.
+</prompt>
+<result>
 25 montris al mi tra sia truo
 26 jam antaŭ pluraj lunoj, kiam mi havis la malbonan sonĝon
 27 kiu disŝiris por mi la vualon de la estonteco.
@@ -234,7 +229,7 @@ Please translate literally into English and Esperanto.
 32 Gualandi con Sismondi e con Lanfranchi
 33 s’avea messi dinanzi da la fronte.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 31 With lean, studious, and thoughtful hounds,
@@ -242,7 +237,8 @@ Please translate literally into English and Esperanto.
 33 had placed themselves in front of him.
 
 **Esperanto:**
-
+</error>
+<result>
 31 Kun magraj, studamaj, kaj pripensemaj ĉashundoj,
 32 Gualandi kun Sismondi kaj kun Lanfranchi
 33 sin estis metintaj antaŭ li.
@@ -284,16 +280,8 @@ Please translate literally into English and Esperanto.
 40 Ben se’ crudel, se tu già non ti duoli
 41 pensando ciò che ’l mio cor s’annunziava;
 42 e se non piangi, di che pianger suoli?
-
-43 Già eran desti, e l’ora s’appressava
-44 che ’l cibo ne solëa essere addotto,
-45 e per suo sogno ciascun dubitava;
-
-46 e io senti’ chiavar l’uscio di sotto
-47 a l’orribile torre; ond’ io guardai
-48 nel viso a’ mie’ figliuoi sanza far motto.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 40 You are indeed cruel if you do not grieve
@@ -309,15 +297,38 @@ Please translate literally into English and Esperanto.
 48 in the faces of my children without saying a word.
 
 **Esperanto:**
-
+</error>
+<result>
 40 Vi ja estas kruela, se vi jam ne malĝojas
 41 pensante tion, kion mia koro antaŭanoncis;
 42 kaj se vi ne ploras, pri kio vi kutimis plori?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 43/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+43 Già eran desti, e l’ora s’appressava
+44 che ’l cibo ne solëa essere addotto,
+45 e per suo sogno ciascun dubitava;
+</prompt>
+<result>
 43 Ili jam estis vekitaj, kaj la horo alproksimiĝis
 44 kiam la manĝaĵo kutimis esti alportita al ni,
 45 kaj ĉiu dubis pro sia sonĝo;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 46/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+46 e io senti’ chiavar l’uscio di sotto
+47 a l’orribile torre; ond’ io guardai
+48 nel viso a’ mie’ figliuoi sanza far motto.
+</prompt>
+<result>
 46 kaj mi aŭdis ŝlosi la pordon sube
 47 de la terura turo; pro kio mi rigardis
 48 en la vizaĝojn de miaj filoj sen diri vorton.
@@ -332,7 +343,7 @@ Please translate literally into English and Esperanto.
 50 piangevan elli; e Anselmuccio mio
 51 disse: “Tu guardi sì, padre! che hai?”.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 49 I did not weep, so did I petrify within:
@@ -340,7 +351,8 @@ Please translate literally into English and Esperanto.
 51 said: “Why do you stare so, father? What is the matter with you?”.
 
 **Esperanto:**
-
+</error>
+<result>
 49 Mi ne ploris, tiel interne mi ŝtoniĝis:
 50 ili ploris; kaj mia Anselmuĉjo
 51 diris: “Kial vi tiel rigardas, patro! kio estas al vi?”.
@@ -355,7 +367,7 @@ Please translate literally into English and Esperanto.
 53 tutto quel giorno né la notte appresso,
 54 infin che l’altro sol nel mondo uscìo.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 52 Therefore I did not weep nor did I answer
@@ -363,7 +375,8 @@ Please translate literally into English and Esperanto.
 54 until the other sun came out into the world.
 
 **Esperanto:**
-
+</error>
+<result>
 52 Tial mi ne larmis nek respondis
 53 dum tiu tuta tago nek la sekvanta nokto,
 54 ĝis kiam la alia suno eliris en la mondon.
@@ -377,16 +390,8 @@ Please translate literally into English and Esperanto.
 55 Come un poco di raggio si fu messo
 56 nel doloroso carcere, e io scorsi
 57 per quattro visi il mio aspetto stesso,
-
-58 ambo le man per lo dolor mi morsi;
-59 ed ei, pensando ch’io ’l fessi per voglia
-60 di manicar, di sùbito levorsi
-
-61 e disser: “Padre, assai ci fia men doglia
-62 se tu mangi di noi: tu ne vestisti
-63 queste misere carni, e tu le spoglia”.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 55 When a little ray of light had entered
@@ -402,15 +407,38 @@ Please translate literally into English and Esperanto.
 63 with this wretched flesh, and you strip it off”.
 
 **Esperanto:**
-
+</error>
+<result>
 55 Kiam iom da radio eniris
 56 en la doloran malliberejon, kaj mi ekvidis
 57 tra kvar vizaĝoj mian propran aspekton,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 58/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+58 ambo le man per lo dolor mi morsi;
+59 ed ei, pensando ch’io ’l fessi per voglia
+60 di manicar, di sùbito levorsi
+</prompt>
+<result>
 58 ambaŭmane pro la doloro mi mordis;
 59 kaj ili, pensante ke mi faris tion pro deziro
 60 manĝi, subite leviĝis
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 61/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+61 e disser: “Padre, assai ci fia men doglia
+62 se tu mangi di noi: tu ne vestisti
+63 queste misere carni, e tu le spoglia”.
+</prompt>
+<result>
 61 kaj diris: “Patro, multe malpli daŭros nia sufero
 62 se vi manĝas nin: vi vestis nin
 63 per ĉi tiuj mizeraj karnoj, kaj vi ilin senvestigas”.
@@ -424,12 +452,8 @@ Please translate literally into English and Esperanto.
 64 Queta’mi allor per non farli più tristi;
 65 lo dì e l’altro stemmo tutti muti;
 66 ahi dura terra, perché non t’apristi?
-
-67 Poscia che fummo al quarto dì venuti,
-68 Gaddo mi si gittò disteso a’ piedi,
-69 dicendo: “Padre mio, ché non m’aiuti?”.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 64 I then grew quiet so as not to make them sadder;
@@ -441,11 +465,23 @@ Please translate literally into English and Esperanto.
 69 saying: “My father, why do you not help me?”.
 
 **Esperanto:**
-
+</error>
+<result>
 64 Mi tiam silentiĝis por ne plu malĝojigi ilin;
 65 la tagon kaj la sekvantan ni ĉiuj restis mutaj;
 66 ho, dura tero, kial vi ne malfermiĝis?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 67/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+67 Poscia che fummo al quarto dì venuti,
+68 Gaddo mi si gittò disteso a’ piedi,
+69 dicendo: “Padre mio, ché non m’aiuti?”.
+</prompt>
+<result>
 67 Post kiam ni venis al la kvara tago,
 68 Gaddo ĵetis sin etendita al miaj piedoj,
 69 dirante: “Mia patro, kial vi ne helpas min?”.
@@ -459,11 +495,8 @@ Please translate literally into English and Esperanto.
 70 Quivi morì; e come tu mi vedi,
 71 vid’ io cascar li tre ad uno ad uno
 72 tra ’l quinto dì e ’l sesto; ond’ io mi diedi,
-
-73 già cieco, a brancolar sovra ciascuno,
-74 e due dì li chiamai, poi che fur morti.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 70 There he died; and as you see me,
@@ -474,11 +507,22 @@ Please translate literally into English and Esperanto.
 74 and for two days I called to them, after they were dead.
 
 **Esperanto:**
-
+</error>
+<result>
 70 Tie li mortis; kaj kiel vi vidas min,
 71 mi vidis fali la tri unu post unu
 72 inter la kvina kaj la sesa tago; pro kio mi donis min,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 73/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+73 già cieco, a brancolar sovra ciascuno,
+74 e due dì li chiamai, poi che fur morti.
+</prompt>
+<result>
 73 jam blinda, al palpado super ĉiu,
 74 kaj dum du tagoj mi vokis ilin, post kiam ili mortis.
 </result>
@@ -489,12 +533,8 @@ Please translate literally into English and Esperanto.
 Please translate literally into English and Esperanto.
 
 75 Poscia, più che ’l dolor, poté ’l digiuno».
-
-76 Quand’ ebbe detto ciò, con li occhi torti
-77 riprese ’l teschio misero co’ denti,
-78 che furo a l’osso, come d’un can, forti.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 75 Afterwards, hunger could more than grief».
@@ -504,9 +544,21 @@ Please translate literally into English and Esperanto.
 78 which were as strong on the bone as a dog’s.
 
 **Esperanto:**
-
+</error>
+<result>
 75 Poste, pli ol la doloro, povis la fasto».
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 76/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+76 Quand’ ebbe detto ciò, con li occhi torti
+77 riprese ’l teschio misero co’ denti,
+78 che furo a l’osso, come d’un can, forti.
+</prompt>
+<result>
 76 Kiam li diris tion, kun la okuloj torditaj
 77 li rekaptis la mizeran kranion per la dentoj,
 78 kiuj estis sur la osto, kiel de hundo, fortaj.
@@ -520,16 +572,8 @@ Please translate literally into English and Esperanto.
 79 Ahi Pisa, vituperio de le genti
 80 del bel paese là dove ’l sì suona,
 81 poi che i vicini a te punir son lenti,
-
-82 muovasi la Capraia e la Gorgona,
-83 e faccian siepe ad Arno in su la foce,
-84 sì ch’elli annieghi in te ogne persona!
-
-85 Che se ’l conte Ugolino aveva voce
-86 d’aver tradita te de le castella,
-87 non dovei tu i figliuoi porre a tal croce.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 79 Ah Pisa, disgrace of the people
@@ -545,15 +589,38 @@ Please translate literally into English and Esperanto.
 87 you should not have put his children to such a torture.
 
 **Esperanto:**
-
+</error>
+<result>
 79 Ho, Pizo, malhonoro de la popoloj
 80 de la bela lando kie oni parolas la jes,
 81 ĉar viaj najbaroj estas malrapidaj puni vin,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 82/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+82 muovasi la Capraia e la Gorgona,
+83 e faccian siepe ad Arno in su la foce,
+84 sì ch’elli annieghi in te ogne persona!
+</prompt>
+<result>
 82 moviĝu Capraia kaj Gorgona,
 83 kaj faru barilon al Arno ĉe la enfluejo,
 84 tiel ke ĝi dronigu en vi ĉiun personon!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 85/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+85 Che se ’l conte Ugolino aveva voce
+86 d’aver tradita te de le castella,
+87 non dovei tu i figliuoi porre a tal croce.
+</prompt>
+<result>
 85 Ĉar se grafo Ugolino havis famon
 86 esti perfidinta vin pri la kasteloj,
 87 vi ne devis meti liajn filojn al tia kruco.
@@ -568,7 +635,7 @@ Please translate literally into English and Esperanto.
 89 novella Tebe, Uguiccione e ’l Brigata
 90 e li altri due che ’l canto suso appella.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 88 Their young age made them innocent,
@@ -576,7 +643,8 @@ Please translate literally into English and Esperanto.
 90 and the other two whom the song above names.
 
 **Esperanto:**
-
+</error>
+<result>
 88 Senkulpa faris ilin la juna aĝo,
 89 nova Tebo, Uguiccione kaj Brigata
 90 kaj la aliaj du, kiujn la kanto supre nomas.
@@ -591,7 +659,7 @@ Please translate literally into English and Esperanto.
 92 ruvidamente un’altra gente fascia,
 93 non volta in giù, ma tutta riversata.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 91 We passed on, where the frost
@@ -599,7 +667,8 @@ Please translate literally into English and Esperanto.
 93 not turned face down, but all lying on their backs.
 
 **Esperanto:**
-
+</error>
+<result>
 91 Ni pasis pluen, tien, kie la frosta
 92 malglate ĉirkaŭvolvas alian popolon,
 93 ne turnita malsupren, sed tute renversita.
@@ -613,12 +682,8 @@ Please translate literally into English and Esperanto.
 94 Lo pianto stesso lì pianger non lascia,
 95 e ’l duol che truova in su li occhi rintoppo,
 96 si volge in entro a far crescer l’ambascia;
-
-97 ché le lagrime prime fanno groppo,
-98 e sì come visiere di cristallo,
-99 rïempion sotto ’l ciglio tutto il coppo.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 94 The weeping itself does not let them weep there,
@@ -630,11 +695,23 @@ Please translate literally into English and Esperanto.
 99 they fill the whole cup beneath the eyebrow.
 
 **Esperanto:**
-
+</error>
+<result>
 94 La ploro mem tie ne lasas plori,
 95 kaj la malĝojo, kiu trovas sur la okuloj barilon,
 96 turniĝas internen por kreskigi la suferon;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 97/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+97 ché le lagrime prime fanno groppo,
+98 e sì come visiere di cristallo,
+99 rïempion sotto ’l ciglio tutto il coppo.
+</prompt>
+<result>
 97 ĉar la unuaj larmoj formas buliĝon,
 98 kaj kiel vizieroj el kristalo,
 99 ili plenigas sub la okulharo la tutan pokalon.
@@ -648,12 +725,8 @@ Please translate literally into English and Esperanto.
 100 E avvegna che, sì come d’un callo,
 101 per la freddura ciascun sentimento
 102 cessato avesse del mio viso stallo,
-
-103 già mi parea sentire alquanto vento;
-104 per ch’io: «Maestro mio, questo chi move?
-105 non è qua giù ogne vapore spento?».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 100 And although, as from a callus,
@@ -665,11 +738,23 @@ Please translate literally into English and Esperanto.
 105 Is not every vapor down here extinguished?”.
 
 **Esperanto:**
-
+</error>
+<result>
 100 Kaj kvankam, kiel de kalo,
 101 pro la malvarmo ĉiu sento
 102 ĉesis en la sidejo de mia vizaĝo,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 103/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+103 già mi parea sentire alquanto vento;
+104 per ch’io: «Maestro mio, questo chi move?
+105 non è qua giù ogne vapore spento?».
+</prompt>
+<result>
 103 jam ŝajnis al mi senti iom da vento;
 104 pro kio mi: “Mia majstro, kiu movas tion?
 105 ĉu ne estas ĉi tie ĉiu vaporo estingita?”.
@@ -684,7 +769,7 @@ Please translate literally into English and Esperanto.
 107 di ciò ti farà l’occhio la risposta,
 108 veggendo la cagion che ’l fiato piove».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 106 Whereupon he said to me: “You will soon be where
@@ -692,7 +777,8 @@ Please translate literally into English and Esperanto.
 108 seeing the cause that makes the breath rain down”.
 
 **Esperanto:**
-
+</error>
+<result>
 106 Pro kio li al mi: “Baldaŭ vi estos, kie
 107 pri tio la okulo faros al vi la respondon,
 108 vidante la kaŭzon, kiu pluvigas la spiron”.
@@ -706,12 +792,8 @@ Please translate literally into English and Esperanto.
 109 E un de’ tristi de la fredda crosta
 110 gridò a noi: «O anime crudeli
 111 tanto che data v’è l’ultima posta,
-
-112 levatemi dal viso i duri veli,
-113 sì ch’ïo sfoghi ’l duol che ’l cor m’impregna,
-114 un poco, pria che ’l pianto si raggeli».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 109 And one of the wretches from the cold crust
@@ -723,11 +805,23 @@ Please translate literally into English and Esperanto.
 114 a little, before my weeping freezes”.
 
 **Esperanto:**
-
+</error>
+<result>
 109 Kaj unu el la malfeliĉuloj de la malvarma krusto
 110 kriis al ni: “Ho, animoj kruelaj
 111 tiom, ke al vi estas donita la lasta loko,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 112/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+112 levatemi dal viso i duri veli,
+113 sì ch’ïo sfoghi ’l duol che ’l cor m’impregna,
+114 un poco, pria che ’l pianto si raggeli».
+</prompt>
+<result>
 112 levu de mia vizaĝo lajn durajn vualojn,
 113 tiel ke mi elverŝu la doloron, kiu plenigas mian koron,
 114 iom, antaŭ ol la ploro glaciiĝos”.
@@ -742,7 +836,7 @@ Please translate literally into English and Esperanto.
 116 dimmi chi se’, e s’io non ti disbrigo,
 117 al fondo de la ghiaccia ir mi convegna».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 115 Wherefore I said to him: “If you want me to remember you,
@@ -750,7 +844,8 @@ Please translate literally into English and Esperanto.
 117 may I be forced to go to the bottom of the ice”.
 
 **Esperanto:**
-
+</error>
+<result>
 115 Pro kio mi al li: “Se vi volas, ke mi vin memoru,
 116 diru al mi, kiu vi estas, kaj se mi ne liberigos vin,
 117 mi devos iri al la fundo de la glacio”.
@@ -765,7 +860,7 @@ Please translate literally into English and Esperanto.
 119 i’ son quel da le frutta del mal orto,
 120 che qui riprendo dattero per figo».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 118 He then replied: “I am Brother Alberigo;
@@ -773,7 +868,8 @@ Please translate literally into English and Esperanto.
 120 who here take dates for figs”.
 
 **Esperanto:**
-
+</error>
+<result>
 118 Li tiam respondis: “Mi estas frato Alberigo;
 119 mi estas tiu de la fruktoj de la malbona ĝardeno,
 120 kiu ĉi tie reprenas datilon por figo”.
@@ -788,7 +884,7 @@ Please translate literally into English and Esperanto.
 122 Ed elli a me: «Come ’l mio corpo stea
 123 nel mondo sù, nulla scïenza porto.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 121 “Oh”, I said to him, “are you dead already?”.
@@ -796,7 +892,8 @@ Please translate literally into English and Esperanto.
 123 in the world above, I have no knowledge.
 
 **Esperanto:**
-
+</error>
+<result>
 121 “Ho”, mi diris al li, “ĉu vi estas jam morta?”.
 122 Kaj li al mi: “Kiel mia korpo staras
 123 en la mondo supre, mi havas neniun scion”.
@@ -824,14 +921,23 @@ Please translate literally into English and Esperanto.
 127 E perché tu più volentier mi rade
 128 le ’nvetrïate lagrime dal volto,
 129 sappie che, tosto che l’anima trade
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 33] 130/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 130 come fec’ ïo, il corpo suo l’è tolto
 131 da un demonio, che poscia il governa
 132 mentre che ’l tempo suo tutto sia vòlto.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -857,7 +963,7 @@ Please translate literally into English and Esperanto.
 137 elli è ser Branca Doria, e son più anni
 138 poscia passati ch’el fu sì racchiuso».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 136 You must know it, if you have only just come down here:
@@ -865,7 +971,8 @@ Please translate literally into English and Esperanto.
 138 since he was thus shut in.
 
 **Esperanto:**
-
+</error>
+<result>
 136 Vi devas scii tion, se vi venas nur nun malsupren:
 137 li estas ser Branca Doria, kaj estas pli da jaroj
 138 poste pasintaj ol li estis tiel enfermita”.
@@ -893,12 +1000,8 @@ Please translate literally into English and Esperanto.
 142 «Nel fosso sù», diss’ el, «de’ Malebranche,
 143 là dove bolle la tenace pece,
 144 non era ancora giunto Michel Zanche,
-
-145 che questi lasciò il diavolo in sua vece
-146 nel corpo suo, ed un suo prossimano
-147 che ’l tradimento insieme con lui fece.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 142 “In the ditch above”, he said, “of Malebranche,
@@ -910,11 +1013,23 @@ Please translate literally into English and Esperanto.
 147 who committed the treachery together with him.
 
 **Esperanto:**
-
+</error>
+<result>
 142 “En la foso supre”, li diris, “de Malebranche,
 143 tie, kie bolas la tenaca peĉo,
 144 ankoraŭ ne estis alveninta Michel Zanche,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 145/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+145 che questi lasciò il diavolo in sua vece
+146 nel corpo suo, ed un suo prossimano
+147 che ’l tradimento insieme con lui fece.
+</prompt>
+<result>
 145 kiam ĉi tiu lasis la diablon en sia loko
 146 en sia korpo, kaj sian proksimulon
 147 kiu faris la perfidon kune kun li.
@@ -942,16 +1057,34 @@ Please translate literally into English and Esperanto.
 151 Ahi Genovesi, uomini diversi
 152 d’ogne costume e pien d’ogne magagna,
 153 perché non siete voi del mondo spersi?
-
-154 Ché col peggiore spirto di Romagna
-155 trovai di voi un tal, che per sua opra
-156 in anima in Cocito già si bagna,
-
-157 e in corpo par vivo ancor di sopra.
 </prompt>
 <error>
 index: 0
 finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 33] 154/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
+
+154 Ché col peggiore spirto di Romagna
+155 trovai di voi un tal, che per sua opra
+156 in anima in Cocito già si bagna,
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Inferno Canto 33] 157/157</info>
+<prompt>
+Please translate literally into English and Esperanto.
+
+157 e in corpo par vivo ancor di sopra.
+</prompt>
+<error>
+(no result)
 </error>
 </query>
 </queries>

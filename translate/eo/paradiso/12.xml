@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="23">
+<queries count="49">
 <query>
 <info>[Paradiso Canto 12] 1/145</info>
 <prompt>
@@ -8,18 +8,36 @@ Please translate literally into English and Esperanto.
 1 Sì tosto come l’ultima parola
 2 la benedetta fiamma per dir tolse,
 3 a rotar cominciò la santa mola;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 4/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 4 e nel suo giro tutta non si volse
 5 prima ch’un’altra di cerchio la chiuse,
 6 e moto a moto e canto a canto colse;
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 7/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 7 canto che tanto vince nostre muse,
 8 nostre serene in quelle dolci tube,
 9 quanto primo splendor quel ch’e’ refuse.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -30,20 +48,8 @@ Please translate literally into English and Esperanto.
 10 Come si volgon per tenera nube
 11 due archi paralelli e concolori,
 12 quando Iunone a sua ancella iube,
-
-13 nascendo di quel d’entro quel di fori,
-14 a guisa del parlar di quella vaga
-15 ch’amor consunse come sol vapori,
-
-16 e fanno qui la gente esser presaga,
-17 per lo patto che Dio con Noè puose,
-18 del mondo che già mai più non s’allaga:
-
-19 così di quelle sempiterne rose
-20 volgiensi circa noi le due ghirlande,
-21 e sì l’estrema a l’intima rispuose.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 10 As through a tender cloud two bows are turned,
@@ -63,19 +69,53 @@ Please translate literally into English and Esperanto.
 21 and so the outermost answered to the innermost.
 
 **Esperanto:**
-
+</error>
+<result>
 10 Kiel sin turnas tra delikata nubo
 11 du arkoj paralelaj kaj samkoloraj,
 12 kiam Junono ordonas al sia servistino,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 13/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+13 nascendo di quel d’entro quel di fori,
+14 a guisa del parlar di quella vaga
+15 ch’amor consunse come sol vapori,
+</prompt>
+<result>
 13 estiĝante el tiu interna tiu ekstera,
 14 laŭ la maniero de la parolado de tiu bela
 15 kiun amo konsumis kiel suno vaporojn,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 16/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+16 e fanno qui la gente esser presaga,
+17 per lo patto che Dio con Noè puose,
+18 del mondo che già mai più non s’allaga:
+</prompt>
+<result>
 16 kaj kiuj igas ĉi tie la homojn esti antaŭscioplenaj,
 17 pro la pakto kiun Dio faris kun Noa,
 18 pri la mondo kiu neniam plu estos inundita:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 19/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+19 così di quelle sempiterne rose
+20 volgiensi circa noi le due ghirlande,
+21 e sì l’estrema a l’intima rispuose.
+</prompt>
+<result>
 19 tiel el tiuj ĉiamverdaj rozoj
 20 sin turnas ĉirkaŭ ni la du girlandoj,
 21 kaj tiel la plej ekstera respondis al la plej interna.
@@ -89,22 +129,49 @@ Please translate literally into English and Esperanto.
 22 Poi che ’l tripudio e l’altra festa grande,
 23 sì del cantare e sì del fiammeggiarsi
 24 luce con luce gaudïose e blande,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 25/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 25 insieme a punto e a voler quetarsi,
 26 pur come li occhi ch’al piacer che i move
 27 conviene insieme chiudere e levarsi;
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 28/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 28 del cor de l’una de le luci nove
 29 si mosse voce, che l’ago a la stella
 30 parer mi fece in volgermi al suo dove;
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 31/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 31 e cominciò: «L’amor che mi fa bella
 32 mi tragge a ragionar de l’altro duca
 33 per cui del mio sì ben ci si favella.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -116,7 +183,7 @@ Please translate literally into English and Esperanto.
 35 sì che, com’ elli ad una militaro,
 36 così la gloria loro insieme luca.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 34 It is fitting that where the one is, the other should be induced:
@@ -124,7 +191,8 @@ Please translate literally into English and Esperanto.
 36 so their glory may shine together.
 
 **Esperanto:**
-
+</error>
+<result>
 34 Estas dece ke, kie estas la unu, la alia estu induktita:
 35 tiel ke, kiel li al militista bando,
 36 tiel ilia gloro kune brilu.
@@ -138,16 +206,8 @@ Please translate literally into English and Esperanto.
 37 L’essercito di Cristo, che sì caro
 38 costò a rïarmar, dietro a la ’nsegna
 39 si movea tardo, sospeccioso e raro,
-
-40 quando lo ’mperador che sempre regna
-41 provide a la milizia, ch’era in forse,
-42 per sola grazia, non per esser degna;
-
-43 e, come è detto, a sua sposa soccorse
-44 con due campioni, al cui fare, al cui dire
-45 lo popol disvïato si raccorse.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 37 The army of Christ, which it cost so dearly
@@ -163,15 +223,38 @@ Please translate literally into English and Esperanto.
 45 the strayed people rallied.
 
 **Esperanto:**
-
+</error>
+<result>
 37 La armeo de Kristo, kiun tiom kare
 38 kostis rearmigi, malantaŭ la standardo
 39 moviĝis malrapide, suspektemante kaj malofte,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 40/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+40 quando lo ’mperador che sempre regna
+41 provide a la milizia, ch’era in forse,
+42 per sola grazia, non per esser degna;
+</prompt>
+<result>
 40 kiam la imperiestro kiu ĉiam regas
 41 zorgis pri la militistaro, kiu estis en dubo,
 42 pro sola graco, ne pro esti inda;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 43/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+43 e, come è detto, a sua sposa soccorse
+44 con due campioni, al cui fare, al cui dire
+45 lo popol disvïato si raccorse.
+</prompt>
+<result>
 43 kaj, kiel estas dirite, li helpis sian novedzinon
 44 per du ĉampionoj, ĉe kies faro, ĉe kies diro
 45 la devojiĝinta popolo rekuniĝis.
@@ -185,26 +268,62 @@ Please translate literally into English and Esperanto.
 46 In quella parte ove surge ad aprire
 47 Zefiro dolce le novelle fronde
 48 di che si vede Europa rivestire,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 49/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 49 non molto lungi al percuoter de l’onde
 50 dietro a le quali, per la lunga foga,
 51 lo sol talvolta ad ogne uom si nasconde,
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 52/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 52 siede la fortunata Calaroga
 53 sotto la protezion del grande scudo
 54 in che soggiace il leone e soggioga:
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 55/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 55 dentro vi nacque l’amoroso drudo
 56 de la fede cristiana, il santo atleta
 57 benigno a’ suoi e a’ nemici crudo;
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 58/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 58 e come fu creata, fu repleta
 59 sì la sua mente di viva vertute
 60 che, ne la madre, lei fece profeta.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -215,16 +334,8 @@ Please translate literally into English and Esperanto.
 61 Poi che le sponsalizie fuor compiute
 62 al sacro fonte intra lui e la Fede,
 63 u’ si dotar di mutüa salute,
-
-64 la donna che per lui l’assenso diede,
-65 vide nel sonno il mirabile frutto
-66 ch’uscir dovea di lui e de le rede;
-
-67 e perché fosse qual era in costrutto,
-68 quinci si mosse spirito a nomarlo
-69 del possessivo di cui era tutto.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 61 After the espousals were completed
@@ -240,15 +351,38 @@ Please translate literally into English and Esperanto.
 69 with the possessive of which he was all.
 
 **Esperanto:**
-
+</error>
+<result>
 61 Post kiam la fianĉiĝoj estis plenumitaj
 62 ĉe sankta fonto inter li kaj la Kredo,
 63 kie ili dotis sin per reciproka savo,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 64/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+64 la donna che per lui l’assenso diede,
+65 vide nel sonno il mirabile frutto
+66 ch’uscir dovea di lui e de le rede;
+</prompt>
+<result>
 64 la virino kiu por li donis la konsenton,
 65 vidis en la sonĝo la mirindan frukton
 66 kiu devis eliri el li kaj el la idoj;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 67/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+67 e perché fosse qual era in costrutto,
+68 quinci si mosse spirito a nomarlo
+69 del possessivo di cui era tutto.
+</prompt>
+<result>
 67 kaj por ke li estu kia li estis en konstruado,
 68 de tie moviĝis spirito por nomi lin
 69 per la poseda pronomo de kiu li estis ĉio.
@@ -291,7 +425,7 @@ Please translate literally into English and Esperanto.
 77 trovato in terra da la sua nutrice,
 78 come dicesse: ‘Io son venuto a questo’.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 76 Many times he was found silent and awake
@@ -299,7 +433,8 @@ Please translate literally into English and Esperanto.
 78 as if to say: ‘I have come for this’.
 
 **Esperanto:**
-
+</error>
+<result>
 76 Ofte li estis trovita silenta kaj nedormanta
 77 sur la tero de sia nutristino,
 78 kvazaŭ dirante: ‘Mi venis por tio’.
@@ -313,16 +448,8 @@ Please translate literally into English and Esperanto.
 79 Oh padre suo veramente Felice!
 80 oh madre sua veramente Giovanna,
 81 se, interpretata, val come si dice!
-
-82 Non per lo mondo, per cui mo s’affanna
-83 di retro ad Ostïense e a Taddeo,
-84 ma per amor de la verace manna
-
-85 in picciol tempo gran dottor si feo;
-86 tal che si mise a circüir la vigna
-87 che tosto imbianca, se ’l vignaio è reo.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 79 Oh his truly happy father!
@@ -338,15 +465,38 @@ Please translate literally into English and Esperanto.
 87 which quickly turns white if the vinedresser is wicked.
 
 **Esperanto:**
-
+</error>
+<result>
 79 Ho lia vere Feliĉa patro!
 80 ho lia vere Johana patrino,
 81 se, interpretate, ĝi valoras kiel oni diras!
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 82/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+82 Non per lo mondo, per cui mo s’affanna
+83 di retro ad Ostïense e a Taddeo,
+84 ma per amor de la verace manna
+</prompt>
+<result>
 82 Ne por la mondo, pro kiu oni nun penas
 83 malantaŭ Ostiensa kaj Tadeo,
 84 sed pro amo al la vera manao
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 85/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+85 in picciol tempo gran dottor si feo;
+86 tal che si mise a circüir la vigna
+87 che tosto imbianca, se ’l vignaio è reo.
+</prompt>
+<result>
 85 en mallonga tempo li fariĝis granda doktoro;
 86 tiel ke li ekiris ĉirkaŭiri la vitejon
 87 kiu rapide blankigas, se la vinkultivisto estas malbona.
@@ -360,18 +510,36 @@ Please translate literally into English and Esperanto.
 88 E a la sedia che fu già benigna
 89 più a’ poveri giusti, non per lei,
 90 ma per colui che siede, che traligna,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 91/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 91 non dispensare o due o tre per sei,
 92 non la fortuna di prima vacante,
 93 non decimas, quae sunt pauperum Dei,
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 94/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 94 addimandò, ma contro al mondo errante
 95 licenza di combatter per lo seme
 96 del qual ti fascian ventiquattro piante.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -382,12 +550,8 @@ Please translate literally into English and Esperanto.
 97 Poi, con dottrina e con volere insieme,
 98 con l’officio appostolico si mosse
 99 quasi torrente ch’alta vena preme;
-
-100 e ne li sterpi eretici percosse
-101 l’impeto suo, più vivamente quivi
-102 dove le resistenze eran più grosse.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 97 Then, with learning and will together,
@@ -399,11 +563,23 @@ Please translate literally into English and Esperanto.
 102 where the resistance was greatest.
 
 **Esperanto:**
-
+</error>
+<result>
 97 Poste, kun doktrino kaj volo kune,
 98 kun la apostola ofico li ekiris
 99 kvazaŭ torento kiun alta vejno premas;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 100/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+100 e ne li sterpi eretici percosse
+101 l’impeto suo, più vivamente quivi
+102 dove le resistenze eran più grosse.
+</prompt>
+<result>
 100 kaj en la herezajn arbustojn lia impeto frapis
 101 pli vigle tie
 102 kie la rezistoj estis pli grandaj.
@@ -431,12 +607,8 @@ Please translate literally into English and Esperanto.
 106 Se tal fu l’una rota de la biga
 107 in che la Santa Chiesa si difese
 108 e vinse in campo la sua civil briga,
-
-109 ben ti dovrebbe assai esser palese
-110 l’eccellenza de l’altra, di cui Tomma
-111 dinanzi al mio venir fu sì cortese.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 106 If such was one wheel of the chariot
@@ -448,11 +620,23 @@ Please translate literally into English and Esperanto.
 111 was so courteous before my coming.
 
 **Esperanto:**
-
+</error>
+<result>
 106 Se tia estis unu rado de la ĉaro
 107 en kiu la Sankta Eklezio sin defendis
 108 kaj venkis en kampo sian civitanan kverelon,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 109/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+109 ben ti dovrebbe assai esser palese
+110 l’eccellenza de l’altra, di cui Tomma
+111 dinanzi al mio venir fu sì cortese.
+</prompt>
+<result>
 109 bonege devus esti al vi tre klara
 110 la plejboneco de la alia, pri kiu Tomaso
 111 antaŭ mia veno estis tiel ĝentila.
@@ -467,7 +651,7 @@ Please translate literally into English and Esperanto.
 113 di sua circunferenza, è derelitta,
 114 sì ch’è la muffa dov’ era la gromma.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 112 But the track that made the highest part
@@ -475,7 +659,8 @@ Please translate literally into English and Esperanto.
 114 so that there is mold where there was the crust.
 
 **Esperanto:**
-
+</error>
+<result>
 112 Sed la orbito kiu faris la plej altan parton
 113 de sia cirkonferenco, estas forlasita,
 114 tiel ke estas ŝimo kie estis la krusto.
@@ -489,12 +674,8 @@ Please translate literally into English and Esperanto.
 115 La sua famiglia, che si mosse dritta
 116 coi piedi a le sue orme, è tanto volta,
 117 che quel dinanzi a quel di retro gitta;
-
-118 e tosto si vedrà de la ricolta
-119 de la mala coltura, quando il loglio
-120 si lagnerà che l’arca li sia tolta.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 115 His family, which moved straight
@@ -505,11 +686,23 @@ Please translate literally into English and Esperanto.
 119 when the darnel will complain that the threshing floor is taken from it.
 
 **Esperanto:**
-
+</error>
+<result>
 115 Lia familio, kiu moviĝis rekte
 116 kun la piedoj en liaj spuroj, estas tiom turnita,
 117 ke tiu antaŭe ĵetas tiun malantaŭe;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 118/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+118 e tosto si vedrà de la ricolta
+119 de la mala coltura, quando il loglio
+120 si lagnerà che l’arca li sia tolta.
+</prompt>
+<result>
 118 kaj baldaŭ oni vidos el la rikolto
 119 de la malbona kultivado, kiam la loljo
 120 plendos ke la grenejo estas prenita de ĝi.
@@ -523,12 +716,8 @@ Please translate literally into English and Esperanto.
 121 Ben dico, chi cercasse a foglio a foglio
 122 nostro volume, ancor troveria carta
 123 u’ leggerebbe “I’ mi son quel ch’i’ soglio”;
-
-124 ma non fia da Casal né d’Acquasparta,
-125 là onde vegnon tali a la scrittura,
-126 ch’uno la fugge e altro la coarta.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 121 I say, indeed, that whoever would search leaf by leaf
@@ -540,11 +729,23 @@ Please translate literally into English and Esperanto.
 126 that one flees it and another forces it.
 
 **Esperanto:**
-
+</error>
+<result>
 121 Mi diras, ke se oni serĉus folio post folio
 122 nian volumon, oni ankoraŭ trovus paĝon
 123 kie oni legus “Mi estas tio kion mi kutimis esti”;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 124/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+124 ma non fia da Casal né d’Acquasparta,
+125 là onde vegnon tali a la scrittura,
+126 ch’uno la fugge e altro la coarta.
+</prompt>
+<result>
 124 sed ĝi ne estos el Casale nek el Acquasparta,
 125 de kie tiaj homoj venas al la skribaĵo,
 126 ke unu ĝin evitas kaj alia ĝin devigas.
@@ -586,14 +787,23 @@ Please translate literally into English and Esperanto.
 133 Ugo da San Vittore è qui con elli,
 134 e Pietro Mangiadore e Pietro Spano,
 135 lo qual giù luce in dodici libelli;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 12] 136/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 136 Natàn profeta e ’l metropolitano
 137 Crisostomo e Anselmo e quel Donato
 138 ch’a la prim’ arte degnò porre mano.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -605,7 +815,7 @@ Please translate literally into English and Esperanto.
 140 il calavrese abate Giovacchino
 141 di spirito profetico dotato.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 139 Rabanus is here, and beside him shines
@@ -613,7 +823,8 @@ Please translate literally into English and Esperanto.
 141 endowed with prophetic spirit.
 
 **Esperanto:**
-
+</error>
+<result>
 139 Rabano estas ĉi tie, kaj lumigas lin apudflanke
 140 la kalabria abato Gioacchino
 141 dotita de profeteca spirito.
@@ -627,10 +838,8 @@ Please translate literally into English and Esperanto.
 142 Ad inveggiar cotanto paladino
 143 mi mosse l’infiammata cortesia
 144 di fra Tommaso e ’l discreto latino;
-
-145 e mosse meco questa compagnia».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 142 To emulate such a paladin
@@ -640,11 +849,21 @@ Please translate literally into English and Esperanto.
 145 and this company moved with me».
 
 **Esperanto:**
-
+</error>
+<result>
 142 Por invidii tian palatinon
 143 min movis la inflama ĝentileco
 144 de frato Tomaso kaj la prudenta latino;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 12] 145/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+145 e mosse meco questa compagnia».
+</prompt>
+<result>
 145 kaj movis kun mi tiu ĉi akompanantaro».
 </result>
 </query>

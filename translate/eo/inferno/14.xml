@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="48">
 <query>
 <info>[Inferno Canto 14] 1/142</info>
 <prompt>
@@ -23,14 +23,15 @@ Please translate literally into English and Esperanto.
 5 lo secondo giron dal terzo, e dove
 6 si vede di giustizia orribil arte.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 4 Then we came to the end where the second circle departs
 5 from the third, and where one sees the horrible art of justice.
 
 **Esperanto:**
-
+</error>
+<result>
 4 Tiam ni venis al fino kie disiĝas
 5 la dua rondo de la tria, kaj kie
 6 oni vidas la teruran arton de justeco.
@@ -73,7 +74,7 @@ Please translate literally into English and Esperanto.
 14 non d’altra foggia fatta che colei
 15 che fu da’ piè di Caton già soppressa.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 13 The ground was a dry and thick sand,
@@ -81,7 +82,8 @@ Please translate literally into English and Esperanto.
 15 which was once trodden down by Cato's feet.
 
 **Esperanto:**
-
+</error>
+<result>
 13 La grundo estis seka kaj dika sablo,
 14 farita en neniu alia maniero ol tiu
 15 kiu iam estis subtretita de la piedoj de Katono.
@@ -95,14 +97,23 @@ Please translate literally into English and Esperanto.
 16 O vendetta di Dio, quanto tu dei
 17 esser temuta da ciascun che legge
 18 ciò che fu manifesto a li occhi mei!
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 19/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 19 D’anime nude vidi molte gregge
 20 che piangean tutte assai miseramente,
 21 e parea posta lor diversa legge.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -114,7 +125,7 @@ Please translate literally into English and Esperanto.
 23 alcuna si sedea tutta raccolta,
 24 e altra andava continüamente.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 22 Some people were lying supine on the ground,
@@ -122,7 +133,8 @@ Please translate literally into English and Esperanto.
 24 and others were walking about continually.
 
 **Esperanto:**
-
+</error>
+<result>
 22 Kuŝis surtere iuj homoj,
 23 iuj sidis tute kuntiritaj,
 24 kaj aliaj iris kontinue.
@@ -151,7 +163,7 @@ Please translate literally into English and Esperanto.
 29 piovean di foco dilatate falde,
 30 come di neve in alpe sanza vento.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 28 Over all the sand, with a slow descent,
@@ -159,7 +171,8 @@ Please translate literally into English and Esperanto.
 30 like snow in the Alps without wind.
 
 **Esperanto:**
-
+</error>
+<result>
 28 Super la tuta sablo, kun malrapida falo,
 29 pluvis de fajro dilatitaj faldoj,
 30 kiel de neĝo en Alpoj sen vento.
@@ -173,16 +186,8 @@ Please translate literally into English and Esperanto.
 31 Quali Alessandro in quelle parti calde
 32 d’Indïa vide sopra ’l süo stuolo
 33 fiamme cadere infino a terra salde,
-
-34 per ch’ei provide a scalpitar lo suolo
-35 con le sue schiere, acciò che lo vapore
-36 mei si stingueva mentre ch’era solo:
-
-37 tale scendeva l’etternale ardore;
-38 onde la rena s’accendea, com’ esca
-39 sotto focile, a doppiar lo dolore.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 31 As Alexander in those hot regions
@@ -198,15 +203,38 @@ Please translate literally into English and Esperanto.
 39 under a flint, to double the pain.
 
 **Esperanto:**
-
+</error>
+<result>
 31 Kiel Aleksandro en tiuj varmaj regionoj
 32 de Hindio vidis super sia armeo
 33 flamoj fali konstante al la tero,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 14] 34/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+34 per ch’ei provide a scalpitar lo suolo
+35 con le sue schiere, acciò che lo vapore
+36 mei si stingueva mentre ch’era solo:
+</prompt>
+<result>
 34 por ke li ordonis al siaj taĉmentoj piedbati la grundon
 35 per siaj hufoj, por ke la vaporo
 36 estingiĝus pli rapide dum ĝi estis ankoraŭ sola:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 14] 37/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+37 tale scendeva l’etternale ardore;
+38 onde la rena s’accendea, com’ esca
+39 sotto focile, a doppiar lo dolore.
+</prompt>
+<result>
 37 tiel malsupreniris la eterna ardo;
 38 de kie la sablo ekflamis, kiel eskilo
 39 sub ŝtonfajrilo, por duobligi la doloron.
@@ -221,7 +249,7 @@ Please translate literally into English and Esperanto.
 41 de le misere mani, or quindi or quinci
 42 escotendo da sé l’arsura fresca.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 40 Without ever resting was the throng
@@ -229,7 +257,8 @@ Please translate literally into English and Esperanto.
 42 shaking off the fresh burning from themselves.
 
 **Esperanto:**
-
+</error>
+<result>
 40 Sen ripozo iam estis la tumulto
 41 de la mizeraj manoj, nun ĉi tie nun tie
 42 forskuante de si la freŝan bruligon.
@@ -243,14 +272,23 @@ Please translate literally into English and Esperanto.
 43 I’ cominciai: «Maestro, tu che vinci
 44 tutte le cose, fuor che ’ demon duri
 45 ch’a l’intrar de la porta incontra uscinci,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 46/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 46 chi è quel grande che non par che curi
 47 lo ’ncendio e giace dispettoso e torto,
 48 sì che la pioggia non par che ’l marturi?».
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -262,7 +300,7 @@ Please translate literally into English and Esperanto.
 50 ch’io domandava il mio duca di lui,
 51 gridò: «Qual io fui vivo, tal son morto.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 49 And that same one, who had noticed
@@ -270,7 +308,8 @@ Please translate literally into English and Esperanto.
 51 cried out: "As I was alive, so I am dead.
 
 **Esperanto:**
-
+</error>
+<result>
 49 Kaj tiu sama, kiu rimarkis
 50 ke mi demandis mian gvidanton pri li,
 51 kriis: "Kia mi estis viva, tia mi estas morta.
@@ -284,18 +323,36 @@ Please translate literally into English and Esperanto.
 52 Se Giove stanchi ’l suo fabbro da cui
 53 crucciato prese la folgore aguta
 54 onde l’ultimo dì percosso fui;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 55/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 55 o s’elli stanchi li altri a muta a muta
 56 in Mongibello a la focina negra,
 57 chiamando “Buon Vulcano, aiuta, aiuta!”,
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 58/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 58 sì com’ el fece a la pugna di Flegra,
 59 e me saetti con tutta sua forza:
 60 non ne potrebbe aver vendetta allegra».
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -306,12 +363,8 @@ Please translate literally into English and Esperanto.
 61 Allora il duca mio parlò di forza
 62 tanto, ch’i’ non l’avea sì forte udito:
 63 «O Capaneo, in ciò che non s’ammorza
-
-64 la tua superbia, se’ tu più punito;
-65 nullo martiro, fuor che la tua rabbia,
-66 sarebbe al tuo furor dolor compito».
 </prompt>
-<result>
+<error>
 **English:**
 
 61 Then my guide spoke with such force
@@ -329,7 +382,20 @@ Please translate literally into English and Esperanto.
 64 via aroganteco, vi estas pli punita;
 65 neniu martiro, krom via kolero,
 66 estus por via furiozo kompleta doloro".
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 64/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
+
+64 la tua superbia, se’ tu più punito;
+65 nullo martiro, fuor che la tua rabbia,
+66 sarebbe al tuo furor dolor compito».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 67/142</info>
@@ -339,14 +405,23 @@ Please translate literally into English and Esperanto.
 67 Poi si rivolse a me con miglior labbia,
 68 dicendo: «Quei fu l’un d’i sette regi
 69 ch’assiser Tebe; ed ebbe e par ch’elli abbia
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 70/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 70 Dio in disdegno, e poco par che ’l pregi;
 71 ma, com’ io dissi lui, li suoi dispetti
 72 sono al suo petto assai debiti fregi.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -358,7 +433,7 @@ Please translate literally into English and Esperanto.
 74 ancor, li piedi ne la rena arsiccia;
 75 ma sempre al bosco tien li piedi stretti».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 73 Now come behind me, and take care that you do not put
@@ -366,7 +441,8 @@ Please translate literally into English and Esperanto.
 75 but keep your feet always close to the wood."
 
 **Esperanto:**
-
+</error>
+<result>
 73 Nun venu post mi, kaj zorgu ke vi ne metu,
 74 ankoraŭ, la piedojn en la bruligita sablo;
 75 sed ĉiam tenu la piedojn proksime al la arbaro".
@@ -381,7 +457,7 @@ Please translate literally into English and Esperanto.
 77 fuor de la selva un picciol fiumicello,
 78 lo cui rossore ancor mi raccapriccia.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 76 In silence we came to where a small stream
@@ -389,7 +465,8 @@ Please translate literally into English and Esperanto.
 78 the redness of which still horrifies me.
 
 **Esperanto:**
-
+</error>
+<result>
 76 Silente ni venis tien, kie elfluas
 77 el la arbaro malgranda rivereto,
 78 kies ruĝeco ankoraŭ terurigas min.
@@ -404,7 +481,7 @@ Please translate literally into English and Esperanto.
 80 che parton poi tra lor le peccatrici,
 81 tal per la rena giù sen giva quello.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 79 Like the stream that flows from the Bulicame
@@ -412,7 +489,8 @@ Please translate literally into English and Esperanto.
 81 so that one went down through the sand.
 
 **Esperanto:**
-
+</error>
+<result>
 79 Kia elfluas el la Bulikamo rojo
 80 kiun poste inter si dividas la pekulinoj,
 81 tia tra la sablo malsupren iris tiu.
@@ -440,12 +518,8 @@ Please translate literally into English and Esperanto.
 85 «Tra tutto l’altro ch’i’ t’ho dimostrato,
 86 poscia che noi intrammo per la porta
 87 lo cui sogliare a nessuno è negato,
-
-88 cosa non fu da li tuoi occhi scorta
-89 notabile com’ è ’l presente rio,
-90 che sovra sé tutte fiammelle ammorta».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 85 "Among all the other things that I have shown you,
@@ -457,11 +531,23 @@ Please translate literally into English and Esperanto.
 90 which quenches all flames above itself?"
 
 **Esperanto:**
-
+</error>
+<result>
 85 "Inter ĉio alia kion mi montris al vi,
 86 poste ke ni eniris tra la pordego
 87 kies sojlo al neniu estas neata,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 14] 88/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+88 cosa non fu da li tuoi occhi scorta
+89 notabile com’ è ’l presente rio,
+90 che sovra sé tutte fiammelle ammorta».
+</prompt>
+<result>
 88 kiaĵo ne estis de viaj okuloj rimarkita
 89 notinda kia estas la nuna rivereto,
 90 kiu super si ĉiujn flametojn estingas?"
@@ -490,7 +576,7 @@ Please translate literally into English and Esperanto.
 95 diss’ elli allora, «che s’appella Creta,
 96 sotto ’l cui rege fu già ’l mondo casto.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 94 "In the middle of the sea sits a ruined land,"
@@ -498,7 +584,8 @@ Please translate literally into English and Esperanto.
 96 under whose king the world was once chaste.
 
 **Esperanto:**
-
+</error>
+<result>
 94 "Meze de la maro sidas lando dezerta",
 95 diris li tiam, "kiu nomiĝas Kreto,
 96 sub kies reĝo iam estis la mondo ĉasta.
@@ -541,7 +628,7 @@ Please translate literally into English and Esperanto.
 104 che tien volte le spalle inver’ Dammiata
 105 e Roma guarda come süo speglio.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 103 Inside the mountain stands a great old man,
@@ -549,7 +636,8 @@ Please translate literally into English and Esperanto.
 105 and looks at Rome as his mirror.
 
 **Esperanto:**
-
+</error>
+<result>
 103 Interne de la monto staras granda maljunulo,
 104 kiu tenas turnita la dorson al Damieta
 105 kaj rigardas Romon kiel sian spegulon.
@@ -563,12 +651,8 @@ Please translate literally into English and Esperanto.
 106 La sua testa è di fin oro formata,
 107 e puro argento son le braccia e ’l petto,
 108 poi è di rame infino a la forcata;
-
-109 da indi in giuso è tutto ferro eletto,
-110 salvo che ’l destro piede è terra cotta;
-111 e sta ’n su quel, più che ’n su l’altro, eretto.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 106 His head is formed of fine gold,
@@ -580,11 +664,23 @@ Please translate literally into English and Esperanto.
 111 and he stands more erect on that one than on the other.
 
 **Esperanto:**
-
+</error>
+<result>
 106 Lia kapo estas el bona oro formita,
 107 kaj pura arĝento estas la brakoj kaj la brusto,
 108 poste li estas el kupro ĝis la disbranĉiĝo;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 14] 109/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+109 da indi in giuso è tutto ferro eletto,
+110 salvo che ’l destro piede è terra cotta;
+111 e sta ’n su quel, più che ’n su l’altro, eretto.
+</prompt>
+<result>
 109 de tie malsupren li estas tute el bona fero,
 110 krom ke la dekstra piedo estas el bakita argilo;
 111 kaj li staras sur tiu, pli ol sur la alia, staranta.
@@ -612,12 +708,8 @@ Please translate literally into English and Esperanto.
 115 Lor corso in questa valle si diroccia;
 116 fanno Acheronte, Stige e Flegetonta;
 117 poi sen van giù per questa stretta doccia,
-
-118 infin, là ove più non si dismonta,
-119 fanno Cocito; e qual sia quello stagno
-120 tu lo vedrai, però qui non si conta».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 115 Their course in this valley becomes a waterfall;
@@ -629,11 +721,23 @@ Please translate literally into English and Esperanto.
 120 you will see, so it is not recounted here."
 
 **Esperanto:**
-
+</error>
+<result>
 115 Ilia fluo en tiu ĉi valo fariĝas akvofalo;
 116 ili faras Akeronton, Stikson kaj Flegetoton;
 117 poste ili malsupreniras tra tiu ĉi mallarĝa duŝo,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 14] 118/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+118 infin, là ove più non si dismonta,
+119 fanno Cocito; e qual sia quello stagno
+120 tu lo vedrai, però qui non si conta».
+</prompt>
+<result>
 118 finfine, tie kie oni ne plu malsupreniras,
 119 ili faras Kokiton; kaj kia estas tiu marĉo
 120 vi ĝin vidos, tial ĉi tie oni ne rakontas ĝin."
@@ -648,7 +752,7 @@ Please translate literally into English and Esperanto.
 122 si diriva così dal nostro mondo,
 123 perché ci appar pur a questo vivagno?».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 121 And I to him: "If the present stream
@@ -656,7 +760,8 @@ Please translate literally into English and Esperanto.
 123 why does it appear to us only at this edge?"
 
 **Esperanto:**
-
+</error>
+<result>
 121 Kaj mi al li: "Se la nuna rivereto
 122 tiel devenas el nia mondo,
 123 kial ĝi aperas al ni nur je tiu ĉi rando?"
@@ -670,12 +775,8 @@ Please translate literally into English and Esperanto.
 124 Ed elli a me: «Tu sai che ’l loco è tondo;
 125 e tutto che tu sie venuto molto,
 126 pur a sinistra, giù calando al fondo,
-
-127 non se’ ancor per tutto ’l cerchio vòlto;
-128 per che, se cosa n’apparisce nova,
-129 non de’ addur maraviglia al tuo volto».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 124 And he to me: "You know that the place is round;
@@ -687,11 +788,23 @@ Please translate literally into English and Esperanto.
 129 it should not bring wonder to your face."
 
 **Esperanto:**
-
+</error>
+<result>
 124 Kaj li al mi: "Vi scias ke la loko estas ronda;
 125 kaj kvankam vi venis tre multe,
 126 tamen maldekstre, malsuprenirante al la fundo,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 14] 127/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+127 non se’ ancor per tutto ’l cerchio vòlto;
+128 per che, se cosa n’apparisce nova,
+129 non de’ addur maraviglia al tuo volto».
+</prompt>
+<result>
 127 vi ankoraŭ ne ĉirkaŭiris la tutan cirklon;
 128 pro tio, se io nova aperas al ni,
 129 ĝi ne devas mirigi vian vizaĝon."
@@ -734,7 +847,7 @@ Please translate literally into English and Esperanto.
 137 là dove vanno l’anime a lavarsi
 138 quando la colpa pentuta è rimossa».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 136 You will see Lethe, but outside of this ditch,
@@ -742,7 +855,8 @@ Please translate literally into English and Esperanto.
 138 when the repented fault is removed."
 
 **Esperanto:**
-
+</error>
+<result>
 136 Vi vidos Leton, sed ekster tiu ĉi fosaĵo,
 137 tien kie la animoj iras sin lavi
 138 kiam la pentita kulpo estas forigita."
@@ -756,10 +870,8 @@ Please translate literally into English and Esperanto.
 139 Poi disse: «Omai è tempo da scostarsi
 140 dal bosco; fa che di retro a me vegne:
 141 li margini fan via, che non son arsi,
-
-142 e sopra loro ogne vapor si spegne».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 139 Then he said: "Now it is time to depart
@@ -769,11 +881,21 @@ Please translate literally into English and Esperanto.
 142 and every vapor is extinguished above them."
 
 **Esperanto:**
-
+</error>
+<result>
 139 Poste li diris: "Nun estas tempo foriri
 140 el la arbaro; faru ke vi venu post mi:
 141 la randoj faras vojon, kiuj ne estas bruligitaj,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 14] 142/142</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+142 e sopra loro ogne vapor si spegne».
+</prompt>
+<result>
 142 kaj super ili ĉiu vaporo estingiĝas."
 </result>
 </query>

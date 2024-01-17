@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="30">
+<queries count="42">
 <query>
 <info>[Inferno Canto 15] 1/124</info>
 <prompt>
@@ -9,7 +9,7 @@ Please translate literally into English and Esperanto.
 2 e ’l fummo del ruscel di sopra aduggia,
 3 sì che dal foco salva l’acqua e li argini.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 1 Now one of the steep banks bears us;
@@ -17,7 +17,8 @@ Please translate literally into English and Esperanto.
 3 so that the water and the banks are saved from the fire.
 
 **Esperanto:**
-
+</error>
+<result>
 1 Nun unu el la krutaj randoj portas nin;
 2 kaj la fumo de la rojo supre ombras ĝin,
 3 tiel ke la akvo kaj la randoj estas savitaj de la fajro.
@@ -31,18 +32,36 @@ Please translate literally into English and Esperanto.
 4 Quali Fiamminghi tra Guizzante e Bruggia,
 5 temendo ’l fiotto che ’nver’ lor s’avventa,
 6 fanno lo schermo perché ’l mar si fuggia;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 15] 7/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 7 e quali Padoan lungo la Brenta,
 8 per difender lor ville e lor castelli,
 9 anzi che Carentana il caldo senta:
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Inferno Canto 15] 10/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 10 a tale imagine eran fatti quelli,
 11 tutto che né sì alti né sì grossi,
 12 qual che si fosse, lo maestro félli.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -53,16 +72,8 @@ Please translate literally into English and Esperanto.
 13 Già eravam da la selva rimossi
 14 tanto, ch’i’ non avrei visto dov’ era,
 15 perch’ io in dietro rivolto mi fossi,
-
-16 quando incontrammo d’anime una schiera
-17 che venian lungo l’argine, e ciascuna
-18 ci riguardava come suol da sera
-
-19 guardare uno altro sotto nuova luna;
-20 e sì ver’ noi aguzzavan le ciglia
-21 come ’l vecchio sartor fa ne la cruna.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 13 We were already so far removed from the forest
@@ -78,15 +89,38 @@ Please translate literally into English and Esperanto.
 21 as an old tailor does at the needle's eye.
 
 **Esperanto:**
-
+</error>
+<result>
 13 Ni jam estis tiom forigitaj de la arbaro
 14 ke mi ne vidus kie ĝi estis,
 15 eĉ se mi estus turninta min reen,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 15] 16/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+16 quando incontrammo d’anime una schiera
+17 che venian lungo l’argine, e ciascuna
+18 ci riguardava come suol da sera
+</prompt>
+<result>
 16 kiam ni renkontis amasan da animoj
 17 kiuj venis laŭlonge de la rando, kaj ĉiu
 18 rigardis nin kiel oni kutimas rigardi
+</result>
+</query>
+<query>
+<info>[Inferno Canto 15] 19/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+19 guardare uno altro sotto nuova luna;
+20 e sì ver’ noi aguzzavan le ciglia
+21 come ’l vecchio sartor fa ne la cruna.
+</prompt>
+<result>
 19 aliulon sub la nova luno en la vespero;
 20 kaj ili akrigis siajn okulojn al ni
 21 kiel maljuna tajloro faras al la okultruo de pinglo.
@@ -101,7 +135,7 @@ Please translate literally into English and Esperanto.
 23 fui conosciuto da un, che mi prese
 24 per lo lembo e gridò: «Qual maraviglia!».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 22 Thus eyed by such a company,
@@ -109,7 +143,8 @@ Please translate literally into English and Esperanto.
 24 by the hem and cried out: "What a marvel!"
 
 **Esperanto:**
-
+</error>
+<result>
 22 Tiel rigardata de tia familio,
 23 mi estis rekonita de unu, kiu kaptis min
 24 je la rando kaj kriis: "Kia mirindaĵo!"
@@ -123,14 +158,23 @@ Please translate literally into English and Esperanto.
 25 E io, quando ’l suo braccio a me distese,
 26 ficcaï li occhi per lo cotto aspetto,
 27 sì che ’l viso abbrusciato non difese
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 15] 28/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 28 la conoscenza süa al mio ’ntelletto;
 29 e chinando la mano a la sua faccia,
 30 rispuosi: «Siete voi qui, ser Brunetto?».
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -142,7 +186,7 @@ Please translate literally into English and Esperanto.
 32 se Brunetto Latino un poco teco
 33 ritorna ’n dietro e lascia andar la traccia».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 31 And he: "O my son, do not be displeased
@@ -150,7 +194,8 @@ Please translate literally into English and Esperanto.
 33 and lets the track go."
 
 **Esperanto:**
-
+</error>
+<result>
 31 Kaj tiu: "Ho mia filo, ne malkontentigu vin
 32 se Brunetto Latino iom kun vi
 33 reiras kaj lasos la spuron iri."
@@ -165,7 +210,7 @@ Please translate literally into English and Esperanto.
 35 e se volete che con voi m’asseggia,
 36 faròl, se piace a costui che vo seco».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 34 I said to him: "As much as I can, come quickly;
@@ -173,7 +218,8 @@ Please translate literally into English and Esperanto.
 36 I will do so, if it pleases him with whom I go."
 
 **Esperanto:**
-
+</error>
+<result>
 34 Mi diris al li: "Kiom mi povas, venu rapide;
 35 kaj se vi volas, ke mi kun vi sidiĝu,
 36 mi tion faros, se plaĉas al ĉi tiu, kun kiu mi iras."
@@ -188,7 +234,7 @@ Please translate literally into English and Esperanto.
 38 s’arresta punto, giace poi cent’ anni
 39 sanz’ arrostarsi quando ’l foco il feggia.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 37 "O my son," he said, "whoever of this flock
@@ -196,7 +242,8 @@ Please translate literally into English and Esperanto.
 39 without being roasted when the fire strikes him.
 
 **Esperanto:**
-
+</error>
+<result>
 37 "Ho filo," li diris, "kiu el ĉi tiu grego
 38 haltas eĉ momenton, kuŝas poste cent jarojn
 39 sen esti rostita kiam la fajro ĝin atakas.
@@ -211,7 +258,7 @@ Please translate literally into English and Esperanto.
 41 e poi rigiugnerò la mia masnada,
 42 che va piangendo i suoi etterni danni».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 40 But go on: I will come to you at your clothes;
@@ -219,7 +266,8 @@ Please translate literally into English and Esperanto.
 42 who go weeping their eternal losses."
 
 **Esperanto:**
-
+</error>
+<result>
 40 Sed iru pluen: mi venos al viaj vestoj;
 41 kaj poste mi reatingos mian bandon,
 42 kiu iras plorante siajn eternajn perdojn."
@@ -234,7 +282,7 @@ Please translate literally into English and Esperanto.
 44 per andar par di lui; ma ’l capo chino
 45 tenea com’ uom che reverente vada.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 43 I did not dare to descend from the road
@@ -242,7 +290,8 @@ Please translate literally into English and Esperanto.
 45 like one who walks in reverence.
 
 **Esperanto:**
-
+</error>
+<result>
 43 Mi ne kuraĝis malsupreniri de la vojo
 44 por iri apud li; sed mi tenis la kapon klinita
 45 kiel homo, kiu iras respekteme.
@@ -271,7 +320,7 @@ Please translate literally into English and Esperanto.
 50 rispuos’ io lui, «mi smarri’ in una valle,
 51 avanti che l’età mia fosse piena.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 49 "Up there, in the serene life,"
@@ -279,7 +328,8 @@ Please translate literally into English and Esperanto.
 51 before my age was full.
 
 **Esperanto:**
-
+</error>
+<result>
 49 "Tie supre, en la serena vivo,"
 50 mi respondis al li, "mi perdiĝis en valo,
 51 antaŭ ol mia aĝo estis plena.
@@ -307,14 +357,23 @@ Please translate literally into English and Esperanto.
 55 Ed elli a me: «Se tu segui tua stella,
 56 non puoi fallire a glorïoso porto,
 57 se ben m’accorsi ne la vita bella;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 15] 58/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 58 e s’io non fossi sì per tempo morto,
 59 veggendo il cielo a te così benigno,
 60 dato t’avrei a l’opera conforto.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -325,12 +384,8 @@ Please translate literally into English and Esperanto.
 61 Ma quello ingrato popolo maligno
 62 che discese di Fiesole ab antico,
 63 e tiene ancor del monte e del macigno,
-
-64 ti si farà, per tuo ben far, nimico;
-65 ed è ragion, ché tra li lazzi sorbi
-66 si disconvien fruttare al dolce fico.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 61 But that ungrateful and wicked people
@@ -342,11 +397,23 @@ Please translate literally into English and Esperanto.
 66 it is unfitting for the sweet fig to bear fruit.
 
 **Esperanto:**
-
+</error>
+<result>
 61 Sed tiu maldankema kaj malica popolo
 62 kiu devenis de Fiesole antikve,
 63 kaj ankoraŭ havas ion de la monto kaj de la siliko,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 15] 64/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+64 ti si farà, per tuo ben far, nimico;
+65 ed è ragion, ché tra li lazzi sorbi
+66 si disconvien fruttare al dolce fico.
+</prompt>
+<result>
 64 fariĝos, pro via bonfaro, via malamiko;
 65 kaj estas prave, ĉar inter la acidaj sorboj
 66 malkonvenas, ke la dolĉa figo fruktu.
@@ -361,7 +428,7 @@ Please translate literally into English and Esperanto.
 68 gent’ è avara, invidiosa e superba:
 69 dai lor costumi fa che tu ti forbi.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 67 Old fame in the world calls them blind;
@@ -369,7 +436,8 @@ Please translate literally into English and Esperanto.
 69 from their customs see that you keep yourself clean.
 
 **Esperanto:**
-
+</error>
+<result>
 67 Malnova famo en la mondo nomas ilin blinduloj;
 68 ili estas avara, enviema kaj fiera popolo:
 69 de iliaj kutimoj faru, ke vi vin purigu.
@@ -384,7 +452,7 @@ Please translate literally into English and Esperanto.
 71 che l’una parte e l’altra avranno fame
 72 di te; ma lungi fia dal becco l’erba.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 70 Your fortune reserves so much honor for you,
@@ -392,7 +460,8 @@ Please translate literally into English and Esperanto.
 72 but the grass will be far from the beak.
 
 **Esperanto:**
-
+</error>
+<result>
 70 Via fortuno tiom da honoron rezervas por vi,
 71 ke ambaŭ partioj malsatos pri vi;
 72 sed la herbo estos malproksima de la beko.
@@ -406,14 +475,23 @@ Please translate literally into English and Esperanto.
 73 Faccian le bestie fiesolane strame
 74 di lor medesme, e non tocchin la pianta,
 75 s’alcuna surge ancora in lor letame,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 15] 76/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 76 in cui riviva la sementa santa
 77 di que’ Roman che vi rimaser quando
 78 fu fatto il nido di malizia tanta».
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -424,16 +502,8 @@ Please translate literally into English and Esperanto.
 79 «Se fosse tutto pieno il mio dimando»,
 80 rispuos’ io lui, «voi non sareste ancora
 81 de l’umana natura posto in bando;
-
-82 ché ’n la mente m’è fitta, e or m’accora,
-83 la cara e buona imagine paterna
-84 di voi quando nel mondo ad ora ad ora
-
-85 m’insegnavate come l’uom s’etterna:
-86 e quant’ io l’abbia in grado, mentr’ io vivo
-87 convien che ne la mia lingua si scerna.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 79 "If my request were wholly fulfilled,"
@@ -449,15 +519,38 @@ Please translate literally into English and Esperanto.
 87 it is fitting that my tongue should make known.
 
 **Esperanto:**
-
+</error>
+<result>
 79 "Se mia peto estus tute plenumita,"
 80 mi respondis al li, "vi ankoraŭ ne estus
 81 forigita el la homa naturo;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 15] 82/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+82 ché ’n la mente m’è fitta, e or m’accora,
+83 la cara e buona imagine paterna
+84 di voi quando nel mondo ad ora ad ora
+</prompt>
+<result>
 82 ĉar en mia menso estas fiksigita, kaj nun ĝi min doloras,
 83 la kara kaj bona patra bildo
 84 de vi kiam en la mondo de tempo al tempo
+</result>
+</query>
+<query>
+<info>[Inferno Canto 15] 85/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+85 m’insegnavate come l’uom s’etterna:
+86 e quant’ io l’abbia in grado, mentr’ io vivo
+87 convien che ne la mia lingua si scerna.
+</prompt>
+<result>
 85 vi instruis min kiel homo sin eternigas:
 86 kaj kiom mi ĝin ŝatas, dum mi vivas
 87 konvenas, ke en mia lango ĝi estu distingebla.
@@ -472,7 +565,7 @@ Please translate literally into English and Esperanto.
 89 e serbolo a chiosar con altro testo
 90 a donna che saprà, s’a lei arrivo.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 88 What you relate of my course I write down,
@@ -480,7 +573,8 @@ Please translate literally into English and Esperanto.
 90 by a lady who will know, if I reach her.
 
 **Esperanto:**
-
+</error>
+<result>
 88 Kion vi rakontas pri mia vojo mi skribas,
 89 kaj mi konservas ĝin por komencii kun alia teksto
 90 al damo kiu scios, se mi alvenos al ŝi.
@@ -495,7 +589,7 @@ Please translate literally into English and Esperanto.
 92 pur che mia coscïenza non mi garra,
 93 ch’a la Fortuna, come vuol, son presto.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 91 So much do I want you to know,
@@ -503,7 +597,8 @@ Please translate literally into English and Esperanto.
 93 that I am ready for Fortune, as she wills.
 
 **Esperanto:**
-
+</error>
+<result>
 91 Tiom mi volas, ke tio estu al vi manifesta,
 92 nur ke mia konscienco ne riproĉas min,
 93 ke al Fortuno, kiel ŝi volas, mi estas preta.
@@ -518,7 +613,7 @@ Please translate literally into English and Esperanto.
 95 però giri Fortuna la sua rota
 96 come le piace, e ’l villan la sua marra».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 94 Such a pledge is not new to my ears:
@@ -526,7 +621,8 @@ Please translate literally into English and Esperanto.
 96 as she pleases, and the peasant his mattock."
 
 **Esperanto:**
-
+</error>
+<result>
 94 Tia promeso ne estas nova al miaj oreloj:
 95 tial turnu Fortuno sian radon
 96 kiel plaĉas al ŝi, kaj la kamparano sian hakilon."
@@ -569,7 +665,7 @@ Please translate literally into English and Esperanto.
 104 de li altri fia laudabile tacerci,
 105 ché ’l tempo saria corto a tanto suono.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 103 And he to me: "To know of some is good;
@@ -577,7 +673,8 @@ Please translate literally into English and Esperanto.
 105 for time would be short for so much sound.
 
 **Esperanto:**
-
+</error>
+<result>
 103 Kaj li al mi: "Sciigo pri iu estas bona;
 104 pri la aliaj estos laŭdinde silenti,
 105 ĉar la tempo estus mallonga por tiom da sono.
@@ -592,7 +689,7 @@ Please translate literally into English and Esperanto.
 107 e litterati grandi e di gran fama,
 108 d’un peccato medesmo al mondo lerci.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 106 In short, know that all of them were clerics
@@ -600,7 +697,8 @@ Please translate literally into English and Esperanto.
 108 sullied in the world by the same sin.
 
 **Esperanto:**
-
+</error>
+<result>
 106 Sume sciu, ke ĉiuj estis klerikoj
 107 kaj grandaj literaturistoj kaj de granda famo,
 108 makulitaj en la mondo de la sama peko.
@@ -614,14 +712,23 @@ Please translate literally into English and Esperanto.
 109 Priscian sen va con quella turba grama,
 110 e Francesco d’Accorso anche; e vedervi,
 111 s’avessi avuto di tal tigna brama,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 15] 112/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 112 colui potei che dal servo de’ servi
 113 fu trasmutato d’Arno in Bacchiglione,
 114 dove lasciò li mal protesi nervi.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -633,7 +740,7 @@ Please translate literally into English and Esperanto.
 116 più lungo esser non può, però ch’i’ veggio
 117 là surger nuovo fummo del sabbione.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 115 I would say more; but the coming and the discourse
@@ -641,7 +748,8 @@ Please translate literally into English and Esperanto.
 117 new smoke rising there from the sandy plain.
 
 **Esperanto:**
-
+</error>
+<result>
 115 Mi dirus pli; sed la veno kaj la parolado
 116 ne povas esti pli longaj, ĉar mi vidas
 117 tie leviĝi novan fumon de la sablo.
@@ -656,7 +764,7 @@ Please translate literally into English and Esperanto.
 119 Sieti raccomandato il mio Tesoro,
 120 nel qual io vivo ancora, e più non cheggio».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 118 People are coming with whom I must not be.
@@ -664,7 +772,8 @@ Please translate literally into English and Esperanto.
 120 in which I still live, and I ask no more."
 
 **Esperanto:**
-
+</error>
+<result>
 118 Homoj venas kun kiuj mi ne devas esti.
 119 Estu rekomendita al vi mia Trezoro,
 120 en kiu mi ankoraŭ vivas, kaj mi ne petas pli."
@@ -678,12 +787,21 @@ Please translate literally into English and Esperanto.
 121 Poi si rivolse, e parve di coloro
 122 che corrono a Verona il drappo verde
 123 per la campagna; e parve di costoro
-
-124 quelli che vince, non colui che perde.
 </prompt>
 <error>
 index: 0
 finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Inferno Canto 15] 124/124</info>
+<prompt>
+Please translate literally into English and Esperanto.
+
+124 quelli che vince, non colui che perde.
+</prompt>
+<error>
+(no result)
 </error>
 </query>
 </queries>

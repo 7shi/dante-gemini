@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="26">
+<queries count="45">
 <query>
 <info>[Paradiso Canto 3] 1/130</info>
 <prompt>
@@ -8,16 +8,8 @@ Please translate literally into English and Esperanto.
 1 Quel sol che pria d’amor mi scaldò ’l petto,
 2 di bella verità m’avea scoverto,
 3 provando e riprovando, il dolce aspetto;
-
-4 e io, per confessar corretto e certo
-5 me stesso, tanto quanto si convenne
-6 leva’ il capo a proferer più erto;
-
-7 ma visïone apparve che ritenne
-8 a sé me tanto stretto, per vedersi,
-9 che di mia confession non mi sovvenne.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 1 That sun which formerly warmed my breast with love
@@ -33,15 +25,38 @@ Please translate literally into English and Esperanto.
 9 that I did not remember my confession.
 
 **Esperanto:**
-
+</error>
+<result>
 1 Tiu suno, kiu antaŭe varmigis mian bruston per amo,
 2 malkovris al mi kun bela vero
 3 per testado kaj retestado ĝian dolĉan aspekton;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 4/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+4 e io, per confessar corretto e certo
+5 me stesso, tanto quanto si convenne
+6 leva’ il capo a proferer più erto;
+</prompt>
+<result>
 4 kaj mi, por konfesi min korekte kaj certe,
 5 tiom kiom taŭgis,
 6 levis la kapon por paroli pli alte;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 7/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+7 ma visïone apparve che ritenne
+8 a sé me tanto stretto, per vedersi,
+9 che di mia confession non mi sovvenne.
+</prompt>
+<result>
 7 sed vizio aperis, kiu retenis
 8 min al si tiel forte, por vidi sin,
 9 ke mi ne rememoris mian konfeson.
@@ -55,18 +70,36 @@ Please translate literally into English and Esperanto.
 10 Quali per vetri trasparenti e tersi,
 11 o ver per acque nitide e tranquille,
 12 non sì profonde che i fondi sien persi,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 3] 13/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 13 tornan d’i nostri visi le postille
 14 debili sì, che perla in bianca fronte
 15 non vien men forte a le nostre pupille;
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 3] 16/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 16 tali vid’ io più facce a parlar pronte;
 17 per ch’io dentro a l’error contrario corsi
 18 a quel ch’accese amor tra l’omo e ’l fonte.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -77,14 +110,23 @@ Please translate literally into English and Esperanto.
 19 Sùbito sì com’ io di lor m’accorsi,
 20 quelle stimando specchiati sembianti,
 21 per veder di cui fosser, li occhi torsi;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 3] 22/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 22 e nulla vidi, e ritorsili avanti
 23 dritti nel lume de la dolce guida,
 24 che, sorridendo, ardea ne li occhi santi.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -95,12 +137,8 @@ Please translate literally into English and Esperanto.
 25 «Non ti maravigliar perch’ io sorrida»,
 26 mi disse, «appresso il tuo püeril coto,
 27 poi sopra ’l vero ancor lo piè non fida,
-
-28 ma te rivolve, come suole, a vòto:
-29 vere sustanze son ciò che tu vedi,
-30 qui rilegate per manco di voto.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 25 "Do not wonder why I smile,"
@@ -112,11 +150,23 @@ Please translate literally into English and Esperanto.
 30 confined here for lack of a vow.
 
 **Esperanto:**
-
+</error>
+<result>
 25 "Ne miru, ke mi ridetas,"
 26 ŝi diris al mi, "apud via knabeca penso,
 27 ĉar super la vero ankoraŭ la piedo ne fidas,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 28/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+28 ma te rivolve, come suole, a vòto:
+29 vere sustanze son ciò che tu vedi,
+30 qui rilegate per manco di voto.
+</prompt>
+<result>
 28 sed turnas vin, kiel kutime, vane:
 29 veraj substancoj estas tio, kion vi vidas,
 30 ĉi tie enŝlositaj pro manko de voto.
@@ -131,7 +181,7 @@ Please translate literally into English and Esperanto.
 32 ché la verace luce che le appaga
 33 da sé non lascia lor torcer li piedi».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 31 Therefore speak with them and listen and believe;
@@ -139,7 +189,8 @@ Please translate literally into English and Esperanto.
 33 does not allow them to turn their feet away from itself.
 
 **Esperanto:**
-
+</error>
+<result>
 31 Tial parolu kun ili kaj aŭdu kaj fidu;
 32 ĉar la vera lumo, kiu ilin kontentigas,
 33 de si mem ne lasas ilin deturni la piedojn.
@@ -153,15 +204,8 @@ Please translate literally into English and Esperanto.
 34 E io a l’ombra che parea più vaga
 35 di ragionar, drizza’mi, e cominciai,
 36 quasi com’ uom cui troppa voglia smaga:
-
-37 «O ben creato spirito, che a’ rai
-38 di vita etterna la dolcezza senti
-39 che, non gustata, non s’intende mai,
-
-40 grazïoso mi fia se mi contenti
-41 del nome tuo e de la vostra sorte».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 34 And I, in order to speak with the shade that seemed most beautiful,
@@ -176,15 +220,37 @@ Please translate literally into English and Esperanto.
 41 with your name and your fate."
 
 **Esperanto:**
-
+</error>
+<result>
 34 Kaj mi al la ombro, kiu ŝajnis plej bela
 35 por diskuti, rektiĝis, kaj komencis,
 36 preskaŭ kiel homo, kiun troa deziro malfortigas:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 37/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+37 «O ben creato spirito, che a’ rai
+38 di vita etterna la dolcezza senti
+39 che, non gustata, non s’intende mai,
+</prompt>
+<result>
 37 "Ho bone kreita spirito, kiu en la radioj
 38 de eterna vivo sentas la dolĉecon
 39 kiu, negustumita, neniam estas komprenata,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 40/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+40 grazïoso mi fia se mi contenti
+41 del nome tuo e de la vostra sorte».
+</prompt>
+<result>
 40 estos gracia al mi, se vi kontentigos min
 41 per via nomo kaj via sorto."
 </result>
@@ -195,12 +261,8 @@ Please translate literally into English and Esperanto.
 Please translate literally into English and Esperanto.
 
 42 Ond’ ella, pronta e con occhi ridenti:
-
-43 «La nostra carità non serra porte
-44 a giusta voglia, se non come quella
-45 che vuol simile a sé tutta sua corte.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 42 Then she, promptly and with smiling eyes:
@@ -210,9 +272,21 @@ Please translate literally into English and Esperanto.
 45 which wants its whole court to be like itself.
 
 **Esperanto:**
-
+</error>
+<result>
 42 Tiam ŝi, rapide kaj kun ridetantaj okuloj:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 43/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+43 «La nostra carità non serra porte
+44 a giusta voglia, se non come quella
+45 che vuol simile a sé tutta sua corte.
+</prompt>
+<result>
 43 "Nia karitato ne fermas pordojn
 44 al justa deziro, krom se kiel tiu
 45 kiu volas sian tutan kortegon simila al si.
@@ -226,12 +300,8 @@ Please translate literally into English and Esperanto.
 46 I’ fui nel mondo vergine sorella;
 47 e se la mente tua ben sé riguarda,
 48 non mi ti celerà l’esser più bella,
-
-49 ma riconoscerai ch’i’ son Piccarda,
-50 che, posta qui con questi altri beati,
-51 beata sono in la spera più tarda.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 46 I was a virgin sister in the world;
@@ -243,11 +313,23 @@ Please translate literally into English and Esperanto.
 51 am blessed in the slowest sphere.
 
 **Esperanto:**
-
+</error>
+<result>
 46 Mi estis en la mondo virga fratino;
 47 kaj se via menso bone rigardas sin,
 48 ĝi ne kaŝos de vi la esti pli bela,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 49/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+49 ma riconoscerai ch’i’ son Piccarda,
+50 che, posta qui con questi altri beati,
+51 beata sono in la spera più tarda.
+</prompt>
+<result>
 49 sed vi rekonos, ke mi estas Piccardda,
 50 kiu, metita ĉi tie kun tiuj aliaj beatuloj,
 51 estas beata en la plej malrapida sfero.
@@ -289,14 +371,23 @@ Please translate literally into English and Esperanto.
 58 Ond’ io a lei: «Ne’ mirabili aspetti
 59 vostri risplende non so che divino
 60 che vi trasmuta da’ primi concetti:
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 3] 61/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 61 però non fui a rimembrar festino;
 62 ma or m’aiuta ciò che tu mi dici,
 63 sì che raffigurar m’è più latino.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -321,12 +412,8 @@ Please translate literally into English and Esperanto.
 67 Con quelle altr’ ombre pria sorrise un poco;
 68 da indi mi rispuose tanto lieta,
 69 ch’arder parea d’amor nel primo foco:
-
-70 «Frate, la nostra volontà quïeta
-71 virtù di carità, che fa volerne
-72 sol quel ch’avemo, e d’altro non ci asseta.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 67 With those other shades she smiled a little first;
@@ -338,11 +425,23 @@ Please translate literally into English and Esperanto.
 72 only what we have, and does not thirst for anything else.
 
 **Esperanto:**
-
+</error>
+<result>
 67 Kun tiuj aliaj ombroj ŝi antaŭe ridetis iomete;
 68 de tie ŝi respondis al mi tiel ĝoje,
 69 ke ŝi ŝajnis ardi de amo en la unua fajro:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 70/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+70 «Frate, la nostra volontà quïeta
+71 virtù di carità, che fa volerne
+72 sol quel ch’avemo, e d’altro non ci asseta.
+</prompt>
+<result>
 70 "Frato, nian volon kvietigas
 71 virto de karitato, kiu faras nin voli
 72 nur tion, kion ni havas, kaj ne soifigas nin je io alia.
@@ -356,14 +455,23 @@ Please translate literally into English and Esperanto.
 73 Se disïassimo esser più superne,
 74 foran discordi li nostri disiri
 75 dal voler di colui che qui ne cerne;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 3] 76/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 76 che vedrai non capere in questi giri,
 77 s’essere in carità è qui necesse,
 78 e se la sua natura ben rimiri.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -374,12 +482,8 @@ Please translate literally into English and Esperanto.
 79 Anzi è formale ad esto beato esse
 80 tenersi dentro a la divina voglia,
 81 per ch’una fansi nostre voglie stesse;
-
-82 sì che, come noi sem di soglia in soglia
-83 per questo regno, a tutto il regno piace
-84 com’ a lo re che ’n suo voler ne ’nvoglia.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 79 Rather, it is essential to this blessed existence
@@ -391,11 +495,23 @@ Please translate literally into English and Esperanto.
 84 with us, as with the king who kindles our desire in his will.
 
 **Esperanto:**
-
+</error>
+<result>
 79 Male estas formala al tiu ĉi beata ekzisto
 80 teni sin ene de la dia volo,
 81 ĉar unu fariĝas niaj voloj mem;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 82/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+82 sì che, come noi sem di soglia in soglia
+83 per questo regno, a tutto il regno piace
+84 com’ a lo re che ’n suo voler ne ’nvoglia.
+</prompt>
+<result>
 82 tiel ke, kiel ni estas de sojlo al sojlo
 83 tra tiu ĉi regno, al la tuta regno plaĉas
 84 kiel al la reĝo, kiu en sia volo nin envoleas.
@@ -424,7 +540,7 @@ Please translate literally into English and Esperanto.
 89 in cielo è paradiso, etsi la grazia
 90 del sommo ben d’un modo non vi piove.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 88 It was clear to me then how every place
@@ -432,7 +548,8 @@ Please translate literally into English and Esperanto.
 90 of the supreme good does not rain down on it in the same way.
 
 **Esperanto:**
-
+</error>
+<result>
 88 Klariĝis al mi tiam kiel ĉiu loko
 89 en la ĉielo estas paradizo, kvankam la graco
 90 de la plej alta bono ne pluvas tie sammaniere.
@@ -446,12 +563,8 @@ Please translate literally into English and Esperanto.
 91 Ma sì com’ elli avvien, s’un cibo sazia
 92 e d’un altro rimane ancor la gola,
 93 che quel si chere e di quel si ringrazia,
-
-94 così fec’ io con atto e con parola,
-95 per apprender da lei qual fu la tela
-96 onde non trasse infino a co la spuola.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 91 But just as it happens, if one food sates
@@ -463,11 +576,23 @@ Please translate literally into English and Esperanto.
 96 from which she did not draw the shuttle all the way to the end.
 
 **Esperanto:**
-
+</error>
+<result>
 91 Sed kiel okazas, se unu manĝaĵo satigas
 92 kaj de alia ankoraŭ restas la apetito,
 93 kiun tiun oni deziras kaj pro tiu oni dankas,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 94/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+94 così fec’ io con atto e con parola,
+95 per apprender da lei qual fu la tela
+96 onde non trasse infino a co la spuola.
+</prompt>
+<result>
 94 tiel mi faris per ago kaj per vorto,
 95 por lerni de ŝi kia estis la teksilo
 96 el kiu ŝi ne tiris ĝis tie la navedon.
@@ -481,14 +606,23 @@ Please translate literally into English and Esperanto.
 97 «Perfetta vita e alto merto inciela
 98 donna più sù», mi disse, «a la cui norma
 99 nel vostro mondo giù si veste e vela,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 3] 100/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 100 perché fino al morir si vegghi e dorma
 101 con quello sposo ch’ogne voto accetta
 102 che caritate a suo piacer conforma.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -514,7 +648,7 @@ Please translate literally into English and Esperanto.
 107 fuor mi rapiron de la dolce chiostra:
 108 Iddio si sa qual poi mia vita fusi.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 106 Then men, accustomed to evil more than to good,
@@ -522,7 +656,8 @@ Please translate literally into English and Esperanto.
 108 God knows what my life was like afterwards.
 
 **Esperanto:**
-
+</error>
+<result>
 106 Homoj poste, al malbono pli ol al bono kutimaj,
 107 forrabis min de la dolĉa monaĥejo:
 108 Dio scias kia poste estis mia vivo.
@@ -536,14 +671,23 @@ Please translate literally into English and Esperanto.
 109 E quest’ altro splendor che ti si mostra
 110 da la mia destra parte e che s’accende
 111 di tutto il lume de la spera nostra,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 3] 112/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 112 ciò ch’io dico di me, di sé intende;
 113 sorella fu, e così le fu tolta
 114 di capo l’ombra de le sacre bende.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -569,7 +713,7 @@ Please translate literally into English and Esperanto.
 119 che del secondo vento di Soave
 120 generò ’l terzo e l’ultima possanza».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 118 This is the light of the great Constance
@@ -577,7 +721,8 @@ Please translate literally into English and Esperanto.
 120 generated the third and final power."
 
 **Esperanto:**
-
+</error>
+<result>
 118 Jen estas la lumo de la granda Konstanca
 119 kiu de la dua vento de Ŝvabio
 120 generis la trian kaj lastan potencon."
@@ -605,14 +750,8 @@ Please translate literally into English and Esperanto.
 124 La vista mia, che tanto lei seguio
 125 quanto possibil fu, poi che la perse,
 126 volsesi al segno di maggior disio,
-
-127 e a Beatrice tutta si converse;
-128 ma quella folgorò nel mïo sguardo
-129 sì che da prima il viso non sofferse;
-
-130 e ciò mi fece a dimandar più tardo.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 124 My sight, which followed her as much
@@ -626,15 +765,36 @@ Please translate literally into English and Esperanto.
 130 and this made me slower to ask.
 
 **Esperanto:**
-
+</error>
+<result>
 124 Mia vido, kiu tiom ŝin sekvis
 125 kiom eblis, post kiam ĝi ŝin perdis,
 126 turnis sin al la signo de pli granda deziro,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 127/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+127 e a Beatrice tutta si converse;
+128 ma quella folgorò nel mïo sguardo
+129 sì che da prima il viso non sofferse;
+</prompt>
+<result>
 127 kaj tute sin turnis al Beatrico;
 128 sed tiu fulmis en mia rigardo
 129 tiel ke komence la vizaĝo ne eltenis;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 3] 130/130</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+130 e ciò mi fece a dimandar più tardo.
+</prompt>
+<result>
 130 kaj tio min faris pli malrapida por demandi.
 </result>
 </query>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="49">
 <query>
 <info>[Purgatorio Canto 33] 1/145</info>
 <prompt>
@@ -8,12 +8,8 @@ Please translate literally into English and Esperanto.
 1 ‘Deus, venerunt gentes’, alternando
 2 or tre or quattro dolce salmodia,
 3 le donne incominciaro, e lagrimando;
-
-4 e Bëatrice, sospirosa e pia,
-5 quelle ascoltava sì fatta, che poco
-6 più a la croce si cambiò Maria.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 1 “Deus, venerunt gentes,” alternating
@@ -25,11 +21,23 @@ Please translate literally into English and Esperanto.
 6 scarcely changed more at the cross.
 
 **Esperanto:**
-
+</error>
+<result>
 1 “Deus, venerunt gentes”, alternante
 2 nun tri, nun kvar en dolĉa psalmodiado,
 3 la virinoj komencis, kaj larmante;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 4/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+4 e Bëatrice, sospirosa e pia,
+5 quelle ascoltava sì fatta, che poco
+6 più a la croce si cambiò Maria.
+</prompt>
+<result>
 4 kaj Beatrica, ĝemoplena kaj pia,
 5 ilin aŭskultis tiel, ke apenaŭ
 6 pli ĉe la kruco ŝanĝiĝis Maria.
@@ -43,12 +51,8 @@ Please translate literally into English and Esperanto.
 7 Ma poi che l’altre vergini dier loco
 8 a lei di dir, levata dritta in pè,
 9 rispuose, colorata come foco:
-
-10 ‘Modicum, et non videbitis me;
-11 et iterum, sorelle mie dilette,
-12 modicum, et vos videbitis me’.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 7 But after the other virgins gave place
@@ -60,11 +64,23 @@ Please translate literally into English and Esperanto.
 12 a little while, and you will see me.”
 
 **Esperanto:**
-
+</error>
+<result>
 7 Sed post kiam la aliaj virgulinoj cedis lokon
 8 al ŝi por paroli, starinte rekte surpiede,
 9 ŝi respondis, ruĝiĝinta kiel fajro:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 10/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+10 ‘Modicum, et non videbitis me;
+11 et iterum, sorelle mie dilette,
+12 modicum, et vos videbitis me’.
+</prompt>
+<result>
 10 “Modicum, et non videbitis me;
 11 et iterum, miaj amataj fratinoj,
 12 modicum, et vos videbitis me”.
@@ -92,14 +108,23 @@ Please translate literally into English and Esperanto.
 16 Così sen giva; e non credo che fosse
 17 lo decimo suo passo in terra posto,
 18 quando con li occhi li occhi mi percosse;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 19/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 19 e con tranquillo aspetto «Vien più tosto»,
 20 mi disse, «tanto che, s’io parlo teco,
 21 ad ascoltarmi tu sie ben disposto».
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -111,7 +136,7 @@ Please translate literally into English and Esperanto.
 23 dissemi: «Frate, perché non t’attenti
 24 a domandarmi omai venendo meco?».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 22 Just as I was, as I should be, with him,
@@ -119,7 +144,8 @@ Please translate literally into English and Esperanto.
 24 to ask me questions now that you are coming with me?”
 
 **Esperanto:**
-
+</error>
+<result>
 22 Tiel kia mi estis, kia mi devis esti, kun li,
 23 li diris al mi: “Frato, kial vi ne kuraĝas
 24 demandi min nun, kiam vi venas kun mi?”.
@@ -133,14 +159,23 @@ Please translate literally into English and Esperanto.
 25 Come a color che troppo reverenti
 26 dinanzi a suo maggior parlando sono,
 27 che non traggon la voce viva ai denti,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 28/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 28 avvenne a me, che sanza intero suono
 29 incominciai: «Madonna, mia bisogna
 30 voi conoscete, e ciò ch’ad essa è buono».
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -166,7 +201,7 @@ Please translate literally into English and Esperanto.
 35 fu e non è; ma chi n’ha colpa, creda
 36 che vendetta di Dio non teme suppe.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 34 Know that the vessel that the serpent broke
@@ -174,7 +209,8 @@ Please translate literally into English and Esperanto.
 36 that God’s vengeance does not fear bribes.
 
 **Esperanto:**
-
+</error>
+<result>
 34 Sciu, ke la vazon, kiun la serpento rompis,
 35 estis kaj ne estas; sed kiu estas kulpa pri tio, konu
 36 ke la venĝo de Dio ne timas subaĉetojn.
@@ -188,16 +224,8 @@ Please translate literally into English and Esperanto.
 37 Non sarà tutto tempo sanza reda
 38 l’aguglia che lasciò le penne al carro,
 39 per che divenne mostro e poscia preda;
-
-40 ch’io veggio certamente, e però il narro,
-41 a darne tempo già stelle propinque,
-42 secure d’ogn’ intoppo e d’ogne sbarro,
-
-43 nel quale un cinquecento diece e cinque,
-44 messo di Dio, anciderà la fuia
-45 con quel gigante che con lei delinque.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 37 The eagle that left its feathers on the chariot
@@ -213,15 +241,38 @@ Please translate literally into English and Esperanto.
 45 with that giant who sins with her.
 
 **Esperanto:**
-
+</error>
+<result>
 37 Ne estos ĉiam tempo sen heredanto
 38 la aglo, kiu lasis la plumojn al la ĉaro,
 39 pro kio ĝi fariĝis monstro kaj poste predo;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 40/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+40 ch’io veggio certamente, e però il narro,
+41 a darne tempo già stelle propinque,
+42 secure d’ogn’ intoppo e d’ogne sbarro,
+</prompt>
+<result>
 40 ĉar mi vidas certe, kaj tial mi rakontas ĝin,
 41 por doni al ni tempon jam proksimaj steloj,
 42 sekuraj de ĉiu malhelpo kaj de ĉiu baro,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 43/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+43 nel quale un cinquecento diece e cinque,
+44 messo di Dio, anciderà la fuia
+45 con quel gigante che con lei delinque.
+</prompt>
+<result>
 43 en kiu kvincent dek kaj kvin,
 44 sendito de Dio, mortigos la malĉastulinon
 45 kun tiu giganto, kiu pekas kun ŝi.
@@ -235,14 +286,23 @@ Please translate literally into English and Esperanto.
 46 E forse che la mia narrazion buia,
 47 qual Temi e Sfinge, men ti persuade,
 48 perch’ a lor modo lo ’ntelletto attuia;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 49/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 49 ma tosto fier li fatti le Naiade,
 50 che solveranno questo enigma forte
 51 sanza danno di pecore o di biade.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -282,7 +342,7 @@ Please translate literally into English and Esperanto.
 59 con bestemmia di fatto offende a Dio,
 60 che solo a l’uso suo la creò santa.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 58 Whoever steals that or tears this,
@@ -290,7 +350,8 @@ Please translate literally into English and Esperanto.
 60 who created it holy for his use alone.
 
 **Esperanto:**
-
+</error>
+<result>
 58 Kiu ajn ŝtelas tion aŭ tion disŝiras,
 59 kun blasfemo de ago ofendas Dion,
 60 kiu sole por sia uzo kreis ĝin sankta.
@@ -305,7 +366,7 @@ Please translate literally into English and Esperanto.
 62 cinquemilia anni e più l’anima prima
 63 bramò colui che ’l morso in sé punio.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 61 To bite that, in punishment and desire
@@ -313,7 +374,8 @@ Please translate literally into English and Esperanto.
 63 yearned for him who punished the bite in himself.
 
 **Esperanto:**
-
+</error>
+<result>
 61 Por mordi tion, en puno kaj en deziro
 62 kvin mil jarojn kaj pli la unua animo
 63 sopiris al tiu, kiu punis la mordon en si mem.
@@ -328,7 +390,7 @@ Please translate literally into English and Esperanto.
 65 per singular cagione esser eccelsa
 66 lei tanto e sì travolta ne la cima.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 64 Your intellect is asleep if it does not consider
@@ -336,7 +398,8 @@ Please translate literally into English and Esperanto.
 66 and so turned upside down at the top.
 
 **Esperanto:**
-
+</error>
+<result>
 64 Dormas via intelekto, se ĝi ne taksas
 65 pro aparta kaŭzo esti majesta
 66 ŝin tiom kaj tiel renversita ĉe la supro.
@@ -350,12 +413,8 @@ Please translate literally into English and Esperanto.
 67 E se stati non fossero acqua d’Elsa
 68 li pensier vani intorno a la tua mente,
 69 e ’l piacer loro un Piramo a la gelsa,
-
-70 per tante circostanze solamente
-71 la giustizia di Dio, ne l’interdetto,
-72 conosceresti a l’arbor moralmente.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 67 And if the thoughts that go around your mind
@@ -367,11 +426,23 @@ Please translate literally into English and Esperanto.
 72 morally, in the tree.
 
 **Esperanto:**
-
+</error>
+<result>
 67 Kaj se la pensoj vanaj ĉirkaŭ via menso
 68 ne estus kiel la akvo de Elsa,
 69 kaj ilia plezuro Piramo al la morusujo,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 70/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+70 per tante circostanze solamente
+71 la giustizia di Dio, ne l’interdetto,
+72 conosceresti a l’arbor moralmente.
+</prompt>
+<result>
 70 pro tiom da cirkonstancoj sole
 71 la justeco de Dio, en la malpermeso,
 72 vi ekkonus laŭ la arbo morale.
@@ -385,12 +456,8 @@ Please translate literally into English and Esperanto.
 73 Ma perch’ io veggio te ne lo ’ntelletto
 74 fatto di pietra e, impetrato, tinto,
 75 sì che t’abbaglia il lume del mio detto,
-
-76 voglio anco, e se non scritto, almen dipinto,
-77 che ’l te ne porti dentro a te per quello
-78 che si reca il bordon di palma cinto».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 73 But because I see you in your intellect
@@ -402,11 +469,23 @@ Please translate literally into English and Esperanto.
 78 for which one carries a staff encircled with palm.
 
 **Esperanto:**
-
+</error>
+<result>
 73 Sed ĉar mi vidas vin en la intelekto
 74 fariĝinta el ŝtono kaj, ŝtoniĝinta, kolorigita,
 75 tiel ke vin brilblindumas la lumo de mia diro,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 76/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+76 voglio anco, e se non scritto, almen dipinto,
+77 che ’l te ne porti dentro a te per quello
+78 che si reca il bordon di palma cinto».
+</prompt>
+<result>
 76 mi volas ankaŭ, kaj se ne skribite, almenaŭ pentrita,
 77 ke vi portu ĝin ene de vi pro tio
 78 por kio oni portas la bastonon ĉirkaŭitan de palmo.
@@ -421,7 +500,7 @@ Please translate literally into English and Esperanto.
 80 che la figura impressa non trasmuta,
 81 segnato è or da voi lo mio cervello.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 79 And I: “Like wax from a seal,
@@ -429,7 +508,8 @@ Please translate literally into English and Esperanto.
 81 my brain is now stamped by you.
 
 **Esperanto:**
-
+</error>
+<result>
 79 Kaj mi: “Kiel vakso de sigelo,
 80 kiu ne ŝanĝas la impresitan figuron,
 81 nun estas markita de vi mia cerbo.
@@ -444,7 +524,7 @@ Please translate literally into English and Esperanto.
 83 vostra parola disïata vola,
 84 che più la perde quanto più s’aiuta?».
 </prompt>
-<result>
+<error>
 **English:**
 
 82 But why does your desired speech fly so high above my sight
@@ -454,7 +534,7 @@ Please translate literally into English and Esperanto.
 
 82 Sed kial via dezirata parola flugas tiom super mia vidkapablo,
 83 ke ĝi pli perdas ĝin ju pli ĝi helpas sin?
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 33] 85/145</info>
@@ -464,14 +544,23 @@ Please translate literally into English and Esperanto.
 85 «Perché conoschi», disse, «quella scuola
 86 c’hai seguitata, e veggi sua dottrina
 87 come può seguitar la mia parola;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 88/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 88 e veggi vostra via da la divina
 89 distar cotanto, quanto si discorda
 90 da terra il ciel che più alto festina».
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -483,7 +572,7 @@ Please translate literally into English and Esperanto.
 92 ch’i’ stranïasse me già mai da voi,
 93 né honne coscïenza che rimorda».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 91 Whereupon I answered her: “I do not remember
@@ -491,7 +580,8 @@ Please translate literally into English and Esperanto.
 93 nor is there any conscience that bites me.”
 
 **Esperanto:**
-
+</error>
+<result>
 91 Pro tio mi respondis al ŝi: “Mi ne memoras
 92 ke mi iam fremdiĝis de vi,
 93 nek estas konscienco kiu riproĉas”.
@@ -505,14 +595,23 @@ Please translate literally into English and Esperanto.
 94 «E se tu ricordar non te ne puoi»,
 95 sorridendo rispuose, «or ti rammenta
 96 come bevesti di Letè ancoi;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 97/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 97 e se dal fummo foco s’argomenta,
 98 cotesta oblivïon chiaro conchiude
 99 colpa ne la tua voglia altrove attenta.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -524,7 +623,7 @@ Please translate literally into English and Esperanto.
 101 le mie parole, quanto converrassi
 102 quelle scovrire a la tua vista rude».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 100 Truly my words will now be bare,
@@ -532,7 +631,8 @@ Please translate literally into English and Esperanto.
 102 to uncover them to your unrefined sight.
 
 **Esperanto:**
-
+</error>
+<result>
 100 Vere nun estos nudaj
 101 miaj vortoj, kiom necesos
 102 ilin malkovri al via kruda vido.
@@ -546,18 +646,36 @@ Please translate literally into English and Esperanto.
 103 E più corusco e con più lenti passi
 104 teneva il sole il cerchio di merigge,
 105 che qua e là, come li aspetti, fassi,
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 106/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 106 quando s’affisser, sì come s’affigge
 107 chi va dinanzi a gente per iscorta
 108 se trova novitate o sue vestigge,
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 109/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 109 le sette donne al fin d’un’ombra smorta,
 110 qual sotto foglie verdi e rami nigri
 111 sovra suoi freddi rivi l’alpe porta.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -596,12 +714,8 @@ Please translate literally into English and Esperanto.
 118 Per cotal priego detto mi fu: «Priega
 119 Matelda che ’l ti dica». E qui rispuose,
 120 come fa chi da colpa si dislega,
-
-121 la bella donna: «Questo e altre cose
-122 dette li son per me; e son sicura
-123 che l’acqua di Letè non gliel nascose».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 118 Because of such a prayer it was said to me: “Ask
@@ -613,11 +727,23 @@ Please translate literally into English and Esperanto.
 123 that the water of Lethe did not hide them from him.”
 
 **Esperanto:**
-
+</error>
+<result>
 118 Pro tia preĝo estis dirita al mi: “Petu
 119 Mateldan ke ŝi diru al vi”. Kaj ĉi tie respondis,
 120 kiel faras tiu, kiu sin liberigas de kulpo,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 121/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+121 la bella donna: «Questo e altre cose
+122 dette li son per me; e son sicura
+123 che l’acqua di Letè non gliel nascose».
+</prompt>
+<result>
 121 la bela damo: “Tion kaj aliajn aferojn
 122 diris al li por mi; kaj mi estas certa
 123 ke la akvo de Leteo ne kaŝis ilin de li”.
@@ -659,12 +785,8 @@ Please translate literally into English and Esperanto.
 130 Come anima gentil, che non fa scusa,
 131 ma fa sua voglia de la voglia altrui
 132 tosto che è per segno fuor dischiusa;
-
-133 così, poi che da essa preso fui,
-134 la bella donna mossesi, e a Stazio
-135 donnescamente disse: «Vien con lui».
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 130 Like a gentle soul, who makes no excuse,
@@ -676,11 +798,23 @@ Please translate literally into English and Esperanto.
 135 she said graciously: “Come with him.”
 
 **Esperanto:**
-
+</error>
+<result>
 130 Kiel nobla animo, kiu ne senkulpigas sin,
 131 sed faras sian volon el la volo de aliulo
 132 tuj kiam ĝi estas per signo malkaŝita;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 133/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+133 così, poi che da essa preso fui,
+134 la bella donna mossesi, e a Stazio
+135 donnescamente disse: «Vien con lui».
+</prompt>
+<result>
 133 tiel, post kiam mi estis prenita de ŝi,
 134 la bela damo ekmoviĝis, kaj al Stacio
 135 ŝi diris ĝentile: “Venu kun li”.
@@ -694,14 +828,23 @@ Please translate literally into English and Esperanto.
 136 S’io avessi, lettor, più lungo spazio
 137 da scrivere, i’ pur cantere’ in parte
 138 lo dolce ber che mai non m’avria sazio;
+</prompt>
+<error>
+index: 0
+finish_reason: OTHER
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 139/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
 139 ma perché piene son tutte le carte
 140 ordite a questa cantica seconda,
 141 non mi lascia più ir lo fren de l’arte.
 </prompt>
 <error>
-index: 0
-finish_reason: OTHER
+(no result)
 </error>
 </query>
 <query>
@@ -712,10 +855,8 @@ Please translate literally into English and Esperanto.
 142 Io ritornai da la santissima onda
 143 rifatto sì come piante novelle
 144 rinovellate di novella fronda,
-
-145 puro e disposto a salire a le stelle.
 </prompt>
-<result>
+<error result="true">
 **English:**
 
 142 I returned from the most holy wave
@@ -725,11 +866,21 @@ Please translate literally into English and Esperanto.
 145 pure and ready to ascend to the stars.
 
 **Esperanto:**
-
+</error>
+<result>
 142 Mi revenis de la plejsankta ondo
 143 refarita kiel novaj plantoj
 144 renovigitaj de nova frondo,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 33] 145/145</info>
+<prompt>
+Please translate literally into English and Esperanto.
 
+145 puro e disposto a salire a le stelle.
+</prompt>
+<result>
 145 pura kaj preta supreniri al la steloj.
 </result>
 </query>
