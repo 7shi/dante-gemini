@@ -54,6 +54,18 @@ while q:
     queries.append([q])
     q = next(it, None)
 
+def separate(result):
+    lines = [line.strip() for line in result.strip().split("\n")]
+    ret = []
+    for line in lines:
+        if re.match(r"\*\*.+\*\*$", line):
+            ret.append([line, ""])
+        elif ret and line:
+            if ret[-1][1]:
+                ret[-1][1] += "\n"
+            ret[-1][1] += line
+    return ret
+
 import gemini
 
 def query(prompt, info):
@@ -83,9 +95,35 @@ for qs1 in queries:
         q.info = qs2[0].info[:-2]
         q.prompt = "\n".join(qs2[0].prompt.split("\n")[:2])
         q.result = ""
+        r = None
         for qq in qs2:
             q.prompt += "\n" + qq.prompt.split("\n")[2]
-            q.result += "\n" + qq.result.split("\n")[0]
+            if (sp := separate(qq.result)):
+                if not r:
+                    r = sp
+                else:
+                    for j in range(len(r)):
+                        r[j] = (r[j][0], r[j][1] + "\n" + sp[j][1])
+            else:
+                line = qq.result.split("\n")[0]
+                if r:
+                    r[-1][1] += "\n" + line
+                else:
+                    if q.result:
+                        q.result += "\n"
+                    q.result += line
+        if r:
+            q.error = ""
+            for j in range(len(r)):
+                if q.error:
+                    q.error += "\n\n"
+                if j < len(r) - 1:
+                    q.error += f"{r[j][0]}\n\n{r[j][1]}"
+                else:
+                    if q.result:
+                        q.result += "\n"
+                    q.error  += r[j][0]
+                    q.result += r[j][1]
         qs_ok.append(q)
     elif ok == len(qs2):
         qs_ok += qs2
