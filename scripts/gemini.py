@@ -143,7 +143,8 @@ def query(prompt, info=None, show=False, retry=True, check=None):
             if show:
                 print()
                 print(err)
-            if "developers.generativeai.google" in err:
+            if ("500 An internal error has occurred." in err or
+                "429 Resource has been exhausted" in err):
                 print("Retrying...", file=sys.stderr)
                 time.sleep(5 + 2 * i)
                 start()
