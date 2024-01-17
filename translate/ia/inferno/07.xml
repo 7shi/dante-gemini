@@ -402,7 +402,7 @@ Please translate each line literally into English and Interlingua.
 <query>
 <info>[Inferno Canto 7] 70/130</info>
 <prompt>
-Please translate each line literally into Interlingua.
+Please translate each line literally into English and Interlingua.
 
 70 E quelli a me: «Oh creature sciocche,
 71 quanta ignoranza è quella che v’offende!
@@ -410,7 +410,23 @@ Please translate each line literally into Interlingua.
 </prompt>
 <error>
 index: 0
-finish_reason: OTHER
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 </query>
 <query>
