@@ -56,10 +56,10 @@ def parse(f=None):
     return True
 
 def show():
-    print("  -d: specify sub directory", file=sys.stderr)
-    print("  -i: specify init.xml", file=sys.stderr)
-    print("  -n: specify interval (default 10)", file=sys.stderr)
-    print("  -r: specify range (default 35)", file=sys.stderr)
+    print("  -d dir: specify sub directory", file=sys.stderr)
+    print("  -i file: specify init.xml", file=sys.stderr)
+    print("  -n num: specify interval (default 10)", file=sys.stderr)
+    print("  -r num: specify range (default 35)", file=sys.stderr)
     print("  -1: just do one canto", file=sys.stderr)
     print("  --no-retry: don't retry queries", file=sys.stderr)
     print("  --no-show: don't show queries and responses", file=sys.stderr)
