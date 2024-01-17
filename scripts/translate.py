@@ -55,7 +55,7 @@ if os.path.exists(option.init):
 else:
     print(f"making {option.init}...")
     gemini.init()
-    option.directory = "inferno"
+    option.directory = option.directories[0]
     option.canto = 1
     file = os.path.join(option.srcdir, option.directory, f"01.txt")
     with open(file, "r", encoding="utf-8") as f:
