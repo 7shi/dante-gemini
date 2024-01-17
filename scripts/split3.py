@@ -22,7 +22,7 @@ def split_lines(text):
             s2 = i
             break
     if s2 < 0:
-        return [], [], []
+        return "", [], []
     lnums = []
     lnum  = []
     texts = []
@@ -33,13 +33,13 @@ def split_lines(text):
             text.append(lines[i])
         elif lnum:
             lnums.append(lnum)
-            texts.append(text)
+            texts.append("\n".join(text))
             lnum = []
             text = []
     if lnum:
         lnums.append(lnum)
-        texts.append(text)
-    return lines[:s2], lnums, texts
+        texts.append("\n".join(text))
+    return "\n".join(lines[:s2]), lnums, texts
 
 def equals(a, b):
     if len(a) != len(b):
@@ -72,12 +72,12 @@ for arg in args:
                 q.result = None
             dst.append(q)
             continue
-        _, rln, rtx = split_lines(q.result)
+        rpre, rln, rtx = split_lines(q.result)
         if not q.result or not rln:
             for i in range(len(pln)):
                 q1 = common.query()
                 q1.info = f"{info1} {pln[i][0]}/{info3}"
-                q1.prompt = "\n".join(ppre) + "\n" + "\n".join(ptx[i])
+                q1.prompt = f"{ppre}\n{ptx[i]}"
                 if i == 0 and q.result:
                     q1.error = q.result
                 elif i == 0 and q.error:
@@ -89,12 +89,20 @@ for arg in args:
         for i in range(len(pln)):
             q1 = common.query()
             q1.info = f"{info1} {pln[i][0]}/{info3}"
-            q1.prompt = "\n".join(ppre) + "\n" + "\n".join(ptx[i])
+            q1.prompt = f"{ppre}\n{ptx[i]}"
             if i >= len(rln):
-                q1.error = "(no result)"
+                if i == 0:
+                    q1.error = q.result
+                else:
+                    q1.error = "(no result)"
             elif not equals(pln[i], rln[i]):
-                q1.error = "\n".join(rtx[i])
+                if i == 0 and rpre:
+                    q1.error = f"{rpre}\n{rtx[i]}"
+                else:
+                    q1.error = rtx[i]
             else:
-                q1.result = "\n".join(rtx[i])
+                if i == 0 and rpre:
+                    q1.error = rpre.strip()
+                q1.result = rtx[i]
             dst.append(q1)
     common.write_queries(arg, dst, count=len(dst))
