@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries count="50">
 <query>
 <info>[Purgatorio Canto 19] 1/145</info>
 <prompt>
@@ -8,26 +8,40 @@ Please translate each line literally into Korean.
 1 Ne l’ora che non può ’l calor dïurno
 2 intepidar più ’l freddo de la luna,
 3 vinto da terra, e talor da Saturno
+</prompt>
+<error>
+1 낮의 더위가 달의 추위를 더 이상 따뜻하게 할 수 없는 시간에,
+2 땅과 때로는 토성에 이겨서,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 4/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 —quando i geomanti lor Maggior Fortuna
 5 veggiono in orïente, innanzi a l’alba,
 6 surger per via che poco le sta bruna—,
+</prompt>
+<error>
+3 —점성가들이 그들의 가장 큰 행운을
+4 동쪽에서, 새벽 전에, 거의 어두운 길을 통해 떠오르는 것을 볼 때—,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 7/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 7 mi venne in sogno una femmina balba,
 8 ne li occhi guercia, e sovra i piè distorta,
 9 con le man monche, e di colore scialba.
 </prompt>
-<result>
-1 낮의 더위가 달의 추위를 더 이상 따뜻하게 할 수 없는 시간에,
-2 땅과 때로는 토성에 이겨서,
-
-3 —점성가들이 그들의 가장 큰 행운을
-4 동쪽에서, 새벽 전에, 거의 어두운 길을 통해 떠오르는 것을 볼 때—,
-
+<error>
 5 말더듬고,
 6 눈이 삐딱하고, 발이 구부러지고,
 7 손이 잘리고, 얼굴이 창백한 여자가 꿈에 나타났다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 10/145</info>
@@ -37,43 +51,26 @@ Please translate each line literally into Korean.
 10 Io la mirava; e come ’l sol conforta
 11 le fredde membra che la notte aggrava,
 12 così lo sguardo mio le facea scorta
+</prompt>
+<error>
+10 나는 그녀를 바라보았다. 그리고 태양이 밤에 굳어진 차가운 몸을 따뜻하게 하는 것처럼,
+11 나의 시선이 그녀의 혀를 움직이게 했고, 그러고 나서 그녀의 온몸을
+12 금세 바로 세웠고, 그녀의 얼굴이 잃어버린 모습을
+13 사랑이 원하는 대로 물들여 주었다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 13/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 13 la lingua, e poscia tutta la drizzava
 14 in poco d’ora, e lo smarrito volto,
 15 com’ amor vuol, così le colorava.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 나는 그녀를 바라보았다. 그리고 태양이 밤에 굳어진 차가운 몸을 따뜻하게 하는 것처럼,\n11 나의 시선이 그녀의 혀를 움직이게 했고, 그러고 나서 그녀의 온몸을\n12 금세 바로 세웠고, 그녀의 얼굴이 잃어버린 모습을\n13 사랑이 원하는 대로 물들여 주었다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
+<error>
+(no result)
 </error>
-<result>
-10 나는 그녀를 바라보았다. 그리고 태양이 밤에 굳어진 차가운 몸을 따뜻하게 하는 것처럼,
-11 나의 시선이 그녀의 혀를 움직이게 했고, 그러고 나서 그녀의 온몸을
-12 금세 바로 세웠고, 그녀의 얼굴이 잃어버린 모습을
-13 사랑이 원하는 대로 물들여 주었다.
-</result>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 16/145</info>
@@ -98,16 +95,23 @@ Please translate each line literally into Korean.
 19 «Io son», cantava, «io son dolce serena,
 20 che ’ marinari in mezzo mar dismago;
 21 tanto son di piacere a sentir piena!
+</prompt>
+<result>
+19 그녀는 노래했다. "나는 달콤한 사이렌이다.
+20 바다 한가운데서 선원들을 미혹하는 자.
+21 나는 들으면 너무나 즐거움으로 가득 차 있지!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 22/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 22 Io volsi Ulisse del suo cammin vago
 23 al canto mio; e qual meco s’ausa,
 24 rado sen parte; sì tutto l’appago!».
 </prompt>
 <result>
-19 그녀는 노래했다. "나는 달콤한 사이렌이다.
-20 바다 한가운데서 선원들을 미혹하는 자.
-21 나는 들으면 너무나 즐거움으로 가득 차 있지!
-
 22 나는 내 노래로 방황하던 오디세우스를
 23 나에게로 돌렸고, 나와 감히 어울리는 자는
 24 거의 없다. 그렇게 나는 그들을 만족시킨다!"
@@ -122,32 +126,6 @@ Please translate each line literally into Korean.
 26 quand’ una donna apparve santa e presta
 27 lunghesso me per far colei confusa.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 그녀의 입이 아직 다물어지기도 전에,\n26 거룩하고 민첩한 한 여인이 나타나\n27 나 옆에 서서 그녀를 당황하게 했다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 그녀의 입이 아직 다물어지기도 전에,
 26 거룩하고 민첩한 한 여인이 나타나
@@ -163,32 +141,6 @@ Please translate each line literally into Korean.
 29 fieramente dicea; ed el venìa
 30 con li occhi fitti pur in quella onesta.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "28 \"오, 베르길리우스, 베르길리우스, 저 여자는 누구인가?\",\n29 그는 격렬하게 말했고, 베르길리우스는\n30 눈을 그 정숙한 여자에게만 고정한 채로 왔다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 28 "오, 베르길리우스, 베르길리우스, 저 여자는 누구인가?",
 29 그는 격렬하게 말했고, 베르길리우스는
@@ -219,9 +171,9 @@ Please translate each line literally into Korean.
 35 voci t’ho messe!», dicea, «Surgi e vieni;
 36 troviam l’aperta per la qual tu entre».
 </prompt>
-<result>
+<error>
 34 나는 눈을 뜨고 선량한 스승이 말했다. "적어도 세 번은 말했지!" "일어나서 오너라. 네가 들어갈 수 있는 열린 길을 찾아보자."
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 37/145</info>
@@ -246,16 +198,23 @@ Please translate each line literally into Korean.
 40 Seguendo lui, portava la mia fronte
 41 come colui che l’ha di pensier carca,
 42 che fa di sé un mezzo arco di ponte;
+</prompt>
+<result>
+40 그를 따라가며, 나는 마치 생각으로 가득 찬 사람처럼
+41 이마를 구부렸고,
+42 다리의 반원처럼 몸을 구부렸다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 43/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 43 quand’ io udi’ «Venite; qui si varca»
 44 parlare in modo soave e benigno,
 45 qual non si sente in questa mortal marca.
 </prompt>
 <result>
-40 그를 따라가며, 나는 마치 생각으로 가득 찬 사람처럼
-41 이마를 구부렸고,
-42 다리의 반원처럼 몸을 구부렸다.
-
 43 그때 나는 "오세요. 여기서 건너갑니다."
 44 라는 부드럽고 친절한 말을 들었는데,
 45 이런 말은 이 필멸의 세상에서는 들을 수 없다.
@@ -315,10 +274,10 @@ Please translate each line literally into Korean.
 56 novella visïon ch’a sé mi piega,
 57 sì ch’io non posso dal pensar partirmi».
 </prompt>
-<result>
+<error>
 55 나는 "너무 의심스러운 새로운 환상이 저쪽으로 나를 끌어당겨서
 56 생각에서 벗어날 수가 없어요."라고 말했다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 58/145</info>
@@ -344,10 +303,10 @@ Please translate each line literally into Korean.
 62 li occhi rivolgi al logoro che gira
 63 lo rege etterno con le rote magne».
 </prompt>
-<result>
+<error>
 61 그만하고 발꿈치로 땅을 차고,
 62 거대한 바퀴로 영원한 왕을 돌리는 그 낡은 수레바퀴를 바라보아라."
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 64/145</info>
@@ -357,16 +316,23 @@ Please translate each line literally into Korean.
 64 Quale ’l falcon, che prima a’ pié si mira,
 65 indi si volge al grido e si protende
 66 per lo disio del pasto che là il tira,
+</prompt>
+<result>
+64 발을 먼저 보던 매가
+65 그러고 나서 소리에 돌아서서
+66 저쪽으로 끌어당기는 먹이에 대한 욕망으로 몸을 앞으로 내밀듯이,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 67/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 67 tal mi fec’ io; e tal, quanto si fende
 68 la roccia per dar via a chi va suso,
 69 n’andai infin dove ’l cerchiar si prende.
 </prompt>
 <result>
-64 발을 먼저 보던 매가
-65 그러고 나서 소리에 돌아서서
-66 저쪽으로 끌어당기는 먹이에 대한 욕망으로 몸을 앞으로 내밀듯이,
-
 67 나도 그렇게 했다. 그리고 그렇게,
 68 위로 가는 사람에게 길을 내주기 위해 바위가 갈라지는 만큼,
 69 나는 원이 시작되는 곳까지 갔다.
@@ -440,16 +406,23 @@ Please translate each line literally into Korean.
 82 Così pregò ’l poeta, e sì risposto
 83 poco dinanzi a noi ne fu; per ch’io
 84 nel parlare avvisai l’altro nascosto,
+</prompt>
+<result>
+82 시인이 그렇게 기도하였고, 그렇게 대답이
+83 우리 바로 앞에서 나왔다. 그래서 나는
+84 말하는 것에서 다른 사람이 숨어 있는 것을 알아챘고,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 85/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 85 e volsi li occhi a li occhi al segnor mio:
 86 ond’ elli m’assentì con lieto cenno
 87 ciò che chiedea la vista del disio.
 </prompt>
 <result>
-82 시인이 그렇게 기도하였고, 그렇게 대답이
-83 우리 바로 앞에서 나왔다. 그래서 나는
-84 말하는 것에서 다른 사람이 숨어 있는 것을 알아챘고,
-
 85 눈을 돌려 나의 주인을 바라보았다.
 86 그러자 그는 내가 바라는 것을 알고
 87 기꺼이 고개를 끄덕였다.
@@ -463,19 +436,26 @@ Please translate each line literally into Korean.
 88 Poi ch’io potei di me fare a mio senno,
 89 trassimi sovra quella creatura
 90 le cui parole pria notar mi fenno,
+</prompt>
+<error>
+88 내가 마음대로 할 수 있게 된 후,
+89 나는 내 말을 먼저 주목하게 한 그 피조물에게 다가갔다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 91/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 91 dicendo: «Spirto in cui pianger matura
 92 quel sanza ’l quale a Dio tornar non pòssi,
 93 sosta un poco per me tua maggior cura.
 </prompt>
-<result>
-88 내가 마음대로 할 수 있게 된 후,
-89 나는 내 말을 먼저 주목하게 한 그 피조물에게 다가갔다.
-
+<error>
 90 "영혼이여, 너는 그가 없이는 신에게 돌아갈 수 없는
 91 그 사람을 위해 울음을 터뜨리기에 적합하다네.
 92 네가 가장 염려하는 것을 잠시 멈추고 나를 위해 기다려다오."
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 94/145</info>
@@ -576,10 +556,10 @@ Please translate each line literally into Korean.
 113 da Dio anima fui, del tutto avara;
 114 or, come vedi, qui ne son punita.
 </prompt>
-<result>
+<error>
 112 그때까지 나는 비참하고 하나님으로부터 떠난 영혼이었고, 완전히 인색했다.
 113 이제 보다시피 나는 여기서 벌을 받고 있다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 115/145</info>
@@ -590,36 +570,10 @@ Please translate each line literally into Korean.
 116 in purgazion de l’anime converse;
 117 e nulla pena il monte ha più amara.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "115 인색함이 무엇을 하는지, 여기서 회개하는 영혼들이 말한다.\n116 그리고 이 산에는 이보다 더 쓰라린 형벌은 없다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 115 인색함이 무엇을 하는지, 여기서 회개하는 영혼들이 말한다.
 116 그리고 이 산에는 이보다 더 쓰라린 형벌은 없다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 118/145</info>
@@ -644,18 +598,27 @@ Please translate each line literally into Korean.
 121 Come avarizia spense a ciascun bene
 122 lo nostro amore, onde operar perdési,
 123 così giustizia qui stretti ne tene,
-
-124 ne’ piedi e ne le man legati e presi;
-125 e quanto fia piacer del giusto Sire,
-126 tanto staremo immobili e distesi».
 </prompt>
-<result>
+<error>
 121 탐욕이 우리의 사랑을 모든 선한 것에서 앗아가버려 행동할 수 없게 되었듯이,
 122 정의가 여기서 우리를 묶어두고,
 123 발과 손을 묶고 잡아두었다.
 124 그리고 정의로운 주님께서 원하시는 만큼,
 125 우리는 움직이지 않고 누워 있을 것이다."
-</result>
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 124/145</info>
+<prompt>
+Please translate each line literally into Korean.
+
+124 ne’ piedi e ne le man legati e presi;
+125 e quanto fia piacer del giusto Sire,
+126 tanto staremo immobili e distesi».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 127/145</info>
@@ -665,8 +628,6 @@ Please translate each line literally into Korean.
 127 Io m’era inginocchiato e volea dire;
 128 ma com’ io cominciai ed el s’accorse,
 129 solo ascoltando, del mio reverire,
-
-130 «Qual cagion», disse, «in giù così ti torse?».
 </prompt>
 <result>
 127 나는 무릎을 꿇고 말하고 싶었지만,
@@ -675,24 +636,42 @@ Please translate each line literally into Korean.
 </result>
 </query>
 <query>
+<info>[Purgatorio Canto 19] 130/145</info>
+<prompt>
+Please translate each line literally into Korean.
+
+130 «Qual cagion», disse, «in giù così ti torse?».
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
 <info>[Purgatorio Canto 19] 131/145</info>
 <prompt>
 Please translate each line literally into Korean.
 
 131 E io a lui: «Per vostra dignitate
 132 mia coscïenza dritto mi rimorse».
+</prompt>
+<result>
+131 나는 그에게 "당신의 위엄 때문에
+132 내 양심이 나를 똑바로 꾸짖었습니다."라고 말했다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 133/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 133 «Drizza le gambe, lèvati sù, frate!»,
 134 rispuose; «non errar: conservo sono
 135 teco e con li altri ad una podestate.
 </prompt>
-<result>
-131 나는 그에게 "당신의 위엄 때문에
-132 내 양심이 나를 똑바로 꾸짖었습니다."라고 말했다.
-
+<error>
 133 그는 "다리를 펴고 일어나라, 형제여!"라고 대답했다.
 134 "착각하지 마라. 나는 너와 다른 사람들과 함께 한 권력을 지닌 자다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 136/145</info>
@@ -703,10 +682,10 @@ Please translate each line literally into Korean.
 137 che dice ‘Neque nubent’ intendesti,
 138 ben puoi veder perch’ io così ragiono.
 </prompt>
-<result>
+<error>
 136 만약 네가 '그들은 결혼하지도 않을 것이다'라고 말하는 그 거룩한 복음의 말씀을 들은 적이 있다면,
 137 내가 왜 이렇게 말하는지 잘 알 수 있을 것이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 139/145</info>
@@ -731,14 +710,21 @@ Please translate each line literally into Korean.
 142 Nepote ho io di là c’ha nome Alagia,
 143 buona da sé, pur che la nostra casa
 144 non faccia lei per essempro malvagia;
-
-145 e questa sola di là m’è rimasa».
 </prompt>
 <result>
 142 저쪽에 알라지아라는 조카가 있는데,
 143 본성이 착하지만 우리 집안이
 144 그녀 때문에 악명을 떨치지 않기를 바란다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 145/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
+145 e questa sola di là m’è rimasa».
+</prompt>
+<result>
 145 저쪽에 남은 사람은 그녀뿐이다."
 </result>
 </query>

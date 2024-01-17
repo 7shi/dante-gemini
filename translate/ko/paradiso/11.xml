@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="24">
+<queries count="47">
 <query>
 <info>[Paradiso Canto 11] 1/139</info>
 <prompt>
@@ -8,59 +8,54 @@ Please translate each line literally into Korean.
 1 O insensata cura de’ mortali,
 2 quanto son difettivi silogismi
 3 quei che ti fanno in basso batter l’ali!
+</prompt>
+<error>
+1 오, 인간들의 어리석은 욕망이여,
+2 너를 아래로 날개를 짓게 하는 추론은 얼마나 결함이 있는가!
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 11] 4/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 Chi dietro a iura e chi ad amforismi
 5 sen giva, e chi seguendo sacerdozio,
 6 e chi regnar per forza o per sofismi,
+</prompt>
+<error>
+3 어떤 이는 법률을 따르고, 어떤 이는 격언을 따르고,
+4 어떤 이는 성직을 따르고, 어떤 이는 힘이나 허튼 소리로 통치하고,
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 11] 7/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 7 e chi rubare e chi civil negozio,
 8 chi nel diletto de la carne involto
 9 s’affaticava e chi si dava a l’ozio,
+</prompt>
+<error>
+5 어떤 이는 도둑질을 하고, 어떤 이는 세상 일에 얽매이고,
+6 어떤 이는 육체의 쾌락에 빠져 애쓰고, 어떤 이는 게으름에 빠진다.
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 11] 10/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 10 quando, da tutte queste cose sciolto,
 11 con Bëatrice m’era suso in cielo
 12 cotanto glorïosamente accolto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "1 오, 인간들의 어리석은 욕망이여,\n2 너를 아래로 날개를 짓게 하는 추론은 얼마나 결함이 있는가!\n\n3 어떤 이는 법률을 따르고, 어떤 이는 격언을 따르고,\n4 어떤 이는 성직을 따르고, 어떤 이는 힘이나 허튼 소리로 통치하고,\n\n5 어떤 이는 도둑질을 하고, 어떤 이는 세상 일에 얽매이고,\n6 어떤 이는 육체의 쾌락에 빠져 애쓰고, 어떤 이는 게으름에 빠진다.\n\n7 그때 나는 이 모든 것에서 벗어나\n8 베아트리체와 함께 하늘 위로 올라갔고\n9 그토록 영광스럽게 맞이받았다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
-1 오, 인간들의 어리석은 욕망이여,
-2 너를 아래로 날개를 짓게 하는 추론은 얼마나 결함이 있는가!
-
-3 어떤 이는 법률을 따르고, 어떤 이는 격언을 따르고,
-4 어떤 이는 성직을 따르고, 어떤 이는 힘이나 허튼 소리로 통치하고,
-
-5 어떤 이는 도둑질을 하고, 어떤 이는 세상 일에 얽매이고,
-6 어떤 이는 육체의 쾌락에 빠져 애쓰고, 어떤 이는 게으름에 빠진다.
-
+<error>
 7 그때 나는 이 모든 것에서 벗어나
 8 베아트리체와 함께 하늘 위로 올라갔고
 9 그토록 영광스럽게 맞이받았다.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 11] 13/139</info>
@@ -85,16 +80,23 @@ Please translate each line literally into Korean.
 16 E io senti’ dentro a quella lumera
 17 che pria m’avea parlato, sorridendo
 18 incominciar, faccendosi più mera:
+</prompt>
+<result>
+16 그리고 나는 그 빛 안에서
+17 이전에 나에게 말했던 사람이 미소를 지으며
+18 더욱 밝아지면서 말하기 시작하는 것을 들었다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 19/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 19 «Così com’ io del suo raggio resplendo,
 20 sì, riguardando ne la luce etterna,
 21 li tuoi pensieri onde cagioni apprendo.
 </prompt>
 <result>
-16 그리고 나는 그 빛 안에서
-17 이전에 나에게 말했던 사람이 미소를 지으며
-18 더욱 밝아지면서 말하기 시작하는 것을 들었다.
-
 19 "내가 그의 빛을 반사하듯이,
 20 영원한 빛을 바라보면서,
 21 네 생각의 원인을 알 수 있다.
@@ -108,16 +110,23 @@ Please translate each line literally into Korean.
 22 Tu dubbi, e hai voler che si ricerna
 23 in sì aperta e ’n sì distesa lingua
 24 lo dicer mio, ch’al tuo sentir si sterna,
+</prompt>
+<result>
+22 네가 의심하고, 네가 원하기에 내가 말한 것을 너의 생각에 맞게 펼쳐서
+23 너무나도 명확하고 너무나도 자세한 언어로
+24 설명하겠다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 25/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 25 ove dinanzi dissi: “U’ ben s’impingua”,
 26 e là u’ dissi: “Non nacque il secondo”;
 27 e qui è uopo che ben si distingua.
 </prompt>
 <result>
-22 네가 의심하고, 네가 원하기에 내가 말한 것을 너의 생각에 맞게 펼쳐서
-23 너무나도 명확하고 너무나도 자세한 언어로
-24 설명하겠다.
-
 25 내가 전에 "그곳에서 잘 살찌게 된다"고 말한 곳과
 26 내가 "그곳에는 두 번째가 태어나지 않는다"고 말한 곳은
 27 여기서 잘 구분해야 한다.
@@ -131,24 +140,38 @@ Please translate each line literally into Korean.
 28 La provedenza, che governa il mondo
 29 con quel consiglio nel quale ogne aspetto
 30 creato è vinto pria che vada al fondo,
+</prompt>
+<result>
+28 세상을 다스리는 섭리는
+29 그 조언으로 모든 피조물이
+30 바닥에 이르기 전에 정복당한다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 31/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 31 però che andasse ver’ lo suo diletto
 32 la sposa di colui ch’ad alte grida
 33 disposò lei col sangue benedetto,
+</prompt>
+<result>
+31 그래서 그가 큰 소리로 외치며
+32 축복받은 피로 그녀를 정해놓은 그이의 신부가
+33 그녀의 기쁨을 향해 나아가도록 하기 위해,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 34/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 34 in sé sicura e anche a lui più fida,
 35 due principi ordinò in suo favore,
 36 che quinci e quindi le fosser per guida.
 </prompt>
 <result>
-28 세상을 다스리는 섭리는
-29 그 조언으로 모든 피조물이
-30 바닥에 이르기 전에 정복당한다.
-
-31 그래서 그가 큰 소리로 외치며
-32 축복받은 피로 그녀를 정해놓은 그이의 신부가
-33 그녀의 기쁨을 향해 나아가도록 하기 위해,
-
 34 그녀 자신은 안전하고 그에게 더욱 충실하게
 35 그녀를 위해 두 명의 군주를 임명했는데,
 36 그들은 이리저리 그녀를 인도할 것이다.
@@ -192,18 +215,25 @@ Please translate each line literally into Korean.
 43 Intra Tupino e l’acqua che discende
 44 del colle eletto dal beato Ubaldo,
 45 fertile costa d’alto monte pende,
+</prompt>
+<error>
+43 투피노와 축복받은 우발도가 선택한 언덕에서 흘러내리는 물 사이에
+44 높은 산의 비옥한 비탈이 기울어져 있다.
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 11] 46/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 46 onde Perugia sente freddo e caldo
 47 da Porta Sole; e di rietro le piange
 48 per grave giogo Nocera con Gualdo.
 </prompt>
-<result>
-43 투피노와 축복받은 우발도가 선택한 언덕에서 흘러내리는 물 사이에
-44 높은 산의 비옥한 비탈이 기울어져 있다.
-
+<error>
 46 그곳에서 페루자는 포르타 솔레에서 추위와 더위를 느끼고,
 47 뒤쪽으로는 노체라와 과우도가 무거운 멍에 때문에 그곳을 슬퍼한다.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 11] 49/139</info>
@@ -243,24 +273,38 @@ Please translate each line literally into Korean.
 55 Non era ancor molto lontan da l’orto,
 56 ch’el cominciò a far sentir la terra
 57 de la sua gran virtute alcun conforto;
+</prompt>
+<result>
+55 해가 뜨고 얼마 되지 않아
+56 그 땅이 그 위대한 힘의
+57 어떤 위로를 느끼게 하기 시작했다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 58/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 58 ché per tal donna, giovinetto, in guerra
 59 del padre corse, a cui, come a la morte,
 60 la porta del piacer nessun diserra;
+</prompt>
+<result>
+58 왜냐하면 그런 여인을 위해 젊은 나이에 전쟁터로 달려간 그는
+59 아버지와 마주했고, 아버지는 죽음과 마찬가지로
+60 쾌락의 문을 아무에게도 열어주지 않았다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 61/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 61 e dinanzi a la sua spirital corte
 62 et coram patre le si fece unito;
 63 poscia di dì in dì l’amò più forte.
 </prompt>
 <result>
-55 해가 뜨고 얼마 되지 않아
-56 그 땅이 그 위대한 힘의
-57 어떤 위로를 느끼게 하기 시작했다.
-
-58 왜냐하면 그런 여인을 위해 젊은 나이에 전쟁터로 달려간 그는
-59 아버지와 마주했고, 아버지는 죽음과 마찬가지로
-60 쾌락의 문을 아무에게도 열어주지 않았다.
-
 61 그리고 자신의 영적 법정 앞에서
 62 그리고 아버지 앞에서 그와 하나가 되었다.
 63 그 후로 날이 갈수록 그를 더욱 강하게 사랑했다.
@@ -274,27 +318,41 @@ Please translate each line literally into Korean.
 64 Questa, privata del primo marito,
 65 millecent’ anni e più dispetta e scura
 66 fino a costui si stette sanza invito;
-
-67 né valse udir che la trovò sicura
-68 con Amiclate, al suon de la sua voce,
-69 colui ch’a tutto ’l mondo fé paura;
-
-70 né valse esser costante né feroce,
-71 sì che, dove Maria rimase giuso,
-72 ella con Cristo pianse in su la croce.
 </prompt>
 <result>
 64 첫 번째 남편을 잃은 그녀는
 65 천 백 년 이상이나 멸시받고 어두운 채로
 66 이 사람이 오기까지 청혼도 받지 못했다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 67/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
+67 né valse udir che la trovò sicura
+68 con Amiclate, al suon de la sua voce,
+69 colui ch’a tutto ’l mondo fé paura;
+</prompt>
+<error>
 67 아미클라테와 함께 그녀를 안전하게 찾았다는 소식을
 68 온 세상을 두렵게 한 그가 그녀의 목소리에 맞춰 노래하는 것을 들었지만 아무 소용이 없었다.
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 11] 70/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
+70 né valse esser costante né feroce,
+71 sì che, dove Maria rimase giuso,
+72 ella con Cristo pianse in su la croce.
+</prompt>
+<error>
 69 굳건함도 사나움도 아무 소용이 없었으므로
 70 마리아가 아래에 남아 있는 동안
 71 그녀는 그리스도와 함께 십자가 위에서 통곡했다.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 11] 73/139</info>
@@ -305,10 +363,10 @@ Please translate each line literally into Korean.
 74 Francesco e Povertà per questi amanti
 75 prendi oramai nel mio parlar diffuso.
 </prompt>
-<result>
+<error>
 73 하지만 내가 너무 난해하게 진행하지 않도록,
 74 이제부터 내가 자세히 설명하는 말에서 프란체스코와 빈곤을 이 연인들로 받아들이라.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 11] 76/139</info>
@@ -318,16 +376,23 @@ Please translate each line literally into Korean.
 76 La lor concordia e i lor lieti sembianti,
 77 amore e maraviglia e dolce sguardo
 78 facieno esser cagion di pensier santi;
+</prompt>
+<result>
+76 그들의화합과그들의즐거운모습,
+77 사랑과경이로움과달콤한시선은
+78 거룩한생각의원인이되었다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 79/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 79 tanto che ’l venerabile Bernardo
 80 si scalzò prima, e dietro a tanta pace
 81 corse e, correndo, li parve esser tardo.
 </prompt>
 <result>
-76 그들의화합과그들의즐거운모습,
-77 사랑과경이로움과달콤한시선은
-78 거룩한생각의원인이되었다.
-
 79 그래서존경받는베르나르도는
 80 맨발로먼저신을벗고그큰평화를따라
 81 달려갔고,달리면서도느리다고생각했다.
@@ -371,16 +436,23 @@ Please translate each line literally into Korean.
 88 Né li gravò viltà di cuor le ciglia
 89 per esser fi’ di Pietro Bernardone,
 90 né per parer dispetto a maraviglia;
+</prompt>
+<result>
+88 그리고그의마음의비천함이그의눈썹을무겁게하지않았다
+89 피에트로베르나르도네의아들이라는것때문에,
+90 그리고놀라움에무시무시해보이려고하는것때문도아니다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 91/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 91 ma regalmente sua dura intenzione
 92 ad Innocenzio aperse, e da lui ebbe
 93 primo sigillo a sua religïone.
 </prompt>
 <result>
-88 그리고그의마음의비천함이그의눈썹을무겁게하지않았다
-89 피에트로베르나르도네의아들이라는것때문에,
-90 그리고놀라움에무시무시해보이려고하는것때문도아니다.
-
 91 그러나그는왕처럼그의굳건한의도를
 92 인노첸시오에게열었고,그로부터
 93 그의종교에대한첫번째인가를받았다.
@@ -394,16 +466,23 @@ Please translate each line literally into Korean.
 94 Poi che la gente poverella crebbe
 95 dietro a costui, la cui mirabil vita
 96 meglio in gloria del ciel si canterebbe,
+</prompt>
+<result>
+94 그가그뒤를따르는가난한사람들이늘어나자,
+95 그의놀라운삶은
+96 하늘의영광을위해더잘노래될것이다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 97/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 97 di seconda corona redimita
 98 fu per Onorio da l’Etterno Spiro
 99 la santa voglia d’esto archimandrita.
 </prompt>
 <result>
-94 그가그뒤를따르는가난한사람들이늘어나자,
-95 그의놀라운삶은
-96 하늘의영광을위해더잘노래될것이다.
-
 97 두번째관으로장식된
 98 이대수도원장의거룩한뜻은
 99 영원한영혼에의해오노리오로부터였다.
@@ -417,24 +496,38 @@ Please translate each line literally into Korean.
 100 E poi che, per la sete del martiro,
 101 ne la presenza del Soldan superba
 102 predicò Cristo e li altri che ’l seguiro,
+</prompt>
+<result>
+100 그리고순교의갈증으로
+101 거만한술탄의면전에서
+102 그리스도와그를따른다른사람들에게설교했고,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 103/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 103 e per trovare a conversione acerba
 104 troppo la gente e per non stare indarno,
 105 redissi al frutto de l’italica erba,
+</prompt>
+<result>
+103 사람들이개종하기에는너무나도어렵고
+104 헛되이머물지않기위해
+105 이탈리아땅의열매로돌아갔다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 106/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 106 nel crudo sasso intra Tevero e Arno
 107 da Cristo prese l’ultimo sigillo,
 108 che le sue membra due anni portarno.
 </prompt>
 <result>
-100 그리고순교의갈증으로
-101 거만한술탄의면전에서
-102 그리스도와그를따른다른사람들에게설교했고,
-
-103 사람들이개종하기에는너무나도어렵고
-104 헛되이머물지않기위해
-105 이탈리아땅의열매로돌아갔다.
-
 106 티베르강과아르노강사이의거친바위에서
 107 그리스도로부터마지막인가를받았고,
 108 그의몸은2년동안그것을지녔다.
@@ -448,24 +541,38 @@ Please translate each line literally into Korean.
 109 Quando a colui ch’a tanto ben sortillo
 110 piacque di trarlo suso a la mercede
 111 ch’el meritò nel suo farsi pusillo,
+</prompt>
+<result>
+109 그토록좋은것을얻은그에게
+110 그가겸손해진것으로얻은자비로그를위로끌어올리시기를
+111 기뻐하셨을때,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 112/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 112 a’ frati suoi, sì com’ a giuste rede,
 113 raccomandò la donna sua più cara,
 114 e comandò che l’amassero a fede;
+</prompt>
+<result>
+112 그는그의수사들에게,마치정당한상속인에게하듯이
+113 그의가장사랑하는아내를부탁했고,
+114 그들이그녀를충실하게사랑하라고명령했다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 115/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 115 e del suo grembo l’anima preclara
 116 mover si volle, tornando al suo regno,
 117 e al suo corpo non volle altra bara.
 </prompt>
 <result>
-109 그토록좋은것을얻은그에게
-110 그가겸손해진것으로얻은자비로그를위로끌어올리시기를
-111 기뻐하셨을때,
-
-112 그는그의수사들에게,마치정당한상속인에게하듯이
-113 그의가장사랑하는아내를부탁했고,
-114 그들이그녀를충실하게사랑하라고명령했다.
-
 115 그리고그의품에서그의고귀한영혼은
 116 움직이기를원했고,그의왕국으로돌아갔고,
 117 그의몸에는다른관을원하지않았다.
@@ -479,16 +586,23 @@ Please translate each line literally into Korean.
 118 Pensa oramai qual fu colui che degno
 119 collega fu a mantener la barca
 120 di Pietro in alto mar per dritto segno;
+</prompt>
+<result>
+118 이제그가누구였는지생각해보라.그는합당한
+119 동료였고,바다위에서베드로의배를
+120 올바른방향으로유지했다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 121/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 121 e questo fu il nostro patrïarca;
 122 per che qual segue lui, com’ el comanda,
 123 discerner puoi che buone merce carca.
 </prompt>
 <result>
-118 이제그가누구였는지생각해보라.그는합당한
-119 동료였고,바다위에서베드로의배를
-120 올바른방향으로유지했다.
-
 121 그리고이분이우리의조상이었다.
 122 그러므로그가명령한대로그를따르는사람은
 123 좋은상품을가득싣고있다는것을알수있다.
@@ -502,16 +616,23 @@ Please translate each line literally into Korean.
 124 Ma ’l suo pecuglio di nova vivanda
 125 è fatto ghiotto, sì ch’esser non puote
 126 che per diversi salti non si spanda;
+</prompt>
+<result>
+124 그러나그의양떼는새로운먹이로
+125 탐욕스러워졌고,그래서
+126 여러번뛰어다니지않고는있을수없다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 127/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
 127 e quanto le sue pecore remote
 128 e vagabunde più da esso vanno,
 129 più tornano a l’ovil di latte vòte.
 </prompt>
 <result>
-124 그러나그의양떼는새로운먹이로
-125 탐욕스러워졌고,그래서
-126 여러번뛰어다니지않고는있을수없다.
-
 127 그리고그의양들이멀리
 128 헤매고그에게서더멀어질수록,
 129 더많이젖이없이양圈으로돌아온다.
@@ -540,21 +661,37 @@ Please translate each line literally into Korean.
 133 Or, se le mie parole non son fioche,
 134 se la tua audïenza è stata attenta,
 135 se ciò ch’è detto a la mente revoche,
-
-136 in parte fia la tua voglia contenta,
-137 perché vedrai la pianta onde si scheggia,
-138 e vedra’ il corrègger che argomenta
-
-139 “U’ ben s’impingua, se non si vaneggia”».
 </prompt>
 <result>
 133 내 말이 흐릿하지 않다면,
 134 네가 주의 깊게 들었다면,
 135 내가 한 말을 네가 기억한다면,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 136/139</info>
+<prompt>
+Please translate each line literally into Korean.
 
+136 in parte fia la tua voglia contenta,
+137 perché vedrai la pianta onde si scheggia,
+138 e vedra’ il corrègger che argomenta
+</prompt>
+<result>
 136 네 욕망이 어느 정도는 충족될 것이다.
 137 네가 그 나무를 볼 것이기 때문이다. 그 나무에서 조각을 떼어낸다.
 138 그리고 "잘 먹으면서 허영을 부리지 않는다면"이라고 주장하는 꾸지람을 들을 것이다.
 </result>
+</query>
+<query>
+<info>[Paradiso Canto 11] 139/139</info>
+<prompt>
+Please translate each line literally into Korean.
+
+139 “U’ ben s’impingua, se non si vaneggia”».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 </queries>

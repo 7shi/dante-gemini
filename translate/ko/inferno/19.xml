@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="45">
 <query>
 <info>[Inferno Canto 19] 1/133</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Korean.
 1 O Simon mago, o miseri seguaci
 2 che le cose di Dio, che di bontate
 3 deon essere spose, e voi rapaci
+</prompt>
+<result>
+1 오, 시몬 마고여, 불쌍한 추종자들이여
+2 하나님의 것들을, 선함을
+3 신부가 되어야 할 것을 너희는 약탈자로서
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 4/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 per oro e per argento avolterate,
 5 or convien che per voi suoni la tromba,
 6 però che ne la terza bolgia state.
 </prompt>
 <result>
-1 오, 시몬 마고여, 불쌍한 추종자들이여
-2 하나님의 것들을, 선함을
-3 신부가 되어야 할 것을 너희는 약탈자로서
-
 4 금과 은으로 뒤섞었으니,
 5 이제 너희를 위해 나팔이 울려야 하리라,
 6 그러므로 너희는 세 번째 구덩이에 있으니.
@@ -46,16 +53,23 @@ Please translate each line literally into Korean.
 10 O somma sapïenza, quanta è l’arte
 11 che mostri in cielo, in terra e nel mal mondo,
 12 e quanto giusto tua virtù comparte!
+</prompt>
+<result>
+10 오, 지고한 지혜여, 얼마나 큰 예술을
+11 하늘과 땅과 사악한 세상에 보여주시며,
+12 얼마나 정의롭게 당신의 덕을 나누어 주시는가!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 13/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 13 Io vidi per le coste e per lo fondo
 14 piena la pietra livida di fóri,
 15 d’un largo tutti e ciascun era tondo.
 </prompt>
 <result>
-10 오, 지고한 지혜여, 얼마나 큰 예술을
-11 하늘과 땅과 사악한 세상에 보여주시며,
-12 얼마나 정의롭게 당신의 덕을 나누어 주시는가!
-
 13 나는 그 옆구리와 바닥을 보니
 14 푸른 돌이 구멍으로 가득 차 있었고,
 15 모두 크기가 같고 각각이 둥글었다.
@@ -69,21 +83,26 @@ Please translate each line literally into Korean.
 16 Non mi parean men ampi né maggiori
 17 che que’ che son nel mio bel San Giovanni,
 18 fatti per loco d’i battezzatori;
+</prompt>
+<error>
+16 나에게는 나의 아름다운 산 조반니에 있는 것보다 더 크거나 크지 않아 보였고,
+17 세례반을 두는 곳으로 만들어졌다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 19] 19/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 19 l’un de li quali, ancor non è molt’ anni,
 20 rupp’ io per un che dentro v’annegava:
 21 e questo sia suggel ch’ogn’ omo sganni.
 </prompt>
-<result>
-16 나에게는 나의 아름다운 산 조반니에 있는 것보다 더 크거나 크지 않아 보였고,
-17 세례반을 두는 곳으로 만들어졌다.
-
+<error>
 18 그 중 하나는 아직 몇 년도 지나지 않아,
 19 안에서 익사한 사람 때문에 내가 부수었다.
 20 이것이 모든 사람을 속이지 않게 하는 증거가 되기를 바란다.
-
-21 혹시나 이것이 모든 사람을 속이지 않게 하는 증거가 되기를 바란다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 19] 22/133</info>
@@ -169,10 +188,10 @@ Please translate each line literally into Korean.
 38 tu se’ segnore, e sai ch’i’ non mi parto
 39 dal tuo volere, e sai quel che si tace».
 </prompt>
-<result>
+<error>
 37 나는 말했다. "당신이 원하시는 대로 저에게 좋습니다.
 38 당신은 주인이고, 내가 당신의 뜻에서 벗어나지 않는다는 것을 알고 계시고, 말하지 않는 것도 알고 계십니다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 19] 40/133</info>
@@ -198,32 +217,6 @@ Please translate each line literally into Korean.
 44 non mi dipuose, sì mi giunse al rotto
 45 di quel che si piangeva con la zanca.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "43 선량한 스승은 여전히 나를 그의 엉덩이에서\n44 내려놓지 않으셨고, 그래서 그는 나를 데려갔다.\n45 다리가 울부짖는 곳으로."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 43 선량한 스승은 여전히 나를 그의 엉덩이에서
 44 내려놓지 않으셨고, 그래서 그는 나를 데려갔다.
@@ -299,36 +292,10 @@ Please translate each line literally into Korean.
 59 per non intender ciò ch’è lor risposto,
 60 quasi scornati, e risponder non sanno.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "58 나는 그렇게 되었다. 무슨 말을 하는지 이해하지 못하고,\n59 마치 조롱당한 것처럼 대답할 말을 모르는 사람들처럼."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 58 나는 그렇게 되었다. 무슨 말을 하는지 이해하지 못하고,
 59 마치 조롱당한 것처럼 대답할 말을 모르는 사람들처럼.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 19] 61/133</info>
@@ -353,24 +320,38 @@ Please translate each line literally into Korean.
 64 Per che lo spirto tutti storse i piedi;
 65 poi, sospirando e con voce di pianto,
 66 mi disse: «Dunque che a me richiedi?
+</prompt>
+<result>
+64 그러자 그 영혼은 발을 모두 비틀었다.
+65 그러고 나서 한숨을 쉬며 우는 목소리로
+66 나에게 말했다. "그러면 내게 무엇을 요구하느냐?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 67/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 67 Se di saper ch’i’ sia ti cal cotanto,
 68 che tu abbi però la ripa corsa,
 69 sappi ch’i’ fui vestito del gran manto;
+</prompt>
+<result>
+67 내가 누구인지 아는 것이 그토록 중요하다면,
+68 그래서 네가 이 제방을 따라 달려왔다면,
+69 내가 위대한 망토를 입었었다는 것을 알아라.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 70/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 70 e veramente fui figliuol de l’orsa,
 71 cupido sì per avanzar li orsatti,
 72 che sù l’avere e qui me misi in borsa.
 </prompt>
 <result>
-64 그러자 그 영혼은 발을 모두 비틀었다.
-65 그러고 나서 한숨을 쉬며 우는 목소리로
-66 나에게 말했다. "그러면 내게 무엇을 요구하느냐?
-
-67 내가 누구인지 아는 것이 그토록 중요하다면,
-68 그래서 네가 이 제방을 따라 달려왔다면,
-69 내가 위대한 망토를 입었었다는 것을 알아라.
-
 70 그리고 나는 정말로 암곰의 아들이었고,
 71 새끼 곰들을 앞지르고 싶어서 너무 탐욕스러워서,
 72 재물을 쌓아올리고 여기서 주머니에 넣었다.
@@ -414,16 +395,23 @@ Please translate each line literally into Korean.
 79 Ma più è ’l tempo già che i piè mi cossi
 80 e ch’i’ son stato così sottosopra,
 81 ch’el non starà piantato coi piè rossi:
+</prompt>
+<result>
+79 하지만 내가 발을 태운 지가 오래 되었고
+80 내가 이렇게 뒤집혀 있었으니,
+81 그는 붉은 발로 서 있지 않을 것이다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 82/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 82 ché dopo lui verrà di più laida opra,
 83 di ver’ ponente, un pastor sanza legge,
 84 tal che convien che lui e me ricuopra.
 </prompt>
 <result>
-79 하지만 내가 발을 태운 지가 오래 되었고
-80 내가 이렇게 뒤집혀 있었으니,
-81 그는 붉은 발로 서 있지 않을 것이다.
-
 82 그 뒤로 더 추악한 일이 일어날 것이니,
 83 진짜 서쪽에서 온, 법 없는 목자,
 84 그래서 그와 나를 덮어야 할 것이다.
@@ -452,19 +440,26 @@ Please translate each line literally into Korean.
 88 Io non so s’i’ mi fui qui troppo folle,
 89 ch’i’ pur rispuosi lui a questo metro:
 90 «Deh, or mi dì: quanto tesoro volle
-
-91 Nostro Segnore in prima da san Pietro
-92 ch’ei ponesse le chiavi in sua balìa?
-93 Certo non chiese se non “Viemmi retro”.
 </prompt>
 <result>
 88 내가 여기서 너무 어리석었는지 모르겠지만,
 89 나는 그에게 이렇게 대답했다.
 90 "아, 이제 말해봐. 우리 주님께서 처음에 성 베드로에게 얼마나 많은 보물을 요구하셨는가,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 91/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
+91 Nostro Segnore in prima da san Pietro
+92 ch’ei ponesse le chiavi in sua balìa?
+93 Certo non chiese se non “Viemmi retro”.
+</prompt>
+<error>
 91 그가 그에게 열쇠를 맡기셨을 때?
 92 분명 "나를 따라오너라"고만 요구하셨을 뿐이지."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 19] 94/133</info>
@@ -504,19 +499,26 @@ Please translate each line literally into Korean.
 100 E se non fosse ch’ancor lo mi vieta
 101 la reverenza de le somme chiavi
 102 che tu tenesti ne la vita lieta,
+</prompt>
+<error>
+100 그리고 만약 내가 아직도 최고의 열쇠에 대한 경의를 갖고 있지 않았다면,
+101 네가 즐거운 삶을 살 때 가졌던 열쇠 말이다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 19] 103/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 103 io userei parole ancor più gravi;
 104 ché la vostra avarizia il mondo attrista,
 105 calcando i buoni e sollevando i pravi.
 </prompt>
-<result>
-100 그리고 만약 내가 아직도 최고의 열쇠에 대한 경의를 갖고 있지 않았다면,
-101 네가 즐거운 삶을 살 때 가졌던 열쇠 말이다.
-
+<error>
 102 나는 더욱 가혹한 말을 사용했을 것이다.
 103 너희의 탐욕이 세상을 슬프게 만들고 있으니,
 104 선한 자들을 짓밟고 사악한 자들을 높이 떠받들고 있으니 말이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 19] 106/133</info>
@@ -526,16 +528,23 @@ Please translate each line literally into Korean.
 106 Di voi pastor s’accorse il Vangelista,
 107 quando colei che siede sopra l’acque
 108 puttaneggiar coi regi a lui fu vista;
+</prompt>
+<result>
+106 복음서 기자는 너희 목자들을 알아챘다.
+107 물 위에 앉아 있는 자가
+108 왕들과 간통하는 것을 그가 보았을 때 말이다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 109/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 109 quella che con le sette teste nacque,
 110 e da le diece corna ebbe argomento,
 111 fin che virtute al suo marito piacque.
 </prompt>
 <result>
-106 복음서 기자는 너희 목자들을 알아챘다.
-107 물 위에 앉아 있는 자가
-108 왕들과 간통하는 것을 그가 보았을 때 말이다.
-
 109 일곱 개의 머리로 태어나고
 110 열 개의 뿔로 권세를 얻었던 자,
 111 그녀의 남편이 그녀의 미덕을 좋아할 때까지 말이다.
@@ -549,19 +558,26 @@ Please translate each line literally into Korean.
 112 Fatto v’avete dio d’oro e d’argento;
 113 e che altro è da voi a l’idolatre,
 114 se non ch’elli uno, e voi ne orate cento?
-
-115 Ahi, Costantin, di quanto mal fu matre,
-116 non la tua conversion, ma quella dote
-117 che da te prese il primo ricco patre!».
 </prompt>
 <result>
 112 너희는 너희 자신을 금과 은으로 만든 신으로 만들었다.
 113 그리고 너희와 우상 숭배자들 사이에 무슨 차이가 있는가?
 114 그들이 하나를 숭배하는 반면 너희는 백 개를 숭배하는 것 외에는 말이다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 115/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
+115 Ahi, Costantin, di quanto mal fu matre,
+116 non la tua conversion, ma quella dote
+117 che da te prese il primo ricco patre!».
+</prompt>
+<error>
 115 아, 콘스탄티누스여, 얼마나 많은 악의 어머니가 되었는가,
 116 네 개종이 아니라, 첫 번째 부유한 교황이 너에게서 받은 그 지참금이 말이다!"
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 19] 118/133</info>
@@ -572,32 +588,6 @@ Please translate each line literally into Korean.
 119 o ira o coscïenza che ’l mordesse,
 120 forte spingava con ambo le piote.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "118 그리고 내가 그에게 그런 말을 하면서 노래할 때,\n119 분노 때문이든 양심의 가책 때문이든,\n120 그는 두 발로 세게 차버렸다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 118 그리고 내가 그에게 그런 말을 하면서 노래할 때,
 119 분노 때문이든 양심의 가책 때문이든,

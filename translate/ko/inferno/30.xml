@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="34">
+<queries count="50">
 <query>
 <info>[Inferno Canto 30] 1/148</info>
 <prompt>
@@ -8,60 +8,55 @@ Please translate each line literally into Korean.
 1 Nel tempo che Iunone era crucciata
 2 per Semelè contra ’l sangue tebano,
 3 come mostrò una e altra fïata,
+</prompt>
+<error>
+1 유노가 세멜레 때문에 테베인의 피를 향해 분노했을 때,
+2 그녀가 여러 번 보여준 것처럼,
+</error>
+</query>
+<query>
+<info>[Inferno Canto 30] 4/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 Atamante divenne tanto insano,
 5 che veggendo la moglie con due figli
 6 andar carcata da ciascuna mano,
+</prompt>
+<error>
+3 아타마스는 너무 미쳐서,
+4 아내가 두 아이를 데리고
+5 양손에 무거운 짐을 지고 다니는 것을 보고,
+</error>
+</query>
+<query>
+<info>[Inferno Canto 30] 7/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 7 gridò: «Tendiam le reti, sì ch’io pigli
 8 la leonessa e ’ leoncini al varco»;
 9 e poi distese i dispietati artigli,
+</prompt>
+<error>
+6 "그물을 치자. 내가 사자암컷과 새끼 사자들을 잡을 테니." 하고 외쳤다.
+7 그리고는 무자비한 손톱을 뻗어,
+</error>
+</query>
+<query>
+<info>[Inferno Canto 30] 10/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 10 prendendo l’un ch’avea nome Learco,
 11 e rotollo e percosselo ad un sasso;
 12 e quella s’annegò con l’altro carco.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "1 유노가 세멜레 때문에 테베인의 피를 향해 분노했을 때,\n2 그녀가 여러 번 보여준 것처럼,\n\n3 아타마스는 너무 미쳐서,\n4 아내가 두 아이를 데리고\n5 양손에 무거운 짐을 지고 다니는 것을 보고,\n\n6 \"그물을 치자. 내가 사자암컷과 새끼 사자들을 잡을 테니.\" 하고 외쳤다.\n7 그리고는 무자비한 손톱을 뻗어,\n\n8 레아르코스라는 이름의 아이를 잡아서\n9 돌바위에 던져 부딪히게 했고,\n10 다른 아이를 데리고 있던 아내는 물에 빠져 죽었다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
-1 유노가 세멜레 때문에 테베인의 피를 향해 분노했을 때,
-2 그녀가 여러 번 보여준 것처럼,
-
-3 아타마스는 너무 미쳐서,
-4 아내가 두 아이를 데리고
-5 양손에 무거운 짐을 지고 다니는 것을 보고,
-
-6 "그물을 치자. 내가 사자암컷과 새끼 사자들을 잡을 테니." 하고 외쳤다.
-7 그리고는 무자비한 손톱을 뻗어,
-
+<error>
 8 레아르코스라는 이름의 아이를 잡아서
 9 돌바위에 던져 부딪히게 했고,
 10 다른 아이를 데리고 있던 아내는 물에 빠져 죽었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 30] 13/148</info>
@@ -71,24 +66,38 @@ Please translate each line literally into Korean.
 13 E quando la fortuna volse in basso
 14 l’altezza de’ Troian che tutto ardiva,
 15 sì che ’nsieme col regno il re fu casso,
+</prompt>
+<result>
+13 그리고 운명이 모든 것을 감히 행하던
+14 트로이아인들의 위엄을 낮추었을 때,
+15 그래서 왕국과 함께 왕이 폐위되었을 때,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 16/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 16 Ecuba trista, misera e cattiva,
 17 poscia che vide Polissena morta,
 18 e del suo Polidoro in su la riva
+</prompt>
+<result>
+16 슬프고 비참하고 악한 헤쿠바는
+17 폴리크세나가 죽은 것을 보고,
+18 그리고 바닷가에서 그녀의 폴리도로스를 보고
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 19/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 19 del mar si fu la dolorosa accorta,
 20 forsennata latrò sì come cane;
 21 tanto il dolor le fé la mente torta.
 </prompt>
 <result>
-13 그리고 운명이 모든 것을 감히 행하던
-14 트로이아인들의 위엄을 낮추었을 때,
-15 그래서 왕국과 함께 왕이 폐위되었을 때,
-
-16 슬프고 비참하고 악한 헤쿠바는
-17 폴리크세나가 죽은 것을 보고,
-18 그리고 바닷가에서 그녀의 폴리도로스를 보고
-
 19 슬픔에 잠긴 그녀는 깨달았고,
 20 미친 듯이 개처럼 짖었으니,
 21 그토록 슬픔이 그녀의 정신을 뒤틀어 놓았다.
@@ -102,16 +111,23 @@ Please translate each line literally into Korean.
 22 Ma né di Tebe furie né troiane
 23 si vider mäi in alcun tanto crude,
 24 non punger bestie, nonché membra umane,
+</prompt>
+<result>
+22 하지만 테베의 복수의 여신들도 트로이아의 복수의 여신들도
+23 그토록 잔인한 모습을 보인 적이 없었고,
+24 짐승은 물론이고 인간의 몸조차 찌르지 않았다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 25/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 25 quant’ io vidi in due ombre smorte e nude,
 26 che mordendo correvan di quel modo
 27 che ’l porco quando del porcil si schiude.
 </prompt>
 <result>
-22 하지만 테베의 복수의 여신들도 트로이아의 복수의 여신들도
-23 그토록 잔인한 모습을 보인 적이 없었고,
-24 짐승은 물론이고 인간의 몸조차 찌르지 않았다.
-
 25 내가 두 개의 창백하고 벌거벗은 그림자에서 본 것처럼,
 26 그들은 물어뜯으며 달려갔는데,
 27 마치 돼지가 돼지우리에서 풀려난 것처럼.
@@ -156,32 +172,6 @@ Please translate each line literally into Korean.
 35 li denti a dosso, non ti sia fatica
 36 a dir chi è, pria che di qui si spicchi».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "34 \"아,\" 내가 그에게 말했다. \"만약 다른 녀석이\n35 네 등에 이빨을 박지 않는다면,\n36 여기서 벗어나기 전에 그가 누구인지 말하는 것이 네게 어려운 일이 아닐 것이다.\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 34 "아," 내가 그에게 말했다. "만약 다른 녀석이
 35 네 등에 이빨을 박지 않는다면,
@@ -197,32 +187,6 @@ Please translate each line literally into Korean.
 38 di Mirra scellerata, che divenne
 39 al padre, fuor del dritto amore, amica.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 그리고 그는 나에게 말했다. \"저것은\n38 사악한 미라의 영혼으로, 아버지에게\n39 정상적인 사랑이 아닌 사랑으로 친구가 되었다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 37 그리고 그는 나에게 말했다. "저것은
 38 사악한 미라의 영혼으로, 아버지에게
@@ -237,16 +201,23 @@ Please translate each line literally into Korean.
 40 Questa a peccar con esso così venne,
 41 falsificando sé in altrui forma,
 42 come l’altro che là sen va, sostenne,
+</prompt>
+<result>
+40 이 여자는 그와 함께 죄를 지었고,
+41 자신을 다른 사람의 모습으로 위장했고,
+42 저기 가는 다른 사람이 주장했듯이,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 43/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 43 per guadagnar la donna de la torma,
 44 falsificare in sé Buoso Donati,
 45 testando e dando al testamento norma».
 </prompt>
 <result>
-40 이 여자는 그와 함께 죄를 지었고,
-41 자신을 다른 사람의 모습으로 위장했고,
-42 저기 가는 다른 사람이 주장했듯이,
-
 43 무리의 여인을 얻기 위해
 44 부오소 도나티를 위조하여
 45 유언장을 작성하고 유언장에 규범을 부여했습니다.
@@ -261,10 +232,10 @@ Please translate each line literally into Korean.
 47 sovra cu’ io avea l’occhio tenuto,
 48 rivolsilo a guardar li altri mal nati.
 </prompt>
-<result>
+<error>
 46 그리고 내가 눈을 두고 있던 두 명의 분노한 자들이 지나간 후,
 47 나는 다른 불쌍한 자들을 바라보았다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 30] 49/148</info>
@@ -289,16 +260,23 @@ Please translate each line literally into Korean.
 52 La grave idropesì, che sì dispaia
 53 le membra con l’omor che mal converte,
 54 che ’l viso non risponde a la ventraia,
+</prompt>
+<result>
+52 심한 종양이 그렇게도 불균형적으로
+53 체액을 제대로 변환하지 못해 몸을 부풀게 하고,
+54 얼굴이 배와 어울리지 않게 만들었다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 55/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 55 faceva lui tener le labbra aperte
 56 come l’etico fa, che per la sete
 57 l’un verso ’l mento e l’altro in sù rinverte.
 </prompt>
 <result>
-52 심한 종양이 그렇게도 불균형적으로
-53 체액을 제대로 변환하지 못해 몸을 부풀게 하고,
-54 얼굴이 배와 어울리지 않게 만들었다.
-
 55 그래서 그는 입술을 벌리고 있었는데,
 56 마치 갈증 때문에
 57 한쪽은 턱으로, 다른 한쪽은 위로 뒤집히는 결핵 환자처럼.
@@ -312,16 +290,23 @@ Please translate each line literally into Korean.
 58 «O voi che sanz’ alcuna pena siete,
 59 e non so io perché, nel mondo gramo»,
 60 diss’ elli a noi, «guardate e attendete
+</prompt>
+<result>
+58 "아무런 고통도 없이,
+59 그리고 이 비참한 세상에서 왜 그런지 모르겠지만,
+60 살아가는 여러분,"
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 61/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 61 a la miseria del maestro Adamo;
 62 io ebbi, vivo, assai di quel ch’i’ volli,
 63 e ora, lasso!, un gocciol d’acqua bramo.
 </prompt>
 <result>
-58 "아무런 고통도 없이,
-59 그리고 이 비참한 세상에서 왜 그런지 모르겠지만,
-60 살아가는 여러분,"
-
 61 그는 우리에게 말했다. "아담 스승의 비참함을
 62 살아 있을 때는 내가 원하는 것을 많이 얻었지만,
 63 이제는 한 방울의 물 한 모금만 갈구하고 있어."
@@ -335,16 +320,23 @@ Please translate each line literally into Korean.
 64 Li ruscelletti che d’i verdi colli
 65 del Casentin discendon giuso in Arno,
 66 faccendo i lor canali freddi e molli,
+</prompt>
+<result>
+64 카센티노의 푸른 언덕에서
+65 아르노 강으로 흘러내리는 개울들이
+66 차갑고 부드러운 물길을 만들며 흐르는데,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 67/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 67 sempre mi stanno innanzi, e non indarno,
 68 ché l’imagine lor vie più m’asciuga
 69 che ’l male ond’ io nel volto mi discarno.
 </prompt>
 <result>
-64 카센티노의 푸른 언덕에서
-65 아르노 강으로 흘러내리는 개울들이
-66 차갑고 부드러운 물길을 만들며 흐르는데,
-
 67 항상 내 앞에 나타나고, 그것도 헛되지 않게,
 68 그 개울들의 모습이 내 얼굴에서 살이 빠지게 하는
 69 그 병보다 더 나를 말라붙게 한다.
@@ -374,32 +366,6 @@ Please translate each line literally into Korean.
 74 la lega suggellata del Batista;
 75 per ch’io il corpo sù arso lasciai.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "73 거기 로메나가 있는데, 내가 그곳에서\n74 세례자 요한이 맺은 계약을 어겼다.\n75 그래서 나는 몸을 불태워 버렸다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 73 거기 로메나가 있는데, 내가 그곳에서
 74 세례자 요한이 맺은 계약을 어겼다.
@@ -429,24 +395,38 @@ Please translate each line literally into Korean.
 79 Dentro c’è l’una già, se l’arrabbiate
 80 ombre che vanno intorno dicon vero;
 81 ma che mi val, c’ho le membra legate?
+</prompt>
+<result>
+79 이미 그 중 한 명이 안에 있으리라, 만약
+80 주위를 돌아다니는 분노한 그림자가 사실을 말한다면;
+81 하지만 내 몸이 묶여 있으니 무슨 소용이 있겠는가?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 82/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 82 S’io fossi pur di tanto ancor leggero
 83 ch’i’ potessi in cent’ anni andare un’oncia,
 84 io sarei messo già per lo sentiero,
+</prompt>
+<result>
+82 내가 아직도 그 정도로 가볍다면
+83 백 년에 한 온스라도 갈 수 있다면,
+84 나는 이미 그 길을 따라 나아가 있을 것이다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 85/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 85 cercando lui tra questa gente sconcia,
 86 con tutto ch’ella volge undici miglia,
 87 e men d’un mezzo di traverso non ci ha.
 </prompt>
 <result>
-79 이미 그 중 한 명이 안에 있으리라, 만약
-80 주위를 돌아다니는 분노한 그림자가 사실을 말한다면;
-81 하지만 내 몸이 묶여 있으니 무슨 소용이 있겠는가?
-
-82 내가 아직도 그 정도로 가볍다면
-83 백 년에 한 온스라도 갈 수 있다면,
-84 나는 이미 그 길을 따라 나아가 있을 것이다.
-
 85 이 추악한 무리 속에서 그를 찾아가며,
 86 그 길이 열한 마일이나 되고,
 87 가로질러 가는 길이 반나절도 안 되더라도.
@@ -461,12 +441,10 @@ Please translate each line literally into Korean.
 89 e’ m’indussero a batter li fiorini
 90 ch’avevan tre carati di mondiglia».
 </prompt>
-<result>
+<error>
 88 나는 그런 가족들 사이에 있으니,
 89 그들은 나를 유혹하여 세 카라트의 합금이 들어간 플로린 주화를 만드게 했고,
-
-90 그래서 나는 이곳에 있다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 30] 91/148</info>
@@ -477,10 +455,10 @@ Please translate each line literally into Korean.
 92 che fumman come man bagnate ’l verno,
 93 giacendo stretti a’ tuoi destri confini?».
 </prompt>
-<result>
+<error>
 91 그리고 나는 그에게 물었다. "너의 오른쪽 경계에
 92 겨울에 젖은 손처럼 연기가 나는 불쌍한 두 사람은 누구인가?"
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 30] 94/148</info>
@@ -506,32 +484,6 @@ Please translate each line literally into Korean.
 98 l’altr’ è ’l falso Sinon greco di Troia:
 99 per febbre aguta gittan tanto leppo».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "97 하나는요셉을고발한거짓말쟁이이고,\n98 다른하나는트로이의거짓말쟁이그리스인시논입니다.\n99 그들은심한열병으로인해그렇게나악취를발합니다.\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 97 하나는요셉을고발한거짓말쟁이이고,
 98 다른하나는트로이의거짓말쟁이그리스인시논입니다.
@@ -561,16 +513,23 @@ Please translate each line literally into Korean.
 103 Quella sonò come fosse un tamburo;
 104 e mastro Adamo li percosse il volto
 105 col braccio suo, che non parve men duro,
+</prompt>
+<result>
+103 그소리는마치북소리같았습니다.
+104 그리고아담마스터는그의얼굴을쳤습니다.
+105 그의팔로,그다지부드럽지않아보였습니다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 106/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 106 dicendo a lui: «Ancor che mi sia tolto
 107 lo muover per le membra che son gravi,
 108 ho io il braccio a tal mestiere sciolto».
 </prompt>
 <result>
-103 그소리는마치북소리같았습니다.
-104 그리고아담마스터는그의얼굴을쳤습니다.
-105 그의팔로,그다지부드럽지않아보였습니다.
-
 106 그에게말하면서: "비록내가
 107 무거운내사지를움직이는것이불가능하더라도,
 108 나는그런일을하기에팔이자유롭습니다."
@@ -600,10 +559,10 @@ Please translate each line literally into Korean.
 113 ma tu non fosti sì ver testimonio
 114 là ’ve del ver fosti a Troia richesto».
 </prompt>
-<result>
+<error>
 112 그리고종양환자는: "당신은이것에대해진실을말합니다.
 113 하지만당신은트로이에서진실을요구받았을때그렇게진실한증인이아니었습니다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 30] 115/148</info>
@@ -629,10 +588,10 @@ Please translate each line literally into Korean.
 119 rispuose quel ch’avëa infiata l’epa;
 120 «e sieti reo che tutto il mondo sallo!».
 </prompt>
-<result>
+<error>
 118 배가부은사람이대답했습니다: "거짓말쟁이여,말을기억하세요.
 119 그리고당신은전세계가아는죄인입니다!"
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 30] 121/148</info>
@@ -657,16 +616,23 @@ Please translate each line literally into Korean.
 124 Allora il monetier: «Così si squarcia
 125 la bocca tua per tuo mal come suole;
 126 ché, s’i’ ho sete e omor mi rinfarcia,
+</prompt>
+<result>
+124 그러자주화제조자가말했습니다: "그래서당신의입은
+125 당신의악으로인해평소처럼찢어집니다.
+126 내가갈증이있고살인이나를채우더라도,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 127/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 127 tu hai l’arsura e ’l capo che ti duole,
 128 e per leccar lo specchio di Narcisso,
 129 non vorresti a ’nvitar molte parole».
 </prompt>
 <result>
-124 그러자주화제조자가말했습니다: "그래서당신의입은
-125 당신의악으로인해평소처럼찢어집니다.
-126 내가갈증이있고살인이나를채우더라도,
-
 127 당신은타오르는갈증과고통스러운머리를가졌고,
 128 나르키소스의거울을핥기위해서,
 129 당신은많은말을하기를원하지않을것입니다."
@@ -710,16 +676,23 @@ Please translate each line literally into Korean.
 136 Qual è colui che suo dannaggio sogna,
 137 che sognando desidera sognare,
 138 sì che quel ch’è, come non fosse, agogna,
+</prompt>
+<result>
+136 자신의 재앙을 꿈꾸는 사람이,
+137 꿈속에서 계속 꿈꾸기를 바라며,
+138 그래서 있는 것이 마치 없는 것처럼 갈망하듯이,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 30] 139/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 139 tal mi fec’ io, non possendo parlare,
 140 che disïava scusarmi, e scusava
 141 me tuttavia, e nol mi credea fare.
 </prompt>
 <result>
-136 자신의 재앙을 꿈꾸는 사람이,
-137 꿈속에서 계속 꿈꾸기를 바라며,
-138 그래서 있는 것이 마치 없는 것처럼 갈망하듯이,
-
 139 나는 말을 할 수 없어서 그렇게 되었는데,
 140 변명하고 싶었지만 변명했고,
 141 계속 변명했지만 내가 변명하고 있다고는 믿지 않았다.
@@ -748,14 +721,21 @@ Please translate each line literally into Korean.
 145 E fa ragion ch’io ti sia sempre allato,
 146 se più avvien che fortuna t’accoglia
 147 dove sien genti in simigliante piato:
+</prompt>
+<error>
+145 그리고 내가 항상 네 곁에 있을 것이니 안심해라.
+146 앞으로 운명이 네가 비슷한 논쟁을 벌이는 사람들 사이에 있게 한다면,
+</error>
+</query>
+<query>
+<info>[Inferno Canto 30] 148/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 148 ché voler ciò udire è bassa voglia».
 </prompt>
-<result>
-145 그리고 내가 항상 네 곁에 있을 것이니 안심해라.
-146 앞으로 운명이 네가 비슷한 논쟁을 벌이는 사람들 사이에 있게 한다면,
-
+<error>
 147 그런 것을 듣고 싶어 하는 것은 천한 욕망이다."
-</result>
+</error>
 </query>
 </queries>

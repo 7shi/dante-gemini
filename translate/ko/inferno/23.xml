@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="36">
+<queries count="51">
 <query>
 <info>[Inferno Canto 23] 1/148</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into Korean.
 4 Vòlt’ era in su la favola d’Isopo
 5 lo mio pensier per la presente rissa,
 6 dov’ el parlò de la rana e del topo;
+</prompt>
+<result>
+4 이소포의 우화에 대한 나의 생각은
+5 현재의 다툼 때문에 뒤집혔는데,
+6 그가 개구리와 두꺼비에 대해 이야기한 곳에서 말이다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 7/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 7 ché più non si pareggia ‘mo’ e ‘issa’
 8 che l’un con l’altro fa, se ben s’accoppia
 9 principio e fine con la mente fissa.
 </prompt>
 <result>
-4 이소포의 우화에 대한 나의 생각은
-5 현재의 다툼 때문에 뒤집혔는데,
-6 그가 개구리와 두꺼비에 대해 이야기한 곳에서 말이다.
-
 7 지금과 과거가 서로 비슷하지 않은 것은
 8 처음과 끝을 확고한 마음으로 연결하면
 9 서로 잘 어울리기 때문이다.
@@ -62,32 +69,6 @@ Please translate each line literally into Korean.
 14 sono scherniti con danno e con beffa
 15 sì fatta, ch’assai credo che lor nòi.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "13 나는 이렇게 생각했다. ‘이들은 우리 때문에\n14 그토록 큰 피해와 조롱을 당했으니,\n15 그들의 종족이 매우 분노할 것이라고 생각한다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 13 나는 이렇게 생각했다. ‘이들은 우리 때문에
 14 그토록 큰 피해와 조롱을 당했으니,
@@ -117,19 +98,26 @@ Please translate each line literally into Korean.
 19 Già mi sentia tutti arricciar li peli
 20 de la paura e stava in dietro intento,
 21 quand’ io dissi: «Maestro, se non celi
-
-22 te e me tostamente, i’ ho pavento
-23 d’i Malebranche. Noi li avem già dietro;
-24 io li ’magino sì, che già li sento».
 </prompt>
 <result>
 19 나는 이미 두려움에 온몸의 털이 곤두서기를 느꼈고,
 20 뒤로 물러나 집중하고 있었는데,
 21 내가 말했다. "선생님, 당신과 저를 재빨리 숨기지 않으신다면,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 22/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
+22 te e me tostamente, i’ ho pavento
+23 d’i Malebranche. Noi li avem già dietro;
+24 io li ’magino sì, che già li sento».
+</prompt>
+<error>
 22 저는 악마들을 두려워합니다. 그들은 이미 우리를 쫓고 있습니다.
 23 저는 그들을 상상할 수 있고, 이미 그들의 소리가 들립니다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 23] 25/148</info>
@@ -199,24 +187,38 @@ Please translate each line literally into Korean.
 37 Lo duca mio di sùbito mi prese,
 38 come la madre ch’al romore è desta
 39 e vede presso a sé le fiamme accese,
+</prompt>
+<result>
+37 나의 안내자는 갑자기 나를 붙잡았다.
+38 마치 소음에 잠에서 깨어난 어머니가
+39 자기 곁에서 불이 타오르는 것을 보고,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 40/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 40 che prende il figlio e fugge e non s’arresta,
 41 avendo più di lui che di sé cura,
 42 tanto che solo una camiscia vesta;
+</prompt>
+<result>
+40 아들을 붙잡고 도망치며 멈추지 않는 것처럼,
+41 자기보다 아들을 더 아끼며,
+42 셔츠 한 장만 걸치고서;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 43/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 43 e giù dal collo de la ripa dura
 44 supin si diede a la pendente roccia,
 45 che l’un de’ lati a l’altra bolgia tura.
 </prompt>
 <result>
-37 나의 안내자는 갑자기 나를 붙잡았다.
-38 마치 소음에 잠에서 깨어난 어머니가
-39 자기 곁에서 불이 타오르는 것을 보고,
-
-40 아들을 붙잡고 도망치며 멈추지 않는 것처럼,
-41 자기보다 아들을 더 아끼며,
-42 셔츠 한 장만 걸치고서;
-
 43 그리고 가파른 절벽의 목에서
 44 등을 대고 경사진 바위로 몸을 던졌다.
 45 그 바위는 한쪽으로 다른 구덩이를 막고 있었다.
@@ -230,16 +232,23 @@ Please translate each line literally into Korean.
 46 Non corse mai sì tosto acqua per doccia
 47 a volger ruota di molin terragno,
 48 quand’ ella più verso le pale approccia,
+</prompt>
+<result>
+46 물레방아의 바퀴를 돌리기 위해 물이 홈통을 타고
+47 그렇게 빨리 흐른 적이 없었다.
+48 물이 바퀴에 가장 가까이 다가갈 때,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 49/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 49 come ’l maestro mio per quel vivagno,
 50 portandosene me sovra ’l suo petto,
 51 come suo figlio, non come compagno.
 </prompt>
 <result>
-46 물레방아의 바퀴를 돌리기 위해 물이 홈통을 타고
-47 그렇게 빨리 흐른 적이 없었다.
-48 물이 바퀴에 가장 가까이 다가갈 때,
-
 49 나의 스승은 그 경사면을 따라
 50 나를 가슴에 안고 달렸다.
 51 아들처럼, 동료처럼이 아니라.
@@ -253,19 +262,26 @@ Please translate each line literally into Korean.
 52 A pena fuoro i piè suoi giunti al letto
 53 del fondo giù, ch’e’ furon in sul colle
 54 sovresso noi; ma non lì era sospetto:
-
-55 ché l’alta provedenza che lor volle
-56 porre ministri de la fossa quinta,
-57 poder di partirs’ indi a tutti tolle.
 </prompt>
 <result>
 52 그의 발이 바닥에 닿자마자,
 53 그들은 우리 위의 언덕에 있었다.
 54 하지만 거기에는 의심할 여지가 없었다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 55/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
+55 ché l’alta provedenza che lor volle
+56 porre ministri de la fossa quinta,
+57 poder di partirs’ indi a tutti tolle.
+</prompt>
+<error>
 55 그들을 다섯 번째 구덩이의 관리자로 삼으려고 한
 56 높은 섭리가 그곳을 떠나는 것을 모두에게 금지했기 때문이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 23] 58/148</info>
@@ -291,10 +307,10 @@ Please translate each line literally into Korean.
 62 dinanzi a li occhi, fatte de la taglia
 63 che in Clugnì per li monaci fassi.
 </prompt>
-<result>
+<error>
 61 그들은 눈 앞에 낮게 내려진 후드가 달린 망토를 입고 있었는데,
 62 클륄리에서 수도사들이 입는 것과 같은 모양이었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 23] 64/148</info>
@@ -319,16 +335,23 @@ Please translate each line literally into Korean.
 67 Oh in etterno faticoso manto!
 68 Noi ci volgemmo ancor pur a man manca
 69 con loro insieme, intenti al tristo pianto;
+</prompt>
+<result>
+67 오, 영원히 지치게 하는 망토여!
+68 우리는 여전히 왼쪽으로 돌아
+69 그들과 함께 슬픈 울음소리에 주의를 기울였다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 70/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 70 ma per lo peso quella gente stanca
 71 venìa sì pian, che noi eravam nuovi
 72 di compagnia ad ogne mover d’anca.
 </prompt>
 <result>
-67 오, 영원히 지치게 하는 망토여!
-68 우리는 여전히 왼쪽으로 돌아
-69 그들과 함께 슬픈 울음소리에 주의를 기울였다.
-
 70 하지만 그 무거운 무게 때문에 지친 그 사람들은
 71 너무 느리게 걸어왔기 때문에, 우리는
 72 한 걸음 걸을 때마다 새로운 동반자가 생겼다.
@@ -357,14 +380,21 @@ Please translate each line literally into Korean.
 76 E un che ’ntese la parola tosca,
 77 di retro a noi gridò: «Tenete i piedi,
 78 voi che correte sì per l’aura fosca!
-
-79 Forse ch’avrai da me quel che tu chiedi».
 </prompt>
 <result>
 76 그리고 토스카나 말을 이해한 사람이
 77 우리 뒤에서 소리쳤다. "서세요,
 78 이 어두운 공기를 헤치고 그렇게 달리는 여러분!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 79/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
+79 Forse ch’avrai da me quel che tu chiedi».
+</prompt>
+<result>
 79 아마도 당신이 원하는 것을 내가 줄 수 있을 것입니다."
 </result>
 </query>
@@ -375,15 +405,22 @@ Please translate each line literally into Korean.
 
 80 Onde ’l duca si volse e disse: «Aspetta,
 81 e poi secondo il suo passo procedi».
+</prompt>
+<result>
+80 그러자 안내자가 돌아서서 말했다. "기다려라,
+81 그리고 그의 속도에 맞춰 걸어라."
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 82/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 82 Ristetti, e vidi due mostrar gran fretta
 83 de l’animo, col viso, d’esser meco;
 84 ma tardavali ’l carco e la via stretta.
 </prompt>
 <result>
-80 그러자 안내자가 돌아서서 말했다. "기다려라,
-81 그리고 그의 속도에 맞춰 걸어라."
-
 82 나는 멈춰 서서, 두 사람이 나와 함께 하려고
 83 마음에 큰 서두름을 보이는 것을 얼굴에서 알 수 있었다.
 84 하지만 무거운 짐과 좁은 길 때문에 늦어지고 있었다.
@@ -397,16 +434,23 @@ Please translate each line literally into Korean.
 85 Quando fuor giunti, assai con l’occhio bieco
 86 mi rimiraron sanza far parola;
 87 poi si volsero in sé, e dicean seco:
+</prompt>
+<result>
+85 그들이 다가왔을 때, 매우 찌푸린 눈으로
+86 말 한마디 없이 나를 쳐다보았다.
+87 그러고 나서 서로를 돌아보며 말했다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 88/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 88 «Costui par vivo a l’atto de la gola;
 89 e s’e’ son morti, per qual privilegio
 90 vanno scoperti de la grave stola?».
 </prompt>
 <result>
-85 그들이 다가왔을 때, 매우 찌푸린 눈으로
-86 말 한마디 없이 나를 쳐다보았다.
-87 그러고 나서 서로를 돌아보며 말했다.
-
 88 "저 사람은 목구멍의 움직임으로 보아 살아 있는 듯하다.
 89 그리고 만약 그들이 죽었다면, 어떤 특권으로
 90 무거운 망토를 벗은 채로 다니는가?"
@@ -421,32 +465,6 @@ Please translate each line literally into Korean.
 92 de l’ipocriti tristi se’ venuto,
 93 dir chi tu se’ non avere in dispregio».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "91 그러고 나서 그들은 나에게 말했다. \"오, 토스카나 사람이여, 위선자들의\n92 슬픈 집단에 온 당신은,\n93 당신이 누구인지 말하는 것을 경멸하지 마십시오.\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 91 그러고 나서 그들은 나에게 말했다. "오, 토스카나 사람이여, 위선자들의
 92 슬픈 집단에 온 당신은,
@@ -506,16 +524,22 @@ Please translate each line literally into Korean.
 103 Frati godenti fummo, e bolognesi;
 104 io Catalano e questi Loderingo
 105 nomati, e da tua terra insieme presi
+</prompt>
+<error>
+103 우리는 볼로냐 출신의 행복한 수도사였고,
+104 나는 카탈라노이고 이 사람은 로데링고
+</error>
+</query>
+<query>
+<info>[Inferno Canto 23] 106/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 106 come suole esser tolto un uom solingo,
 107 per conservar sua pace; e fummo tali,
 108 ch’ancor si pare intorno dal Gardingo».
 </prompt>
 <result>
-103 우리는 볼로냐 출신의 행복한 수도사였고,
-104 나는 카탈라노이고 이 사람은 로데링고
-105라고 불리며, 당신의 고향에서 함께 잡혔습니다.
-
 106 외로운 사람을 잡는 것처럼,
 107 그의 평화를 지키기 위해서였고, 우리는 그런 사람들이었습니다.
 108 가르딩고 주변에서도 아직도 그런 사람들이 보입니다."
@@ -544,16 +568,23 @@ Please translate each line literally into Korean.
 112 Quando mi vide, tutto si distorse,
 113 soffiando ne la barba con sospiri;
 114 e ’l frate Catalan, ch’a ciò s’accorse,
+</prompt>
+<result>
+112 그가 나를 보자 모든 것이 뒤틀렸고,
+113 수염에 한숨을 불어넣으며,
+114 그것을 눈치챈 카탈란 수사는
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 115/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 115 mi disse: «Quel confitto che tu miri,
 116 consigliò i Farisei che convenia
 117 porre un uom per lo popolo a’ martìri.
 </prompt>
 <result>
-112 그가 나를 보자 모든 것이 뒤틀렸고,
-113 수염에 한숨을 불어넣으며,
-114 그것을 눈치챈 카탈란 수사는
-
 115 내가 바라보는 그 싸움꾼은
 116 바리새인들에게 한 사람을 죽여서
 117 백성을 위해 순교자로 만들어야 한다고 조언했습니다.
@@ -568,32 +599,6 @@ Please translate each line literally into Korean.
 119 come tu vedi, ed è mestier ch’el senta
 120 qualunque passa, come pesa, pria.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "118 그는 알몸으로 길을 가로질러 넘어졌고,\n119 네가 보듯이, 지나가는 모든 사람이\n120 그가 얼마나 무거운지 느낄 수밖에 없다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 118 그는 알몸으로 길을 가로질러 넘어졌고,
 119 네가 보듯이, 지나가는 모든 사람이
@@ -609,32 +614,6 @@ Please translate each line literally into Korean.
 122 in questa fossa, e li altri dal concilio
 123 che fu per li Giudei mala sementa».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "121 그리고 그런 식으로 장인은\n122 이 구덩이에서 고통을 받고, 공의회의 다른 사람들은\n123 유대인들에게 나쁜 씨앗이 되었습니다.\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 121 그리고 그런 식으로 장인은
 122 이 구덩이에서 고통을 받고, 공의회의 다른 사람들은
@@ -650,12 +629,12 @@ Please translate each line literally into Korean.
 125 sovra colui ch’era disteso in croce
 126 tanto vilmente ne l’etterno essilio.
 </prompt>
-<result>
+<error>
 124 그때 나는 베르길리우스가
 125 십자가에 못박힌 자 위에
 126 영원한 추방에서 너무나 비참하게
 127 놀라는 것을 보았다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 23] 127/148</info>
@@ -665,16 +644,23 @@ Please translate each line literally into Korean.
 127 Poscia drizzò al frate cotal voce:
 128 «Non vi dispiaccia, se vi lece, dirci
 129 s’a la man destra giace alcuna foce
+</prompt>
+<result>
+127 그러고 나서 수사에게 이렇게 말했습니다.
+128 "우리가 물어도 괜찮다면,
+129 오른쪽에 어떤 출구가 있는지 말씀해 주시겠어요?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 130/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 130 onde noi amendue possiamo uscirci,
 131 sanza costrigner de li angeli neri
 132 che vegnan d’esto fondo a dipartirci».
 </prompt>
 <result>
-127 그러고 나서 수사에게 이렇게 말했습니다.
-128 "우리가 물어도 괜찮다면,
-129 오른쪽에 어떤 출구가 있는지 말씀해 주시겠어요?
-
 130 우리 둘이 거기서 빠져나갈 수 있도록,
 131 이 심연에서 우리를 떼어놓으려고
 132 검은 천사들이 오는 것을 막기 위해서요."
@@ -688,19 +674,26 @@ Please translate each line literally into Korean.
 133 Rispuose adunque: «Più che tu non speri
 134 s’appressa un sasso che da la gran cerchia
 135 si move e varca tutt’ i vallon feri,
+</prompt>
+<error>
+133 그러자 그는 대답했습니다. "당신이 기대하는 것보다 더 가까이에
+134 큰 원에서 움직여 나와 모든 험한 골짜기를 건너는 바위가 있습니다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 23] 136/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 136 salvo che ’n questo è rotto e nol coperchia;
 137 montar potrete su per la ruina,
 138 che giace in costa e nel fondo soperchia».
 </prompt>
-<result>
-133 그러자 그는 대답했습니다. "당신이 기대하는 것보다 더 가까이에
-134 큰 원에서 움직여 나와 모든 험한 골짜기를 건너는 바위가 있습니다.
-
+<error>
 135 다만 이곳에서만 부서져서 덮이지 않았습니다.
 136 그 폐허 위로 올라갈 수 있을 겁니다.
 137 비탈에 놓여 있고 바닥까지 덮여 있으니까요."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 23] 139/148</info>
@@ -726,32 +719,6 @@ Please translate each line literally into Korean.
 143 del diavol vizi assai, tra ’ quali udi’
 144 ch’elli è bugiardo, e padre di menzogna».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "142 수사가 말했습니다. \"저는 이미 볼로냐에서\n143 악마의 악행에 대해 많이 들었습니다. 그중에서도\n144 그가 거짓말쟁이이고 거짓의 아버지라는 것을 들었습니다.\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 142 수사가 말했습니다. "저는 이미 볼로냐에서
 143 악마의 악행에 대해 많이 들었습니다. 그중에서도
@@ -766,14 +733,21 @@ Please translate each line literally into Korean.
 145 Appresso il duca a gran passi sen gì,
 146 turbato un poco d’ira nel sembiante;
 147 ond’ io da li ’ncarcati mi parti’
-
-148 dietro a le poste de le care piante.
 </prompt>
 <result>
 145 그러고 나서 두체는 큰 걸음으로 걸어갔고,
 146 얼굴에는 약간의 분노가 어렸습니다.
 147 그래서 나는 짐을 진 자들을 떠나
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 148/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
+148 dietro a le poste de le care piante.
+</prompt>
+<result>
 148 사랑하는 발자취를 따라갔습니다.
 </result>
 </query>

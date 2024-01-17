@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="50">
 <query>
 <info>[Purgatorio Canto 26] 1/148</info>
 <prompt>
@@ -8,23 +8,37 @@ Please translate each line literally into Korean.
 1 Mentre che sì per l’orlo, uno innanzi altro,
 2 ce n’andavamo, e spesso il buon maestro
 3 diceami: «Guarda: giovi ch’io ti scaltro»;
+</prompt>
+<error>
+1 가장자리를 따라 한 명씩 앞서가며 우리가 가고 있을 때,
+2 자주 좋은 스승이 나에게 말씀하셨습니다. "보아라. 내가 너를 현명하게 하는 것이 좋다."
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 4/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 feriami il sole in su l’omero destro,
 5 che già, raggiando, tutto l’occidente
 6 mutava in bianco aspetto di cilestro;
+</prompt>
+<result>
+4 해가 내 오른쪽 어깨를 비추었고,
+5 이미 햇살이 비추면서 서쪽 전체가
+6 하늘색에서 하얀 모습으로 바뀌었습니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 7/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 7 e io facea con l’ombra più rovente
 8 parer la fiamma; e pur a tanto indizio
 9 vidi molt’ ombre, andando, poner mente.
 </prompt>
 <result>
-1 가장자리를 따라 한 명씩 앞서가며 우리가 가고 있을 때,
-2 자주 좋은 스승이 나에게 말씀하셨습니다. "보아라. 내가 너를 현명하게 하는 것이 좋다."
-
-4 해가 내 오른쪽 어깨를 비추었고,
-5 이미 햇살이 비추면서 서쪽 전체가
-6 하늘색에서 하얀 모습으로 바뀌었습니다.
-
 7 그리고 나는 그림자가 더 뜨거워지면서
 8 불꽃처럼 보이게 했고, 그런 징후로
 9 걸으면서 많은 그림자들이 주의를 기울이는 것을 보았습니다.
@@ -38,18 +52,25 @@ Please translate each line literally into Korean.
 10 Questa fu la cagion che diede inizio
 11 loro a parlar di me; e cominciarsi
 12 a dir: «Colui non par corpo fittizio»;
+</prompt>
+<error>
+10 이것이 그들이 나에 대해 이야기하기 시작한 이유였고,
+11 "저 사람은 가짜 몸처럼 보이지 않는다"고 말하기 시작했습니다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 13/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 13 poi verso me, quanto potëan farsi,
 14 certi si fero, sempre con riguardo
 15 di non uscir dove non fosser arsi.
 </prompt>
-<result>
-10 이것이 그들이 나에 대해 이야기하기 시작한 이유였고,
-11 "저 사람은 가짜 몸처럼 보이지 않는다"고 말하기 시작했습니다.
-
+<error>
 12 그런 다음 그들은 나에게 가능한 한 가까이 다가갔고,
 13 항상 불타지 않는 곳에서 벗어나지 않도록 주의하면서.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 16/148</info>
@@ -60,32 +81,6 @@ Please translate each line literally into Korean.
 17 ma forse reverente, a li altri dopo,
 18 rispondi a me che ’n sete e ’n foco ardo.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "16 \"너는 더 느리기 위해서가 아니라,\n17 아마도 다른 사람들을 존중하기 위해 뒤에 가는 사람이여,\n18 목마르고 불타는 나에게 대답해라."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 16 "너는 더 느리기 위해서가 아니라,
 17 아마도 다른 사람들을 존중하기 위해 뒤에 가는 사람이여,
@@ -101,36 +96,10 @@ Please translate each line literally into Korean.
 20 ché tutti questi n’hanno maggior sete
 21 che d’acqua fredda Indo o Etïopo.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "19 그리고 나에게만 대답해 주면 되는 것이 아닙니다.\n20 이 모든 사람들이 인도인이나 에티오피아인보다 차가운 물을 더 갈구하고 있기 때문입니다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 19 그리고 나에게만 대답해 주면 되는 것이 아닙니다.
 20 이 모든 사람들이 인도인이나 에티오피아인보다 차가운 물을 더 갈구하고 있기 때문입니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 22/148</info>
@@ -155,19 +124,26 @@ Please translate each line literally into Korean.
 25 Sì mi parlava un d’essi; e io mi fora
 26 già manifesto, s’io non fossi atteso
 27 ad altra novità ch’apparve allora;
+</prompt>
+<error>
+25 그들 중 한 명이 나에게 그렇게 말했습니다. 그리고 나는 이미
+26 내 정체를 드러냈을 텐데, 그때 새로운 일이 나타나서 주의를 기울이지 않았습니다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 28/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 28 ché per lo mezzo del cammino acceso
 29 venne gente col viso incontro a questa,
 30 la qual mi fece a rimirar sospeso.
 </prompt>
-<result>
-25 그들 중 한 명이 나에게 그렇게 말했습니다. 그리고 나는 이미
-26 내 정체를 드러냈을 텐데, 그때 새로운 일이 나타나서 주의를 기울이지 않았습니다.
-
+<error>
 27 불타는 길의 한가운데로
 28 이쪽과 마주보고 얼굴을 한 무리가 왔는데,
 29 그들은 내가 의아하게 바라보게 했습니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 31/148</info>
@@ -177,16 +153,23 @@ Please translate each line literally into Korean.
 31 Lì veggio d’ogne parte farsi presta
 32 ciascun’ ombra e basciarsi una con una
 33 sanza restar, contente a brieve festa;
+</prompt>
+<result>
+31 거기서 나는 모든 그림자가 서둘러
+32 서로에게 다가가서 키스하는 것을 보았습니다.
+33 잠시 동안의 축제에 만족하면서 멈추지 않고,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 34/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 34 così per entro loro schiera bruna
 35 s’ammusa l’una con l’altra formica,
 36 forse a spïar lor via e lor fortuna.
 </prompt>
 <result>
-31 거기서 나는 모든 그림자가 서둘러
-32 서로에게 다가가서 키스하는 것을 보았습니다.
-33 잠시 동안의 축제에 만족하면서 멈추지 않고,
-
 34 그래서 그들의 갈색 무리 속에서
 35 개미들이 서로 코를 맞대고,
 36 아마도 그들의 길과 운을 알아보려고 할 것입니다.
@@ -200,16 +183,23 @@ Please translate each line literally into Korean.
 37 Tosto che parton l’accoglienza amica,
 38 prima che ’l primo passo lì trascorra,
 39 sopragridar ciascuna s’affatica:
+</prompt>
+<result>
+37 그들이 우호적인 환영을 나누자마자,
+38 첫 번째 발걸음을 내딛기도 전에,
+39 각자는 소리치려고 애쓰기 시작했습니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 40/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 40 la nova gente: «Soddoma e Gomorra»;
 41 e l’altra: «Ne la vacca entra Pasife,
 42 perché ’l torello a sua lussuria corra».
 </prompt>
 <result>
-37 그들이 우호적인 환영을 나누자마자,
-38 첫 번째 발걸음을 내딛기도 전에,
-39 각자는 소리치려고 애쓰기 시작했습니다.
-
 40 새로운 무리는 "소돔과 고모라"라고 외쳤고,
 41 다른 무리는 "파시파에가 소에 들어간다.
 42 황소가 그녀의 음욕에 뛰어들도록 하기 위해서."
@@ -223,24 +213,38 @@ Please translate each line literally into Korean.
 43 Poi, come grue ch’a le montagne Rife
 44 volasser parte, e parte inver’ l’arene,
 45 queste del gel, quelle del sole schife,
+</prompt>
+<result>
+43 그러자 산에 깃든 두루미처럼
+44 어떤 무리는 날아올라, 어떤 무리는 모래사장으로 내려가는데,
+45 이쪽은 추위를, 저쪽은 더위를 피해가며,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 46/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 46 l’una gente sen va, l’altra sen vene;
 47 e tornan, lagrimando, a’ primi canti
 48 e al gridar che più lor si convene;
+</prompt>
+<result>
+46 한 무리는 가고, 다른 무리는 온다.
+47 그리고 울부짖으며 첫 노래로 돌아가고,
+48 그들에게 더 어울리는 외침으로 돌아간다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 49/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 49 e raccostansi a me, come davanti,
 50 essi medesmi che m’avean pregato,
 51 attenti ad ascoltar ne’ lor sembianti.
 </prompt>
 <result>
-43 그러자 산에 깃든 두루미처럼
-44 어떤 무리는 날아올라, 어떤 무리는 모래사장으로 내려가는데,
-45 이쪽은 추위를, 저쪽은 더위를 피해가며,
-
-46 한 무리는 가고, 다른 무리는 온다.
-47 그리고 울부짖으며 첫 노래로 돌아가고,
-48 그들에게 더 어울리는 외침으로 돌아간다.
-
 49 그리고 전과 마찬가지로 내게 다가와,
 50 나에게 간청했던 그들 스스로가,
 51 주의 깊게 내 말을 들으려는 기색으로.
@@ -254,16 +258,23 @@ Please translate each line literally into Korean.
 52 Io, che due volte avea visto lor grato,
 53 incominciai: «O anime sicure
 54 d’aver, quando che sia, di pace stato,
+</prompt>
+<result>
+52 나는 그들이 두 번이나 기뻐하는 것을 보고,
+53 말하기 시작했다. "오, 언젠가는 평화로운 상태를 누리게 될
+54 안전한 영혼들이여,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 55/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 55 non son rimase acerbe né mature
 56 le membra mie di là, ma son qui meco
 57 col sangue suo e con le sue giunture.
 </prompt>
 <result>
-52 나는 그들이 두 번이나 기뻐하는 것을 보고,
-53 말하기 시작했다. "오, 언젠가는 평화로운 상태를 누리게 될
-54 안전한 영혼들이여,
-
 55 내 육신은 저승에서 썩지도 않고 익지도 않았지만,
 56 여기에 나와 함께 있고,
 57 그 피와 관절을 그대로 지니고 있다.
@@ -292,19 +303,26 @@ Please translate each line literally into Korean.
 61 Ma se la vostra maggior voglia sazia
 62 tosto divegna, sì che ’l ciel v’alberghi
 63 ch’è pien d’amore e più ampio si spazia,
-
-64 ditemi, acciò ch’ancor carte ne verghi,
-65 chi siete voi, e chi è quella turba
-66 che se ne va di retro a’ vostri terghi».
 </prompt>
 <result>
 61 하지만 여러분의 가장 큰 소망이
 62 곧 이루어져서 여러분이 사랑으로 가득 차고 더 넓게 펼쳐진
 63 하늘에 거주하게 된다면,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 64/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
+64 ditemi, acciò ch’ancor carte ne verghi,
+65 chi siete voi, e chi è quella turba
+66 che se ne va di retro a’ vostri terghi».
+</prompt>
+<error>
 64 내가 다시 글을 쓸 수 있도록,
 65 여러분이 누구인지, 그리고 여러분의 뒤를 따라가는 무리가 누구인지 말씀해 주십시오.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 67/148</info>
@@ -314,43 +332,71 @@ Please translate each line literally into Korean.
 67 Non altrimenti stupido si turba
 68 lo montanaro, e rimirando ammuta,
 69 quando rozzo e salvatico s’inurba,
+</prompt>
+<error>
+67 산골짜기 사람이 도시로 들어와서
+68 어리둥절해져서 말문을 잃고 주위를 둘러보는 것처럼,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 70/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 70 che ciascun’ ombra fece in sua paruta;
 71 ma poi che furon di stupore scarche,
 72 lo qual ne li alti cuor tosto s’attuta,
+</prompt>
+<error>
+69 각각의 그림자가 그들의 모습으로 나타났다.
+70 하지만 그들이 놀라움에서 벗어나자,
+71 고귀한 마음을 가진 사람들에게는 금세 사라지는 놀라움이었지만,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 73/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 73 «Beato te, che de le nostre marche»,
 74 ricominciò colei che pria m’inchiese,
 75 «per morir meglio, esperïenza imbarche!
+</prompt>
+<error>
+72 "우리의 영역에서 온 당신은 행복하구나."
+73 먼저 나에게 물었던 그 여인이 다시 말하기 시작했다.
+74 "더 잘 죽기 위해 경험을 쌓으려고!"
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 76/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 76 La gente che non vien con noi, offese
 77 di ciò per che già Cesar, trïunfando,
 78 “Regina” contra sé chiamar s’intese:
+</prompt>
+<error>
+75 우리와 함께 가지 않는 사람들은
+76 카이사르가 승리를 거두고 개선식을 할 때
+77 "여왕"이라고 부르는 것을 들은 것에 대해 불쾌해한다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 79/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 79 però si parton “Soddoma” gridando,
 80 rimproverando a sé com’ hai udito,
 81 e aiutan l’arsura vergognando.
 </prompt>
-<result>
-67 산골짜기 사람이 도시로 들어와서
-68 어리둥절해져서 말문을 잃고 주위를 둘러보는 것처럼,
-
-69 각각의 그림자가 그들의 모습으로 나타났다.
-70 하지만 그들이 놀라움에서 벗어나자,
-71 고귀한 마음을 가진 사람들에게는 금세 사라지는 놀라움이었지만,
-
-72 "우리의 영역에서 온 당신은 행복하구나."
-73 먼저 나에게 물었던 그 여인이 다시 말하기 시작했다.
-74 "더 잘 죽기 위해 경험을 쌓으려고!"
-
-75 우리와 함께 가지 않는 사람들은
-76 카이사르가 승리를 거두고 개선식을 할 때
-77 "여왕"이라고 부르는 것을 들은 것에 대해 불쾌해한다.
-
+<error>
 78 그래서 그들은 "소돔"이라고 외치며 떠나고,
 79 당신이 들은 대로 스스로를 비난하고,
 80 부끄러움을 느끼며 불타는 것을 도와준다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 82/148</info>
@@ -360,19 +406,26 @@ Please translate each line literally into Korean.
 82 Nostro peccato fu ermafrodito;
 83 ma perché non servammo umana legge,
 84 seguendo come bestie l’appetito,
-
-85 in obbrobrio di noi, per noi si legge,
-86 quando partinci, il nome di colei
-87 che s’imbestiò ne le ’mbestiate schegge.
 </prompt>
 <result>
 82 우리의 죄는 양성具有였다.
 83 하지만 우리는 인간의 법을 따르지 않고,
 84 짐승처럼 본능을 따라갔기 때문에,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 85/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
+85 in obbrobrio di noi, per noi si legge,
+86 quando partinci, il nome di colei
+87 che s’imbestiò ne le ’mbestiate schegge.
+</prompt>
+<error>
 85 우리가 떠날 때, 우리를 모욕하기 위해
 86 짐승의 껍질을 입은 자의 이름이 읽힌다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 88/148</info>
@@ -412,27 +465,41 @@ Please translate each line literally into Korean.
 94 Quali ne la tristizia di Ligurgo
 95 si fer due figli a riveder la madre,
 96 tal mi fec’ io, ma non a tanto insurgo,
-
-97 quand’ io odo nomar sé stesso il padre
-98 mio e de li altri miei miglior che mai
-99 rime d’amore usar dolci e leggiadre;
-
-100 e sanza udire e dir pensoso andai
-101 lunga fïata rimirando lui,
-102 né, per lo foco, in là più m’appressai.
 </prompt>
 <result>
 94 리구르고의 슬픔 속에서
 95 두 아들이 어머니를 다시 보기 위해 갔을 때처럼,
 96 나는 그렇게 했지만, 그렇게 높은 곳까지는 못 올랐다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 97/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
+97 quand’ io odo nomar sé stesso il padre
+98 mio e de li altri miei miglior che mai
+99 rime d’amore usar dolci e leggiadre;
+</prompt>
+<error>
 97 내 아버지와 다른 위대한 시인들이
 98 달콤하고 우아한 사랑의 시를 썼던 것을 들었을 때,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 100/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
+100 e sanza udire e dir pensoso andai
+101 lunga fïata rimirando lui,
+102 né, per lo foco, in là più m’appressai.
+</prompt>
+<error>
 99 나는 아무 말도 듣지 않고 말하지 않고 생각에 잠겨
 100 오랫동안 그를 바라보며 걸었고,
 102 불길 때문에 더 이상 그에게 다가가지 못했다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 103/148</info>
@@ -473,10 +540,10 @@ Please translate each line literally into Korean.
 110 dimmi che è cagion per che dimostri
 111 nel dire e nel guardar d’avermi caro».
 </prompt>
-<result>
+<error>
 109 하지만 네가 지금 말한 것이 진실이라면,
 110 내게 애정을 갖고 있다는 것을 말과 시선으로 보여주는 이유가 무엇인지 말해줘.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 112/148</info>
@@ -517,36 +584,10 @@ Please translate each line literally into Korean.
 119 soverchiò tutti; e lascia dir li stolti
 120 che quel di Lemosì credon ch’avanzi.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "118 그는 연애시와 낭만적인 산문에서\n119 모든 사람을 능가했고, 리모주 출신의 시인이 그보다 뛰어나다고 믿는 어리석은 자들의 말은 무시하라."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 118 그는 연애시와 낭만적인 산문에서
 119 모든 사람을 능가했고, 리모주 출신의 시인이 그보다 뛰어나다고 믿는 어리석은 자들의 말은 무시하라.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 26] 121/148</info>
@@ -586,16 +627,23 @@ Please translate each line literally into Korean.
 127 Or se tu hai sì ampio privilegio,
 128 che licito ti sia l’andare al chiostro
 129 nel quale è Cristo abate del collegio,
+</prompt>
+<result>
+127 이제 네가 그토록 큰 특권을 누리고 있다면,
+128 수도원에 갈 수 있는 허락을 받았다면,
+129 그곳에서 그리스도께서 학생들의 수도원장이신 곳에서,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 26] 130/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 130 falli per me un dir d’un paternostro,
 131 quanto bisogna a noi di questo mondo,
 132 dove poter peccar non è più nostro».
 </prompt>
 <result>
-127 이제 네가 그토록 큰 특권을 누리고 있다면,
-128 수도원에 갈 수 있는 허락을 받았다면,
-129 그곳에서 그리스도께서 학생들의 수도원장이신 곳에서,
-
 130 나를 위해 주기도문을 한 번 해줘.
 131 이 세상에서 우리에게 필요한 만큼만,
 132 더 이상 죄를 지을 수 없는 곳에서.

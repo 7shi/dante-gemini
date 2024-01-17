@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="36">
+<queries count="54">
 <query>
 <info>[Inferno Canto 33] 1/157</info>
 <prompt>
@@ -39,10 +39,10 @@ Please translate each line literally into Korean.
 8 che frutti infamia al traditor ch’i’ rodo,
 9 parlar e lagrimar vedrai insieme.
 </prompt>
-<result>
+<error>
 7 하지만 내 말이 내가 갉아먹는 배신자에게 불명예라는 열매를 맺는 씨앗이 된다면,
 8 말하고 울음을 함께 보게 될 것이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 33] 10/157</info>
@@ -82,16 +82,23 @@ Please translate each line literally into Korean.
 16 Che per l’effetto de’ suo’ mai pensieri,
 17 fidandomi di lui, io fossi preso
 18 e poscia morto, dir non è mestieri;
+</prompt>
+<result>
+16 그의 생각의 결과로,
+17 나는 그를 믿고 사로잡혔고,
+18 그 후 죽었지만, 그것은 말할 필요가 없다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 19/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 19 però quel che non puoi avere inteso,
 20 cioè come la morte mia fu cruda,
 21 udirai, e saprai s’e’ m’ha offeso.
 </prompt>
 <result>
-16 그의 생각의 결과로,
-17 나는 그를 믿고 사로잡혔고,
-18 그 후 죽었지만, 그것은 말할 필요가 없다.
-
 19 그러나 네가 알지 못했을 것,
 20 즉 내 죽음이 얼마나 잔인했는지,
 21 들을 것이고, 그가 나를 해쳤는지 알게 될 것이다.
@@ -105,19 +112,26 @@ Please translate each line literally into Korean.
 22 Breve pertugio dentro da la Muda,
 23 la qual per me ha ’l titol de la fame,
 24 e che conviene ancor ch’altrui si chiuda,
-
-25 m’avea mostrato per lo suo forame
-26 più lune già, quand’ io feci ’l mal sonno
-27 che del futuro mi squarciò ’l velame.
 </prompt>
 <result>
 22 무다 탑 안의 작은 구멍,
 23 나 때문에 기아의 별명을 얻은 곳,
 24 다른 사람도 갇혀야 하는 곳,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 25/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
+25 m’avea mostrato per lo suo forame
+26 più lune già, quand’ io feci ’l mal sonno
+27 che del futuro mi squarciò ’l velame.
+</prompt>
+<error>
 25 그 구멍으로 여러 달 동안 보여졌는데, 내가 악몽을 꾸던 날,
 26 미래의 베일을 찢어버린 악몽을.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 33] 28/157</info>
@@ -143,32 +157,6 @@ Please translate each line literally into Korean.
 32 Gualandi con Sismondi e con Lanfranchi
 33 s’avea messi dinanzi da la fronte.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 마른 암캐들과 열심히 일하는 사냥개들과 함께\n32 구알란디와 시스몬디와 란프란키 백작이\n33 그 앞에 서 있었다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 31 마른 암캐들과 열심히 일하는 사냥개들과 함께
 32 구알란디와 시스몬디와 란프란키 백작이
@@ -184,10 +172,10 @@ Please translate each line literally into Korean.
 35 lo padre e ’ figli, e con l’agute scane
 36 mi parea lor veder fender li fianchi.
 </prompt>
-<result>
+<error>
 34 짧은 달리기에서 아버지와 아들들이 지친 것처럼 보였고,
 35 날카로운 발톱으로 그들의 옆구리를 찢는 것처럼 보였다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 33] 37/157</info>
@@ -212,24 +200,38 @@ Please translate each line literally into Korean.
 40 Ben se’ crudel, se tu già non ti duoli
 41 pensando ciò che ’l mio cor s’annunziava;
 42 e se non piangi, di che pianger suoli?
+</prompt>
+<result>
+40 내 마음이 예고했던 일을 생각하면서도
+41 네가 슬퍼하지 않는다면 너는 참으로 잔인한 사람이다.
+42 그리고 네가 울지 않는다면, 네가 평소에 울 때는 무엇 때문에 우는가?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 43/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 43 Già eran desti, e l’ora s’appressava
 44 che ’l cibo ne solëa essere addotto,
 45 e per suo sogno ciascun dubitava;
+</prompt>
+<result>
+43 그들은 이미 깨어 있었고,
+44 우리에게 음식을 가져오곤 했던 시간이 다가오고 있었고,
+45 각자는 자기의 꿈 때문에 의심했다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 46/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 46 e io senti’ chiavar l’uscio di sotto
 47 a l’orribile torre; ond’ io guardai
 48 nel viso a’ mie’ figliuoi sanza far motto.
 </prompt>
 <result>
-40 내 마음이 예고했던 일을 생각하면서도
-41 네가 슬퍼하지 않는다면 너는 참으로 잔인한 사람이다.
-42 그리고 네가 울지 않는다면, 네가 평소에 울 때는 무엇 때문에 우는가?
-
-43 그들은 이미 깨어 있었고,
-44 우리에게 음식을 가져오곤 했던 시간이 다가오고 있었고,
-45 각자는 자기의 꿈 때문에 의심했다.
-
 46 그리고 나는 끔찍한 탑 아래에서
 47 문이 닫히는 소리가 들렸고, 나는
 48 아무 말 없이 내 자식들의 얼굴을 바라보았다.
@@ -259,10 +261,10 @@ Please translate each line literally into Korean.
 53 tutto quel giorno né la notte appresso,
 54 infin che l’altro sol nel mondo uscìo.
 </prompt>
-<result>
+<error>
 52 그래서 나는 그날 내내 울지도 않았고 대답도 하지 않았고,
 53 다음날 아침이 세상에 밝아올 때까지 밤새도록 울지도 않았다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 33] 55/157</info>
@@ -272,27 +274,39 @@ Please translate each line literally into Korean.
 55 Come un poco di raggio si fu messo
 56 nel doloroso carcere, e io scorsi
 57 per quattro visi il mio aspetto stesso,
+</prompt>
+<error>
+55 고통스러운 감옥에 약간의 햇살이 비추었고, 나는
+56 네 얼굴에 나의 모습을 보았다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 33] 58/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 58 ambo le man per lo dolor mi morsi;
 59 ed ei, pensando ch’io ’l fessi per voglia
 60 di manicar, di sùbito levorsi
+</prompt>
+<error>
+57 나는 고통 때문에 두 손을 물었다.
+59 그리고 그들은 내가 그들을 먹고 싶어서 그렇게 한다고 생각하고
+60 갑자기 일어나서 말했다. "아버지, 당신이 우리를 먹으면 우리는 훨씬 덜 고통스러울 겁니다. 당신이 우리에게 이 불쌍한 살을 입혔고, 당신이 그것을 벗기세요."
+</error>
+</query>
+<query>
+<info>[Inferno Canto 33] 61/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 61 e disser: “Padre, assai ci fia men doglia
 62 se tu mangi di noi: tu ne vestisti
 63 queste misere carni, e tu le spoglia”.
 </prompt>
-<result>
-55 고통스러운 감옥에 약간의 햇살이 비추었고, 나는
-56 네 얼굴에 나의 모습을 보았다.
-
-57 나는 고통 때문에 두 손을 물었다.
-59 그리고 그들은 내가 그들을 먹고 싶어서 그렇게 한다고 생각하고
-60 갑자기 일어나서 말했다. "아버지, 당신이 우리를 먹으면 우리는 훨씬 덜 고통스러울 겁니다. 당신이 우리에게 이 불쌍한 살을 입혔고, 당신이 그것을 벗기세요."
-
-61 
-62 
-63
-</result>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 33] 64/157</info>
@@ -302,16 +316,23 @@ Please translate each line literally into Korean.
 64 Queta’mi allor per non farli più tristi;
 65 lo dì e l’altro stemmo tutti muti;
 66 ahi dura terra, perché non t’apristi?
+</prompt>
+<result>
+64 나는 그들을 더 슬프게 하지 않기 위해 조용히 있었다.
+65 우리는 그날과 다음날 내내 모두 말이 없었다.
+66 아, 굳은 땅이여, 왜 열리지 않았는가?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 67/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 67 Poscia che fummo al quarto dì venuti,
 68 Gaddo mi si gittò disteso a’ piedi,
 69 dicendo: “Padre mio, ché non m’aiuti?”.
 </prompt>
 <result>
-64 나는 그들을 더 슬프게 하지 않기 위해 조용히 있었다.
-65 우리는 그날과 다음날 내내 모두 말이 없었다.
-66 아, 굳은 땅이여, 왜 열리지 않았는가?
-
 67 네 번째 날이 되었을 때,
 68 가도가 내 발치에 엎드려 말했다.
 69 "아버지, 왜 저를 도와주지 않으세요?"
@@ -325,15 +346,22 @@ Please translate each line literally into Korean.
 70 Quivi morì; e come tu mi vedi,
 71 vid’ io cascar li tre ad uno ad uno
 72 tra ’l quinto dì e ’l sesto; ond’ io mi diedi,
-
-73 già cieco, a brancolar sovra ciascuno,
-74 e due dì li chiamai, poi che fur morti.
 </prompt>
 <result>
 70 그곳에서 그는 죽었고, 당신이 지금 나를 보는 것처럼,
 71 나는 다섯째 날과 여섯째 날 사이에
 72 셋이 하나씩 쓰러지는 것을 보았다. 그래서 나는
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 73/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
+73 già cieco, a brancolar sovra ciascuno,
+74 e due dì li chiamai, poi che fur morti.
+</prompt>
+<result>
 73 이미 눈이 멀었지만, 그들 각자 위로 기어가며 더듬었고,
 74 그들이 죽은 후에도 이틀 동안 그들을 불렀다.
 </result>
@@ -344,14 +372,21 @@ Please translate each line literally into Korean.
 Please translate each line literally into Korean.
 
 75 Poscia, più che ’l dolor, poté ’l digiuno».
+</prompt>
+<result>
+75 그 후에는 고통보다도 굶주림이 더 강했다."
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 76/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 76 Quand’ ebbe detto ciò, con li occhi torti
 77 riprese ’l teschio misero co’ denti,
 78 che furo a l’osso, come d’un can, forti.
 </prompt>
 <result>
-75 그 후에는 고통보다도 굶주림이 더 강했다."
-
 76 그가 그렇게 말하고 나서, 그는 비뚤어진 눈으로
 77 불쌍한 두개골을 다시 이빨로 물었다.
 78 그 이빨은 개처럼 뼈를 갉아먹을 만큼 강했다.
@@ -365,53 +400,41 @@ Please translate each line literally into Korean.
 79 Ahi Pisa, vituperio de le genti
 80 del bel paese là dove ’l sì suona,
 81 poi che i vicini a te punir son lenti,
+</prompt>
+<result>
+79 아, 피사여, 그 아름다운 나라에서 이탈리아어가 쓰이는 곳의
+80 사람들에게 수치를 안겨주는 자여,
+81 네 이웃들이 너를 처벌하는 데 느리니,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 82/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 82 muovasi la Capraia e la Gorgona,
 83 e faccian siepe ad Arno in su la foce,
 84 sì ch’elli annieghi in te ogne persona!
+</prompt>
+<result>
+82 카프라리아와 고르고나가 움직여서
+83 아르노 강 어귀에 둑을 만들어
+84 그 강물에 네 안의 모든 사람이 빠져 죽게 하라!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 85/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 85 Che se ’l conte Ugolino aveva voce
 86 d’aver tradita te de le castella,
 87 non dovei tu i figliuoi porre a tal croce.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "79 아, 피사여, 그 아름다운 나라에서 이탈리아어가 쓰이는 곳의\n80 사람들에게 수치를 안겨주는 자여,\n81 네 이웃들이 너를 처벌하는 데 느리니,\n\n82 카프라리아와 고르고나가 움직여서\n83 아르노 강 어귀에 둑을 만들어\n84 그 강물에 네 안의 모든 사람이 빠져 죽게 하라!\n\n85 우골리노 백작이 너의 성을 배신했다는 소문이 있었다면,\n86 네가 그의 자식들을 그런 고통에 빠뜨려서는 안 되었다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
-79 아, 피사여, 그 아름다운 나라에서 이탈리아어가 쓰이는 곳의
-80 사람들에게 수치를 안겨주는 자여,
-81 네 이웃들이 너를 처벌하는 데 느리니,
-
-82 카프라리아와 고르고나가 움직여서
-83 아르노 강 어귀에 둑을 만들어
-84 그 강물에 네 안의 모든 사람이 빠져 죽게 하라!
-
+<error>
 85 우골리노 백작이 너의 성을 배신했다는 소문이 있었다면,
 86 네가 그의 자식들을 그런 고통에 빠뜨려서는 안 되었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 33] 88/157</info>
@@ -451,16 +474,23 @@ Please translate each line literally into Korean.
 94 Lo pianto stesso lì pianger non lascia,
 95 e ’l duol che truova in su li occhi rintoppo,
 96 si volge in entro a far crescer l’ambascia;
+</prompt>
+<result>
+94 그곳에서 울음은 울지 못하게 하고,
+95 눈에서 막힌 슬픔은
+96 안으로 돌아가 고통을 키운다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 97/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 97 ché le lagrime prime fanno groppo,
 98 e sì come visiere di cristallo,
 99 rïempion sotto ’l ciglio tutto il coppo.
 </prompt>
 <result>
-94 그곳에서 울음은 울지 못하게 하고,
-95 눈에서 막힌 슬픔은
-96 안으로 돌아가 고통을 키운다.
-
 97 첫 눈물이 뭉쳐서
 98 수정으로 된 방패처럼
 99 눈썹 아래 그릇을 가득 채운다.
@@ -474,19 +504,26 @@ Please translate each line literally into Korean.
 100 E avvegna che, sì come d’un callo,
 101 per la freddura ciascun sentimento
 102 cessato avesse del mio viso stallo,
+</prompt>
+<error>
+100 그리고 마치 굳은 살처럼
+101 추위 때문에 내 얼굴의 감각이 모두 사라졌지만,
+</error>
+</query>
+<query>
+<info>[Inferno Canto 33] 103/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 103 già mi parea sentire alquanto vento;
 104 per ch’io: «Maestro mio, questo chi move?
 105 non è qua giù ogne vapore spento?».
 </prompt>
-<result>
-100 그리고 마치 굳은 살처럼
-101 추위 때문에 내 얼굴의 감각이 모두 사라졌지만,
-
+<error>
 102 이미 약간의 바람을 느끼는 것 같았다.
 103 그래서 나는 "선생님, 이 바람은 누가 일으키는 겁니까?
 104 여기 아래에는 모든 증기가 사라지지 않았나요?"라고 물었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 33] 106/157</info>
@@ -511,16 +548,23 @@ Please translate each line literally into Korean.
 109 E un de’ tristi de la fredda crosta
 110 gridò a noi: «O anime crudeli
 111 tanto che data v’è l’ultima posta,
+</prompt>
+<result>
+109 그리고 얼어붙은 껍질 속에 있는 불쌍한 자 중 한 명이
+110 우리에게 소리쳤다. "너무나도 잔인한 영혼들이여,
+111 너희에게 마지막 자리가 주어졌구나.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 112/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 112 levatemi dal viso i duri veli,
 113 sì ch’ïo sfoghi ’l duol che ’l cor m’impregna,
 114 un poco, pria che ’l pianto si raggeli».
 </prompt>
 <result>
-109 그리고 얼어붙은 껍질 속에 있는 불쌍한 자 중 한 명이
-110 우리에게 소리쳤다. "너무나도 잔인한 영혼들이여,
-111 너희에게 마지막 자리가 주어졌구나.
-
 112 내 얼굴에서 이 딱딱한 베일을 들어 올려다오.
 113 내 마음을 가득 채운 슬픔을 조금이라도 풀어보려고,
 114 눈물이 얼어붙기 전에."
@@ -594,19 +638,28 @@ Please translate each line literally into Korean.
 127 E perché tu più volentier mi rade
 128 le ’nvetrïate lagrime dal volto,
 129 sappie che, tosto che l’anima trade
-
-130 come fec’ ïo, il corpo suo l’è tolto
-131 da un demonio, che poscia il governa
-132 mentre che ’l tempo suo tutto sia vòlto.
 </prompt>
-<result>
+<error>
 127 그리고 네가 더 기꺼이 내 얼굴에서
 128 얼어붙은 눈물을 닦아주려고 하기 위해,
 129 내가 한 것처럼 영혼이 배신하면,
 130 그 몸은 악마에게 빼앗긴다.
 131 그 악마가 그 영혼의 시간이 다할 때까지
 132 그 몸을 다스린다.
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 33] 130/157</info>
+<prompt>
+Please translate each line literally into Korean.
+
+130 come fec’ ïo, il corpo suo l’è tolto
+131 da un demonio, che poscia il governa
+132 mentre che ’l tempo suo tutto sia vòlto.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 33] 133/157</info>
@@ -617,36 +670,10 @@ Please translate each line literally into Korean.
 134 e forse pare ancor lo corpo suso
 135 de l’ombra che di qua dietro mi verna.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "133 그녀는 그런 저수조에 빠졌다.\n134 아마도 지금도 내 뒤에서 나를 얼어붙게 하는 그 그림자 아래에 그녀의 몸이 남아 있을 것이다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 133 그녀는 그런 저수조에 빠졌다.
 134 아마도 지금도 내 뒤에서 나를 얼어붙게 하는 그 그림자 아래에 그녀의 몸이 남아 있을 것이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 33] 136/157</info>
@@ -657,10 +684,10 @@ Please translate each line literally into Korean.
 137 elli è ser Branca Doria, e son più anni
 138 poscia passati ch’el fu sì racchiuso».
 </prompt>
-<result>
+<error>
 136 네가방금아래에서올라왔다면네가알아야할것이다:
 137 그는세르브란카도리아이고,그가이렇게갇힌지몇년이지났다».
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 33] 139/157</info>
@@ -685,42 +712,23 @@ Please translate each line literally into Korean.
 142 «Nel fosso sù», diss’ el, «de’ Malebranche,
 143 là dove bolle la tenace pece,
 144 non era ancora giunto Michel Zanche,
+</prompt>
+<result>
+142 그는말했다, «말레브란케의해자위에서,
+143 끈적끈적한타르가끓는곳에서,
+144 미켈잔케가아직오지않았을때,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 145/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 145 che questi lasciò il diavolo in sua vece
 146 nel corpo suo, ed un suo prossimano
 147 che ’l tradimento insieme con lui fece.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "142 그는말했다, «말레브란케의해자위에서,\n143 끈적끈적한타르가끓는곳에서,\n144 미켈잔케가아직오지않았을때,\n\n145 이자식이그자리에악마를남겨두고,\n146 그리고그와함께배신을한그의친척을남겨두고,\n147 자신의몸으로갔다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-142 그는말했다, «말레브란케의해자위에서,
-143 끈적끈적한타르가끓는곳에서,
-144 미켈잔케가아직오지않았을때,
-
 145 이자식이그자리에악마를남겨두고,
 146 그리고그와함께배신을한그의친척을남겨두고,
 147 자신의몸으로갔다.
@@ -749,22 +757,36 @@ Please translate each line literally into Korean.
 151 Ahi Genovesi, uomini diversi
 152 d’ogne costume e pien d’ogne magagna,
 153 perché non siete voi del mondo spersi?
+</prompt>
+<error>
+151 아,제노바인들,모든습관이달라서모든악으로가득찬사람들이여,
+152 왜너희는세상에흩어지지않는가?
+</error>
+</query>
+<query>
+<info>[Inferno Canto 33] 154/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
 154 Ché col peggiore spirto di Romagna
 155 trovai di voi un tal, che per sua opra
 156 in anima in Cocito già si bagna,
-
-157 e in corpo par vivo ancor di sopra.
 </prompt>
-<result>
-151 아,제노바인들,모든습관이달라서모든악으로가득찬사람들이여,
-152 왜너희는세상에흩어지지않는가?
-
+<error>
 153 로마냐의가장나쁜영혼과함께
 154 나는너희중한사람을찾았는데,그의행위로인해
 155 그의영혼은이미코치토에서목욕을하고있고,
+</error>
+</query>
+<query>
+<info>[Inferno Canto 33] 157/157</info>
+<prompt>
+Please translate each line literally into Korean.
 
+157 e in corpo par vivo ancor di sopra.
+</prompt>
+<error>
 156 그의육체는아직위에서살아있는것처럼보인다.
-</result>
+</error>
 </query>
 </queries>

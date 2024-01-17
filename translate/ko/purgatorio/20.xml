@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="51">
 <query>
 <info>[Purgatorio Canto 20] 1/151</info>
 <prompt>
@@ -23,19 +23,26 @@ Please translate each line literally into Korean.
 4 Mossimi; e ’l duca mio si mosse per li
 5 luoghi spediti pur lungo la roccia,
 6 come si va per muro stretto a’ merli;
-
-7 ché la gente che fonde a goccia a goccia
-8 per li occhi il mal che tutto ’l mondo occupa,
-9 da l’altra parte in fuor troppo s’approccia.
 </prompt>
 <result>
 4 나는 일어섰고, 나의 두체는
 5 바위를 따라 좁은 길을 걸었는데,
 6 마치 성벽 위의 좁은 통로를 걷는 것처럼.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 7/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
+7 ché la gente che fonde a goccia a goccia
+8 per li occhi il mal che tutto ’l mondo occupa,
+9 da l’altra parte in fuor troppo s’approccia.
+</prompt>
+<error>
 7 눈물로 세상을 가득 채우는 악을 떨어뜨리는 사람들은
 8 반대편에서 너무 가까이 다가온다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 20] 10/151</info>
@@ -45,41 +52,69 @@ Please translate each line literally into Korean.
 10 Maladetta sie tu, antica lupa,
 11 che più che tutte l’altre bestie hai preda
 12 per la tua fame sanza fine cupa!
-
-13 O ciel, nel cui girar par che si creda
-14 le condizion di qua giù trasmutarsi,
-15 quando verrà per cui questa disceda?
-
-16 Noi andavam con passi lenti e scarsi,
-17 e io attento a l’ombre, ch’i’ sentia
-18 pietosamente piangere e lagnarsi;
-
-19 e per ventura udi’ «Dolce Maria!»
-20 dinanzi a noi chiamar così nel pianto
-21 come fa donna che in parturir sia;
-
-22 e seguitar: «Povera fosti tanto,
-23 quanto veder si può per quello ospizio
-24 dove sponesti il tuo portato santo».
 </prompt>
 <result>
 10 저주받은 너, 오래된 암늑아,
 11 다른 모든 짐승보다 더 많은 먹이를 삼키는 너는
 12 끝없이 깊은 네 배고픔 때문에!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 13/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
+13 O ciel, nel cui girar par che si creda
+14 le condizion di qua giù trasmutarsi,
+15 quando verrà per cui questa disceda?
+</prompt>
+<error>
 13 하늘아, 네가 돌면서 이 세상의 상태가 바뀐다고 믿는 것 같지만,
 14 언제 이 암늑아가 사라지게 할 사람이 올 것인가?
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 16/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
+16 Noi andavam con passi lenti e scarsi,
+17 e io attento a l’ombre, ch’i’ sentia
+18 pietosamente piangere e lagnarsi;
+</prompt>
+<error>
 15 우리는 천천히 걸었고, 나는 그림자들에 주의를 기울였는데,
 16 그들은 불쌍하게 울고 통곡하는 소리를 냈다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 19/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
+19 e per ventura udi’ «Dolce Maria!»
+20 dinanzi a noi chiamar così nel pianto
+21 come fa donna che in parturir sia;
+</prompt>
+<error>
 17 우연히 "달콤한 마리아!"라는 소리가 들렸다.
 18 우리 앞에서 울면서 그렇게 부르는 소리가
 19 마치 아이를 낳는 여자의 소리 같았다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 22/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
+22 e seguitar: «Povera fosti tanto,
+23 quanto veder si può per quello ospizio
+24 dove sponesti il tuo portato santo».
+</prompt>
+<error>
 20 그리고 이어서 "너무 가난했어,
 21 네가 거룩한 아이를 낳은 그 숙박소를 보면 알 수 있지."라고 말했다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 20] 25/151</info>
@@ -105,10 +140,10 @@ Please translate each line literally into Korean.
 29 ch’io mi trassi oltre per aver contezza
 30 di quello spirto onde parean venute.
 </prompt>
-<result>
+<error>
 28 이 말들은 내게 너무 마음에 들었기에,
 29 나는 그 말이 나온 영혼에 대해 더 알아보기 위해 계속 걸었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 20] 31/151</info>
@@ -119,36 +154,10 @@ Please translate each line literally into Korean.
 32 che fece Niccolò a le pulcelle,
 33 per condurre ad onor lor giovinezza.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 그는 여전히 니콜로가 처녀들에게 베푼 관대함에 대해 이야기하고 있었는데,\n32 그것은 그들의 젊음을 명예롭게 이끌기 위해서였다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 31 그는 여전히 니콜로가 처녀들에게 베푼 관대함에 대해 이야기하고 있었는데,
 32 그것은 그들의 젊음을 명예롭게 이끌기 위해서였다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 20] 34/151</info>
@@ -248,26 +257,40 @@ Please translate each line literally into Korean.
 52 Figliuol fu’ io d’un beccaio di Parigi:
 53 quando li regi antichi venner meno
 54 tutti, fuor ch’un renduto in panni bigi,
-
-55 trova’mi stretto ne le mani il freno
-56 del governo del regno, e tanta possa
-57 di nuovo acquisto, e sì d’amici pieno,
-
-58 ch’a la corona vedova promossa
-59 la testa di mio figlio fu, dal quale
-60 cominciar di costor le sacrate ossa.
 </prompt>
 <result>
 52 나는 파리의 정육점 아들이었다.
 53 옛날 왕들이 모두 죽었을 때,
 54 한 명만 회색 옷을 입고 살아남았을 뿐,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 55/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
+55 trova’mi stretto ne le mani il freno
+56 del governo del regno, e tanta possa
+57 di nuovo acquisto, e sì d’amici pieno,
+</prompt>
+<error>
 55 나는 나라를 다스리는 고삐를 손에 쥐고 있었고,
 56 새롭게 얻은 힘과 친구들로 가득 차 있었으므로,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 58/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
+58 ch’a la corona vedova promossa
+59 la testa di mio figlio fu, dal quale
+60 cominciar di costor le sacrate ossa.
+</prompt>
+<error>
 57 과부가 된 왕관을 내 아들의 머리에 올려놓았고,
 59 그로부터 이들의 신성한 뼈가 시작되었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 20] 61/151</info>
@@ -353,10 +376,10 @@ Please translate each line literally into Korean.
 77 guadagnerà, per sé tanto più grave,
 78 quanto più lieve simil danno conta.
 </prompt>
-<result>
+<error>
 76 그러므로 그는 땅이 아니라 죄와 수치를 얻을 것이고,
 77 그러한 피해를 가볍게 여길수록 그에게는 더욱 심각할 것이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 20] 79/151</info>
@@ -367,10 +390,10 @@ Please translate each line literally into Korean.
 80 veggio vender sua figlia e patteggiarne
 81 come fanno i corsar de l’altre schiave.
 </prompt>
-<result>
+<error>
 79 배를 타고 이미 떠난 다른 사람은
 80 딸을 팔고 다른 노예들처럼 흥정하는 것을 보았다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 20] 82/151</info>
@@ -380,16 +403,23 @@ Please translate each line literally into Korean.
 82 O avarizia, che puoi tu più farne,
 83 poscia c’ha’ il mio sangue a te sì tratto,
 84 che non si cura de la propria carne?
+</prompt>
+<result>
+82 오, 탐욕스러움아, 네가 더 무엇을 할 수 있겠는가.
+83 네가 나의 피를 너에게로 끌어당겨
+84 자신의 살점도 돌보지 않게 만들었으니.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 85/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 85 Perché men paia il mal futuro e ’l fatto,
 86 veggio in Alagna intrar lo fiordaliso,
 87 e nel vicario suo Cristo esser catto.
 </prompt>
 <result>
-82 오, 탐욕스러움아, 네가 더 무엇을 할 수 있겠는가.
-83 네가 나의 피를 너에게로 끌어당겨
-84 자신의 살점도 돌보지 않게 만들었으니.
-
 85 미래의 재앙과 저지른 짓이 내게 덜 보이도록
 86 알라냐에 백합 문양이 들어오는 것을 보고
 87 그곳의 대리인이 그리스도를 팔아넘기는 것을 본다.
@@ -433,27 +463,41 @@ Please translate each line literally into Korean.
 94 O Segnor mio, quando sarò io lieto
 95 a veder la vendetta che, nascosa,
 96 fa dolce l’ira tua nel tuo secreto?
+</prompt>
+<error>
+94 나의 주여, 언제 제가 당신의 은밀한 곳에서
+95 숨겨진 채로 당신의 분노를 달게 만드는 복수를 보게 될까요?
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 97/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 97 Ciò ch’io dicea di quell’ unica sposa
 98 de lo Spirito Santo e che ti fece
 99 verso me volger per alcuna chiosa,
+</prompt>
+<error>
+96 내가 그 유일한 성령의 신부에 대해 말한 것과
+97 당신이 나에게 어떤 주석을 달라고 하여
+98 나에게로 돌아보게 만든 것은
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 100/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 100 tanto è risposto a tutte nostre prece
 101 quanto ’l dì dura; ma com’ el s’annotta,
 102 contrario suon prendemo in quella vece.
 </prompt>
-<result>
-94 나의 주여, 언제 제가 당신의 은밀한 곳에서
-95 숨겨진 채로 당신의 분노를 달게 만드는 복수를 보게 될까요?
-
-96 내가 그 유일한 성령의 신부에 대해 말한 것과
-97 당신이 나에게 어떤 주석을 달라고 하여
-98 나에게로 돌아보게 만든 것은
-
+<error>
 99 우리의 모든 기도에 대한 응답은
 100 낮이 지속되는 한 그렇게 이루어지지만
 101 해가 지면 우리는 그 대신 반대되는 소리를 듣는다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 20] 103/151</info>
@@ -463,16 +507,23 @@ Please translate each line literally into Korean.
 103 Noi repetiam Pigmalïon allotta,
 104 cui traditore e ladro e paricida
 105 fece la voglia sua de l’oro ghiotta;
+</prompt>
+<result>
+103 우리는 그때 피그말리온을 되뇌었는데,
+104 배신자이자 도둑이자 살인자가 된 그는
+105 금에 대한 탐욕스러운 욕망 때문에 그렇게 되었다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 106/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 106 e la miseria de l’avaro Mida,
 107 che seguì a la sua dimanda gorda,
 108 per la qual sempre convien che si rida.
 </prompt>
 <result>
-103 우리는 그때 피그말리온을 되뇌었는데,
-104 배신자이자 도둑이자 살인자가 된 그는
-105 금에 대한 탐욕스러운 욕망 때문에 그렇게 되었다.
-
 106 그리고 인색한 미다스의 비참함도 말했는데,
 107 그는 자신의 탐욕스러운 요구를 따라갔고
 108 그 때문에 항상 조롱을 받아야 했다.
@@ -487,32 +538,6 @@ Please translate each line literally into Korean.
 110 come furò le spoglie, sì che l’ira
 111 di Iosüè qui par ch’ancor lo morda.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 미친 아간을 누구나 기억하는데,\n110 그가 전리품을 훔쳐서 요수아의 분노가\n111 여기서도 여전히 그를 물어뜯는 것 같다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 109 미친 아간을 누구나 기억하는데,
 110 그가 전리품을 훔쳐서 요수아의 분노가
@@ -527,19 +552,28 @@ Please translate each line literally into Korean.
 112 Indi accusiam col marito Saffira;
 113 lodiam i calci ch’ebbe Elïodoro;
 114 e in infamia tutto ’l monte gira
-
-115 Polinestòr ch’ancise Polidoro;
-116 ultimamente ci si grida: “Crasso,
-117 dilci, che ’l sai: di che sapore è l’oro?”.
 </prompt>
-<result>
+<error>
 112 그러고 나서 우리는 남편과 함께 사피라를 비난했고,
 113 헬리오도로스가 맞은 발길질을 칭찬했으며
 114 온 산이 폴리네스토르를 비방했다.
 115 그는 폴리도로스를 죽인 자였다.
 116 마지막으로 우리는 소리쳤다. "크라수스,
 117 말해봐, 네가 알잖아. 금은 어떤 맛이야?"
-</result>
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 115/151</info>
+<prompt>
+Please translate each line literally into Korean.
+
+115 Polinestòr ch’ancise Polidoro;
+116 ultimamente ci si grida: “Crasso,
+117 dilci, che ’l sai: di che sapore è l’oro?”.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 20] 118/151</info>
@@ -549,16 +583,23 @@ Please translate each line literally into Korean.
 118 Talor parla l’uno alto e l’altro basso,
 119 secondo l’affezion ch’ad ir ci sprona
 120 ora a maggiore e ora a minor passo:
+</prompt>
+<result>
+118 때로는 한 사람이 높은 목소리로 말하고 다른 사람은 낮은 목소리로 말했는데,
+119 우리를 분노하게 만드는 애정에 따라
+120 때로는 빠른 걸음으로, 때로는 느린 걸음으로 말했다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 121/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 121 però al ben che ’l dì ci si ragiona,
 122 dianzi non era io sol; ma qui da presso
 123 non alzava la voce altra persona».
 </prompt>
 <result>
-118 때로는 한 사람이 높은 목소리로 말하고 다른 사람은 낮은 목소리로 말했는데,
-119 우리를 분노하게 만드는 애정에 따라
-120 때로는 빠른 걸음으로, 때로는 느린 걸음으로 말했다.
-
 121 그래서 우리가 낮에 이야기한 좋은 것에 대해
 122 방금 전에는 나만이 아니었다. 하지만 여기 근처에
 123 다른 사람은 목소리를 높이지 않았다."
@@ -572,19 +613,26 @@ Please translate each line literally into Korean.
 124 Noi eravam partiti già da esso,
 125 e brigavam di soverchiar la strada
 126 tanto quanto al poder n’era permesso,
+</prompt>
+<error>
+124 우리는 이미 그곳을 떠났고,
+125 우리가 할 수 있는 한 많이 길을 앞서 나가려고 서둘렀는데,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 127/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 127 quand’ io senti’, come cosa che cada,
 128 tremar lo monte; onde mi prese un gelo
 129 qual prender suol colui ch’a morte vada.
 </prompt>
-<result>
-124 우리는 이미 그곳을 떠났고,
-125 우리가 할 수 있는 한 많이 길을 앞서 나가려고 서둘렀는데,
-
+<error>
 126 무엇인가 떨어지는 것 같은 소리가 들렸다.
 127 산이 떨리는 것을 느꼈고, 그래서 나는
 128 죽음을 맞이하는 사람이 느끼는 것 같은 공포에 사로잡혔다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 20] 130/151</info>
@@ -669,22 +717,36 @@ Please translate each line literally into Korean.
 145 Nulla ignoranza mai con tanta guerra
 146 mi fé desideroso di sapere,
 147 se la memoria mia in ciò non erra,
-
-148 quanta pareami allor, pensando, avere;
-149 né per la fretta dimandare er’ oso,
-150 né per me lì potea cosa vedere:
-
-151 così m’andava timido e pensoso.
 </prompt>
 <result>
 145 어떤 무지도 이렇게 큰 갈등으로
 146 나를 알고 싶어하게 한 적이 없었습니다.
 147 내 기억이 틀리지 않는다면,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 148/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
+148 quanta pareami allor, pensando, avere;
+149 né per la fretta dimandare er’ oso,
+150 né per me lì potea cosa vedere:
+</prompt>
+<result>
 148 그때 생각하니 내가 아는 것이 얼마나 많은 것 같았는지;
 149 하지만 서둘러 질문하기도 꺼려졌고,
 150 거기서 내가 무엇을 볼 수도 없었으니까:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 151/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
+151 così m’andava timido e pensoso.
+</prompt>
+<result>
 151 그래서 나는 소심하고 생각에 잠겨 걸었습니다.
 </result>
 </query>

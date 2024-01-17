@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="39">
 <query>
 <info>[Inferno Canto 6] 1/115</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Korean.
 1 Al tornar de la mente, che si chiuse
 2 dinanzi a la pietà d’i due cognati,
 3 che di trestizia tutto mi confuse,
+</prompt>
+<result>
+1 두 형제의 자비 앞에서
+2 마음이 닫히고 돌아왔을 때,
+3 슬픔이 나를 온통 혼란스럽게 했는데,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 4/115</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 novi tormenti e novi tormentati
 5 mi veggio intorno, come ch’io mi mova
 6 e ch’io mi volga, e come che io guati.
 </prompt>
 <result>
-1 두 형제의 자비 앞에서
-2 마음이 닫히고 돌아왔을 때,
-3 슬픔이 나를 온통 혼란스럽게 했는데,
-
 4 새로운 고통과 새로운 고통받는 자들이
 5 내 주위에 보이는데, 내가 어디로 움직이든
 6 어디로 돌아보든, 어디를 응시하든 말이다.
@@ -92,32 +99,6 @@ Please translate each line literally into Korean.
 20 de l’un de’ lati fanno a l’altro schermo;
 21 volgonsi spesso i miseri profani.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "19 비가 그들을 개처럼 울부짖게 하고,\n20 한쪽은 다른 쪽을 가리며 방패가 되고,\n21 불쌍한 이교도들은 자주 뒤집힌다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 19 비가 그들을 개처럼 울부짖게 하고,
 20 한쪽은 다른 쪽을 가리며 방패가 되고,
@@ -133,32 +114,6 @@ Please translate each line literally into Korean.
 23 le bocche aperse e mostrocci le sanne;
 24 non avea membro che tenesse fermo.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "22 거대한 짐승 세르베루스가 우리를 보자\n23 입을 벌리고 송곳니를 드러냈다.\n24 가만히 있는 신체 부위가 하나도 없었다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 22 거대한 짐승 세르베루스가 우리를 보자
 23 입을 벌리고 송곳니를 드러냈다.
@@ -188,16 +143,23 @@ Please translate each line literally into Korean.
 28 Qual è quel cane ch’abbaiando agogna,
 29 e si racqueta poi che ’l pasto morde,
 30 ché solo a divorarlo intende e pugna,
+</prompt>
+<result>
+28 짖으며 먹이를 갈망하는 개가
+29 먹이를 물면 조용해지듯이,
+30 오직 먹는 것만을 생각하고 싸우듯이,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 31/115</info>
+<prompt>
+Please translate each line literally into Korean.
 
 31 cotai si fecer quelle facce lorde
 32 de lo demonio Cerbero, che ’ntrona
 33 l’anime sì, ch’esser vorrebber sorde.
 </prompt>
 <result>
-28 짖으며 먹이를 갈망하는 개가
-29 먹이를 물면 조용해지듯이,
-30 오직 먹는 것만을 생각하고 싸우듯이,
-
 31 더러운 얼굴을 한 악마 세르베루스도 그랬다.
 32 영혼들을 으르렁거리며 괴롭히는데,
 33 영혼들은 귀가 먹고 싶어한다.
@@ -212,10 +174,10 @@ Please translate each line literally into Korean.
 35 la greve pioggia, e ponavam le piante
 36 sovra lor vanità che par persona.
 </prompt>
-<result>
+<error>
 34 우리는 무거운 비에 맞아 더러워진 그늘 위로 지나갔고,
 35 그들의 허영심 위에 발을 디뎠는데, 그것은 사람처럼 보인다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 6] 37/115</info>
@@ -226,10 +188,10 @@ Please translate each line literally into Korean.
 38 fuor d’una ch’a seder si levò, ratto
 39 ch’ella ci vide passarsi davante.
 </prompt>
-<result>
+<error>
 37 그들은 모두 땅에 누워 있었고,
 38 한 명만이 우리가 지나가는 것을 보고 재빨리 일어나 앉았다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 6] 40/115</info>
@@ -329,18 +291,27 @@ Please translate each line literally into Korean.
 58 Io li rispuosi: «Ciacco, il tuo affanno
 59 mi pesa sì, ch’a lagrimar mi ’nvita;
 60 ma dimmi, se tu sai, a che verranno
-
-61 li cittadin de la città partita;
-62 s’alcun v’è giusto; e dimmi la cagione
-63 per che l’ha tanta discordia assalita».
 </prompt>
-<result>
+<error>
 58 나는 그에게 대답했다. "치아코, 네 슬픔이
 59 너무나도 무거워서 눈물이 나게 해.
 60 하지만 네가 안다면 말해줘. 갈라진 도시의 시민들이
 61 어떻게 될지; 의로운 사람이 있는지; 그리고 그 도시가
 62 왜 그렇게 큰 불화에 시달리는지 말해줘."
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 6] 61/115</info>
+<prompt>
+Please translate each line literally into Korean.
+
+61 li cittadin de la città partita;
+62 s’alcun v’è giusto; e dimmi la cagione
+63 per che l’ha tanta discordia assalita».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 6] 64/115</info>
@@ -351,32 +322,6 @@ Please translate each line literally into Korean.
 65 verranno al sangue, e la parte selvaggia
 66 caccerà l’altra con molta offensione.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "64 그리고 그는 나에게 말했다. \"오랜 논쟁 끝에\n65 그들은 피를 흘리게 될 것이고, 야만적인 당파가\n66 다른 당파를 큰 공격으로 몰아낼 것이다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 64 그리고 그는 나에게 말했다. "오랜 논쟁 끝에
 65 그들은 피를 흘리게 될 것이고, 야만적인 당파가
@@ -392,10 +337,10 @@ Please translate each line literally into Korean.
 68 infra tre soli, e che l’altra sormonti
 69 con la forza di tal che testé piaggia.
 </prompt>
-<result>
+<error>
 67 그러면 세 해가 지나지 않아 이 파벌이 무너지고,
 68 다른 파벌이 현재 아첨하는 자의 힘으로 승리할 것이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 6] 70/115</info>
@@ -421,10 +366,10 @@ Please translate each line literally into Korean.
 74 superbia, invidia e avarizia sono
 75 le tre faville c’hanno i cuori accesi».
 </prompt>
-<result>
+<error>
 73 두 사람이 정의롭지만 서로 이해하지 못하고,
 74 교만, 시기, 탐욕이 세 개의 불꽃으로 그들의 마음을 불태운다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 6] 76/115</info>
@@ -449,19 +394,26 @@ Please translate each line literally into Korean.
 79 Farinata e ’l Tegghiaio, che fuor sì degni,
 80 Iacopo Rusticucci, Arrigo e ’l Mosca
 81 e li altri ch’a ben far puoser li ’ngegni,
-
-82 dimmi ove sono e fa ch’io li conosca;
-83 ché gran disio mi stringe di savere
-84 se ’l ciel li addolcia o lo ’nferno li attosca».
 </prompt>
 <result>
 79 파리나타와 테기아이오, 그토록 고귀했던 자들,
 80 야코포 루스티추치, 아리고, 모스카
 81 그리고 선행에 마음을 쏟았던 다른 사람들,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 82/115</info>
+<prompt>
+Please translate each line literally into Korean.
 
+82 dimmi ove sono e fa ch’io li conosca;
+83 ché gran disio mi stringe di savere
+84 se ’l ciel li addolcia o lo ’nferno li attosca».
+</prompt>
+<error>
 82 그들이 어디 있는지 말해주고 내가 그들을 알아볼 수 있게 해주세요.
 83 그들이 천국에서 달콤한 삶을 누리고 있는지, 아니면 지옥에서 고통을 받고 있는지 알고 싶은 마음이 간절합니다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 6] 85/115</info>
@@ -472,32 +424,6 @@ Please translate each line literally into Korean.
 86 diverse colpe giù li grava al fondo:
 87 se tanto scendi, là i potrai vedere.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "85 그리고 그는 말했다. \"그들은 가장 검은 영혼들 사이에 있습니다.\n86 다양한 죄악들이 그들을 바닥으로 짓누르고 있습니다.\n87 그렇게 깊이 내려가면 그들을 볼 수 있을 것입니다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 85 그리고 그는 말했다. "그들은 가장 검은 영혼들 사이에 있습니다.
 86 다양한 죄악들이 그들을 바닥으로 짓누르고 있습니다.
@@ -542,19 +468,26 @@ Please translate each line literally into Korean.
 94 E ’l duca disse a me: «Più non si desta
 95 di qua dal suon de l’angelica tromba,
 96 quando verrà la nimica podesta:
+</prompt>
+<error>
+94 그리고 두체는 나에게 말했다. "이곳에서 천사의 나팔 소리가 들리기 전까지는,
+95 적대적인 권능이 올 때까지는 다시는 깨어나지 않을 것이다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 6] 97/115</info>
+<prompt>
+Please translate each line literally into Korean.
 
 97 ciascun rivederà la trista tomba,
 98 ripiglierà sua carne e sua figura,
 99 udirà quel ch’in etterno rimbomba».
 </prompt>
-<result>
-94 그리고 두체는 나에게 말했다. "이곳에서 천사의 나팔 소리가 들리기 전까지는,
-95 적대적인 권능이 올 때까지는 다시는 깨어나지 않을 것이다.
-
+<error>
 96 각자는 슬픈 무덤을 다시 보게 될 것이고,
 97 자신의 육체와 모습을 되찾을 것이며,
 99 영원히 울려 퍼지는 소리를 들을 것이다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 6] 100/115</info>
@@ -564,16 +497,23 @@ Please translate each line literally into Korean.
 100 Sì trapassammo per sozza mistura
 101 de l’ombre e de la pioggia, a passi lenti,
 102 toccando un poco la vita futura;
+</prompt>
+<result>
+100 그래서 우리는 더러운 혼합물 속을
+101 그림자와 비 속을 천천히 걸으며 지나갔고,
+102 다가올 삶을 조금이나마 맛보았다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 103/115</info>
+<prompt>
+Please translate each line literally into Korean.
 
 103 per ch’io dissi: «Maestro, esti tormenti
 104 crescerann’ ei dopo la gran sentenza,
 105 o fier minori, o saran sì cocenti?».
 </prompt>
 <result>
-100 그래서 우리는 더러운 혼합물 속을
-101 그림자와 비 속을 천천히 걸으며 지나갔고,
-102 다가올 삶을 조금이나마 맛보았다.
-
 103 그래서 나는 말했다. "선생님, 이 고통은
 104 대심판 이후에 더 커지거나,
 105 아니면 더 작아지거나, 아니면 여전히 이렇게 뜨거울까요?"
@@ -603,32 +543,6 @@ Please translate each line literally into Korean.
 110 in vera perfezion già mai non vada,
 111 di là più che di qua essere aspetta».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 저 저주받은 무리들이\n110 진정한 완벽함에 결코 이르지 못하고,\n111 저쪽에서 이쪽보다 더 많은 것을 기대한다»."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 109 저 저주받은 무리들이
 110 진정한 완벽함에 결코 이르지 못하고,
@@ -643,14 +557,21 @@ Please translate each line literally into Korean.
 112 Noi aggirammo a tondo quella strada,
 113 parlando più assai ch’i’ non ridico;
 114 venimmo al punto dove si digrada:
-
-115 quivi trovammo Pluto, il gran nemico.
 </prompt>
 <result>
 112 우리는그길을빙빙돌았고,
 113 내가말하지않은것보다훨씬더많이이야기했다.
 114 우리는내려가는지점에왔다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 115/115</info>
+<prompt>
+Please translate each line literally into Korean.
 
+115 quivi trovammo Pluto, il gran nemico.
+</prompt>
+<result>
 115 거기서우리는위대한적플루토를만났다.
 </result>
 </query>

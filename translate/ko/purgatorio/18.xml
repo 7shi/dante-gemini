@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="34">
+<queries count="49">
 <query>
 <info>[Purgatorio Canto 18] 1/145</info>
 <prompt>
@@ -8,18 +8,25 @@ Please translate each line literally into Korean.
 1 Posto avea fine al suo ragionamento
 2 l’alto dottore, e attento guardava
 3 ne la mia vista s’io parea contento;
+</prompt>
+<error>
+1 고귀한 선생님은 자신의 말을 마쳤고
+2 내가 만족해 보이는지 내 표정을 주의 깊게 살폈다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 4/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 e io, cui nova sete ancor frugava,
 5 di fuor tacea, e dentro dicea: ‘Forse
 6 lo troppo dimandar ch’io fo li grava’.
 </prompt>
-<result>
-1 고귀한 선생님은 자신의 말을 마쳤고
-2 내가 만족해 보이는지 내 표정을 주의 깊게 살폈다.
-
+<error>
 3 그리고 나는 새로운 갈증이 여전히 나를 괴롭혔지만,
 4 겉으로는 조용히 있었고 속으로는 '내가 너무 많은 질문을 해서 그분에게 부담을 주는 건 아닐까?'라고 생각했다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 7/145</info>
@@ -75,32 +82,6 @@ Please translate each line literally into Korean.
 17 de lo ’ntelletto, e fieti manifesto
 18 l’error de’ ciechi che si fanno duci.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "16 그는 말했다. \"날카로운 이성의 빛을\n17 나에게로 향하게 하라. 그러면\n18 스스로를 인도자로 삼는 맹인들의 오류가 드러날 것이다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 16 그는 말했다. "날카로운 이성의 빛을
 17 나에게로 향하게 하라. 그러면
@@ -130,16 +111,23 @@ Please translate each line literally into Korean.
 22 Vostra apprensiva da esser verace
 23 tragge intenzione, e dentro a voi la spiega,
 24 sì che l’animo ad essa volger face;
+</prompt>
+<result>
+22 진실함을 지닌 당신의 이해가
+23 의도를 이끌어내고 당신 안에서 그것을 설명하여
+24 마음이 그것을 향하게 만듭니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 25/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 25 e se, rivolto, inver’ di lei si piega,
 26 quel piegare è amor, quell’ è natura
 27 che per piacer di novo in voi si lega.
 </prompt>
 <result>
-22 진실함을 지닌 당신의 이해가
-23 의도를 이끌어내고 당신 안에서 그것을 설명하여
-24 마음이 그것을 향하게 만듭니다.
-
 25 그리고 마음이 돌아서서 그것을 향해 기울면,
 26 그 기울어짐이 사랑이고, 그것은 본성으로
 27 새로운 즐거움을 위해 당신 안에서 결합합니다.
@@ -153,19 +141,26 @@ Please translate each line literally into Korean.
 28 Poi, come ’l foco movesi in altura
 29 per la sua forma ch’è nata a salire
 30 là dove più in sua matera dura,
+</prompt>
+<error>
+28 불이 올라가는 형태로 인해 높은 곳으로 움직이는 것처럼
+29 그 물질이 가장 견고한 곳에서,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 31/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 31 così l’animo preso entra in disire,
 32 ch’è moto spiritale, e mai non posa
 33 fin che la cosa amata il fa gioire.
 </prompt>
-<result>
-28 불이 올라가는 형태로 인해 높은 곳으로 움직이는 것처럼
-29 그 물질이 가장 견고한 곳에서,
-
+<error>
 30 마음도 사로잡혀 욕망에 빠집니다.
 31 그것은 영적인 움직임이며, 결코 멈추지 않고
 32 사랑하는 것이 기쁨을 주기까지 계속됩니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 34/145</info>
@@ -175,18 +170,25 @@ Please translate each line literally into Korean.
 34 Or ti puote apparer quant’ è nascosa
 35 la veritate a la gente ch’avvera
 36 ciascun amore in sé laudabil cosa;
+</prompt>
+<error>
+34 이제 진실이 사람들에게 얼마나 숨겨져 있는지 알 수 있을 것입니다.
+35 모든 사랑은 그 자체로 칭찬할 만한 것입니다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 37/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 37 però che forse appar la sua matera
 38 sempre esser buona, ma non ciascun segno
 39 è buono, ancor che buona sia la cera».
 </prompt>
-<result>
-34 이제 진실이 사람들에게 얼마나 숨겨져 있는지 알 수 있을 것입니다.
-35 모든 사랑은 그 자체로 칭찬할 만한 것입니다.
-
+<error>
 36 그러므로 그 물질은 항상 선하다고 보일지 모르지만,
 37 밀랍이 좋더라도 모든 표시가 좋은 것은 아닙니다."
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 40/145</info>
@@ -196,16 +198,23 @@ Please translate each line literally into Korean.
 40 «Le tue parole e ’l mio seguace ingegno»,
 41 rispuos’ io lui, «m’hanno amor discoverto,
 42 ma ciò m’ha fatto di dubbiar più pregno;
+</prompt>
+<result>
+40 "당신의 말씀과 제가 따르는 재치로"
+41 저는 대답했습니다. "저는 사랑을 발견했지만,
+42 그것은 저를 더 많은 의심으로 가득 채웠습니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 43/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 43 ché, s’amore è di fuori a noi offerto
 44 e l’anima non va con altro piede,
 45 se dritta o torta va, non è suo merto».
 </prompt>
 <result>
-40 "당신의 말씀과 제가 따르는 재치로"
-41 저는 대답했습니다. "저는 사랑을 발견했지만,
-42 그것은 저를 더 많은 의심으로 가득 채웠습니다.
-
 43 사랑이 우리에게 외부에서 제공되고
 44 영혼이 다른 발로 가지 않는다면,
 45 그것이 옳든 그르든 그것은 영혼의 공로가 아닙니다."
@@ -234,19 +243,26 @@ Please translate each line literally into Korean.
 49 Ogne forma sustanzïal, che setta
 50 è da matera ed è con lei unita,
 51 specifica vertute ha in sé colletta,
+</prompt>
+<error>
+49 본질적인 모든 형태는 물질로부터 나와 물질과 하나가 되어
+50 고유한 힘을 스스로 모아 가지고 있다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 52/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 52 la qual sanza operar non è sentita,
 53 né si dimostra mai che per effetto,
 54 come per verdi fronde in pianta vita.
 </prompt>
-<result>
-49 본질적인 모든 형태는 물질로부터 나와 물질과 하나가 되어
-50 고유한 힘을 스스로 모아 가지고 있다.
-
+<error>
 51 그 힘은 작용하지 않으면 느껴지지 않고,
 52 효과를 통해서만 드러나는데,
 53 마치 푸른 잎이 식물의 생명을 보여주는 것처럼.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 55/145</info>
@@ -256,19 +272,26 @@ Please translate each line literally into Korean.
 55 Però, là onde vegna lo ’ntelletto
 56 de le prime notizie, omo non sape,
 57 e de’ primi appetibili l’affetto,
-
-58 che sono in voi sì come studio in ape
-59 di far lo mele; e questa prima voglia
-60 merto di lode o di biasmo non cape.
 </prompt>
 <result>
 55 그러나 첫 번째 지식의 이해가 어디서 오는지
 56 사람은 알지 못하고,
 57 첫 번째로 갈망하는 것에 대한 애정도 마찬가지인데,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 58/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
+58 che sono in voi sì come studio in ape
+59 di far lo mele; e questa prima voglia
+60 merto di lode o di biasmo non cape.
+</prompt>
+<error>
 58 그것은 마치 꿀벌이 꿀을 만드는 데 열중하는 것처럼 여러분 안에 있습니다.
 59 그리고 이러한 첫 번째 욕망은 칭찬이나 비난을 받을 만한 것이 아닙니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 61/145</info>
@@ -294,10 +317,10 @@ Please translate each line literally into Korean.
 65 ragion di meritare in voi, secondo
 66 che buoni e rei amori accoglie e viglia.
 </prompt>
-<result>
+<error>
 64 이것이 여러분이 공로를 얻는 원리이며,
 65 여러분이 좋은 사랑과 나쁜 사랑을 받아들이고 돌보는 데 따라 달라집니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 67/145</info>
@@ -352,19 +375,26 @@ Please translate each line literally into Korean.
 76 La luna, quasi a mezza notte tarda,
 77 facea le stelle a noi parer più rade,
 78 fatta com’ un secchion che tuttor arda;
-
-79 e correa contro ’l ciel per quelle strade
-80 che ’l sole infiamma allor che quel da Roma
-81 tra ’ Sardi e ’ Corsi il vede quando cade.
 </prompt>
 <result>
 76 달은 자정이 다 되어가면서
 77 별들이 우리에게 더 희疏하게 보이게 했고,
 78 항상 타오르는 물동이처럼 생겼습니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 79/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
+79 e correa contro ’l ciel per quelle strade
+80 che ’l sole infiamma allor che quel da Roma
+81 tra ’ Sardi e ’ Corsi il vede quando cade.
+</prompt>
+<error>
 79 그리고 그 달은 하늘을 거슬러 올라가는 길을 따라 달렸는데,
 80 그 길은 로마에서 온 사람이 사르디니아와 코르시카 사이에서 달이 지는 것을 볼 때 태양이 불태우는 길입니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 82/145</info>
@@ -374,19 +404,26 @@ Please translate each line literally into Korean.
 82 E quell’ ombra gentil per cui si noma
 83 Pietola più che villa mantoana,
 84 del mio carcar diposta avea la soma;
-
-85 per ch’io, che la ragione aperta e piana
-86 sovra le mie quistioni avea ricolta,
-87 stava com’ om che sonnolento vana.
 </prompt>
 <result>
 82 그리고 그 고귀한 그림자 때문에
 83 피에톨라는 만토바의 도시보다 더 유명해졌는데,
 84 그는 나의 짐을 내려놓아 주셨습니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 85/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
+85 per ch’io, che la ragione aperta e piana
+86 sovra le mie quistioni avea ricolta,
+87 stava com’ om che sonnolento vana.
+</prompt>
+<error>
 85 그래서 나는 내 질문에 대한 명확하고 간단한 이치를 얻었고,
 87 졸음에 빠진 사람처럼 멍하니 서 있었습니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 88/145</info>
@@ -397,10 +434,10 @@ Please translate each line literally into Korean.
 89 subitamente da gente che dopo
 90 le nostre spalle a noi era già volta.
 </prompt>
-<result>
+<error>
 88 하지만 그 졸음은
 89 우리 뒤에 있던 사람들이 갑자기 나타나면서 사라졌습니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 91/145</info>
@@ -410,16 +447,23 @@ Please translate each line literally into Korean.
 91 E quale Ismeno già vide e Asopo
 92 lungo di sè di notte furia e calca,
 93 pur che i Teban di Bacco avesser uopo,
+</prompt>
+<result>
+91 이스메노와 아소포스가 이미 보고
+92 밤에 그 옆을 따라 분노와 군중이 몰려들었고,
+93 테베 사람들이 바쿠스를 필요로 했을 때,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 94/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 94 cotal per quel giron suo passo falca,
 95 per quel ch’io vidi di color, venendo,
 96 cui buon volere e giusto amor cavalca.
 </prompt>
 <result>
-91 이스메노와 아소포스가 이미 보고
-92 밤에 그 옆을 따라 분노와 군중이 몰려들었고,
-93 테베 사람들이 바쿠스를 필요로 했을 때,
-
 94 그렇게 그가 걸어온 길을 따라가니,
 95 내가 오면서 본 사람들처럼,
 96 선한 의지와 정당한 사랑이 그를 몰아붙인다.
@@ -433,16 +477,23 @@ Please translate each line literally into Korean.
 97 Tosto fur sovr’ a noi, perché correndo
 98 si movea tutta quella turba magna;
 99 e due dinanzi gridavan piangendo:
+</prompt>
+<result>
+97 그들은 곧 우리에게 다가왔는데,
+98 그 거대한 무리가 달려오고 있었기 때문이다.
+99 그리고 앞에 있는 두 사람이 울면서 외쳤다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 100/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 100 «Maria corse con fretta a la montagna;
 101 e Cesare, per soggiogare Ilerda,
 102 punse Marsilia e poi corse in Ispagna».
 </prompt>
 <result>
-97 그들은 곧 우리에게 다가왔는데,
-98 그 거대한 무리가 달려오고 있었기 때문이다.
-99 그리고 앞에 있는 두 사람이 울면서 외쳤다.
-
 100 "마리아는 산으로 재빨리 달려갔다.
 101 그리고 카이사르는 일레르다를 정복하기 위해
 102 마르세유를 공격한 후 스페인으로 달려갔다."
@@ -471,16 +522,23 @@ Please translate each line literally into Korean.
 106 «O gente in cui fervore aguto adesso
 107 ricompie forse negligenza e indugio
 108 da voi per tepidezza in ben far messo,
+</prompt>
+<result>
+106 "지금은 날카로운 열정이
+107 아마도 선행에 대한 미지근함과 지체를 보상하고 있구나,
+108 너희가 선행에 대해 미지근했기 때문이다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 109/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 109 questi che vive, e certo i’ non vi bugio,
 110 vuole andar sù, pur che ’l sol ne riluca;
 111 però ne dite ond’ è presso il pertugio».
 </prompt>
 <result>
-106 "지금은 날카로운 열정이
-107 아마도 선행에 대한 미지근함과 지체를 보상하고 있구나,
-108 너희가 선행에 대해 미지근했기 때문이다.
-
 109 이 사람은 살아 있고, 나는 거짓말하지 않는다.
 110 올라가고 싶어 한다. 태양이 비추기만 하면 말이다.
 111 그러니 그가 가까이 갈 수 있는 구멍이 어디에 있는지 말해라."
@@ -539,16 +597,23 @@ Please translate each line literally into Korean.
 121 E tale ha già l’un piè dentro la fossa,
 122 che tosto piangerà quel monastero,
 123 e tristo fia d’avere avuta possa;
+</prompt>
+<result>
+121 그리고 한 발은 이미 무덤 속에 있는 자가 있어서,
+122 곧 그 수도원을 슬퍼할 것이고,
+123 권력을 가졌던 것을 후회할 것입니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 124/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 124 perché suo figlio, mal del corpo intero,
 125 e de la mente peggio, e che mal nacque,
 126 ha posto in loco di suo pastor vero».
 </prompt>
 <result>
-121 그리고 한 발은 이미 무덤 속에 있는 자가 있어서,
-122 곧 그 수도원을 슬퍼할 것이고,
-123 권력을 가졌던 것을 후회할 것입니다.
-
 124 왜냐하면 그의 아들은 온몸이 병들었고,
 125 정신은 더욱 병들었고, 나쁜 별자리 아래 태어나서,
 126 진정한 목자 대신 그 자리를 차지했기 때문입니다.
@@ -608,10 +673,10 @@ Please translate each line literally into Korean.
 137 fino a la fine col figlio d’Anchise,
 138 sé stessa a vita sanza gloria offerse».
 </prompt>
-<result>
+<error>
 136 그리고 끝까지 안키세스의 아들과 함께 고생하지 않은 사람은
 137 영광 없는 삶을 스스로 선택했다."
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 18] 139/145</info>
@@ -621,20 +686,38 @@ Please translate each line literally into Korean.
 139 Poi quando fuor da noi tanto divise
 140 quell’ ombre, che veder più non potiersi,
 141 novo pensiero dentro a me si mise,
-
-142 del qual più altri nacquero e diversi;
-143 e tanto d’uno in altro vaneggiai,
-144 che li occhi per vaghezza ricopersi,
-
-145 e ’l pensamento in sogno trasmutai.
 </prompt>
-<result>
+<error>
 139 그런 다음 그 그림자가 우리에게서 너무 멀리 떨어져서 더 이상 볼 수 없을 때,
 140 내 안에 새로운 생각이 생겼다.
 141 그 생각에서 또 다른 다양한 생각들이 생겨났고,
 142 나는 한 가지 생각에서 다른 생각으로 너무나 방황했기 때문에,
 143 눈을 감고
 144 생각을 꿈으로 바꾸었다.
-</result>
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 142/145</info>
+<prompt>
+Please translate each line literally into Korean.
+
+142 del qual più altri nacquero e diversi;
+143 e tanto d’uno in altro vaneggiai,
+144 che li occhi per vaghezza ricopersi,
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 18] 145/145</info>
+<prompt>
+Please translate each line literally into Korean.
+
+145 e ’l pensamento in sogno trasmutai.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 </queries>

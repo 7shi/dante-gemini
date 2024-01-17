@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries count="50">
 <query>
 <info>[Paradiso Canto 2] 1/148</info>
 <prompt>
@@ -8,20 +8,26 @@ Please translate each line literally into Korean.
 1 O voi che siete in piccioletta barca,
 2 desiderosi d’ascoltar, seguiti
 3 dietro al mio legno che cantando varca,
+</prompt>
+<error>
+1 작은 배를 타고 있는 여러분,
+2 듣고 싶어서 나의 노래하는 배를 따라오는 여러분,
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 2] 4/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 tornate a riveder li vostri liti:
 5 non vi mettete in pelago, ché forse,
 6 perdendo me, rimarreste smarriti.
 </prompt>
-<result>
-1 작은 배를 타고 있는 여러분,
-2 듣고 싶어서 나의 노래하는 배를 따라오는 여러분,
-
+<error>
 3 돌아가서 여러분의 해안을 다시 보십시오.
 4 나를 잃고 길을 잃을지도 모르니,
 5 바다로 나가지 마십시오.
-6
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 7/148</info>
@@ -46,19 +52,26 @@ Please translate each line literally into Korean.
 10 Voialtri pochi che drizzaste il collo
 11 per tempo al pan de li angeli, del quale
 12 vivesi qui ma non sen vien satollo,
+</prompt>
+<error>
+10 천사들의 빵을 먹기 위해 일찍부터 목을 곧게 세운 소수의 여러분,
+11 그것은 여기서 살 수 있지만 배불리 먹을 수는 없습니다.
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 2] 13/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 13 metter potete ben per l’alto sale
 14 vostro navigio, servando mio solco
 15 dinanzi a l’acqua che ritorna equale.
 </prompt>
-<result>
-10 천사들의 빵을 먹기 위해 일찍부터 목을 곧게 세운 소수의 여러분,
-11 그것은 여기서 살 수 있지만 배불리 먹을 수는 없습니다.
-
+<error>
 12 여러분의 배를 높은 바다로 낼 수 있고,
 13 나의 배의 자국을 따라가며,
 14 다시 평평해지는 물 앞으로 나아가십시오.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 16/148</info>
@@ -84,10 +97,10 @@ Please translate each line literally into Korean.
 20 del deïforme regno cen portava
 21 veloci quasi come ’l ciel vedete.
 </prompt>
-<result>
+<error>
 19 신의 형상을 한 왕국의 구체적이고 영원한 갈증이
 20 하늘을 보는 것처럼 빠르게 우리를 데려갔습니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 22/148</info>
@@ -97,24 +110,38 @@ Please translate each line literally into Korean.
 22 Beatrice in suso, e io in lei guardava;
 23 e forse in tanto in quanto un quadrel posa
 24 e vola e da la noce si dischiava,
+</prompt>
+<result>
+22 베아트리체는 위를 바라보고, 나는 그녀를 바라보았습니다.
+23 그리고 아마도 화살이 놓여지고
+24 날아가고 견과에서 떨어져 나가는 것만큼의 시간 동안,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 25/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 25 giunto mi vidi ove mirabil cosa
 26 mi torse il viso a sé; e però quella
 27 cui non potea mia cura essere ascosa,
+</prompt>
+<result>
+25 나는 놀라운 것이 있는 곳에 도착한 것을 보았고
+26 그것은 나의 시선을 그쪽으로 돌렸습니다. 그래서 그것은
+27 나의 관심사가 숨겨질 수 없는 그녀는,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 28/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 28 volta ver’ me, sì lieta come bella,
 29 «Drizza la mente in Dio grata», mi disse,
 30 «che n’ha congiunti con la prima stella».
 </prompt>
 <result>
-22 베아트리체는 위를 바라보고, 나는 그녀를 바라보았습니다.
-23 그리고 아마도 화살이 놓여지고
-24 날아가고 견과에서 떨어져 나가는 것만큼의 시간 동안,
-
-25 나는 놀라운 것이 있는 곳에 도착한 것을 보았고
-26 그것은 나의 시선을 그쪽으로 돌렸습니다. 그래서 그것은
-27 나의 관심사가 숨겨질 수 없는 그녀는,
-
 28 나에게로 돌아서서, 아름다운 것처럼 기뻐하며,
 29 "하느님께 감사하는 마음으로 정신을 바로잡으십시오."라고 말했습니다.
 30 "그분이 우리를 첫 번째 별과 연결해 주셨습니다."
@@ -158,19 +185,26 @@ Please translate each line literally into Korean.
 37 S’io era corpo, e qui non si concepe
 38 com’ una dimensione altra patio,
 39 ch’esser convien se corpo in corpo repe,
-
-40 accender ne dovria più il disio
-41 di veder quella essenza in che si vede
-42 come nostra natura e Dio s’unio.
 </prompt>
 <result>
 37 내가 육체였다면, 여기서는
 38 다른 차원이 어떻게 공간을 차지하는지 이해할 수 없습니다.
 39 육체가 육체 안에 들어가면 반드시 그래야 합니다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 40/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
+40 accender ne dovria più il disio
+41 di veder quella essenza in che si vede
+42 come nostra natura e Dio s’unio.
+</prompt>
+<error>
 40 그것은 우리가 그 본질을 보려는 열망을 더욱 불러일으켜야 합니다.
 41 우리의 본성과 신이 어떻게 하나가 되었는지 볼 수 있는 곳에서.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 43/148</info>
@@ -196,10 +230,10 @@ Please translate each line literally into Korean.
 47 com’ esser posso più, ringrazio lui
 48 lo qual dal mortal mondo m’ha remoto.
 </prompt>
-<result>
+<error>
 46 나는 대답했습니다. "마돈나, 제가 할 수 있는 한 가장 헌신적으로,
 47 저를 필멸의 세상에서 멀리 떨어뜨려 주신 그분께 감사드립니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 49/148</info>
@@ -224,18 +258,25 @@ Please translate each line literally into Korean.
 52 Ella sorrise alquanto, e poi «S’elli erra
 53 l’oppinïon», mi disse, «d’i mortali
 54 dove chiave di senso non diserra,
+</prompt>
+<error>
+52 그녀는 약간 미소를 지으며 "만약 그들이 잘못되었다면," 그녀는 말했습니다. "필멸자들의 의견은
+53 감각의 열쇠가 열리지 않는 곳에서,
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 2] 55/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 55 certo non ti dovrien punger li strali
 56 d’ammirazione omai, poi dietro ai sensi
 57 vedi che la ragione ha corte l’ali.
 </prompt>
-<result>
-52 그녀는 약간 미소를 지으며 "만약 그들이 잘못되었다면," 그녀는 말했습니다. "필멸자들의 의견은
-53 감각의 열쇠가 열리지 않는 곳에서,
-
+<error>
 54 분명히 이제는 놀라움의 화살이 당신을 찌르지 않아야 합니다. 감각 뒤에서
 55 이성이 날개를 자른 것을 보십시오.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 58/148</info>
@@ -261,10 +302,10 @@ Please translate each line literally into Korean.
 62 nel falso il creder tuo, se bene ascolti
 63 l’argomentar ch’io li farò avverso.
 </prompt>
-<result>
+<error>
 61 그리고 그녀는 "내가 반대하는 주장을 잘 들어보면
 62 당신의 믿음이 거짓임을 분명히 알게 될 것입니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 64/148</info>
@@ -319,16 +360,25 @@ Please translate each line literally into Korean.
 73 Ancor, se raro fosse di quel bruno
 74 cagion che tu dimandi, o d’oltre in parte
 75 fora di sua materia sì digiuno
-
-76 esto pianeto, o, sì come comparte
-77 lo grasso e ’l magro un corpo, così questo
-78 nel suo volume cangerebbe carte.
 </prompt>
 <result>
 73 또한, 만약 그 검은색의 원인이 당신이 묻는 것처럼 희박함이라면, 혹은 어느 정도라면
 74 이 행성은 물질이 매우 부족할 것이거나, 마치 몸이 살찐 부분과 마른 부분을 나누는 것처럼
 75 이 행성은 그 부피에서 색상을 바꿀 것입니다.
 </result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 76/148</info>
+<prompt>
+Please translate each line literally into Korean.
+
+76 esto pianeto, o, sì come comparte
+77 lo grasso e ’l magro un corpo, così questo
+78 nel suo volume cangerebbe carte.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 79/148</info>
@@ -339,10 +389,10 @@ Please translate each line literally into Korean.
 80 ne l’eclissi del sol, per trasparere
 81 lo lume come in altro raro ingesto.
 </prompt>
-<result>
+<error>
 79 만약 첫 번째 경우라면,
 80 일식 때 태양의 빛이 다른 희박한 물체를 통과할 때처럼 투과되어 나타날 것입니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 82/148</info>
@@ -353,10 +403,10 @@ Please translate each line literally into Korean.
 83 de l’altro; e s’elli avvien ch’io l’altro cassi,
 84 falsificato fia lo tuo parere.
 </prompt>
-<result>
+<error>
 82 그렇지 않습니다. 그러므로 다른 경우를 살펴보아야 합니다. 그리고 만약 내가 다른 경우를 부정한다면,
 83 당신의 의견은 잘못된 것입니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 85/148</info>
@@ -366,18 +416,25 @@ Please translate each line literally into Korean.
 85 S’elli è che questo raro non trapassi,
 86 esser conviene un termine da onde
 87 lo suo contrario più passar non lassi;
+</prompt>
+<error>
+85 만약 이 희박함이 통과하지 않는다면,
+86 반대되는 것이 더 이상 통과하지 못하게 하는 한계가 있어야 합니다.
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 2] 88/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 88 e indi l’altrui raggio si rifonde
 89 così come color torna per vetro
 90 lo qual di retro a sé piombo nasconde.
 </prompt>
-<result>
-85 만약 이 희박함이 통과하지 않는다면,
-86 반대되는 것이 더 이상 통과하지 못하게 하는 한계가 있어야 합니다.
-
+<error>
 88 그리고 거기서 다른 것의 광선이 반사되어
 89 유리 뒤에 납이 숨겨져 있는 것처럼 색상이 돌아옵니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 91/148</info>
@@ -388,10 +445,10 @@ Please translate each line literally into Korean.
 92 ivi lo raggio più che in altre parti,
 93 per esser lì refratto più a retro.
 </prompt>
-<result>
+<error>
 91 이제 당신은 그곳에서 광선이 다른 부분보다 더 어둡게 보이는 것은
 92 거기서 더 뒤로 굴절되기 때문이라고 말할 것입니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 2] 94/148</info>
@@ -461,15 +518,22 @@ Please translate each line literally into Korean.
 106 Or, come ai colpi de li caldi rai
 107 de la neve riman nudo il suggetto
 108 e dal colore e dal freddo primai,
+</prompt>
+<error>
+106 이제, 따뜻한 햇살이 내리치면
+107 눈이 녹아 없어지고 본래의 색깔과 추위를 잃는 것처럼,
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 2] 109/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 109 così rimaso te ne l’intelletto
 110 voglio informar di luce sì vivace,
 111 che ti tremolerà nel suo aspetto.
 </prompt>
 <result>
-106 이제, 따뜻한 햇살이 내리치면
-107 눈이 녹아 없어지고 본래의 색깔과 추위를 잃는 것처럼,
-
 109 너의 지성도 비워졌으니
 110 너무나도 생생한 빛으로 채워주고 싶다.
 111 그러면 너는 그 빛을 보고 떨게 될 것이다.
@@ -558,16 +622,23 @@ Please translate each line literally into Korean.
 127 Lo moto e la virtù d’i santi giri,
 128 come dal fabbro l’arte del martello,
 129 da’ beati motor convien che spiri;
+</prompt>
+<result>
+127 움직이는 것과 거룩한 산들의 힘은,
+128 대장장이가 망치를 다루는 기술처럼,
+129 축복받은 원동력으로부터 나오는 것이 마땅하다.
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 130/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 130 e ’l ciel cui tanti lumi fanno bello,
 131 de la mente profonda che lui volve
 132 prende l’image e fassene suggello.
 </prompt>
 <result>
-127 움직이는 것과 거룩한 산들의 힘은,
-128 대장장이가 망치를 다루는 기술처럼,
-129 축복받은 원동력으로부터 나오는 것이 마땅하다.
-
 130 그리고 많은 별들이 아름답게 만드는 하늘은,
 131 그것을 돌리는 깊은 마음으로부터
 132 이미지를 받아 그것을 인장으로 만든다.
@@ -581,16 +652,23 @@ Please translate each line literally into Korean.
 133 E come l’alma dentro a vostra polve
 134 per differenti membra e conformate
 135 a diverse potenze si risolve,
+</prompt>
+<result>
+133 그리고 여러분의 육신 안에 있는 영혼이
+134 서로 다른 신체 부위와 일치하여
+135 다양한 힘으로 나뉘어지는 것처럼,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 136/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
 136 così l’intelligenza sua bontate
 137 multiplicata per le stelle spiega,
 138 girando sé sovra sua unitate.
 </prompt>
 <result>
-133 그리고 여러분의 육신 안에 있는 영혼이
-134 서로 다른 신체 부위와 일치하여
-135 다양한 힘으로 나뉘어지는 것처럼,
-
 136 그 지성은 그 선함을
 137 별들을 통해 배가하여 드러내고,
 138 그 단일성 위에서 스스로를 돌면서.
@@ -620,32 +698,6 @@ Please translate each line literally into Korean.
 143 la virtù mista per lo corpo luce
 144 come letizia per pupilla viva.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "142 그녀가 유래한 즐거운 본성 때문에,\n143 육체를 통해 혼합된 힘은 빛나고,\n144 생생한 눈동자를 통해 기쁨이 드러나듯이."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 142 그녀가 유래한 즐거운 본성 때문에,
 143 육체를 통해 혼합된 힘은 빛나고,
@@ -660,14 +712,21 @@ Please translate each line literally into Korean.
 145 Da essa vien ciò che da luce a luce
 146 par differente, non da denso e raro;
 147 essa è formal principio che produce,
-
-148 conforme a sua bontà, lo turbo e ’l chiaro».
 </prompt>
 <result>
 145 그것으로부터 빛에서 빛으로
 146 다르게 보이는 것은 밀도와 희박함 때문이 아니라,
 147 그것은 형식적인 원리로, 그것을 만들어내고,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 148/148</info>
+<prompt>
+Please translate each line literally into Korean.
 
+148 conforme a sua bontà, lo turbo e ’l chiaro».
+</prompt>
+<result>
 148 그 선함에 따라 폭풍과 맑음을 만든다."
 </result>
 </query>

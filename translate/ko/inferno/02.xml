@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="48">
 <query>
 <info>[Inferno Canto 2] 1/142</info>
 <prompt>
@@ -8,19 +8,26 @@ Please translate each line literally into Korean.
 1 Lo giorno se n’andava, e l’aere bruno
 2 toglieva li animai che sono in terra
 3 da le fatiche loro; e io sol uno
+</prompt>
+<error>
+1 낮이지나가고, 어두운 공기가
+2 땅에 있는 동물들에게서 그들의 수고를 빼앗아갔다. 그리고 나 혼자만이
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 4/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 m’apparecchiava a sostener la guerra
 5 sì del cammino e sì de la pietate,
 6 che ritrarrà la mente che non erra.
 </prompt>
-<result>
-1 낮이지나가고, 어두운 공기가
-2 땅에 있는 동물들에게서 그들의 수고를 빼앗아갔다. 그리고 나 혼자만이
-
+<error>
 3 전쟁을 견뎌낼 준비를 하고 있었다.
 4 길의 험난함과 연민의 마음 때문에,
 5 헤매지 않는 마음이 그려낼 것이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 7/142</info>
@@ -46,10 +53,10 @@ Please translate each line literally into Korean.
 11 guarda la mia virtù s’ell’ è possente,
 12 prima ch’a l’alto passo tu mi fidi.
 </prompt>
-<result>
+<error>
 10 나는 말하기 시작했다. "나를 인도하는 시인이여,
 11 내가 높은 곳으로 가기에 앞서, 내 힘이 충분한지 살펴보소서.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 13/142</info>
@@ -74,27 +81,43 @@ Please translate each line literally into Korean.
 16 Però, se l’avversario d’ogne male
 17 cortese i fu, pensando l’alto effetto
 18 ch’uscir dovea di lui, e ’l chi e ’l quale
-
-19 non pare indegno ad omo d’intelletto;
-20 ch’e’ fu de l’alma Roma e di suo impero
-21 ne l’empireo ciel per padre eletto:
-
-22 la quale e ’l quale, a voler dir lo vero,
-23 fu stabilita per lo loco santo
-24 u’ siede il successor del maggior Piero.
 </prompt>
-<result>
+<error>
 16 그러나 모든 악의 적대자가
 17 그에게 친절했던 것은, 그로부터 나올
 18 위대한 결과와 그가 누구인지, 무엇인지를
 19 생각했기 때문일 것입니다. 그것은 이해력이 있는 사람에게 부적절한 일이 아닙니다.
 20 그는 영혼의 로마와 그 제국의
 21 천상의 하늘에서 아버지로 선택되었기 때문입니다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 19/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
+19 non pare indegno ad omo d’intelletto;
+20 ch’e’ fu de l’alma Roma e di suo impero
+21 ne l’empireo ciel per padre eletto:
+</prompt>
+<error>
 22 진실을 말하자면 그가 누구인지, 무엇인지는
 23 가장 위대한 베드로의 후계자가 앉아 있는
 24 거룩한 장소를 위해 확립되었습니다.
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 22/142</info>
+<prompt>
+Please translate each line literally into Korean.
+
+22 la quale e ’l quale, a voler dir lo vero,
+23 fu stabilita per lo loco santo
+24 u’ siede il successor del maggior Piero.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 25/142</info>
@@ -120,10 +143,10 @@ Please translate each line literally into Korean.
 29 per recarne conforto a quella fede
 30 ch’è principio a la via di salvazione.
 </prompt>
-<result>
+<error>
 28 그 후 선택의 그릇이 그곳에 갔습니다.
 29 구원의 길의 시작인 그 신앙에 위안을 가져다주기 위해.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 31/142</info>
@@ -149,32 +172,6 @@ Please translate each line literally into Korean.
 35 temo che la venuta non sia folle.
 36 Se’ savio; intendi me’ ch’i’ non ragiono».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "34 그러므로 내가 가는 것을 포기한다면,\n35 내가 가는 것이 어리석지 않을까 두렵습니다.\n36 당신은 현명합니다. 내가 말하는 것보다 더 잘 이해합니다.\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 34 그러므로 내가 가는 것을 포기한다면,
 35 내가 가는 것이 어리석지 않을까 두렵습니다.
@@ -189,16 +186,23 @@ Please translate each line literally into Korean.
 37 E qual è quei che disvuol ciò che volle
 38 e per novi pensier cangia proposta,
 39 sì che dal cominciar tutto si tolle,
+</prompt>
+<result>
+37 그리고 원했던 것을 원하지 않는 사람처럼
+38 새로운 생각으로 계획을 바꾸어
+39 시작부터 모든 것을 철회하듯이,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 40/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 40 tal mi fec’ ïo ’n quella oscura costa,
 41 perché, pensando, consumai la ’mpresa
 42 che fu nel cominciar cotanto tosta.
 </prompt>
 <result>
-37 그리고 원했던 것을 원하지 않는 사람처럼
-38 새로운 생각으로 계획을 바꾸어
-39 시작부터 모든 것을 철회하듯이,
-
 40 나는 그 어두운 언덕에서 그렇게 되었습니다.
 41 왜냐하면 생각하다 보니 처음에는 너무나 힘들었던
 42 그 일을 포기해버렸기 때문입니다.
@@ -212,16 +216,23 @@ Please translate each line literally into Korean.
 43 «S’i’ ho ben la parola tua intesa»,
 44 rispuose del magnanimo quell’ ombra,
 45 «l’anima tua è da viltade offesa;
+</prompt>
+<result>
+43 "내가 당신의 말을 잘 들었다면",
+44 그 위대한 영혼의 그늘이 대답했다.
+45 "당신의 영혼은 비겁함에 상처를 입었습니다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 46/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 46 la qual molte fïate l’omo ingombra
 47 sì che d’onrata impresa lo rivolve,
 48 come falso veder bestia quand’ ombra.
 </prompt>
 <result>
-43 "내가 당신의 말을 잘 들었다면",
-44 그 위대한 영혼의 그늘이 대답했다.
-45 "당신의 영혼은 비겁함에 상처를 입었습니다.
-
 46 그것은 종종 사람을 괴롭혀
 47 그로 하여금 명예로운 일을 하지 못하게 합니다.
 48 마치 짐승이 그림자를 보고 거짓으로 보는 것처럼.
@@ -236,10 +247,10 @@ Please translate each line literally into Korean.
 50 dirotti perch’ io venni e quel ch’io ’ntesi
 51 nel primo punto che di te mi dolve.
 </prompt>
-<result>
+<error>
 49 이 두려움에서 당신을 벗어나게 하기 위해,
 50 내가 왜 왔는지, 그리고 당신에 대해 처음으로 슬퍼했을 때 내가 들은 것을 말씀드리겠습니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 52/142</info>
@@ -264,32 +275,53 @@ Please translate each line literally into Korean.
 55 Lucevan li occhi suoi più che la stella;
 56 e cominciommi a dir soave e piana,
 57 con angelica voce, in sua favella:
+</prompt>
+<result>
+55 그녀의 눈은 별보다 더 빛났습니다.
+56 그리고 그녀는 부드럽고 평온하게 말하기 시작했습니다.
+57 천사의 목소리로, 그녀의 말로:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 58/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 58 “O anima cortese mantoana,
 59 di cui la fama ancor nel mondo dura,
 60 e durerà quanto ’l mondo lontana,
+</prompt>
+<result>
+58 "오, 예의 바른 만토바의 영혼이여,
+59 그대의 명성은 아직도 세상에 남아 있고,
+60 세상이 존재하는 한 계속될 것입니다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 61/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 61 l’amico mio, e non de la ventura,
 62 ne la diserta piaggia è impedito
 63 sì nel cammin, che vòlt’ è per paura;
+</prompt>
+<result>
+61 나의 친구이지만, 행운의 친구는 아니지만,
+62 황량한 해변에서 방해를 받아
+63 길을 잃었고, 두려움에 떨고 있습니다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 64/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 64 e temo che non sia già sì smarrito,
 65 ch’io mi sia tardi al soccorso levata,
 66 per quel ch’i’ ho di lui nel cielo udito.
 </prompt>
 <result>
-55 그녀의 눈은 별보다 더 빛났습니다.
-56 그리고 그녀는 부드럽고 평온하게 말하기 시작했습니다.
-57 천사의 목소리로, 그녀의 말로:
-
-58 "오, 예의 바른 만토바의 영혼이여,
-59 그대의 명성은 아직도 세상에 남아 있고,
-60 세상이 존재하는 한 계속될 것입니다.
-
-61 나의 친구이지만, 행운의 친구는 아니지만,
-62 황량한 해변에서 방해를 받아
-63 길을 잃었고, 두려움에 떨고 있습니다.
-
 64 그리고 나는 그가 너무 길을 잃었을까 봐 두렵습니다.
 65 내가 구조하러 너무 늦게 일어났을까 봐 두렵습니다.
 66 내가 하늘에서 그에 대해 들은 것을 생각하면 말입니다.
@@ -319,32 +351,6 @@ Please translate each line literally into Korean.
 71 vegno del loco ove tornar disio;
 72 amor mi mosse, che mi fa parlare.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 나는 네가 가도록 만드는 베아트리체이다.\n71 나는 돌아가고 싶은 곳에서 왔다.\n72 사랑이 나를 움직여 말하게 했다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 70 나는 네가 가도록 만드는 베아트리체이다.
 71 나는 돌아가고 싶은 곳에서 왔다.
@@ -359,23 +365,37 @@ Please translate each line literally into Korean.
 73 Quando sarò dinanzi al segnor mio,
 74 di te mi loderò sovente a lui”.
 75 Tacette allora, e poi comincia’ io:
+</prompt>
+<result>
+73 내가 나의 주님 앞에 설 때,
+74 나는 그에게 자주 당신을 칭찬할 것입니다."
+75 그때 그녀는 침묵했고, 그러자 내가 말하기 시작했습니다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 76/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 76 “O donna di virtù sola per cui
 77 l’umana spezie eccede ogne contento
 78 di quel ciel c’ha minor li cerchi sui,
+</prompt>
+<error>
+76 "오, 당신만이 덕이 있어서
+77 인간의 종류가 그 위에 있는 하늘보다 더 큰 만족을 얻습니다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 79/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 79 tanto m’aggrada il tuo comandamento,
 80 che l’ubidir, se già fosse, m’è tardi;
 81 più non t’è uo’ ch’aprirmi il tuo talento.
 </prompt>
 <result>
-73 내가 나의 주님 앞에 설 때,
-74 나는 그에게 자주 당신을 칭찬할 것입니다."
-75 그때 그녀는 침묵했고, 그러자 내가 말하기 시작했습니다.
-
-76 "오, 당신만이 덕이 있어서
-77 인간의 종류가 그 위에 있는 하늘보다 더 큰 만족을 얻습니다.
-
 79 당신의 명령이 너무 마음에 들어서,
 80 순종하는 것이 이미 늦었다면,
 81 당신의 뜻을 열어 보여주시길 바랍니다.
@@ -420,10 +440,10 @@ Please translate each line literally into Korean.
 89 c’hanno potenza di fare altrui male;
 90 de l’altre no, ché non son paurose.
 </prompt>
-<result>
+<error>
 88 오직 다른 사람에게 해를 끼칠 수 있는 것만 두려워해야 합니다.
 89 다른 것들은 두려워할 것이 없습니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 91/142</info>
@@ -449,36 +469,10 @@ Please translate each line literally into Korean.
 95 di questo ’mpedimento ov’ io ti mando,
 96 sì che duro giudicio là sù frange.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "94 하늘에는 이 장애물에 대해 당신을 불쌍히 여기는 고귀한 여인이 계시기에,\n95 그래서 거기 위에서 가혹한 심판이 꺾였습니다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 94 하늘에는 이 장애물에 대해 당신을 불쌍히 여기는 고귀한 여인이 계시기에,
 95 그래서 거기 위에서 가혹한 심판이 꺾였습니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 97/142</info>
@@ -489,10 +483,10 @@ Please translate each line literally into Korean.
 98 e disse:—Or ha bisogno il tuo fedele
 99 di te, e io a te lo raccomando—.
 </prompt>
-<result>
+<error>
 97 루치아는 그녀의 요청으로 이렇게 말했습니다.
 98 "당신의 신자가 지금 당신을 필요로 하고 있습니다. 저는 그를 당신께 추천합니다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 100/142</info>
@@ -517,19 +511,26 @@ Please translate each line literally into Korean.
 103 Disse:—Beatrice, loda di Dio vera,
 104 ché non soccorri quei che t’amò tanto,
 105 ch’uscì per te de la volgare schiera?
-
-106 Non odi tu la pieta del suo pianto,
-107 non vedi tu la morte che ’l combatte
-108 su la fiumana ove ’l mar non ha vanto?—.
 </prompt>
 <result>
 103 루치아는 말했습니다. "진정한 신의 찬양인 베아트리체여,
 104 너를 그토록 사랑했던 그를 왜 구해주지 않느냐?
 105 그는 너를 위해 평범한 무리에서 벗어났지.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 106/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
+106 Non odi tu la pieta del suo pianto,
+107 non vedi tu la morte che ’l combatte
+108 su la fiumana ove ’l mar non ha vanto?—.
+</prompt>
+<error>
 106 그의 통곡하는 애원을 듣지 못하느냐?
 107 바다가 통제할 수 없는 강에서 그를 공격하는 죽음을 보지 못하느냐?"
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 109/142</info>
@@ -539,19 +540,26 @@ Please translate each line literally into Korean.
 109 Al mondo non fur mai persone ratte
 110 a far lor pro o a fuggir lor danno,
 111 com’ io, dopo cotai parole fatte,
+</prompt>
+<error>
+109 세상에는 그런 말을 들은 후에
+110 자신의 이익을 위해 서두르거나 해를 피하기 위해 도망치는 사람이 없었습니다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 112/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 112 venni qua giù del mio beato scanno,
 113 fidandomi del tuo parlare onesto,
 114 ch’onora te e quei ch’udito l’hanno”.
 </prompt>
-<result>
-109 세상에는 그런 말을 들은 후에
-110 자신의 이익을 위해 서두르거나 해를 피하기 위해 도망치는 사람이 없었습니다.
-
+<error>
 111 저는 행복한 자리에서 여기로 내려왔습니다.
 112 당신의 정직한 말을 믿었기 때문입니다.
 113 그 말은 당신과 그것을 들은 사람들에게 영광을 안겨줍니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 115/142</info>
@@ -591,16 +599,23 @@ Please translate each line literally into Korean.
 121 Dunque: che è? perché, perché restai,
 122 perché tanta viltà nel core allette,
 123 perché ardire e franchezza non hai,
+</prompt>
+<result>
+121 그러니, 무슨 일이야? 왜, 왜 그렇게 머물렀지?
+122 왜 마음에 그토록 비겁함을 키우고,
+123 왜 담대함과 당당함이 없지?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 124/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 124 poscia che tai tre donne benedette
 125 curan di te ne la corte del cielo,
 126 e ’l mio parlar tanto ben ti promette?».
 </prompt>
 <result>
-121 그러니, 무슨 일이야? 왜, 왜 그렇게 머물렀지?
-122 왜 마음에 그토록 비겁함을 키우고,
-123 왜 담대함과 당당함이 없지?
-
 124 축복받은 세 여신이
 125 하늘의 궁정에서 당신을 돌보시고,
 126 제가 하는 말이 당신에게 아주 좋은 것을 약속하는데도 말이야?
@@ -614,32 +629,53 @@ Please translate each line literally into Korean.
 127 Quali fioretti dal notturno gelo
 128 chinati e chiusi, poi che ’l sol li ’mbianca,
 129 si drizzan tutti aperti in loro stelo,
+</prompt>
+<result>
+127 밤의 서리로
+128 구부러지고 닫혔던 작은 꽃들이
+129 해가 희게 비추자 모두 줄기를 펴고 피는 것처럼,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 130/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 130 tal mi fec’ io di mia virtude stanca,
 131 e tanto buono ardire al cor mi corse,
 132 ch’i’ cominciai come persona franca:
+</prompt>
+<result>
+130 저는 지친 나의 힘으로
+131 마음에 아주 좋은 용기를 얻었고,
+132 마치 당당한 사람처럼 말하기 시작했습니다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 133/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 133 «Oh pietosa colei che mi soccorse!
 134 e te cortese ch’ubidisti tosto
 135 a le vere parole che ti porse!
+</prompt>
+<result>
+133 "저를 구해준 자비로운 분이여!
+134 그리고 당신께서 그녀가 한 진실한 말씀에
+135 재빨리 순종해주셔서 감사합니다!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 136/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 136 Tu m’hai con disiderio il cor disposto
 137 sì al venir con le parole tue,
 138 ch’i’ son tornato nel primo proposto.
 </prompt>
 <result>
-127 밤의 서리로
-128 구부러지고 닫혔던 작은 꽃들이
-129 해가 희게 비추자 모두 줄기를 펴고 피는 것처럼,
-
-130 저는 지친 나의 힘으로
-131 마음에 아주 좋은 용기를 얻었고,
-132 마치 당당한 사람처럼 말하기 시작했습니다.
-
-133 "저를 구해준 자비로운 분이여!
-134 그리고 당신께서 그녀가 한 진실한 말씀에
-135 재빨리 순종해주셔서 감사합니다!
-
 136 당신의 말씀으로 저의 마음을
 137 오게 하고 싶은 열망으로 채워주셨기에,
 138 저는 처음의 결심으로 돌아왔습니다.
@@ -653,14 +689,21 @@ Please translate each line literally into Korean.
 139 Or va, ch’un sol volere è d’ambedue:
 140 tu duca, tu segnore e tu maestro».
 141 Così li dissi; e poi che mosso fue,
-
-142 intrai per lo cammino alto e silvestro.
 </prompt>
 <result>
 139 이제 가자, 우리 둘의 의지는 하나이니,
 140 당신은 나의 인도자요, 주인이요, 스승이시다."
 141 나는 그렇게 말했고, 그가 움직이기 시작하자,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 142/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
+142 intrai per lo cammino alto e silvestro.
+</prompt>
+<result>
 142 나는 높고 울창한 길로 들어섰다.
 </result>
 </query>

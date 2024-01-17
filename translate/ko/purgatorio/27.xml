@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="48">
 <query>
 <info>[Purgatorio Canto 27] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Korean.
 1 Sì come quando i primi raggi vibra
 2 là dove il suo fattor lo sangue sparse,
 3 cadendo Ibero sotto l’alta Libra,
+</prompt>
+<result>
+1 마치 첫 번째 광선이 떨릴 때처럼
+2 창조주께서 피를 뿌리신 곳에서,
+3 이베로 강이 높은 천칭자리 아래로 떨어지고,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 4/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 e l’onde in Gange da nona rïarse,
 5 sì stava il sole; onde ’l giorno sen giva,
 6 come l’angel di Dio lieto ci apparse.
 </prompt>
 <result>
-1 마치 첫 번째 광선이 떨릴 때처럼
-2 창조주께서 피를 뿌리신 곳에서,
-3 이베로 강이 높은 천칭자리 아래로 떨어지고,
-
 4 강가 강의 물결이 오후 3시에 다시 뜨거워지고,
 5 태양이 그 자리에 있었으므로, 하루가 저물어 갔다.
 6 마치 하느님의 천사가 기쁘게 우리에게 나타난 것처럼.
@@ -46,18 +53,23 @@ Please translate each line literally into Korean.
 10 Poscia «Più non si va, se pria non morde,
 11 anime sante, il foco: intrate in esso,
 12 e al cantar di là non siate sorde»,
+</prompt>
+<error>
+10 "거룩한 영혼들이여, 불이 먼저 물지 않으면 더 이상 갈 수 없습니다. 불 속으로 들어가십시오. 그리고 저쪽에서 노래하는 소리를 귀담아 들어라."
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 13/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 13 ci disse come noi li fummo presso;
 14 per ch’io divenni tal, quando lo ’ntesi,
 15 qual è colui che ne la fossa è messo.
 </prompt>
-<result>
-10 "거룩한 영혼들이여, 불이 먼저 물지 않으면 더 이상 갈 수 없습니다. 불 속으로 들어가십시오. 그리고 저쪽에서 노래하는 소리를 귀담아 들어라."
-
+<error>
 13 우리가 그에게 가까이 갔을 때 그가 우리에게 말했다. 그래서 나는 그것을 들었을 때, 무덤에 갇힌 사람처럼 되었다.
-
-15 인생의 중간길에서 나는 어두운 숲 속에 있었고, 곧은 길을 잃어버렸다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 27] 16/142</info>
@@ -68,36 +80,10 @@ Please translate each line literally into Korean.
 17 guardando il foco e imaginando forte
 18 umani corpi già veduti accesi.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "16 나는 죄책감에 눌려 손을 모으고,\n17 불을 바라보며, 불타는 인간의 몸을 강하게 상상했다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 16 나는 죄책감에 눌려 손을 모으고,
 17 불을 바라보며, 불타는 인간의 몸을 강하게 상상했다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 27] 19/142</info>
@@ -122,19 +108,26 @@ Please translate each line literally into Korean.
 22 Ricorditi, ricorditi! E se io
 23 sovresso Gerïon ti guidai salvo,
 24 che farò ora presso più a Dio?
-
-25 Credi per certo che se dentro a l’alvo
-26 di questa fiamma stessi ben mille anni,
-27 non ti potrebbe far d’un capel calvo.
 </prompt>
 <result>
 22 기억해, 기억해! 내가
 23 게리온을 타고 너를 안전하게 인도했다면,
 24 지금 하느님께 더 가까이에서 무엇을 할 수 있겠는가?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 25/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
+25 Credi per certo che se dentro a l’alvo
+26 di questa fiamma stessi ben mille anni,
+27 non ti potrebbe far d’un capel calvo.
+</prompt>
+<error>
 25 이 불꽃 속에 천 년 동안 있더라도,
 26 머리카락 한 가닥도 타지 않을 것이라는 것을 확실히 믿어라.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 27] 28/142</info>
@@ -145,36 +138,10 @@ Please translate each line literally into Korean.
 29 fatti ver’ lei, e fatti far credenza
 30 con le tue mani al lembo d’i tuoi panni.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "28 그리고 만약 네가 내가 너를 속인다고 생각한다면,\n29 그녀에게 가서 네 옷자락을 그녀의 손으로 만져보게 해."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 28 그리고 만약 네가 내가 너를 속인다고 생각한다면,
 29 그녀에게 가서 네 옷자락을 그녀의 손으로 만져보게 해.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 27] 31/142</info>
@@ -214,16 +181,23 @@ Please translate each line literally into Korean.
 37 Come al nome di Tisbe aperse il ciglio
 38 Piramo in su la morte, e riguardolla,
 39 allor che ’l gelso diventò vermiglio;
+</prompt>
+<result>
+37 티스베의 이름을 들었을 때,
+38 피라모는 죽음의 순간에 눈을 뜨고 그녀를 바라보았고,
+39 그때 뽕나무가 진홍색으로 변했다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 40/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 40 così, la mia durezza fatta solla,
 41 mi volsi al savio duca, udendo il nome
 42 che ne la mente sempre mi rampolla.
 </prompt>
 <result>
-37 티스베의 이름을 들었을 때,
-38 피라모는 죽음의 순간에 눈을 뜨고 그녀를 바라보았고,
-39 그때 뽕나무가 진홍색으로 변했다.
-
 40 그렇게 나의 완고함이 녹아내리며,
 41 나는 현명한 안내자에게로 돌아섰다. 그 이름을 들었을 때,
 42 내 마음속에 항상 떠오르는 그 이름을.
@@ -268,32 +242,6 @@ Please translate each line literally into Korean.
 50 gittato mi sarei per rinfrescarmi,
 51 tant’ era ivi lo ’ncendio sanza metro.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "49 내가 안으로 들어가자, 끓는 유리 속에\n50 몸을 던져서 식히고 싶을 정도로,\n51 그곳의 불길은 헤아릴 수 없이 거셌다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 49 내가 안으로 들어가자, 끓는 유리 속에
 50 몸을 던져서 식히고 싶을 정도로,
@@ -354,9 +302,9 @@ Please translate each line literally into Korean.
 62 non v’arrestate, ma studiate il passo,
 63 mentre che l’occidente non si annera».
 </prompt>
-<result>
+<error>
 61 "해가 지고 저녁이 오네요." 그가 말했다. "멈추지 말고 걸음을 재촉하세요. 서쪽 하늘이 어두워지기 전까지."
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 27] 64/142</info>
@@ -396,19 +344,26 @@ Please translate each line literally into Korean.
 70 E pria che ’n tutte le sue parti immense
 71 fosse orizzonte fatto d’uno aspetto,
 72 e notte avesse tutte sue dispense,
-
-73 ciascun di noi d’un grado fece letto;
-74 ché la natura del monte ci affranse
-75 la possa del salir più e ’l diletto.
 </prompt>
 <result>
 70 그리고 그 광대한 모든 부분에서
 71 수평선이 한 가지 모습으로 만들어지기 전에,
 72 그리고 밤이 그 모든 것을 차지하기 전에,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 73/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
+73 ciascun di noi d’un grado fece letto;
+74 ché la natura del monte ci affranse
+75 la possa del salir più e ’l diletto.
+</prompt>
+<error>
 73 우리 각자는 한 계단을 침대로 삼았다.
 74 산의 본성이 우리에게 오르는 힘과 즐거움을 빼앗았기 때문이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 27] 76/142</info>
@@ -418,31 +373,52 @@ Please translate each line literally into Korean.
 76 Quali si stanno ruminando manse
 77 le capre, state rapide e proterve
 78 sovra le cime avante che sien pranse,
+</prompt>
+<result>
+76 온순한 염소들이 어떻게 풀을 뜯고 있는지,
+77 빠르고 거만하게 뛰어다니던 염소들이
+78 먹이를 먹기 전에 정상 위에 서 있는지,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 79/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 79 tacite a l’ombra, mentre che ’l sol ferve,
 80 guardate dal pastor, che ’n su la verga
 81 poggiato s’è e lor di posa serve;
+</prompt>
+<error>
+79 태양이 뜨거운 동안 그늘에서 조용히,
+80 지팡이에 기대어 앉아 그들이 쉬도록 도와주는 목동의 감시를 받으며;
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 82/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 82 e quale il mandrïan che fori alberga,
 83 lungo il pecuglio suo queto pernotta,
 84 guardando perché fiera non lo sperga;
+</prompt>
+<result>
+82 그리고 밖에서 묵는 양치기가
+83 그의 가축 곁에서 조용히 밤을 보내며,
+84 짐승이 그들을 흩뜨리지 않도록 지키며;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 85/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 85 tali eravamo tutti e tre allotta,
 86 io come capra, ed ei come pastori,
 87 fasciati quinci e quindi d’alta grotta.
 </prompt>
 <result>
-76 온순한 염소들이 어떻게 풀을 뜯고 있는지,
-77 빠르고 거만하게 뛰어다니던 염소들이
-78 먹이를 먹기 전에 정상 위에 서 있는지,
-
-79 태양이 뜨거운 동안 그늘에서 조용히,
-80 지팡이에 기대어 앉아 그들이 쉬도록 도와주는 목동의 감시를 받으며;
-
-82 그리고 밖에서 묵는 양치기가
-83 그의 가축 곁에서 조용히 밤을 보내며,
-84 짐승이 그들을 흩뜨리지 않도록 지키며;
-
 85 그때 우리 셋도 그랬다.
 86 나는 염소처럼, 그들은 목동처럼,
 87 높은 동굴의 이쪽저쪽으로 둘러싸여 있었다.
@@ -486,23 +462,37 @@ Please translate each line literally into Korean.
 94 Ne l’ora, credo, che de l’orïente
 95 prima raggiò nel monte Citerea,
 96 che di foco d’amor par sempre ardente,
+</prompt>
+<error>
+94 동쪽에서 키테레아가 산에 처음으로 비추는 시간에,
+95 사랑의 불꽃으로 항상 타오르는 것처럼 보이는,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 97/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 97 giovane e bella in sogno mi parea
 98 donna vedere andar per una landa
 99 cogliendo fiori; e cantando dicea:
+</prompt>
+<result>
+97 젊고 아름다운 한 여인이
+98 꿈속에서 들판을 가며
+99 꽃을 따며 노래하는 것이 보였다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 100/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 100 «Sappia qualunque il mio nome dimanda
 101 ch’i’ mi son Lia, e vo movendo intorno
 102 le belle mani a farmi una ghirlanda.
 </prompt>
 <result>
-94 동쪽에서 키테레아가 산에 처음으로 비추는 시간에,
-95 사랑의 불꽃으로 항상 타오르는 것처럼 보이는,
-
-97 젊고 아름다운 한 여인이
-98 꿈속에서 들판을 가며
-99 꽃을 따며 노래하는 것이 보였다.
-
 100 "내 이름을 묻는 사람은 누구든지 알아두라.
 101 내 이름은 리아이고, 나는 돌아다니며
 102 아름다운 손으로 화환을 만들고 있다."
@@ -546,15 +536,22 @@ Please translate each line literally into Korean.
 109 E già per li splendori antelucani,
 110 che tanto a’ pellegrin surgon più grati,
 111 quanto, tornando, albergan men lontani,
+</prompt>
+<error>
+109 그리고이미새벽의빛이비추기시작했고,
+110 그것은순례자들에게돌아올수록숙소가더가까워지기때문에더욱고마운것이었다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 112/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 112 le tenebre fuggian da tutti lati,
 113 e ’l sonno mio con esse; ond’ io leva’mi,
 114 veggendo i gran maestri già levati.
 </prompt>
 <result>
-109 그리고이미새벽의빛이비추기시작했고,
-110 그것은순례자들에게돌아올수록숙소가더가까워지기때문에더욱고마운것이었다.
-
 112 어둠은사방에서도망쳤고,
 113 그리고나의수면도그것들과함께사라졌다. 그래서나는일어났고,
 114 위대한스승들이이미일어난것을보았다.
@@ -613,18 +610,25 @@ Please translate each line literally into Korean.
 124 Come la scala tutta sotto noi
 125 fu corsa e fummo in su ’l grado superno,
 126 in me ficcò Virgilio li occhi suoi,
+</prompt>
+<error>
+124 계단을 모두 오르고 가장 높은 계단에 도달했을 때,
+125 베르길리우스는 나를 바라보며 말했다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 127/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
 127 e disse: «Il temporal foco e l’etterno
 128 veduto hai, figlio; e se’ venuto in parte
 129 dov’ io per me più oltre non discerno.
 </prompt>
-<result>
-124 계단을 모두 오르고 가장 높은 계단에 도달했을 때,
-125 베르길리우스는 나를 바라보며 말했다.
-
+<error>
 126 "네가 일시적인 불과 영원한 불을 보았고, 아들아.
 127 그리고 네가 온 곳은 내가 더 이상 알 수 없는 곳이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 27] 130/142</info>
@@ -679,14 +683,21 @@ Please translate each line literally into Korean.
 139 Non aspettar mio dir più né mio cenno;
 140 libero, dritto e sano è tuo arbitrio,
 141 e fallo fora non fare a suo senno:
-
-142 per ch’io te sovra te corono e mitrio».
 </prompt>
 <result>
 139 나의 말이나 신호를 더 기다리지 마라.
 140 네 마음은 자유롭고, 곧고, 건강하다.
 141 그리고 네 마음대로 하지 않는 것은 잘못이다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 27] 142/142</info>
+<prompt>
+Please translate each line literally into Korean.
 
+142 per ch’io te sovra te corono e mitrio».
+</prompt>
+<result>
 142 그러므로 나는 네가 네 자신을 왕관과 모자로 장식하도록 한다.
 </result>
 </query>

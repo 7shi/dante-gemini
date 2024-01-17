@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="45">
 <query>
 <info>[Inferno Canto 9] 1/133</info>
 <prompt>
@@ -53,21 +53,28 @@ Please translate each line literally into Korean.
 10 I’ vidi ben sì com’ ei ricoperse
 11 lo cominciar con l’altro che poi venne,
 12 che fur parole a le prime diverse;
+</prompt>
+<error>
+10 나는 그가
+11 나중에 온 다른 사람과 함께 시작한 것을
+12 처음에는 다른 말이었지만
+13 분명히 보았다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 9] 13/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 13 ma nondimen paura il suo dir dienne,
 14 perch’ io traeva la parola tronca
 15 forse a peggior sentenzia che non tenne.
 </prompt>
-<result>
-10 나는 그가
-11 나중에 온 다른 사람과 함께 시작한 것을
-12 처음에는 다른 말이었지만
-13 분명히 보았다.
-
+<error>
 14 하지만 그의 말은 두려움을 불러일으켰다.
 15 내가 그의 말을 잘못 이해했기 때문일 것이다.
 16 그가 말한 것보다 더 나쁜 판단을 내렸을지도 모른다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 9] 16/133</info>
@@ -123,32 +130,6 @@ Please translate each line literally into Korean.
 26 ch’ella mi fece intrar dentr’ a quel muro,
 27 per trarne un spirto del cerchio di Giuda.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 내 육신이 벗겨진 지 얼마 되지 않았을 때\n26 그녀는 나를 그 성벽 안으로 들어가게 했습니다.\n27 유다의 고리에서 영혼 하나를 꺼내오기 위해서였습니다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 내 육신이 벗겨진 지 얼마 되지 않았을 때
 26 그녀는 나를 그 성벽 안으로 들어가게 했습니다.
@@ -193,27 +174,41 @@ Please translate each line literally into Korean.
 34 E altro disse, ma non l’ho a mente;
 35 però che l’occhio m’avea tutto tratto
 36 ver’ l’alta torre a la cima rovente,
-
-37 dove in un punto furon dritte ratto
-38 tre furïe infernal di sangue tinte,
-39 che membra feminine avieno e atto,
-
-40 e con idre verdissime eran cinte;
-41 serpentelli e ceraste avien per crine,
-42 onde le fiere tempie erano avvinte.
 </prompt>
 <result>
 34 그리고 다른 것도 말했지만 기억이 나지 않는다.
 35 하지만 내 눈은 나를 완전히 끌어당겼다.
 36 높은 탑, 타오르는 꼭대기로,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 37/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
+37 dove in un punto furon dritte ratto
+38 tre furïe infernal di sangue tinte,
+39 che membra feminine avieno e atto,
+</prompt>
+<error>
 37 그곳에서 갑자기 세 명의 지옥의 퓨리가 나타났다.
 38 피로 물든 채로, 여자의 몸과 행동을 하고 있었다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 9] 40/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
+40 e con idre verdissime eran cinte;
+41 serpentelli e ceraste avien per crine,
+42 onde le fiere tempie erano avvinte.
+</prompt>
+<error>
 39 그리고 푸른 히드라로 둘러싸여 있었다.
 40 머리에는 작은 뱀과 뿔이 있었고,
 42 그로 인해 사나운 이마가 묶여 있었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 9] 43/133</info>
@@ -224,10 +219,10 @@ Please translate each line literally into Korean.
 44 de la regina de l’etterno pianto,
 45 «Guarda», mi disse, «le feroci Erine.
 </prompt>
-<result>
+<error>
 43 그리고 영원한 슬픔의 여왕의 하인들을 잘 아는 그는,
 44 "보라"고 나에게 말했다. "사나운 에리니스들이여."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 9] 46/133</info>
@@ -313,10 +308,10 @@ Please translate each line literally into Korean.
 62 mirate la dottrina che s’asconde
 63 sotto ’l velame de li versi strani.
 </prompt>
-<result>
+<error>
 61 이성이 건전한 여러분,
 62 이상한 구절의 베일 아래 숨겨진 교훈을 살펴보십시오.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 9] 64/133</info>
@@ -326,24 +321,38 @@ Please translate each line literally into Korean.
 64 E già venìa su per le torbide onde
 65 un fracasso d’un suon, pien di spavento,
 66 per cui tremavano amendue le sponde,
+</prompt>
+<result>
+64 그리고 이미 탁한 파도 위로
+65 공포로 가득 찬 소리가 요란하게 들려왔다.
+66 그 소리에 두 강둑이 모두 떨렸다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 67/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 67 non altrimenti fatto che d’un vento
 68 impetüoso per li avversi ardori,
 69 che fier la selva e sanz’ alcun rattento
+</prompt>
+<result>
+67 마치 거센 바람이
+68 불타는 열기에 맞서 불어와
+69 숲을 강타하고 아무런 저항도 없이
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 70/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 70 li rami schianta, abbatte e porta fori;
 71 dinanzi polveroso va superbo,
 72 e fa fuggir le fiere e li pastori.
 </prompt>
 <result>
-64 그리고 이미 탁한 파도 위로
-65 공포로 가득 찬 소리가 요란하게 들려왔다.
-66 그 소리에 두 강둑이 모두 떨렸다.
-
-67 마치 거센 바람이
-68 불타는 열기에 맞서 불어와
-69 숲을 강타하고 아무런 저항도 없이
-
 70 나뭇가지를 부수고 쓰러뜨리고 멀리 날려버리는 것처럼 말이다.
 71 바람은 앞서 가며 먼지를 일으키며 거만하게 불어나고,
 72 야수와 목동들을 도망치게 한다.
@@ -372,16 +381,23 @@ Please translate each line literally into Korean.
 76 Come le rane innanzi a la nimica
 77 biscia per l’acqua si dileguan tutte,
 78 fin ch’a la terra ciascuna s’abbica,
+</prompt>
+<result>
+76 적의 뱀 앞에서 개구리들이
+77 물 속으로 모두 사라지듯이,
+78 각자 땅으로 달려가듯이,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 79/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 79 vid’ io più di mille anime distrutte
 80 fuggir così dinanzi ad un ch’al passo
 81 passava Stige con le piante asciutte.
 </prompt>
 <result>
-76 적의 뱀 앞에서 개구리들이
-77 물 속으로 모두 사라지듯이,
-78 각자 땅으로 달려가듯이,
-
 79 나는 천 명이 넘는 영혼들이
 80 발로 스틱스 강을 건너는 한 사람 앞에서
 81 도망치는 것을 보았다.
@@ -440,27 +456,41 @@ Please translate each line literally into Korean.
 91 «O cacciati del ciel, gente dispetta»,
 92 cominciò elli in su l’orribil soglia,
 93 «ond’ esta oltracotanza in voi s’alletta?
-
-94 Perché recalcitrate a quella voglia
-95 a cui non puote il fin mai esser mozzo,
-96 e che più volte v’ha cresciuta doglia?
-
-97 Che giova ne le fata dar di cozzo?
-98 Cerbero vostro, se ben vi ricorda,
-99 ne porta ancor pelato il mento e ’l gozzo».
 </prompt>
 <result>
 91 "하늘에서 쫓겨난 저주받은 자들아",
 92 그는 무시무시한 문지방에서 말을 시작했다.
 93 "너희 속에 이런 오만함이 어디서 생겼단 말이냐?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 94/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
+94 Perché recalcitrate a quella voglia
+95 a cui non puote il fin mai esser mozzo,
+96 e che più volte v’ha cresciuta doglia?
+</prompt>
+<error>
 94 왜 너희는 결코 끝이 없고,
 95 오히려 너희의 고통을 더 키우는 그 뜻에 거역하느냐?
+</error>
+</query>
+<query>
+<info>[Inferno Canto 9] 97/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
+97 Che giova ne le fata dar di cozzo?
+98 Cerbero vostro, se ben vi ricorda,
+99 ne porta ancor pelato il mento e ’l gozzo».
+</prompt>
+<error>
 96 운명에 맞서서 무슨 소용이 있느냐?
 98 너희의 케르베로스는, 너희가 잘 기억할 테지만,
 99 아직도 턱과 목이 벗겨져 있다".
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 9] 100/133</info>
@@ -470,19 +500,26 @@ Please translate each line literally into Korean.
 100 Poi si rivolse per la strada lorda,
 101 e non fé motto a noi, ma fé sembiante
 102 d’omo cui altra cura stringa e morda
-
-103 che quella di colui che li è davante;
-104 e noi movemmo i piedi inver’ la terra,
-105 sicuri appresso le parole sante.
 </prompt>
 <result>
 100 그러고 나서 그는 더러운 길로 돌아섰고,
 101 우리에게는 아무 말도 하지 않았지만,
 102 마치 다른 걱정에 시달리고 괴로워하는 사람처럼 보였다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 103/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
+103 che quella di colui che li è davante;
+104 e noi movemmo i piedi inver’ la terra,
+105 sicuri appresso le parole sante.
+</prompt>
+<error>
 103 앞에 있는 사람에 대한 걱정 말고는.
 104 우리는 거룩한 말씀을 믿고 땅으로 발을 옮겼다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 9] 106/133</info>
@@ -492,19 +529,26 @@ Please translate each line literally into Korean.
 106 Dentro li ’ntrammo sanz’ alcuna guerra;
 107 e io, ch’avea di riguardar disio
 108 la condizion che tal fortezza serra,
+</prompt>
+<error>
+106 우리는 아무런 저항도 받지 않고 그곳으로 들어갔다.
+107 나는 그런 요새가 가두고 있는 상황을 보고 싶어서,
+</error>
+</query>
+<query>
+<info>[Inferno Canto 9] 109/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 109 com’ io fui dentro, l’occhio intorno invio:
 110 e veggio ad ogne man grande campagna,
 111 piena di duolo e di tormento rio.
 </prompt>
-<result>
-106 우리는 아무런 저항도 받지 않고 그곳으로 들어갔다.
-107 나는 그런 요새가 가두고 있는 상황을 보고 싶어서,
-
+<error>
 108 안으로 들어가자마자 주위를 둘러보았다.
 109 그러자 사방에 큰 들판이 보였고,
 110 슬픔과 끔찍한 고통으로 가득 차 있었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 9] 112/133</info>
@@ -514,24 +558,38 @@ Please translate each line literally into Korean.
 112 Sì come ad Arli, ove Rodano stagna,
 113 sì com’ a Pola, presso del Carnaro
 114 ch’Italia chiude e suoi termini bagna,
+</prompt>
+<result>
+112 아를에서 로느 강이 정체되는 곳처럼,
+113 폴라에서 카르나로 만 근처처럼,
+114 이탈리아를 막고 그 국경을 적시는 곳처럼,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 115/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 115 fanno i sepulcri tutt’ il loco varo,
 116 così facevan quivi d’ogne parte,
 117 salvo che ’l modo v’era più amaro;
+</prompt>
+<result>
+115 무덤이 온 지역을 가득 채우고 있었고,
+116 여기서도 사방이 그랬지만,
+117 다만 방식이 더 잔인했다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 118/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
 118 ché tra li avelli fiamme erano sparte,
 119 per le quali eran sì del tutto accesi,
 120 che ferro più non chiede verun’ arte.
 </prompt>
 <result>
-112 아를에서 로느 강이 정체되는 곳처럼,
-113 폴라에서 카르나로 만 근처처럼,
-114 이탈리아를 막고 그 국경을 적시는 곳처럼,
-
-115 무덤이 온 지역을 가득 채우고 있었고,
-116 여기서도 사방이 그랬지만,
-117 다만 방식이 더 잔인했다.
-
 118 무덤 사이로 불꽃이 튀어나와 있었고,
 119 그 불꽃 때문에 무덤이 온통 타들어가서,
 120 어떤 기술로도 더 이상 불을 더 키울 수 없을 정도였다.
@@ -561,10 +619,10 @@ Please translate each line literally into Korean.
 125 che, seppellite dentro da quell’ arche,
 126 si fan sentir coi sospiri dolenti?».
 </prompt>
-<result>
+<error>
 124 나는 "스승님, 저 무덤 속에 묻힌 사람들은
 125 누구입니까? 그렇게 슬프게 신음하는 소리가 들리는데요?" 하고 물었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 9] 127/133</info>
@@ -575,32 +633,6 @@ Please translate each line literally into Korean.
 128 con lor seguaci, d’ogne setta, e molto
 129 più che non credi son le tombe carche.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "127 그들은 나에게 말했다. \"여기 이단자들이\n128 그들의 추종자들과 함께, 모든 종파의 사람들이 있고,\n129 당신이 생각하는 것보다 훨씬 더 많은 무덤이 가득 차 있습니다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 127 그들은 나에게 말했다. "여기 이단자들이
 128 그들의 추종자들과 함께, 모든 종파의 사람들이 있고,
@@ -615,14 +647,21 @@ Please translate each line literally into Korean.
 130 Simile qui con simile è sepolto,
 131 e i monimenti son più e men caldi».
 132 E poi ch’a la man destra si fu vòlto,
-
-133 passammo tra i martìri e li alti spaldi.
 </prompt>
 <result>
 130 비슷한 사람이 비슷한 사람과 함께 묻혔고,
 131 무덤은 더 따뜻하거나 덜 따뜻하다."
 132 그리고 그가 오른쪽으로 돌자,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 133/133</info>
+<prompt>
+Please translate each line literally into Korean.
 
+133 passammo tra i martìri e li alti spaldi.
+</prompt>
+<result>
 133 우리는 순교자들과 높은 성벽 사이를 지나갔다.
 </result>
 </query>

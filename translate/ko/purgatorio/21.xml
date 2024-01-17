@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="33">
+<queries count="47">
 <query>
 <info>[Purgatorio Canto 21] 1/136</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Korean.
 1 La sete natural che mai non sazia
 2 se non con l’acqua onde la femminetta
 3 samaritana domandò la grazia,
+</prompt>
+<result>
+1 결코 채워지지 않는 타고난 갈증은
+2 사마리아 여인이 은혜를 구한 물이 아니면
+3 채워지지 않습니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 4/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 mi travagliava, e pungeami la fretta
 5 per la ’mpacciata via dietro al mio duca,
 6 e condoleami a la giusta vendetta.
 </prompt>
 <result>
-1 결코 채워지지 않는 타고난 갈증은
-2 사마리아 여인이 은혜를 구한 물이 아니면
-3 채워지지 않습니다.
-
 4 나를 괴롭혔고, 서두르게 했으며
 5 좁은 길에서 나의 안내자를 따라가며
 6 정당한 복수에 대해 애도했습니다.
@@ -31,22 +38,36 @@ Please translate each line literally into Korean.
 7 Ed ecco, sì come ne scrive Luca
 8 che Cristo apparve a’ due ch’erano in via,
 9 già surto fuor de la sepulcral buca,
-
-10 ci apparve un’ombra, e dietro a noi venìa,
-11 dal piè guardando la turba che giace;
-12 né ci addemmo di lei, sì parlò pria,
-
-13 dicendo: «O frati miei, Dio vi dea pace».
 </prompt>
 <result>
 7 그리고 보십시오, 누가복음에 기록된 대로
 8 그리스도께서 길을 가던 두 사람에게 나타나셨듯이,
 9 이미 무덤에서 일어나셨습니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 10/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
+10 ci apparve un’ombra, e dietro a noi venìa,
+11 dal piè guardando la turba che giace;
+12 né ci addemmo di lei, sì parlò pria,
+</prompt>
+<result>
 10 한 그림자가 우리에게 나타나 우리 뒤를 따라왔습니다.
 11 발 아래로 누워 있는 무리를 바라보며;
 12 우리는 그 그림자를 알아채지 못했고, 그가 먼저 말했습니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 13/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
+13 dicendo: «O frati miei, Dio vi dea pace».
+</prompt>
+<result>
 13 "형제들이여, 하나님께서 평화를 주시기를 바랍니다."
 </result>
 </query>
@@ -57,15 +78,22 @@ Please translate each line literally into Korean.
 
 14 Noi ci volgemmo sùbiti, e Virgilio
 15 rendéli ’l cenno ch’a ciò si conface.
+</prompt>
+<result>
+14 우리는 즉시 돌아섰고, 베르길리우스는
+15 그에 걸맞는 신호를 보냈습니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 16/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
 16 Poi cominciò: «Nel beato concilio
 17 ti ponga in pace la verace corte
 18 che me rilega ne l’etterno essilio».
 </prompt>
 <result>
-14 우리는 즉시 돌아섰고, 베르길리우스는
-15 그에 걸맞는 신호를 보냈습니다.
-
 16 그러고 나서 말했습니다. "축복받은 의회에서
 17 진정한 법정이 당신에게 평화를 주시기를 바랍니다.
 18 저를 영원한 추방으로 보낸 법정이 말입니다."
@@ -95,10 +123,10 @@ Please translate each line literally into Korean.
 23 che questi porta e che l’angel profila,
 24 ben vedrai che coi buon convien ch’e’ regni.
 </prompt>
-<result>
+<error>
 22 나의 스승이 말했다. "네가 이 사람이 지닌 표식과 천사가 그린 윤곽을 보면,
 23 그가 선한 자들과 함께 통치해야 한다는 것을 분명히 알게 될 것이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 21] 25/136</info>
@@ -108,45 +136,26 @@ Please translate each line literally into Korean.
 25 Ma perché lei che dì e notte fila
 26 non li avea tratta ancora la conocchia
 27 che Cloto impone a ciascuno e compila,
+</prompt>
+<error>
+25 하지만 밤낮으로 실을 뽑는 그녀가
+26 아직 클로토가 각자에게 부여하고 정한 실을 뽑아내지 않았기 때문에,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 28/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
 28 l’anima sua, ch’è tua e mia serocchia,
 29 venendo sù, non potea venir sola,
 30 però ch’al nostro modo non adocchia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 하지만 밤낮으로 실을 뽑는 그녀가\n26 아직 클로토가 각자에게 부여하고 정한 실을 뽑아내지 않았기 때문에,\n\n27 네 동생인 그녀의 영혼이\n28 올라올 때 혼자 올 수 없었고,\n29 그래서 우리 방식으로는 볼 수 없었다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
-25 하지만 밤낮으로 실을 뽑는 그녀가
-26 아직 클로토가 각자에게 부여하고 정한 실을 뽑아내지 않았기 때문에,
-
+<error>
 27 네 동생인 그녀의 영혼이
 28 올라올 때 혼자 올 수 없었고,
 29 그래서 우리 방식으로는 볼 수 없었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 21] 31/136</info>
@@ -157,10 +166,10 @@ Please translate each line literally into Korean.
 32 d’inferno per mostrarli, e mosterrolli
 33 oltre, quanto ’l potrà menar mia scola.
 </prompt>
-<result>
+<error>
 31 그래서 나는 지옥의 넓은 입에서 끌려나와 그에게 보여주었고, 계속해서 보여줄 것이다.
 32 나의 가르침이 그를 인도할 수 있는 한.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 21] 34/136</info>
@@ -171,10 +180,10 @@ Please translate each line literally into Korean.
 35 diè dianzi ’l monte, e perché tutto ad una
 36 parve gridare infino a’ suoi piè molli».
 </prompt>
-<result>
+<error>
 34 하지만 네가 안다면 말해보렴, 왜 방금 산이 무너졌고, 왜 모든 것이 한꺼번에
 35 그 부드러운 기슭까지 소리치는 것처럼 보였는가?"
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 21] 37/136</info>
@@ -185,10 +194,10 @@ Please translate each line literally into Korean.
 38 del mio disio, che pur con la speranza
 39 si fece la mia sete men digiuna.
 </prompt>
-<result>
+<error>
 37 그는 내가 묻자 내 갈망의 구멍을 통해 나에게 대답했고, 그 희망으로
 38 나의 갈증은 덜 고통스러워졌다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 21] 40/136</info>
@@ -199,10 +208,10 @@ Please translate each line literally into Korean.
 41 ordine senta la religïone
 42 de la montagna, o che sia fuor d’usanza.
 </prompt>
-<result>
+<error>
 40 그는 말하기 시작했다. "산의 종교가 질서 없이 느껴지거나
 41 관습에서 벗어난 것은 아니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 21] 43/136</info>
@@ -227,26 +236,40 @@ Please translate each line literally into Korean.
 46 Per che non pioggia, non grando, non neve,
 47 non rugiada, non brina più sù cade
 48 che la scaletta di tre gradi breve;
+</prompt>
+<error>
+46 그래서 비도, 우박도, 눈도,
+47 이슬도, 서리도 세 계단의 짧은 사다리 위로는 내리지 않는다.
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 49/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
 49 nuvole spesse non paion né rade,
 50 né coruscar, né figlia di Taumante,
 51 che di là cangia sovente contrade;
+</prompt>
+<result>
+49 구름이 두껍거나 얇아 보이지 않고,
+50 번개도, 타우마스의 딸인 무지개도
+51 그곳에서 자주 지역을 바꾸지 않는다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 52/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
 52 secco vapor non surge più avante
 53 ch’al sommo d’i tre gradi ch’io parlai,
 54 dov’ ha ’l vicario di Pietro le piante.
 </prompt>
-<result>
-46 그래서 비도, 우박도, 눈도,
-47 이슬도, 서리도 세 계단의 짧은 사다리 위로는 내리지 않는다.
-
-49 구름이 두껍거나 얇아 보이지 않고,
-50 번개도, 타우마스의 딸인 무지개도
-51 그곳에서 자주 지역을 바꾸지 않는다.
-
+<error>
 52 마른 증기는 내가 말한 세 계단의 꼭대기보다 더 위로 올라가지 않는다.
 54 베드로의 대리인이 발을 디딘 곳.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 21] 55/136</info>
@@ -316,16 +339,23 @@ Please translate each line literally into Korean.
 67 E io, che son giaciuto a questa doglia
 68 cinquecent’ anni e più, pur mo sentii
 69 libera volontà di miglior soglia:
+</prompt>
+<result>
+67 그리고 이 고통에 누워 있던 나도
+68 오백 년이 넘었지만, 방금 느꼈다.
+69 더 나은 문턱으로 가는 자유 의지를.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 70/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
 70 però sentisti il tremoto e li pii
 71 spiriti per lo monte render lode
 72 a quel Segnor, che tosto sù li ’nvii».
 </prompt>
 <result>
-67 그리고 이 고통에 누워 있던 나도
-68 오백 년이 넘었지만, 방금 느꼈다.
-69 더 나은 문턱으로 가는 자유 의지를.
-
 70 그래서 지진을 느꼈고 경건한
 71 영혼들이 그 산에서 찬양을 드렸다.
 72 곧 그들을 위로 보내실 주님께.
@@ -384,19 +414,26 @@ Please translate each line literally into Korean.
 82 «Nel tempo che ’l buon Tito, con l’aiuto
 83 del sommo rege, vendicò le fóra
 84 ond’ uscì ’l sangue per Giuda venduto,
+</prompt>
+<error>
+82 좋은 티투스가 최고의 왕의 도움으로
+83 유다가 팔아서 피가 흘러나온 상처를 복수했을 때,
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 85/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
 85 col nome che più dura e più onora
 86 era io di là», rispuose quello spirto,
 87 «famoso assai, ma non con fede ancora.
 </prompt>
-<result>
-82 좋은 티투스가 최고의 왕의 도움으로
-83 유다가 팔아서 피가 흘러나온 상처를 복수했을 때,
-
+<error>
 84 가장 오래 지속되고 더욱 영광스러운 이름으로
 85 저쪽에 있었소." 그 영혼이 대답했다.
 86 "매우 유명했지만 아직 믿음은 없었소.
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 21] 88/136</info>
@@ -436,16 +473,23 @@ Please translate each line literally into Korean.
 94 Al mio ardor fuor seme le faville,
 95 che mi scaldar, de la divina fiamma
 96 onde sono allumati più di mille;
+</prompt>
+<result>
+94 나의 열정에 불꽃이 씨앗이 되었고,
+95 그 불꽃이 나를 따뜻하게 했는데, 그것은 신성한 불꽃이었다.
+96 천 명 이상이 그 불꽃으로 불이 붙었다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 97/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
 97 de l’Eneïda dico, la qual mamma
 98 fummi, e fummi nutrice, poetando:
 99 sanz’ essa non fermai peso di dramma.
 </prompt>
 <result>
-94 나의 열정에 불꽃이 씨앗이 되었고,
-95 그 불꽃이 나를 따뜻하게 했는데, 그것은 신성한 불꽃이었다.
-96 천 명 이상이 그 불꽃으로 불이 붙었다.
-
 97 나는 에네이스에 대해 말하는데, 그것은 나의 어머니였고,
 98 시를 쓰면서 나의 유모였다.
 99 그것 없이는 한 드람의 무게도 견딜 수 없었다.
@@ -474,16 +518,23 @@ Please translate each line literally into Korean.
 103 Volser Virgilio a me queste parole
 104 con viso che, tacendo, disse ‘Taci’;
 105 ma non può tutto la virtù che vuole;
+</prompt>
+<result>
+103 베르길리우스는 이런 말을 나에게 했다.
+104 말없이 "조용히 하라"고 말하는 표정으로.
+105 하지만 원하는 모든 것을 할 수 있는 것은 아니다.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 106/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
 106 ché riso e pianto son tanto seguaci
 107 a la passion di che ciascun si spicca,
 108 che men seguon voler ne’ più veraci.
 </prompt>
 <result>
-103 베르길리우스는 이런 말을 나에게 했다.
-104 말없이 "조용히 하라"고 말하는 표정으로.
-105 하지만 원하는 모든 것을 할 수 있는 것은 아니다.
-
 106 웃음과 울음은 너무나도 따르기 때문이다.
 107 각자가 떨어져 나가는 열정에,
 108 가장 진실한 사람들조차도 의지가 덜 따른다.
@@ -497,16 +548,23 @@ Please translate each line literally into Korean.
 109 Io pur sorrisi come l’uom ch’ammicca;
 110 per che l’ombra si tacque, e riguardommi
 111 ne li occhi ove ’l sembiante più si ficca;
+</prompt>
+<result>
+109 나는 미소를 지었다. 미소를 지으며 눈짓하는 사람처럼.
+110 그러자 그 그림자는 조용해졌고, 나를 바라보았다.
+111 눈을 통해 내 모습이 가장 잘 드러나는 곳에서.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 112/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
 112 e «Se tanto labore in bene assommi»,
 113 disse, «perché la tua faccia testeso
 114 un lampeggiar di riso dimostrommi?».
 </prompt>
 <result>
-109 나는 미소를 지었다. 미소를 지으며 눈짓하는 사람처럼.
-110 그러자 그 그림자는 조용해졌고, 나를 바라보았다.
-111 눈을 통해 내 모습이 가장 잘 드러나는 곳에서.
-
 112 "만약 그토록 많은 노력을 선한 일에 쏟는다면,"
 113 그는 말했다. "왜 방금 네 얼굴에
 114 미소가 번쩍였는가?"
@@ -520,19 +578,28 @@ Please translate each line literally into Korean.
 115 Or son io d’una parte e d’altra preso:
 116 l’una mi fa tacer, l’altra scongiura
 117 ch’io dica; ond’ io sospiro, e sono inteso
-
-118 dal mio maestro, e «Non aver paura»,
-119 mi dice, «di parlar; ma parla e digli
-120 quel ch’e’ dimanda con cotanta cura».
 </prompt>
-<result>
+<error>
 115 이제 나는 한쪽과 다른 쪽에서 붙잡혔다.
 116 한쪽은 나를 침묵하게 하고, 다른 쪽은
 117 내가 말하라고 간청한다. 그래서 나는 한숨을 쉬고,
 118 나의 스승이 알아차렸다. "두려워하지 마라."
 119 그는 말했다. "말하고, 그가
 120 그토록 간절히 요구하는 것을 말해라."
-</result>
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 118/136</info>
+<prompt>
+Please translate each line literally into Korean.
+
+118 dal mio maestro, e «Non aver paura»,
+119 mi dice, «di parlar; ma parla e digli
+120 quel ch’e’ dimanda con cotanta cura».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 21] 121/136</info>
@@ -588,10 +655,10 @@ Please translate each line literally into Korean.
 131 al mio dottor, ma el li disse: «Frate,
 132 non far, ché tu se’ ombra e ombra vedi».
 </prompt>
-<result>
+<error>
 130 그는 이미 내 스승의 발을 껴안으려고 몸을 굽혔지만,
 131 스승은 그에게 말했습니다. "그러지 마십시오. 당신은 그림자이고, 그림자를 보고 있습니다."
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 21] 133/136</info>
@@ -601,14 +668,21 @@ Please translate each line literally into Korean.
 133 Ed ei surgendo: «Or puoi la quantitate
 134 comprender de l’amor ch’a te mi scalda,
 135 quand’ io dismento nostra vanitate,
-
-136 trattando l’ombre come cosa salda».
 </prompt>
 <result>
 133 그리고 그는 일어나며 말했습니다. "이제 당신은
 134 당신에게 대한 나의 사랑의 정도를 이해할 수 있을 것입니다.
 135 우리의 허무함을 잊고,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 21] 136/136</info>
+<prompt>
+Please translate each line literally into Korean.
 
+136 trattando l’ombre come cosa salda».
+</prompt>
+<result>
 136 그림자를 실제 물체처럼 대할 때."
 </result>
 </query>

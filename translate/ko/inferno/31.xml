@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="34">
+<queries count="49">
 <query>
 <info>[Inferno Canto 31] 1/145</info>
 <prompt>
@@ -8,19 +8,26 @@ Please translate each line literally into Korean.
 1 Una medesma lingua pria mi morse,
 2 sì che mi tinse l’una e l’altra guancia,
 3 e poi la medicina mi riporse;
-
-4 così od’ io che solea far la lancia
-5 d’Achille e del suo padre esser cagione
-6 prima di trista e poi di buona mancia.
 </prompt>
 <result>
 1 먼저 한 가지 말이 나를 물었고,
 2 그래서 양쪽 뺨이 물들었고,
 3 그러고 나서 그 말이 나에게 약을 주었다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 31] 4/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
+4 così od’ io che solea far la lancia
+5 d’Achille e del suo padre esser cagione
+6 prima di trista e poi di buona mancia.
+</prompt>
+<error>
 4 아킬레스와 그의 아버지의 창이
 5 처음에는 나쁜 징조였지만 나중에는 좋은 징조가 되었다고 들었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 31] 7/145</info>
@@ -45,16 +52,23 @@ Please translate each line literally into Korean.
 10 Quiv’ era men che notte e men che giorno,
 11 sì che ’l viso m’andava innanzi poco;
 12 ma io senti’ sonare un alto corno,
+</prompt>
+<result>
+10 거기는 밤도 아니고 낮도 아니어서,
+11 내 시야가 별로 멀리까지 가지 않았다.
+12 하지만 나는 큰 나팔 소리가 나는 것을 들었는데,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 31] 13/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 13 tanto ch’avrebbe ogne tuon fatto fioco,
 14 che, contra sé la sua via seguitando,
 15 dirizzò li occhi miei tutti ad un loco.
 </prompt>
 <result>
-10 거기는 밤도 아니고 낮도 아니어서,
-11 내 시야가 별로 멀리까지 가지 않았다.
-12 하지만 나는 큰 나팔 소리가 나는 것을 들었는데,
-
 13 그 소리는 모든 천둥 소리를 희미하게 만들었을 정도로 컸고,
 14 그 소리는 자기 길을 따라가며,
 15 나의 시선을 한 곳으로 향하게 했다.
@@ -99,10 +113,10 @@ Please translate each line literally into Korean.
 23 per le tenebre troppo da la lungi,
 24 avvien che poi nel maginare abborri.
 </prompt>
-<result>
+<error>
 22 그러자 그들은 나에게 말했다. "하지만 너무 멀리 어둠 속을 헤매다 보면,
 23 결국 환상 속에서 혐오스러워질 것이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 31] 25/145</info>
@@ -113,32 +127,6 @@ Please translate each line literally into Korean.
 26 quanto ’l senso s’inganna di lontano;
 27 però alquanto più te stesso pungi».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 네가 거기에 도달하면 분명히 알게 될 것이다.\n26 감각이 얼마나 멀리서 속는지.\n27 그러니 조금 더 스스로를 채찍질해라.\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 네가 거기에 도달하면 분명히 알게 될 것이다.
 26 감각이 얼마나 멀리서 속는지.
@@ -153,18 +141,25 @@ Please translate each line literally into Korean.
 28 Poi caramente mi prese per mano
 29 e disse: «Pria che noi siam più avanti,
 30 acciò che ’l fatto men ti paia strano,
+</prompt>
+<error>
+28 그러고 나서 그는 다정하게 나의 손을 잡고 말했다. "우리가 더 나아가기 전에,
+29 사실이 너에게 이상하게 보이지 않도록,
+</error>
+</query>
+<query>
+<info>[Inferno Canto 31] 31/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 31 sappi che non son torri, ma giganti,
 32 e son nel pozzo intorno da la ripa
 33 da l’umbilico in giuso tutti quanti».
 </prompt>
-<result>
-28 그러고 나서 그는 다정하게 나의 손을 잡고 말했다. "우리가 더 나아가기 전에,
-29 사실이 너에게 이상하게 보이지 않도록,
-
+<error>
 31 저것들은 탑이 아니라 거인들이라는 것을 알아라.
 32 그리고 그들은 우물 속에 있고, 가장자리에서 배꼽까지 몸통이 밖으로 나와 있다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 31] 34/145</info>
@@ -174,35 +169,56 @@ Please translate each line literally into Korean.
 34 Come quando la nebbia si dissipa,
 35 lo sguardo a poco a poco raffigura
 36 ciò che cela ’l vapor che l’aere stipa,
-
-37 così forando l’aura grossa e scura,
-38 più e più appressando ver’ la sponda,
-39 fuggiemi errore e cresciemi paura;
-
-40 però che, come su la cerchia tonda
-41 Montereggion di torri si corona,
-42 così la proda che ’l pozzo circonda
-
-43 torreggiavan di mezza la persona
-44 li orribili giganti, cui minaccia
-45 Giove del cielo ancora quando tuona.
 </prompt>
 <result>
 34 안개가 걷히면,
 35 시선은 점차적으로 드러난다
 36 공기를 가득 채운 증기가 가린 것을,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 31] 37/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
+37 così forando l’aura grossa e scura,
+38 più e più appressando ver’ la sponda,
+39 fuggiemi errore e cresciemi paura;
+</prompt>
+<result>
 37 그래서 짙고 어두운 공기를 뚫고,
 38 점점 더 강변에 가까워지면서,
 39 오류는 사라지고 두려움은 커진다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 31] 40/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
+40 però che, come su la cerchia tonda
+41 Montereggion di torri si corona,
+42 così la proda che ’l pozzo circonda
+</prompt>
+<result>
 40 몬테레조네가 둥근 성벽 위에
 41 탑으로 장식되어 있는 것처럼,
 42 우물을 둘러싼 가장자리에는
+</result>
+</query>
+<query>
+<info>[Inferno Canto 31] 43/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
+43 torreggiavan di mezza la persona
+44 li orribili giganti, cui minaccia
+45 Giove del cielo ancora quando tuona.
+</prompt>
+<error>
 43 흉측한 거인들이 반신을 드러내고 우뚝 서 있었는데,
 44 제우스가 천둥을 울릴 때에도 그들을 위협한다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 31] 46/145</info>
@@ -213,32 +229,6 @@ Please translate each line literally into Korean.
 47 le spalle e ’l petto e del ventre gran parte,
 48 e per le coste giù ambo le braccia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "46 그리고 나는 이미 어떤 자의 얼굴,\n47 어깨와 가슴과 배의 상당 부분을 알아볼 수 있었고,\n48 갈비뼈를 따라 양쪽 팔이 늘어져 있었다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 46 그리고 나는 이미 어떤 자의 얼굴,
 47 어깨와 가슴과 배의 상당 부분을 알아볼 수 있었고,
@@ -268,16 +258,23 @@ Please translate each line literally into Korean.
 52 E s’ella d’elefanti e di balene
 53 non si pente, chi guarda sottilmente,
 54 più giusta e più discreta la ne tene;
+</prompt>
+<result>
+52 그리고 그녀가 코끼리와 고래를 만든 것을 후회하지 않는다면,
+53 자세히 보면,
+54 당신은 그녀를 더 공정하고 더 현명하다고 생각할 것이다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 31] 55/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 55 ché dove l’argomento de la mente
 56 s’aggiugne al mal volere e a la possa,
 57 nessun riparo vi può far la gente.
 </prompt>
 <result>
-52 그리고 그녀가 코끼리와 고래를 만든 것을 후회하지 않는다면,
-53 자세히 보면,
-54 당신은 그녀를 더 공정하고 더 현명하다고 생각할 것이다.
-
 55 이성의 주장이
 56 악의와 힘에 더해지면,
 57 아무도 대처할 수 없기 때문이다.
@@ -291,26 +288,40 @@ Please translate each line literally into Korean.
 58 La faccia sua mi parea lunga e grossa
 59 come la pina di San Pietro a Roma,
 60 e a sua proporzione eran l’altre ossa;
+</prompt>
+<error>
+58 그의 얼굴은 로마의 성 베드로 대성당 첨탑처럼 길고 크게 보였고,
+59 그의 다른 뼈들도 그에 비례했다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 31] 61/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 61 sì che la ripa, ch’era perizoma
 62 dal mezzo in giù, ne mostrava ben tanto
 63 di sovra, che di giugnere a la chioma
+</prompt>
+<error>
+60 그래서 허리 아래로는 속곳 역할을 하는 강변이
+61 머리까지 보여주었는데,
+62 세 명의 프리슬란드인이 합쳐도 그 머리카락에 도달하지 못했을 것이다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 31] 64/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 64 tre Frison s’averien dato mal vanto;
 65 però ch’i’ ne vedea trenta gran palmi
 66 dal loco in giù dov’ omo affibbia ’l manto.
 </prompt>
-<result>
-58 그의 얼굴은 로마의 성 베드로 대성당 첨탑처럼 길고 크게 보였고,
-59 그의 다른 뼈들도 그에 비례했다.
-
-60 그래서 허리 아래로는 속곳 역할을 하는 강변이
-61 머리까지 보여주었는데,
-62 세 명의 프리슬란드인이 합쳐도 그 머리카락에 도달하지 못했을 것이다.
-
+<error>
 63 왜냐하면 나는 그가 망토를 두르는 곳에서부터
 64 30파름이나 되는 것을 보았기 때문이다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 31] 67/145</info>
@@ -335,44 +346,25 @@ Please translate each line literally into Korean.
 70 E ’l duca mio ver’ lui: «Anima sciocca,
 71 tienti col corno, e con quel ti disfoga
 72 quand’ ira o altra passïon ti tocca!
+</prompt>
+<error>
+70 나의 안내자는 그에게 말했다. "어리석은 영혼이여,
+71 네 뿔을 잡고, 분노나 다른 감정이 샘솟을 때 그것으로 분출해라!
+</error>
+</query>
+<query>
+<info>[Inferno Canto 31] 73/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 73 Cércati al collo, e troverai la soga
 74 che ’l tien legato, o anima confusa,
 75 e vedi lui che ’l gran petto ti doga».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 나의 안내자는 그에게 말했다. \"어리석은 영혼이여,\n71 네 뿔을 잡고, 분노나 다른 감정이 샘솟을 때 그것으로 분출해라!\n\n72 네 목을 살펴보면, 네가 묶여 있는 끈을 발견할 것이다, 어리석은 영혼아.\n73 그리고 네 큰 가슴을 찌르는 그를 보아라.\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
-70 나의 안내자는 그에게 말했다. "어리석은 영혼이여,
-71 네 뿔을 잡고, 분노나 다른 감정이 샘솟을 때 그것으로 분출해라!
-
+<error>
 72 네 목을 살펴보면, 네가 묶여 있는 끈을 발견할 것이다, 어리석은 영혼아.
 73 그리고 네 큰 가슴을 찌르는 그를 보아라."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 31] 76/145</info>
@@ -398,12 +390,12 @@ Please translate each line literally into Korean.
 80 ché così è a lui ciascun linguaggio
 81 come ’l suo ad altrui, ch’a nullo è noto».
 </prompt>
-<result>
+<error>
 79 그를 내버려두고 헛된 말은 하지 말자.
 80 그에게는 모든 언어가
 81 다른 사람에게 자신의 언어가 알려지지 않은 것처럼
 82 아무것도 알려지지 않았기 때문이다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 31] 82/145</info>
@@ -428,16 +420,23 @@ Please translate each line literally into Korean.
 85 A cigner lui qual che fosse ’l maestro,
 86 non so io dir, ma el tenea soccinto
 87 dinanzi l’altro e dietro il braccio destro
+</prompt>
+<result>
+85 그에게 주인이 누구인지 물었지만,
+86 나는 모르겠지만, 그는 그를 묶어서
+87 다른 악마 앞에 세우고 오른쪽 팔 뒤로
+</result>
+</query>
+<query>
+<info>[Inferno Canto 31] 88/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 88 d’una catena che ’l tenea avvinto
 89 dal collo in giù, sì che ’n su lo scoperto
 90 si ravvolgëa infino al giro quinto.
 </prompt>
 <result>
-85 그에게 주인이 누구인지 물었지만,
-86 나는 모르겠지만, 그는 그를 묶어서
-87 다른 악마 앞에 세우고 오른쪽 팔 뒤로
-
 88 그를 묶어두는 사슬을 두르고 있었고
 89 목에서 아래로, 드러난 곳에
 90 다섯 바퀴까지 감아 있었습니다.
@@ -571,27 +570,41 @@ Please translate each line literally into Korean.
 115 «O tu che ne la fortunata valle
 116 che fece Scipïon di gloria reda,
 117 quand’ Anibàl co’ suoi diede le spalle,
-
-118 recasti già mille leon per preda,
-119 e che, se fossi stato a l’alta guerra
-120 de’ tuoi fratelli, ancor par che si creda
-
-121 ch’avrebber vinto i figli de la terra:
-122 mettine giù, e non ten vegna schifo,
-123 dove Cocito la freddura serra.
 </prompt>
 <result>
 115 오, 행운의 계곡에서
 116 스키피오에게 영광을 물려준
 117 아니발이 그의 군대와 함께 패배했을 때,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 31] 118/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
+118 recasti già mille leon per preda,
+119 e che, se fossi stato a l’alta guerra
+120 de’ tuoi fratelli, ancor par che si creda
+</prompt>
+<result>
 118 사자 천 마리를 사냥하여 먹이로 삼았고,
 119 네가 네 형제들의 위대한 전쟁에 참여했다면,
 120 아직도 지구의 자식들이 승리했을 것이라고 믿어지고 있을 것이다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 31] 121/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
+121 ch’avrebber vinto i figli de la terra:
+122 mettine giù, e non ten vegna schifo,
+123 dove Cocito la freddura serra.
+</prompt>
+<error>
 121 나를 내려놓고, 꺼려하지 말라.
 122 코키토스가 추위를 가두어 놓은 곳으로.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 31] 124/145</info>
@@ -617,10 +630,10 @@ Please translate each line literally into Korean.
 128 ch’el vive, e lunga vita ancor aspetta
 129 se ’nnanzi tempo grazia a sé nol chiama».
 </prompt>
-<result>
+<error>
 127 그는 아직 세상에서 네 명성을 되찾을 수 있게 할 수 있다.
 128 그는 살아 있고, 은혜가 그를 일찍 부르지 않는다면 아직 긴 인생이 기다리고 있다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 31] 130/145</info>
@@ -660,19 +673,26 @@ Please translate each line literally into Korean.
 136 Qual pare a riguardar la Carisenda
 137 sotto ’l chinato, quando un nuvol vada
 138 sovr’ essa sì, ched ella incontro penda:
+</prompt>
+<error>
+136 카리센다 탑을 아래에서 올려다보면,
+137 구름이 그 위로 지나가면서 탑이 구름을 향해 기울어지는 것처럼 보인다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 31] 139/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
 139 tal parve Antëo a me che stava a bada
 140 di vederlo chinare, e fu tal ora
 141 ch’i’ avrei voluto ir per altra strada.
 </prompt>
-<result>
-136 카리센다 탑을 아래에서 올려다보면,
-137 구름이 그 위로 지나가면서 탑이 구름을 향해 기울어지는 것처럼 보인다.
-
+<error>
 138 안테우스가 내게 보였을 때도 그랬다.
 139 나는 그가 굽히는 것을 보기 위해 기다렸고,
 140 다른 길을 가고 싶었던 적도 있었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 31] 142/145</info>
@@ -682,14 +702,21 @@ Please translate each line literally into Korean.
 142 Ma lievemente al fondo che divora
 143 Lucifero con Giuda, ci sposò;
 144 né, sì chinato, lì fece dimora,
-
-145 e come albero in nave si levò.
 </prompt>
 <result>
 142 그러나 그는 우리를 가볍게 삼켜버리는 심연,
 143 유다와 함께 루치페로가 있는 곳으로 데려갔다.
 144 그리고 그렇게 굽은 채로 거기에 머물지 않고,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 31] 145/145</info>
+<prompt>
+Please translate each line literally into Korean.
 
+145 e come albero in nave si levò.
+</prompt>
+<result>
 145 배 위의 나무처럼 일어섰다.
 </result>
 </query>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="45">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,19 +8,26 @@ Please translate each line literally into Korean.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<error>
+1 계속해서 말하건대, 우리가 높은 탑 아래에 도착하기 훨씬 전에,
+2 우리의 눈은 꼭대기로 올라갔습니다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Korean.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
-<result>
-1 계속해서 말하건대, 우리가 높은 탑 아래에 도착하기 훨씬 전에,
-2 우리의 눈은 꼭대기로 올라갔습니다.
-
+<error>
 3 두 개의 작은 불꽃이 놓인 것을 보고,
 4 그리고 멀리서 또 다른 불꽃이 신호를 보내고 있었는데,
 5 눈으로 간신히 볼 수 있을 정도였습니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 8] 7/130</info>
@@ -31,10 +38,10 @@ Please translate each line literally into Korean.
 8 dissi: «Questo che dice? e che risponde
 9 quell’ altro foco? e chi son quei che ’l fenno?».
 </prompt>
-<result>
+<error>
 7 그리고 나는 모든 지혜의 바다(베르길리우스)에게로 돌아섰습니다.
 8 "이게 뭐라고 하는 거지? 그리고 저 másik 불은 뭐라고 대답하는 거지? 그리고 저 불을 만든 사람들은 누구야?"라고 말했습니다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 8] 10/130</info>
@@ -59,16 +66,23 @@ Please translate each line literally into Korean.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 활이 스스로 화살을 쏘아올린 적이 없는데,
+14 공기를 가르며 그렇게 빠르게 날아간 적이 없는데,
+15 작은 배 하나가
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Korean.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 활이 스스로 화살을 쏘아올린 적이 없는데,
-14 공기를 가르며 그렇게 빠르게 날아간 적이 없는데,
-15 작은 배 하나가
-
 16 그 물 위로 우리에게 다가오는 것을 보았습니다.
 17 단 한 명의 노젓는 사람의 통제 아래,
 18 "이제 도착했구나, 사악한 영혼아!"라고 외치며.
@@ -202,16 +216,23 @@ Please translate each line literally into Korean.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 그러고는 그는 팔로 내 목을 감았다;
+44 내 얼굴에 입을 맞추며 말했다. "분노한 영혼이여,
+45 그대에게 잉태한 어머니는 복이 있도다!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Korean.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 그러고는 그는 팔로 내 목을 감았다;
-44 내 얼굴에 입을 맞추며 말했다. "분노한 영혼이여,
-45 그대에게 잉태한 어머니는 복이 있도다!
-
 46 저자는 세상에서 거만한 사람이었다;
 47 그의 기억을 장식할 만한 선행은 없다.
 48 그래서 그의 그림자가 여기서 이렇게 격노하는 것이다.
@@ -226,32 +247,6 @@ Please translate each line literally into Korean.
 50 che qui staranno come porci in brago,
 51 di sé lasciando orribili dispregi!».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "49 지금 저 위에서 위대한 왕으로 여겨지는 많은 이들이\n50 여기서는 진흙 속의 돼지처럼 있을 것이며,\n51 자신에 대한 끔찍한 경멸을 남기고 말 것이다!\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 49 지금 저 위에서 위대한 왕으로 여겨지는 많은 이들이
 50 여기서는 진흙 속의 돼지처럼 있을 것이며,
@@ -267,10 +262,10 @@ Please translate each line literally into Korean.
 53 di vederlo attuffare in questa broda
 54 prima che noi uscissimo del lago».
 </prompt>
-<result>
+<error>
 52 그리고 나는 말했다. "스승님, 저는 그가 이 진흙탕에 빠져드는 것을 보고 싶습니다.
 53 우리가 호수에서 나가기 전에."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 8] 55/130</info>
@@ -281,10 +276,10 @@ Please translate each line literally into Korean.
 56 ti si lasci veder, tu sarai sazio:
 57 di tal disïo convien che tu goda».
 </prompt>
-<result>
+<error>
 55 그러자 그는 나에게 말했다. "너는 해안이 보이기 전에
 56 만족하게 될 것이다. 너는 그런 욕망을 이루어야 한다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 8] 58/130</info>
@@ -295,10 +290,10 @@ Please translate each line literally into Korean.
 59 far di costui a le fangose genti,
 60 che Dio ancor ne lodo e ne ringrazio.
 </prompt>
-<result>
+<error>
 58 그 후 얼마 지나지 않아 나는 그가 진흙탕에 빠진 자들에게 저지른 학대를 보았다.
 59 나는 아직도 그것에 대해 하느님께 찬양과 감사를 드린다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 8] 61/130</info>
@@ -353,19 +348,26 @@ Please translate each line literally into Korean.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<error>
+70 그리고 나는 "스승님, 저기 계곡 안에 있는 그 탑들은
+71 불에서 나온 것처럼 붉은데요."
+</error>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Korean.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
-<result>
-70 그리고 나는 "스승님, 저기 계곡 안에 있는 그 탑들은
-71 불에서 나온 것처럼 붉은데요."
-
+<error>
 72 하고 말했다. 그러자 그가 "그 안에서 불태우는 영원한 불이
 73 그것들을 붉게 보이게 하는 거야.
 74 네가 이 지옥에서 보는 것처럼 말이야." 하고 말했다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 8] 76/130</info>
@@ -376,10 +378,10 @@ Please translate each line literally into Korean.
 77 che vallan quella terra sconsolata:
 78 le mura mi parean che ferro fosse.
 </prompt>
-<result>
+<error>
 76 우리는 마침내 그 황량한 땅을 둘러싼 높은 해자 안으로 들어갔다.
 77 그 성벽은 내게 철로 보였다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 8] 79/130</info>
@@ -390,10 +392,10 @@ Please translate each line literally into Korean.
 80 venimmo in parte dove il nocchier forte
 81 «Usciteci», gridò: «qui è l’intrata».
 </prompt>
-<result>
+<error>
 79 먼저 널찍한 우회로를 돌아서,
 80 우리는 노젓는 사람이 큰 소리로 "여기가 입구다. 나가시오!" 하고 외치는 곳에 도착했다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 8] 82/130</info>
@@ -403,8 +405,6 @@ Please translate each line literally into Korean.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
 82 나는 천국에서 내려온 천 명 이상이
@@ -413,24 +413,42 @@ Please translate each line literally into Korean.
 </result>
 </query>
 <query>
+<info>[Inferno Canto 8] 85/130</info>
+<prompt>
+Please translate each line literally into Korean.
+
+85 va per lo regno de la morta gente?».
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
 <info>[Inferno Canto 8] 86/130</info>
 <prompt>
 Please translate each line literally into Korean.
 
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+86 그러자 나의 현명한 스승은
+87 그들에게 은밀히 말하고 싶다는 신호를 보냈다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Korean.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
-<result>
-86 그러자 나의 현명한 스승은
-87 그들에게 은밀히 말하고 싶다는 신호를 보냈다.
-
+<error>
 88 그러자 그들은 잠시 큰 분노를 누그러뜨리고
 89 "네가 혼자 오너라. 감히 이 왕국에 들어온 그 자는 가게 하라.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 8] 91/130</info>
@@ -470,19 +488,26 @@ Please translate each line literally into Korean.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
-
-100 non mi lasciar», diss’ io, «così disfatto;
-101 e se ’l passar più oltre ci è negato,
-102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
 97 "사랑하는 나의 안내자여, 여러 번
 98 저를 위험으로부터 구해주시고 안전하게 해주셨는데,
 99 이제 저를 이렇게 버려두지 마십시오.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Korean.
 
+100 non mi lasciar», diss’ io, «così disfatto;
+101 e se ’l passar più oltre ci è negato,
+102 ritroviam l’orme nostre insieme ratto».
+</prompt>
+<error>
 100 저희가 더 이상 지나갈 수 없다면,
 101 우리 발자국을 재빨리 되돌아가 찾아봅시다." 하고 내가 말했다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 8] 103/130</info>
@@ -508,10 +533,10 @@ Please translate each line literally into Korean.
 107 conforta e ciba di speranza buona,
 108 ch’i’ non ti lascerò nel mondo basso».
 </prompt>
-<result>
+<error>
 106 "하지만 여기서 기다리거라. 그리고 지친 영혼을
 107 좋은 희망으로 위로하고 먹이라. 내가 너를 이 세상에 버려두지는 않을 것이다."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 8] 109/130</info>
@@ -611,14 +636,21 @@ Please translate each line literally into Korean.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 그위에너는죽은글씨를보았을것이다.
 128 그리고이미그곳에서올라가는길이내려오고,
 129 안내자없이원들을지나가며,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Korean.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 그래서그를위해땅이열릴것이다."
 </result>
 </query>

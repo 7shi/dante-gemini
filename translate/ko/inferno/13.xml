@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="40">
+<queries count="54">
 <query>
 <info>[Inferno Canto 13] 1/151</info>
 <prompt>
@@ -39,11 +39,10 @@ Please translate each line literally into Korean.
 8 quelle fiere selvagge che ’n odio hanno
 9 tra Cecina e Corneto i luoghi cólti.
 </prompt>
-<result>
+<error>
 7 체치나와 코르네토 사이의 야생 짐승들이 싫어하는
 8 경작된 땅에 있는 가시나무도 그렇게 거칠고 울창하지 않다.
-9
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 10/151</info>
@@ -54,32 +53,6 @@ Please translate each line literally into Korean.
 11 che cacciar de le Strofade i Troiani
 12 con tristo annunzio di futuro danno.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 거기에는 추악한 하르피들이 둥지를 틀었는데,\n11 미래의 재앙을 슬픈 소식으로 알려주며\n12 트로이 사람들을 스트로파데스에서 쫓아냈다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 10 거기에는 추악한 하르피들이 둥지를 틀었는데,
 11 미래의 재앙을 슬픈 소식으로 알려주며
@@ -109,15 +82,24 @@ Please translate each line literally into Korean.
 16 E ’l buon maestro «Prima che più entre,
 17 sappi che se’ nel secondo girone»,
 18 mi cominciò a dire, «e sarai mentre
-
-19 che tu verrai ne l’orribil sabbione.
 </prompt>
-<result>
+<error>
 16 선량한 스승이 "더 들어가기 전에,
 17 네가 두 번째 지옥에 있다는 것을 알아라"고
 18 말씀하시기 시작하셨고, "네가
 19 끔찍한 모래밭에 도착할 때까지 계속될 것이다.
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 19/151</info>
+<prompt>
+Please translate each line literally into Korean.
+
+19 che tu verrai ne l’orribil sabbione.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 20/151</info>
@@ -126,15 +108,22 @@ Please translate each line literally into Korean.
 
 20 Però riguarda ben; sì vederai
 21 cose che torrien fede al mio sermone».
+</prompt>
+<result>
+20 그러니 잘 살펴보라. 그러면
+21 내 말을 믿지 않을 만한 것들을 볼 것이다."
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 22/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 22 Io sentia d’ogne parte trarre guai
 23 e non vedea persona che ’l facesse;
 24 per ch’io tutto smarrito m’arrestai.
 </prompt>
 <result>
-20 그러니 잘 살펴보라. 그러면
-21 내 말을 믿지 않을 만한 것들을 볼 것이다."
-
 22 나는 사방에서 신음소리가 나는 것을 들었지만
 23 그 소리를 내는 사람은 보이지 않았다.
 24 그래서 나는 완전히 당황하여 멈춰 섰다.
@@ -193,16 +182,23 @@ Please translate each line literally into Korean.
 34 Da che fatto fu poi di sangue bruno,
 35 ricominciò a dir: «Perché mi scerpi?
 36 non hai tu spirto di pietade alcuno?
+</prompt>
+<result>
+34 그러자 피가 붉게 흐르기 시작했고,
+35 다시 말하기 시작했다. "왜 나를 찢어?
+36 너는 전혀 자비심이 없단 말이야?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 37/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 37 Uomini fummo, e or siam fatti sterpi:
 38 ben dovrebb’ esser la tua man più pia,
 39 se state fossimo anime di serpi».
 </prompt>
 <result>
-34 그러자 피가 붉게 흐르기 시작했고,
-35 다시 말하기 시작했다. "왜 나를 찢어?
-36 너는 전혀 자비심이 없단 말이야?
-
 37 우리는 인간이었지만 이제는 나무가 되었다.
 38 네 손이 더 자비로워야 할 텐데,
 39 우리가 뱀의 영혼이었다면 말이지."
@@ -216,16 +212,23 @@ Please translate each line literally into Korean.
 40 Come d’un stizzo verde ch’arso sia
 41 da l’un de’ capi, che da l’altro geme
 42 e cigola per vento che va via,
+</prompt>
+<result>
+40 한쪽 끝이 타고 다른 쪽 끝이 신음하는
+41 녹색 막대기처럼
+42 바람이 지나가면서 삐걱거리듯이,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 43/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 43 sì de la scheggia rotta usciva insieme
 44 parole e sangue; ond’ io lasciai la cima
 45 cadere, e stetti come l’uom che teme.
 </prompt>
 <result>
-40 한쪽 끝이 타고 다른 쪽 끝이 신음하는
-41 녹색 막대기처럼
-42 바람이 지나가면서 삐걱거리듯이,
-
 43 그 부러진 가지에서
 44 말과 피가 함께 나왔다. 그래서 나는
 45 꼭대기를 떨어뜨리고 두려워하는 사람처럼 서 있었다.
@@ -239,16 +242,23 @@ Please translate each line literally into Korean.
 46 «S’elli avesse potuto creder prima»,
 47 rispuose ’l savio mio, «anima lesa,
 48 ciò c’ha veduto pur con la mia rima,
+</prompt>
+<result>
+46 "그가 먼저 믿을 수 있었다면,"
+47 나의 현명한 스승이 대답했다. "상처받은 영혼이여,
+48 내가 운율로 본 것만으로도,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 49/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 49 non averebbe in te la man distesa;
 50 ma la cosa incredibile mi fece
 51 indurlo ad ovra ch’a me stesso pesa.
 </prompt>
 <result>
-46 "그가 먼저 믿을 수 있었다면,"
-47 나의 현명한 스승이 대답했다. "상처받은 영혼이여,
-48 내가 운율로 본 것만으로도,
-
 49 그는 너에게 손을 대지 않았을 것이다.
 50 하지만 믿을 수 없는 일이라서
 51 나 자신에게도 무거운 일을 하도록 만들었다.
@@ -292,19 +302,26 @@ Please translate each line literally into Korean.
 58 Io son colui che tenni ambo le chiavi
 59 del cor di Federigo, e che le volsi,
 60 serrando e diserrando, sì soavi,
+</prompt>
+<error>
+58 나는 페데리고의 마음의 두 열쇠를 모두 가지고 있었고,
+59 열고 닫으며 아주 부드럽게 돌렸다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 61/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 61 che dal secreto suo quasi ogn’ uom tolsi;
 62 fede portai al glorïoso offizio,
 63 tanto ch’i’ ne perde’ li sonni e ’ polsi.
 </prompt>
-<result>
-58 나는 페데리고의 마음의 두 열쇠를 모두 가지고 있었고,
-59 열고 닫으며 아주 부드럽게 돌렸다.
-
+<error>
 60 그래서 그의 비밀을 거의 모든 사람에게서 숨겼다.
 61 나는 영광스러운 직책에 충실했고,
 62 그래서 잠과 손목을 잃을 정도였다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 64/151</info>
@@ -314,16 +331,23 @@ Please translate each line literally into Korean.
 64 La meretrice che mai da l’ospizio
 65 di Cesare non torse li occhi putti,
 66 morte comune e de le corti vizio,
+</prompt>
+<result>
+64 카이사르의 궁전에서 눈을 돌리지 않던
+65 창녀,
+66 죽음의 공통점이자 궁정의 악덕인 그 여자가
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 67/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 67 infiammò contra me li animi tutti;
 68 e li ’nfiammati infiammar sì Augusto,
 69 che ’ lieti onor tornaro in tristi lutti.
 </prompt>
 <result>
-64 카이사르의 궁전에서 눈을 돌리지 않던
-65 창녀,
-66 죽음의 공통점이자 궁정의 악덕인 그 여자가
-
 67 나에 대한 모든 사람의 마음을 불태웠다.
 68 그리고 불타오른 그들은 아우구스투스를 불태웠고,
 69 그래서 즐거운 영예가 슬픈 슬픔으로 돌아갔다.
@@ -353,10 +377,10 @@ Please translate each line literally into Korean.
 74 vi giuro che già mai non ruppi fede
 75 al mio segnor, che fu d’onor sì degno.
 </prompt>
-<result>
+<error>
 73 이 나무의 아홉 개의 뿌리로 맹세하건대,
 74 나는 결코 나의 주군을 배신하지 않았다. 그는 매우 존귀한 분이셨다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 76/151</info>
@@ -397,10 +421,10 @@ Please translate each line literally into Korean.
 83 di quel che credi ch’a me satisfaccia;
 84 ch’i’ non potrei, tanta pietà m’accora».
 </prompt>
-<result>
+<error>
 82 그래서 나는 그에게 말했다. "당신이 내가 만족할 것이라고 생각하는 것에 대해 물어보세요.
 83 내가 너무나도 슬퍼서 할 수가 없어요."
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 85/151</info>
@@ -410,18 +434,27 @@ Please translate each line literally into Korean.
 85 Perciò ricominciò: «Se l’om ti faccia
 86 liberamente ciò che ’l tuo dir priega,
 87 spirito incarcerato, ancor ti piaccia
-
-88 di dirne come l’anima si lega
-89 in questi nocchi; e dinne, se tu puoi,
-90 s’alcuna mai di tai membra si spiega».
 </prompt>
-<result>
+<error>
 85 그래서 그는 다시 시작했다. "만약 사람이 당신이 말로 간청하는 것을
 86 자유롭게 해준다면, 감금된 영혼이여, 당신은 여전히
 87 이러한 마디들에 영혼이 어떻게 묶이는지 말하고 싶은가?
 88 그리고 말해봐, 만약 당신이 할 수 있다면,
 89 이러한 팔다리 중 어느 하나가 언젠가 풀려날 것인가?"
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 88/151</info>
+<prompt>
+Please translate each line literally into Korean.
+
+88 di dirne come l’anima si lega
+89 in questi nocchi; e dinne, se tu puoi,
+90 s’alcuna mai di tai membra si spiega».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 91/151</info>
@@ -521,19 +554,26 @@ Please translate each line literally into Korean.
 109 Noi eravamo ancora al tronco attesi,
 110 credendo ch’altro ne volesse dire,
 111 quando noi fummo d’un romor sorpresi,
-
-112 similemente a colui che venire
-113 sente ’l porco e la caccia a la sua posta,
-114 ch’ode le bestie, e le frasche stormire.
 </prompt>
 <result>
 109 우리는 여전히 줄기에 기대어 있었고,
 110 그가 다른 것을 말할 것이라고 생각했지만,
 111 우리는 소음에 놀랐다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 112/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
+112 similemente a colui che venire
+113 sente ’l porco e la caccia a la sua posta,
+114 ch’ode le bestie, e le frasche stormire.
+</prompt>
+<error>
 112 마치 멧돼지와 사냥이 다가오는 것을 느끼는 사람처럼,
 113 그는 짐승과 나뭇가지가 바스락거리는 소리를 들었다.
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 115/151</info>
@@ -544,32 +584,6 @@ Please translate each line literally into Korean.
 116 nudi e graffiati, fuggendo sì forte,
 117 che de la selva rompieno ogne rosta.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "115 그리고보니왼쪽에서두사람이,\n116 벌거벗고긁힌채로,너무나도빠르게달려서,\n117 숲의모든가시덤불을부수고지나갔다."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 115 그리고보니왼쪽에서두사람이,
 116 벌거벗고긁힌채로,너무나도빠르게달려서,
@@ -584,16 +598,23 @@ Please translate each line literally into Korean.
 118 Quel dinanzi: «Or accorri, accorri, morte!».
 119 E l’altro, cui pareva tardar troppo,
 120 gridava: «Lano, sì non furo accorte
-
-121 le gambe tue a le giostre dal Toppo!».
 </prompt>
 <result>
 118 그 앞에있는사람이:"이제달려라,달려라,죽음아!".
 119 그리고너무느리다고생각되는다른사람은,
 120 "라노,토포에서의경마에서너의다리는그렇게민첩하지않았구나!"라고외쳤다.
-
-(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있습니다.)
 </result>
+</query>
+<query>
+<info>[Inferno Canto 13] 121/151</info>
+<prompt>
+Please translate each line literally into Korean.
+
+121 le gambe tue a le giostre dal Toppo!».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 122/151</info>
@@ -602,20 +623,25 @@ Please translate each line literally into Korean.
 
 122 E poi che forse li fallia la lena,
 123 di sé e d’un cespuglio fece un groppo.
+</prompt>
+<result>
+122 그리고아마도그들에게힘이떨어지자,
+123 그는자신과덤불로뭉쳐버렸다.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 124/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
 124 Di rietro a loro era la selva piena
 125 di nere cagne, bramose e correnti
 126 come veltri ch’uscisser di catena.
 </prompt>
-<result>
-122 그리고아마도그들에게힘이떨어지자,
-123 그는자신과덤불로뭉쳐버렸다.
-
+<error>
 124 그들뒤로는숲이검은개들로가득찼고,
 125 그개들은사냥개가사슬에서풀려나듯이탐욕스럽고빠르게달려왔다.
-
-(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있고, 그들을 쫓는 검은 개들은 악마의 사냥개입니다.)
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 127/151</info>
@@ -626,38 +652,10 @@ Please translate each line literally into Korean.
 128 e quel dilaceraro a brano a brano;
 129 poi sen portar quelle membra dolenti.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "127 그가숨은그것에게개들이이빨을갈았고,\n128 그를조각조각찢어발기고,\n129 그런후그들은그슬픈사지를가져갔다.\n\n(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개입니다. 개들은 라노를 잡아서 찢어발기고, 그의 사지를 가져갑니다.)"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 127 그가숨은그것에게개들이이빨을갈았고,
 128 그를조각조각찢어발기고,
 129 그런후그들은그슬픈사지를가져갔다.
-
-(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개입니다. 개들은 라노를 잡아서 찢어발기고, 그의 사지를 가져갑니다.)
 </result>
 </query>
 <query>
@@ -669,12 +667,10 @@ Please translate each line literally into Korean.
 131 e menommi al cespuglio che piangea
 132 per le rotture sanguinenti in vano.
 </prompt>
-<result>
+<error>
 130 그때내안내자가나의손을잡고,
 131 나를헛되이피투성이로찢어진덤불로이끌었다.
-
-(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개였습니다. 단테의 안내자인 베르길리우스는 단테를 덤불로 이끌고 갑니다.)
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 133/151</info>
@@ -689,8 +685,6 @@ Please translate each line literally into Korean.
 133 "오, 산트안드레아의 자코포여," 그는 말했다.
 134 "네가나를방패삼아도무슨소용이있었겠느냐?
 135 네가사악하게살아온것이내탓이란말이냐?"
-
-(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개였습니다. 단테의 안내자인 베르길리우스는 단테를 덤불로 이끌고 갑니다. 덤불 속에서 자코포는 라노에게 이렇게 말합니다.)
 </result>
 </query>
 <query>
@@ -706,8 +700,6 @@ Please translate each line literally into Korean.
 136 스승이그덤불위에서서자,
 137 "너는누구냐?이렇게많은가시에찔려
 138 피투성이가되도록고통을참아내느냐?"고물었다.
-
-(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개였습니다. 단테의 안내자인 베르길리우스는 단테를 덤불로 이끌고 갑니다. 덤불 속에서 자코포는 라노에게 이렇게 말하고, 베르길리우스는 자코포에게 이렇게 묻습니다.)
 </result>
 </query>
 <query>
@@ -718,17 +710,22 @@ Please translate each line literally into Korean.
 139 Ed elli a noi: «O anime che giunte
 140 siete a veder lo strazio disonesto
 141 c’ha le mie fronde sì da me disgiunte,
-
-142 raccoglietele al piè del tristo cesto.
 </prompt>
 <result>
 139 그리고그는우리에게이렇게말했다."오,여러분,
 140 내잎사귀가나에게서떨어져나가도록
 141 나를이렇게추하게찢어놓은것을보러온영혼들이여,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 142/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
+142 raccoglietele al piè del tristo cesto.
+</prompt>
+<result>
 142 나의슬픈덤불아래에그것들을모아주시오.
-
-(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개였습니다. 단테의 안내자인 베르길리우스는 단테를 덤불로 이끌고 갑니다. 덤불 속에서 자코포는 라노에게 이렇게 말하고, 베르길리우스는 자코포에게 이렇게 묻습니다. 그리고 자코포는 베르길리우스와 단테에게 이렇게 말합니다.)
 </result>
 </query>
 <query>
@@ -738,16 +735,8 @@ Please translate each line literally into Korean.
 
 143 I’ fui de la città che nel Batista
 144 mutò ’l primo padrone; ond’ ei per questo
-
-145 sempre con l’arte sua la farà trista;
-146 e se non fosse che ’n sul passo d’Arno
-147 rimane ancor di lui alcuna vista,
-
-148 que’ cittadin che poi la rifondarno
-149 sovra ’l cener che d’Attila rimase,
-150 avrebber fatto lavorare indarno.
 </prompt>
-<result>
+<error>
 143 나는침례자 요한이
 144 첫 번째 주인을 바꾼 도시에서 왔는데, 그래서 그는
 145 항상 자신의 기술로 그 도시를 슬프게 만들 것입니다.
@@ -756,20 +745,41 @@ Please translate each line literally into Korean.
 148 나중에 그 도시를 재건한 시민들은
 149 아틸라가 남긴 재 위에
 150 헛수고를 했을 것입니다.
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 145/151</info>
+<prompt>
+Please translate each line literally into Korean.
 
-(이 구절은 단테가 지옥의 제8지옥에서 만난 두 명의 도박꾼, 라노 다 시에나와 자코포 다 산트안드레아에 대한 것입니다. 그들은 서로를 비난하며 달려가고 있었고, 그들을 쫓는 검은 개들은 악마의 사냥개였습니다. 단테의 안내자인 베르길리우스는 단테를 덤불로 이끌고 갑니다. 덤불 속에서 자코포는 라노에게 이렇게 말하고, 베르길리우스는 자코포에게 이렇게 묻습니다. 그리고 자코포는 베르길리우스와 단테에게 이렇게 말합니다. 자코포는 자신이 피렌체에서 왔다고 말합니다.)
-</result>
+145 sempre con l’arte sua la farà trista;
+146 e se non fosse che ’n sul passo d’Arno
+147 rimane ancor di lui alcuna vista,
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 148/151</info>
+<prompt>
+Please translate each line literally into Korean.
+
+148 que’ cittadin che poi la rifondarno
+149 sovra ’l cener che d’Attila rimase,
+150 avrebber fatto lavorare indarno.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 151/151</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Korean.
 
 151 Io fei gibetto a me de le mie case».
 </prompt>
-<error result="true">
-Response too long: (328 &amp;gt; 273)
-</error>
 <result>
 151 나는 내 집을 교수대 삼았다».
 </result>
