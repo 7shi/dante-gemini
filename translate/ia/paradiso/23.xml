@@ -610,7 +610,23 @@ Please translate each line literally into Interlingua.
 </prompt>
 <error>
 index: 0
-finish_reason: OTHER
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 </query>
 <query>
@@ -623,7 +639,8 @@ Please translate each line literally into Interlingua.
 126 ch’elli avieno a Maria mi fu palese.
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -664,9 +681,11 @@ Please translate each line literally into Interlingua.
 134 che s’acquistò piangendo ne lo essilio
 135 di Babillòn, ove si lasciò l’oro.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+133 Ibi se vive e gode del thesauro
+134 que se acquiriva plorante in le exilio
+135 de Babylon, ubi se lassava le auro.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 23] 136/139</info>
@@ -689,8 +708,8 @@ Please translate each line literally into Interlingua.
 
 139 colui che tien le chiavi di tal gloria.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+139 ille qui tene le claves de tal gloria.
+</result>
 </query>
 </queries>

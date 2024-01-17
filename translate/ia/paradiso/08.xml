@@ -114,10 +114,11 @@ Please translate each line literally into Interlingua.
 23 o visibili o no, tanto festini,
 24 che non paressero impediti e lenti
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+22 De frigide nube non discendeva ventos,
+23 o visibile o no, tanto festinante,
+24 que non pareva impedite e lente
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 8] 25/148</info>
@@ -129,7 +130,8 @@ Please translate each line literally into Interlingua.
 27 pria cominciato in li alti Serafini;
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -142,7 +144,8 @@ Please translate each line literally into Interlingua.
 30 di rïudir non fui sanza disiro.
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -201,7 +204,23 @@ Please translate each line literally into Interlingua.
 </prompt>
 <error>
 index: 0
-finish_reason: OTHER
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 </query>
 <query>
@@ -214,7 +233,8 @@ Please translate each line literally into Interlingua.
 45 la voce mia di grande affetto impressa.
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -331,10 +351,11 @@ Please translate each line literally into Interlingua.
 68 tra Pachino e Peloro, sopra ’l golfo
 69 che riceve da Euro maggior briga,
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+67 E le belle Trinacria, que caliga
+68 inter Pachino e Peloro, super le golfo
+69 que recipe ab Euro major briga,
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 8] 70/148</info>
@@ -346,7 +367,8 @@ Please translate each line literally into Interlingua.
 72 nati per me di Carlo e di Ridolfo,
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -358,9 +380,11 @@ Please translate each line literally into Interlingua.
 74 li popoli suggetti, non avesse
 75 mosso Palermo a gridar: “Mora, mora!”.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+73 si mal senjoria, que semper accora
+74 li populos subjecte, non habeva
+75 movite Palermo a clamar: “More, more!”.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 8] 76/148</info>
@@ -505,9 +529,11 @@ Please translate each line literally into Interlingua.
 104 disposto cade a proveduto fine,
 105 sì come cosa in suo segno diretta.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+103 per que quantunque iste arco sagitta
+104 disponite cade a providite fine,
+105 si como cosa in su signo directe.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 8] 106/148</info>
@@ -518,9 +544,11 @@ Please translate each line literally into Interlingua.
 107 producerebbe sì li suoi effetti,
 108 che non sarebbero arti, ma ruine;
 </prompt>
-<error>
-Too few spaces: '106 Sihocnonforet,lecielquetucammina\n107 produceretsiilsuoseffectos,\n108 quenonessentartes,sedruinas;\n\n109 ethochcessenonpotest,sileintellectos\n110 quemovuntistasstellasnonsuntmancos,\n111 etmancoelprimo,quenonlihaperfectos.'
-</error>
+<result>
+106 Si isto non esseva, le celo que tu cammina
+107 producerea si li su effectos,
+108 que non serea artes, ma ruinas;
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 8] 109/148</info>
@@ -532,7 +560,8 @@ Please translate each line literally into Interlingua.
 111 e manco il primo, che non li ha perfetti.
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -544,9 +573,11 @@ Please translate each line literally into Interlingua.
 113 E io: «Non già; ché impossibil veggio
 114 che la natura, in quel ch’è uopo, stanchi».
 </prompt>
-<error>
-Too few spaces: '112Volestuqueistoverplusteimbianca?».\n113Eio: «Nonjam; queimpossibilevideoque lanatura, inquelqueesnecessari, stanca».'
-</error>
+<result>
+112 Vole tu que iste veritate plus te se imbianca?».
+113 E io: «Non jam; que impossibile video
+114 que le natura, in illo que es requirite, se fatiga».
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 8] 115/148</info>
@@ -571,10 +602,11 @@ Please translate each line literally into Interlingua.
 119 diversamente per diversi offici?
 120 Non, se ’l maestro vostro ben vi scrive».
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+118 «E pote ille esser, se juso non se vive
+119 diversamente per diverse officios?
+120 Non, se le maestro vestro ben vos scribe».
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 8] 121/148</info>
@@ -675,9 +707,11 @@ Please translate each line literally into Interlingua.
 140 discorde a sé, com’ ogne altra semente
 141 fuor di sua regïon, fa mala prova.
 </prompt>
-<error>
-Too few spaces: '139Semprenatura,sifortuna trova\n140discordease,comognealtras semente\n141fordesuaregion,famalaprova.'
-</error>
+<result>
+139 Sempre natura, se fortuna trova
+140 discorde a se, como omne altra semente
+141 foras de su region, face mal prova.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 8] 142/148</info>

@@ -54,7 +54,8 @@ Please translate each line literally into Interlingua.
 12 mal conosciuto, che quivi traluce.
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -126,10 +127,11 @@ Please translate each line literally into Interlingua.
 26 l’alto valor del voto, s’è sì fatto
 27 che Dio consenta quando tu consenti;
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+25 Ora te parera, se tu quinci argumenta,
+26 le alte valor del voto, se es si facite
+27 que Deo consenti quando tu consenti;
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 5] 28/139</info>
@@ -141,7 +143,8 @@ Please translate each line literally into Interlingua.
 30 tal quale io dico; e fassi col suo atto.
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -183,7 +186,8 @@ Please translate each line literally into Interlingua.
 39 richiede ancora aiuto a tua dispensa.
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -404,7 +408,24 @@ Please translate each line literally into Interlingua.
 84 seco medesmo a suo piacer combatte!».
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 </query>
 <query>
@@ -416,10 +437,11 @@ Please translate each line literally into Interlingua.
 86 poi si rivolse tutta disïante
 87 a quella parte ove ’l mondo è più vivo.
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+85 Cossi Beatrice a me como io scribe;
+86 postea se rivoltava tote disiante
+87 a ille parte ubi le mundo es plus vive.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 5] 88/139</info>

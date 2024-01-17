@@ -203,7 +203,23 @@ Please translate each line literally into Interlingua.
 42 sì ch’altra vita la prima relinqua.
 </prompt>
 <error>
-(no result)
+block_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 </query>
 <query>
@@ -545,10 +561,11 @@ Please translate each line literally into Interlingua.
 110 ten porti che son nate in questa spera,
 111 proceder ancor oltre mi convene.
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+109 Ma proque tote le tue volias plene
+110 ten porta que son nascite in iste sphera,
+111 proceder anco ultra mi convene.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 9] 112/142</info>
@@ -559,10 +576,11 @@ Please translate each line literally into Interlingua.
 113 che qui appresso me così scintilla
 114 come raggio di sole in acqua mera.
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+112 Tu vole saper qui es in iste lumine
+113 que hic presso me assi scintilla
+114 como radio de sole in aqua mera.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 9] 115/142</info>
@@ -632,9 +650,11 @@ Please translate each line literally into Interlingua.
 128 che pria volse le spalle al suo fattore
 129 e di cui è la ’nvidia tanto pianta,
 </prompt>
-<error>
-Too few spaces: '127 Latuacivitate,quedeilluesplantate\n128 quepriavolseleispalleasufactor\n129 edequeeslainvidiaquantoplantate,\n\n130 produceespandeilmaledictoflor\n131 queadisviatelepecoreeliagni,\n132 perquequefactohalupumdelpastore.'
-</error>
+<result>
+127 Le tue citate, que de ille es plantate
+128 que prime volveva le spalle a su factor
+129 e de qui le invidia es tanto plantate,
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 9] 130/142</info>
@@ -645,9 +665,11 @@ Please translate each line literally into Interlingua.
 131 c’ha disvïate le pecore e li agni,
 132 però che fatto ha lupo del pastore.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+130 produce e spande le maledicte flor
+131 que ha disviate le pecoras e le agnos,
+132 per que ha facite lupo del pastor.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 9] 133/142</info>

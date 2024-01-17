@@ -249,7 +249,8 @@ Please translate each line literally into Interlingua.
 51 che non ha fine e sé con sé misura.
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -484,10 +485,11 @@ Please translate each line literally into Interlingua.
 98 son le mie note a te, che non le ’ntendi,
 99 tal è il giudicio etterno a voi mortali».
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+97 Rotante cantava, e diceva: «Quale
+98 son le mie notas a te, que non le intende,
+99 tal es le judicio eterne a voi mortales».
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 19] 100/148</info>
@@ -512,9 +514,11 @@ Please translate each line literally into Interlingua.
 104 non salì mai chi non credette ’n Cristo,
 105 né pria né poi ch’el si chiavasse al legno.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+103 esso recominciava: «A iste regno
+104 non sali nunquam qui non credeva in Christo,
+105 ne pre ne postea que ille se clavava al ligno.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 19] 106/148</info>
@@ -540,7 +544,24 @@ Please translate each line literally into Interlingua.
 111 l’uno in etterno ricco e l’altro inòpe.
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 </query>
 <query>
@@ -613,7 +634,8 @@ Please translate each line literally into Interlingua.
 126 che mai valor non conobbe né volle.
 </prompt>
 <error>
-Too few spaces: '124 Tuvederaeluxuriaelevivermolle\n125 dequeldeHispaniaedequeldeBohemia,\n126 queuncavalornoncognovevonivolle.'
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -625,9 +647,11 @@ Please translate each line literally into Interlingua.
 128 segnata con un i la sua bontate,
 129 quando ’l contrario segnerà un emme.
 </prompt>
-<error>
-Too few spaces: '127 TuvederasalCiottodiIerusalem\n128 signateconunilasubontate,\n129 quandolocontrariosignaraunum.'
-</error>
+<result>
+127 Videbit se al Ciotto de Jerusalem
+128 signate con un i su bonitate,
+129 quando le contrario signara un emme.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 19] 130/148</info>
@@ -639,7 +663,8 @@ Please translate each line literally into Interlingua.
 132 ove Anchise finì la lunga etate;
 </prompt>
 <error>
-Too few spaces: '130 Tuvederaleavaritiaeelvilitate\n131 dequelqueguardaalisoladelfoco,\n132 ubiAnchisefinilaolongaeetate;\n\n133 eaprodaradintenderquantoespoco,\n134 lasuascripturasianlitterasmocce,\n135 quenotabitmultoinparvoloco.'
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -651,9 +676,11 @@ Please translate each line literally into Interlingua.
 134 la sua scrittura fian lettere mozze,
 135 che noteranno molto in parvo loco.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+133 e a dar a intender quanto es poco,
+134 le sue scriptura fian litteras mozze,
+135 que notara multo in parve loco.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 19] 136/148</info>

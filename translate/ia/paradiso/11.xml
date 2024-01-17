@@ -11,7 +11,23 @@ Please translate each line literally into Interlingua.
 </prompt>
 <error>
 index: 0
-finish_reason: OTHER
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 </query>
 <query>
@@ -24,7 +40,8 @@ Please translate each line literally into Interlingua.
 6 e chi regnar per forza o per sofismi,
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -37,7 +54,8 @@ Please translate each line literally into Interlingua.
 9 s’affaticava e chi si dava a l’ozio,
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -49,9 +67,11 @@ Please translate each line literally into Interlingua.
 11 con Bëatrice m’era suso in cielo
 12 cotanto glorïosamente accolto.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+10 Quando, da tote iste cosas solvite,
+11 con Beatrice me era sursum in celo
+12 cotanto gloriosemente accolto.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 11] 13/139</info>
@@ -151,9 +171,11 @@ Please translate each line literally into Interlingua.
 32 la sposa di colui ch’ad alte grida
 33 disposò lei col sangue benedetto,
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+31 pro que andasse verso lo su dilicto
+32 la sposa de colui que ad alte crida
+33 disposava lei con le sanguine benedicte,
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 11] 34/139</info>
@@ -164,9 +186,11 @@ Please translate each line literally into Interlingua.
 35 due principi ordinò in suo favore,
 36 che quinci e quindi le fosser per guida.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+34 in se secura e anque a ille plus fida,
+35 duo principes ordinava in su favor,
+36 que quinci e quindi le fosser pro guida.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 11] 37/139</info>
@@ -177,9 +201,11 @@ Please translate each line literally into Interlingua.
 38 l’altro per sapïenza in terra fue
 39 di cherubica luce uno splendore.
 </prompt>
-<error>
-Too few spaces: '37 Leunoestutoteseraphicinardore;\n38 lalteroperisapientiainterrafoe\n39 decherubicaluceunosplendore.'
-</error>
+<result>
+37 Le un esseva toto seraphic in ardor;
+38 le altere pro sapientia in terra esseva
+39 de cherubica luce un splendor.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 11] 40/139</info>
@@ -444,9 +470,11 @@ Please translate each line literally into Interlingua.
 92 ad Innocenzio aperse, e da lui ebbe
 93 primo sigillo a sua religïone.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+91 ma regalmente su dura intention
+92 ad Innocentio aperiva, e de ille habeva
+93 prime sigillo a su religion.
+</result>
 </query>
 <query>
 <info>[Paradiso Canto 11] 94/139</info>

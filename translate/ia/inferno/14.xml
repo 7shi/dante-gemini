@@ -25,7 +25,8 @@ Please translate each line literally into Interlingua.
 6 si vede di giustizia orribil arte.
 </prompt>
 <error>
-Too few spaces: '4Postea nos veniva al fine ubi se parte\n5 le secunde girone del tertie, e ubi\n6 se vide de justitia horribile arte.'
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -81,10 +82,11 @@ Please translate each line literally into Interlingua.
 17 esser temuta da ciascun che legge
 18 ciò che fu manifesto a li occhi mei!
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+16 O vendetta de Deo, quanto tu debes
+17 esser temute per chascun que lege
+18 cio que esseva manifeste al mi oculos!
+</result>
 </query>
 <query>
 <info>[Inferno Canto 14] 19/142</info>
@@ -96,7 +98,23 @@ Please translate each line literally into Interlingua.
 21 e parea posta lor diversa legge.
 </prompt>
 <error>
-(no result)
+block_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 </query>
 <query>
@@ -422,9 +440,11 @@ Please translate each line literally into Interlingua.
 86 poscia che noi intrammo per la porta
 87 lo cui sogliare a nessuno è negato,
 </prompt>
-<error>
-Too few spaces: '85 «Intertotoeloaltroqueioitihademonstrate,\n86 posteaque noientramoperlaporta\n87 lecuisogliaranoessunonegate,\n\n88 cosa non foedalituiochiosscorte\n89 notabilecomeeslopresentefluvio,\n90 quesuprasetotteflammelleammorta».'
-</error>
+<result>
+85 Tra toto le altere cosas que io te habeva demonstrate,
+86 postea que nos intravamo per le porta
+87 le qual su limine a necun es negate,
+</result>
 </query>
 <query>
 <info>[Inferno Canto 14] 88/142</info>
@@ -435,9 +455,11 @@ Please translate each line literally into Interlingua.
 89 notabile com’ è ’l presente rio,
 90 che sovra sé tutte fiammelle ammorta».
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+88 cosa non esseva per li tue oculos vidite
+89 notabile como es le presente fluvio,
+90 que super se tote flammas ammorta.
+</result>
 </query>
 <query>
 <info>[Inferno Canto 14] 91/142</info>
@@ -582,9 +604,11 @@ Please translate each line literally into Interlingua.
 119 fanno Cocito; e qual sia quello stagno
 120 tu lo vedrai, però qui non si conta».
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+118 infine, là ubi plus non se dismonta,
+119 fanno Cocito; e qual sia quello stagno
+120 tu lo videra, ergo hic non se conta».
+</result>
 </query>
 <query>
 <info>[Inferno Canto 14] 121/142</info>
@@ -596,7 +620,8 @@ Please translate each line literally into Interlingua.
 123 perché ci appar pur a questo vivagno?».
 </prompt>
 <error>
-Too few spaces: '121 Eioalui: «Seilpresentecanaleta\n122 sedirivacossidelnostromundo,\n123 perqueciapparepurquestoaquesteborda?».'
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -683,10 +708,11 @@ Please translate each line literally into Interlingua.
 140 dal bosco; fa che di retro a me vegne:
 141 li margini fan via, che non son arsi,
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+139 Postea diceva: «Omai es tempore de scostar se
+140 del bosco; face que de retro a me vene:
+141 li margine face via, que non son arse,
+</result>
 </query>
 <query>
 <info>[Inferno Canto 14] 142/142</info>
@@ -696,7 +722,8 @@ Please translate each line literally into Interlingua.
 142 e sopra loro ogne vapor si spegne».
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 </queries>

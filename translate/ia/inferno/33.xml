@@ -9,9 +9,11 @@ Please translate each line literally into Interlingua.
 2 quel peccator, forbendola a’ capelli
 3 del capo ch’elli avea di retro guasto.
 </prompt>
-<error>
-Too few spaces: '1 Lebuccaelevavadelduropasto\n2 illepeccator,tergendoleconicapilli\n3 delcapoquelehabebatraserogasto.'
-</error>
+<result>
+1 Le bucca sollevava del fero pasto
+2 ille peccator, forbendola al capillos
+3 del capo que ille habeva de retro guastate.
+</result>
 </query>
 <query>
 <info>[Inferno Canto 33] 4/157</info>
@@ -22,10 +24,11 @@ Please translate each line literally into Interlingua.
 5 disperato dolor che ’l cor mi preme
 6 già pur pensando, pria ch’io ne favelli.
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+4 Postea comenciava: «Tu vole que io renova
+5 desperato dolor que le corde me preme
+6 jam pur pensante, ante que io ne parla.
+</result>
 </query>
 <query>
 <info>[Inferno Canto 33] 7/157</info>
@@ -65,10 +68,11 @@ Please translate each line literally into Interlingua.
 14 e questi è l’arcivescovo Ruggieri:
 15 or ti dirò perché i son tal vicino.
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+13 Tu debes saper que io fui conte Ugolino,
+14 e iste es le archiepiscopo Ruggieri:
+15 ora te dicera per que io son tal vicino.
+</result>
 </query>
 <query>
 <info>[Inferno Canto 33] 16/157</info>
@@ -94,7 +98,23 @@ Please translate each line literally into Interlingua.
 21 udirai, e saprai s’e’ m’ha offeso.
 </prompt>
 <error>
-(no result)
+block_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
 </error>
 </query>
 <query>
@@ -106,9 +126,11 @@ Please translate each line literally into Interlingua.
 23 la qual per me ha ’l titol de la fame,
 24 e che conviene ancor ch’altrui si chiuda,
 </prompt>
-<error>
-Too few spaces: '22 BrevepertugiodentrodaMuda,\n23laqualpermeha’ltitulodelafame,\n24eequeconveniancorquealtruisichjuda,\n\n25meaveamonstratoperlosusforamine\n26pluslunasja,quand’iofec’lmalsonno\n27quedelfuturomisquarcio’lvelamine.'
-</error>
+<result>
+22 Breve pertugio dentro da la Muda,
+23 la qual pro me ha le titulo de la fame,
+24 e que convene etiam que altere se clauda,
+</result>
 </query>
 <query>
 <info>[Inferno Canto 33] 25/157</info>
@@ -119,9 +141,11 @@ Please translate each line literally into Interlingua.
 26 più lune già, quand’ io feci ’l mal sonno
 27 che del futuro mi squarciò ’l velame.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+25 me habeva monstrate pro su foramine
+26 plus lunas ja, quando io faceva le mal somno
+27 que del futuro me squarciava le velamine.
+</result>
 </query>
 <query>
 <info>[Inferno Canto 33] 28/157</info>
@@ -310,10 +334,11 @@ Please translate each line literally into Interlingua.
 65 lo dì e l’altro stemmo tutti muti;
 66 ahi dura terra, perché non t’apristi?
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+64 Quetava me alora pro non facer los plus triste;
+65 lo die e le altere stevamo tote mute;
+66 ahi dura terra, proque non te aperiva?
+</result>
 </query>
 <query>
 <info>[Inferno Canto 33] 67/157</info>
@@ -325,7 +350,8 @@ Please translate each line literally into Interlingua.
 69 dicendo: “Padre mio, ché non m’aiuti?”.
 </prompt>
 <error>
-(no result)
+index: 0
+finish_reason: OTHER
 </error>
 </query>
 <query>
@@ -571,32 +597,11 @@ Please translate each line literally into Interlingua.
 116 dimmi chi se’, e s’io non ti disbrigo,
 117 al fondo de la ghiaccia ir mi convegna».
 </prompt>
-<error>
-index: 0
-content {
-  parts {
-    text: "115 Perqueioaluy:\"Sevolequeioteauxilia,\n116 dicemichies,esionontedisimpaccia,\n117 alfundodelaglaciairmedebeir\"."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
+<result>
+115 Pro que io a ille: «Si tu vole que io te sovvenia,
+116 dice me qui tu es, e si io non te disimpiglia,
+117 al fundo del glacie ir me convenia».
+</result>
 </query>
 <query>
 <info>[Inferno Canto 33] 118/157</info>
@@ -607,9 +612,11 @@ Please translate each line literally into Interlingua.
 119 i’ son quel da le frutta del mal orto,
 120 che qui riprendo dattero per figo».
 </prompt>
-<error>
-Too few spaces: '118Responditadunque:"IoessofrateAlberigo;\n119ioessoaquelledallefruttedelmalorto,\n120queleciaquiretornadataroperfico".'
-</error>
+<result>
+118 Respondeva dunque: «Io son frate Alberigo;
+119 io son ille del fructos del mal horto,
+120 que hic reprende dactylo pro fico».
+</result>
 </query>
 <query>
 <info>[Inferno Canto 33] 121/157</info>
@@ -694,10 +701,11 @@ Please translate each line literally into Interlingua.
 137 elli è ser Branca Doria, e son più anni
 138 poscia passati ch’el fu sì racchiuso».
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+136 Tu lo debes saper, si tu veni pur mo juso:
+137 ille es ser Branca Doria, e son plus annos
+138 postea passate que ille esseva si racchiuse».
+</result>
 </query>
 <query>
 <info>[Inferno Canto 33] 139/157</info>
@@ -782,9 +790,11 @@ Please translate each line literally into Interlingua.
 155 trovai di voi un tal, che per sua opra
 156 in anima in Cocito già si bagna,
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+154 Que con le pejor spirito de Romania
+155 trovava de vos un tal, que per su obra
+156 in anima in Cocito jam se bania,
+</result>
 </query>
 <query>
 <info>[Inferno Canto 33] 157/157</info>
@@ -793,8 +803,8 @@ Please translate each line literally into Interlingua.
 
 157 e in corpo par vivo ancor di sopra.
 </prompt>
-<error>
-(no result)
-</error>
+<result>
+157 e in corpore pare vive ancora de supra.
+</result>
 </query>
 </queries>
