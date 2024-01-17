@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="47">
 <query>
 <info>[Purgatorio Canto 25] 1/139</info>
 <prompt>
@@ -8,24 +8,38 @@ Please translate each line literally into Japanese.
 1 Ora era onde ’l salir non volea storpio;
 2 ché ’l sole avëa il cerchio di merigge
 3 lasciato al Tauro e la notte a lo Scorpio:
+</prompt>
+<result>
+1 今は、登るのが困難な場所だった。
+2 太陽は正午の円を去り、
+3 夜はさそり座に去っていた。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 4/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 4 per che, come fa l’uom che non s’affigge
 5 ma vassi a la via sua, che che li appaia,
 6 se di bisogno stimolo il trafigge,
+</prompt>
+<result>
+4 だから、悩まずに
+5 自分の道を進み続ける人々がするように、
+6 必要に駆られて刺激を受けると、
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 7/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 7 così intrammo noi per la callaia,
 8 uno innanzi altro prendendo la scala
 9 che per artezza i salitor dispaia.
 </prompt>
 <result>
-1 今は、登るのが困難な場所だった。
-2 太陽は正午の円を去り、
-3 夜はさそり座に去っていた。
-
-4 だから、悩まずに
-5 自分の道を進み続ける人々がするように、
-6 必要に駆られて刺激を受けると、
-
 7 私たちは小道に入り、
 8 一人ずつ階段を上り、
 9 その狭さのために登る人を分断した。
@@ -39,16 +53,23 @@ Please translate each line literally into Japanese.
 10 E quale il cicognin che leva l’ala
 11 per voglia di volare, e non s’attenta
 12 d’abbandonar lo nido, e giù la cala;
+</prompt>
+<result>
+10 翼を広げるコウノトリのように、
+11 飛びたいという願望はあるが、
+12 巣を離れることをためらい、翼を下ろす。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 13/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 13 tal era io con voglia accesa e spenta
 14 di dimandar, venendo infino a l’atto
 15 che fa colui ch’a dicer s’argomenta.
 </prompt>
 <result>
-10 翼を広げるコウノトリのように、
-11 飛びたいという願望はあるが、
-12 巣を離れることをためらい、翼を下ろす。
-
 13 私はまさにそんな状態だった。
 14 尋ねたいという強い願望がありながら、
 15 それを口に出そうとする人のように、ためらっていた。
@@ -92,16 +113,23 @@ Please translate each line literally into Japanese.
 22 «Se t’ammentassi come Meleagro
 23 si consumò al consumar d’un stizzo,
 24 non fora», disse, «a te questo sì agro;
+</prompt>
+<result>
+22 「もし、メレアグロスが薪が燃え尽きるにつれて
+23 どうやって痩せていったかを覚えていたら、
+24 あなたはこんなにも苦しまなかっただろう」と彼は言った。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 25/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 25 e se pensassi come, al vostro guizzo,
 26 guizza dentro a lo specchio vostra image,
 27 ciò che par duro ti parrebbe vizzo.
 </prompt>
 <result>
-22 「もし、メレアグロスが薪が燃え尽きるにつれて
-23 どうやって痩せていったかを覚えていたら、
-24 あなたはこんなにも苦しまなかっただろう」と彼は言った。
-
 25 「そして、あなたが鏡を見たとき、
 26 あなたの姿が鏡の中でどのように揺らめくかを考えれば、
 27 今は難しく思えることも、実はそうではないとわかるだろう。
@@ -160,19 +188,26 @@ Please translate each line literally into Japanese.
 37 Sangue perfetto, che poi non si beve
 38 da l’assetate vene, e si rimane
 39 quasi alimento che di mensa leve,
+</prompt>
+<error>
+37 完全な血は、渇いた血管から飲まれることなく、
+38 まるで食卓から取り除かれた食べ物のように残り、
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 40/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 40 prende nel core a tutte membra umane
 41 virtute informativa, come quello
 42 ch’a farsi quelle per le vene vane.
 </prompt>
-<result>
-37 完全な血は、渇いた血管から飲まれることなく、
-38 まるで食卓から取り除かれた食べ物のように残り、
-
+<error>
 39 人間すべての器官に、
 40 それらが血管の中で作られるように、
 41 形を与える力を与える。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 25] 43/139</info>
@@ -183,36 +218,10 @@ Please translate each line literally into Japanese.
 44 tacer che dire; e quindi poscia geme
 45 sovr’ altrui sangue in natural vasello.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "43 まだ消化されずに、語るよりも黙っていたほうがよい場所に降りていき、\n44 そこで、他者の血の上に、自然な器の中で嘆く。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 43 まだ消化されずに、語るよりも黙っていたほうがよい場所に降りていき、
 44 そこで、他者の血の上に、自然な器の中で嘆く。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 25] 46/139</info>
@@ -222,16 +231,23 @@ Please translate each line literally into Japanese.
 46 Ivi s’accoglie l’uno e l’altro insieme,
 47 l’un disposto a patire, e l’altro a fare
 48 per lo perfetto loco onde si preme;
+</prompt>
+<result>
+46 そこで二人は一緒になる
+47 一人は耐える用意があり、もう一人は行動する用意がある
+48 二人が目指す完璧な場所のために
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 49/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 49 e, giunto lui, comincia ad operare
 50 coagulando prima, e poi avviva
 51 ciò che per sua matera fé constare.
 </prompt>
 <result>
-46 そこで二人は一緒になる
-47 一人は耐える用意があり、もう一人は行動する用意がある
-48 二人が目指す完璧な場所のために
-
 49 そして彼が到着すると、働き始める
 50 まず凝固させ、次に活気づける
 51 彼の物質によって構成されたもの
@@ -245,16 +261,23 @@ Please translate each line literally into Japanese.
 52 Anima fatta la virtute attiva
 53 qual d’una pianta, in tanto differente,
 54 che questa è in via e quella è già a riva,
+</prompt>
+<result>
+52 能動的な美徳が作られた魂は
+53 植物のように、しかし大きな違いがある
+54 植物は途中だが、魂はすでに岸辺にいる
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 55/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 55 tanto ovra poi, che già si move e sente,
 56 come spungo marino; e indi imprende
 57 ad organar le posse ond’ è semente.
 </prompt>
 <result>
-52 能動的な美徳が作られた魂は
-53 植物のように、しかし大きな違いがある
-54 植物は途中だが、魂はすでに岸辺にいる
-
 55 そして魂は働き続け、やがて動き、感じ始める
 56 海綿のように。そして魂は
 57 種である能力を組織し始める
@@ -283,16 +306,23 @@ Please translate each line literally into Japanese.
 61 Ma come d’animal divegna fante,
 62 non vedi tu ancor: quest’ è tal punto,
 63 che più savio di te fé già errante,
+</prompt>
+<result>
+61 しかし、動物がどのようにして人間になるのか
+62 まだ理解できないだろう。これは
+63 かつてあなたより賢い人々を惑わせた問題だ
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 64/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 64 sì che per sua dottrina fé disgiunto
 65 da l’anima il possibile intelletto,
 66 perché da lui non vide organo assunto.
 </prompt>
 <result>
-61 しかし、動物がどのようにして人間になるのか
-62 まだ理解できないだろう。これは
-63 かつてあなたより賢い人々を惑わせた問題だ
-
 64 そのため、彼の学説によって
 65 可能知性は魂から切り離され
 66 彼は可能知性が器官を必要としないと考えたからだ
@@ -306,39 +336,52 @@ Please translate each line literally into Japanese.
 67 Apri a la verità che viene il petto;
 68 e sappi che, sì tosto come al feto
 69 l’articular del cerebro è perfetto,
-
-70 lo motor primo a lui si volge lieto
-71 sovra tant’ arte di natura, e spira
-72 spirito novo, di vertù repleto,
-
-73 che ciò che trova attivo quivi, tira
-74 in sua sustanzia, e fassi un’alma sola,
-75 che vive e sente e sé in sé rigira.
 </prompt>
-<result>
+<error>
 67 真理を受け入れるために胸を開け
 68 そして、胎児の脳の関節が完成するとすぐに
 69 第一の原動者が喜んでその胎児に向かい
 70 自然の偉大な芸術の上に
 71 新しい精神を吹き込み、美徳に満ちている
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 70/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+70 lo motor primo a lui si volge lieto
+71 sovra tant’ arte di natura, e spira
+72 spirito novo, di vertù repleto,
+</prompt>
+<error>
 72 そこで活動しているものを見つけると、それを引き寄せ
 73 自分の本質に取り込み、一つの魂となる
 74 それは生き、感じ、自分自身を内省する
-</result>
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 73/139</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+73 che ciò che trova attivo quivi, tira
+74 in sua sustanzia, e fassi un’alma sola,
+75 che vive e sente e sé in sé rigira.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 25] 76/139</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Japanese.
 
 76 E perché meno ammiri la parola,
 77 guarda il calor del sole che si fa vino,
 78 giunto a l’omor che de la vite cola.
 </prompt>
-<error result="true">
-Response too long: (638 &amp;gt; 513)
-</error>
 <result>
 76 そしてあなたがその言葉をあまりにも賞賛しないように、
 77 太陽の熱がワインになるのを見てください、
@@ -353,16 +396,23 @@ Please translate each line literally into Japanese.
 79 Quando Làchesis non ha più del lino,
 80 solvesi da la carne, e in virtute
 81 ne porta seco e l’umano e ’l divino:
+</prompt>
+<result>
+79 ラケシスがもう糸を持たなくなるとき、
+80 肉体から解き放たれ、徳によって
+81 人間的なものと神聖なものとを携えていく。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 82/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 82 l’altre potenze tutte quante mute;
 83 memoria, intelligenza e volontade
 84 in atto molto più che prima agute.
 </prompt>
 <result>
-79 ラケシスがもう糸を持たなくなるとき、
-80 肉体から解き放たれ、徳によって
-81 人間的なものと神聖なものとを携えていく。
-
 82 他の力はすべて消えてしまう。
 83 記憶、知性、意志は
 84 以前よりもはるかに鋭く働く。
@@ -392,32 +442,6 @@ Please translate each line literally into Japanese.
 89 la virtù formativa raggia intorno
 90 così e quanto ne le membra vive.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "88 その場所が彼女を囲むとすぐに、\n89 形成する力が周囲に放射される\n90 生きている身体の中と同じように、そして同じ程度に。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 88 その場所が彼女を囲むとすぐに、
 89 形成する力が周囲に放射される
@@ -432,24 +456,38 @@ Please translate each line literally into Japanese.
 91 E come l’aere, quand’ è ben pïorno,
 92 per l’altrui raggio che ’n sé si reflette,
 93 di diversi color diventa addorno;
+</prompt>
+<result>
+91 そして空気は、最も澄んでいるとき、
+92 そこに反射する他の光によって、
+93 さまざまな色で飾られる。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 94/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 94 così l’aere vicin quivi si mette
 95 e in quella forma ch’è in lui suggella
 96 virtüalmente l’alma che ristette;
+</prompt>
+<result>
+94 そこで近くの空気もそうなり、
+95 そこに留まった魂を、
+96 その中に存在する形で、本質的に刻印する。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 97/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 97 e simigliante poi a la fiammella
 98 che segue il foco là ’vunque si muta,
 99 segue lo spirto sua forma novella.
 </prompt>
 <result>
-91 そして空気は、最も澄んでいるとき、
-92 そこに反射する他の光によって、
-93 さまざまな色で飾られる。
-
-94 そこで近くの空気もそうなり、
-95 そこに留まった魂を、
-96 その中に存在する形で、本質的に刻印する。
-
 97 そしてそれは炎に似て、
 98 火がどこへ動いてもそれに従うように、
 99 魂はその新しい形に従う。
@@ -494,10 +532,10 @@ Please translate each line literally into Japanese.
 107 e li altri affetti, l’ombra si figura;
 108 e quest’ è la cagion di che tu miri».
 </prompt>
-<result>
+<error>
 106 欲望や他の感情が私たちを苦しめるに応じて、影は形作られる
 107 そしてこれがあなたが見ているものの原因です」
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 25] 109/139</info>
@@ -522,16 +560,23 @@ Please translate each line literally into Japanese.
 112 Quivi la ripa fiamma in fuor balestra,
 113 e la cornice spira fiato in suso
 114 che la reflette e via da lei sequestra;
+</prompt>
+<result>
+112 そこで岸壁は炎を激しく噴き出し
+113 そして縁は上に向かって息を吹きかけ
+114 それを反射させ、そこから隔離する
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 115/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 115 ond’ ir ne convenia dal lato schiuso
 116 ad uno ad uno; e io temëa ’l foco
 117 quinci, e quindi temeva cader giuso.
 </prompt>
 <result>
-112 そこで岸壁は炎を激しく噴き出し
-113 そして縁は上に向かって息を吹きかけ
-114 それを反射させ、そこから隔離する
-
 115 そのため、私たちは開いた側から
 116 一人ずつ行かなければならなかった。私は恐れていた
 117 この炎を、そしてあちら側では下に落ちることを恐れていた
@@ -560,19 +605,26 @@ Please translate each line literally into Japanese.
 121 ‘Summae Deus clementïae’ nel seno
 122 al grande ardore allora udi’ cantando,
 123 che di volger mi fé caler non meno;
-
-124 e vidi spirti per la fiamma andando;
-125 per ch’io guardava a loro e a’ miei passi
-126 compartendo la vista a quando a quando.
 </prompt>
 <result>
 121 「慈悲深い最高神よ」という歌声が、そのとき
 122 大きな炎の中で聞こえ、
 123 それによって私は立ち止まって振り返らずにはいられなかった。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 124/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+124 e vidi spirti per la fiamma andando;
+125 per ch’io guardava a loro e a’ miei passi
+126 compartendo la vista a quando a quando.
+</prompt>
+<error>
 124 そして私は霊たちが炎の中を歩いているのを見た。
 125 だから私は彼らと自分の足元を交互に見ていた。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 25] 127/139</info>
@@ -627,14 +679,21 @@ Please translate each line literally into Japanese.
 136 E questo modo credo che lor basti
 137 per tutto il tempo che ’l foco li abbruscia:
 138 con tal cura conviene e con tai pasti
-
-139 che la piaga da sezzo si ricuscia.
 </prompt>
 <result>
 136 そして、この方法で十分だと私は思う
 137 火が彼らを燃やす間ずっと：
 138 そのような注意と食事で
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 25] 139/139</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+139 che la piaga da sezzo si ricuscia.
+</prompt>
+<result>
 139 最後には傷が癒される。
 </result>
 </query>

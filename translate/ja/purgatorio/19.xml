@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries count="50">
 <query>
 <info>[Purgatorio Canto 19] 1/145</info>
 <prompt>
@@ -8,26 +8,40 @@ Please translate each line literally into Japanese.
 1 Ne l’ora che non può ’l calor dïurno
 2 intepidar più ’l freddo de la luna,
 3 vinto da terra, e talor da Saturno
-
-4 —quando i geomanti lor Maggior Fortuna
-5 veggiono in orïente, innanzi a l’alba,
-6 surger per via che poco le sta bruna—,
-
-7 mi venne in sogno una femmina balba,
-8 ne li occhi guercia, e sovra i piè distorta,
-9 con le man monche, e di colore scialba.
 </prompt>
 <result>
 1 昼間の暑さが
 2 月の冷たさを和らげることができなくなったその時刻に
 3 地面や、時には土星に打ち負かされて
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 4/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+4 —quando i geomanti lor Maggior Fortuna
+5 veggiono in orïente, innanzi a l’alba,
+6 surger per via che poco le sta bruna—,
+</prompt>
+<error>
 4 —占星術師たちが、夜明け前に東の地平線に昇る「大いなる幸運」を見出すとき—
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 7/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+7 mi venne in sogno una femmina balba,
+8 ne li occhi guercia, e sovra i piè distorta,
+9 con le man monche, e di colore scialba.
+</prompt>
+<error>
 5 私は夢の中で、吃音で
 6 片方の目が斜視で、足が曲がっていて
 7 手が不自由で、顔色が青白い女性を見た
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 10/145</info>
@@ -37,42 +51,23 @@ Please translate each line literally into Japanese.
 10 Io la mirava; e come ’l sol conforta
 11 le fredde membra che la notte aggrava,
 12 così lo sguardo mio le facea scorta
+</prompt>
+<result>
+10 私は彼女を見つめていた。太陽が
+11 夜の間に冷え切った体を温めるように
+12 私の視線が彼女を元気づけた
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 13/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 13 la lingua, e poscia tutta la drizzava
 14 in poco d’ora, e lo smarrito volto,
 15 com’ amor vuol, così le colorava.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 私は彼女を見つめていた。太陽が\n11 夜の間に冷え切った体を温めるように\n12 私の視線が彼女を元気づけた\n\n13 彼女の舌を解き、やがて全身を真っすぐに伸ばさせ\n14 短時間のうちに、失われていた顔色を\n15 愛が望むように蘇らせた"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-10 私は彼女を見つめていた。太陽が
-11 夜の間に冷え切った体を温めるように
-12 私の視線が彼女を元気づけた
-
 13 彼女の舌を解き、やがて全身を真っすぐに伸ばさせ
 14 短時間のうちに、失われていた顔色を
 15 愛が望むように蘇らせた
@@ -101,16 +96,23 @@ Please translate each line literally into Japanese.
 19 «Io son», cantava, «io son dolce serena,
 20 che ’ marinari in mezzo mar dismago;
 21 tanto son di piacere a sentir piena!
+</prompt>
+<result>
+19 「私は、私は甘いセイレーンです」と彼女は歌った、
+20 「私は、船乗りたちを大海原で惑わせる者です。
+21 私の歌声は、それほどの喜びに満ちているのです！
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 22/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 22 Io volsi Ulisse del suo cammin vago
 23 al canto mio; e qual meco s’ausa,
 24 rado sen parte; sì tutto l’appago!».
 </prompt>
 <result>
-19 「私は、私は甘いセイレーンです」と彼女は歌った、
-20 「私は、船乗りたちを大海原で惑わせる者です。
-21 私の歌声は、それほどの喜びに満ちているのです！
-
 22 私は、オデュッセウスを彼の長い旅からそらし、
 23 私の歌に耳を傾けた者は、
 24 滅多にそこから離れることはありません。それほどまでに私は彼らを魅了するのです！」
@@ -125,32 +127,6 @@ Please translate each line literally into Japanese.
 26 quand’ una donna apparve santa e presta
 27 lunghesso me per far colei confusa.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 彼女の口がまだ閉じられていないうちに、\n26 聖なる女性が現れ、素早く\n27 私のそばに来て、彼女を混乱させた。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 彼女の口がまだ閉じられていないうちに、
 26 聖なる女性が現れ、素早く
@@ -166,32 +142,6 @@ Please translate each line literally into Japanese.
 29 fieramente dicea; ed el venìa
 30 con li occhi fitti pur in quella onesta.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "28 「オー、ウェルギリウス、ウェルギリウス、これは誰ですか？」\n29 ダンテは激しく尋ね、ウェルギリウスは\n30 その貞淑な女性に視線を固定したまま近づいてきた。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 28 「オー、ウェルギリウス、ウェルギリウス、これは誰ですか？」
 29 ダンテは激しく尋ね、ウェルギリウスは
@@ -207,32 +157,6 @@ Please translate each line literally into Japanese.
 32 fendendo i drappi, e mostravami ’l ventre;
 33 quel mi svegliò col puzzo che n’uscia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 もう一人の女はそれを受け取り、私の目の前でそれを開き、\n32 布を引き裂いて、その腹の中身を見せた。\n33 その悪臭で私は目を覚ました。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 31 もう一人の女はそれを受け取り、私の目の前でそれを開き、
 32 布を引き裂いて、その腹の中身を見せた。
@@ -248,12 +172,12 @@ Please translate each line literally into Japanese.
 35 voci t’ho messe!», dicea, «Surgi e vieni;
 36 troviam l’aperta per la qual tu entre».
 </prompt>
-<result>
+<error>
 34 私は目を上げると、善良な師が言った。
 35 「私は少なくとも3回、声をかけているぞ！」
 36 「起き上がって、おいで。
 37 お前が入れる開いた場所を見つけよう。」
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 37/145</info>
@@ -278,16 +202,23 @@ Please translate each line literally into Japanese.
 40 Seguendo lui, portava la mia fronte
 41 come colui che l’ha di pensier carca,
 42 che fa di sé un mezzo arco di ponte;
+</prompt>
+<result>
+40 私は彼の後をついて歩き、額には
+41 考えごとをたくさん抱えた人のように
+42 橋の半円のようなしわを寄せていた。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 43/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 43 quand’ io udi’ «Venite; qui si varca»
 44 parlare in modo soave e benigno,
 45 qual non si sente in questa mortal marca.
 </prompt>
 <result>
-40 私は彼の後をついて歩き、額には
-41 考えごとをたくさん抱えた人のように
-42 橋の半円のようなしわを寄せていた。
-
 43 すると、「おいで。ここから渡るのだ」と
 44 優しく、慈悲深い声で言うのが聞こえた。
 45 この世では決して聞くことのできないような声だった。
@@ -377,10 +308,10 @@ Please translate each line literally into Japanese.
 62 li occhi rivolgi al logoro che gira
 63 lo rege etterno con le rote magne».
 </prompt>
-<result>
+<error>
 61 それで十分だ、かかとを地面に打ち付けろ
 62 巨大な車輪で永遠の王が回しているすり減ったものに目を向けろ
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 64/145</info>
@@ -390,19 +321,26 @@ Please translate each line literally into Japanese.
 64 Quale ’l falcon, che prima a’ pié si mira,
 65 indi si volge al grido e si protende
 66 per lo disio del pasto che là il tira,
-
-67 tal mi fec’ io; e tal, quanto si fende
-68 la roccia per dar via a chi va suso,
-69 n’andai infin dove ’l cerchiar si prende.
 </prompt>
 <result>
 64 足元をまず見てから
 65 それから鳴き声の方を向き、身を乗り出す鷹のように
 66 そこに引き寄せられる餌への欲望のために
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 67/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+67 tal mi fec’ io; e tal, quanto si fende
+68 la roccia per dar via a chi va suso,
+69 n’andai infin dove ’l cerchiar si prende.
+</prompt>
+<error>
 67 私もそうした。そして、岩が割れて上に行く道ができるように
 68 私が輪の中に入るまで進んだ
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 70/145</info>
@@ -472,19 +410,26 @@ Please translate each line literally into Japanese.
 82 Così pregò ’l poeta, e sì risposto
 83 poco dinanzi a noi ne fu; per ch’io
 84 nel parlare avvisai l’altro nascosto,
-
-85 e volsi li occhi a li occhi al segnor mio:
-86 ond’ elli m’assentì con lieto cenno
-87 ciò che chiedea la vista del disio.
 </prompt>
 <result>
 82 詩人はこのように祈った、そしてその答えは
 83 少し前に私たちの前にあった。それで私は
 84 話し言葉の中で隠されたもう一方を察知し、
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 85/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+85 e volsi li occhi a li occhi al segnor mio:
+86 ond’ elli m’assentì con lieto cenno
+87 ciò che chiedea la vista del disio.
+</prompt>
+<error>
 85 そして私の目を私の主の目に向けた。
 86 すると彼は私の願いの視線に同意する合図を送った。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 88/145</info>
@@ -494,19 +439,26 @@ Please translate each line literally into Japanese.
 88 Poi ch’io potei di me fare a mio senno,
 89 trassimi sovra quella creatura
 90 le cui parole pria notar mi fenno,
-
-91 dicendo: «Spirto in cui pianger matura
-92 quel sanza ’l quale a Dio tornar non pòssi,
-93 sosta un poco per me tua maggior cura.
 </prompt>
 <result>
 88 私が自分の意思で行動できるようになったとき、
 89 私はその生き物のところへ近づいた。
 90 その言葉が最初に私に注意を向けさせたのだ。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 91/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+91 dicendo: «Spirto in cui pianger matura
+92 quel sanza ’l quale a Dio tornar non pòssi,
+93 sosta un poco per me tua maggior cura.
+</prompt>
+<error>
 91 「霊よ、神のもとへ戻るためには欠かせない存在を失ったことを嘆くのは当然だ。
 92 少しの間、あなたの大きな心配事を脇に置いてほしい。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 94/145</info>
@@ -532,10 +484,10 @@ Please translate each line literally into Japanese.
 98 rivolga il cielo a sé, saprai; ma prima
 99 scias quod ego fui successor Petri.
 </prompt>
-<result>
+<error>
 97 そして彼は私に言った。「なぜ天が私たちの方向を自分に向けさせているのか、あなたは知るだろう。しかしその前に、
 98 私がペテロの後継者であったことを知っておきなさい。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 100/145</info>
@@ -606,10 +558,10 @@ Please translate each line literally into Japanese.
 113 da Dio anima fui, del tutto avara;
 114 or, come vedi, qui ne son punita.
 </prompt>
-<result>
+<error>
 112 その時まで私は惨めで、神から離れ、完全に貪欲な魂だった。
 113 今、ご覧の通り、私はここで罰せられている。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 115/145</info>
@@ -649,16 +601,23 @@ Please translate each line literally into Japanese.
 121 Come avarizia spense a ciascun bene
 122 lo nostro amore, onde operar perdési,
 123 così giustizia qui stretti ne tene,
+</prompt>
+<result>
+121 強欲が私たちの愛をあらゆる善から遠ざけ、
+122 行動することができなくなったように、
+123 正義はここで私たちを縛り付けている。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 124/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 124 ne’ piedi e ne le man legati e presi;
 125 e quanto fia piacer del giusto Sire,
 126 tanto staremo immobili e distesi».
 </prompt>
 <result>
-121 強欲が私たちの愛をあらゆる善から遠ざけ、
-122 行動することができなくなったように、
-123 正義はここで私たちを縛り付けている。
-
 124 足と手に縛られ、捕らえられている。
 125 正しい主の御心のままに、
 126 私たちは動かず、横たわったままになるだろう」。
@@ -672,8 +631,6 @@ Please translate each line literally into Japanese.
 127 Io m’era inginocchiato e volea dire;
 128 ma com’ io cominciai ed el s’accorse,
 129 solo ascoltando, del mio reverire,
-
-130 «Qual cagion», disse, «in giù così ti torse?».
 </prompt>
 <result>
 127 私はひざまずいて言おうとしたが、
@@ -682,21 +639,39 @@ Please translate each line literally into Japanese.
 </result>
 </query>
 <query>
+<info>[Purgatorio Canto 19] 130/145</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+130 «Qual cagion», disse, «in giù così ti torse?».
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
 <info>[Purgatorio Canto 19] 131/145</info>
 <prompt>
 Please translate each line literally into Japanese.
 
 131 E io a lui: «Per vostra dignitate
 132 mia coscïenza dritto mi rimorse».
+</prompt>
+<result>
+131 私は彼に言った。「あなたの尊厳のために、
+132 私の良心は私に正しく後悔させました」。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 133/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 133 «Drizza le gambe, lèvati sù, frate!»,
 134 rispuose; «non errar: conservo sono
 135 teco e con li altri ad una podestate.
 </prompt>
 <result>
-131 私は彼に言った。「あなたの尊厳のために、
-132 私の良心は私に正しく後悔させました」。
-
 133 「足を伸ばして、立ち上がりなさい、兄弟よ！」
 134 彼は答えた。「間違えてはいけない。私はあなたと、
 135 同じ権威を持つ他の人たちと一緒にいる」。
@@ -711,10 +686,10 @@ Please translate each line literally into Japanese.
 137 che dice ‘Neque nubent’ intendesti,
 138 ben puoi veder perch’ io così ragiono.
 </prompt>
-<result>
+<error>
 136 もしあなたが「彼らは結婚しない」と言う聖なる福音の音を聞いたことがあるなら、
 137 なぜ私がこのように言うのか、よくわかるでしょう。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 19] 139/145</info>
@@ -739,14 +714,21 @@ Please translate each line literally into Japanese.
 142 Nepote ho io di là c’ha nome Alagia,
 143 buona da sé, pur che la nostra casa
 144 non faccia lei per essempro malvagia;
-
-145 e questa sola di là m’è rimasa».
 </prompt>
 <result>
 142 私は向こうにアラギアという名の孫娘がいます。
 143 彼女自身は善良ですが、私たちの家が
 144 彼女のせいで悪の例にならないことを願っています。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 145/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+145 e questa sola di là m’è rimasa».
+</prompt>
+<result>
 145 彼女だけが向こうに残っています」。
 </result>
 </query>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="30">
+<queries count="46">
 <query>
 <info>[Purgatorio Canto 12] 1/136</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into Japanese.
 4 Ma quando disse: «Lascia lui e varca;
 5 ché qui è buono con l’ali e coi remi,
 6 quantunque può, ciascun pinger sua barca»;
+</prompt>
+<result>
+4 しかし彼が「彼を置いて進め、
+5 ここには翼と櫂で、
+6 各自が自分の舟を漕ぐことができる」と言ったとき、
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 7/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 7 dritto sì come andar vuolsi rife’mi
 8 con la persona, avvegna che i pensieri
 9 mi rimanessero e chinati e scemi.
 </prompt>
 <result>
-4 しかし彼が「彼を置いて進め、
-5 ここには翼と櫂で、
-6 各自が自分の舟を漕ぐことができる」と言ったとき、
-
 7 私はその通りに、進むべき方向に直進した、
 8 肉体的にはそうしたが、思いは
 9 残ったまま、屈折し、不十分だった。
@@ -46,16 +53,23 @@ Please translate each line literally into Japanese.
 10 Io m’era mosso, e seguia volontieri
 11 del mio maestro i passi, e amendue
 12 già mostravam com’ eravam leggeri;
+</prompt>
+<result>
+10 私は動き出し、喜んで従った
+11 師匠の足跡に、そして私たちは二人とも
+12 いかに軽やかであるかを示していた。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 13/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 13 ed el mi disse: «Volgi li occhi in giùe:
 14 buon ti sarà, per tranquillar la via,
 15 veder lo letto de le piante tue».
 </prompt>
 <result>
-10 私は動き出し、喜んで従った
-11 師匠の足跡に、そして私たちは二人とも
-12 いかに軽やかであるかを示していた。
-
 13 そして彼は私に言った。「下を見なさい。
 14 道を落ち着かせるために、
 15 あなたの足跡を見るのは良いことです。」
@@ -69,24 +83,38 @@ Please translate each line literally into Japanese.
 16 Come, perché di lor memoria sia,
 17 sovra i sepolti le tombe terragne
 18 portan segnato quel ch’elli eran pria,
+</prompt>
+<result>
+16 それらについての記憶が残るように、
+17 埋葬された人々の墓は地上に
+18 彼らが以前何であったかを刻印している。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 19/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 19 onde lì molte volte si ripiagne
 20 per la puntura de la rimembranza,
 21 che solo a’ pïi dà de le calcagne;
+</prompt>
+<result>
+19 そこで何度も何度も、
+20 思い出の痛みによって、
+21 敬虔な人々だけが踵を返す。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 22/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 22 sì vid’ io lì, ma di miglior sembianza
 23 secondo l’artificio, figurato
 24 quanto per via di fuor del monte avanza.
 </prompt>
 <result>
-16 それらについての記憶が残るように、
-17 埋葬された人々の墓は地上に
-18 彼らが以前何であったかを刻印している。
-
-19 そこで何度も何度も、
-20 思い出の痛みによって、
-21 敬虔な人々だけが踵を返す。
-
 22 私はそこでそれを見たが、より良い姿で、
 23 技巧に従って、
 24 山の外側に見えるものと同じように。
@@ -101,10 +129,10 @@ Please translate each line literally into Japanese.
 26 più ch’altra creatura, giù dal cielo
 27 folgoreggiando scender, da l’un lato.
 </prompt>
-<result>
+<error>
 25 私は、他のどの被造物よりも高貴に創造された者が、
 26 天から稲妻のように降りてくるのを見た、片側から。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 12] 28/136</info>
@@ -145,36 +173,10 @@ Please translate each line literally into Japanese.
 35 quasi smarrito, e riguardar le genti
 36 che ’n Sennaàr con lui superbi fuoro.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "34 私は、偉大な仕事の足元にいるネムロデが、\n35 ほとんど途方に暮れ、シナルで彼と共に傲慢だった人々を振り返っているのを見た。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 34 私は、偉大な仕事の足元にいるネムロデが、
 35 ほとんど途方に暮れ、シナルで彼と共に傲慢だった人々を振り返っているのを見た。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 12] 37/136</info>
@@ -184,50 +186,38 @@ Please translate each line literally into Japanese.
 37 O Nïobè, con che occhi dolenti
 38 vedea io te segnata in su la strada,
 39 tra sette e sette tuoi figliuoli spenti!
+</prompt>
+<result>
+37 おお、ニオベよ、なんと悲しげな目で
+38 道の上に刻まれたあなたを見たことか、
+39 あなたの七人の息子たちが殺された中を！
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 40/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 40 O Saùl, come in su la propria spada
 41 quivi parevi morto in Gelboè,
 42 che poi non sentì pioggia né rugiada!
+</prompt>
+<result>
+40 おお、サウルよ、なんとあなたはそこで、
+41 ジェルボアで自分の剣の上に死んでいるように見えたことか、
+42 その後、雨も露も感じなかった！
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 43/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 43 O folle Aragne, sì vedea io te
 44 già mezza ragna, trista in su li stracci
 45 de l’opera che mal per te si fé.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 おお、ニオベよ、なんと悲しげな目で\n38 道の上に刻まれたあなたを見たことか、\n39 あなたの七人の息子たちが殺された中を！\n\n40 おお、サウルよ、なんとあなたはそこで、\n41 ジェルボアで自分の剣の上に死んでいるように見えたことか、\n42 その後、雨も露も感じなかった！\n\n43 おお、愚かなアラクネよ、私はあなたを\n44 すでに半ば蜘蛛の姿で、悲しげにぼろぼろになった\n45 あなたにとってひどい結果となった作品の上に見た。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-37 おお、ニオベよ、なんと悲しげな目で
-38 道の上に刻まれたあなたを見たことか、
-39 あなたの七人の息子たちが殺された中を！
-
-40 おお、サウルよ、なんとあなたはそこで、
-41 ジェルボアで自分の剣の上に死んでいるように見えたことか、
-42 その後、雨も露も感じなかった！
-
 43 おお、愚かなアラクネよ、私はあなたを
 44 すでに半ば蜘蛛の姿で、悲しげにぼろぼろになった
 45 あなたにとってひどい結果となった作品の上に見た。
@@ -272,10 +262,10 @@ Please translate each line literally into Japanese.
 53 sovra Sennacherìb dentro dal tempio,
 54 e come, morto lui, quivi il lasciaro.
 </prompt>
-<result>
+<error>
 52 センナケリブの上に息子たちが投げ捨てられた様子が見えた
 53 神殿の中で、そして彼が死んだ後、そこに放置された様子が。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 12] 55/136</info>
@@ -286,10 +276,10 @@ Please translate each line literally into Japanese.
 56 che fé Tamiri, quando disse a Ciro:
 57 «Sangue sitisti, e io di sangue t’empio».
 </prompt>
-<result>
+<error>
 55 タミリスがキュロスに言ったときに行った破壊と残虐な虐殺が見えた
 57 「あなたは血に飢えていた、だから私はあなたを血で満たす」
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 12] 58/136</info>
@@ -300,10 +290,10 @@ Please translate each line literally into Japanese.
 59 li Assiri, poi che fu morto Oloferne,
 60 e anche le reliquie del martiro.
 </prompt>
-<result>
+<error>
 58 オロフェルネスが死んだ後、アッシリア人がどのように敗走したかが見えた
 60 そして殉教者の遺物も。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 12] 61/136</info>
@@ -313,50 +303,38 @@ Please translate each line literally into Japanese.
 61 Vedeva Troia in cenere e in caverne;
 62 o Ilïón, come te basso e vile
 63 mostrava il segno che lì si discerne!
+</prompt>
+<result>
+61 灰と洞窟の中のトロイアが見えた
+62 イリオンよ、お前がいかに低く、卑しいか
+63 そこで見分けられる印が示していた！
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 64/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 64 Qual di pennel fu maestro o di stile
 65 che ritraesse l’ombre e ’ tratti ch’ivi
 66 mirar farieno uno ingegno sottile?
+</prompt>
+<result>
+64 どんな絵筆の達人や彫刻家が
+65 そこで見た影や輪郭を描き出すことができたろうか
+66 鋭い知能を持つ者でさえも見ることができるように？
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 67/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 67 Morti li morti e i vivi parean vivi:
 68 non vide mei di me chi vide il vero,
 69 quant’ io calcai, fin che chinato givi.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "61 灰と洞窟の中のトロイアが見えた\n62 イリオンよ、お前がいかに低く、卑しいか\n63 そこで見分けられる印が示していた！\n\n64 どんな絵筆の達人や彫刻家が\n65 そこで見た影や輪郭を描き出すことができたろうか\n66 鋭い知能を持つ者でさえも見ることができるように？\n\n67 死者は死んでおり、生者は生きているように見えた\n68 真実を見た者の中で、私ほど優れた者はいないだろう\n69 私が踏みしめた限り、私が屈んで進む限り。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-61 灰と洞窟の中のトロイアが見えた
-62 イリオンよ、お前がいかに低く、卑しいか
-63 そこで見分けられる印が示していた！
-
-64 どんな絵筆の達人や彫刻家が
-65 そこで見た影や輪郭を描き出すことができたろうか
-66 鋭い知能を持つ者でさえも見ることができるように？
-
 67 死者は死んでおり、生者は生きているように見えた
 68 真実を見た者の中で、私ほど優れた者はいないだろう
 69 私が踏みしめた限り、私が屈んで進む限り。
@@ -370,24 +348,38 @@ Please translate each line literally into Japanese.
 70 Or superbite, e via col viso altero,
 71 figliuoli d’Eva, e non chinate il volto
 72 sì che veggiate il vostro mal sentero!
+</prompt>
+<result>
+70 今や誇り高ぶって、顔を高らかに上げよ
+71 エヴァの子らよ、そして顔を伏せるな
+72 自分の誤った道を悟るために！
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 73/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 73 Più era già per noi del monte vòlto
 74 e del cammin del sole assai più speso
 75 che non stimava l’animo non sciolto,
+</prompt>
+<result>
+73 すでに我々は山の斜面をかなり進み
+74 太陽の進みもかなり速くなり
+75 まだ解放されていない心は思っていたよりも
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 76/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 76 quando colui che sempre innanzi atteso
 77 andava, cominciò: «Drizza la testa;
 78 non è più tempo di gir sì sospeso.
 </prompt>
 <result>
-70 今や誇り高ぶって、顔を高らかに上げよ
-71 エヴァの子らよ、そして顔を伏せるな
-72 自分の誤った道を悟るために！
-
-73 すでに我々は山の斜面をかなり進み
-74 太陽の進みもかなり速くなり
-75 まだ解放されていない心は思っていたよりも
-
 76 いつも先を行っていた者が
 77 歩き始め、「頭を上げよ。
 78 もうそんなにうろうろしている場合ではない。」
@@ -506,27 +498,41 @@ Please translate each line literally into Japanese.
 100 Come a man destra, per salire al monte
 101 dove siede la chiesa che soggioga
 102 la ben guidata sopra Rubaconte,
-
-103 si rompe del montar l’ardita foga
-104 per le scalee che si fero ad etade
-105 ch’era sicuro il quaderno e la doga;
-
-106 così s’allenta la ripa che cade
-107 quivi ben ratta da l’altro girone;
-108 ma quinci e quindi l’alta pietra rade.
 </prompt>
 <result>
 100 右手に、山に登るために
 101 サンタ・マリア・イン・トラステヴェレ教会が建つ場所へ
 102 ルバコンテ橋の上をうまく導く
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 103/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+103 si rompe del montar l’ardita foga
+104 per le scalee che si fero ad etade
+105 ch’era sicuro il quaderno e la doga;
+</prompt>
+<error>
 103 登る勢いは階段によって弱められる
 104 階段は、帳簿と樽が安全だった時代に作られた
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 106/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+106 così s’allenta la ripa che cade
+107 quivi ben ratta da l’altro girone;
+108 ma quinci e quindi l’alta pietra rade.
+</prompt>
+<error>
 105 同じように、岸壁はここで急激に落ち込み
 106 次の圏層へと続くが
 107 しかし、そこでは高い岩が両側から削られている
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 12] 109/136</info>
@@ -567,10 +573,10 @@ Please translate each line literally into Japanese.
 116 ed esser mi parea troppo più lieve
 117 che per lo pian non mi parea davanti.
 </prompt>
-<result>
+<error>
 115 私たちはすでに聖なる階段を登り始めていて、
 116 以前は平地を歩くよりもはるかに楽に感じられた。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 12] 118/136</info>
@@ -581,9 +587,9 @@ Please translate each line literally into Japanese.
 119 levata s’è da me, che nulla quasi
 120 per me fatica, andando, si riceve?».
 </prompt>
-<result>
+<error>
 118 そこで私は言った。「先生、教えてください。歩いているとほとんど疲れを感じないのは、どんな重荷が私から取り除かれたのでしょうか？」
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 12] 121/136</info>
@@ -593,19 +599,26 @@ Please translate each line literally into Japanese.
 121 Rispuose: «Quando i P che son rimasi
 122 ancor nel volto tuo presso che stinti,
 123 saranno, com’ è l’un, del tutto rasi,
+</prompt>
+<error>
+121 彼は答えた。「あなたの顔に残っている P の文字が、
+122 1つのように、すべて完全に消え去ったとき、
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 124/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 124 fier li tuoi piè dal buon voler sì vinti,
 125 che non pur non fatica sentiranno,
 126 ma fia diletto loro esser sù pinti».
 </prompt>
-<result>
-121 彼は答えた。「あなたの顔に残っている P の文字が、
-122 1つのように、すべて完全に消え去ったとき、
-
+<error>
 123 あなたの足は善意によって強く動かされ、
 124 疲れを感じるどころか、
 126 上に描かれることが喜びとなるだろう」
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 12] 127/136</info>
@@ -615,29 +628,50 @@ Please translate each line literally into Japanese.
 127 Allor fec’ io come color che vanno
 128 con cosa in capo non da lor saputa,
 129 se non che ’ cenni altrui sospecciar fanno;
+</prompt>
+<error>
+127 そこで私は、頭の上に何かを載せているが、それが何なのか自分ではわからず、
+128 他人の仕草から推測するしかない人のようにした。
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 130/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 130 per che la mano ad accertar s’aiuta,
 131 e cerca e truova e quello officio adempie
 132 che non si può fornir per la veduta;
+</prompt>
+<error>
+129 そこで、確かめるために手を使い、
+130 探して見つけて、視覚では果たせない役割を果たした。
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 133/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 133 e con le dita de la destra scempie
 134 trovai pur sei le lettere che ’ncise
 135 quel da le chiavi a me sovra le tempie:
-
-136 a che guardando, il mio duca sorrise.
 </prompt>
-<result>
-127 そこで私は、頭の上に何かを載せているが、それが何なのか自分ではわからず、
-128 他人の仕草から推測するしかない人のようにした。
-
-129 そこで、確かめるために手を使い、
-130 探して見つけて、視覚では果たせない役割を果たした。
-
+<error>
 131 そして、右手の指で単純に数えてみると、
 132 ちょうど6つの文字が見つかった。それは、
 133 鍵を持つ者が私の額に刻んだものだった。
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 12] 136/136</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+136 a che guardando, il mio duca sorrise.
+</prompt>
+<error>
 134 それを見て、私の案内人は微笑んだ。
-</result>
+</error>
 </query>
 </queries>

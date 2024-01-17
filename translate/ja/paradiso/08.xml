@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="50">
 <query>
 <info>[Paradiso Canto 8] 1/148</info>
 <prompt>
@@ -8,35 +8,56 @@ Please translate each line literally into Japanese.
 1 Solea creder lo mondo in suo periclo
 2 che la bella Ciprigna il folle amore
 3 raggiasse, volta nel terzo epiciclo;
-
-4 per che non pur a lei faceano onore
-5 di sacrificio e di votivo grido
-6 le genti antiche ne l’antico errore;
-
-7 ma Dïone onoravano e Cupido,
-8 quella per madre sua, questo per figlio,
-9 e dicean ch’el sedette in grembo a Dido;
-
-10 e da costei ond’ io principio piglio
-11 pigliavano il vocabol de la stella
-12 che ’l sol vagheggia or da coppa or da ciglio.
 </prompt>
 <result>
 1 世界は危険にさらされていると信じられていた
 2 美しいヴィーナスが狂おしい愛を
 3 第3の天球を回って輝かせているから
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 8] 4/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+4 per che non pur a lei faceano onore
+5 di sacrificio e di votivo grido
+6 le genti antiche ne l’antico errore;
+</prompt>
+<result>
 4 だから人々は彼女だけでなく
 5 犠牲と祈りの叫びをもって
 6 古代の間違いの中で古代の人々が
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 8] 7/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+7 ma Dïone onoravano e Cupido,
+8 quella per madre sua, questo per figlio,
+9 e dicean ch’el sedette in grembo a Dido;
+</prompt>
+<result>
 7 ディオネとキューピッドを称え
 8 前者を母親として、後者を息子として
 9 そして彼はディドの膝に座ったと言った
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 8] 10/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+10 e da costei ond’ io principio piglio
+11 pigliavano il vocabol de la stella
+12 che ’l sol vagheggia or da coppa or da ciglio.
+</prompt>
+<error>
 10 そして私がここから始めるこの女性から
 11 彼らは今太陽が上からか下から見つめている星の言葉をとった
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 13/148</info>
@@ -47,32 +68,6 @@ Please translate each line literally into Japanese.
 14 ma d’esservi entro mi fé assai fede
 15 la donna mia ch’i’ vidi far più bella.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "13 私は彼女が昇っていくことに気づかなかった\n14 しかし私が中にいることは十分に確信した\n15 私がより美しくなったのを見た私の女性"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 13 私は彼女が昇っていくことに気づかなかった
 14 しかし私が中にいることは十分に確信した
@@ -87,16 +82,23 @@ Please translate each line literally into Japanese.
 16 E come in fiamma favilla si vede,
 17 e come in voce voce si discerne,
 18 quand’ una è ferma e altra va e riede,
+</prompt>
+<result>
+16 炎の中で火花が見えるように
+17 声の中で声が聞き分けられるように
+18 一方が静止し、もう一方が行ったり来たりするとき
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 8] 19/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 19 vid’ io in essa luce altre lucerne
 20 muoversi in giro più e men correnti,
 21 al modo, credo, di lor viste interne.
 </prompt>
 <result>
-16 炎の中で火花が見えるように
-17 声の中で声が聞き分けられるように
-18 一方が静止し、もう一方が行ったり来たりするとき
-
 19 その光の中で私は他の光が
 20 より速く、より遅く、円を描いて動いているのを見た
 21 それは彼らの内なる視覚によるものだと思う
@@ -110,27 +112,43 @@ Please translate each line literally into Japanese.
 22 Di fredda nube non disceser venti,
 23 o visibili o no, tanto festini,
 24 che non paressero impediti e lenti
-
-25 a chi avesse quei lumi divini
-26 veduti a noi venir, lasciando il giro
-27 pria cominciato in li alti Serafini;
-
-28 e dentro a quei che più innanzi appariro
-29 sonava ‘Osanna’ sì, che unque poi
-30 di rïudir non fui sanza disiro.
 </prompt>
-<result>
+<error>
 22 冷たい雲から、目に見えるか見えないかに関わらず、
 23 あんなに速い風が降り注いだことはなかった
 24 神聖な光を見た者には
 25 それが妨げられ、遅く見えたとしても
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 8] 25/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+25 a chi avesse quei lumi divini
+26 veduti a noi venir, lasciando il giro
+27 pria cominciato in li alti Serafini;
+</prompt>
+<error>
 26 高位のセラフィムの中で最初に始まった円を離れて
 27 私たちの方にやってくるのを見た
 28 そして最初に現れた者たちの間で
 29 「オサンナ」という声が響き、それ以来
 30 私はそれを再び聞きたいと願わずにはいられなかった
-</result>
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 8] 28/148</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+28 e dentro a quei che più innanzi appariro
+29 sonava ‘Osanna’ sì, che unque poi
+30 di rïudir non fui sanza disiro.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 31/148</info>
@@ -141,10 +159,10 @@ Please translate each line literally into Japanese.
 32 e solo incominciò: «Tutti sem presti
 33 al tuo piacer, perché di noi ti gioi.
 </prompt>
-<result>
+<error>
 31 それから一人が私たちに近づき
 32 ただこう言った。「私たちは皆、あなたの望むことに備えています。なぜなら、あなたは私たちを喜ばせてくれるからです。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 34/148</info>
@@ -154,16 +172,23 @@ Please translate each line literally into Japanese.
 34 Noi ci volgiam coi principi celesti
 35 d’un giro e d’un girare e d’una sete,
 36 ai quali tu del mondo già dicesti:
+</prompt>
+<result>
+34 私たちは天の君主たちとともに
+35 一つの回転、一つの旋回、一つの渇望をもって回っています。
+36 あなたはかつて世界についてこう言いました。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 8] 37/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 37 ‘Voi che ’ntendendo il terzo ciel movete’;
 38 e sem sì pien d’amor, che, per piacerti,
 39 non fia men dolce un poco di quïete».
 </prompt>
 <result>
-34 私たちは天の君主たちとともに
-35 一つの回転、一つの旋回、一つの渇望をもって回っています。
-36 あなたはかつて世界についてこう言いました。
-
 37 「理解することによって第三の天を動かす者たちよ」
 38 そして私たちは愛で満ち溢れているので、あなたを喜ばせるために
 39 少しの休息があっても甘美さは損なわれません」。
@@ -177,19 +202,26 @@ Please translate each line literally into Japanese.
 40 Poscia che li occhi miei si fuoro offerti
 41 a la mia donna reverenti, ed essa
 42 fatti li avea di sé contenti e certi,
+</prompt>
+<error>
+40 私の目が敬意を持って私の女性に捧げられた後、
+41 彼女は私を満足させ、確信させました。
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 8] 43/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 43 rivolsersi a la luce che promessa
 44 tanto s’avea, e «Deh, chi siete?» fue
 45 la voce mia di grande affetto impressa.
 </prompt>
-<result>
-40 私の目が敬意を持って私の女性に捧げられた後、
-41 彼女は私を満足させ、確信させました。
-
+<error>
 42 私は約束されていた光に向き直り、
 43 「ああ、あなたは誰ですか？」と
 45 私は大きな愛情を込めて声を発しました。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 46/148</info>
@@ -199,17 +231,24 @@ Please translate each line literally into Japanese.
 46 E quanta e quale vid’ io lei far piùe
 47 per allegrezza nova che s’accrebbe,
 48 quando parlai, a l’allegrezze sue!
+</prompt>
+<error>
+46 私が彼女がさらに美しくなるのを見たとき、その大きさと素晴らしさはどれほどだったことか。
+47 私が話したとき、彼女の喜びに新しい喜びが加わった。
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 8] 49/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 49 Così fatta, mi disse: «Il mondo m’ebbe
 50 giù poco tempo; e se più fosse stato,
 51 molto sarà di mal, che non sarebbe.
 </prompt>
-<result>
-46 私が彼女がさらに美しくなるのを見たとき、その大きさと素晴らしさはどれほどだったことか。
-47 私が話したとき、彼女の喜びに新しい喜びが加わった。
-
+<error>
 48 彼女はこう言いました。「私は地上で少しの間だけ過ごしました。もしもっと長く過ごしていたら、多くの悪が起こっていたでしょう。それは起こらなかったでしょう。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 52/148</info>
@@ -235,10 +274,10 @@ Please translate each line literally into Japanese.
 56 che s’io fossi giù stato, io ti mostrava
 57 di mio amor più oltre che le fronde.
 </prompt>
-<result>
+<error>
 55 あなたは私をとても愛してくれました。そして、その理由はよくわかります。
 56 もし私が地上にいたら、私はあなたに私の愛を葉っぱ以上のものとして示したでしょう。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 58/148</info>
@@ -248,20 +287,25 @@ Please translate each line literally into Japanese.
 58 Quella sinistra riva che si lava
 59 di Rodano poi ch’è misto con Sorga,
 60 per suo segnore a tempo m’aspettava,
+</prompt>
+<error>
+58 ローヌ川とソルガ川が合流した後に洗われる、あの不吉な川岸が
+59 しばらくの間、私の主君として私を待っていた
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 8] 61/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 61 e quel corno d’Ausonia che s’imborga
 62 di Bari e di Gaeta e di Catona,
 63 da ove Tronto e Verde in mare sgorga.
 </prompt>
-<result>
-58 ローヌ川とソルガ川が合流した後に洗われる、あの不吉な川岸が
-59 しばらくの間、私の主君として私を待っていた
-
+<error>
 60 そして、バーリ、ガエータ、カトーナが城壁に囲まれた、アウソニアの角が
 61 トロント川とヴェルデ川が海に流れ出る場所から
-
-62
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 64/148</info>
@@ -272,13 +316,9 @@ Please translate each line literally into Japanese.
 65 di quella terra che ’l Danubio riga
 66 poi che le ripe tedesche abbandona.
 </prompt>
-<result>
+<error>
 64 ドナウ川が流れ、ドイツの岸辺を離れた後に治めることになる、あの土地の王冠がすでに私の額に輝いていた
-
-65
-
-66
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 67/148</info>
@@ -288,29 +328,39 @@ Please translate each line literally into Japanese.
 67 E la bella Trinacria, che caliga
 68 tra Pachino e Peloro, sopra ’l golfo
 69 che riceve da Euro maggior briga,
+</prompt>
+<error>
+67 パキーノとペロロの間にある、美しいトリナクリアが、
+68 ユーロからの影響を最も受ける湾の上に位置する
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 8] 70/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 70 non per Tifeo ma per nascente solfo,
 71 attesi avrebbe li suoi regi ancora,
 72 nati per me di Carlo e di Ridolfo,
+</prompt>
+<error>
+69 ティフォンではなく、噴出する硫黄のために
+70 まだ私のためにシャルルとルドルフから生まれた王たちを待っていたであろう
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 8] 73/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 73 se mala segnoria, che sempre accora
 74 li popoli suggetti, non avesse
 75 mosso Palermo a gridar: “Mora, mora!”.
 </prompt>
-<result>
-67 パキーノとペロロの間にある、美しいトリナクリアが、
-68 ユーロからの影響を最も受ける湾の上に位置する
-
-69 ティフォンではなく、噴出する硫黄のために
-70 まだ私のためにシャルルとルドルフから生まれた王たちを待っていたであろう
-
+<error>
 71 常に服従する人々を苦しめる、悪い支配が
 72 パレルモを「殺せ、殺せ！」と叫ばせなければ
-
-73
-
-74
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 76/148</info>
@@ -320,22 +370,25 @@ Please translate each line literally into Japanese.
 76 E se mio frate questo antivedesse,
 77 l’avara povertà di Catalogna
 78 già fuggeria, perché non li offendesse;
+</prompt>
+<error>
+76 そして、私の弟がこれを予見できれば、
+77 カタルーニャの貧しい人々を苦しめることはもうしないだろう
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 8] 79/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 79 ché veramente proveder bisogna
 80 per lui, o per altrui, sì ch’a sua barca
 81 carcata più d’incarco non si pogna.
 </prompt>
-<result>
-76 そして、私の弟がこれを予見できれば、
-77 カタルーニャの貧しい人々を苦しめることはもうしないだろう
-
+<error>
 78 本当に、彼のため、あるいは他の人のために、彼の船に
 79 積載できる以上の荷物を積まないようにしなければならない
-
-80
-
-81
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 82/148</info>
@@ -346,14 +399,10 @@ Please translate each line literally into Japanese.
 83 discese, avria mestier di tal milizia
 84 che non curasse di mettere in arca».
 </prompt>
-<result>
+<error>
 82 寛大さと倹約の両方を兼ね備えた彼の性質は、
 83 金儲けにこだわらない軍隊を必要としている
-
-84
-
-85
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 85/148</info>
@@ -363,21 +412,26 @@ Please translate each line literally into Japanese.
 85 «Però ch’i’ credo che l’alta letizia
 86 che ’l tuo parlar m’infonde, segnor mio,
 87 là ’ve ogne ben si termina e s’inizia,
+</prompt>
+<error>
+85 「しかし、あなたの言葉が私に与えてくれる至上の喜びは、
+86 あらゆる善が始まり、終わる場所で、
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 8] 88/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 88 per te si veggia come la vegg’ io,
 89 grata m’è più; e anco quest’ ho caro
 90 perché ’l discerni rimirando in Dio.
 </prompt>
-<result>
-85 「しかし、あなたの言葉が私に与えてくれる至上の喜びは、
-86 あらゆる善が始まり、終わる場所で、
-
+<error>
 87 あなたが私と同じように見ることができるように、
 88 私にとってよりありがたいことです。そして、このことも私は嬉しく思います。
 89 なぜなら、あなたは神を見つめてそれを理解しているからです。
-
-90
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 91/148</info>
@@ -388,12 +442,10 @@ Please translate each line literally into Japanese.
 92 poi che, parlando, a dubitar m’hai mosso
 93 com’ esser può, di dolce seme, amaro».
 </prompt>
-<result>
+<error>
 91 あなたは私を喜ばせてくれました。そして、話しているうちに、疑問を抱かせたので、
 92 甘い種から、なぜ苦いものができるのかがはっきりしました。
-
-93
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 94/148</info>
@@ -408,8 +460,6 @@ Please translate each line literally into Japanese.
 94 私は彼にこう言いました。すると彼は私にこう言いました。「もし私が、
 95 あなたが尋ねていることについて、真実を見せることができるなら、
 96 あなたは、背中にするように、視線を固定するでしょう。
-
-97
 </result>
 </query>
 <query>
@@ -421,12 +471,10 @@ Please translate each line literally into Japanese.
 98 volge e contenta, fa esser virtute
 99 sua provedenza in questi corpi grandi.
 </prompt>
-<result>
+<error>
 97 あなたが旅するすべての王国を動かし、満足させる善は、
 98 この大きな身体の中で、その摂理を徳とする。
-
-99
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 100/148</info>
@@ -436,21 +484,26 @@ Please translate each line literally into Japanese.
 100 E non pur le nature provedute
 101 sono in la mente ch’è da sé perfetta,
 102 ma esse insieme con la lor salute:
-
-103 per che quantunque quest’ arco saetta
-104 disposto cade a proveduto fine,
-105 sì come cosa in suo segno diretta.
 </prompt>
 <result>
 100 摂理された性質だけでなく、
 101 本来完全な心の中にあり、
 102 それら自身とその健康もまたある。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 8] 103/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+103 per che quantunque quest’ arco saetta
+104 disposto cade a proveduto fine,
+105 sì come cosa in suo segno diretta.
+</prompt>
+<error>
 103 したがって、この弓が放つ矢は、
 104 目標に向かうもののように、定められた目的に向かって落ちる。
-
-105
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 106/148</info>
@@ -460,16 +513,23 @@ Please translate each line literally into Japanese.
 106 Se ciò non fosse, il ciel che tu cammine
 107 producerebbe sì li suoi effetti,
 108 che non sarebbero arti, ma ruine;
+</prompt>
+<result>
+106 もしそうではなかったら、あなたが歩いている天は
+107 確かにその効果を生み出すだろうが、
+108 それは芸術ではなく、破壊となるだろう。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 8] 109/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 109 e ciò esser non può, se li ’ntelletti
 110 che muovon queste stelle non son manchi,
 111 e manco il primo, che non li ha perfetti.
 </prompt>
 <result>
-106 もしそうではなかったら、あなたが歩いている天は
-107 確かにその効果を生み出すだろうが、
-108 それは芸術ではなく、破壊となるだろう。
-
 109 そして、もしこれらの星々を動かす知性が欠陥がなく、
 110 そしてそれらを完璧に創造した最初の知性が欠陥がなければ、
 111 それはあり得ないことだ。
@@ -484,10 +544,10 @@ Please translate each line literally into Japanese.
 113 E io: «Non già; ché impossibil veggio
 114 che la natura, in quel ch’è uopo, stanchi».
 </prompt>
-<result>
+<error>
 112 この真実をさらに白くしたいのか？」。
 113 私は「いや、そうは思わない。なぜなら、自然が、必要なことにおいて、疲弊することはあり得ないと私は見ているから」。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 115/148</info>
@@ -498,10 +558,10 @@ Please translate each line literally into Japanese.
 116 per l’omo in terra, se non fosse cive?».
 117 «Sì», rispuos’ io; «e qui ragion non cheggio».
 </prompt>
-<result>
+<error>
 115 そこで彼は再び言った。「では、こう言ってみよう。人間にとって、地上で最悪なのは、市民ではないことではないか？」。
 117 私は「そうです。そのことについては、理由を尋ねる必要はありません」と答えた。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 118/148</info>
@@ -512,10 +572,10 @@ Please translate each line literally into Japanese.
 119 diversamente per diversi offici?
 120 Non, se ’l maestro vostro ben vi scrive».
 </prompt>
-<result>
+<error>
 118 「そして、もし、異なる役職によって、地上で異なる生活が営まれていなければ、人間は市民たり得るだろうか？
 119 そうではない。もし、あなた方の師が正しく書いているのであれば」。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 121/148</info>
@@ -525,18 +585,25 @@ Please translate each line literally into Japanese.
 121 Sì venne deducendo infino a quici;
 122 poscia conchiuse: «Dunque esser diverse
 123 convien di vostri effetti le radici:
+</prompt>
+<error>
+121 彼はここまで推論を続けた。
+122 そして、こう結論づけた。「だから、あなた方の行為の根源は、異なるものでなければならない。
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 8] 124/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 124 per ch’un nasce Solone e altro Serse,
 125 altro Melchisedèch e altro quello
 126 che, volando per l’aere, il figlio perse.
 </prompt>
-<result>
-121 彼はここまで推論を続けた。
-122 そして、こう結論づけた。「だから、あなた方の行為の根源は、異なるものでなければならない。
-
+<error>
 124 だから、ある者はソロンとして生まれ、ある者はクセルクセスとして生まれ、
 125 ある者はメルキゼデクとして生まれ、ある者は、空を飛んで息子を失った者として生まれるのだ。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 127/148</info>
@@ -547,10 +614,10 @@ Please translate each line literally into Japanese.
 128 a la cera mortal, fa ben sua arte,
 129 ma non distingue l’un da l’altro ostello.
 </prompt>
-<result>
+<error>
 127 死すべき者の蝋に刻印された、循環する自然は、確かにその技を尽くす。
 128 しかし、一つの住居と別の住居を区別することはない。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 130/148</info>
@@ -561,10 +628,10 @@ Please translate each line literally into Japanese.
 131 per seme da Iacòb; e vien Quirino
 132 da sì vil padre, che si rende a Marte.
 </prompt>
-<result>
+<error>
 130 だから、エサウはヤコブとは異なる種から生まれ、
 131 クイリヌスは、あまりにも卑しい父親から生まれ、マルスの子とされるのだ。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 133/148</info>
@@ -575,10 +642,10 @@ Please translate each line literally into Japanese.
 134 simil farebbe sempre a’ generanti,
 135 se non vincesse il proveder divino.
 </prompt>
-<result>
+<error>
 133 生み出された自然は、常に生み出すものに対して、同じように振る舞うだろう。
 135 もし、神の摂理がそれを打ち負かさなければ。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 136/148</info>
@@ -604,10 +671,10 @@ Please translate each line literally into Japanese.
 140 discorde a sé, com’ ogne altra semente
 141 fuor di sua regïon, fa mala prova.
 </prompt>
-<result>
+<error>
 139 自然は常に、自分と不一致な運命に出会うと、
 140 他のあらゆる種子と同様に、自分の領域の外では、悪い結果を生み出す。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 8] 142/148</info>
@@ -632,40 +699,23 @@ Please translate each line literally into Japanese.
 145 Ma voi torcete a la religïone
 146 tal che fia nato a cignersi la spada,
 147 e fate re di tal ch’è da sermone;
-
-148 onde la traccia vostra è fuor di strada».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "145 しかし、あなた方は宗教を曲げてしまい\n146 剣を帯びて生まれるべき者が生まれ\n147 説教されるべき者が王となる\n148 そのため、あなた方の歩む道は間違っているのです"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
+<error>
 145 しかし、あなた方は宗教を曲げてしまい
 146 剣を帯びて生まれるべき者が生まれ
 147 説教されるべき者が王となる
 148 そのため、あなた方の歩む道は間違っているのです
-</result>
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 8] 148/148</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+148 onde la traccia vostra è fuor di strada».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 </queries>

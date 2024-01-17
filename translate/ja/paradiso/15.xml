@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="50">
 <query>
 <info>[Paradiso Canto 15] 1/148</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Japanese.
 1 Benigna volontade in che si liqua
 2 sempre l’amor che drittamente spira,
 3 come cupidità fa ne la iniqua,
+</prompt>
+<result>
+1 慈悲深い意志が溶け込んだその中で
+2 常に正しく吹き込む愛は
+3 不正な者の中にある欲望のように
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 4/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 4 silenzio puose a quella dolce lira,
 5 e fece quïetar le sante corde
 6 che la destra del cielo allenta e tira.
 </prompt>
 <result>
-1 慈悲深い意志が溶け込んだその中で
-2 常に正しく吹き込む愛は
-3 不正な者の中にある欲望のように
-
 4 その甘美な竪琴を沈黙させ
 5 聖なる弦を静かにし
 6 天の右手が緩めたり締めたりする
@@ -31,16 +38,23 @@ Please translate each line literally into Japanese.
 7 Come saranno a’ giusti preghi sorde
 8 quelle sustanze che, per darmi voglia
 9 ch’io le pregassi, a tacer fur concorde?
+</prompt>
+<result>
+7 正しい祈りに耳を貸さないであろうか
+8 私が祈るようにと私に願望を抱かせようと
+9 沈黙することに同意したあの存在は？
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 10/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 10 Bene è che sanza termine si doglia
 11 chi, per amor di cosa che non duri
 12 etternalmente, quello amor si spoglia.
 </prompt>
 <result>
-7 正しい祈りに耳を貸さないであろうか
-8 私が祈るようにと私に願望を抱かせようと
-9 沈黙することに同意したあの存在は？
-
 10 永遠に続かないもののために愛を剥ぎ取る者は
 11 限りなく悲しむのは当然である
 12 永遠に続く愛を。
@@ -54,32 +68,53 @@ Please translate each line literally into Japanese.
 13 Quale per li seren tranquilli e puri
 14 discorre ad ora ad or sùbito foco,
 15 movendo li occhi che stavan sicuri,
+</prompt>
+<result>
+13 静かで澄んだ大気の中を
+14 時折突然に火が走り
+15 安定していた目を動かして
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 16/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 16 e pare stella che tramuti loco,
 17 se non che da la parte ond’ e’ s’accende
 18 nulla sen perde, ed esso dura poco:
+</prompt>
+<result>
+16 場所を変える星のように見えるが
+17 ただし、火が灯る場所から
+18 何も失われず、火は長く続かない。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 19/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 19 tale dal corno che ’n destro si stende
 20 a piè di quella croce corse un astro
 21 de la costellazion che lì resplende;
+</prompt>
+<result>
+19 右に伸びる角から
+20 十字架のふもとに星が走った
+21 そこに輝く星座から。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 22/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 22 né si partì la gemma dal suo nastro,
 23 ma per la lista radïal trascorse,
 24 che parve foco dietro ad alabastro.
 </prompt>
 <result>
-13 静かで澄んだ大気の中を
-14 時折突然に火が走り
-15 安定していた目を動かして
-
-16 場所を変える星のように見えるが
-17 ただし、火が灯る場所から
-18 何も失われず、火は長く続かない。
-
-19 右に伸びる角から
-20 十字架のふもとに星が走った
-21 そこに輝く星座から。
-
 22 宝石はリボンから離れず
 23 放射状の帯を横切って進んだが
 24 それはアラバスターの後ろの火のようだった。
@@ -94,32 +129,6 @@ Please translate each line literally into Japanese.
 26 se fede merta nostra maggior musa,
 27 quando in Eliso del figlio s’accorse.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 アンキーセスの影が姿を現したのもそうだった\n26 もし我々の最も偉大なミューズが信頼できるなら\n27 エリュシオンで息子に気づいたとき。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 アンキーセスの影が姿を現したのもそうだった
 26 もし我々の最も偉大なミューズが信頼できるなら
@@ -149,19 +158,26 @@ Please translate each line literally into Japanese.
 31 Così quel lume: ond’ io m’attesi a lui;
 32 poscia rivolsi a la mia donna il viso,
 33 e quinci e quindi stupefatto fui;
-
-34 ché dentro a li occhi suoi ardeva un riso
-35 tal, ch’io pensai co’ miei toccar lo fondo
-36 de la mia gloria e del mio paradiso.
 </prompt>
 <result>
 31 その光はこう言った。私は彼を待っていた。
 32 それから私は私の女性に顔を向け、
 33 あちらこちらで私は驚いた。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 34/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+34 ché dentro a li occhi suoi ardeva un riso
+35 tal, ch’io pensai co’ miei toccar lo fondo
+36 de la mia gloria e del mio paradiso.
+</prompt>
+<error>
 34 彼女の目の中には笑いがあった
 35 私は自分の栄光と天国の底に触れたと思った。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 15] 37/148</info>
@@ -171,16 +187,23 @@ Please translate each line literally into Japanese.
 37 Indi, a udire e a veder giocondo,
 38 giunse lo spirto al suo principio cose,
 39 ch’io non lo ’ntesi, sì parlò profondo;
+</prompt>
+<result>
+37 それから、聞いて見るのが嬉しくて、
+38 霊は自分の最初の状態に戻ったが、
+39 私は理解できなかった。とても深く話したので。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 40/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 40 né per elezïon mi si nascose,
 41 ma per necessità, ché ’l suo concetto
 42 al segno d’i mortal si soprapuose.
 </prompt>
 <result>
-37 それから、聞いて見るのが嬉しくて、
-38 霊は自分の最初の状態に戻ったが、
-39 私は理解できなかった。とても深く話したので。
-
 40 彼は自分の意思で私から隠れたのではない。
 41 仕方なく隠れたのだ。彼の概念は
 42 凡人の理解を超えていたから。
@@ -194,16 +217,23 @@ Please translate each line literally into Japanese.
 43 E quando l’arco de l’ardente affetto
 44 fu sì sfogato, che ’l parlar discese
 45 inver’ lo segno del nostro intelletto,
+</prompt>
+<result>
+43 そして燃えるような愛情の弓が
+44 解き放たれ、言葉が
+45 私たちの知性のレベルに降りてきたとき、
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 46/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 46 la prima cosa che per me s’intese,
 47 «Benedetto sia tu», fu, «trino e uno,
 48 che nel mio seme se’ tanto cortese!».
 </prompt>
 <result>
-43 そして燃えるような愛情の弓が
-44 解き放たれ、言葉が
-45 私たちの知性のレベルに降りてきたとき、
-
 46 私が最初に理解したのは、
 47 「三位一体の神よ、あなたは祝福されますように」という言葉でした。
 48 あなたは私の血統に対してとても親切です！」
@@ -217,18 +247,27 @@ Please translate each line literally into Japanese.
 49 E seguì: «Grato e lontano digiuno,
 50 tratto leggendo del magno volume
 51 du’ non si muta mai bianco né bruno,
-
-52 solvuto hai, figlio, dentro a questo lume
-53 in ch’io ti parlo, mercè di colei
-54 ch’a l’alto volo ti vestì le piume.
 </prompt>
-<result>
+<error>
 49 そして彼は続けた。「喜んで、長い断食は、
 50 決して白も黒も変わらない偉大な書物を読んで、
 51 息子よ、あなたはそれを解いた。この光の中で
 52 私はあなたに話している。彼女のおかげで、
 53 彼女はあなたに高く飛ぶための羽を与えてくれた。」
-</result>
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 15] 52/148</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+52 solvuto hai, figlio, dentro a questo lume
+53 in ch’io ti parlo, mercè di colei
+54 ch’a l’alto volo ti vestì le piume.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 15] 55/148</info>
@@ -238,16 +277,23 @@ Please translate each line literally into Japanese.
 55 Tu credi che a me tuo pensier mei
 56 da quel ch’è primo, così come raia
 57 da l’un, se si conosce, il cinque e ’l sei;
+</prompt>
+<result>
+55 あなたは、私があなたの考えを理解していると思います。
+56 最初のものから、ちょうど一を知っていれば、
+57 五と六が分かるように。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 58/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 58 e però ch’io mi sia e perch’ io paia
 59 più gaudïoso a te, non mi domandi,
 60 che alcun altro in questa turba gaia.
 </prompt>
 <result>
-55 あなたは、私があなたの考えを理解していると思います。
-56 最初のものから、ちょうど一を知っていれば、
-57 五と六が分かるように。
-
 58 だから私が存在し、なぜ私があなたに
 59 より喜びに満ちているように見えるのかを尋ねないでください。
 60 この陽気な群衆の中の他の誰かと同様に。
@@ -261,27 +307,41 @@ Please translate each line literally into Japanese.
 61 Tu credi ’l vero; ché i minori e ’ grandi
 62 di questa vita miran ne lo speglio
 63 in che, prima che pensi, il pensier pandi;
+</prompt>
+<error>
+61 あなたは真実を信じている。なぜなら、この世の小さい者も偉大な者も
+62 その鏡の中に未来を見ているから。その鏡の中では、考える前に考えが生まれる。
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 15] 64/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 64 ma perché ’l sacro amore in che io veglio
 65 con perpetüa vista e che m’asseta
 66 di dolce disïar, s’adempia meglio,
+</prompt>
+<error>
+63 しかし、私が永遠に見つめ、私を渇望させ
+64 甘い欲望で満たしてくれる神聖な愛が
+65 より良く成就するために、
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 15] 67/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 67 la voce tua sicura, balda e lieta
 68 suoni la volontà, suoni ’l disio,
 69 a che la mia risposta è già decreta!».
 </prompt>
-<result>
-61 あなたは真実を信じている。なぜなら、この世の小さい者も偉大な者も
-62 その鏡の中に未来を見ているから。その鏡の中では、考える前に考えが生まれる。
-
-63 しかし、私が永遠に見つめ、私を渇望させ
-64 甘い欲望で満たしてくれる神聖な愛が
-65 より良く成就するために、
-
+<error>
 66 あなたの確信に満ちた、勇ましく、陽気な声が
 67 私の意志を、私の願いを告げなさい。
 69 それに対して私の答えはすでに決まっているのですから！」
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 15] 70/148</info>
@@ -292,10 +352,10 @@ Please translate each line literally into Japanese.
 71 pria ch’io parlassi, e arrisemi un cenno
 72 che fece crescer l’ali al voler mio.
 </prompt>
-<result>
+<error>
 70 私はベアトリーチェの方を向き、彼女はその前に
 71 私が話すのを聞いて、私の意志に翼を生み出す合図をして微笑んだ。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 15] 73/148</info>
@@ -305,16 +365,23 @@ Please translate each line literally into Japanese.
 73 Poi cominciai così: «L’affetto e ’l senno,
 74 come la prima equalità v’apparse,
 75 d’un peso per ciascun di voi si fenno,
+</prompt>
+<result>
+73 私はこう話し始めた。「愛情と知恵は、
+74 最初の平等があなた方に現れたとき、
+75 あなた方一人ひとりにとって同じ重みを持った。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 76/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 76 però che ’l sol che v’allumò e arse,
 77 col caldo e con la luce è sì iguali,
 78 che tutte simiglianze sono scarse.
 </prompt>
 <result>
-73 私はこう話し始めた。「愛情と知恵は、
-74 最初の平等があなた方に現れたとき、
-75 あなた方一人ひとりにとって同じ重みを持った。
-
 76 なぜなら、あなた方を照らし、燃やした太陽は、
 77 その熱と光においてとても平等なので、
 78 どんな類似も不十分だからだ。
@@ -328,16 +395,23 @@ Please translate each line literally into Japanese.
 79 Ma voglia e argomento ne’ mortali,
 80 per la cagion ch’a voi è manifesta,
 81 diversamente son pennuti in ali;
+</prompt>
+<result>
+79 しかし、死すべき者たちの意志と議論は、
+80 あなた方に明らかな理由によって、
+81 翼の羽ばたき方が異なる。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 82/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 82 ond’ io, che son mortal, mi sento in questa
 83 disagguaglianza, e però non ringrazio
 84 se non col core a la paterna festa.
 </prompt>
 <result>
-79 しかし、死すべき者たちの意志と議論は、
-80 あなた方に明らかな理由によって、
-81 翼の羽ばたき方が異なる。
-
 82 だから、私は死すべき者であるため、この
 83 不平等を感じ、だから父なる祝宴に
 84 心の中でしか感謝できない。
@@ -381,16 +455,23 @@ Please translate each line literally into Japanese.
 91 Poscia mi disse: «Quel da cui si dice
 92 tua cognazione e che cent’ anni e piùe
 93 girato ha ’l monte in la prima cornice,
+</prompt>
+<result>
+91 その後、彼女は私に言った。「あなたが
+92 親戚関係にあると言われている人で、100年以上も
+93 第一の縁を巡って山を回っている人は、
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 94/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 94 mio figlio fu e tuo bisavol fue:
 95 ben si convien che la lunga fatica
 96 tu li raccorci con l’opere tue.
 </prompt>
 <result>
-91 その後、彼女は私に言った。「あなたが
-92 親戚関係にあると言われている人で、100年以上も
-93 第一の縁を巡って山を回っている人は、
-
 94 私の息子であり、あなたの大おじいさんでした。
 95 あなたが自分の行いで彼の長い苦労を
 96 短縮するのは当然のことです。
@@ -435,10 +516,10 @@ Please translate each line literally into Japanese.
 104 la figlia al padre, che ’l tempo e la dote
 105 non fuggien quinci e quindi la misura.
 </prompt>
-<result>
+<error>
 103 娘が生まれるとき、まだ父親を怖がらせることはなく、
 104 時と持参金が、あちらこちらでその分量を逸脱することはなかった。
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 15] 106/148</info>
@@ -464,10 +545,10 @@ Please translate each line literally into Japanese.
 110 dal vostro Uccellatoio, che, com’ è vinto
 111 nel montar sù, così sarà nel calo.
 </prompt>
-<result>
+<error>
 109 モンテムロはまだあなたのウッチェラトーイオに征服されていなかった
 110 それは登るようにして征服されたが、降りるようにして征服されるだろう
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 15] 112/148</info>
@@ -477,45 +558,26 @@ Please translate each line literally into Japanese.
 112 Bellincion Berti vid’ io andar cinto
 113 di cuoio e d’osso, e venir da lo specchio
 114 la donna sua sanza ’l viso dipinto;
+</prompt>
+<error>
+112 ベッリンチョン・ベルティが革と骨でできた帯を締めて歩いているのを見た
+113 そして彼の妻が化粧をせずに鏡からやって来るのを見た
+</error>
+</query>
+<query>
+<info>[Paradiso Canto 15] 115/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 115 e vidi quel d’i Nerli e quel del Vecchio
 116 esser contenti a la pelle scoperta,
 117 e le sue donne al fuso e al pennecchio.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "112 ベッリンチョン・ベルティが革と骨でできた帯を締めて歩いているのを見た\n113 そして彼の妻が化粧をせずに鏡からやって来るのを見た\n\n114 そしてネルリ家の人々とヴェッキオ家の人々が\n115 むき出しの皮で満足しているのを見た\n116 そして彼らの妻たちが糸車と櫛で働いているのを見た"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
-112 ベッリンチョン・ベルティが革と骨でできた帯を締めて歩いているのを見た
-113 そして彼の妻が化粧をせずに鏡からやって来るのを見た
-
+<error>
 114 そしてネルリ家の人々とヴェッキオ家の人々が
 115 むき出しの皮で満足しているのを見た
 116 そして彼らの妻たちが糸車と櫛で働いているのを見た
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 15] 118/148</info>
@@ -540,42 +602,23 @@ Please translate each line literally into Japanese.
 121 L’una vegghiava a studio de la culla,
 122 e, consolando, usava l’idïoma
 123 che prima i padri e le madri trastulla;
+</prompt>
+<result>
+121 人々はゆりかごのそばで夜通し見守り
+122 慰めながら、かつて両親が楽しんだ
+123 言葉を使っていた
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 124/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 124 l’altra, traendo a la rocca la chioma,
 125 favoleggiava con la sua famiglia
 126 d’i Troiani, di Fiesole e di Roma.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "121 人々はゆりかごのそばで夜通し見守り\n122 慰めながら、かつて両親が楽しんだ\n123 言葉を使っていた\n\n124 別の人は、糸車を回しながら髪をとかし\n125 家族と一緒にトロイア、フィエーゾレ、ローマの\n126 物語を語っていた"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-121 人々はゆりかごのそばで夜通し見守り
-122 慰めながら、かつて両親が楽しんだ
-123 言葉を使っていた
-
 124 別の人は、糸車を回しながら髪をとかし
 125 家族と一緒にトロイア、フィエーゾレ、ローマの
 126 物語を語っていた
@@ -604,16 +647,23 @@ Please translate each line literally into Japanese.
 130 A così riposato, a così bello
 131 viver di cittadini, a così fida
 132 cittadinanza, a così dolce ostello,
+</prompt>
+<result>
+130 そんなにも安らかで、そんなにも美しく
+131 市民として生き、そんなにも信頼できる
+132 市民権を持ち、そんなにも優しい住まいで
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 133/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 133 Maria mi diè, chiamata in alte grida;
 134 e ne l’antico vostro Batisteo
 135 insieme fui cristiano e Cacciaguida.
 </prompt>
 <result>
-130 そんなにも安らかで、そんなにも美しく
-131 市民として生き、そんなにも信頼できる
-132 市民権を持ち、そんなにも優しい住まいで
-
 133 マリアは大きな声で私を呼び、
 134 そしてあなたの古い洗礼堂で
 135 私はキリスト教徒となり、カッチャグイダとなった
@@ -658,12 +708,12 @@ Please translate each line literally into Japanese.
 143 di quella legge il cui popolo usurpa,
 144 per colpa d’i pastor, vostra giustizia.
 </prompt>
-<result>
+<error>
 142 私は彼の後をついて行き、
 143 その法律の邪悪さと戦った。
 144 あなた方の正義は、羊飼いたちの罪によって、
 145 その民が奪い取っているのだ
-</result>
+</error>
 </query>
 <query>
 <info>[Paradiso Canto 15] 145/148</info>
@@ -673,14 +723,21 @@ Please translate each line literally into Japanese.
 145 Quivi fu’ io da quella gente turpa
 146 disviluppato dal mondo fallace,
 147 lo cui amor molt’ anime deturpa;
-
-148 e venni dal martiro a questa pace».
 </prompt>
 <result>
 145 そこで私はその醜い人々によって
 146 偽りの世界から引き離され、
 147 その愛が多くの魂を汚す。
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 148/148</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+148 e venni dal martiro a questa pace».
+</prompt>
+<result>
 148 そして私は苦しみからこの安らぎに至った」。
 </result>
 </query>

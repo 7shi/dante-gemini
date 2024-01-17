@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="54">
 <query>
 <info>[Inferno Canto 22] 1/151</info>
 <prompt>
@@ -8,32 +8,53 @@ Please translate each line literally into Japanese.
 1 Io vidi già cavalier muover campo,
 2 e cominciare stormo e far lor mostra,
 3 e talvolta partir per loro scampo;
+</prompt>
+<result>
+1 私はすでに騎士たちが野営を移動させ、
+2 戦闘を開始し、隊列を整えるのを見た。
+3 そして時には彼らが逃げるために出発するのを見た。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 4/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 4 corridor vidi per la terra vostra,
 5 o Aretini, e vidi gir gualdane,
 6 fedir torneamenti e correr giostra;
+</prompt>
+<result>
+4 私はあなた方の土地、
+5 アレッツォの人々よ、騎兵隊が駆け巡るのを見た。
+6 トーナメントで槍を交え、馬上槍試合を駆け抜けるのを見た。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 7/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 7 quando con trombe, e quando con campane,
 8 con tamburi e con cenni di castella,
 9 e con cose nostrali e con istrane;
+</prompt>
+<result>
+7 時にはトランペットや鐘の音で、
+8 太鼓や城からの合図で、
+9 そして地元のものや珍しいもので。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 10/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 10 né già con sì diversa cennamella
 11 cavalier vidi muover né pedoni,
 12 né nave a segno di terra o di stella.
 </prompt>
 <result>
-1 私はすでに騎士たちが野営を移動させ、
-2 戦闘を開始し、隊列を整えるのを見た。
-3 そして時には彼らが逃げるために出発するのを見た。
-
-4 私はあなた方の土地、
-5 アレッツォの人々よ、騎兵隊が駆け巡るのを見た。
-6 トーナメントで槍を交え、馬上槍試合を駆け抜けるのを見た。
-
-7 時にはトランペットや鐘の音で、
-8 太鼓や城からの合図で、
-9 そして地元のものや珍しいもので。
-
 10 私はこれほどまでに異なる合図で、
 11 騎士や歩兵が動くのを見たことがない。
 12 船が陸地や星の合図で動くのを見たことがない。
@@ -48,32 +69,6 @@ Please translate each line literally into Japanese.
 14 Ahi fiera compagnia! ma ne la chiesa
 15 coi santi, e in taverna coi ghiottoni.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "13 私たちは10人の悪魔と一緒に歩いていた。\n14 ああ、なんて恐ろしい仲間だ！しかし教会では\n15 聖人たちと一緒に、居酒屋では大食漢たちと一緒に。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 13 私たちは10人の悪魔と一緒に歩いていた。
 14 ああ、なんて恐ろしい仲間だ！しかし教会では
@@ -103,15 +98,22 @@ Please translate each line literally into Japanese.
 19 Come i dalfini, quando fanno segno
 20 a’ marinar con l’arco de la schiena
 21 che s’argomentin di campar lor legno,
+</prompt>
+<error>
+19 海の旅人たちに背中の弓で合図を送るイルカのように、
+20 彼らの船を救うために努力するように。
+</error>
+</query>
+<query>
+<info>[Inferno Canto 22] 22/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 22 talor così, ad alleggiar la pena,
 23 mostrav’ alcun de’ peccatori ’l dosso
 24 e nascondea in men che non balena.
 </prompt>
 <result>
-19 海の旅人たちに背中の弓で合図を送るイルカのように、
-20 彼らの船を救うために努力するように。
-
 22 時にはこのように、苦しみを和らげるために、
 23 罪人たちが背中を見せて、
 24 まばたきするよりも早く隠れた。
@@ -125,16 +127,23 @@ Please translate each line literally into Japanese.
 25 E come a l’orlo de l’acqua d’un fosso
 26 stanno i ranocchi pur col muso fuori,
 27 sì che celano i piedi e l’altro grosso,
+</prompt>
+<result>
+25 そして堀の縁に、
+26 カエルたちが鼻だけ出して立っているように、
+27 足と残りの体を隠している。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 28/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 28 sì stavan d’ogne parte i peccatori;
 29 ma come s’appressava Barbariccia,
 30 così si ritraén sotto i bollori.
 </prompt>
 <result>
-25 そして堀の縁に、
-26 カエルたちが鼻だけ出して立っているように、
-27 足と残りの体を隠している。
-
 28 罪人たちもそのように、あちこちに立っていた。
 29 しかしバルバリッチャが近づくと、
 30 煮えたぎるピッチの下に身を引いた。
@@ -148,16 +157,23 @@ Please translate each line literally into Japanese.
 31 I’ vidi, e anco il cor me n’accapriccia,
 32 uno aspettar così, com’ elli ’ncontra
 33 ch’una rana rimane e l’altra spiccia;
+</prompt>
+<result>
+31 私は見た、そして今でも心が震えるが、
+32 カエルが1匹残ってもう1匹が飛び跳ねるのを待つように、
+33 1人の罪人が待っているのを見た。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 34/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 34 e Graffiacan, che li era più di contra,
 35 li arruncigliò le ’mpegolate chiome
 36 e trassel sù, che mi parve una lontra.
 </prompt>
 <result>
-31 私は見た、そして今でも心が震えるが、
-32 カエルが1匹残ってもう1匹が飛び跳ねるのを待つように、
-33 1人の罪人が待っているのを見た。
-
 34 そしてその罪人に最も近いところにいたグラッフィアカーンは、
 35 その罪人のピッチにまみれた髪を引っ掻き、
 36 引きずり上げた。それはカワウソのようだった。
@@ -187,10 +203,10 @@ Please translate each line literally into Japanese.
 41 li unghioni a dosso, sì che tu lo scuoi!»,
 42 gridavan tutti insieme i maladetti.
 </prompt>
-<result>
+<error>
 40 「ルビカンテよ、その爪を彼の背中に立てて、皮を剥げ！」
 41 悪党どもは皆一斉に叫んだ。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 22] 43/151</info>
@@ -201,10 +217,10 @@ Please translate each line literally into Japanese.
 44 che tu sappi chi è lo sciagurato
 45 venuto a man de li avversari suoi».
 </prompt>
-<result>
+<error>
 43 そして私は言った。「先生、もしできるなら、
 44 敵の手に落ちたこの不幸な男が誰なのかを知ってください。」
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 22] 46/151</info>
@@ -275,32 +291,6 @@ Please translate each line literally into Japanese.
 59 ma Barbariccia il chiuse con le braccia
 60 e disse: «State in là, mentr’ io lo ’nforco».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "58 悪い猫の中にネズミが入り込んでしまった\n59 しかしバルバリッチャは彼を腕で締め上げて\n60 「離れろ、私がこいつを串刺しにするまで」と言った"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 58 悪い猫の中にネズミが入り込んでしまった
 59 しかしバルバリッチャは彼を腕で締め上げて
@@ -330,15 +320,24 @@ Please translate each line literally into Japanese.
 64 Lo duca dunque: «Or dì: de li altri rii
 65 conosci tu alcun che sia latino
 66 sotto la pece?». E quelli: «I’ mi partii,
-
-67 poco è, da un che fu di là vicino.
 </prompt>
-<result>
+<error>
 64 そこで案内人は言いました。「さあ、言え。他の罪人の中で
 65 ラテン語を話す者はいないか？
 66 この瀝青の下に？」すると彼は言いました。「私は去りました、
 67 少し前ですが、その近くから来た者から」
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 22] 67/151</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+67 poco è, da un che fu di là vicino.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 22] 68/151</info>
@@ -347,15 +346,22 @@ Please translate each line literally into Japanese.
 
 68 Così foss’ io ancor con lui coperto,
 69 ch’i’ non temerei unghia né uncino!».
+</prompt>
+<result>
+68 ああ、私もまだ彼と一緒に覆われていたら、
+69 爪も鉤も恐れることはなかっただろうに！」
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 70/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 70 E Libicocco «Troppo avem sofferto»,
 71 disse; e preseli ’l braccio col runciglio,
 72 sì che, stracciando, ne portò un lacerto.
 </prompt>
 <result>
-68 ああ、私もまだ彼と一緒に覆われていたら、
-69 爪も鉤も恐れることはなかっただろうに！」
-
 70 するとリビコッコは「私たちは十分に苦しんだ」
 71 と言い、鉤爪で彼の腕をつかみ、
 72 引き裂いて、一片を切り取った。
@@ -384,17 +390,24 @@ Please translate each line literally into Japanese.
 76 Quand’ elli un poco rappaciati fuoro,
 77 a lui, ch’ancor mirava sua ferita,
 78 domandò ’l duca mio sanza dimoro:
-
-79 «Chi fu colui da cui mala partita
-80 di’ che facesti per venire a proda?».
 </prompt>
 <result>
 76 彼らが少し落ち着くと、
 77 まだ自分の傷を見つめていた彼に、
 78 私の案内人はすぐに尋ねました。
-
-79 「お前が岸にたどり着くためにひどい別れをしたのは誰だ？」
 </result>
+</query>
+<query>
+<info>[Inferno Canto 22] 79/151</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+79 «Chi fu colui da cui mala partita
+80 di’ che facesti per venire a proda?».
+</prompt>
+<error>
+79 「お前が岸にたどり着くためにひどい別れをしたのは誰だ？」
+</error>
 </query>
 <query>
 <info>[Inferno Canto 22] 81/151</info>
@@ -402,14 +415,21 @@ Please translate each line literally into Japanese.
 Please translate each line literally into Japanese.
 
 81 Ed ei rispuose: «Fu frate Gomita,
+</prompt>
+<result>
+81 すると彼は答えました。「それはフラテ・ゴミタでした。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 82/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 82 quel di Gallura, vasel d’ogne froda,
 83 ch’ebbe i nemici di suo donno in mano,
 84 e fé sì lor, che ciascun se ne loda.
 </prompt>
 <result>
-81 すると彼は答えました。「それはフラテ・ゴミタでした。
-
 82 ガッルーラ出身で、あらゆる不正行為の器。
 83 彼は主君の敵を手にかけ、
 84 彼らにそうしたことで、誰もが彼を褒め称えています。
@@ -439,10 +459,10 @@ Please translate each line literally into Japanese.
 89 di Logodoro; e a dir di Sardigna
 90 le lingue lor non si sentono stanche.
 </prompt>
-<result>
+<error>
 88 彼はサルデーニャのロゴドーロのドン・ミケーレ・ザンケと一緒にいる
 89 そしてサルデーニャ語を話しても、彼らの舌は疲れない
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 22] 91/151</info>
@@ -482,16 +502,8 @@ Please translate each line literally into Japanese.
 97 «Se voi volete vedere o udire»,
 98 ricominciò lo spaürato appresso,
 99 «Toschi o Lombardi, io ne farò venire;
-
-100 ma stieno i Malebranche un poco in cesso,
-101 sì ch’ei non teman de le lor vendette;
-102 e io, seggendo in questo loco stesso,
-
-103 per un ch’io son, ne farò venir sette
-104 quand’ io suffolerò, com’ è nostro uso
-105 di fare allor che fori alcun si mette».
 </prompt>
-<result>
+<error>
 97 「もしあなたがたが見たり聞いたりしたいのなら」
 98 怯えた者が再び話し始めた
 99 「トスカーナ人かロンバルディア人なら、連れてくることができる
@@ -501,7 +513,33 @@ Please translate each line literally into Japanese.
 103 私が一人いるだけで、七人を連れてくることができる
 104 私が息を吹きかけるとき、それは私たちが
 105 誰かが外に出るときにやることだ」
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 22] 100/151</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+100 ma stieno i Malebranche un poco in cesso,
+101 sì ch’ei non teman de le lor vendette;
+102 e io, seggendo in questo loco stesso,
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Inferno Canto 22] 103/151</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+103 per un ch’io son, ne farò venir sette
+104 quand’ io suffolerò, com’ è nostro uso
+105 di fare allor che fori alcun si mette».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 22] 106/151</info>
@@ -541,14 +579,21 @@ Please translate each line literally into Japanese.
 112 Alichin non si tenne e, di rintoppo
 113 a li altri, disse a lui: «Se tu ti cali,
 114 io non ti verrò dietro di gualoppo,
-
-115 ma batterò sovra la pece l’ali.
 </prompt>
 <result>
 112 アリキンは我慢できず、他の者たちを押し退けて
 113 彼に言った。「お前が降りてきたら、
 114 私はお前の後ろを駆けてはいかないぞ。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 115/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+115 ma batterò sovra la pece l’ali.
+</prompt>
+<result>
 115 しかし、お前の上を羽ばたいてやる」
 </result>
 </query>
@@ -559,15 +604,22 @@ Please translate each line literally into Japanese.
 
 116 Lascisi ’l collo, e sia la ripa scudo,
 117 a veder se tu sol più di noi vali».
+</prompt>
+<result>
+116 首を伸ばして、岸壁を盾にして、
+117 お前が私たちより優れているかどうかを見てみよう。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 118/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 118 O tu che leggi, udirai nuovo ludo:
 119 ciascun da l’altra costa li occhi volse,
 120 quel prima, ch’a ciò fare era più crudo.
 </prompt>
 <result>
-116 首を伸ばして、岸壁を盾にして、
-117 お前が私たちより優れているかどうかを見てみよう。
-
 118 読者よ、新しい遊びを聞くだろう。
 119 それぞれが反対側から目をそらし、
 120 最初にそうすることをためらっていた者が、より残酷になった。
@@ -611,16 +663,23 @@ Please translate each line literally into Japanese.
 127 Ma poco i valse: ché l’ali al sospetto
 128 non potero avanzar; quelli andò sotto,
 129 e quei drizzò volando suso il petto:
+</prompt>
+<result>
+127 だがそれはほとんど役に立たなかった。なぜなら疑念の翼は
+128 前進することができず、彼は下に降り、
+129 そしてもう一方は飛んで彼の胸の上に立った。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 130/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 130 non altrimenti l’anitra di botto,
 131 quando ’l falcon s’appressa, giù s’attuffa,
 132 ed ei ritorna sù crucciato e rotto.
 </prompt>
 <result>
-127 だがそれはほとんど役に立たなかった。なぜなら疑念の翼は
-128 前進することができず、彼は下に降り、
-129 そしてもう一方は飛んで彼の胸の上に立った。
-
 130 まさにカモが、
 131 鷹が近づくとすぐに下に飛び込み、
 132 そして鷹は腹を立てて打ちのめされて舞い戻るように。
@@ -634,16 +693,23 @@ Please translate each line literally into Japanese.
 133 Irato Calcabrina de la buffa,
 134 volando dietro li tenne, invaghito
 135 che quei campasse per aver la zuffa;
+</prompt>
+<result>
+133 怒ったカルカブリナは、
+134 後ろから飛んで彼らに付きまとった。争いをするために、
+135 あの男が生かされることを望んで。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 136/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 136 e come ’l barattier fu disparito,
 137 così volse li artigli al suo compagno,
 138 e fu con lui sopra ’l fosso ghermito.
 </prompt>
 <result>
-133 怒ったカルカブリナは、
-134 後ろから飛んで彼らに付きまとった。争いをするために、
-135 あの男が生かされることを望んで。
-
 136 そして詐欺師がいなくなると、
 137 彼は仲間の方に爪を向け、
 138 そして彼と一緒に堀の上に飛びかかった。
@@ -687,19 +753,26 @@ Please translate each line literally into Japanese.
 145 Barbariccia, con li altri suoi dolente,
 146 quattro ne fé volar da l’altra costa
 147 con tutt’ i raffi, e assai prestamente
-
-148 di qua, di là discesero a la posta;
-149 porser li uncini verso li ’mpaniati,
-150 ch’eran già cotti dentro da la crosta.
 </prompt>
 <result>
 145 バルバリッチャは、他の仲間たちと一緒に悲しみながら、
 146 向こう岸から4匹を飛ばし、
 147 すべての鉤爪を使って、そして非常に素早く
+</result>
+</query>
+<query>
+<info>[Inferno Canto 22] 148/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+148 di qua, di là discesero a la posta;
+149 porser li uncini verso li ’mpaniati,
+150 ch’eran già cotti dentro da la crosta.
+</prompt>
+<error>
 148 あちらこちらから、捕らえられた者たちのところに降り立った。
 149 彼らは、すでに皮が焼けた状態だった捕らえられた者たちに向かって鉤爪を突き出した。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 22] 151/151</info>

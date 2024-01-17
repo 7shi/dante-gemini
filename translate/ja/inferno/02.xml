@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="48">
 <query>
 <info>[Inferno Canto 2] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Japanese.
 1 Lo giorno se n’andava, e l’aere bruno
 2 toglieva li animai che sono in terra
 3 da le fatiche loro; e io sol uno
+</prompt>
+<result>
+1 昼は終わり、薄暗い空気は
+2 地上の生き物たちから
+3 労苦を取り除いた。そして私だけが
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 4/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 4 m’apparecchiava a sostener la guerra
 5 sì del cammino e sì de la pietate,
 6 che ritrarrà la mente che non erra.
 </prompt>
 <result>
-1 昼は終わり、薄暗い空気は
-2 地上の生き物たちから
-3 労苦を取り除いた。そして私だけが
-
 4 戦いに耐える準備をしていた
 5 道のりも、そして慈悲も、
 6 決して迷わない心が思い起こすだろう。
@@ -76,24 +83,38 @@ Please translate each line literally into Japanese.
 16 Però, se l’avversario d’ogne male
 17 cortese i fu, pensando l’alto effetto
 18 ch’uscir dovea di lui, e ’l chi e ’l quale
+</prompt>
+<result>
+16 しかし、あらゆる悪の敵が
+17 彼に親切だったのは、彼から生まれる
+18 偉大な結果を考え、そして彼が誰で、どのような人物かを
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 19/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 19 non pare indegno ad omo d’intelletto;
 20 ch’e’ fu de l’alma Roma e di suo impero
 21 ne l’empireo ciel per padre eletto:
+</prompt>
+<result>
+19 知性のある者にはふさわしくないと見えないからである。
+20 彼は偉大なローマとローマ帝国の
+21 天上の天国で父として選ばれた。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 22/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 22 la quale e ’l quale, a voler dir lo vero,
 23 fu stabilita per lo loco santo
 24 u’ siede il successor del maggior Piero.
 </prompt>
 <result>
-16 しかし、あらゆる悪の敵が
-17 彼に親切だったのは、彼から生まれる
-18 偉大な結果を考え、そして彼が誰で、どのような人物かを
-
-19 知性のある者にはふさわしくないと見えないからである。
-20 彼は偉大なローマとローマ帝国の
-21 天上の天国で父として選ばれた。
-
 22 そしてその彼が、真実に語るとすれば、
 23 聖なる場所で確立された
 24 偉大なペテロの後継者が座している場所である。
@@ -167,16 +188,23 @@ Please translate each line literally into Japanese.
 37 E qual è quei che disvuol ciò che volle
 38 e per novi pensier cangia proposta,
 39 sì che dal cominciar tutto si tolle,
+</prompt>
+<result>
+37 そして、望んだことを望まなくなり、
+38 新しい考えのために決意を変え、
+39 始める前からすべてを放棄してしまう人は、
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 40/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 40 tal mi fec’ ïo ’n quella oscura costa,
 41 perché, pensando, consumai la ’mpresa
 42 che fu nel cominciar cotanto tosta.
 </prompt>
 <result>
-37 そして、望んだことを望まなくなり、
-38 新しい考えのために決意を変え、
-39 始める前からすべてを放棄してしまう人は、
-
 40 暗い坂道で私がそうであった。
 41 なぜなら、考えをめぐらせているうちに、
 42 最初は非常に困難だった試みを放棄してしまったからである。
@@ -190,16 +218,23 @@ Please translate each line literally into Japanese.
 43 «S’i’ ho ben la parola tua intesa»,
 44 rispuose del magnanimo quell’ ombra,
 45 «l’anima tua è da viltade offesa;
+</prompt>
+<result>
+43 「もし私があなたの言葉を正しく理解したのなら」
+44 その高潔な影は答えた
+45 「あなたの魂は臆病さに冒されている
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 46/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 46 la qual molte fïate l’omo ingombra
 47 sì che d’onrata impresa lo rivolve,
 48 come falso veder bestia quand’ ombra.
 </prompt>
 <result>
-43 「もし私があなたの言葉を正しく理解したのなら」
-44 その高潔な影は答えた
-45 「あなたの魂は臆病さに冒されている
-
 46 それはしばしば人を圧倒し
 47 名誉ある事業から遠ざける
 48 偽りの幻影が獣を怖がらせるように」
@@ -229,32 +264,6 @@ Please translate each line literally into Japanese.
 53 e donna mi chiamò beata e bella,
 54 tal che di comandare io la richiesi.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "52 私は宙ぶらりんになっている者たちの中にいた\n53 そして一人の女性が私を祝福され、美しいと呼んだ\n54 それで私は彼女に命令するように頼んだ"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 52 私は宙ぶらりんになっている者たちの中にいた
 53 そして一人の女性が私を祝福され、美しいと呼んだ
@@ -269,32 +278,53 @@ Please translate each line literally into Japanese.
 55 Lucevan li occhi suoi più che la stella;
 56 e cominciommi a dir soave e piana,
 57 con angelica voce, in sua favella:
+</prompt>
+<result>
+55 彼の目は星よりも輝いていた
+56 そして彼は穏やかで静かな声で話し始めた
+57 天使のような声で、彼の言葉で
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 58/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 58 “O anima cortese mantoana,
 59 di cui la fama ancor nel mondo dura,
 60 e durerà quanto ’l mondo lontana,
+</prompt>
+<result>
+58 「ああ、礼儀正しいマントヴァの魂よ
+59 その名声は今も世に残り
+60 そして世界が続く限り永遠に続くであろう
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 61/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 61 l’amico mio, e non de la ventura,
 62 ne la diserta piaggia è impedito
 63 sì nel cammin, che vòlt’ è per paura;
+</prompt>
+<result>
+61 私の友であり、幸運の友ではない
+62 荒れ果てた海岸で妨げられ
+63 道を塞がれ、恐怖に駆られている
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 64/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 64 e temo che non sia già sì smarrito,
 65 ch’io mi sia tardi al soccorso levata,
 66 per quel ch’i’ ho di lui nel cielo udito.
 </prompt>
 <result>
-55 彼の目は星よりも輝いていた
-56 そして彼は穏やかで静かな声で話し始めた
-57 天使のような声で、彼の言葉で
-
-58 「ああ、礼儀正しいマントヴァの魂よ
-59 その名声は今も世に残り
-60 そして世界が続く限り永遠に続くであろう
-
-61 私の友であり、幸運の友ではない
-62 荒れ果てた海岸で妨げられ
-63 道を塞がれ、恐怖に駆られている
-
 64 そして私は彼がすでにあまりにも迷子になっていて
 65 私が助けに来るのが遅すぎるのではないかと恐れている
 66 天で彼について聞いたことのために」
@@ -313,8 +343,6 @@ Please translate each line literally into Japanese.
 67 さあ、動いて、あなたの飾られた言葉で
 68 そして彼の命に必要なもので
 69 彼を助けて、私が慰められるように
-
-（ベアトリーチェはダンテに、彼が地獄から抜け出し、煉獄を旅して天国に到達するのを助けるように頼んでいる）
 </result>
 </query>
 <query>
@@ -330,8 +358,6 @@ Please translate each line literally into Japanese.
 70 私はあなたを行かせるベアトリーチェです
 71 私は帰りたい場所から来ました
 72 愛が私を動かし、私に語らせています
-
-（ベアトリーチェはダンテに、彼女が彼を地獄から抜け出し、煉獄を旅して天国に到達するのを助けるために来たと告げます。彼女は愛によって動かされており、それが彼女に話させているのです。）
 </result>
 </query>
 <query>
@@ -342,28 +368,40 @@ Please translate each line literally into Japanese.
 73 Quando sarò dinanzi al segnor mio,
 74 di te mi loderò sovente a lui”.
 75 Tacette allora, e poi comincia’ io:
+</prompt>
+<result>
+73 私が私の主の前に立つとき
+74 私はしばしば彼にあなたを褒め称えるでしょう」
+75 そこで彼女は黙り、そして私は話し始めました
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 76/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 76 “O donna di virtù sola per cui
 77 l’umana spezie eccede ogne contento
 78 di quel ciel c’ha minor li cerchi sui,
+</prompt>
+<error>
+76 「美徳の女性よ、あなた一人のおかげで
+77 人類は最も小さな輪を持つ天国の満足を超えている
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 79/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 79 tanto m’aggrada il tuo comandamento,
 80 che l’ubidir, se già fosse, m’è tardi;
 81 più non t’è uo’ ch’aprirmi il tuo talento.
 </prompt>
 <result>
-73 私が私の主の前に立つとき
-74 私はしばしば彼にあなたを褒め称えるでしょう」
-75 そこで彼女は黙り、そして私は話し始めました
-
-76 「美徳の女性よ、あなた一人のおかげで
-77 人類は最も小さな輪を持つ天国の満足を超えている
-
 79 あなたの命令は私をとても喜ばせます
 80 もしそれがすでにあったとしても、従うのは遅すぎるでしょう
 81 あなたの望みを私に明かしてください」
-
-（ダンテはベアトリーチェに、彼女の命令に従うことができてとても嬉しいと告げます。彼は彼女に、彼女が彼に何を望んでいるのかを明かすように頼みます。）
 </result>
 </query>
 <query>
@@ -379,8 +417,6 @@ Please translate each line literally into Japanese.
 82 しかし、なぜあなたは
 83 この広い場所の中心であるこの下界に降りてこないのか
 84 あなたが切望して戻りたい場所から」
-
-（ダンテはベアトリーチェに、なぜ彼女が天国から地獄に降りてきたのかと尋ねます。）
 </result>
 </query>
 <query>
@@ -396,8 +432,6 @@ Please translate each line literally into Japanese.
 85 「あなたがそんなに詳しく知りたいのなら
 86 手短にお話ししましょう」と彼女は答えました
 87 「なぜ私がここに入ることを恐れないのか」
-
-（ベアトリーチェはダンテに、なぜ彼女が地獄に降りてくることを恐れないのかを説明します。）
 </result>
 </query>
 <query>
@@ -413,8 +447,6 @@ Please translate each line literally into Japanese.
 88 恐れるべきなのは、
 89 他人に危害を加える力を持つものだけです
 90 その他のものについては恐れる必要はありません。なぜなら、それらは恐ろしくないからです。
-
-（ベアトリーチェは、恐れるべきなのは他人に危害を加える力を持つものだけであり、それ以外のものは恐れる必要はないと説明します。）
 </result>
 </query>
 <query>
@@ -456,10 +488,10 @@ Please translate each line literally into Japanese.
 98 e disse:—Or ha bisogno il tuo fedele
 99 di te, e io a te lo raccomando—.
 </prompt>
-<result>
+<error>
 97 ルチアは彼女に頼んで言いました。
 98 「あなたの忠実な信者が今、あなたを必要としています。私は彼をあなたに託します。」
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 100/142</info>
@@ -484,19 +516,26 @@ Please translate each line literally into Japanese.
 103 Disse:—Beatrice, loda di Dio vera,
 104 ché non soccorri quei che t’amò tanto,
 105 ch’uscì per te de la volgare schiera?
-
-106 Non odi tu la pieta del suo pianto,
-107 non vedi tu la morte che ’l combatte
-108 su la fiumana ove ’l mar non ha vanto?—.
 </prompt>
 <result>
 103 「真実の神を讃えるベアトリーチェよ、
 104 あなたをとても愛し、
 105 あなたのために凡庸な人々の群れから抜け出した人をなぜ助けようとしないのですか？
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 106/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+106 Non odi tu la pieta del suo pianto,
+107 non vedi tu la morte che ’l combatte
+108 su la fiumana ove ’l mar non ha vanto?—.
+</prompt>
+<error>
 106 あなたは彼の嘆きの叫びを聞かないのですか？
 107 海が及ばない川で彼と戦う死が見えないのですか？」
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 109/142</info>
@@ -506,21 +545,28 @@ Please translate each line literally into Japanese.
 109 Al mondo non fur mai persone ratte
 110 a far lor pro o a fuggir lor danno,
 111 com’ io, dopo cotai parole fatte,
-
-112 venni qua giù del mio beato scanno,
-113 fidandomi del tuo parlare onesto,
-114 ch’onora te e quei ch’udito l’hanno”.
 </prompt>
 <result>
 109 世の中には、
 110 自分の利益を得たり、損害を避けたりするために、
 111 これほど急いだ人はいませんでした。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 112/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+112 venni qua giù del mio beato scanno,
+113 fidandomi del tuo parlare onesto,
+114 ch’onora te e quei ch’udito l’hanno”.
+</prompt>
+<error>
 112 私は、そのような言葉が交わされた後、
 113 あなたの正直な言葉に信頼を置いて、
 114 あなたとそれを聞いた人々を称えるために、
 115 私の祝福された場所からここへやって来ました。」
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 2] 115/142</info>
@@ -531,32 +577,6 @@ Please translate each line literally into Japanese.
 116 li occhi lucenti lagrimando volse,
 117 per che mi fece del venir più presto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "115 彼女が私にこう話した後、\n116 彼女は輝く目を涙で潤ませ、\n117 それによって私は急いで行くようになりました。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 115 彼女が私にこう話した後、
 116 彼女は輝く目を涙で潤ませ、
@@ -572,32 +592,6 @@ Please translate each line literally into Japanese.
 119 d’inanzi a quella fiera ti levai
 120 che del bel monte il corto andar ti tolse.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "118 そして私は彼女の望むままにやって来ました。\n119 あなたの前にあの獣を連れてきて、\n120 あなたが美しい山にすぐにたどり着くのを妨げました。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 118 そして私は彼女の望むままにやって来ました。
 119 あなたの前にあの獣を連れてきて、
@@ -612,16 +606,23 @@ Please translate each line literally into Japanese.
 121 Dunque: che è? perché, perché restai,
 122 perché tanta viltà nel core allette,
 123 perché ardire e franchezza non hai,
+</prompt>
+<result>
+121 だから、どうしたのですか？なぜ、なぜあなたは立ち尽くしているのですか？
+122 なぜあなたの心にはそんなにも臆病さがはびこっているのですか？
+123 なぜ勇気と率直さがないのですか？
+</result>
+</query>
+<query>
+<info>[Inferno Canto 2] 124/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 124 poscia che tai tre donne benedette
 125 curan di te ne la corte del cielo,
 126 e ’l mio parlar tanto ben ti promette?».
 </prompt>
 <result>
-121 だから、どうしたのですか？なぜ、なぜあなたは立ち尽くしているのですか？
-122 なぜあなたの心にはそんなにも臆病さがはびこっているのですか？
-123 なぜ勇気と率直さがないのですか？
-
 124 祝福された三人の女性が
 125 天の宮廷であなたを気にかけているのに、
 126 そして私の言葉があなたにとても良いことを約束しているのに？」
@@ -635,32 +636,53 @@ Please translate each line literally into Japanese.
 127 Quali fioretti dal notturno gelo
 128 chinati e chiusi, poi che ’l sol li ’mbianca,
 129 si drizzan tutti aperti in loro stelo,
+</prompt>
+<error>
+127 夜の冷たさで
+128 うなだれて閉じられていた小さな花々が、
+129 太陽が白く染めると、
+130 すべて茎の中でまっすぐに開くように、
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 130/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 130 tal mi fec’ io di mia virtude stanca,
 131 e tanto buono ardire al cor mi corse,
 132 ch’i’ cominciai come persona franca:
+</prompt>
+<error>
+131 私は疲れ果てた自分の勇気を奮い立たせ、
+132 心にとても良い勇気が湧いてきて、
+133 私は率直な人として話し始めました。
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 133/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 133 «Oh pietosa colei che mi soccorse!
 134 e te cortese ch’ubidisti tosto
 135 a le vere parole che ti porse!
+</prompt>
+<error>
+134 「私を助けてくれた慈悲深い女性よ！
+135 そして、彼女があなたに告げた真実の言葉にすぐに従ったあなたも礼儀正しい！
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 136/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 136 Tu m’hai con disiderio il cor disposto
 137 sì al venir con le parole tue,
 138 ch’i’ son tornato nel primo proposto.
 </prompt>
 <result>
-127 夜の冷たさで
-128 うなだれて閉じられていた小さな花々が、
-129 太陽が白く染めると、
-130 すべて茎の中でまっすぐに開くように、
-
-131 私は疲れ果てた自分の勇気を奮い立たせ、
-132 心にとても良い勇気が湧いてきて、
-133 私は率直な人として話し始めました。
-
-134 「私を助けてくれた慈悲深い女性よ！
-135 そして、彼女があなたに告げた真実の言葉にすぐに従ったあなたも礼儀正しい！
-
 136 あなたはあなたの言葉で私の心を
 137 来ることにとても前向きにさせてくれたので、
 138 私は最初の決意に戻りました。
@@ -674,15 +696,24 @@ Please translate each line literally into Japanese.
 139 Or va, ch’un sol volere è d’ambedue:
 140 tu duca, tu segnore e tu maestro».
 141 Così li dissi; e poi che mosso fue,
-
-142 intrai per lo cammino alto e silvestro.
 </prompt>
-<result>
+<error>
 139さあ、行こう、我々の望みは一つだ：
 140あなたは私の案内人、指導者、そして教師です」。
 141私はそう言った。そして彼が動き出したとき、
 
 142私は高く、荒々しい道を進んだ。
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 2] 142/142</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+142 intrai per lo cammino alto e silvestro.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 </queries>

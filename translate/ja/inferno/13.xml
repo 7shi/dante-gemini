@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="40">
+<queries count="54">
 <query>
 <info>[Inferno Canto 13] 1/151</info>
 <prompt>
@@ -54,32 +54,6 @@ Please translate each line literally into Japanese.
 11 che cacciar de le Strofade i Troiani
 12 con tristo annunzio di futuro danno.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 そこには醜いハルピュイアたちが巣を作っている\n11 未来の災いの悲しい知らせとともに\n12 ストロファデス諸島からトロイア人を追い出したハルピュイアたちが"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 10 そこには醜いハルピュイアたちが巣を作っている
 11 未来の災いの悲しい知らせとともに
@@ -109,15 +83,24 @@ Please translate each line literally into Japanese.
 16 E ’l buon maestro «Prima che più entre,
 17 sappi che se’ nel secondo girone»,
 18 mi cominciò a dire, «e sarai mentre
-
-19 che tu verrai ne l’orribil sabbione.
 </prompt>
-<result>
+<error>
 16 そして善良な師は「もっと奥に入る前に
 17 ここは第2の圏であることを知っておきなさい」
 18 と私に言い始め「そして恐ろしい砂漠に着くまで
 19 ここにいることになるだろう
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 19/151</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+19 che tu verrai ne l’orribil sabbione.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 20/151</info>
@@ -126,15 +109,22 @@ Please translate each line literally into Japanese.
 
 20 Però riguarda ben; sì vederai
 21 cose che torrien fede al mio sermone».
+</prompt>
+<result>
+20 だからよく注意してご覧なさい。そうすれば
+21 私の言葉では信じられないようなものを見るでしょう」
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 22/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 22 Io sentia d’ogne parte trarre guai
 23 e non vedea persona che ’l facesse;
 24 per ch’io tutto smarrito m’arrestai.
 </prompt>
 <result>
-20 だからよく注意してご覧なさい。そうすれば
-21 私の言葉では信じられないようなものを見るでしょう」
-
 22 私はあらゆる方向から悲鳴が聞こえてくるのを聞いたが
 23 それを発している人を見ることはできなかった。
 24 そこで私はすっかり途方に暮れて立ち止まった。
@@ -153,10 +143,6 @@ Please translate each line literally into Japanese.
 25 私は彼が私が信じていると思った
 26 あの茂みの中からたくさんの声が聞こえてくるのは
 27 私たちから隠れている人々によるものだと
-
-26 そこで私はこう言った。「師よ、この声は
-27 私たちが通るのを待っている人々から発せられているのでしょうか？
-28 それともこの森に自然に存在するのでしょうか？」
 </result>
 </query>
 <query>
@@ -197,16 +183,23 @@ Please translate each line literally into Japanese.
 34 Da che fatto fu poi di sangue bruno,
 35 ricominciò a dir: «Perché mi scerpi?
 36 non hai tu spirto di pietade alcuno?
+</prompt>
+<result>
+34 その後、血の色に染まった彼は
+35 再びこう言い始めた。「なぜ私を引き裂くのか？
+36 あなたには慈悲の心がないのか？
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 37/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 37 Uomini fummo, e or siam fatti sterpi:
 38 ben dovrebb’ esser la tua man più pia,
 39 se state fossimo anime di serpi».
 </prompt>
 <result>
-34 その後、血の色に染まった彼は
-35 再びこう言い始めた。「なぜ私を引き裂くのか？
-36 あなたには慈悲の心がないのか？
-
 37 私たちは人間だったが、今は木になってしまった。
 38 もし私たちが蛇の魂だったとしても、
 39 あなたの手はもっと慈悲深いはずだ」。
@@ -220,18 +213,25 @@ Please translate each line literally into Japanese.
 40 Come d’un stizzo verde ch’arso sia
 41 da l’un de’ capi, che da l’altro geme
 42 e cigola per vento che va via,
+</prompt>
+<error>
+40 一方の端が燃えていて、もう一方の端がうめき、
+41 風が抜けていくと軋む緑の薪のように、
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 43/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 43 sì de la scheggia rotta usciva insieme
 44 parole e sangue; ond’ io lasciai la cima
 45 cadere, e stetti come l’uom che teme.
 </prompt>
-<result>
-40 一方の端が燃えていて、もう一方の端がうめき、
-41 風が抜けていくと軋む緑の薪のように、
-
+<error>
 42 折れた枝からは言葉と血が同時に流れ出た。
 43 私は頂点を離れ、恐怖に震える人のように立ち尽くした。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 46/151</info>
@@ -241,16 +241,23 @@ Please translate each line literally into Japanese.
 46 «S’elli avesse potuto creder prima»,
 47 rispuose ’l savio mio, «anima lesa,
 48 ciò c’ha veduto pur con la mia rima,
+</prompt>
+<result>
+46 「もし彼が最初に信じることができていたら」
+47 賢者は傷ついた魂に答えた。
+48 「私が韻文で語ったことを見ていたら、
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 49/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 49 non averebbe in te la man distesa;
 50 ma la cosa incredibile mi fece
 51 indurlo ad ovra ch’a me stesso pesa.
 </prompt>
 <result>
-46 「もし彼が最初に信じることができていたら」
-47 賢者は傷ついた魂に答えた。
-48 「私が韻文で語ったことを見ていたら、
-
 49 彼はあなたに手を伸ばさなかっただろう。
 50 しかし、信じられないことだったので、
 51 私は彼に、私自身も苦しむようなことをさせてしまった」。
@@ -294,19 +301,26 @@ Please translate each line literally into Japanese.
 58 Io son colui che tenni ambo le chiavi
 59 del cor di Federigo, e che le volsi,
 60 serrando e diserrando, sì soavi,
+</prompt>
+<error>
+58 私はフェデリーゴの心の両方の鍵を握り、
+59 それを回して、開いたり閉めたりした。とても巧みに、
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 61/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 61 che dal secreto suo quasi ogn’ uom tolsi;
 62 fede portai al glorïoso offizio,
 63 tanto ch’i’ ne perde’ li sonni e ’ polsi.
 </prompt>
-<result>
-58 私はフェデリーゴの心の両方の鍵を握り、
-59 それを回して、開いたり閉めたりした。とても巧みに、
-
+<error>
 60 彼の秘密をほとんどすべての人から隠した。
 61 私は栄光ある職務に忠実であり、
 62 睡眠と休息を失うほどだった。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 64/151</info>
@@ -316,45 +330,26 @@ Please translate each line literally into Japanese.
 64 La meretrice che mai da l’ospizio
 65 di Cesare non torse li occhi putti,
 66 morte comune e de le corti vizio,
+</prompt>
+<error>
+64 カエサルの館から決して目を離さない娼婦は、
+65 死の共通の原因であり、宮廷の悪徳である。
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 67/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 67 infiammò contra me li animi tutti;
 68 e li ’nfiammati infiammar sì Augusto,
 69 che ’ lieti onor tornaro in tristi lutti.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "64 カエサルの館から決して目を離さない娼婦は、\n65 死の共通の原因であり、宮廷の悪徳である。\n\n66 彼女は私に対するすべての人の心を燃やし立て、\n67 そして燃え上がった人々はアウグストゥスを燃え上がらせ、\n68 幸せな栄誉は悲しみの悲しみに変わった。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
-64 カエサルの館から決して目を離さない娼婦は、
-65 死の共通の原因であり、宮廷の悪徳である。
-
+<error>
 66 彼女は私に対するすべての人の心を燃やし立て、
 67 そして燃え上がった人々はアウグストゥスを燃え上がらせ、
 68 幸せな栄誉は悲しみの悲しみに変わった。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 70/151</info>
@@ -395,10 +390,10 @@ Please translate each line literally into Japanese.
 77 conforti la memoria mia, che giace
 78 ancor del colpo che ’nvidia le diede».
 </prompt>
-<result>
+<error>
 76 もしあなたがたの中に地上世界に戻る人がいたら、
 77 嫉妬が与えた傷でまだ苦しんでいる私の記憶を慰めてほしい」。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 79/151</info>
@@ -438,16 +433,23 @@ Please translate each line literally into Japanese.
 85 Perciò ricominciò: «Se l’om ti faccia
 86 liberamente ciò che ’l tuo dir priega,
 87 spirito incarcerato, ancor ti piaccia
+</prompt>
+<result>
+85 そこで彼は再び話し始めた。「もし人間が、
+86 あなたの言葉が願うことを、自由にあなたにしてくれるなら、
+87 囚われた霊よ、それでもなお、
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 88/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 88 di dirne come l’anima si lega
 89 in questi nocchi; e dinne, se tu puoi,
 90 s’alcuna mai di tai membra si spiega».
 </prompt>
 <result>
-85 そこで彼は再び話し始めた。「もし人間が、
-86 あなたの言葉が願うことを、自由にあなたにしてくれるなら、
-87 囚われた霊よ、それでもなお、
-
 88 この節くれ立った木の中に魂がどのように縛られているかを教えてくれるだろうか。
 89 そして、もしできるなら、教えてほしい。
 90 これらの肢体の一部が、いつか解放されることはあるのだろうか」。
@@ -537,32 +539,6 @@ Please translate each line literally into Japanese.
 107 selva saranno i nostri corpi appesi,
 108 ciascuno al prun de l’ombra sua molesta».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "106 私たちは彼らをここに引きずり込み、この悲しみに満ちた\n107 森に彼らの体を吊るすだろう。\n108 それぞれが、自分の影が苦しめる茨に。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 106 私たちは彼らをここに引きずり込み、この悲しみに満ちた
 107 森に彼らの体を吊るすだろう。
@@ -577,19 +553,26 @@ Please translate each line literally into Japanese.
 109 Noi eravamo ancora al tronco attesi,
 110 credendo ch’altro ne volesse dire,
 111 quando noi fummo d’un romor sorpresi,
-
-112 similemente a colui che venire
-113 sente ’l porco e la caccia a la sua posta,
-114 ch’ode le bestie, e le frasche stormire.
 </prompt>
 <result>
 109 我々はまだ幹のそばで待っていた。
 110 彼はまだ何か言いたいことがあるだろうと思って。
 111 すると、我々は物音に驚かされた。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 112/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+112 similemente a colui che venire
+113 sente ’l porco e la caccia a la sua posta,
+114 ch’ode le bestie, e le frasche stormire.
+</prompt>
+<error>
 112 まるで、猪がやってきて、待ち構えていた猟師が、
 113 獣と葉擦れの音を聞くような。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 115/151</info>
@@ -600,32 +583,6 @@ Please translate each line literally into Japanese.
 116 nudi e graffiati, fuggendo sì forte,
 117 che de la selva rompieno ogne rosta.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "115 そして左側から2人が現れた\n116 裸で傷だらけで、とても速く逃げている\n117 森のあらゆる茂みを突き破って"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 115 そして左側から2人が現れた
 116 裸で傷だらけで、とても速く逃げている
@@ -640,8 +597,6 @@ Please translate each line literally into Japanese.
 118 Quel dinanzi: «Or accorri, accorri, morte!».
 119 E l’altro, cui pareva tardar troppo,
 120 gridava: «Lano, sì non furo accorte
-
-121 le gambe tue a le giostre dal Toppo!».
 </prompt>
 <result>
 118 その先を行く者は「さあ、急げ、急げ、死よ！」と叫んだ。
@@ -650,21 +605,39 @@ Please translate each line literally into Japanese.
 </result>
 </query>
 <query>
+<info>[Inferno Canto 13] 121/151</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+121 le gambe tue a le giostre dal Toppo!».
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
 <info>[Inferno Canto 13] 122/151</info>
 <prompt>
 Please translate each line literally into Japanese.
 
 122 E poi che forse li fallia la lena,
 123 di sé e d’un cespuglio fece un groppo.
+</prompt>
+<result>
+122 そして、おそらく彼らが息切れしたとき、
+123 彼は自分自身と茂みとを絡み合わせた。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 13] 124/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 124 Di rietro a loro era la selva piena
 125 di nere cagne, bramose e correnti
 126 come veltri ch’uscisser di catena.
 </prompt>
 <result>
-122 そして、おそらく彼らが息切れしたとき、
-123 彼は自分自身と茂みとを絡み合わせた。
-
 124 彼らの後ろには、森は
 125 黒い雌犬でいっぱいだった。それらは貪欲で素早く、
 126 まるで鎖から解き放たれた猟犬のようだった。
@@ -694,10 +667,10 @@ Please translate each line literally into Japanese.
 131 e menommi al cespuglio che piangea
 132 per le rotture sanguinenti in vano.
 </prompt>
-<result>
+<error>
 130 そこで私の案内人は私の手をとり、
 131 血まみれの傷口からむなしく泣き叫ぶ茂みへと私を連れて行った。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 133/151</info>
@@ -708,9 +681,9 @@ Please translate each line literally into Japanese.
 134 che t’è giovato di me fare schermo?
 135 che colpa ho io de la tua vita rea?».
 </prompt>
-<result>
+<error>
 133 「ああ、サンタンデレアのヤコポよ、」と茂みは言った。「私があなたを盾にしたところで何の役に立ったというのか？あなたの罪深い人生の責任は私にでもあるのか？」
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 136/151</info>
@@ -735,15 +708,22 @@ Please translate each line literally into Japanese.
 139 Ed elli a noi: «O anime che giunte
 140 siete a veder lo strazio disonesto
 141 c’ha le mie fronde sì da me disgiunte,
+</prompt>
+<error>
+139 すると茂みは私たちに言った。「ああ、魂たちよ、集まってきて
+140 私の葉を私から引き裂いたこの不名誉な虐殺を見るがいい。
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 142/151</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 142 raccoglietele al piè del tristo cesto.
 </prompt>
-<result>
-139 すると茂みは私たちに言った。「ああ、魂たちよ、集まってきて
-140 私の葉を私から引き裂いたこの不名誉な虐殺を見るがいい。
-
+<error>
 141 私の悲惨な幹の元にそれらを拾い集めてくれ。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 143/151</info>
@@ -752,22 +732,40 @@ Please translate each line literally into Japanese.
 
 143 I’ fui de la città che nel Batista
 144 mutò ’l primo padrone; ond’ ei per questo
-
-145 sempre con l’arte sua la farà trista;
-146 e se non fosse che ’n sul passo d’Arno
-147 rimane ancor di lui alcuna vista,
-
-148 que’ cittadin che poi la rifondarno
-149 sovra ’l cener che d’Attila rimase,
-150 avrebber fatto lavorare indarno.
 </prompt>
-<result>
+<error>
 143 私は、洗礼者ヨハネによって最初の守護聖人が変えられた都市の出身だ。そのため、彼は常にその都市を自分の技によって悲惨なものにするだろう。
 146 そして、もしアルノ川のほとりに彼の痕跡がまだ残っていなかったら、
 147 後にその都市を再建した市民たちは、
 148 アッティラが残した灰の上に、
 149 無駄に労力を費やしていたことだろう。
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 145/151</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+145 sempre con l’arte sua la farà trista;
+146 e se non fosse che ’n sul passo d’Arno
+147 rimane ancor di lui alcuna vista,
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Inferno Canto 13] 148/151</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+148 que’ cittadin che poi la rifondarno
+149 sovra ’l cener che d’Attila rimase,
+150 avrebber fatto lavorare indarno.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 13] 151/151</info>

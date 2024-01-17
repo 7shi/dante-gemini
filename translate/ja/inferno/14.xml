@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="48">
 <query>
 <info>[Inferno Canto 14] 1/142</info>
 <prompt>
@@ -24,10 +24,10 @@ Please translate each line literally into Japanese.
 5 lo secondo giron dal terzo, e dove
 6 si vede di giustizia orribil arte.
 </prompt>
-<result>
+<error>
 4 そこで私たちは、第二の圏と第三の圏が分かれる場所にたどり着いた
 5 そこで私たちは、恐ろしい正義の技を見る
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 7/142</info>
@@ -38,11 +38,10 @@ Please translate each line literally into Japanese.
 8 dico che arrivammo ad una landa
 9 che dal suo letto ogne pianta rimove.
 </prompt>
-<result>
+<error>
 7 新しいものたちを明らかにするために
 8 私たちは、あらゆる植物がその場所から取り除かれた荒れ地にたどり着いたと言う
-9
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 10/142</info>
@@ -68,11 +67,10 @@ Please translate each line literally into Japanese.
 14 non d’altra foggia fatta che colei
 15 che fu da’ piè di Caton già soppressa.
 </prompt>
-<result>
+<error>
 13 その場所は、乾燥していて厚い砂地で
 14 カトーの足によって踏み固められたものと何ら変わりはない
-15
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 16/142</info>
@@ -82,16 +80,22 @@ Please translate each line literally into Japanese.
 16 O vendetta di Dio, quanto tu dei
 17 esser temuta da ciascun che legge
 18 ciò che fu manifesto a li occhi mei!
+</prompt>
+<error>
+16ああ、神の復讐よ、あなたはどれほど恐ろしいことか
+17 あなたの目に明らかになったことを読む人すべてに
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 19/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 19 D’anime nude vidi molte gregge
 20 che piangean tutte assai miseramente,
 21 e parea posta lor diversa legge.
 </prompt>
 <result>
-16ああ、神の復讐よ、あなたはどれほど恐ろしいことか
-17 あなたの目に明らかになったことを読む人すべてに
-18
-
 19 私は多くの裸の魂の群れを見た
 20 彼らは皆、とても悲しそうに泣いていて
 21 彼らにはそれぞれ異なる法律が課されているようだった
@@ -150,24 +154,37 @@ Please translate each line literally into Japanese.
 31 Quali Alessandro in quelle parti calde
 32 d’Indïa vide sopra ’l süo stuolo
 33 fiamme cadere infino a terra salde,
+</prompt>
+<result>
+31 アレクサンドロスがインドの暑い地域で見たように
+32 燃え盛る炎が彼の軍勢の上に降り注ぎ
+33 地面まで届いた
+</result>
+</query>
+<query>
+<info>[Inferno Canto 14] 34/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 34 per ch’ei provide a scalpitar lo suolo
 35 con le sue schiere, acciò che lo vapore
 36 mei si stingueva mentre ch’era solo:
+</prompt>
+<error>
+34 そこで彼は、蒸気が消える前に
+35 彼の軍勢に地面を踏みつけさせた
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 37/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 37 tale scendeva l’etternale ardore;
 38 onde la rena s’accendea, com’ esca
 39 sotto focile, a doppiar lo dolore.
 </prompt>
 <result>
-31 アレクサンドロスがインドの暑い地域で見たように
-32 燃え盛る炎が彼の軍勢の上に降り注ぎ
-33 地面まで届いた
-
-34 そこで彼は、蒸気が消える前に
-35 彼の軍勢に地面を踏みつけさせた
-36
-
 37 永遠の炎が降り注ぎ
 38 砂が火打ち石の下の火口のように燃え上がり
 39 苦痛を倍増させた
@@ -182,32 +199,6 @@ Please translate each line literally into Japanese.
 41 de le misere mani, or quindi or quinci
 42 escotendo da sé l’arsura fresca.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "40 惨めな手は休むことなく\n41 あちらこちらで\n42 新鮮な焼け跡から身を震わせていた"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 40 惨めな手は休むことなく
 41 あちらこちらで
@@ -222,12 +213,8 @@ Please translate each line literally into Japanese.
 43 I’ cominciai: «Maestro, tu che vinci
 44 tutte le cose, fuor che ’ demon duri
 45 ch’a l’intrar de la porta incontra uscinci,
-
-46 chi è quel grande che non par che curi
-47 lo ’ncendio e giace dispettoso e torto,
-48 sì che la pioggia non par che ’l marturi?».
 </prompt>
-<result>
+<error>
 43私は言った。「先生、あなたは勝利する
 44すべてのものに対して、悪魔を除いて
 45悪魔は入り口の扉から出てきました、
@@ -235,7 +222,20 @@ Please translate each line literally into Japanese.
 46あの人は偉大な人ですが、火事を気にせず
 47横たわって、不機嫌でねじ曲がっています。
 48雨でさえ彼を苦しめているようには見えません。」
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 46/142</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+46 chi è quel grande che non par che curi
+47 lo ’ncendio e giace dispettoso e torto,
+48 sì che la pioggia non par che ’l marturi?».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 49/142</info>
@@ -246,11 +246,11 @@ Please translate each line literally into Japanese.
 50 ch’io domandava il mio duca di lui,
 51 gridò: «Qual io fui vivo, tal son morto.
 </prompt>
-<result>
+<error>
 49そしてその同じ人物は気づいた
 50私が私の案内人に彼について尋ねていることに
 51叫んだ。「私が生きていたときと同じように、私は死んでいる。」
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 52/142</info>
@@ -260,16 +260,8 @@ Please translate each line literally into Japanese.
 52 Se Giove stanchi ’l suo fabbro da cui
 53 crucciato prese la folgore aguta
 54 onde l’ultimo dì percosso fui;
-
-55 o s’elli stanchi li altri a muta a muta
-56 in Mongibello a la focina negra,
-57 chiamando “Buon Vulcano, aiuta, aiuta!”,
-
-58 sì com’ el fece a la pugna di Flegra,
-59 e me saetti con tutta sua forza:
-60 non ne potrebbe aver vendetta allegra».
 </prompt>
-<result>
+<error>
 52もしもジュピターが彼の鍛冶屋を疲れさせたなら、その鍛冶屋から
 53怒って鋭い稲妻を奪い取った。その稲妻で私は最後の日を打たれた。
 
@@ -279,7 +271,33 @@ Please translate each line literally into Japanese.
 56まるで彼がフレグラの戦いでそうしたように、
 57そして彼の全力を尽くして私を矢で射たれたなら：
 60彼はその復讐を喜んで果たすことはできないだろう。
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 55/142</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+55 o s’elli stanchi li altri a muta a muta
+56 in Mongibello a la focina negra,
+57 chiamando “Buon Vulcano, aiuta, aiuta!”,
+</prompt>
+<error>
+(no result)
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 58/142</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+58 sì com’ el fece a la pugna di Flegra,
+59 e me saetti con tutta sua forza:
+60 non ne potrebbe aver vendetta allegra».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 61/142</info>
@@ -289,19 +307,28 @@ Please translate each line literally into Japanese.
 61 Allora il duca mio parlò di forza
 62 tanto, ch’i’ non l’avea sì forte udito:
 63 «O Capaneo, in ciò che non s’ammorza
-
-64 la tua superbia, se’ tu più punito;
-65 nullo martiro, fuor che la tua rabbia,
-66 sarebbe al tuo furor dolor compito».
 </prompt>
-<result>
+<error>
 61その時、私の案内人は力強く語った
 62私はそれほどの強さで彼を聞いたことがなかった：
 63「カパネウスよ、あなたの傲慢さが消えないことで、あなたはさらに罰せられている。
 
 64あなたの怒り以外のいかなる苦痛も、
 65あなたの激怒に対する完全な苦痛にはならないだろう。」
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 64/142</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+64 la tua superbia, se’ tu più punito;
+65 nullo martiro, fuor che la tua rabbia,
+66 sarebbe al tuo furor dolor compito».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 67/142</info>
@@ -311,18 +338,27 @@ Please translate each line literally into Japanese.
 67 Poi si rivolse a me con miglior labbia,
 68 dicendo: «Quei fu l’un d’i sette regi
 69 ch’assiser Tebe; ed ebbe e par ch’elli abbia
-
-70 Dio in disdegno, e poco par che ’l pregi;
-71 ma, com’ io dissi lui, li suoi dispetti
-72 sono al suo petto assai debiti fregi.
 </prompt>
-<result>
+<error>
 67それから彼はより良い口調で私に語りかけた。
 68「彼はテーベを包囲した7人の王のうちの1人だった。彼は神を軽蔑し、今でも軽蔑しているようだ。
 
 69しかし、私が彼に言ったように、彼の軽蔑は
 71彼の胸には十分な勲章である。」
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 70/142</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+70 Dio in disdegno, e poco par che ’l pregi;
+71 ma, com’ io dissi lui, li suoi dispetti
+72 sono al suo petto assai debiti fregi.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 73/142</info>
@@ -333,11 +369,11 @@ Please translate each line literally into Japanese.
 74 ancor, li piedi ne la rena arsiccia;
 75 ma sempre al bosco tien li piedi stretti».
 </prompt>
-<result>
+<error>
 73さあ、私の後に従い、そしてあなたが足を置かないように注意しなさい、
 74まだ、焦げた砂の上に。
 75しかし、常に森の中に足を踏み入れておきなさい。」
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 76/142</info>
@@ -348,11 +384,11 @@ Please translate each line literally into Japanese.
 77 fuor de la selva un picciol fiumicello,
 78 lo cui rossore ancor mi raccapriccia.
 </prompt>
-<result>
+<error>
 76私たちは沈黙したまま、森の外に
 77小さな小川が流れ出る場所に到着した。
 78その赤さは今でも私をぞっとさせる。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 79/142</info>
@@ -363,11 +399,11 @@ Please translate each line literally into Japanese.
 80 che parton poi tra lor le peccatrici,
 81 tal per la rena giù sen giva quello.
 </prompt>
-<result>
+<error>
 79ブリーカメから流れ出る小川のように
 80罪深い女たちが別れる
 81その小川は砂の上を流れていった。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 82/142</info>
@@ -378,11 +414,11 @@ Please translate each line literally into Japanese.
 83 fatt’ era ’n pietra, e ’ margini dallato;
 84 per ch’io m’accorsi che ’l passo era lici.
 </prompt>
-<result>
+<error>
 82その底と両側の斜面は
 83石でできていて、縁は側面に沿っていた。
 84それで私はそこが通り道だと気づいた。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 85/142</info>
@@ -392,16 +428,23 @@ Please translate each line literally into Japanese.
 85 «Tra tutto l’altro ch’i’ t’ho dimostrato,
 86 poscia che noi intrammo per la porta
 87 lo cui sogliare a nessuno è negato,
+</prompt>
+<result>
+85 これまでお見せしてきたことの中で
+86 私達が門をくぐってから
+87 その敷居は誰にも拒まれない
+</result>
+</query>
+<query>
+<info>[Inferno Canto 14] 88/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 88 cosa non fu da li tuoi occhi scorta
 89 notabile com’ è ’l presente rio,
 90 che sovra sé tutte fiammelle ammorta».
 </prompt>
 <result>
-85 これまでお見せしてきたことの中で
-86 私達が門をくぐってから
-87 その敷居は誰にも拒まれない
-
 88 あなたの目に映らなかったことは何ですか
 89 目の前の川のように目立つのに
 90 その川はすべての炎を消し去る
@@ -490,16 +533,23 @@ Please translate each line literally into Japanese.
 106 La sua testa è di fin oro formata,
 107 e puro argento son le braccia e ’l petto,
 108 poi è di rame infino a la forcata;
+</prompt>
+<result>
+106 頭は純金で形作られ
+107 腕と胸は純銀で
+108 股までは銅でできている
+</result>
+</query>
+<query>
+<info>[Inferno Canto 14] 109/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 109 da indi in giuso è tutto ferro eletto,
 110 salvo che ’l destro piede è terra cotta;
 111 e sta ’n su quel, più che ’n su l’altro, eretto.
 </prompt>
 <result>
-106 頭は純金で形作られ
-107 腕と胸は純銀で
-108 股までは銅でできている
-
 109 そこから下はすべて上質な鉄で
 110 ただし右足は素焼きで
 111 彼はその足で、もう一方の足よりもまっすぐに立っている
@@ -528,16 +578,23 @@ Please translate each line literally into Japanese.
 115 Lor corso in questa valle si diroccia;
 116 fanno Acheronte, Stige e Flegetonta;
 117 poi sen van giù per questa stretta doccia,
+</prompt>
+<result>
+115 その流れはこの谷に流れ込み
+116 アケロン、ステュクス、フレゲトンとなる
+117 そしてこの狭い水路を流れ下って
+</result>
+</query>
+<query>
+<info>[Inferno Canto 14] 118/142</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 118 infin, là ove più non si dismonta,
 119 fanno Cocito; e qual sia quello stagno
 120 tu lo vedrai, però qui non si conta».
 </prompt>
 <result>
-115 その流れはこの谷に流れ込み
-116 アケロン、ステュクス、フレゲトンとなる
-117 そしてこの狭い水路を流れ下って
-
 118 ついに、それ以上降りられない場所にたどり着き
 119 コキュートスを形成する。その沼がどんなものかは
 120 あなたは見ることになるだろう、だからここでは語らない
@@ -566,18 +623,27 @@ Please translate each line literally into Japanese.
 124 Ed elli a me: «Tu sai che ’l loco è tondo;
 125 e tutto che tu sie venuto molto,
 126 pur a sinistra, giù calando al fondo,
-
-127 non se’ ancor per tutto ’l cerchio vòlto;
-128 per che, se cosa n’apparisce nova,
-129 non de’ addur maraviglia al tuo volto».
 </prompt>
-<result>
+<error>
 124 そして彼は私に言った。「あなたは世界が丸いことを知っているだろう。
 125 そしてあなたがずっと左に進んで、底に向かって下ってきても、
 126 まだ円を一周していない。
 127 だから、新しいものが見えても、
 128 あなたの顔に驚きがあってはならない。」
-</result>
+</error>
+</query>
+<query>
+<info>[Inferno Canto 14] 127/142</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+127 non se’ ancor per tutto ’l cerchio vòlto;
+128 per che, se cosa n’apparisce nova,
+129 non de’ addur maraviglia al tuo volto».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 130/142</info>
@@ -588,9 +654,9 @@ Please translate each line literally into Japanese.
 131 Flegetonta e Letè? ché de l’un taci,
 132 e l’altro di’ che si fa d’esta piova».
 </prompt>
-<result>
+<error>
 130 そして私はまた言った。「先生、フレゲトンとレテはどこにあるのですか？あなたは片方については何も言わず、もう片方はこの雨が作ると言っています。」
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 133/142</info>
@@ -601,9 +667,9 @@ Please translate each line literally into Japanese.
 134 rispuose, «ma ’l bollor de l’acqua rossa
 135 dovea ben solver l’una che tu faci.
 </prompt>
-<result>
+<error>
 133 「あなたの質問はどれも的を射ている」と彼は答えた。「しかし、赤い水の熱さは、あなたが尋ねていることの片方を十分に解き明かしているはずだ。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 136/142</info>
@@ -614,10 +680,10 @@ Please translate each line literally into Japanese.
 137 là dove vanno l’anime a lavarsi
 138 quando la colpa pentuta è rimossa».
 </prompt>
-<result>
+<error>
 136 レテ川は見えるだろうが、この穴の外で、
 137 罪を悔い改めた魂が洗い清められる場所だ。
-</result>
+</error>
 </query>
 <query>
 <info>[Inferno Canto 14] 139/142</info>
@@ -627,13 +693,22 @@ Please translate each line literally into Japanese.
 139 Poi disse: «Omai è tempo da scostarsi
 140 dal bosco; fa che di retro a me vegne:
 141 li margini fan via, che non son arsi,
-
-142 e sopra loro ogne vapor si spegne».
 </prompt>
 <result>
 139 それから彼は言った。「もう森を離れる時だ。私の後ろをついて来なさい。
 140 縁は焼けていないので道になる。
 141 そしてその上ではあらゆる蒸気が消える。」
 </result>
+</query>
+<query>
+<info>[Inferno Canto 14] 142/142</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+142 e sopra loro ogne vapor si spegne».
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 </queries>

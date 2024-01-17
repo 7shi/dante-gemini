@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="49">
 <query>
 <info>[Purgatorio Canto 3] 1/145</info>
 <prompt>
@@ -8,43 +8,71 @@ Please translate each line literally into Japanese.
 1 Avvegna che la subitana fuga
 2 dispergesse color per la campagna,
 3 rivolti al monte ove ragion ne fruga,
-
-4 i’ mi ristrinsi a la fida compagna:
-5 e come sare’ io sanza lui corso?
-6 chi m’avria tratto su per la montagna?
-
-7 El mi parea da sé stesso rimorso:
-8 o dignitosa coscïenza e netta,
-9 come t’è picciol fallo amaro morso!
-
-10 Quando li piedi suoi lasciar la fretta,
-11 che l’onestade ad ogn’ atto dismaga,
-12 la mente mia, che prima era ristretta,
-
-13 lo ’ntento rallargò, sì come vaga,
-14 e diedi ’l viso mio incontr’ al poggio
-15 che ’nverso ’l ciel più alto si dislaga.
 </prompt>
 <result>
 1 突然の逃亡が
 2 人々を野原に散らしたにもかかわらず、
 3 理性が私たちを導く山に向かって、
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 4/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+4 i’ mi ristrinsi a la fida compagna:
+5 e come sare’ io sanza lui corso?
+6 chi m’avria tratto su per la montagna?
+</prompt>
+<result>
 4 私は忠実な伴侶に寄り添った。
 5 彼がいなければ、私はどうやって走れただろうか？
 6 誰が私を山に連れて行ってくれただろうか？
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 7/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+7 El mi parea da sé stesso rimorso:
+8 o dignitosa coscïenza e netta,
+9 come t’è picciol fallo amaro morso!
+</prompt>
+<result>
 7 彼は自分自身に後悔しているようだった。
 8 ああ、尊厳ある清らかな良心よ、
 9 あなたにとって、小さな過ちはなんと苦い後悔なのだろうか！
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 10/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+10 Quando li piedi suoi lasciar la fretta,
+11 che l’onestade ad ogn’ atto dismaga,
+12 la mente mia, che prima era ristretta,
+</prompt>
+<result>
 10 彼の足が焦りを捨て去ったとき、
 11 それはあらゆる行為を弱体化させるものだが、
 12 それまで狭められていた私の心は、
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 13/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+13 lo ’ntento rallargò, sì come vaga,
+14 e diedi ’l viso mio incontr’ al poggio
+15 che ’nverso ’l ciel più alto si dislaga.
+</prompt>
+<error>
 13 まるで放浪するように広がり、
 14 私は顔を空に向かって最も高くそびえる丘に向けた。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 16/145</info>
@@ -69,51 +97,39 @@ Please translate each line literally into Japanese.
 19 Io mi volsi dallato con paura
 20 d’essere abbandonato, quand’ io vidi
 21 solo dinanzi a me la terra oscura;
+</prompt>
+<error>
+19 私は置き去りにされるのではないかと怖くなり、横を向くと
+20 目の前に広がるのは暗い大地だけだった。
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 22/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 22 e ’l mio conforto: «Perché pur diffidi?»,
 23 a dir mi cominciò tutto rivolto;
 24 «non credi tu me teco e ch’io ti guidi?
+</prompt>
+<error>
+22 すると私の慰めが「なぜそんなに疑うのか？」と
+23 全身で私に語りかけた。「私があなたと一緒にいて、あなたを導いていると信じないのか？
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 25/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 25 Vespero è già colà dov’ è sepolto
 26 lo corpo dentro al quale io facea ombra;
 27 Napoli l’ha, e da Brandizio è tolto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "19 私は置き去りにされるのではないかと怖くなり、横を向くと\n20 目の前に広がるのは暗い大地だけだった。\n\n22 すると私の慰めが「なぜそんなに疑うのか？」と\n23 全身で私に語りかけた。「私があなたと一緒にいて、あなたを導いていると信じないのか？\n\n24 夕暮れはすでに、私が影を作っていた肉体が葬られている場所にある。\n25 それはナポリにあり、ブリンディジから奪われたのだ。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
-<result>
-19 私は置き去りにされるのではないかと怖くなり、横を向くと
-20 目の前に広がるのは暗い大地だけだった。
-
-22 すると私の慰めが「なぜそんなに疑うのか？」と
-23 全身で私に語りかけた。「私があなたと一緒にいて、あなたを導いていると信じないのか？
-
+<error>
 24 夕暮れはすでに、私が影を作っていた肉体が葬られている場所にある。
 25 それはナポリにあり、ブリンディジから奪われたのだ。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 28/145</info>
@@ -124,10 +140,10 @@ Please translate each line literally into Japanese.
 29 non ti maravigliar più che d’i cieli
 30 che l’uno a l’altro raggio non ingombra.
 </prompt>
-<result>
+<error>
 28 今、私の前に何も影がなければ、
 29 天体が互いの光を遮らないこと以上に驚かないだろう。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 31/145</info>
@@ -167,27 +183,43 @@ Please translate each line literally into Japanese.
 37 State contenti, umana gente, al quia;
 38 ché, se potuto aveste veder tutto,
 39 mestier non era parturir Maria;
-
-40 e disïar vedeste sanza frutto
-41 tai che sarebbe lor disio quetato,
-42 ch’etternalmente è dato lor per lutto:
-
-43 io dico d’Aristotile e di Plato
-44 e di molt’ altri»; e qui chinò la fronte,
-45 e più non disse, e rimase turbato.
 </prompt>
 <result>
 37 人間の皆さん、「それまで」で満足しなさい。
 38 もしあなたがたがすべてを見ることができたなら、
 39 マリアが子を産む必要はなかっただろう。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 40/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+40 e disïar vedeste sanza frutto
+41 tai che sarebbe lor disio quetato,
+42 ch’etternalmente è dato lor per lutto:
+</prompt>
+<error>
 40 そして、永遠に悲しみに暮らすことになる人々を、
 41 彼らの望みが叶うことなく見たいと願っただろう。
 42 私はアリストテレスやプラトン、
 43 そして他の多くの人々のことを言っているのだ」。
 44 ここで彼は額を下げ、
 45 それ以上何も言わず、動揺したままだった。
-</result>
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 43/145</info>
+<prompt>
+Please translate each line literally into Japanese.
+
+43 io dico d’Aristotile e di Plato
+44 e di molt’ altri»; e qui chinò la fronte,
+45 e più non disse, e rimase turbato.
+</prompt>
+<error>
+(no result)
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 46/145</info>
@@ -242,16 +274,23 @@ Please translate each line literally into Japanese.
 55 E mentre ch’e’ tenendo ’l viso basso
 56 essaminava del cammin la mente,
 57 e io mirava suso intorno al sasso,
+</prompt>
+<result>
+55 そして私が顔を下に向けて
+56 道筋を注意深く見ていると
+57 私は岩の上を見上げました
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 58/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 58 da man sinistra m’apparì una gente
 59 d’anime, che movieno i piè ver’ noi,
 60 e non pareva, sì venïan lente.
 </prompt>
 <result>
-55 そして私が顔を下に向けて
-56 道筋を注意深く見ていると
-57 私は岩の上を見上げました
-
 58 左手から人々が現れました
 59 魂たちで、私たちの方に向かって歩いてきていましたが
 60 とてもゆっくりだったので、そうは見えないようでした
@@ -295,16 +334,23 @@ Please translate each line literally into Japanese.
 67 Ancora era quel popol di lontano,
 68 i’ dico dopo i nostri mille passi,
 69 quanto un buon gittator trarria con mano,
+</prompt>
+<result>
+67 その人々はまだ遠く、
+68 私たちが千歩歩いた後、
+69 腕のいい投手が手で投げる距離でした。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 70/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 70 quando si strinser tutti ai duri massi
 71 de l’alta ripa, e stetter fermi e stretti
 72 com’ a guardar, chi va dubbiando, stassi.
 </prompt>
 <result>
-67 その人々はまだ遠く、
-68 私たちが千歩歩いた後、
-69 腕のいい投手が手で投げる距離でした。
-
 70 彼らは皆、高い崖の固い岩に集まり、
 71 立ち止まって固く身を寄せ合い、
 72 疑いながら歩く人が見守るように、じっと見つめていました。
@@ -318,19 +364,26 @@ Please translate each line literally into Japanese.
 73 «O ben finiti, o già spiriti eletti»,
 74 Virgilio incominciò, «per quella pace
 75 ch’i’ credo che per voi tutti s’aspetti,
+</prompt>
+<error>
+73 「おお、すでに完成された、あるいはすでに選ばれた霊たちよ」
+74 ウェルギリウスはこう切り出しました。「あなたがた全員が待ち望んでいるであろう、あの平和のために、
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 76/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 76 ditene dove la montagna giace,
 77 sì che possibil sia l’andare in suso;
 78 ché perder tempo a chi più sa più spiace».
 </prompt>
-<result>
-73 「おお、すでに完成された、あるいはすでに選ばれた霊たちよ」
-74 ウェルギリウスはこう切り出しました。「あなたがた全員が待ち望んでいるであろう、あの平和のために、
-
+<error>
 75 山はどこにあるのか教えてください。
 76 そうすれば、登ることが可能になるでしょう。
 77 最も知識のある者にとって、時間を無駄にすることは最も不快なことなのです。」
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 79/145</info>
@@ -340,27 +393,41 @@ Please translate each line literally into Japanese.
 79 Come le pecorelle escon del chiuso
 80 a una, a due, a tre, e l’altre stanno
 81 timidette atterrando l’occhio e ’l muso;
-
-82 e ciò che fa la prima, e l’altre fanno,
-83 addossandosi a lei, s’ella s’arresta,
-84 semplici e quete, e lo ’mperché non sanno;
-
-85 sì vid’ io muovere a venir la testa
-86 di quella mandra fortunata allotta,
-87 pudica in faccia e ne l’andare onesta.
 </prompt>
 <result>
 79 羊が囲いから出てくるように
 80 一匹、二匹、三匹と出てきて、他の羊は
 81 恥ずかしそうに目と鼻を地面に向けて立っています。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 82/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+82 e ciò che fa la prima, e l’altre fanno,
+83 addossandosi a lei, s’ella s’arresta,
+84 semplici e quete, e lo ’mperché non sanno;
+</prompt>
+<result>
 82 最初の羊がすることを他の羊もして、
 83 彼女が止まると彼女に寄り添い、
 84 素直で穏やかで、なぜそうするのかを知りません。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 85/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+85 sì vid’ io muovere a venir la testa
+86 di quella mandra fortunata allotta,
+87 pudica in faccia e ne l’andare onesta.
+</prompt>
+<error>
 85 その幸運な群れの先頭が動き出すのを見ました。
 86 顔は慎ましく、歩き方は上品でした。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 88/145</info>
@@ -370,19 +437,26 @@ Please translate each line literally into Japanese.
 88 Come color dinanzi vider rotta
 89 la luce in terra dal mio destro canto,
 90 sì che l’ombra era da me a la grotta,
+</prompt>
+<error>
+88 彼らが私の右側から地上に光が遮られているのを見て、
+89 私の影が洞窟まで伸びていたため、
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 91/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 91 restaro, e trasser sé in dietro alquanto,
 92 e tutti li altri che venieno appresso,
 93 non sappiendo ’l perché, fenno altrettanto.
 </prompt>
-<result>
-88 彼らが私の右側から地上に光が遮られているのを見て、
-89 私の影が洞窟まで伸びていたため、
-
+<error>
 90 彼らは立ち止まり、少し後退しました。
 92 そして、後に続いていた他の全員も、
 93 理由を知らずに、同じようにしました。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 94/145</info>
@@ -482,19 +556,26 @@ Please translate each line literally into Japanese.
 112 Poi sorridendo disse: «Io son Manfredi,
 113 nepote di Costanza imperadrice;
 114 ond’ io ti priego che, quando tu riedi,
-
-115 vadi a mia bella figlia, genitrice
-116 de l’onor di Cicilia e d’Aragona,
-117 e dichi ’l vero a lei, s’altro si dice.
 </prompt>
 <result>
 112 それから彼は微笑んで言った。「私はマンフレディだ。
 113 コンスタンツァ皇后の孫だ。
 114 だから、お前が帰ったら、
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 115/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+115 vadi a mia bella figlia, genitrice
+116 de l’onor di Cicilia e d’Aragona,
+117 e dichi ’l vero a lei, s’altro si dice.
+</prompt>
+<error>
 115 私の美しい娘、シチリアとアラゴンの誉れである者の母のもとに行き、
 116 他のことが言われているとしても、彼女に真実を伝えよ。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 118/145</info>
@@ -505,10 +586,10 @@ Please translate each line literally into Japanese.
 119 di due punte mortali, io mi rendei,
 120 piangendo, a quei che volontier perdona.
 </prompt>
-<result>
+<error>
 118 私が2本の致命的な剣で体を貫かれた後、
 119 私は泣きながら、喜んで許してくれる者たちに身を委ねた。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 121/145</info>
@@ -533,19 +614,26 @@ Please translate each line literally into Japanese.
 124 Se ’l pastor di Cosenza, che a la caccia
 125 di me fu messo per Clemente allora,
 126 avesse in Dio ben letta questa faccia,
+</prompt>
+<error>
+124 当時クレメンスによって私の追跡を命じられたコゼンツァの司教が、
+125 神の中でこの顔をよく読んでくれていたら、
+</error>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 127/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
 127 l’ossa del corpo mio sarieno ancora
 128 in co del ponte presso a Benevento,
 129 sotto la guardia de la grave mora.
 </prompt>
-<result>
-124 当時クレメンスによって私の追跡を命じられたコゼンツァの司教が、
-125 神の中でこの顔をよく読んでくれていたら、
-
+<error>
 126 私の体の骨は今でも
 127 ベネヴェント近くの橋のたもとに、
 128 重い石の番の下にあるだろう。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 130/145</info>
@@ -585,19 +673,26 @@ Please translate each line literally into Japanese.
 136 Vero è che quale in contumacia more
 137 di Santa Chiesa, ancor ch’al fin si penta,
 138 star li convien da questa ripa in fore,
-
-139 per ognun tempo ch’elli è stato, trenta,
-140 in sua presunzïon, se tal decreto
-141 più corto per buon prieghi non diventa.
 </prompt>
 <result>
 136 聖なる教会に背いて死んだ者は、
 137 最後には悔い改めたとしても、
 138 この岸辺の外に30年間留まらなければならない。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 139/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+139 per ognun tempo ch’elli è stato, trenta,
+140 in sua presunzïon, se tal decreto
+141 più corto per buon prieghi non diventa.
+</prompt>
+<error>
 139 自分の思い上がりで、その期間が善い祈りで短縮されない限り。
 140 その期間が善い祈りで短縮されない限り。
-</result>
+</error>
 </query>
 <query>
 <info>[Purgatorio Canto 3] 142/145</info>
@@ -607,14 +702,21 @@ Please translate each line literally into Japanese.
 142 Vedi oggimai se tu mi puoi far lieto,
 143 revelando a la mia buona Costanza
 144 come m’hai visto, e anco esto divieto;
-
-145 ché qui per quei di là molto s’avanza».
 </prompt>
 <result>
 142 今やあなたは、私が幸せになれるかどうかを見ることができるでしょう、
 143 私の善良なコンスタンツァに
 144 あなたが私を見たこと、そしてこの禁止を明らかにすることによって。
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 145/145</info>
+<prompt>
+Please translate each line literally into Japanese.
 
+145 ché qui per quei di là molto s’avanza».
+</prompt>
+<result>
 145 なぜなら、ここには向こうにいる人々がたくさんいるからです。」
 </result>
 </query>
