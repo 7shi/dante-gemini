@@ -5,12 +5,13 @@ args = sys.argv[1:]
 directories = ["inferno", "purgatorio", "paradiso"]
 init = "init.xml"
 interval = 10
+rangemax = 35
 once  = False
 retry = True
 show  = True
 
 def parse(f=None):
-    global args, directories, init, interval, once, retry, show, language, srcdir, outdir
+    global args, directories, init, interval, rangemax, once, retry, show, language, srcdir, outdir
     i = 0
     while i < len(args):
         length = len(args)
@@ -28,6 +29,9 @@ def parse(f=None):
         elif arg == "-n" and len(args) > i + 1:
             args.pop(i)
             interval = int(args.pop(i))
+        elif arg == "-r" and len(args) > i + 1:
+            args.pop(i)
+            rangemax = int(args.pop(i))
         elif arg == "-1":
             args.pop(i)
             once = True
@@ -55,6 +59,7 @@ def show():
     print("  -d: specify sub directory", file=sys.stderr)
     print("  -i: specify init.xml", file=sys.stderr)
     print("  -n: specify interval (default 10)", file=sys.stderr)
+    print("  -r: specify range (default 35)", file=sys.stderr)
     print("  -1: just do one canto", file=sys.stderr)
     print("  --no-retry: don't retry queries", file=sys.stderr)
     print("  --no-show: don't show queries and responses", file=sys.stderr)
@@ -69,7 +74,7 @@ def proc(f):
         path_o = os.path.join(outdir, directory)
         if not os.path.exists(path_o):
             os.mkdir(path_o)
-        for canto in range(1, 35):
+        for canto in range(1, rangemax + 1):
             src = os.path.join(path_s, f"{canto:02}.xml")
             if not os.path.exists(src):
                 src = src[:-3] + "txt"
