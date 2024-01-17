@@ -13,7 +13,8 @@ check:
 	python $(SCRIPTS)/pickup.py 1-error.xml $(DIRSM)/*.xml
 
 fix:
-	python $(SCRIPTS)/word-fix.py
+	echo "obsolete: use `redo` instead"
+	#python $(SCRIPTS)/word-fix.py
 
 split:
 	python $(SCRIPTS)/split3.py $(DIRSM)/*.xml

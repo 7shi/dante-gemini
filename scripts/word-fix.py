@@ -1,3 +1,5 @@
+# obsolete: use redo.py instead
+
 import sys, os, re, common
 
 args = sys.argv[1:]
