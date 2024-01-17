@@ -25,6 +25,5 @@ for f in args:
         elif not q.result:
             queries.append(q)
 
-d = args[0].split("/")[0]
-print(f"{d}: error {len(queries)}/{whole}", file=sys.stderr)
+print(f"error {len(queries)}/{whole}", file=sys.stderr)
 common.write_queries(output, queries, count=len(queries), whole=whole)
