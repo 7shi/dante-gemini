@@ -84,7 +84,7 @@ Please translate each line literally into English and Cornish.
 </query>
 <query>
 <info>[Inferno Canto 12] 16/139</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into English and Cornish.
 
 16 Lo savio mio inver’ lui gridò: «Forse
@@ -95,25 +95,27 @@ Please translate each line literally into English and Cornish.
 20 ammaestrato da la tua sorella,
 21 ma vassi per veder le vostre pene».
 </prompt>
-<error>
-block_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
+<result>
+**English:**
+
+16 My wise guide shouted at him: “Perhaps
+17 you think that the Duke of Athens is here,
+18 who brought you death up in the world?
+
+19 Depart, beast, for this man does not come
+20 taught by your sister,
+21 but he goes to see your punishments”.
+
+**Cornish:**
+
+16 An savio myw inver’ dhe'n gridò: “Forse
+17 ty credi dhe'n sia ’l duca d’Atene,
+18 dhe'n si nel mondo an marow ty porse?
+
+19 Pàrtiti, bestia, ché questi non vene
+20 ammaestrato da la tua sorella,
+21 mes vassi rag gwelas le vostre pene”.
+</result>
 </query>
 <query>
 <info>[Inferno Canto 12] 22/139</info>
