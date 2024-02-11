@@ -82,6 +82,11 @@ def set_langs(langs, text, info):
     for i in range(min(2, len(sp))):
         set_lines(langs[i + 1][1], sp[i][1])
 
+def save_result(arg, dst):
+    error = sum(1 for q in dst if not q.result)
+    print(f"{arg}: error={error}/{len(dst)}")
+    common.write_queries(arg, dst, error=error, count=len(dst))
+
 def split3(arg):
     src = common.read_queries(arg)
     if not (m := re.match(r"(\[.+\])", src[0].info)):
@@ -101,7 +106,6 @@ def split3(arg):
                 set_lines(langs[2][1], q.result)
     length = max(langs[0][1].keys())
     dst = []
-    error = 0
     for ln in range(1, length + 1, 3):
         texts = ["", "", ""]
         end = min(3, length + 1 - ln)
@@ -125,14 +129,12 @@ def split3(arg):
                 q.error = langs[1][0] + "\n" + texts[1]
         else:
             q.error = "(no result)"
-            error += 1
         dst.append(q)
-    common.write_queries(arg, dst, error=error, count=len(dst))
+    save_result(arg, dst)
 
 def check_lines1(arg):
     src = common.read_queries(arg)
     dst = []
-    error = 0
     for q in src:
         if not (m := re.match(r"(.+) (\d+)/(\d+)$", q.info)):
             print(f"invalid format @ {q.info}", file=sys.stderr)
@@ -188,16 +190,12 @@ def check_lines1(arg):
                 if i == 0 and rpre:
                     q1.error = rpre.strip()
                 q1.result = rtx[i]
-            if not q1.result:
-                error += 1
             dst.append(q1)
-    print(f"{arg}: error={error}/{len(dst)}")
-    common.write_queries(arg, dst, error=error, count=len(dst))
+    save_result(arg, dst)
 
 def check_lines2(arg):
     src = common.read_queries(arg)
     dst = []
-    error = 0
     for q in src:
         pln = split_lines(q.prompt)[1]
         rln = split_lines(q.result)[1]
@@ -211,11 +209,8 @@ def check_lines2(arg):
             if q.result:
                 q.error = q.result
                 q.result = None
-        if q.error:
-            error += 1
         dst.append(q)
-    print(f"{arg}: error={error}/{len(dst)}")
-    common.write_queries(arg, dst, error=error, count=len(dst))
+    save_result(arg, dst)
 
 for arg in args:
     if check_type == 1:
