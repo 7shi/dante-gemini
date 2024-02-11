@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries error="0" count="45">
 <query>
 <info>[Inferno Canto 19] 1/133</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Indonesian.
 1 O Simon mago, o miseri seguaci
 2 che le cose di Dio, che di bontate
 3 deon essere spose, e voi rapaci
+</prompt>
+<result>
+1 Hai Simon Magus, hai pengikut yang malang,
+2 yang seharusnya menjadi mempelai hal-hal Tuhan, yang penuh kebaikan,
+3 dan kamu adalah perampok.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 4/133</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 4 per oro e per argento avolterate,
 5 or convien che per voi suoni la tromba,
 6 però che ne la terza bolgia state.
 </prompt>
 <result>
-1 Hai Simon Magus, hai pengikut yang malang,
-2 yang seharusnya menjadi mempelai hal-hal Tuhan, yang penuh kebaikan,
-3 dan kamu adalah perampok.
-
 4 Demi emas dan perak kamu berbuat curang,
 5 sekarang terompet harus berbunyi untukmu,
 6 karena kamu berada di jurang ketiga.
@@ -46,16 +53,23 @@ Please translate each line literally into Indonesian.
 10 O somma sapïenza, quanta è l’arte
 11 che mostri in cielo, in terra e nel mal mondo,
 12 e quanto giusto tua virtù comparte!
+</prompt>
+<result>
+10 Wahai kebijaksanaan tertinggi, betapa hebatnya seni
+11 yang Engkau tunjukkan di surga, di bumi, dan di dunia yang jahat ini,
+12 dan betapa adilnya Engkau membagi kebajikan-Mu!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 13/133</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 13 Io vidi per le coste e per lo fondo
 14 piena la pietra livida di fóri,
 15 d’un largo tutti e ciascun era tondo.
 </prompt>
 <result>
-10 Wahai kebijaksanaan tertinggi, betapa hebatnya seni
-11 yang Engkau tunjukkan di surga, di bumi, dan di dunia yang jahat ini,
-12 dan betapa adilnya Engkau membagi kebajikan-Mu!
-
 13 Aku melihat di sepanjang sisi dan dasar
 14 batu berwarna gelap itu penuh dengan lubang,
 15 semuanya besar dan berbentuk bulat.
@@ -69,16 +83,23 @@ Please translate each line literally into Indonesian.
 16 Non mi parean men ampi né maggiori
 17 che que’ che son nel mio bel San Giovanni,
 18 fatti per loco d’i battezzatori;
+</prompt>
+<result>
+16 Lubang-lubang itu menurutku tidak lebih besar atau lebih kecil
+17 daripada yang ada di San Giovanni milikku yang indah,
+18 yang dibuat sebagai tempat pembaptisan;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 19/133</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 19 l’un de li quali, ancor non è molt’ anni,
 20 rupp’ io per un che dentro v’annegava:
 21 e questo sia suggel ch’ogn’ omo sganni.
 </prompt>
 <result>
-16 Lubang-lubang itu menurutku tidak lebih besar atau lebih kecil
-17 daripada yang ada di San Giovanni milikku yang indah,
-18 yang dibuat sebagai tempat pembaptisan;
-
 19 salah satunya, belum lama ini,
 20 aku pecahkan karena ada yang tenggelam di dalamnya:
 21 dan biarlah ini menjadi bukti yang meyakinkan semua orang.
@@ -228,32 +249,6 @@ Please translate each line literally into Indonesian.
 50 lo perfido assessin, che, poi ch’è fitto,
 51 richiama lui per che la morte cessa.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "49 Aku berdiri seperti seorang biarawan yang mendengar pengakuan dosa\n50 dari seorang pembunuh berdarah dingin, yang setelah tertusuk,\n51 memanggilnya kembali agar kematiannya tertunda."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 49 Aku berdiri seperti seorang biarawan yang mendengar pengakuan dosa
 50 dari seorang pembunuh berdarah dingin, yang setelah tertusuk,
@@ -284,32 +279,6 @@ Please translate each line literally into Indonesian.
 56 per lo qual non temesti tòrre a ’nganno
 57 la bella donna, e poi di farne strazio?».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "55 Apakah kamu sudah begitu cepat merasa puas dengan harta\n56 yang membuatmu tidak takut untuk mengambil dengan tipu daya\n57 wanita cantik itu, dan kemudian menyiksanya?\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 55 Apakah kamu sudah begitu cepat merasa puas dengan harta
 56 yang membuatmu tidak takut untuk mengambil dengan tipu daya
@@ -354,24 +323,38 @@ Please translate each line literally into Indonesian.
 64 Per che lo spirto tutti storse i piedi;
 65 poi, sospirando e con voce di pianto,
 66 mi disse: «Dunque che a me richiedi?
+</prompt>
+<result>
+64 Karena itu roh itu memutar-mutar kakinya;
+65 kemudian, sambil mendesah dan dengan suara menangis,
+66 dia berkata kepadaku: "Jadi apa yang kamu minta dariku?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 67/133</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 67 Se di saper ch’i’ sia ti cal cotanto,
 68 che tu abbi però la ripa corsa,
 69 sappi ch’i’ fui vestito del gran manto;
+</prompt>
+<result>
+67 Jika kamu sangat ingin tahu siapa aku,
+68 sehingga kamu telah berlari di sepanjang lereng ini,
+69 ketahuilah bahwa aku mengenakan jubah agung;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 70/133</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 70 e veramente fui figliuol de l’orsa,
 71 cupido sì per avanzar li orsatti,
 72 che sù l’avere e qui me misi in borsa.
 </prompt>
 <result>
-64 Karena itu roh itu memutar-mutar kakinya;
-65 kemudian, sambil mendesah dan dengan suara menangis,
-66 dia berkata kepadaku: "Jadi apa yang kamu minta dariku?
-
-67 Jika kamu sangat ingin tahu siapa aku,
-68 sehingga kamu telah berlari di sepanjang lereng ini,
-69 ketahuilah bahwa aku mengenakan jubah agung;
-
 70 dan sesungguhnya aku adalah anak beruang betina,
 71 sangat bernafsu untuk memajukan anak-anak beruang,
 72 sehingga di atas harta dan di sini aku memasukkannya ke dalam kantongku.
@@ -415,16 +398,23 @@ Please translate each line literally into Indonesian.
 79 Ma più è ’l tempo già che i piè mi cossi
 80 e ch’i’ son stato così sottosopra,
 81 ch’el non starà piantato coi piè rossi:
+</prompt>
+<result>
+79 Tetapi sudah lebih lama kakiku terbakar
+80 dan aku telah berada dalam posisi terbalik ini,
+81 daripada dia akan berdiri dengan kaki merah:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 82/133</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 82 ché dopo lui verrà di più laida opra,
 83 di ver’ ponente, un pastor sanza legge,
 84 tal che convien che lui e me ricuopra.
 </prompt>
 <result>
-79 Tetapi sudah lebih lama kakiku terbakar
-80 dan aku telah berada dalam posisi terbalik ini,
-81 daripada dia akan berdiri dengan kaki merah:
-
 82 karena setelah dia akan datang perbuatan yang lebih buruk,
 83 dari barat yang sebenarnya, seorang gembala tanpa hukum,
 84 sehingga dia dan aku harus ditutupi olehnya.
@@ -432,17 +422,13 @@ Please translate each line literally into Indonesian.
 </query>
 <query>
 <info>[Inferno Canto 19] 85/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Indonesian.
 
 85 Nuovo Iasón sarà, di cui si legge
 86 ne’ Maccabei; e come a quel fu molle
 87 suo re, così fia lui chi Francia regge».
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-</error>
 <result>
 85 Iasón yang baru akan muncul, yang kisahnya tertulis
 86 dalam Kitab Makabe; dan sebagaimana rajanya bersikap lemah lembut terhadapnya,
@@ -457,42 +443,23 @@ Please translate each line literally into Indonesian.
 88 Io non so s’i’ mi fui qui troppo folle,
 89 ch’i’ pur rispuosi lui a questo metro:
 90 «Deh, or mi dì: quanto tesoro volle
+</prompt>
+<result>
+88 Aku tidak tahu apakah aku terlalu bodoh di sini,
+89 karena aku menjawabnya dengan syair ini:
+90 "Oh, katakan padaku: berapa banyak harta yang diminta
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 91/133</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 91 Nostro Segnore in prima da san Pietro
 92 ch’ei ponesse le chiavi in sua balìa?
 93 Certo non chiese se non “Viemmi retro”.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "88 Aku tidak tahu apakah aku terlalu bodoh di sini,\n89 karena aku menjawabnya dengan syair ini:\n90 \"Oh, katakan padaku: berapa banyak harta yang diminta\n\n91 Tuhan kita pertama kali dari Santo Petrus\n92 sehingga Ia menyerahkan kunci-kunci ke dalam kekuasaannya?\n93 Tentu saja Ia tidak meminta apa pun selain \"Ikutlah Aku\"."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-88 Aku tidak tahu apakah aku terlalu bodoh di sini,
-89 karena aku menjawabnya dengan syair ini:
-90 "Oh, katakan padaku: berapa banyak harta yang diminta
-
 91 Tuhan kita pertama kali dari Santo Petrus
 92 sehingga Ia menyerahkan kunci-kunci ke dalam kekuasaannya?
 93 Tentu saja Ia tidak meminta apa pun selain "Ikutlah Aku".
@@ -536,16 +503,23 @@ Please translate each line literally into Indonesian.
 100 E se non fosse ch’ancor lo mi vieta
 101 la reverenza de le somme chiavi
 102 che tu tenesti ne la vita lieta,
+</prompt>
+<result>
+100 Dan se saja tidak dilarang
+101 oleh rasa hormat terhadap kunci-kunci tertinggi
+102 yang kamu pegang semasa hidupmu yang bahagia,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 103/133</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 103 io userei parole ancor più gravi;
 104 ché la vostra avarizia il mondo attrista,
 105 calcando i buoni e sollevando i pravi.
 </prompt>
 <result>
-100 Dan se saja tidak dilarang
-101 oleh rasa hormat terhadap kunci-kunci tertinggi
-102 yang kamu pegang semasa hidupmu yang bahagia,
-
 103 aku akan menggunakan kata-kata yang lebih keras lagi;
 104 karena keserakahanmu membuat dunia bersedih,
 105 menginjak-injak orang baik dan mengangkat orang jahat.
@@ -559,16 +533,23 @@ Please translate each line literally into Indonesian.
 106 Di voi pastor s’accorse il Vangelista,
 107 quando colei che siede sopra l’acque
 108 puttaneggiar coi regi a lui fu vista;
+</prompt>
+<result>
+106 Sang Penginjil menyadari tentang kalian para pendeta,
+107 ketika ia melihat wanita yang duduk di atas air
+108 berzina dengan para raja;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 109/133</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 109 quella che con le sette teste nacque,
 110 e da le diece corna ebbe argomento,
 111 fin che virtute al suo marito piacque.
 </prompt>
 <result>
-106 Sang Penginjil menyadari tentang kalian para pendeta,
-107 ketika ia melihat wanita yang duduk di atas air
-108 berzina dengan para raja;
-
 109 wanita yang lahir dengan tujuh kepala,
 110 dan dari sepuluh tanduknya memperoleh kekuasaan,
 111 sampai kebajikan menyenangkan suaminya.
@@ -582,16 +563,23 @@ Please translate each line literally into Indonesian.
 112 Fatto v’avete dio d’oro e d’argento;
 113 e che altro è da voi a l’idolatre,
 114 se non ch’elli uno, e voi ne orate cento?
+</prompt>
+<result>
+112 Kalian telah menjadikan diri kalian sebagai dewa dari emas dan perak;
+113 dan apakah bedanya kalian dengan para penyembah berhala,
+114 kecuali bahwa mereka menyembah satu dewa, sedangkan kalian menyembah seratus dewa?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 115/133</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 115 Ahi, Costantin, di quanto mal fu matre,
 116 non la tua conversion, ma quella dote
 117 che da te prese il primo ricco patre!».
 </prompt>
 <result>
-112 Kalian telah menjadikan diri kalian sebagai dewa dari emas dan perak;
-113 dan apakah bedanya kalian dengan para penyembah berhala,
-114 kecuali bahwa mereka menyembah satu dewa, sedangkan kalian menyembah seratus dewa?
-
 115 Ah, Konstantinus, betapa banyak kejahatan yang disebabkan,
 116 bukan oleh pertobatanmu, tetapi oleh mas kawin
 117 yang diterima oleh paus pertama yang kaya darimu!
@@ -606,32 +594,6 @@ Please translate each line literally into Indonesian.
 119 o ira o coscïenza che ’l mordesse,
 120 forte spingava con ambo le piote.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "118 Dan sementara aku menyanyikan syair-syair itu untuknya,\n119 entah karena amarah atau hati nurani yang menggigitnya,\n120 ia mendorongku dengan kuat dengan kedua kakinya."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 118 Dan sementara aku menyanyikan syair-syair itu untuknya,
 119 entah karena amarah atau hati nurani yang menggigitnya,

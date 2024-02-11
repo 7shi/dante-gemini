@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries count="48">
 <query>
 <info>[Inferno Canto 28] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Indonesian.
 1 Chi poria mai pur con parole sciolte
 2 dicer del sangue e de le piaghe a pieno
 3 ch’i’ ora vidi, per narrar più volte?
+</prompt>
+<result>
+1 Siapa yang mampu, meskipun dengan kata-kata yang lancar,
+2 menceritakan dengan lengkap tentang darah dan luka-luka
+3 yang kulihat sekarang, untuk diceritakan berulang kali?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 4/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 4 Ogne lingua per certo verria meno
 5 per lo nostro sermone e per la mente
 6 c’hanno a tanto comprender poco seno.
 </prompt>
 <result>
-1 Siapa yang mampu, meskipun dengan kata-kata yang lancar,
-2 menceritakan dengan lengkap tentang darah dan luka-luka
-3 yang kulihat sekarang, untuk diceritakan berulang kali?
-
 4 Setiap bahasa pasti akan gagal
 5 karena ucapan dan pikiran kita
 6 tidak mampu memahami hal yang begitu besar.
@@ -31,40 +38,68 @@ Please translate each line literally into Indonesian.
 7 S’el s’aunasse ancor tutta la gente
 8 che già, in su la fortunata terra
 9 di Puglia, fu del suo sangue dolente
+</prompt>
+<result>
+7 Jika semua orang masih saling mencintai
+8 yang dulu, di tanah Puglia yang beruntung
+9 berduka karena darah mereka sendiri
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 10/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 10 per li Troiani e per la lunga guerra
 11 che de l’anella fé sì alte spoglie,
 12 come Livïo scrive, che non erra,
+</prompt>
+<result>
+10 karena orang-orang Troya dan perang yang panjang
+11 yang menghasilkan rampasan berupa cincin yang sangat banyak,
+12 seperti yang ditulis Livius, yang tidak pernah salah,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 13/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 13 con quella che sentio di colpi doglie
 14 per contastare a Ruberto Guiscardo;
 15 e l’altra il cui ossame ancor s’accoglie
+</prompt>
+<result>
+13 bersama dengan orang-orang yang merasakan sakit karena pukulan
+14 untuk melawan Robert Guiscard;
+15 dan yang lainnya yang tulang-belulangnya masih terkumpul
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 16/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 16 a Ceperan, là dove fu bugiardo
 17 ciascun Pugliese, e là da Tagliacozzo,
 18 dove sanz’ arme vinse il vecchio Alardo;
+</prompt>
+<result>
+16 di Ceperano, tempat setiap orang Puglia berbohong,
+17 dan di Tagliacozzo,
+18 tempat Alardo yang tua menang tanpa senjata;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 19/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 19 e qual forato suo membro e qual mozzo
 20 mostrasse, d’aequar sarebbe nulla
 21 il modo de la nona bolgia sozzo.
 </prompt>
 <result>
-7 Jika semua orang masih saling mencintai
-8 yang dulu, di tanah Puglia yang beruntung
-9 berduka karena darah mereka sendiri
-
-10 karena orang-orang Troya dan perang yang panjang
-11 yang menghasilkan rampasan berupa cincin yang sangat banyak,
-12 seperti yang ditulis Livius, yang tidak pernah salah,
-
-13 bersama dengan orang-orang yang merasakan sakit karena pukulan
-14 untuk melawan Robert Guiscard;
-15 dan yang lainnya yang tulang-belulangnya masih terkumpul
-
-16 di Ceperano, tempat setiap orang Puglia berbohong,
-17 dan di Tagliacozzo,
-18 tempat Alardo yang tua menang tanpa senjata;
-
 19 dan siapa yang memperlihatkan anggota tubuhnya yang terluka atau terpotong,
 20 tidak akan ada yang sebanding
 21 dengan keadaan jurang neraka kesembilan yang menjijikkan.
@@ -79,32 +114,6 @@ Please translate each line literally into Indonesian.
 23 com’ io vidi un, così non si pertugia,
 24 rotto dal mento infin dove si trulla.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "22 Sekarang aku melihat, karena kehilangan separuh kepalanya,\n23 bagaimana aku melihat seseorang, tidak ada lubang seperti itu,\n24 terbelah dari dagu hingga ke tempat otaknya."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 22 Sekarang aku melihat, karena kehilangan separuh kepalanya,
 23 bagaimana aku melihat seseorang, tidak ada lubang seperti itu,
@@ -120,32 +129,6 @@ Please translate each line literally into Indonesian.
 26 la corata pareva e ’l tristo sacco
 27 che merda fa di quel che si trangugia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 Di antara kedua kakinya menjuntai usus-ususnya;\n26 tampak seperti jeroan dan kantong kotor\n27 yang menghasilkan kotoran dari apa yang ditelan."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 Di antara kedua kakinya menjuntai usus-ususnya;
 26 tampak seperti jeroan dan kantong kotor
@@ -160,16 +143,23 @@ Please translate each line literally into Indonesian.
 28 Mentre che tutto in lui veder m’attacco,
 29 guardommi e con le man s’aperse il petto,
 30 dicendo: «Or vedi com’ io mi dilacco!
+</prompt>
+<result>
+28 Sementara aku berusaha melihat semuanya dengan saksama,
+29 ia menatapku dan dengan tangannya ia merobek dadanya sendiri,
+30 sambil berkata: "Sekarang lihatlah bagaimana aku mencabik-cabik diriku sendiri!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 31/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 31 vedi come storpiato è Mäometto!
 32 Dinanzi a me sen va piangendo Alì,
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
 <result>
-28 Sementara aku berusaha melihat semuanya dengan saksama,
-29 ia menatapku dan dengan tangannya ia merobek dadanya sendiri,
-30 sambil berkata: "Sekarang lihatlah bagaimana aku mencabik-cabik diriku sendiri!
-
 31 Lihatlah bagaimana Muhammad yang cacat!
 32 Di depanku berjalan Ali sambil menangis,
 33 wajahnya terbelah dari dagu hingga ubun-ubun.
@@ -198,16 +188,23 @@ Please translate each line literally into Indonesian.
 37 Un diavolo è qua dietro che n’accisma
 38 sì crudelmente, al taglio de la spada
 39 rimettendo ciascun di questa risma,
+</prompt>
+<result>
+37 Seorang iblis ada di belakang sini yang membantai mereka
+38 dengan sangat kejam, dengan tebasan pedang
+39 mengirim kembali setiap orang dari kelompok ini,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 40/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 40 quand’ avem volta la dolente strada;
 41 però che le ferite son richiuse
 42 prima ch’altri dinanzi li rivada.
 </prompt>
 <result>
-37 Seorang iblis ada di belakang sini yang membantai mereka
-38 dengan sangat kejam, dengan tebasan pedang
-39 mengirim kembali setiap orang dari kelompok ini,
-
 40 ketika kami telah membelokkan jalan yang menyedihkan;
 41 karena luka-luka itu telah tertutup
 42 sebelum yang lain datang di hadapannya.
@@ -236,16 +233,23 @@ Please translate each line literally into Indonesian.
 46 «Né morte ’l giunse ancor, né colpa ’l mena»,
 47 rispuose ’l mio maestro, «a tormentarlo;
 48 ma per dar lui esperïenza piena,
+</prompt>
+<result>
+46 «Kematian belum menjemputnya, dan kesalahan tidak membawanya»,
+47 jawab guruku, «untuk menyiksanya;
+48 tetapi untuk memberinya pengalaman yang lengkap,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 49/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 49 a me, che morto son, convien menarlo
 50 per lo ’nferno qua giù di giro in giro;
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
 <result>
-46 «Kematian belum menjemputnya, dan kesalahan tidak membawanya»,
-47 jawab guruku, «untuk menyiksanya;
-48 tetapi untuk memberinya pengalaman yang lengkap,
-
 49 kepadaku, yang sudah mati, harus membawanya
 50 melalui neraka di sini, berkeliling;
 51 dan ini benar seperti yang kukatakan padamu».
@@ -274,16 +278,23 @@ Please translate each line literally into Indonesian.
 55 «Or dì a fra Dolcin dunque che s’armi,
 56 tu che forse vedra’ il sole in breve,
 57 s’ello non vuol qui tosto seguitarmi,
+</prompt>
+<result>
+55 «Jadi, katakan kepada Fra Dolcino supaya bersiap,
+56 kamu yang mungkin akan segera melihat matahari,
+57 jika dia tidak mau segera mengikutiku ke sini,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 58/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 58 sì di vivanda, che stretta di neve
 59 non rechi la vittoria al Noarese,
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55 «Jadi, katakan kepada Fra Dolcino supaya bersiap,
-56 kamu yang mungkin akan segera melihat matahari,
-57 jika dia tidak mau segera mengikutiku ke sini,
-
 58 dengan perbekalan, sehingga himpitan salju
 59 tidak memberikan kemenangan kepada orang Novara,
 60 yang jika tidak, tidak akan mudah untuk diraih».
@@ -312,32 +323,53 @@ Please translate each line literally into Indonesian.
 64 Un altro, che forata avea la gola
 65 e tronco ’l naso infin sotto le ciglia,
 66 e non avea mai ch’una orecchia sola,
+</prompt>
+<result>
+64 Yang lain, yang tenggorokannya berlubang
+65 dan hidungnya terpotong sampai di bawah alis,
+66 dan tidak memiliki telinga kecuali satu,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 67/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 67 ristato a riguardar per maraviglia
 68 con li altri, innanzi a li altri aprì la canna,
 69 ch’era di fuor d’ogne parte vermiglia,
+</prompt>
+<result>
+67 berhenti untuk melihat dengan heran
+68 bersama yang lain, di hadapan yang lain dia membuka tenggorokannya,
+69 yang berwarna merah di seluruh bagian luarnya,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 70/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 70 e disse: «O tu cui colpa non condanna
 71 e cu’ io vidi su in terra latina,
 72 se troppa simiglianza non m’inganna,
+</prompt>
+<result>
+70 dan berkata: "Hai kamu yang tidak dihukum karena kesalahan
+71 dan yang kulihat di tanah Latin,
+72 jika kemiripan yang terlalu besar tidak menipuku,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 73/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 73 rimembriti di Pier da Medicina,
 74 se mai torni a veder lo dolce piano
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64 Yang lain, yang tenggorokannya berlubang
-65 dan hidungnya terpotong sampai di bawah alis,
-66 dan tidak memiliki telinga kecuali satu,
-
-67 berhenti untuk melihat dengan heran
-68 bersama yang lain, di hadapan yang lain dia membuka tenggorokannya,
-69 yang berwarna merah di seluruh bagian luarnya,
-
-70 dan berkata: "Hai kamu yang tidak dihukum karena kesalahan
-71 dan yang kulihat di tanah Latin,
-72 jika kemiripan yang terlalu besar tidak menipuku,
-
 73 ingatlah Pier da Medicina,
 74 jika kamu kembali melihat dataran rendah yang indah
 75 yang menurun dari Vercelli ke Marcabò.
@@ -351,16 +383,23 @@ Please translate each line literally into Indonesian.
 76 E fa saper a’ due miglior da Fano,
 77 a messer Guido e anco ad Angiolello,
 78 che, se l’antiveder qui non è vano,
+</prompt>
+<result>
+76 Dan beritahukan kepada dua orang terbaik dari Fano,
+77 kepada Tuan Guido dan juga Angiolello,
+78 bahwa, jika penglihatan ke depan di sini tidak sia-sia,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 79/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 79 gittati saran fuor di lor vasello
 80 e mazzerati presso a la Cattolica
 81 per tradimento d’un tiranno fello.
 </prompt>
 <result>
-76 Dan beritahukan kepada dua orang terbaik dari Fano,
-77 kepada Tuan Guido dan juga Angiolello,
-78 bahwa, jika penglihatan ke depan di sini tidak sia-sia,
-
 79 mereka akan dilempar keluar dari kapal mereka
 80 dan dibunuh di dekat Cattolica
 81 karena pengkhianatan seorang tiran yang kejam.
@@ -389,16 +428,23 @@ Please translate each line literally into Indonesian.
 85 Quel traditor che vede pur con l’uno,
 86 e tien la terra che tale qui meco
 87 vorrebbe di vedere esser digiuno,
+</prompt>
+<result>
+85 Pengkhianat itu yang hanya melihat dengan sebelah mata,
+86 dan menguasai tanah yang orang sepertiku di sini
+87 ingin melihatnya kelaparan,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 88/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 88 farà venirli a parlamento seco;
 89 poi farà sì, ch’al vento di Focara
 90 non sarà lor mestier voto né preco».
 </prompt>
 <result>
-85 Pengkhianat itu yang hanya melihat dengan sebelah mata,
-86 dan menguasai tanah yang orang sepertiku di sini
-87 ingin melihatnya kelaparan,
-
 88 akan membuat mereka datang untuk berbicara dengannya;
 89 kemudian dia akan bertindak, sehingga di angin Focara
 90 mereka tidak akan membutuhkan sumpah atau doa».
@@ -457,24 +503,38 @@ Please translate each line literally into Indonesian.
 100 Oh quanto mi pareva sbigottito
 101 con la lingua tagliata ne la strozza
 102 Curïo, ch’a dir fu così ardito!
+</prompt>
+<result>
+100 Oh, betapa terkejutnya aku melihat
+101 dengan lidah terpotong di tenggorokannya
+102 Curio, yang begitu berani untuk berbicara!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 103/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 103 E un ch’avea l’una e l’altra man mozza,
 104 levando i moncherin per l’aura fosca,
 105 sì che ’l sangue facea la faccia sozza,
+</prompt>
+<result>
+103 Dan seorang yang kedua tangannya terpotong,
+104 mengangkat tunggul tangannya di udara yang gelap,
+105 sehingga darah membuat wajahnya kotor,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 106/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 106 gridò: «Ricordera’ti anche del Mosca,
 107 che disse, lasso!, “Capo ha cosa fatta”,
 108 che fu mal seme per la gente tosca».
 </prompt>
 <result>
-100 Oh, betapa terkejutnya aku melihat
-101 dengan lidah terpotong di tenggorokannya
-102 Curio, yang begitu berani untuk berbicara!
-
-103 Dan seorang yang kedua tangannya terpotong,
-104 mengangkat tunggul tangannya di udara yang gelap,
-105 sehingga darah membuat wajahnya kotor,
-
 106 berteriak: "Ingatlah juga Mosca,
 107 yang berkata, kasihan!, "Kepala memiliki sesuatu yang telah dilakukan",
 108 yang merupakan benih buruk bagi orang-orang Tuscan».
@@ -482,17 +542,18 @@ Please translate each line literally into Indonesian.
 </query>
 <query>
 <info>[Inferno Canto 28] 109/142</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Indonesian.
 
 109 E io li aggiunsi: «E morte di tua schiatta»;
 110 per ch’elli, accumulando duol con duolo,
 111 sen gio come persona trista e matta.
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+109 Dan aku menambahkan: "Dan kematian bagi rasmu";
+110 sehingga dia, yang menumpuk duka dengan duka,
+111 pergi seperti orang yang sedih dan gila.
+</result>
 </query>
 <query>
 <info>[Inferno Canto 28] 112/142</info>
@@ -502,16 +563,23 @@ Please translate each line literally into Indonesian.
 112 Ma io rimasi a riguardar lo stuolo,
 113 e vidi cosa ch’io avrei paura,
 114 sanza più prova, di contarla solo;
+</prompt>
+<result>
+112 Tetapi aku tetap tinggal untuk mengamati gerombolan itu,
+113 dan aku melihat sesuatu yang akan membuatku takut,
+114 bahkan tanpa bukti lebih lanjut, untuk menceritakannya sendirian;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 115/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 115 se non che coscïenza m’assicura,
 116 la buona compagnia che l’uom francheggia
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112 Tetapi aku tetap tinggal untuk mengamati gerombolan itu,
-113 dan aku melihat sesuatu yang akan membuatku takut,
-114 bahkan tanpa bukti lebih lanjut, untuk menceritakannya sendirian;
-
 115 jika saja tidak ada hati nurani yang meyakinkanku,
 116 teman baik yang membuat seseorang berani
 117 di bawah baju besi perasaan murni.
@@ -525,16 +593,23 @@ Please translate each line literally into Indonesian.
 118 Io vidi certo, e ancor par ch’io ’l veggia,
 119 un busto sanza capo andar sì come
 120 andavan li altri de la trista greggia;
+</prompt>
+<result>
+118 Aku melihat dengan jelas, dan bahkan sekarang seolah-olah aku masih melihatnya,
+119 sebuah tubuh tanpa kepala berjalan seperti
+120 yang dilakukan oleh yang lain dari kawanan yang menyedihkan itu;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 121/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 121 e ’l capo tronco tenea per le chiome,
 122 pesol con mano a guisa di lanterna:
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118 Aku melihat dengan jelas, dan bahkan sekarang seolah-olah aku masih melihatnya,
-119 sebuah tubuh tanpa kepala berjalan seperti
-120 yang dilakukan oleh yang lain dari kawanan yang menyedihkan itu;
-
 121 dan kepala yang terpenggal itu dipegangnya pada rambutnya,
 122 digantung dengan tangannya seperti lentera:
 123 dan kepala itu menatap kami dan berkata: "Oh, aku!".
@@ -563,16 +638,23 @@ Please translate each line literally into Indonesian.
 127 Quando diritto al piè del ponte fue,
 128 levò ’l braccio alto con tutta la testa
 129 per appressarne le parole sue,
+</prompt>
+<result>
+127 Ketika tepat di kaki jembatan,
+128 ia mengangkat lengannya tinggi-tinggi dengan seluruh kepalanya
+129 untuk menyampaikan kata-katanya,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 130/142</info>
+<prompt>
+Please translate each line literally into Indonesian.
 
 130 che fuoro: «Or vedi la pena molesta,
 131 tu che, spirando, vai veggendo i morti:
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127 Ketika tepat di kaki jembatan,
-128 ia mengangkat lengannya tinggi-tinggi dengan seluruh kepalanya
-129 untuk menyampaikan kata-katanya,
-
 130 yang berbunyi: "Sekarang lihatlah hukuman yang menyakitkan ini,
 131 kamu yang, saat bernapas, melihat orang mati:
 132 lihatlah apakah ada yang lebih besar dari ini.
