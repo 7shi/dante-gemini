@@ -211,6 +211,7 @@ def check_lines2(arg):
             if q.result:
                 q.error = q.result
                 q.result = None
+        if q.error:
             error += 1
         dst.append(q)
     print(f"{arg}: error={error}/{len(dst)}")
