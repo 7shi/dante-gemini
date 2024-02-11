@@ -25,5 +25,8 @@ redo:
 redo1:
 	python $(SCRIPTS)/redo.py -1 1-error.xml
 
+redo-fix:
+	python $(SCRIPTS)/split3.py -c 2 1-error-ok.xml
+
 replace:
 	python $(SCRIPTS)/replace.py 1-error-ok.xml $(DIRSM)/*.xml
