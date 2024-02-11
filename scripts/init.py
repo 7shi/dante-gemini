@@ -22,7 +22,7 @@ while args:
         init_xml = args[1]
         args = args[2:]
     elif args[0] == "-d" and len(args) > 1:
-        subdir = args[1]
+        subdir = args[1].split()[0]
         args = args[2:]
     else:
         break

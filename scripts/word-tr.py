@@ -65,7 +65,7 @@ if os.path.exists(option.init):
 else:
     print(f"making {option.init}...")
     gemini.init()
-    inferno1 = common.read_queries(os.path.join(option.srcdir, "inferno", "01.xml"))
+    inferno1 = common.read_queries(os.path.join(option.srcdir, option.directories[0], "01.xml"))
     q = send(inferno1[0])
     if not q.result:
         print("Abort.", file=sys.stderr)
