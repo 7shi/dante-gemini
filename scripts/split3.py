@@ -219,7 +219,7 @@ def check_lines2(arg):
 for arg in args:
     if check_type == 1:
         check_lines1(arg)
-    if check_type == 2:
+    elif check_type == 2:
         check_lines2(arg)
     else:
         split3(arg)
