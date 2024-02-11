@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="44">
 <query>
 <info>[Inferno Canto 7] 1/130</info>
 <prompt>
@@ -8,18 +8,26 @@ Please translate each line literally into Chinese.
 1 «Pape Satàn, pape Satàn aleppe!»,
 2 cominciò Pluto con la voce chioccia;
 3 e quel savio gentil, che tutto seppe,
+</prompt>
+<result>
+1 “教皇撒旦，教皇撒旦，阿勒佩！”，
+2 普鲁托用沙哑的声音开始说道；
+3 而那位博学的贤者，无所不知，
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 4/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 4 disse per confortarmi: «Non ti noccia
 5 la tua paura; ché, poder ch’elli abbia,
 6 non ci torrà lo scender questa roccia».
 </prompt>
 <result>
-1 “教皇撒旦，教皇撒旦，阿勒佩！”，
-2 普路托用沙哑的声音开始说道；
-3 而那位无所不知的贤哲，
-
-4 为了安慰我说：“不要让你的恐惧伤害你；因为，无论他拥有多大的权力，
-5 他都不能阻止我们下到这块岩石上”。
+4 为了安慰我说：“不要让你的恐惧伤害你；
+5 因为他拥有的力量，
+6 不能阻止我们下到这块岩石上。”
 </result>
 </query>
 <query>
@@ -31,32 +39,6 @@ Please translate each line literally into Chinese.
 8 e disse: «Taci, maladetto lupo!
 9 consuma dentro te con la tua rabbia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "7 然后他转向那张肿胀的嘴，\n8 说道：“闭嘴吧，该死的狼！\n9 用你的愤怒把自己烧毁。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 7 然后他转向那张肿胀的嘴，
 8 说道：“闭嘴吧，该死的狼！
@@ -72,32 +54,6 @@ Please translate each line literally into Chinese.
 11 vuolsi ne l’alto, là dove Michele
 12 fé la vendetta del superbo strupo».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 前往地狱并非没有原因：\n11 我们必须向上，到米迦勒\n12 为傲慢的强奸行为复仇的地方。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 10 前往地狱并非没有原因：
 11 我们必须向上，到米迦勒
@@ -142,16 +98,23 @@ Please translate each line literally into Chinese.
 19 Ahi giustizia di Dio! tante chi stipa
 20 nove travaglie e pene quant’ io viddi?
 21 e perché nostra colpa sì ne scipa?
+</prompt>
+<result>
+19 啊，上帝的正义！有多少人被关押在这里，
+20 我看到了多少新的折磨和痛苦？
+21 为什么我们的罪孽如此惩罚我们？
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 22/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 22 Come fa l’onda là sovra Cariddi,
 23 che si frange con quella in cui s’intoppa,
 24 così convien che qui la gente riddi.
 </prompt>
 <result>
-19 啊，上帝的正义！有多少人被关押在这里，
-20 我看到了多少新的折磨和痛苦？
-21 为什么我们的罪孽如此惩罚我们？
-
 22 就像海浪在卡律布狄斯海峡上空，
 23 与它碰撞的海浪一起破碎，
 24 这里的人们也必须这样旋转。
@@ -195,35 +158,41 @@ Please translate each line literally into Chinese.
 31 Così tornavan per lo cerchio tetro
 32 da ogne mano a l’opposito punto,
 33 gridandosi anche loro ontoso metro;
-
-34 poi si volgea ciascun, quand’ era giunto,
-35 per lo suo mezzo cerchio a l’altra giostra.
 </prompt>
 <result>
 31 于是他们沿着黑暗的圆圈
 32 从每一边回到对面的点，
 33 也互相喊着可耻的咒骂；
-
-34 然后每个人在到达时转身，
-35 沿着他的半圆走向另一场角斗。
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 36/130</info>
+<info>[Inferno Canto 7] 34/130</info>
 <prompt>
 Please translate each line literally into Chinese.
 
+34 poi si volgea ciascun, quand’ era giunto,
+35 per lo suo mezzo cerchio a l’altra giostra.
 36 E io, ch’avea lo cor quasi compunto,
+</prompt>
+<result>
+34 然后，每个人在到达时都转身，
+35 沿着他的半圆形轨道前往另一场比武。
+36 而我，我的心几乎破碎，
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 37/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 37 dissi: «Maestro mio, or mi dimostra
 38 che gente è questa, e se tutti fuor cherci
 39 questi chercuti a la sinistra nostra».
 </prompt>
 <result>
-36 而我，我的心几乎要碎了，
-
-37 说道：“我的导师，现在请告诉我，
-38 这些人是谁，在我们左边的这些剃光头的人是否都是神职人员？”
+37 我说：“我的导师，现在请告诉我，
+38 这些人是谁，在我们左边的这些剃着发髻的人，
+39 是否都是修士。”
 </result>
 </query>
 <query>
@@ -339,18 +308,26 @@ Please translate each line literally into Chinese.
 61 Or puoi, figliuol, veder la corta buffa
 62 d’i ben che son commessi a la fortuna,
 63 per che l’umana gente si rabbuffa;
+</prompt>
+<result>
+61 现在，我的儿子，你可以看到短暂的闹剧
+62 由命运支配的美好事物，
+63 为此人类互相争斗；
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 64/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 64 ché tutto l’oro ch’è sotto la luna
 65 e che già fu, di quest’ anime stanche
 66 non poterebbe farne posare una».
 </prompt>
 <result>
-61 现在，我的孩子，你可以看到短暂的闹剧
-62 由命运支配的财富，
-63 为了什么人类互相争斗；
-
-64 因为月亮下所有已经存在和将要存在的所有黄金，
-65 都无法让这些疲惫的灵魂中的一个得到安息。
+64 因为月亮下所有的黄金，
+65 以及曾经存在过的黄金，都无法
+66 让这些疲惫的灵魂得到安息」。
 </result>
 </query>
 <query>
@@ -377,32 +354,6 @@ Please translate each line literally into Chinese.
 71 quanta ignoranza è quella che v’offende!
 72 Or vo’ che tu mia sentenza ne ’mbocche.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 他对我说：“哦，愚蠢的生灵，\n71 你们的无知是多么地冒犯你们！\n72 现在我要你理解我的判决。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 70 他对我说：“哦，愚蠢的生灵，
 71 你们的无知是多么地冒犯你们！
@@ -417,41 +368,53 @@ Please translate each line literally into Chinese.
 73 Colui lo cui saver tutto trascende,
 74 fece li cieli e diè lor chi conduce
 75 sì, ch’ogne parte ad ogne parte splende,
-
-76 distribuendo igualmente la luce.
 </prompt>
 <result>
 73 他无所不知，
 74 创造了天空并赋予它们引领者，
 75 以便每个部分都能照耀每个部分，
-
-76 均匀地分配光线。
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 77/130</info>
+<info>[Inferno Canto 7] 76/130</info>
 <prompt>
 Please translate each line literally into Chinese.
 
+76 distribuendo igualmente la luce.
 77 Similemente a li splendor mondani
 78 ordinò general ministra e duce
+</prompt>
+<result>
+76 均匀地分配光线。
+77 同样地，对于世俗的光辉，
+78 他任命了一位普遍的部长和领袖，
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 79/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 79 che permutasse a tempo li ben vani
 80 di gente in gente e d’uno in altro sangue,
 81 oltre la difension d’i senni umani;
+</prompt>
+<result>
+79 她会适时地交换那些徒劳的财富
+80 从一个人到另一个人，从一种血统到另一种血统，
+81 超出了人类理性的防御；
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 82/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 82 per ch’una gente impera e l’altra langue,
 83 seguendo lo giudicio di costei,
 84 che è occulto come in erba l’angue.
 </prompt>
 <result>
-77 同样地，对于世俗的光辉，
-78 他任命了一位普遍的部长和领袖，
-
-79 她会适时地交换那些徒劳的财富
-80 从一个人到另一个人，从一种血统到另一种血统，
-81 超出了人类理性的防御；
-
 82 因此，一个民族统治，另一个民族衰落，
 83 遵循她的判断，
 84 她的判断像草丛中的蛇一样隐蔽。
@@ -468,7 +431,8 @@ Please translate each line literally into Chinese.
 </prompt>
 <result>
 85 你们的知识无法与她抗衡：
-86 她为她的王国提供、判断和追求，就像其他神灵为他们的王国一样。
+86 她统领、审判并统治
+87 她的王国，就像其他神灵统治他们的王国一样。
 </result>
 </query>
 <query>
@@ -494,16 +458,23 @@ Please translate each line literally into Chinese.
 91 Quest’ è colei ch’è tanto posta in croce
 92 pur da color che le dovrien dar lode,
 93 dandole biasmo a torto e mala voce;
+</prompt>
+<result>
+91 她是如此地被钉在十字架上，
+92 恰恰是被那些应该赞美她的人，
+93 错误地责备她并说她坏话；
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 94/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 94 ma ella s’è beata e ciò non ode:
 95 con l’altre prime creature lieta
 96 volve sua spera e beata si gode.
 </prompt>
 <result>
-91 她是如此地被钉在十字架上，
-92 恰恰是被那些应该赞美她的人，
-93 错误地责备她并说她坏话；
-
 94 但她很幸福，听不到这些：
 95 她与其他最初的受造物一起快乐地
 96 转动她的天球，享受着幸福。
@@ -519,8 +490,9 @@ Please translate each line literally into Chinese.
 99 quand’ io mi mossi, e ’l troppo star si vieta».
 </prompt>
 <result>
-97 现在让我们下到更大的悲惨之处；
-98 当我动身时升起的每一颗星星现在都落下，并且禁止停留太久。
+97 现在让我们下到更深的悲惨处；
+98 当我动身时升起的每一颗星星现在都落下去了，
+99 停留太久是不被允许的」。
 </result>
 </query>
 <query>
@@ -563,8 +535,9 @@ Please translate each line literally into Chinese.
 108 al piè de le maligne piagge grige.
 </prompt>
 <result>
-106 这条悲伤的小溪在流到
-107 灰色邪恶山脚时，就进入了名为斯提克斯的沼泽。
+106 他进入名为斯提克斯的沼泽
+107 这条悲伤的小溪，当它下降时
+108 到达灰色的邪恶山脚。
 </result>
 </query>
 <query>
@@ -591,32 +564,6 @@ Please translate each line literally into Chinese.
 113 ma con la testa e col petto e coi piedi,
 114 troncandosi co’ denti a brano a brano.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "112 他们不仅用手互相殴打，\n113 还用头、胸和脚，\n114 用牙齿将自己撕成碎片。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 112 他们不仅用手互相殴打，
 113 还用头、胸和脚，
@@ -631,16 +578,23 @@ Please translate each line literally into Chinese.
 115 Lo buon maestro disse: «Figlio, or vedi
 116 l’anime di color cui vinse l’ira;
 117 e anche vo’ che tu per certo credi
+</prompt>
+<result>
+115 好导师说：“孩子，你现在看到了
+116 那些被愤怒征服的灵魂；
+117 我还希望你确信
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 118/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 118 che sotto l’acqua è gente che sospira,
 119 e fanno pullular quest’ acqua al summo,
 120 come l’occhio ti dice, u’ che s’aggira.
 </prompt>
 <result>
-115 好导师说：“孩子，你现在看到了
-116 那些被愤怒征服的灵魂；
-117 我还希望你确信
-
 118 水下有人在叹息，
 119 并使这水在顶部冒泡，
 120 就像你的眼睛告诉你，它们在哪里游荡。
@@ -654,33 +608,38 @@ Please translate each line literally into Chinese.
 121 Fitti nel limo dicon: “Tristi fummo
 122 ne l’aere dolce che dal sol s’allegra,
 123 portando dentro accidïoso fummo:
-
-124 or ci attristiam ne la belletta negra”.
 </prompt>
 <result>
 121 他们陷在泥浆中说：“我们在
 122 甜美的空气中悲伤，太阳使之快乐，
 123 带来了懒惰的烟雾：
-
-124 现在我们在黑色的污泥中悲伤。”
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 125/130</info>
+<info>[Inferno Canto 7] 124/130</info>
 <prompt>
 Please translate each line literally into Chinese.
 
+124 or ci attristiam ne la belletta negra”.
 125 Quest’ inno si gorgoglian ne la strozza,
 126 ché dir nol posson con parola integra».
+</prompt>
+<result>
+124 现在我们在黑色的污泥中悲伤。”
+125 他们用喉咙咕哝着这首赞美诗，
+126 因为他们无法用完整的话语说出它。”
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 127/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 127 Così girammo de la lorda pozza
 128 grand’ arco tra la ripa secca e ’l mézzo,
 129 con li occhi vòlti a chi del fango ingozza.
 </prompt>
 <result>
-125 他们用喉咙咕哝着这首赞美诗，
-126 因为他们无法用完整的话语说出它。”
-
 127 于是我们绕着肮脏的水坑走了一大圈，
 128 在干燥的河岸和中间，
 129 眼睛注视着那些在泥浆中窒息的人。

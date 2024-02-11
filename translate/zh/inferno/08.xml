@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,18 +8,26 @@ Please translate each line literally into Chinese.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 我接着说，很久以前
+2 在我们到达高塔脚下之前，
+3 我们的目光已经上升到了塔顶
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1 我接着说，在我们到达高塔脚下很久之前，
-2 我们的眼睛就向上望向塔顶，
-
-3 因为我们看到两盏小火把放在那里，
-4 另一盏在远处发出信号，
-5 以至于眼睛几乎无法捕捉到它。
+4 因为我们看到有两簇火焰，
+5 还有另一簇在远处发出信号，
+6 以至于眼睛几乎无法捕捉到它。
 </result>
 </query>
 <query>
@@ -33,7 +41,8 @@ Please translate each line literally into Chinese.
 </prompt>
 <result>
 7 我转向知识的海洋；
-8 我说：“他说了什么？另一盏火把又作何回应？点燃它们的是谁？”
+8 我说：“他说了什么？另一个火焰
+9 又作何回应？他们是谁？”
 </result>
 </query>
 <query>
@@ -59,16 +68,23 @@ Please translate each line literally into Chinese.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 弓弦从未射出箭矢，
+14 它在空中飞驰得如此之快，
+15 就如同我看到一艘小船
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 弓弦从未射出箭矢，
-14 它在空中飞驰得如此之快，
-15 就如同我看到一艘小船
-
 16 向我们驶来，
 17 由一个独行的船夫掌舵，
 18 他喊道：“现在你到了，邪恶的灵魂！”
@@ -84,8 +100,9 @@ Please translate each line literally into Chinese.
 21 più non ci avrai che sol passando il loto».
 </prompt>
 <result>
-19 “弗莱吉亚斯，弗莱吉亚斯，你这次白喊了，”
-20 我的主人说，“你只能载我们过河。”
+19 “弗莱吉亚斯，弗莱吉亚斯，你白费口舌了，”
+20 我的主人说，“这一次，
+21 你只能让我们通过沼泽。”
 </result>
 </query>
 <query>
@@ -172,32 +189,6 @@ Please translate each line literally into Chinese.
 38 spirito maladetto, ti rimani;
 39 ch’i’ ti conosco, ancor sie lordo tutto».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 我对他说：“带着哭泣和哀悼，\n38 邪恶的灵魂，你留在这里吧；\n39 因为我认出你来了，尽管你全身污秽。”"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 37 我对他说：“带着哭泣和哀悼，
 38 邪恶的灵魂，你留在这里吧；
@@ -227,16 +218,23 @@ Please translate each line literally into Chinese.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 然后他用双臂搂住我的脖子；
+44 亲吻我的脸颊，说道：“高贵的灵魂，
+45 孕育你的人是多么有福啊！
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 然后他用双臂搂住我的脖子；
-44 亲吻我的脸颊，说道：“高贵的灵魂，
-45 孕育你的人是多么有福啊！
-
 46 他在世上是一个傲慢的人；
 47 没有美德可以装饰他的记忆：
 48 因此他的灵魂在这里如此狂怒。
@@ -251,32 +249,6 @@ Please translate each line literally into Chinese.
 50 che qui staranno come porci in brago,
 51 di sé lasciando orribili dispregi!».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "49 多少人现在在上面自认为是伟大的国王，\n50 在这里却像猪一样躺在泥浆里，\n51 给自己留下了可怕的蔑视！"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 49 多少人现在在上面自认为是伟大的国王，
 50 在这里却像猪一样躺在泥浆里，
@@ -293,8 +265,9 @@ Please translate each line literally into Chinese.
 54 prima che noi uscissimo del lago».
 </prompt>
 <result>
-52 我说：“老师，我很想看到他
-53 在我们离开湖泊之前，沉入这泥浆中。”
+52 我说：“老师，我很想
+53 在我们离开湖泊之前，
+54 看到他被浸入这个汤汁中。”
 </result>
 </query>
 <query>
@@ -322,9 +295,9 @@ Please translate each line literally into Chinese.
 60 che Dio ancor ne lodo e ne ringrazio.
 </prompt>
 <result>
-58 在那之后不久，我看到他
-60 被泥泞的人们撕成碎片，
-61 我为此赞美并感谢上帝。
+58 之后不久，我看到那个家伙
+59 对那些泥泞的人们施加了这种折磨，
+60 我为此赞美并感谢上帝。
 </result>
 </query>
 <query>
@@ -380,16 +353,23 @@ Please translate each line literally into Chinese.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 我说：“老师，我已经在山谷中
+71 看到了它的清真寺，
+72 它们是红色的，好像是从火中升起的一样。”
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
 <result>
-70 我说：“老师，我已经在山谷中
-71 看到了它的清真寺，
-72 它们是红色的，好像是从火中升起的一样。”
-
 73 他对我说：“永恒的火焰
 74 在其中燃烧，使它们看起来是红色的，
 75 就像你在这个低层地狱中看到的那样。”
@@ -433,31 +413,38 @@ Please translate each line literally into Chinese.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
-82 我看到一千多人从天而降，聚集在门口，
-83 他们愤怒地说：“他是谁？他怎么没死就
-84 来到了死人的国度？”
+82 我看到一千多人从
+83 天上落下，他们愤怒地说：
+84 “他是谁，竟能不死而
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into Chinese.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 穿越死亡之人的国度？”
+86 我的睿智的老师做了个手势，
+87 表示他想与他们秘密交谈。
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 我的睿智的老师做了个手势，
-87 表示他想秘密地和他们交谈。
-
 88 于是他们稍微平息了愤怒，
 89 说道：“你独自一人来，让那个
 90 如此大胆地闯入这个国度的人离开。
@@ -501,16 +488,23 @@ Please translate each line literally into Chinese.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 “哦，我亲爱的向导，你已经不止七次
+98 给予我安全感，并把我从
+99 我所面临的巨大危险中拯救出来，
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 “哦，我亲爱的向导，你已经不止七次
-98 给予我安全感，并把我从
-99 我所面临的巨大危险中拯救出来，
-
 100 不要就这样抛弃我，”我说，“让我如此沮丧；
 101 如果我们不能继续前进，
 102 让我们迅速地一起找到我们的足迹。”
@@ -586,8 +580,9 @@ Please translate each line literally into Chinese.
 117 e rivolsesi a me con passi rari.
 </prompt>
 <result>
-115 我们的敌人把门关在了我主人的胸前，他被关在了外面，
-117 然后他以缓慢的步伐向我走来。
+115 我们的敌人把门关上了，
+116 把我的主人关在门外，
+117 他缓慢地转过身来面对我。
 </result>
 </query>
 <query>
@@ -600,8 +595,9 @@ Please translate each line literally into Chinese.
 120 «Chi m’ha negate le dolenti case!».
 </prompt>
 <result>
-118 他的眼睛盯着地面，眉毛上没有任何自豪，
-119 他叹息着说：“是谁拒绝了我进入痛苦的家园！”
+118 他的眼睛盯着地面，睫毛上
+119 没有一丝傲慢，他在叹息中说：
+120 “是谁拒绝了我进入悲伤的住所！”
 </result>
 </query>
 <query>
@@ -642,14 +638,21 @@ Please translate each line literally into Chinese.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 你在上面看到了死亡的文字：
 128 现在，从这里开始，山路向下延伸，
 129 在没有向导的情况下穿过圆圈，
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Chinese.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 以至于大地将为他敞开。
 </result>
 </query>

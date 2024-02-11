@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="36">
+<queries count="50">
 <query>
 <info>[Inferno Canto 23] 1/148</info>
 <prompt>
@@ -23,20 +23,26 @@ Please translate each line literally into Chinese.
 4 Vòlt’ era in su la favola d’Isopo
 5 lo mio pensier per la presente rissa,
 6 dov’ el parlò de la rana e del topo;
+</prompt>
+<result>
+4 他转向伊索寓言
+5 我的思绪因眼前的争吵而
+6 他在那里谈到了青蛙和老鼠；
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 7/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 7 ché più non si pareggia ‘mo’ e ‘issa’
 8 che l’un con l’altro fa, se ben s’accoppia
 9 principio e fine con la mente fissa.
 </prompt>
 <result>
-4 我的思绪因眼前的争吵而转向了伊索寓言，
-5 其中他谈到了青蛙和老鼠；
-
-6 因为“现在”和“那时”不再相提并论，
-7 如果我们用专注的心灵将开头和结尾联系起来，它们就会合二为一。
-
-8 现在和那时不再相提并论，
-9 如果我们用专注的心灵将开头和结尾联系起来，它们就会合二为一。
+7 因为“现在”和“过去”不再相等，
+8 如果将它们与固定的思想联系起来，它们就会彼此匹配，
+9 开始和结束。
 </result>
 </query>
 <query>
@@ -63,32 +69,6 @@ Please translate each line literally into Chinese.
 14 sono scherniti con danno e con beffa
 15 sì fatta, ch’assai credo che lor nòi.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "13 我这样想：‘这些人对我们\n14 以如此的方式受到嘲笑和戏弄，\n15 我相信他们会非常痛苦。"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 13 我这样想：‘这些人对我们
 14 以如此的方式受到嘲笑和戏弄，
@@ -105,8 +85,9 @@ Please translate each line literally into Chinese.
 18 che ’l cane a quella lievre ch’elli acceffa’.
 </prompt>
 <result>
-16 如果愤怒加剧了邪恶的欲望，
-17 那么他们会变得比那只猎犬对它所追逐的野兔更加残忍。
+16 如果愤怒凌驾于邪恶的意愿之上，
+17 那么他们将变得更加残忍，
+18 就像狗追逐并抓住那只野兔一样。
 </result>
 </query>
 <query>
@@ -117,18 +98,26 @@ Please translate each line literally into Chinese.
 19 Già mi sentia tutti arricciar li peli
 20 de la paura e stava in dietro intento,
 21 quand’ io dissi: «Maestro, se non celi
+</prompt>
+<result>
+19 我已经感觉到所有的汗毛都因恐惧而竖立起来，
+20 并屏住呼吸，
+21 当我说：“老师，如果你不隐瞒
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 22/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 22 te e me tostamente, i’ ho pavento
 23 d’i Malebranche. Noi li avem già dietro;
 24 io li ’magino sì, che già li sento».
 </prompt>
 <result>
-19 我已经感觉到所有的汗毛都因恐惧而竖起，
-20 我站在后面，全神贯注，
-21 当我说：“老师，如果你不迅速地隐藏
-22 你自己和我，我害怕
+22 你和我很快，我害怕
 23 邪恶的爪牙。他们已经在我们后面了；
-24 我想象着他们，我已经能听到他们了。”
+24 我想象他们，我已经听到他们了。
 </result>
 </query>
 <query>
@@ -141,8 +130,9 @@ Please translate each line literally into Chinese.
 27 più tosto a me, che quella dentro ’mpetro.
 </prompt>
 <result>
-25 他回答说：“如果我是由铅玻璃制成的，
-26 我不会比我从你身上得到的印象更快地吸引你的外形。
+25 他说：“如果我是由铅玻璃制成，
+26 我也不会比将你内心的形象带到我面前，
+27 更快地将你外表的形象带到我面前。
 </result>
 </query>
 <query>
@@ -198,24 +188,38 @@ Please translate each line literally into Chinese.
 37 Lo duca mio di sùbito mi prese,
 38 come la madre ch’al romore è desta
 39 e vede presso a sé le fiamme accese,
+</prompt>
+<result>
+37 我的向导突然抓住我，
+38 就像一个母亲在听到响声后醒来，
+39 看到她身边燃起了火焰，
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 40/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 40 che prende il figlio e fugge e non s’arresta,
 41 avendo più di lui che di sé cura,
 42 tanto che solo una camiscia vesta;
+</prompt>
+<result>
+40 她抓起她的孩子逃跑，不停歇，
+41 更多地关心他而不是她自己，
+42 以至于她只穿着一件衬衫；
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 43/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 43 e giù dal collo de la ripa dura
 44 supin si diede a la pendente roccia,
 45 che l’un de’ lati a l’altra bolgia tura.
 </prompt>
 <result>
-37 我的向导突然抓住我，
-38 就像一个母亲在听到响声后醒来，
-39 看到她身边燃起了火焰，
-
-40 她抓起她的孩子逃跑，不停歇，
-41 更多地关心他而不是她自己，
-42 以至于她只穿着一件衬衫；
-
 43 他从陡峭的悬崖上跳下，
 44 仰面朝下，落在倾斜的岩石上，
 45 这块岩石的一侧堵住了另一个峡谷。
@@ -229,16 +233,23 @@ Please translate each line literally into Chinese.
 46 Non corse mai sì tosto acqua per doccia
 47 a volger ruota di molin terragno,
 48 quand’ ella più verso le pale approccia,
+</prompt>
+<result>
+46 水从未如此迅速地从水槽流下，
+47 去转动地面磨坊的水轮，
+48 当它更接近叶片时，
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 49/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 49 come ’l maestro mio per quel vivagno,
 50 portandosene me sovra ’l suo petto,
 51 come suo figlio, non come compagno.
 </prompt>
 <result>
-46 水从未如此迅速地从水槽流下，
-47 去转动地面磨坊的水轮，
-48 当它更接近叶片时，
-
 49 我的向导沿着那条小路跑得如此之快，
 50 背着我，把我放在他的胸前，
 51 像他的儿子，而不是他的同伴。
@@ -252,18 +263,26 @@ Please translate each line literally into Chinese.
 52 A pena fuoro i piè suoi giunti al letto
 53 del fondo giù, ch’e’ furon in sul colle
 54 sovresso noi; ma non lì era sospetto:
+</prompt>
+<result>
+52 他的双脚刚一踏上山谷的底部，
+53 就已经到了我们上方的山顶；
+54 但我们并没有怀疑：
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 55/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 55 ché l’alta provedenza che lor volle
 56 porre ministri de la fossa quinta,
 57 poder di partirs’ indi a tutti tolle.
 </prompt>
 <result>
-52 他的脚刚一触及底部，
-53 他们就在我们上方的山丘上；但那里没有危险：
-
-54 因为那崇高的旨意要他们
-55 成为第五个峡谷的仆人，
-56 剥夺了他们所有人离开那里的权力。
+55 因为上天的旨意要他们
+56 成为第五个深渊的仆人，
+57 剥夺了所有人离开那里的权力。
 </result>
 </query>
 <query>
@@ -292,7 +311,8 @@ Please translate each line literally into Chinese.
 </prompt>
 <result>
 61 他们戴着兜帽低垂的斗篷，
-62 遮住了他们的眼睛，这种斗篷在克吕尼为僧侣们制作。
+62 遮住了眼睛，用克吕尼的僧侣们
+63 制作斗篷的材料制成。
 </result>
 </query>
 <query>
@@ -318,16 +338,23 @@ Please translate each line literally into Chinese.
 67 Oh in etterno faticoso manto!
 68 Noi ci volgemmo ancor pur a man manca
 69 con loro insieme, intenti al tristo pianto;
+</prompt>
+<result>
+67 哦，永远疲惫的斗篷！
+68 我们仍然向左转，
+69 和他们一起，专心听着悲伤的哭声；
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 70/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 70 ma per lo peso quella gente stanca
 71 venìa sì pian, che noi eravam nuovi
 72 di compagnia ad ogne mover d’anca.
 </prompt>
 <result>
-67 哦，永远疲惫的斗篷！
-68 我们仍然向左转，
-69 和他们一起，专心听着悲伤的哭声；
-
 70 但由于重量，那些疲惫的人
 71 走得很慢，以至于我们每次移动臀部时，
 72 都会有新的同伴加入。
@@ -356,33 +383,38 @@ Please translate each line literally into Chinese.
 76 E un che ’ntese la parola tosca,
 77 di retro a noi gridò: «Tenete i piedi,
 78 voi che correte sì per l’aura fosca!
-
-79 Forse ch’avrai da me quel che tu chiedi».
 </prompt>
 <result>
 76 其中一个人听到了托斯卡纳语，
 77 在我们身后喊道：“停下脚步，
 78 你们在黑暗的空气中跑得如此之快！
-
-79 也许你可以从我这里得到你所要求的。”
 </result>
 </query>
 <query>
-<info>[Inferno Canto 23] 80/148</info>
+<info>[Inferno Canto 23] 79/148</info>
 <prompt>
 Please translate each line literally into Chinese.
 
+79 Forse ch’avrai da me quel che tu chiedi».
 80 Onde ’l duca si volse e disse: «Aspetta,
 81 e poi secondo il suo passo procedi».
+</prompt>
+<result>
+79 也许你可以从我这里得到你所要求的。”
+80 于是向导转过身说：“等等，
+81 然后按照他的速度前进。”
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 82/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 82 Ristetti, e vidi due mostrar gran fretta
 83 de l’animo, col viso, d’esser meco;
 84 ma tardavali ’l carco e la via stretta.
 </prompt>
 <result>
-80 于是向导转过身说：“等等，
-81 然后按照他的速度前进。”
-
 82 我停了下来，看到两个人表现出极大的急切，
 83 想要和我在一起；
 84 但沉重的负担和狭窄的道路拖慢了他们的速度。
@@ -396,16 +428,23 @@ Please translate each line literally into Chinese.
 85 Quando fuor giunti, assai con l’occhio bieco
 86 mi rimiraron sanza far parola;
 87 poi si volsero in sé, e dicean seco:
+</prompt>
+<result>
+85 当他们走近时，他们用斜视的眼睛
+86 看着我，一言不发；
+87 然后他们转过身，自言自语：
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 88/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 88 «Costui par vivo a l’atto de la gola;
 89 e s’e’ son morti, per qual privilegio
 90 vanno scoperti de la grave stola?».
 </prompt>
 <result>
-85 当他们走近时，他们用斜视的眼睛
-86 看着我，一言不发；
-87 然后他们转过身，自言自语：
-
 88 “这个人看起来还活着，从他的喉咙的动作来看；
 89 如果他们已经死了，凭什么特权
 90 他们可以不披着沉重的斗篷？”
@@ -420,32 +459,6 @@ Please translate each line literally into Chinese.
 92 de l’ipocriti tristi se’ venuto,
 93 dir chi tu se’ non avere in dispregio».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "91 然后他们对我说：“哦，托斯卡纳人，你来到了\n92 虚伪的伪君子的学院，\n93 不要轻视告诉我们你是谁。”"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 91 然后他们对我说：“哦，托斯卡纳人，你来到了
 92 虚伪的伪君子的学院，
@@ -505,16 +518,23 @@ Please translate each line literally into Chinese.
 103 Frati godenti fummo, e bolognesi;
 104 io Catalano e questi Loderingo
 105 nomati, e da tua terra insieme presi
+</prompt>
+<result>
+103 我们是博洛尼亚的快乐修士；
+104 我叫卡塔拉诺，他叫洛德林戈，
+105 我们都来自你的家乡，
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 106/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 106 come suole esser tolto un uom solingo,
 107 per conservar sua pace; e fummo tali,
 108 ch’ancor si pare intorno dal Gardingo».
 </prompt>
 <result>
-103 我们是博洛尼亚的快乐修士；
-104 我叫卡塔拉诺，他叫洛德林戈，
-105 我们都来自你的家乡，
-
 106 就像一个孤独的人被带走一样，
 107 为了保持他的和平；我们就是这样的人，
 108 以至于在加尔丁戈周围仍然可以看到。”
@@ -543,16 +563,23 @@ Please translate each line literally into Chinese.
 112 Quando mi vide, tutto si distorse,
 113 soffiando ne la barba con sospiri;
 114 e ’l frate Catalan, ch’a ciò s’accorse,
+</prompt>
+<result>
+112 当他看到我时，他全身扭曲，
+113 在胡须中叹息着；
+114 加泰罗尼亚修士注意到这一点，
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 115/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 115 mi disse: «Quel confitto che tu miri,
 116 consigliò i Farisei che convenia
 117 porre un uom per lo popolo a’ martìri.
 </prompt>
 <result>
-112 当他看到我时，他全身扭曲，
-113 在胡须中叹息着；
-114 加泰罗尼亚修士注意到这一点，
-
 115 对我说：“你所看到的那个被钉在十字架上的人，
 116 建议法利赛人应该
 117 让人为人民殉难。
@@ -582,32 +609,6 @@ Please translate each line literally into Chinese.
 122 in questa fossa, e li altri dal concilio
 123 che fu per li Giudei mala sementa».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "121 岳父就是这样在这个峡谷中受苦，\n122 以及其他参加议会的人，\n123 那次议会对犹太人来说是恶劣的种子。”"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 121 岳父就是这样在这个峡谷中受苦，
 122 以及其他参加议会的人，
@@ -637,16 +638,23 @@ Please translate each line literally into Chinese.
 127 Poscia drizzò al frate cotal voce:
 128 «Non vi dispiaccia, se vi lece, dirci
 129 s’a la man destra giace alcuna foce
+</prompt>
+<result>
+127 然后他用这样的声音对修士说：
+128 “如果你愿意，请不要介意告诉我们，
+129 在右手边是否有任何出口
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 130/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 130 onde noi amendue possiamo uscirci,
 131 sanza costrigner de li angeli neri
 132 che vegnan d’esto fondo a dipartirci».
 </prompt>
 <result>
-127 然后他用这样的声音对修士说：
-128 “如果你愿意，请不要介意告诉我们，
-129 在右手边是否有任何出口
-
 130 我们两个人可以从那里出去，
 131 不用强迫那些黑色的天使
 132 从这个深渊来分离我们。”
@@ -660,16 +668,23 @@ Please translate each line literally into Chinese.
 133 Rispuose adunque: «Più che tu non speri
 134 s’appressa un sasso che da la gran cerchia
 135 si move e varca tutt’ i vallon feri,
+</prompt>
+<result>
+133 于是他回答说：“比你所希望的更近，
+134 一块岩石正在接近，它从大圆圈中
+135 移动并越过所有可怕的山谷，
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 136/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
 136 salvo che ’n questo è rotto e nol coperchia;
 137 montar potrete su per la ruina,
 138 che giace in costa e nel fondo soperchia».
 </prompt>
 <result>
-133 于是他回答说：“比你所希望的更近，
-134 一块岩石正在接近，它从大圆圈中
-135 移动并越过所有可怕的山谷，
-
 136 除了在这个山谷中它被打破并且没有覆盖它；
 137 你们可以爬上废墟，
 138 它位于山坡上，在底部高耸。”
@@ -699,32 +714,6 @@ Please translate each line literally into Chinese.
 143 del diavol vizi assai, tra ’ quali udi’
 144 ch’elli è bugiardo, e padre di menzogna».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "142 修士说：“我曾经在博洛尼亚听说过\n143 很多关于魔鬼的恶习，其中我听说\n144 他是个骗子，是谎言之父。”"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 142 修士说：“我曾经在博洛尼亚听说过
 143 很多关于魔鬼的恶习，其中我听说
@@ -739,14 +728,21 @@ Please translate each line literally into Chinese.
 145 Appresso il duca a gran passi sen gì,
 146 turbato un poco d’ira nel sembiante;
 147 ond’ io da li ’ncarcati mi parti’
-
-148 dietro a le poste de le care piante.
 </prompt>
 <result>
 145 然后向导大步向前走去，
 146 脸上的怒气有些激动；
 147 所以我离开了那些负重的人，
+</result>
+</query>
+<query>
+<info>[Inferno Canto 23] 148/148</info>
+<prompt>
+Please translate each line literally into Chinese.
 
+148 dietro a le poste de le care piante.
+</prompt>
+<result>
 148 跟在他亲爱的脚印后面。
 </result>
 </query>
