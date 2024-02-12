@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="33">
+<queries error="0" count="44">
 <query>
 <info>[Inferno Canto 20] 1/130</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into Hindi.
 4 Io era già disposto tutto quanto
 5 a riguardar ne lo scoperto fondo,
 6 che si bagnava d’angoscioso pianto;
+</prompt>
+<result>
+4 मैं पहले से ही पूरी तरह से तैयार था
+5 खुले हुए तल को देखने के लिए,
+6 जो पीड़ादायक रोने से भीग रहा था;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 20] 7/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 7 e vidi gente per lo vallon tondo
 8 venir, tacendo e lagrimando, al passo
 9 che fanno le letane in questo mondo.
 </prompt>
 <result>
-4 मैं पहले से ही पूरी तरह से तैयार था
-5 खुले हुए तल को देखने के लिए,
-6 जो पीड़ादायक रोने से भीग रहा था;
-
 7 और मैंने देखा कि लोग गोल घाटी में
 8 चुपचाप और रोते हुए आ रहे हैं, उसी गति से
 9 जैसे इस दुनिया में प्रार्थनाएँ की जाती हैं।
@@ -46,16 +53,23 @@ Please translate each line literally into Hindi.
 10 Come ’l viso mi scese in lor più basso,
 11 mirabilmente apparve esser travolto
 12 ciascun tra ’l mento e ’l principio del casso,
+</prompt>
+<result>
+10 जैसे ही मेरी दृष्टि उन पर और नीचे उतरी,
+11 आश्चर्यजनक रूप से ऐसा प्रतीत हुआ कि हर कोई
+12 ठोड़ी और गर्दन के बीच उल्टा हो गया था,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 20] 13/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 13 ché da le reni era tornato ’l volto,
 14 e in dietro venir li convenia,
 15 perché ’l veder dinanzi era lor tolto.
 </prompt>
 <result>
-10 जैसे ही मेरी दृष्टि उन पर और नीचे उतरी,
-11 आश्चर्यजनक रूप से ऐसा प्रतीत हुआ कि हर कोई
-12 ठोड़ी और गर्दन के बीच उल्टा हो गया था,
-
 13 क्योंकि उनकी पीठ से उनका चेहरा मुड़ गया था,
 14 और उन्हें पीछे की ओर आना पड़ता था,
 15 क्योंकि उनसे आगे देखने की शक्ति छीन ली गई थी।
@@ -84,42 +98,23 @@ Please translate each line literally into Hindi.
 19 Se Dio ti lasci, lettor, prender frutto
 20 di tua lezione, or pensa per te stesso
 21 com’ io potea tener lo viso asciutto,
+</prompt>
+<result>
+19 यदि ईश्वर तुम्हें, पाठक, अपने पाठ से लाभ उठाने दे,
+20 तो अब अपने लिए सोचो
+21 कि मैं अपने चेहरे को सूखा कैसे रख सकता था,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 20] 22/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 22 quando la nostra imagine di presso
 23 vidi sì torta, che ’l pianto de li occhi
 24 le natiche bagnava per lo fesso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "19 यदि ईश्वर तुम्हें, पाठक, अपने पाठ से लाभ उठाने दे,\n20 तो अब अपने लिए सोचो\n21 कि मैं अपने चेहरे को सूखा कैसे रख सकता था,\n\n22 जब मैंने हमारी छवि को पास से देखा\n23 इतनी विकृत, कि आँखों के आँसू\n24 नितंबों को दरार से भिगो रहे थे।"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-19 यदि ईश्वर तुम्हें, पाठक, अपने पाठ से लाभ उठाने दे,
-20 तो अब अपने लिए सोचो
-21 कि मैं अपने चेहरे को सूखा कैसे रख सकता था,
-
 22 जब मैंने हमारी छवि को पास से देखा
 23 इतनी विकृत, कि आँखों के आँसू
 24 नितंबों को दरार से भिगो रहे थे।
@@ -133,49 +128,68 @@ Please translate each line literally into Hindi.
 25 Certo io piangea, poggiato a un de’ rocchi
 26 del duro scoglio, sì che la mia scorta
 27 mi disse: «Ancor se’ tu de li altri sciocchi?
-
-28 Qui vive la pietà quand’ è ben morta;
-29 chi è più scellerato che colui
-30 che al giudicio divin passion comporta?
-
-31 Drizza la testa, drizza, e vedi a cui
-32 s’aperse a li occhi d’i Teban la terra;
-33 per ch’ei gridavan tutti: “Dove rui,
-
-34 Anfïarao? perché lasci la guerra?”.
 </prompt>
 <result>
 25 निश्चित रूप से मैं रो रहा था, चट्टान के एक टुकड़े पर झुक कर
 26 कठोर चट्टान का, ताकि मेरे मार्गदर्शक ने
 27 मुझसे कहा: "क्या तुम अभी भी अन्य मूर्खों की तरह हो?
-
-28 यहाँ दया तभी रहती है जब वह पूरी तरह से मर जाती है;
-29 उससे अधिक दुष्ट कौन है जो
-30 ईश्वरीय निर्णय के प्रति करुणा रखता है?
-
-31 अपना सिर सीधा करो, सीधा करो, और देखो कि किसके लिए
-32 थिब्स की आँखों के सामने धरती खुल गई;
-33 जिसके कारण वे सभी चिल्लाए: "कहाँ गिर रहे हो,
-
-34 एम्फीअरेओस? तुम युद्ध क्यों छोड़ रहे हो?"।
 </result>
 </query>
 <query>
-<info>[Inferno Canto 20] 35/130</info>
+<info>[Inferno Canto 20] 28/130</info>
 <prompt>
 Please translate each line literally into Hindi.
 
+28 Qui vive la pietà quand’ è ben morta;
+29 chi è più scellerato che colui
+30 che al giudicio divin passion comporta?
+</prompt>
+<result>
+28 यहाँ दया तभी रहती है जब वह पूरी तरह से मर जाती है;
+29 उससे अधिक दुष्ट कौन है जो
+30 ईश्वरीय निर्णय के प्रति करुणा रखता है?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 20] 31/130</info>
+<prompt>
+Please translate each line literally into Hindi.
+
+31 Drizza la testa, drizza, e vedi a cui
+32 s’aperse a li occhi d’i Teban la terra;
+33 per ch’ei gridavan tutti: “Dove rui,
+</prompt>
+<result>
+31 अपना सिर सीधा करो, सीधा करो, और देखो कि किसके लिए
+32 थिब्स की आँखों के सामने धरती खुल गई;
+33 जिसके कारण वे सभी चिल्लाए: "कहाँ गिर रहे हो,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 20] 34/130</info>
+<prompt>
+Please translate each line literally into Hindi.
+
+34 Anfïarao? perché lasci la guerra?”.
 35 E non restò di ruinare a valle
 36 fino a Minòs che ciascheduno afferra.
+</prompt>
+<result>
+34 एम्फीअरेओस? तुम युद्ध क्यों छोड़ रहे हो?"।
+35 और घाटी में गिरना बंद नहीं हुआ
+36 मिनोस तक जो हर किसी को पकड़ लेता है।
+</result>
+</query>
+<query>
+<info>[Inferno Canto 20] 37/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 37 Mira c’ha fatto petto de le spalle;
 38 perché volle veder troppo davante,
 39 di retro guarda e fa retroso calle.
 </prompt>
 <result>
-35 और घाटी में गिरना बंद नहीं हुआ
-36 मिनोस तक जो हर किसी को पकड़ लेता है।
-
 37 देखो कि उसने अपने कंधों से छाती बना ली है;
 38 क्योंकि वह बहुत आगे देखना चाहता था,
 39 पीछे देखता है और पीछे की ओर रास्ता बनाता है।
@@ -189,16 +203,23 @@ Please translate each line literally into Hindi.
 40 Vedi Tiresia, che mutò sembiante
 41 quando di maschio femmina divenne,
 42 cangiandosi le membra tutte quante;
+</prompt>
+<result>
+40 टायरेशियस को देखो, जिसने अपना रूप बदल लिया
+41 जब वह पुरुष से स्त्री बन गया,
+42 उसके सभी अंग बदल गए;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 20] 43/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 43 e prima, poi, ribatter li convenne
 44 li duo serpenti avvolti, con la verga,
 45 che rïavesse le maschili penne.
 </prompt>
 <result>
-40 टायरेशियस को देखो, जिसने अपना रूप बदल लिया
-41 जब वह पुरुष से स्त्री बन गया,
-42 उसके सभी अंग बदल गए;
-
 43 और पहले, फिर, उसे छड़ी से
 44 लिपटे हुए दो साँपों को मारना पड़ा,
 45 ताकि वह अपने पुरुष अंगों को वापस पा सके।
@@ -212,16 +233,23 @@ Please translate each line literally into Hindi.
 46 Aronta è quel ch’al ventre li s’atterga,
 47 che ne’ monti di Luni, dove ronca
 48 lo Carrarese che di sotto alberga,
+</prompt>
+<result>
+46 एरोन्टा वह है जो उसके पेट से चिपका हुआ है,
+47 लूनी के पहाड़ों में, जहाँ
+48 कैरारेसी रहता है जो नीचे रहता है,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 20] 49/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 49 ebbe tra ’ bianchi marmi la spelonca
 50 per sua dimora; onde a guardar le stelle
 51 e ’l mar non li era la veduta tronca.
 </prompt>
 <result>
-46 एरोन्टा वह है जो उसके पेट से चिपका हुआ है,
-47 लूनी के पहाड़ों में, जहाँ
-48 कैरारेसी रहता है जो नीचे रहता है,
-
 49 सफेद संगमरमर के बीच उसकी गुफा थी
 50 उसके रहने के लिए; जहाँ से तारों को देखने के लिए
 51 और समुद्र उसकी दृष्टि में बाधक नहीं था।
@@ -235,42 +263,23 @@ Please translate each line literally into Hindi.
 52 E quella che ricuopre le mammelle,
 53 che tu non vedi, con le trecce sciolte,
 54 e ha di là ogne pilosa pelle,
+</prompt>
+<result>
+52 और वह जो अपने स्तनों को ढँकती है,
+53 जिसे तुम नहीं देखते, खुली हुई चोटी के साथ,
+54 और उसके शरीर पर हर जगह बाल हैं,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 20] 55/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 55 Manto fu, che cercò per terre molte;
 56 poscia si puose là dove nacqu’ io;
 57 onde un poco mi piace che m’ascolte.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "52 और वह जो अपने स्तनों को ढँकती है,\n53 जिसे तुम नहीं देखते, खुली हुई चोटी के साथ,\n54 और उसके शरीर पर हर जगह बाल हैं,\n\n55 मंटो थी, जिसने कई देशों की खोज की;\n56 फिर वह वहाँ बस गई जहाँ मेरा जन्म हुआ;\n57 इसलिए मुझे यह पसंद है कि वह मेरी बात सुने।"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-52 और वह जो अपने स्तनों को ढँकती है,
-53 जिसे तुम नहीं देखते, खुली हुई चोटी के साथ,
-54 और उसके शरीर पर हर जगह बाल हैं,
-
 55 मंटो थी, जिसने कई देशों की खोज की;
 56 फिर वह वहाँ बस गई जहाँ मेरा जन्म हुआ;
 57 इसलिए मुझे यह पसंद है कि वह मेरी बात सुने।
@@ -524,16 +533,23 @@ Please translate each line literally into Hindi.
 106 Allor mi disse: «Quel che da la gota
 107 porge la barba in su le spalle brune,
 108 fu—quando Grecia fu di maschi vòta,
+</prompt>
+<result>
+106 तब उसने मुझसे कहा: "वह जो गाल से
+107 अपने कंधों पर भूरी दाढ़ी रखता है,
+108 था—जब ग्रीस पुरुषों से खाली हो गया था,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 20] 109/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 109 sì ch’a pena rimaser per le cune—
 110 augure, e diede ’l punto con Calcanta
 111 in Aulide a tagliar la prima fune.
 </prompt>
 <result>
-106 तब उसने मुझसे कहा: "वह जो गाल से
-107 अपने कंधों पर भूरी दाढ़ी रखता है,
-108 था—जब ग्रीस पुरुषों से खाली हो गया था,
-
 109 ताकि पालने के लिए मुश्किल से ही बचे—
 110 एक ज्योतिषी, और उसने कैलकांटा के साथ बिंदु दिया
 111 औलिदे में पहली रस्सी काटने के लिए।
@@ -607,16 +623,23 @@ Please translate each line literally into Hindi.
 124 Ma vienne omai, ché già tiene ’l confine
 125 d’amendue li emisperi e tocca l’onda
 126 sotto Sobilia Caino e le spine;
+</prompt>
+<result>
+124 लेकिन अब आओ, क्योंकि यह पहले से ही सीमा रखता है
+125 दोनों गोलार्धों में और सोबिलिया के नीचे लहरों को छूता है
+126 कैन और कांटे;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 20] 127/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 127 e già iernotte fu la luna tonda:
 128 ben ten de’ ricordar, ché non ti nocque
 129 alcuna volta per la selva fonda».
 </prompt>
 <result>
-124 लेकिन अब आओ, क्योंकि यह पहले से ही सीमा रखता है
-125 दोनों गोलार्धों में और सोबिलिया के नीचे लहरों को छूता है
-126 कैन और कांटे;
-
 127 और कल रात चाँद गोल था:
 128 तुम्हें इसे अच्छी तरह से याद रखना चाहिए, क्योंकि इसने तुम्हें नुकसान नहीं पहुँचाया
 129 कभी-कभी घने जंगल के लिए"।

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,19 +8,26 @@ Please translate each line literally into Hindi.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 मैं कहता हूँ, आगे बढ़ते हुए, कि बहुत पहले
+2 कि हम ऊँचे टॉवर के तल पर पहुँचते,
+3 हमारी आँखें ऊपर चोटी पर चली गईं
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1मैंकहताहूँ,जारीरखतेहुए,किबहुतपहले
-2जबहमऊँचीमीनारकेपैरमेंनहींथे,
-3हमारीआँखेंउसकीचोटीपरचलीगईं
-
-4दोशिखाओंकेलिएजिन्हेंहमनेवहाँरखा,
-5औरएकअन्यनेदूरसेसंकेतदिया,
-6इतनाकिआँखउसेमुश्किलसेदेखसकतीथी।
+4 दो छोटी लपटों के लिए जिन्हें हमने रखा हुआ देखा,
+5 और एक और दूर से संकेत दे रही थी,
+6 इतना कि आँख उसे मुश्किल से देख पा रही थी।
 </result>
 </query>
 <query>
@@ -33,9 +40,9 @@ Please translate each line literally into Hindi.
 9 quell’ altro foco? e chi son quei che ’l fenno?».
 </prompt>
 <result>
-7औरमैंनेअपनाध्यानसभीज्ञानकेसागरकीओरलगाया;
-8मैंनेकहा: "यहक्याकहताहै?औरवहदूसरीआगक्याजवाबदेतीहै?
-9औरवेकौनहैंजिन्होंनेइसेबनाया?"
+7 और मैं ज्ञान के समुद्र की ओर मुड़ा;
+8 मैंने कहा: "यह क्या कहता है? और वह दूसरी आग क्या जवाब देती है?
+9 और वे कौन हैं जिन्होंने इसे बनाया?"।
 </result>
 </query>
 <query>
@@ -48,9 +55,9 @@ Please translate each line literally into Hindi.
 12 se ’l fummo del pantan nol ti nasconde».
 </prompt>
 <result>
-10औरउसनेमुझसेकहा: "गंदेपानीकेऊपर
-11अबतुमवहदेखसकतेहोजिसकीआशाकीجارहीहै,
-12अगरदलदलकाधुआँतुम्हेंउसेछुपातानहींहै"।
+10 और उसने मुझसे कहा: "आत्मघाती लहरों पर
+11 अब तुम उसे देख सकते हो जिसकी अपेक्षा की जाती है,
+12 यदि दलदल का धुआँ उसे तुमसे छिपा न दे"।
 </result>
 </query>
 <query>
@@ -61,19 +68,26 @@ Please translate each line literally into Hindi.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 रस्सी ने कभी अपने आप से तीर नहीं चलाया
+14 जो हवा में इतनी तेजी से दौड़ता हो,
+15 जैसा मैंने एक छोटा सा जहाज देखा
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13रस्सीनेकभीअपनेआपसेतीरनहींफेंका
-14जोहवामेंइतनीतेजीसेभागगया,
-15जैसाकिमैंनेएकछोटीनावदेखा
-
-16उसमेंहमारीओरपानीकेरस्तेआतेहुए,
-17केवलएकनाविककेशासनमें,
-18जोचिल्लाया: "अबतूआगईहै,दुष्टआत्मा!"।
+16 उसमें पानी के रास्ते हमारी ओर आते हुए,
+17 केवल एक नाविक के नियंत्रण में,
+18 जो चिल्ला रहा था: "अब तुम आ गई हो, दुष्ट आत्मा!"।
 </result>
 </query>
 <query>
@@ -115,32 +129,6 @@ Please translate each line literally into Hindi.
 26 e poi mi fece intrare appresso lui;
 27 e sol quand’ io fui dentro parve carca.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 मेरा नेता नाव में उतरा,\n26 और फिर उसने मुझे अपने पीछे प्रवेश कराया;\n27 और जब मैं अंदर गया तो वह भरी हुई लग रही थी।"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 मेरा नेता नाव में उतरा,
 26 और फिर उसने मुझे अपने पीछे प्रवेश कराया;
@@ -201,32 +189,6 @@ Please translate each line literally into Hindi.
 38 spirito maladetto, ti rimani;
 39 ch’i’ ti conosco, ancor sie lordo tutto».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 और मैंने उससे कहा: \"रोने और शोक के साथ,\n38 शापित आत्मा, तू यहीं रह;\n39 क्योंकि मैं तुझे जानता हूं, भले ही तू पूरी तरह से गंदा हो\"।"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 37 और मैंने उससे कहा: "रोने और शोक के साथ,
 38 शापित आत्मा, तू यहीं रह;
@@ -256,16 +218,23 @@ Please translate each line literally into Hindi.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 फिर उसने अपनी बाहों से मेरी गर्दन को घेर लिया;
+44 मेरे चेहरे को चूमा और कहा: "क्रोधित आत्मा,
+45 धन्य है वह जिसने तुम्हें जन्म दिया!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 फिर उसने अपनी बाहों से मेरी गर्दन को घेर लिया;
-44 मेरे चेहरे को चूमा और कहा: "क्रोधित आत्मा,
-45 धन्य है वह जिसने तुम्हें जन्म दिया!
-
 46 वह दुनिया में एक अभिमानी व्यक्ति था;
 47 उसकी स्मृति को सुशोभित करने वाली कोई अच्छाई नहीं है:
 48 इसलिए उसकी छाया यहाँ उग्र है।
@@ -280,32 +249,6 @@ Please translate each line literally into Hindi.
 50 che qui staranno come porci in brago,
 51 di sé lasciando orribili dispregi!».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "49 कितने लोग जो अब वहाँ ऊपर महान राजा माने जाते हैं\n50 यहाँ कीचड़ में सूअरों की तरह रहेंगे,\n51 अपने पीछे भयानक तिरस्कार छोड़कर!\"।"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 49 कितने लोग जो अब वहाँ ऊपर महान राजा माने जाते हैं
 50 यहाँ कीचड़ में सूअरों की तरह रहेंगे,
@@ -322,8 +265,9 @@ Please translate each line literally into Hindi.
 54 prima che noi uscissimo del lago».
 </prompt>
 <result>
-52 और मैंने कहा: "गुरुजी, मैं उसे इस गंदे पानी में डूबते हुए देखना चाहता हूँ
-54 इससे पहले कि हम झील से बाहर निकलें"।
+52 और मैंने कहा: "गुरुजी, मैं बहुत उत्सुक हूँ
+53 उसे इस गंदगी में डूबते हुए देखने के लिए
+54 इससे पहले कि हम झील से बाहर निकलते।
 </result>
 </query>
 <query>
@@ -351,8 +295,9 @@ Please translate each line literally into Hindi.
 60 che Dio ancor ne lodo e ne ringrazio.
 </prompt>
 <result>
-58 इसके बाद मैंने जल्द ही उस व्यक्ति को कीचड़ भरे लोगों द्वारा प्रताड़ित होते देखा,
-59 जिसके लिए मैं अभी भी भगवान की प्रशंसा करता हूं और उन्हें धन्यवाद देता हूं।
+58 उसके बाद मैंने जल्द ही देखा कि उसका अत्याचार
+59 कीचड़ भरे लोगों ने उस पर किया,
+60 जिसके लिए मैं अभी भी भगवान की प्रशंसा करता हूँ और उन्हें धन्यवाद देता हूँ।
 </result>
 </query>
 <query>
@@ -408,16 +353,23 @@ Please translate each line literally into Hindi.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 और मैंने कहा: "गुरुजी, उसकी मस्जिदें पहले से ही
+71 घाटी में निश्चित रूप से दिखाई दे रही हैं,
+72 लाल जैसे कि वे आग से निकली हों
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
 <result>
-70 और मैंने कहा: "गुरुजी, उसकी मस्जिदें पहले से ही
-71 घाटी में निश्चित रूप से दिखाई दे रही हैं,
-72 लाल जैसे कि वे आग से निकली हों
-
 73 थीं"। और उसने मुझसे कहा: "अनन्त आग
 74 जो उसे जलाती है वह उसे लाल दिखाती है,
 75 जैसा कि आप इस निचले नरक में देखते हैं"।
@@ -461,32 +413,38 @@ Please translate each line literally into Hindi.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
-82 मैंने स्वर्ग से गिरे हुए एक हजार से अधिक लोगों को दरवाजे पर देखा,
-84 जो गुस्से में कह रहे थे: "यह कौन है जो मृत्यु के बिना
-
-85 मृत लोगों के राज्य में जाता है?"।
+82 मैंने एक हजार से अधिक को दरवाजे पर देखा
+83 स्वर्ग से गिरा हुआ, जो गुस्से में
+84 कह रहे थे: "यह कौन है जो बिना मरे
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into Hindi.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 मृतकों के राज्य में जा रहा है?"।
+86 और मेरे बुद्धिमान गुरु ने संकेत किया
+87 कि वह उनसे गुप्त रूप से बात करना चाहते हैं।
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 और मेरे बुद्धिमान गुरु ने संकेत दिया
-87 कि वह उनसे गुप्त रूप से बात करना चाहता है।
-
 88 तब उन्होंने अपना बड़ा तिरस्कार थोड़ा बंद कर दिया
 89 और कहा: "तुम अकेले आओ, और वह चला जाए
 90 जो इस राज्य में इतनी निर्भीकता से घुस गया।
@@ -530,16 +488,23 @@ Please translate each line literally into Hindi.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 "हे मेरे प्रिय ड्यूक, जिसने मुझे सात से अधिक बार
+98 सुरक्षा प्रदान की है और मुझे बचाया है
+99 उच्च खतरे से जो मेरे सामने था,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 "हे मेरे प्रिय ड्यूक, जिसने मुझे सात से अधिक बार
-98 सुरक्षा प्रदान की है और मुझे बचाया है
-99 उच्च खतरे से जो मेरे सामने था,
-
 100 मुझे मत छोड़ो", मैंने कहा, "इस तरह से नष्ट हो गया;
 101 और अगर हमें आगे बढ़ने से मना किया गया है,
 102 चलो जल्दी से अपने नक्शेकदम पर वापस आते हैं"।
@@ -673,14 +638,21 @@ Please translate each line literally into Hindi.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 उसके ऊपर तुमने मृत लेखन देखा:
 128 और पहले ही यहाँ से वह ढलान उतरता है,
 129 बिना किसी मार्गदर्शक के घेरे से गुजरते हुए,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Hindi.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 ताकि उसके लिए पृथ्वी खुल जाए"।
 </result>
 </query>
