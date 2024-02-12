@@ -60,7 +60,7 @@ def separate(result):
     for line in lines:
         if re.match(r"\*\*.+\*\*$", line):
             ret.append([line, ""])
-        elif ret and line:
+        elif ret and line and re.match(r"\d+ [^ ]", line):
             if ret[-1][1]:
                 ret[-1][1] += "\n"
             ret[-1][1] += line
@@ -73,15 +73,18 @@ def query(prompt, info):
         gemini.init(history, [init_qs[-1].prompt])
     return gemini.query(prompt, info, show=True, retry=False)
 
+def is_skip(q):
+    return q.result or (q.error and q.error == "(skip)")
+
 qs_ok = []
 qs_ng = []
 i = 0
-count = sum(1 for qs1 in queries for q in qs1 if not q.result)
+count = sum(1 for qs1 in queries for q in qs1 if not is_skip(q))
 for qs1 in queries:
     qs2 = []
     ok = 0
     for q in qs1:
-        if q.result:
+        if is_skip(q):
             qq = q
         else:
             i += 1
@@ -95,35 +98,25 @@ for qs1 in queries:
         q.info = qs2[0].info[:-2]
         q.prompt = "\n".join(qs2[0].prompt.split("\n")[:2])
         q.result = ""
-        r = None
         for qq in qs2:
             q.prompt += "\n" + qq.prompt.split("\n")[2]
             if (sp := separate(qq.result)):
-                if not r:
-                    r = sp
+                if len(sp) > 2:
+                    for j in range(2, len(sp)):
+                        print("ignore:", sp[j][0], "@", qq.info, file=sys.stderr)
+                if not q.error:
+                    q.error = "\n".join(sp[0])
                 else:
-                    for j in range(len(r)):
-                        r[j] = (r[j][0], r[j][1] + "\n" + sp[j][1])
+                    q.error += "\n" + sp[0][1]
+                if len(sp) >= 2:
+                    if q.result:
+                        q.result += "\n"
+                    q.result += sp[1][1]
             else:
                 line = qq.result.split("\n")[0]
-                if r:
-                    r[-1][1] += "\n" + line
-                else:
-                    if q.result:
-                        q.result += "\n"
-                    q.result += line
-        if r:
-            q.error = ""
-            for j in range(len(r)):
-                if q.error:
-                    q.error += "\n\n"
-                if j < len(r) - 1:
-                    q.error += f"{r[j][0]}\n\n{r[j][1]}"
-                else:
-                    if q.result:
-                        q.result += "\n"
-                    q.error  += r[j][0]
-                    q.result += r[j][1]
+                if q.result:
+                    q.result += "\n"
+                q.result += line
         qs_ok.append(q)
     elif ok == len(qs2):
         qs_ok += qs2
