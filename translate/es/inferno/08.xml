@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Spanish.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 Digo, continuando, que mucho antes
+2 de que llegáramos al pie de la alta torre,
+3 nuestros ojos se dirigieron hacia la cima
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Spanish.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1 Digo, continuando, que mucho antes
-2 de que llegáramos al pie de la alta torre,
-3 nuestros ojos se dirigieron hacia la cima
-
 4 por dos llamitas que vimos colocar,
 5 y otra desde lejos hacer señas,
 6 tanto que el ojo apenas podía captarla.
@@ -61,16 +68,23 @@ Please translate each line literally into Spanish.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 Cuerda no lanzó jamás por sí misma saeta
+14 que corriera por el aire tan veloz,
+15 como vi una pequeña nave
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Spanish.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 Cuerda no lanzó jamás por sí misma saeta
-14 que corriera por el aire tan veloz,
-15 como vi una pequeña nave
-
 16 venir por el agua hacia nosotros en aquella,
 17 bajo el gobierno de un solo barquero,
 18 que gritaba: «¡Ahora has llegado, alma malvada!».
@@ -204,16 +218,23 @@ Please translate each line literally into Spanish.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 Luego me rodeó el cuello con los brazos;
+44 me besó en el rostro y dijo: «Alma desdeñosa,
+45 ¡bendita la que en ti se ciñó!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Spanish.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 Luego me rodeó el cuello con los brazos;
-44 me besó en el rostro y dijo: «Alma desdeñosa,
-45 ¡bendita la que en ti se ciñó!
-
 46 Ese fue en el mundo una persona orgullosa;
 47 no hay bondad que adorne su memoria:
 48 así es su sombra aquí furiosa.
@@ -228,32 +249,6 @@ Please translate each line literally into Spanish.
 50 che qui staranno come porci in brago,
 51 di sé lasciando orribili dispregi!».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "49 ¡Cuántos que ahora allá arriba se tienen por grandes reyes\n50 aquí estarán como cerdos en el fango,\n51 dejando tras de sí horribles desprecios!»."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 49 ¡Cuántos que ahora allá arriba se tienen por grandes reyes
 50 aquí estarán como cerdos en el fango,
@@ -358,19 +353,26 @@ Please translate each line literally into Spanish.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 Y yo: «Maestro, ya sus mezquitas
+71 allí dentro en el valle distingo,
+72 rojas como si de fuego salieran
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Spanish.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
 <result>
-70 Y yo: «Maestro, ya sus mezquitas
-71 allí dentro en el valle distingo,
-72 rojas como si de fuego hubieran salido
-
-73». Y él me dijo: «El fuego eterno
-74 que las abrasa las muestra rojas,
-75 como ves en este bajo infierno».
+73 fueran». Y él me dijo: «El fuego eterno
+74 que dentro las abrasa las muestra rojas,
+75 como tú ves en este bajo infierno».
 </result>
 </query>
 <query>
@@ -411,33 +413,38 @@ Please translate each line literally into Spanish.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
 82 Vi más de mil en las puertas
 83 caídos del cielo, que airadamente
 84 decían: «¿Quién es este que sin morir
-
-85 va por el reino de la gente muerta?».
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into Spanish.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 va por el reino de la gente muerta?».
+86 Y mi sabio maestro hizo una señal
+87 de querer hablarles en secreto.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Spanish.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 Y mi sabio maestro hizo una señal
-87 de querer hablarles en secreto.
-
 88 Entonces contuvieron un poco su gran desdén
 89 y dijeron: «Ven tú solo, y que se vaya aquel
 90 que tan osadamente entró en este reino.
@@ -481,16 +488,23 @@ Please translate each line literally into Spanish.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 «Oh, querido duque mío, que más de siete
+98 veces me has devuelto la seguridad y me has sacado
+99 de alto peligro que me acechaba,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Spanish.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 «Oh, querido duque mío, que más de siete
-98 veces me has devuelto la seguridad y me has sacado
-99 de alto peligro que me acechaba,
-
 100 no me dejes», dije yo, «tan deshecho;
 101 y si se nos niega el paso más allá,
 102 encontremos nuestras huellas juntos rápidamente».
@@ -624,14 +638,21 @@ Please translate each line literally into Spanish.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 Sobre ella viste la inscripción muerta:
 128 y ya de este lado de ella desciende la cuesta,
 129 pasando por los círculos sin escolta,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Spanish.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 de modo que por él se nos abrirá la tierra».
 </result>
 </query>
