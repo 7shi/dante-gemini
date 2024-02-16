@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries count="48">
 <query>
 <info>[Inferno Canto 28] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Arabic.
 1 Chi poria mai pur con parole sciolte
 2 dicer del sangue e de le piaghe a pieno
 3 ch’i’ ora vidi, per narrar più volte?
+</prompt>
+<result>
+1 من يستطيع أن يصف بكلمات واضحة
+2 الدماء والجروح بالكامل
+3 التي رأيتها الآن، لكي أرويها مرارًا وتكرارًا؟
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 4/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 4 Ogne lingua per certo verria meno
 5 per lo nostro sermone e per la mente
 6 c’hanno a tanto comprender poco seno.
 </prompt>
 <result>
-1 من يستطيع أن يصف بكلمات واضحة
-2 الدماء والجروح بالكامل
-3 التي رأيتها الآن، لكي أرويها مرارًا وتكرارًا؟
-
 4 كل لسان سيفشل بالتأكيد
 5 بسبب حديثنا وعقولنا
 6 التي لا تستطيع استيعاب الكثير.
@@ -31,42 +38,71 @@ Please translate each line literally into Arabic.
 7 S’el s’aunasse ancor tutta la gente
 8 che già, in su la fortunata terra
 9 di Puglia, fu del suo sangue dolente
+</prompt>
+<result>
+7 إذا اجتمع كل الناس مرة أخرى
+8 الذين، في أرض بوليا المحظوظة،
+9 حزنوا على دمائهم
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 10/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 10 per li Troiani e per la lunga guerra
 11 che de l’anella fé sì alte spoglie,
 12 come Livïo scrive, che non erra,
+</prompt>
+<result>
+10 من أجل أحصنة طروادة والحرب الطويلة
+11 التي جعلت من الحلقان غنائم عظيمة،
+12 كما كتب ليفيوس، الذي لا يخطئ،
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 13/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 13 con quella che sentio di colpi doglie
 14 per contastare a Ruberto Guiscardo;
 15 e l’altra il cui ossame ancor s’accoglie
+</prompt>
+<result>
+13 مع تلك التي شعر بها من آلام المخاض
+14 لمواجهة روبرتو جيسكارد؛
+15 والأخرى التي لا تزال عظامها مجتمعة
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 16/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 16 a Ceperan, là dove fu bugiardo
 17 ciascun Pugliese, e là da Tagliacozzo,
 18 dove sanz’ arme vinse il vecchio Alardo;
+</prompt>
+<result>
+16 في سيبيران، حيث كان كل بولي كاذبًا
+17 وهناك من تالياكوزو،
+18 حيث انتصر الشيخ ألاردو بدون سلاح؛
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 19/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 19 e qual forato suo membro e qual mozzo
 20 mostrasse, d’aequar sarebbe nulla
 21 il modo de la nona bolgia sozzo.
 </prompt>
 <result>
-7 إذا اجتمع كل الناس معًا
-8 الذين، في أرض بوليا المحظوظة،
-9 حزنوا على دمائهم
-
-10 بسبب أحصنة طروادة والحرب الطويلة
-11 التي خلفت غنائم كثيرة من الحلقات،
-12 كما كتب ليفيوس، الذي لا يخطئ،
-
-13 مع أولئك الذين شعروا بألم الضربات
-14 لمواجهة روبرتو جيسكارد؛
-15 والآخرون الذين لا تزال عظامهم مجتمعة
-
-16 في سيبيراتو، حيث كذب كل بولي، وهناك في تاليأكوتسو،
-17 حيث انتصر الشيخ ألاردو بدون سلاح؛
-
-18 وأي عضو مثقوب أو مبتور
-19 أظهروه، فلن يكون كافيًا
-20 لمقارنة قذارة الدائرة التاسعة.
+19 وأي عضو مثقوب وأي عضو مبتور
+20 أظهره، لن يكون شيئًا مقارنةً
+21 بحالة الحفرة التاسعة القذرة.
 </result>
 </query>
 <query>
@@ -93,32 +129,6 @@ Please translate each line literally into Arabic.
 26 la corata pareva e ’l tristo sacco
 27 che merda fa di quel che si trangugia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 كانت أحشاؤه تتدلى بين ساقيه؛\n26 بدا وكأنه القلب والكرش البائس\n27 الذي يحول ما يتم ابتلاعه إلى براز."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 كانت أحشاؤه تتدلى بين ساقيه؛
 26 بدا وكأنه القلب والكرش البائس
@@ -133,16 +143,23 @@ Please translate each line literally into Arabic.
 28 Mentre che tutto in lui veder m’attacco,
 29 guardommi e con le man s’aperse il petto,
 30 dicendo: «Or vedi com’ io mi dilacco!
+</prompt>
+<result>
+28 بينما كنت أحاول أن أرى كل شيء فيه،
+29 نظر إليّ وفتح صدره بيديه،
+30 قائلاً: "انظر الآن كيف أمزق نفسي!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 31/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 31 vedi come storpiato è Mäometto!
 32 Dinanzi a me sen va piangendo Alì,
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
 <result>
-28 بينما كنت أحاول أن أرى كل شيء فيه،
-29 نظر إليّ وفتح صدره بيديه،
-30 قائلاً: "انظر الآن كيف أمزق نفسي!
-
 31 انظر كيف تشوه محمد!
 32 أمامي يبكي علي،
 33 مشقوق الوجه من الذقن إلى مقدمة الرأس.
@@ -171,16 +188,23 @@ Please translate each line literally into Arabic.
 37 Un diavolo è qua dietro che n’accisma
 38 sì crudelmente, al taglio de la spada
 39 rimettendo ciascun di questa risma,
+</prompt>
+<result>
+37 يوجد شيطان هنا خلفنا يذبحهم
+38 بقسوة شديدة، بسيفه
+39 يعيد كل واحد منهم إلى هذه المجموعة،
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 40/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 40 quand’ avem volta la dolente strada;
 41 però che le ferite son richiuse
 42 prima ch’altri dinanzi li rivada.
 </prompt>
 <result>
-37 يوجد شيطان هنا خلفنا يذبحهم
-38 بقسوة شديدة، بسيفه
-39 يعيد كل واحد منهم إلى هذه المجموعة،
-
 40 عندما نعود في الطريق المؤلم؛
 41 لأن الجروح تُغلق
 42 قبل أن يعود الآخرون أمامهم.
@@ -209,16 +233,23 @@ Please translate each line literally into Arabic.
 46 «Né morte ’l giunse ancor, né colpa ’l mena»,
 47 rispuose ’l mio maestro, «a tormentarlo;
 48 ma per dar lui esperïenza piena,
+</prompt>
+<result>
+46 "لم يأتِه الموت بعد، ولم تقوده ذنب"،
+47 أجاب أستاذي، "ليعذبه؛
+48 ولكن لإعطائه تجربة كاملة،
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 49/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 49 a me, che morto son, convien menarlo
 50 per lo ’nferno qua giù di giro in giro;
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
 <result>
-46 "لم يأتِه الموت بعد، ولم تقوده ذنب"،
-47 أجاب أستاذي، "ليعذبه؛
-48 ولكن لإعطائه تجربة كاملة،
-
 49 يجب أن آخذه معي، أنا الميت،
 50 عبر الجحيم هنا في كل مكان؛
 51 وهذا صحيح كما أخبرك".
@@ -247,16 +278,23 @@ Please translate each line literally into Arabic.
 55 «Or dì a fra Dolcin dunque che s’armi,
 56 tu che forse vedra’ il sole in breve,
 57 s’ello non vuol qui tosto seguitarmi,
+</prompt>
+<result>
+55 "فقل إذن للأخ دولتشينو أن يتسلح،
+56 أنت الذي ربما ترى الشمس قريبًا،
+57 إذا لم يكن يريد أن يتبعني هنا قريبًا،
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 58/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 58 sì di vivanda, che stretta di neve
 59 non rechi la vittoria al Noarese,
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55 "فقل إذن للأخ دولتشينو أن يتسلح،
-56 أنت الذي ربما ترى الشمس قريبًا،
-57 إذا لم يكن يريد أن يتبعني هنا قريبًا،
-
 58 بالطعام، حتى لا يؤدي ضيق الثلج
 59 إلى انتصار النواريسيين،
 60 لأن الفوز بخلاف ذلك لن يكون سهلاً".
@@ -285,32 +323,53 @@ Please translate each line literally into Arabic.
 64 Un altro, che forata avea la gola
 65 e tronco ’l naso infin sotto le ciglia,
 66 e non avea mai ch’una orecchia sola,
+</prompt>
+<result>
+64 آخر، كان حلقه مثقوبًا
+65 وأنفه مبتورًا حتى أسفل حاجبيه،
+66 ولم يكن لديه سوى أذن واحدة،
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 67/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 67 ristato a riguardar per maraviglia
 68 con li altri, innanzi a li altri aprì la canna,
 69 ch’era di fuor d’ogne parte vermiglia,
+</prompt>
+<result>
+67 توقف لينظر إليّ مندهشًا
+68 مع الآخرين، وفتح حلقه أمام الآخرين،
+69 الذي كان أحمر من الخارج من كل جانب،
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 70/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 70 e disse: «O tu cui colpa non condanna
 71 e cu’ io vidi su in terra latina,
 72 se troppa simiglianza non m’inganna,
+</prompt>
+<result>
+70 وقال: "يا من لا تدينه ذنب
+71 والذي رأيته في أرض لاتينا،
+72 إذا لم يخدعني التشابه الكبير،
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 73/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 73 rimembriti di Pier da Medicina,
 74 se mai torni a veder lo dolce piano
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64 آخر، كان حلقه مثقوبًا
-65 وأنفه مبتورًا حتى أسفل حاجبيه،
-66 ولم يكن لديه سوى أذن واحدة،
-
-67 توقف لينظر إليّ مندهشًا
-68 مع الآخرين، وفتح حلقه أمام الآخرين،
-69 الذي كان أحمر من الخارج من كل جانب،
-
-70 وقال: "يا من لا تدينه ذنب
-71 والذي رأيته في أرض لاتينا،
-72 إذا لم يخدعني التشابه الكبير،
-
 73 تذكر بييرو دا ميديسينا،
 74 إذا عدت يومًا لترى السهل الجميل
 75 الذي ينحدر من فيرتشيلي إلى ماركابو.
@@ -324,16 +383,23 @@ Please translate each line literally into Arabic.
 76 E fa saper a’ due miglior da Fano,
 77 a messer Guido e anco ad Angiolello,
 78 che, se l’antiveder qui non è vano,
+</prompt>
+<result>
+76 وأخبر أفضل اثنين من فانو،
+77 السيد جويدو وأيضًا أنجوليلو،
+78 أنه إذا لم يكن التنبؤ هنا عبثًا،
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 79/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 79 gittati saran fuor di lor vasello
 80 e mazzerati presso a la Cattolica
 81 per tradimento d’un tiranno fello.
 </prompt>
 <result>
-76 وأخبر أفضل اثنين من فانو،
-77 السيد جويدو وأيضًا أنجوليلو،
-78 أنه إذا لم يكن التنبؤ هنا عبثًا،
-
 79 فسيتم إلقاؤهم خارج سفينتهم
 80 وقتلهم بالقرب من كاتوليكا
 81 بسبب خيانة طاغية شرير.
@@ -362,16 +428,23 @@ Please translate each line literally into Arabic.
 85 Quel traditor che vede pur con l’uno,
 86 e tien la terra che tale qui meco
 87 vorrebbe di vedere esser digiuno,
+</prompt>
+<result>
+85 هذا الخائن الذي يرى بعين واحدة فقط،
+86 ويحكم الأرض التي يرغب هنا معي
+87 أن يراها خالية من الطعام،
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 88/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 88 farà venirli a parlamento seco;
 89 poi farà sì, ch’al vento di Focara
 90 non sarà lor mestier voto né preco».
 </prompt>
 <result>
-85 هذا الخائن الذي يرى بعين واحدة فقط،
-86 ويحكم الأرض التي يرغب هنا معي
-87 أن يراها خالية من الطعام،
-
 88 سيجعلهم يأتون إلى برلمان معه؛
 89 ثم سيفعل ذلك، حتى في مهب الريح في فوكارا
 90 لن يحتاجوا إلى نذر أو صلاة.
@@ -430,24 +503,38 @@ Please translate each line literally into Arabic.
 100 Oh quanto mi pareva sbigottito
 101 con la lingua tagliata ne la strozza
 102 Curïo, ch’a dir fu così ardito!
+</prompt>
+<result>
+100 يا إلهي كم بدا لي مرتبكًا
+101 ولسانه مقطوع في حلقه
+102 كوريوس، الذي كان جريئًا جدًا في القول!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 103/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 103 E un ch’avea l’una e l’altra man mozza,
 104 levando i moncherin per l’aura fosca,
 105 sì che ’l sangue facea la faccia sozza,
+</prompt>
+<result>
+103 وآخر كان قد بُترت كلتا يديه،
+104 رافعًا جذوعه في الهواء المظلم،
+105 حتى جعل الدم وجهه قبيحًا،
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 106/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 106 gridò: «Ricordera’ti anche del Mosca,
 107 che disse, lasso!, “Capo ha cosa fatta”,
 108 che fu mal seme per la gente tosca».
 </prompt>
 <result>
-100 يا إلهي كم بدا لي مرتبكًا
-101 ولسانه مقطوع في حلقه
-102 كوريوس، الذي كان جريئًا جدًا في القول!
-
-103 وآخر كان قد بُترت كلتا يديه،
-104 رافعًا جذوعه في الهواء المظلم،
-105 حتى جعل الدم وجهه قبيحًا،
-
 106 صرخ: "تذكر أيضًا موسكا،
 107 الذي قال، يا للأسف! "الأمر الواقع له الغلبة"،
 108 والتي كانت بذرة سيئة لشعب توسكانا".
@@ -476,16 +563,23 @@ Please translate each line literally into Arabic.
 112 Ma io rimasi a riguardar lo stuolo,
 113 e vidi cosa ch’io avrei paura,
 114 sanza più prova, di contarla solo;
+</prompt>
+<result>
+112 لكنني بقيت أنظر إلى المجموعة،
+113 ورأيت شيئًا كنت سأخاف منه،
+114 بدون المزيد من الأدلة، لأخبرك به وحدك؛
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 115/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 115 se non che coscïenza m’assicura,
 116 la buona compagnia che l’uom francheggia
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112 لكنني بقيت أنظر إلى المجموعة،
-113 ورأيت شيئًا كنت سأخاف منه،
-114 بدون المزيد من الأدلة، لأخبرك به وحدك؛
-
 115 لولا أن ضميري يطمئنني،
 116 الصحبة الطيبة التي تحرر الإنسان
 117 تحت درع الشعور بالنقاء.
@@ -499,16 +593,23 @@ Please translate each line literally into Arabic.
 118 Io vidi certo, e ancor par ch’io ’l veggia,
 119 un busto sanza capo andar sì come
 120 andavan li altri de la trista greggia;
+</prompt>
+<result>
+118 لقد رأيت بالتأكيد، ولا يزال يبدو لي أنني أراه،
+119 جذعًا بدون رأس يسير كما لو كان
+120 يسير الآخرون من القطيع الحزين؛
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 121/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 121 e ’l capo tronco tenea per le chiome,
 122 pesol con mano a guisa di lanterna:
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118 لقد رأيت بالتأكيد، ولا يزال يبدو لي أنني أراه،
-119 جذعًا بدون رأس يسير كما لو كان
-120 يسير الآخرون من القطيع الحزين؛
-
 121 وكان يحمل الرأس المقطوع من شعره،
 122 متدليًا بيده كالفانوس:
 123 ونظر إلينا وقال: "يا أنا!".
@@ -537,16 +638,23 @@ Please translate each line literally into Arabic.
 127 Quando diritto al piè del ponte fue,
 128 levò ’l braccio alto con tutta la testa
 129 per appressarne le parole sue,
+</prompt>
+<result>
+127 عندما وصل مباشرة إلى أسفل الجسر،
+128 رفع ذراعه عالياً مع رأسه بالكامل
+129 لتقريب كلماته،
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 130/142</info>
+<prompt>
+Please translate each line literally into Arabic.
 
 130 che fuoro: «Or vedi la pena molesta,
 131 tu che, spirando, vai veggendo i morti:
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127 عندما وصل مباشرة إلى أسفل الجسر،
-128 رفع ذراعه عالياً مع رأسه بالكامل
-129 لتقريب كلماته،
-
 130 والتي كانت: "انظر الآن إلى العقاب المؤلم،
 131 أنت الذي ترى الموتى وأنت تتنفس:
 132 انظر إن كان هناك أي شيء عظيم مثل هذا.
