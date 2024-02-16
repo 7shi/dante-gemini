@@ -30,3 +30,7 @@ redo-fix:
 
 replace:
 	python $(SCRIPTS)/replace.py 1-error-ok.xml $(DIRSM)/*.xml
+
+split3:
+	python $(SCRIPTS)/split3.py -c 2 $(DIRSM)/*.xml
+	python $(SCRIPTS)/split3.py $(DIRSM)/*.xml
