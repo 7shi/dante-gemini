@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="44">
 <query>
 <info>[Inferno Canto 7] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Manx.
 1 «Pape Satàn, pape Satàn aleppe!»,
 2 cominciò Pluto con la voce chioccia;
 3 e quel savio gentil, che tutto seppe,
+</prompt>
+<result>
+1 «Pape Satàn, pape Satàn aleppe!»,
+2 ghow Pluto lesh y choraa croaghey;
+3 as y dooinney creeney shen, va fys er dy chooilley nhee,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 4/130</info>
+<prompt>
+Please translate each line literally into Manx.
 
 4 disse per confortarmi: «Non ti noccia
 5 la tua paura; ché, poder ch’elli abbia,
 6 non ci torrà lo scender questa roccia».
 </prompt>
 <result>
-1 «Pape Satàn, pape Satàn aleppe!»,
-2 ghow Pluto lesh y choraa croaghey;
-3 as y dooinney creeney shen, va fys er dy chooilley nhee,
-
 4 dooyrt dy my gherjaghey: «Ny lhig dty aggle
 5 cur ort; er lhimmey dy vel pooar echey,
 6 cha jean eh cur dooinyn çheet stiagh 'sy chreg shoh».
@@ -91,16 +98,23 @@ Please translate each line literally into Manx.
 19 Ahi giustizia di Dio! tante chi stipa
 20 nove travaglie e pene quant’ io viddi?
 21 e perché nostra colpa sì ne scipa?
+</prompt>
+<result>
+19 Agh, cairys Jee! Cre'n oirr shen ta kiangley magh
+20 noa chengey as pianyn, myr hooar mee?
+21 As cre'n fa dy vel nyn loght cur lhiggey dooin?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 22/130</info>
+<prompt>
+Please translate each line literally into Manx.
 
 22 Come fa l’onda là sovra Cariddi,
 23 che si frange con quella in cui s’intoppa,
 24 così convien che qui la gente riddi.
 </prompt>
 <result>
-19 Agh, cairys Jee! Cre'n oirr shen ta kiangley magh
-20 noa chengey as pianyn, myr hooar mee?
-21 As cre'n fa dy vel nyn loght cur lhiggey dooin?
-
 22 Myr ta'n tonn jannoo harrish Cariddi,
 23 brishey noi'n tonn elley ta çheet noi,
 24 myr shen ta feme dy vel y sleih çheeraghey anish.
@@ -144,36 +158,38 @@ Please translate each line literally into Manx.
 31 Così tornavan per lo cerchio tetro
 32 da ogne mano a l’opposito punto,
 33 gridandosi anche loro ontoso metro;
-
-34 poi si volgea ciascun, quand’ era giunto,
-35 per lo suo mezzo cerchio a l’altra giostra.
 </prompt>
 <result>
 31 Myr shen hie ad reesht mygeayrt y chibbyr dorraghey
 32 veih daa heu dys y çheu çheereagh,
 33 grimaghey fockleyn onnaneagh rish y cheilley;
-
-34 eisht hie ad reesht, traa dy row ad çheet,
-35 mygeayrt y lieh-chibbyr echey dys y çheeraghey elley.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 36/130</info>
-<prompt retry="true">
+<info>[Inferno Canto 7] 34/130</info>
+<prompt>
 Please translate each line literally into Manx.
 
+34 poi si volgea ciascun, quand’ era giunto,
+35 per lo suo mezzo cerchio a l’altra giostra.
 36 E io, ch’avea lo cor quasi compunto,
+</prompt>
+<result>
+34 eisht hie ad reesht, traa dy row ad çheet,
+35 mygeayrt y lieh-chibbyr echey dys y çheeraghey elley.
+36 As mish, va'n cree çheusthie jeera brisht,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 37/130</info>
+<prompt>
+Please translate each line literally into Manx.
 
 37 dissi: «Maestro mio, or mi dimostra
 38 che gente è questa, e se tutti fuor cherci
 39 questi chercuti a la sinistra nostra».
 </prompt>
-<error result="true">
-Response too long: (4916 &amp;gt; 648)
-</error>
 <result>
-36 As mish, va'n cree çheusthie jeera brisht,
-
 37 dooyrt mee: «Ynseyder aym, nish jean dou soilshaghey
 38 cre'n sleih t'ayn shoh, as gyn dy velliad ooilley jeu chercaghyn
 39 ny chercaghyn çheu çhiarit ain».
@@ -226,16 +242,13 @@ Please translate each line literally into Manx.
 </query>
 <query>
 <info>[Inferno Canto 7] 49/130</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Manx.
 
 49 E io: «Maestro, tra questi cotali
 50 dovre’ io ben riconoscere alcuni
 51 che furo immondi di cotesti mali».
 </prompt>
-<error result="true">
-Response too long: (5456 &amp;gt; 477)
-</error>
 <result>
 49 As mish: «Ynseyder, mastey ny deiney shoh,
 50 bailliu mie dy akin ayd jeh'n vooar ta shen?
@@ -266,32 +279,6 @@ Please translate each line literally into Manx.
 56 questi resurgeranno del sepulcro
 57 col pugno chiuso, e questi coi crin mozzi.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "55 Dy bragh t\'ad ayn dy chooilley ghooie as drogh:\n56 hig y sleih shoh ass y vagher\n57 lesh nyn dourney cummey as nyn folt giarit."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 55 Dy bragh t'ad ayn dy chooilley ghooie as drogh:
 56 hig y sleih shoh ass y vagher
@@ -321,16 +308,23 @@ Please translate each line literally into Manx.
 61 Or puoi, figliuol, veder la corta buffa
 62 d’i ben che son commessi a la fortuna,
 63 per che l’umana gente si rabbuffa;
+</prompt>
+<result>
+61 Nish, lhiannoo, vod t'ou fakin y gheay gleaysh
+62 jeh ny red mie ta jeant rish y vannee,
+63 as er yn oyr shen ta'n kynney dooiney jannoo streeu;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 64/130</info>
+<prompt>
+Please translate each line literally into Manx.
 
 64 ché tutto l’oro ch’è sotto la luna
 65 e che già fu, di quest’ anime stanche
 66 non poterebbe farne posare una».
 </prompt>
 <result>
-61 Nish, lhiannoo, vod t'ou fakin y gheay gleaysh
-62 jeh ny red mie ta jeant rish y vannee,
-63 as er yn oyr shen ta'n kynney dooiney jannoo streeu;
-
 64 son y chionney ooilley ta fo'n eayst
 65 as va ayn rieau, cha voddagh eh jannoo
 66 dy voddagh un deiney jeh ny anmeen shoh brishey.
@@ -374,41 +368,53 @@ Please translate each line literally into Manx.
 73 Colui lo cui saver tutto trascende,
 74 fece li cieli e diè lor chi conduce
 75 sì, ch’ogne parte ad ogne parte splende,
-
-76 distribuendo igualmente la luce.
 </prompt>
 <result>
 73 Shen lesh ta'n fys echey harrish,
 74 ren eh ny speyryn as hug eh stiureyderyn daue,
 75 myr shen dy vellaagh dagh ooilley rheynn,
-
-76 dy rheynn y lessan y chied cheilley.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 77/130</info>
+<info>[Inferno Canto 7] 76/130</info>
 <prompt>
 Please translate each line literally into Manx.
 
+76 distribuendo igualmente la luce.
 77 Similemente a li splendor mondani
 78 ordinò general ministra e duce
+</prompt>
+<result>
+76 dy rheynn y lessan y chied cheilley.
+77 Myr shen, lesh ny soilsheaneyn dowanagh,
+78 ren eh stiureyder coontys as toshiagh cadjin,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 79/130</info>
+<prompt>
+Please translate each line literally into Manx.
 
 79 che permutasse a tempo li ben vani
 80 di gente in gente e d’uno in altro sangue,
 81 oltre la difension d’i senni umani;
+</prompt>
+<result>
+79 dy yiaghyn ny magheryn mie dy liooar
+80 veih sleih dys sleih as veih un çhionney dys çhionney elley,
+81 ny smoo nagh vel fys deiney aghin.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 82/130</info>
+<prompt>
+Please translate each line literally into Manx.
 
 82 per ch’una gente impera e l’altra langue,
 83 seguendo lo giudicio di costei,
 84 che è occulto come in erba l’angue.
 </prompt>
 <result>
-77 Myr shen, lesh ny soilsheaneyn dowanagh,
-78 ren eh stiureyder coontys as toshiagh cadjin,
-
-79 dy yiaghyn ny magheryn mie dy liooar
-80 veih sleih dys sleih as veih un çhionney dys çhionney elley,
-81 ny smoo nagh vel fys deiney aghin.
-
 82 Myr shen, ta fer-reill ec y sleih shoh as ta fer-lhiegg ec y sleih shen,
 83 rere breear y ven shoh,
 84 t'er follit myr yn nathair 'sy faaie.
@@ -452,16 +458,23 @@ Please translate each line literally into Manx.
 91 Quest’ è colei ch’è tanto posta in croce
 92 pur da color che le dovrien dar lode,
 93 dandole biasmo a torto e mala voce;
+</prompt>
+<result>
+91 Shoh ish yn ven ta currit er yn chrosh shoh
+92 dy liooar lesh ny sleih va dy liooar cur moylley da,
+93 as t'ad cur drogh-ennym as drogh-reayrt er.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 94/130</info>
+<prompt>
+Please translate each line literally into Manx.
 
 94 ma ella s’è beata e ciò non ode:
 95 con l’altre prime creature lieta
 96 volve sua spera e beata si gode.
 </prompt>
 <result>
-91 Shoh ish yn ven ta currit er yn chrosh shoh
-92 dy liooar lesh ny sleih va dy liooar cur moylley da,
-93 as t'ad cur drogh-ennym as drogh-reayrt er.
-
 94 Agh t'ee bannaghtagh as cha nel ee clashtyn shen:
 95 marish ny cretooryn toshee elley,
 96 t'ee çooylley magh eck as t'ee bannaghtagh as t'ee goaill taitnys ass eh.
@@ -491,32 +504,6 @@ Please translate each line literally into Manx.
 101 sovr’ una fonte che bolle e riversa
 102 per un fossato che da lei deriva.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "100 Ren shin çheet magh y çhircle dys y çheu elley\n101 harrish ushtey ta goll as ta çheet sheese\n102 trooid cass dy vel eh çheet ass."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 100 Ren shin çheet magh y çhircle dys y çheu elley
 101 harrish ushtey ta goll as ta çheet sheese
@@ -591,16 +578,23 @@ Please translate each line literally into Manx.
 115 Lo buon maestro disse: «Figlio, or vedi
 116 l’anime di color cui vinse l’ira;
 117 e anche vo’ che tu per certo credi
+</prompt>
+<result>
+115 Dooyrt y fer lesh y veaghyn aalin: «Mac, jeeagh nish
+116 er anmeenyn ny deiney va goit lesh y chorree;
+117 as ta mee dy ghraih dy voddagh oo credjal dy firrinagh
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 118/130</info>
+<prompt>
+Please translate each line literally into Manx.
 
 118 che sotto l’acqua è gente che sospira,
 119 e fanno pullular quest’ acqua al summo,
 120 come l’occhio ti dice, u’ che s’aggira.
 </prompt>
 <result>
-115 Dooyrt y fer lesh y veaghyn aalin: «Mac, jeeagh nish
-116 er anmeenyn ny deiney va goit lesh y chorree;
-117 as ta mee dy ghraih dy voddagh oo credjal dy firrinagh
-
 118 dy vel fo’n ushtey deiney ta snauee,
 119 as t’ad cur sheese yn ushtey shoh er y varrey,
 120 myr ta dty hooillyn cur sheese dhyt, raad ta shimmey.»
@@ -614,33 +608,38 @@ Please translate each line literally into Manx.
 121 Fitti nel limo dicon: “Tristi fummo
 122 ne l’aere dolce che dal sol s’allegra,
 123 portando dentro accidïoso fummo:
-
-124 or ci attristiam ne la belletta negra”.
 </prompt>
 <result>
 121 Fo-chleaït 'sy lhiam, t'ad gra: “Va shin trimshagh
 122 'sy aer aalin ta goaill boggey veih'n ghrian,
 123 as shin cur stiagh fummey trimshagh:
-
-124 nish ta shin trimshagh 'sy lhiam dorraghey”.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 125/130</info>
+<info>[Inferno Canto 7] 124/130</info>
 <prompt>
 Please translate each line literally into Manx.
 
+124 or ci attristiam ne la belletta negra”.
 125 Quest’ inno si gorgoglian ne la strozza,
 126 ché dir nol posson con parola integra».
+</prompt>
+<result>
+124 nish ta shin trimshagh 'sy lhiam dorraghey”.
+125 Ta'n arrane shoh gollit 'sy chleeau,
+126 erskyn nagh vod ad gra eh lesh fockleyn slane».
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 127/130</info>
+<prompt>
+Please translate each line literally into Manx.
 
 127 Così girammo de la lorda pozza
 128 grand’ arco tra la ripa secca e ’l mézzo,
 129 con li occhi vòlti a chi del fango ingozza.
 </prompt>
 <result>
-125 Ta'n arrane shoh gollit 'sy chleeau,
-126 erskyn nagh vod ad gra eh lesh fockleyn slane».
-
 127 Myr shen hie shin magh veih'n lhiam sallagh
 128 arc mooar eddyr y clieau thie as y vean,
 129 lesh nyn sooillyn çhymsit er y voodee ta goltey yn lhiam.
@@ -654,7 +653,7 @@ Please translate each line literally into Manx.
 130 Venimmo al piè d’una torre al da sezzo.
 </prompt>
 <result>
-Haink shin dys y traie jeh turrys er y jerrey.
+130 Haink shin gys y traie jeh’n turrys er y jerrey.
 </result>
 </query>
 </queries>

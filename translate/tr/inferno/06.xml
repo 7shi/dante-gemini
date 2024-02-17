@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="39">
 <query>
 <info>[Inferno Canto 6] 1/115</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Turkish.
 1 Al tornar de la mente, che si chiuse
 2 dinanzi a la pietà d’i due cognati,
 3 che di trestizia tutto mi confuse,
+</prompt>
+<result>
+1 Zihnim geri döndüğünde, kapandı
+2 iki akrabamın acısının önünde,
+3 ki beni tamamen üzüntüye boğdu,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 4/115</info>
+<prompt>
+Please translate each line literally into Turkish.
 
 4 novi tormenti e novi tormentati
 5 mi veggio intorno, come ch’io mi mova
 6 e ch’io mi volga, e come che io guati.
 </prompt>
 <result>
-1 Zihnim geri döndüğünde, kapandı
-2 iki akrabamın acısının önünde,
-3 ki beni tamamen üzüntüye boğdu,
-
 4 yeni işkenceler ve yeni işkence görenler
 5 etrafımda görüyorum, nereye hareket edersem edeyim
 6 ve nereye dönersem döneyim, nereye bakarsam bakayım.
@@ -136,18 +143,26 @@ Please translate each line literally into Turkish.
 28 Qual è quel cane ch’abbaiando agogna,
 29 e si racqueta poi che ’l pasto morde,
 30 ché solo a divorarlo intende e pugna,
+</prompt>
+<result>
+28 Havlayarak saldıran köpek gibidir,
+29 ve avını ısırdığında susar,
+30 çünkü sadece onu yutmak ister ve savaşır,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 31/115</info>
+<prompt>
+Please translate each line literally into Turkish.
 
 31 cotai si fecer quelle facce lorde
 32 de lo demonio Cerbero, che ’ntrona
 33 l’anime sì, ch’esser vorrebber sorde.
 </prompt>
 <result>
-28 Havlayarak saldıran köpek nasıl ki,
-29 avını ısırdıktan sonra sakinleşirse,
-30 çünkü tek amacı onu yemek ve kavga etmektir,
-
-31 pis suratlı Cerberus'un suratları da öyle oldu,
-32 ruhları öyle hırpalıyor ki, sağır olmak isterlerdi.
+31 pis şeytan Cerberus'un o pis suratları da öyleydi,
+32 ki ruhları sağır etmek ister,
+33 öyle ki sağır olmak isterlerdi.
 </result>
 </query>
 <query>
@@ -160,8 +175,9 @@ Please translate each line literally into Turkish.
 36 sovra lor vanità che par persona.
 </prompt>
 <result>
-34 Biz, şiddetli yağmurun dövdüğü gölgelerin üzerinden geçiyorduk
-35 ve ayaklarımızı onların birer kişi gibi görünen boşluklarına basıyorduk.
+34 Gölgelere basarak geçiyorduk,
+35 şiddetli yağmur onları ıslatıyordu ve ayaklarımızı
+36 insana benzeyen boşluklarının üzerine koyuyorduk.
 </result>
 </query>
 <query>
@@ -174,8 +190,9 @@ Please translate each line literally into Turkish.
 39 ch’ella ci vide passarsi davante.
 </prompt>
 <result>
-37 Hepsi yerde yatıyordu,
-38 önümüzden geçtiğimizi görünce hızla ayağa kalkan bir tanesi hariç.
+37 Hepsi yerde yatıyorlardı,
+38 sadece biri kalkıp oturdu, hızla
+39 bizi önünden geçerken gördü.
 </result>
 </query>
 <query>
@@ -276,18 +293,26 @@ Please translate each line literally into Turkish.
 58 Io li rispuosi: «Ciacco, il tuo affanno
 59 mi pesa sì, ch’a lagrimar mi ’nvita;
 60 ma dimmi, se tu sai, a che verranno
+</prompt>
+<result>
+58 Ona cevap verdim: "Ciacco, senin sıkıntın
+59 beni o kadar üzüyor ki ağlamaya davet ediyor;
+60 ama söyle bana, biliyorsan, ne olacak
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 61/115</info>
+<prompt>
+Please translate each line literally into Turkish.
 
 61 li cittadin de la città partita;
 62 s’alcun v’è giusto; e dimmi la cagione
 63 per che l’ha tanta discordia assalita».
 </prompt>
 <result>
-58 Ona cevap verdim: "Ciacco, senin sıkıntın
-59 beni öyle etkiliyor ki ağlamaya davet ediyor;
-60 ama söyle bana, biliyorsan, bölünmüş şehrin vatandaşları ne olacak;
-
-61 aralarında adil olan var mı; ve söyle bana neden
-62 bu kadar büyük bir anlaşmazlık onlara saldırdı."
+61 bölünmüş şehrin vatandaşlarına;
+62 eğer aralarında adil olan varsa; ve söyle bana neden
+63 onları böylesine büyük bir anlaşmazlık sardı".
 </result>
 </query>
 <query>
@@ -299,32 +324,6 @@ Please translate each line literally into Turkish.
 65 verranno al sangue, e la parte selvaggia
 66 caccerà l’altra con molta offensione.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "64 Ve o bana dedi ki: \"Uzun bir çekişmeden sonra\n65 kan dökülecek ve vahşi taraf\n66 diğerini büyük bir saldırıyla kovacak."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 64 Ve o bana dedi ki: "Uzun bir çekişmeden sonra
 65 kan dökülecek ve vahşi taraf
@@ -341,8 +340,9 @@ Please translate each line literally into Turkish.
 69 con la forza di tal che testé piaggia.
 </prompt>
 <result>
-67 Sonra bunun üç güneş içinde düşmesi gerekir
-68 ve diğerinin, şimdi pohpohladığı kişinin gücüyle yükselmesi gerekir.
+67 Sonra bunun düşmesi gerekir
+68 üç güneş içinde ve diğerinin yükselmesi
+69 şu anda eğilenin gücüyle.
 </result>
 </query>
 <query>
@@ -398,18 +398,26 @@ Please translate each line literally into Turkish.
 79 Farinata e ’l Tegghiaio, che fuor sì degni,
 80 Iacopo Rusticucci, Arrigo e ’l Mosca
 81 e li altri ch’a ben far puoser li ’ngegni,
+</prompt>
+<result>
+79 Farinata ve Tegghiaio, ki çok değerliydiler,
+80 Iacopo Rusticucci, Arrigo ve Mosca
+81 ve yeteneklerini iyilik yapmak için kullanan diğerleri,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 82/115</info>
+<prompt>
+Please translate each line literally into Turkish.
 
 82 dimmi ove sono e fa ch’io li conosca;
 83 ché gran disio mi stringe di savere
 84 se ’l ciel li addolcia o lo ’nferno li attosca».
 </prompt>
 <result>
-79 Farinata ve Tegghiaio, ki çok değerliydiler,
-80 Iacopo Rusticucci, Arrigo ve Mosca
-81 ve iyilik yapmak için zekalarını kullanan diğerleri,
-
 82 söyle bana nerede olduklarını ve onları tanımamı sağla;
-83 çünkü cennetin onları tatlılaştırıp tatlılaştırmadığını veya cehennemin onları zehirleyip zehirlemediğini bilme arzusu beni çok sıkıyor."
+83 çünkü onları bilmek için büyük bir arzu beni sıkıştırıyor,
+84 cennet onları tatlandırıyor mu yoksa cehennem onları zehirliyor mu?"
 </result>
 </query>
 <query>
@@ -465,16 +473,23 @@ Please translate each line literally into Turkish.
 94 E ’l duca disse a me: «Più non si desta
 95 di qua dal suon de l’angelica tromba,
 96 quando verrà la nimica podesta:
+</prompt>
+<result>
+94 Ve rehberim bana dedi ki: "Bu taraftan
+95 melek trompetinin sesinden önce uyanmayacak,
+96 düşman güç geldiğinde:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 97/115</info>
+<prompt>
+Please translate each line literally into Turkish.
 
 97 ciascun rivederà la trista tomba,
 98 ripiglierà sua carne e sua figura,
 99 udirà quel ch’in etterno rimbomba».
 </prompt>
 <result>
-94 Ve rehberim bana dedi ki: "Bu taraftan
-95 melek trompetinin sesinden önce uyanmayacak,
-96 düşman güç geldiğinde:
-
 97 herkes üzücü mezarını tekrar görecek,
 98 etini ve suretini geri alacak,
 99 sonsuza dek yankılanan şeyi duyacak."
@@ -488,16 +503,23 @@ Please translate each line literally into Turkish.
 100 Sì trapassammo per sozza mistura
 101 de l’ombre e de la pioggia, a passi lenti,
 102 toccando un poco la vita futura;
+</prompt>
+<result>
+100 Böylece pis bir karışımın içinden geçtik
+101 gölgelerin ve yağmurun, yavaş adımlarla,
+102 gelecekteki yaşamı biraz dokunarak;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 103/115</info>
+<prompt>
+Please translate each line literally into Turkish.
 
 103 per ch’io dissi: «Maestro, esti tormenti
 104 crescerann’ ei dopo la gran sentenza,
 105 o fier minori, o saran sì cocenti?».
 </prompt>
 <result>
-100 Böylece pis bir karışımın içinden geçtik
-101 gölgelerin ve yağmurun, yavaş adımlarla,
-102 gelecekteki yaşamı biraz dokunarak;
-
 103 bu yüzden dedim ki: "Üstat, bu işkenceler
 104 büyük hükümden sonra artacak mı,
 105 yoksa daha az mı olacak, yoksa yine de çok mu yakıcı olacak?"
@@ -527,32 +549,6 @@ Please translate each line literally into Turkish.
 110 in vera perfezion già mai non vada,
 111 di là più che di qua essere aspetta».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 Bu lanetli insanların hepsi\n110 gerçek mükemmelliğe asla ulaşmasa da,\n111 orada buradan daha fazla olmayı bekliyor.\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 109 Bu lanetli insanların hepsi
 110 gerçek mükemmelliğe asla ulaşmasa da,
@@ -567,14 +563,21 @@ Please translate each line literally into Turkish.
 112 Noi aggirammo a tondo quella strada,
 113 parlando più assai ch’i’ non ridico;
 114 venimmo al punto dove si digrada:
-
-115 quivi trovammo Pluto, il gran nemico.
 </prompt>
 <result>
 112 O yolu dairesel olarak dolaştık,
 113 anlattığımdan çok daha fazla konuşarak;
 114 inişe geçtiğimiz yere geldik:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 115/115</info>
+<prompt>
+Please translate each line literally into Turkish.
 
+115 quivi trovammo Pluto, il gran nemico.
+</prompt>
+<result>
 115 burada büyük düşman Pluto'yu bulduk.
 </result>
 </query>

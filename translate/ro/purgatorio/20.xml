@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="51">
 <query>
 <info>[Purgatorio Canto 20] 1/151</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into Romanian.
 4 Mossimi; e ’l duca mio si mosse per li
 5 luoghi spediti pur lungo la roccia,
 6 come si va per muro stretto a’ merli;
+</prompt>
+<result>
+4 M-am mișcat; și ducele meu s-a mișcat prin
+5 locurile libere, chiar de-a lungul stâncii,
+6 așa cum se merge pe un zid îngust până la creneluri;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 7/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 7 ché la gente che fonde a goccia a goccia
 8 per li occhi il mal che tutto ’l mondo occupa,
 9 da l’altra parte in fuor troppo s’approccia.
 </prompt>
 <result>
-4 M-am mișcat; și ducele meu s-a mișcat prin
-5 locurile libere, chiar de-a lungul stâncii,
-6 așa cum se merge pe un zid îngust până la creneluri;
-
 7 căci oamenii care varsă picătură cu picătură
 8 prin ochi răul care ocupă toată lumea,
 9 de cealaltă parte se apropie prea mult.
@@ -46,66 +53,68 @@ Please translate each line literally into Romanian.
 10 Maladetta sie tu, antica lupa,
 11 che più che tutte l’altre bestie hai preda
 12 per la tua fame sanza fine cupa!
+</prompt>
+<result>
+10 Blestemată să fii tu, veche lupoaică,
+11 care mai mult decât toate celelalte fiare ai pradă
+12 pentru foamea ta fără sfârșit cupa!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 13/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 13 O ciel, nel cui girar par che si creda
 14 le condizion di qua giù trasmutarsi,
 15 quando verrà per cui questa disceda?
+</prompt>
+<result>
+13 O, cerule, în a cărui rotire pare că se crede
+14 că se schimbă condițiile de aici de jos,
+15 când va veni cel pentru care aceasta va pleca?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 16/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 16 Noi andavam con passi lenti e scarsi,
 17 e io attento a l’ombre, ch’i’ sentia
 18 pietosamente piangere e lagnarsi;
+</prompt>
+<result>
+16 Noi mergeam cu pași lenți și rari,
+17 și eu atent la umbre, pe care le auzeam
+18 plângând și lamentându-se cu milă;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 19/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 19 e per ventura udi’ «Dolce Maria!»
 20 dinanzi a noi chiamar così nel pianto
 21 come fa donna che in parturir sia;
+</prompt>
+<result>
+19 și din întâmplare am auzit „Dulce Maria!”
+20 în fața noastră chemând așa în plâns
+21 ca o femeie care este în travaliu;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 22/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 22 e seguitar: «Povera fosti tanto,
 23 quanto veder si può per quello ospizio
 24 dove sponesti il tuo portato santo».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 Blestemată să fii tu, veche lupoaică,\n11 care mai mult decât toate celelalte fiare ai pradă\n12 pentru foamea ta fără sfârșit cupa!\n\n13 O, cerule, în a cărui rotire pare că se crede\n14 că se schimbă condițiile de aici de jos,\n15 când va veni cel pentru care aceasta va pleca?\n\n16 Noi mergeam cu pași lenți și rari,\n17 și eu atent la umbre, pe care le auzeam\n18 plângând și lamentându-se cu milă;\n\n19 și din întâmplare am auzit „Dulce Maria!”\n20 în fața noastră chemând așa în plâns\n21 ca o femeie care este în travaliu;\n\n22 și a continuat: „Ai fost atât de săracă,\n23 cât se poate vedea din acel adăpost\n24 unde ți-ai depus purtarea sfântă”."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-10 Blestemată să fii tu, veche lupoaică,
-11 care mai mult decât toate celelalte fiare ai pradă
-12 pentru foamea ta fără sfârșit cupa!
-
-13 O, cerule, în a cărui rotire pare că se crede
-14 că se schimbă condițiile de aici de jos,
-15 când va veni cel pentru care aceasta va pleca?
-
-16 Noi mergeam cu pași lenți și rari,
-17 și eu atent la umbre, pe care le auzeam
-18 plângând și lamentându-se cu milă;
-
-19 și din întâmplare am auzit „Dulce Maria!”
-20 în fața noastră chemând așa în plâns
-21 ca o femeie care este în travaliu;
-
 22 și a continuat: „Ai fost atât de săracă,
 23 cât se poate vedea din acel adăpost
 24 unde ți-ai depus purtarea sfântă”.
@@ -254,26 +263,41 @@ Please translate each line literally into Romanian.
 52 Figliuol fu’ io d’un beccaio di Parigi:
 53 quando li regi antichi venner meno
 54 tutti, fuor ch’un renduto in panni bigi,
+</prompt>
+<result>
+52 Fiu am fost al unui măcelar din Paris:
+53 când regii antici au pierit toți,
+54 în afară de unul îmbrăcat în zdrențe cenușii,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 55/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 55 trova’mi stretto ne le mani il freno
 56 del governo del regno, e tanta possa
 57 di nuovo acquisto, e sì d’amici pieno,
+</prompt>
+<result>
+55 m-am găsit strâns în mâinile sale frâiele
+56 guvernării regatului, și atâta putere
+57 de nouă dobândire, și atât de plin de prieteni,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 58/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 58 ch’a la corona vedova promossa
 59 la testa di mio figlio fu, dal quale
 60 cominciar di costor le sacrate ossa.
 </prompt>
 <result>
-52 Am fost fiul unui măcelar din Paris:
-53 când regii antici au pierit cu toții,
-54 în afară de unul îmbrăcat în haine cenușii,
-
-55 m-am trezit strângând în mâini frâiele
-56 guvernării regatului și atâta putere
-57 dobândită de curând și atât de plin de prieteni,
-
-58 încât capul fiului meu a fost promovat la coroana văduvă,
-59 din care au început oasele sfinte ale acestora.
+58 încît la coroa văduvă a fost promovată
+59 capul fiului său, de la
+60 începutul sacrelor oase ale acelora.
 </result>
 </query>
 <query>
@@ -375,32 +399,6 @@ Please translate each line literally into Romanian.
 80 veggio vender sua figlia e patteggiarne
 81 come fanno i corsar de l’altre schiave.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "79 Celălalt, care a ieșit deja luat de pe navă,\n80 îl văd vânzându-și fiica și negociind-o\n81 așa cum fac corsarii cu celelalte sclave."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 79 Celălalt, care a ieșit deja luat de pe navă,
 80 îl văd vânzându-și fiica și negociind-o
@@ -415,16 +413,23 @@ Please translate each line literally into Romanian.
 82 O avarizia, che puoi tu più farne,
 83 poscia c’ha’ il mio sangue a te sì tratto,
 84 che non si cura de la propria carne?
+</prompt>
+<result>
+82 O, avariție, ce mai poți face,
+83 după ce mi-ai atras sângele atât de mult,
+84 încât nu-i pasă de propria carne?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 85/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 85 Perché men paia il mal futuro e ’l fatto,
 86 veggio in Alagna intrar lo fiordaliso,
 87 e nel vicario suo Cristo esser catto.
 </prompt>
 <result>
-82 O, avariție, ce mai poți face,
-83 după ce mi-ai atras sângele atât de mult,
-84 încât nu-i pasă de propria carne?
-
 85 Pentru ca răul viitor și cel făcut să mi se pară mai puțin,
 86 văd cum intră floarea de crin în Anagni
 87 și cum Hristos este luat prizonier de vicarul său.
@@ -468,24 +473,38 @@ Please translate each line literally into Romanian.
 94 O Segnor mio, quando sarò io lieto
 95 a veder la vendetta che, nascosa,
 96 fa dolce l’ira tua nel tuo secreto?
+</prompt>
+<result>
+94 O, Doamne al meu, când voi fi bucuros
+95 să văd răzbunarea care, ascunsă,
+96 face dulce mânia Ta în secretul Tău?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 97/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 97 Ciò ch’io dicea di quell’ unica sposa
 98 de lo Spirito Santo e che ti fece
 99 verso me volger per alcuna chiosa,
+</prompt>
+<result>
+97 Ceea ce spuneam despre acea unică mireasă
+98 a Duhului Sfânt și care te-a făcut
+99 să te întorci spre mine pentru o explicație,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 100/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 100 tanto è risposto a tutte nostre prece
 101 quanto ’l dì dura; ma com’ el s’annotta,
 102 contrario suon prendemo in quella vece.
 </prompt>
 <result>
-94 O, Doamne al meu, când voi fi bucuros
-95 să văd răzbunarea care, ascunsă,
-96 face dulce mânia Ta în secretul Tău?
-
-97 Ceea ce spuneam despre acea unică mireasă
-98 a Duhului Sfânt și care te-a făcut
-99 să te întorci spre mine pentru o explicație,
-
 100 este răspuns atât de mult la toate rugăciunile noastre
 101 cât durează ziua; dar când se lasă noaptea,
 102 în schimb primim un sunet contrar.
@@ -499,16 +518,23 @@ Please translate each line literally into Romanian.
 103 Noi repetiam Pigmalïon allotta,
 104 cui traditore e ladro e paricida
 105 fece la voglia sua de l’oro ghiotta;
+</prompt>
+<result>
+103 Noi repetam despre Pigmalion,
+104 pentru care trădătorul, hoțul și paricidul
+105 i-au satisfăcut pofta lacomă de aur;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 106/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 106 e la miseria de l’avaro Mida,
 107 che seguì a la sua dimanda gorda,
 108 per la qual sempre convien che si rida.
 </prompt>
 <result>
-103 Noi repetam despre Pigmalion,
-104 pentru care trădătorul, hoțul și paricidul
-105 i-au satisfăcut pofta lacomă de aur;
-
 106 și mizeria avarului Mida,
 107 care a urmat cererii sale arogante,
 108 pentru care trebuie să râdem mereu.
@@ -537,16 +563,23 @@ Please translate each line literally into Romanian.
 112 Indi accusiam col marito Saffira;
 113 lodiam i calci ch’ebbe Elïodoro;
 114 e in infamia tutto ’l monte gira
+</prompt>
+<result>
+112 Apoi o acuzam pe Safira împreună cu soțul ei;
+113 lăudam loviturile de picior pe care le-a primit Heliodor;
+114 și pe tot muntele se răspândește infamia
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 115/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 115 Polinestòr ch’ancise Polidoro;
 116 ultimamente ci si grida: “Crasso,
 117 dilci, che ’l sai: di che sapore è l’oro?”.
 </prompt>
 <result>
-112 Apoi o acuzam pe Safira împreună cu soțul ei;
-113 lăudam loviturile de picior pe care le-a primit Heliodor;
-114 și pe tot muntele se răspândește infamia
-
 115 lui Polinestor care l-a ucis pe Polidor;
 116 în cele din urmă ni se strigă: „Crassus,
 117 spune-ne, căci știi: ce gust are aurul?”.
@@ -560,16 +593,23 @@ Please translate each line literally into Romanian.
 118 Talor parla l’uno alto e l’altro basso,
 119 secondo l’affezion ch’ad ir ci sprona
 120 ora a maggiore e ora a minor passo:
+</prompt>
+<result>
+118 Uneori unul vorbește tare și celălalt încet,
+119 în funcție de afecțiunea care ne îndeamnă să mergem
+120 când cu pas mai mare, când cu pas mai mic:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 121/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 121 però al ben che ’l dì ci si ragiona,
 122 dianzi non era io sol; ma qui da presso
 123 non alzava la voce altra persona».
 </prompt>
 <result>
-118 Uneori unul vorbește tare și celălalt încet,
-119 în funcție de afecțiunea care ne îndeamnă să mergem
-120 când cu pas mai mare, când cu pas mai mic:
-
 121 de aceea, la binele despre care vorbim ziua,
 122 mai devreme nu eram singur; dar aici, în apropiere
 123 nu mai ridica vocea altă persoană».
@@ -583,16 +623,23 @@ Please translate each line literally into Romanian.
 124 Noi eravam partiti già da esso,
 125 e brigavam di soverchiar la strada
 126 tanto quanto al poder n’era permesso,
+</prompt>
+<result>
+124 Noi plecasem deja de la el,
+125 și ne străduiam să parcurgem drumul
+126 atât cât ne permitea puterea,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 127/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 127 quand’ io senti’, come cosa che cada,
 128 tremar lo monte; onde mi prese un gelo
 129 qual prender suol colui ch’a morte vada.
 </prompt>
 <result>
-124 Noi plecasem deja de la el,
-125 și ne străduiam să parcurgem drumul
-126 atât cât ne permitea puterea,
-
 127 când am simțit, ca un lucru care cade,
 128 muntele tremurând; de unde m-a cuprins un fior
 129 ca acela care obișnuiește să-l cuprindă pe cel care merge la moarte.
@@ -681,22 +728,36 @@ Please translate each line literally into Romanian.
 145 Nulla ignoranza mai con tanta guerra
 146 mi fé desideroso di sapere,
 147 se la memoria mia in ciò non erra,
-
-148 quanta pareami allor, pensando, avere;
-149 né per la fretta dimandare er’ oso,
-150 né per me lì potea cosa vedere:
-
-151 così m’andava timido e pensoso.
 </prompt>
 <result>
 145 Niciodată ignoranța nu m-a făcut cu atâta ardoare
 146 să doresc să știu,
 147 dacă memoria mea nu greșește în asta,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 148/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
+148 quanta pareami allor, pensando, avere;
+149 né per la fretta dimandare er’ oso,
+150 né per me lì potea cosa vedere:
+</prompt>
+<result>
 148 câtă mi se părea că am atunci, gândindu-mă;
 149 și nici nu îndrăzneam să întreb din grabă,
 150 și nici nu puteam vedea nimic pentru mine acolo:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 151/151</info>
+<prompt>
+Please translate each line literally into Romanian.
 
+151 così m’andava timido e pensoso.
+</prompt>
+<result>
 151 așa mergeam timid și gânditor.
 </result>
 </query>

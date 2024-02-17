@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="50">
 <query>
 <info>[Paradiso Canto 15] 1/148</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Slovene.
 1 Benigna volontade in che si liqua
 2 sempre l’amor che drittamente spira,
 3 come cupidità fa ne la iniqua,
+</prompt>
+<result>
+1 Dobronameraje, v katerem se vedno stopi
+2 ljubezen, ki pravilno diha,
+3 kakor poželenje dela v hudobni,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 4/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 4 silenzio puose a quella dolce lira,
 5 e fece quïetar le sante corde
 6 che la destra del cielo allenta e tira.
 </prompt>
 <result>
-1 Dobronameraje, v katerem se vedno stopi
-2 ljubezen, ki pravilno diha,
-3 kakor poželenje dela v hudobni,
-
 4 je utišala tisto sladko liro
 5 in utišala svete strune,
 6 ki jih desnica neba popušča in napenja.
@@ -31,16 +38,23 @@ Please translate each line literally into Slovene.
 7 Come saranno a’ giusti preghi sorde
 8 quelle sustanze che, per darmi voglia
 9 ch’io le pregassi, a tacer fur concorde?
+</prompt>
+<result>
+7 Kako bodo gluhe za pravične prošnje
+8 tiste substance, ki so se, da bi mi dale željo,
+9 da bi jih prosil, soglasno odločile molčati?
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 10/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 10 Bene è che sanza termine si doglia
 11 chi, per amor di cosa che non duri
 12 etternalmente, quello amor si spoglia.
 </prompt>
 <result>
-7 Kako bodo gluhe za pravične prošnje
-8 tiste substance, ki so se, da bi mi dale željo,
-9 da bi jih prosil, soglasno odločile molčati?
-
 10 Prav je, da se brez konca žaluje
 11 kdor zaradi ljubezni do stvari, ki ne traja
 12 večno, to ljubezen sleče.
@@ -54,32 +68,53 @@ Please translate each line literally into Slovene.
 13 Quale per li seren tranquilli e puri
 14 discorre ad ora ad or sùbito foco,
 15 movendo li occhi che stavan sicuri,
+</prompt>
+<result>
+13 Kakor po mirnih in čistih vedrinah
+14 včasih nenadoma švigne ogenj,
+15 ki premakne oči, ki so bile mirne,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 16/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 16 e pare stella che tramuti loco,
 17 se non che da la parte ond’ e’ s’accende
 18 nulla sen perde, ed esso dura poco:
+</prompt>
+<result>
+16 in se zdi kot zvezda, ki spreminja kraj,
+17 le da se s strani, kjer se prižge,
+18 nič ne izgubi in traja kratek čas:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 19/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 19 tale dal corno che ’n destro si stende
 20 a piè di quella croce corse un astro
 21 de la costellazion che lì resplende;
+</prompt>
+<result>
+19 tako je od roga, ki se razteza na desno
+20 do vznožja tistega križa, pritekel zvezdni utrinek
+21 iz ozvezdja, ki tam sije;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 22/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 22 né si partì la gemma dal suo nastro,
 23 ma per la lista radïal trascorse,
 24 che parve foco dietro ad alabastro.
 </prompt>
 <result>
-13 Kakor po mirnih in čistih vedrinah
-14 včasih nenadoma švigne ogenj,
-15 ki premakne oči, ki so bile mirne,
-
-16 in se zdi kot zvezda, ki spreminja kraj,
-17 le da se s strani, kjer se prižge,
-18 nič ne izgubi in traja kratek čas:
-
-19 tako je od roga, ki se razteza na desno
-20 do vznožja tistega križa, pritekel zvezdni utrinek
-21 iz ozvezdja, ki tam sije;
-
 22 in dragulj se ni ločil od svojega traku,
 23 ampak je preletel po radialnem pasu,
 24 ki se je zdel kot ogenj za alabastrom.
@@ -123,42 +158,23 @@ Please translate each line literally into Slovene.
 31 Così quel lume: ond’ io m’attesi a lui;
 32 poscia rivolsi a la mia donna il viso,
 33 e quinci e quindi stupefatto fui;
+</prompt>
+<result>
+31 Tako je tista luč: od katere sem pričakoval njega;
+32 nato sem obrnil obraz k svoji dami,
+33 in tu in tam sem bil osupel;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 34/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 34 ché dentro a li occhi suoi ardeva un riso
 35 tal, ch’io pensai co’ miei toccar lo fondo
 36 de la mia gloria e del mio paradiso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 Tako je tista luč: od katere sem pričakoval njega;\n32 nato sem obrnil obraz k svoji dami,\n33 in tu in tam sem bil osupel;\n\n34 kajti v njenih očeh je gorel smeh\n35 tak, da sem mislil, da se z mojimi dotaknem dna\n36 svoje slave in svojega raja."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-31 Tako je tista luč: od katere sem pričakoval njega;
-32 nato sem obrnil obraz k svoji dami,
-33 in tu in tam sem bil osupel;
-
 34 kajti v njenih očeh je gorel smeh
 35 tak, da sem mislil, da se z mojimi dotaknem dna
 36 svoje slave in svojega raja.
@@ -172,16 +188,23 @@ Please translate each line literally into Slovene.
 37 Indi, a udire e a veder giocondo,
 38 giunse lo spirto al suo principio cose,
 39 ch’io non lo ’ntesi, sì parlò profondo;
+</prompt>
+<result>
+37 Nato je duh, vesel, da sliši in vidi,
+38 prišel do svojega prvotnega bistva,
+39 ki ga nisem razumel, tako globoko je govoril;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 40/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 40 né per elezïon mi si nascose,
 41 ma per necessità, ché ’l suo concetto
 42 al segno d’i mortal si soprapuose.
 </prompt>
 <result>
-37 Nato je duh, vesel, da sliši in vidi,
-38 prišel do svojega prvotnega bistva,
-39 ki ga nisem razumel, tako globoko je govoril;
-
 40 in ni se mi skril po svoji izbiri,
 41 ampak iz nuje, ker je njegov koncept
 42 presegel razumevanje smrtnikov.
@@ -195,16 +218,23 @@ Please translate each line literally into Slovene.
 43 E quando l’arco de l’ardente affetto
 44 fu sì sfogato, che ’l parlar discese
 45 inver’ lo segno del nostro intelletto,
+</prompt>
+<result>
+43 In ko je lok gorečega čustva
+44 tako popustil, da je govor prišel
+45 do ravni našega razumevanja,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 46/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 46 la prima cosa che per me s’intese,
 47 «Benedetto sia tu», fu, «trino e uno,
 48 che nel mio seme se’ tanto cortese!».
 </prompt>
 <result>
-43 In ko je lok gorečega čustva
-44 tako popustil, da je govor prišel
-45 do ravni našega razumevanja,
-
 46 je prva stvar, ki sem jo razumel, bila:
 47 »Blagoslovljen bodi ti«, je rekel, »troedini in eden,
 48 ki si v mojem potomstvu tako radodaren!«
@@ -218,16 +248,23 @@ Please translate each line literally into Slovene.
 49 E seguì: «Grato e lontano digiuno,
 50 tratto leggendo del magno volume
 51 du’ non si muta mai bianco né bruno,
+</prompt>
+<result>
+49 In nadaljeval je: »Prijeten in dolg post,
+50 ki si ga prestal z branjem velike knjige,
+51 kjer se nikoli ne spremeni belo ali črno,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 52/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 52 solvuto hai, figlio, dentro a questo lume
 53 in ch’io ti parlo, mercè di colei
 54 ch’a l’alto volo ti vestì le piume.
 </prompt>
 <result>
-49 In nadaljeval je: »Prijeten in dolg post,
-50 ki si ga prestal z branjem velike knjige,
-51 kjer se nikoli ne spremeni belo ali črno,
-
 52 si, sin, končal v tej luči,
 53 v kateri ti govorim, po zaslugi nje,
 54 ki ti je za visok polet oblekla peruti.
@@ -241,16 +278,23 @@ Please translate each line literally into Slovene.
 55 Tu credi che a me tuo pensier mei
 56 da quel ch’è primo, così come raia
 57 da l’un, se si conosce, il cinque e ’l sei;
+</prompt>
+<result>
+55 Verjameš, da mi tvoje misli bolj
+56 prihajajo od tistega, ki je prvi, tako kot izhaja
+57 iz enega, če se ga pozna, pet in šest;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 58/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 58 e però ch’io mi sia e perch’ io paia
 59 più gaudïoso a te, non mi domandi,
 60 che alcun altro in questa turba gaia.
 </prompt>
 <result>
-55 Verjameš, da mi tvoje misli bolj
-56 prihajajo od tistega, ki je prvi, tako kot izhaja
-57 iz enega, če se ga pozna, pet in šest;
-
 58 in zato, ker sem in ker se ti zdim
 59 bolj vesel, me ne sprašuj,
 60 kot katerega koli drugega v tej veseli množici.
@@ -264,24 +308,38 @@ Please translate each line literally into Slovene.
 61 Tu credi ’l vero; ché i minori e ’ grandi
 62 di questa vita miran ne lo speglio
 63 in che, prima che pensi, il pensier pandi;
+</prompt>
+<result>
+61 Verjameš resnico; ker manjši in večji
+62 tega življenja gledajo v ogledalo,
+63 v katerem, preden pomisliš, razgrneš misel;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 64/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 64 ma perché ’l sacro amore in che io veglio
 65 con perpetüa vista e che m’asseta
 66 di dolce disïar, s’adempia meglio,
+</prompt>
+<result>
+64 toda da se sveta ljubezen, v kateri bedim
+65 z večnim pogledom in ki me žeja
+66 po sladki želji, bolje izpolni,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 67/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 67 la voce tua sicura, balda e lieta
 68 suoni la volontà, suoni ’l disio,
 69 a che la mia risposta è già decreta!».
 </prompt>
 <result>
-61 Verjameš resnico; ker manjši in večji
-62 tega življenja gledajo v ogledalo,
-63 v katerem, preden pomisliš, razgrneš misel;
-
-64 toda da se sveta ljubezen, v kateri bedim
-65 z večnim pogledom in ki me žeja
-66 po sladki želji, bolje izpolni,
-
 67 naj tvoj glas, samozavesten, pogumen in vesel
 68 izrazi voljo, izrazi željo,
 69 na katero je moj odgovor že določen!«
@@ -310,16 +368,23 @@ Please translate each line literally into Slovene.
 73 Poi cominciai così: «L’affetto e ’l senno,
 74 come la prima equalità v’apparse,
 75 d’un peso per ciascun di voi si fenno,
+</prompt>
+<result>
+73 Nato sem začel takole: »Čustvo in razum,
+74 ko se vama je prvič prikazala enaka vrednost,
+75 sta se vama oba zdela enako težka,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 76/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 76 però che ’l sol che v’allumò e arse,
 77 col caldo e con la luce è sì iguali,
 78 che tutte simiglianze sono scarse.
 </prompt>
 <result>
-73 Nato sem začel takole: »Čustvo in razum,
-74 ko se vama je prvič prikazala enaka vrednost,
-75 sta se vama oba zdela enako težka,
-
 76 ker je sonce, ki vaju je razsvetlilo in zažgalo,
 77 s toploto in svetlobo tako enako,
 78 da so vse podobnosti premalo.«
@@ -333,16 +398,23 @@ Please translate each line literally into Slovene.
 79 Ma voglia e argomento ne’ mortali,
 80 per la cagion ch’a voi è manifesta,
 81 diversamente son pennuti in ali;
+</prompt>
+<result>
+79 Toda želja in razum pri smrtnikih,
+80 zaradi razloga, ki vam je znan,
+81 imata različno operjena krila;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 82/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 82 ond’ io, che son mortal, mi sento in questa
 83 disagguaglianza, e però non ringrazio
 84 se non col core a la paterna festa.
 </prompt>
 <result>
-79 Toda želja in razum pri smrtnikih,
-80 zaradi razloga, ki vam je znan,
-81 imata različno operjena krila;
-
 82 zato jaz, ki sem smrtnik, čutim to
 83 neenakost in se zato ne zahvaljujem
 84 drugače kot s srcem na očetovem praznovanju.
@@ -386,18 +458,26 @@ Please translate each line literally into Slovene.
 91 Poscia mi disse: «Quel da cui si dice
 92 tua cognazione e che cent’ anni e piùe
 93 girato ha ’l monte in la prima cornice,
+</prompt>
+<result>
+91 Nato mi je rekla: «Tisti, od katerega se govori
+92 kot o sorodniku in ki je že sto let in več
+93 hodil po gori v prvi venec,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 94/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 94 mio figlio fu e tuo bisavol fue:
 95 ben si convien che la lunga fatica
 96 tu li raccorci con l’opere tue.
 </prompt>
 <result>
-91 Nato mi je rekel: »Tisti, od katerega se govori
-92 o tvojem sorodstvu in ki je sto let in več
-93 krožil po gori v prvem krogu,
-
-94 je bil moj sin in tvoj praded:
-95 prav je, da mu s svojimi deli skrajšaš dolgo trpljenje.
+94 moj sin je bil in tvoj praded je bil:
+95 prav je, da mu ti skrajšaš dolgo trpljenje
+96 s svojimi deli.
 </result>
 </query>
 <query>
@@ -483,42 +563,23 @@ Please translate each line literally into Slovene.
 112 Bellincion Berti vid’ io andar cinto
 113 di cuoio e d’osso, e venir da lo specchio
 114 la donna sua sanza ’l viso dipinto;
+</prompt>
+<result>
+112 Videl sem Bellinciona Bertija, kako hodi
+113 opasan z usnjem in kostjo, in prihajati iz ogledala
+114 njegovo ženo brez naličenega obraza;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 115/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 115 e vidi quel d’i Nerli e quel del Vecchio
 116 esser contenti a la pelle scoperta,
 117 e le sue donne al fuso e al pennecchio.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "112 Videl sem Bellinciona Bertija, kako hodi\n113 opasan z usnjem in kostjo, in prihajati iz ogledala\n114 njegovo ženo brez naličenega obraza;\n\n115 in videl sem tistega iz družine Nerli in tistega iz družine Vecchio,\n116 kako sta bila zadovoljna z golo kožo,\n117 in njuni ženi s kolovratom in predilnico."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-112 Videl sem Bellinciona Bertija, kako hodi
-113 opasan z usnjem in kostjo, in prihajati iz ogledala
-114 njegovo ženo brez naličenega obraza;
-
 115 in videl sem tistega iz družine Nerli in tistega iz družine Vecchio,
 116 kako sta bila zadovoljna z golo kožo,
 117 in njuni ženi s kolovratom in predilnico.
@@ -547,16 +608,23 @@ Please translate each line literally into Slovene.
 121 L’una vegghiava a studio de la culla,
 122 e, consolando, usava l’idïoma
 123 che prima i padri e le madri trastulla;
+</prompt>
+<result>
+121 Ena je bedela in skrbi za zibelko
+122 in tolažila z jezikom,
+123 ki najprej razveseljuje očete in matere;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 124/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 124 l’altra, traendo a la rocca la chioma,
 125 favoleggiava con la sua famiglia
 126 d’i Troiani, di Fiesole e di Roma.
 </prompt>
 <result>
-121 Ena je bedela in skrbi za zibelko
-122 in tolažila z jezikom,
-123 ki najprej razveseljuje očete in matere;
-
 124 druga, ki je prela volno,
 125 je pripovedovala pravljice svoji družini
 126 o Trojancih, Fiesoli in Rimu.
@@ -585,16 +653,23 @@ Please translate each line literally into Slovene.
 130 A così riposato, a così bello
 131 viver di cittadini, a così fida
 132 cittadinanza, a così dolce ostello,
+</prompt>
+<result>
+130 V tako mirnem, tako lepem
+131 življenju meščanov, v tako zanesljivem
+132 meščanstvu, v tako sladkem domu,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 133/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 133 Maria mi diè, chiamata in alte grida;
 134 e ne l’antico vostro Batisteo
 135 insieme fui cristiano e Cacciaguida.
 </prompt>
 <result>
-130 V tako mirnem, tako lepem
-131 življenju meščanov, v tako zanesljivem
-132 meščanstvu, v tako sladkem domu,
-
 133 me je rodila Marija, poklicana z glasnim vpitjem;
 134 in v vašem starem Batisteju
 135 sem bil hkrati kristjan in Cacciaguida.
@@ -653,14 +728,21 @@ Please translate each line literally into Slovene.
 145 Quivi fu’ io da quella gente turpa
 146 disviluppato dal mondo fallace,
 147 lo cui amor molt’ anime deturpa;
-
-148 e venni dal martiro a questa pace».
 </prompt>
 <result>
 145 Tam sem bil s strani stranih ljudi
 146 osvobojen varljivega sveta,
 147 katerega ljubezen pokvari veliko duš;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 148/148</info>
+<prompt>
+Please translate each line literally into Slovene.
 
+148 e venni dal martiro a questa pace».
+</prompt>
+<result>
 148 in prišel sem iz mučeništva v ta mir.«
 </result>
 </query>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries error="0" count="48">
 <query>
 <info>[Inferno Canto 28] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Ukrainian.
 1 Chi poria mai pur con parole sciolte
 2 dicer del sangue e de le piaghe a pieno
 3 ch’i’ ora vidi, per narrar più volte?
+</prompt>
+<result>
+1 Хто б міг коли-небудь простими словами
+2 розповісти про кров і рани вповні,
+3 які я бачив тоді, щоб розповідати багато разів?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 4/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 4 Ogne lingua per certo verria meno
 5 per lo nostro sermone e per la mente
 6 c’hanno a tanto comprender poco seno.
 </prompt>
 <result>
-1 Хто б міг коли-небудь простими словами
-2 розповісти про кров і рани вповні,
-3 які я бачив тоді, щоб розповідати багато разів?
-
 4 Будь-яка мова, звичайно, вичерпалася б
 5 через нашу розповідь і через розум,
 6 які мають занадто мало розуміння для цього.
@@ -31,40 +38,68 @@ Please translate each line literally into Ukrainian.
 7 S’el s’aunasse ancor tutta la gente
 8 che già, in su la fortunata terra
 9 di Puglia, fu del suo sangue dolente
+</prompt>
+<result>
+7 Якби зібралися разом усі люди,
+8 які колись на щасливій землі
+9 Апулії проливали свою кров
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 10/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 10 per li Troiani e per la lunga guerra
 11 che de l’anella fé sì alte spoglie,
 12 come Livïo scrive, che non erra,
+</prompt>
+<result>
+10 через троянців і через довгу війну,
+11 яка принесла такі багаті трофеї,
+12 як пише Лівій, який не помиляється,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 13/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 13 con quella che sentio di colpi doglie
 14 per contastare a Ruberto Guiscardo;
 15 e l’altra il cui ossame ancor s’accoglie
+</prompt>
+<result>
+13 разом з тими, хто зазнав болю від ударів,
+14 протистоячи Роберту Гвіскару;
+15 і з іншими, чиї кістки досі збирають
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 16/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 16 a Ceperan, là dove fu bugiardo
 17 ciascun Pugliese, e là da Tagliacozzo,
 18 dove sanz’ arme vinse il vecchio Alardo;
+</prompt>
+<result>
+16 в Чеперано, де кожен апулієць був брехуном,
+17 і там, біля Тальякоццо,
+18 де старий Алардо переміг без зброї;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 19/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 19 e qual forato suo membro e qual mozzo
 20 mostrasse, d’aequar sarebbe nulla
 21 il modo de la nona bolgia sozzo.
 </prompt>
 <result>
-7 Якби зібралися разом усі люди,
-8 які колись на щасливій землі
-9 Апулії проливали свою кров
-
-10 через троянців і через довгу війну,
-11 яка принесла такі багаті трофеї,
-12 як пише Лівій, який не помиляється,
-
-13 разом з тими, хто зазнав болю від ударів,
-14 протистоячи Роберту Гвіскару;
-15 і з іншими, чиї кістки досі збирають
-
-16 в Чеперано, де кожен апулієць був брехуном,
-17 і там, біля Тальякоццо,
-18 де старий Алардо переміг без зброї;
-
 19 і якби кожен показав свої поранені або відрізані кінцівки,
 20 то все одно цього було б недостатньо,
 21 щоб зрівнятися з жахом дев'ятого кола.
@@ -94,32 +129,6 @@ Please translate each line literally into Ukrainian.
 26 la corata pareva e ’l tristo sacco
 27 che merda fa di quel che si trangugia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 Між ніг звисали нутрощі;\n26 здавалося, що це кишки і нещасний мішок,\n27 який робить лайно з того, що ковтають."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 Між ніг звисали нутрощі;
 26 здавалося, що це кишки і нещасний мішок,
@@ -134,42 +143,23 @@ Please translate each line literally into Ukrainian.
 28 Mentre che tutto in lui veder m’attacco,
 29 guardommi e con le man s’aperse il petto,
 30 dicendo: «Or vedi com’ io mi dilacco!
+</prompt>
+<result>
+28 Поки я намагався все в ньому розгледіти,
+29 він подивився на мене і руками розірвав собі груди,
+30 кажучи: «Тепер дивись, як я розриваюся!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 31/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 31 vedi come storpiato è Mäometto!
 32 Dinanzi a me sen va piangendo Alì,
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "28 Поки я намагався все в ньому розгледіти,\n29 він подивився на мене і руками розірвав собі груди,\n30 кажучи: «Тепер дивись, як я розриваюся!\n\n31 Дивись, як спотворений Магомет!\n32 Переді мною плачучи йде Алі,\n33 розсічений в обличчі від підборіддя до чуба."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-28 Поки я намагався все в ньому розгледіти,
-29 він подивився на мене і руками розірвав собі груди,
-30 кажучи: «Тепер дивись, як я розриваюся!
-
 31 Дивись, як спотворений Магомет!
 32 Переді мною плачучи йде Алі,
 33 розсічений в обличчі від підборіддя до чуба.
@@ -198,42 +188,23 @@ Please translate each line literally into Ukrainian.
 37 Un diavolo è qua dietro che n’accisma
 38 sì crudelmente, al taglio de la spada
 39 rimettendo ciascun di questa risma,
+</prompt>
+<result>
+37 Диявол тут позаду, який їх вбиває
+38 так жорстоко, мечем рубаючи,
+39 повертаючи кожного з цієї купи,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 40/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 40 quand’ avem volta la dolente strada;
 41 però che le ferite son richiuse
 42 prima ch’altri dinanzi li rivada.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 Диявол тут позаду, який їх вбиває\n38 так жорстоко, мечем рубаючи,\n39 повертаючи кожного з цієї купи,\n\n40 коли ми повертаємось на сумний шлях;\n41 бо рани загоюються\n42 раніше, ніж інші повертаються перед ним."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-37 Диявол тут позаду, який їх вбиває
-38 так жорстоко, мечем рубаючи,
-39 повертаючи кожного з цієї купи,
-
 40 коли ми повертаємось на сумний шлях;
 41 бо рани загоюються
 42 раніше, ніж інші повертаються перед ним.
@@ -262,16 +233,23 @@ Please translate each line literally into Ukrainian.
 46 «Né morte ’l giunse ancor, né colpa ’l mena»,
 47 rispuose ’l mio maestro, «a tormentarlo;
 48 ma per dar lui esperïenza piena,
+</prompt>
+<result>
+46 «Ні смерть його ще не забрала, ні провина не привела»,
+47 відповів мій учитель, «щоб його мучити;
+48 але щоб дати йому повний досвід,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 49/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 49 a me, che morto son, convien menarlo
 50 per lo ’nferno qua giù di giro in giro;
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
 <result>
-46 «Ні смерть його ще не забрала, ні провина не привела»,
-47 відповів мій учитель, «щоб його мучити;
-48 але щоб дати йому повний досвід,
-
 49 мені, який мертвий, належить вести його
 50 через пекло тут унизу по колу;
 51 і це правда, як я тобі кажу».
@@ -300,16 +278,23 @@ Please translate each line literally into Ukrainian.
 55 «Or dì a fra Dolcin dunque che s’armi,
 56 tu che forse vedra’ il sole in breve,
 57 s’ello non vuol qui tosto seguitarmi,
+</prompt>
+<result>
+55 «Отже, скажи брату Дольчіну, щоб він озброївся,
+56 ти, який, можливо, незабаром побачиш сонце,
+57 якщо він не хоче негайно піти за мною сюди,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 58/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 58 sì di vivanda, che stretta di neve
 59 non rechi la vittoria al Noarese,
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55 «Отже, скажи брату Дольчіну, щоб він озброївся,
-56 ти, який, можливо, незабаром побачиш сонце,
-57 якщо він не хоче негайно піти за мною сюди,
-
 58 з такою кількістю їжі, щоб сувора зима
 59 не принесла перемогу Новарезе,
 60 яку інакше було б нелегко здобути».
@@ -338,32 +323,53 @@ Please translate each line literally into Ukrainian.
 64 Un altro, che forata avea la gola
 65 e tronco ’l naso infin sotto le ciglia,
 66 e non avea mai ch’una orecchia sola,
+</prompt>
+<result>
+64 Інший, у якого було пробите горло
+65 і відрізаний ніс аж до брів,
+66 і в нього було лише одне вухо,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 67/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 67 ristato a riguardar per maraviglia
 68 con li altri, innanzi a li altri aprì la canna,
 69 ch’era di fuor d’ogne parte vermiglia,
+</prompt>
+<result>
+67 зупинився, щоб подивитися з подивом
+68 разом з іншими, перед іншими відкрив горло,
+69 яке було червоним з усіх боків,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 70/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 70 e disse: «O tu cui colpa non condanna
 71 e cu’ io vidi su in terra latina,
 72 se troppa simiglianza non m’inganna,
+</prompt>
+<result>
+70 і сказав: «О ти, якого провина не засуджує
+71 і якого я бачив на землі в Італії,
+72 якщо надмірна схожість мене не обманює,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 73/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 73 rimembriti di Pier da Medicina,
 74 se mai torni a veder lo dolce piano
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64 Інший, у якого було пробите горло
-65 і відрізаний ніс аж до брів,
-66 і в нього було лише одне вухо,
-
-67 зупинився, щоб подивитися з подивом
-68 разом з іншими, перед іншими відкрив горло,
-69 яке було червоним з усіх боків,
-
-70 і сказав: «О ти, якого провина не засуджує
-71 і якого я бачив на землі в Італії,
-72 якщо надмірна схожість мене не обманює,
-
 73 згадай П'єра да Медічіна,
 74 якщо ти коли-небудь повернешся, щоб побачити солодку рівнину,
 75 яка спускається від Верчеллі до Маркабо.
@@ -377,16 +383,23 @@ Please translate each line literally into Ukrainian.
 76 E fa saper a’ due miglior da Fano,
 77 a messer Guido e anco ad Angiolello,
 78 che, se l’antiveder qui non è vano,
+</prompt>
+<result>
+76 І дай знати двом найкращим з Фано,
+77 мессеру Гвідо і також Анджолелло,
+78 що, якщо передбачення тут не марне,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 79/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 79 gittati saran fuor di lor vasello
 80 e mazzerati presso a la Cattolica
 81 per tradimento d’un tiranno fello.
 </prompt>
 <result>
-76 І дай знати двом найкращим з Фано,
-77 мессеру Гвідо і також Анджолелло,
-78 що, якщо передбачення тут не марне,
-
 79 їх викинуть з їхнього судна
 80 і вб'ють біля Каттоліки
 81 через зраду жорстокого тирана.
@@ -415,16 +428,23 @@ Please translate each line literally into Ukrainian.
 85 Quel traditor che vede pur con l’uno,
 86 e tien la terra che tale qui meco
 87 vorrebbe di vedere esser digiuno,
+</prompt>
+<result>
+85 Той зрадник, який бачить лише одним оком,
+86 і володіє землею, яку такий, як я, тут зі мною
+87 хотів би бачити голодним,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 88/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 88 farà venirli a parlamento seco;
 89 poi farà sì, ch’al vento di Focara
 90 non sarà lor mestier voto né preco».
 </prompt>
 <result>
-85 Той зрадник, який бачить лише одним оком,
-86 і володіє землею, яку такий, як я, тут зі мною
-87 хотів би бачити голодним,
-
 88 змусить їх прийти на переговори з ним;
 89 потім зробить так, що на вітрі Фокари
 90 їм не знадобляться ні обітниці, ні молитви».
@@ -483,24 +503,38 @@ Please translate each line literally into Ukrainian.
 100 Oh quanto mi pareva sbigottito
 101 con la lingua tagliata ne la strozza
 102 Curïo, ch’a dir fu così ardito!
+</prompt>
+<result>
+100 О, як мені здавалося наляканим
+101 з відрізаним язиком у горлі
+102 Куріо, який був таким сміливим у словах!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 103/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 103 E un ch’avea l’una e l’altra man mozza,
 104 levando i moncherin per l’aura fosca,
 105 sì che ’l sangue facea la faccia sozza,
+</prompt>
+<result>
+103 І один, у якого були відрізані обидві руки,
+104 піднімаючи обрубки в темному повітрі,
+105 так що кров забруднила його обличчя,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 106/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 106 gridò: «Ricordera’ti anche del Mosca,
 107 che disse, lasso!, “Capo ha cosa fatta”,
 108 che fu mal seme per la gente tosca».
 </prompt>
 <result>
-100 О, як мені здавалося наляканим
-101 з відрізаним язиком у горлі
-102 Куріо, який був таким сміливим у словах!
-
-103 І один, у якого були відрізані обидві руки,
-104 піднімаючи обрубки в темному повітрі,
-105 так що кров забруднила його обличчя,
-
 106 закричав: «Згадай також про Моску,
 107 який сказав, на жаль!, “Зроблена справа має голову”,
 108 що стало поганим насінням для тосканського народу».
@@ -515,32 +549,6 @@ Please translate each line literally into Ukrainian.
 110 per ch’elli, accumulando duol con duolo,
 111 sen gio come persona trista e matta.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 І я додав йому: «І смерть твого роду»;\n110 через що він, накопичуючи горе з горем,\n111 пішов, як сумна і божевільна людина."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 109 І я додав йому: «І смерть твого роду»;
 110 через що він, накопичуючи горе з горем,
@@ -555,16 +563,23 @@ Please translate each line literally into Ukrainian.
 112 Ma io rimasi a riguardar lo stuolo,
 113 e vidi cosa ch’io avrei paura,
 114 sanza più prova, di contarla solo;
+</prompt>
+<result>
+112 Але я залишився дивитися на натовп,
+113 і побачив таке, про що я боявся б,
+114 без подальших доказів, розповідати наодинці;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 115/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 115 se non che coscïenza m’assicura,
 116 la buona compagnia che l’uom francheggia
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112 Але я залишився дивитися на натовп,
-113 і побачив таке, про що я боявся б,
-114 без подальших доказів, розповідати наодинці;
-
 115 якби не совість, яка мене заспокоює,
 116 добра компанія, яка звільняє людину
 117 під обладунком чистого почуття.
@@ -578,16 +593,23 @@ Please translate each line literally into Ukrainian.
 118 Io vidi certo, e ancor par ch’io ’l veggia,
 119 un busto sanza capo andar sì come
 120 andavan li altri de la trista greggia;
+</prompt>
+<result>
+118 Я точно бачив, і мені все ще здається, що я це бачу,
+119 тулуб без голови, який йшов так, як
+120 йшли інші з сумної отари;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 121/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 121 e ’l capo tronco tenea per le chiome,
 122 pesol con mano a guisa di lanterna:
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118 Я точно бачив, і мені все ще здається, що я це бачу,
-119 тулуб без голови, який йшов так, як
-120 йшли інші з сумної отари;
-
 121 а відрізану голову він тримав за волосся,
 122 несучи її в руці, як ліхтар:
 123 і він дивився на нас і говорив: «О, я!».
@@ -616,16 +638,23 @@ Please translate each line literally into Ukrainian.
 127 Quando diritto al piè del ponte fue,
 128 levò ’l braccio alto con tutta la testa
 129 per appressarne le parole sue,
+</prompt>
+<result>
+127 Коли він був прямо біля підніжжя мосту,
+128 він підняв руку високо разом з усією головою,
+129 щоб наблизити свої слова,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 130/142</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 130 che fuoro: «Or vedi la pena molesta,
 131 tu che, spirando, vai veggendo i morti:
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127 Коли він був прямо біля підніжжя мосту,
-128 він підняв руку високо разом з усією головою,
-129 щоб наблизити свої слова,
-
 130 які були: «Тепер бачиш болісне покарання,
 131 ти, який, дихаючи, бачиш мертвих:
 132 подивися, чи є якесь таке велике, як це.

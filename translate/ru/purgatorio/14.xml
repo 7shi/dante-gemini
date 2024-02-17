@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="33">
+<queries error="0" count="51">
 <query>
 <info>[Purgatorio Canto 14] 1/151</info>
 <prompt>
@@ -38,24 +38,38 @@ Please translate each line literally into Russian.
 7 Così due spirti, l’uno a l’altro chini,
 8 ragionavan di me ivi a man dritta;
 9 poi fer li visi, per dirmi, supini;
+</prompt>
+<result>
+7 Так два духа, склонившись друг к другу,
+8 говорили обо мне справа от меня;
+9 затем подняли лица, чтобы сказать мне, запрокинув головы;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 10/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 10 e disse l’uno: «O anima che fitta
 11 nel corpo ancora inver’ lo ciel ten vai,
 12 per carità ne consola e ne ditta
+</prompt>
+<result>
+10 и один сказал: «О душа, которая, заключенная
+11 еще в теле, направляешься к небу,
+12 из милосердия утешь нас и скажи нам,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 13/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 13 onde vieni e chi se’; ché tu ne fai
 14 tanto maravigliar de la tua grazia,
 15 quanto vuol cosa che non fu più mai».
 </prompt>
 <result>
-7 Так два духа, склонившись друг к другу,
-8 говорили обо мне справа от меня;
-9 затем подняли лица, чтобы сказать мне, запрокинув головы;
-
-10 и один сказал: «О душа, которая, заключенная
-11 еще в теле, направляешься к небу,
-12 из милосердия утешь нас и скажи нам,
-
 13 откуда ты и кто ты; ибо ты заставляешь нас
 14 так удивляться твоей благодати,
 15 как только может удивлять то, чего никогда не было».
@@ -129,40 +143,68 @@ Please translate each line literally into Russian.
 28 E l’ombra che di ciò domandata era,
 29 si sdebitò così: «Non so; ma degno
 30 ben è che ’l nome di tal valle pèra;
+</prompt>
+<result>
+28 И тень, которую об этом спросили,
+29 ответила так: «Не знаю; но справедливо,
+30 чтобы название этой долины исчезло;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 31/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 31 ché dal principio suo, ov’ è sì pregno
 32 l’alpestro monte ond’ è tronco Peloro,
 33 che ’n pochi luoghi passa oltra quel segno,
+</prompt>
+<result>
+31 ибо от ее начала, где так полноводна
+32 горная река, от которой отделен Пелор,
+33 что в немногих местах проходит дальше этого знака,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 34/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 34 infin là ’ve si rende per ristoro
 35 di quel che ’l ciel de la marina asciuga,
 36 ond’ hanno i fiumi ciò che va con loro,
+</prompt>
+<result>
+34 до того места, где она впадает, чтобы восполнить
+35 то, что небо иссушает из моря,
+36 откуда реки получают то, что течет с ними,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 37/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 37 vertù così per nimica si fuga
 38 da tutti come biscia, o per sventura
 39 del luogo, o per mal uso che li fruga:
+</prompt>
+<result>
+37 добродетель так убегает от всех, как враг,
+38 как гадюка, или из-за несчастья
+39 места, или из-за дурного обычая, который их мучает:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 40/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 40 ond’ hanno sì mutata lor natura
 41 li abitator de la misera valle,
 42 che par che Circe li avesse in pastura.
 </prompt>
 <result>
-28 И тень, которую об этом спросили,
-29 ответила так: «Не знаю; но справедливо,
-30 чтобы название этой долины исчезло;
-
-31 ибо от ее начала, где так полноводна
-32 горная река, от которой отделен Пелор,
-33 что в немногих местах проходит дальше этого знака,
-
-34 до того места, где она впадает, чтобы восполнить
-35 то, что небо иссушает из моря,
-36 откуда реки получают то, что течет с ними,
-
-37 добродетель так убегает от всех, как враг,
-38 как гадюка, или из-за несчастья
-39 места, или из-за дурного обычая, который их мучает:
-
 40 поэтому так изменили свою природу
 41 жители несчастной долины,
 42 что кажется, будто Цирцея пасла их.
@@ -267,32 +309,6 @@ Please translate each line literally into Russian.
 62 poscia li ancide come antica belva;
 63 molti di vita e sé di pregio priva.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "61 Продает их мясо, пока они живы;\n62 затем убивает их, как древний зверь;\n63 многих лишает жизни, а себя — чести."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 61 Продает их мясо, пока они живы;
 62 затем убивает их, как древний зверь;
@@ -322,16 +338,23 @@ Please translate each line literally into Russian.
 67 Com’ a l’annunzio di dogliosi danni
 68 si turba il viso di colui ch’ascolta,
 69 da qual che parte il periglio l’assanni,
+</prompt>
+<result>
+67 Как при известии о печальных бедах
+68 смущается лицо того, кто слушает,
+69 с какой бы стороны его ни подстерегала опасность,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 70/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 70 così vid’ io l’altr’ anima, che volta
 71 stava a udir, turbarsi e farsi trista,
 72 poi ch’ebbe la parola a sé raccolta.
 </prompt>
 <result>
-67 Как при известии о печальных бедах
-68 смущается лицо того, кто слушает,
-69 с какой бы стороны его ни подстерегала опасность,
-
 70 так я увидел другую душу, которая повернулась,
 71 чтобы слушать, смутилась и опечалилась,
 72 когда собрала для себя слова.
@@ -345,16 +368,23 @@ Please translate each line literally into Russian.
 73 Lo dir de l’una e de l’altra la vista
 74 mi fer voglioso di saper lor nomi,
 75 e dimanda ne fei con prieghi mista;
+</prompt>
+<result>
+73 Речь одной и вид другой
+74 вызвали у меня желание узнать их имена,
+75 и я спросил их с мольбой;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 76/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 76 per che lo spirto che di pria parlòmi
 77 ricominciò: «Tu vuo’ ch’io mi deduca
 78 nel fare a te ciò che tu far non vuo’mi.
 </prompt>
 <result>
-73 Речь одной и вид другой
-74 вызвали у меня желание узнать их имена,
-75 и я спросил их с мольбой;
-
 76 поэтому дух, который говорил со мной раньше,
 77 начал снова: «Ты хочешь, чтобы я унизился
 78 в том, что ты не хочешь делать для меня.
@@ -398,16 +428,23 @@ Please translate each line literally into Russian.
 85 Di mia semente cotal paglia mieto;
 86 o gente umana, perché poni ’l core
 87 là ’v’ è mestier di consorte divieto?
+</prompt>
+<result>
+85 От моего семени я пожинаю такую солому;
+86 о человеческий род, почему ты полагаешь свое сердце
+87 там, где требуется запрет на супружество?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 88/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 88 Questi è Rinier; questi è ’l pregio e l’onore
 89 de la casa da Calboli, ove nullo
 90 fatto s’è reda poi del suo valore.
 </prompt>
 <result>
-85 От моего семени я пожинаю такую солому;
-86 о человеческий род, почему ты полагаешь свое сердце
-87 там, где требуется запрет на супружество?
-
 88 Это Риньери; это гордость и честь
 89 дома да Кальболи, где никто
 90 не стал наследником его доблести.
@@ -421,16 +458,23 @@ Please translate each line literally into Russian.
 91 E non pur lo suo sangue è fatto brullo,
 92 tra ’l Po e ’l monte e la marina e ’l Reno,
 93 del ben richesto al vero e al trastullo;
+</prompt>
+<result>
+91 И не только его кровь стала скудной,
+92 между По, горами, морем и Рейном,
+93 блага, требуемого для истины и развлечения;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 94/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 94 ché dentro a questi termini è ripieno
 95 di venenosi sterpi, sì che tardi
 96 per coltivare omai verrebber meno.
 </prompt>
 <result>
-91 И не только его кровь стала скудной,
-92 между По, горами, морем и Рейном,
-93 блага, требуемого для истины и развлечения;
-
 94 ибо внутри этих границ полно
 95 ядовитых сорняков, так что вскоре
 96 для возделывания их уже не хватит сил.
@@ -444,40 +488,68 @@ Please translate each line literally into Russian.
 97 Ov’ è ’l buon Lizio e Arrigo Mainardi?
 98 Pier Traversaro e Guido di Carpigna?
 99 Oh Romagnuoli tornati in bastardi!
+</prompt>
+<result>
+97 Где добрый Лизьо и Арриго Майнарди?
+98 Пьер Траверсаро и Гвидо ди Карпинья?
+99 О романьольцы, вернувшиеся к ублюдкам!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 100/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 100 Quando in Bologna un Fabbro si ralligna?
 101 quando in Faenza un Bernardin di Fosco,
 102 verga gentil di picciola gramigna?
+</prompt>
+<result>
+100 Когда в Болонье возродится Фаббро?
+101 когда в Фаэнце Бернардин ди Фоско,
+102 благородный побег маленькой травы?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 103/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 103 Non ti maravigliar s’io piango, Tosco,
 104 quando rimembro, con Guido da Prata,
 105 Ugolin d’Azzo che vivette nosco,
+</prompt>
+<result>
+103 Не удивляйся, что я плачу, тосканец,
+104 когда вспоминаю вместе с Гвидо да Прата,
+105 Уголино д'Аццо, который жил с нами,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 106/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 106 Federigo Tignoso e sua brigata,
 107 la casa Traversara e li Anastagi
 108 (e l’una gente e l’altra è diretata),
+</prompt>
+<result>
+106 Федериго Тиньозо и его бригаду,
+107 дом Траверсара и Анастаджи
+108 (и тот и другой род выродились),
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 109/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 109 le donne e ’ cavalier, li affanni e li agi
 110 che ne ’nvogliava amore e cortesia
 111 là dove i cuor son fatti sì malvagi.
 </prompt>
 <result>
-97 Где добрый Лизьо и Арриго Майнарди?
-98 Пьер Траверсаро и Гвидо ди Карпинья?
-99 О романьольцы, вернувшиеся к ублюдкам!
-
-100 Когда в Болонье возродится Фаббро?
-101 когда в Фаэнце Бернардин ди Фоско,
-102 благородный побег маленькой травы?
-
-103 Не удивляйся, что я плачу, тосканец,
-104 когда вспоминаю вместе с Гвидо да Прата,
-105 Уголино д'Аццо, который жил с нами,
-
-106 Федериго Тиньозо и его бригаду,
-107 дом Траверсара и Анастаджи
-108 (и тот и другой род выродились),
-
 109 дам и кавалеров, трудности и удобства,
 110 которые внушали нам любовь и вежливость
 111 там, где сердца стали такими злыми.
@@ -491,16 +563,23 @@ Please translate each line literally into Russian.
 112 O Bretinoro, ché non fuggi via,
 113 poi che gita se n’è la tua famiglia
 114 e molta gente per non esser ria?
+</prompt>
+<result>
+112 О Бретиноро, почему ты не сбежал,
+113 после того, как уехала твоя семья
+114 и многие люди, чтобы не быть злыми?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 115/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 115 Ben fa Bagnacaval, che non rifiglia;
 116 e mal fa Castrocaro, e peggio Conio,
 117 che di figliar tai conti più s’impiglia.
 </prompt>
 <result>
-112 О Бретиноро, почему ты не сбежал,
-113 после того, как уехала твоя семья
-114 и многие люди, чтобы не быть злыми?
-
 115 Хорошо поступает Баньякавал, который не плодится;
 116 и плохо поступает Кастрокаро, и еще хуже Конио,
 117 который больше всего озабочен тем, чтобы рожать таких графов.
@@ -574,16 +653,23 @@ Please translate each line literally into Russian.
 130 Poi fummo fatti soli procedendo,
 131 folgore parve quando l’aere fende,
 132 voce che giunse di contra dicendo:
+</prompt>
+<result>
+130 Затем, когда мы пошли одни,
+131 показалась молния, когда она рассекает воздух,
+132 голос, который донесся с противоположной стороны, говоря:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 133/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 133 ‘Anciderammi qualunque m’apprende’;
 134 e fuggì come tuon che si dilegua,
 135 se sùbito la nuvola scoscende.
 </prompt>
 <result>
-130 Затем, когда мы пошли одни,
-131 показалась молния, когда она рассекает воздух,
-132 голос, который донесся с противоположной стороны, говоря:
-
 133 «Убьют меня, кто бы меня ни схватил»;
 134 и исчез, как гром, который рассеивается,
 135 если облако внезапно рассеивается.
@@ -597,16 +683,23 @@ Please translate each line literally into Russian.
 136 Come da lei l’udir nostro ebbe triegua,
 137 ed ecco l’altra con sì gran fracasso,
 138 che somigliò tonar che tosto segua:
+</prompt>
+<result>
+136 Как только наш слух получил от нее передышку,
+137 и вот другая с таким грохотом,
+138 что походила на гром, который быстро следует:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 139/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
 139 «Io sono Aglauro che divenni sasso»;
 140 e allor, per ristrignermi al poeta,
 141 in destro feci, e non innanzi, il passo.
 </prompt>
 <result>
-136 Как только наш слух получил от нее передышку,
-137 и вот другая с таким грохотом,
-138 что походила на гром, который быстро следует:
-
 139 «Я Аглавра, которая стала камнем»;
 140 и тогда, чтобы прижаться к поэту,
 141 я сделал шаг вправо, а не вперед.
@@ -650,14 +743,21 @@ Please translate each line literally into Russian.
 148 Chiamavi ’l cielo e ’ntorno vi si gira,
 149 mostrandovi le sue bellezze etterne,
 150 e l’occhio vostro pur a terra mira;
-
-151 onde vi batte chi tutto discerne».
 </prompt>
 <result>
 148 Небо зовет вас и кружится вокруг вас,
 149 показывая вам свою вечную красоту,
 150 а ваши глаза все смотрят на землю;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 151/151</info>
+<prompt>
+Please translate each line literally into Russian.
 
+151 onde vi batte chi tutto discerne».
+</prompt>
+<result>
 151 поэтому вас бьет тот, кто все различает».
 </result>
 </query>

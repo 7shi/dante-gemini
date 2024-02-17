@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="41">
+<queries error="0" count="48">
 <query>
 <info>[Inferno Canto 5] 1/142</info>
 <prompt>
@@ -38,16 +38,23 @@ Please translate each line literally into French.
 7 Dico che quando l’anima mal nata
 8 li vien dinanzi, tutta si confessa;
 9 e quel conoscitor de le peccata
+</prompt>
+<result>
+7 Je dis que lorsque l’âme mal née
+8 vient devant lui, elle se confesse entièrement ;
+9 et ce connaisseur des péchés
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 10/142</info>
+<prompt>
+Please translate each line literally into French.
 
 10 vede qual loco d’inferno è da essa;
 11 cignesi con la coda tante volte
 12 quantunque gradi vuol che giù sia messa.
 </prompt>
 <result>
-7 Je dis que lorsque l’âme mal née
-8 vient devant lui, elle se confesse entièrement ;
-9 et ce connaisseur des péchés
-
 10 voit quel lieu de l’enfer lui est destiné ;
 11 il s’enroule de sa queue autant de fois
 12 qu’il veut qu’elle descende de degrés.
@@ -76,33 +83,38 @@ Please translate each line literally into French.
 16 «O tu che vieni al doloroso ospizio»,
 17 disse Minòs a me quando mi vide,
 18 lasciando l’atto di cotanto offizio,
-
-19 «guarda com’ entri e di cui tu ti fide;
-20 non t’inganni l’ampiezza de l’intrare!».
 </prompt>
 <result>
 16 « Ô toi qui viens à la douloureuse hôtellerie »,
 17 me dit Minos quand il me vit,
 18 interrompant l’exercice de son importante fonction :
-
-19 « Prends garde à la façon dont tu entres et à qui tu te confies ;
-20 que l’ampleur de l’entrée ne te trompe pas ! »
 </result>
 </query>
 <query>
-<info>[Inferno Canto 5] 21/142</info>
+<info>[Inferno Canto 5] 19/142</info>
 <prompt>
 Please translate each line literally into French.
 
+19 «guarda com’ entri e di cui tu ti fide;
+20 non t’inganni l’ampiezza de l’intrare!».
 21 E ’l duca mio a lui: «Perché pur gride?
+</prompt>
+<result>
+19 « Prends garde à la façon dont tu entres et à qui tu te confies ;
+20 que l’ampleur de l’entrée ne te trompe pas ! »
+21 Et mon guide lui dit : « Pourquoi cries-tu ainsi ?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 22/142</info>
+<prompt>
+Please translate each line literally into French.
 
 22 Non impedir lo suo fatale andare:
 23 vuolsi così colà dove si puote
 24 ciò che si vuole, e più non dimandare».
 </prompt>
 <result>
-21 Et mon guide lui dit : « Pourquoi cries-tu ainsi ?
-
 22 N’empêche pas sa marche fatale :
 23 c’est ainsi qu’on le veut là où l’on peut
 24 ce que l’on veut, et n’en demande pas plus ».
@@ -191,16 +203,23 @@ Please translate each line literally into French.
 40 E come li stornei ne portan l’ali
 41 nel freddo tempo, a schiera larga e piena,
 42 così quel fiato li spiriti mali
+</prompt>
+<result>
+40 Et comme les étourneaux portent leurs ailes
+41 par temps froid, en une troupe large et compacte,
+42 ainsi ce vent emporte les esprits mauvais
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 43/142</info>
+<prompt>
+Please translate each line literally into French.
 
 43 di qua, di là, di giù, di sù li mena;
 44 nulla speranza li conforta mai,
 45 non che di posa, ma di minor pena.
 </prompt>
 <result>
-40 Et comme les étourneaux portent leurs ailes
-41 par temps froid, en une troupe large et compacte,
-42 ainsi ce vent emporte les esprits mauvais
-
 43 d’ici, de là, d’en bas, d’en haut ;
 44 aucun espoir ne les réconforte jamais,
 45 non pas même celui d’un repos, mais d’une moindre peine.
@@ -214,16 +233,23 @@ Please translate each line literally into French.
 46 E come i gru van cantando lor lai,
 47 faccendo in aere di sé lunga riga,
 48 così vid’ io venir, traendo guai,
+</prompt>
+<result>
+46 Et comme les grues vont chantant leurs lamentations,
+47 faisant dans l’air une longue ligne d’elles-mêmes,
+48 ainsi je vis venir, poussant des cris de douleur,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 49/142</info>
+<prompt>
+Please translate each line literally into French.
 
 49 ombre portate da la detta briga;
 50 per ch’i’ dissi: «Maestro, chi son quelle
 51 genti che l’aura nera sì gastiga?».
 </prompt>
 <result>
-46 Et comme les grues vont chantant leurs lamentations,
-47 faisant dans l’air une longue ligne d’elles-mêmes,
-48 ainsi je vis venir, poussant des cris de douleur,
-
 49 des ombres emportées par ladite tourmente ;
 50 c’est pourquoi je dis : « Maître, qui sont ces
 51 gens que l’air noir châtie ainsi ? »
@@ -253,32 +279,6 @@ Please translate each line literally into French.
 56 che libito fé licito in sua legge,
 57 per tòrre il biasmo in che era condotta.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "55 Elle fut si dépravée par le vice de luxure,\n56 qu’elle rendit le désir licite dans sa loi,\n57 pour ôter le blâme dans lequel elle était tenue."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 55 Elle fut si dépravée par le vice de luxure,
 56 qu’elle rendit le désir licite dans sa loi,
@@ -339,32 +339,6 @@ Please translate each line literally into French.
 68 ombre mostrommi e nominommi a dito,
 69 ch’amor di nostra vita dipartille.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "67 Vois Pâris, Tristan » ; et plus de mille\n68 ombres il me montra et me les désigna du doigt,\n69 que l’amour sépare de notre vie."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 67 Vois Pâris, Tristan » ; et plus de mille
 68 ombres il me montra et me les désigna du doigt,
@@ -439,16 +413,23 @@ Please translate each line literally into French.
 82 Quali colombe dal disio chiamate
 83 con l’ali alzate e ferme al dolce nido
 84 vegnon per l’aere, dal voler portate;
+</prompt>
+<result>
+82 Comme des colombes appelées par le désir
+83 aux ailes déployées et immobiles vers le doux nid
+84 viennent dans l’air, portées par leur volonté ;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 85/142</info>
+<prompt>
+Please translate each line literally into French.
 
 85 cotali uscir de la schiera ov’ è Dido,
 86 a noi venendo per l’aere maligno,
 87 sì forte fu l’affettüoso grido.
 </prompt>
 <result>
-82 Comme des colombes appelées par le désir
-83 aux ailes déployées et immobiles vers le doux nid
-84 viennent dans l’air, portées par leur volonté ;
-
 85 ainsi sortirent-elles de la troupe où est Didon,
 86 venant vers nous à travers l’air malfaisant,
 87 tant fut fort le cri affectueux.
@@ -462,16 +443,23 @@ Please translate each line literally into French.
 88 «O animal grazïoso e benigno
 89 che visitando vai per l’aere perso
 90 noi che tignemmo il mondo di sanguigno,
+</prompt>
+<result>
+88 « Ô créature gracieuse et bienveillante
+89 qui vas en visite dans l’air obscur
+90 nous qui avons teint le monde de sang,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 91/142</info>
+<prompt>
+Please translate each line literally into French.
 
 91 se fosse amico il re de l’universo,
 92 noi pregheremmo lui de la tua pace,
 93 poi c’hai pietà del nostro mal perverso.
 </prompt>
 <result>
-88 « Ô créature gracieuse et bienveillante
-89 qui vas en visite dans l’air obscur
-90 nous qui avons teint le monde de sang,
-
 91 si le roi de l’univers nous était favorable,
 92 nous le prierions de te donner sa paix,
 93 puisque tu as pitié de notre pervers malheur.
@@ -680,59 +668,38 @@ Please translate each line literally into French.
 133 Quando leggemmo il disïato riso
 134 esser basciato da cotanto amante,
 135 questi, che mai da me non fia diviso,
-
-136 la bocca mi basciò tutto tremante.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "133 Lorsque nous lûmes que le sourire désiré\n134 était baisé par un amant si ardent,\n135 celui-ci, qui ne sera jamais séparé de moi,\n\n136 me baisa la bouche tout tremblant."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 133 Lorsque nous lûmes que le sourire désiré
 134 était baisé par un amant si ardent,
 135 celui-ci, qui ne sera jamais séparé de moi,
-
-136 me baisa la bouche tout tremblant.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 5] 137/142</info>
+<info>[Inferno Canto 5] 136/142</info>
 <prompt>
 Please translate each line literally into French.
 
+136 la bocca mi basciò tutto tremante.
 137 Galeotto fu ’l libro e chi lo scrisse:
 138 quel giorno più non vi leggemmo avante».
+</prompt>
+<result>
+136 me baisa la bouche tout tremblant.
+137 Galehaut fut le livre et celui qui l’écrivit :
+138 ce jour-là, nous n’y lûmes pas plus avant ».
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 139/142</info>
+<prompt>
+Please translate each line literally into French.
 
 139 Mentre che l’uno spirto questo disse,
 140 l’altro piangëa; sì che di pietade
 141 io venni men così com’ io morisse.
 </prompt>
 <result>
-137 Galehaut fut le livre et celui qui l’écrivit :
-138 ce jour-là, nous n’y lûmes pas plus avant ».
-
 139 Tandis que l’un des esprits disait cela,
 140 l’autre pleurait ; si bien que de pitié
 141 je défaillis comme si je mourais.

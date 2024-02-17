@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="51">
 <query>
 <info>[Purgatorio Canto 20] 1/151</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into Hungarian.
 4 Mossimi; e ’l duca mio si mosse per li
 5 luoghi spediti pur lungo la roccia,
 6 come si va per muro stretto a’ merli;
+</prompt>
+<result>
+4 Megindultam, és hercegem is elindult mellettem
+5 a sima helyeken, végig a szikla mentén,
+6 ahogy egy keskeny falon a fogak mentén haladunk;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 7/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 7 ché la gente che fonde a goccia a goccia
 8 per li occhi il mal che tutto ’l mondo occupa,
 9 da l’altra parte in fuor troppo s’approccia.
 </prompt>
 <result>
-4 Megindultam, és hercegem is elindult mellettem
-5 a sima helyeken, végig a szikla mentén,
-6 ahogy egy keskeny falon a fogak mentén haladunk;
-
 7 mert az a nép, amely cseppenként ontja
 8 szemén át a rosszat, amely az egész világot elfoglalja,
 9 a túloldalon túlságosan közelít.
@@ -46,66 +53,68 @@ Please translate each line literally into Hungarian.
 10 Maladetta sie tu, antica lupa,
 11 che più che tutte l’altre bestie hai preda
 12 per la tua fame sanza fine cupa!
+</prompt>
+<result>
+10 Légy átkozott, te, ősi nőstényfarkas,
+11 aki minden más vadnál több zsákmányt ejtesz
+12 végtelen, mohó éhségeddel!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 13/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 13 O ciel, nel cui girar par che si creda
 14 le condizion di qua giù trasmutarsi,
 15 quando verrà per cui questa disceda?
+</prompt>
+<result>
+13 Ó, ég, amelynek forgásában úgy tűnik,
+14 hogy az itteni körülmények megváltoznak,
+15 mikor jön el az, aki miatt ez eltűnik?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 16/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 16 Noi andavam con passi lenti e scarsi,
 17 e io attento a l’ombre, ch’i’ sentia
 18 pietosamente piangere e lagnarsi;
+</prompt>
+<result>
+16 Lassan és ritkán haladtunk,
+17 és én figyeltem az árnyékokra, amelyeket hallottam
+18 szánalmasan sírni és jajgatni;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 19/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 19 e per ventura udi’ «Dolce Maria!»
 20 dinanzi a noi chiamar così nel pianto
 21 come fa donna che in parturir sia;
+</prompt>
+<result>
+19 és véletlenül hallottam, hogy „Édes Mária!”
+20 kiált valaki előttünk a sírásban
+21 úgy, ahogy egy nő teszi szülés közben;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 22/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 22 e seguitar: «Povera fosti tanto,
 23 quanto veder si può per quello ospizio
 24 dove sponesti il tuo portato santo».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 Légy átkozott, te, ősi nőstényfarkas,\n11 aki minden más vadnál több zsákmányt ejtesz\n12 végtelen, mohó éhségeddel!\n\n13 Ó, ég, amelynek forgásában úgy tűnik,\n14 hogy az itteni körülmények megváltoznak,\n15 mikor jön el az, aki miatt ez eltűnik?\n\n16 Lassan és ritkán haladtunk,\n17 és én figyeltem az árnyékokra, amelyeket hallottam\n18 szánalmasan sírni és jajgatni;\n\n19 és véletlenül hallottam, hogy „Édes Mária!”\n20 kiált valaki előttünk a sírásban\n21 úgy, ahogy egy nő teszi szülés közben;\n\n22 és folytatta: „Olyan szegény voltál,\n23 amennyire látható abból a szállásból,\n24 ahol megszülted szent gyermekedet”."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-10 Légy átkozott, te, ősi nőstényfarkas,
-11 aki minden más vadnál több zsákmányt ejtesz
-12 végtelen, mohó éhségeddel!
-
-13 Ó, ég, amelynek forgásában úgy tűnik,
-14 hogy az itteni körülmények megváltoznak,
-15 mikor jön el az, aki miatt ez eltűnik?
-
-16 Lassan és ritkán haladtunk,
-17 és én figyeltem az árnyékokra, amelyeket hallottam
-18 szánalmasan sírni és jajgatni;
-
-19 és véletlenül hallottam, hogy „Édes Mária!”
-20 kiált valaki előttünk a sírásban
-21 úgy, ahogy egy nő teszi szülés közben;
-
 22 és folytatta: „Olyan szegény voltál,
 23 amennyire látható abból a szállásból,
 24 ahol megszülted szent gyermekedet”.
@@ -254,24 +263,38 @@ Please translate each line literally into Hungarian.
 52 Figliuol fu’ io d’un beccaio di Parigi:
 53 quando li regi antichi venner meno
 54 tutti, fuor ch’un renduto in panni bigi,
+</prompt>
+<result>
+52 Egy párizsi mészáros fia voltam:
+53 amikor a régi királyok mind elmentek,
+54 kivéve egyet, aki szürke ruhát öltött,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 55/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 55 trova’mi stretto ne le mani il freno
 56 del governo del regno, e tanta possa
 57 di nuovo acquisto, e sì d’amici pieno,
+</prompt>
+<result>
+55 szorosan a kezemben találtam a gyeplőt
+56 a királyság kormányzásához, és olyan nagy hatalmat
+57 szereztem újonnan, és olyan sok barátom volt,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 58/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 58 ch’a la corona vedova promossa
 59 la testa di mio figlio fu, dal quale
 60 cominciar di costor le sacrate ossa.
 </prompt>
 <result>
-52 Egy párizsi mészáros fia voltam:
-53 amikor a régi királyok mind elmentek,
-54 kivéve egyet, aki szürke ruhát öltött,
-
-55 szorosan a kezemben találtam a gyeplőt
-56 a királyság kormányzásához, és olyan nagy hatalmat
-57 szereztem újonnan, és olyan sok barátom volt,
-
 58 hogy az özvegy koronát előléptetve
 59 a fiam fejére tették, akitől
 60 ezeknek a szent csontoknak a sora kezdődött.
@@ -376,32 +399,6 @@ Please translate each line literally into Hungarian.
 80 veggio vender sua figlia e patteggiarne
 81 come fanno i corsar de l’altre schiave.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "79 A másik, aki már hajóval foglyul esett,\n80 látom, hogy eladja a lányát, és alkudozik érte,\n81 ahogy a kalózok teszik a többi rabszolgával."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 79 A másik, aki már hajóval foglyul esett,
 80 látom, hogy eladja a lányát, és alkudozik érte,
@@ -416,16 +413,23 @@ Please translate each line literally into Hungarian.
 82 O avarizia, che puoi tu più farne,
 83 poscia c’ha’ il mio sangue a te sì tratto,
 84 che non si cura de la propria carne?
+</prompt>
+<result>
+82 Ó, kapzsiság, mit tehetsz még,
+83 miután véremet annyira kiszívtad,
+84 hogy saját testéről sem törődik?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 85/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 85 Perché men paia il mal futuro e ’l fatto,
 86 veggio in Alagna intrar lo fiordaliso,
 87 e nel vicario suo Cristo esser catto.
 </prompt>
 <result>
-82 Ó, kapzsiság, mit tehetsz még,
-83 miután véremet annyira kiszívtad,
-84 hogy saját testéről sem törődik?
-
 85 Hogy a jövőbeli és a múltbeli rossz kevésbé fájjon,
 86 látom, hogy Alagna bevonul a liliom,
 87 és helytartójában Krisztus katolikus.
@@ -440,32 +444,6 @@ Please translate each line literally into Hungarian.
 89 veggio rinovellar l’aceto e ’l fiele,
 90 e tra vivi ladroni esser anciso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "88 Újra látom, hogy kigúnyolják;\n89 látom, hogy megújul az ecet és az epe,\n90 és élő rablók között megölik."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 88 Újra látom, hogy kigúnyolják;
 89 látom, hogy megújul az ecet és az epe,
@@ -495,24 +473,38 @@ Please translate each line literally into Hungarian.
 94 O Segnor mio, quando sarò io lieto
 95 a veder la vendetta che, nascosa,
 96 fa dolce l’ira tua nel tuo secreto?
+</prompt>
+<result>
+94 Ó, Uram, mikor leszek boldog,
+95 hogy lássam a bosszút, amely rejtve,
+96 édesíti haragodat titkodban?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 97/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 97 Ciò ch’io dicea di quell’ unica sposa
 98 de lo Spirito Santo e che ti fece
 99 verso me volger per alcuna chiosa,
+</prompt>
+<result>
+97 Amit mondtam arról az egyetlen menyasszonyról,
+98 a Szentlélekről, aki téged
+99 arra késztetett, hogy magyarázatért felém fordulj,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 100/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 100 tanto è risposto a tutte nostre prece
 101 quanto ’l dì dura; ma com’ el s’annotta,
 102 contrario suon prendemo in quella vece.
 </prompt>
 <result>
-94 Ó, Uram, mikor leszek boldog,
-95 hogy lássam a bosszút, amely rejtve,
-96 édesíti haragodat titkodban?
-
-97 Amit mondtam arról az egyetlen menyasszonyról,
-98 a Szentlélekről, aki téged
-99 arra késztetett, hogy magyarázatért felém fordulj,
-
 100 annyira megválaszolják minden imánkat,
 101 amíg a nap tart; de ahogy besötétedik,
 102 ellenkező hangot hallunk helyette.
@@ -526,16 +518,23 @@ Please translate each line literally into Hungarian.
 103 Noi repetiam Pigmalïon allotta,
 104 cui traditore e ladro e paricida
 105 fece la voglia sua de l’oro ghiotta;
+</prompt>
+<result>
+103 Megismételtük Pügmalion sorsát,
+104 akit árulóvá, tolvajvá és gyilkossá
+105 tett az arany utáni mohó vágya;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 106/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 106 e la miseria de l’avaro Mida,
 107 che seguì a la sua dimanda gorda,
 108 per la qual sempre convien che si rida.
 </prompt>
 <result>
-103 Megismételtük Pügmalion sorsát,
-104 akit árulóvá, tolvajvá és gyilkossá
-105 tett az arany utáni mohó vágya;
-
 106 és a fösvény Midasz nyomorúságát,
 107 aki mohó kérését követte,
 108 amelyen mindig is nevetni kell.
@@ -564,16 +563,23 @@ Please translate each line literally into Hungarian.
 112 Indi accusiam col marito Saffira;
 113 lodiam i calci ch’ebbe Elïodoro;
 114 e in infamia tutto ’l monte gira
+</prompt>
+<result>
+112 Ezután vádoljuk férjével együtt Zafírát;
+113 dicsérjük a rúgásokat, amelyeket Heliodórosz kapott;
+114 és az egész hegy gyalázatban forog
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 115/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 115 Polinestòr ch’ancise Polidoro;
 116 ultimamente ci si grida: “Crasso,
 117 dilci, che ’l sai: di che sapore è l’oro?”.
 </prompt>
 <result>
-112 Ezután vádoljuk férjével együtt Zafírát;
-113 dicsérjük a rúgásokat, amelyeket Heliodórosz kapott;
-114 és az egész hegy gyalázatban forog
-
 115 Polümnésztor miatt, aki megölte Polidóroszt;
 116 végül pedig kiáltják nekünk: „Crassus,
 117 mondd meg nekünk, hiszen tudod: milyen íze van az aranynak?”.
@@ -587,16 +593,23 @@ Please translate each line literally into Hungarian.
 118 Talor parla l’uno alto e l’altro basso,
 119 secondo l’affezion ch’ad ir ci sprona
 120 ora a maggiore e ora a minor passo:
+</prompt>
+<result>
+118 Néha az egyik hangosan, a másik halkan beszél,
+119 attól függően, hogy milyen szenvedély sarkall minket,
+120 hol gyorsabban, hol lassabban:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 121/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 121 però al ben che ’l dì ci si ragiona,
 122 dianzi non era io sol; ma qui da presso
 123 non alzava la voce altra persona».
 </prompt>
 <result>
-118 Néha az egyik hangosan, a másik halkan beszél,
-119 attól függően, hogy milyen szenvedély sarkall minket,
-120 hol gyorsabban, hol lassabban:
-
 121 ezért a jóról, amiről napközben beszélünk,
 122 az imént nem voltam egyedül; de itt a közelben
 123 senki más nem emelte fel a hangját».
@@ -610,16 +623,23 @@ Please translate each line literally into Hungarian.
 124 Noi eravam partiti già da esso,
 125 e brigavam di soverchiar la strada
 126 tanto quanto al poder n’era permesso,
+</prompt>
+<result>
+124 Már elindultunk tőle,
+125 és azon fáradoztunk, hogy annyira legyőzzük az utat,
+126 amennyire erőnk engedte,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 127/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 127 quand’ io senti’, come cosa che cada,
 128 tremar lo monte; onde mi prese un gelo
 129 qual prender suol colui ch’a morte vada.
 </prompt>
 <result>
-124 Már elindultunk tőle,
-125 és azon fáradoztunk, hogy annyira legyőzzük az utat,
-126 amennyire erőnk engedte,
-
 127 amikor hallottam, ahogy valami leesik,
 128 és megremeg a hegy; ettől olyan hideg rázott át,
 129 amilyen az embert szokta, aki a halálba megy.
@@ -650,9 +670,9 @@ Please translate each line literally into Hungarian.
 135 dicendo: «Non dubbiar, mentr’ io ti guido».
 </prompt>
 <result>
-133Akkor minden oldalról jajgatás tört ki,
-134úgyhogy a mesterem felém fordult,
-135és azt mondta: „Ne félj, amíg én vezetlek”.
+133 Majd minden oldalról olyan kiáltás tört ki,
+134 hogy a mesterem felém fordult,
+135 mondván: „Ne félj, amíg én vezetlek”.
 </result>
 </query>
 <query>
@@ -665,9 +685,9 @@ Please translate each line literally into Hungarian.
 138 onde intender lo grido si poteo.
 </prompt>
 <result>
-136„Dicsőség a magasságban Istennek” –
-137mondták mindannyian, ahogy a közeliekből megértettem,
-138így lehetett értelmezni a jajgatást.
+136 „Dicsőség a magasságban” mind „Istennek”
+137 mondták, amennyit a közeliekből megértettem,
+138 ahonnan a kiáltás értelme kiderült.
 </result>
 </query>
 <query>
@@ -680,9 +700,9 @@ Please translate each line literally into Hungarian.
 141 fin che ’l tremar cessò ed el compiési.
 </prompt>
 <result>
-139Ott álltunk mozdulatlanul és várakozva,
-140mint a pásztorok, akik először hallották ezt az éneket,
-141amíg a remegés megszűnt, és elcsendesedett.
+139 Álltunk mozdulatlanul és bizonytalanul,
+140 mint a pásztorok, akik először hallották ezt az éneket,
+141 amíg a remegés el nem múlt és el nem csitultak.
 </result>
 </query>
 <query>
@@ -695,9 +715,9 @@ Please translate each line literally into Hungarian.
 144 tornate già in su l’usato pianto.
 </prompt>
 <result>
-142Aztán folytattuk szent utunkat,
-143nézve az árnyékokat, amelyek a földön feküdtek,
-144és már visszatértek megszokott sírásukhoz.
+142 Majd folytattuk szent utunkat,
+143 nézve az árnyékokat, amelyek a földön feküdtek,
+144 már visszatérve megszokott sírásukhoz.
 </result>
 </query>
 <query>
@@ -708,22 +728,37 @@ Please translate each line literally into Hungarian.
 145 Nulla ignoranza mai con tanta guerra
 146 mi fé desideroso di sapere,
 147 se la memoria mia in ciò non erra,
+</prompt>
+<result>
+145 Még sohasem volt tudatlanság annyi háborúval,
+146 mint amennyire én vágytam a tudásra,
+147 hacsak az emlékezetem nem csal ebben.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 148/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 148 quanta pareami allor, pensando, avere;
 149 né per la fretta dimandare er’ oso,
 150 né per me lì potea cosa vedere:
+</prompt>
+<result>
+148 Mennyinek tűnt számomra akkor, amikor gondolkoztam, hogy van;
+149 de a sietségtől nem mertem kérdezni,
+150 és magamtól ott semmit sem láthattam:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 151/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 151 così m’andava timido e pensoso.
 </prompt>
 <result>
-145Még soha semmilyen tudatlanság nem kívántatott meg annyi harccal,
-146hogy megtudjam, hacsak az emlékezetem nem csal ebben,
-
-147mint amennyire akkor úgy tűnt, hogy van bennem, miközben gondolkodtam;
-148de a sietségtől nem mertem kérdezni,
-149és ott magamtól semmit sem láthattam:
-
-150így mentem félénken és elgondolkodva.
+151 így mentem félénken és elgondolkodva.
 </result>
 </query>
 </queries>

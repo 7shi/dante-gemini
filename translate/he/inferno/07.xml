@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries error="0" count="44">
 <query>
 <info>[Inferno Canto 7] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Hebrew.
 1 «Pape Satàn, pape Satàn aleppe!»,
 2 cominciò Pluto con la voce chioccia;
 3 e quel savio gentil, che tutto seppe,
+</prompt>
+<result>
+1 "פאפה שטן, פאפה שטן אלפה!",
+2 החל פלוטו בקולו הצרוד;
+3 והחכם הנבון הזה, שידע הכל,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 4/130</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 4 disse per confortarmi: «Non ti noccia
 5 la tua paura; ché, poder ch’elli abbia,
 6 non ci torrà lo scender questa roccia».
 </prompt>
 <result>
-1 "פאפה שטן, פאפה שטן אלפה!",
-2 החל פלוטו בקולו הצרוד;
-3 והחכם הנבון הזה, שידע הכל,
-
 4 אמר כדי לנחמני: "אל תיתן
 5 לפחדך להזיק לך; כי, כוח שיש לו,
 6 לא ימנע מאיתנו לרדת בסלע הזה".
@@ -32,32 +39,6 @@ Please translate each line literally into Hebrew.
 8 e disse: «Taci, maladetto lupo!
 9 consuma dentro te con la tua rabbia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "7 ואז פנה אל השפתיים הנפוחות האלה,\n8 ואמר: \"שתוק, זאב ארור!\n9 כלה בתוכך את זעמך."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 7 ואז פנה אל השפתיים הנפוחות האלה,
 8 ואמר: "שתוק, זאב ארור!
@@ -117,16 +98,23 @@ Please translate each line literally into Hebrew.
 19 Ahi giustizia di Dio! tante chi stipa
 20 nove travaglie e pene quant’ io viddi?
 21 e perché nostra colpa sì ne scipa?
+</prompt>
+<result>
+19 אה, צדק האל! כמה אנשים דוחסת
+20 צרות ועונשים חדשים כפי שראיתי?
+21 ולמה האשמה שלנו מחסלת אותנו כך?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 22/130</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 22 Come fa l’onda là sovra Cariddi,
 23 che si frange con quella in cui s’intoppa,
 24 così convien che qui la gente riddi.
 </prompt>
 <result>
-19 אה, צדק האל! כמה אנשים דוחסת
-20 צרות ועונשים חדשים כפי שראיתי?
-21 ולמה האשמה שלנו מחסלת אותנו כך?
-
 22 כפי שעושה הגל שם מעל קריבדיס,
 23 שמתנפץ בגל שהוא נתקל בו,
 24 כך חייבת האוכלוסייה כאן להסתובב במעגל.
@@ -170,33 +158,38 @@ Please translate each line literally into Hebrew.
 31 Così tornavan per lo cerchio tetro
 32 da ogne mano a l’opposito punto,
 33 gridandosi anche loro ontoso metro;
-
-34 poi si volgea ciascun, quand’ era giunto,
-35 per lo suo mezzo cerchio a l’altra giostra.
 </prompt>
 <result>
 31 כך הם חזרו דרך המעגל האפל
 32 מכל צד לנקודה הנגדית,
 33 צועקים זה לזה גם מילים מבישות;
-
-34 ואז כל אחד הסתובב, כשהגיע,
-35 דרך חצי המעגל שלו לתחרות האחרת.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 36/130</info>
+<info>[Inferno Canto 7] 34/130</info>
 <prompt>
 Please translate each line literally into Hebrew.
 
+34 poi si volgea ciascun, quand’ era giunto,
+35 per lo suo mezzo cerchio a l’altra giostra.
 36 E io, ch’avea lo cor quasi compunto,
+</prompt>
+<result>
+34 ואז כל אחד הסתובב, כשהגיע,
+35 דרך חצי המעגל שלו לתחרות האחרת.
+36 ואני, שהלב שלי היה כמעט שבור,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 37/130</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 37 dissi: «Maestro mio, or mi dimostra
 38 che gente è questa, e se tutti fuor cherci
 39 questi chercuti a la sinistra nostra».
 </prompt>
 <result>
-36 ואני, שהלב שלי היה כמעט שבור,
-
 37 אמרתי: "מורי, עכשיו תראה לי
 38 איזה אנשים אלה, ואם כולם היו כמרים
 39 אלה עם הכתר בצד שמאל שלנו".
@@ -315,16 +308,23 @@ Please translate each line literally into Hebrew.
 61 Or puoi, figliuol, veder la corta buffa
 62 d’i ben che son commessi a la fortuna,
 63 per che l’umana gente si rabbuffa;
+</prompt>
+<result>
+61 עכשיו אתה יכול, בני, לראות את המהומה הקצרה
+62 של הטוב שמופקד בידי המזל,
+63 בגללו האנושות מתקוטטת;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 64/130</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 64 ché tutto l’oro ch’è sotto la luna
 65 e che già fu, di quest’ anime stanche
 66 non poterebbe farne posare una».
 </prompt>
 <result>
-61 עכשיו אתה יכול, בני, לראות את המהומה הקצרה
-62 של הטוב שמופקד בידי המזל,
-63 בגללו האנושות מתקוטטת;
-
 64 כי כל הזהב שנמצא מתחת לירח
 65 ושהיה אי פעם, לא יוכל
 66 לגרום לאחת מהנשמות העייפות האלה לנוח.
@@ -354,32 +354,6 @@ Please translate each line literally into Hebrew.
 71 quanta ignoranza è quella che v’offende!
 72 Or vo’ che tu mia sentenza ne ’mbocche.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 ואלה אליי: \"הו יצורים טיפשים,\n71 כמה בורות זה שפוגע בכם!\n72 עכשיו אני רוצה שתכניס את המשפט שלי לפה שלך."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 70 ואלה אליי: "הו יצורים טיפשים,
 71 כמה בורות זה שפוגע בכם!
@@ -394,41 +368,53 @@ Please translate each line literally into Hebrew.
 73 Colui lo cui saver tutto trascende,
 74 fece li cieli e diè lor chi conduce
 75 sì, ch’ogne parte ad ogne parte splende,
-
-76 distribuendo igualmente la luce.
 </prompt>
 <result>
 73 הוא שידיעתו עולה על הכל,
 74 עשה את השמיים ונתן להם מי שמוביל אותם
 75 כך, שכל חלק זורח לכל חלק,
-
-76 מחלק את האור באופן שווה.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 77/130</info>
+<info>[Inferno Canto 7] 76/130</info>
 <prompt>
 Please translate each line literally into Hebrew.
 
+76 distribuendo igualmente la luce.
 77 Similemente a li splendor mondani
 78 ordinò general ministra e duce
+</prompt>
+<result>
+76 מחלק את האור באופן שווה.
+77 באופן דומה לזוהר העולמי
+78 הוא מינה שר ומנהיג כללי
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 79/130</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 79 che permutasse a tempo li ben vani
 80 di gente in gente e d’uno in altro sangue,
 81 oltre la difension d’i senni umani;
+</prompt>
+<result>
+79 שיחליף בזמן את הטובים השוואים
+80 מאדם לאדם ומדם אחד לאחר,
+81 מעבר להגנה על החושים האנושיים;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 82/130</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 82 per ch’una gente impera e l’altra langue,
 83 seguendo lo giudicio di costei,
 84 che è occulto come in erba l’angue.
 </prompt>
 <result>
-77 באופן דומה לזוהר העולמי
-78 הוא מינה שר ומנהיג כללי
-
-79 שיחליף בזמן את הטובים השוואים
-80 מאדם לאדם ומדם אחד לאחר,
-81 מעבר להגנה על החושים האנושיים;
-
 82 ולכן עם אחד שולט והאחר סובל,
 83 בעקבות שיפוטה של זו,
 84 שהוא נסתר כמו נחש בעשב.
@@ -472,16 +458,23 @@ Please translate each line literally into Hebrew.
 91 Quest’ è colei ch’è tanto posta in croce
 92 pur da color che le dovrien dar lode,
 93 dandole biasmo a torto e mala voce;
+</prompt>
+<result>
+91 זו היא זו שכל כך נצלב
+92 דווקא על ידי אלה שהיו צריכים לשבח אותה,
+93 נותנים לה אשמה שלא בצדק וקול רע;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 94/130</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 94 ma ella s’è beata e ciò non ode:
 95 con l’altre prime creature lieta
 96 volve sua spera e beata si gode.
 </prompt>
 <result>
-91 זו היא זו שכל כך נצלב
-92 דווקא על ידי אלה שהיו צריכים לשבח אותה,
-93 נותנים לה אשמה שלא בצדק וקול רע;
-
 94 אבל היא מאושרת ואינה שומעת זאת:
 95 עם שאר היצורים הראשונים השמחים
 96 היא מסובבת את כדור הארץ שלה ונהנית מאושר.
@@ -556,32 +549,6 @@ Please translate each line literally into Hebrew.
 110 vidi genti fangose in quel pantano,
 111 ignude tutte, con sembiante offeso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 ואני, שעמדתי להסתכל בכוונה,\n110 ראיתי אנשים בוציים בביצה הזו,\n111 כולם עירומים, עם מראה פגוע."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 109 ואני, שעמדתי להסתכל בכוונה,
 110 ראיתי אנשים בוציים בביצה הזו,
@@ -597,32 +564,6 @@ Please translate each line literally into Hebrew.
 113 ma con la testa e col petto e coi piedi,
 114 troncandosi co’ denti a brano a brano.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "112 אלה מכים זו את זו לא רק ביד,\n113 אלא בראש ובחזה וברגליים,\n114 קורעות זו את זו בשיניים לחתיכות."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 112 אלה מכים זו את זו לא רק ביד,
 113 אלא בראש ובחזה וברגליים,
@@ -637,16 +578,23 @@ Please translate each line literally into Hebrew.
 115 Lo buon maestro disse: «Figlio, or vedi
 116 l’anime di color cui vinse l’ira;
 117 e anche vo’ che tu per certo credi
+</prompt>
+<result>
+115 המורה הטוב אמר: "בני, עכשיו אתה רואה
+116 את נשמותיהם של אלה שהכעס ניצח אותם;
+117 וגם אני רוצה שתאמין בוודאות
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 118/130</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 118 che sotto l’acqua è gente che sospira,
 119 e fanno pullular quest’ acqua al summo,
 120 come l’occhio ti dice, u’ che s’aggira.
 </prompt>
 <result>
-115 המורה הטוב אמר: "בני, עכשיו אתה רואה
-116 את נשמותיהם של אלה שהכעס ניצח אותם;
-117 וגם אני רוצה שתאמין בוודאות
-
 118 שמתחת למים יש אנשים נאנחים,
 119 והם גורמים למים האלה לבעבע למעלה,
 120 כפי שהעין שלך אומרת לך, איפה שהם מסתובבים.
@@ -660,33 +608,38 @@ Please translate each line literally into Hebrew.
 121 Fitti nel limo dicon: “Tristi fummo
 122 ne l’aere dolce che dal sol s’allegra,
 123 portando dentro accidïoso fummo:
-
-124 or ci attristiam ne la belletta negra”.
 </prompt>
 <result>
 121 שקועים בבוץ הם אומרים: "עצובים היינו
 122 באוויר המתוק ששמח מהשמש,
 123 נושאים בתוכנו עשן עצל:
-
-124 עכשיו אנחנו עצובים בקוסמטיקה השחורה".
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 125/130</info>
+<info>[Inferno Canto 7] 124/130</info>
 <prompt>
 Please translate each line literally into Hebrew.
 
+124 or ci attristiam ne la belletta negra”.
 125 Quest’ inno si gorgoglian ne la strozza,
 126 ché dir nol posson con parola integra».
+</prompt>
+<result>
+124 עכשיו אנחנו עצובים בקוסמטיקה השחורה".
+125 הם מגרגרים את ההמנון הזה בגרון,
+126 כי הם לא יכולים לומר אותו במילה שלמה".
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 127/130</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 127 Così girammo de la lorda pozza
 128 grand’ arco tra la ripa secca e ’l mézzo,
 129 con li occhi vòlti a chi del fango ingozza.
 </prompt>
 <result>
-125 הם מגרגרים את ההמנון הזה בגרון,
-126 כי הם לא יכולים לומר אותו במילה שלמה".
-
 127 כך הקפנו את הבריכה המלוכלכת
 128 קשת גדולה בין הגדה היבשה לאמצע,
 129 עם העיניים מופנות למי שמתמלא בבוץ.

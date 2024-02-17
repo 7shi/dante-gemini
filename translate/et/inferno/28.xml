@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries count="48">
 <query>
 <info>[Inferno Canto 28] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Estonian.
 1 Chi poria mai pur con parole sciolte
 2 dicer del sangue e de le piaghe a pieno
 3 ch’i’ ora vidi, per narrar più volte?
+</prompt>
+<result>
+1 Kes suudaks ometi vabade sõnadega
+2 rääkida täielikult verest ja haavadest,
+3 mida ma nüüd nägin, et seda korduvalt jutustada?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 4/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 4 Ogne lingua per certo verria meno
 5 per lo nostro sermone e per la mente
 6 c’hanno a tanto comprender poco seno.
 </prompt>
 <result>
-1 Kes suudaks ometi vabade sõnadega
-2 rääkida täielikult verest ja haavadest,
-3 mida ma nüüd nägin, et seda korduvalt jutustada?
-
 4 Kindlasti jääks iga keel hääletuks
 5 meie kõne ja mõistuse tõttu,
 6 millel on nii vähe võimet seda kõike mõista.
@@ -31,42 +38,71 @@ Please translate each line literally into Estonian.
 7 S’el s’aunasse ancor tutta la gente
 8 che già, in su la fortunata terra
 9 di Puglia, fu del suo sangue dolente
+</prompt>
+<result>
+7 Kui ennast siia koguks kogu rahvas,
+8 kes kunagi õnnelikul Puglia maal
+9 oma vere pärast leinas oli
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 10/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 10 per li Troiani e per la lunga guerra
 11 che de l’anella fé sì alte spoglie,
 12 come Livïo scrive, che non erra,
+</prompt>
+<result>
+10 troojalaste ja pika sõja pärast,
+11 mis rõngastest tegi nii kõrged saagi,
+12 nagu Livius kirjutab, kes ei eksi,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 13/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 13 con quella che sentio di colpi doglie
 14 per contastare a Ruberto Guiscardo;
 15 e l’altra il cui ossame ancor s’accoglie
+</prompt>
+<result>
+13 sellega, kes tundis valu löökidest,
+14 et võidelda Roberto Guiscardiga;
+15 ja teine, kelle luud on veel kogutud
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 16/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 16 a Ceperan, là dove fu bugiardo
 17 ciascun Pugliese, e là da Tagliacozzo,
 18 dove sanz’ arme vinse il vecchio Alardo;
+</prompt>
+<result>
+16 Ceperanos, kus iga puglialane oli valelik,
+17 ja seal Tagliacozzos,
+18 kus vana Alardo võitis ilma relvadeta;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 19/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 19 e qual forato suo membro e qual mozzo
 20 mostrasse, d’aequar sarebbe nulla
 21 il modo de la nona bolgia sozzo.
 </prompt>
 <result>
-7 Kui koguneks siia kogu rahvas,
-8 kes kunagi õnnelikul Puglia maal
-9 oma vere pärast leinas
-
-10 troojalaste ja pika sõja tõttu,
-11 mis tegi sõrmustest nii kõrged trofeed,
-12 nagu kirjutab Livius, kes ei eksi,
-
-13 koos selle rahvaga, kes tundis löökide valu,
-14 et võidelda Roberto Guiscardo vastu;
-15 ja teine rahvas, kelle luud on veel kogutud
-
-16 Ceperanos, kus iga puglialane oli valelik,
-17 ja seal Tagliacozzos, kus vana Alardo võitis ilma relvadeta;
-
-18 ja kui näidata, kes oma kehaosa läbi torgatud ja kes maha raiutud,
-19 siis ei suudaks ükski viis võrrelda
-20 sellega räpase üheksanda ringi olukorda.
+19 ja kes näitas oma läbi torgatud ja kes maha raiutud jäset,
+20 oleks võrdne mitte millegagi
+21 räpase üheksanda ringi viisiga.
 </result>
 </query>
 <query>
@@ -78,32 +114,6 @@ Please translate each line literally into Estonian.
 23 com’ io vidi un, così non si pertugia,
 24 rotto dal mento infin dove si trulla.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "22 Juba näen, et kaotada pool pead või aju,\n23 nagu ma üht nägin, ei saa nii läbi augustada,\n24 lõhki rebenenud lõuast kuni sinna, kus see keeb."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 22 Juba näen, et kaotada pool pead või aju,
 23 nagu ma üht nägin, ei saa nii läbi augustada,
@@ -133,16 +143,23 @@ Please translate each line literally into Estonian.
 28 Mentre che tutto in lui veder m’attacco,
 29 guardommi e con le man s’aperse il petto,
 30 dicendo: «Or vedi com’ io mi dilacco!
+</prompt>
+<result>
+28 Kui ma teda täielikult vaatasin,
+29 vaatas ta mind ja avas kätega oma rinna,
+30 öeldes: „Vaata nüüd, kuidas ma end rebin!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 31/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 31 vedi come storpiato è Mäometto!
 32 Dinanzi a me sen va piangendo Alì,
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
 <result>
-28 Kui ma teda täielikult vaatasin,
-29 vaatas ta mind ja avas kätega oma rinna,
-30 öeldes: „Vaata nüüd, kuidas ma end rebin!
-
 31 Vaata, kui moonutatud on Muhamed!
 32 Minu ees läheb Ali nuttes,
 33 lõhestunud näos lõuast kuklani.
@@ -171,42 +188,23 @@ Please translate each line literally into Estonian.
 37 Un diavolo è qua dietro che n’accisma
 38 sì crudelmente, al taglio de la spada
 39 rimettendo ciascun di questa risma,
+</prompt>
+<result>
+37 Üks kuraditest on siin taga, kes neid tapab
+38 nii julmalt, mõõgahoobiga
+39 saates igaühe sellest salgast tagasi,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 40/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 40 quand’ avem volta la dolente strada;
 41 però che le ferite son richiuse
 42 prima ch’altri dinanzi li rivada.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 Üks kuraditest on siin taga, kes neid tapab\n38 nii julmalt, mõõgahoobiga\n39 saates igaühe sellest salgast tagasi,\n\n40 kui oleme pööranud valusa tee;\n41 sest haavad paranevad\n42 enne, kui keegi teine nende juurde jõuab."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-37 Üks kuraditest on siin taga, kes neid tapab
-38 nii julmalt, mõõgahoobiga
-39 saates igaühe sellest salgast tagasi,
-
 40 kui oleme pööranud valusa tee;
 41 sest haavad paranevad
 42 enne, kui keegi teine nende juurde jõuab.
@@ -235,16 +233,23 @@ Please translate each line literally into Estonian.
 46 «Né morte ’l giunse ancor, né colpa ’l mena»,
 47 rispuose ’l mio maestro, «a tormentarlo;
 48 ma per dar lui esperïenza piena,
+</prompt>
+<result>
+46 «Ei surm ega süü teda veel tabanud»,
+47 vastas mu õpetaja, «et teda piinata;
+48 vaid et anda talle täielik kogemus,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 49/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 49 a me, che morto son, convien menarlo
 50 per lo ’nferno qua giù di giro in giro;
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
 <result>
-46 «Ei surm ega süü teda veel tabanud»,
-47 vastas mu õpetaja, «et teda piinata;
-48 vaid et anda talle täielik kogemus,
-
 49 pean mina, kes ma surnud olen, ta siia allapoole põrgusse viima
 50 ringist ringi;
 51 ja see on tõsi, nõnda nagu ma sulle räägin».
@@ -273,16 +278,23 @@ Please translate each line literally into Estonian.
 55 «Or dì a fra Dolcin dunque che s’armi,
 56 tu che forse vedra’ il sole in breve,
 57 s’ello non vuol qui tosto seguitarmi,
+</prompt>
+<result>
+55 «Ütle nüüd vend Dolcinole, et ta relvastugu,
+56 sina, kes sa ehk näed varsti päikest,
+57 kui ta ei taha siia ruttu mind järgida,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 58/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 58 sì di vivanda, che stretta di neve
 59 non rechi la vittoria al Noarese,
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55 «Ütle nüüd vend Dolcinole, et ta relvastugu,
-56 sina, kes sa ehk näed varsti päikest,
-57 kui ta ei taha siia ruttu mind järgida,
-
 58 nii toiduga, et lumekitsikus
 59 ei tooks võitu noareslastele,
 60 sest muidu ei oleks seda kerge saavutada».
@@ -311,32 +323,53 @@ Please translate each line literally into Estonian.
 64 Un altro, che forata avea la gola
 65 e tronco ’l naso infin sotto le ciglia,
 66 e non avea mai ch’una orecchia sola,
+</prompt>
+<result>
+64 Teine, kelle kurk oli läbi torgatud
+65 ja nina ära lõigatud kuni ripsmeteni,
+66 ja kellel polnud kunagi rohkem kui üks kõrv,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 67/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 67 ristato a riguardar per maraviglia
 68 con li altri, innanzi a li altri aprì la canna,
 69 ch’era di fuor d’ogne parte vermiglia,
+</prompt>
+<result>
+67 jäi teistega koos imestusest seisma,
+68 avas teistest eespool oma kõri,
+69 mis oli väljastpoolt kõikjal punane,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 70/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 70 e disse: «O tu cui colpa non condanna
 71 e cu’ io vidi su in terra latina,
 72 se troppa simiglianza non m’inganna,
+</prompt>
+<result>
+70 ja ütles: «Oo sina, keda süü ei mõista hukka
+71 ja keda ma nägin seal üleval Ladinamaal,
+72 kui liigne sarnasus mind ei peta,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 73/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 73 rimembriti di Pier da Medicina,
 74 se mai torni a veder lo dolce piano
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64 Teine, kelle kurk oli läbi torgatud
-65 ja nina ära lõigatud kuni ripsmeteni,
-66 ja kellel polnud kunagi rohkem kui üks kõrv,
-
-67 jäi teistega koos imestusest seisma,
-68 avas teistest eespool oma kõri,
-69 mis oli väljastpoolt kõikjal punane,
-
-70 ja ütles: «Oo sina, keda süü ei mõista hukka
-71 ja keda ma nägin seal üleval Ladinamaal,
-72 kui liigne sarnasus mind ei peta,
-
 73 tuleta meelde Pier da Medicinat,
 74 kui sa kunagi tagasi näed seda armsat tasandikku,
 75 mis Vercellist Marcabò poole laskub.
@@ -350,16 +383,23 @@ Please translate each line literally into Estonian.
 76 E fa saper a’ due miglior da Fano,
 77 a messer Guido e anco ad Angiolello,
 78 che, se l’antiveder qui non è vano,
+</prompt>
+<result>
+76 Ja anna teada kahele parimale Fanost,
+77 messer Guidole ja ka Angiolellole,
+78 et kui nende siin ettenägemine ei ole asjata,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 79/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 79 gittati saran fuor di lor vasello
 80 e mazzerati presso a la Cattolica
 81 per tradimento d’un tiranno fello.
 </prompt>
 <result>
-76 Ja anna teada kahele parimale Fanost,
-77 messer Guidole ja ka Angiolellole,
-78 et kui nende siin ettenägemine ei ole asjata,
-
 79 visatakse nad nende laevalt välja
 80 ja tapetakse Cattolica lähedal
 81 ühe julma türanni reetmise tõttu.
@@ -388,16 +428,23 @@ Please translate each line literally into Estonian.
 85 Quel traditor che vede pur con l’uno,
 86 e tien la terra che tale qui meco
 87 vorrebbe di vedere esser digiuno,
+</prompt>
+<result>
+85 See reetur, kes näeb vaid ühe silmaga,
+86 ja valdab maad, mida selline siin koos minuga
+87 tahaks näha näljasena,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 88/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 88 farà venirli a parlamento seco;
 89 poi farà sì, ch’al vento di Focara
 90 non sarà lor mestier voto né preco».
 </prompt>
 <result>
-85 See reetur, kes näeb vaid ühe silmaga,
-86 ja valdab maad, mida selline siin koos minuga
-87 tahaks näha näljasena,
-
 88 paneb nad endaga läbirääkimisi pidama;
 89 seejärel teeb ta nii, et Focara tuules
 90 ei ole neil vaja ei palvet ega lunaraha».
@@ -443,8 +490,9 @@ Please translate each line literally into Estonian.
 99 sempre con danno l’attender sofferse».
 </prompt>
 <result>
-97 See pagendatu uputas Caesarisse kahtluse,
-98 kinnitades, et valmisolek kannatas alati kahju oodates».
+97 See kahtluse väljaajamine uputas
+98 Caesari sisse, kinnitades, et
+99 ta kannatas alati ootamisest kahju».
 </result>
 </query>
 <query>
@@ -455,24 +503,38 @@ Please translate each line literally into Estonian.
 100 Oh quanto mi pareva sbigottito
 101 con la lingua tagliata ne la strozza
 102 Curïo, ch’a dir fu così ardito!
+</prompt>
+<result>
+100 Oh, kui kohkunud tundus mulle
+101 keelega, mis oli tal kurgus ära lõigatud,
+102 Curius, kes oli nii julge seda ütlema!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 103/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 103 E un ch’avea l’una e l’altra man mozza,
 104 levando i moncherin per l’aura fosca,
 105 sì che ’l sangue facea la faccia sozza,
+</prompt>
+<result>
+103 Ja üks, kellel olid mõlemad käed ära lõigatud,
+104 tõstes oma käejäänuseid läbi pimeda õhu,
+105 nii et veri tegi ta näo määrdunuks,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 106/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 106 gridò: «Ricordera’ti anche del Mosca,
 107 che disse, lasso!, “Capo ha cosa fatta”,
 108 che fu mal seme per la gente tosca».
 </prompt>
 <result>
-100 Oh, kui kohkunud tundus mulle
-101 keelega, mis oli tal kurgus ära lõigatud,
-102 Curius, kes oli nii julge seda ütlema!
-
-103 Ja üks, kellel olid mõlemad käed ära lõigatud,
-104 tõstes oma käejäänuseid läbi pimeda õhu,
-105 nii et veri tegi ta näo määrdunuks,
-
 106 hüüdis: «Pea meeles ka Moscat,
 107 kes ütles, oh häda!, “Tehtud asi on pea”,
 108 mis oli halb seeme toska rahvale».
@@ -501,16 +563,23 @@ Please translate each line literally into Estonian.
 112 Ma io rimasi a riguardar lo stuolo,
 113 e vidi cosa ch’io avrei paura,
 114 sanza più prova, di contarla solo;
+</prompt>
+<result>
+112 Aga mina jäin vaatama seda salka
+113 ja nägin asju, mida ma kardaksin
+114 ilma rohkemate tõenditeta üksi rääkida;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 115/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 115 se non che coscïenza m’assicura,
 116 la buona compagnia che l’uom francheggia
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112 Aga mina jäin vaatama seda salka
-113 ja nägin asju, mida ma kardaksin
-114 ilma rohkemate tõenditeta üksi rääkida;
-
 115 kui vaid südametunnistus mind ei kinnitaks,
 116 hea seltskond, mis vabastab inimese
 117 teadmise all, et ta on puhas.
@@ -524,16 +593,23 @@ Please translate each line literally into Estonian.
 118 Io vidi certo, e ancor par ch’io ’l veggia,
 119 un busto sanza capo andar sì come
 120 andavan li altri de la trista greggia;
+</prompt>
+<result>
+118 Ma nägin kindlasti, ja tundub, et ma näen seda siiani,
+119 ühte peavaba keha kõndimas nii nagu
+120 kõndisid teised sellest kurvast karjast;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 121/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 121 e ’l capo tronco tenea per le chiome,
 122 pesol con mano a guisa di lanterna:
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118 Ma nägin kindlasti, ja tundub, et ma näen seda siiani,
-119 ühte peavaba keha kõndimas nii nagu
-120 kõndisid teised sellest kurvast karjast;
-
 121 ja ta hoidis oma ära lõigatud pead juustest,
 122 kandes seda käes nagu laternat:
 123 ja see vaatas meie poole ja ütles: «Oh mina!».
@@ -562,16 +638,23 @@ Please translate each line literally into Estonian.
 127 Quando diritto al piè del ponte fue,
 128 levò ’l braccio alto con tutta la testa
 129 per appressarne le parole sue,
+</prompt>
+<result>
+127 Kui ta oli otse silla juures,
+128 tõstis ta kõrgele käe koos kogu peaga,
+129 et tuua oma sõnad meile lähemale,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 130/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 130 che fuoro: «Or vedi la pena molesta,
 131 tu che, spirando, vai veggendo i morti:
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127 Kui ta oli otse silla juures,
-128 tõstis ta kõrgele käe koos kogu peaga,
-129 et tuua oma sõnad meile lähemale,
-
 130 mis olid: «Vaata nüüd seda piinavat karistust,
 131 sina, kes hingates käid surnuid vaatamas:
 132 vaata, kas ükski on sama suur kui see.

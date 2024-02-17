@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries error="0" count="39">
 <query>
 <info>[Inferno Canto 6] 1/115</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Bengali.
 1 Al tornar de la mente, che si chiuse
 2 dinanzi a la pietà d’i due cognati,
 3 che di trestizia tutto mi confuse,
+</prompt>
+<result>
+1 যখন আমার মন ফিরে এল, যা বন্ধ হয়ে গিয়েছিল
+2 দুই ভাইয়ের করুণার সামনে,
+3 যা আমাকে দুঃখে সম্পূর্ণরূপে বিভ্রান্ত করেছিল,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 4/115</info>
+<prompt>
+Please translate each line literally into Bengali.
 
 4 novi tormenti e novi tormentati
 5 mi veggio intorno, come ch’io mi mova
 6 e ch’io mi volga, e come che io guati.
 </prompt>
 <result>
-1 যখন আমার মন ফিরে এল, যা বন্ধ হয়ে গিয়েছিল
-2 দুই ভাইয়ের করুণার সামনে,
-3 যা আমাকে দুঃখে সম্পূর্ণরূপে বিভ্রান্ত করেছিল,
-
 4 নতুন যন্ত্রণা এবং নতুন যন্ত্রণাপ্রাপ্তরা
 5 আমার চারপাশে দেখা যায়, যেমন আমি চলি
 6 এবং আমি ঘুরি, এবং আমি যেমন তাকাই।
@@ -136,16 +143,23 @@ Please translate each line literally into Bengali.
 28 Qual è quel cane ch’abbaiando agogna,
 29 e si racqueta poi che ’l pasto morde,
 30 ché solo a divorarlo intende e pugna,
+</prompt>
+<result>
+28 সেই কুকুরটি কেমন যা ডেকে চায়,
+29 এবং যখন সে খাবার কামড়ায় তখন শান্ত হয়,
+30 কারণ শুধুমাত্র তা খেয়ে ফেলার জন্য সে মনোযোগ দেয় এবং লড়াই করে,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 31/115</info>
+<prompt>
+Please translate each line literally into Bengali.
 
 31 cotai si fecer quelle facce lorde
 32 de lo demonio Cerbero, che ’ntrona
 33 l’anime sì, ch’esser vorrebber sorde.
 </prompt>
 <result>
-28 সেই কুকুরটি কেমন যা ডেকে চায়,
-29 এবং যখন সে খাবার কামড়ায় তখন শান্ত হয়,
-30 কারণ শুধুমাত্র তা খেয়ে ফেলার জন্য সে মনোযোগ দেয় এবং লড়াই করে,
-
 31 সেই নোংরা মুখগুলোও তেমনই হয়েছিল
 32 দানব সেরবেরাসের, যে আত্মাদের এমনভাবে গিলে ফেলে
 33 যে তারা বধির হতে চায়।
@@ -279,16 +293,23 @@ Please translate each line literally into Bengali.
 58 Io li rispuosi: «Ciacco, il tuo affanno
 59 mi pesa sì, ch’a lagrimar mi ’nvita;
 60 ma dimmi, se tu sai, a che verranno
+</prompt>
+<result>
+58 আমি তাকে উত্তর দিলাম: "সিয়াক্কো, তোমার দুঃখ
+59 আমাকে এতটাই ভারী করেছে যে তা আমাকে কাঁদতে উদ্বুদ্ধ করে;
+60 কিন্তু আমাকে বলো, যদি তুমি জানো, কী হবে
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 61/115</info>
+<prompt>
+Please translate each line literally into Bengali.
 
 61 li cittadin de la città partita;
 62 s’alcun v’è giusto; e dimmi la cagione
 63 per che l’ha tanta discordia assalita».
 </prompt>
 <result>
-58 আমি তাকে উত্তর দিলাম: "সিয়াক্কো, তোমার দুঃখ
-59 আমাকে এতটাই ভারী করেছে যে তা আমাকে কাঁদতে উদ্বুদ্ধ করে;
-60 কিন্তু আমাকে বলো, যদি তুমি জানো, কী হবে
-
 61 বিভক্ত শহরের নাগরিকদের;
 62 যদি কেউ ন্যায়পরায়ণ থাকে; এবং আমাকে কারণ বলো
 63 কেন এত বিবাদ তাদের আক্রমণ করেছে"।
@@ -303,32 +324,6 @@ Please translate each line literally into Bengali.
 65 verranno al sangue, e la parte selvaggia
 66 caccerà l’altra con molta offensione.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "64 এবং সে আমাকে বলল: \"দীর্ঘদিনের তর্কের পর\n65 তারা রক্তপাতে আসবে, এবং বর্বর দল\n66 অন্য দলকে অনেক অপমানের সাথে বিতাড়িত করবে।"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 64 এবং সে আমাকে বলল: "দীর্ঘদিনের তর্কের পর
 65 তারা রক্তপাতে আসবে, এবং বর্বর দল
@@ -403,16 +398,23 @@ Please translate each line literally into Bengali.
 79 Farinata e ’l Tegghiaio, che fuor sì degni,
 80 Iacopo Rusticucci, Arrigo e ’l Mosca
 81 e li altri ch’a ben far puoser li ’ngegni,
+</prompt>
+<result>
+79 ফারিনাটা এবং টেগিয়াইও, যারা এতই মর্যাদাপূর্ণ ছিল,
+80 জ্যাকোপো রাস্টিকুচি, আরিগো এবং মস্কা
+81 এবং অন্যরা যারা তাদের বুদ্ধিমত্তা ভালো কাজে লাগিয়েছিল,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 82/115</info>
+<prompt>
+Please translate each line literally into Bengali.
 
 82 dimmi ove sono e fa ch’io li conosca;
 83 ché gran disio mi stringe di savere
 84 se ’l ciel li addolcia o lo ’nferno li attosca».
 </prompt>
 <result>
-79 ফারিনাটা এবং টেগিয়াইও, যারা এতই মর্যাদাপূর্ণ ছিল,
-80 জ্যাকোপো রাস্টিকুচি, আরিগো এবং মস্কা
-81 এবং অন্যরা যারা তাদের বুদ্ধিমত্তা ভালো কাজে লাগিয়েছিল,
-
 82 আমাকে বলো তারা কোথায় আছে এবং আমাকে তাদের চিনতে দাও;
 83 কারণ আমার মধ্যে জানার জন্য একটি দুর্দান্ত আকাঙ্ক্ষা রয়েছে
 84 স্বর্গ তাদের মিষ্টি করেছে নাকি নরক তাদের বিষাক্ত করেছে"।
@@ -427,32 +429,6 @@ Please translate each line literally into Bengali.
 86 diverse colpe giù li grava al fondo:
 87 se tanto scendi, là i potrai vedere.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "85 এবং সে বলল: \"তারা সবচেয়ে কালো আত্মাদের মধ্যে রয়েছে;\n86 বিভিন্ন অপরাধ তাদেরকে নীচে চাপা দিয়েছে:\n87 যদি তুমি এতটা নিচে নামো, তবে তুমি তাদের সেখানে দেখতে পাবে।"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 85 এবং সে বলল: "তারা সবচেয়ে কালো আত্মাদের মধ্যে রয়েছে;
 86 বিভিন্ন অপরাধ তাদেরকে নীচে চাপা দিয়েছে:
@@ -497,16 +473,23 @@ Please translate each line literally into Bengali.
 94 E ’l duca disse a me: «Più non si desta
 95 di qua dal suon de l’angelica tromba,
 96 quando verrà la nimica podesta:
+</prompt>
+<result>
+94 এবং নেতা আমাকে বললেন: "এখান থেকে আর কেউ জাগবে না
+95 দেবদূতের তূর্যের শব্দ ছাড়া,
+96 যখন শত্রু শক্তি আসবে:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 97/115</info>
+<prompt>
+Please translate each line literally into Bengali.
 
 97 ciascun rivederà la trista tomba,
 98 ripiglierà sua carne e sua figura,
 99 udirà quel ch’in etterno rimbomba».
 </prompt>
 <result>
-94 এবং নেতা আমাকে বললেন: "এখান থেকে আর কেউ জাগবে না
-95 দেবদূতের তূর্যের শব্দ ছাড়া,
-96 যখন শত্রু শক্তি আসবে:
-
 97 প্রত্যেকেই তার দুঃখজনক সমাধি দেখবে,
 98 তার মাংস এবং তার চেহারা ফিরে পাবে,
 99 সে শুনবে যা অনন্তকাল ধরে প্রতিধ্বনিত হয়"।
@@ -520,16 +503,23 @@ Please translate each line literally into Bengali.
 100 Sì trapassammo per sozza mistura
 101 de l’ombre e de la pioggia, a passi lenti,
 102 toccando un poco la vita futura;
+</prompt>
+<result>
+100 তাই আমরা ছায়া এবং বৃষ্টির মধ্য দিয়ে অতিক্রম করলাম
+101 মিশ্রণ, ধীর পদক্ষেপে,
+102 ভবিষ্যতের জীবনকে একটু স্পর্শ করে;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 103/115</info>
+<prompt>
+Please translate each line literally into Bengali.
 
 103 per ch’io dissi: «Maestro, esti tormenti
 104 crescerann’ ei dopo la gran sentenza,
 105 o fier minori, o saran sì cocenti?».
 </prompt>
 <result>
-100 তাই আমরা ছায়া এবং বৃষ্টির মধ্য দিয়ে অতিক্রম করলাম
-101 মিশ্রণ, ধীর পদক্ষেপে,
-102 ভবিষ্যতের জীবনকে একটু স্পর্শ করে;
-
 103 তাই আমি বললাম: "গুরু, এই যন্ত্রণা
 104 মহান বিচারের পরে কি বাড়বে,
 105 বা কম প্রচণ্ড হবে, বা এতটাই তীব্র হবে?"।
@@ -559,32 +549,6 @@ Please translate each line literally into Bengali.
 110 in vera perfezion già mai non vada,
 111 di là più che di qua essere aspetta».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 যদিও এই অভিশপ্ত লোকেরা\n110 কখনই সত্যিকারের নিখুঁততায় পৌঁছায় না,\n111 তারা আশা করে যে সেখানে এখানের চেয়ে বেশি হবে\"।"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 109 যদিও এই অভিশপ্ত লোকেরা
 110 কখনই সত্যিকারের নিখুঁততায় পৌঁছায় না,
@@ -599,14 +563,21 @@ Please translate each line literally into Bengali.
 112 Noi aggirammo a tondo quella strada,
 113 parlando più assai ch’i’ non ridico;
 114 venimmo al punto dove si digrada:
-
-115 quivi trovammo Pluto, il gran nemico.
 </prompt>
 <result>
 112 আমরা সেই পথটি ঘুরে বেড়ালাম,
 113 আমি যা বলছি তার চেয়ে অনেক বেশি কথা বললাম;
 114 আমরা সেই জায়গায় এলাম যেখানে অবনমন হয়:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 115/115</info>
+<prompt>
+Please translate each line literally into Bengali.
 
+115 quivi trovammo Pluto, il gran nemico.
+</prompt>
+<result>
 115 সেখানে আমরা প্লুটোকে পেলাম, মহান শত্রু।
 </result>
 </query>

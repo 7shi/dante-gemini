@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="33">
+<queries count="51">
 <query>
 <info>[Purgatorio Canto 14] 1/151</info>
 <prompt>
@@ -38,24 +38,38 @@ Please translate each line literally into Czech.
 7 Così due spirti, l’uno a l’altro chini,
 8 ragionavan di me ivi a man dritta;
 9 poi fer li visi, per dirmi, supini;
+</prompt>
+<result>
+7 Takto dva duchové, jeden k druhému skloněni,
+8 hovořili o mně tam po mé pravici;
+9 pak obrátili své tváře vzhůru, aby ke mně promluvili;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 10/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 10 e disse l’uno: «O anima che fitta
 11 nel corpo ancora inver’ lo ciel ten vai,
 12 per carità ne consola e ne ditta
+</prompt>
+<result>
+10 a jeden řekl: „Ó duše, která jsi ještě v těle
+11 a přesto stoupáš k nebi,
+12 z milosti nás potěš a řekni nám,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 13/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 13 onde vieni e chi se’; ché tu ne fai
 14 tanto maravigliar de la tua grazia,
 15 quanto vuol cosa che non fu più mai».
 </prompt>
 <result>
-7 Takto dva duchové, jeden k druhému skloněni,
-8 hovořili o mně tam po mé pravici;
-9 pak obrátili své tváře vzhůru, aby ke mně promluvili;
-
-10 a jeden řekl: „Ó duše, která jsi ještě v těle
-11 a přesto stoupáš k nebi,
-12 z milosti nás potěš a řekni nám,
-
 13 odkud přicházíš a kdo jsi; neboť nás činíš
 14 tak udivenými svou milostí,
 15 jak se to stává u věci, která nikdy předtím nebyla.“
@@ -129,42 +143,71 @@ Please translate each line literally into Czech.
 28 E l’ombra che di ciò domandata era,
 29 si sdebitò così: «Non so; ma degno
 30 ben è che ’l nome di tal valle pèra;
+</prompt>
+<result>
+28 A stín, který byl o to požádán,
+29 se tak vyjádřil: „Nevím; ale je vhodné,
+30 aby jméno tohoto údolí zaniklo;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 31/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 31 ché dal principio suo, ov’ è sì pregno
 32 l’alpestro monte ond’ è tronco Peloro,
 33 che ’n pochi luoghi passa oltra quel segno,
+</prompt>
+<result>
+31 neboť od svého počátku, kde je tak těhotný
+32 skalnatý vrch, z něhož je odříznut Pelorus,
+33 že na málokterých místech přesahuje tuto hranici,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 34/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 34 infin là ’ve si rende per ristoro
 35 di quel che ’l ciel de la marina asciuga,
 36 ond’ hanno i fiumi ciò che va con loro,
+</prompt>
+<result>
+34 tam se vrací, aby se občerstvil
+35 tím, co nebe vysuší z moře,
+36 odkud mají řeky to, co s nimi teče,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 37/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 37 vertù così per nimica si fuga
 38 da tutti come biscia, o per sventura
 39 del luogo, o per mal uso che li fruga:
+</prompt>
+<result>
+37 ctnost tak před ním utíká jako nepřítel
+38 od všech jako zmije, buď kvůli neštěstí
+39 místa, nebo kvůli špatnému zvyku, který je trápí:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 40/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 40 ond’ hanno sì mutata lor natura
 41 li abitator de la misera valle,
 42 che par che Circe li avesse in pastura.
 </prompt>
 <result>
-28 A stín, který byl o to dotázán,
-29 se ospravedlnil takto: „Nevím; ale je vhodné,
-30 aby jméno tohoto údolí zaniklo;
-
-31 neboť od svého počátku, kde je tak bohatá
-32 horská hora, z níž je odříznut Pelorus,
-33 že na málokterých místech překračuje tuto hranici,
-
-34 až tam, kde se vrací, aby nahradilo
-35 to, co nebe vysušuje z moře,
-36 odkud mají řeky to, co s nimi teče,
-
-37 ctnost tak prchá před všemi jako nepřítel
-38 jako zmije, nebo kvůli neštěstí
-39 místa, nebo kvůli špatnému zvyku, který je trápí:
-
-40 proto obyvatelé této ubohé doliny tak změnili svou povahu,
-41 že se zdá, že je pásla Kirké.
+40 odkud mají tak změněnou svou přirozenost
+41 obyvatelé ubohé doliny,
+42 že se zdá, jako by je Kirké měla na pastvě.
 </result>
 </query>
 <query>
@@ -176,32 +219,6 @@ Please translate each line literally into Czech.
 44 che d’altro cibo fatto in uman uso,
 45 dirizza prima il suo povero calle.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "43 Mezi ošklivými prasaty, více hodnými žaludů\n44 než jiné potravy vyrobené pro lidské použití,\n45 nejprve namíří svou ubohou cestu."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 43 Mezi ošklivými prasaty, více hodnými žaludů
 44 než jiné potravy vyrobené pro lidské použití,
@@ -321,16 +338,23 @@ Please translate each line literally into Czech.
 67 Com’ a l’annunzio di dogliosi danni
 68 si turba il viso di colui ch’ascolta,
 69 da qual che parte il periglio l’assanni,
+</prompt>
+<result>
+67 Jako se při zprávě o bolestných škodách
+68 zarmoutí tvář toho, kdo poslouchá,
+69 odkudkoli ho nebezpečí napadne,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 70/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 70 così vid’ io l’altr’ anima, che volta
 71 stava a udir, turbarsi e farsi trista,
 72 poi ch’ebbe la parola a sé raccolta.
 </prompt>
 <result>
-67 Jako se při zprávě o bolestných škodách
-68 zarmoutí tvář toho, kdo poslouchá,
-69 odkudkoli ho nebezpečí napadne,
-
 70 tak jsem viděl druhou duši, která se obrátila
 71 a poslouchala, zarmoutit se a ztrápit,
 72 když si vzala slova k sobě.
@@ -344,16 +368,23 @@ Please translate each line literally into Czech.
 73 Lo dir de l’una e de l’altra la vista
 74 mi fer voglioso di saper lor nomi,
 75 e dimanda ne fei con prieghi mista;
+</prompt>
+<result>
+73 Řeč jednoho a pohled druhého
+74 ve mně vzbudily touhu dozvědět se jejich jména,
+75 a zeptal jsem se jich s prosbami;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 76/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 76 per che lo spirto che di pria parlòmi
 77 ricominciò: «Tu vuo’ ch’io mi deduca
 78 nel fare a te ciò che tu far non vuo’mi.
 </prompt>
 <result>
-73 Řeč jednoho a pohled druhého
-74 ve mně vzbudily touhu dozvědět se jejich jména,
-75 a zeptal jsem se jich s prosbami;
-
 76 načež duch, který ke mně promluvil jako první,
 77 začal znovu: „Chceš, abych se snížil
 78 k tomu, abych ti udělal to, co ty nechceš udělat mně?
@@ -383,32 +414,6 @@ Please translate each line literally into Czech.
 83 che se veduto avesse uom farsi lieto,
 84 visto m’avresti di livore sparso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "82 Moje krev byla tak spálená závistí,\n83 že kdybych viděl člověka, jak se raduje,\n84 viděl bys mě pokrytého bledostí."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 82 Moje krev byla tak spálená závistí,
 83 že kdybych viděl člověka, jak se raduje,
@@ -423,16 +428,23 @@ Please translate each line literally into Czech.
 85 Di mia semente cotal paglia mieto;
 86 o gente umana, perché poni ’l core
 87 là ’v’ è mestier di consorte divieto?
+</prompt>
+<result>
+85 Ze svého semene sklízím takovou slámu;
+86 ó lidský rode, proč vkládáš své srdce
+87 tam, kde je třeba zakázaného společníka?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 88/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 88 Questi è Rinier; questi è ’l pregio e l’onore
 89 de la casa da Calboli, ove nullo
 90 fatto s’è reda poi del suo valore.
 </prompt>
 <result>
-85 Ze svého semene sklízím takovou slámu;
-86 ó lidský rode, proč vkládáš své srdce
-87 tam, kde je třeba zakázaného společníka?
-
 88 To je Rinier; to je chlouba a čest
 89 rodu z Calboli, kde se nikdo
 90 nestal dědicem jeho hodnot.
@@ -446,16 +458,23 @@ Please translate each line literally into Czech.
 91 E non pur lo suo sangue è fatto brullo,
 92 tra ’l Po e ’l monte e la marina e ’l Reno,
 93 del ben richesto al vero e al trastullo;
+</prompt>
+<result>
+91 A nejen jeho krev je vyčerpána,
+92 mezi Pádem, horou a mořem a Rýnem,
+93 dobra potřebného pro pravdu a zábavu;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 94/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 94 ché dentro a questi termini è ripieno
 95 di venenosi sterpi, sì che tardi
 96 per coltivare omai verrebber meno.
 </prompt>
 <result>
-91 A nejen jeho krev je vyčerpána,
-92 mezi Pádem, horou a mořem a Rýnem,
-93 dobra potřebného pro pravdu a zábavu;
-
 94 neboť uvnitř těchto hranic je plný
 95 jedovatých plevelů, takže později
 96 by už bylo zbytečné je pěstovat.
@@ -469,40 +488,68 @@ Please translate each line literally into Czech.
 97 Ov’ è ’l buon Lizio e Arrigo Mainardi?
 98 Pier Traversaro e Guido di Carpigna?
 99 Oh Romagnuoli tornati in bastardi!
+</prompt>
+<result>
+97 Kde je dobrý Lizio a Arrigo Mainardi?
+98 Pier Traversaro a Guido di Carpigna?
+99 Ó Romaňolové, kteří jste se vrátili k bastardům!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 100/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 100 Quando in Bologna un Fabbro si ralligna?
 101 quando in Faenza un Bernardin di Fosco,
 102 verga gentil di picciola gramigna?
+</prompt>
+<result>
+100 Kdy se v Bologni znovu objeví Fabbro?
+101 kdy ve Faenze Bernardin di Fosco,
+102 ušlechtilý potomek malé trávy?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 103/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 103 Non ti maravigliar s’io piango, Tosco,
 104 quando rimembro, con Guido da Prata,
 105 Ugolin d’Azzo che vivette nosco,
+</prompt>
+<result>
+103 Nediv se, Toskánský, že pláču,
+104 když si vzpomenu, spolu s Guidem da Prata,
+105 na Ugolino d'Azzo, který s námi žil,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 106/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 106 Federigo Tignoso e sua brigata,
 107 la casa Traversara e li Anastagi
 108 (e l’una gente e l’altra è diretata),
+</prompt>
+<result>
+106 na Federiga Tignosa a jeho družinu,
+107 na rod Traversara a Anastagi
+108 (a jeden i druhý rod je vyhuben),
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 109/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 109 le donne e ’ cavalier, li affanni e li agi
 110 che ne ’nvogliava amore e cortesia
 111 là dove i cuor son fatti sì malvagi.
 </prompt>
 <result>
-97 Kde je dobrý Lizio a Arrigo Mainardi?
-98 Pier Traversaro a Guido di Carpigna?
-99 Ó Romaňolové, kteří jste se vrátili k bastardům!
-
-100 Kdy se v Bologni znovu objeví Fabbro?
-101 kdy ve Faenze Bernardin di Fosco,
-102 ušlechtilý potomek malé trávy?
-
-103 Nediv se, Toskánský, že pláču,
-104 když si vzpomenu, spolu s Guidem da Prata,
-105 na Ugolino d'Azzo, který s námi žil,
-
-106 na Federiga Tignosa a jeho družinu,
-107 na rod Traversara a Anastagi
-108 (a jeden i druhý rod je vyhuben),
-
 109 na dámy a rytíře, na strasti a radosti,
 110 které v nás vzbuzovala láska a zdvořilost
 111 tam, kde jsou srdce tak zkažená.
@@ -516,16 +563,23 @@ Please translate each line literally into Czech.
 112 O Bretinoro, ché non fuggi via,
 113 poi che gita se n’è la tua famiglia
 114 e molta gente per non esser ria?
+</prompt>
+<result>
+112 Ó Bretinoro, proč neutíkáš pryč,
+113 když už odešla tvá rodina
+114 a mnoho lidí, aby nebyli špatní?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 115/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 115 Ben fa Bagnacaval, che non rifiglia;
 116 e mal fa Castrocaro, e peggio Conio,
 117 che di figliar tai conti più s’impiglia.
 </prompt>
 <result>
-112 Ó Bretinoro, proč neutíkáš pryč,
-113 když už odešla tvá rodina
-114 a mnoho lidí, aby nebyli špatní?
-
 115 Bagnacaval dělá dobře, že se nerozmnožuje;
 116 a špatně dělá Castrocaro a ještě hůř Conio,
 117 který se více zabývá ploděním takových hrabat.
@@ -599,16 +653,23 @@ Please translate each line literally into Czech.
 130 Poi fummo fatti soli procedendo,
 131 folgore parve quando l’aere fende,
 132 voce che giunse di contra dicendo:
+</prompt>
+<result>
+130 Pak jsme šli sami a pokračovali,
+131 jako blesk, když rozřízne vzduch,
+132 se ozval hlas, který říkal:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 133/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 133 ‘Anciderammi qualunque m’apprende’;
 134 e fuggì come tuon che si dilegua,
 135 se sùbito la nuvola scoscende.
 </prompt>
 <result>
-130 Pak jsme šli sami a pokračovali,
-131 jako blesk, když rozřízne vzduch,
-132 se ozval hlas, který říkal:
-
 133 „Zabije mě každý, kdo mě chytí“;
 134 a utekl jako hrom, který se rozplyne,
 135 když se mrak náhle rozptýlí.
@@ -622,16 +683,23 @@ Please translate each line literally into Czech.
 136 Come da lei l’udir nostro ebbe triegua,
 137 ed ecco l’altra con sì gran fracasso,
 138 che somigliò tonar che tosto segua:
+</prompt>
+<result>
+136 Jakmile náš sluch od ní dostal přestávku,
+137 a hle, další s takovým rachotem,
+138 že se podobal hromu, který rychle následuje:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 139/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
 139 «Io sono Aglauro che divenni sasso»;
 140 e allor, per ristrignermi al poeta,
 141 in destro feci, e non innanzi, il passo.
 </prompt>
 <result>
-136 Jakmile náš sluch od ní dostal přestávku,
-137 a hle, další s takovým rachotem,
-138 že se podobal hromu, který rychle následuje:
-
 139 „Já jsem Aglaurus, která se stala kamenem“;
 140 a tehdy, abych se držel básníka,
 141 jsem udělal krok vpravo, a ne dříve.
@@ -675,14 +743,21 @@ Please translate each line literally into Czech.
 148 Chiamavi ’l cielo e ’ntorno vi si gira,
 149 mostrandovi le sue bellezze etterne,
 150 e l’occhio vostro pur a terra mira;
-
-151 onde vi batte chi tutto discerne».
 </prompt>
 <result>
 148 Volá vás nebe a otáčí se kolem vás,
 149 ukazuje vám svou věčnou krásu,
 150 a váš pohled stále směřuje k zemi;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 151/151</info>
+<prompt>
+Please translate each line literally into Czech.
 
+151 onde vi batte chi tutto discerne».
+</prompt>
+<result>
 151 proto vás bije ten, kdo všechno rozeznává.“
 </result>
 </query>

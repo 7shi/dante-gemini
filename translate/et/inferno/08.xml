@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Estonian.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 Ma ütlen jätkates, et palju enne,
+2 kui me kõrge torni jalamile jõudsime,
+3 meie silmad tõusid selle tippu
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1 Ma ütlen jätkates, et palju enne,
-2 kui me kõrge torni jalamile jõudsime,
-3 meie silmad tõusid selle tippu
-
 4 kahe leegikese pärast, mille me sinna panime,
 5 ja üks teine kaugel andis märku,
 6 nii et vaevalt suutis silm seda haarata.
@@ -61,16 +68,23 @@ Please translate each line literally into Estonian.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 Nöör ei ole kunagi endast noole lennutanud,
+14 mis nii kiiresti õhus lendaks,
+15 kui ma nägin ühte väikest laeva
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 Nöör ei ole kunagi endast noole lennutanud,
-14 mis nii kiiresti õhus lendaks,
-15 kui ma nägin ühte väikest laeva
-
 16 meie poole vees tulemas,
 17 üheainsa lodsiku juhtimisel,
 18 kes hüüdis: „Nüüd oled kohal, kuri hing!”.
@@ -115,32 +129,6 @@ Please translate each line literally into Estonian.
 26 e poi mi fece intrare appresso lui;
 27 e sol quand’ io fui dentro parve carca.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 Mu juht astus paati,\n26 ja siis lasi mul endale järgneda;\n27 ja alles siis, kui ma sees olin, tundus see täis."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 Mu juht astus paati,
 26 ja siis lasi mul endale järgneda;
@@ -230,16 +218,23 @@ Please translate each line literally into Estonian.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 Siis ta kallistas mind kätega kaela ümbert;
+44 suudles mu nägu ja ütles: „Üleolev hing,
+45 õnnistatud on see, kes sinusse sündis!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 Siis ta kallistas mind kätega kaela ümbert;
-44 suudles mu nägu ja ütles: „Üleolev hing,
-45 õnnistatud on see, kes sinusse sündis!
-
 46 See oli maailmas ülbe inimene;
 47 headus ei ole see, mis tema mälestust kaunistaks:
 48 nii on tema vari siin raevukas.
@@ -358,45 +353,26 @@ Please translate each line literally into Estonian.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 Ja mina: "Meister, ma juba näen tema mošeesid
+71 seal sees orus,
+72 punaseid, nagu oleksid tulest välja tulnud
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 Ja mina: „Õpetaja, juba tema mošeed\n71 on seal kindlasti orus mustad,\n72 punased, nagu oleksid tulest välja tulnud\n\n73”. Ja ta ütles mulle: „Igavene tuli,\n74 mis neid seestpoolt piinab, näitab neid punastena,\n75 nagu sa näed selles madalas põrgus”."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-70 Ja mina: „Õpetaja, juba tema mošeed
-71 on seal kindlasti orus mustad,
-72 punased, nagu oleksid tulest välja tulnud
-
-73”. Ja ta ütles mulle: „Igavene tuli,
-74 mis neid seestpoolt piinab, näitab neid punastena,
-75 nagu sa näed selles madalas põrgus”.
+73 olid». Ja ta ei öelnud mulle: «Igavene tuli,
+74 mis neid seestpoolt põletab, teeb nad punaseks,
+75 nagu sa näed siin selles madalas põrgus».
 </result>
 </query>
 <query>
@@ -437,32 +413,38 @@ Please translate each line literally into Estonian.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
-82 Ma nägin rohkem kui tuhat taevast alla sadanud,
-83 kes vihaselt ütlesid: „Kes see on, kes ilma surmata
-
-84 käib surnud rahva kuningriigis?”.
+82 Mina rohkem kui tuhat väravate juures
+83 taevast alla sadanud, kes vihaselt
+84 ütlesid: „Kes see on, kes surmata
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into Estonian.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 läheb surnute kuningriiki?”.
+86 Ja mu tark õpetaja tegi märku,
+87 et tahab nendega salaja rääkida.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 Ja mu tark õpetaja tegi märku,
-87 et tahab nendega salaja rääkida.
-
 88 Siis nad vaigistasid oma suure viha veidi
 89 ja ütlesid: „Tule sina üksi, ja see teine mingu ära,
 90 kes nii julgelt selle kuningriigi sisse astus.
@@ -506,16 +488,23 @@ Please translate each line literally into Estonian.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 „Oh, mu kallis hertsog, kes sa oled mind rohkem kui seitse
+98 korda julgustanud ja päästnud
+99 suurest ohust, mis mulle vastu tuli,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 „Oh, mu kallis hertsog, kes sa oled mind rohkem kui seitse
-98 korda julgustanud ja päästnud
-99 suurest ohust, mis mulle vastu tuli,
-
 100 ära jäta mind,” ütlesin ma, „nii mahajäetuna;
 101 ja kui meile on keelatud edasi minna,
 102 siis leidkem kiiresti üheskoos oma jäljed”.
@@ -546,8 +535,9 @@ Please translate each line literally into Estonian.
 108 ch’i’ non ti lascerò nel mondo basso».
 </prompt>
 <result>
-106 Aga oota mind siin ja lohuta ja toida väsinud vaimu
-107 hea lootusega, sest ma ei jäta sind maha madalamas maailmas”.
+106 Aga sina oota mind siin ja lohuta
+107 ja toida oma vaimu heade lootustega,
+108 sest mina ei jäta sind maha siin allmaailmas».
 </result>
 </query>
 <query>
@@ -648,14 +638,21 @@ Please translate each line literally into Estonian.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 Selle kohal nägid sa surnud kirja:
 128 ja juba laskub siitpoolt seda ülesmäge,
 129 läbides ringe ilma saatjata,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Estonian.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 nii et tema kaudu avaneb maa”.
 </result>
 </query>

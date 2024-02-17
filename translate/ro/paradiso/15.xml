@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="50">
 <query>
 <info>[Paradiso Canto 15] 1/148</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Romanian.
 1 Benigna volontade in che si liqua
 2 sempre l’amor che drittamente spira,
 3 come cupidità fa ne la iniqua,
+</prompt>
+<result>
+1 Voință binevoitoare în care se revarsă mereu
+2 iubirea care inspiră drept,
+3 așa cum pofta face în cea nedreaptă,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 4/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 4 silenzio puose a quella dolce lira,
 5 e fece quïetar le sante corde
 6 che la destra del cielo allenta e tira.
 </prompt>
 <result>
-1 Voință binevoitoare în care se revarsă mereu
-2 iubirea care inspiră drept,
-3 așa cum pofta face în cea nedreaptă,
-
 4 a pus tăcere acelei lire dulci,
 5 și a liniștit coardele sfinte
 6 pe care dreapta cerului le slăbește și le întinde.
@@ -31,16 +38,23 @@ Please translate each line literally into Romanian.
 7 Come saranno a’ giusti preghi sorde
 8 quelle sustanze che, per darmi voglia
 9 ch’io le pregassi, a tacer fur concorde?
+</prompt>
+<result>
+7 Cum vor fi surde la rugăciunile drepților
+8 acele ființe care, pentru a-mi da dorința
+9 să le rog, au fost de acord să tacă?
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 10/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 10 Bene è che sanza termine si doglia
 11 chi, per amor di cosa che non duri
 12 etternalmente, quello amor si spoglia.
 </prompt>
 <result>
-7 Cum vor fi surde la rugăciunile drepților
-8 acele ființe care, pentru a-mi da dorința
-9 să le rog, au fost de acord să tacă?
-
 10 Bine este ca să se întristeze fără sfârșit
 11 cel care, din dragoste pentru ceva ce nu durează
 12 veșnic, se dezbracă de acea dragoste.
@@ -54,32 +68,53 @@ Please translate each line literally into Romanian.
 13 Quale per li seren tranquilli e puri
 14 discorre ad ora ad or sùbito foco,
 15 movendo li occhi che stavan sicuri,
+</prompt>
+<result>
+13 Ca o flacără bruscă care, prin seninul liniștit și pur,
+14 se deplasează dintr-o parte în alta,
+15 mișcându-și ochii care stăteau nemișcați,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 16/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 16 e pare stella che tramuti loco,
 17 se non che da la parte ond’ e’ s’accende
 18 nulla sen perde, ed esso dura poco:
+</prompt>
+<result>
+16 și pare o stea care își schimbă locul,
+17 numai că din partea de unde se aprinde
+18 nimic nu se pierde, iar ea durează puțin:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 19/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 19 tale dal corno che ’n destro si stende
 20 a piè di quella croce corse un astro
 21 de la costellazion che lì resplende;
+</prompt>
+<result>
+19 așa, din cornul care se întinde spre dreapta
+20 la poalele acelei cruci a alergat un astru
+21 din constelația care strălucește acolo;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 22/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 22 né si partì la gemma dal suo nastro,
 23 ma per la lista radïal trascorse,
 24 che parve foco dietro ad alabastro.
 </prompt>
 <result>
-13 Ca o flacără bruscă care, prin seninul liniștit și pur,
-14 se deplasează dintr-o parte în alta,
-15 mișcându-și ochii care stăteau nemișcați,
-
-16 și pare o stea care își schimbă locul,
-17 numai că din partea de unde se aprinde
-18 nimic nu se pierde, iar ea durează puțin:
-
-19 așa, din cornul care se întinde spre dreapta
-20 la poalele acelei cruci a alergat un astru
-21 din constelația care strălucește acolo;
-
 22 și piatra prețioasă nu s-a desprins de panglica sa,
 23 ci a străbătut lista radială,
 24 care părea un foc în spatele alabastrului.
@@ -123,42 +158,23 @@ Please translate each line literally into Romanian.
 31 Così quel lume: ond’ io m’attesi a lui;
 32 poscia rivolsi a la mia donna il viso,
 33 e quinci e quindi stupefatto fui;
+</prompt>
+<result>
+31 Așa a spus acea lumină: de la care m-am așteptat la el;
+32 apoi mi-am întors fața spre doamna mea,
+33 și atunci am rămas uimit și de-o parte și de alta;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 34/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 34 ché dentro a li occhi suoi ardeva un riso
 35 tal, ch’io pensai co’ miei toccar lo fondo
 36 de la mia gloria e del mio paradiso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 Așa a spus acea lumină: de la care m-am așteptat la el;\n32 apoi mi-am întors fața spre doamna mea,\n33 și atunci am rămas uimit și de-o parte și de alta;\n\n34 căci în ochii ei ardea un râs\n35 așa încât am crezut că ating cu ai mei fundul\n36 gloriei și paradisului meu."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-31 Așa a spus acea lumină: de la care m-am așteptat la el;
-32 apoi mi-am întors fața spre doamna mea,
-33 și atunci am rămas uimit și de-o parte și de alta;
-
 34 căci în ochii ei ardea un râs
 35 așa încât am crezut că ating cu ai mei fundul
 36 gloriei și paradisului meu.
@@ -172,16 +188,23 @@ Please translate each line literally into Romanian.
 37 Indi, a udire e a veder giocondo,
 38 giunse lo spirto al suo principio cose,
 39 ch’io non lo ’ntesi, sì parlò profondo;
+</prompt>
+<result>
+37 Apoi, plăcut la auz și la văzut,
+38 spiritul a ajuns la începutul lucrurilor sale,
+39 pe care eu nu l-am înțeles, atât de profund a vorbit;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 40/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 40 né per elezïon mi si nascose,
 41 ma per necessità, ché ’l suo concetto
 42 al segno d’i mortal si soprapuose.
 </prompt>
 <result>
-37 Apoi, plăcut la auz și la văzut,
-38 spiritul a ajuns la începutul lucrurilor sale,
-39 pe care eu nu l-am înțeles, atât de profund a vorbit;
-
 40 și nu s-a ascuns de mine din proprie voință,
 41 ci din necesitate, pentru că gândul său
 42 a depășit înțelesul muritorilor.
@@ -195,16 +218,23 @@ Please translate each line literally into Romanian.
 43 E quando l’arco de l’ardente affetto
 44 fu sì sfogato, che ’l parlar discese
 45 inver’ lo segno del nostro intelletto,
+</prompt>
+<result>
+43 Și când arcul arzătoarei afecțiuni
+44 a fost atât de descărcat, încât vorbirea a coborât
+45 spre înțelesul inteligenței noastre,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 46/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 46 la prima cosa che per me s’intese,
 47 «Benedetto sia tu», fu, «trino e uno,
 48 che nel mio seme se’ tanto cortese!».
 </prompt>
 <result>
-43 Și când arcul arzătoarei afecțiuni
-44 a fost atât de descărcat, încât vorbirea a coborât
-45 spre înțelesul inteligenței noastre,
-
 46 primul lucru care s-a înțeles de mine a fost:
 47 „Binecuvântat fii tu”, a fost, „trei și unul,
 48 care în sămânța mea ești atât de darnic!”.
@@ -218,16 +248,23 @@ Please translate each line literally into Romanian.
 49 E seguì: «Grato e lontano digiuno,
 50 tratto leggendo del magno volume
 51 du’ non si muta mai bianco né bruno,
+</prompt>
+<result>
+49 Și a continuat: „Postul plăcut și îndelungat,
+50 petrecut citind din volumul cel mare
+51 unde nu se schimbă albul și negrul,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 52/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 52 solvuto hai, figlio, dentro a questo lume
 53 in ch’io ti parlo, mercè di colei
 54 ch’a l’alto volo ti vestì le piume.
 </prompt>
 <result>
-49 Și a continuat: „Postul plăcut și îndelungat,
-50 petrecut citind din volumul cel mare
-51 unde nu se schimbă albul și negrul,
-
 52 l-ai împlinit, fiule, în această lume
 53 în care îți vorbesc, prin mila aceleia
 54 care ți-a îmbrăcat aripile pentru zborul înalt.
@@ -241,16 +278,23 @@ Please translate each line literally into Romanian.
 55 Tu credi che a me tuo pensier mei
 56 da quel ch’è primo, così come raia
 57 da l’un, se si conosce, il cinque e ’l sei;
+</prompt>
+<result>
+55 Tu crezi că gândurile mele îmi vin
+56 de la cel dintâi, așa cum rezultă
+57 din unu, dacă se cunoaște, cinci și șase;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 58/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 58 e però ch’io mi sia e perch’ io paia
 59 più gaudïoso a te, non mi domandi,
 60 che alcun altro in questa turba gaia.
 </prompt>
 <result>
-55 Tu crezi că gândurile mele îmi vin
-56 de la cel dintâi, așa cum rezultă
-57 din unu, dacă se cunoaște, cinci și șase;
-
 58 și de aceea că eu sunt și că eu par
 59 mai bucuros ție, nu mă întrebi,
 60 ca oricare altul din această mulțime veselă.
@@ -264,24 +308,38 @@ Please translate each line literally into Romanian.
 61 Tu credi ’l vero; ché i minori e ’ grandi
 62 di questa vita miran ne lo speglio
 63 in che, prima che pensi, il pensier pandi;
+</prompt>
+<result>
+61 Tu crezi adevărul; căci cei mici și cei mari
+62 din această viață privesc în oglinda
+63 în care, înainte de a gândi, răspândești gândul;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 64/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 64 ma perché ’l sacro amore in che io veglio
 65 con perpetüa vista e che m’asseta
 66 di dolce disïar, s’adempia meglio,
+</prompt>
+<result>
+64 dar pentru ca iubirea sacră în care veghez
+65 cu privire neîntreruptă și care mă însetează
+66 de dorință dulce, să se împlinească mai bine,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 67/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 67 la voce tua sicura, balda e lieta
 68 suoni la volontà, suoni ’l disio,
 69 a che la mia risposta è già decreta!».
 </prompt>
 <result>
-61 Tu crezi adevărul; căci cei mici și cei mari
-62 din această viață privesc în oglinda
-63 în care, înainte de a gândi, răspândești gândul;
-
-64 dar pentru ca iubirea sacră în care veghez
-65 cu privire neîntreruptă și care mă însetează
-66 de dorință dulce, să se împlinească mai bine,
-
 67 vocea ta sigură, îndrăzneață și veselă
 68 să exprime voința, să exprime dorința,
 69 la care răspunsul meu este deja hotărât!”.
@@ -310,16 +368,23 @@ Please translate each line literally into Romanian.
 73 Poi cominciai così: «L’affetto e ’l senno,
 74 come la prima equalità v’apparse,
 75 d’un peso per ciascun di voi si fenno,
+</prompt>
+<result>
+73 Apoi am început așa: „Afecțiunea și înțelepciunea,
+74 așa cum prima egalitate v-a apărut,
+75 au devenit o povară pentru fiecare dintre voi,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 76/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 76 però che ’l sol che v’allumò e arse,
 77 col caldo e con la luce è sì iguali,
 78 che tutte simiglianze sono scarse.
 </prompt>
 <result>
-73 Apoi am început așa: „Afecțiunea și înțelepciunea,
-74 așa cum prima egalitate v-a apărut,
-75 au devenit o povară pentru fiecare dintre voi,
-
 76 pentru că soarele care v-a luminat și v-a ars,
 77 cu căldura și cu lumina este atât de egal,
 78 încât toate asemănările sunt puține.
@@ -333,16 +398,23 @@ Please translate each line literally into Romanian.
 79 Ma voglia e argomento ne’ mortali,
 80 per la cagion ch’a voi è manifesta,
 81 diversamente son pennuti in ali;
+</prompt>
+<result>
+79 Dar voința și argumentul la muritori,
+80 din cauza care vă este cunoscută,
+81 sunt înaripate diferit în aripi;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 82/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 82 ond’ io, che son mortal, mi sento in questa
 83 disagguaglianza, e però non ringrazio
 84 se non col core a la paterna festa.
 </prompt>
 <result>
-79 Dar voința și argumentul la muritori,
-80 din cauza care vă este cunoscută,
-81 sunt înaripate diferit în aripi;
-
 82 de aceea, eu, care sunt muritor, mă simt în această
 83 inegalitate și, prin urmare, nu mulțumesc
 84 decât cu inima la sărbătoarea paternă.
@@ -386,16 +458,23 @@ Please translate each line literally into Romanian.
 91 Poscia mi disse: «Quel da cui si dice
 92 tua cognazione e che cent’ anni e piùe
 93 girato ha ’l monte in la prima cornice,
+</prompt>
+<result>
+91 Apoi mi-a spus: „Acela de la care se spune
+92 înrudirea ta și care o sută de ani și mai bine
+93 a străbătut muntele în primul cerc,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 94/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 94 mio figlio fu e tuo bisavol fue:
 95 ben si convien che la lunga fatica
 96 tu li raccorci con l’opere tue.
 </prompt>
 <result>
-91 Apoi mi-a spus: „Acela de la care se spune
-92 înrudirea ta și care o sută de ani și mai bine
-93 a străbătut muntele în primul cerc,
-
 94 a fost fiul meu și străbunicul tău:
 95 este potrivit ca tu să-i scurtezi lunga trudă
 96 cu faptele tale.
@@ -441,8 +520,9 @@ Please translate each line literally into Romanian.
 105 non fuggien quinci e quindi la misura.
 </prompt>
 <result>
-103 Nu îi era încă teamă tatălui la nașterea fiicei,
-104 că timpul și zestrea nu fugeau de aici și de colo de la măsură.
+103 Nu stârnea, născându-se, încă teamă
+104 fiica tatălui, căci timpul și zestrea
+105 nu fugeau de aici și de colo de la măsură.
 </result>
 </query>
 <query>
@@ -483,16 +563,23 @@ Please translate each line literally into Romanian.
 112 Bellincion Berti vid’ io andar cinto
 113 di cuoio e d’osso, e venir da lo specchio
 114 la donna sua sanza ’l viso dipinto;
+</prompt>
+<result>
+112 L-am văzut pe Bellincion Berti mergând încins
+113 cu piele și os, iar soția sa venea de la oglindă
+114 fără fața pictată;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 115/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 115 e vidi quel d’i Nerli e quel del Vecchio
 116 esser contenti a la pelle scoperta,
 117 e le sue donne al fuso e al pennecchio.
 </prompt>
 <result>
-112 L-am văzut pe Bellincion Berti mergând încins
-113 cu piele și os, iar soția sa venea de la oglindă
-114 fără fața pictată;
-
 115 și l-am văzut pe cel din Nerli și pe cel din Vecchio
 116 mulțumiți cu pielea descoperită,
 117 iar femeile lor cu fusul și cu furca de tors.
@@ -521,16 +608,23 @@ Please translate each line literally into Romanian.
 121 L’una vegghiava a studio de la culla,
 122 e, consolando, usava l’idïoma
 123 che prima i padri e le madri trastulla;
+</prompt>
+<result>
+121 Una veghea cu grijă la leagăn,
+122 și, mângâind, folosea limba
+123 care mai întâi îi amuza pe tați și pe mame;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 124/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 124 l’altra, traendo a la rocca la chioma,
 125 favoleggiava con la sua famiglia
 126 d’i Troiani, di Fiesole e di Roma.
 </prompt>
 <result>
-121 Una veghea cu grijă la leagăn,
-122 și, mângâind, folosea limba
-123 care mai întâi îi amuza pe tați și pe mame;
-
 124 cealaltă, trăgând fuiorul la furcă,
 125 povestea cu familia ei
 126 despre troieni, despre Fiesole și despre Roma.
@@ -559,18 +653,26 @@ Please translate each line literally into Romanian.
 130 A così riposato, a così bello
 131 viver di cittadini, a così fida
 132 cittadinanza, a così dolce ostello,
+</prompt>
+<result>
+130 La o viață atât de liniștită, atât de frumoasă
+131 a cetățenilor, la o cetățenie atât de credincioasă,
+132 la o gazdă atât de dulce,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 133/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 133 Maria mi diè, chiamata in alte grida;
 134 e ne l’antico vostro Batisteo
 135 insieme fui cristiano e Cacciaguida.
 </prompt>
 <result>
-130 Într-o viață de cetățeni atât de liniștită, atât de frumoasă,
-131 într-o cetățenie atât de credincioasă, într-o locuință atât de dulce,
-
-133 Maria m-a născut, chemată cu strigăte puternice;
-134 și în vechiul vostru Baptisteriu
-135 am fost creștin și Cacciaguida în același timp.
+133 Maria m-a născut, chemată în strigăte înalte;
+134 și în vechiul vostru Botez
+135 am fost botezat creștin și Cacciaguida.
 </result>
 </query>
 <query>
@@ -626,14 +728,21 @@ Please translate each line literally into Romanian.
 145 Quivi fu’ io da quella gente turpa
 146 disviluppato dal mondo fallace,
 147 lo cui amor molt’ anime deturpa;
-
-148 e venni dal martiro a questa pace».
 </prompt>
 <result>
 145 Acolo am fost dezlegat de acea gloată ticăloasă
 146 de lumea înșelătoare,
 147 a cărei iubire strică multe suflete;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 148/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
+148 e venni dal martiro a questa pace».
+</prompt>
+<result>
 148 și am venit din martiriu la această pace”.
 </result>
 </query>

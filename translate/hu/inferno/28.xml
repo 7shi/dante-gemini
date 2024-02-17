@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries count="48">
 <query>
 <info>[Inferno Canto 28] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Hungarian.
 1 Chi poria mai pur con parole sciolte
 2 dicer del sangue e de le piaghe a pieno
 3 ch’i’ ora vidi, per narrar più volte?
+</prompt>
+<result>
+1 Ki tudná valaha is szavakkal kifejezni
+2 a vért és a sebeket teljes mértékben,
+3 amelyeket most láttam, hogy többször is elmondjam?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 4/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 4 Ogne lingua per certo verria meno
 5 per lo nostro sermone e per la mente
 6 c’hanno a tanto comprender poco seno.
 </prompt>
 <result>
-1 Ki tudná valaha is szavakkal kifejezni
-2 a vért és a sebeket teljes mértékben,
-3 amelyeket most láttam, hogy többször is elmondjam?
-
 4 Minden nyelv bizonyára elbukna
 5 beszédünk és elménk miatt,
 6 amelyeknek túl kevés érzékük van ahhoz, hogy felfogják.
@@ -31,42 +38,71 @@ Please translate each line literally into Hungarian.
 7 S’el s’aunasse ancor tutta la gente
 8 che già, in su la fortunata terra
 9 di Puglia, fu del suo sangue dolente
+</prompt>
+<result>
+7 Ha még mindig összegyűlne az összes ember,
+8 aki egykor Puglia szerencsés földjén
+9 gyászolta saját vérét,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 10/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 10 per li Troiani e per la lunga guerra
 11 che de l’anella fé sì alte spoglie,
 12 come Livïo scrive, che non erra,
+</prompt>
+<result>
+10 A trójaiakért és a hosszú háborúért,
+11 amelynek gyűrűje oly dicső zsákmány,
+12 ahogy Livius írja, aki nem téved,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 13/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 13 con quella che sentio di colpi doglie
 14 per contastare a Ruberto Guiscardo;
 15 e l’altra il cui ossame ancor s’accoglie
+</prompt>
+<result>
+13 azzal, amelynek fájdalmas csapásait érezte
+14 Róbert Guiscard elleni harcban;
+15 és a másik, amelynek csontjait még mindig gyűjtik
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 16/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 16 a Ceperan, là dove fu bugiardo
 17 ciascun Pugliese, e là da Tagliacozzo,
 18 dove sanz’ arme vinse il vecchio Alardo;
+</prompt>
+<result>
+16 Ceperanónál, ahol mindenki hazug volt
+17 Pugliaiból, és ott Tagliacozzónál,
+18 ahol fegyver nélkül győzött az öreg Alardo;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 19/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 19 e qual forato suo membro e qual mozzo
 20 mostrasse, d’aequar sarebbe nulla
 21 il modo de la nona bolgia sozzo.
 </prompt>
 <result>
-7 Ha még össze is gyűlne az összes ember,
-8 akik valaha Puglia szerencsés földjén
-9 vérüket ontották fájdalmukban
-
-10 a trójaiak és a hosszú háború miatt,
-11 amelyből olyan gazdag zsákmányt szereztek gyűrűk formájában,
-12 ahogy Livius írja, aki nem téved,
-
-13 azokkal együtt, akik fájdalmas sebeket szenvedtek
-14 Róbert Guiscard elleni harcban;
-15 és a többiekkel, akiknek csontjai még mindig összegyűlnek
-
-16 Ceperanónál, ahol minden egyes pugliai hazug volt,
-17 és Tagliacozzónál, ahol fegyver nélkül győzött az öreg Alardo;
-
-18 és ha mindenki megmutatná, melyik tagja van átlyukasztva vagy levágva,
-19 akkor sem lenne semmi ahhoz képest,
-20 amit a kilencedik pokol bugyra mutat.
+19 és ha valaki megmutatná, melyik tagja hiányzik, és melyik csonkolt,
+20 akkor sem lenne semmi ahhoz képest,
+21 milyen mocskos a kilencedik bugyor.
 </result>
 </query>
 <query>
@@ -93,32 +129,6 @@ Please translate each line literally into Hungarian.
 26 la corata pareva e ’l tristo sacco
 27 che merda fa di quel che si trangugia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 A lábai között lógtak a belei;\n26 látszott a szíve és a szomorú zsák,\n27 amely szart csinál abból, amit lenyelünk."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 A lábai között lógtak a belei;
 26 látszott a szíve és a szomorú zsák,
@@ -133,16 +143,23 @@ Please translate each line literally into Hungarian.
 28 Mentre che tutto in lui veder m’attacco,
 29 guardommi e con le man s’aperse il petto,
 30 dicendo: «Or vedi com’ io mi dilacco!
+</prompt>
+<result>
+28 Miközben teljesen rá összpontosítottam a figyelmemet,
+29 rám nézett, és a kezével feltépte a mellkasát,
+30 miközben ezt mondta: „Nézd, hogyan tépem szét magam!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 31/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 31 vedi come storpiato è Mäometto!
 32 Dinanzi a me sen va piangendo Alì,
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
 <result>
-28 Miközben teljesen rá összpontosítottam a figyelmemet,
-29 rám nézett, és a kezével feltépte a mellkasát,
-30 miközben ezt mondta: „Nézd, hogyan tépem szét magam!
-
 31 Nézd, milyen torz Mohamed!
 32 Előttem sírva megy Ali,
 33 akinek az arca az állától a homlokáig fel van hasítva.
@@ -171,16 +188,23 @@ Please translate each line literally into Hungarian.
 37 Un diavolo è qua dietro che n’accisma
 38 sì crudelmente, al taglio de la spada
 39 rimettendo ciascun di questa risma,
+</prompt>
+<result>
+37 Egy ördög van itt mögöttünk, aki lemészárolja őket
+38 oly kegyetlenül, kardcsapással
+39 visszaküldve mindegyiket ebből a csoportból,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 40/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 40 quand’ avem volta la dolente strada;
 41 però che le ferite son richiuse
 42 prima ch’altri dinanzi li rivada.
 </prompt>
 <result>
-37 Egy ördög van itt mögöttünk, aki lemészárolja őket
-38 oly kegyetlenül, kardcsapással
-39 visszaküldve mindegyiket ebből a csoportból,
-
 40 amikor megfordultunk a fájdalmas úton;
 41 mert a sebeik begyógyulnak
 42 mielőtt bárki más eléjük érne.
@@ -209,16 +233,23 @@ Please translate each line literally into Hungarian.
 46 «Né morte ’l giunse ancor, né colpa ’l mena»,
 47 rispuose ’l mio maestro, «a tormentarlo;
 48 ma per dar lui esperïenza piena,
+</prompt>
+<result>
+46 „Még nem érte el a halál, és nem is bűn vezeti őt”,
+47 válaszolta a mesterem, „hogy gyötörje;
+48 de hogy teljes tapasztalatot szerezzen,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 49/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 49 a me, che morto son, convien menarlo
 50 per lo ’nferno qua giù di giro in giro;
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
 <result>
-46 „Még nem érte el a halál, és nem is bűn vezeti őt”,
-47 válaszolta a mesterem, „hogy gyötörje;
-48 de hogy teljes tapasztalatot szerezzen,
-
 49 nekem, aki halott vagyok, el kell vezetnem őt
 50 a pokolban itt lent, körbe-körbe;
 51 és ez igaz, ahogy mondom neked”.
@@ -247,16 +278,23 @@ Please translate each line literally into Hungarian.
 55 «Or dì a fra Dolcin dunque che s’armi,
 56 tu che forse vedra’ il sole in breve,
 57 s’ello non vuol qui tosto seguitarmi,
+</prompt>
+<result>
+55 „MonddmegDolcinofivérnek,hogyfegyverkezzenfel,
+56 te,akilehet,hogyhamarosanmeglátodanapotazégbolton,
+57 hacsaknemakarittkövetniengem,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 58/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 58 sì di vivanda, che stretta di neve
 59 non rechi la vittoria al Noarese,
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55 „MonddmegDolcinofivérnek,hogyfegyverkezzenfel,
-56 te,akilehet,hogyhamarosanmeglátodanapotazégbolton,
-57 hacsaknemakarittkövetniengem,
-
 58 olyanétellel,hogyahóesés
 59 nehozzagyozelmetanovaraiaknak,
 60 mertkülönbennehezenlehetnegyőzelmetaratni”.
@@ -285,32 +323,53 @@ Please translate each line literally into Hungarian.
 64 Un altro, che forata avea la gola
 65 e tronco ’l naso infin sotto le ciglia,
 66 e non avea mai ch’una orecchia sola,
+</prompt>
+<result>
+64 Egy másik, akinek a torka át volt vágva,
+65 és az orra le volt vágva egészen a szemöldökéig,
+66 és csak egy füle volt,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 67/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 67 ristato a riguardar per maraviglia
 68 con li altri, innanzi a li altri aprì la canna,
 69 ch’era di fuor d’ogne parte vermiglia,
+</prompt>
+<result>
+67 megállt, hogy csodálkozva nézzen,
+68 a többiekkel együtt, előrehajolva kinyitotta a torkát,
+69 amely kívülről mindenütt vörös volt,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 70/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 70 e disse: «O tu cui colpa non condanna
 71 e cu’ io vidi su in terra latina,
 72 se troppa simiglianza non m’inganna,
+</prompt>
+<result>
+70 és azt mondta: „Ó, téged, akit nem ítél el a bűn,
+71 és akit láttam a latin földön,
+72 ha a túlzott hasonlóság nem csal meg,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 73/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 73 rimembriti di Pier da Medicina,
 74 se mai torni a veder lo dolce piano
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64 Egy másik, akinek a torka át volt vágva,
-65 és az orra le volt vágva egészen a szemöldökéig,
-66 és csak egy füle volt,
-
-67 megállt, hogy csodálkozva nézzen,
-68 a többiekkel együtt, előrehajolva kinyitotta a torkát,
-69 amely kívülről mindenütt vörös volt,
-
-70 és azt mondta: „Ó, téged, akit nem ítél el a bűn,
-71 és akit láttam a latin földön,
-72 ha a túlzott hasonlóság nem csal meg,
-
 73 emlékezz meg Pier da Medicináról,
 74 ha valaha visszatérsz, hogy lásd az édes síkságot,
 75 amely Vercellitől Marcabòig lejt.
@@ -324,16 +383,23 @@ Please translate each line literally into Hungarian.
 76 E fa saper a’ due miglior da Fano,
 77 a messer Guido e anco ad Angiolello,
 78 che, se l’antiveder qui non è vano,
+</prompt>
+<result>
+76 És tudasd Fano két legjobbjával,
+77 Guido úrral és Angiolellóval is,
+78 hogy ha a jövőbelátásom nem hiábavaló,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 79/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 79 gittati saran fuor di lor vasello
 80 e mazzerati presso a la Cattolica
 81 per tradimento d’un tiranno fello.
 </prompt>
 <result>
-76 És tudasd Fano két legjobbjával,
-77 Guido úrral és Angiolellóval is,
-78 hogy ha a jövőbelátásom nem hiábavaló,
-
 79 kidobják őket a hajójukból,
 80 és megölik őket Cattolica közelében
 81 egy gonosz zsarnok árulása miatt.
@@ -362,18 +428,26 @@ Please translate each line literally into Hungarian.
 85 Quel traditor che vede pur con l’uno,
 86 e tien la terra che tale qui meco
 87 vorrebbe di vedere esser digiuno,
+</prompt>
+<result>
+85 Aki csak az egyik szemével lát,
+86 és azt hiszi, hogy itt velem
+87 éhes akar lenni,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 88/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 88 farà venirli a parlamento seco;
 89 poi farà sì, ch’al vento di Focara
 90 non sarà lor mestier voto né preco».
 </prompt>
 <result>
-85 Az az áruló, aki csak az egyik szemével lát,
-86 és birtokolja azt a földet, amelyet ő is szeretne látni üresen,
-
-87 összehívja őket, hogy tárgyaljanak vele;
-89 aztán gondoskodik róla, hogy a Focara-szélben
-90 ne legyen szükségük fogadalomra vagy imára.
+88 odahívja őket tanácskozásra;
+89 aztán úgy intézi, hogy a Focara szélén
+90 nem lesz szükségük fogadalomra vagy imára».
 </result>
 </query>
 <query>
@@ -429,27 +503,41 @@ Please translate each line literally into Hungarian.
 100 Oh quanto mi pareva sbigottito
 101 con la lingua tagliata ne la strozza
 102 Curïo, ch’a dir fu così ardito!
+</prompt>
+<result>
+100 Ó, mennyire rémültnek tűnt nekem
+101 elvágott nyelvvel a torkában
+102 Curio, aki olyan bátor volt, hogy ezt kimondja!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 103/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 103 E un ch’avea l’una e l’altra man mozza,
 104 levando i moncherin per l’aura fosca,
 105 sì che ’l sangue facea la faccia sozza,
+</prompt>
+<result>
+103 És egy, akinek mindkét kezét levágták,
+104 felemelve csonkjait a sötét levegőbe,
+105 úgyhogy a vér bemocskolta az arcát,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 106/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 106 gridò: «Ricordera’ti anche del Mosca,
 107 che disse, lasso!, “Capo ha cosa fatta”,
 108 che fu mal seme per la gente tosca».
 </prompt>
 <result>
-100 Ó, mennyire rémültnek tűnt nekem
-101 a levágott nyelvvel a torkában
-Curio, aki olyan bátor volt, hogy ezt kimondja!
-
-103 És egy másik, akinek mindkét kezét levágták,
-104 felemelve csonkjait a sötét levegőbe,
-105 úgyhogy a vér beszennyezte az arcát,
-
-106 felkiáltott: „Emlékezz meg Moscáról is,
-107 aki azt mondta, jaj!, hogy „A tettnek feje van”,
-108 ami rossz mag volt a toszkánok számára”.
+106 kiáltotta: «Emlékezz meg Moscáról is,
+107 aki azt mondta, jaj!, “A fej megtette a dolgát”,
+108 ami rossz mag volt a toszkánoknak».
 </result>
 </query>
 <query>
@@ -475,16 +563,23 @@ Please translate each line literally into Hungarian.
 112 Ma io rimasi a riguardar lo stuolo,
 113 e vidi cosa ch’io avrei paura,
 114 sanza più prova, di contarla solo;
+</prompt>
+<result>
+112 De én ottmaradtam, hogy szemügyre vegyem a sereget,
+113 és olyasmit láttam, amitől félnék,
+114 ha egyedül kellene elmesélnem;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 115/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 115 se non che coscïenza m’assicura,
 116 la buona compagnia che l’uom francheggia
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112 De én ottmaradtam, hogy szemügyre vegyem a sereget,
-113 és olyasmit láttam, amitől félnék,
-114 ha egyedül kellene elmesélnem;
-
 115 hacsak a lelkiismeretem meg nem nyugtatna,
 116 a jó társaság, amely bátorrá teszi az embert,
 117 a tiszta lelkiismeret páncélja alatt.
@@ -498,16 +593,23 @@ Please translate each line literally into Hungarian.
 118 Io vidi certo, e ancor par ch’io ’l veggia,
 119 un busto sanza capo andar sì come
 120 andavan li altri de la trista greggia;
+</prompt>
+<result>
+118 Bizony láttam, és még mindig úgy tűnik, mintha látnám,
+119 egy törzset fej nélkül menni, ahogyan
+120 mentek a többiek a szomorú nyájból;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 121/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 121 e ’l capo tronco tenea per le chiome,
 122 pesol con mano a guisa di lanterna:
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118 Bizony láttam, és még mindig úgy tűnik, mintha látnám,
-119 egy törzset fej nélkül menni, ahogyan
-120 mentek a többiek a szomorú nyájból;
-
 121 és a levágott fejét a hajánál fogva tartotta,
 122 és kézzel lóbálta, mint egy lámpást:
 123 és ránk nézett, és ezt mondta: „Ó, én!”.
@@ -536,16 +638,23 @@ Please translate each line literally into Hungarian.
 127 Quando diritto al piè del ponte fue,
 128 levò ’l braccio alto con tutta la testa
 129 per appressarne le parole sue,
+</prompt>
+<result>
+127 Amikor egyenesen a híd lábához ért,
+128 felemelte a magasba a karját az egész fejével együtt,
+129 hogy közelebb hozza a szavait,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 130/142</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 130 che fuoro: «Or vedi la pena molesta,
 131 tu che, spirando, vai veggendo i morti:
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127 Amikor egyenesen a híd lábához ért,
-128 felemelte a magasba a karját az egész fejével együtt,
-129 hogy közelebb hozza a szavait,
-
 130 amelyek ezek voltak: „Most látod a kínzó büntetést,
 131 te, aki lélegezve járod a holtakat:
 132 nézd meg, van-e nagyobb, mint ez.

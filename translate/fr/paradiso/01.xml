@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="48">
 <query>
 <info>[Paradiso Canto 1] 1/142</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into French.
 4 Nel ciel che più de la sua luce prende
 5 fu’ io, e vidi cose che ridire
 6 né sa né può chi di là sù discende;
+</prompt>
+<result>
+4 Dans le ciel qui reçoit le plus de sa lumière
+5 je fus, et je vis des choses que redire
+6 ne sait ni ne peut celui qui de là-haut descend ;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 7/142</info>
+<prompt>
+Please translate each line literally into French.
 
 7 perché appressando sé al suo disire,
 8 nostro intelletto si profonda tanto,
 9 che dietro la memoria non può ire.
 </prompt>
 <result>
-4 Dans le ciel qui reçoit le plus de sa lumière
-5 je fus, et je vis des choses que redire
-6 ne sait ni ne peut celui qui de là-haut descend ;
-
 7 car en s'approchant de son désir,
 8 notre intellect s'enfonce si profondément,
 9 qu'il ne peut suivre la mémoire.
@@ -48,8 +55,9 @@ Please translate each line literally into French.
 12 sarà ora materia del mio canto.
 </prompt>
 <result>
-10 En vérité, tout ce que je pus emmagasiner dans mon esprit du saint royaume,
-11 sera maintenant la matière de mon chant.
+10 En vérité, tout ce que du saint règne
+11 je pus dans mon esprit faire trésor,
+12 sera maintenant matière de mon chant.
 </result>
 </query>
 <query>
@@ -76,32 +84,6 @@ Please translate each line literally into French.
 17 assai mi fu; ma or con amendue
 18 m’è uopo intrar ne l’aringo rimaso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "16 Jusqu\'ici un seul joug du Parnasse\n17 m\'a suffi ; mais maintenant avec les deux\n18 il me faut entrer dans l\'arène qui reste."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 16 Jusqu'ici un seul joug du Parnasse
 17 m'a suffi ; mais maintenant avec les deux
@@ -131,16 +113,23 @@ Please translate each line literally into French.
 22 O divina virtù, se mi ti presti
 23 tanto che l’ombra del beato regno
 24 segnata nel mio capo io manifesti,
+</prompt>
+<result>
+22 Ô divine vertu, si tu m’accordes
+23 assez pour que je manifeste l’ombre du royaume bienheureux
+24 qui est gravée dans mon esprit,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 25/142</info>
+<prompt>
+Please translate each line literally into French.
 
 25 vedra’mi al piè del tuo diletto legno
 26 venire, e coronarmi de le foglie
 27 che la materia e tu mi farai degno.
 </prompt>
 <result>
-22 Ô divine vertu, si tu m’accordes
-23 assez pour que je manifeste l’ombre du royaume bienheureux
-24 qui est gravée dans mon esprit,
-
 25 tu me verras venir au pied de ton arbre bien-aimé
 26 et me couronner des feuilles
 27 dont la matière et toi me rendront digne.
@@ -154,16 +143,23 @@ Please translate each line literally into French.
 28 Sì rade volte, padre, se ne coglie
 29 per trïunfare o cesare o poeta,
 30 colpa e vergogna de l’umane voglie,
+</prompt>
+<result>
+28 Si rarement, père, on en cueille
+29 pour faire triompher un césar ou un poète,
+30 faute et honte des désirs humains,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 31/142</info>
+<prompt>
+Please translate each line literally into French.
 
 31 che parturir letizia in su la lieta
 32 delfica deïtà dovria la fronda
 33 peneia, quando alcun di sé asseta.
 </prompt>
 <result>
-28 Si rarement, père, on en cueille
-29 pour faire triompher un césar ou un poète,
-30 faute et honte des désirs humains,
-
 31 que la branche pénienne, quand quelqu’un en a soif,
 32 devrait faire naître la joie sur le visage joyeux
 33 de la déesse delphique.
@@ -192,16 +188,23 @@ Please translate each line literally into French.
 37 Surge ai mortali per diverse foci
 38 la lucerna del mondo; ma da quella
 39 che quattro cerchi giugne con tre croci,
+</prompt>
+<result>
+37 La lumière du monde se lève pour les mortels par différentes ouvertures ;
+38 mais de celle
+39 que quatre cercles rejoignent avec trois croix,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 40/142</info>
+<prompt>
+Please translate each line literally into French.
 
 40 con miglior corso e con migliore stella
 41 esce congiunta, e la mondana cera
 42 più a suo modo tempera e suggella.
 </prompt>
 <result>
-37 La lumière du monde se lève pour les mortels par différentes ouvertures ;
-38 mais de celle
-39 que quatre cercles rejoignent avec trois croix,
-
 40 elle sort unie avec un meilleur cours et une meilleure étoile,
 41 et elle tempère et scelle la cire mondaine
 42 davantage à sa manière.
@@ -215,16 +218,23 @@ Please translate each line literally into French.
 43 Fatto avea di là mane e di qua sera
 44 tal foce, e quasi tutto era là bianco
 45 quello emisperio, e l’altra parte nera,
+</prompt>
+<result>
+43 De ce côté-là, il avait fait matin et de l’autre côté soir ;
+44 et presque tout cet hémisphère était blanc,
+45 et l’autre partie noire,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 46/142</info>
+<prompt>
+Please translate each line literally into French.
 
 46 quando Beatrice in sul sinistro fianco
 47 vidi rivolta e riguardar nel sole:
 48 aguglia sì non li s’affisse unquanco.
 </prompt>
 <result>
-43 De ce côté-là, il avait fait matin et de l’autre côté soir ;
-44 et presque tout cet hémisphère était blanc,
-45 et l’autre partie noire,
-
 46 quand je vis Béatrice tournée sur le flanc gauche
 47 et regarder le soleil :
 48 jamais aigle ne s’y fixa autant.
@@ -238,16 +248,23 @@ Please translate each line literally into French.
 49 E sì come secondo raggio suole
 50 uscir del primo e risalire in suso,
 51 pur come pelegrin che tornar vuole,
+</prompt>
+<result>
+49 Et comme un second rayon a coutume
+50 de sortir du premier et de remonter vers le haut,
+51 tel un pèlerin qui veut retourner,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 52/142</info>
+<prompt>
+Please translate each line literally into French.
 
 52 così de l’atto suo, per li occhi infuso
 53 ne l’imagine mia, il mio si fece,
 54 e fissi li occhi al sole oltre nostr’ uso.
 </prompt>
 <result>
-49 Et comme un second rayon a coutume
-50 de sortir du premier et de remonter vers le haut,
-51 tel un pèlerin qui veut retourner,
-
 52 ainsi de son acte, infusé par les yeux
 53 dans mon imagination, le mien se fit,
 54 et je fixai les yeux sur le soleil au-delà de notre habitude.
@@ -276,16 +293,23 @@ Please translate each line literally into French.
 58 Io nol soffersi molto, né sì poco,
 59 ch’io nol vedessi sfavillar dintorno,
 60 com’ ferro che bogliente esce del foco;
+</prompt>
+<result>
+58 Je ne le supportai pas longtemps, ni si peu,
+59 que je ne le visse étinceler tout autour,
+60 comme le fer bouillant qui sort du feu ;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 61/142</info>
+<prompt>
+Please translate each line literally into French.
 
 61 e di sùbito parve giorno a giorno
 62 essere aggiunto, come quei che puote
 63 avesse il ciel d’un altro sole addorno.
 </prompt>
 <result>
-58 Je ne le supportai pas longtemps, ni si peu,
-59 que je ne le visse étinceler tout autour,
-60 comme le fer bouillant qui sort du feu ;
-
 61 et soudain il sembla que le jour s’était ajouté au jour,
 62 comme si celui qui peut
 63 avait orné le ciel d’un autre soleil.
@@ -359,16 +383,23 @@ Please translate each line literally into French.
 76 Quando la rota che tu sempiterni
 77 desiderato, a sé mi fece atteso
 78 con l’armonia che temperi e discerni,
+</prompt>
+<result>
+76 Quand la roue que tu rends éternelle,
+77 désirée, m’attendit à elle
+78 avec l’harmonie que tu tempères et discernes,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 79/142</info>
+<prompt>
+Please translate each line literally into French.
 
 79 parvemi tanto allor del cielo acceso
 80 de la fiamma del sol, che pioggia o fiume
 81 lago non fece alcun tanto disteso.
 </prompt>
 <result>
-76 Quand la roue que tu rends éternelle,
-77 désirée, m’attendit à elle
-78 avec l’harmonie que tu tempères et discernes,
-
 79 le ciel me parut alors si enflammé
 80 par la flamme du soleil, qu’aucune pluie, aucun fleuve,
 81 aucun lac ne s’étendit autant.
@@ -397,42 +428,23 @@ Please translate each line literally into French.
 85 Ond’ ella, che vedea me sì com’ io,
 86 a quïetarmi l’animo commosso,
 87 pria ch’io a dimandar, la bocca aprio
+</prompt>
+<result>
+85 Alors elle, qui me voyait tel que j’étais,
+86 pour apaiser mon esprit troublé,
+87 avant que je ne demande, ouvrit la bouche
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 88/142</info>
+<prompt>
+Please translate each line literally into French.
 
 88 e cominciò: «Tu stesso ti fai grosso
 89 col falso imaginar, sì che non vedi
 90 ciò che vedresti se l’avessi scosso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "85 Alors elle, qui me voyait tel que j’étais,\n86 pour apaiser mon esprit troublé,\n87 avant que je ne demande, ouvrit la bouche\n\n88 et commença : « Tu t’épaissis toi-même\n89 par de fausses imaginations, si bien que tu ne vois pas\n90 ce que tu verrais si tu les avais secouées."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-85 Alors elle, qui me voyait tel que j’étais,
-86 pour apaiser mon esprit troublé,
-87 avant que je ne demande, ouvrit la bouche
-
 88 et commença : « Tu t’épaissis toi-même
 89 par de fausses imaginations, si bien que tu ne vois pas
 90 ce que tu verrais si tu les avais secouées.
@@ -461,16 +473,23 @@ Please translate each line literally into French.
 94 S’io fui del primo dubbio disvestito
 95 per le sorrise parolette brevi,
 96 dentro ad un nuovo più fu’ inretito
+</prompt>
+<result>
+94 Si je fus dépouillé du premier doute
+95 par les paroles souriantes et brèves,
+96 je fus pris dans un nouveau doute plus grand
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 97/142</info>
+<prompt>
+Please translate each line literally into French.
 
 97 e dissi: «Già contento requïevi
 98 di grande ammirazion; ma ora ammiro
 99 com’ io trascenda questi corpi levi».
 </prompt>
 <result>
-94 Si je fus dépouillé du premier doute
-95 par les paroles souriantes et brèves,
-96 je fus pris dans un nouveau doute plus grand
-
 97 et je dis : « Tu as déjà apaisé un grand étonnement ;
 98 mais maintenant je m’étonne
 99 de la façon dont je transcende ces corps légers ».
@@ -484,16 +503,23 @@ Please translate each line literally into French.
 100 Ond’ ella, appresso d’un pïo sospiro,
 101 li occhi drizzò ver’ me con quel sembiante
 102 che madre fa sovra figlio deliro,
+</prompt>
+<result>
+100 Alors, après un pieux soupir,
+101 elle tourna les yeux vers moi avec le même air
+102 qu’une mère a envers son fils en délire,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 103/142</info>
+<prompt>
+Please translate each line literally into French.
 
 103 e cominciò: «Le cose tutte quante
 104 hanno ordine tra loro, e questo è forma
 105 che l’universo a Dio fa simigliante.
 </prompt>
 <result>
-100 Alors, après un pieux soupir,
-101 elle tourna les yeux vers moi avec le même air
-102 qu’une mère a envers son fils en délire,
-
 103 et commença : « Toutes les choses
 104 ont un ordre entre elles, et c’est la forme
 105 qui rend l’univers semblable à Dieu.
@@ -522,16 +548,23 @@ Please translate each line literally into French.
 109 Ne l’ordine ch’io dico sono accline
 110 tutte nature, per diverse sorti,
 111 più al principio loro e men vicine;
+</prompt>
+<result>
+109 Dans l’ordre que je dis, toutes les natures sont enclines,
+110 par différents sorts,
+111 plus ou moins proches de leur principe ;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 112/142</info>
+<prompt>
+Please translate each line literally into French.
 
 112 onde si muovono a diversi porti
 113 per lo gran mar de l’essere, e ciascuna
 114 con istinto a lei dato che la porti.
 </prompt>
 <result>
-109 Dans l’ordre que je dis, toutes les natures sont enclines,
-110 par différents sorts,
-111 plus ou moins proches de leur principe ;
-
 112 c’est pourquoi elles se meuvent vers différents ports
 113 à travers la grande mer de l’être, et chacune
 114 avec un instinct qui lui est donné pour la porter.
@@ -545,16 +578,23 @@ Please translate each line literally into French.
 115 Questi ne porta il foco inver’ la luna;
 116 questi ne’ cor mortali è permotore;
 117 questi la terra in sé stringe e aduna;
+</prompt>
+<result>
+115 Celui-ci porte le feu vers la lune ;
+116 celui-ci est le moteur dans les cœurs mortels ;
+117 celui-ci resserre et rassemble la terre en elle-même ;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 118/142</info>
+<prompt>
+Please translate each line literally into French.
 
 118 né pur le creature che son fore
 119 d’intelligenza quest’ arco saetta,
 120 ma quelle c’hanno intelletto e amore.
 </prompt>
 <result>
-115 Celui-ci porte le feu vers la lune ;
-116 celui-ci est le moteur dans les cœurs mortels ;
-117 celui-ci resserre et rassemble la terre en elle-même ;
-
 118 et cet arc ne frappe pas seulement les créatures
 119 qui sont dépourvues d’intelligence,
 120 mais aussi celles qui ont l’intellect et l’amour.
@@ -568,16 +608,23 @@ Please translate each line literally into French.
 121 La provedenza, che cotanto assetta,
 122 del suo lume fa ’l ciel sempre quïeto
 123 nel qual si volge quel c’ha maggior fretta;
+</prompt>
+<result>
+121 La providence, qui dispose ainsi de tout,
+122 rend le ciel toujours calme de sa lumière,
+123 dans lequel tourne celui qui a le plus de hâte ;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 124/142</info>
+<prompt>
+Please translate each line literally into French.
 
 124 e ora lì, come a sito decreto,
 125 cen porta la virtù di quella corda
 126 che ciò che scocca drizza in segno lieto.
 </prompt>
 <result>
-121 La providence, qui dispose ainsi de tout,
-122 rend le ciel toujours calme de sa lumière,
-123 dans lequel tourne celui qui a le plus de hâte ;
-
 124 et maintenant là, comme vers un lieu décrété,
 125 la vertu de cette corde nous porte,
 126 qui dirige vers une cible heureuse tout ce qu’elle décoche.
@@ -591,26 +638,41 @@ Please translate each line literally into French.
 127 Vero è che, come forma non s’accorda
 128 molte fïate a l’intenzion de l’arte,
 129 perch’ a risponder la materia è sorda,
+</prompt>
+<result>
+127 Il est vrai que, comme la forme ne s’accorde
+128 souvent pas à l’intention de l’art,
+129 la matière est sourde à répondre,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 130/142</info>
+<prompt>
+Please translate each line literally into French.
 
 130 così da questo corso si diparte
 131 talor la creatura, c’ha podere
 132 di piegar, così pinta, in altra parte;
+</prompt>
+<result>
+130 ainsi de ce cours se départ
+131 parfois la créature, qui a pouvoir
+132 de se plier, ainsi poussée, en une autre part ;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 1] 133/142</info>
+<prompt>
+Please translate each line literally into French.
 
 133 e sì come veder si può cadere
 134 foco di nube, sì l’impeto primo
 135 l’atterra torto da falso piacere.
 </prompt>
 <result>
-127 Il est vrai que, comme la forme ne s’accorde pas
-128 souvent avec l’intention de l’art,
-129 parce que la matière est sourde à la réponse,
-
-130 ainsi la créature s’écarte parfois de ce cours,
-131 qui a le pouvoir de se plier, ainsi poussée, dans une autre direction ;
-
-133 et comme on peut voir tomber
-134 le feu d’un nuage, ainsi l’impulsion première
-135 l’abat, déformée par un faux plaisir.
+133 et ainsi que l’on peut voir tomber
+134 le feu d’un nuage, ainsi l’impétuosité première
+135 l’abat, tordu par un faux plaisir.
 </result>
 </query>
 <query>

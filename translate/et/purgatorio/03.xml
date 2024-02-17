@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="49">
 <query>
 <info>[Purgatorio Canto 3] 1/145</info>
 <prompt>
@@ -8,40 +8,68 @@ Please translate each line literally into Estonian.
 1 Avvegna che la subitana fuga
 2 dispergesse color per la campagna,
 3 rivolti al monte ove ragion ne fruga,
+</prompt>
+<result>
+1 Kuigi äkiline põgenemine
+2 hajutas need üle maa,
+3 pöördusime mäe poole, kus mõistus meid juhib,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 4/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 4 i’ mi ristrinsi a la fida compagna:
 5 e come sare’ io sanza lui corso?
 6 chi m’avria tratto su per la montagna?
+</prompt>
+<result>
+4 ma mina jäin oma ustavale kaaslasele ligi:
+5 ja kuidas oleksin ma ilma temata jooksnud?
+6 kes oleks mind mäest üles vedanud?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 7/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 7 El mi parea da sé stesso rimorso:
 8 o dignitosa coscïenza e netta,
 9 come t’è picciol fallo amaro morso!
+</prompt>
+<result>
+7 Ta tundus mulle iseenesest süüdistatuna:
+8 oh, väärikas ja puhas südametunnistus,
+9 kui kibedalt sind väike eksimus hammustab!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 10/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 10 Quando li piedi suoi lasciar la fretta,
 11 che l’onestade ad ogn’ atto dismaga,
 12 la mente mia, che prima era ristretta,
+</prompt>
+<result>
+10 Kui tema jalad jätsid kiirust maha,
+11 mis häbistab iga tegu,
+12 siis mu mõistus, mis enne oli kitsas,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 13/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 13 lo ’ntento rallargò, sì come vaga,
 14 e diedi ’l viso mio incontr’ al poggio
 15 che ’nverso ’l ciel più alto si dislaga.
 </prompt>
 <result>
-1 Kuigi äkiline põgenemine
-2 hajutas need üle maa,
-3 pöördusime mäe poole, kus mõistus meid juhib,
-
-4 ma mina jäin oma ustavale kaaslasele ligi:
-5 ja kuidas oleksin ma ilma temata jooksnud?
-6 kes oleks mind mäest üles vedanud?
-
-7 Ta tundus mulle iseenesest süüdistatuna:
-8 oh, väärikas ja puhas südametunnistus,
-9 kui kibedalt sind väike eksimus hammustab!
-
-10 Kui tema jalad jätsid kiirust maha,
-11 mis häbistab iga tegu,
-12 siis mu mõistus, mis enne oli kitsas,
-
 13 laienes oma kavatsuses, nagu oleks see olnud uudishimulik,
 14 ja ma pöörasin oma näo mäe poole,
 15 mis kõrgemale taeva poole tõuseb.
@@ -70,24 +98,38 @@ Please translate each line literally into Estonian.
 19 Io mi volsi dallato con paura
 20 d’essere abbandonato, quand’ io vidi
 21 solo dinanzi a me la terra oscura;
+</prompt>
+<result>
+19 Ma pöördusin kõrvale hirmust,
+20 et olen maha jäetud, kui nägin
+21 ainult enda ees pimedat maad;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 22/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 22 e ’l mio conforto: «Perché pur diffidi?»,
 23 a dir mi cominciò tutto rivolto;
 24 «non credi tu me teco e ch’io ti guidi?
+</prompt>
+<result>
+22 ja mu lohutaja hakkas mulle ütlema, täielikult minu poole pöördudes:
+23 «Miks sa ikka veel kahtled?»;
+24 «kas sa ei usu, et ma olen sinuga ja et ma sind juhin?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 25/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 25 Vespero è già colà dov’ è sepolto
 26 lo corpo dentro al quale io facea ombra;
 27 Napoli l’ha, e da Brandizio è tolto.
 </prompt>
 <result>
-19 Ma pöördusin kõrvale hirmust,
-20 et olen maha jäetud, kui nägin
-21 ainult enda ees pimedat maad;
-
-22 ja mu lohutaja hakkas mulle ütlema, täielikult minu poole pöördudes:
-23 «Miks sa ikka veel kahtled?»;
-24 «kas sa ei usu, et ma olen sinuga ja et ma sind juhin?
-
 25 Õhtu on juba seal, kus on maetud
 26 keha, mille sees ma varju heitsin;
 27 Napolil on see ja see on võetud Brindisi käest.
@@ -132,32 +174,6 @@ Please translate each line literally into Estonian.
 35 possa trascorrer la infinita via
 36 che tiene una sustanza in tre persone.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "34 Hull on see, kes loodab, et meie mõistus\n35 suudab läbida lõputu tee,\n36 millel on üks substants kolmes isikus."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 34 Hull on see, kes loodab, et meie mõistus
 35 suudab läbida lõputu tee,
@@ -172,24 +188,38 @@ Please translate each line literally into Estonian.
 37 State contenti, umana gente, al quia;
 38 ché, se potuto aveste veder tutto,
 39 mestier non era parturir Maria;
+</prompt>
+<result>
+37 Inimesed, olge rahul sellega, mis on;
+38 sest kui te oleksite saanud kõike näha,
+39 siis poleks olnud vaja Maarjal sünnitada;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 40/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 40 e disïar vedeste sanza frutto
 41 tai che sarebbe lor disio quetato,
 42 ch’etternalmente è dato lor per lutto:
+</prompt>
+<result>
+40 ja te nägite asjata soovi,
+41 et nende soov oleks rahuldatud,
+42 mis on neile igaveseks antud leinaks:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 43/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 43 io dico d’Aristotile e di Plato
 44 e di molt’ altri»; e qui chinò la fronte,
 45 e più non disse, e rimase turbato.
 </prompt>
 <result>
-37 Inimesed, olge rahul sellega, mis on;
-38 sest kui te oleksite saanud kõike näha,
-39 siis poleks olnud vaja Maarjal sünnitada;
-
-40 ja te nägite asjata soovi,
-41 et nende soov oleks rahuldatud,
-42 mis on neile igaveseks antud leinaks:
-
 43 ma räägin Aristotelesest ja Platonist
 44 ja paljudest teistest»; ja siin ta kummardas oma pead,
 45 ja ei öelnud enam midagi ning jäi häirituks.
@@ -248,16 +278,23 @@ Please translate each line literally into Estonian.
 55 E mentre ch’e’ tenendo ’l viso basso
 56 essaminava del cammin la mente,
 57 e io mirava suso intorno al sasso,
+</prompt>
+<result>
+55 Ja kui ta, hoides oma nägu maas,
+56 uuris mõttes rada,
+57 ja mina vaatasin üles ümber kalju,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 58/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 58 da man sinistra m’apparì una gente
 59 d’anime, che movieno i piè ver’ noi,
 60 e non pareva, sì venïan lente.
 </prompt>
 <result>
-55 Ja kui ta, hoides oma nägu maas,
-56 uuris mõttes rada,
-57 ja mina vaatasin üles ümber kalju,
-
 58 siis ilmus mulle vasakult poolt
 59 hingede hulk, kes liigutasid oma jalgu meie poole,
 60 ja nad ei paistnud tulevat, nii aeglaselt nad tulid.
@@ -301,16 +338,23 @@ Please translate each line literally into Estonian.
 67 Ancora era quel popol di lontano,
 68 i’ dico dopo i nostri mille passi,
 69 quanto un buon gittator trarria con mano,
+</prompt>
+<result>
+67 See rahvas oli veel kaugel,
+68 ma ütlen, et pärast meie tuhat sammu,
+69 kui palju hea viskaja käega viskaks,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 70/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 70 quando si strinser tutti ai duri massi
 71 de l’alta ripa, e stetter fermi e stretti
 72 com’ a guardar, chi va dubbiando, stassi.
 </prompt>
 <result>
-67 See rahvas oli veel kaugel,
-68 ma ütlen, et pärast meie tuhat sammu,
-69 kui palju hea viskaja käega viskaks,
-
 70 kui nad kõik kõrge kalda kõvade kivide juurde kogunesid
 71 ja seisid paigal ja tihedalt koos,
 72 nagu seisab see, kes kahtleb, et vaadata.
@@ -324,16 +368,23 @@ Please translate each line literally into Estonian.
 73 «O ben finiti, o già spiriti eletti»,
 74 Virgilio incominciò, «per quella pace
 75 ch’i’ credo che per voi tutti s’aspetti,
+</prompt>
+<result>
+73 «Oo, hästi lõpetanud, oo, juba valitud hinged»,
+74 alustas Vergilius, «selle rahu nimel,
+75 mida ma usun, et te kõik ootate,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 76/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 76 ditene dove la montagna giace,
 77 sì che possibil sia l’andare in suso;
 78 ché perder tempo a chi più sa più spiace».
 </prompt>
 <result>
-73 «Oo, hästi lõpetanud, oo, juba valitud hinged»,
-74 alustas Vergilius, «selle rahu nimel,
-75 mida ma usun, et te kõik ootate,
-
 76 öelge meile, kus mägi asub,
 77 nii et oleks võimalik üles minna;
 78 sest aja raiskamine on kõige rohkem ebameeldiv sellele, kes teab rohkem».
@@ -347,26 +398,41 @@ Please translate each line literally into Estonian.
 79 Come le pecorelle escon del chiuso
 80 a una, a due, a tre, e l’altre stanno
 81 timidette atterrando l’occhio e ’l muso;
+</prompt>
+<result>
+79 Nagu lambad, kes väljuvad aedikust
+80 üks, kaks, kolm, ja teised seisavad
+81 häbelikult, hoides pead ja koonud maas;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 82/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 82 e ciò che fa la prima, e l’altre fanno,
 83 addossandosi a lei, s’ella s’arresta,
 84 semplici e quete, e lo ’mperché non sanno;
+</prompt>
+<result>
+82 ja mida teeb esimene, seda teevad ka teised,
+83 toetudes temale, kui ta peatub,
+84 lihtsad ja vaiksed, ja miks, seda nad ei tea;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 85/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 85 sì vid’ io muovere a venir la testa
 86 di quella mandra fortunata allotta,
 87 pudica in faccia e ne l’andare onesta.
 </prompt>
 <result>
-79 Nagu lambad tulevad ükshaaval, kahekaupa, kolmekesi välja aedikust
-80 ja teised seisavad
-81 arglikult, langetades silmad ja koonu;
-
-82 ja mida teeb esimene, seda teevad ka teised,
-83 toetudes tema vastu, kui ta peatub,
-84 lihtsad ja vaiksed ning nad ei tea miks;
-
-85 nii nägin ma selle õnneliku karja eesotsa liikumas,
-86 nägu häbelik ja käik aus.
+85 Nii nägin ma neid liikumas
+86 karja ees,
+87 igaüks näost ja käigult auväärikas.
 </result>
 </query>
 <query>
@@ -377,18 +443,26 @@ Please translate each line literally into Estonian.
 88 Come color dinanzi vider rotta
 89 la luce in terra dal mio destro canto,
 90 sì che l’ombra era da me a la grotta,
+</prompt>
+<result>
+88 Nagu värvid, mis nägid punast
+89 valgust maa peal minu paremal pool,
+90 nii et vari jäi minust koopasse,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 91/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 91 restaro, e trasser sé in dietro alquanto,
 92 e tutti li altri che venieno appresso,
 93 non sappiendo ’l perché, fenno altrettanto.
 </prompt>
 <result>
-88 Kui need eespool nägid valgust maas mu paremal poolt katkenud,
-89 nii et vari oli minust koopasse,
-
-90 siis nad peatusid ja tõmbusid veidi tagasi
-91 ja kõik teised, kes tulid järele,
-92 teadmata miks, tegid sama.
+91 jäin seisma ja tõmbasin end veidi tagasi,
+92 ja kõik teised, kes tulid järele,
+93 teadmata miks, tegid sama.
 </result>
 </query>
 <query>
@@ -417,7 +491,8 @@ Please translate each line literally into Estonian.
 </prompt>
 <result>
 97 Ärge imestage, vaid uskuge,
-98 et ma ei püüa seda seina ületada ilma taevast tuleva väeta».
+98 et mitte ilma taevase väeta
+99 püüan ma seda seina ületada».
 </result>
 </query>
 <query>
@@ -488,18 +563,26 @@ Please translate each line literally into Estonian.
 112 Poi sorridendo disse: «Io son Manfredi,
 113 nepote di Costanza imperadrice;
 114 ond’ io ti priego che, quando tu riedi,
+</prompt>
+<result>
+112 Siis naeratas ta ja ütles: «Mina olen Manfred,
+113 keisrinna Costanza lapselaps;
+114 seepärast ma palun sind, et kui sa tagasi lähed,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 115/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 115 vadi a mia bella figlia, genitrice
 116 de l’onor di Cicilia e d’Aragona,
 117 e dichi ’l vero a lei, s’altro si dice.
 </prompt>
 <result>
-112 Siis ütles ta naeratades: «Mina olen Manfred,
-113 keisrinna Costanza lapselaps;
-114 seetõttu palun ma sind, et kui sa tagasi lähed,
-
-115 siis mine mu kauni tütre juurde, Sitsiilia ja Aragóni au emana,
-116 ja ütle talle tõde, kui midagi muud räägitakse.
+115 mine прекрасного tütre juurde, Sitsiilia ja Aragóni
+116 au ehitaja,
+117 ja ütle talle, et see on tõsi, kui midagi muud räägitakse.
 </result>
 </query>
 <query>
@@ -512,8 +595,9 @@ Please translate each line literally into Estonian.
 120 piangendo, a quei che volontier perdona.
 </prompt>
 <result>
-118 Pärast seda, kui ma olin saanud kahe surmava haava,
-119 andsin ma end nuttes sellele, kes meelsasti andestab.
+118 Pärast seda, kui mind oli läbistanud
+119 kaks surmavat haava, andsin ma end,
+120 nuttes, sellele, kes meelsasti andestab.
 </result>
 </query>
 <query>
@@ -539,18 +623,26 @@ Please translate each line literally into Estonian.
 124 Se ’l pastor di Cosenza, che a la caccia
 125 di me fu messo per Clemente allora,
 126 avesse in Dio ben letta questa faccia,
+</prompt>
+<result>
+124 Kui Cosenza karjane, kes mindale järele saadeti
+125 tollel ajal Clemens’i poolt,
+126 oleks Jumalasse süvenenult seda nägu lugenud,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 127/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 127 l’ossa del corpo mio sarieno ancora
 128 in co del ponte presso a Benevento,
 129 sotto la guardia de la grave mora.
 </prompt>
 <result>
-124 Kui Cosenza karjane, kes tol ajal Clemente poolt minu jälitamisele saadeti,
-125 oleks Jumalas seda nägu hästi lugenud,
-
-126 siis oleksid mu keha luud veel
-127 Benevento lähedal silla otsas,
-128 raske kivi valvsa silma all.
+127 siis oleksid mu keha luud veel
+128 Benevento lähedal silla otsas,
+129 raske kivi valvsa all.
 </result>
 </query>
 <query>
@@ -591,18 +683,26 @@ Please translate each line literally into Estonian.
 136 Vero è che quale in contumacia more
 137 di Santa Chiesa, ancor ch’al fin si penta,
 138 star li convien da questa ripa in fore,
+</prompt>
+<result>
+136 Tõsi on, et kes kirikuvande all suri,
+137 kuigi ta lõpuks kahetseb,
+138 peab ta siin kaldal väljaspool olema,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 139/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 139 per ognun tempo ch’elli è stato, trenta,
 140 in sua presunzïon, se tal decreto
 141 più corto per buon prieghi non diventa.
 </prompt>
 <result>
-136 Tõsi on, et see, kes sureb Püha Kiriku vastuhakust,
-137 isegi kui ta lõpuks kahetseb,
-138 peab jääma sellest kaldast välja,
-
-139 iga aja eest, mil ta on olnud oma eelarvamuses, kolmkümmend aastat,
-140 kui selline dekreet ei muutu heade palvete tõttu lühemaks.
+139 iga aja eest, mil ta oli, kolmkümmend,
+140 oma ülbuse pärast, kui see otsus
+141 heade palvete läbi lühemaks ei muutu.
 </result>
 </query>
 <query>
@@ -613,14 +713,21 @@ Please translate each line literally into Estonian.
 142 Vedi oggimai se tu mi puoi far lieto,
 143 revelando a la mia buona Costanza
 144 come m’hai visto, e anco esto divieto;
-
-145 ché qui per quei di là molto s’avanza».
 </prompt>
 <result>
 142 Nüüd näe, kas sa saad mind rõõmustada,
 143 avaldades mu heale Costanzale,
 144 kuidas sa mind nägid, ja ka seda keeldu;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 145/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
+145 ché qui per quei di là molto s’avanza».
+</prompt>
+<result>
 145 sest siin saavutatakse palju nende pärast, kes on sealpool».
 </result>
 </query>

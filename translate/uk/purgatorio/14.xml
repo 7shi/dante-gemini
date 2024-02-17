@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="33">
+<queries count="51">
 <query>
 <info>[Purgatorio Canto 14] 1/151</info>
 <prompt>
@@ -38,24 +38,38 @@ Please translate each line literally into Ukrainian.
 7 Così due spirti, l’uno a l’altro chini,
 8 ragionavan di me ivi a man dritta;
 9 poi fer li visi, per dirmi, supini;
+</prompt>
+<result>
+7 Так два духи, схилившись один до одного,
+8 говорили про мене праворуч;
+9 потім підняли обличчя, щоб сказати мені, лежачи на спині;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 10/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 10 e disse l’uno: «O anima che fitta
 11 nel corpo ancora inver’ lo ciel ten vai,
 12 per carità ne consola e ne ditta
+</prompt>
+<result>
+10 і один сказав: «О душе, що все ще в тілі
+11 прямуєш до неба,
+12 з милосердя втіш нас і скажи нам,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 13/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 13 onde vieni e chi se’; ché tu ne fai
 14 tanto maravigliar de la tua grazia,
 15 quanto vuol cosa che non fu più mai».
 </prompt>
 <result>
-7 Так два духи, схилившись один до одного,
-8 говорили про мене праворуч;
-9 потім підняли обличчя, щоб сказати мені, лежачи на спині;
-
-10 і один сказав: «О душе, що все ще в тілі
-11 прямуєш до неба,
-12 з милосердя втіш нас і скажи нам,
-
 13 звідки ти прийшов і хто ти; бо ти викликаєш у нас
 14 таке здивування своєю благодаттю,
 15 як щось, чого ніколи раніше не було».
@@ -129,42 +143,71 @@ Please translate each line literally into Ukrainian.
 28 E l’ombra che di ciò domandata era,
 29 si sdebitò così: «Non so; ma degno
 30 ben è che ’l nome di tal valle pèra;
+</prompt>
+<result>
+28 І тінь, яку про це запитали,
+29 виправдалася так: «Я не знаю; але гідно,
+30 щоб ім’я такої долини загинуло;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 31/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 31 ché dal principio suo, ov’ è sì pregno
 32 l’alpestro monte ond’ è tronco Peloro,
 33 che ’n pochi luoghi passa oltra quel segno,
+</prompt>
+<result>
+31 від початку свого, де так рясний
+32 скелястий пагорб, звідки Пелор,
+33 що в місцях проходить далі тієї межі,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 34/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 34 infin là ’ve si rende per ristoro
 35 di quel che ’l ciel de la marina asciuga,
 36 ond’ hanno i fiumi ciò che va con loro,
+</prompt>
+<result>
+34 аж туди, де повертається для відпочинку
+35 від того, що небо з моря висушує,
+36 звідки річки мають те, що тече з ними,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 37/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 37 vertù così per nimica si fuga
 38 da tutti come biscia, o per sventura
 39 del luogo, o per mal uso che li fruga:
+</prompt>
+<result>
+37 чеснота так від них тікає, як ворог,
+38 від усіх, як гадюка, або через нещастя
+39 місця, або через погане використання, яке їх мучить:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 40/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 40 ond’ hanno sì mutata lor natura
 41 li abitator de la misera valle,
 42 che par che Circe li avesse in pastura.
 </prompt>
 <result>
-28 А тінь, яку про це запитали,
-29 виправдалася так: «Не знаю; але справедливо,
-30 щоб назва цієї долини зникла;
-
-31 бо від її початку, де такий рясний
-32 гірський масив, від якого відрізаний Пелор,
-33 що в небагатьох місцях переходить за ту межу,
-
-34 аж до того місця, де вона відновлюється, щоб відшкодувати
-35 те, що небо висушує з моря,
-36 звідки річки мають те, що тече з ними,
-
-37 чеснота так тікає від усіх, як змія,
-38 або через нещастя
-39 місця, або через поганий звичай, який їх мучить:
-
-40 через що мешканці нещасної долини так змінили свою природу,
-41 що здається, ніби Цирцея годувала їх».
+40 звідки так змінили свою природу
+41 мешканці жалюгідної долини,
+42 що здається, ніби Цирцея їх пасла.
 </result>
 </query>
 <query>
@@ -266,32 +309,6 @@ Please translate each line literally into Ukrainian.
 62 poscia li ancide come antica belva;
 63 molti di vita e sé di pregio priva.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "61 Продає їхнє м’ясо, поки вони живі;\n62 потім вбиває їх, як старий звір;\n63 багатьох позбавляє життя, а себе — поваги."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 61 Продає їхнє м’ясо, поки вони живі;
 62 потім вбиває їх, як старий звір;
@@ -321,16 +338,23 @@ Please translate each line literally into Ukrainian.
 67 Com’ a l’annunzio di dogliosi danni
 68 si turba il viso di colui ch’ascolta,
 69 da qual che parte il periglio l’assanni,
+</prompt>
+<result>
+67 Як від звістки про сумні збитки
+68 обличчя того, хто слухає, стає схвильованим,
+69 з якої сторони небезпека його наздожене,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 70/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 70 così vid’ io l’altr’ anima, che volta
 71 stava a udir, turbarsi e farsi trista,
 72 poi ch’ebbe la parola a sé raccolta.
 </prompt>
 <result>
-67 Як від звістки про сумні збитки
-68 обличчя того, хто слухає, стає схвильованим,
-69 з якої сторони небезпека його наздожене,
-
 70 так я побачив іншу душу, яка повернулася
 71 слухати, схвильованою і сумною,
 72 після того, як вона зібрала слова для себе.
@@ -344,16 +368,23 @@ Please translate each line literally into Ukrainian.
 73 Lo dir de l’una e de l’altra la vista
 74 mi fer voglioso di saper lor nomi,
 75 e dimanda ne fei con prieghi mista;
+</prompt>
+<result>
+73 Слова однієї і вигляд іншої
+74 зробили мене бажаючим дізнатися їхні імена,
+75 і я запитав про це з проханнями;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 76/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 76 per che lo spirto che di pria parlòmi
 77 ricominciò: «Tu vuo’ ch’io mi deduca
 78 nel fare a te ciò che tu far non vuo’mi.
 </prompt>
 <result>
-73 Слова однієї і вигляд іншої
-74 зробили мене бажаючим дізнатися їхні імена,
-75 і я запитав про це з проханнями;
-
 76 через що дух, який раніше говорив зі мною,
 77 почав знову: «Ти хочеш, щоб я принизився,
 78 роблячи для тебе те, чого ти не хочеш робити для мене.
@@ -397,16 +428,23 @@ Please translate each line literally into Ukrainian.
 85 Di mia semente cotal paglia mieto;
 86 o gente umana, perché poni ’l core
 87 là ’v’ è mestier di consorte divieto?
+</prompt>
+<result>
+85 Від мого насіння я збираю таку солому;
+86 о людський роде, чому ти покладаєш серце
+87 там, де потрібна заборона на спілкування?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 88/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 88 Questi è Rinier; questi è ’l pregio e l’onore
 89 de la casa da Calboli, ove nullo
 90 fatto s’è reda poi del suo valore.
 </prompt>
 <result>
-85 Від мого насіння я збираю таку солому;
-86 о людський роде, чому ти покладаєш серце
-87 там, де потрібна заборона на спілкування?
-
 88 Це Реньєр; це слава і честь
 89 дому да Кальболі, де ніхто
 90 не став спадкоємцем його доблесті.
@@ -420,16 +458,23 @@ Please translate each line literally into Ukrainian.
 91 E non pur lo suo sangue è fatto brullo,
 92 tra ’l Po e ’l monte e la marina e ’l Reno,
 93 del ben richesto al vero e al trastullo;
+</prompt>
+<result>
+91 І не тільки його кров стала безплідною,
+92 між По і горою, морем і Рейном,
+93 блага, необхідного для правди і розваги;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 94/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 94 ché dentro a questi termini è ripieno
 95 di venenosi sterpi, sì che tardi
 96 per coltivare omai verrebber meno.
 </prompt>
 <result>
-91 І не тільки його кров стала безплідною,
-92 між По і горою, морем і Рейном,
-93 блага, необхідного для правди і розваги;
-
 94 бо в цих межах вона наповнена
 95 отруйними бур’янами, так що пізно
 96 для обробітку вони вже зникли б.
@@ -443,40 +488,68 @@ Please translate each line literally into Ukrainian.
 97 Ov’ è ’l buon Lizio e Arrigo Mainardi?
 98 Pier Traversaro e Guido di Carpigna?
 99 Oh Romagnuoli tornati in bastardi!
+</prompt>
+<result>
+97 Де добрий Ліціо та Арріго Майнарді?
+98 П’єр Траверсаро і Гвідо ді Карпінья?
+99 О романьйольці, що повернулися до бастардів!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 100/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 100 Quando in Bologna un Fabbro si ralligna?
 101 quando in Faenza un Bernardin di Fosco,
 102 verga gentil di picciola gramigna?
+</prompt>
+<result>
+100 Коли в Болоньї відродиться Фаббро?
+101 коли у Фаенці Бернардін ді Фоско,
+102 благородний прут маленької трави?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 103/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 103 Non ti maravigliar s’io piango, Tosco,
 104 quando rimembro, con Guido da Prata,
 105 Ugolin d’Azzo che vivette nosco,
+</prompt>
+<result>
+103 Не дивуйся, що я плачу, тосканцю,
+104 коли згадую разом з Гвідо да Прата,
+105 Уголіна д’Аццо, який жив з нами,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 106/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 106 Federigo Tignoso e sua brigata,
 107 la casa Traversara e li Anastagi
 108 (e l’una gente e l’altra è diretata),
+</prompt>
+<result>
+106 Федеріго Тіньйозо та його бригаду,
+107 дім Траверсара та Анастаджі
+108 (і один рід, і інший вимерли),
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 109/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 109 le donne e ’ cavalier, li affanni e li agi
 110 che ne ’nvogliava amore e cortesia
 111 là dove i cuor son fatti sì malvagi.
 </prompt>
 <result>
-97 Де добрий Ліціо та Арріго Майнарді?
-98 П’єр Траверсаро і Гвідо ді Карпінья?
-99 О романьйольці, що повернулися до бастардів!
-
-100 Коли в Болоньї відродиться Фаббро?
-101 коли у Фаенці Бернардін ді Фоско,
-102 благородний прут маленької трави?
-
-103 Не дивуйся, що я плачу, тосканцю,
-104 коли згадую разом з Гвідо да Прата,
-105 Уголіна д’Аццо, який жив з нами,
-
-106 Федеріго Тіньйозо та його бригаду,
-107 дім Траверсара та Анастаджі
-108 (і один рід, і інший вимерли),
-
 109 дам і кавалерів, страждання і насолоди,
 110 які спонукали нас до любові та ввічливості
 111 там, де серця стали такими злими.
@@ -490,16 +563,23 @@ Please translate each line literally into Ukrainian.
 112 O Bretinoro, ché non fuggi via,
 113 poi che gita se n’è la tua famiglia
 114 e molta gente per non esser ria?
+</prompt>
+<result>
+112 О Бретіноро, чому ти не втікаєш,
+113 після того, як пішла твоя сім’я
+114 і багато людей, щоб не бути злими?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 115/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 115 Ben fa Bagnacaval, che non rifiglia;
 116 e mal fa Castrocaro, e peggio Conio,
 117 che di figliar tai conti più s’impiglia.
 </prompt>
 <result>
-112 О Бретіноро, чому ти не втікаєш,
-113 після того, як пішла твоя сім’я
-114 і багато людей, щоб не бути злими?
-
 115 Добре робить Баньякаваль, який не відроджується;
 116 і погано робить Кастрокаро, і ще гірше Коньо,
 117 який більше заплутується у народженні таких графів.
@@ -573,16 +653,23 @@ Please translate each line literally into Ukrainian.
 130 Poi fummo fatti soli procedendo,
 131 folgore parve quando l’aere fende,
 132 voce che giunse di contra dicendo:
+</prompt>
+<result>
+130 Потім ми залишилися самі, продовжуючи йти,
+131 блискавка здалася, коли повітря розривається,
+132 голос, який пролунав з протилежного боку, сказав:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 133/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 133 ‘Anciderammi qualunque m’apprende’;
 134 e fuggì come tuon che si dilegua,
 135 se sùbito la nuvola scoscende.
 </prompt>
 <result>
-130 Потім ми залишилися самі, продовжуючи йти,
-131 блискавка здалася, коли повітря розривається,
-132 голос, який пролунав з протилежного боку, сказав:
-
 133 «Вб’ють мене, хто б мене не схопив»;
 134 і втік, як грім, що зникає,
 135 якщо хмара раптово розходиться.
@@ -596,16 +683,23 @@ Please translate each line literally into Ukrainian.
 136 Come da lei l’udir nostro ebbe triegua,
 137 ed ecco l’altra con sì gran fracasso,
 138 che somigliò tonar che tosto segua:
+</prompt>
+<result>
+136 Як від неї наш слух отримав перепочинок,
+137 і ось інша з таким великим гуркотом,
+138 що нагадувала грім, який швидко слідує:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 139/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 139 «Io sono Aglauro che divenni sasso»;
 140 e allor, per ristrignermi al poeta,
 141 in destro feci, e non innanzi, il passo.
 </prompt>
 <result>
-136 Як від неї наш слух отримав перепочинок,
-137 і ось інша з таким великим гуркотом,
-138 що нагадувала грім, який швидко слідує:
-
 139 «Я Аглаура, яка стала каменем»;
 140 і тоді, щоб приєднатися до поета,
 141 я зробив крок праворуч, а не вперед.
@@ -649,14 +743,21 @@ Please translate each line literally into Ukrainian.
 148 Chiamavi ’l cielo e ’ntorno vi si gira,
 149 mostrandovi le sue bellezze etterne,
 150 e l’occhio vostro pur a terra mira;
-
-151 onde vi batte chi tutto discerne».
 </prompt>
 <result>
 148 Він кликав небо і обертався навколо вас,
 149 показуючи вам його вічну красу,
 150 а ваші очі тільки на землю дивляться;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 151/151</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
+151 onde vi batte chi tutto discerne».
+</prompt>
+<result>
 151 тому вас б’є той, хто все розрізняє».
 </result>
 </query>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries error="0" count="50">
 <query>
 <info>[Paradiso Canto 2] 1/148</info>
 <prompt>
@@ -8,28 +8,35 @@ Please translate each line literally into English and Sanskrit.
 1 O voi che siete in piccioletta barca,
 2 desiderosi d’ascoltar, seguiti
 3 dietro al mio legno che cantando varca,
+</prompt>
+<error result="true">
+**English:**
+1 O you who are in a tiny boat,
+2 desiring to listen, follow
+3 behind my ship that sails singing,
+</error>
+<result>
+1 He bhavantas tiryagbhāve vartate,
+2 śrotum icchanti, anugacchata,
+3 mama nauḥ gāyanīm anveti,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 4/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
 4 tornate a riveder li vostri liti:
 5 non vi mettete in pelago, ché forse,
 6 perdendo me, rimarreste smarriti.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-1 O you who are in a tiny boat,
-2 desiring to listen, follow
-3 behind my ship that sails singing,
-
 4 turn back to see your shores again:
 5 do not put out into the deep sea, for perhaps,
 6 losing me, you would remain lost.
-
-**Sanskrit:**
-
-1 He bhavantas tiryagbhāve vartate,
-2 śrotum icchanti, anugacchata,
-3 mama nauḥ gāyanīm anveti,
-
+</error>
+<result>
 4 punar āgacchata svakīyān tīrān paśyātha:
 5 gambhīre samudre mā praviśata, kim tu,
 6 mamaṃ naṣṭvā, bhraṣṭāḥ syuḥ.
@@ -44,15 +51,13 @@ Please translate each line literally into English and Sanskrit.
 8 Minerva spira, e conducemi Appollo,
 9 e nove Muse mi dimostran l’Orse.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 7 The water that I take has never been sailed before;
 8 Minerva breathes, and Apollo guides me,
 9 and the nine Muses show me the Great Bear.
-
-**Sanskrit:**
-
+</error>
+<result>
 7 Jalam yat aham gṛhṇāmi na kadācit purastāt plavitam āsīt;
 8 Mīnarvā anilaḥ, ca Apallaḥ māṃ nayati,
 9 nava ca Mūṣāḥ ṛkṣaṃ mahat mahyaṃ darśayanti.
@@ -66,28 +71,35 @@ Please translate each line literally into English and Sanskrit.
 10 Voialtri pochi che drizzaste il collo
 11 per tempo al pan de li angeli, del quale
 12 vivesi qui ma non sen vien satollo,
+</prompt>
+<error result="true">
+**English:**
+10 You few who have raised your heads
+11 in time to the bread of the angels, of which
+12 one lives here but never becomes sated,
+</error>
+<result>
+10 Yuṣmākaṃ alpāḥ ye udvṛttaṃ śiraḥ
+11 kālena amṛtasya āhārasya, yena
+12 jīvati atra api na sampūrṇataḥ trptaḥ bhavati,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 13/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
 13 metter potete ben per l’alto sale
 14 vostro navigio, servando mio solco
 15 dinanzi a l’acqua che ritorna equale.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-10 You few who have raised your heads
-11 in time to the bread of the angels, of which
-12 one lives here but never becomes sated,
-
 13 you can set your ship on the high seas,
 14 following my furrow
 15 before the water returns to being equal.
-
-**Sanskrit:**
-
-10 Yuṣmākaṃ alpāḥ ye udvṛttaṃ śiraḥ
-11 kālena amṛtasya āhārasya, yena
-12 jīvati atra api na sampūrṇataḥ trptaḥ bhavati,
-
+</error>
+<result>
 13 sthāpayitum śaknutha eva uttamaṃ mārgaṃ
 14 yuṣmākaṃ naukā, anugacchataḥ mama śīrṣaṇḍakam
 15 pūrvam tasya jalasya yat samaṃ punar bhavati.
@@ -102,15 +114,13 @@ Please translate each line literally into English and Sanskrit.
 17 non s’ammiraron come voi farete,
 18 quando Iasón vider fatto bifolco.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 16 Those glorious ones who sailed to Colchis
 17 did not marvel as you will do,
 18 when they saw Jason become a plowman.
-
-**Sanskrit:**
-
+</error>
+<result>
 16 Te yaśasvinaḥ ye Kolkaṃ jagmuḥ
 17 na vismayam āpuḥ yathā yūyam kariṣyatha,
 18 yadā Yāsonaṃ kṛṣikam adṛkṣanta.
@@ -125,15 +135,13 @@ Please translate each line literally into English and Sanskrit.
 20 del deïforme regno cen portava
 21 veloci quasi come ’l ciel vedete.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 19 The innate and perpetual thirst
 20 of the misshapen realm was carrying us
 21 swiftly, as you see the heavens.
-
-**Sanskrit:**
-
+</error>
+<result>
 19 Saṃbhavaḥ ca nityaś ca tṛṣṇā
 20 Vikṛta-rūpa-rājyasya ānayati sma naḥ
 21 Tīvra-vegaḥ yathā divyam jagat paśyatha.
@@ -147,40 +155,56 @@ Please translate each line literally into English and Sanskrit.
 22 Beatrice in suso, e io in lei guardava;
 23 e forse in tanto in quanto un quadrel posa
 24 e vola e da la noce si dischiava,
+</prompt>
+<error result="true">
+**English:**
+22 Beatrice was above, and I gazed up at her;
+23 and perhaps in the time that an arrow takes
+24 to fly and leave the bowstring,
+</error>
+<result>
+22 Beatrice upari āsīt, aham ca tasyāṃ dṛṣṭim nyavedayam,
+23 ca api yāvad ekaḥ śaraḥ kṣiptaḥ syāt
+24 tataś ca uḍḍīya niśāyāḥ parimucyeta,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 25/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
 25 giunto mi vidi ove mirabil cosa
 26 mi torse il viso a sé; e però quella
 27 cui non potea mia cura essere ascosa,
+</prompt>
+<error result="true">
+**English:**
+25 I found myself where a marvelous thing
+26 turned my face toward it; and therefore she
+27 to whom my desire could not be hidden,
+</error>
+<result>
+25 tatra āgato 'haṃ adarśam yatra adbhutaṃ vastu
+26 mama vaktram tasya abhimukham cakāra; tasmāt sā
+27 yasyāṃ mama abhilāṣaḥ na gūḍhaḥ abhavat,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 28/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
 28 volta ver’ me, sì lieta come bella,
 29 «Drizza la mente in Dio grata», mi disse,
 30 «che n’ha congiunti con la prima stella».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-22 Beatrice was above, and I gazed up at her;
-23 and perhaps in the time that an arrow takes
-24 to fly and leave the bowstring,
-
-25 I found myself where a marvelous thing
-26 turned my face toward it; and therefore she
-27 to whom my desire could not be hidden,
-
 28 turned to me, as joyful as she was beautiful,
 29 and said, "Direct your mind gratefully to God,
 30 who has brought us together with the first star."
-
-**Sanskrit:**
-
-22 Beatrice upari āsīt, aham ca tasyāṃ dṛṣṭim nyavedayam,
-23 ca api yāvad ekaḥ śaraḥ kṣiptaḥ syāt
-24 tataś ca uḍḍīya niśāyāḥ parimucyeta,
-
-25 tatra āgato 'haṃ adarśam yatra adbhutaṃ vastu
-26 mama vaktram tasya abhimukham cakāra; tasmāt sā
-27 yasyāṃ mama abhilāṣaḥ na gūḍhaḥ abhavat,
-
+</error>
+<result>
 28 mama abhimukham āvartata, tathā prasannā yathā sundarī,
 29 "Manaḥ tava parameśvare prasādayitum niyojaya", mama abravīt,
 30 "yaḥ asmān prathamena nakṣatreṇa sametayati."
@@ -195,15 +219,13 @@ Please translate each line literally into English and Sanskrit.
 32 lucida, spessa, solida e pulita,
 33 quasi adamante che lo sol ferisse.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 31 It seemed to me that a cloud was covering me,
 32 bright, dense, solid, and polished,
 33 like a diamond that the sun was striking.
-
-**Sanskrit:**
-
+</error>
+<result>
 31 Pareva me yaḥ abhraḥ ācchādayati sma mām,
 32 Prakāśaḥ, sthūlaḥ, dṛḍhaḥ, nirmalaḥ ca,
 33 Yathā vajraḥ yaḥ sūryam abhighātayati.
@@ -218,15 +240,13 @@ Please translate each line literally into English and Sanskrit.
 35 ne ricevette, com’ acqua recepe
 36 raggio di luce permanendo unita.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 34 Within itself the eternal pearl
 35 received them, like water receives
 36 a ray of light, remaining united.
-
-**Sanskrit:**
-
+</error>
+<result>
 34 Antaḥ svayam nityā muktā
 35 Pratyakṣīkaroti, yathā jalam gṛhṇāti
 36 Prakāśakiraṇam ekatvam āpannam.
@@ -240,28 +260,35 @@ Please translate each line literally into English and Sanskrit.
 37 S’io era corpo, e qui non si concepe
 38 com’ una dimensione altra patio,
 39 ch’esser convien se corpo in corpo repe,
+</prompt>
+<error result="true">
+**English:**
+37 If I was a body, and here it is not conceived
+38 how another dimension could fit,
+39 which must be if body repeats itself in body,
+</error>
+<result>
+37 Yadi aham śarīram āsam, atra ca na pratipadyate
+38 katham anyā vimānaḥ samāveśayet,
+39 yaḥ sambhāvayitavyaḥ yadi śarīram śarīre punaḥ punaḥ āvartate,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 40/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
 40 accender ne dovria più il disio
 41 di veder quella essenza in che si vede
 42 come nostra natura e Dio s’unio.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-37 If I was a body, and here it is not conceived
-38 how another dimension could fit,
-39 which must be if body repeats itself in body,
-
 40 it should kindle in us a greater desire
 41 to see that essence in which it is seen
 42 how our nature and God were united.
-
-**Sanskrit:**
-
-37 Yadi aham śarīram āsam, atra ca na pratipadyate
-38 katham anyā vimānaḥ samāveśayet,
-39 yaḥ sambhāvayitavyaḥ yadi śarīram śarīre punaḥ punaḥ āvartate,
-
+</error>
+<result>
 40 tad adhikam asmāsu icchām janayet
 41 tām tattvam draṣṭum yasmin dṛśyate
 42 katham asmākam prakṛtiḥ ca Bhagavān ca aikībhūtāv abhavatām.
@@ -276,15 +303,13 @@ Please translate each line literally into English and Sanskrit.
 44 non dimostrato, ma fia per sé noto
 45 a guisa del ver primo che l’uom crede.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 43 There one will see what we hold by faith,
 44 not demonstrated, but will be known in itself,
 45 like the first truth that man believes.
-
-**Sanskrit:**
-
+</error>
+<result>
 43 Tatrāvalokyate yad viśvasādhīnam,
 44 anapekṣam, svataḥ prakāśam,
 45 yathā prathamam tattvam manuṣyeṇa viśvasyate.
@@ -299,15 +324,13 @@ Please translate each line literally into English and Sanskrit.
 47 com’ esser posso più, ringrazio lui
 48 lo qual dal mortal mondo m’ha remoto.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 46 I answered: "My Lady, as devoutly
 47 as I can be, I thank him
 48 who has removed me from the mortal world.
-
-**Sanskrit:**
-
+</error>
+<result>
 46 Aham uvāca: "Bhagavatī, yathā bhaktimān
 47 bhavitum śaknomi, tathaiva tasmai kṛtajñaḥ asmi
 48 yaḥ mā martyalokāt apahṛtaḥ asti."
@@ -322,15 +345,13 @@ Please translate each line literally into English and Sanskrit.
 50 di questo corpo, che là giuso in terra
 51 fan di Cain favoleggiare altrui?».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 49 But tell me: what are the evil signs
 50 of this body, which down there on earth
 51 make people gossip about Cain?
-
-**Sanskrit:**
-
+</error>
+<result>
 49 Kim punar ayam śarīrasya durliṅgaḥ,
 50 Yaḥ adhastāt pṛthivyām,
 51 Yena anye Kainaṃ kathāpayanti?
@@ -344,25 +365,38 @@ Please translate each line literally into English and Sanskrit.
 52 Ella sorrise alquanto, e poi «S’elli erra
 53 l’oppinïon», mi disse, «d’i mortali
 54 dove chiave di senso non diserra,
+</prompt>
+<error result="true">
+**English:**
+52 She smiled a little, and then said to me, "If the opinion of mortals errs,
+53 where the key of understanding does not unlock,
+54 certainly the arrows of amazement should no longer pierce you,
+</error>
+<result>
+52 Sā kincid hasitvā, tataḥ "yadi khalu bhramayati
+53 martyānām abhiprayaḥ," iti mama uvāca, "yatra jñānasya kuñcikā na vivṛṇoti,
+54 na khalu tvām iṣavaḥ vismayasya vidhyuḥ,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 55/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
 55 certo non ti dovrien punger li strali
 56 d’ammirazione omai, poi dietro ai sensi
 57 vedi che la ragione ha corte l’ali.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-52 She smiled a little, and then said to me, "If the opinion of mortals errs,
-53 where the key of understanding does not unlock,
-54 certainly the arrows of amazement should no longer pierce you,
-55 since you see that reason has clipped its wings behind the senses.
-
-**Sanskrit:**
-
-52 Sā kincid hasitvā, tataḥ "yadi khalu bhramayati
-53 martyānām abhiprayaḥ," iti mama uvāca, "yatra jñānasya kuñcikā na vivṛṇoti,
-54 na khalu tvām iṣavaḥ vismayasya vidhyuḥ,
-55 yataḥ paśyasi yad yuktir indriyāṇām paścād valayati pakṣau.
+55 Surely the arrows of
+56 amazement should not wound you now, since behind the senses
+57 you see that reason has clipped its wings.
+</error>
+<result>
+55 Niścitam na tvām viṣāyantu viśmayasya iṣavaḥ
+56 adhunā paścāt indriyāṇām
+57 paśyasi hi yad yuktir nicchidyau tau pakṣau.
 </result>
 </query>
 <query>
@@ -374,15 +408,13 @@ Please translate each line literally into English and Sanskrit.
 59 E io: «Ciò che n’appar qua sù diverso
 60 credo che fanno i corpi rari e densi».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 58 But tell me what you think about it yourself."
 59 And I: "What appears different to us up here,
 60 I believe is caused by the bodies being rare and dense."
-
-**Sanskrit:**
-
+</error>
+<result>
 58 Api tu mama bruhi yattvam matvāsi.
 59 Aham ca: "Yat kiñcid atra viśeṣeṇa dṛśyate,
 60 tat śarīrāṇāṃ ravatvāt sthūlatvād vā manye."
@@ -397,15 +429,13 @@ Please translate each line literally into English and Sanskrit.
 62 nel falso il creder tuo, se bene ascolti
 63 l’argomentar ch’io li farò avverso.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 61 And she: "You will certainly see your belief
 62 submerged in falsehood, if you listen well
 63 to the argument that I will make against it.
-
-**Sanskrit:**
-
+</error>
+<result>
 61 Tathā ca sā: "Niścitam atiśayam drakṣyasi nimajjitam
 62 mithyātvāt tava viśvāsam, yadi śuśrūṣase samyak
 63 yuktim yām aham kariṣyāmi tasya viparītām.
@@ -420,15 +450,13 @@ Please translate each line literally into English and Sanskrit.
 65 lumi, li quali e nel quale e nel quanto
 66 notar si posson di diversi volti.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 64 The eighth sphere shows you many
 65 lights, which can be noted in their quality and quantity
 66 with different aspects.
-
-**Sanskrit:**
-
+</error>
+<result>
 64 Aṣṭamam vyoman darśayati te bahūn
 65 dīpān, ye ca ke ca ke ca prakāreṇa prakāreṇa
 66 jñātum śakyante vividhair rūpaiḥ.
@@ -443,15 +471,13 @@ Please translate each line literally into English and Sanskrit.
 68 una sola virtù sarebbe in tutti,
 69 più e men distributa e altrettanto.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 67 If the rare and the dense cause this much,
 68 then there would be only one virtue in all,
 69 distributed more or less, but equally.
-
-**Sanskrit:**
-
+</error>
+<result>
 67 Yadi alpam ca sthūlam ca etad eva kurutaḥ,
 68 tadā sarveṣu eka eva guṇaḥ syāt,
 69 adhika-alpaka-vibhāgena samaḥ.
@@ -466,15 +492,13 @@ Please translate each line literally into English and Sanskrit.
 71 di princìpi formali, e quei, for ch’uno,
 72 seguiterieno a tua ragion distrutti.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 70 Diverse virtues must be the fruits
 71 of formal principles, and those, because of one,
 72 would follow, destroyed by your reasoning.
-
-**Sanskrit:**
-
+</error>
+<result>
 70 Nānāvidhāḥ śaktayaḥ phalāni bhavanti
 71 rūpātmakānāṃ tattvānām, tāśca, ekasya,
 72 vināśe tava yuktyā vināśam āpadyeran.
@@ -488,29 +512,38 @@ Please translate each line literally into English and Sanskrit.
 73 Ancor, se raro fosse di quel bruno
 74 cagion che tu dimandi, o d’oltre in parte
 75 fora di sua materia sì digiuno
+</prompt>
+<error result="true">
+**English:**
+73 Even if the cause of that darkness you ask about were rare,
+74 or came from elsewhere,
+75 this planet would be so devoid of its matter,
+</error>
+<result>
+73 Api cet, yadi viram asya kṛṣṇasya
+74 kāraṇaṃ yac chipraṣṭaṃ tvayā, vā anyatra bhāvet,
+75 ayam grahaḥ svaviṣayāt tathā vihīnaḥ syāt,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 76/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
 76 esto pianeto, o, sì come comparte
 77 lo grasso e ’l magro un corpo, così questo
 78 nel suo volume cangerebbe carte.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-73 Even if the cause of that darkness you ask about were rare,
-74 or came from elsewhere,
-75 this planet would be so devoid of its matter,
-
-76 or, just as a body distributes fat and muscle,
-77 so too this planet would change pages in its volume.
-
-**Sanskrit:**
-
-73 Api cet, yadi viram asya kṛṣṇasya
-74 kāraṇaṃ yac chipraṣṭaṃ tvayā, vā anyatra bhāvet,
-75 ayam grahaḥ svaviṣayāt tathā vihīnaḥ syāt,
-
-76 vā yathā śarīraṃ medas-māṃsādikam vibhajate,
-77 evam ayam api svayamāne patram anyat vikurvīta.
+76 This planet, or, just as
+77 a body shares the fat and the lean, so this
+78 would change pages in its volume.
+</error>
+<result>
+76 ayam grahaḥ, vā, yathā vibhajate
+77 sthūlam kṛśam ca dehaḥ, evam ayam
+78 tasya granthasya parivarteta patram.
 </result>
 </query>
 <query>
@@ -522,15 +555,13 @@ Please translate each line literally into English and Sanskrit.
 80 ne l’eclissi del sol, per trasparere
 81 lo lume come in altro raro ingesto.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 79 If the first [body] were [the cause], it would be evident
 80 in the eclipse of the sun, for the light would shine through,
 81 as in another rare medium.
-
-**Sanskrit:**
-
+</error>
+<result>
 79 Yadi prathamaḥ syāt, tadā spaṣṭaṃ syāt
 80 sūryagrahaṇe, prakāśasya paratra virodhena prakāśamānatvāt,
 81 yathā anyasmim virodhe.
@@ -545,15 +576,13 @@ Please translate each line literally into English and Sanskrit.
 83 de l’altro; e s’elli avvien ch’io l’altro cassi,
 84 falsificato fia lo tuo parere.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 82 This is not: but it is to be seen
 83 of the other; and if it happens that I break the other,
 84 your opinion will be falsified.
-
-**Sanskrit:**
-
+</error>
+<result>
 82 Etad eva na asti: tat tu draṣṭavyam
 83 anyad api; yadi vā tad api bhinomi,
 84 tadā tava matam mithyā syāt.
@@ -567,28 +596,35 @@ Please translate each line literally into English and Sanskrit.
 85 S’elli è che questo raro non trapassi,
 86 esser conviene un termine da onde
 87 lo suo contrario più passar non lassi;
+</prompt>
+<error result="true">
+**English:**
+85 If it is that this rare occurrence does not pass beyond this point,
+86 there must be a limit from which
+87 its opposite can pass no further;
+</error>
+<result>
+85 Yadi ayam virodhaḥ asādhāraṇaḥ etāvatparyantam na ativartayati,
+86 tadā avasyam eva ekā sīmā bhavitavyā,
+87 yataḥ tasya virodhasya viparītam na ativartayitum śaknuyāt;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 88/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
 88 e indi l’altrui raggio si rifonde
 89 così come color torna per vetro
 90 lo qual di retro a sé piombo nasconde.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-85 If it is that this rare occurrence does not pass beyond this point,
-86 there must be a limit from which
-87 its opposite can pass no further;
-
 88 and from there the other's ray is reflected
 89 just as color returns through glass
 90 which hides lead behind it.
-
-**Sanskrit:**
-
-85 Yadi ayam virodhaḥ asādhāraṇaḥ etāvatparyantam na ativartayati,
-86 tadā avasyam eva ekā sīmā bhavitavyā,
-87 yataḥ tasya virodhasya viparītam na ativartayitum śaknuyāt;
-
+</error>
+<result>
 88 tataś ca anyasya raśmeḥ prativartanaṃ bhavati
 89 yathā varṇaḥ kāca-dvārena prativartate
 90 yasya paścāt svayam śiśakam ācchāditam asti.
@@ -603,15 +639,13 @@ Please translate each line literally into English and Sanskrit.
 92 ivi lo raggio più che in altre parti,
 93 per esser lì refratto più a retro.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 91 Now you will say that the ray of light
 92 shows itself there more than in other parts,
 93 because it is refracted there more backward.
-
-**Sanskrit:**
-
+</error>
+<result>
 91 Atha vā tvam vakṣyasi yatra tatra
 92 raśmirapi anyatrapekṣayā adhikaṃ prakāśate,
 93 tatraiva tadanantaraṃ adhikaṃ pratibaddhaḥ asti.
@@ -626,15 +660,13 @@ Please translate each line literally into English and Sanskrit.
 95 esperïenza, se già mai la provi,
 96 ch’esser suol fonte ai rivi di vostr’ arti.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 94 From this perplexity experience can free you,
 95 if ever you try it,
 96 which is usually the source of the streams of your arts.
-
-**Sanskrit:**
-
+</error>
+<result>
 94 Asmāt saṃśayāt tvāṃ vimokṣayitum śaknoti
 95 Anubhavaḥ, yadi kadācit tam anubhavasi,
 96 Yaḥ evaṃ bhavaty udbhavaḥ vo yuṣmat-kalānām.
@@ -649,15 +681,13 @@ Please translate each line literally into English and Sanskrit.
 98 da te d’un modo, e l’altro, più rimosso,
 99 tr’ambo li primi li occhi tuoi ritrovi.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 97 You will take three mirrors; and remove the two
 98 from you in one way, and the other, more distant,
 99 between the first two your eyes will find.
-
-**Sanskrit:**
-
+</error>
+<result>
 97 Trayaḥ darpaṇāḥ gṛhṇīṣva; ubhau ca
 98 tvayā ekena prakāreṇa apakramaṇīyau, anyaḥ ca, dūrataḥ sthitaḥ,
 99 ubhayor api pūrvaयोḥ madhye tava netrāṇi prāpsyanti.
@@ -672,15 +702,13 @@ Please translate each line literally into English and Sanskrit.
 101 ti stea un lume che i tre specchi accenda
 102 e torni a te da tutti ripercosso.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 100 Turn to them, and make that after the hill
 101 a light may stand for you, which may kindle
 102 the three mirrors, and may be reflected back to you from all.
-
-**Sanskrit:**
-
+</error>
+<result>
 100 Teṣāṃ prati mukhaṃ kṛtvā kuru yathā parvatāt paścāt
 101 Tejas te astu prakāśakam yat trayāṇi darpaṇāni prakāśayet
 102 Sarvataḥ ca tava pratibimbitaṃ bhavet.
@@ -695,15 +723,13 @@ Please translate each line literally into English and Sanskrit.
 104 la vista più lontana, lì vedrai
 105 come convien ch’igualmente risplenda.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 103 Although the sight does not extend
 104 farther in the distance, there you will see
 105 how it is fitting that it shine equally.
-
-**Sanskrit:**
-
+</error>
+<result>
 103 Yadyapi yāvad dūre dṛṣṭiḥ na vistarati,
 104 tatra tvam drakṣyasi,
 105 katham ucitam asti yathā samānaṃ prakāśate.
@@ -717,28 +743,35 @@ Please translate each line literally into English and Sanskrit.
 106 Or, come ai colpi de li caldi rai
 107 de la neve riman nudo il suggetto
 108 e dal colore e dal freddo primai,
+</prompt>
+<error result="true">
+**English:**
+106 Now, just as under the blows of the hot rays
+107 of the sun the subject remains stripped
+108 of both color and cold,
+</error>
+<result>
+106 Atha yathā gharmaraśmibhiḥ
+107 Himaḥ vinirjitaḥ prakṛtiṃ parityajati
+108 Varṇataḥ śītatāyāś ca pūrvam,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 109/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
 109 così rimaso te ne l’intelletto
 110 voglio informar di luce sì vivace,
 111 che ti tremolerà nel suo aspetto.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-106 Now, just as under the blows of the hot rays
-107 of the sun the subject remains stripped
-108 of both color and cold,
-
 109 so have you remained in your intellect.
 110 I want to inform you with such a vivid light
 111 that it will make you tremble at its appearance.
-
-**Sanskrit:**
-
-106 Atha yathā gharmaraśmibhiḥ
-107 Himaḥ vinirjitaḥ prakṛtiṃ parityajati
-108 Varṇataḥ śītatāyāś ca pūrvam,
-
+</error>
+<result>
 109 Tathā tvayi buddhau sthite
 110 Tām prakāśayitum icchāmi jyotir evaṃ prakāśam
 111 Yena tvam tasya darśanāt kampasi.
@@ -753,15 +786,13 @@ Please translate each line literally into English and Sanskrit.
 113 si gira un corpo ne la cui virtute
 114 l’esser di tutto suo contento giace.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 112 Within the heaven of divine peace
 113 revolves a body in whose virtue
 114 the essence of all its contentment lies.
-
-**Sanskrit:**
-
+</error>
+<result>
 112 Antaḥ divyasya śānti-ākāśasya
 113 Paribhramati ekaḥ śarīraḥ yasya śaktau
 114 Sarvasya tasya tuṣṭeḥ sattvam vartate.
@@ -776,15 +807,13 @@ Please translate each line literally into English and Sanskrit.
 116 quell’ esser parte per diverse essenze,
 117 da lui distratte e da lui contenute.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 115 The following heaven, which has so many stars,
 116 that being is divided into diverse essences,
 117 separated from it and contained by it.
-
-**Sanskrit:**
-
+</error>
+<result>
 115 Anantaraṃ svargaḥ, yasya tārakāḥ santi anekaśaḥ,
 116 tat sattvaṃ vibhaktam anekaśaḥ sattvaiḥ,
 117 tena vibhinnaiḥ tena ca samāveśitaiḥ.
@@ -799,15 +828,13 @@ Please translate each line literally into English and Sanskrit.
 119 le distinzion che dentro da sé hanno
 120 dispongono a lor fini e lor semenze.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 118 The other circles, through various differences,
 119 the distinctions which they have within themselves,
 120 dispose their ends and their seeds.
-
-**Sanskrit:**
-
+</error>
+<result>
 118 Apare ca parimaṇḍalāni nānāprakārairviseṣaiḥ
 119 Antarniviṣṭaiḥ svabhāvairvibhinnāni
 120 Svakīyāṃ niyatim svakīyāṃ ca jātiṃ niyuñjate.
@@ -822,15 +849,13 @@ Please translate each line literally into English and Sanskrit.
 122 come tu vedi omai, di grado in grado,
 123 che di sù prendono e di sotto fanno.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 121 These organs of the world proceed in this way,
 122 as you can now see, from grade to grade,
 123 that from above they take and from below they make.
-
-**Sanskrit:**
-
+</error>
+<result>
 121 Etāni lokendriyāṇi tathā pravartante,
 122 Yathā tvam adhunā paśyasi kramāt kramāt,
 123 Yata ūrddhvam gṛhṇanti tata ādhastāt kurvanti.
@@ -845,15 +870,13 @@ Please translate each line literally into English and Sanskrit.
 125 per questo loco al vero che disiri,
 126 sì che poi sappi sol tener lo guado.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 124 Now look carefully at how I go
 125 through this place to the truth that you desire,
 126 so that later you may know how to keep to the ford alone.
-
-**Sanskrit:**
-
+</error>
+<result>
 124 Idānīm paśya yathāham gacchāmi
 125 Asmin sthāne satyātmakaṃ yat tvam icchasi,
 126 Yathā paścāt tvam eva jānīṣe setum dhārayitum.
@@ -867,28 +890,35 @@ Please translate each line literally into English and Sanskrit.
 127 Lo moto e la virtù d’i santi giri,
 128 come dal fabbro l’arte del martello,
 129 da’ beati motor convien che spiri;
+</prompt>
+<error result="true">
+**English:**
+127 The motion and the virtue of the holy spheres,
+128 like the art of the hammer from the blacksmith,
+129 must derive from blessed movers;
+</error>
+<result>
+127 Gatir guṇāś ca pavitrāṇām parvatānām,
+128 yathā kalaśilpinaḥ kalaḥ,
+129 śubhābhiḥ prayoktṛbhiḥ śaktir utpadyate;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 130/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
 130 e ’l ciel cui tanti lumi fanno bello,
 131 de la mente profonda che lui volve
 132 prende l’image e fassene suggello.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-127 The motion and the virtue of the holy spheres,
-128 like the art of the hammer from the blacksmith,
-129 must derive from blessed movers;
-
 130 and the heaven which so many lights make beautiful,
 131 from the profound mind that revolves it
 132 receives its image and makes of it a seal.
-
-**Sanskrit:**
-
-127 Gatir guṇāś ca pavitrāṇām parvatānām,
-128 yathā kalaśilpinaḥ kalaḥ,
-129 śubhābhiḥ prayoktṛbhiḥ śaktir utpadyate;
-
+</error>
+<result>
 130 dyuś ca yasya bhūṣaṇam tārakāḥ,
 131 gambhīrāyāḥ buddher yasya paribhramaṇam,
 132 tasya mūrtim gṛhṇāti mudrāṃ ca karoti.
@@ -902,28 +932,35 @@ Please translate each line literally into English and Sanskrit.
 133 E come l’alma dentro a vostra polve
 134 per differenti membra e conformate
 135 a diverse potenze si risolve,
+</prompt>
+<error result="true">
+**English:**
+133 And just as the soul within your body
+134 through different and conforming members
+135 resolves itself into diverse faculties,
+</error>
+<result>
+133 Evaṃ yathātmā yuṣmaddehe
+134 Viśeṣaiḥ sarvaiḥ saṅgatya
+135 Vibhinneṣu śaktibhiḥ saṃsthitā,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 136/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
 136 così l’intelligenza sua bontate
 137 multiplicata per le stelle spiega,
 138 girando sé sovra sua unitate.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-133 And just as the soul within your body
-134 through different and conforming members
-135 resolves itself into diverse faculties,
-
 136 so its intelligence, its goodness
 137 multiplied through the stars it unfolds,
 138 revolving itself upon its own unity.
-
-**Sanskrit:**
-
-133 Evaṃ yathātmā yuṣmaddehe
-134 Viśeṣaiḥ sarvaiḥ saṅgatya
-135 Vibhinneṣu śaktibhiḥ saṃsthitā,
-
+</error>
+<result>
 136 Tathā tasya jñānam śubham ca
 137 Naksatreṣu vividheṣu vistīrṇam
 138 Parivartate svātmani sthitam.
@@ -938,15 +975,13 @@ Please translate each line literally into English and Sanskrit.
 140 col prezïoso corpo ch’ella avviva,
 141 nel qual, sì come vita in voi, si lega.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 139 Diverse virtue makes a diverse bond
 140 with the precious body that it enlivens,
 141 in which, just as life in you, it is bound.
-
-**Sanskrit:**
-
+</error>
+<result>
 139 Virtūḥ viśiṣṭā karoti viśiṣṭaṃ sambandham
 140 sahitam mūlyena śarīreṇa yat sā jīvayati,
 141 yasmin, yathā jīvitaṃ yūṣmatsu, sā sambandhyate.
@@ -961,15 +996,13 @@ Please translate each line literally into English and Sanskrit.
 143 la virtù mista per lo corpo luce
 144 come letizia per pupilla viva.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 142 Through the joyful nature from which it is derived,
 143 virtue, mingled with the body, shines
 144 like joy through a living pupil.
-
-**Sanskrit:**
-
+</error>
+<result>
 142 Prakṛter ānandamayāt prabhavati yataḥ,
 143 śarīreṇa miśritā guṇaḥ prakāśate
 144 yathā jīvanti śiṣye pramodaḥ.
@@ -983,24 +1016,31 @@ Please translate each line literally into English and Sanskrit.
 145 Da essa vien ciò che da luce a luce
 146 par differente, non da denso e raro;
 147 essa è formal principio che produce,
-
-148 conforme a sua bontà, lo turbo e ’l chiaro».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 145 From it comes that which gives light to light,
 146 differing only in density and rarity;
 147 it is the formal principle that produces,
-
-148 according to its goodness, the murky and the clear."
-
-**Sanskrit:**
-
+</error>
+<result>
 145 Tasyā eva prakāśāt prakāśaḥ sambhavati
 146 Bhinnaḥ sthūlatvāt sūkṣmatvāt ca,
 147 Sā eva rūpa-tattvaṃ kāraṇam utpadyate,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 2] 148/148</info>
+<prompt>
+Please translate each line literally into English and Sanskrit.
 
+148 conforme a sua bontà, lo turbo e ’l chiaro».
+</prompt>
+<error result="true">
+**English:**
+148 according to its goodness, the murky and the clear."
+</error>
+<result>
 148 Svasya śubhatayā tamaḥ prakāśaś ca.
 </result>
 </query>

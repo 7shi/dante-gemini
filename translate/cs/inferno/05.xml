@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="41">
+<queries error="0" count="48">
 <query>
 <info>[Inferno Canto 5] 1/142</info>
 <prompt>
@@ -38,16 +38,23 @@ Please translate each line literally into Czech.
 7 Dico che quando l’anima mal nata
 8 li vien dinanzi, tutta si confessa;
 9 e quel conoscitor de le peccata
+</prompt>
+<result>
+7 Říkám, že když špatně narozená duše
+8 přijde před něj, úplně se vyzná;
+9 a ten znalec hříchů
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 10/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 10 vede qual loco d’inferno è da essa;
 11 cignesi con la coda tante volte
 12 quantunque gradi vuol che giù sia messa.
 </prompt>
 <result>
-7 Říkám, že když špatně narozená duše
-8 přijde před něj, úplně se vyzná;
-9 a ten znalec hříchů
-
 10 vidí, které místo v pekle je pro ni;
 11 obtočí si ocas tolikrát,
 12 kolik stupňů chce, aby sestoupila dolů.
@@ -76,33 +83,38 @@ Please translate each line literally into Czech.
 16 «O tu che vieni al doloroso ospizio»,
 17 disse Minòs a me quando mi vide,
 18 lasciando l’atto di cotanto offizio,
-
-19 «guarda com’ entri e di cui tu ti fide;
-20 non t’inganni l’ampiezza de l’intrare!».
 </prompt>
 <result>
 16 „Ó ty, který přicházíš do bolestného příbytku,“
 17 řekl mi Minos, když mě uviděl,
 18 přerušiv vykonávání své důležité povinnosti,
-
-19 „dávej pozor, jak vstupuješ a komu důvěřuješ;
-20 nenech se oklamat šířkou vchodu!“
 </result>
 </query>
 <query>
-<info>[Inferno Canto 5] 21/142</info>
+<info>[Inferno Canto 5] 19/142</info>
 <prompt>
 Please translate each line literally into Czech.
 
+19 «guarda com’ entri e di cui tu ti fide;
+20 non t’inganni l’ampiezza de l’intrare!».
 21 E ’l duca mio a lui: «Perché pur gride?
+</prompt>
+<result>
+19 „dávej pozor, jak vstupuješ a komu důvěřuješ;
+20 nenech se oklamat šířkou vchodu!“
+21 A můj vůdce mu řekl: „Proč jen křičíš?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 22/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 22 Non impedir lo suo fatale andare:
 23 vuolsi così colà dove si puote
 24 ciò che si vuole, e più non dimandare».
 </prompt>
 <result>
-21 A můj vůdce mu řekl: „Proč jen křičíš?
-
 22 Nezabráň mu v jeho osudovém putování:
 23 tak je to chtěno tam, kde je možné
 24 to, co se chce, a neptej se víc.“
@@ -191,16 +203,23 @@ Please translate each line literally into Czech.
 40 E come li stornei ne portan l’ali
 41 nel freddo tempo, a schiera larga e piena,
 42 così quel fiato li spiriti mali
+</prompt>
+<result>
+40 A jako špačci nesou svá křídla
+41 v chladném období, v širokém a hustém hejnu,
+42 tak ten vítr unáší zlé duchy
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 43/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 43 di qua, di là, di giù, di sù li mena;
 44 nulla speranza li conforta mai,
 45 non che di posa, ma di minor pena.
 </prompt>
 <result>
-40 A jako špačci nesou svá křídla
-41 v chladném období, v širokém a hustém hejnu,
-42 tak ten vítr unáší zlé duchy
-
 43 sem, tam, dolů, nahoru;
 44 žádná naděje je nikdy nepotěší,
 45 natož odpočinek, ale ani menší utrpení.
@@ -214,16 +233,23 @@ Please translate each line literally into Czech.
 46 E come i gru van cantando lor lai,
 47 faccendo in aere di sé lunga riga,
 48 così vid’ io venir, traendo guai,
+</prompt>
+<result>
+46 A jako jeřábi zpívají svůj nářek,
+47 tvoříce ve vzduchu dlouhou řadu,
+48 tak jsem viděl přicházet, vydávajíce nářky,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 49/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 49 ombre portate da la detta briga;
 50 per ch’i’ dissi: «Maestro, chi son quelle
 51 genti che l’aura nera sì gastiga?».
 </prompt>
 <result>
-46 A jako jeřábi zpívají svůj nářek,
-47 tvoříce ve vzduchu dlouhou řadu,
-48 tak jsem viděl přicházet, vydávajíce nářky,
-
 49 stíny unášené zmíněným větrem;
 50 a proto jsem řekl: „Mistře, kdo jsou ti lidé,
 51 které tak trestá černý vítr?“
@@ -253,32 +279,6 @@ Please translate each line literally into Czech.
 56 che libito fé licito in sua legge,
 57 per tòrre il biasmo in che era condotta.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "55 Byla tak posedlá vidinou rozkoše,\n56 že ve svém zákoně učinila chtíč dovoleným,\n57 aby odstranila hanbu, do které byla uvržena."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 55 Byla tak posedlá vidinou rozkoše,
 56 že ve svém zákoně učinila chtíč dovoleným,
@@ -413,16 +413,23 @@ Please translate each line literally into Czech.
 82 Quali colombe dal disio chiamate
 83 con l’ali alzate e ferme al dolce nido
 84 vegnon per l’aere, dal voler portate;
+</prompt>
+<result>
+82 Jako holubice volané touhou
+83 s roztaženými a pevnými křídly k sladkému hnízdu
+84 přilétají vzduchem, neseny vůlí;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 85/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 85 cotali uscir de la schiera ov’ è Dido,
 86 a noi venendo per l’aere maligno,
 87 sì forte fu l’affettüoso grido.
 </prompt>
 <result>
-82 Jako holubice volané touhou
-83 s roztaženými a pevnými křídly k sladkému hnízdu
-84 přilétají vzduchem, neseny vůlí;
-
 85 takové vyšly z řady, kde je Dido,
 86 přicházejí k nám zlověstným vzduchem,
 87 tak silný byl láskyplný výkřik.
@@ -436,16 +443,23 @@ Please translate each line literally into Czech.
 88 «O animal grazïoso e benigno
 89 che visitando vai per l’aere perso
 90 noi che tignemmo il mondo di sanguigno,
+</prompt>
+<result>
+88 „Ó milé a laskavé stvoření,
+89 které nás navštěvuješ v temném vzduchu,
+90 nás, kteří jsme zbarvili svět krvavě,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 91/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 91 se fosse amico il re de l’universo,
 92 noi pregheremmo lui de la tua pace,
 93 poi c’hai pietà del nostro mal perverso.
 </prompt>
 <result>
-88 „Ó milé a laskavé stvoření,
-89 které nás navštěvuješ v temném vzduchu,
-90 nás, kteří jsme zbarvili svět krvavě,
-
 91 kdyby byl král vesmíru naším přítelem,
 92 prosili bychom ho o tvůj mír,
 93 protože máš soucit s naším zlým utrpením.
@@ -654,33 +668,38 @@ Please translate each line literally into Czech.
 133 Quando leggemmo il disïato riso
 134 esser basciato da cotanto amante,
 135 questi, che mai da me non fia diviso,
-
-136 la bocca mi basciò tutto tremante.
 </prompt>
 <result>
 133 Když jsme četli, jak vytoužený úsměv
 134 políbil takový milenec,
 135 on, který nikdy nebude oddělen ode mě,
-
-136 mi třesoucími se rty políbil ústa.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 5] 137/142</info>
+<info>[Inferno Canto 5] 136/142</info>
 <prompt>
 Please translate each line literally into Czech.
 
+136 la bocca mi basciò tutto tremante.
 137 Galeotto fu ’l libro e chi lo scrisse:
 138 quel giorno più non vi leggemmo avante».
+</prompt>
+<result>
+136 mi třesoucími se rty políbil ústa.
+137 Galeotto byla kniha a ten, kdo ji napsal:
+138 ten den jsme už dál nečetli.“
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 139/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 139 Mentre che l’uno spirto questo disse,
 140 l’altro piangëa; sì che di pietade
 141 io venni men così com’ io morisse.
 </prompt>
 <result>
-137 Galeotto byla kniha a ten, kdo ji napsal:
-138 ten den jsme už dál nečetli.“
-
 139 Zatímco jeden duch tohle říkal,
 140 druhý plakal; takže ze soucitu
 141 jsem omdlel, jako bych umíral.

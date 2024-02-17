@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Romanian.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 Eu spun, continuând, că mult mai înainte
+2 decât să fim la poalele turnului înalt,
+3 ochii noștri s-au îndreptat în sus, spre vârf,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1 Eu spun, continuând, că mult mai înainte
-2 decât să fim la poalele turnului înalt,
-3 ochii noștri s-au îndreptat în sus, spre vârf,
-
 4 din cauza a două flăcări pe care le-am văzut aprinzându-se,
 5 și o alta, de departe, făcând semn,
 6 atât de mult încât ochiul abia o putea distinge.
@@ -61,16 +68,23 @@ Please translate each line literally into Romanian.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 Coarda nu a împins niciodată de la sine o săgeată
+14 care să alerge atât de repede prin aer,
+15 precum am văzut o corabie mică
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 Coarda nu a împins niciodată de la sine o săgeată
-14 care să alerge atât de repede prin aer,
-15 precum am văzut o corabie mică
-
 16 venind pe apă spre noi în acel loc,
 17 sub conducerea unui singur vâslaș,
 18 care striga: „Acum ai ajuns, suflet ticălos!”.
@@ -175,32 +189,6 @@ Please translate each line literally into Romanian.
 38 spirito maladetto, ti rimani;
 39 ch’i’ ti conosco, ancor sie lordo tutto».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 Și eu către el: „Cu plâns și cu jale,\n38 spirit blestemat, rămâi aici;\n39 căci te cunosc, deși ești tot murdar”."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 37 Și eu către el: „Cu plâns și cu jale,
 38 spirit blestemat, rămâi aici;
@@ -230,16 +218,23 @@ Please translate each line literally into Romanian.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 Apoi m-a înconjurat gâtul cu brațele;
+44 m-a sărutat pe față și a spus: „Suflet mândru,
+45 binecuvântată cea care s-a înfășurat în tine!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 Apoi m-a înconjurat gâtul cu brațele;
-44 m-a sărutat pe față și a spus: „Suflet mândru,
-45 binecuvântată cea care s-a înfășurat în tine!
-
 46 Acela a fost în lume o persoană mândră;
 47 nu există bunătate care să-i împodobească amintirea:
 48 așa este umbra lui aici furioasă.
@@ -254,32 +249,6 @@ Please translate each line literally into Romanian.
 50 che qui staranno come porci in brago,
 51 di sé lasciando orribili dispregi!».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "49 Câți se cred acum acolo sus mari regi\n50 care aici vor sta ca porcii în noroi,\n51 lăsând în urma lor disprețuri îngrozitoare!”."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 49 Câți se cred acum acolo sus mari regi
 50 care aici vor sta ca porcii în noroi,
@@ -384,18 +353,25 @@ Please translate each line literally into Romanian.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 Și eu: „Maestre, iată-i mezchitele
+71 acolo jos în vale, negre,
+72 roșii ca și cum ar fi ieșit din foc
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
 <result>
-70 Și eu: „Maestre, deja îi zăresc moscheile
-71 acolo în vale,
-72 roșii ca și cum ar fi ieșit din foc
-
-73”. Și el mi-a spus: „Focul etern
-74 care le aprinde le arată roșii,
+73 ar fi”. Și el mi-a spus: „Focul veșnic
+74 care arde în ele le arată roșii,
 75 așa cum vezi în acest infern de jos”.
 </result>
 </query>
@@ -437,33 +413,38 @@ Please translate each line literally into Romanian.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
 82 Am văzut mai mult de o mie la porți
 83 coborâți din cer, care cu mânie
 84 spuneau: „Cine este acesta care fără moarte
-
-85 merge prin împărăția morților?”.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into Romanian.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 merge prin împărăția morților?”.
+86 Și înțeleptul meu maestru a făcut semn
+87 că vrea să le vorbească în secret.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 Și înțeleptul meu maestru a făcut semn
-87 că vrea să le vorbească în secret.
-
 88 Atunci și-au potolit puțin marea disprețuire
 89 și au spus: „Vino tu singur, iar acela să plece
 90 care a intrat atât de îndrăzneț în această împărăție.
@@ -507,16 +488,23 @@ Please translate each line literally into Romanian.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 „O dragă conducătorule al meu, care de mai mult de șapte
+98 de ori mi-ai redat siguranța și m-ai scos
+99 din pericolul mare care mi-a stat în cale,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 „O dragă conducătorule al meu, care de mai mult de șapte
-98 de ori mi-ai redat siguranța și m-ai scos
-99 din pericolul mare care mi-a stat în cale,
-
 100 nu mă lăsa”, am spus eu, „atât de descurajat;
 101 și dacă trecerea mai departe ne este refuzată,
 102 să regăsim urmele noastre împreună repede”.
@@ -532,8 +520,9 @@ Please translate each line literally into Romanian.
 105 non ci può tòrre alcun: da tal n’è dato.
 </prompt>
 <result>
-103 Și acel domn care m-a adus acolo,
-104 mi-a spus: „Nu te teme; căci nimeni nu ne poate împiedica trecerea: de la cineva ne este dată.
+103 Iar acel domn care m-a adus acolo,
+104 mi-a spus: „Nu te teme; căci trecerea noastră
+105 nu ne-o poate lua nimeni: de la unul așa ne-a fost dat.
 </result>
 </query>
 <query>
@@ -546,8 +535,9 @@ Please translate each line literally into Romanian.
 108 ch’i’ non ti lascerò nel mondo basso».
 </prompt>
 <result>
-106 Dar așteaptă-mă aici și încurajează și hrănește spiritul obosit
-107 cu speranță bună, căci nu te voi lăsa în lumea de jos”.
+106 Dar aici așteaptă-mă, și spiritul obosit
+107 încurajează-l și hrănește-l cu speranță bună,
+108 căci nu te voi lăsa în lumea de jos”.
 </result>
 </query>
 <query>
@@ -648,14 +638,21 @@ Please translate each line literally into Romanian.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 Deasupra ei vezi inscripția moartă:
 128 și deja de aici coboară panta,
 129 trecând prin cercuri fără escortă,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Romanian.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 astfel încât pentru el pământul va fi deschis”.
 </result>
 </query>

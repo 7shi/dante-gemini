@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="51">
 <query>
 <info>[Purgatorio Canto 20] 1/151</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into Serbian (Latin).
 4 Mossimi; e ’l duca mio si mosse per li
 5 luoghi spediti pur lungo la roccia,
 6 come si va per muro stretto a’ merli;
+</prompt>
+<result>
+4 Pokrenuo sam se; i moj vođa se krenuo kroz
+5 prohodna mesta uz samu stenu,
+6 kao što se ide uzidinama uz zupce;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 7/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 7 ché la gente che fonde a goccia a goccia
 8 per li occhi il mal che tutto ’l mondo occupa,
 9 da l’altra parte in fuor troppo s’approccia.
 </prompt>
 <result>
-4 Pokrenuo sam se; i moj vođa se krenuo kroz
-5 prohodna mesta uz samu stenu,
-6 kao što se ide uzidinama uz zupce;
-
 7 jer ljudi koji kap po kap tope
 8 očima zlo koje zauzima ceo svet,
 9 s druge strane previše se približavaju.
@@ -46,66 +53,68 @@ Please translate each line literally into Serbian (Latin).
 10 Maladetta sie tu, antica lupa,
 11 che più che tutte l’altre bestie hai preda
 12 per la tua fame sanza fine cupa!
+</prompt>
+<result>
+10 Prokleta budi ti, stara kurvo,
+11 koja više od svih drugih zveri imaš plena
+12 zbog svoje bezdane, nezasitne gladi!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 13/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 13 O ciel, nel cui girar par che si creda
 14 le condizion di qua giù trasmutarsi,
 15 quando verrà per cui questa disceda?
+</prompt>
+<result>
+13 O nebo, u čijem kretanju se veruje
+14 da se menjaju uslovi ovde dole,
+15 kada će doći onaj zbog koga će ona otići?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 16/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 16 Noi andavam con passi lenti e scarsi,
 17 e io attento a l’ombre, ch’i’ sentia
 18 pietosamente piangere e lagnarsi;
+</prompt>
+<result>
+16 Išli smo sporo i kratkim koracima,
+17 a ja sam pažljivo slušao senke, koje sam čuo
+18 kako jadno plaču i tuže se;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 19/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 19 e per ventura udi’ «Dolce Maria!»
 20 dinanzi a noi chiamar così nel pianto
 21 come fa donna che in parturir sia;
+</prompt>
+<result>
+19 i slučajno sam čuo „Mila Marijo!“
+20 kako neko pred nama tako zove u plaču
+21 kao što to čini žena koja rađa;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 22/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 22 e seguitar: «Povera fosti tanto,
 23 quanto veder si può per quello ospizio
 24 dove sponesti il tuo portato santo».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 Prokleta budi ti, stara kurvo,\n11 koja više od svih drugih zveri imaš plena\n12 zbog svoje bezdane, nezasitne gladi!\n\n13 O nebo, u čijem kretanju se veruje\n14 da se menjaju uslovi ovde dole,\n15 kada će doći onaj zbog koga će ona otići?\n\n16 Išli smo sporo i kratkim koracima,\n17 a ja sam pažljivo slušao senke, koje sam čuo\n18 kako jadno plaču i tuže se;\n\n19 i slučajno sam čuo „Mila Marijo!“\n20 kako neko pred nama tako zove u plaču\n21 kao što to čini žena koja rađa;\n\n22 i nastavi: „Bila si tako siromašna,\n23 koliko se može videti po onom skloništu\n24 gde si položila svoj sveti teret“."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-10 Prokleta budi ti, stara kurvo,
-11 koja više od svih drugih zveri imaš plena
-12 zbog svoje bezdane, nezasitne gladi!
-
-13 O nebo, u čijem kretanju se veruje
-14 da se menjaju uslovi ovde dole,
-15 kada će doći onaj zbog koga će ona otići?
-
-16 Išli smo sporo i kratkim koracima,
-17 a ja sam pažljivo slušao senke, koje sam čuo
-18 kako jadno plaču i tuže se;
-
-19 i slučajno sam čuo „Mila Marijo!“
-20 kako neko pred nama tako zove u plaču
-21 kao što to čini žena koja rađa;
-
 22 i nastavi: „Bila si tako siromašna,
 23 koliko se može videti po onom skloništu
 24 gde si položila svoj sveti teret“.
@@ -254,25 +263,41 @@ Please translate each line literally into Serbian (Latin).
 52 Figliuol fu’ io d’un beccaio di Parigi:
 53 quando li regi antichi venner meno
 54 tutti, fuor ch’un renduto in panni bigi,
+</prompt>
+<result>
+52 Sin sam bio jednog mesara iz Pariza:
+53 kada su stari kraljevi manje dolazili
+54 svi, osim jednog obučenog u sivu odoru,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 55/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 55 trova’mi stretto ne le mani il freno
 56 del governo del regno, e tanta possa
 57 di nuovo acquisto, e sì d’amici pieno,
+</prompt>
+<result>
+55 nađoh u svojim rukama stegnute uzde
+56 vladavine kraljevstva, i toliku moć
+57 novog stečenog, i tako pun prijatelja,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 58/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 58 ch’a la corona vedova promossa
 59 la testa di mio figlio fu, dal quale
 60 cominciar di costor le sacrate ossa.
 </prompt>
 <result>
-52 Sin sam bio mesara iz Pariza:
-53 kada su svi stari kraljevi pomrli,
-54 osim jednog obučenog u sivu haljinu,
-
-55 našao sam se sa uzdama vlasti kraljevstva čvrsto u rukama, i toliko moći
-56 stečene iznova, i tako pun prijatelja,
-
-58 da je glava mog sina bila podignuta do udovičke krune, od koje
-59 su počele svete kosti ovih.
+58 da je na udovičku krunu uzdignuta
+59 glava mog sina, od koga
+60 počeše svete kosti ovih.
 </result>
 </query>
 <query>
@@ -388,16 +413,23 @@ Please translate each line literally into Serbian (Latin).
 82 O avarizia, che puoi tu più farne,
 83 poscia c’ha’ il mio sangue a te sì tratto,
 84 che non si cura de la propria carne?
+</prompt>
+<result>
+82 O pohlepo, šta više možeš učiniti,
+83 nakon što si moju krv tako privukla sebi,
+84 da joj nije stalo do sopstvenog mesa?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 85/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 85 Perché men paia il mal futuro e ’l fatto,
 86 veggio in Alagna intrar lo fiordaliso,
 87 e nel vicario suo Cristo esser catto.
 </prompt>
 <result>
-82 O pohlepo, šta više možeš učiniti,
-83 nakon što si moju krv tako privukla sebi,
-84 da joj nije stalo do sopstvenog mesa?
-
 85 Da bih manje osećao buduće i učinjeno zlo,
 86 vidim kako u Anagni ulazi ljiljan,
 87 i kako je Hrist u njegovom namesniku zarobljen.
@@ -441,24 +473,38 @@ Please translate each line literally into Serbian (Latin).
 94 O Segnor mio, quando sarò io lieto
 95 a veder la vendetta che, nascosa,
 96 fa dolce l’ira tua nel tuo secreto?
+</prompt>
+<result>
+94 O moj Gospode, kada ću biti srećan
+95 da vidim osvetu koja, skrivena,
+96 čini tvoj gnev slatkim u tvojoj tajni?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 97/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 97 Ciò ch’io dicea di quell’ unica sposa
 98 de lo Spirito Santo e che ti fece
 99 verso me volger per alcuna chiosa,
+</prompt>
+<result>
+97 Ono što sam rekao o toj jedinstvenoj supruzi
+98 Duha Svetoga i koja te je učinila
+99 da se okreneš prema meni radi nekih tumačenja,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 100/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 100 tanto è risposto a tutte nostre prece
 101 quanto ’l dì dura; ma com’ el s’annotta,
 102 contrario suon prendemo in quella vece.
 </prompt>
 <result>
-94 O moj Gospode, kada ću biti srećan
-95 da vidim osvetu koja, skrivena,
-96 čini tvoj gnev slatkim u tvojoj tajni?
-
-97 Ono što sam rekao o toj jedinstvenoj supruzi
-98 Duha Svetoga i koja te je učinila
-99 da se okreneš prema meni radi nekih tumačenja,
-
 100 toliko je odgovoreno na sve naše molitve
 101 koliko traje dan; ali kada se smrkne,
 102 tada umesto toga čujemo suprotan zvuk.
@@ -472,18 +518,26 @@ Please translate each line literally into Serbian (Latin).
 103 Noi repetiam Pigmalïon allotta,
 104 cui traditore e ladro e paricida
 105 fece la voglia sua de l’oro ghiotta;
+</prompt>
+<result>
+103 Mi smo često ponavljali Pigmaliona,
+104 koga izdajnik i lopov i ubica
+105 učini njegova želja za zlatom proždrljivom;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 106/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 106 e la miseria de l’avaro Mida,
 107 che seguì a la sua dimanda gorda,
 108 per la qual sempre convien che si rida.
 </prompt>
 <result>
-103 Ponovili smo priču o Pigmalionu,
-104 koga je njegova pohlepna želja za zlatom učinila izdajnikom, lopovom i ubicaom;
-
-106 i bedu tvrdičkog Mide,
-107 koji je usledio svoju gordu želju,
-108 zbog koje se uvek mora smejati.
+106 i bedu škrtog Mide,
+107 koja je usledila na njegov gord zahtev,
+108 zbog koga se uvek mora smejati.
 </result>
 </query>
 <query>
@@ -496,8 +550,9 @@ Please translate each line literally into Serbian (Latin).
 111 di Iosüè qui par ch’ancor lo morda.
 </prompt>
 <result>
-109 Svako se zatim seća ludog Akana,
-110 kako je ukrao plen, tako da se čini da ga Josuin gnev i sada grize.
+109 Na ludog Akana svako se onda seća,
+110 kako je ukrao plen, tako da se čini da ga
+111 Josuina srdžba i sada grize.
 </result>
 </query>
 <query>
@@ -508,16 +563,23 @@ Please translate each line literally into Serbian (Latin).
 112 Indi accusiam col marito Saffira;
 113 lodiam i calci ch’ebbe Elïodoro;
 114 e in infamia tutto ’l monte gira
+</prompt>
+<result>
+112 Zatim smo optuživali Safiru sa njenim mužem;
+113 hvalili smo udarce koje je dobio Heliodor;
+114 i cela planina kruži u sramoti
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 115/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 115 Polinestòr ch’ancise Polidoro;
 116 ultimamente ci si grida: “Crasso,
 117 dilci, che ’l sai: di che sapore è l’oro?”.
 </prompt>
 <result>
-112 Zatim smo optuživali Safiru sa njenim mužem;
-113 hvalili smo udarce koje je dobio Heliodor;
-114 i cela planina kruži u sramoti
-
 115 Polinestora koji je ubio Polidora;
 116 na kraju nam se viče: „Krase,
 117 reci nam, jer znaš: kakav je ukus zlata?”.
@@ -531,18 +593,26 @@ Please translate each line literally into Serbian (Latin).
 118 Talor parla l’uno alto e l’altro basso,
 119 secondo l’affezion ch’ad ir ci sprona
 120 ora a maggiore e ora a minor passo:
+</prompt>
+<result>
+118 Ponekad jedan govori visoko, a drugi nisko,
+119 prema naklonosti koja nas natera da idemo
+120 čas većim, čas manjim korakom:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 121/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 121 però al ben che ’l dì ci si ragiona,
 122 dianzi non era io sol; ma qui da presso
 123 non alzava la voce altra persona».
 </prompt>
 <result>
-118 Ponekad jedan govori glasno, a drugi tiho,
-119 prema naklonosti koja nas pokreće da idemo
-120 čas bržim, čas sporijim korakom:
-
-121 zato nisam bio sam u dobru o kome smo razgovarali tokom dana; ali ovde u blizini
-123 niko drugi nije podizao glas“.
+121 Ali prema dobru o kome se danju razgovara,
+122 maločas nisam bio sam; ali ovde u blizini
+123 nije dizala glas nijedna druga osoba».
 </result>
 </query>
 <query>
@@ -553,16 +623,23 @@ Please translate each line literally into Serbian (Latin).
 124 Noi eravam partiti già da esso,
 125 e brigavam di soverchiar la strada
 126 tanto quanto al poder n’era permesso,
+</prompt>
+<result>
+124 Već smo bili krenuli od njega,
+125 i trudio sam se da pređem put
+126 koliko nam je bilo dozvoljeno,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 127/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 127 quand’ io senti’, come cosa che cada,
 128 tremar lo monte; onde mi prese un gelo
 129 qual prender suol colui ch’a morte vada.
 </prompt>
 <result>
-124 Već smo bili krenuli od njega,
-125 i trudio sam se da pređem put
-126 koliko nam je bilo dozvoljeno,
-
 127 kada sam čuo, kao da nešto pada,
 128 kako drhti planina; zbog čega me je obuzela jeza
 129 kakva obično obuzima onoga koji ide na smrt.
@@ -651,22 +728,36 @@ Please translate each line literally into Serbian (Latin).
 145 Nulla ignoranza mai con tanta guerra
 146 mi fé desideroso di sapere,
 147 se la memoria mia in ciò non erra,
-
-148 quanta pareami allor, pensando, avere;
-149 né per la fretta dimandare er’ oso,
-150 né per me lì potea cosa vedere:
-
-151 così m’andava timido e pensoso.
 </prompt>
 <result>
 145 Nikakvo neznanje me nikada nije toliko ratoborno
 146 učinilo željnim da saznam,
 147 ako mi se sećanje u tome ne vara,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 148/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
+148 quanta pareami allor, pensando, avere;
+149 né per la fretta dimandare er’ oso,
+150 né per me lì potea cosa vedere:
+</prompt>
+<result>
 148 koliko mi se tada činilo, razmišljajući, da imam;
 149 nisam smeo da pitam zbog žurbe,
 150 niti sam tamo mogao sam da vidim nešto:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 151/151</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
+151 così m’andava timido e pensoso.
+</prompt>
+<result>
 151 tako sam išao plašljivo i zamišljeno.
 </result>
 </query>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries error="0" count="39">
 <query>
 <info>[Inferno Canto 6] 1/115</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Swedish.
 1 Al tornar de la mente, che si chiuse
 2 dinanzi a la pietà d’i due cognati,
 3 che di trestizia tutto mi confuse,
+</prompt>
+<result>
+1 Vid sinnets torn, som stängdes
+2 inför de två svågrarnas medlidande,
+3 som helt förvirrade mig av sorg,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 4/115</info>
+<prompt>
+Please translate each line literally into Swedish.
 
 4 novi tormenti e novi tormentati
 5 mi veggio intorno, come ch’io mi mova
 6 e ch’io mi volga, e come che io guati.
 </prompt>
 <result>
-1 Vid sinnets torn, som stängdes
-2 inför de två svågrarnas medlidande,
-3 som helt förvirrade mig av sorg,
-
 4 ser jag nya plågor och nya plågade
 5 omkring mig, vart jag än rör mig,
 6 vart jag än vänder mig och vart jag än blickar.
@@ -136,16 +143,23 @@ Please translate each line literally into Swedish.
 28 Qual è quel cane ch’abbaiando agogna,
 29 e si racqueta poi che ’l pasto morde,
 30 ché solo a divorarlo intende e pugna,
+</prompt>
+<result>
+28 Som en hund som skäller av längtan,
+29 och sedan tystnar när den får något att äta,
+30 eftersom den bara tänker på att sluka och slåss,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 31/115</info>
+<prompt>
+Please translate each line literally into Swedish.
 
 31 cotai si fecer quelle facce lorde
 32 de lo demonio Cerbero, che ’ntrona
 33 l’anime sì, ch’esser vorrebber sorde.
 </prompt>
 <result>
-28 Som en hund som skäller av längtan,
-29 och sedan tystnar när den får något att äta,
-30 eftersom den bara tänker på att sluka och slåss,
-
 31 så blev de smutsiga ansiktena
 32 på djävulen Cerberus, som dövar
 33 andarna så att de skulle vilja vara döva.
@@ -279,16 +293,23 @@ Please translate each line literally into Swedish.
 58 Io li rispuosi: «Ciacco, il tuo affanno
 59 mi pesa sì, ch’a lagrimar mi ’nvita;
 60 ma dimmi, se tu sai, a che verranno
+</prompt>
+<result>
+58 Jag svarade honom: ”Ciacco, din sorg
+59 tynger mig så att den får mig att gråta;
+60 men säg mig, om du vet, vad som kommer att hända
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 61/115</info>
+<prompt>
+Please translate each line literally into Swedish.
 
 61 li cittadin de la città partita;
 62 s’alcun v’è giusto; e dimmi la cagione
 63 per che l’ha tanta discordia assalita».
 </prompt>
 <result>
-58 Jag svarade honom: ”Ciacco, din sorg
-59 tynger mig så att den får mig att gråta;
-60 men säg mig, om du vet, vad som kommer att hända
-
 61 medborgarna i den splittrade staden;
 62 om det finns någon rättfärdig där; och säg mig orsaken
 63 till att så stor oenighet har drabbat den.”
@@ -303,32 +324,6 @@ Please translate each line literally into Swedish.
 65 verranno al sangue, e la parte selvaggia
 66 caccerà l’altra con molta offensione.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "64 Och han till mig: ”Efter långa stridigheter\n65 kommer de att börja döda varandra, och den vilda sidan\n66 kommer att driva ut den andra med stor förödelse."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 64 Och han till mig: ”Efter långa stridigheter
 65 kommer de att börja döda varandra, och den vilda sidan
@@ -403,16 +398,23 @@ Please translate each line literally into Swedish.
 79 Farinata e ’l Tegghiaio, che fuor sì degni,
 80 Iacopo Rusticucci, Arrigo e ’l Mosca
 81 e li altri ch’a ben far puoser li ’ngegni,
+</prompt>
+<result>
+79 Farinata och Tegghiaio, som var så värdiga,
+80 Iacopo Rusticucci, Arrigo och Mosca
+81 och de andra som använde sina sinnen till att göra gott,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 82/115</info>
+<prompt>
+Please translate each line literally into Swedish.
 
 82 dimmi ove sono e fa ch’io li conosca;
 83 ché gran disio mi stringe di savere
 84 se ’l ciel li addolcia o lo ’nferno li attosca».
 </prompt>
 <result>
-79 Farinata och Tegghiaio, som var så värdiga,
-80 Iacopo Rusticucci, Arrigo och Mosca
-81 och de andra som använde sina sinnen till att göra gott,
-
 82 säg mig var de är och låt mig känna igen dem;
 83 för jag har en stor längtan att veta
 84 om himlen gör dem lyckliga eller om helvetet förgiftar dem.
@@ -427,32 +429,6 @@ Please translate each line literally into Swedish.
 86 diverse colpe giù li grava al fondo:
 87 se tanto scendi, là i potrai vedere.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "85 Och han: ”De är inte bland de svartaste själarna;\n86 olika brott tynger dem ner till botten:\n87 om du går så långt ner, kommer du att kunna se dem där."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 85 Och han: ”De är inte bland de svartaste själarna;
 86 olika brott tynger dem ner till botten:
@@ -497,16 +473,23 @@ Please translate each line literally into Swedish.
 94 E ’l duca disse a me: «Più non si desta
 95 di qua dal suon de l’angelica tromba,
 96 quando verrà la nimica podesta:
+</prompt>
+<result>
+94 Och ledaren sade till mig: ”Han vaknar inte mer
+95 förrän ljudet av ängelns trumpet,
+96 när den fientliga makten kommer:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 97/115</info>
+<prompt>
+Please translate each line literally into Swedish.
 
 97 ciascun rivederà la trista tomba,
 98 ripiglierà sua carne e sua figura,
 99 udirà quel ch’in etterno rimbomba».
 </prompt>
 <result>
-94 Och ledaren sade till mig: ”Han vaknar inte mer
-95 förrän ljudet av ängelns trumpet,
-96 när den fientliga makten kommer:
-
 97 var och en kommer att se sin sorgliga grav igen,
 98 återta sin kropp och sin gestalt,
 99 höra det som ekar i evighet.”
@@ -520,16 +503,23 @@ Please translate each line literally into Swedish.
 100 Sì trapassammo per sozza mistura
 101 de l’ombre e de la pioggia, a passi lenti,
 102 toccando un poco la vita futura;
+</prompt>
+<result>
+100 Så gick vi vidare genom den smutsiga blandningen
+101 av skuggor och regn, i långsam takt,
+102 och berörde lite av det framtida livet;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 103/115</info>
+<prompt>
+Please translate each line literally into Swedish.
 
 103 per ch’io dissi: «Maestro, esti tormenti
 104 crescerann’ ei dopo la gran sentenza,
 105 o fier minori, o saran sì cocenti?».
 </prompt>
 <result>
-100 Så gick vi vidare genom den smutsiga blandningen
-101 av skuggor och regn, i långsam takt,
-102 och berörde lite av det framtida livet;
-
 103 därför sade jag: ”Mästare, kommer dessa plågor
 104 att öka efter den stora domen,
 105 eller bli mindre, eller kommer de att vara lika brännande?”
@@ -559,32 +549,6 @@ Please translate each line literally into Swedish.
 110 in vera perfezion già mai non vada,
 111 di là più che di qua essere aspetta».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 Även om dessa fördömda människor\n110 aldrig kommer att nå verklig perfektion,\n111 förväntar de sig att vara mer perfekta där än här.”"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 109 Även om dessa fördömda människor
 110 aldrig kommer att nå verklig perfektion,
@@ -599,14 +563,21 @@ Please translate each line literally into Swedish.
 112 Noi aggirammo a tondo quella strada,
 113 parlando più assai ch’i’ non ridico;
 114 venimmo al punto dove si digrada:
-
-115 quivi trovammo Pluto, il gran nemico.
 </prompt>
 <result>
 112 Vi gick runt den vägen i en cirkel,
 113 och talade mycket mer än jag berättar;
 114 vi kom till den punkt där den sluttar:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 115/115</info>
+<prompt>
+Please translate each line literally into Swedish.
 
+115 quivi trovammo Pluto, il gran nemico.
+</prompt>
+<result>
 115 där fann vi Pluto, den store fienden.
 </result>
 </query>

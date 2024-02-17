@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries error="0" count="49">
 <query>
 <info>[Purgatorio Canto 19] 1/145</info>
 <prompt>
@@ -8,24 +8,38 @@ Please translate each line literally into Bulgarian.
 1 Ne l’ora che non può ’l calor dïurno
 2 intepidar più ’l freddo de la luna,
 3 vinto da terra, e talor da Saturno
+</prompt>
+<result>
+1 В часа, в който дневната топлина не може вече
+2 да стопли студа на луната,
+3 победен от земята и понякога от Сатурн
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 4/145</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 4 —quando i geomanti lor Maggior Fortuna
 5 veggiono in orïente, innanzi a l’alba,
 6 surger per via che poco le sta bruna—,
+</prompt>
+<result>
+4 —когато геомантите виждат тяхната Най-голяма Фортуна
+5 на изток, преди зазоряване,
+6 да изгрява по път, който малко ѝ е тъмен—,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 7/145</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 7 mi venne in sogno una femmina balba,
 8 ne li occhi guercia, e sovra i piè distorta,
 9 con le man monche, e di colore scialba.
 </prompt>
 <result>
-1 В часа, в който дневната топлина не може вече
-2 да стопли студа на луната,
-3 победен от земята и понякога от Сатурн
-
-4 —когато геомантите виждат тяхната Най-голяма Фортуна
-5 на изток, преди зазоряване,
-6 да изгрява по път, който малко ѝ е тъмен—,
-
 7 насън ми се яви една жена, която заекваше,
 8 с едното око сляпа и с изкривени крака,
 9 с отрязани ръце и с бледо лице.
@@ -39,42 +53,23 @@ Please translate each line literally into Bulgarian.
 10 Io la mirava; e come ’l sol conforta
 11 le fredde membra che la notte aggrava,
 12 così lo sguardo mio le facea scorta
+</prompt>
+<result>
+10 Аз я гледах; и както слънцето стопля
+11 изстиналите крайници, които нощта вкочанява,
+12 така моят поглед ѝ даде
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 13/145</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 13 la lingua, e poscia tutta la drizzava
 14 in poco d’ora, e lo smarrito volto,
 15 com’ amor vuol, così le colorava.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 Аз я гледах; и както слънцето стопля\n11 изстиналите крайници, които нощта вкочанява,\n12 така моят поглед ѝ даде\n\n13 език и след това я изправи цялата\n14 за кратко време и измъченото ѝ лице,\n15 както любовта иска, така оцвети."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-10 Аз я гледах; и както слънцето стопля
-11 изстиналите крайници, които нощта вкочанява,
-12 така моят поглед ѝ даде
-
 13 език и след това я изправи цялата
 14 за кратко време и измъченото ѝ лице,
 15 както любовта иска, така оцвети.
@@ -103,16 +98,23 @@ Please translate each line literally into Bulgarian.
 19 «Io son», cantava, «io son dolce serena,
 20 che ’ marinari in mezzo mar dismago;
 21 tanto son di piacere a sentir piena!
+</prompt>
+<result>
+19 „Аз съм“, пееше тя, „аз съм сладката сирена,
+20 която обърква моряците насред бурното море;
+21 толкова съм изпълнена с удоволствие за слушане!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 22/145</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 22 Io volsi Ulisse del suo cammin vago
 23 al canto mio; e qual meco s’ausa,
 24 rado sen parte; sì tutto l’appago!».
 </prompt>
 <result>
-19 „Аз съм“, пееше тя, „аз съм сладката сирена,
-20 която обърква моряците насред бурното море;
-21 толкова съм изпълнена с удоволствие за слушане!
-
 22 Аз отклоних Одисей от неговия дълъг път
 23 с моята песен; и който се осмели да дойде с мен,
 24 рядко се разделя с мен; толкова го задоволявам!“.
@@ -157,32 +159,6 @@ Please translate each line literally into Bulgarian.
 32 fendendo i drappi, e mostravami ’l ventre;
 33 quel mi svegliò col puzzo che n’uscia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 Другата я хвана и пред мен я разтвори,\n32 като разкъса дрехите ѝ, и ми показа корема ѝ;\n33 това ме събуди с миризмата, която излизаше от него."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 31 Другата я хвана и пред мен я разтвори,
 32 като разкъса дрехите ѝ, и ми показа корема ѝ;
@@ -227,16 +203,23 @@ Please translate each line literally into Bulgarian.
 40 Seguendo lui, portava la mia fronte
 41 come colui che l’ha di pensier carca,
 42 che fa di sé un mezzo arco di ponte;
+</prompt>
+<result>
+40 Следвайки го, навеждах челото си
+41 като този, който е натоварен с мисли,
+42 който прави от себе си половината от арката на мост;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 43/145</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 43 quand’ io udi’ «Venite; qui si varca»
 44 parlare in modo soave e benigno,
 45 qual non si sente in questa mortal marca.
 </prompt>
 <result>
-40 Следвайки го, навеждах челото си
-41 като този, който е натоварен с мисли,
-42 който прави от себе си половината от арката на мост;
-
 43 когато чух „Елате; тук се преминава“
 44 да се говори по нежен и благ начин,
 45 какъвто не се чува в този смъртен свят.
@@ -340,16 +323,23 @@ Please translate each line literally into Bulgarian.
 64 Quale ’l falcon, che prima a’ pié si mira,
 65 indi si volge al grido e si protende
 66 per lo disio del pasto che là il tira,
+</prompt>
+<result>
+64 Както соколът, който първо се гледа в краката си,
+65 после се обръща към вика и се протяга
+66 от желание за храната, която го привлича там,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 67/145</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 67 tal mi fec’ io; e tal, quanto si fende
 68 la roccia per dar via a chi va suso,
 69 n’andai infin dove ’l cerchiar si prende.
 </prompt>
 <result>
-64 Както соколът, който първо се гледа в краката си,
-65 после се обръща към вика и се протяга
-66 от желание за храната, която го привлича там,
-
 67 така направих и аз; и така, колкото се разцепва
 68 скалата, за да даде път на този, който върви нагоре,
 69 вървях, докато стигнах до мястото, където се хваща кръгът.
@@ -423,16 +413,23 @@ Please translate each line literally into Bulgarian.
 82 Così pregò ’l poeta, e sì risposto
 83 poco dinanzi a noi ne fu; per ch’io
 84 nel parlare avvisai l’altro nascosto,
+</prompt>
+<result>
+82 Така се помоли поетът и така му беше отговорено
+83 малко пред нас; затова
+84 в говоренето разбрах другия скрит,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 85/145</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 85 e volsi li occhi a li occhi al segnor mio:
 86 ond’ elli m’assentì con lieto cenno
 87 ciò che chiedea la vista del disio.
 </prompt>
 <result>
-82 Така се помоли поетът и така му беше отговорено
-83 малко пред нас; затова
-84 в говоренето разбрах другия скрит,
-
 85 и обърнах очи към очите на моя господар:
 86 тогава той ми даде знак с радостно кимване
 87 това, което погледът на желанието искаше.
@@ -446,16 +443,23 @@ Please translate each line literally into Bulgarian.
 88 Poi ch’io potei di me fare a mio senno,
 89 trassimi sovra quella creatura
 90 le cui parole pria notar mi fenno,
+</prompt>
+<result>
+88 След като можах да направя със себе си каквото искам,
+89 приближих се до това създание,
+90 чиито думи първо ме накараха да го забележа,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 91/145</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 91 dicendo: «Spirto in cui pianger matura
 92 quel sanza ’l quale a Dio tornar non pòssi,
 93 sosta un poco per me tua maggior cura.
 </prompt>
 <result>
-88 След като можах да направя със себе си каквото искам,
-89 приближих се до това създание,
-90 чиито думи първо ме накараха да го забележа,
-
 91 казвайки: „Душе, в която съзрява плачът
 92 за този, без когото не можеш да се върнеш при Бога,
 93 спри за малко твоята по-голяма грижа заради мен.
@@ -604,16 +608,23 @@ Please translate each line literally into Bulgarian.
 121 Come avarizia spense a ciascun bene
 122 lo nostro amore, onde operar perdési,
 123 così giustizia qui stretti ne tene,
+</prompt>
+<result>
+121 Както алчността угаси любовта ни
+122 към всяко добро, поради което се изгуби възможността за действие,
+123 така справедливостта тук ни държи стегнати,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 124/145</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 124 ne’ piedi e ne le man legati e presi;
 125 e quanto fia piacer del giusto Sire,
 126 tanto staremo immobili e distesi».
 </prompt>
 <result>
-121 Както алчността угаси любовта ни
-122 към всяко добро, поради което се изгуби възможността за действие,
-123 така справедливостта тук ни държи стегнати,
-
 124 вързани и уловени в краката и ръцете;
 125 и колкото е угодно на справедливия Господ,
 126 толкова ще стоим неподвижни и проснати“.
@@ -627,33 +638,38 @@ Please translate each line literally into Bulgarian.
 127 Io m’era inginocchiato e volea dire;
 128 ma com’ io cominciai ed el s’accorse,
 129 solo ascoltando, del mio reverire,
-
-130 «Qual cagion», disse, «in giù così ti torse?».
 </prompt>
 <result>
 127 Бях коленичил и исках да кажа;
 128 но щом започнах и той разбра,
 129 само като слушаше, моето почитание,
-
-130 „Каква причина“, каза той, „те накара да се поклониш така?“.
 </result>
 </query>
 <query>
-<info>[Purgatorio Canto 19] 131/145</info>
+<info>[Purgatorio Canto 19] 130/145</info>
 <prompt>
 Please translate each line literally into Bulgarian.
 
+130 «Qual cagion», disse, «in giù così ti torse?».
 131 E io a lui: «Per vostra dignitate
 132 mia coscïenza dritto mi rimorse».
+</prompt>
+<result>
+130 „Каква причина“, каза той, „те накара да се поклониш така?“.
+131 А аз му казах: „Заради вашето достойнство
+132 съвестта ми ме укори справедливо“.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 133/145</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 133 «Drizza le gambe, lèvati sù, frate!»,
 134 rispuose; «non errar: conservo sono
 135 teco e con li altri ad una podestate.
 </prompt>
 <result>
-131 А аз му казах: „Заради вашето достойнство
-132 съвестта ми ме укори справедливо“.
-
 133 „Изправи краката си, стани, брате!“,
 134 отговори той; „не греши: аз съм пазител
 135 заедно с теб и с другите на една власт.
@@ -697,14 +713,21 @@ Please translate each line literally into Bulgarian.
 142 Nepote ho io di là c’ha nome Alagia,
 143 buona da sé, pur che la nostra casa
 144 non faccia lei per essempro malvagia;
-
-145 e questa sola di là m’è rimasa».
 </prompt>
 <result>
 142 Имам внучка там, която се казва Алага,
 143 добра сама по себе си, стига нашият дом
 144 да не я направи зла с примера си;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 145/145</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
+145 e questa sola di là m’è rimasa».
+</prompt>
+<result>
 145 и само тя ми остана оттам“.
 </result>
 </query>

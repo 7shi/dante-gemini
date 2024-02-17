@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries error="0" count="47">
 <query>
 <info>[Inferno Canto 34] 1/139</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into Norwegian.
 4 Come quando una grossa nebbia spira,
 5 o quando l’emisperio nostro annotta,
 6 par di lungi un molin che ’l vento gira,
+</prompt>
+<result>
+4 Som når en tett tåke blåser,
+5 eller når vår halvkule blir mørk,
+6 ser det ut som en mølle i det fjerne som vinden driver,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 7/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 7 veder mi parve un tal dificio allotta;
 8 poi per lo vento mi ristrinsi retro
 9 al duca mio, ché non lì era altra grotta.
 </prompt>
 <result>
-4 Som når en tett tåke blåser,
-5 eller når vår halvkule blir mørk,
-6 ser det ut som en mølle i det fjerne som vinden driver,
-
 7 slik syntes jeg å se en slik bygning da;
 8 så trakk jeg meg tilbake bak
 9 min fører på grunn av vinden, for det var ingen annen hule der.
@@ -76,16 +83,23 @@ Please translate each line literally into Norwegian.
 16 Quando noi fummo fatti tanto avante,
 17 ch’al mio maestro piacque di mostrarmi
 18 la creatura ch’ebbe il bel sembiante,
+</prompt>
+<result>
+16 Da vi var kommet så langt frem,
+17 at det behaget min mester å vise meg
+18 skapningen som hadde det vakre utseendet,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 19/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 19 d’innanzi mi si tolse e fé restarmi,
 20 «Ecco Dite», dicendo, «ed ecco il loco
 21 ove convien che di fortezza t’armi».
 </prompt>
 <result>
-16 Da vi var kommet så langt frem,
-17 at det behaget min mester å vise meg
-18 skapningen som hadde det vakre utseendet,
-
 19 stilte han seg foran meg og fikk meg til å bli stående,
 20 og sa: «Se, Dite», og «se, stedet
 21 hvor du må væpne deg med styrke».
@@ -129,16 +143,23 @@ Please translate each line literally into Norwegian.
 28 Lo ’mperador del doloroso regno
 29 da mezzo ’l petto uscia fuor de la ghiaccia;
 30 e più con un gigante io mi convegno,
+</prompt>
+<result>
+28 Herskeren over det smertefulle riket
+29 stakk frem fra isen til midt på brystet;
+30 og jeg har mer til felles med en kjempe,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 31/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 31 che i giganti non fan con le sue braccia:
 32 vedi oggimai quant’ esser dee quel tutto
 33 ch’a così fatta parte si confaccia.
 </prompt>
 <result>
-28 Herskeren over det smertefulle riket
-29 stakk frem fra isen til midt på brystet;
-30 og jeg har mer til felles med en kjempe,
-
 31 enn kjemper har med hans armer:
 32 se nå hvor stort det hele må være,
 33 som passer til en slik del.
@@ -153,32 +174,6 @@ Please translate each line literally into Norwegian.
 35 e contra ’l suo fattore alzò le ciglia,
 36 ben dee da lui procedere ogne lutto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "34 Hvis han var så vakker som han nå er stygg,\n35 og løftet øyenbrynene mot sin skaper,\n36 må all sorg utgå fra ham."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 34 Hvis han var så vakker som han nå er stygg,
 35 og løftet øyenbrynene mot sin skaper,
@@ -193,24 +188,38 @@ Please translate each line literally into Norwegian.
 37 Oh quanto parve a me gran maraviglia
 38 quand’ io vidi tre facce a la sua testa!
 39 L’una dinanzi, e quella era vermiglia;
+</prompt>
+<result>
+37 Å, hvor stort det syntes meg å være et under,
+38 da jeg så tre ansikter på hodet hans!
+39 Det ene foran, og det var rødt;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 40/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 40 l’altr’ eran due, che s’aggiugnieno a questa
 41 sovresso ’l mezzo di ciascuna spalla,
 42 e sé giugnieno al loco de la cresta:
+</prompt>
+<result>
+40 de to andre, som sluttet seg til dette
+41 over midten av hver skulder,
+42 og de møttes på toppen av hodet:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 43/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 43 e la destra parea tra bianca e gialla;
 44 la sinistra a vedere era tal, quali
 45 vegnon di là onde ’l Nilo s’avvalla.
 </prompt>
 <result>
-37 Å, hvor stort det syntes meg å være et under,
-38 da jeg så tre ansikter på hodet hans!
-39 Det ene foran, og det var rødt;
-
-40 de to andre, som sluttet seg til dette
-41 over midten av hver skulder,
-42 og de møttes på toppen av hodet:
-
 43 og det høyre syntes å være mellom hvitt og gult;
 44 det venstre var å se på som de
 45 som kommer derfra hvor Nilen renner ned.
@@ -239,53 +248,38 @@ Please translate each line literally into Norwegian.
 49 Non avean penne, ma di vispistrello
 50 era lor modo; e quelle svolazzava,
 51 sì che tre venti si movean da ello:
-
-52 quindi Cocito tutto s’aggelava.
 </prompt>
 <result>
 49 De hadde ikke fjær, men de var som flaggermus
 50 i måten de var; og de flagret,
 51 slik at tre vinder ble satt i bevegelse av det:
-
-52 derfor frøs hele Cocytus til.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 34] 53/139</info>
-<prompt retry="true">
+<info>[Inferno Canto 34] 52/139</info>
+<prompt>
 Please translate each line literally into Norwegian.
 
+52 quindi Cocito tutto s’aggelava.
 53 Con sei occhi piangëa, e per tre menti
 54 gocciava ’l pianto e sanguinosa bava.
+</prompt>
+<result>
+52 derfor frøs hele Cocytus til.
+53 Med seks øyne gråt den, og fra tre munner
+54 rant det tårer og blodig spytt.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 55/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 55 Da ogne bocca dirompea co’ denti
 56 un peccatore, a guisa di maciulla,
 57 sì che tre ne facea così dolenti.
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-53 Med seks øyne gråt den, og fra tre munner
-54 rant det tårer og blodig spytt.
-
 55 Fra hver munn knuste den med tennene
 56 en synder, som en knusemaskin,
 57 slik at den gjorde tre av dem så sørgmodige.
@@ -329,41 +323,53 @@ Please translate each line literally into Norwegian.
 64 De li altri due c’hanno il capo di sotto,
 65 quel che pende dal nero ceffo è Bruto:
 66 vedi come si storce, e non fa motto!;
-
-67 e l’altro è Cassio, che par sì membruto.
 </prompt>
 <result>
 64 Av de to andre som har hodet ned,
 65 er han som henger fra det svarte trynet Brutus:
 66 se hvordan han vrir seg, og ikke sier et ord!;
-
-67 og den andre er Cassius, som ser så kraftig ut.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 34] 68/139</info>
+<info>[Inferno Canto 34] 67/139</info>
 <prompt>
 Please translate each line literally into Norwegian.
 
+67 e l’altro è Cassio, che par sì membruto.
 68 Ma la notte risurge, e oramai
 69 è da partir, ché tutto avem veduto».
+</prompt>
+<result>
+67 og den andre er Cassius, som ser så kraftig ut.
+68 Men natten kommer tilbake, og nå
+69 er det på tide å dra, for vi har sett alt».
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 70/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 70 Com’ a lui piacque, il collo li avvinghiai;
 71 ed el prese di tempo e loco poste,
 72 e quando l’ali fuoro aperte assai,
+</prompt>
+<result>
+70 Slik han ville, slynget jeg armene rundt halsen hans;
+71 og han tok hensyn til tid og sted,
+72 og da vingene var godt åpne,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 73/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 73 appigliò sé a le vellute coste;
 74 di vello in vello giù discese poscia
 75 tra ’l folto pelo e le gelate croste.
 </prompt>
 <result>
-68 Men natten kommer tilbake, og nå
-69 er det på tide å dra, for vi har sett alt».
-
-70 Slik han ville, slynget jeg armene rundt halsen hans;
-71 og han tok hensyn til tid og sted,
-72 og da vingene var godt åpne,
-
 73 klamret han seg fast til de lodne sidene;
 74 fra hår til hår klatret han så nedover
 75 mellom den tykke pelsen og de iskalde skorpene.
@@ -377,16 +383,23 @@ Please translate each line literally into Norwegian.
 76 Quando noi fummo là dove la coscia
 77 si volge, a punto in sul grosso de l’anche,
 78 lo duca, con fatica e con angoscia,
+</prompt>
+<result>
+76 Da vi var kommet dit hvor låret
+77 bøyer seg, akkurat ved den tykke delen av hoften,
+78 vendte føreren, med strev og med nød,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 79/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 79 volse la testa ov’ elli avea le zanche,
 80 e aggrappossi al pel com’ om che sale,
 81 sì che ’n inferno i’ credea tornar anche.
 </prompt>
 <result>
-76 Da vi var kommet dit hvor låret
-77 bøyer seg, akkurat ved den tykke delen av hoften,
-78 vendte føreren, med strev og med nød,
-
 79 hodet dit hvor han hadde beina,
 80 og klamret seg fast til hårene som en mann som klatrer,
 81 slik at jeg trodde jeg skulle vende tilbake til helvete.
@@ -430,16 +443,23 @@ Please translate each line literally into Norwegian.
 88 Io levai li occhi e credetti vedere
 89 Lucifero com’ io l’avea lasciato,
 90 e vidili le gambe in sù tenere;
+</prompt>
+<result>
+88 Jeg løftet øynene og trodde jeg så
+89 Lucifer slik jeg hadde forlatt ham,
+90 og jeg så at han holdt beina i været;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 91/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 91 e s’io divenni allora travagliato,
 92 la gente grossa il pensi, che non vede
 93 qual è quel punto ch’io avea passato.
 </prompt>
 <result>
-88 Jeg løftet øynene og trodde jeg så
-89 Lucifer slik jeg hadde forlatt ham,
-90 og jeg så at han holdt beina i været;
-
 91 og om jeg da ble urolig,
 92 kan folk flest tenke seg, som ikke ser
 93 hvilket punkt det var jeg hadde passert.
@@ -483,16 +503,23 @@ Please translate each line literally into Norwegian.
 100 «Prima ch’io de l’abisso mi divella,
 101 maestro mio», diss’ io quando fui dritto,
 102 «a trarmi d’erro un poco mi favella:
+</prompt>
+<result>
+100 «Før jeg drar meg ut av avgrunnen,
+101 min mester», sa jeg da jeg sto oppreist,
+102 «si meg noen ord for å redde meg fra villfarelse:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 103/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 103 ov’ è la ghiaccia? e questi com’ è fitto
 104 sì sottosopra? e come, in sì poc’ ora,
 105 da sera a mane ha fatto il sol tragitto?».
 </prompt>
 <result>
-100 «Før jeg drar meg ut av avgrunnen,
-101 min mester», sa jeg da jeg sto oppreist,
-102 «si meg noen ord for å redde meg fra villfarelse:
-
 103 hvor er isen? og hvordan er denne [Lucifer] festet
 104 så opp ned? og hvordan har solen på så kort tid
 105 gått fra kveld til morgen?».
@@ -536,16 +563,23 @@ Please translate each line literally into Norwegian.
 112 E se’ or sotto l’emisperio giunto
 113 ch’è contraposto a quel che la gran secca
 114 coverchia, e sotto ’l cui colmo consunto
+</prompt>
+<result>
+112 Og nå har du kommet til den halvkule
+113 som er motsatt av den som den store ørkenen
+114 dekker, og under hvis høyeste punkt
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 115/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 115 fu l’uom che nacque e visse sanza pecca;
 116 tu haï i piedi in su picciola spera
 117 che l’altra faccia fa de la Giudecca.
 </prompt>
 <result>
-112 Og nå har du kommet til den halvkule
-113 som er motsatt av den som den store ørkenen
-114 dekker, og under hvis høyeste punkt
-
 115 levde og døde mannen som var uten synd;
 116 du har føttene dine på en liten sfære
 117 som er motsatt side av Judas Iskariot.
@@ -574,16 +608,23 @@ Please translate each line literally into Norwegian.
 121 Da questa parte cadde giù dal cielo;
 122 e la terra, che pria di qua si sporse,
 123 per paura di lui fé del mar velo,
+</prompt>
+<result>
+121 Fra denne siden falt han ned fra himmelen;
+122 og jorden, som tidligere strakte seg ut her,
+123 dekket seg med havet av frykt for ham,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 124/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 124 e venne a l’emisperio nostro; e forse
 125 per fuggir lui lasciò qui loco vòto
 126 quella ch’appar di qua, e sù ricorse».
 </prompt>
 <result>
-121 Fra denne siden falt han ned fra himmelen;
-122 og jorden, som tidligere strakte seg ut her,
-123 dekket seg med havet av frykt for ham,
-
 124 og kom til vår halvkule; og kanskje
 125 for å flykte fra ham etterlot den som synes her
 126 et tomrom, og trakk seg tilbake oppover.
@@ -597,16 +638,23 @@ Please translate each line literally into Norwegian.
 127 Luogo è là giù da Belzebù remoto
 128 tanto quanto la tomba si distende,
 129 che non per vista, ma per suono è noto
+</prompt>
+<result>
+127 Det er et sted der nede, langt borte fra Beelzebub,
+128 like langt som graven strekker seg,
+129 som ikke er kjent av synet, men av lyden
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 130/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 130 d’un ruscelletto che quivi discende
 131 per la buca d’un sasso, ch’elli ha roso,
 132 col corso ch’elli avvolge, e poco pende.
 </prompt>
 <result>
-127 Det er et sted der nede, langt borte fra Beelzebub,
-128 like langt som graven strekker seg,
-129 som ikke er kjent av synet, men av lyden
-
 130 av en liten bekk som renner ned dit
 131 gjennom hullet i en stein som den har erodert,
 132 med en strøm som slynger seg og faller litt.
@@ -620,16 +668,23 @@ Please translate each line literally into Norwegian.
 133 Lo duca e io per quel cammino ascoso
 134 intrammo a ritornar nel chiaro mondo;
 135 e sanza cura aver d’alcun riposo,
+</prompt>
+<result>
+133 Føreren og jeg gikk inn på den skjulte stien
+134 for å vende tilbake til den lyse verden;
+135 og uten å bry oss om å hvile,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 34] 136/139</info>
+<prompt>
+Please translate each line literally into Norwegian.
 
 136 salimmo sù, el primo e io secondo,
 137 tanto ch’i’ vidi de le cose belle
 138 che porta ’l ciel, per un pertugio tondo.
 </prompt>
 <result>
-133 Føreren og jeg gikk inn på den skjulte stien
-134 for å vende tilbake til den lyse verden;
-135 og uten å bry oss om å hvile,
-
 136 klatret vi oppover, først han og så jeg,
 137 helt til jeg så de vakre tingene
 138 som himmelen bærer, gjennom en rund åpning.

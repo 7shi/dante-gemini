@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries count="48">
 <query>
 <info>[Inferno Canto 28] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Czech.
 1 Chi poria mai pur con parole sciolte
 2 dicer del sangue e de le piaghe a pieno
 3 ch’i’ ora vidi, per narrar più volte?
+</prompt>
+<result>
+1 Kdo by dokázal byť jen slovy prostými
+2 vyprávět o krvi a ranách v plném rozsahu,
+3 které jsem nyní viděl, abych je mohl vyprávět vícekrát?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 4/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 4 Ogne lingua per certo verria meno
 5 per lo nostro sermone e per la mente
 6 c’hanno a tanto comprender poco seno.
 </prompt>
 <result>
-1 Kdo by dokázal byť jen slovy prostými
-2 vyprávět o krvi a ranách v plném rozsahu,
-3 které jsem nyní viděl, abych je mohl vyprávět vícekrát?
-
 4 Jistě by každý jazyk selhal
 5 pro naši řeč a pro mysl,
 6 které mají pro takové pochopení příliš malou kapacitu.
@@ -31,42 +38,71 @@ Please translate each line literally into Czech.
 7 S’el s’aunasse ancor tutta la gente
 8 che già, in su la fortunata terra
 9 di Puglia, fu del suo sangue dolente
+</prompt>
+<result>
+7 Kdyby se ještě jednou shromáždili všichni lidé,
+8 kteří kdysi na šťastné zemi
+9 Apulie truchlili pro jeho krev,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 10/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 10 per li Troiani e per la lunga guerra
 11 che de l’anella fé sì alte spoglie,
 12 come Livïo scrive, che non erra,
+</prompt>
+<result>
+10 pro Trojany a pro dlouhou válku,
+11 která z prstenu učinila tak vzácnou kořist,
+12 jak píše Livius, který se nemýlí,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 13/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 13 con quella che sentio di colpi doglie
 14 per contastare a Ruberto Guiscardo;
 15 e l’altra il cui ossame ancor s’accoglie
+</prompt>
+<result>
+13 s tou, kterou pocítil z bolestivých ran,
+14 aby se postavil Robertovi Guiscardovi;
+15 a druhou, jejíž kosti se stále sbírají
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 16/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 16 a Ceperan, là dove fu bugiardo
 17 ciascun Pugliese, e là da Tagliacozzo,
 18 dove sanz’ arme vinse il vecchio Alardo;
+</prompt>
+<result>
+16 u Ceperana, kde byl každý Apulián lhář,
+17 a tam u Tagliacozza,
+18 kde bez zbraní zvítězil starý Alardo;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 19/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 19 e qual forato suo membro e qual mozzo
 20 mostrasse, d’aequar sarebbe nulla
 21 il modo de la nona bolgia sozzo.
 </prompt>
 <result>
-7 Kdyby se sešla ještě všechna ta skupina lidí,
-8 která kdysi na šťastné zemi
-9 Apulie trpěla kvůli své krvi
-
-10 kvůli Trojanům a kvůli dlouhé válce,
-11 která přinesla tak bohatou kořist v podobě prstenů,
-12 jak píše Livius, který se nemýlí,
-
-13 s tou skupinou, která pocítila bolest ze zásahů,
-14 když se postavila proti Robertovi Guiscardovi;
-15 a s tou další, jejíž kosti se ještě sbírají
-
-16 u Ceperana, kde každý Apulijec lhal,
-17 a tam u Tagliacozza,
-18 kde starý Alardo zvítězil beze zbraní;
-
-19 a kdyby každý ukázal svůj probodnutý nebo useknutý úd,
-20 nic by se nevyrovnalo způsobu devátého špinavého kruhu.
+19 a který měl useknutý úd a který useknutou ruku
+20 ukázal by, bylo by to nic ve srovnání s tím,
+21 jaký způsob je v deváté špinavé jámě.
 </result>
 </query>
 <query>
@@ -93,32 +129,6 @@ Please translate each line literally into Czech.
 26 la corata pareva e ’l tristo sacco
 27 che merda fa di quel che si trangugia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 Mezi nohama mu visely vnitřnosti;\n26 vypadalo to jako střevní blána a odporný vak,\n27 který dělá hovno z toho, co se sežere."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 Mezi nohama mu visely vnitřnosti;
 26 vypadalo to jako střevní blána a odporný vak,
@@ -133,16 +143,23 @@ Please translate each line literally into Czech.
 28 Mentre che tutto in lui veder m’attacco,
 29 guardommi e con le man s’aperse il petto,
 30 dicendo: «Or vedi com’ io mi dilacco!
+</prompt>
+<result>
+28 Zatímco jsem se na něj celý upínal pohledem,
+29 podíval se na mě a rukama si roztrhl hruď
+30 a řekl: „Teď vidíš, jak se trhám!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 31/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 31 vedi come storpiato è Mäometto!
 32 Dinanzi a me sen va piangendo Alì,
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
 <result>
-28 Zatímco jsem se na něj celý upínal pohledem,
-29 podíval se na mě a rukama si roztrhl hruď
-30 a řekl: „Teď vidíš, jak se trhám!
-
 31 Vidíš, jak je zmrzačený Mohamed!
 32 Přede mnou jde plačící Alí,
 33 rozpolcený v obličeji od brady až po čelo.
@@ -171,42 +188,23 @@ Please translate each line literally into Czech.
 37 Un diavolo è qua dietro che n’accisma
 38 sì crudelmente, al taglio de la spada
 39 rimettendo ciascun di questa risma,
+</prompt>
+<result>
+37 Ďábel je tady vzadu, který je zabíjí
+38 tak krutě, mečem je seká,
+39 posílá každého z této skupiny,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 40/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 40 quand’ avem volta la dolente strada;
 41 però che le ferite son richiuse
 42 prima ch’altri dinanzi li rivada.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 Ďábel je tady vzadu, který je zabíjí\n38 tak krutě, mečem je seká,\n39 posílá každého z této skupiny,\n\n40 když jsme se otočili na bolestnou cestu;\n41 protože rány se zacelí\n42 dřív, než se k nim někdo jiný dostane."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-37 Ďábel je tady vzadu, který je zabíjí
-38 tak krutě, mečem je seká,
-39 posílá každého z této skupiny,
-
 40 když jsme se otočili na bolestnou cestu;
 41 protože rány se zacelí
 42 dřív, než se k nim někdo jiný dostane.
@@ -235,16 +233,23 @@ Please translate each line literally into Czech.
 46 «Né morte ’l giunse ancor, né colpa ’l mena»,
 47 rispuose ’l mio maestro, «a tormentarlo;
 48 ma per dar lui esperïenza piena,
+</prompt>
+<result>
+46 „Ještě ho nedostihla smrt ani ho nevede vina,“
+47 odpověděl můj učitel, „aby ho trápila;
+48 ale abych mu dal plnou zkušenost,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 49/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 49 a me, che morto son, convien menarlo
 50 per lo ’nferno qua giù di giro in giro;
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
 <result>
-46 „Ještě ho nedostihla smrt ani ho nevede vina,“
-47 odpověděl můj učitel, „aby ho trápila;
-48 ale abych mu dal plnou zkušenost,
-
 49 a já, který jsem mrtev, ho musím vést
 50 peklem sem dolů, od kruhu ke kruhu;
 51 a to je pravda, tak jak ti to říkám.“
@@ -273,16 +278,23 @@ Please translate each line literally into Czech.
 55 «Or dì a fra Dolcin dunque che s’armi,
 56 tu che forse vedra’ il sole in breve,
 57 s’ello non vuol qui tosto seguitarmi,
+</prompt>
+<result>
+55 „Takže teď řekni bratru Dolcinovi, ať se vyzbrojí,
+56 ty, který snad brzy uvidíš slunce,
+57 jestli nechce jít brzy se mnou,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 58/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 58 sì di vivanda, che stretta di neve
 59 non rechi la vittoria al Noarese,
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55 „Takže teď řekni bratru Dolcinovi, ať se vyzbrojí,
-56 ty, který snad brzy uvidíš slunce,
-57 jestli nechce jít brzy se mnou,
-
 58 s takovou zásobou potravin, aby nedostatek sněhu
 59 nepřinesl vítězství Novarešanům,
 60 protože jinak by to nebylo snadné získat.“
@@ -311,32 +323,53 @@ Please translate each line literally into Czech.
 64 Un altro, che forata avea la gola
 65 e tronco ’l naso infin sotto le ciglia,
 66 e non avea mai ch’una orecchia sola,
+</prompt>
+<result>
+64 Jiný, který měl probodnuté hrdlo
+65 a useknutý nos až pod obočí
+66 a neměl víc než jedno ucho,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 67/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 67 ristato a riguardar per maraviglia
 68 con li altri, innanzi a li altri aprì la canna,
 69 ch’era di fuor d’ogne parte vermiglia,
+</prompt>
+<result>
+67 zastavil se, aby se na mě s úžasem podíval
+68 spolu s ostatními, a otevřel ústa,
+69 která byla zvenčí celá rudá,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 70/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 70 e disse: «O tu cui colpa non condanna
 71 e cu’ io vidi su in terra latina,
 72 se troppa simiglianza non m’inganna,
+</prompt>
+<result>
+70 a řekl: „Ó ty, kterého neodsoudil hřích
+71 a kterého jsem viděl nahoře v Itálii,
+72 jestli mě přílišná podobnost neklame,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 73/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 73 rimembriti di Pier da Medicina,
 74 se mai torni a veder lo dolce piano
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64 Jiný, který měl probodnuté hrdlo
-65 a useknutý nos až pod obočí
-66 a neměl víc než jedno ucho,
-
-67 zastavil se, aby se na mě s úžasem podíval
-68 spolu s ostatními, a otevřel ústa,
-69 která byla zvenčí celá rudá,
-
-70 a řekl: „Ó ty, kterého neodsoudil hřích
-71 a kterého jsem viděl nahoře v Itálii,
-72 jestli mě přílišná podobnost neklame,
-
 73 vzpomeň si na Piera da Medicina,
 74 jestli se někdy vrátíš, abys viděl sladkou pláň,
 75 která se svažuje od Vercelli k Marcabò.
@@ -350,16 +383,23 @@ Please translate each line literally into Czech.
 76 E fa saper a’ due miglior da Fano,
 77 a messer Guido e anco ad Angiolello,
 78 che, se l’antiveder qui non è vano,
+</prompt>
+<result>
+76 A dej vědět dvěma nejlepším z Fana,
+77 messeru Guidovi a také Angiolellovi,
+78 že pokud není marné to předvídat,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 79/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 79 gittati saran fuor di lor vasello
 80 e mazzerati presso a la Cattolica
 81 per tradimento d’un tiranno fello.
 </prompt>
 <result>
-76 A dej vědět dvěma nejlepším z Fana,
-77 messeru Guidovi a také Angiolellovi,
-78 že pokud není marné to předvídat,
-
 79 budou vyhozeni ze své lodi
 80 a pobiti poblíž Cattolicy
 81 kvůli zradě krutého tyrana.
@@ -388,16 +428,23 @@ Please translate each line literally into Czech.
 85 Quel traditor che vede pur con l’uno,
 86 e tien la terra che tale qui meco
 87 vorrebbe di vedere esser digiuno,
+</prompt>
+<result>
+85 Ten zrádce, který vidí jen jedním okem,
+86 a drží zemi, kterou by tak rád viděl
+87 vyhladovělou jako já tady,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 88/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 88 farà venirli a parlamento seco;
 89 poi farà sì, ch’al vento di Focara
 90 non sarà lor mestier voto né preco».
 </prompt>
 <result>
-85 Ten zrádce, který vidí jen jedním okem,
-86 a drží zemi, kterou by tak rád viděl
-87 vyhladovělou jako já tady,
-
 88 je přiměje, aby s ním jednali;
 89 pak zařídí, aby na větru u Focary
 90 nemuseli prosit ani modlit se za svou záchranu.“
@@ -456,24 +503,38 @@ Please translate each line literally into Czech.
 100 Oh quanto mi pareva sbigottito
 101 con la lingua tagliata ne la strozza
 102 Curïo, ch’a dir fu così ardito!
+</prompt>
+<result>
+100 Ó, jak mi připadal vyděšený
+101 s jazykem uříznutým v hrdle
+102 Curio, který byl tak odvážný ve svých slovech!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 103/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 103 E un ch’avea l’una e l’altra man mozza,
 104 levando i moncherin per l’aura fosca,
 105 sì che ’l sangue facea la faccia sozza,
+</prompt>
+<result>
+103 A jeden, který měl obě ruce useknuté,
+104 zvedal pahýly v temném vzduchu,
+105 takže krev mu špinila obličej,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 106/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 106 gridò: «Ricordera’ti anche del Mosca,
 107 che disse, lasso!, “Capo ha cosa fatta”,
 108 che fu mal seme per la gente tosca».
 </prompt>
 <result>
-100 Ó, jak mi připadal vyděšený
-101 s jazykem uříznutým v hrdle
-102 Curio, který byl tak odvážný ve svých slovech!
-
-103 A jeden, který měl obě ruce useknuté,
-104 zvedal pahýly v temném vzduchu,
-105 takže krev mu špinila obličej,
-
 106 vykřikl: „Vzpomeň si také na Moscu,
 107 který řekl, běda!, „Hotová věc má hlavu“,
 108 což bylo špatné sémě pro toskánský lid.“
@@ -502,16 +563,23 @@ Please translate each line literally into Czech.
 112 Ma io rimasi a riguardar lo stuolo,
 113 e vidi cosa ch’io avrei paura,
 114 sanza più prova, di contarla solo;
+</prompt>
+<result>
+112 Ale já jsem zůstal, abych se podíval na ten zástup,
+113 a viděl jsem něco, o čem bych se bál,
+114 i bez dalšího důkazu, vyprávět sám;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 115/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 115 se non che coscïenza m’assicura,
 116 la buona compagnia che l’uom francheggia
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112 Ale já jsem zůstal, abych se podíval na ten zástup,
-113 a viděl jsem něco, o čem bych se bál,
-114 i bez dalšího důkazu, vyprávět sám;
-
 115 kdyby mě neujistilo svědomí,
 116 dobrá společnost, která člověka osvobozuje
 117 pod pancířem čistého svědomí.
@@ -525,16 +593,23 @@ Please translate each line literally into Czech.
 118 Io vidi certo, e ancor par ch’io ’l veggia,
 119 un busto sanza capo andar sì come
 120 andavan li altri de la trista greggia;
+</prompt>
+<result>
+118 Viděl jsem jistě, a stále se mi zdá, že to vidím,
+119 trup bez hlavy kráčet tak, jako
+120 kráčeli ostatní z toho smutného stáda;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 121/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 121 e ’l capo tronco tenea per le chiome,
 122 pesol con mano a guisa di lanterna:
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118 Viděl jsem jistě, a stále se mi zdá, že to vidím,
-119 trup bez hlavy kráčet tak, jako
-120 kráčeli ostatní z toho smutného stáda;
-
 121 a useknutou hlavu držel za vlasy,
 122 nesl ji v ruce jako lucernu:
 123 a ta se dívala na nás a říkala: „Ó já!“
@@ -563,16 +638,23 @@ Please translate each line literally into Czech.
 127 Quando diritto al piè del ponte fue,
 128 levò ’l braccio alto con tutta la testa
 129 per appressarne le parole sue,
+</prompt>
+<result>
+127 Když byl přímo u paty mostu,
+128 zvedl vysoko ruku i s celou hlavou,
+129 abychom lépe slyšeli jeho slova,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 130/142</info>
+<prompt>
+Please translate each line literally into Czech.
 
 130 che fuoro: «Or vedi la pena molesta,
 131 tu che, spirando, vai veggendo i morti:
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127 Když byl přímo u paty mostu,
-128 zvedl vysoko ruku i s celou hlavou,
-129 abychom lépe slyšeli jeho slova,
-
 130 která byla: „Nyní vidíš trýznivý trest,
 131 ty, který, dýchaje, vidíš mrtvé:
 132 podívej se, jestli je nějaký větší než tento.

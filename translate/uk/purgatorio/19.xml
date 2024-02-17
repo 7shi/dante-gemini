@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries error="0" count="49">
 <query>
 <info>[Purgatorio Canto 19] 1/145</info>
 <prompt>
@@ -8,24 +8,38 @@ Please translate each line literally into Ukrainian.
 1 Ne l’ora che non può ’l calor dïurno
 2 intepidar più ’l freddo de la luna,
 3 vinto da terra, e talor da Saturno
+</prompt>
+<result>
+1 У час, коли денне тепло вже не може
+2 зігріти холод місяця,
+3 переможений землею, а іноді й Сатурном
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 4/145</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 4 —quando i geomanti lor Maggior Fortuna
 5 veggiono in orïente, innanzi a l’alba,
 6 surger per via che poco le sta bruna—,
+</prompt>
+<result>
+4 —коли геоманти бачать свою Найбільшу Удачу
+5 на сході, перед світанком,
+6 що сходить шляхом, який трохи темніє для неї—,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 7/145</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 7 mi venne in sogno una femmina balba,
 8 ne li occhi guercia, e sovra i piè distorta,
 9 con le man monche, e di colore scialba.
 </prompt>
 <result>
-1 У час, коли денне тепло вже не може
-2 зігріти холод місяця,
-3 переможений землею, а іноді й Сатурном
-
-4 —коли геоманти бачать свою Найбільшу Удачу
-5 на сході, перед світанком,
-6 що сходить шляхом, який трохи темніє для неї—,
-
 7 мені наснилась якась жінка, що лепетала,
 8 косоока і кривонога,
 9 з обрубаними руками і бліда на колір.
@@ -39,16 +53,23 @@ Please translate each line literally into Ukrainian.
 10 Io la mirava; e come ’l sol conforta
 11 le fredde membra che la notte aggrava,
 12 così lo sguardo mio le facea scorta
+</prompt>
+<result>
+10 Я дивився на неї; і як сонце зігріває
+11 замерзлі члени, які обтяжує ніч,
+12 так мій погляд повернув їй
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 13/145</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 13 la lingua, e poscia tutta la drizzava
 14 in poco d’ora, e lo smarrito volto,
 15 com’ amor vuol, così le colorava.
 </prompt>
 <result>
-10 Я дивився на неї; і як сонце зігріває
-11 замерзлі члени, які обтяжує ніч,
-12 так мій погляд повернув їй
-
 13 мову, а потім випрямив її всю
 14 за короткий час, і її змарніле обличчя,
 15 як велить кохання, так і розфарбував.
@@ -56,33 +77,13 @@ Please translate each line literally into Ukrainian.
 </query>
 <query>
 <info>[Purgatorio Canto 19] 16/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Ukrainian.
 
 16 Poi ch’ell’ avea ’l parlar così disciolto,
 17 cominciava a cantar sì, che con pena
 18 da lei avrei mio intento rivolto.
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 16 Потім, коли вона так вільно заговорила,
 17 вона почала співати так, що насилу
@@ -97,16 +98,23 @@ Please translate each line literally into Ukrainian.
 19 «Io son», cantava, «io son dolce serena,
 20 che ’ marinari in mezzo mar dismago;
 21 tanto son di piacere a sentir piena!
+</prompt>
+<result>
+19 «Я є», співала вона, «я є солодка сирена,
+20 яка збиває моряків посеред бурхливого моря;
+21 настільки я сповнена насолоди, коли мене чують!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 22/145</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 22 Io volsi Ulisse del suo cammin vago
 23 al canto mio; e qual meco s’ausa,
 24 rado sen parte; sì tutto l’appago!».
 </prompt>
 <result>
-19 «Я є», співала вона, «я є солодка сирена,
-20 яка збиває моряків посеред бурхливого моря;
-21 настільки я сповнена насолоди, коли мене чують!
-
 22 Я відвернула Улісса від його довгого шляху
 23 своїм співом; і той, хто наважується бути зі мною,
 24 рідко йде геть; настільки я його задовольняю!».
@@ -151,32 +159,6 @@ Please translate each line literally into Ukrainian.
 32 fendendo i drappi, e mostravami ’l ventre;
 33 quel mi svegliò col puzzo che n’uscia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 Інша схопила її і розкрила перед нею,\n32 розірвавши одяг, і показала мені її живіт;\n33 той розбудив мене смородом, що з нього виходив."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 31 Інша схопила її і розкрила перед нею,
 32 розірвавши одяг, і показала мені її живіт;
@@ -221,16 +203,23 @@ Please translate each line literally into Ukrainian.
 40 Seguendo lui, portava la mia fronte
 41 come colui che l’ha di pensier carca,
 42 che fa di sé un mezzo arco di ponte;
+</prompt>
+<result>
+40 Слідуючи за ним, я тримав голову опущеною,
+41 як той, хто обтяжений думками,
+42 що робить із себе половину арки мосту;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 43/145</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 43 quand’ io udi’ «Venite; qui si varca»
 44 parlare in modo soave e benigno,
 45 qual non si sente in questa mortal marca.
 </prompt>
 <result>
-40 Слідуючи за ним, я тримав голову опущеною,
-41 як той, хто обтяжений думками,
-42 що робить із себе половину арки мосту;
-
 43 коли я почув «Ідіть; тут перехід»
 44 сказане лагідно і доброзичливо,
 45 як не чути в цьому смертному світі.
@@ -305,32 +294,6 @@ Please translate each line literally into Ukrainian.
 59 che sola sovr’ a noi omai si piagne;
 60 vedesti come l’uom da lei si slega.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "58 «Ти бачив», сказав він, «ту стару відьму,\n59 яка тепер плаче лише над собою;\n60 ти бачив, як людина звільняється від неї."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 58 «Ти бачив», сказав він, «ту стару відьму,
 59 яка тепер плаче лише над собою;
@@ -360,16 +323,23 @@ Please translate each line literally into Ukrainian.
 64 Quale ’l falcon, che prima a’ pié si mira,
 65 indi si volge al grido e si protende
 66 per lo disio del pasto che là il tira,
+</prompt>
+<result>
+64 Як сокіл, який спочатку дивиться собі під ноги,
+65 потім повертається на крик і витягується
+66 від бажання їжі, яка його туди тягне,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 67/145</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 67 tal mi fec’ io; e tal, quanto si fende
 68 la roccia per dar via a chi va suso,
 69 n’andai infin dove ’l cerchiar si prende.
 </prompt>
 <result>
-64 Як сокіл, який спочатку дивиться собі під ноги,
-65 потім повертається на крик і витягується
-66 від бажання їжі, яка його туди тягне,
-
 67 так зробив і я; і так, наскільки розколюється
 68 скеля, щоб дати дорогу тому, хто йде вгору,
 69 я йшов, аж поки не дійшов до місця, де починається коло.
@@ -443,16 +413,23 @@ Please translate each line literally into Ukrainian.
 82 Così pregò ’l poeta, e sì risposto
 83 poco dinanzi a noi ne fu; per ch’io
 84 nel parlare avvisai l’altro nascosto,
+</prompt>
+<result>
+82 Так молився поет, і так було йому відповідано
+83 трохи попереду нас; тому я
+84 в розмові помітив іншого, прихованого,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 85/145</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 85 e volsi li occhi a li occhi al segnor mio:
 86 ond’ elli m’assentì con lieto cenno
 87 ciò che chiedea la vista del disio.
 </prompt>
 <result>
-82 Так молився поет, і так було йому відповідано
-83 трохи попереду нас; тому я
-84 в розмові помітив іншого, прихованого,
-
 85 і звернув очі на очі мого пана:
 86 і він дав мені згоду радісним знаком
 87 на те, чого бажала моя цікавість.
@@ -466,16 +443,23 @@ Please translate each line literally into Ukrainian.
 88 Poi ch’io potei di me fare a mio senno,
 89 trassimi sovra quella creatura
 90 le cui parole pria notar mi fenno,
+</prompt>
+<result>
+88 Коли я зміг діяти за своїм бажанням,
+89 я підійшов до тієї істоти,
+90 чиї слова раніше змусили мене звернути на неї увагу,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 91/145</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 91 dicendo: «Spirto in cui pianger matura
 92 quel sanza ’l quale a Dio tornar non pòssi,
 93 sosta un poco per me tua maggior cura.
 </prompt>
 <result>
-88 Коли я зміг діяти за своїм бажанням,
-89 я підійшов до тієї істоти,
-90 чиї слова раніше змусили мене звернути на неї увагу,
-
 91 кажучи: «Душе, в якій дозріває плач
 92 за тим, без кого не можна повернутися до Бога,
 93 зупини на мить свою велику турботу заради мене.
@@ -624,16 +608,23 @@ Please translate each line literally into Ukrainian.
 121 Come avarizia spense a ciascun bene
 122 lo nostro amore, onde operar perdési,
 123 così giustizia qui stretti ne tene,
+</prompt>
+<result>
+121 Як скупість загасила в кожному з нас любов
+122 до добра, через що втрачається можливість діяти,
+123 так і справедливість тут тримає нас зв’язаними,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 124/145</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 124 ne’ piedi e ne le man legati e presi;
 125 e quanto fia piacer del giusto Sire,
 126 tanto staremo immobili e distesi».
 </prompt>
 <result>
-121 Як скупість загасила в кожному з нас любов
-122 до добра, через що втрачається можливість діяти,
-123 так і справедливість тут тримає нас зв’язаними,
-
 124 зв’язаними і схопленими за ноги і руки;
 125 і скільки буде завгодно справедливому Володарю,
 126 стільки ми будемо стояти нерухомо і простягнуто».
@@ -647,33 +638,38 @@ Please translate each line literally into Ukrainian.
 127 Io m’era inginocchiato e volea dire;
 128 ma com’ io cominciai ed el s’accorse,
 129 solo ascoltando, del mio reverire,
-
-130 «Qual cagion», disse, «in giù così ti torse?».
 </prompt>
 <result>
 127 Я став на коліна і хотів сказати;
 128 але як тільки я почав, і він зрозумів,
 129 лише почувши, мою шану,
-
-130 «Яка причина», сказав він, «так зігнула тебе донизу?».
 </result>
 </query>
 <query>
-<info>[Purgatorio Canto 19] 131/145</info>
+<info>[Purgatorio Canto 19] 130/145</info>
 <prompt>
 Please translate each line literally into Ukrainian.
 
+130 «Qual cagion», disse, «in giù così ti torse?».
 131 E io a lui: «Per vostra dignitate
 132 mia coscïenza dritto mi rimorse».
+</prompt>
+<result>
+130 «Яка причина», сказав він, «так зігнула тебе донизу?».
+131 І я йому: «Через вашу гідність
+132 моя совість справедливо докорила мені».
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 133/145</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
 133 «Drizza le gambe, lèvati sù, frate!»,
 134 rispuose; «non errar: conservo sono
 135 teco e con li altri ad una podestate.
 </prompt>
 <result>
-131 І я йому: «Через вашу гідність
-132 моя совість справедливо докорила мені».
-
 133 «Випрями ноги, встань, брате!»,
 134 відповів він; «не помиляйся: я зберігач
 135 твій і разом з іншими маю одну владу.
@@ -717,14 +713,21 @@ Please translate each line literally into Ukrainian.
 142 Nepote ho io di là c’ha nome Alagia,
 143 buona da sé, pur che la nostra casa
 144 non faccia lei per essempro malvagia;
-
-145 e questa sola di là m’è rimasa».
 </prompt>
 <result>
 142 У мене є внучка там, її звуть Алагія,
 143 сама по собі добра, аби тільки наш рід
 144 не зробив її прикладом зла;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 145/145</info>
+<prompt>
+Please translate each line literally into Ukrainian.
 
+145 e questa sola di là m’è rimasa».
+</prompt>
+<result>
 145 і тільки вона залишилася мені звідти».
 </result>
 </query>

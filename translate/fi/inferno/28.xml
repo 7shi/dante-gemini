@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries count="48">
 <query>
 <info>[Inferno Canto 28] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Finnish.
 1 Chi poria mai pur con parole sciolte
 2 dicer del sangue e de le piaghe a pieno
 3 ch’i’ ora vidi, per narrar più volte?
+</prompt>
+<result>
+1 Kuka voisi koskaan sanoin vapaasti
+2 kertoa täydellisesti verestä ja haavoista,
+3 jotka nyt näin, jotta voisin kertoa niistä useasti?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 4/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 4 Ogne lingua per certo verria meno
 5 per lo nostro sermone e per la mente
 6 c’hanno a tanto comprender poco seno.
 </prompt>
 <result>
-1 Kuka voisi koskaan sanoin vapaasti
-2 kertoa täydellisesti verestä ja haavoista,
-3 jotka nyt näin, jotta voisin kertoa niistä useasti?
-
 4 Jokainen kieli varmasti väsyisi
 5 puheessamme ja mielessämme,
 6 joilla on niin vähän ymmärrystä niin suureen asiaan.
@@ -31,42 +38,71 @@ Please translate each line literally into Finnish.
 7 S’el s’aunasse ancor tutta la gente
 8 che già, in su la fortunata terra
 9 di Puglia, fu del suo sangue dolente
+</prompt>
+<result>
+7 Jospa kokoontuisikin vielä kaikki kansa,
+8 joka jo onnetonta Apulian maata
+9 on verellään surruttanut
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 10/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 10 per li Troiani e per la lunga guerra
 11 che de l’anella fé sì alte spoglie,
 12 come Livïo scrive, che non erra,
+</prompt>
+<result>
+10 troijalaisten ja pitkän sodan tähden,
+11 joka sormuksesta teki niin suuren saaliin,
+12 kuten Livius kirjoittaa, joka ei erehdy,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 13/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 13 con quella che sentio di colpi doglie
 14 per contastare a Ruberto Guiscardo;
 15 e l’altra il cui ossame ancor s’accoglie
+</prompt>
+<result>
+13 sen kanssa, joka tunsi tuskalliset iskut
+14 taisteltuaan Robert Guiscardia vastaan;
+15 ja toinen, jonka luut yhä kootaan
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 16/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 16 a Ceperan, là dove fu bugiardo
 17 ciascun Pugliese, e là da Tagliacozzo,
 18 dove sanz’ arme vinse il vecchio Alardo;
+</prompt>
+<result>
+16 Ceperanoon, missä jokainen
+17 apulialainen valehteli, ja sinne Tagliacozzoon,
+18 missä aseeton vanha Alardo voitti;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 19/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 19 e qual forato suo membro e qual mozzo
 20 mostrasse, d’aequar sarebbe nulla
 21 il modo de la nona bolgia sozzo.
 </prompt>
 <result>
-7 Jos kokoontuisikin vielä kaikki kansa,
-8 joka aikoinaan onnellisessa maassa
-9 Apuliassa kärsi verisesti
-
-10 troijalaisten ja pitkän sodan takia,
-11 joka tuotti niin suuren saaliin sormuksia,
-12 kuten Livius kirjoittaa erehtymättä,
-
-13 yhdessä sen kansan kanssa, joka kärsi tuskallisia iskuja
-14 taistelussa Robert Guiscardia vastaan;
-15 ja toisen kansan kanssa, jonka luut yhä kootaan
-
-16 Ceperanoon, missä jokainen apulialainen valehteli,
-17 ja Tagliacozzoon, missä vanha Alardo voitti ilman aseita;
-
-18 ja jos jokainen näyttäisi jäsenensä, lävistetyn tai katkaistun,
-19 se ei silti olisi mitään verrattuna
-20 yhdeksännen pahanhajuisen kuilun tapaan.
+19 ja kuka näytti lävistetyn ja kuka katkaistun jäsenensä,
+20 ei mikään olisi verrattavissa
+21 likaisen yhdeksännen pahanhajuisen kuilun tapaan.
 </result>
 </query>
 <query>
@@ -78,32 +114,6 @@ Please translate each line literally into Finnish.
 23 com’ io vidi un, così non si pertugia,
 24 rotto dal mento infin dove si trulla.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "22 Jo näen, menettääkö hän puolet vai kaiken,\n23 sillä näin yhden, jota ei ole lävistetty noin,\n24 halkaistuna leuasta aina peräaukkoon asti."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 22 Jo näen, menettääkö hän puolet vai kaiken,
 23 sillä näin yhden, jota ei ole lävistetty noin,
@@ -133,42 +143,23 @@ Please translate each line literally into Finnish.
 28 Mentre che tutto in lui veder m’attacco,
 29 guardommi e con le man s’aperse il petto,
 30 dicendo: «Or vedi com’ io mi dilacco!
+</prompt>
+<result>
+28 Kun katsoin häntä tarkasti,
+29 hän katsoi minuun ja repäisi rintansa auki käsillään
+30 sanoen: ”Katso nyt, kuinka minä repäisen itseni!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 31/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 31 vedi come storpiato è Mäometto!
 32 Dinanzi a me sen va piangendo Alì,
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "28 Kun katsoin häntä tarkasti,\n29 hän katsoi minuun ja repäisi rintansa auki käsillään\n30 sanoen: ”Katso nyt, kuinka minä repäisen itseni!\n\n31 Katso, kuinka Muhammad on silvottu!\n32 Edessäni itkien kulkee Ali,\n33 jonka kasvot on halkaistu leuasta otsatukkaan."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-28 Kun katsoin häntä tarkasti,
-29 hän katsoi minuun ja repäisi rintansa auki käsillään
-30 sanoen: ”Katso nyt, kuinka minä repäisen itseni!
-
 31 Katso, kuinka Muhammad on silvottu!
 32 Edessäni itkien kulkee Ali,
 33 jonka kasvot on halkaistu leuasta otsatukkaan.
@@ -197,42 +188,23 @@ Please translate each line literally into Finnish.
 37 Un diavolo è qua dietro che n’accisma
 38 sì crudelmente, al taglio de la spada
 39 rimettendo ciascun di questa risma,
+</prompt>
+<result>
+37 Piru on täällä takana ja tappaa heidät
+38 niin julmasti miekaniskulla,
+39 lähettäen jokaisen takaisin tähän jonoon,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 40/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 40 quand’ avem volta la dolente strada;
 41 però che le ferite son richiuse
 42 prima ch’altri dinanzi li rivada.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 Piru on täällä takana ja tappaa heidät\n38 niin julmasti miekaniskulla,\n39 lähettäen jokaisen takaisin tähän jonoon,\n\n40 kun olemme kulkeneet tuskallisen tien;\n41 sillä haavat paranevat\n42 ennen kuin toiset ehtivät heidän eteensä."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-37 Piru on täällä takana ja tappaa heidät
-38 niin julmasti miekaniskulla,
-39 lähettäen jokaisen takaisin tähän jonoon,
-
 40 kun olemme kulkeneet tuskallisen tien;
 41 sillä haavat paranevat
 42 ennen kuin toiset ehtivät heidän eteensä.
@@ -248,9 +220,9 @@ Please translate each line literally into Finnish.
 45 ch’è giudicata in su le tue accuse?».
 </prompt>
 <result>
-43Muttakukaoletsinä,jokaistutkalliolla,
-44ehkäviivyttääksesihetkeä,jolloinmenetkärsimykseen,
-45jonkaansaitsettuomiosiperusteella?».
+43 Mutta kuka sinä olet, joka istut kalliolla,
+44 ehkä viivyttääksesi rangaistuksen täytäntöönpanoa,
+45 joka on tuomittu syytöksiesi perusteella?».
 </result>
 </query>
 <query>
@@ -261,45 +233,26 @@ Please translate each line literally into Finnish.
 46 «Né morte ’l giunse ancor, né colpa ’l mena»,
 47 rispuose ’l mio maestro, «a tormentarlo;
 48 ma per dar lui esperïenza piena,
+</prompt>
+<result>
+46 «Eikä kuolema ole vielä saavuttanut häntä, eikä syyllisyys johda häntä»,
+47 vastasi opettajani, «kiduttamaan häntä;
+48 vaan antaakseen hänelle täyden kokemuksen,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 49/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 49 a me, che morto son, convien menarlo
 50 per lo ’nferno qua giù di giro in giro;
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "46«Eihänkuolemavielätuonuthäntäeikäsyyllisyysviehäntä»,\n47vastasimaestro,«kiduttamaan;\n48muttaantaakseni hänelle täydenkokemuksen,\n\n49minun,jokuolin,täytyyviedä hänet\n50helvetinläpiympyräympyrältä;\n51ja tämäonniinkuinminäsanonsin»."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-46«Eihänkuolemavielätuonuthäntäeikäsyyllisyysviehäntä»,
-47vastasimaestro,«kiduttamaan;
-48muttaantaakseni hänelle täydenkokemuksen,
-
-49minun,jokuolin,täytyyviedä hänet
-50helvetinläpiympyräympyrältä;
-51ja tämäonniinkuinminäsanonsin».
+49 minun, joka olen kuollut, täytyy johdattaa häntä
+50 läpi helvetin täällä alhaalla kierroksesta kierrokseen;
+51 ja tämä on totta niin kuin minä sinulle puhun».
 </result>
 </query>
 <query>
@@ -312,9 +265,9 @@ Please translate each line literally into Finnish.
 54 per maraviglia, oblïando il martiro.
 </prompt>
 <result>
-52Yli sata heistä, jotka kuulivat sen,
-53pysähtyivät katsomaan minua ojaan
-54hämmästyneinä, unohtaen tuskansa.
+52 Yli sata heistä, jotka kuulivat sen,
+53 pysähtyivät ojaan katsomaan minua
+54 hämmästyksestä unohtaen tuskansa.
 </result>
 </query>
 <query>
@@ -325,19 +278,26 @@ Please translate each line literally into Finnish.
 55 «Or dì a fra Dolcin dunque che s’armi,
 56 tu che forse vedra’ il sole in breve,
 57 s’ello non vuol qui tosto seguitarmi,
+</prompt>
+<result>
+55 "Sano siis veli Dolcinolle, että hän varustautukoon,
+56 sinä joka ehkä näet auringon pian,
+57 ellei hän halua pian seurata minua tänne,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 58/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 58 sì di vivanda, che stretta di neve
 59 non rechi la vittoria al Noarese,
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55"Sano siis veli Dolcinolle, että hän varustautukoon,
-56sinä, joka ehkä näet auringon pian,
-57jos hän ei halua seurata minua tänne pian,
-
-58ruoalla, jota lumen puute
-59ei anna Novaralaisten voitoksi,
-60sillä muuten sitä ei olisi helppo saavuttaa."
+58 niin paljon ruokaa, että lumen puute
+59 ei tuo voittoa noareselaisille,
+60 sillä muuten sitä ei olisi helppo saavuttaa».
 </result>
 </query>
 <query>
@@ -350,9 +310,9 @@ Please translate each line literally into Finnish.
 63 indi a partirsi in terra lo distese.
 </prompt>
 <result>
-61Kun hän nosti toisen jalkansa lähteäkseen,
-62Muhammed sanoi minulle nämä sanat;
-63sitten hän laski sen maahan.
+61 Kun hän nosti toisen jalkansa lähteäkseen,
+62 Muhammed sanoi minulle nämä sanat;
+63 sitten hän laski sen maahan lähteäkseen.
 </result>
 </query>
 <query>
@@ -363,35 +323,56 @@ Please translate each line literally into Finnish.
 64 Un altro, che forata avea la gola
 65 e tronco ’l naso infin sotto le ciglia,
 66 e non avea mai ch’una orecchia sola,
+</prompt>
+<result>
+64 Toinen, jonka kurkku oli puhkaistu
+65 ja nenä katkaistu aivan silmien alle,
+66 eikä hänellä ollut kuin yksi korva,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 67/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 67 ristato a riguardar per maraviglia
 68 con li altri, innanzi a li altri aprì la canna,
 69 ch’era di fuor d’ogne parte vermiglia,
+</prompt>
+<result>
+67 katseli hämmästyneenä
+68 muiden kanssa, muiden edellä avasi kurkkunsa,
+69 joka ulkopuolelta oli kauttaaltaan punainen,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 70/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 70 e disse: «O tu cui colpa non condanna
 71 e cu’ io vidi su in terra latina,
 72 se troppa simiglianza non m’inganna,
+</prompt>
+<result>
+70 ja sanoi: «Oi sinä, jota syyllisyys ei tuomitse
+71 ja jonka näin siellä maan päällä Latinassa,
+72 ellei liian suuri samankaltaisuus minua petä,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 73/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 73 rimembriti di Pier da Medicina,
 74 se mai torni a veder lo dolce piano
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64Toinen, jonka kurkku oli puhkaistu
-65ja nenä katkaistu aivan kulmakarvojen alle,
-66ja jolla oli vain yksi korva,
-
-67käänsi katseensa minuun hämmästyneenä
-68muiden mukana, ja avasi suunsa ennen muita,
-69joka oli ulkopuolelta kauttaaltaan verinen,
-
-70ja sanoi: "Oi sinä, jota synti ei tuomitse
-71ja jonka näin Italian maalla,
-72ellei liika samankaltaisuus petä minua,
-
-73muista Pier da Medicinaa,
-74jos koskaan palaat näkemään kaunista tasankoa,
-75joka laskeutuu Vercellistä Marcabòon.
+73 Muista Pier da Medicinaa,
+74 jos koskaan palaat näkemään sen suloisen tasangon,
+75 joka laskeutuu Vercellistä Marcabòon.
 </result>
 </query>
 <query>
@@ -402,19 +383,26 @@ Please translate each line literally into Finnish.
 76 E fa saper a’ due miglior da Fano,
 77 a messer Guido e anco ad Angiolello,
 78 che, se l’antiveder qui non è vano,
+</prompt>
+<result>
+76 Ja kerro kahdelle parhaalle Fanosta,
+77 messer Guidolle ja myös Angiolellolle,
+78 että jos heidän näkemisensä täällä ei ole turhaa,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 79/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 79 gittati saran fuor di lor vasello
 80 e mazzerati presso a la Cattolica
 81 per tradimento d’un tiranno fello.
 </prompt>
 <result>
-76Ja kerro kahdelle parhaalle miehelle Fanosta,
-77herra Guidolle ja myös Angiolellolle,
-78että jos heidän tulevaisuutensa ei ole turha,
-
-79heidät heitetään ulos heidän aluksestaan
-80ja heidät tapetaan Cattolican lähellä
-81petollisen julman tyrannin takia.
+79 heidät heitetään ulos heidän aluksestaan
+80 ja murhataan Cattolican luona
+81 erään julman tyrannin petoksen vuoksi.
 </result>
 </query>
 <query>
@@ -427,9 +415,9 @@ Please translate each line literally into Finnish.
 84 non da pirate, non da gente argolica.
 </prompt>
 <result>
-82Kyproksen ja Mallorcan saarten välillä
-83ei Neptunus ole koskaan nähnyt niin suurta tuhoa,
-84ei merirosvoilta eikä kreikkalaisilta.
+82 Kyproksen ja Maiolican saaren välillä
+83 ei ole koskaan nähnyt niin suurta onnettomuutta Nettunus,
+84 ei merirosvoilta eikä argolislaisilta.
 </result>
 </query>
 <query>
@@ -440,18 +428,26 @@ Please translate each line literally into Finnish.
 85 Quel traditor che vede pur con l’uno,
 86 e tien la terra che tale qui meco
 87 vorrebbe di vedere esser digiuno,
+</prompt>
+<result>
+85 Tuo petturi, joka näkee vain yhdellä silmällä,
+86 ja tietää maan, jonka hän haluaisi nähdä minun kanssani
+87 olevan nälässä,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 88/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 88 farà venirli a parlamento seco;
 89 poi farà sì, ch’al vento di Focara
 90 non sarà lor mestier voto né preco».
 </prompt>
 <result>
-85Se petturi, joka näkee vain yhdellä silmällä,
-86ja tietää maan, jonka hän haluaisi nähdä minun kanssani nälkäisenä,
-
-87kutsuu heidät neuvottelemaan kanssaan;
-88sitten hän tekee niin, että Focaran tuulessa
-89heidän ei tarvitse tehdä lupauksia eikä rukoilla».
+88 saa heidät tulemaan neuvottelemaan itsensä kanssa;
+89 sitten hän tekee niin, että Focaran tuulessa
+90 heidän ei tarvitse lupausta tai rukousta».
 </result>
 </query>
 <query>
@@ -464,9 +460,9 @@ Please translate each line literally into Finnish.
 93 chi è colui da la veduta amara».
 </prompt>
 <result>
-91Ja minä hänelle: "Osoita ja kerro minulle,
-92jos haluat, että vien sinusta uutisia ylös,
-93kuka on tuo katkeran näköinen mies".
+91 Ja minä hänelle: «Osoita ja kerro minulle,
+92 jos haluat, että vien sinusta uutisia,
+93 kuka on tuo katkeran näköinen mies».
 </result>
 </query>
 <query>
@@ -479,9 +475,9 @@ Please translate each line literally into Finnish.
 96 gridando: «Questi è desso, e non favella.
 </prompt>
 <result>
-94Silloin hän pani kätensä
-95toisen kumppaninsa leukaan ja avasi hänen suunsa,
-96huutaen: "Tämä on se mies, eikä hän puhu.
+94 Sitten hän pani kätensä
+95 erään toverinsa leukaan ja avasi hänen suunsa,
+96 huutaen: «Tämä on se, eikä hän puhu.
 </result>
 </query>
 <query>
@@ -494,9 +490,9 @@ Please translate each line literally into Finnish.
 99 sempre con danno l’attender sofferse».
 </prompt>
 <result>
-97Tämä mies karkotettuna sai epäilykset loppumaan
-98Cesarin mielessä, vakuuttaen, että odottaminen
-99aiheuttaa aina vahinkoa valmistautuneelle».
+97 Tämä karkotettu upotti epäilyksen
+98 Caesariin, vakuuttaen, että odottaminen
+99 vahingoittaa aina valmistautunutta».
 </result>
 </query>
 <query>
@@ -507,27 +503,41 @@ Please translate each line literally into Finnish.
 100 Oh quanto mi pareva sbigottito
 101 con la lingua tagliata ne la strozza
 102 Curïo, ch’a dir fu così ardito!
+</prompt>
+<result>
+100 Voi kuinka kauhistuneelta hän minusta näyttikään
+101 kielellä leikattuna kurkussaan
+102 Curio, joka oli ollut niin rohkea sanoissaan!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 103/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 103 E un ch’avea l’una e l’altra man mozza,
 104 levando i moncherin per l’aura fosca,
 105 sì che ’l sangue facea la faccia sozza,
+</prompt>
+<result>
+103 Ja yksi, jolta oli molemmat kädet katkaistu,
+104 nosti tynkänsä synkkään ilmaan,
+105 niin että veri tahrasi hänen kasvonsa,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 106/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 106 gridò: «Ricordera’ti anche del Mosca,
 107 che disse, lasso!, “Capo ha cosa fatta”,
 108 che fu mal seme per la gente tosca».
 </prompt>
 <result>
-100Oi kuinka kauhistuneelta näyttikään
-101kieli katkaistuna kurkussa Curio,
-102joka oli ollut niin rohkea sanoissaan!
-
-103Ja eräs, jolta oli molemmat kädet katkaistu,
-104nosti tynkänsä synkässä ilmassa,
-105niin että veri tahrasi hänen kasvonsa,
-
-106huusi: "Muista myös Moscaa,
-107joka sanoi, voi häntä!, "Tehty asia on tehty",
-108mikä oli huono siemen toscanalaisille».
+106 huusi: «Muista myös Mosca,
+107 joka sanoi, voi!, “Pää on tehnyt teon”,
+108 mikä oli huono siemen toscanalaisille».
 </result>
 </query>
 <query>
@@ -540,9 +550,9 @@ Please translate each line literally into Finnish.
 111 sen gio come persona trista e matta.
 </prompt>
 <result>
-109Ja minä lisäsin hänelle: "Ja suvun kuolema";
-110jolloin hän, lisäten tuskaa tuskaan,
-111meni pois kuin surullinen ja hullu mies.
+109 Ja minä lisäsin hänelle: «Ja hänen sukunsa»;
+110 johon hän, peittäen surun surulla,
+111 lähti kuin surullinen ja hullu.
 </result>
 </query>
 <query>
@@ -553,19 +563,26 @@ Please translate each line literally into Finnish.
 112 Ma io rimasi a riguardar lo stuolo,
 113 e vidi cosa ch’io avrei paura,
 114 sanza più prova, di contarla solo;
+</prompt>
+<result>
+112 Mutta minä jäin katsomaan joukkoa,
+113 ja näin sellaista, että minulla olisi pelko,
+114 ilman muuta todistetta, kertoa siitä yksin;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 115/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 115 se non che coscïenza m’assicura,
 116 la buona compagnia che l’uom francheggia
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112Mutta minä jäin katsomaan joukkoa,
-113ja näin sellaista, että pelkäisin
-114kertoa siitä yksin, ilman muuta todistusta;
-
-115ellei omatuntoni vakuuttaisi minua,
-116hyvä seura, joka rohkaisee ihmistä
-117syyttömyyden tunteen suojassa.
+115 ellei minua rohkaisisi se tieto,
+116 hyvä seura, joka vapauttaa ihmisen
+117 tuntemaan itsensä puhtaaksi suojan alla.
 </result>
 </query>
 <query>
@@ -576,19 +593,26 @@ Please translate each line literally into Finnish.
 118 Io vidi certo, e ancor par ch’io ’l veggia,
 119 un busto sanza capo andar sì come
 120 andavan li altri de la trista greggia;
+</prompt>
+<result>
+118 Minä näin varmasti, ja vieläkin minusta tuntuu kuin näkisin,
+119 pään­tö­män vartalon kävelevän samoin kuin
+120 muutkin kävelivät tuosta surullisesta laumasta;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 121/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 121 e ’l capo tronco tenea per le chiome,
 122 pesol con mano a guisa di lanterna:
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118Näin varmasti, ja minusta tuntuu vieläkin, että näen sen,
-119vartalon ilman päätä kävelevän samalla tavalla
-120kuin muutkin surullisen lauman jäsenet;
-
-121ja hän piti katkaistua päätä hiuksista,
-122kantaen sitä kädessään kuin lyhtyä:
-123ja se katsoi meitä ja sanoi: "Voi minua!".
+121 ja hän piti irti leikattua päätä hiuksista,
+122 kantaen sitä kädessään kuin lyhtyä:
+123 ja hän katsoi meitä ja sanoi: ”Voi minua!”.
 </result>
 </query>
 <query>
@@ -601,9 +625,9 @@ Please translate each line literally into Finnish.
 126 com’ esser può, quei sa che sì governa.
 </prompt>
 <result>
-124Hän teki itsestään itselleen lyhdyn,
-125ja heitä oli kaksi yhdessä ja yksi kahdessa;
-126miten se on mahdollista, sen tietää se, joka hallitsee tällaista.
+124 Hän valaisi itseään itselleen,
+125 ja heitä oli kaks yhdessä ja yksi kahdessa;
+126 miten se on mahdollista, sen tietää se, joka niin hallitsee.
 </result>
 </query>
 <query>
@@ -614,19 +638,26 @@ Please translate each line literally into Finnish.
 127 Quando diritto al piè del ponte fue,
 128 levò ’l braccio alto con tutta la testa
 129 per appressarne le parole sue,
+</prompt>
+<result>
+127 Kun hän oli suoraan sillan juurella,
+128 hän nosti kätensä korkealle koko pään kanssa
+129 tuodakseen sanansa lähemmäksi meitä,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 130/142</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 130 che fuoro: «Or vedi la pena molesta,
 131 tu che, spirando, vai veggendo i morti:
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127Kun hän oli suoraan sillan juurella,
-128hän nosti kätensä korkealle koko pään kanssa
-129lausuakseen sanansa,
-
-130jotka olivat: "Katso nyt tätä tuskallista rangaistusta,
-131sinä, joka hengittäen näet kuolleet:
-132katso, onko mikään yhtä suuri kuin tämä.
+130 jotka olivat: ”Nyt näet tuskan, joka vaivaa,
+131 sinä, joka hengittäen näet kuolleet:
+132 katso, onko mikään yhtä suuri kuin tämä.
 </result>
 </query>
 <query>
@@ -639,9 +670,9 @@ Please translate each line literally into Finnish.
 135 che diedi al re giovane i ma’ conforti.
 </prompt>
 <result>
-133Ja jotta voit kertoa minusta uutisia,
-134tiedä, että olen Bertram dal Bornio, se
-135joka annoin nuorelle kuninkaalle huonot neuvot.
+133 Ja jotta voit kertoa minusta uutisia,
+134 tiedä, että olen Bertran de Born, se
+135 joka annoin nuorelle kuninkaalle huonoja neuvoja.
 </result>
 </query>
 <query>
@@ -654,9 +685,9 @@ Please translate each line literally into Finnish.
 138 e di Davìd coi malvagi punzelli.
 </prompt>
 <result>
-136Sain isän ja pojan kapinoimaan toisiaan vastaan;
-137Ahitofel ei tehnyt enempää Absalomille
-138ja Davidille pahoilla juonillaan.
+136 Minä sain isän ja pojan kapinoimaan toisiaan vastaan;
+137 Ahitofel ei tehnyt enempää Absalomille
+138 ja Davidille pahoilla juonillaan.
 </result>
 </query>
 <query>
@@ -669,9 +700,9 @@ Please translate each line literally into Finnish.
 141 dal suo principio ch’è in questo troncone.
 </prompt>
 <result>
-139Koska erotin näin läheisiä ihmisiä,
-140kannan aivojani erillään, voi minua!,
-141niiden alkuperästä, joka on tässä torsossa.
+139 Koska minä erotin näin yhteenliittyneet ihmiset,
+140 erotettuna kannan aivojani, voi!,
+141 niiden alusta, joka on tässä kannossa.
 </result>
 </query>
 <query>
@@ -682,7 +713,7 @@ Please translate each line literally into Finnish.
 142 Così s’osserva in me lo contrapasso».
 </prompt>
 <result>
-142Näin toteutuu minussa vastarangaistus».
+142 Näin minussa näkyy vastakärsimys».
 </result>
 </query>
 </queries>

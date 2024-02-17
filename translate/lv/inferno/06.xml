@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="39">
 <query>
 <info>[Inferno Canto 6] 1/115</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Latvian.
 1 Al tornar de la mente, che si chiuse
 2 dinanzi a la pietà d’i due cognati,
 3 che di trestizia tutto mi confuse,
+</prompt>
+<result>
+1 Atgriežoties pie prāta, kas aizvērās
+2 divu radinieku žēluma priekšā,
+3 kas mani pilnībā samulsināja ar bēdām,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 4/115</info>
+<prompt>
+Please translate each line literally into Latvian.
 
 4 novi tormenti e novi tormentati
 5 mi veggio intorno, come ch’io mi mova
 6 e ch’io mi volga, e come che io guati.
 </prompt>
 <result>
-1 Atgriežoties pie prāta, kas aizvērās
-2 divu radinieku žēluma priekšā,
-3 kas mani pilnībā samulsināja ar bēdām,
-
 4 jaunus mocekļus un jaunus mocītos
 5 es redzu sev apkārt, lai kur es dotos,
 6 lai kur es pagrieztos un lai kur es raudzītos.
@@ -136,18 +143,26 @@ Please translate each line literally into Latvian.
 28 Qual è quel cane ch’abbaiando agogna,
 29 e si racqueta poi che ’l pasto morde,
 30 ché solo a divorarlo intende e pugna,
+</prompt>
+<result>
+28 Kāds ir tas suns, kas rejot alkst,
+29 un apklust, kad maltīti sakož,
+30 jo tikai to aprīt grib un cīnās,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 31/115</info>
+<prompt>
+Please translate each line literally into Latvian.
 
 31 cotai si fecer quelle facce lorde
 32 de lo demonio Cerbero, che ’ntrona
 33 l’anime sì, ch’esser vorrebber sorde.
 </prompt>
 <result>
-28 Kāds ir tas suns, kas rejot alkst,
-29 un apklust, kad tas sakož barību,
-30 jo tas tikai cenšas to aprīt un cīnās,
-
-31 tādas kļuva tās netīrās dēmona Cerbera sejas,
-32 kas dvēseles tā aprej, ka tās vēlētos būt kurlas.
+31 tādas viņiem bija netīrās sejas
+32 kā dēmonam Kerberam, kurš
+33 tā aprej dvēseles, ka tās vēlētos būt kurlas.
 </result>
 </query>
 <query>
@@ -205,9 +220,9 @@ Please translate each line literally into Latvian.
 45 sì che non par ch’i’ ti vedessi mai.
 </prompt>
 <result>
-43 Un es viņam: «Tavas ciešanas
-44, iespējams, izdzēš tevi no manas atmiņas,
-45 tā ka nešķiet, ka es tevi jebkad būtu redzējis.
+43 Un es viņam: «Tās mokas, kas tevi
+44 varbūt izrauj no turienes,
+45 tādas, ka nekad neesmu tevi redzējis.»
 </result>
 </query>
 <query>
@@ -278,16 +293,23 @@ Please translate each line literally into Latvian.
 58 Io li rispuosi: «Ciacco, il tuo affanno
 59 mi pesa sì, ch’a lagrimar mi ’nvita;
 60 ma dimmi, se tu sai, a che verranno
+</prompt>
+<result>
+58 Es viņam atbildēju: «Čako, tavas ciešanas
+59 mani tik ļoti nomāc, ka liek man raudāt;
+60 bet pasaki man, ja tu zini, kas notiks ar
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 61/115</info>
+<prompt>
+Please translate each line literally into Latvian.
 
 61 li cittadin de la città partita;
 62 s’alcun v’è giusto; e dimmi la cagione
 63 per che l’ha tanta discordia assalita».
 </prompt>
 <result>
-58 Es viņam atbildēju: «Čako, tavas ciešanas
-59 mani tik ļoti nomāc, ka liek man raudāt;
-60 bet pasaki man, ja tu zini, kas notiks ar
-
 61 sadalītās pilsētas pilsoņiem;
 62 vai tur ir kāds taisnīgs; un pasaki man iemeslu,
 63 kāpēc to ir piemeklējis tik liels nesaskaņu daudzums».
@@ -302,32 +324,6 @@ Please translate each line literally into Latvian.
 65 verranno al sangue, e la parte selvaggia
 66 caccerà l’altra con molta offensione.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "64 Un viņš man: «Pēc ilgas strīdēšanās\n65 viņi nonāks līdz asinsizliešanai, un mežonīgā puse\n66 padzīs otru ar lielu aizvainojumu."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 64 Un viņš man: «Pēc ilgas strīdēšanās
 65 viņi nonāks līdz asinsizliešanai, un mežonīgā puse
@@ -402,16 +398,23 @@ Please translate each line literally into Latvian.
 79 Farinata e ’l Tegghiaio, che fuor sì degni,
 80 Iacopo Rusticucci, Arrigo e ’l Mosca
 81 e li altri ch’a ben far puoser li ’ngegni,
+</prompt>
+<result>
+79 Farinata un Tegghiaio, kas bija tik cienījami,
+80 Iacopo Rusticucci, Arrigo un Mosca
+81 un citi, kas pielika savus prātus labu darbu darīšanai,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 82/115</info>
+<prompt>
+Please translate each line literally into Latvian.
 
 82 dimmi ove sono e fa ch’io li conosca;
 83 ché gran disio mi stringe di savere
 84 se ’l ciel li addolcia o lo ’nferno li attosca».
 </prompt>
 <result>
-79 Farinata un Tegghiaio, kas bija tik cienījami,
-80 Iacopo Rusticucci, Arrigo un Mosca
-81 un citi, kas pielika savus prātus labu darbu darīšanai,
-
 82 pasaki man, kur viņi ir, un liec man viņus iepazīt;
 83 jo mani ļoti interesē uzzināt,
 84 vai debesis viņus saldina vai elle viņus saindē».
@@ -470,16 +473,23 @@ Please translate each line literally into Latvian.
 94 E ’l duca disse a me: «Più non si desta
 95 di qua dal suon de l’angelica tromba,
 96 quando verrà la nimica podesta:
+</prompt>
+<result>
+94 Un hercogs man teica: «No šejienes viņš vairs nemodīsies
+95 pirms eņģeļu trompetes skaņas,
+96 kad nāks naidīgā vara:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 97/115</info>
+<prompt>
+Please translate each line literally into Latvian.
 
 97 ciascun rivederà la trista tomba,
 98 ripiglierà sua carne e sua figura,
 99 udirà quel ch’in etterno rimbomba».
 </prompt>
 <result>
-94 Un hercogs man teica: «No šejienes viņš vairs nemodīsies
-95 pirms eņģeļu trompetes skaņas,
-96 kad nāks naidīgā vara:
-
 97 katrs atkal redzēs savu skumjo kapu,
 98 atgūs savu miesu un savu izskatu,
 99 dzirdēs to, kas mūžīgi atbalsojas».
@@ -493,16 +503,23 @@ Please translate each line literally into Latvian.
 100 Sì trapassammo per sozza mistura
 101 de l’ombre e de la pioggia, a passi lenti,
 102 toccando un poco la vita futura;
+</prompt>
+<result>
+100 Tā mēs gājām cauri netīram maisījumam
+101 no ēnām un lietus, lēniem soļiem,
+102 nedaudz pieskaroties nākotnes dzīvei;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 103/115</info>
+<prompt>
+Please translate each line literally into Latvian.
 
 103 per ch’io dissi: «Maestro, esti tormenti
 104 crescerann’ ei dopo la gran sentenza,
 105 o fier minori, o saran sì cocenti?».
 </prompt>
 <result>
-100 Tā mēs gājām cauri netīram maisījumam
-101 no ēnām un lietus, lēniem soļiem,
-102 nedaudz pieskaroties nākotnes dzīvei;
-
 103 tāpēc es teicu: «Mans meistar, vai šīs mokas
 104 pieaugs pēc lielā sprieduma,
 105 vai kļūs mazākas, vai būs tikpat dedzinošas?».
@@ -546,14 +563,21 @@ Please translate each line literally into Latvian.
 112 Noi aggirammo a tondo quella strada,
 113 parlando più assai ch’i’ non ridico;
 114 venimmo al punto dove si digrada:
-
-115 quivi trovammo Pluto, il gran nemico.
 </prompt>
 <result>
 112 Mēs apgājām to ceļu aplī,
 113 runājot daudz vairāk, nekā es stāstu;
 114 mēs nonācām pie vietas, kur notiek nolaišanās:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 6] 115/115</info>
+<prompt>
+Please translate each line literally into Latvian.
 
+115 quivi trovammo Pluto, il gran nemico.
+</prompt>
+<result>
 115 tur mēs atradām Plutonu, lielo ienaidnieku.
 </result>
 </query>

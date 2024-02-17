@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries count="48">
 <query>
 <info>[Paradiso Canto 26] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Estonian.
 1 Mentr’ io dubbiava per lo viso spento,
 2 de la fulgida fiamma che lo spense
 3 uscì un spiro che mi fece attento,
+</prompt>
+<result>
+1 Kui ma kahtlesin oma kustunud nägemise pärast,
+2 siis sellest säravast leegist, mis selle kustutas,
+3 tuli õhkamine, mis tegi mu tähelepanelikuks,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 4/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 4 dicendo: «Intanto che tu ti risense
 5 de la vista che haï in me consunta,
 6 ben è che ragionando la compense.
 </prompt>
 <result>
-1 Kui ma kahtlesin oma kustunud nägemise pärast,
-2 siis sellest säravast leegist, mis selle kustutas,
-3 tuli õhkamine, mis tegi mu tähelepanelikuks,
-
 4 öeldes: „Seni kuni sa taastud
 5 nägemisest, mille oled minus kulutanud,
 6 on hea, et sa seda mõtiskledes hüvitad.
@@ -31,16 +38,23 @@ Please translate each line literally into Estonian.
 7 Comincia dunque; e dì ove s’appunta
 8 l’anima tua, e fa ragion che sia
 9 la vista in te smarrita e non defunta:
+</prompt>
+<result>
+7 Alusta siis ja ütle, millele
+8 su hing on suunatud, ja pea seda tõeks, et
+9 su nägemine on sinus kadunud, kuid mitte surnud:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 10/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 10 perché la donna che per questa dia
 11 regïon ti conduce, ha ne lo sguardo
 12 la virtù ch’ebbe la man d’Anania».
 </prompt>
 <result>
-7 Alusta siis ja ütle, millele
-8 su hing on suunatud, ja pea seda tõeks, et
-9 su nägemine on sinus kadunud, kuid mitte surnud:
-
 10 sest naine, kes sind selle läbi
 11 jumaliku piirkonna juhatab, omab oma pilgus
 12 väge, mis oli Anania käel.
@@ -55,32 +69,6 @@ Please translate each line literally into Estonian.
 14 vegna remedio a li occhi, che fuor porte
 15 quand’ ella entrò col foco ond’ io sempr’ ardo.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "13 Ma ütlesin: „Tema soovi järgi tulgu\n14 nii kiiresti kui aeglaselt leevendus mu silmadele, mis kustutati,\n15 kui ta sisenes koos tulega, milles ma alati põlen."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 13 Ma ütlesin: „Tema soovi järgi tulgu
 14 nii kiiresti kui aeglaselt leevendus mu silmadele, mis kustutati,
@@ -110,18 +98,26 @@ Please translate each line literally into Estonian.
 19 Quella medesma voce che paura
 20 tolta m’avea del sùbito abbarbaglio,
 21 di ragionare ancor mi mise in cura;
+</prompt>
+<result>
+19 See sama hääl, mis hirmu
+20 oli mulle äkitselt pimestamise tõttu tekitanud,
+21 pani mind nüüd rääkima;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 22/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 22 e disse: «Certo a più angusto vaglio
 23 ti conviene schiarar: dicer convienti
 24 chi drizzò l’arco tuo a tal berzaglio».
 </prompt>
 <result>
-19 Sama hääl, mis oli mulle hirmu sisendanud
-20 selle äkilise pimestamisega,
-21 pani mu nüüd hoolega mõtisklema;
-
-22 ja ütles: „Kindlasti pead sa end kitsamasse sõela ajama: sa pead ütlema,
-23 kes suunas su noole sellisele sihtmärgile."
+22 ja ütles: "Kindlasti kitsamasse sõela
+23 pead sa puhastama: sa pead ütlema,
+24 kes suunas su noole sellisele sihtmärgile".
 </result>
 </query>
 <query>
@@ -132,16 +128,23 @@ Please translate each line literally into Estonian.
 25 E io: «Per filosofici argomenti
 26 e per autorità che quinci scende
 27 cotale amor convien che in me si ’mprenti:
+</prompt>
+<result>
+25 Ja mina: „Filosoofiliste argumentide
+26 ja siin avalduva autoriteedi kaudu
+27 peab selline armastus minusse juurduma:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 28/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 28 ché ’l bene, in quanto ben, come s’intende,
 29 così accende amore, e tanto maggio
 30 quanto più di bontate in sé comprende.
 </prompt>
 <result>
-25 Ja mina: „Filosoofiliste argumentide
-26 ja siin avalduva autoriteedi kaudu
-27 peab selline armastus minusse juurduma:
-
 28 sest hüve, kui hüve, nagu aru saadakse,
 29 süütab armastuse ja seda enam,
 30 mida rohkem headust see endas sisaldab.
@@ -155,20 +158,26 @@ Please translate each line literally into Estonian.
 31 Dunque a l’essenza ov’ è tanto avvantaggio,
 32 che ciascun ben che fuor di lei si trova
 33 altro non è ch’un lume di suo raggio,
+</prompt>
+<result>
+31 Järelikult olemuse juurde, kus on nii palju eelise,
+32 et iga hüve, mis väljaspool teda leidub,
+33 ei ole muud kui tema kiire valgus,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 34/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 34 più che in altra convien che si mova
 35 la mente, amando, di ciascun che cerne
 36 il vero in che si fonda questa prova.
 </prompt>
 <result>
-31 Seega peab igaühe meel, kes otsib
-32 olemust, milles on nii palju eeliseid,
-33 et iga hüve, mis väljaspool seda leidub,
-34 ei ole midagi muud kui tema kiire kuma,
-
-35 rohkem kui ühegi teise poole liikuma
-36 armastades, sest see näeb tõde,
-37 millele see tõestus rajaneb.
+34 rohkem kui muus peab liikuma
+35 armastades igaühe meel, kes valib
+36 tõe, millele see katsumus rajaneb.
 </result>
 </query>
 <query>
@@ -256,7 +265,8 @@ Please translate each line literally into Estonian.
 54 dove volea menar mia professione.
 </prompt>
 <result>
-53 Kristuse kotka püha kavatsus ei jäänud varjatuks, vaid ma taipasin,
+52 Kristuse kotka püha kavatsus
+53 ei jäänud varjatuks, vaid ma taipasin,
 54 kuhu ta tahtis mu kutsumust suunata.
 </result>
 </query>
@@ -268,24 +278,38 @@ Please translate each line literally into Estonian.
 55 Però ricominciai: «Tutti quei morsi
 56 che posson far lo cor volgere a Dio,
 57 a la mia caritate son concorsi:
+</prompt>
+<result>
+55 Seepärast alustasin uuesti: „Kõik need hammustused,
+56 mis võivad südame Jumala poole pöörata,
+57 on mu armastusega ühinenud:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 58/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 58 ché l’essere del mondo e l’esser mio,
 59 la morte ch’el sostenne perch’ io viva,
 60 e quel che spera ogne fedel com’ io,
+</prompt>
+<result>
+58 sest maailma olemasolu ja minu olemasolu,
+59 surm, mille ta kannatas, et mina elaksin,
+60 ja see, mida iga ustav inimene nagu mina loodab,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 61/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 61 con la predetta conoscenza viva,
 62 tratto m’hanno del mar de l’amor torto,
 63 e del diritto m’han posto a la riva.
 </prompt>
 <result>
-55 Seepärast alustasin uuesti: „Kõik need hammustused,
-56 mis võivad südame Jumala poole pöörata,
-57 on mu armastusega ühinenud:
-
-58 sest maailma olemasolu ja minu olemasolu,
-59 surm, mille ta kannatas, et mina elaksin,
-60 ja see, mida iga ustav inimene nagu mina loodab,
-
 61 koos eelmainitud elava teadmisega,
 62 on mind välja tõmmanud väärarmastuse merest
 63 ja asetanud mind õige armastuse kaldale.
@@ -316,8 +340,9 @@ Please translate each line literally into Estonian.
 69 dicea con li altri: «Santo, santo, santo!».
 </prompt>
 <result>
-67 Kui ma vaikisin, kõlas taevas üks magus laul
-68 ja mu daam ütles koos teistega: „Püha, püha, püha!"
+67 Niipea kui ma vaikisin, kõlas
+68 taevas üks magus laul ja mu daam
+69 ütles koos teistega: "Püha, püha, püha!"
 </result>
 </query>
 <query>
@@ -328,32 +353,54 @@ Please translate each line literally into Estonian.
 70 E come a lume acuto si disonna
 71 per lo spirto visivo che ricorre
 72 a lo splendor che va di gonna in gonna,
+</prompt>
+<result>
+70 Ja nagu sulav lumel, mis sulab
+71 tuuleiili tõttu, mis jookseb
+72 sära poole, mis läheb seelikust seelikusse,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 73/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 73 e lo svegliato ciò che vede aborre,
 74 sì nescïa è la sùbita vigilia
 75 fin che la stimativa non soccorre;
+</prompt>
+<result>
+73 ja ärganenu vihkab seda, mida ta näeb,
+74 nii teadmatu on äkiline ärkamine,
+75 kuni mõistus appi ei tule;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 76/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 76 così de li occhi miei ogne quisquilia
 77 fugò Beatrice col raggio d’i suoi,
 78 che rifulgea da più di mille milia:
+</prompt>
+<result>
+76 nii puhastas Beatrice mu silmadest igasuguse rämpsu
+77 oma säraga,
+78 mis säras rohkem kui tuhandelt miililt:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 79/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 79 onde mei che dinanzi vidi poi;
 80 e quasi stupefatto domandai
 81 d’un quarto lume ch’io vidi tra noi.
 </prompt>
 <result>
-70 Ja nagu äratatakse äkilise valgusega
-71 nägemise vaimu kaudu, mis jookseb
-72 sära juurde, mis läheb ühelt riidelt teisele,
-
-73 ja ärganud inimene vihkab seda, mida ta näeb,
-74 nii teadmatu on äkiline ärkamine,
-75 kuni arusaamine appi ei tule;
-
-76 nii ajas Beatrice oma kiirte abil mu silmist minema iga tühisuse,
-78 mis säras rohkem kui tuhandest miilist:
-
-79 seetõttu nägin ma pärast seda rohkem kui enne;
+79 sealt ma nägin siis seda, mida ma enne nägin;
 80 ja peaaegu jahmunult küsisin
 81 neljanda valguse kohta, mille ma meie vahel nägin.
 </result>
@@ -381,16 +428,23 @@ Please translate each line literally into Estonian.
 85 Come la fronda che flette la cima
 86 nel transito del vento, e poi si leva
 87 per la propria virtù che la soblima,
+</prompt>
+<result>
+85 Nagu oks, mis painutab oma latva
+86 tuule möödumisel ja seejärel tõuseb
+87 omaenda vooruse tõttu, mis teda ülendab,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 88/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 88 fec’ io in tanto in quant’ ella diceva,
 89 stupendo, e poi mi rifece sicuro
 90 un disio di parlare ond’ ïo ardeva.
 </prompt>
 <result>
-85 Nagu oks, mis painutab oma latva
-86 tuule möödumisel ja seejärel tõuseb
-87 omaenda vooruse tõttu, mis teda ülendab,
-
 88 tegin mina seda ajal, mil ta rääkis,
 89 imestunult, ja seejärel tegi mind kindlaks
 90 üks soov rääkida, millest ma põlesin.
@@ -404,16 +458,23 @@ Please translate each line literally into Estonian.
 91 E cominciai: «O pomo che maturo
 92 solo prodotto fosti, o padre antico
 93 a cui ciascuna sposa è figlia e nuro,
+</prompt>
+<result>
+91 Ja ma alustasin: „Oo õun, mis küpsena
+92 ainult kasvatati, oo iidne isa,
+93 kellele iga pruut on tütar ja mini,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 94/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 94 divoto quanto posso a te supplìco
 95 perché mi parli: tu vedi mia voglia,
 96 e per udirti tosto non la dico».
 </prompt>
 <result>
-91 Ja ma alustasin: „Oo õun, mis küpsena
-92 ainult kasvatati, oo iidne isa,
-93 kellele iga pruut on tütar ja mini,
-
 94 nii vagalt kui ma suudan, palun ma sind,
 95 et sa minuga räägiksid: sa näed mu soovi
 96 ja ma ei ütle seda sulle kohe kuulmiseks."
@@ -427,16 +488,23 @@ Please translate each line literally into Estonian.
 97 Talvolta un animal coverto broglia,
 98 sì che l’affetto convien che si paia
 99 per lo seguir che face a lui la ’nvoglia;
+</prompt>
+<result>
+97 Mõnikord petab kaetud loom,
+98 nii et kiindumus peab olema varjatud
+99 selle järgimise tõttu, mida soov talle teeb;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 100/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 100 e similmente l’anima primaia
 101 mi facea trasparer per la coverta
 102 quant’ ella a compiacermi venìa gaia.
 </prompt>
 <result>
-97 Mõnikord petab kaetud loom,
-98 nii et kiindumus peab olema varjatud
-99 selle järgimise tõttu, mida soov talle teeb;
-
 100 ja samuti esimene hing
 101 pani mind läbi katte nägema,
 102 kui rõõmsalt ta tuli mulle meele järele.
@@ -450,16 +518,23 @@ Please translate each line literally into Estonian.
 103 Indi spirò: «Sanz’ essermi proferta
 104 da te, la voglia tua discerno meglio
 105 che tu qualunque cosa t’è più certa;
+</prompt>
+<result>
+103 Seejärel hingas ta: „Ilma et sa oleksid mulle seda avaldanud,
+104 tajun ma su soovi paremini
+105 kui sa ükskõik millist asja, mis sulle on kõige kindlam;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 106/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 106 perch’ io la veggio nel verace speglio
 107 che fa di sé pareglio a l’altre cose,
 108 e nulla face lui di sé pareglio.
 </prompt>
 <result>
-103 Seejärel hingas ta: „Ilma et sa oleksid mulle seda avaldanud,
-104 tajun ma su soovi paremini
-105 kui sa ükskõik millist asja, mis sulle on kõige kindlam;
-
 106 sest ma näen seda tõeses peeglis,
 107 mis teeb endast teistele asjadele sarnase,
 108 ja miski ei tee temast endale sarnast.
@@ -473,16 +548,23 @@ Please translate each line literally into Estonian.
 109 Tu vuogli udir quant’ è che Dio mi puose
 110 ne l’eccelso giardino, ove costei
 111 a così lunga scala ti dispuose,
+</prompt>
+<result>
+109 Sa tahad kuulda, kui kaua on sellest ajast, kui Jumal mind
+110 üllasse aeda pani, kuhu see naine
+111 sind nii pika redeli juurde seadis,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 112/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 112 e quanto fu diletto a li occhi miei,
 113 e la propria cagion del gran disdegno,
 114 e l’idïoma ch’usai e che fei.
 </prompt>
 <result>
-109 Sa tahad kuulda, kui kaua on sellest ajast, kui Jumal mind
-110 üllasse aeda pani, kuhu see naine
-111 sind nii pika redeli juurde seadis,
-
 112 ja kui palju rõõmu oli mu silmadele,
 113 ja suure põlguse tegelik põhjus,
 114 ja keelt, mida ma kasutasin ja mida ma tegin.
@@ -511,16 +593,23 @@ Please translate each line literally into Estonian.
 118 Quindi onde mosse tua donna Virgilio,
 119 quattromilia trecento e due volumi
 120 di sol desiderai questo concilio;
+</prompt>
+<result>
+118 Sealt, kust su daam Vergiliuse liigutas,
+119 neli tuhat kolmsada ja kaks päeva
+120 soovisin ma seda nõukogu;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 121/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 121 e vidi lui tornare a tutt’ i lumi
 122 de la sua strada novecento trenta
 123 fïate, mentre ch’ïo in terra fu’mi.
 </prompt>
 <result>
-118 Sealt, kust su daam Vergiliuse liigutas,
-119 neli tuhat kolmsada ja kaks päeva
-120 soovisin ma seda nõukogu;
-
 121 ja ma nägin teda tagasi pöördumas kõigi oma tee valguste juurde
 122 üheksasada kolmkümmend
 123 korda, kui ma olin maa peal.
@@ -534,16 +623,23 @@ Please translate each line literally into Estonian.
 124 La lingua ch’io parlai fu tutta spenta
 125 innanzi che a l’ovra inconsummabile
 126 fosse la gente di Nembròt attenta:
+</prompt>
+<result>
+124 Keel, mida ma rääkisin, oli täielikult kadunud
+125 enne kui Nembroti rahvas
+126 oli tähelepanu pööranud lõpetamata tööle:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 127/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 127 ché nullo effetto mai razïonabile,
 128 per lo piacere uman che rinovella
 129 seguendo il cielo, sempre fu durabile.
 </prompt>
 <result>
-124 Keel, mida ma rääkisin, oli täielikult kadunud
-125 enne kui Nembroti rahvas
-126 oli tähelepanu pööranud lõpetamata tööle:
-
 127 sest ükski mõistlik mõju ei ole kunagi
 128 inimliku naudingu tõttu, mis uueneb
 129 taevast järgides, olnud püsiv.
@@ -572,16 +668,23 @@ Please translate each line literally into Estonian.
 133 Pria ch’i’ scendessi a l’infernale ambascia,
 134 I s’appellava in terra il sommo bene
 135 onde vien la letizia che mi fascia;
+</prompt>
+<result>
+133 Enne kui ma põrgulikku piina alla laskusin,
+134 nimetati maa peal kõrgeimaks hüveks seda,
+135 millest tuleb rõõm, mis mind ümbritseb;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 136/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 136 e El si chiamò poi: e ciò convene,
 137 ché l’uso d’i mortali è come fronda
 138 in ramo, che sen va e altra vene.
 </prompt>
 <result>
-133 Enne kui ma põrgulikku piina alla laskusin,
-134 nimetati maa peal kõrgeimaks hüveks seda,
-135 millest tuleb rõõm, mis mind ümbritseb;
-
 136 ja seejärel nimetati seda Tema: ja see on kohane,
 137 sest surelike komme on nagu leht
 138 oksal, mis läheb ja teine tuleb.
@@ -595,14 +698,21 @@ Please translate each line literally into Estonian.
 139 Nel monte che si leva più da l’onda,
 140 fu’ io, con vita pura e disonesta,
 141 da la prim’ ora a quella che seconda,
-
-142 come ’l sol muta quadra, l’ora sesta».
 </prompt>
 <result>
 139 Mäel, mis kõige rohkem lainest tõuseb,
 140 olin mina, puhta ja ebaaus eluviisiga,
 141 esimesest tunnist selleni, mis on teine,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 26] 142/142</info>
+<prompt>
+Please translate each line literally into Estonian.
 
+142 come ’l sol muta quadra, l’ora sesta».
+</prompt>
+<result>
 142 kui päike muudab kvadranti, kuuenda tunni."
 </result>
 </query>

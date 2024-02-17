@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Bulgarian.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 Казвам, като продължавам, че много преди
+2 да стигнем до подножието на високата кула,
+3 очите ни се насочиха нагоре към върха ѝ
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1 Казвам, като продължавам, че много преди
-2 да стигнем до подножието на високата кула,
-3 очите ни се насочиха нагоре към върха ѝ
-
 4 заради два пламъка, които видяхме да се появят,
 5 и друг отдалеч даваше знак,
 6 толкова далеч, че окото едва можеше да го различи.
@@ -61,18 +68,25 @@ Please translate each line literally into Bulgarian.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 Тетива никога не изстреля стрела
+14 която да полети така бързо през въздуха,
+15 както видях един малък кораб
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 Стрела никога не е била изстрелвана от лък
-14, която да лети толкова бързо през въздуха,
-15 колкото видях една малка лодка
-
-16 да се приближава към нас по водата,
-17 управлявана от един-единствен гребец,
+16 да идва към нас по водата в онази посока,
+17 под управлението на един единствен гребец,
 18 който викаше: „Сега пристигна, зла душе!“.
 </result>
 </query>
@@ -175,32 +189,6 @@ Please translate each line literally into Bulgarian.
 38 spirito maladetto, ti rimani;
 39 ch’i’ ti conosco, ancor sie lordo tutto».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 А аз му казах: „С плач и скръб,\n38 прокълнат духу, остани си;\n39 защото те познавам, макар че си целият мръсен“."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 37 А аз му казах: „С плач и скръб,
 38 прокълнат духу, остани си;
@@ -230,16 +218,23 @@ Please translate each line literally into Bulgarian.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 След това ме прегърна с ръце около врата;
+44 целуна ме по лицето и каза: „Горда душе,
+45 благословена е тази, която те е родила!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 След това ме прегърна с ръце около врата;
-44 целуна ме по лицето и каза: „Горда душе,
-45 благословена е тази, която те е родила!
-
 46 Той беше горделив човек на света;
 47 няма доброта, която да украсява спомена му:
 48 затова сянката му тук е толкова яростна.
@@ -358,18 +353,25 @@ Please translate each line literally into Bulgarian.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 И аз: „Учителю, вече неговите джамии
+71 там вътре в долината различавам,
+72 червени, сякаш излезли от огън
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
 <result>
-70 А аз: „Учителю, вече виждам неговите джамии
-71 там вътре в тъмната долина,
-72 червени, сякаш са излезли от огън
-
-73“. А той ми каза: „Вечният огън,
-74 който ги изгаря отвътре, ги прави червени,
+73 бяха“. А той ми каза: „Вечният огън,
+74 който ги изгаря отвътре, ги показва червени,
 75 както виждаш в този долен ад“.
 </result>
 </query>
@@ -411,33 +413,38 @@ Please translate each line literally into Bulgarian.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
 82 Видях повече от хиляда души на портите,
 83 паднали от небето, които яростно
 84 казваха: „Кой е този, който без да е умрял
-
-85 върви през царството на мъртвите?“.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into Bulgarian.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 върви през царството на мъртвите?“.
+86 И моят мъдър учител направи знак,
+87 че иска да говори с тях тайно.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 И моят мъдър учител направи знак,
-87 че иска да говори с тях тайно.
-
 88 Тогава те малко поуспокоиха голямото си негодувание
 89 и казаха: „Ела само ти, а онзи да си върви,
 90 който толкова смело влезе в това царство.
@@ -481,16 +488,23 @@ Please translate each line literally into Bulgarian.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 „О, скъпи мой водач, който повече от седем
+98 пъти ми даде сигурност и ме измъкна
+99 от голямата опасност, която ме срещна,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 „О, скъпи мой водач, който повече от седем
-98 пъти ми даде сигурност и ме измъкна
-99 от голямата опасност, която ме срещна,
-
 100 не ме оставяй“, казах аз, „толкова съкрушен;
 101 и ако ни е отказано да преминем по-нататък,
 102 нека бързо намерим заедно нашите стъпки“.
@@ -507,7 +521,8 @@ Please translate each line literally into Bulgarian.
 </prompt>
 <result>
 103 А онзи господар, който ме беше довел там,
-104 ми каза: „Не се страхувай; защото никой не може да ни попречи да преминем: това ни е дадено от такъв човек.
+104 ми каза: „Не се страхувай; защото никой не може
+105 да ни попречи на пътя: от такъв ни е дадено.
 </result>
 </query>
 <query>
@@ -520,8 +535,9 @@ Please translate each line literally into Bulgarian.
 108 ch’i’ non ti lascerò nel mondo basso».
 </prompt>
 <result>
-106 Но тук ме чакай и подкрепи и нахрани уморения дух
-107 с добра надежда, защото няма да те оставя в долния свят“.
+106 Но тук ме чакай и подкрепи и нахрани
+107 изтощения ми дух с добра надежда,
+108 защото няма да те оставя в долния свят“.
 </result>
 </query>
 <query>
@@ -594,8 +610,9 @@ Please translate each line literally into Bulgarian.
 123 qual ch’a la difension dentro s’aggiri.
 </prompt>
 <result>
-121 И ми каза: „Не се плаши, защото аз ще спечеля изпитанието,
-122 колкото и да се опитва някой да се защити вътре.
+121 И ми каза: „Ти, защото се ядосвам,
+122 не се плаши, защото ще спечеля изпитанието,
+123 какъвто и да се намира вътре за отбрана.
 </result>
 </query>
 <query>
@@ -621,14 +638,21 @@ Please translate each line literally into Bulgarian.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 Над нея виждаш мъртвия надпис:
 128 и вече оттук надолу слиза стръмнината,
 129 минавайки през кръговете без водач,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 така че заради него земята ще се отвори за нас“.
 </result>
 </query>

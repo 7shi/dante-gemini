@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="36">
+<queries count="51">
 <query>
 <info>[Inferno Canto 25] 1/151</info>
 <prompt>
@@ -9,32 +9,6 @@ Please translate each line literally into Thai.
 2 le mani alzò con amendue le fiche,
 3 gridando: «Togli, Dio, ch’a te le squadro!».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "1 เมื่อสิ้นสุดคำพูดของเขา โจร\n2 ยกมือขึ้นพร้อมกับมีดทั้งสองเล่ม\n3 ร้องตะโกนว่า \"เอาไปซะ พระเจ้า ข้าโยนมันให้พระองค์!\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 1 เมื่อสิ้นสุดคำพูดของเขา โจร
 2 ยกมือขึ้นพร้อมกับมีดทั้งสองเล่ม
@@ -49,20 +23,26 @@ Please translate each line literally into Thai.
 4 Da indi in qua mi fuor le serpi amiche,
 5 perch’ una li s’avvolse allora al collo,
 6 come dicesse ‘Non vo’ che più diche’;
+</prompt>
+<result>
+4 ตั้งแต่นั้นมา งูก็เป็นมิตรกับข้า
+5 เพราะงูตัวหนึ่งพันรอบคอข้าในเวลานั้น
+6 ราวกับจะบอกว่า 'อย่าพูดอีกต่อไป'
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 7/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 7 e un’altra a le braccia, e rilegollo,
 8 ribadendo sé stessa sì dinanzi,
 9 che non potea con esse dare un crollo.
 </prompt>
 <result>
-4 ตั้งแต่นั้นเป็นต้นมา งูก็เป็นมิตรกับข้า
-5 เพราะงูตัวหนึ่งพันรอบคอข้า
-6 ราวกับจะบอกว่า ‘อย่าพูดอีก’
-7 และอีกตัวหนึ่งพันรอบแขนข้า และรัดข้าไว้
-8 พันตัวเองแน่นหนาอยู่ตรงหน้าข้า
-9 จนข้าไม่สามารถขยับแขนได้เลย
-
-(หมายเหตุ: คำว่า ‘collo’ ในภาษาอิตาลีแปลว่า ‘คอ’ และคำว่า ‘braccia’ แปลว่า ‘แขน’)
+7 และอีกอันที่แขน และมัดมันไว้
+8 โดยการตอกหมุดตัวเองไว้ด้านหน้า
+9 เพื่อที่มันจะไม่สามารถขยับแขนได้
 </result>
 </query>
 <query>
@@ -73,21 +53,26 @@ Please translate each line literally into Thai.
 10 Ahi Pistoia, Pistoia, ché non stanzi
 11 d’incenerarti sì che più non duri,
 12 poi che ’n mal fare il seme tuo avanzi?
+</prompt>
+<result>
+10 โอ้เมืองปิสตอยอา ปิสตอยอา เจ้าไม่หยุดยั้ง
+11 ที่จะเผาทำลายตัวเองจนไม่เหลือซาก
+12 เพราะเหตุใดเจ้าจึงยังคงเพาะเมล็ดแห่งความชั่วร้าย?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 13/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 13 Per tutt’ i cerchi de lo ’nferno scuri
 14 non vidi spirto in Dio tanto superbo,
 15 non quel che cadde a Tebe giù da’ muri.
 </prompt>
 <result>
-10 โอ้เมืองปิสตอยอา ปิสตอยอา เจ้าไม่หยุดยั้ง
-11 ที่จะเผาทำลายตัวเองจนไม่เหลือซาก
-12 เพราะเหตุใดเจ้าจึงยังคงเพาะเมล็ดแห่งความชั่วร้าย?
-
 13 ในบรรดาแวดวงแห่งนรกที่มืดมัวทั้งมวล
 14 ข้าไม่เคยเห็นวิญญาณใดที่หยิ่งผยองในพระเจ้ามากเท่านี้
 15 ไม่ใช่แม้แต่คนที่ตกลงมาจากกำแพงเมืองธีบส์
-
-(หมายเหตุ: เมืองปิสตอยอาเป็นเมืองในแคว้นทัสคานี ประเทศอิตาลี และเมืองธีบส์เป็นเมืองโบราณในประเทศกรีซ)
 </result>
 </query>
 <query>
@@ -103,8 +88,6 @@ Please translate each line literally into Thai.
 16 มันวิ่งหนีไปโดยไม่พูดอะไรอีก
 17 และข้าเห็นเซนทอร์ตัวหนึ่งเต็มไปด้วยความโกรธ
 18 วิ่งมาตะโกนว่า "อยู่ไหน อยู่ไหน ไอ้โหดเหี้ยมนั่น?"
-
-(หมายเหตุ: เซนทอร์เป็นสัตว์ในตำนานกรีกที่มีลำตัวเป็นม้าและส่วนบนเป็นมนุษย์)
 </result>
 </query>
 <query>
@@ -120,8 +103,6 @@ Please translate each line literally into Thai.
 19 ข้าไม่คิดว่าจะมีงูมากมายขนาดนี้ใน Maremma
 20 เท่ากับที่มันมีอยู่บนหลังของมัน
 21 จนถึงจุดที่ริมฝีปากของเราก่อตัวขึ้น
-
-(หมายเหตุ: Maremma เป็นภูมิภาคในแคว้นทัสคานี ประเทศอิตาลี และคำว่า "labbia" ในภาษาอิตาลีแปลว่า "ริมฝีปาก")
 </result>
 </query>
 <query>
@@ -137,8 +118,6 @@ Please translate each line literally into Thai.
 22 บนบ่า หลังส่วนบน
 23 มีมังกรตัวหนึ่งนอนอยู่พร้อมกับกางปีก
 24 และมันก็แผดเผาสิ่งใดก็ตามที่ขวางทาง
-
-(หมายเหตุ: คำว่า "coppa" ในภาษาอิตาลีแปลว่า "ส่วนบน" หรือ "ด้านหลัง")
 </result>
 </query>
 <query>
@@ -154,8 +133,6 @@ Please translate each line literally into Thai.
 25 อาจารย์ของข้ากล่าวว่า "นี่คือคาโค
 26 ผู้ที่อยู่ใต้ก้อนหินของภูเขา Aventine
 27 ได้ทำให้เกิดแอ่งเลือดบ่อยครั้ง"
-
-(หมายเหตุ: คาโคเป็นยักษ์ในตำนานโรมันที่อาศัยอยู่บนภูเขา Aventine ในกรุงโรม และมักจะขโมยฝูงวัวของชาวบ้าน)
 </result>
 </query>
 <query>
@@ -166,21 +143,26 @@ Please translate each line literally into Thai.
 28 Non va co’ suoi fratei per un cammino,
 29 per lo furto che frodolente fece
 30 del grande armento ch’elli ebbe a vicino;
+</prompt>
+<result>
+28 มันไม่ได้เดินไปกับพี่น้องของมัน
+29 เพราะการลักขโมยที่มันได้กระทำอย่างหลอกลวง
+30 จากฝูงปศุสัตว์ขนาดใหญ่ที่มันมีอยู่ใกล้ๆ
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 31/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 31 onde cessar le sue opere biece
 32 sotto la mazza d’Ercule, che forse
 33 gliene diè cento, e non sentì le diece».
 </prompt>
 <result>
-28 มันไม่ได้เดินไปกับพี่น้องของมัน
-29 เพราะการลักขโมยที่มันได้กระทำอย่างหลอกลวง
-30 จากฝูงปศุสัตว์ขนาดใหญ่ที่มันมีอยู่ใกล้ๆ
-
 31 เพื่อให้การกระทำอันชั่วร้ายของมันสิ้นสุดลง
 32 ภายใต้กระบองของเฮอร์คิวลิส ซึ่งบางที
 33 อาจฟาดมันไปร้อยครั้ง แต่ก็ไม่รู้สึกถึงสิบครั้ง
-
-(หมายเหตุ: เฮอร์คิวลิสเป็นวีรบุรุษในตำนานกรีกที่มีชื่อเสียงในด้านความแข็งแกร่งและการผจญภัยต่างๆ)
 </result>
 </query>
 <query>
@@ -191,21 +173,26 @@ Please translate each line literally into Thai.
 34 Mentre che sì parlava, ed el trascorse,
 35 e tre spiriti venner sotto noi,
 36 de’ quai né io né ’l duca mio s’accorse,
+</prompt>
+<result>
+34 ขณะที่กำลังพูดคุยกันอยู่นั้น และมันก็ผ่านไป
+35 และมีวิญญาณสามตนมาอยู่ใต้เรา
+36 ซึ่งทั้งข้าและอาจารย์ของข้าก็ไม่ได้สังเกตเห็น
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 37/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 37 se non quando gridar: «Chi siete voi?»;
 38 per che nostra novella si ristette,
 39 e intendemmo pur ad essi poi.
 </prompt>
 <result>
-34 ขณะที่กำลังพูดคุยกันอยู่นั้น และมันก็ผ่านไป
-35 และมีวิญญาณสามตนมาอยู่ใต้เรา
-36 ซึ่งทั้งข้าและอาจารย์ของข้าก็ไม่ได้สังเกตเห็น
-
 37 จนกระทั่งพวกมันตะโกนว่า "พวกเจ้าเป็นใคร?"
 38 ด้วยเหตุนี้ เรื่องราวของเราจึงหยุดชะงัก
 39 และเราตั้งใจฟังพวกมัน
-
-(หมายเหตุ: คำว่า "ristette" ในภาษาอิตาลีแปลว่า "หยุดชะงัก" หรือ "หยุดลง")
 </result>
 </query>
 <query>
@@ -216,21 +203,26 @@ Please translate each line literally into Thai.
 40 Io non li conoscea; ma ei seguette,
 41 come suol seguitar per alcun caso,
 42 che l’un nomar un altro convenette,
+</prompt>
+<result>
+40 ข้าไม่รู้จักพวกมัน แต่พวกมันก็เดินตามมา
+41 เหมือนกับที่มักจะเกิดขึ้นโดยบังเอิญ
+42 ที่คนหนึ่งต้องเรียกชื่ออีกคนหนึ่ง
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 43/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 43 dicendo: «Cianfa dove fia rimaso?»;
 44 per ch’io, acciò che ’l duca stesse attento,
 45 mi puosi ’l dito su dal mento al naso.
 </prompt>
 <result>
-40 ข้าไม่รู้จักพวกมัน แต่พวกมันก็เดินตามมา
-41 เหมือนกับที่มักจะเกิดขึ้นโดยบังเอิญ
-42 ที่คนหนึ่งต้องเรียกชื่ออีกคนหนึ่ง
-
 43 โดยพูดว่า "Cianfa อยู่ที่ไหน?"
 44 ด้วยเหตุนี้ เพื่อให้อาจารย์ของข้าตั้งใจฟัง
 45 ข้าจึงเอานิ้วแตะตั้งแต่คางถึงจมูก
-
-(หมายเหตุ: คำว่า "Cianfa" เป็นชื่อของหนึ่งในวิญญาณสามตน และคำว่า "acciò che" ในภาษาอิตาลีแปลว่า "เพื่อให้")
 </result>
 </query>
 <query>
@@ -246,8 +238,6 @@ Please translate each line literally into Thai.
 46 ถ้าหากตอนนี้ท่านผู้อ่านยังไม่เชื่อ
 47 ในสิ่งที่ข้าจะพูด ก็คงไม่น่าแปลกใจ
 48 เพราะแม้แต่ข้าที่ได้เห็นด้วยตาตนเอง ก็ยังแทบไม่เชื่อเลย
-
-(หมายเหตุ: คำว่า "consento" ในภาษาอิตาลีแปลว่า "ยินยอม" หรือ "ยอมรับ")
 </result>
 </query>
 <query>
@@ -263,8 +253,6 @@ Please translate each line literally into Thai.
 49 ขณะที่ข้ากำลังเงยหน้ามองพวกมัน
 50 งูตัวหนึ่งที่มีหกขา ก็พุ่งเข้ามา
 51 อยู่ตรงหน้าของคนหนึ่ง และพันเกาะเขาไว้ทั้งตัว
-
-(หมายเหตุ: คำว่า "ciglia" ในภาษาอิตาลีแปลว่า "ขนตา")
 </result>
 </query>
 <query>
@@ -275,21 +263,26 @@ Please translate each line literally into Thai.
 52 Co’ piè di mezzo li avvinse la pancia
 53 e con li anterïor le braccia prese;
 54 poi li addentò e l’una e l’altra guancia;
+</prompt>
+<result>
+52 ด้วยขาคู่กลาง มันก็พันรอบท้องของเขา
+53 และด้วยขาคู่หน้า มันก็จับแขนของเขาไว้
+54 จากนั้น มันก็กัดแก้มทั้งสองข้างของเขา
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 55/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 55 li diretani a le cosce distese,
 56 e miseli la coda tra ’mbedue
 57 e dietro per le ren sù la ritese.
 </prompt>
 <result>
-52 ด้วยขาคู่กลาง มันก็พันรอบท้องของเขา
-53 และด้วยขาคู่หน้า มันก็จับแขนของเขาไว้
-54 จากนั้น มันก็กัดแก้มทั้งสองข้างของเขา
-
 55 ขาคู่หลังมันก็เหยียดไปที่ต้นขาของเขา
 56 และมันก็สอดหางของมันเข้าไประหว่างขาของเขา
 57 และดึงมันขึ้นไปทางด้านหลังตามแนวกระดูกสันหลัง
-
-(หมายเหตุ: คำว่า "anterïor" ในภาษาอิตาลีแปลว่า "ด้านหน้า" และคำว่า "diretani" แปลว่า "ด้านหลัง")
 </result>
 </query>
 <query>
@@ -305,8 +298,6 @@ Please translate each line literally into Thai.
 58 ต้นเอลเดอร์ที่เลื้อยพันต้นไม้
 59 ไม่เคยพันแน่นหนาขนาดนี้มาก่อน
 60 เหมือนกับสัตว์ประหลาดที่น่ากลัวได้พันรัดร่างกายของอีกฝ่ายด้วยหนวดของมัน
-
-(หมายเหตุ: ต้นเอลเดอร์เป็นไม้พุ่มหรือต้นไม้ขนาดเล็กที่มีถิ่นกำเนิดในยุโรป เอเชีย และแอฟริกาเหนือ)
 </result>
 </query>
 <query>
@@ -317,20 +308,26 @@ Please translate each line literally into Thai.
 61 Poi s’appiccar, come di calda cera
 62 fossero stati, e mischiar lor colore,
 63 né l’un né l’altro già parea quel ch’era:
+</prompt>
+<result>
+61 จากนั้นก็เกาะติดกันราวกับว่าเป็นขี้ผึ้งร้อน
+62 และสีของมันก็ผสมกัน
+63 ไม่มีตัวใดเลยที่ดูเหมือนเดิม
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 64/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 64 come procede innanzi da l’ardore,
 65 per lo papiro suso, un color bruno
 66 che non è nero ancora e ’l bianco more.
 </prompt>
 <result>
-61 จากนั้น พวกมันก็ติดกันราวกับว่าเป็นขี้ผึ้งร้อน
-62 และสีของพวกมันก็ผสมกัน
-63 ไม่มีใครเหมือนเดิมอีกต่อไป
-
-64 เหมือนกับที่สีน้ำตาลค่อยๆ เคลื่อนตัวไปข้างหน้าจากความร้อน
-65 บนกระดาษปาปิรัส ซึ่งยังไม่ใช่สีดำและสีขาวก็จางหายไป
-
-(หมายเหตุ: กระดาษปาปิรัสเป็นวัสดุที่ใช้เขียนในสมัยโบราณ ทำจากต้นกกปาปิรัส ซึ่งเป็นพืชที่ขึ้นในบริเวณลุ่มน้ำไนล์ในอียิปต์)
+64 เมื่อความร้อนแผ่ขยายไปข้างหน้า
+65 บนกระดาษปาปิรัส สีน้ำตาลไหม้เกรียม
+66 ที่ยังไม่ดำสนิทและสีขาวก็จางหายไป
 </result>
 </query>
 <query>
@@ -346,8 +343,6 @@ Please translate each line literally into Thai.
 67 อีกสองตนเฝ้ามองเขา และแต่ละตนก็ร้องว่า
 68 "โอ้ Agnel เจ้าเปลี่ยนแปลงไปอย่างไร!
 69 ดูสิ ตอนนี้เจ้าไม่ใช่สองหรือหนึ่งอีกต่อไปแล้ว"
-
-(หมายเหตุ: คำว่า "Agnel" เป็นชื่อของหนึ่งในวิญญาณสามตน)
 </result>
 </query>
 <query>
@@ -363,8 +358,6 @@ Please translate each line literally into Thai.
 70 บัดนี้ ศีรษะทั้งสองได้กลายเป็นหนึ่งเดียว
 71 เมื่อร่างทั้งสองรวมเข้าด้วยกัน
 72 ในใบหน้าเดียว ซึ่งสูญเสียใบหน้าเดิมไปสองใบหน้า
-
-(หมายเหตุ: คำว่า "miste" ในภาษาอิตาลีแปลว่า "ผสม" หรือ "รวมกัน")
 </result>
 </query>
 <query>
@@ -380,8 +373,6 @@ Please translate each line literally into Thai.
 73 แขนทั้งสองกลายมาจากขาคู่หนึ่ง
 74 ต้นขาและน่อง ท้องและหน้าอก
 75 กลายเป็นอวัยวะที่ไม่เคยมีมาก่อน
-
-(หมายเหตุ: คำว่า "liste" ในภาษาอิตาลีแปลว่า "แถบ" หรือ "เส้น")
 </result>
 </query>
 <query>
@@ -397,8 +388,6 @@ Please translate each line literally into Thai.
 76 ลักษณะเดิมทั้งหมดได้สูญหายไปที่นั่น
 77 ภาพลักษณ์ที่ผิดเพี้ยนนั้นดูเหมือนทั้งสองและไม่มีใครเลย
 78 และมันก็เดินจากไปด้วยก้าวที่ช้าๆ
-
-(หมายเหตุ: คำว่า "casso" ในภาษาอิตาลีแปลว่า "สูญหาย" หรือ "ว่างเปล่า")
 </result>
 </query>
 <query>
@@ -409,29 +398,41 @@ Please translate each line literally into Thai.
 79 Come ’l ramarro sotto la gran fersa
 80 dei dì canicular, cangiando sepe,
 81 folgore par se la via attraversa,
+</prompt>
+<result>
+79 เหมือนกับกิ้งก่าใต้แสงแดดที่แผดเผา
+80 ในช่วงวันที่มีดวงอาทิตย์แรงกล้า เปลี่ยนที่อยู่ของมัน
+81 ดูเหมือนสายฟ้าแลบเมื่อมันข้ามถนน
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 82/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 82 sì pareva, venendo verso l’epe
 83 de li altri due, un serpentello acceso,
 84 livido e nero come gran di pepe;
+</prompt>
+<result>
+82 เช่นเดียวกันกับที่มันปรากฏตัวขึ้น ขณะที่มันเลื้อยเข้ามาหา
+83 งูตัวเล็กๆ ที่มีสีแดงเพลิง
+84 สีเขียวคล้ำและดำเหมือนเม็ดพริกไทย
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 85/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 85 e quella parte onde prima è preso
 86 nostro alimento, a l’un di lor trafisse;
 87 poi cadde giuso innanzi lui disteso.
 </prompt>
 <result>
-79 เหมือนกับกิ้งก่าใต้แสงแดดที่แผดเผา
-80 ในช่วงวันที่มีดวงอาทิตย์แรงกล้า เปลี่ยนที่อยู่ของมัน
-81 ดูเหมือนสายฟ้าแลบเมื่อมันข้ามถนน
-
-82 เช่นเดียวกันกับที่มันปรากฏตัวขึ้น ขณะที่มันเลื้อยเข้ามาหา
-83 งูตัวเล็กๆ ที่มีสีแดงเพลิง
-84 สีเขียวคล้ำและดำเหมือนเม็ดพริกไทย
-
 85 และส่วนที่เราใช้เป็นอาหารก่อน
 86 มันก็แทงทะลุเข้าไปในร่างของอีกฝ่ายหนึ่ง
 87 จากนั้น มันก็ล้มลงมาตรงหน้าเขา นอนแผ่ราบอยู่
-
-(หมายเหตุ: คำว่า "fersa" ในภาษาอิตาลีแปลว่า "ความร้อน" หรือ "ความแผดเผา" และคำว่า "epe" แปลว่า "ส่วนปลาย" หรือ "ส่วนบน")
 </result>
 </query>
 <query>
@@ -447,8 +448,6 @@ Please translate each line literally into Thai.
 88 ผู้ที่ถูกแทงมองดูมัน แต่ไม่พูดอะไรเลย
 89 แต่กลับยืนนิ่งๆ และหาว
 90 ราวกับว่าความง่วงหรือไข้กำลังเล่นงานเขาอยู่
-
-(หมายเหตุ: คำว่า "sbadigliava" ในภาษาอิตาลีแปลว่า "หาว")
 </result>
 </query>
 <query>
@@ -464,8 +463,6 @@ Please translate each line literally into Thai.
 91 มันจ้องมองงู และงูก็จ้องมองมัน
 92 ฝ่ายหนึ่งจากบาดแผล และอีกฝ่ายจากปาก
 93 พ่นควันออกมาอย่างแรง และควันก็พุ่งชนกัน
-
-(หมายเหตุ: คำว่า "fummavan" ในภาษาอิตาลีแปลว่า "พ่นควัน" หรือ "สูบบุหรี่")
 </result>
 </query>
 <query>
@@ -481,8 +478,6 @@ Please translate each line literally into Thai.
 94 จงให้ลูคานหยุดพูดถึงเรื่องราวของ
 95 ซาเบลโลผู้น่าสงสารและนาซิเดียสเสียที
 96 และตั้งใจฟังสิ่งที่กำลังจะเกิดขึ้นเดี๋ยวนี้
-
-(หมายเหตุ: ลูคานเป็นกวีชาวโรมันที่แต่งบทกวีนิพนธ์เรื่อง Pharsalia ซึ่งเล่าถึงสงครามกลางเมืองระหว่างจูเลียส ซีซาร์และปอมเปอี ซาเบลโลและนาซิเดียสเป็นสองทหารที่ถูกงูพิษกัดตายในระหว่างสงคราม)
 </result>
 </query>
 <query>
@@ -493,21 +488,26 @@ Please translate each line literally into Thai.
 97 Taccia di Cadmo e d’Aretusa Ovidio,
 98 ché se quello in serpente e quella in fonte
 99 converte poetando, io non lo ’nvidio;
+</prompt>
+<result>
+97 จงให้โอวิดหยุดพูดถึงเรื่องราวของ
+98 แคดมัสที่กลายเป็นงู และอาเรทูซาที่กลายเป็นน้ำพุเสียที
+99 เพราะถึงแม้ว่าเขาจะแต่งบทกวีเกี่ยวกับการเปลี่ยนแปลงเหล่านี้ ฉันก็ไม่ได้อิจฉาเขาเลย
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 100/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 100 ché due nature mai a fronte a fronte
 101 non trasmutò sì ch’amendue le forme
 102 a cambiar lor matera fosser pronte.
 </prompt>
 <result>
-97 จงให้โอวิดหยุดพูดถึงเรื่องราวของ
-98 แคดมัสที่กลายเป็นงู และอาเรทูซาที่กลายเป็นน้ำพุเสียที
-99 เพราะถึงแม้ว่าเขาจะแต่งบทกวีเกี่ยวกับการเปลี่ยนแปลงเหล่านี้ ฉันก็ไม่ได้อิจฉาเขาเลย
-
 100 เพราะไม่เคยมีธรรมชาติสองอย่างที่อยู่ตรงข้ามกัน
 101 ที่เปลี่ยนแปลงไปจนกระทั่งทั้งสองรูปแบบ
 102 พร้อมที่จะเปลี่ยนแปลงสสารของตน
-
-(หมายเหตุ: แคดมัสเป็นผู้ก่อตั้งเมืองธีบส์ในตำนานเทพเจ้ากรีก และอาเรทูซาเป็นเทพีแห่งน้ำพุในตำนานเทพเจ้ากรีกเช่นกัน โอวิดเป็นกวีชาวโรมันที่แต่งบทกวีนิพนธ์เรื่อง Metamorphoses ซึ่งเล่าถึงเรื่องราวการเปลี่ยนแปลงของสิ่งต่างๆ)
 </result>
 </query>
 <query>
@@ -523,8 +523,6 @@ Please translate each line literally into Thai.
 103 พวกมันตอบสนองต่อกันตามกฎเกณฑ์เหล่านั้น
 104 งูทำให้หางของมันแยกออกเป็นสองแฉก
 105 และผู้ที่ถูกทำร้ายก็หดร่างของมันเข้าด้วยกัน
-
-(หมายเหตุ: คำว่า "norme" ในภาษาอิตาลีแปลว่า "กฎเกณฑ์" หรือ "ข้อบังคับ" และคำว่า "orme" แปลว่า "รอยเท้า" หรือ "ร่องรอย")
 </result>
 </query>
 <query>
@@ -536,37 +534,10 @@ Please translate each line literally into Thai.
 107 s’appiccar sì, che ’n poco la giuntura
 108 non facea segno alcun che si paresse.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "106 ขาและต้นขาของมันติดกันแน่น\n107 จนในไม่ช้า รอยต่อก็ไม่ปรากฏให้เห็นอีกต่อไป\n\n(หมายเหตุ: คำว่า \"giuntura\" ในภาษาอิตาลีแปลว่า \"รอยต่อ\" หรือ \"ข้อต่อ\")"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-106 ขาและต้นขาของมันติดกันแน่น
-107 จนในไม่ช้า รอยต่อก็ไม่ปรากฏให้เห็นอีกต่อไป
-
-(หมายเหตุ: คำว่า "giuntura" ในภาษาอิตาลีแปลว่า "รอยต่อ" หรือ "ข้อต่อ")
+106 ขาและต้นขาติดกันแน่น
+107 จนในไม่ช้ารอยต่อ
+108 ก็ไม่ปรากฏให้เห็นแต่อย่างใด
 </result>
 </query>
 <query>
@@ -579,10 +550,9 @@ Please translate each line literally into Thai.
 111 si facea molle, e quella di là dura.
 </prompt>
 <result>
-109 หางที่แยกออกทำให้รูปร่างที่หายไปที่นั่นกลับคืนมา
-110 และผิวหนังของมันก็อ่อนนุ่มลง ในขณะที่ผิวหนังของอีกฝ่ายก็แข็งกระด้างขึ้น
-
-(หมายเหตุ: คำว่า "fessa" ในภาษาอิตาลีแปลว่า "แยกออก" หรือ "แตกออก")
+109 หางแยกออกจากร่าง
+110 ที่หายไปตรงนั้น และผิวหนังของมัน
+111 ก็อ่อนนุ่มลง และผิวหนังของอีกฝ่ายก็แข็งกระด้างขึ้น
 </result>
 </query>
 <query>
@@ -598,8 +568,6 @@ Please translate each line literally into Thai.
 112 ข้าเห็นแขนทั้งสองเข้าไปในรักแร้
 113 และขาคู่หน้าของสัตว์ร้ายที่สั้นอยู่
 114 ยืดออกไปมากเท่ากับที่ขาคู่หลังหดสั้นลง
-
-(หมายเหตุ: คำว่า "ascelle" ในภาษาอิตาลีแปลว่า "รักแร้")
 </result>
 </query>
 <query>
@@ -615,8 +583,6 @@ Please translate each line literally into Thai.
 115 จากนั้น ขาคู่หลังก็พันกัน
 116 กลายเป็นอวัยวะที่มนุษย์ปกปิดไว้
 117 และผู้ที่น่าสงสารก็มีสองอัน
-
-(หมายเหตุ: คำว่า "porti" ในภาษาอิตาลีแปลว่า "แบก" หรือ "ถือ")
 </result>
 </query>
 <query>
@@ -627,21 +593,26 @@ Please translate each line literally into Thai.
 118 Mentre che ’l fummo l’uno e l’altro vela
 119 di color novo, e genera ’l pel suso
 120 per l’una parte e da l’altra il dipela,
+</prompt>
+<result>
+118 ขณะที่ควันปกคลุมทั้งสองด้วย
+119 สีใหม่ และสร้างขนขึ้น
+120 ที่ด้านหนึ่งและถอนขนออกจากอีกด้านหนึ่ง
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 121/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 121 l’un si levò e l’altro cadde giuso,
 122 non torcendo però le lucerne empie,
 123 sotto le quai ciascun cambiava muso.
 </prompt>
 <result>
-118 ขณะที่ควันปกคลุมทั้งสองด้วย
-119 สีใหม่ และสร้างขนขึ้น
-120 ที่ด้านหนึ่งและถอนขนออกจากอีกด้านหนึ่ง
-
 121 ฝ่ายหนึ่งก็ลุกขึ้น และอีกฝ่ายก็ล้มลง
 122 แต่ดวงตาที่ชั่วร้ายของพวกมันก็ยังไม่หันเหไป
 123 ซึ่งภายใต้ดวงตานั้น ใบหน้าของแต่ละฝ่ายก็เปลี่ยนไป
-
-(หมายเหตุ: คำว่า "lucerne" ในภาษาอิตาลีแปลว่า "โคมไฟ" หรือ "ตะเกียง")
 </result>
 </query>
 <query>
@@ -652,21 +623,26 @@ Please translate each line literally into Thai.
 124 Quel ch’era dritto, il trasse ver’ le tempie,
 125 e di troppa matera ch’in là venne
 126 uscir li orecchi de le gote scempie;
+</prompt>
+<result>
+124 ผู้ที่ยืนตรงก็ดึงมันเข้ามาทางขมับ
+125 และจากเนื้อส่วนเกินที่ยื่นออกมา
+126 หูก็โผล่ออกมาจากแก้มที่เรียบเนียน
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 127/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 127 ciò che non corse in dietro e si ritenne
 128 di quel soverchio, fé naso a la faccia
 129 e le labbra ingrossò quanto convenne.
 </prompt>
 <result>
-124 ผู้ที่ยืนตรงก็ดึงมันเข้ามาทางขมับ
-125 และจากเนื้อส่วนเกินที่ยื่นออกมา
-126 หูก็โผล่ออกมาจากแก้มที่เรียบเนียน
-
 127 ส่วนที่ไม่ไหลกลับเข้าไปและยังคงอยู่
 128 จากส่วนเกินนั้น ก็กลายเป็นจมูกบนใบหน้า
 129 และริมฝีปากก็หนาขึ้นเท่าที่ควรจะเป็น
-
-(หมายเหตุ: คำว่า "scempe" ในภาษาอิตาลีแปลว่า "เรียบเนียน" หรือ "เรียบง่าย")
 </result>
 </query>
 <query>
@@ -677,21 +653,26 @@ Please translate each line literally into Thai.
 130 Quel che giacëa, il muso innanzi caccia,
 131 e li orecchi ritira per la testa
 132 come face le corna la lumaccia;
+</prompt>
+<result>
+130 ผู้ที่นอนอยู่ก็ยื่นปากกระบอกปืนออกมาข้างหน้า
+131 และหดหูเข้าไปในหัว
+132 เหมือนกับที่หอยทากทำกับเขาของมัน
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 133/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 133 e la lingua, ch’avëa unita e presta
 134 prima a parlar, si fende, e la forcuta
 135 ne l’altro si richiude; e ’l fummo resta.
 </prompt>
 <result>
-130 ผู้ที่นอนอยู่ก็ยื่นปากกระบอกปืนออกมาข้างหน้า
-131 และหดหูเข้าไปในหัว
-132 เหมือนกับที่หอยทากทำกับเขาของมัน
-
 133 และลิ้นที่เคยรวมกันและพร้อม
 134 ที่จะพูดก่อน ก็แยกออก และลิ้นที่แยกออก
 135 ก็รวมเข้าด้วยกันในอีกฝ่ายหนึ่ง และควันก็หายไป
-
-(หมายเหตุ: คำว่า "lumaccia" ในภาษาอิตาลีแปลว่า "หอยทาก")
 </result>
 </query>
 <query>
@@ -707,8 +688,6 @@ Please translate each line literally into Thai.
 136 วิญญาณที่กลายเป็นสัตว์ร้าย
 137 ก็พ่นลมหายใจขณะที่วิ่งหนีไปตามหุบเขา
 138 และอีกฝ่ายก็วิ่งตามหลังและถ่มน้ำลายไปด้วย
-
-(หมายเหตุ: คำว่า "suffolando" ในภาษาอิตาลีแปลว่า "พ่นลมหายใจ" หรือ "หายใจแรงๆ")
 </result>
 </query>
 <query>
@@ -724,8 +703,6 @@ Please translate each line literally into Thai.
 139 จากนั้น มันก็หันหลังกลับ
 140 และพูดกับอีกฝ่ายว่า "ข้าอยากให้ Buoso วิ่ง
 141 เหมือนที่ข้าทำ ด้วยการคลานไปตามทางนี้"
-
-(หมายเหตุ: Buoso เป็นชื่อของหนึ่งในวิญญาณสามตน)
 </result>
 </query>
 <query>
@@ -741,8 +718,6 @@ Please translate each line literally into Thai.
 142 เช่นนั้น ข้าจึงได้เห็นเศษซากที่เจ็ด
 143 เปลี่ยนแปลงและแปรสภาพ และที่นี่ ขอให้ความแปลกใหม่เป็นข้อแก้ตัว
 144 หากขนนกเกลียดชังดอกไม้
-
-(หมายเหตุ: คำว่า "zavorra" ในภาษาอิตาลีแปลว่า "เศษซาก" หรือ "ของที่ไร้ค่า")
 </result>
 </query>
 <query>
@@ -753,24 +728,37 @@ Please translate each line literally into Thai.
 145 E avvegna che li occhi miei confusi
 146 fossero alquanto e l’animo smagato,
 147 non poter quei fuggirsi tanto chiusi,
+</prompt>
+<result>
+145 และถึงแม้ว่าดวงตาของข้าจะสับสน
+146 อยู่บ้าง และจิตใจก็สับสนวุ่นวาย
+147 แต่พวกมันก็ไม่สามารถหลบหนีไปได้ไกลนักเมื่อหลับตาลง
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 148/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 148 ch’i’ non scorgessi ben Puccio Sciancato;
 149 ed era quel che sol, di tre compagni
 150 che venner prima, non era mutato;
+</prompt>
+<result>
+148 ที่ข้าไม่เห็น Puccio Sciancato อย่างชัดเจน
+149 และเขาเป็นเพียงคนเดียวในสามสหาย
+150 ที่มาก่อนและไม่เปลี่ยนแปลงไป
+</result>
+</query>
+<query>
+<info>[Inferno Canto 25] 151/151</info>
+<prompt>
+Please translate each line literally into Thai.
 
 151 l’altr’ era quel che tu, Gaville, piagni.
 </prompt>
 <result>
-145 และถึงแม้ว่าดวงตาของข้าจะสับสนอยู่บ้าง
-146 และจิตใจของข้าก็สับสน
-147 พวกมันก็ไม่สามารถหลบหนีไปได้ไกลนัก
-148 จนกระทั่งข้าสังเกตเห็น Puccio Sciancato ได้อย่างชัดเจน
-
-149 และเขาเป็นเพียงคนเดียวในบรรดาเพื่อนร่วมทางทั้งสาม
-150 ที่มาถึงก่อนหน้านี้แล้วที่ไม่เปลี่ยนแปลงไป
-151 อีกคนหนึ่งคือคนที่เจ้า Gaville ร่ำไห้ถึง
-
-(หมายเหตุ: Puccio Sciancato เป็นชื่อของหนึ่งในวิญญาณสามตน และ Gaville เป็นเมืองเล็กๆ ในแคว้นทัสคานี ประเทศอิตาลี)
+151 อีกคนหนึ่งคือคนที่ท่านร่ำไห้ โอ้ Gaville
 </result>
 </query>
 </queries>

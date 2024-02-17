@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries error="0" count="52">
 <query>
 <info>[Paradiso Canto 16] 1/154</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into German.
 1 O poca nostra nobiltà di sangue,
 2 se glorïar di te la gente fai
 3 qua giù dove l’affetto nostro langue,
+</prompt>
+<result>
+1 O unsere geringe Abstammung,
+2 wenn die Menschen sich deiner rühmen
+3 hier unten, wo unsere Zuneigung schwindet,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 4/154</info>
+<prompt>
+Please translate each line literally into German.
 
 4 mirabil cosa non mi sarà mai:
 5 ché là dove appetito non si torce,
 6 dico nel cielo, io me ne gloriai.
 </prompt>
 <result>
-1 O unsere geringe Abstammung,
-2 wenn die Menschen sich deiner rühmen
-3 hier unten, wo unsere Zuneigung schwindet,
-
 4 wird es für mich niemals etwas Wunderbares sein:
 5 denn dort, wo das Verlangen sich nicht verdreht,
 6 ich meine im Himmel, habe ich mich dessen gerühmt.
@@ -46,16 +53,23 @@ Please translate each line literally into German.
 10 Dal ‘voi’ che prima a Roma s’offerie,
 11 in che la sua famiglia men persevra,
 12 ricominciaron le parole mie;
+</prompt>
+<result>
+10 Mit dem „Ihr“, das man sich in Rom zuerst anbot,
+11 worin seine Familie weniger beharrlich war,
+12 begannen meine Worte erneut;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 13/154</info>
+<prompt>
+Please translate each line literally into German.
 
 13 onde Beatrice, ch’era un poco scevra,
 14 ridendo, parve quella che tossio
 15 al primo fallo scritto di Ginevra.
 </prompt>
 <result>
-10 Mit dem „Ihr“, das man sich in Rom zuerst anbot,
-11 worin seine Familie weniger beharrlich war,
-12 begannen meine Worte erneut;
-
 13 worauf Beatrice, die ein wenig abseits stand,
 14 lachend wie jene wirkte, die bei
 15 dem ersten schriftlich festgehaltenen Fehltritt Ginevras hustete.
@@ -85,32 +99,6 @@ Please translate each line literally into German.
 20 la mente mia, che di sé fa letizia
 21 perché può sostener che non si spezza.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "19 Durch so viele Bäche füllt sich mein Geist mit Freude,\n20 dass er sich selbst erfreut,\n21 weil er ertragen kann, dass er nicht zerbricht."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 19 Durch so viele Bäche füllt sich mein Geist mit Freude,
 20 dass er sich selbst erfreut,
@@ -125,16 +113,23 @@ Please translate each line literally into German.
 22 Ditemi dunque, cara mia primizia,
 23 quai fuor li vostri antichi e quai fuor li anni
 24 che si segnaro in vostra püerizia;
+</prompt>
+<result>
+22 Sagt mir also, meine liebe Erstlingsfrucht,
+23 wer waren eure Vorfahren und welche Jahre
+24 zeichneten eure Kindheit aus;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 25/154</info>
+<prompt>
+Please translate each line literally into German.
 
 25 ditemi de l’ovil di San Giovanni
 26 quanto era allora, e chi eran le genti
 27 tra esso degne di più alti scanni».
 </prompt>
 <result>
-22 Sagt mir also, meine liebe Erstlingsfrucht,
-23 wer waren eure Vorfahren und welche Jahre
-24 zeichneten eure Kindheit aus;
-
 25 sagt mir, wie groß die Herde von San Giovanni damals war
 26 und wer die Leute waren,
 27 die dort die höchsten Ränge verdienten.
@@ -148,32 +143,53 @@ Please translate each line literally into German.
 28 Come s’avviva a lo spirar d’i venti
 29 carbone in fiamma, così vid’ io quella
 30 luce risplendere a’ miei blandimenti;
+</prompt>
+<result>
+28 Wie sich bei einem Hauch Wind
+29 Kohle in Flammen belebt, so sah ich jenes
+30 Licht bei meinen Schmeicheleien erstrahlen;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 31/154</info>
+<prompt>
+Please translate each line literally into German.
 
 31 e come a li occhi miei si fé più bella,
 32 così con voce più dolce e soave,
 33 ma non con questa moderna favella,
+</prompt>
+<result>
+31 und wie es in meinen Augen schöner wurde,
+32 so sprach es mit süßerer und lieblicherer Stimme,
+33 aber nicht mit dieser modernen Sprache,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 34/154</info>
+<prompt>
+Please translate each line literally into German.
 
 34 dissemi: «Da quel dì che fu detto ‘Ave’
 35 al parto in che mia madre, ch’è or santa,
 36 s’allevïò di me ond’ era grave,
+</prompt>
+<result>
+34 zu mir: „Von dem Tag an, als ‚Ave‘ gesagt wurde
+35 bis zu der Geburt, bei der meine Mutter, die jetzt heilig ist,
+36 von mir entbunden wurde, von dem sie schwer war,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 37/154</info>
+<prompt>
+Please translate each line literally into German.
 
 37 al suo Leon cinquecento cinquanta
 38 e trenta fiate venne questo foco
 39 a rinfiammarsi sotto la sua pianta.
 </prompt>
 <result>
-28 Wie sich bei einem Hauch Wind
-29 Kohle in Flammen belebt, so sah ich jenes
-30 Licht bei meinen Schmeicheleien erstrahlen;
-
-31 und wie es in meinen Augen schöner wurde,
-32 so sprach es mit süßerer und lieblicherer Stimme,
-33 aber nicht mit dieser modernen Sprache,
-
-34 zu mir: „Von dem Tag an, als ‚Ave‘ gesagt wurde
-35 bis zu der Geburt, bei der meine Mutter, die jetzt heilig ist,
-36 von mir entbunden wurde, von dem sie schwer war,
-
 37 ist dieses Feuer fünfhundertfünfzig
 38 und dreißig Mal gekommen,
 39 um sich unter seinem Sternzeichen neu zu entzünden.
@@ -247,40 +263,68 @@ Please translate each line literally into German.
 52 Oh quanto fora meglio esser vicine
 53 quelle genti ch’io dico, e al Galluzzo
 54 e a Trespiano aver vostro confine,
+</prompt>
+<result>
+52 Oh, wie viel besser wäre es, wenn die Leute, von denen ich spreche, näher beieinander wären
+53 und eure Grenze bei Galluzzo
+54 und Trespiano hätten,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 55/154</info>
+<prompt>
+Please translate each line literally into German.
 
 55 che averle dentro e sostener lo puzzo
 56 del villan d’Aguglion, di quel da Signa,
 57 che già per barattare ha l’occhio aguzzo!
+</prompt>
+<result>
+55 als sie in der Stadt zu haben und den Gestank zu ertragen
+56 des Bauern von Aguglione, desjenigen von Signa,
+57 der schon ein scharfes Auge fürs Tauschen hat!
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 58/154</info>
+<prompt>
+Please translate each line literally into German.
 
 58 Se la gente ch’al mondo più traligna
 59 non fosse stata a Cesare noverca,
 60 ma come madre a suo figlio benigna,
+</prompt>
+<result>
+58 Wenn die Leute, die auf der Welt am meisten ausarten,
+59 Cäsar nicht als Stiefmutter,
+60 sondern als gütige Mutter für ihren Sohn gewesen wären,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 61/154</info>
+<prompt>
+Please translate each line literally into German.
 
 61 tal fatto è fiorentino e cambia e merca,
 62 che si sarebbe vòlto a Simifonti,
 63 là dove andava l’avolo a la cerca;
+</prompt>
+<result>
+61 dann wäre so mancher Florentiner geworden und wechselt und handelt,
+62 der sich nach Simifonti gewandt hätte,
+63 wo sein Großvater betteln ging;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 64/154</info>
+<prompt>
+Please translate each line literally into German.
 
 64 sariesi Montemurlo ancor de’ Conti;
 65 sarieno i Cerchi nel piovier d’Acone,
 66 e forse in Valdigrieve i Buondelmonti.
 </prompt>
 <result>
-52 Oh, wie viel besser wäre es, wenn die Leute, von denen ich spreche, näher beieinander wären
-53 und eure Grenze bei Galluzzo
-54 und Trespiano hätten,
-
-55 als sie in der Stadt zu haben und den Gestank zu ertragen
-56 des Bauern von Aguglione, desjenigen von Signa,
-57 der schon ein scharfes Auge fürs Tauschen hat!
-
-58 Wenn die Leute, die auf der Welt am meisten ausarten,
-59 Cäsar nicht als Stiefmutter,
-60 sondern als gütige Mutter für ihren Sohn gewesen wären,
-
-61 dann wäre so mancher Florentiner geworden und wechselt und handelt,
-62 der sich nach Simifonti gewandt hätte,
-63 wo sein Großvater betteln ging;
-
 64 Montemurlo wäre immer noch bei den Conti;
 65 die Cerchi wären in der Pfarrei von Acone,
 66 und vielleicht die Buondelmonti im Val di Greve.
@@ -294,16 +338,23 @@ Please translate each line literally into German.
 67 Sempre la confusion de le persone
 68 principio fu del mal de la cittade,
 69 come del vostro il cibo che s’appone;
+</prompt>
+<result>
+67 Immer war die Verwirrung der Menschen
+68 der Anfang des Übels der Stadt,
+69 wie bei euch das Essen, das man hinzufügt;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 70/154</info>
+<prompt>
+Please translate each line literally into German.
 
 70 e cieco toro più avaccio cade
 71 che cieco agnello; e molte volte taglia
 72 più e meglio una che le cinque spade.
 </prompt>
 <result>
-67 Immer war die Verwirrung der Menschen
-68 der Anfang des Übels der Stadt,
-69 wie bei euch das Essen, das man hinzufügt;
-
 70 und ein blinder Stier fällt schneller
 71 als ein blindes Lamm; und oft schneidet
 72 ein Schwert mehr und besser als fünf.
@@ -317,16 +368,23 @@ Please translate each line literally into German.
 73 Se tu riguardi Luni e Orbisaglia
 74 come sono ite, e come se ne vanno
 75 di retro ad esse Chiusi e Sinigaglia,
+</prompt>
+<result>
+73 Wenn du Luni und Orbisaglia betrachtest,
+74 wie sie vergangen sind und wie hinter ihnen
+75 Chiusi und Sinigaglia verschwinden,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 76/154</info>
+<prompt>
+Please translate each line literally into German.
 
 76 udir come le schiatte si disfanno
 77 non ti parrà nova cosa né forte,
 78 poscia che le cittadi termine hanno.
 </prompt>
 <result>
-73 Wenn du Luni und Orbisaglia betrachtest,
-74 wie sie vergangen sind und wie hinter ihnen
-75 Chiusi und Sinigaglia verschwinden,
-
 76 dann wird es dir nicht neu oder schwer erscheinen,
 77 zu hören, wie die Geschlechter vergehen,
 78 denn die Städte haben ein Ende.
@@ -355,16 +413,23 @@ Please translate each line literally into German.
 82 E come ’l volger del ciel de la luna
 83 cuopre e discuopre i liti sanza posa,
 84 così fa di Fiorenza la Fortuna:
+</prompt>
+<result>
+82 Und wie der Lauf des Mondes am Himmel
+83 die Küsten ohne Unterlass bedeckt und freigibt,
+84 so tut es Fortuna mit Florenz:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 85/154</info>
+<prompt>
+Please translate each line literally into German.
 
 85 per che non dee parer mirabil cosa
 86 ciò ch’io dirò de li alti Fiorentini
 87 onde è la fama nel tempo nascosa.
 </prompt>
 <result>
-82 Und wie der Lauf des Mondes am Himmel
-83 die Küsten ohne Unterlass bedeckt und freigibt,
-84 so tut es Fortuna mit Florenz:
-
 85 Deshalb sollte es nicht verwunderlich erscheinen,
 86 was ich über die hohen Florentiner sagen werde,
 87 deren Ruhm in der Zeit verborgen ist.
@@ -378,16 +443,23 @@ Please translate each line literally into German.
 88 Io vidi li Ughi e vidi i Catellini,
 89 Filippi, Greci, Ormanni e Alberichi,
 90 già nel calare, illustri cittadini;
+</prompt>
+<result>
+88 Ich sah die Ughi und sah die Catellini,
+89 Filippi, Greci, Ormanni und Alberichi,
+90 schon im Niedergang, berühmte Bürger;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 91/154</info>
+<prompt>
+Please translate each line literally into German.
 
 91 e vidi così grandi come antichi,
 92 con quel de la Sannella, quel de l’Arca,
 93 e Soldanieri e Ardinghi e Bostichi.
 </prompt>
 <result>
-88 Ich sah die Ughi und sah die Catellini,
-89 Filippi, Greci, Ormanni und Alberichi,
-90 schon im Niedergang, berühmte Bürger;
-
 91 und ich sah so große wie alte,
 92 mit dem von der Sannella, dem von der Arca,
 93 und Soldanieri und Ardinghi und Bostichi.
@@ -401,16 +473,23 @@ Please translate each line literally into German.
 94 Sovra la porta ch’al presente è carca
 95 di nova fellonia di tanto peso
 96 che tosto fia iattura de la barca,
+</prompt>
+<result>
+94 Über dem Tor, das jetzt belastet ist
+95 mit neuer Untreue von so großem Gewicht,
+96 dass es bald zum Untergang des Schiffes führen wird,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 97/154</info>
+<prompt>
+Please translate each line literally into German.
 
 97 erano i Ravignani, ond’ è disceso
 98 il conte Guido e qualunque del nome
 99 de l’alto Bellincione ha poscia preso.
 </prompt>
 <result>
-94 Über dem Tor, das jetzt belastet ist
-95 mit neuer Untreue von so großem Gewicht,
-96 dass es bald zum Untergang des Schiffes führen wird,
-
 97 waren die Ravignani, von denen abstammt
 98 Graf Guido und jeder, der den Namen
 99 des hohen Bellincione später angenommen hat.
@@ -499,16 +578,23 @@ Please translate each line literally into German.
 115 L’oltracotata schiatta che s’indraca
 116 dietro a chi fugge, e a chi mostra ’l dente
 117 o ver la borsa, com’ agnel si placa,
+</prompt>
+<result>
+115 Das übermütige Geschlecht, das sich
+116 hinter denjenigen hermacht, die fliehen, und vor demjenigen,
+117 der die Zähne oder den Geldbeutel zeigt, wie ein Lamm zahm wird,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 118/154</info>
+<prompt>
+Please translate each line literally into German.
 
 118 già venìa sù, ma di picciola gente;
 119 sì che non piacque ad Ubertin Donato
 120 che poï il suocero il fé lor parente.
 </prompt>
 <result>
-115 Das übermütige Geschlecht, das sich
-116 hinter denjenigen hermacht, die fliehen, und vor demjenigen,
-117 der die Zähne oder den Geldbeutel zeigt, wie ein Lamm zahm wird,
-
 118 kam schon auf, aber aus kleinen Leuten;
 119 so dass es Ubertin Donato nicht gefiel,
 120 dass sein Schwiegervater sie zu seinen Verwandten machte.
@@ -552,16 +638,23 @@ Please translate each line literally into German.
 127 Ciascun che de la bella insegna porta
 128 del gran barone il cui nome e ’l cui pregio
 129 la festa di Tommaso riconforta,
+</prompt>
+<result>
+127 Jeder, der das schöne Abzeichen trägt
+128 des großen Barons, dessen Name und dessen Ruhm
+129 das Fest des Thomas stärkt,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 130/154</info>
+<prompt>
+Please translate each line literally into German.
 
 130 da esso ebbe milizia e privilegio;
 131 avvegna che con popol si rauni
 132 oggi colui che la fascia col fregio.
 </prompt>
 <result>
-127 Jeder, der das schöne Abzeichen trägt
-128 des großen Barons, dessen Name und dessen Ruhm
-129 das Fest des Thomas stärkt,
-
 130 erhielt von ihm Ritterschaft und Privilegien;
 131 obwohl sich heute derjenige, der die Schärpe mit dem Schmuck trägt,
 132 mit dem Volk versammelt.
@@ -590,24 +683,38 @@ Please translate each line literally into German.
 136 La casa di che nacque il vostro fleto,
 137 per lo giusto disdegno che v’ha morti
 138 e puose fine al vostro viver lieto,
+</prompt>
+<result>
+136 Das Haus, aus dem euer Weinen hervorging,
+137 durch den gerechten Zorn, der euch getötet hat
+138 und eurem glücklichen Leben ein Ende setzte,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 139/154</info>
+<prompt>
+Please translate each line literally into German.
 
 139 era onorata, essa e suoi consorti:
 140 o Buondelmonte, quanto mal fuggisti
 141 le nozze süe per li altrui conforti!
+</prompt>
+<result>
+139 war geehrt, es und seine Verwandten:
+140 O Buondelmonte, wie schlecht bist du geflohen
+141 seine Hochzeit auf den Rat anderer!
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 142/154</info>
+<prompt>
+Please translate each line literally into German.
 
 142 Molti sarebber lieti, che son tristi,
 143 se Dio t’avesse conceduto ad Ema
 144 la prima volta ch’a città venisti.
 </prompt>
 <result>
-136 Das Haus, aus dem euer Weinen hervorging,
-137 durch den gerechten Zorn, der euch getötet hat
-138 und eurem glücklichen Leben ein Ende setzte,
-
-139 war geehrt, es und seine Verwandten:
-140 O Buondelmonte, wie schlecht bist du geflohen
-141 seine Hochzeit auf den Rat anderer!
-
 142 Viele wären glücklich, die traurig sind,
 143 wenn Gott dir bei Ema gewährt hätte,
 144 als du zum ersten Mal in die Stadt kamst.
@@ -651,14 +758,21 @@ Please translate each line literally into German.
 151 Con queste genti vid’io glorïoso
 152 e giusto il popol suo, tanto che ’l giglio
 153 non era ad asta mai posto a ritroso,
-
-154 né per divisïon fatto vermiglio».
 </prompt>
 <result>
 151 Mit diesen Leuten sah ich sein Volk ruhmreich
 152 und gerecht, so dass die Lilie
 153 nie verkehrt am Schaft angebracht wurde,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 16] 154/154</info>
+<prompt>
+Please translate each line literally into German.
 
+154 né per divisïon fatto vermiglio».
+</prompt>
+<result>
 154 noch durch Spaltung rot gemacht wurde».
 </result>
 </query>

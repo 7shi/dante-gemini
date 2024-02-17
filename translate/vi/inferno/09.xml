@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="45">
 <query>
 <info>[Inferno Canto 9] 1/133</info>
 <prompt>
@@ -53,16 +53,23 @@ Please translate each line literally into Vietnamese.
 10 I’ vidi ben sì com’ ei ricoperse
 11 lo cominciar con l’altro che poi venne,
 12 che fur parole a le prime diverse;
+</prompt>
+<result>
+10 Tôi đã thấy rõ ràng cách ông ấy che giấu
+11 sự khởi đầu với người khác đến sau,
+12 những lời lẽ khác với những lời đầu tiên;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 13/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 13 ma nondimen paura il suo dir dienne,
 14 perch’ io traeva la parola tronca
 15 forse a peggior sentenzia che non tenne.
 </prompt>
 <result>
-10 Tôi đã thấy rõ ràng cách ông ấy che giấu
-11 sự khởi đầu với người khác đến sau,
-12 những lời lẽ khác với những lời đầu tiên;
-
 13 nhưng dù sao thì lời nói của ông ấy cũng khiến tôi sợ hãi,
 14 vì tôi đã hiểu những lời nói bị cắt ngang
 15 có lẽ theo một cách tồi tệ hơn so với những gì ông ấy đã nói.
@@ -77,32 +84,6 @@ Please translate each line literally into Vietnamese.
 17 discende mai alcun del primo grado,
 18 che sol per pena ha la speranza cionca?».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "16 \"Trong vực sâu của hố thẳm buồn thảm này,\n17 có ai từ tầng đầu tiên xuống đây không,\n18 người mà hình phạt duy nhất là hy vọng bị cắt đứt?\"."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: HIGH
-}
-</error>
 <result>
 16 "Trong vực sâu của hố thẳm buồn thảm này,
 17 có ai từ tầng đầu tiên xuống đây không,
@@ -119,8 +100,9 @@ Please translate each line literally into Vietnamese.
 21 faccia il cammino alcun per qual io vado.
 </prompt>
 <result>
-19 Tôi đã hỏi câu hỏi này; và người đó trả lời tôi rằng: "Rất hiếm khi
-20 có ai trong số chúng tôi đi trên con đường mà tôi đang đi.
+19 Tôi hỏi câu hỏi này; và người đó trả lời tôi: "Hiếm khi
+20 có ai trong số chúng ta
+21 đi trên con đường mà tôi đang đi.
 </result>
 </query>
 <query>
@@ -191,24 +173,38 @@ Please translate each line literally into Vietnamese.
 34 E altro disse, ma non l’ho a mente;
 35 però che l’occhio m’avea tutto tratto
 36 ver’ l’alta torre a la cima rovente,
+</prompt>
+<result>
+34 Và còn nói thêm điều gì nữa, nhưng tôi không nhớ;
+35 vì mắt tôi đã hoàn toàn bị thu hút
+36 về phía tòa tháp cao với đỉnh rực lửa,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 37/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 37 dove in un punto furon dritte ratto
 38 tre furïe infernal di sangue tinte,
 39 che membra feminine avieno e atto,
+</prompt>
+<result>
+37 nơi mà trong nháy mắt, ba
+38 con quỷ dữ của địa ngục nhuốm máu
+39 xuất hiện với hình dạng và hành động của phụ nữ,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 40/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 40 e con idre verdissime eran cinte;
 41 serpentelli e ceraste avien per crine,
 42 onde le fiere tempie erano avvinte.
 </prompt>
 <result>
-34 Và còn nói thêm điều gì nữa, nhưng tôi không nhớ;
-35 vì mắt tôi đã hoàn toàn bị thu hút
-36 về phía tòa tháp cao với đỉnh rực lửa,
-
-37 nơi mà trong nháy mắt, ba
-38 con quỷ dữ của địa ngục nhuốm máu
-39 xuất hiện với hình dạng và hành động của phụ nữ,
-
 40 và chúng được bao quanh bởi những con rắn độc màu xanh lục;
 41 đầu chúng có rắn nhỏ và rắn sừng,
 42 quấn quanh những thái dương dữ tợn.
@@ -253,32 +249,6 @@ Please translate each line literally into Vietnamese.
 50 battiensi a palme e gridavan sì alto,
 51 ch’i’ mi strinsi al poeta per sospetto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "49 Mỗi ả dùng móng tay cấu xé ngực mình;\n50 vỗ tay và hét lên thật lớn,\n51 khiến tôi nép vào nhà thơ vì sợ hãi."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 49 Mỗi ả dùng móng tay cấu xé ngực mình;
 50 vỗ tay và hét lên thật lớn,
@@ -353,24 +323,38 @@ Please translate each line literally into Vietnamese.
 64 E già venìa su per le torbide onde
 65 un fracasso d’un suon, pien di spavento,
 66 per cui tremavano amendue le sponde,
+</prompt>
+<result>
+64 Và từ những con sóng hỗn loạn,
+65 một âm thanh ầm ầm, đầy kinh hoàng,
+66 khiến cả hai bờ sông đều run rẩy,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 67/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 67 non altrimenti fatto che d’un vento
 68 impetüoso per li avversi ardori,
 69 che fier la selva e sanz’ alcun rattento
+</prompt>
+<result>
+67 không khác gì một cơn gió
+68 dữ dội vì sức nóng đối nghịch,
+69 quật vào rừng cây và không hề chậm lại
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 70/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 70 li rami schianta, abbatte e porta fori;
 71 dinanzi polveroso va superbo,
 72 e fa fuggir le fiere e li pastori.
 </prompt>
 <result>
-64 Và từ những con sóng hỗn loạn,
-65 một âm thanh ầm ầm, đầy kinh hoàng,
-66 khiến cả hai bờ sông đều run rẩy,
-
-67 không khác gì một cơn gió
-68 dữ dội vì sức nóng đối nghịch,
-69 quật vào rừng cây và không hề chậm lại
-
 70 làm gãy cành cây, đốn hạ và cuốn đi;
 71 nó kiêu hãnh tiến lên phía trước đầy bụi bặm,
 72 và khiến các loài thú và người chăn cừu phải bỏ chạy.
@@ -399,16 +383,23 @@ Please translate each line literally into Vietnamese.
 76 Come le rane innanzi a la nimica
 77 biscia per l’acqua si dileguan tutte,
 78 fin ch’a la terra ciascuna s’abbica,
+</prompt>
+<result>
+76 Giống như những con ếch trước mặt
+77 con rắn hổ mang hung dữ đều tản ra trên mặt nước,
+78 cho đến khi mỗi con đều ẩn mình dưới đất,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 79/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 79 vid’ io più di mille anime distrutte
 80 fuggir così dinanzi ad un ch’al passo
 81 passava Stige con le piante asciutte.
 </prompt>
 <result>
-76 Giống như những con ếch trước mặt
-77 con rắn hổ mang hung dữ đều tản ra trên mặt nước,
-78 cho đến khi mỗi con đều ẩn mình dưới đất,
-
 79 tôi thấy hơn một nghìn linh hồn bị hủy diệt
 80 cũng chạy trốn như vậy trước một người đang
 81 bước qua sông Styx với đôi chân khô ráo.
@@ -467,24 +458,38 @@ Please translate each line literally into Vietnamese.
 91 «O cacciati del ciel, gente dispetta»,
 92 cominciò elli in su l’orribil soglia,
 93 «ond’ esta oltracotanza in voi s’alletta?
+</prompt>
+<result>
+91 "Hỡi những kẻ bị đuổi khỏi thiên đường, lũ người đáng khinh",
+92 ông ấy bắt đầu nói trên ngưỡng cửa khủng khiếp,
+93 "tại sao sự kiêu ngạo này lại quyến rũ các ngươi?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 94/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 94 Perché recalcitrate a quella voglia
 95 a cui non puote il fin mai esser mozzo,
 96 e che più volte v’ha cresciuta doglia?
+</prompt>
+<result>
+94 Tại sao các ngươi chống lại ý muốn đó
+95 mà mục đích cuối cùng của nó không bao giờ có thể bị ngăn cản,
+96 và điều đó đã nhiều lần khiến các ngươi đau khổ hơn?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 97/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 97 Che giova ne le fata dar di cozzo?
 98 Cerbero vostro, se ben vi ricorda,
 99 ne porta ancor pelato il mento e ’l gozzo».
 </prompt>
 <result>
-91 "Hỡi những kẻ bị đuổi khỏi thiên đường, lũ người đáng khinh",
-92 ông ấy bắt đầu nói trên ngưỡng cửa khủng khiếp,
-93 "tại sao sự kiêu ngạo này lại quyến rũ các ngươi?
-
-94 Tại sao các ngươi chống lại ý muốn đó
-95 mà mục đích cuối cùng của nó không bao giờ có thể bị ngăn cản,
-96 và điều đó đã nhiều lần khiến các ngươi đau khổ hơn?
-
 97 Có ích gì khi chống lại số phận?
 98 Cerberus của các ngươi, nếu các ngươi còn nhớ,
 99 vẫn còn mang trên mình chiếc cằm và cổ họng bị lột da".
@@ -498,16 +503,23 @@ Please translate each line literally into Vietnamese.
 100 Poi si rivolse per la strada lorda,
 101 e non fé motto a noi, ma fé sembiante
 102 d’omo cui altra cura stringa e morda
+</prompt>
+<result>
+100 Sau đó, ông ấy quay lưng đi trên con đường bẩn thỉu,
+101 và không nói gì với chúng tôi, nhưng tỏ ra
+102 như một người có nỗi lo lắng khác giày vò
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 103/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 103 che quella di colui che li è davante;
 104 e noi movemmo i piedi inver’ la terra,
 105 sicuri appresso le parole sante.
 </prompt>
 <result>
-100 Sau đó, ông ấy quay lưng đi trên con đường bẩn thỉu,
-101 và không nói gì với chúng tôi, nhưng tỏ ra
-102 như một người có nỗi lo lắng khác giày vò
-
 103 hơn là nỗi lo lắng của người đang ở trước mặt mình;
 104 và chúng tôi bước chân về phía mặt đất,
 105 an toàn sau những lời nói thánh thiện.
@@ -521,16 +533,23 @@ Please translate each line literally into Vietnamese.
 106 Dentro li ’ntrammo sanz’ alcuna guerra;
 107 e io, ch’avea di riguardar disio
 108 la condizion che tal fortezza serra,
+</prompt>
+<result>
+106 Chúng tôi bước vào bên trong mà không có bất kỳ cuộc chiến nào;
+107 và tôi, người khao khát được nhìn thấy
+108 tình trạng mà pháo đài này giam giữ,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 109/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 109 com’ io fui dentro, l’occhio intorno invio:
 110 e veggio ad ogne man grande campagna,
 111 piena di duolo e di tormento rio.
 </prompt>
 <result>
-106 Chúng tôi bước vào bên trong mà không có bất kỳ cuộc chiến nào;
-107 và tôi, người khao khát được nhìn thấy
-108 tình trạng mà pháo đài này giam giữ,
-
 109 khi tôi vào bên trong, tôi nhìn xung quanh:
 110 và tôi thấy ở mỗi phía một vùng đồng bằng rộng lớn,
 111 đầy đau khổ và sự giày vò khủng khiếp.
@@ -544,24 +563,38 @@ Please translate each line literally into Vietnamese.
 112 Sì come ad Arli, ove Rodano stagna,
 113 sì com’ a Pola, presso del Carnaro
 114 ch’Italia chiude e suoi termini bagna,
+</prompt>
+<result>
+112 Giống như ở Arles, nơi sông Rhône chảy chậm,
+113 giống như ở Pola, gần Carnaro
+114 nơi đóng cửa nước Ý và bao bọc lãnh thổ của nó,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 115/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 115 fanno i sepulcri tutt’ il loco varo,
 116 così facevan quivi d’ogne parte,
 117 salvo che ’l modo v’era più amaro;
+</prompt>
+<result>
+115 những ngôi mộ chiếm toàn bộ nơi trống trải,
+116 cũng vậy ở đây ở mọi phía,
+117 chỉ khác là ở đây mọi thứ còn cay đắng hơn;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 118/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 118 ché tra li avelli fiamme erano sparte,
 119 per le quali eran sì del tutto accesi,
 120 che ferro più non chiede verun’ arte.
 </prompt>
 <result>
-112 Giống như ở Arles, nơi sông Rhône chảy chậm,
-113 giống như ở Pola, gần Carnaro
-114 nơi đóng cửa nước Ý và bao bọc lãnh thổ của nó,
-
-115 những ngôi mộ chiếm toàn bộ nơi trống trải,
-116 cũng vậy ở đây ở mọi phía,
-117 chỉ khác là ở đây mọi thứ còn cay đắng hơn;
-
 118 vì giữa những ngôi mộ có những ngọn lửa bùng cháy,
 119 khiến chúng hoàn toàn bùng cháy,
 120 đến nỗi không có nghệ thuật nào đòi hỏi nhiều sắt hơn thế.
@@ -620,14 +653,21 @@ Please translate each line literally into Vietnamese.
 130 Simile qui con simile è sepolto,
 131 e i monimenti son più e men caldi».
 132 E poi ch’a la man destra si fu vòlto,
-
-133 passammo tra i martìri e li alti spaldi.
 </prompt>
 <result>
 130 Những kẻ tương tự được chôn cất cùng nhau ở đây,
 131 và những ngôi mộ thì nóng hơn hoặc ít nóng hơn".
 132 Và sau khi ông ấy quay sang bên phải,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 133/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
+133 passammo tra i martìri e li alti spaldi.
+</prompt>
+<result>
 133 chúng tôi đi giữa những kẻ tử vì đạo và những bức tường cao.
 </result>
 </query>

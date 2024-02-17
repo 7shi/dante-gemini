@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="33">
+<queries error="0" count="51">
 <query>
 <info>[Purgatorio Canto 14] 1/151</info>
 <prompt>
@@ -9,16 +9,16 @@ Please translate each line literally into English and Cornish.
 2 prima che morte li abbia dato il volo,
 3 e apre li occhi a sua voglia e coverchia?».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 1 "Who is this who circles our mountain
-2 before death has given him flight,
-3 and opens and closes his eyes at will?".**Cornish:**
-
-1 "Pyw yw henna a wra a-dro'n y'n menydh
-2 kyns na wra ankow marow dhys dalleth,
-3 ha'y gothaga y'n dhewlyn a-volonteth?".
+2 before death has given him wings,
+3 and opens and closes his eyes at will?".
+</error>
+<result>
+1 "Pyw yw hemma a wra'n tro'n menydh ni
+2 kyns bos marow dhe'n dhas dhe'n eghen,
+3 ha'n dhegol ha'n golghi aga lyga'n a-volontes?".
 </result>
 </query>
 <query>
@@ -30,16 +30,16 @@ Please translate each line literally into English and Cornish.
 5 domandal tu che più li t’avvicini,
 6 e dolcemente, sì che parli, acco’lo».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 4 "I do not know who he is, but I know that he is not alone;
-5 ask him yourself, you who are closer to him,
-6 and speak to him gently, so that he may understand you".**Cornish:**
-
-4 "Ny wodhaf vy pyw yw, mes wodhaf vy na yw ef a-unan;
-5 govyn ef dhe'th onan, ty a wra nessa dhys,
-6 ha kov dhe a-veur, ragvesa y feuav ef".
+5 you ask him, who are nearer to him,
+6 and speak gently to him, so that he may answer you."
+</error>
+<result>
+4 "Ny wodhaf piw yw, mes wodhaf na yw onan;
+5 gorra gowes ty a wra genesik,
+6 ha komm dhe’y, rag na allossogh ef".
 </result>
 </query>
 <query>
@@ -50,41 +50,59 @@ Please translate each line literally into English and Cornish.
 7 Così due spirti, l’uno a l’altro chini,
 8 ragionavan di me ivi a man dritta;
 9 poi fer li visi, per dirmi, supini;
+</prompt>
+<error result="true">
+**English:**
+7 Thus two spirits, one leaning on the other,
+8 were talking about me there on my right;
+9 then they turned their faces to speak to me, face up;
+</error>
+<result>
+7 Henwys spyrys, an eyl orth y gila,
+8 a wra kescowsya a’m gena dhe’m dheu;
+9 wosa henna a wra treylya aga fasow, rag gorra genesik;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 10/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 10 e disse l’uno: «O anima che fitta
 11 nel corpo ancora inver’ lo ciel ten vai,
 12 per carità ne consola e ne ditta
+</prompt>
+<error result="true">
+**English:**
+10 and one said: "O soul that still confined
+11 within the body art journeying towards heaven,
+12 for charity console us and tell us
+</error>
+<result>
+10 ha’n eyl a leveris: “O eneval a wra
+11 yn korf vyth, mes a wra a-mos dhe’n nef,
+12 rag kerensa, gorra genesik ha lever dhyn”
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 13/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 13 onde vieni e chi se’; ché tu ne fai
 14 tanto maravigliar de la tua grazia,
 15 quanto vuol cosa che non fu più mai».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-7 Thus two spirits, one leaning towards the other,
-8 were talking about me there on my right;
-9 then they turned their faces upwards to speak to me;
-
-10 and one said: "O soul that, still imprisoned
-11 in the body, are journeying towards heaven,
-12 out of charity console us and tell us
-
-13 where you come from and who you are; for you make us
-14 marvel at your grace,
-15 as much as something that was never seen before".**Cornish:**
-
-7 Ragvesa dew sperys, an eyl orth y gila,
-8 a wra'gas kovsowgh a-dro'm dhe-ves dhe-lergh;
-9 wosa henna a dro's aga enevalow rag om kovsowgh;
-
-10 ha kovsa an eyl: "O enevalow, hwath a wra gesys
-11 y'n korf vyth dhe-ves an nef a wra dos,
-12 rag kerensa dhyn ni ha kov dhyn ha dyllo dhyn
-
-13 a-dhia wra dos ha pyw os; rag ty a wra gwul
-14 ni om kovsowgh a-dro' dha ras,
-15 kemmys yth omma tra na wra bythkweth".
+13 whence do you come and who are you; for you make me
+14 so marvel at your grace,
+15 as much as something that never was before.
+</error>
+<result>
+13 ow pyth vyth ha pyth os; rag ty a wra
+14 kemmys a varvel orth agras dha,
+15 kemmys a vynnas tra na veu bythmo.
 </result>
 </query>
 <query>
@@ -96,15 +114,13 @@ Please translate each line literally into English and Cornish.
 17 un fiumicel che nasce in Falterona,
 18 e cento miglia di corso nol sazia.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 16 And I: "Through the middle of Tuscany there winds
 17 a little river that rises in Falterona,
 18 and a course of a hundred miles does not satisfy it.
-
-**Cornish:**
-
+</error>
+<result>
 16 Ha my: "A-dreus Toscana a wra omma
 17 avon byghan a wra omma yn Falterona,
 18 ha kans mildir a-hwel na wra omma dhe-ugh".
@@ -119,15 +135,13 @@ Please translate each line literally into English and Cornish.
 20 dirvi ch’i’ sia, saria parlare indarno,
 21 ché ’l nome mio ancor molto non suona».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 19 Beside it I was born and raised:
 20 to tell you who I am would be to speak in vain,
 21 for my name is still little known".
-
-**Cornish:**
-
+</error>
+<result>
 19 Orth y avon henna y'm genys an person ma:
 20 dyllo dhys pyw os, henna a via kov sens,
 21 rag hemma an hanow vyth na wra gesys meur".
@@ -142,15 +156,13 @@ Please translate each line literally into English and Cornish.
 23 con lo ’ntelletto», allora mi rispuose
 24 quei che diceva pria, «tu parli d’Arno».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 22 "If your understanding is embodied
 23 with intelligence", then he who
 24 had spoken before replied to me, "you are speaking of the Arno".
-
-**Cornish:**
-
+</error>
+<result>
 22 "Marow henna dha dhyvonvos a wra korf
 23 gans an dhyvonvos", henna a wra kov dh'ym,
 24 henna a wra kov kyns, "ty a wra kov a-dro' Arno".
@@ -165,15 +177,13 @@ Please translate each line literally into English and Cornish.
 26 questi il vocabol di quella riviera,
 27 pur com’ om fa de l’orribili cose?».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 25 And the other said to him: "Why does
 26 this man conceal the name of that river,
 27 just as one does with horrible things?".
-
-**Cornish:**
-
+</error>
+<result>
 25 Ha'n eyl aral kov dh'ytho: "Peraga wra
 26 an den ma a-gudha an hanow henna avon,
 27 kepar ha gwul den a-dro' an traow a-ofnans?".
@@ -187,64 +197,98 @@ Please translate each line literally into English and Cornish.
 28 E l’ombra che di ciò domandata era,
 29 si sdebitò così: «Non so; ma degno
 30 ben è che ’l nome di tal valle pèra;
+</prompt>
+<error result="true">
+**English:**
+28 And the shade who was asked about this,
+29 answered thus: "I do not know; but it is right
+30 that the name of such a valley should perish;
+</error>
+<result>
+28 Ha'n dowr a wra govyn a-dro' henna,
+29 a wra dyllo ragvesa: "Ny wodhaf vy; mes dygns
+30 yw henna hanow an dowr ma a via kollet;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 31/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 31 ché dal principio suo, ov’ è sì pregno
 32 l’alpestro monte ond’ è tronco Peloro,
 33 che ’n pochi luoghi passa oltra quel segno,
+</prompt>
+<error result="true">
+**English:**
+31 for from its source, where the rugged mountain
+32 from which Pelorus is cut off is so swollen,
+33 that in few places does it pass beyond that mark,
+</error>
+<result>
+31 rag a-dhia y furvellen, le mayth yw kemmys
+32 an menydh alwestrek a wra Peloro tronkys,
+33 mayth yma le ages le mayth a wra omma orth henna merk,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 34/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 34 infin là ’ve si rende per ristoro
 35 di quel che ’l ciel de la marina asciuga,
 36 ond’ hanno i fiumi ciò che va con loro,
+</prompt>
+<error result="true">
+**English:**
+34 to where it surrenders itself to restore
+35 what the sky dries up from the sea,
+36 from which the rivers have what flows with them,
+</error>
+<result>
+34 bys dhe-ves le mayth a wra omma dhe-ves an mor
+35 rag omdhiskwedhes an nef a-dhia an mor,
+36 a wra gans an avonow henna tra a wra omma gansow,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 37/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 37 vertù così per nimica si fuga
 38 da tutti come biscia, o per sventura
 39 del luogo, o per mal uso che li fruga:
+</prompt>
+<error result="true">
+**English:**
+37 virtue is so shunned by all
+38 like a snake, either because of the misfortune
+39 of the place, or because of the evil custom that torments them:
+</error>
+<result>
+37 nerth a wra omma a-dhia kepar ha gwiber,
+38 gans oll, po dhe-ves an anserghek a'n le mayth,
+39 po dhe-ves an drok usadow a wra omma omdhiskwedhes:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 40/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 40 ond’ hanno sì mutata lor natura
 41 li abitator de la misera valle,
 42 che par che Circe li avesse in pastura.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-28 And the shade who was asked about this,
-29 answered thus: "I do not know; but it is right
-30 that the name of such a valley should perish;
-
-31 for from its source, where the rugged mountain
-32 from which Pelorus is cut off is so swollen,
-33 that in few places does it pass beyond that mark,
-
-34 to where it surrenders itself to restore
-35 what the sky dries up from the sea,
-36 from which the rivers have what flows with them,
-
-37 virtue is so shunned by all
-38 like a snake, either because of the misfortune
-39 of the place, or because of the evil custom that torments them:
-
 40 from which the inhabitants of the wretched valley
 41 have so changed their nature,
 42 that it seems as if Circe had them in her pasture.
-
-**Cornish:**
-
-28 Ha'n dowr a wra govyn a-dro' henna,
-29 a wra dyllo ragvesa: "Ny wodhaf vy; mes dygns
-30 yw henna hanow an dowr ma a via kollet;
-
-31 rag a-dhia y furvellen, le mayth yw kemmys
-32 an menydh alwestrek a wra Peloro tronkys,
-33 mayth yma le ages le mayth a wra omma orth henna merk,
-
-34 bys dhe-ves le mayth a wra omma dhe-ves an mor
-35 rag omdhiskwedhes an nef a-dhia an mor,
-36 a wra gans an avonow henna tra a wra omma gansow,
-
-37 nerth a wra omma a-dhia kepar ha gwiber,
-38 gans oll, po dhe-ves an anserghek a'n le mayth,
-39 po dhe-ves an drok usadow a wra omma omdhiskwedhes:
-
+</error>
+<result>
 40 a wra gans henna omma kemmys chanjys aga natur
 41 an dusow a'n dowr truan ma,
 42 mayth yth omma kepar ha Circe a wra omma y'n aga boos.
@@ -259,15 +303,13 @@ Please translate each line literally into English and Cornish.
 44 che d’altro cibo fatto in uman uso,
 45 dirizza prima il suo povero calle.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 43 Among the filthy swine, more worthy of acorns
 44 than of other food made for human use,
 45 it first directs its wretched path.
-
-**Cornish:**
-
+</error>
+<result>
 43 Ynter an porchi brout, moy dygns a-dhia galow
 44 ages tra boues aral gwrys dhe-ves den,
 45 y'n kynsa wra omma omdrehek aga fordh truan.
@@ -282,15 +324,13 @@ Please translate each line literally into English and Cornish.
 47 ringhiosi più che non chiede lor possa,
 48 e da lor disdegnosa torce il muso.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 46 Then, coming down, it finds mud,
 47 more snarling than their strength allows,
 48 and it turns its snout away from them in disgust.
-
-**Cornish:**
-
+</error>
+<result>
 46 Botoli a gav henna, ow komma dhe-ves,
 47 moy growsen ages na wra aga nerth om govyn,
 48 ha gans aga a wra omma omdrehek y'n fri.
@@ -305,15 +345,13 @@ Please translate each line literally into English and Cornish.
 50 tanto più trova di can farsi lupi
 51 la maladetta e sventurata fossa.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 49 They fall down, and the more it swells,
 50 the more it finds wolves to make of dogs
 51 the cursed and ill-fated ditch.
-
-**Cornish:**
-
+</error>
+<result>
 49 Ymons yth felli; ha pan vrasa moy,
 50 moy a gav moy a wulvow dhe wulvow dhe wulvow
 51 an fossa gosek ha diank.
@@ -328,15 +366,13 @@ Please translate each line literally into English and Cornish.
 53 trova le volpi sì piene di froda,
 54 che non temono ingegno che le occùpi.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 52 Then, descending through more depths of sea,
 53 it finds the foxes so full of fraud,
 54 that they fear no cunning that might seize them.
-
-**Cornish:**
-
+</error>
+<result>
 52 Wosa woles orth y'gan moy pelaghi dowr,
 53 y kav an lowarn kemmys leun avel,
 54 na'gas onan orth aga gorra.
@@ -344,7 +380,7 @@ Please translate each line literally into English and Cornish.
 </query>
 <query>
 <info>[Purgatorio Canto 14] 55/151</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into English and Cornish.
 
 55 Né lascerò di dir perch’ altri m’oda;
@@ -352,18 +388,12 @@ Please translate each line literally into English and Cornish.
 57 di ciò che vero spirto mi disnoda.
 </prompt>
 <error result="true">
-index: 0
-finish_reason: OTHER
-</error>
-<result>
 **English:**
-
 55 Nor will I fail to tell why others may hear me;
 56 and he will be fortunate if he still remembers
 57 what the true spirit reveals to me.
-
-**Cornish:**
-
+</error>
+<result>
 55 Na vynnaf vyth hedna rag omma'gan klewas;
 56 ha da yw da yw da, genna kov dhe'n,
 57 a'n pethow a wra dhe spyrys gwir dhe'n.
@@ -378,15 +408,13 @@ Please translate each line literally into English and Cornish.
 59 cacciator di quei lupi in su la riva
 60 del fiero fiume, e tutti li sgomenta.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 58 I see your grandson who becomes
 59 a hunter of those wolves on the bank
 60 of the fierce river, and he terrifies them all.
-
-**Cornish:**
-
+</error>
+<result>
 58 Me a welas dha wodros ow tos ha bos
 59 helghyer a'n bleydhyow hyn war an glann
 60 a'n avon garow, ha'n oll ow a splann.
@@ -401,15 +429,13 @@ Please translate each line literally into English and Cornish.
 62 poscia li ancide come antica belva;
 63 molti di vita e sé di pregio priva.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 61 He sells their flesh while they are still alive;
 62 then he kills them like an ancient beast;
 63 he deprives many of life and himself of honor.
-
-**Cornish:**
-
+</error>
+<result>
 61 Ev a werth aga kig pan vons byw;
 62 wosa henna ev a'n ladd ow hen;
 63 lies a wra devnyth a vewnans ha'y hen.
@@ -424,15 +450,13 @@ Please translate each line literally into English and Cornish.
 65 lasciala tal, che di qui a mille anni
 66 ne lo stato primaio non si rinselva».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 64 Bloodstained he emerges from the dismal forest;
 65 he leaves it such that for a thousand years from now
 66 it will not return to its primeval state.
-
-**Cornish:**
-
+</error>
+<result>
 64 Gwydhek a-dhyworth an wals trist;
 65 ev a'y hedha marow, rag mil vledhen
 66 ny wra hi dhe stat kensa.
@@ -446,28 +470,35 @@ Please translate each line literally into English and Cornish.
 67 Com’ a l’annunzio di dogliosi danni
 68 si turba il viso di colui ch’ascolta,
 69 da qual che parte il periglio l’assanni,
+</prompt>
+<error result="true">
+**English:**
+67 As at the news of grievous harm
+68 the face of the one who listens is troubled,
+69 from whatever direction the danger assails him,
+</error>
+<result>
+67 Vel orth an nowodh a-dro dhe golonnow,
+68 anedhek a wra anedhel an neb a glew,
+69 a'n peth pow a wra an peren ow a'n lew,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 70/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 70 così vid’ io l’altr’ anima, che volta
 71 stava a udir, turbarsi e farsi trista,
 72 poi ch’ebbe la parola a sé raccolta.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-67 As at the news of grievous harm
-68 the face of the one who listens is troubled,
-69 from whatever direction the danger assails him,
-
 70 so I saw the other soul, who was turned
 71 to listen, become troubled and sad,
 72 after he had taken the words to himself.
-
-**Cornish:**
-
-67 Vel orth an nowodh a-dro dhe golonnow,
-68 anedhek a wra anedhel an neb a glew,
-69 a'n peth pow a wra an peren ow a'n lew,
-
+</error>
+<result>
 70 hemma welyn an enef aral, neb o,
 71 ow sevel dhe glewas, ow tos trist ha gow,
 72 wosa henna dhe gemeras an ger a-dro.
@@ -481,28 +512,35 @@ Please translate each line literally into English and Cornish.
 73 Lo dir de l’una e de l’altra la vista
 74 mi fer voglioso di saper lor nomi,
 75 e dimanda ne fei con prieghi mista;
+</prompt>
+<error result="true">
+**English:**
+73 The words and the sight of the one and the other
+74 made me eager to know their names,
+75 and I made a request for them, mixed with entreaties;
+</error>
+<result>
+73 An lavar a'n unn ha'n aral, hag an golon,
+74 a wrug dhe'n ow tos awes dhe'n aga hanow,
+75 ha'n gows a wrug dhe'n, kemmyskys gans plynnow;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 76/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 76 per che lo spirto che di pria parlòmi
 77 ricominciò: «Tu vuo’ ch’io mi deduca
 78 nel fare a te ciò che tu far non vuo’mi.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-73 The words and the sight of the one and the other
-74 made me eager to know their names,
-75 and I made a request for them, mixed with entreaties;
-
 76 whereupon the spirit who had spoken to me first
 77 began again: "You want me to demean myself
 78 by doing for you what you are unwilling to do for me.
-
-**Cornish:**
-
-73 An lavar a'n unn ha'n aral, hag an golon,
-74 a wrug dhe'n ow tos awes dhe'n aga hanow,
-75 ha'n gows a wrug dhe'n, kemmyskys gans plynnow;
-
+</error>
+<result>
 76 rag an spyrys a leveris kyns dhe'n,
 77 a dhallathas: "Ty a vyn ow tos dhe'n gwella
 78 gans gwul dhe'n an peth na vynny ty dhe'n gwella.
@@ -517,15 +555,13 @@ Please translate each line literally into English and Cornish.
 80 tanto sua grazia, non ti sarò scarso;
 81 però sappi ch’io fui Guido del Duca.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 79 But since God wills that His grace shine so brightly in you,
 80 I will not be stingy with you;
 81 therefore know that I was Guido del Duca.
-
-**Cornish:**
-
+</error>
+<result>
 79 Mes rag Dew a vyn yn tos dhe'n dhe sklerhe
 80 kemmyskys Y Gras, ny wra vy skorrys dhe'n;
 81 rag henna kov, vy o Guido del Duca.
@@ -540,15 +576,13 @@ Please translate each line literally into English and Cornish.
 83 che se veduto avesse uom farsi lieto,
 84 visto m’avresti di livore sparso.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 82 My blood was so inflamed with envy
 83 that if I had seen a man make himself happy,
 84 you would have seen me covered with lividness.
-
-**Cornish:**
-
+</error>
+<result>
 82 O'm gwydh o envy o tos kemmyskys gwres,
 83 genna gwelsyn den ow tos ow honen,
 84 ty a wra gweles vy ow tos gwynn gans leven.
@@ -562,28 +596,35 @@ Please translate each line literally into English and Cornish.
 85 Di mia semente cotal paglia mieto;
 86 o gente umana, perché poni ’l core
 87 là ’v’ è mestier di consorte divieto?
+</prompt>
+<error result="true">
+**English:**
+85 From my seed I reap such chaff;
+86 O human race, why do you set your heart
+87 where it is necessary to forbid a partner?
+</error>
+<result>
+85 A'm hadow vy a wra vy ow fesa kemmyskys pal,
+86 O dus den, rag omma ty a dhe'th galon
+87 le may hyll bos mester dhe lettya an keth colon?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 88/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 88 Questi è Rinier; questi è ’l pregio e l’onore
 89 de la casa da Calboli, ove nullo
 90 fatto s’è reda poi del suo valore.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-85 From my seed I reap such chaff;
-86 O human race, why do you set your heart
-87 where it is necessary to forbid a partner?
-
 88 This is Rinier; this is the pride and honor
 89 of the house of Calboli, where no one
 90 has since become heir to his worth.
-
-**Cornish:**
-
-85 A'm hadow vy a wra vy ow fesa kemmyskys pal,
-86 O dus den, rag omma ty a dhe'th galon
-87 le may hyll bos mester dhe lettya an keth colon?
-
+</error>
+<result>
 88 Henna yw Rinier; henna yw an prys ha'n onor
 89 a'n chi Kernow a Galboli, le may neb
 90 a wra gwrys erys wosa henna dhe werth.
@@ -597,28 +638,35 @@ Please translate each line literally into English and Cornish.
 91 E non pur lo suo sangue è fatto brullo,
 92 tra ’l Po e ’l monte e la marina e ’l Reno,
 93 del ben richesto al vero e al trastullo;
+</prompt>
+<error result="true">
+**English:**
+91 And not only his blood has become barren
+92 between the Po and the mountain and the sea and the Rhine,
+93 bereft of the good that is necessary for true and false pleasure;
+</error>
+<result>
+91 Ha na genen ytho y gwydh ow tos gwres,
+92 ynter an Po ha'n menydh ha'n mor ha'n Reno,
+93 a'n da a wra gwir ha fals pleser mes.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 94/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 94 ché dentro a questi termini è ripieno
 95 di venenosi sterpi, sì che tardi
 96 per coltivare omai verrebber meno.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-91 And not only his blood has become barren
-92 between the Po and the mountain and the sea and the Rhine,
-93 bereft of the good that is necessary for true and false pleasure;
-
 94 for within these boundaries it is filled
 95 with poisonous weeds, so that it would now be too late
 96 to reclaim it by cultivation.
-
-**Cornish:**
-
-91 Ha na genen ytho y gwydh ow tos gwres,
-92 ynter an Po ha'n menydh ha'n mor ha'n Reno,
-93 a'n da a wra gwir ha fals pleser mes.
-
+</error>
+<result>
 94 Rag y'n-mes an termennow ma yw leun
 95 gans plansow gwenonek, marow byth vyth dhe'n
 96 dhe'n koltya, rag henna ny wra bos eun.
@@ -632,64 +680,98 @@ Please translate each line literally into English and Cornish.
 97 Ov’ è ’l buon Lizio e Arrigo Mainardi?
 98 Pier Traversaro e Guido di Carpigna?
 99 Oh Romagnuoli tornati in bastardi!
+</prompt>
+<error result="true">
+**English:**
+97 Where is the good Lizio and Arrigo Mainardi?
+98 Pier Traversaro and Guido di Carpigna?
+99 Oh Romagnuoli returned to bastards!
+</error>
+<result>
+97 Piw yw Lizio da ha Arrigo Mainardi?
+98 Pier Traversaro ha Guido di Carpigna?
+99 Oh Romagnuoli dehweles yn bastardi!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 100/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 100 Quando in Bologna un Fabbro si ralligna?
 101 quando in Faenza un Bernardin di Fosco,
 102 verga gentil di picciola gramigna?
+</prompt>
+<error result="true">
+**English:**
+100 When in Bologna will a Fabbro rise again?
+101 When in Faenza a Bernardin di Fosco,
+102 noble scion of a humble stock?
+</error>
+<result>
+100 Pyth pan yn Bologna on Fabbro a wraita?
+101 Pyth pan yn Faenza on Bernardin di Fosco,
+102 verga gentil a vyghan gramigna?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 103/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 103 Non ti maravigliar s’io piango, Tosco,
 104 quando rimembro, con Guido da Prata,
 105 Ugolin d’Azzo che vivette nosco,
+</prompt>
+<error result="true">
+**English:**
+103 Do not wonder if I weep, Tuscan,
+104 when I remember, with Guido da Prata,
+105 Ugolino d’Azzo who lived with us,
+</error>
+<result>
+103 Na wra vyth marvigel syw pyth pan, Tosco,
+104 pyth pan y’m kovsow, gans Guido da Prata,
+105 Ugolin d’Azzo neb a vewas gansow,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 106/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 106 Federigo Tignoso e sua brigata,
 107 la casa Traversara e li Anastagi
 108 (e l’una gente e l’altra è diretata),
+</prompt>
+<error result="true">
+**English:**
+106 Federico Tignoso and his company,
+107 the house of Traversara and the Anastagi
+108 (and both families are extinct),
+</error>
+<result>
+106 Federigo Tignoso ha’y vrigedha,
+107 an chi an Traversara ha’n Anastagi
+108 (ha’n onan dus ha’n aral yw diretata),
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 109/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 109 le donne e ’ cavalier, li affanni e li agi
 110 che ne ’nvogliava amore e cortesia
 111 là dove i cuor son fatti sì malvagi.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-97 Where is the good Lizio and Arrigo Mainardi?
-98 Pier Traversaro and Guido di Carpigna?
-99 Oh Romagnuoli returned to bastards!
-
-100 When in Bologna will a Fabbro rise again?
-101 When in Faenza a Bernardin di Fosco,
-102 noble scion of a humble stock?
-
-103 Do not wonder if I weep, Tuscan,
-104 when I remember, with Guido da Prata,
-105 Ugolino d’Azzo who lived with us,
-
-106 Federico Tignoso and his company,
-107 the house of Traversara and the Anastagi
-108 (and both families are extinct),
-
 109 the ladies and the knights, the hardships and the comforts
 110 that love and courtesy inspired in us
 111 there where hearts have become so wicked.
-
-**Cornish:**
-
-97 Piw yw Lizio da ha Arrigo Mainardi?
-98 Pier Traversaro ha Guido di Carpigna?
-99 Oh Romagnuoli dehweles yn bastardi!
-
-100 Pyth pan yn Bologna on Fabbro a wraita?
-101 Pyth pan yn Faenza on Bernardin di Fosco,
-102 verga gentil a vyghan gramigna?
-
-103 Na wra vyth marvigel syw pyth pan, Tosco,
-104 pyth pan y’m kovsow, gans Guido da Prata,
-105 Ugolin d’Azzo neb a vewas gansow,
-
-106 Federigo Tignoso ha’y vrigedha,
-107 an chi an Traversara ha’n Anastagi
-108 (ha’n onan dus ha’n aral yw diretata),
-
+</error>
+<result>
 109 an menythow ha’n varghoryon, an affannyow ha’n agyow
 110 neb a’n nvogliava karanteth ha kurteisieth
 111 le may fo an kellow yw gwres vyth marow.
@@ -703,28 +785,35 @@ Please translate each line literally into English and Cornish.
 112 O Bretinoro, ché non fuggi via,
 113 poi che gita se n’è la tua famiglia
 114 e molta gente per non esser ria?
+</prompt>
+<error result="true">
+**English:**
+112 O Bretinoro, why do you not flee away,
+113 since your family has departed
+114 and many people to avoid being wicked?
+</error>
+<result>
+112 O Bretinoro, pyth pan na wra vyth fugi via,
+113 pyth pan yw anedha se’n yw dha deylu
+114 ha meur a dus rag na vos ria?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 115/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 115 Ben fa Bagnacaval, che non rifiglia;
 116 e mal fa Castrocaro, e peggio Conio,
 117 che di figliar tai conti più s’impiglia.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-112 O Bretinoro, why do you not flee away,
-113 since your family has departed
-114 and many people to avoid being wicked?
-
 115 Bagnacaval does well, for it does not bear children;
 116 and Castrocaro does badly, and Conio worse,
 117 for they persist in begetting such counts.
-
-**Cornish:**
-
-112 O Bretinoro, pyth pan na wra vyth fugi via,
-113 pyth pan yw anedha se’n yw dha deylu
-114 ha meur a dus rag na vos ria?
-
+</error>
+<result>
 115 Ben fa Bagnacaval, neb na wra vyth rifiglia;
 116 ha mal fa Castrocaro, ha gweth Conio,
 117 neb a figliar tai kontow moy s’impiglia.
@@ -739,15 +828,13 @@ Please translate each line literally into English and Cornish.
 119 lor sen girà; ma non però che puro
 120 già mai rimagna d’essi testimonio.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 118 The pagans will do well, since the devil
 119 will depart from them; but not so that there will ever
 120 remain any pure testimony of them.
-
-**Cornish:**
-
+</error>
+<result>
 118 Ben faranno i Pagan, a-dhia’n an demon
 119 lor sen gira; mes na gevis orth neb
 120 byth vyth rimagna d’essi testimonio.
@@ -762,15 +849,13 @@ Please translate each line literally into English and Cornish.
 122 è ’l nome tuo, da che più non s’aspetta
 123 chi far lo possa, tralignando, scuro.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 121 O Ugolin de’ Fantolin, your name is secure,
 122 since there is no longer any expectation
 123 of anyone who could tarnish it by degenerating.
-
-**Cornish:**
-
+</error>
+<result>
 121 O Ugolin de’ Fantolin, sygur
 122 yw dha hanow, a-dhia moy na wra vyth aspedys
 123 neb a wra gallos ow, tralignando, scuro.
@@ -785,15 +870,13 @@ Please translate each line literally into English and Cornish.
 125 troppo di pianger più che di parlare,
 126 sì m’ha nostra ragion la mente stretta».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 124 But go now, Tuscan, for now it pleases me
 125 more to weep than to speak,
 126 so tightly has our conversation gripped my mind.
-
-**Cornish:**
-
+</error>
+<result>
 124 Mes mos via, Tosco, omai; neb lemmyn vyth diletta
 125 moy a wili orth a leverel,
 126 kemmys yw an gon reson vyth poynt stretta».
@@ -808,15 +891,13 @@ Please translate each line literally into English and Cornish.
 128 ci sentivano andar; però, tacendo,
 129 facëan noi del cammin confidare.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 127 We knew that those dear souls
 128 could hear us walking; therefore, by being silent,
 129 they made us confident of our journey.
-
-**Cornish:**
-
+</error>
+<result>
 127 Ni a wodha ve’n an anoweth care
 128 a wodha klevys ni mos; rag, tacendo,
 129 a wrai ni a’n gammyn confidare.
@@ -830,28 +911,35 @@ Please translate each line literally into English and Cornish.
 130 Poi fummo fatti soli procedendo,
 131 folgore parve quando l’aere fende,
 132 voce che giunse di contra dicendo:
+</prompt>
+<error result="true">
+**English:**
+130 Then, as we proceeded, we were left alone,
+131 a thunderbolt seemed to split the air,
+132 a voice came from the opposite direction saying:
+</error>
+<result>
+130 Piw fummo gwres soli procedendo,
+131 folgore parve pyth pan an aere fende,
+132 vos a junsa a-dhia’n contra dicendo:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 133/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 133 ‘Anciderammi qualunque m’apprende’;
 134 e fuggì come tuon che si dilegua,
 135 se sùbito la nuvola scoscende.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-130 Then, as we proceeded, we were left alone,
-131 a thunderbolt seemed to split the air,
-132 a voice came from the opposite direction saying:
-
 133 ‘Whoever seizes me will kill me’;
 134 and it fled like thunder that fades away,
 135 if the cloud suddenly bursts.
-
-**Cornish:**
-
-130 Piw fummo gwres soli procedendo,
-131 folgore parve pyth pan an aere fende,
-132 vos a junsa a-dhia’n contra dicendo:
-
+</error>
+<result>
 133 ‘Anciderammi qualunque m’apprende’;
 134 ha fuggì come tuon a syw dilegua,
 135 se sùbito an nuvola scoscende.
@@ -865,28 +953,35 @@ Please translate each line literally into English and Cornish.
 136 Come da lei l’udir nostro ebbe triegua,
 137 ed ecco l’altra con sì gran fracasso,
 138 che somigliò tonar che tosto segua:
+</prompt>
+<error result="true">
+**English:**
+136 As soon as our hearing had respite from her,
+137 behold, the other one with such a great crash,
+138 that it resembled thunder that follows quickly:
+</error>
+<result>
+136 Come a-dhia ley an udir nostro ebbe triegua,
+137 ha ecco an aral gans kemmys gran fracasso,
+138 neb a somigliò tonar a tosto segua:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 139/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 139 «Io sono Aglauro che divenni sasso»;
 140 e allor, per ristrignermi al poeta,
 141 in destro feci, e non innanzi, il passo.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-136 As soon as our hearing had respite from her,
-137 behold, the other one with such a great crash,
-138 that it resembled thunder that follows quickly:
-
 139 “I am Aglauros who turned to stone”;
 140 and then, to draw closer to the poet,
 141 I took a step to the right, and not before.
-
-**Cornish:**
-
-136 Come a-dhia ley an udir nostro ebbe triegua,
-137 ha ecco an aral gans kemmys gran fracasso,
-138 neb a somigliò tonar a tosto segua:
-
+</error>
+<result>
 139 «Io sono Aglauro a devenni sasso»;
 140 ha allor, rag ristrignermi al poeta,
 141 yn destro feci, ha na gevis innanzi, an passo.
@@ -901,15 +996,13 @@ Please translate each line literally into English and Cornish.
 143 ed el mi disse: «Quel fu ’l duro camo
 144 che dovria l’uom tener dentro a sua meta.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 142 Now the air was calm on every side;
 143 and he said to me: “That was the harsh bit
 144 that should keep man within his bounds.
-
-**Cornish:**
-
+</error>
+<result>
 142 Gemera an aura d’ogne parte queta;
 143 ha el a wra vyth: «Quel fu ’l duro camo
 144 neb a dhevrya an wom tener dentro a’y meta.
@@ -924,15 +1017,13 @@ Please translate each line literally into English and Cornish.
 146 de l’antico avversaro a sé vi tira;
 147 e però poco val freno o richiamo.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 145 But you seize the bait, so that the hook
 146 of the ancient adversary draws you to him;
 147 and therefore bridle or recall avails little.
-
-**Cornish:**
-
+</error>
+<result>
 145 Mes why a bred an esca, kemmys an amo
 146 a’n antico avversaro a sé why tira;
 147 ha rag poco val freno o richiamo.
@@ -946,24 +1037,31 @@ Please translate each line literally into English and Cornish.
 148 Chiamavi ’l cielo e ’ntorno vi si gira,
 149 mostrandovi le sue bellezze etterne,
 150 e l’occhio vostro pur a terra mira;
-
-151 onde vi batte chi tutto discerne».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 148 He calls to you from heaven and turns around you,
 149 showing you his eternal beauties,
 150 and your eye looks only at the ground;
-
-151 therefore he beats you who discerns all things.
-
-**Cornish:**
-
+</error>
+<result>
 148 Ev a levergh orth y’nenvov ha’gas,
 149 ow tiskwedhes dedh y boosder dremen,
 150 ha’gas ow lagha a wra dhe’n dor;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 151/151</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
+151 onde vi batte chi tutto discerne».
+</prompt>
+<error result="true">
+**English:**
+151 therefore he beats you who discerns all things.
+</error>
+<result>
 151 rag orth henna a wra pub tra gwel.
 </result>
 </query>

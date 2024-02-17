@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="36">
+<queries error="0" count="53">
 <query>
 <info>[Inferno Canto 33] 1/157</info>
 <prompt>
@@ -83,16 +83,23 @@ Please translate each line literally into Ancient Greek.
 16 Che per l’effetto de’ suo’ mai pensieri,
 17 fidandomi di lui, io fossi preso
 18 e poscia morto, dir non è mestieri;
+</prompt>
+<result>
+16 Ὅτι διὰ τὴν ἐπίδραση τῶν δικών του σκέψεων,
+17 ἐμπιστευόμενος σ’ αὐτὸν, ἐλήφθην
+18 καὶ κατόπιν ἐθανατώθην, δὲν χρειάζεται νὰ τὸ πῶ·
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 19/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 19 però quel che non puoi avere inteso,
 20 cioè come la morte mia fu cruda,
 21 udirai, e saprai s’e’ m’ha offeso.
 </prompt>
 <result>
-16 Ὅτι διὰ τὴν ἐπίδραση τῶν δικών του σκέψεων,
-17 ἐμπιστευόμενος σ’ αὐτὸν, ἐλήφθην
-18 καὶ κατόπιν ἐθανατώθην, δὲν χρειάζεται νὰ τὸ πῶ·
-
 19 ὅμως ἐκεῖνο ποὺ δὲν μπόρεσες νὰ καταλάβεις,
 20 δηλαδὴ πῶς ὁ θάνατός μου ἦταν σκληρός,
 21 θὰ τὸ ἀκούσῃς, καὶ θὰ μάθῃς ἐὰν μὲ ἐπρόδωσε.
@@ -106,16 +113,23 @@ Please translate each line literally into Ancient Greek.
 22 Breve pertugio dentro da la Muda,
 23 la qual per me ha ’l titol de la fame,
 24 e che conviene ancor ch’altrui si chiuda,
+</prompt>
+<result>
+22 Μικρὴ διέξοδος μέσα από τη φυλακή,
+23 η οποία για μένα έχει τον τίτλο της πείνας,
+24 και που είναι απαραίτητο να κλείνεται και για τους άλλους,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 25/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 25 m’avea mostrato per lo suo forame
 26 più lune già, quand’ io feci ’l mal sonno
 27 che del futuro mi squarciò ’l velame.
 </prompt>
 <result>
-22 Μικρὴ διέξοδος μέσα από τη φυλακή,
-23 η οποία για μένα έχει τον τίτλο της πείνας,
-24 και που είναι απαραίτητο να κλείνεται και για τους άλλους,
-
 25 μου είχε δείξει μέσα από την τρύπα της
 26 πολλές σελήνες ήδη, όταν έκανα τον κακό ύπνο
 27 που μου ξέσκισε το πέπλο του μέλλοντος.
@@ -160,32 +174,6 @@ Please translate each line literally into Ancient Greek.
 35 lo padre e ’ figli, e con l’agute scane
 36 mi parea lor veder fender li fianchi.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "34 Ἐν μικρῷ διαστήματι ἐφαίνοντό μοι κεκμηκότες\n35 ὁ πατὴρ καὶ οἱ υἱοί, καὶ μετὰ τῶν ὀξέων μαχαιρίδων\n36 ἐδόκουν μοι ὁρᾶν αὐτοὺς τέμνειν τὰ πλευρά."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 34 Ἐν μικρῷ διαστήματι ἐφαίνοντό μοι κεκμηκότες
 35 ὁ πατὴρ καὶ οἱ υἱοί, καὶ μετὰ τῶν ὀξέων μαχαιρίδων
@@ -215,24 +203,38 @@ Please translate each line literally into Ancient Greek.
 40 Ben se’ crudel, se tu già non ti duoli
 41 pensando ciò che ’l mio cor s’annunziava;
 42 e se non piangi, di che pianger suoli?
+</prompt>
+<result>
+40 Σκληρός είσαι, αν δεν πενθείς ήδη
+41 σκεπτόμενος αυτό που η καρδιά μου προμήνυε.
+42 Και αν δεν κλαις, για ποιο πράγμα συνηθίζεις να κλαις;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 43/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 43 Già eran desti, e l’ora s’appressava
 44 che ’l cibo ne solëa essere addotto,
 45 e per suo sogno ciascun dubitava;
+</prompt>
+<result>
+43 Ήταν ήδη ξύπνιοι και η ώρα πλησίαζε
+44 που συνήθιζε να μας φέρνουν το φαγητό,
+45 και ο καθένας ανησυχούσε εξαιτίας του ονείρου του.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 46/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 46 e io senti’ chiavar l’uscio di sotto
 47 a l’orribile torre; ond’ io guardai
 48 nel viso a’ mie’ figliuoi sanza far motto.
 </prompt>
 <result>
-40 Σκληρός είσαι, αν δεν πενθείς ήδη
-41 σκεπτόμενος αυτό που η καρδιά μου προμήνυε.
-42 Και αν δεν κλαις, για ποιο πράγμα συνηθίζεις να κλαις;
-
-43 Ήταν ήδη ξύπνιοι και η ώρα πλησίαζε
-44 που συνήθιζε να μας φέρνουν το φαγητό,
-45 και ο καθένας ανησυχούσε εξαιτίας του ονείρου του.
-
 46 Και άκουσα να κλειδώνουν την πόρτα κάτω
 47 στον τρομερό πύργο. Γι' αυτό κοίταξα
 48 τα πρόσωπα των παιδιών μου χωρίς να πω τίποτα.
@@ -276,24 +278,38 @@ Please translate each line literally into Ancient Greek.
 55 Come un poco di raggio si fu messo
 56 nel doloroso carcere, e io scorsi
 57 per quattro visi il mio aspetto stesso,
+</prompt>
+<result>
+55 Ὡς δ’ ὀλίγη τις ἀκτὶς ἐτέθη
+56 ἐν τῇ οἰκτρᾷ φυλακῇ, καὶ ἐγὼ διέκρινα
+57 διὰ τεσσάρων προσώπων τὴν ἰδίαν μου μορφή,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 58/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 58 ambo le man per lo dolor mi morsi;
 59 ed ei, pensando ch’io ’l fessi per voglia
 60 di manicar, di sùbito levorsi
+</prompt>
+<result>
+58 ἀμφοτέρας τὰς χεῖρας μου δάγκωσα διὰ τὸν πόνον·
+59 καὶ αὐτοί, νομίζοντες ὅτι τὸ ἔπραξα δι’ ἐπιθυμίαν
+60 τοῦ φαγητού, ἀμέσως σηκώθηκαν
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 61/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 61 e disser: “Padre, assai ci fia men doglia
 62 se tu mangi di noi: tu ne vestisti
 63 queste misere carni, e tu le spoglia”.
 </prompt>
 <result>
-55 Ὡς δ’ ὀλίγη τις ἀκτὶς ἐτέθη
-56 ἐν τῇ οἰκτρᾷ φυλακῇ, καὶ ἐγὼ διέκρινα
-57 διὰ τεσσάρων προσώπων τὴν ἰδίαν μου μορφή,
-
-58 ἀμφοτέρας τὰς χεῖρας μου δάγκωσα διὰ τὸν πόνον·
-59 καὶ αὐτοί, νομίζοντες ὅτι τὸ ἔπραξα δι’ ἐπιθυμίαν
-60 τοῦ φαγητού, ἀμέσως σηκώθηκαν
-
 61 καὶ εἶπαν: “Πατέρα, θα εἶναι πολύ λιγότερη θλίψη για μας
 62 ἐάν φας ἐσύ ἀπό ἐμάς· ἐσύ μας ἔνδυσες
 63 με αυτές τις δυστυχισμένες σάρκες, και εσύ τις γδύνεις”.
@@ -307,16 +323,23 @@ Please translate each line literally into Ancient Greek.
 64 Queta’mi allor per non farli più tristi;
 65 lo dì e l’altro stemmo tutti muti;
 66 ahi dura terra, perché non t’apristi?
+</prompt>
+<result>
+64 Ἡσύχασα τότε για να μη τους κάνω πιο λυπημένους.
+65 Την ημέρα εκείνη και την επόμενη μείναμε όλοι σιωπηλοί.
+66 Αχ, σκληρή γη, γιατί δεν άνοιξες;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 67/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 67 Poscia che fummo al quarto dì venuti,
 68 Gaddo mi si gittò disteso a’ piedi,
 69 dicendo: “Padre mio, ché non m’aiuti?”.
 </prompt>
 <result>
-64 Ἡσύχασα τότε για να μη τους κάνω πιο λυπημένους.
-65 Την ημέρα εκείνη και την επόμενη μείναμε όλοι σιωπηλοί.
-66 Αχ, σκληρή γη, γιατί δεν άνοιξες;
-
 67 Όταν φτάσαμε στην τέταρτη μέρα,
 68 ο Γκάδδος έπεσε ξαπλωμένος στα πόδια μου,
 69 λέγοντας: "Πατέρα μου, γιατί δεν με βοηθάς;".
@@ -330,33 +353,38 @@ Please translate each line literally into Ancient Greek.
 70 Quivi morì; e come tu mi vedi,
 71 vid’ io cascar li tre ad uno ad uno
 72 tra ’l quinto dì e ’l sesto; ond’ io mi diedi,
-
-73 già cieco, a brancolar sovra ciascuno,
-74 e due dì li chiamai, poi che fur morti.
 </prompt>
 <result>
 70 Ἐκεῖ πέθανε· καὶ ὡς με βλέπεις,
 71 εἶδα να πέφτουν οἱ τρεῖς ἕνας ἕνας
 72 μεταξὺ τῆς πέμπτης καὶ τῆς ἔκτης ἡμέρας· ἐγὼ τότε,
-
-73 ἤδη τυφλός, ἄρχισα να ψάχνω ψηλαφώντας πάνω σε καθέναν,
-74 καὶ τοὺς φώναζα δύο μέρες, ἀφού πέθαναν.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 33] 75/157</info>
+<info>[Inferno Canto 33] 73/157</info>
 <prompt>
 Please translate each line literally into Ancient Greek.
 
+73 già cieco, a brancolar sovra ciascuno,
+74 e due dì li chiamai, poi che fur morti.
 75 Poscia, più che ’l dolor, poté ’l digiuno».
+</prompt>
+<result>
+73 ἤδη τυφλός, ἄρχισα να ψάχνω ψηλαφώντας πάνω σε καθέναν,
+74 καὶ τοὺς φώναζα δύο μέρες, ἀφού πέθαναν.
+75 Ἔπειτα, περισσότερο από τον πόνο, μπόρεσε η νηστεία».
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 76/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 76 Quand’ ebbe detto ciò, con li occhi torti
 77 riprese ’l teschio misero co’ denti,
 78 che furo a l’osso, come d’un can, forti.
 </prompt>
 <result>
-75 Ἔπειτα, περισσότερο από τον πόνο, μπόρεσε η νηστεία».
-
 76 Όταν είπε αυτό, με τα μάτια στραβά
 77 άρπαξε το δυστυχισμένο κρανίο με τα δόντια του,
 78 που ήταν δυνατά στο κόκαλο, σαν σκύλου.
@@ -370,24 +398,38 @@ Please translate each line literally into Ancient Greek.
 79 Ahi Pisa, vituperio de le genti
 80 del bel paese là dove ’l sì suona,
 81 poi che i vicini a te punir son lenti,
+</prompt>
+<result>
+79 Ὦ Πῑσα, ὄνειδος τῶν ἐθνῶν
+80 τῆς καλῆς χώρας ἐκεῖ ὅπου ἀκούγεται τὸ ναί,
+81 ἐπειδὴ οἱ γείτονές σου είναι αργοί στο να σε τιμωρήσουν,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 82/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 82 muovasi la Capraia e la Gorgona,
 83 e faccian siepe ad Arno in su la foce,
 84 sì ch’elli annieghi in te ogne persona!
+</prompt>
+<result>
+82 ἀς κινηθεί η Καπραία και η Γοργόνα,
+83 και ας σχηματίσουν φράγμα στον Άρνο στην εκβολή του,
+84 έτσι ώστε να πνιγεί σε σένα κάθε άνθρωπος!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 85/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 85 Che se ’l conte Ugolino aveva voce
 86 d’aver tradita te de le castella,
 87 non dovei tu i figliuoi porre a tal croce.
 </prompt>
 <result>
-79 Ὦ Πῑσα, ὄνειδος τῶν ἐθνῶν
-80 τῆς καλῆς χώρας ἐκεῖ ὅπου ἀκούγεται τὸ ναί,
-81 ἐπειδὴ οἱ γείτονές σου είναι αργοί στο να σε τιμωρήσουν,
-
-82 ἀς κινηθεί η Καπραία και η Γοργόνα,
-83 και ας σχηματίσουν φράγμα στον Άρνο στην εκβολή του,
-84 έτσι ώστε να πνιγεί σε σένα κάθε άνθρωπος!
-
 85 Διότι αν ο κόμης Ουγολίνο είχε φήμη
 86 ότι σε πρόδωσε από τα κάστρα,
 87 δεν έπρεπε εσύ να βάλεις τους γιους του σε τέτοιο σταυρό.
@@ -431,16 +473,23 @@ Please translate each line literally into Ancient Greek.
 94 Lo pianto stesso lì pianger non lascia,
 95 e ’l duol che truova in su li occhi rintoppo,
 96 si volge in entro a far crescer l’ambascia;
+</prompt>
+<result>
+94 Ο θρήνος ο ίδιος εκεί δεν αφήνει να κλάψει κανείς,
+95 και η θλίψη που βρίσκει εμπόδιο στα μάτια,
+96 στρέφεται προς τα μέσα για να αυξήσει την οδύνη.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 97/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 97 ché le lagrime prime fanno groppo,
 98 e sì come visiere di cristallo,
 99 rïempion sotto ’l ciglio tutto il coppo.
 </prompt>
 <result>
-94 Ο θρήνος ο ίδιος εκεί δεν αφήνει να κλάψει κανείς,
-95 και η θλίψη που βρίσκει εμπόδιο στα μάτια,
-96 στρέφεται προς τα μέσα για να αυξήσει την οδύνη.
-
 97 Διότι τα πρώτα δάκρυα σχηματίζουν κόμπο,
 98 και σαν γυάλινα προσωπεία,
 99 γεμίζουν κάτω από τα φρύδια όλο το δοχείο.
@@ -454,16 +503,23 @@ Please translate each line literally into Ancient Greek.
 100 E avvegna che, sì come d’un callo,
 101 per la freddura ciascun sentimento
 102 cessato avesse del mio viso stallo,
+</prompt>
+<result>
+100 Καὶ ἐπειδή, ὥσπερ ἀπό κάλλωμα,
+101 διὰ τὸ κρύο κάθε αἴσθηση
+102 σταμάτησε στο πρόσωπό μου,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 103/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 103 già mi parea sentire alquanto vento;
 104 per ch’io: «Maestro mio, questo chi move?
 105 non è qua giù ogne vapore spento?».
 </prompt>
 <result>
-100 Καὶ ἐπειδή, ὥσπερ ἀπό κάλλωμα,
-101 διὰ τὸ κρύο κάθε αἴσθηση
-102 σταμάτησε στο πρόσωπό μου,
-
 103 ἤδη μου φαινόταν να αισθάνομαι λίγο αέρα.
 104 Γι' αυτό είπα: «Δάσκαλέ μου, ποιος τον κινεί;
 105 Δεν έχει σβήσει εδώ κάτω κάθε ατμός;».
@@ -492,16 +548,23 @@ Please translate each line literally into Ancient Greek.
 109 E un de’ tristi de la fredda crosta
 110 gridò a noi: «O anime crudeli
 111 tanto che data v’è l’ultima posta,
+</prompt>
+<result>
+109 Καὶ εἷς τῶν δυστυχῶν τῆς κρύας κρούστας
+110 ἐκραύγασε σε ἐμᾶς: «Ω ψυχές σκληρές,
+111 τόσο που σας δόθηκε η τελευταία θέση,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 112/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 112 levatemi dal viso i duri veli,
 113 sì ch’ïo sfoghi ’l duol che ’l cor m’impregna,
 114 un poco, pria che ’l pianto si raggeli».
 </prompt>
 <result>
-109 Καὶ εἷς τῶν δυστυχῶν τῆς κρύας κρούστας
-110 ἐκραύγασε σε ἐμᾶς: «Ω ψυχές σκληρές,
-111 τόσο που σας δόθηκε η τελευταία θέση,
-
 112 βγάλτε από το πρόσωπό μου τα σκληρά πέπλα,
 113 ώστε να εκφράσω τον πόνο που μου γεμίζει την καρδιά,
 114 για λίγο, πριν παγώσει το κλάμα».
@@ -575,16 +638,23 @@ Please translate each line literally into Ancient Greek.
 127 E perché tu più volentier mi rade
 128 le ’nvetrïate lagrime dal volto,
 129 sappie che, tosto che l’anima trade
+</prompt>
+<result>
+127 Καὶ ἐπειδὴ θέλεις πιο πρόθυμα να σκουπίσεις
+128 τὰ παγωμένα δάκρυα από το πρόσωπό μου,
+129 μάθε ότι, μόλις η ψυχή προδώσει
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 130/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 130 come fec’ ïo, il corpo suo l’è tolto
 131 da un demonio, che poscia il governa
 132 mentre che ’l tempo suo tutto sia vòlto.
 </prompt>
 <result>
-127 Καὶ ἐπειδὴ θέλεις πιο πρόθυμα να σκουπίσεις
-128 τὰ παγωμένα δάκρυα από το πρόσωπό μου,
-129 μάθε ότι, μόλις η ψυχή προδώσει
-
 130 όπως έκανα εγώ, το σώμα της αφαιρείται
 131 από έναν δαίμονα, ο οποίος στη συνέχεια το κυβερνά
 132 μέχρι να ολοκληρωθεί ο χρόνος του.
@@ -643,16 +713,23 @@ Please translate each line literally into Ancient Greek.
 142 «Nel fosso sù», diss’ el, «de’ Malebranche,
 143 là dove bolle la tenace pece,
 144 non era ancora giunto Michel Zanche,
+</prompt>
+<result>
+142 «Εἰς τὴν τάφρον ἄνω», εἶπεν αὐτός, «τῶν Κακοβούλων,
+143 ἐκεῖ ὅπου βράζει ἡ κολλώδης πίσσα,
+144 δεν είχε φθάσει ακόμη ὁ Μιχαὴλ Ζάνκε,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 145/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
 145 che questi lasciò il diavolo in sua vece
 146 nel corpo suo, ed un suo prossimano
 147 che ’l tradimento insieme con lui fece.
 </prompt>
 <result>
-142 «Εἰς τὴν τάφρον ἄνω», εἶπεν αὐτός, «τῶν Κακοβούλων,
-143 ἐκεῖ ὅπου βράζει ἡ κολλώδης πίσσα,
-144 δεν είχε φθάσει ακόμη ὁ Μιχαὴλ Ζάνκε,
-
 145 ὅτι αὐτός ἄφησε τὸν διάβολο ἀντ᾽ αὐτοῦ
 146 μέσα στο σῶμά του, καὶ ἕναν δικό του πλησίον
 147 ὅστις τὴν προδοσίαν ὁμοῦ με αὐτὸν ἔπραξε.
@@ -681,22 +758,36 @@ Please translate each line literally into Ancient Greek.
 151 Ahi Genovesi, uomini diversi
 152 d’ogne costume e pien d’ogne magagna,
 153 perché non siete voi del mondo spersi?
-
-154 Ché col peggiore spirto di Romagna
-155 trovai di voi un tal, che per sua opra
-156 in anima in Cocito già si bagna,
-
-157 e in corpo par vivo ancor di sopra.
 </prompt>
 <result>
 151 Ὦ Γενουῆτες, ἄνδρες διάφοροι
 152 παντὸς ἔθους καὶ πλήρεις παντὸς κακοῦ,
 153 διατί δεν εἶστε διασκορπισμένοι στον κόσμο;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 154/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
+154 Ché col peggiore spirto di Romagna
+155 trovai di voi un tal, che per sua opra
+156 in anima in Cocito già si bagna,
+</prompt>
+<result>
 154 Διότι με το χειρότερο πνεύμα της Ρομάνιας
 155 βρήκα έναν από εσάς, ο οποίος με το έργο του
 156 στην ψυχή στον Κωκυτό ήδη βρέχεται,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 33] 157/157</info>
+<prompt>
+Please translate each line literally into Ancient Greek.
 
+157 e in corpo par vivo ancor di sopra.
+</prompt>
+<result>
 157 και στο σώμα φαίνεται ακόμα ζωντανός επάνω.
 </result>
 </query>

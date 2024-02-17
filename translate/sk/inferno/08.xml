@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Slovak.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 Hovorím, pokračujúc, že dávno predtým,
+2 ako sme boli pri úpätí vysokej veže,
+3 naše oči sa upreli na jej vrchol
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1 Hovorím, pokračujúc, že dávno predtým,
-2 ako sme boli pri úpätí vysokej veže,
-3 naše oči sa upreli na jej vrchol
-
 4 kvôli dvom plamienkom, ktoré sme tam videli,
 5 a ďalší v diaľke dával znamenie,
 6 takže ho oko sotva mohlo zachytiť.
@@ -61,19 +68,26 @@ Please translate each line literally into Slovak.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 Lano nikdy nevystrelilo šíp samo od seba
+14 ktoré by tak rýchlo letelo vzduchom,
+15 ako som videl jednu malú loďku
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 Lano nikdy nevystrelilo šíp
-14, ktorý by tak rýchlo letel vzduchom,
-15 ako som videl malú loďku
-
-16 prichádzať k nám po vode,
-17 pod vedením jediného veslára,
-18 ktorý kričal: „Teraz si tu, zlá duša!“.
+16 prichádzaťknámpresvody,
+17 podvedenímjedinéhoveslára,
+18 ktorýkričal:„Užsiprišla,tyzlomyseľnáduša!“.
 </result>
 </query>
 <query>
@@ -175,32 +189,6 @@ Please translate each line literally into Slovak.
 38 spirito maladetto, ti rimani;
 39 ch’i’ ti conosco, ancor sie lordo tutto».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 A ja som mu povedal: „S plačom a smútkom,\n38 prekliaty duchu, zostaň;\n39 lebo ťa poznám, aj keď si celý špinavý“."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 37 A ja som mu povedal: „S plačom a smútkom,
 38 prekliaty duchu, zostaň;
@@ -230,16 +218,23 @@ Please translate each line literally into Slovak.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 Potom ma objal okolo krku;
+44 pobozkal ma na tvár a povedal: „Ó, hrdá duša,
+45 požehnaná buď tá, ktorá ťa počala!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 Potom ma objal okolo krku;
-44 pobozkal ma na tvár a povedal: „Ó, hrdá duša,
-45 požehnaná buď tá, ktorá ťa počala!
-
 46 Ten bol na svete pyšným človekom;
 47 niet žiadnej dobroty, ktorá by zdobila jeho pamiatku:
 48 preto je jeho tieň tu taký zúrivý.
@@ -358,18 +353,25 @@ Please translate each line literally into Slovak.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 A ja: „Majstre, už jeho mešity
+71 tam vo vnútri údolia rozoznávam,
+72 červené, akoby vyšli z ohňa
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
 <result>
-70 A ja som povedal: „Majstre, už vidím jeho mešity
-71 tam dole v údolí, čierne,
-72 červené, akoby vyšli z ohňa
-
-73“. A on mi povedal: „Večný oheň,
-74 ktorý ich spaľuje zvnútra, ich ukazuje červené,
+73 boli“. A on mi povedal: „Večný oheň,
+74 ktorý ich vnútri spaľuje, ich ukazuje červené,
 75 ako vidíš v tomto dolnom pekle“.
 </result>
 </query>
@@ -411,33 +413,38 @@ Please translate each line literally into Slovak.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
 82 Videl som viac ako tisíc na bránach,
 83 ktorí padali z neba a nahnevane
 84 hovorili: „Kto je to, kto bez smrti
-
-85 kráča po ríši mŕtvych?“.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into Slovak.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 kráča po ríši mŕtvych?“.
+86 A môj múdry učiteľ dal znamenie,
+87 že s nimi chce hovoriť tajne.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 A môj múdry učiteľ dal znamenie,
-87 že s nimi chce hovoriť tajne.
-
 88 Potom trochu potlačili svoj veľký hnev
 89 a povedali: „Príď sám a nech ten druhý odíde,
 90 ktorý tak smelo vstúpil do tohto kráľovstva.
@@ -481,16 +488,23 @@ Please translate each line literally into Slovak.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 „Ó, môj drahý vodca, ktorý si mi už viac ako sedemkrát
+98 vrátil bezpečnosť a zachránil ma
+99 z veľkého nebezpečenstva, ktoré mi stálo v ceste,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 „Ó, môj drahý vodca, ktorý si mi už viac ako sedemkrát
-98 vrátil bezpečnosť a zachránil ma
-99 z veľkého nebezpečenstva, ktoré mi stálo v ceste,
-
 100 neopúšťaj ma“, povedal som, „takto zničeného;
 101 a ak nám je ďalší prechod zamietnutý,
 102 rýchlo nájdime naše stopy späť“.
@@ -624,14 +638,21 @@ Please translate each line literally into Slovak.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 Nad ňou si viedol mŕtvy nápis:
 128 a už z tejto strany od nej klesá strmý svah,
 129 prechádzajúci cez kruhy bez sprievodu,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Slovak.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 takže pre neho bude zem otvorená“.
 </result>
 </query>

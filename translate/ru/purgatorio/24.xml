@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries error="0" count="52">
 <query>
 <info>[Purgatorio Canto 24] 1/154</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Russian.
 1 Né ’l dir l’andar, né l’andar lui più lento
 2 facea, ma ragionando andavam forte,
 3 sì come nave pinta da buon vento;
+</prompt>
+<result>
+1 Ни рассказывать о пути, ни идти медленнее
+2 не мог, но рассуждая, шли быстро,
+3 как корабль, гонимый попутным ветром;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 4/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 4 e l’ombre, che parean cose rimorte,
 5 per le fosse de li occhi ammirazione
 6 traean di me, di mio vivere accorte.
 </prompt>
 <result>
-1 Ни рассказывать о пути, ни идти медленнее
-2 не мог, но рассуждая, шли быстро,
-3 как корабль, гонимый попутным ветром;
-
 4 и тени, которые казались мёртвыми вещами,
 5 из глазниц вызывали удивление
 6 ко мне, понимая мою жизнь.
@@ -91,16 +98,23 @@ Please translate each line literally into Russian.
 19 Questi», e mostrò col dito, «è Bonagiunta,
 20 Bonagiunta da Lucca; e quella faccia
 21 di là da lui più che l’altre trapunta
+</prompt>
+<result>
+19 «Этот», и показала пальцем, «Бониджунта,
+20 Бониджунта из Лукки; а то лицо
+21 там, дальше него, более изуродованное, чем другие,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 22/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 22 ebbe la Santa Chiesa in le sue braccia:
 23 dal Torso fu, e purga per digiuno
 24 l’anguille di Bolsena e la vernaccia».
 </prompt>
 <result>
-19 «Этот», и показала пальцем, «Бониджунта,
-20 Бониджунта из Лукки; а то лицо
-21 там, дальше него, более изуродованное, чем другие,
-
 22 было в объятиях Святой Церкви:
 23 он был из Торсо и искупает постом
 24 угрей Больсены и верначчу».
@@ -190,32 +204,6 @@ Please translate each line literally into Russian.
 41 di parlar meco, fa sì ch’io t’intenda,
 42 e te e me col tuo parlare appaga».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "40 «О душа», сказал я, «которая, кажется, так желает\n41 поговорить со мной, сделай так, чтобы я тебя понял,\n42 и удовлетвори и себя, и меня своей речью»."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 40 «О душа», сказал я, «которая, кажется, так желает
 41 поговорить со мной, сделай так, чтобы я тебя понял,
@@ -290,24 +278,38 @@ Please translate each line literally into Russian.
 55 «O frate, issa vegg’ io», diss’ elli, «il nodo
 56 che ’l Notaro e Guittone e me ritenne
 57 di qua dal dolce stil novo ch’i’ odo!
+</prompt>
+<result>
+55 «О брат, теперь я вижу», сказал он, «узел,
+56 который Нотаро, и Гвиттоне, и меня удерживал
+57 по эту сторону от нового сладостного стиля, который я слышу!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 58/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 58 Io veggio ben come le vostre penne
 59 di retro al dittator sen vanno strette,
 60 che de le nostre certo non avvenne;
+</prompt>
+<result>
+58 Я хорошо вижу, как ваши перья
+59 следуют за диктатором,
+60 чего с нашими перьями, конечно, не происходило;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 61/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 61 e qual più a gradire oltre si mette,
 62 non vede più da l’uno a l’altro stilo»;
 63 e, quasi contentato, si tacette.
 </prompt>
 <result>
-55 «О брат, теперь я вижу», сказал он, «узел,
-56 который Нотаро, и Гвиттоне, и меня удерживал
-57 по эту сторону от нового сладостного стиля, который я слышу!
-
-58 Я хорошо вижу, как ваши перья
-59 следуют за диктатором,
-60 чего с нашими перьями, конечно, не происходило;
-
 61 и тот, кто больше старается угодить,
 62 больше не видит разницы между одним и другим стилем»;
 63 и, как будто удовлетворенный, замолчал.
@@ -321,16 +323,23 @@ Please translate each line literally into Russian.
 64 Come li augei che vernan lungo ’l Nilo,
 65 alcuna volta in aere fanno schiera,
 66 poi volan più a fretta e vanno in filo,
+</prompt>
+<result>
+64 Как птицы, которые зимуют вдоль Нила,
+65 иногда собираются в стаи в воздухе,
+66 затем летят быстрее и выстраиваются в ряд,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 67/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 67 così tutta la gente che lì era,
 68 volgendo ’l viso, raffrettò suo passo,
 69 e per magrezza e per voler leggera.
 </prompt>
 <result>
-64 Как птицы, которые зимуют вдоль Нила,
-65 иногда собираются в стаи в воздухе,
-66 затем летят быстрее и выстраиваются в ряд,
-
 67 так и все люди, которые там были,
 68 повернув лица, ускорили свой шаг,
 69 из-за худобы и желания быть легкими.
@@ -344,16 +353,23 @@ Please translate each line literally into Russian.
 70 E come l’uom che di trottare è lasso,
 71 lascia andar li compagni, e sì passeggia
 72 fin che si sfoghi l’affollar del casso,
+</prompt>
+<result>
+70 И как человек, уставший от бега трусцой,
+71 отпускает товарищей и идет шагом,
+72 пока не пройдет одышка,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 73/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 73 sì lasciò trapassar la santa greggia
 74 Forese, e dietro meco sen veniva,
 75 dicendo: «Quando fia ch’io ti riveggia?».
 </prompt>
 <result>
-70 И как человек, уставший от бега трусцой,
-71 отпускает товарищей и идет шагом,
-72 пока не пройдет одышка,
-
 73 так и святое стадо оставил позади
 74 Форезе и следом за мной шел,
 75 говоря: «Когда я тебя снова увижу?».
@@ -367,16 +383,23 @@ Please translate each line literally into Russian.
 76 «Non so», rispuos’ io lui, «quant’ io mi viva;
 77 ma già non fïa il tornar mio tantosto,
 78 ch’io non sia col voler prima a la riva;
+</prompt>
+<result>
+76 «Не знаю», ответил я ему, «сколько мне осталось жить;
+77 но мое возвращение не будет таким скорым,
+78 чтобы я не оказался сначала на берегу по своей воле;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 79/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 79 però che ’l loco u’ fui a viver posto,
 80 di giorno in giorno più di ben si spolpa,
 81 e a trista ruina par disposto».
 </prompt>
 <result>
-76 «Не знаю», ответил я ему, «сколько мне осталось жить;
-77 но мое возвращение не будет таким скорым,
-78 чтобы я не оказался сначала на берегу по своей воле;
-
 79 потому что место, где я был помещен для жизни,
 80 со дня на день все больше лишается добра
 81 и, кажется, готово к печальному разрушению».
@@ -450,16 +473,23 @@ Please translate each line literally into Russian.
 94 Qual esce alcuna volta di gualoppo
 95 lo cavalier di schiera che cavalchi,
 96 e va per farsi onor del primo intoppo,
+</prompt>
+<result>
+94 Как иногда выезжает галопом
+95 всадник из отряда всадников,
+96 и едет, чтобы снискать славу в первой стычке,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 97/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 97 tal si partì da noi con maggior valchi;
 98 e io rimasi in via con esso i due
 99 che fuor del mondo sì gran marescalchi.
 </prompt>
 <result>
-94 Как иногда выезжает галопом
-95 всадник из отряда всадников,
-96 и едет, чтобы снискать славу в первой стычке,
-
 97 так и он покинул нас с большей прытью;
 98 а я остался в пути с теми двумя,
 99 которые были такими великими маршалами вне мира.
@@ -473,16 +503,23 @@ Please translate each line literally into Russian.
 100 E quando innanzi a noi intrato fue,
 101 che li occhi miei si fero a lui seguaci,
 102 come la mente a le parole sue,
+</prompt>
+<result>
+100 И когда он вошел перед нами,
+101 так что мои глаза последовали за ним,
+102 как ум за его словами,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 103/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 103 parvermi i rami gravidi e vivaci
 104 d’un altro pomo, e non molto lontani
 105 per esser pur allora vòlto in laci.
 </prompt>
 <result>
-100 И когда он вошел перед нами,
-101 так что мои глаза последовали за ним,
-102 как ум за его словами,
-
 103 мне показались ветви тяжелыми и живыми
 104 от другого плода, и не очень далеко
 105 из-за того, что только что обернулись в петли.
@@ -496,16 +533,23 @@ Please translate each line literally into Russian.
 106 Vidi gente sott’ esso alzar le mani
 107 e gridar non so che verso le fronde,
 108 quasi bramosi fantolini e vani
+</prompt>
+<result>
+106 Я видел, как люди под ним поднимали руки
+107 и кричали что-то в сторону листвы,
+108 как жадные и тщеславные дети,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 109/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 109 che pregano, e ’l pregato non risponde,
 110 ma, per fare esser ben la voglia acuta,
 111 tien alto lor disio e nol nasconde.
 </prompt>
 <result>
-106 Я видел, как люди под ним поднимали руки
-107 и кричали что-то в сторону листвы,
-108 как жадные и тщеславные дети,
-
 109 которые молятся, а тот, к кому обращаются с молитвой, не отвечает,
 110 но, чтобы сделать желание более острым,
 111 держит их желание высоко и не скрывает его.
@@ -564,16 +608,23 @@ Please translate each line literally into Russian.
 121 «Ricordivi», dicea, «d’i maladetti
 122 nei nuvoli formati, che, satolli,
 123 Tesëo combatter co’ doppi petti;
+</prompt>
+<result>
+121 «Вспомни», говорил он, «о проклятых,
+122 образовавшихся из облаков, которые, насытившись,
+123 сражались с Тесеем с двойными грудями;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 124/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 124 e de li Ebrei ch’al ber si mostrar molli,
 125 per che no i volle Gedeon compagni,
 126 quando inver’ Madïan discese i colli».
 </prompt>
 <result>
-121 «Вспомни», говорил он, «о проклятых,
-122 образовавшихся из облаков, которые, насытившись,
-123 сражались с Тесеем с двойными грудями;
-
 124 и о евреях, которые оказались слабыми у источника,
 125 из-за чего Гедеон не захотел брать их с собой,
 126 когда спускался с холмов к Мадиаму».
@@ -632,16 +683,23 @@ Please translate each line literally into Russian.
 136 Drizzai la testa per veder chi fossi;
 137 e già mai non si videro in fornace
 138 vetri o metalli sì lucenti e rossi,
+</prompt>
+<result>
+136 Я поднял голову, чтобы увидеть, кто это;
+137 и никогда еще не видели в печи
+138 стекло или металл такими блестящими и красными,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 139/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 139 com’ io vidi un che dicea: «S’a voi piace
 140 montare in sù, qui si convien dar volta;
 141 quinci si va chi vuole andar per pace».
 </prompt>
 <result>
-136 Я поднял голову, чтобы увидеть, кто это;
-137 и никогда еще не видели в печи
-138 стекло или металл такими блестящими и красными,
-
 139 как я увидел того, кто сказал: «Если вам угодно
 140 подняться наверх, здесь нужно повернуть;
 141 отсюда идет тот, кто хочет идти к миру».
@@ -670,16 +728,23 @@ Please translate each line literally into Russian.
 145 E quale, annunziatrice de li albori,
 146 l’aura di maggio movesi e olezza,
 147 tutta impregnata da l’erba e da’ fiori;
+</prompt>
+<result>
+145 И как предвестница рассвета,
+146 майский ветерок движется и благоухает,
+147 весь пропитанный травой и цветами;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 148/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
 148 tal mi senti’ un vento dar per mezza
 149 la fronte, e ben senti’ mover la piuma,
 150 che fé sentir d’ambrosïa l’orezza.
 </prompt>
 <result>
-145 И как предвестница рассвета,
-146 майский ветерок движется и благоухает,
-147 весь пропитанный травой и цветами;
-
 148 так я почувствовал, как ветер дует мне в лоб,
 149 и явственно ощутил движение пера,
 150 которое заставило почувствовать аромат амброзии.
@@ -693,14 +758,21 @@ Please translate each line literally into Russian.
 151 E senti’ dir: «Beati cui alluma
 152 tanto di grazia, che l’amor del gusto
 153 nel petto lor troppo disir non fuma,
-
-154 esurïendo sempre quanto è giusto!».
 </prompt>
 <result>
 151 И я услышал: «Блаженны те, кого зажигает
 152 такой благодатью, что любовь к вкусу
 153 в их груди не разжигает слишком сильного желания,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 24] 154/154</info>
+<prompt>
+Please translate each line literally into Russian.
 
+154 esurïendo sempre quanto è giusto!».
+</prompt>
+<result>
 154 всегда голодая ровно столько, сколько нужно!».
 </result>
 </query>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="44">
 <query>
 <info>[Inferno Canto 7] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Dutch.
 1 «Pape Satàn, pape Satàn aleppe!»,
 2 cominciò Pluto con la voce chioccia;
 3 e quel savio gentil, che tutto seppe,
+</prompt>
+<result>
+1 "Pape Satàn, pape Satàn aleppe!",
+2 begon Pluto met zijn schorre stem;
+3 en die wijze wijze, die alles wist,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 4/130</info>
+<prompt>
+Please translate each line literally into Dutch.
 
 4 disse per confortarmi: «Non ti noccia
 5 la tua paura; ché, poder ch’elli abbia,
 6 non ci torrà lo scender questa roccia».
 </prompt>
 <result>
-1 "Pape Satàn, pape Satàn aleppe!",
-2 begon Pluto met zijn schorre stem;
-3 en die wijze wijze, die alles wist,
-
 4 zei om mij gerust te stellen: "Laat je niet hinderen
 5 door je angst; want, hoe machtig hij ook is,
 6 hij zal ons niet beletten deze rots af te dalen".
@@ -32,32 +39,6 @@ Please translate each line literally into Dutch.
 8 e disse: «Taci, maladetto lupo!
 9 consuma dentro te con la tua rabbia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "7 Toen richtte hij zich tot die opgeblazen bek,\n8 en zei: \"Zwijg, vervloekte wolf!\n9 Verteer jezelf met je eigen woede."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 7 Toen richtte hij zich tot die opgeblazen bek,
 8 en zei: "Zwijg, vervloekte wolf!
@@ -117,16 +98,23 @@ Please translate each line literally into Dutch.
 19 Ahi giustizia di Dio! tante chi stipa
 20 nove travaglie e pene quant’ io viddi?
 21 e perché nostra colpa sì ne scipa?
+</prompt>
+<result>
+19 Ach, goddelijke gerechtigheid! Hoeveel mensen propt u
+20 in nieuwe kwellingen en pijnen, zoals ik zag?
+21 En waarom vernietigt onze schuld ons zo?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 22/130</info>
+<prompt>
+Please translate each line literally into Dutch.
 
 22 Come fa l’onda là sovra Cariddi,
 23 che si frange con quella in cui s’intoppa,
 24 così convien che qui la gente riddi.
 </prompt>
 <result>
-19 Ach, goddelijke gerechtigheid! Hoeveel mensen propt u
-20 in nieuwe kwellingen en pijnen, zoals ik zag?
-21 En waarom vernietigt onze schuld ons zo?
-
 22 Zoals de golf daarboven bij Charybdis,
 23 die breekt met de golf waarmee hij botst,
 24 zo moet het volk hier ronddraaien.
@@ -157,8 +145,9 @@ Please translate each line literally into Dutch.
 30 gridando: «Perché tieni?» e «Perché burli?».
 </prompt>
 <result>
-28 Ze sloegen elkaar en daarna keerden ze zich om,
-29 draaiden zich om en riepen: "Waarom houd je vast?" en "Waarom duw je?".
+28 Ze stootten tegen elkaar; en daarna
+29 draaide ieder zich om, terugkijkend,
+30 en riepen: "Waarom houd je vast?" en "Waarom spot je?".
 </result>
 </query>
 <query>
@@ -169,33 +158,38 @@ Please translate each line literally into Dutch.
 31 Così tornavan per lo cerchio tetro
 32 da ogne mano a l’opposito punto,
 33 gridandosi anche loro ontoso metro;
-
-34 poi si volgea ciascun, quand’ era giunto,
-35 per lo suo mezzo cerchio a l’altra giostra.
 </prompt>
 <result>
 31 Zo keerden ze terug door de donkere kring
 32 van beide kanten naar het tegenovergestelde punt,
 33 elkaar ook beledigende woorden toeschreeuwend;
-
-34 daarna draaide ieder zich om, wanneer hij was aangekomen,
-35 door zijn halve kring naar de andere strijd.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 36/130</info>
+<info>[Inferno Canto 7] 34/130</info>
 <prompt>
 Please translate each line literally into Dutch.
 
+34 poi si volgea ciascun, quand’ era giunto,
+35 per lo suo mezzo cerchio a l’altra giostra.
 36 E io, ch’avea lo cor quasi compunto,
+</prompt>
+<result>
+34 daarna draaide ieder zich om, wanneer hij was aangekomen,
+35 door zijn halve kring naar de andere strijd.
+36 En ik, die mijn hart bijna gebroken had,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 37/130</info>
+<prompt>
+Please translate each line literally into Dutch.
 
 37 dissi: «Maestro mio, or mi dimostra
 38 che gente è questa, e se tutti fuor cherci
 39 questi chercuti a la sinistra nostra».
 </prompt>
 <result>
-36 En ik, die mijn hart bijna gebroken had,
-
 37 zei: "Meester, laat me nu zien
 38 wat voor mensen dit zijn, en of al deze geschoren mensen
 39 aan onze linkerhand geestelijken waren".
@@ -314,16 +308,23 @@ Please translate each line literally into Dutch.
 61 Or puoi, figliuol, veder la corta buffa
 62 d’i ben che son commessi a la fortuna,
 63 per che l’umana gente si rabbuffa;
+</prompt>
+<result>
+61 Nu kun je, zoon, de korte klucht zien
+62 van de goederen die aan het lot zijn toevertrouwd,
+63 waardoor de mensheid ruziemaakt;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 64/130</info>
+<prompt>
+Please translate each line literally into Dutch.
 
 64 ché tutto l’oro ch’è sotto la luna
 65 e che già fu, di quest’ anime stanche
 66 non poterebbe farne posare una».
 </prompt>
 <result>
-61 Nu kun je, zoon, de korte klucht zien
-62 van de goederen die aan het lot zijn toevertrouwd,
-63 waardoor de mensheid ruziemaakt;
-
 64 want al het goud dat er onder de maan is
 65 en dat er ooit was, zou deze vermoeide zielen
 66 niet tot rust kunnen brengen.
@@ -353,32 +354,6 @@ Please translate each line literally into Dutch.
 71 quanta ignoranza è quella che v’offende!
 72 Or vo’ che tu mia sentenza ne ’mbocche.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 En hij zei tegen mij: \"O dwaze schepselen,\n71 hoeveel onwetendheid is het die jullie beledigt!\n72 Nu wil ik dat je mijn oordeel in je opneemt."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 70 En hij zei tegen mij: "O dwaze schepselen,
 71 hoeveel onwetendheid is het die jullie beledigt!
@@ -393,41 +368,53 @@ Please translate each line literally into Dutch.
 73 Colui lo cui saver tutto trascende,
 74 fece li cieli e diè lor chi conduce
 75 sì, ch’ogne parte ad ogne parte splende,
-
-76 distribuendo igualmente la luce.
 </prompt>
 <result>
 73 Hij wiens kennis alles overstijgt,
 74 schiep de hemelen en gaf hun een leider,
 75 zodat elk deel voor elk deel schittert,
-
-76 door het licht gelijkmatig te verdelen.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 77/130</info>
+<info>[Inferno Canto 7] 76/130</info>
 <prompt>
 Please translate each line literally into Dutch.
 
+76 distribuendo igualmente la luce.
 77 Similemente a li splendor mondani
 78 ordinò general ministra e duce
+</prompt>
+<result>
+76 door het licht gelijkmatig te verdelen.
+77 Op dezelfde manier stelde hij voor de wereldse schittering
+78 een algemene bestuurder en leider aan,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 79/130</info>
+<prompt>
+Please translate each line literally into Dutch.
 
 79 che permutasse a tempo li ben vani
 80 di gente in gente e d’uno in altro sangue,
 81 oltre la difension d’i senni umani;
+</prompt>
+<result>
+79 die de ijdele goederen van tijd tot tijd zou verwisselen
+80 van volk tot volk en van het ene bloed naar het andere,
+81 buiten de bescherming van de menselijke zintuigen om;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 82/130</info>
+<prompt>
+Please translate each line literally into Dutch.
 
 82 per ch’una gente impera e l’altra langue,
 83 seguendo lo giudicio di costei,
 84 che è occulto come in erba l’angue.
 </prompt>
 <result>
-77 Op dezelfde manier stelde hij voor de wereldse schittering
-78 een algemene bestuurder en leider aan,
-
-79 die de ijdele goederen van tijd tot tijd zou verwisselen
-80 van volk tot volk en van het ene bloed naar het andere,
-81 buiten de bescherming van de menselijke zintuigen om;
-
 82 zodat het ene volk heerst en het andere lijdt,
 83 volgens het oordeel van deze vrouw,
 84 dat verborgen is als een slang in het gras.
@@ -471,16 +458,23 @@ Please translate each line literally into Dutch.
 91 Quest’ è colei ch’è tanto posta in croce
 92 pur da color che le dovrien dar lode,
 93 dandole biasmo a torto e mala voce;
+</prompt>
+<result>
+91 Zij is het die zozeer aan de schandpaal wordt genageld
+92 juist door degenen die haar zouden moeten prijzen,
+93 haar ten onrechte de schuld gevend en haar een slechte naam gevend;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 94/130</info>
+<prompt>
+Please translate each line literally into Dutch.
 
 94 ma ella s’è beata e ciò non ode:
 95 con l’altre prime creature lieta
 96 volve sua spera e beata si gode.
 </prompt>
 <result>
-91 Zij is het die zozeer aan de schandpaal wordt genageld
-92 juist door degenen die haar zouden moeten prijzen,
-93 haar ten onrechte de schuld gevend en haar een slechte naam gevend;
-
 94 maar zij is gelukkig en hoort dat niet:
 95 samen met de andere eerste schepselen blij
 96 draait ze haar sfeer en geniet ze van haar geluk.
@@ -570,32 +564,6 @@ Please translate each line literally into Dutch.
 113 ma con la testa e col petto e coi piedi,
 114 troncandosi co’ denti a brano a brano.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "112 Zij slaan elkaar niet alleen met hun handen,\n113 maar ook met hun hoofd, borst en voeten,\n114 en bijten elkaar stuk voor stuk af."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 112 Zij slaan elkaar niet alleen met hun handen,
 113 maar ook met hun hoofd, borst en voeten,
@@ -610,16 +578,23 @@ Please translate each line literally into Dutch.
 115 Lo buon maestro disse: «Figlio, or vedi
 116 l’anime di color cui vinse l’ira;
 117 e anche vo’ che tu per certo credi
+</prompt>
+<result>
+115 De goede meester zei: "Zoon, zie nu
+116 de zielen van hen die door woede werden overwonnen;
+117 en ik wil ook dat je zeker gelooft
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 118/130</info>
+<prompt>
+Please translate each line literally into Dutch.
 
 118 che sotto l’acqua è gente che sospira,
 119 e fanno pullular quest’ acqua al summo,
 120 come l’occhio ti dice, u’ che s’aggira.
 </prompt>
 <result>
-115 De goede meester zei: "Zoon, zie nu
-116 de zielen van hen die door woede werden overwonnen;
-117 en ik wil ook dat je zeker gelooft
-
 118 dat er onder het water mensen zijn die zuchten,
 119 en die dit water bovenaan doen borrelen,
 120 zoals je oog je vertelt, waar het zich ook beweegt.
@@ -633,33 +608,38 @@ Please translate each line literally into Dutch.
 121 Fitti nel limo dicon: “Tristi fummo
 122 ne l’aere dolce che dal sol s’allegra,
 123 portando dentro accidïoso fummo:
-
-124 or ci attristiam ne la belletta negra”.
 </prompt>
 <result>
 121 Vast in het slijk zeggen ze: "Wij waren treurig
 122 in de zoete lucht die door de zon wordt verblijd,
 123 en droegen van binnen een zure damp:
-
-124 nu zijn we bedroefd in de zwarte modder".
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 125/130</info>
+<info>[Inferno Canto 7] 124/130</info>
 <prompt>
 Please translate each line literally into Dutch.
 
+124 or ci attristiam ne la belletta negra”.
 125 Quest’ inno si gorgoglian ne la strozza,
 126 ché dir nol posson con parola integra».
+</prompt>
+<result>
+124 nu zijn we bedroefd in de zwarte modder".
+125 Dit lied gorgelt in hun keel,
+126 want ze kunnen het niet met een heel woord zeggen".
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 127/130</info>
+<prompt>
+Please translate each line literally into Dutch.
 
 127 Così girammo de la lorda pozza
 128 grand’ arco tra la ripa secca e ’l mézzo,
 129 con li occhi vòlti a chi del fango ingozza.
 </prompt>
 <result>
-125 Dit lied gorgelt in hun keel,
-126 want ze kunnen het niet met een heel woord zeggen".
-
 127 Zo gingen we rond de vuile poel
 128 een grote boog tussen de droge oever en het midden,
 129 met onze ogen gericht op degenen die zich in de modder volvreten.

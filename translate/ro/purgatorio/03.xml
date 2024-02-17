@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries error="0" count="49">
 <query>
 <info>[Purgatorio Canto 3] 1/145</info>
 <prompt>
@@ -8,40 +8,68 @@ Please translate each line literally into Romanian.
 1 Avvegna che la subitana fuga
 2 dispergesse color per la campagna,
 3 rivolti al monte ove ragion ne fruga,
+</prompt>
+<result>
+1 Deși fuga subită
+2 i-a împrăștiat pe aceia prin câmpie,
+3 întorcându-ne spre munte, unde rațiunea ne îndemna,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 4/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 4 i’ mi ristrinsi a la fida compagna:
 5 e come sare’ io sanza lui corso?
 6 chi m’avria tratto su per la montagna?
+</prompt>
+<result>
+4 m-am strâns lângă însoțitoarea mea credincioasă:
+5 și cum aș fi putut sări eu fără ajutorul lui?
+6 Cine m-ar fi dus pe munte?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 7/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 7 El mi parea da sé stesso rimorso:
 8 o dignitosa coscïenza e netta,
 9 come t’è picciol fallo amaro morso!
+</prompt>
+<result>
+7 El mi se părea mustrat de sine însuși:
+8 oh, conștiință demnă și curată,
+9 cât de amară mușcătură este pentru tine cea mai mică greșeală!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 10/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 10 Quando li piedi suoi lasciar la fretta,
 11 che l’onestade ad ogn’ atto dismaga,
 12 la mente mia, che prima era ristretta,
+</prompt>
+<result>
+10 Când picioarele lui au încetat să se grăbească,
+11 ceea ce modestia slăbește în fiecare acțiune,
+12 mintea mea, care înainte era strânsă,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 13/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 13 lo ’ntento rallargò, sì come vaga,
 14 e diedi ’l viso mio incontr’ al poggio
 15 che ’nverso ’l ciel più alto si dislaga.
 </prompt>
 <result>
-1 Deși fuga subită
-2 i-a împrăștiat pe aceia prin câmpie,
-3 întorcându-ne spre munte, unde rațiunea ne îndemna,
-
-4 m-am strâns lângă însoțitoarea mea credincioasă:
-5 și cum aș fi putut sări eu fără ajutorul lui?
-6 Cine m-ar fi dus pe munte?
-
-7 El mi se părea mustrat de sine însuși:
-8 oh, conștiință demnă și curată,
-9 cât de amară mușcătură este pentru tine cea mai mică greșeală!
-
-10 Când picioarele lui au încetat să se grăbească,
-11 ceea ce modestia slăbește în fiecare acțiune,
-12 mintea mea, care înainte era strânsă,
-
 13 și-a lărgit intenția, ca și cum ar fi fost curioasă,
 14 și mi-am întors fața spre deal
 15 care se înalță cel mai mult spre cer.
@@ -70,24 +98,38 @@ Please translate each line literally into Romanian.
 19 Io mi volsi dallato con paura
 20 d’essere abbandonato, quand’ io vidi
 21 solo dinanzi a me la terra oscura;
+</prompt>
+<result>
+19 M-am întors într-o parte cu teamă
+20 de a fi abandonat, când am văzut
+21 doar în fața mea pământul întunecat;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 22/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 22 e ’l mio conforto: «Perché pur diffidi?»,
 23 a dir mi cominciò tutto rivolto;
 24 «non credi tu me teco e ch’io ti guidi?
+</prompt>
+<result>
+22 și mângâierea mea: „De ce totuși te îndoiești?”,
+23 a început să-mi spună, întorcându-se cu totul;
+24 „nu crezi că sunt cu tine și că te călăuzesc?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 25/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 25 Vespero è già colà dov’ è sepolto
 26 lo corpo dentro al quale io facea ombra;
 27 Napoli l’ha, e da Brandizio è tolto.
 </prompt>
 <result>
-19 M-am întors într-o parte cu teamă
-20 de a fi abandonat, când am văzut
-21 doar în fața mea pământul întunecat;
-
-22 și mângâierea mea: „De ce totuși te îndoiești?”,
-23 a început să-mi spună, întorcându-se cu totul;
-24 „nu crezi că sunt cu tine și că te călăuzesc?
-
 25 Seara este deja acolo unde este îngropat
 26 trupul în care făceam umbră;
 27 Napoli îl are și este luat de la Brindisi.
@@ -132,32 +174,6 @@ Please translate each line literally into Romanian.
 35 possa trascorrer la infinita via
 36 che tiene una sustanza in tre persone.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "34 Nebun este cel care speră că rațiunea noastră\n35 poate străbate calea infinită\n36 pe care o ține o substanță în trei persoane."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 34 Nebun este cel care speră că rațiunea noastră
 35 poate străbate calea infinită
@@ -172,24 +188,38 @@ Please translate each line literally into Romanian.
 37 State contenti, umana gente, al quia;
 38 ché, se potuto aveste veder tutto,
 39 mestier non era parturir Maria;
+</prompt>
+<result>
+37 Fiți mulțumiți, oameni, cu atât;
+38 căci, dacă ați fi putut vedea totul,
+39 nu era nevoie ca Maria să nască;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 40/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 40 e disïar vedeste sanza frutto
 41 tai che sarebbe lor disio quetato,
 42 ch’etternalmente è dato lor per lutto:
+</prompt>
+<result>
+40 și ați dori să vedeți fără folos
+41 ceea ce le-ar fi potolit dorința,
+42 care le este dat veșnic ca jale:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 43/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 43 io dico d’Aristotile e di Plato
 44 e di molt’ altri»; e qui chinò la fronte,
 45 e più non disse, e rimase turbato.
 </prompt>
 <result>
-37 Fiți mulțumiți, oameni, cu atât;
-38 căci, dacă ați fi putut vedea totul,
-39 nu era nevoie ca Maria să nască;
-
-40 și ați dori să vedeți fără folos
-41 ceea ce le-ar fi potolit dorința,
-42 care le este dat veșnic ca jale:
-
 43 vorbesc despre Aristotel și Platon
 44 și despre mulți alții”; și aici și-a plecat fruntea,
 45 și nu a mai spus nimic și a rămas tulburat.
@@ -248,16 +278,23 @@ Please translate each line literally into Romanian.
 55 E mentre ch’e’ tenendo ’l viso basso
 56 essaminava del cammin la mente,
 57 e io mirava suso intorno al sasso,
+</prompt>
+<result>
+55 Și în timp ce el, ținându-și fața plecată,
+56 examina în minte calea,
+57 iar eu priveam în sus în jurul stâncii,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 58/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 58 da man sinistra m’apparì una gente
 59 d’anime, che movieno i piè ver’ noi,
 60 e non pareva, sì venïan lente.
 </prompt>
 <result>
-55 Și în timp ce el, ținându-și fața plecată,
-56 examina în minte calea,
-57 iar eu priveam în sus în jurul stâncii,
-
 58 în partea stângă mi-a apărut un grup
 59 de suflete, care își mișcau picioarele spre noi,
 60 și nu păreau, atât de încet veneau.
@@ -301,16 +338,23 @@ Please translate each line literally into Romanian.
 67 Ancora era quel popol di lontano,
 68 i’ dico dopo i nostri mille passi,
 69 quanto un buon gittator trarria con mano,
+</prompt>
+<result>
+67 Mai era acel popor departe,
+68 spun eu după miile noastre de pași,
+69 cât ar arunca un bun aruncător cu mâna,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 70/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 70 quando si strinser tutti ai duri massi
 71 de l’alta ripa, e stetter fermi e stretti
 72 com’ a guardar, chi va dubbiando, stassi.
 </prompt>
 <result>
-67 Mai era acel popor departe,
-68 spun eu după miile noastre de pași,
-69 cât ar arunca un bun aruncător cu mâna,
-
 70 când s-au strâns cu toții la stâncile dure
 71 de pe cealaltă margine și au stat nemișcați și strânși
 72 ca și cum ar sta de veghe, cine merge îndoindu-se.
@@ -324,16 +368,23 @@ Please translate each line literally into Romanian.
 73 «O ben finiti, o già spiriti eletti»,
 74 Virgilio incominciò, «per quella pace
 75 ch’i’ credo che per voi tutti s’aspetti,
+</prompt>
+<result>
+73 „O bine sfârșiți, o deja spirite alese”,
+74 a început Virgiliu, „pentru acea pace
+75 pe care cred că o așteptați cu toții,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 76/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 76 ditene dove la montagna giace,
 77 sì che possibil sia l’andare in suso;
 78 ché perder tempo a chi più sa più spiace».
 </prompt>
 <result>
-73 „O bine sfârșiți, o deja spirite alese”,
-74 a început Virgiliu, „pentru acea pace
-75 pe care cred că o așteptați cu toții,
-
 76 spuneți-ne unde se află muntele,
 77 astfel încât să fie posibil să urcăm;
 78 căci pierderea timpului îi displace mai mult celui care știe mai multe”.
@@ -347,24 +398,38 @@ Please translate each line literally into Romanian.
 79 Come le pecorelle escon del chiuso
 80 a una, a due, a tre, e l’altre stanno
 81 timidette atterrando l’occhio e ’l muso;
+</prompt>
+<result>
+79 Ca niște oițe ies din țarc
+80 câte una, câte două, câte trei, iar celelalte stau
+81 timide, coborând ochii și botul;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 82/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 82 e ciò che fa la prima, e l’altre fanno,
 83 addossandosi a lei, s’ella s’arresta,
 84 semplici e quete, e lo ’mperché non sanno;
+</prompt>
+<result>
+82 și ce face prima, fac și celelalte,
+83 îngrămădindu-se pe ea, dacă se oprește,
+84 simple și liniștite, și nu știu de ce;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 85/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 85 sì vid’ io muovere a venir la testa
 86 di quella mandra fortunata allotta,
 87 pudica in faccia e ne l’andare onesta.
 </prompt>
 <result>
-79 Ca niște oițe ies din țarc
-80 câte una, câte două, câte trei, iar celelalte stau
-81 timide, coborând ochii și botul;
-
-82 și ce face prima, fac și celelalte,
-83 îngrămădindu-se pe ea, dacă se oprește,
-84 simple și liniștite, și nu știu de ce;
-
 85 așa am văzut mișcându-se să vină în frunte
 86 a acelei turme norocoase atunci,
 87 pudică la față și cinstită în mers.
@@ -378,16 +443,23 @@ Please translate each line literally into Romanian.
 88 Come color dinanzi vider rotta
 89 la luce in terra dal mio destro canto,
 90 sì che l’ombra era da me a la grotta,
+</prompt>
+<result>
+88 Când cei din față au văzut lumina ruptă
+89 pe pământ în partea mea dreaptă,
+90 astfel încât umbra mea era de la mine la grotă,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 91/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 91 restaro, e trasser sé in dietro alquanto,
 92 e tutti li altri che venieno appresso,
 93 non sappiendo ’l perché, fenno altrettanto.
 </prompt>
 <result>
-88 Când cei din față au văzut lumina ruptă
-89 pe pământ în partea mea dreaptă,
-90 astfel încât umbra mea era de la mine la grotă,
-
 91 s-au oprit și s-au retras puțin,
 92 și toți ceilalți care veneau după ei,
 93 neștiind de ce, au făcut la fel.
@@ -491,16 +563,23 @@ Please translate each line literally into Romanian.
 112 Poi sorridendo disse: «Io son Manfredi,
 113 nepote di Costanza imperadrice;
 114 ond’ io ti priego che, quando tu riedi,
+</prompt>
+<result>
+112 Apoi zâmbind a spus: „Eu sunt Manfredi,
+113 nepotul împărătesei Constanța;
+114 de aceea te rog ca, atunci când te întorci,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 115/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 115 vadi a mia bella figlia, genitrice
 116 de l’onor di Cicilia e d’Aragona,
 117 e dichi ’l vero a lei, s’altro si dice.
 </prompt>
 <result>
-112 Apoi zâmbind a spus: „Eu sunt Manfredi,
-113 nepotul împărătesei Constanța;
-114 de aceea te rog ca, atunci când te întorci,
-
 115 să mergi la frumoasa mea fiică, mama
 116 onoarei Siciliei și a Aragonului,
 117 și să-i spui adevărul, dacă se spune altceva.
@@ -515,32 +594,6 @@ Please translate each line literally into Romanian.
 119 di due punte mortali, io mi rendei,
 120 piangendo, a quei che volontier perdona.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "118 După ce mi-am rupt trupul\n119 de două vârfuri mortale, m-am predat,\n120 plângând, celui care iartă cu plăcere."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 118 După ce mi-am rupt trupul
 119 de două vârfuri mortale, m-am predat,
@@ -570,16 +623,23 @@ Please translate each line literally into Romanian.
 124 Se ’l pastor di Cosenza, che a la caccia
 125 di me fu messo per Clemente allora,
 126 avesse in Dio ben letta questa faccia,
+</prompt>
+<result>
+124 Dacă păstorul din Cosenza, care la vânătoare
+125 a fost trimis după mine de Clement atunci,
+126 ar fi citit bine această față în Dumnezeu,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 127/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 127 l’ossa del corpo mio sarieno ancora
 128 in co del ponte presso a Benevento,
 129 sotto la guardia de la grave mora.
 </prompt>
 <result>
-124 Dacă păstorul din Cosenza, care la vânătoare
-125 a fost trimis după mine de Clement atunci,
-126 ar fi citit bine această față în Dumnezeu,
-
 127 oasele trupului meu ar fi încă
 128 la capătul podului lângă Benevento,
 129 sub paza mormanului greu.
@@ -623,16 +683,23 @@ Please translate each line literally into Romanian.
 136 Vero è che quale in contumacia more
 137 di Santa Chiesa, ancor ch’al fin si penta,
 138 star li convien da questa ripa in fore,
+</prompt>
+<result>
+136 Adevărat este că cel care moare în contumacie
+137 a Sfintei Biserici, chiar dacă în cele din urmă se pocăiește,
+138 trebuie să stea în afara acestei maluri,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 139/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 139 per ognun tempo ch’elli è stato, trenta,
 140 in sua presunzïon, se tal decreto
 141 più corto per buon prieghi non diventa.
 </prompt>
 <result>
-136 Adevărat este că cel care moare în contumacie
-137 a Sfintei Biserici, chiar dacă în cele din urmă se pocăiește,
-138 trebuie să stea în afara acestei maluri,
-
 139 pentru fiecare perioadă în care a fost, treizeci,
 140 în prezumția sa, dacă un astfel de decret
 141 nu devine mai scurt prin rugăciuni bune.
@@ -646,14 +713,21 @@ Please translate each line literally into Romanian.
 142 Vedi oggimai se tu mi puoi far lieto,
 143 revelando a la mia buona Costanza
 144 come m’hai visto, e anco esto divieto;
-
-145 ché qui per quei di là molto s’avanza».
 </prompt>
 <result>
 142 Vezi acum dacă mă poți face fericit,
 143 dezvăluindu-i bunei mele Constanța
 144 cum m-ai văzut și această interdicție;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 3] 145/145</info>
+<prompt>
+Please translate each line literally into Romanian.
 
+145 ché qui per quei di là molto s’avanza».
+</prompt>
+<result>
 145 căci aici, pentru cei de acolo, se avansează mult”.
 </result>
 </query>

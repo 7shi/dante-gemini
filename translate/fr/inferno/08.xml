@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries error="0" count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into French.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 Je dis, en continuant, que bien avant
+2 que nous fussions au pied de la haute tour,
+3 nos yeux montèrent vers son sommet
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into French.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1 Je dis, en continuant, que bien avant
-2 que nous fussions au pied de la haute tour,
-3 nos yeux montèrent vers son sommet
-
 4 à cause de deux flammes que nous vîmes apparaître,
 5 et une autre au loin faire signe,
 6 si bien que l'œil pouvait à peine la distinguer.
@@ -61,16 +68,23 @@ Please translate each line literally into French.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 Jamais corde ne lança de soi une flèche
+14 qui courût dans l'air avec une telle vélocité,
+15 que je vis une petite barque
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into French.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 Jamais corde ne lança de soi une flèche
-14 qui courût dans l'air avec une telle vélocité,
-15 que je vis une petite barque
-
 16 venir vers nous sur l'eau à ce moment-là,
 17 sous la conduite d'un seul batelier,
 18 qui criait : « Te voilà arrivée, âme criminelle ! ».
@@ -115,32 +129,6 @@ Please translate each line literally into French.
 26 e poi mi fece intrare appresso lui;
 27 e sol quand’ io fui dentro parve carca.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 Mon guide descendit dans la barque,\n26 puis il me fit entrer après lui ;\n27 et ce n\'est que lorsque j\'y fus que l\'embarcation parut chargée."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 Mon guide descendit dans la barque,
 26 puis il me fit entrer après lui ;
@@ -230,16 +218,23 @@ Please translate each line literally into French.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 Puis il m'entoura le cou de ses bras ;
+44 il m'embrassa le visage et dit : « Âme dédaigneuse,
+45 bénie soit celle qui s'est ceinte de toi !
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into French.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 Puis il m'entoura le cou de ses bras ;
-44 il m'embrassa le visage et dit : « Âme dédaigneuse,
-45 bénie soit celle qui s'est ceinte de toi !
-
 46 Celui-là fut dans le monde une personne orgueilleuse ;
 47 il n'y a pas de bonté qui pare sa mémoire :
 48 c'est pourquoi son ombre est ici furieuse.
@@ -269,32 +264,6 @@ Please translate each line literally into French.
 53 di vederlo attuffare in questa broda
 54 prima che noi uscissimo del lago».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "52 Et moi : « Maître, je serais très désireux\n53 de le voir plonger dans cette boue\n54 avant que nous ne sortions du lac »."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 52 Et moi : « Maître, je serais très désireux
 53 de le voir plonger dans cette boue
@@ -310,32 +279,6 @@ Please translate each line literally into French.
 56 ti si lasci veder, tu sarai sazio:
 57 di tal disïo convien che tu goda».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "55 Et lui à moi : « Avant que la berge\n56 ne se laisse voir par toi, tu seras rassasié :\n57 il faut que tu jouisses d\'un tel désir »."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 55 Et lui à moi : « Avant que la berge
 56 ne se laisse voir par toi, tu seras rassasié :
@@ -410,16 +353,23 @@ Please translate each line literally into French.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 Et moi : « Maître, je distingue déjà ses mosquées
+71 là-dedans, dans la vallée,
+72 rouges comme si elles sortaient du feu
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into French.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
 <result>
-70 Et moi : « Maître, je distingue déjà ses mosquées
-71 là-dedans, dans la vallée,
-72 rouges comme si elles sortaient du feu
-
 73 ». Et il me dit : « Le feu éternel
 74 qui les brûle de l'intérieur les montre rouges,
 75 comme tu le vois dans ce bas enfer ».
@@ -463,33 +413,38 @@ Please translate each line literally into French.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
 82 Je vis plus de mille démons sur les portes
 83 tombés du ciel, qui disaient avec colère :
 84 « Qui est celui-ci qui, sans être mort,
-
-85 va dans le royaume des morts ? ».
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into French.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 va dans le royaume des morts ? ».
+86 Et mon sage maître fit signe
+87 de vouloir leur parler en secret.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into French.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 Et mon sage maître fit signe
-87 de vouloir leur parler en secret.
-
 88 Alors ils calmèrent un peu leur grand dédain
 89 et dirent : « Viens toi seul, et que s'en aille
 90 celui qui est entré si hardiment dans ce royaume.
@@ -533,16 +488,23 @@ Please translate each line literally into French.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 « Ô mon cher duc, qui plus de sept
+98 fois m'as rendu la sécurité et tiré
+99 d'un grand péril qui se dressait devant moi,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into French.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 « Ô mon cher duc, qui plus de sept
-98 fois m'as rendu la sécurité et tiré
-99 d'un grand péril qui se dressait devant moi,
-
 100 ne me laisse pas », dis-je, « ainsi défait ;
 101 et si le passage plus loin nous est refusé,
 102 retrouvons vite ensemble nos traces ».
@@ -676,14 +638,21 @@ Please translate each line literally into French.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 Au-dessus d'elle, tu as vu l'inscription morte :
 128 et déjà de ce côté-ci d'elle descend la pente,
 129 passant par les cercles sans escorte,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into French.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 de sorte que par lui la terre nous sera ouverte ».
 </result>
 </query>

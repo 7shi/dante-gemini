@@ -2,6 +2,9 @@ SCRIPT = echo
 
 all:
 
+check:
+	grep count */1-error.xml | grep -v '"0"'
+
 _done:
 	$(SCRIPT) ar Arabic
 	$(SCRIPT) bg Bulgarian

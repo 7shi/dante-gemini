@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries count="48">
 <query>
 <info>[Inferno Canto 28] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Polish.
 1 Chi poria mai pur con parole sciolte
 2 dicer del sangue e de le piaghe a pieno
 3 ch’i’ ora vidi, per narrar più volte?
+</prompt>
+<result>
+1 Kto by mógł kiedykolwiek swobodnymi słowami
+2 opowiedzieć o krwi i ranach w pełni
+3 które teraz widziałem, by opowiedzieć wiele razy?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 4/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 4 Ogne lingua per certo verria meno
 5 per lo nostro sermone e per la mente
 6 c’hanno a tanto comprender poco seno.
 </prompt>
 <result>
-1 Kto by mógł kiedykolwiek swobodnymi słowami
-2 opowiedzieć o krwi i ranach w pełni
-3 które teraz widziałem, by opowiedzieć wiele razy?
-
 4 Każdy język z pewnością by umilkł
 5 z powodu naszej mowy i umysłu
 6 które mają zbyt małą pojemność, by to pojąć.
@@ -31,40 +38,68 @@ Please translate each line literally into Polish.
 7 S’el s’aunasse ancor tutta la gente
 8 che già, in su la fortunata terra
 9 di Puglia, fu del suo sangue dolente
+</prompt>
+<result>
+7 Gdyby się zebrał cały lud
+8 który niegdyś, na szczęśliwej ziemi
+9 Apulii, cierpiał z powodu swojej krwi
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 10/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 10 per li Troiani e per la lunga guerra
 11 che de l’anella fé sì alte spoglie,
 12 come Livïo scrive, che non erra,
+</prompt>
+<result>
+10 przez Trojan i długą wojnę
+11 która przyniosła tak wielkie łupy z pierścieni,
+12 jak pisze Liwiusz, który się nie myli,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 13/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 13 con quella che sentio di colpi doglie
 14 per contastare a Ruberto Guiscardo;
 15 e l’altra il cui ossame ancor s’accoglie
+</prompt>
+<result>
+13 wraz z tym ludem, który cierpiał z powodu ciosów
+14 by przeciwstawić się Robertowi Guiscardowi;
+15 i innym ludem, którego kości wciąż się gromadzą
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 16/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 16 a Ceperan, là dove fu bugiardo
 17 ciascun Pugliese, e là da Tagliacozzo,
 18 dove sanz’ arme vinse il vecchio Alardo;
+</prompt>
+<result>
+16 w Ceperano, gdzie każdy Apulijczyk był kłamcą
+17 i tam, w Tagliacozzo,
+18 gdzie bez broni zwyciężył stary Alardo;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 19/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 19 e qual forato suo membro e qual mozzo
 20 mostrasse, d’aequar sarebbe nulla
 21 il modo de la nona bolgia sozzo.
 </prompt>
 <result>
-7 Gdyby się zebrał cały lud
-8 który niegdyś, na szczęśliwej ziemi
-9 Apulii, cierpiał z powodu swojej krwi
-
-10 przez Trojan i długą wojnę
-11 która przyniosła tak wielkie łupy z pierścieni,
-12 jak pisze Liwiusz, który się nie myli,
-
-13 wraz z tym ludem, który cierpiał z powodu ciosów
-14 by przeciwstawić się Robertowi Guiscardowi;
-15 i innym ludem, którego kości wciąż się gromadzą
-
-16 w Ceperano, gdzie każdy Apulijczyk był kłamcą
-17 i tam, w Tagliacozzo,
-18 gdzie bez broni zwyciężył stary Alardo;
-
 19 i gdyby każdy pokazał swój przebity lub odcięty członek,
 20 to nic by nie znaczyło
 21 w porównaniu z brudem dziewiątego kręgu.
@@ -79,32 +114,6 @@ Please translate each line literally into Polish.
 23 com’ io vidi un, così non si pertugia,
 24 rotto dal mento infin dove si trulla.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "22 Już widzę, przez środek tracąc lub kołysząc,\n23 jak zobaczyłem jednego, tak się nie przebija,\n24 rozciętego od brody aż do odbytu."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 22 Już widzę, przez środek tracąc lub kołysząc,
 23 jak zobaczyłem jednego, tak się nie przebija,
@@ -120,32 +129,6 @@ Please translate each line literally into Polish.
 26 la corata pareva e ’l tristo sacco
 27 che merda fa di quel che si trangugia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 Między nogami zwisały wnętrzności;\n26 widać było przełyk i nieszczęsny worek,\n27 który robi gówno z tego, co się połyka."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 Między nogami zwisały wnętrzności;
 26 widać było przełyk i nieszczęsny worek,
@@ -160,42 +143,23 @@ Please translate each line literally into Polish.
 28 Mentre che tutto in lui veder m’attacco,
 29 guardommi e con le man s’aperse il petto,
 30 dicendo: «Or vedi com’ io mi dilacco!
+</prompt>
+<result>
+28 Gdy wpatrywałem się w niego całego,
+29 spojrzał na mnie i rozdarł sobie pierś rękami,
+30 mówiąc: „Teraz zobacz, jak się rozrywam!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 31/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 31 vedi come storpiato è Mäometto!
 32 Dinanzi a me sen va piangendo Alì,
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "28 Gdy wpatrywałem się w niego całego,\n29 spojrzał na mnie i rozdarł sobie pierś rękami,\n30 mówiąc: „Teraz zobacz, jak się rozrywam!\n\n31 Zobacz, jak okaleczony jest Mahomet!\n32 Przede mną płacząc idzie Ali,\n33 rozcięty w twarzy od podbródka do czubka głowy."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-28 Gdy wpatrywałem się w niego całego,
-29 spojrzał na mnie i rozdarł sobie pierś rękami,
-30 mówiąc: „Teraz zobacz, jak się rozrywam!
-
 31 Zobacz, jak okaleczony jest Mahomet!
 32 Przede mną płacząc idzie Ali,
 33 rozcięty w twarzy od podbródka do czubka głowy.
@@ -224,42 +188,23 @@ Please translate each line literally into Polish.
 37 Un diavolo è qua dietro che n’accisma
 38 sì crudelmente, al taglio de la spada
 39 rimettendo ciascun di questa risma,
+</prompt>
+<result>
+37 Diabeł jest tutaj z tyłu, który ich zabija
+38 tak okrutnie, uderzając mieczem,
+39 posyłając każdego z tej grupy,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 40/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 40 quand’ avem volta la dolente strada;
 41 però che le ferite son richiuse
 42 prima ch’altri dinanzi li rivada.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 Diabeł jest tutaj z tyłu, który ich zabija\n38 tak okrutnie, uderzając mieczem,\n39 posyłając każdego z tej grupy,\n\n40 kiedy wracamy smutną drogą;\n41 ponieważ rany są zagojone\n42 zanim ktoś inny przed nimi tam dotrze."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-37 Diabeł jest tutaj z tyłu, który ich zabija
-38 tak okrutnie, uderzając mieczem,
-39 posyłając każdego z tej grupy,
-
 40 kiedy wracamy smutną drogą;
 41 ponieważ rany są zagojone
 42 zanim ktoś inny przed nimi tam dotrze.
@@ -288,16 +233,23 @@ Please translate each line literally into Polish.
 46 «Né morte ’l giunse ancor, né colpa ’l mena»,
 47 rispuose ’l mio maestro, «a tormentarlo;
 48 ma per dar lui esperïenza piena,
+</prompt>
+<result>
+46 „Ani śmierć go jeszcze nie zabrała, ani wina nie prowadzi go”,
+47 odpowiedział mój mistrz, „by go męczyć;
+48 lecz aby dać mu pełne doświadczenie,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 49/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 49 a me, che morto son, convien menarlo
 50 per lo ’nferno qua giù di giro in giro;
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
 <result>
-46 „Ani śmierć go jeszcze nie zabrała, ani wina nie prowadzi go”,
-47 odpowiedział mój mistrz, „by go męczyć;
-48 lecz aby dać mu pełne doświadczenie,
-
 49 mnie, który jestem martwy, wypada go prowadzić
 50 przez piekło w dół, w kółko;
 51 a to jest prawda, tak jak ci mówię”.
@@ -326,16 +278,23 @@ Please translate each line literally into Polish.
 55 «Or dì a fra Dolcin dunque che s’armi,
 56 tu che forse vedra’ il sole in breve,
 57 s’ello non vuol qui tosto seguitarmi,
+</prompt>
+<result>
+55 „Powiedz więc bratu Dolcino, aby się uzbroił,
+56 ty, który być może wkrótce ujrzysz słońce,
+57 jeśli nie chce tuż za mną podążyć,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 58/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 58 sì di vivanda, che stretta di neve
 59 non rechi la vittoria al Noarese,
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55 „Powiedz więc bratu Dolcino, aby się uzbroił,
-56 ty, który być może wkrótce ujrzysz słońce,
-57 jeśli nie chce tuż za mną podążyć,
-
 58 z taką ilością żywności, aby niedostatek śniegu
 59 nie przyniósł zwycięstwa Novarezyjczykowi,
 60 które inaczej trudno byłoby osiągnąć”.
@@ -364,32 +323,53 @@ Please translate each line literally into Polish.
 64 Un altro, che forata avea la gola
 65 e tronco ’l naso infin sotto le ciglia,
 66 e non avea mai ch’una orecchia sola,
+</prompt>
+<result>
+64 Inny, który miał przebitą szyję
+65 i nos odcięty aż pod brwi,
+66 i miał tylko jedno ucho,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 67/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 67 ristato a riguardar per maraviglia
 68 con li altri, innanzi a li altri aprì la canna,
 69 ch’era di fuor d’ogne parte vermiglia,
+</prompt>
+<result>
+67 zatrzymał się, aby spojrzeć ze zdumieniem
+68 wraz z innymi, przed innymi otworzył gardło,
+69 które było całe czerwone,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 70/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 70 e disse: «O tu cui colpa non condanna
 71 e cu’ io vidi su in terra latina,
 72 se troppa simiglianza non m’inganna,
+</prompt>
+<result>
+70 i powiedział: „O ty, którego wina nie potępia
+71 i którego widziałem na ziemi włoskiej,
+72 jeśli zbytnie podobieństwo mnie nie myli,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 73/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 73 rimembriti di Pier da Medicina,
 74 se mai torni a veder lo dolce piano
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64 Inny, który miał przebitą szyję
-65 i nos odcięty aż pod brwi,
-66 i miał tylko jedno ucho,
-
-67 zatrzymał się, aby spojrzeć ze zdumieniem
-68 wraz z innymi, przed innymi otworzył gardło,
-69 które było całe czerwone,
-
-70 i powiedział: „O ty, którego wina nie potępia
-71 i którego widziałem na ziemi włoskiej,
-72 jeśli zbytnie podobieństwo mnie nie myli,
-
 73 przypomnij sobie Piera da Medicina,
 74 jeśli kiedykolwiek wrócisz, aby zobaczyć słodką równinę,
 75 która opada od Vercelli do Marcabò.
@@ -403,16 +383,23 @@ Please translate each line literally into Polish.
 76 E fa saper a’ due miglior da Fano,
 77 a messer Guido e anco ad Angiolello,
 78 che, se l’antiveder qui non è vano,
+</prompt>
+<result>
+76 I daj znać dwóm najlepszym z Fano,
+77 panu Guido i także Angiolello,
+78 że jeśli przewidywanie tu nie jest próżne,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 79/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 79 gittati saran fuor di lor vasello
 80 e mazzerati presso a la Cattolica
 81 per tradimento d’un tiranno fello.
 </prompt>
 <result>
-76 I daj znać dwóm najlepszym z Fano,
-77 panu Guido i także Angiolello,
-78 że jeśli przewidywanie tu nie jest próżne,
-
 79 zostaną wyrzuceni ze swojego statku
 80 i zabici w pobliżu Cattolica
 81 przez zdradę okrutnego tyrana.
@@ -441,16 +428,23 @@ Please translate each line literally into Polish.
 85 Quel traditor che vede pur con l’uno,
 86 e tien la terra che tale qui meco
 87 vorrebbe di vedere esser digiuno,
+</prompt>
+<result>
+85 Ten zdrajca, który widzi tylko jednym okiem,
+86 i posiada ziemię, którą taki jak ja tutaj
+87 chciałby zobaczyć pozbawioną żywności,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 88/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 88 farà venirli a parlamento seco;
 89 poi farà sì, ch’al vento di Focara
 90 non sarà lor mestier voto né preco».
 </prompt>
 <result>
-85 Ten zdrajca, który widzi tylko jednym okiem,
-86 i posiada ziemię, którą taki jak ja tutaj
-87 chciałby zobaczyć pozbawioną żywności,
-
 88 sprowadzi ich na rozmowy ze sobą;
 89 potem sprawi, że przy wietrze od Focary
 90 nie będą potrzebować ani ślubów, ani modlitw”.
@@ -509,27 +503,41 @@ Please translate each line literally into Polish.
 100 Oh quanto mi pareva sbigottito
 101 con la lingua tagliata ne la strozza
 102 Curïo, ch’a dir fu così ardito!
+</prompt>
+<result>
+100 O jakże mi się wydawał przerażony
+101 Z językiem odciętym w gardle
+102 Curio, który był tak odważny, by mówić!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 103/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 103 E un ch’avea l’una e l’altra man mozza,
 104 levando i moncherin per l’aura fosca,
 105 sì che ’l sangue facea la faccia sozza,
+</prompt>
+<result>
+103 A jeden, który miał odciętą jedną i drugą rękę,
+104 Podnosząc kikuty w ciemnym powietrzu,
+105 Tak że krew brudziła mu twarz,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 106/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 106 gridò: «Ricordera’ti anche del Mosca,
 107 che disse, lasso!, “Capo ha cosa fatta”,
 108 che fu mal seme per la gente tosca».
 </prompt>
 <result>
-100 Och, jak przerażony wydawał mi się
-101 z językiem odciętym w gardle
-Curio, który był tak odważny w mówieniu!
-
-103 A jeden, który miał obie ręce odcięte,
-104 podnosząc kikuty w ciemnym powietrzu,
-105 tak że krew brudziła mu twarz,
-
-106 krzyknął: „Pamiętaj też o Mosce,
-107 który powiedział, biedak!, „Zrobione jest”,
-108 co było złym ziarnem dla ludu toskańskiego”.
+106 Krzyknął: „Pamiętaj też o Mosce,
+107 Który powiedział, biedak, „Głowa ma coś zrobione”,
+108 Co było złym ziarnem dla ludu toskańskiego”.
 </result>
 </query>
 <query>
@@ -541,32 +549,6 @@ Please translate each line literally into Polish.
 110 per ch’elli, accumulando duol con duolo,
 111 sen gio come persona trista e matta.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 A ja dodałem: „I śmierć twojego rodu”;\n110 przez co on, gromadząc ból z bólem,\n111 odszedł jak osoba smutna i szalona."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 109 A ja dodałem: „I śmierć twojego rodu”;
 110 przez co on, gromadząc ból z bólem,
@@ -581,16 +563,23 @@ Please translate each line literally into Polish.
 112 Ma io rimasi a riguardar lo stuolo,
 113 e vidi cosa ch’io avrei paura,
 114 sanza più prova, di contarla solo;
+</prompt>
+<result>
+112 Ale ja zostałem, aby przyjrzeć się gromadzie,
+113 i zobaczyłem coś, o czym bałbym się,
+114 bez dalszych dowodów, opowiedzieć w samotności;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 115/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 115 se non che coscïenza m’assicura,
 116 la buona compagnia che l’uom francheggia
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112 Ale ja zostałem, aby przyjrzeć się gromadzie,
-113 i zobaczyłem coś, o czym bałbym się,
-114 bez dalszych dowodów, opowiedzieć w samotności;
-
 115 gdyby nie to, że sumienie mnie zapewnia,
 116 dobre towarzystwo, które dodaje człowiekowi odwagi
 117 pod pancerzem czystego sumienia.
@@ -604,16 +593,23 @@ Please translate each line literally into Polish.
 118 Io vidi certo, e ancor par ch’io ’l veggia,
 119 un busto sanza capo andar sì come
 120 andavan li altri de la trista greggia;
+</prompt>
+<result>
+118 Widziałem na pewno, a wciąż mi się wydaje, że to widzę,
+119 tors bez głowy idący tak, jak
+120 szli inni z nieszczęsnego stada;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 121/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 121 e ’l capo tronco tenea per le chiome,
 122 pesol con mano a guisa di lanterna:
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118 Widziałem na pewno, a wciąż mi się wydaje, że to widzę,
-119 tors bez głowy idący tak, jak
-120 szli inni z nieszczęsnego stada;
-
 121 a odciętą głowę trzymał za włosy,
 122 zwisającą w ręce jak latarnia:
 123 a on patrzył na nas i mówił: „O, ja!”.
@@ -642,16 +638,23 @@ Please translate each line literally into Polish.
 127 Quando diritto al piè del ponte fue,
 128 levò ’l braccio alto con tutta la testa
 129 per appressarne le parole sue,
+</prompt>
+<result>
+127 Gdy stanął tuż u stóp mostu,
+128 podniósł wysoko ramię wraz z całą głową,
+129 aby przybliżyć swoje słowa,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 130/142</info>
+<prompt>
+Please translate each line literally into Polish.
 
 130 che fuoro: «Or vedi la pena molesta,
 131 tu che, spirando, vai veggendo i morti:
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127 Gdy stanął tuż u stóp mostu,
-128 podniósł wysoko ramię wraz z całą głową,
-129 aby przybliżyć swoje słowa,
-
 130 które brzmiały: „Teraz zobacz karę uciążliwą,
 131 ty, który, oddychając, idziesz oglądać zmarłych:
 132 zobacz, czy jest jakaś większa od tej.

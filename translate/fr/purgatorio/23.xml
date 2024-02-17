@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="45">
 <query>
 <info>[Purgatorio Canto 23] 1/133</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into French.
 1 Mentre che li occhi per la fronda verde
 2 ficcava ïo sì come far suole
 3 chi dietro a li uccellin sua vita perde,
+</prompt>
+<result>
+1 Pendant que mes yeux, à travers la feuillée verte,
+2 se faufilaient comme le fait
+3 celui qui perd sa vie à poursuivre les oiseaux,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 4/133</info>
+<prompt>
+Please translate each line literally into French.
 
 4 lo più che padre mi dicea: «Figliuole,
 5 vienne oramai, ché ’l tempo che n’è imposto
 6 più utilmente compartir si vuole».
 </prompt>
 <result>
-1 Pendant que mes yeux, à travers la feuillée verte,
-2 se faufilaient comme le fait
-3 celui qui perd sa vie à poursuivre les oiseaux,
-
 4 mon père me dit encore : « Ma fille,
 5 viens maintenant, car le temps qui nous est imparti
 6 doit être partagé plus utilement ».
@@ -47,32 +54,6 @@ Please translate each line literally into French.
 11 ‘Labïa mëa, Domine’ per modo
 12 tal, che diletto e doglia parturìe.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 Et voici que l’on entendit pleurer et chanter\n11 « Labia mea, Domine » d’une manière\n12 telle qu’elle enfantait à la fois délice et douleur."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 10 Et voici que l’on entendit pleurer et chanter
 11 « Labia mea, Domine » d’une manière
@@ -102,16 +83,23 @@ Please translate each line literally into French.
 16 Sì come i peregrin pensosi fanno,
 17 giugnendo per cammin gente non nota,
 18 che si volgono ad essa e non restanno,
+</prompt>
+<result>
+16 Comme font les pèlerins pensifs,
+17 rencontrant en chemin des gens inconnus,
+18 qui se tournent vers eux et ne s’arrêtent pas,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 19/133</info>
+<prompt>
+Please translate each line literally into French.
 
 19 così di retro a noi, più tosto mota,
 20 venendo e trapassando ci ammirava
 21 d’anime turba tacita e devota.
 </prompt>
 <result>
-16 Comme font les pèlerins pensifs,
-17 rencontrant en chemin des gens inconnus,
-18 qui se tournent vers eux et ne s’arrêtent pas,
-
 19 ainsi derrière nous, plus rapidement,
 20 une foule d’âmes silencieuses et dévotes
 21 venait, nous dépassait et nous admirait.
@@ -142,8 +130,9 @@ Please translate each line literally into French.
 27 per digiunar, quando più n’ebbe tema.
 </prompt>
 <result>
-25 Je ne crois pas qu’Érisychthon ait été aussi réduit à peau et à os,
-26 desséché par la faim, alors qu’il en avait le plus peur.
+25 Je ne crois pas qu’ainsi à peau tendue
+26 Érisychthon fût devenu sec,
+27 pour jeûner, quand il en eut le plus peur.
 </result>
 </query>
 <query>
@@ -154,16 +143,23 @@ Please translate each line literally into French.
 28 Io dicea fra me stesso pensando: ‘Ecco
 29 la gente che perdé Ierusalemme,
 30 quando Maria nel figlio diè di becco!’
+</prompt>
+<result>
+28 Je me disais en moi-même en pensant : « Voici
+29 le peuple qui perdit Jérusalem,
+30 lorsque Marie donna un coup de bec à son fils ! »
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 31/133</info>
+<prompt>
+Please translate each line literally into French.
 
 31 Parean l’occhiaie anella sanza gemme:
 32 chi nel viso de li uomini legge ‘omo’
 33 ben avria quivi conosciuta l’emme.
 </prompt>
 <result>
-28 Je me disais en moi-même en pensant : « Voici
-29 le peuple qui perdit Jérusalem,
-30 lorsque Marie donna un coup de bec à son fils ! »
-
 31 Leurs orbites semblaient des anneaux sans gemmes :
 32 celui qui lit « homme » sur le visage des hommes
 33 aurait bien reconnu ici la lettre M.
@@ -177,25 +173,40 @@ Please translate each line literally into French.
 34 Chi crederebbe che l’odor d’un pomo
 35 sì governasse, generando brama,
 36 e quel d’un’acqua, non sappiendo como?
+</prompt>
+<result>
+34 Qui croirait que l’odeur d’une pomme
+35 se comportât ainsi, engendrant le désir,
+36 et celle d’une eau, sans savoir comment ?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 37/133</info>
+<prompt>
+Please translate each line literally into French.
 
 37 Già era in ammirar che sì li affama,
 38 per la cagione ancor non manifesta
 39 di lor magrezza e di lor trista squama,
+</prompt>
+<result>
+37 J’étais déjà dans l’admiration de ce qui les affamait ainsi,
+38 pour la cause encore non manifeste
+39 de leur maigreur et de leurs tristes écailles,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 40/133</info>
+<prompt>
+Please translate each line literally into French.
 
 40 ed ecco del profondo de la testa
 41 volse a me li occhi un’ombra e guardò fiso;
 42 poi gridò forte: «Qual grazia m’è questa?».
 </prompt>
 <result>
-34 Qui croirait que l’odeur d’une pomme
-35 puisse ainsi gouverner, en générant le désir,
-36 et celle d’une eau, sans savoir comment ?
-
-37 J’étais déjà en train de m’étonner de ce qui les affamait ainsi,
-38 la cause de leur maigreur et de leur triste écaille n’étant pas encore manifeste,
-
-39 quand voici que du fond de sa tête
-40 une ombre tourna les yeux vers moi et me regarda fixement ;
+40 et voici que du fond de la tête
+41 une ombre tourna vers moi les yeux et regarda fixement ;
 42 puis elle cria fort : « Quelle grâce m’est-ce là ? ».
 </result>
 </query>
@@ -237,18 +248,26 @@ Please translate each line literally into French.
 49 «Deh, non contendere a l’asciutta scabbia
 50 che mi scolora», pregava, «la pelle,
 51 né a difetto di carne ch’io abbia;
+</prompt>
+<result>
+49 « De grâce, ne conteste pas à la gale sèche
+50 qui me décolore », priait-elle, « la peau,
+51 ni au défaut de chair que j’aie ;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 52/133</info>
+<prompt>
+Please translate each line literally into French.
 
 52 ma dimmi il ver di te, dì chi son quelle
 53 due anime che là ti fanno scorta;
 54 non rimaner che tu non mi favelle!».
 </prompt>
 <result>
-49 « De grâce, ne méprise pas la gale sèche
-50 qui décolore ma peau », priait-il, « ni le manque de chair que j’ai ;
-
-51 mais dis-moi la vérité sur toi, dis-moi qui sont ces
-52 deux âmes qui t’escortent là ;
-53 ne reste pas sans me parler ! ».
+52 Mais dis-moi la vérité sur toi, dis-moi qui sont ces
+53 deux âmes qui là te font escorte ;
+54 ne reste pas sans me parler ! ».
 </result>
 </query>
 <query>
@@ -334,16 +353,23 @@ Please translate each line literally into French.
 70 E non pur una volta, questo spazzo
 71 girando, si rinfresca nostra pena:
 72 io dico pena, e dovria dir sollazzo,
+</prompt>
+<result>
+70 Et ce n’est pas seulement une fois, en faisant ce tour,
+71 que notre peine se rafraîchit :
+72 je dis peine, et je devrais dire soulagement,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 73/133</info>
+<prompt>
+Please translate each line literally into French.
 
 73 ché quella voglia a li alberi ci mena
 74 che menò Cristo lieto a dire ‘Elì’,
 75 quando ne liberò con la sua vena».
 </prompt>
 <result>
-70 Et ce n’est pas seulement une fois, en faisant ce tour,
-71 que notre peine se rafraîchit :
-72 je dis peine, et je devrais dire soulagement,
-
 73 car ce désir nous mène aux arbres
 74 qui menèrent le Christ, joyeux, à dire « Éli »,
 75 lorsqu’il nous libéra par sa veine ».
@@ -372,16 +398,23 @@ Please translate each line literally into French.
 79 Se prima fu la possa in te finita
 80 di peccar più, che sovvenisse l’ora
 81 del buon dolor ch’a Dio ne rimarita,
+</prompt>
+<result>
+79 Si ta capacité de pécher a pris fin en toi avant
+80 que ne vienne l’heure
+81 de la bonne douleur qui nous réconcilie avec Dieu,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 82/133</info>
+<prompt>
+Please translate each line literally into French.
 
 82 come se’ tu qua sù venuto ancora?
 83 Io ti credea trovar là giù di sotto,
 84 dove tempo per tempo si ristora».
 </prompt>
 <result>
-79 Si ta capacité de pécher a pris fin en toi avant
-80 que ne vienne l’heure
-81 de la bonne douleur qui nous réconcilie avec Dieu,
-
 82 comment es-tu déjà venu ici-haut ?
 83 Je pensais te trouver là-bas, en bas,
 84 où l’on répare le temps perdu ».
@@ -425,18 +458,26 @@ Please translate each line literally into French.
 91 Tanto è a Dio più cara e più diletta
 92 la vedovella mia, che molto amai,
 93 quanto in bene operare è più soletta;
+</prompt>
+<result>
+91 Tant est à Dieu plus chère et plus aimée
+92 ma veuve, que j’aimais beaucoup,
+93 qu’elle est plus seule à bien opérer ;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 94/133</info>
+<prompt>
+Please translate each line literally into French.
 
 94 ché la Barbagia di Sardigna assai
 95 ne le femmine sue più è pudica
 96 che la Barbagia dov’ io la lasciai.
 </prompt>
 <result>
-91 Ma veuve, que j’aimais beaucoup, est d’autant plus chère et plus aimée de Dieu
-92 qu’elle est plus seule à faire le bien ;
-
-93 car la Barbagia de Sardaigne est bien plus
-94 pudique dans ses femmes
-95 que la Barbagia où je l’ai laissée.
+94 Car la Barbagia de Sardaigne, certes,
+95 n’est pas plus pudique dans ses femmes
+96 que la Barbagie où je la laissai.
 </result>
 </query>
 <query>
@@ -447,42 +488,23 @@ Please translate each line literally into French.
 97 O dolce frate, che vuo’ tu ch’io dica?
 98 Tempo futuro m’è già nel cospetto,
 99 cui non sarà quest’ ora molto antica,
+</prompt>
+<result>
+97 Ô doux frère, que veux-tu que je dise ?
+98 Le temps futur est déjà devant moi,
+99 auquel cette heure ne sera pas très ancienne,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 100/133</info>
+<prompt>
+Please translate each line literally into French.
 
 100 nel qual sarà in pergamo interdetto
 101 a le sfacciate donne fiorentine
 102 l’andar mostrando con le poppe il petto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "97 Ô doux frère, que veux-tu que je dise ?\n98 Le temps futur est déjà devant moi,\n99 auquel cette heure ne sera pas très ancienne,\n\n100 où il sera interdit en chaire\n101 aux femmes florentines effrontées\n102 de montrer leur poitrine avec leurs seins."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-97 Ô doux frère, que veux-tu que je dise ?
-98 Le temps futur est déjà devant moi,
-99 auquel cette heure ne sera pas très ancienne,
-
 100 où il sera interdit en chaire
 101 aux femmes florentines effrontées
 102 de montrer leur poitrine avec leurs seins.
@@ -496,24 +518,38 @@ Please translate each line literally into French.
 103 Quai barbare fuor mai, quai saracine,
 104 cui bisognasse, per farle ir coperte,
 105 o spiritali o altre discipline?
+</prompt>
+<result>
+103 Quelles barbares furent jamais, quelles sarrasines,
+104 à qui il fallût, pour les faire aller couvertes,
+105 des disciplines spirituelles ou autres ?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 106/133</info>
+<prompt>
+Please translate each line literally into French.
 
 106 Ma se le svergognate fosser certe
 107 di quel che ’l ciel veloce loro ammanna,
 108 già per urlare avrian le bocche aperte;
+</prompt>
+<result>
+106 Mais si les éhontées étaient certaines
+107 de ce que le ciel rapide leur prépare,
+108 elles auraient déjà la bouche ouverte pour hurler ;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 109/133</info>
+<prompt>
+Please translate each line literally into French.
 
 109 ché, se l’antiveder qui non m’inganna,
 110 prima fien triste che le guance impeli
 111 colui che mo si consola con nanna.
 </prompt>
 <result>
-103 Quelles barbares furent jamais, quelles sarrasines,
-104 à qui il fallût, pour les faire aller couvertes,
-105 des disciplines spirituelles ou autres ?
-
-106 Mais si les éhontées étaient certaines
-107 de ce que le ciel rapide leur prépare,
-108 elles auraient déjà la bouche ouverte pour hurler ;
-
 109 car, si ma prévoyance ne me trompe pas ici,
 110 elles seront tristes avant que n’ait de la barbe sur les joues
 111 celui qui maintenant se console avec des berceuses.
@@ -557,16 +593,23 @@ Please translate each line literally into French.
 118 Di quella vita mi volse costui
 119 che mi va innanzi, l’altr’ ier, quando tonda
 120 vi si mostrò la suora di colui»,
+</prompt>
+<result>
+118 Celui qui me précède m’a détourné
+119 de cette vie, l’autre jour, quand s’est montrée ronde
+120 la sœur de celui-là »,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 121/133</info>
+<prompt>
+Please translate each line literally into French.
 
 121 e ’l sol mostrai; «costui per la profonda
 122 notte menato m’ha d’i veri morti
 123 con questa vera carne che ’l seconda.
 </prompt>
 <result>
-118 Celui qui me précède m’a détourné
-119 de cette vie, l’autre jour, quand s’est montrée ronde
-120 la sœur de celui-là »,
-
 121 et je montrai le soleil ; « celui-ci, à travers la nuit profonde,
 122 m’a conduit hors des vrais morts
 123 avec cette vraie chair qui le suit.
@@ -610,14 +653,21 @@ Please translate each line literally into French.
 130 Virgilio è questi che così mi dice»,
 131 e addita’lo; «e quest’ altro è quell’ ombra
 132 per cuï scosse dianzi ogne pendice
-
-133 lo vostro regno, che da sé lo sgombra».
 </prompt>
 <result>
 130 « Virgile est celui qui me parle ainsi »,
 131 et je le lui montrai ; « et cette autre ombre est celle
 132 pour qui tout à l’heure chaque pente a tremblé
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 133/133</info>
+<prompt>
+Please translate each line literally into French.
 
+133 lo vostro regno, che da sé lo sgombra».
+</prompt>
+<result>
 133 de votre royaume, qui se débarrasse d’elle ».
 </result>
 </query>

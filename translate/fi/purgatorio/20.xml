@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="51">
 <query>
 <info>[Purgatorio Canto 20] 1/151</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into Finnish.
 4 Mossimi; e ’l duca mio si mosse per li
 5 luoghi spediti pur lungo la roccia,
 6 come si va per muro stretto a’ merli;
+</prompt>
+<result>
+4 Liikuimme e herrani kulki eteenpäin
+5 nopeasti kallion vieressä,
+6 kuten mennään kapealla muurilla taistelurakennelmien välissä;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 7/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 7 ché la gente che fonde a goccia a goccia
 8 per li occhi il mal che tutto ’l mondo occupa,
 9 da l’altra parte in fuor troppo s’approccia.
 </prompt>
 <result>
-4 Liikuimme e herrani kulki eteenpäin
-5 nopeasti kallion vieressä,
-6 kuten mennään kapealla muurilla taistelurakennelmien välissä;
-
 7 sillä kansa, joka vuodattaa pisara pisaralta
 8 silmistään pahan, joka valtaa koko maailman,
 9 tulee liian lähelle toiselta puolelta.
@@ -46,66 +53,68 @@ Please translate each line literally into Finnish.
 10 Maladetta sie tu, antica lupa,
 11 che più che tutte l’altre bestie hai preda
 12 per la tua fame sanza fine cupa!
+</prompt>
+<result>
+10 Kirottu olet sinä, muinainen susi,
+11 joka enemmän kuin kaikki muut pedot saalistat
+12 loputtomalla, synkällä nälälläsi!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 13/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 13 O ciel, nel cui girar par che si creda
 14 le condizion di qua giù trasmutarsi,
 15 quando verrà per cui questa disceda?
+</prompt>
+<result>
+13 Oi taivas, jonka kierrossa uskotaan
+14 että täällä vallitsevat olosuhteet muuttuvat,
+15 milloin tulee se, jonka kautta tämä häviää?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 16/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 16 Noi andavam con passi lenti e scarsi,
 17 e io attento a l’ombre, ch’i’ sentia
 18 pietosamente piangere e lagnarsi;
+</prompt>
+<result>
+16 Me kuljimme hitaasti ja varovasti,
+17 ja minä kuuntelin varjoja, jotka kuulin
+18 itkevän ja valittavan säälittävästi;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 19/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 19 e per ventura udi’ «Dolce Maria!»
 20 dinanzi a noi chiamar così nel pianto
 21 come fa donna che in parturir sia;
+</prompt>
+<result>
+19 ja sattumalta kuulin "Suloinen Maria!"
+20 edessämme joku huusi näin itkiessään
+21 kuten nainen, joka on synnyttämässä;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 22/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 22 e seguitar: «Povera fosti tanto,
 23 quanto veder si può per quello ospizio
 24 dove sponesti il tuo portato santo».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 Kirottu olet sinä, muinainen susi,\n11 joka enemmän kuin kaikki muut pedot saalistat\n12 loputtomalla, synkällä nälälläsi!\n\n13 Oi taivas, jonka kierrossa uskotaan\n14 että täällä vallitsevat olosuhteet muuttuvat,\n15 milloin tulee se, jonka kautta tämä häviää?\n\n16 Me kuljimme hitaasti ja varovasti,\n17 ja minä kuuntelin varjoja, jotka kuulin\n18 itkevän ja valittavan säälittävästi;\n\n19 ja sattumalta kuulin \"Suloinen Maria!\"\n20 edessämme joku huusi näin itkiessään\n21 kuten nainen, joka on synnyttämässä;\n\n22 ja jatkoi: \"Olit niin köyhä,\n23 kuin voidaan nähdä siitä majapaikasta,\n24 johon synnytit pyhän lapsesi\"."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-10 Kirottu olet sinä, muinainen susi,
-11 joka enemmän kuin kaikki muut pedot saalistat
-12 loputtomalla, synkällä nälälläsi!
-
-13 Oi taivas, jonka kierrossa uskotaan
-14 että täällä vallitsevat olosuhteet muuttuvat,
-15 milloin tulee se, jonka kautta tämä häviää?
-
-16 Me kuljimme hitaasti ja varovasti,
-17 ja minä kuuntelin varjoja, jotka kuulin
-18 itkevän ja valittavan säälittävästi;
-
-19 ja sattumalta kuulin "Suloinen Maria!"
-20 edessämme joku huusi näin itkiessään
-21 kuten nainen, joka on synnyttämässä;
-
 22 ja jatkoi: "Olit niin köyhä,
 23 kuin voidaan nähdä siitä majapaikasta,
 24 johon synnytit pyhän lapsesi".
@@ -254,26 +263,41 @@ Please translate each line literally into Finnish.
 52 Figliuol fu’ io d’un beccaio di Parigi:
 53 quando li regi antichi venner meno
 54 tutti, fuor ch’un renduto in panni bigi,
+</prompt>
+<result>
+52 Olin erään pariisilaisen teurastajan poika:
+53 kun muinaiset kuninkaat vähenivät
+54 kaikki, paitsi yksi, joka oli pukeutunut harmaisiin vaatteisiin,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 55/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 55 trova’mi stretto ne le mani il freno
 56 del governo del regno, e tanta possa
 57 di nuovo acquisto, e sì d’amici pieno,
+</prompt>
+<result>
+55 löysin itseni tiukasti sen käsissä,
+56 hallituksen ohjissa, ja niin paljon valtaa
+57 uutena hankintana, ja niin täynnä ystäviä,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 58/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 58 ch’a la corona vedova promossa
 59 la testa di mio figlio fu, dal quale
 60 cominciar di costor le sacrate ossa.
 </prompt>
 <result>
-52 Olin Pariisin lihamestarin poika:
-53 kun vanhat kuninkaat kuolivat kaikki,
-54 paitsi yksi, joka pukeutui harmaisiin vaatteisiin,
-
-55 löysin itseni tiukasti hallitusvallan ohjaksista,
-56 ja niin paljon uutta valtaa ja niin paljon ystäviä,
-
-57 että leskeksi jäänyt kruunu asetettiin
-58 poikani päähän, josta
-60 näiden pyhät luut saivat alkunsa.
+58 että leskeksi jääneen kruunun edistämäksi
+59 tuli poikani pää, josta
+60 alkoi näiden pyhien luiden (dynastia).
 </result>
 </query>
 <query>
@@ -301,8 +325,9 @@ Please translate each line literally into Finnish.
 66 Pontì e Normandia prese e Guascogna.
 </prompt>
 <result>
-64 Siellä se aloitti ryöstöretkensä voimalla ja valheilla;
-65 ja sitten, hyvitykseksi, se valtasi Ponthieu’n, Normandian ja Gascognen.
+64 Siellä hän aloitti väkivallalla ja valheilla
+65 ryöstöretkensä; ja sitten, hyvitykseksi,
+66 valtasi Pontin ja Normandian ja Gascognen.
 </result>
 </query>
 <query>
@@ -388,16 +413,23 @@ Please translate each line literally into Finnish.
 82 O avarizia, che puoi tu più farne,
 83 poscia c’ha’ il mio sangue a te sì tratto,
 84 che non si cura de la propria carne?
+</prompt>
+<result>
+82 Oi ahneus, mitä muuta voit tehdä meille,
+83 nyt kun olet vetänyt minut niin puolellesi,
+84 etten välitä omasta lihastani?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 85/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 85 Perché men paia il mal futuro e ’l fatto,
 86 veggio in Alagna intrar lo fiordaliso,
 87 e nel vicario suo Cristo esser catto.
 </prompt>
 <result>
-82 Oi ahneus, mitä muuta voit tehdä meille,
-83 nyt kun olet vetänyt minut niin puolellesi,
-84 etten välitä omasta lihastani?
-
 85 Jotta tuleva ja tehty paha näyttäisi minulle pienemmältä,
 86 näen fleur-de-lisin tulevan Alagnaan
 87 ja Kristuksen olevan vangittuna sijaisessaan.
@@ -412,32 +444,6 @@ Please translate each line literally into Finnish.
 89 veggio rinovellar l’aceto e ’l fiele,
 90 e tra vivi ladroni esser anciso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "88 Näen hänen tulevan pilkatuksi toisen kerran;\n89 näen etikan ja sapen uudistettavan,\n90 ja hänen tulevan surmatuksi elävien ryövärien keskellä."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 88 Näen hänen tulevan pilkatuksi toisen kerran;
 89 näen etikan ja sapen uudistettavan,
@@ -467,24 +473,38 @@ Please translate each line literally into Finnish.
 94 O Segnor mio, quando sarò io lieto
 95 a veder la vendetta che, nascosa,
 96 fa dolce l’ira tua nel tuo secreto?
+</prompt>
+<result>
+94 Oi Herrani, milloin olen iloinen
+95 nähdessäni koston, joka piilossa
+96 tekee vihasi suloiseksi salaisuudessasi?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 97/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 97 Ciò ch’io dicea di quell’ unica sposa
 98 de lo Spirito Santo e che ti fece
 99 verso me volger per alcuna chiosa,
+</prompt>
+<result>
+97 Se mitä sanoin siitä ainutlaatuisesta
+98 Pyhän Hengen morsiamesta, joka sai sinut
+99 kääntymään puoleeni selittääksesi jotain,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 100/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 100 tanto è risposto a tutte nostre prece
 101 quanto ’l dì dura; ma com’ el s’annotta,
 102 contrario suon prendemo in quella vece.
 </prompt>
 <result>
-94 Oi Herrani, milloin olen iloinen
-95 nähdessäni koston, joka piilossa
-96 tekee vihasi suloiseksi salaisuudessasi?
-
-97 Se mitä sanoin siitä ainutlaatuisesta
-98 Pyhän Hengen morsiamesta, joka sai sinut
-99 kääntymään puoleeni selittääksesi jotain,
-
 100 on vastattu kaikkiin rukouksiin yhtä paljon
 101 kuin päivä kestää; mutta kun tulee ilta,
 102 alamme sen sijaan kuulla vastakkaista ääntä.
@@ -498,15 +518,23 @@ Please translate each line literally into Finnish.
 103 Noi repetiam Pigmalïon allotta,
 104 cui traditore e ladro e paricida
 105 fece la voglia sua de l’oro ghiotta;
+</prompt>
+<result>
+103 Meitä kaikkia,
+104 joista hän teki petturin, varkaan ja murhaajan
+105 kultaisen halunsa tähden;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 106/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 106 e la miseria de l’avaro Mida,
 107 che seguì a la sua dimanda gorda,
 108 per la qual sempre convien che si rida.
 </prompt>
 <result>
-103 Toistimme silloin Pigmalionin,
-104 jonka kultahimo teki petturiksi, varkaaksi ja murhaajaksi;
-
 106 ja ahneen Midaksen kurjuuden,
 107 joka seurasi hänen ahnetta pyyntöään,
 108 josta on aina syytä nauraa.
@@ -535,16 +563,23 @@ Please translate each line literally into Finnish.
 112 Indi accusiam col marito Saffira;
 113 lodiam i calci ch’ebbe Elïodoro;
 114 e in infamia tutto ’l monte gira
+</prompt>
+<result>
+112 Sitten syytämme Safiraa yhdessä hänen miehensä kanssa;
+113 ylistämme potkuja, jotka Heliodoros sai;
+114 ja koko vuori kiertää häpeässä
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 115/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 115 Polinestòr ch’ancise Polidoro;
 116 ultimamente ci si grida: “Crasso,
 117 dilci, che ’l sai: di che sapore è l’oro?”.
 </prompt>
 <result>
-112 Sitten syytämme Safiraa yhdessä hänen miehensä kanssa;
-113 ylistämme potkuja, jotka Heliodoros sai;
-114 ja koko vuori kiertää häpeässä
-
 115 Polymnestoria, joka tappoi Polydoroksen;
 116 lopulta meille huudetaan: ”Crassus,
 117 kerro meille, kun tiedät: millaista on kullan maku?”.
@@ -558,16 +593,23 @@ Please translate each line literally into Finnish.
 118 Talor parla l’uno alto e l’altro basso,
 119 secondo l’affezion ch’ad ir ci sprona
 120 ora a maggiore e ora a minor passo:
+</prompt>
+<result>
+118 Joskus toinen puhuu kovaa ja toinen hiljaa,
+119 sen mukaan, mikä halu kannustaa meitä menemään
+120 välillä nopeammin ja välillä hitaammin:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 121/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 121 però al ben che ’l dì ci si ragiona,
 122 dianzi non era io sol; ma qui da presso
 123 non alzava la voce altra persona».
 </prompt>
 <result>
-118 Joskus toinen puhuu kovaa ja toinen hiljaa,
-119 sen mukaan, mikä halu kannustaa meitä menemään
-120 välillä nopeammin ja välillä hitaammin:
-
 121 siksi en ollut yksin siinä hyvässä,
 122 josta puhuimme päivällä; mutta täällä lähellä
 123 kukaan muu ei korottanut ääntään».
@@ -581,16 +623,23 @@ Please translate each line literally into Finnish.
 124 Noi eravam partiti già da esso,
 125 e brigavam di soverchiar la strada
 126 tanto quanto al poder n’era permesso,
+</prompt>
+<result>
+124 Olimme jo eronneet hänestä,
+125 ja kiirehdimme ylittämään matkaa
+126 niin paljon kuin pystyimme,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 127/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 127 quand’ io senti’, come cosa che cada,
 128 tremar lo monte; onde mi prese un gelo
 129 qual prender suol colui ch’a morte vada.
 </prompt>
 <result>
-124 Olimme jo eronneet hänestä,
-125 ja kiirehdimme ylittämään matkaa
-126 niin paljon kuin pystyimme,
-
 127 kun kuulin, kuin jokin putoaa,
 128 vuoren vapisevan; mistä minut valtasi sellainen kylmyys,
 129 kuin sen, joka on menossa kuolemaan.
@@ -679,21 +728,36 @@ Please translate each line literally into Finnish.
 145 Nulla ignoranza mai con tanta guerra
 146 mi fé desideroso di sapere,
 147 se la memoria mia in ciò non erra,
+</prompt>
+<result>
+145 Mikään tietämättömyys ei ole koskaan niin suurella sodalla
+146 tehnyt minua halukkaaksi tietämään,
+147 ellei muistini tässä erehdy,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 148/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 148 quanta pareami allor, pensando, avere;
 149 né per la fretta dimandare er’ oso,
 150 né per me lì potea cosa vedere:
+</prompt>
+<result>
+148 kuinka paljon paremmalta minusta silloin tuntui ajatella, että minulla olisi se;
+149 enkä kiireessä tiennyt, mitä kysyä,
+150 enkä voinut nähdä siellä mitään itselleni:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 151/151</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 151 così m’andava timido e pensoso.
 </prompt>
 <result>
-145 Mikään tietämättömyys ei ole koskaan saanut minua niin halukkaaksi tietämään,
-146 jos muistini ei erehdy siinä,
-
-148 kuin silloin tuntui minusta olevan, kun ajattelin;
-149 enkä kiireessä tiennyt, miten kysyä,
-150 enkä voinut nähdä mitään itselleni siellä:
-
 151 niin minä kuljin pelokkaana ja mietteliäänä.
 </result>
 </query>

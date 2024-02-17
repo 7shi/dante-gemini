@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries count="48">
 <query>
 <info>[Inferno Canto 28] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Slovak.
 1 Chi poria mai pur con parole sciolte
 2 dicer del sangue e de le piaghe a pieno
 3 ch’i’ ora vidi, per narrar più volte?
+</prompt>
+<result>
+1 Kto by dokázal čo i len voľnými slovami
+2 povedať o krvi a ranách úplne
+3 to, čo som teraz videl, aby som to viackrát porozprával?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 4/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 4 Ogne lingua per certo verria meno
 5 per lo nostro sermone e per la mente
 6 c’hanno a tanto comprender poco seno.
 </prompt>
 <result>
-1 Kto by dokázal čo i len voľnými slovami
-2 povedať o krvi a ranách úplne
-3 to, čo som teraz videl, aby som to viackrát porozprával?
-
 4 Každý jazyk by určite zlyhal
 5 pre náš prejav a pre myseľ
 6 ktoré majú na také pochopenie príliš malú kapacitu.
@@ -31,42 +38,71 @@ Please translate each line literally into Slovak.
 7 S’el s’aunasse ancor tutta la gente
 8 che già, in su la fortunata terra
 9 di Puglia, fu del suo sangue dolente
+</prompt>
+<result>
+7 Keby sa ešte raz zišla všetka táto skupina ľudí,
+8 ktorá už na šťastnej zemi
+9 Apulie trpela pre svoju krv
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 10/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 10 per li Troiani e per la lunga guerra
 11 che de l’anella fé sì alte spoglie,
 12 come Livïo scrive, che non erra,
+</prompt>
+<result>
+10 kvôli Trójanom a dlhej vojne,
+11 ktorá zanechala také veľké koristi z prsteňov,
+12 ako píše Livius, ktorý sa nemýli,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 13/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 13 con quella che sentio di colpi doglie
 14 per contastare a Ruberto Guiscardo;
 15 e l’altra il cui ossame ancor s’accoglie
+</prompt>
+<result>
+13 s tou, ktorá cítila bolestivé údery
+14 za to, že sa postavila Robertu Guiscardu;
+15 a druhá, ktorej kosti sa ešte zhromažďujú
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 16/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 16 a Ceperan, là dove fu bugiardo
 17 ciascun Pugliese, e là da Tagliacozzo,
 18 dove sanz’ arme vinse il vecchio Alardo;
+</prompt>
+<result>
+16 v Ceperane, kde bol každý
+17 Apuliec klamár, a tam pri Tagliacozze,
+18 kde starý Alardo zvíťazil bez zbraní;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 19/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 19 e qual forato suo membro e qual mozzo
 20 mostrasse, d’aequar sarebbe nulla
 21 il modo de la nona bolgia sozzo.
 </prompt>
 <result>
-7 Keby sa teraz zhromaždili všetci ľudia,
-8 ktorí kedysi na šťastnej zemi
-9 Apúlie trpeli pre svoju krv,
-
-10 pre Trójanov a pre dlhú vojnu,
-11 ktorá priniesla také bohaté koristi z prsteňov,
-12 ako píše Livius, ktorý sa nemýli,
-
-13 spolu s tými, ktorí cítili bolesť z úderov
-14 pri bojoch proti Robertovi Guiscardovi;
-15 a ďalší, ktorých kosti sa ešte stále zhromažďujú
-
-16 v Ceperane, kde každý Apulijec klamal,
-17 a tam pri Tagliacozze,
-18 kde starý Alardo zvíťazil bez zbraní;
-
-19 a keby každý ukázal svoj zranený alebo odťatý úd,
-20 nič by sa nevyrovnalo špine deviateho kruhu pekla.
+19 A aký diera je členom a aký prostriedok
+20 najviac, d’aequar
+21 režim nona bolgia sozzo.
 </result>
 </query>
 <query>
@@ -78,32 +114,6 @@ Please translate each line literally into Slovak.
 23 com’ io vidi un, così non si pertugia,
 24 rotto dal mento infin dove si trulla.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "22 Už vidím, ako som stratil polovicu cesty alebo som sa pomýlil,\n23 ako som videl jedného, takého roztrhnutého,\n24 rozťatého od brady až po konečník."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 22 Už vidím, ako som stratil polovicu cesty alebo som sa pomýlil,
 23 ako som videl jedného, takého roztrhnutého,
@@ -119,37 +129,10 @@ Please translate each line literally into Slovak.
 26 la corata pareva e ’l tristo sacco
 27 che merda fa di quel che si trangugia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 Medzi nohami im viseli vnútornosti;\n26 vyzeralo to ako črevá a žalúdok\n27 a ten odporný vak,\n28 ktorý robí z toho, čo sa prehltne, výkaly."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-25 Medzi nohami im viseli vnútornosti;
-26 vyzeralo to ako črevá a žalúdok
-27 a ten odporný vak,
-28 ktorý robí z toho, čo sa prehltne, výkaly.
+25 Medzi nohami mu viseli vnútornosti;
+26 bolo vidieť črevá a ten odporný vak,
+27 ktorý robí hovno z toho, čo sa prehltne.
 </result>
 </query>
 <query>
@@ -160,16 +143,23 @@ Please translate each line literally into Slovak.
 28 Mentre che tutto in lui veder m’attacco,
 29 guardommi e con le man s’aperse il petto,
 30 dicendo: «Or vedi com’ io mi dilacco!
+</prompt>
+<result>
+28 Kým som sa naňho celý uprene pozeral,
+29 pozrel sa na mňa a rukami si roztrhol hruď,
+30 hovoriac: „Teraz vidíš, ako sa trhám!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 31/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 31 vedi come storpiato è Mäometto!
 32 Dinanzi a me sen va piangendo Alì,
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
 <result>
-28 Kým som sa naňho celý uprene pozeral,
-29 pozrel sa na mňa a rukami si roztrhol hruď,
-30 hovoriac: „Teraz vidíš, ako sa trhám!
-
 31 Vidíš, aký zmrzačený je Mohamed!
 32 Predo mnou kráča plačúci Alí,
 33 rozťatý v tvári od brady po čelo.
@@ -198,42 +188,23 @@ Please translate each line literally into Slovak.
 37 Un diavolo è qua dietro che n’accisma
 38 sì crudelmente, al taglio de la spada
 39 rimettendo ciascun di questa risma,
+</prompt>
+<result>
+37 Diabol je tu vzadu, ktorý ich zabíja
+38 tak kruto, mečom ich seká,
+39 každého z tejto skupiny posiela späť,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 40/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 40 quand’ avem volta la dolente strada;
 41 però che le ferite son richiuse
 42 prima ch’altri dinanzi li rivada.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 Diabol je tu vzadu, ktorý ich zabíja\n38 tak kruto, mečom ich seká,\n39 každého z tejto skupiny posiela späť,\n\n40 keď sa otočíme na bolestivej ceste;\n41 pretože rany sa zahoja,\n42 skôr ako sa k nim niekto iný dostane."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-37 Diabol je tu vzadu, ktorý ich zabíja
-38 tak kruto, mečom ich seká,
-39 každého z tejto skupiny posiela späť,
-
 40 keď sa otočíme na bolestivej ceste;
 41 pretože rany sa zahoja,
 42 skôr ako sa k nim niekto iný dostane.
@@ -262,16 +233,23 @@ Please translate each line literally into Slovak.
 46 «Né morte ’l giunse ancor, né colpa ’l mena»,
 47 rispuose ’l mio maestro, «a tormentarlo;
 48 ma per dar lui esperïenza piena,
+</prompt>
+<result>
+46 „Ešte ho nestihla smrť, ani vina ho nevedie,“
+47 odpovedal môj učiteľ, „aby ho trápila;
+48 ale aby som mu dal plnú skúsenosť,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 49/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 49 a me, che morto son, convien menarlo
 50 per lo ’nferno qua giù di giro in giro;
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
 <result>
-46 „Ešte ho nestihla smrť, ani vina ho nevedie,“
-47 odpovedal môj učiteľ, „aby ho trápila;
-48 ale aby som mu dal plnú skúsenosť,
-
 49 ja, ktorý som mŕtvy, ho musím vziať
 50 peklom tu dole z kruhu do kruhu;
 51 a toto je pravda, tak ako ti hovorím.“
@@ -300,16 +278,23 @@ Please translate each line literally into Slovak.
 55 «Or dì a fra Dolcin dunque che s’armi,
 56 tu che forse vedra’ il sole in breve,
 57 s’ello non vuol qui tosto seguitarmi,
+</prompt>
+<result>
+55 „Takže teraz povedz bratovi Dolcinovi, aby sa vyzbrojil,
+56 ty, ktorý možno čoskoro uvidíš slnko,
+57 ak ma nechce hneď nasledovať sem,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 58/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 58 sì di vivanda, che stretta di neve
 59 non rechi la vittoria al Noarese,
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55 „Takže teraz povedz bratovi Dolcinovi, aby sa vyzbrojil,
-56 ty, ktorý možno čoskoro uvidíš slnko,
-57 ak ma nechce hneď nasledovať sem,
-
 58 s takou zásobou jedla, aby snehová búrka
 59 nepriniesla víťazstvo Novarešanom,
 60 pretože inak by nebolo ľahké ju získať.“
@@ -338,32 +323,53 @@ Please translate each line literally into Slovak.
 64 Un altro, che forata avea la gola
 65 e tronco ’l naso infin sotto le ciglia,
 66 e non avea mai ch’una orecchia sola,
+</prompt>
+<result>
+64 Ďalší, ktorý mal prepichnuté hrdlo
+65 a odrezaný nos až pod obočie
+66 a nemal viac ako jedno ucho,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 67/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 67 ristato a riguardar per maraviglia
 68 con li altri, innanzi a li altri aprì la canna,
 69 ch’era di fuor d’ogne parte vermiglia,
+</prompt>
+<result>
+67 zastavil sa, aby sa pozrel od úžasu
+68 spolu s ostatnými, pred ostatnými otvoril hrdlo,
+69 ktoré bolo zvonku celé červené,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 70/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 70 e disse: «O tu cui colpa non condanna
 71 e cu’ io vidi su in terra latina,
 72 se troppa simiglianza non m’inganna,
+</prompt>
+<result>
+70 a povedal: „Ó, ty, ktorého neodsudzuje vina
+71 a ktorého som videl na zemi v Latine,
+72 ak ma prílišná podobnosť neklame,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 73/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 73 rimembriti di Pier da Medicina,
 74 se mai torni a veder lo dolce piano
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64 Ďalší, ktorý mal prepichnuté hrdlo
-65 a odrezaný nos až pod obočie
-66 a nemal viac ako jedno ucho,
-
-67 zastavil sa, aby sa pozrel od úžasu
-68 spolu s ostatnými, pred ostatnými otvoril hrdlo,
-69 ktoré bolo zvonku celé červené,
-
-70 a povedal: „Ó, ty, ktorého neodsudzuje vina
-71 a ktorého som videl na zemi v Latine,
-72 ak ma prílišná podobnosť neklame,
-
 73 spomeň si na Piera da Medicina,
 74 ak sa niekedy vrátiš, aby si videl sladkú rovinu,
 75 ktorá klesá od Vercelli k Marcabò.
@@ -377,16 +383,23 @@ Please translate each line literally into Slovak.
 76 E fa saper a’ due miglior da Fano,
 77 a messer Guido e anco ad Angiolello,
 78 che, se l’antiveder qui non è vano,
+</prompt>
+<result>
+76 A daj vedieť dvom najlepším z Fana,
+77 messerovi Guidovi a tiež Angiolellovi,
+78 že ak nie je márne to, čo tu predvídam,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 79/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 79 gittati saran fuor di lor vasello
 80 e mazzerati presso a la Cattolica
 81 per tradimento d’un tiranno fello.
 </prompt>
 <result>
-76 A daj vedieť dvom najlepším z Fana,
-77 messerovi Guidovi a tiež Angiolellovi,
-78 že ak nie je márne to, čo tu predvídam,
-
 79 budú vyhodení zo svojej lode
 80 a zabití pri Cattolice
 81 zradou krutého tyrana.
@@ -415,16 +428,23 @@ Please translate each line literally into Slovak.
 85 Quel traditor che vede pur con l’uno,
 86 e tien la terra che tale qui meco
 87 vorrebbe di vedere esser digiuno,
+</prompt>
+<result>
+85 Ten zradca, ktorý vidí iba jedným okom,
+86 a drží zem, ktorú by tak rád videl
+87 vyhladovanú ako ja tu,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 88/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 88 farà venirli a parlamento seco;
 89 poi farà sì, ch’al vento di Focara
 90 non sarà lor mestier voto né preco».
 </prompt>
 <result>
-85 Ten zradca, ktorý vidí iba jedným okom,
-86 a drží zem, ktorú by tak rád videl
-87 vyhladovanú ako ja tu,
-
 88 ich privedie, aby s ním rokovali;
 89 potom spôsobí, že pri vetre vo Focari
 90 im nepomôže ani sľub, ani modlitba.
@@ -483,24 +503,38 @@ Please translate each line literally into Slovak.
 100 Oh quanto mi pareva sbigottito
 101 con la lingua tagliata ne la strozza
 102 Curïo, ch’a dir fu così ardito!
+</prompt>
+<result>
+100 Ó, aký sa mi zdal vystrašený
+101 s jazykom odrezaným v hrdle
+102 Curio, ktorý bol taký odvážny v rečiach!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 103/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 103 E un ch’avea l’una e l’altra man mozza,
 104 levando i moncherin per l’aura fosca,
 105 sì che ’l sangue facea la faccia sozza,
+</prompt>
+<result>
+103 A jeden, ktorý mal odťaté obe ruky,
+104 dvíhajúc pahýle v temnej hmle,
+105 takže krv mu špinila tvár,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 106/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 106 gridò: «Ricordera’ti anche del Mosca,
 107 che disse, lasso!, “Capo ha cosa fatta”,
 108 che fu mal seme per la gente tosca».
 </prompt>
 <result>
-100 Ó, aký sa mi zdal vystrašený
-101 s jazykom odrezaným v hrdle
-102 Curio, ktorý bol taký odvážny v rečiach!
-
-103 A jeden, ktorý mal odťaté obe ruky,
-104 dvíhajúc pahýle v temnej hmle,
-105 takže krv mu špinila tvár,
-
 106 zvolal: „Spomeň si aj na Moscu,
 107 ktorý povedal, beda!, „Hotová vec má hlavu“,
 108 čo bolo zlé semeno pre toskánsky ľud.“
@@ -529,16 +563,23 @@ Please translate each line literally into Slovak.
 112 Ma io rimasi a riguardar lo stuolo,
 113 e vidi cosa ch’io avrei paura,
 114 sanza più prova, di contarla solo;
+</prompt>
+<result>
+112 Ale ja som zostal pozerať na zástup,
+113 a videl som niečo, čo by som sa bál,
+114 bez ďalšieho dôkazu, rozprávať sám;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 115/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 115 se non che coscïenza m’assicura,
 116 la buona compagnia che l’uom francheggia
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112 Ale ja som zostal pozerať na zástup,
-113 a videl som niečo, čo by som sa bál,
-114 bez ďalšieho dôkazu, rozprávať sám;
-
 115 keby ma neuisťovalo svedomie,
 116 dobrá spoločnosť, ktorá človeka osmeľuje
 117 pod brnením čistého cítenia.
@@ -552,16 +593,23 @@ Please translate each line literally into Slovak.
 118 Io vidi certo, e ancor par ch’io ’l veggia,
 119 un busto sanza capo andar sì come
 120 andavan li altri de la trista greggia;
+</prompt>
+<result>
+118 Videl som určite, a stále sa mi zdá, že to vidím,
+119 trup bez hlavy kráčať tak, ako
+120 kráčali ostatní z toho smutného stáda;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 121/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 121 e ’l capo tronco tenea per le chiome,
 122 pesol con mano a guisa di lanterna:
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118 Videl som určite, a stále sa mi zdá, že to vidím,
-119 trup bez hlavy kráčať tak, ako
-120 kráčali ostatní z toho smutného stáda;
-
 121 a odrezanú hlavu držal za vlasy,
 122 niesol ju v ruke ako lampáš:
 123 a ten sa na nás pozeral a hovoril: „Ó, ja!“
@@ -590,16 +638,23 @@ Please translate each line literally into Slovak.
 127 Quando diritto al piè del ponte fue,
 128 levò ’l braccio alto con tutta la testa
 129 per appressarne le parole sue,
+</prompt>
+<result>
+127 Keď bol priamo pri úpätí mosta,
+128 zdvihol ruku vysoko aj s celou hlavou,
+129 aby sme lepšie počuli jeho slová,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 130/142</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 130 che fuoro: «Or vedi la pena molesta,
 131 tu che, spirando, vai veggendo i morti:
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127 Keď bol priamo pri úpätí mosta,
-128 zdvihol ruku vysoko aj s celou hlavou,
-129 aby sme lepšie počuli jeho slová,
-
 130 ktoré boli: „Teraz vidíš bolestivý trest,
 131 ty, ktorý, dýchajúc, vidíš mŕtvych:
 132 pozri, či je nejaký väčší ako tento.

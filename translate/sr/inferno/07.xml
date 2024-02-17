@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="44">
 <query>
 <info>[Inferno Canto 7] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Serbian (Latin).
 1 «Pape Satàn, pape Satàn aleppe!»,
 2 cominciò Pluto con la voce chioccia;
 3 e quel savio gentil, che tutto seppe,
+</prompt>
+<result>
+1 „Pape Satane, pape Satane aleppe!“,
+2 započe Pluton hrapavim glasom;
+3 a onaj mudri plemenitaš, koji je sve znao,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 4/130</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 4 disse per confortarmi: «Non ti noccia
 5 la tua paura; ché, poder ch’elli abbia,
 6 non ci torrà lo scender questa roccia».
 </prompt>
 <result>
-1 „Pape Satane, pape Satane aleppe!“,
-2 započe Pluton hrapavim glasom;
-3 a onaj mudri plemenitaš, koji je sve znao,
-
 4 reče da bi me ohrabrio: „Neka te ne zabrine
 5 tvoj strah; jer, ma koliko moći imao,
 6 neće nam zabraniti da se spustimo niz ovu stijenu“.
@@ -32,32 +39,6 @@ Please translate each line literally into Serbian (Latin).
 8 e disse: «Taci, maladetto lupo!
 9 consuma dentro te con la tua rabbia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "7 Zatim se okrenuo onoj nadutoj usni,\n8 i reče: „Ćuti, prokleti vuče!\n9 Proždi sam sebe svojom bijesom."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 7 Zatim se okrenuo onoj nadutoj usni,
 8 i reče: „Ćuti, prokleti vuče!
@@ -117,16 +98,23 @@ Please translate each line literally into Serbian (Latin).
 19 Ahi giustizia di Dio! tante chi stipa
 20 nove travaglie e pene quant’ io viddi?
 21 e perché nostra colpa sì ne scipa?
+</prompt>
+<result>
+19 Ah, Božja pravdo! Koliko ih gomila
+20 novih muka i kazni koliko sam video?
+21 I zašto nas naša krivica tako uništava?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 22/130</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 22 Come fa l’onda là sovra Cariddi,
 23 che si frange con quella in cui s’intoppa,
 24 così convien che qui la gente riddi.
 </prompt>
 <result>
-19 Ah, Božja pravdo! Koliko ih gomila
-20 novih muka i kazni koliko sam video?
-21 I zašto nas naša krivica tako uništava?
-
 22 Kao što talas tamo iznad Haribde,
 23 koji se lomi sa onim u koji se sudari,
 24 tako je neophodno da se ovde ljudi okreću u krug.
@@ -157,8 +145,9 @@ Please translate each line literally into Serbian (Latin).
 30 gridando: «Perché tieni?» e «Perché burli?».
 </prompt>
 <result>
-28 Udarali su se nasuprot; i onda su se tamo okrećali, okrećući se natrag,
-29 vičući: „Zašto držiš?“ i „Zašto se rugaš?“.
+28 Udaraju jedni u druge; a onda tamo
+29 okreću se svaki, okrećući se natrag,
+30 vičući: „Zašto zadržavaš?“ i „Zašto se rugaš?“.
 </result>
 </query>
 <query>
@@ -169,33 +158,38 @@ Please translate each line literally into Serbian (Latin).
 31 Così tornavan per lo cerchio tetro
 32 da ogne mano a l’opposito punto,
 33 gridandosi anche loro ontoso metro;
-
-34 poi si volgea ciascun, quand’ era giunto,
-35 per lo suo mezzo cerchio a l’altra giostra.
 </prompt>
 <result>
 31 Tako su se vraćali kroz mračnu jazbinu
 32 sa svake strane do suprotne tačke,
 33 vičući jedni drugima takođe sramotne reči;
-
-34 zatim se je svaki okretao, kada bi stigao,
-35 kroz svoj polukrug do druge borbe.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 36/130</info>
+<info>[Inferno Canto 7] 34/130</info>
 <prompt>
 Please translate each line literally into Serbian (Latin).
 
+34 poi si volgea ciascun, quand’ era giunto,
+35 per lo suo mezzo cerchio a l’altra giostra.
 36 E io, ch’avea lo cor quasi compunto,
+</prompt>
+<result>
+34 zatim se je svaki okretao, kada bi stigao,
+35 kroz svoj polukrug do druge borbe.
+36 A ja, koji sam imao srce skoro slomljeno,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 37/130</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 37 dissi: «Maestro mio, or mi dimostra
 38 che gente è questa, e se tutti fuor cherci
 39 questi chercuti a la sinistra nostra».
 </prompt>
 <result>
-36 A ja, koji sam imao srce skoro slomljeno,
-
 37 rekoh: „Moj učitelju, sada mi pokaži
 38 koja je ovo vrsta ljudi, i da li su svi bili sveštenici
 39 ovi ošišani na našoj levoj strani“.
@@ -285,32 +279,6 @@ Please translate each line literally into Serbian (Latin).
 56 questi resurgeranno del sepulcro
 57 col pugno chiuso, e questi coi crin mozzi.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "55 Zauvek će dolaziti do ova dva sudara:\n56 ovi će ustati iz groba\n57 sa stisnutom pesnicom, a ovi sa ošišanim kosama."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 55 Zauvek će dolaziti do ova dva sudara:
 56 ovi će ustati iz groba
@@ -340,16 +308,23 @@ Please translate each line literally into Serbian (Latin).
 61 Or puoi, figliuol, veder la corta buffa
 62 d’i ben che son commessi a la fortuna,
 63 per che l’umana gente si rabbuffa;
+</prompt>
+<result>
+61 Sada možeš, sine, videti kratku lakrdiju
+62 o dobrima koja su poverena sreći,
+63 zbog čega se ljudski svet svađa;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 64/130</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 64 ché tutto l’oro ch’è sotto la luna
 65 e che già fu, di quest’ anime stanche
 66 non poterebbe farne posare una».
 </prompt>
 <result>
-61 Sada možeš, sine, videti kratku lakrdiju
-62 o dobrima koja su poverena sreći,
-63 zbog čega se ljudski svet svađa;
-
 64 jer sve zlato koje je ispod meseca
 65 i koje je ikada bilo, ne bi moglo
 66 učiniti da jedna od ovih umornih duša počiva.
@@ -379,32 +354,6 @@ Please translate each line literally into Serbian (Latin).
 71 quanta ignoranza è quella che v’offende!
 72 Or vo’ che tu mia sentenza ne ’mbocche.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 A on meni: „O lude stvorenja,\n71 koliko je to neznanje koje vas vređa!\n72 Sada želim da ti moja presuda bude u ustima."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 70 A on meni: „O lude stvorenja,
 71 koliko je to neznanje koje vas vređa!
@@ -419,41 +368,53 @@ Please translate each line literally into Serbian (Latin).
 73 Colui lo cui saver tutto trascende,
 74 fece li cieli e diè lor chi conduce
 75 sì, ch’ogne parte ad ogne parte splende,
-
-76 distribuendo igualmente la luce.
 </prompt>
 <result>
 73 Onaj čija mudrost sve nadmašuje,
 74 stvorio je nebesa i dao im onoga ko ih vodi
 75 tako da svaki deo sija na svaki deo,
-
-76 raspoređujući svetlost jednako.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 77/130</info>
+<info>[Inferno Canto 7] 76/130</info>
 <prompt>
 Please translate each line literally into Serbian (Latin).
 
+76 distribuendo igualmente la luce.
 77 Similemente a li splendor mondani
 78 ordinò general ministra e duce
+</prompt>
+<result>
+76 raspoređujući svetlost jednako.
+77 Slično tome, za svetske sjaje
+78 odredio je opšteg ministra i vođu
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 79/130</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 79 che permutasse a tempo li ben vani
 80 di gente in gente e d’uno in altro sangue,
 81 oltre la difension d’i senni umani;
+</prompt>
+<result>
+79 koji bi na vreme menjao tašte dobre stvari
+80 od naroda do naroda i od jedne do druge krvi,
+81 izvan odbrane ljudskih čula;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 82/130</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 82 per ch’una gente impera e l’altra langue,
 83 seguendo lo giudicio di costei,
 84 che è occulto come in erba l’angue.
 </prompt>
 <result>
-77 Slično tome, za svetske sjaje
-78 odredio je opšteg ministra i vođu
-
-79 koji bi na vreme menjao tašte dobre stvari
-80 od naroda do naroda i od jedne do druge krvi,
-81 izvan odbrane ljudskih čula;
-
 82 tako da jedan narod vlada, a drugi vene,
 83 sledeći sud ove,
 84 koji je skriven kao zmija u travi.
@@ -497,16 +458,23 @@ Please translate each line literally into Serbian (Latin).
 91 Quest’ è colei ch’è tanto posta in croce
 92 pur da color che le dovrien dar lode,
 93 dandole biasmo a torto e mala voce;
+</prompt>
+<result>
+91 Ona je ona koja je toliko stavljena na krst
+92 upravo od onih koji bi joj trebalo da daju pohvale,
+93 nepravedno joj dajući krivicu i loš glas;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 94/130</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 94 ma ella s’è beata e ciò non ode:
 95 con l’altre prime creature lieta
 96 volve sua spera e beata si gode.
 </prompt>
 <result>
-91 Ona je ona koja je toliko stavljena na krst
-92 upravo od onih koji bi joj trebalo da daju pohvale,
-93 nepravedno joj dajući krivicu i loš glas;
-
 94 ali ona je blažena i to ne čuje:
 95 sa drugim prvim stvorenjima srećna
 96 okreće svoju sferu i uživa u blaženstvu.
@@ -581,32 +549,6 @@ Please translate each line literally into Serbian (Latin).
 110 vidi genti fangose in quel pantano,
 111 ignude tutte, con sembiante offeso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 A ja, koji sam bio pažljivo usredsređen na gledanje,\n110 video sam blatnjave ljude u toj močvari,\n111 sve gole, sa uvredenim izrazom lica."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 109 A ja, koji sam bio pažljivo usredsređen na gledanje,
 110 video sam blatnjave ljude u toj močvari,
@@ -636,16 +578,23 @@ Please translate each line literally into Serbian (Latin).
 115 Lo buon maestro disse: «Figlio, or vedi
 116 l’anime di color cui vinse l’ira;
 117 e anche vo’ che tu per certo credi
+</prompt>
+<result>
+115 Dobri učitelj reče: „Sine, sada vidiš
+116 duše onih koje je savladao bes;
+117 i takođe želim da ti sigurno veruješ
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 118/130</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 118 che sotto l’acqua è gente che sospira,
 119 e fanno pullular quest’ acqua al summo,
 120 come l’occhio ti dice, u’ che s’aggira.
 </prompt>
 <result>
-115 Dobri učitelj reče: „Sine, sada vidiš
-116 duše onih koje je savladao bes;
-117 i takođe želim da ti sigurno veruješ
-
 118 da je ispod vode narod koji uzdiše,
 119 i oni čine da ova voda ključa na vrhu,
 120 kao što ti oko kaže, gde se kreće.
@@ -659,33 +608,38 @@ Please translate each line literally into Serbian (Latin).
 121 Fitti nel limo dicon: “Tristi fummo
 122 ne l’aere dolce che dal sol s’allegra,
 123 portando dentro accidïoso fummo:
-
-124 or ci attristiam ne la belletta negra”.
 </prompt>
 <result>
 121 Ukopani u mulj, govore: „Tužni smo bili
 122 u slatkom vazduhu koji se raduje od sunca,
 123 noseći unutra dosadnu paru:
-
-124 sada smo tužni u crnoj boji“.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 125/130</info>
+<info>[Inferno Canto 7] 124/130</info>
 <prompt>
 Please translate each line literally into Serbian (Latin).
 
+124 or ci attristiam ne la belletta negra”.
 125 Quest’ inno si gorgoglian ne la strozza,
 126 ché dir nol posson con parola integra».
+</prompt>
+<result>
+124 sada smo tužni u crnoj boji“.
+125 Ovu himnu grgolje u grlu,
+126 jer je ne mogu izgovoriti celom rečju“.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 127/130</info>
+<prompt>
+Please translate each line literally into Serbian (Latin).
 
 127 Così girammo de la lorda pozza
 128 grand’ arco tra la ripa secca e ’l mézzo,
 129 con li occhi vòlti a chi del fango ingozza.
 </prompt>
 <result>
-125 Ovu himnu grgolje u grlu,
-126 jer je ne mogu izgovoriti celom rečju“.
-
 127 Tako smo se okrenuli od prljave bare
 128 velikim lukom između suve obale i sredine,
 129 sa očima okrenutim prema onima koji gutaju blato.

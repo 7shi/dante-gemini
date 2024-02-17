@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries count="48">
 <query>
 <info>[Inferno Canto 28] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Hebrew.
 1 Chi poria mai pur con parole sciolte
 2 dicer del sangue e de le piaghe a pieno
 3 ch’i’ ora vidi, per narrar più volte?
+</prompt>
+<result>
+1 מי יוכל אי פעם במילים חופשיות
+2 לספר על הדם והפצעים במלואם
+3 שאני ראיתי עכשיו, כדי לספר שוב ושוב?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 4/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 4 Ogne lingua per certo verria meno
 5 per lo nostro sermone e per la mente
 6 c’hanno a tanto comprender poco seno.
 </prompt>
 <result>
-1 מי יוכל אי פעם במילים חופשיות
-2 לספר על הדם והפצעים במלואם
-3 שאני ראיתי עכשיו, כדי לספר שוב ושוב?
-
 4 כל לשון בוודאי תיכשל
 5 בגלל דברינו ומחשבותינו
 6 שיש להן כל כך מעט הבנה בדבר כה גדול.
@@ -31,42 +38,71 @@ Please translate each line literally into Hebrew.
 7 S’el s’aunasse ancor tutta la gente
 8 che già, in su la fortunata terra
 9 di Puglia, fu del suo sangue dolente
+</prompt>
+<result>
+7 אם כל האנשים יתאחדו שוב
+8 שפעם, בארץ המבורכת
+9 של פוליה, סבלו בגלל דמם
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 10/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 10 per li Troiani e per la lunga guerra
 11 che de l’anella fé sì alte spoglie,
 12 come Livïo scrive, che non erra,
+</prompt>
+<result>
+10 בגלל הטרויאנים ובגלל המלחמה הארוכה
+11 שעשתה מהטבעות שלל כה רב,
+12 כפי שליביוס כותב, שאינו טועה,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 13/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 13 con quella che sentio di colpi doglie
 14 per contastare a Ruberto Guiscardo;
 15 e l’altra il cui ossame ancor s’accoglie
+</prompt>
+<result>
+13 עם זו שחשה בכאבי הלידה
+14 כדי להתנגד לרוברטו גיסקאר;
+15 והאחרת שעצמותיה עדיין נאספות
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 16/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 16 a Ceperan, là dove fu bugiardo
 17 ciascun Pugliese, e là da Tagliacozzo,
 18 dove sanz’ arme vinse il vecchio Alardo;
+</prompt>
+<result>
+16 אצל צ'פראנו, שם היה בוגד
+17 כל פוליאני, ושם מטאליאקוצו,
+18 שם ניצח הזקן אלרדו בלי נשק;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 19/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 19 e qual forato suo membro e qual mozzo
 20 mostrasse, d’aequar sarebbe nulla
 21 il modo de la nona bolgia sozzo.
 </prompt>
 <result>
-7 גם אם תתאחד שוב כל האוכלוסייה
-8 שכבר, בארץ המבורכת
-9 של פוליה, סבלה מכאבים בגלל דמה
-
-10 בגלל הטרויאנים והמלחמה הארוכה
-11 שהפכה את הטבעות לשלל כה רב,
-12 כפי שכותב ליוויוס, שאינו טועה,
-
-13 עם זו שחשה בכאבי המכות
-14 כדי להתנגד לרוברטו גיסקארד;
-15 והאחרת שעצמותיה עדיין נאספות
-
-16 בצ'פראנו, שם כל תושב פוליה שיקר, ושם מטליאקוצו,
-17 שם ניצח הזקן אלרדו ללא נשק;
-
-18 ומי שהראה איבר מחורר ומי שמוקטע,
-19 כדי להשוות, לא יהיה שום דבר
-20 כמו האופן המזוהם של הבור התשיעי.
+19 ואיזה איבר שלו היה מחורר ואיזה קטוע
+20 היה מראה, לא היה שווה דבר
+21 לאופן שבו הבור התשיעי מלוכלך.
 </result>
 </query>
 <query>
@@ -93,32 +129,6 @@ Please translate each line literally into Hebrew.
 26 la corata pareva e ’l tristo sacco
 27 che merda fa di quel che si trangugia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 בין הרגליים תלויים איברי הפנים;\n26 נראו הקרביים והשק החולה\n27 שעושה צואה ממה שבולעים."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 בין הרגליים תלויים איברי הפנים;
 26 נראו הקרביים והשק החולה
@@ -133,16 +143,23 @@ Please translate each line literally into Hebrew.
 28 Mentre che tutto in lui veder m’attacco,
 29 guardommi e con le man s’aperse il petto,
 30 dicendo: «Or vedi com’ io mi dilacco!
+</prompt>
+<result>
+28 בזמן שאני מנסה לראות הכול אצלו,
+29 הוא הביט בי ובידיו פתח את חזהו,
+30 ואמר: "עכשיו תראה איך אני קרוע!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 31/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 31 vedi come storpiato è Mäometto!
 32 Dinanzi a me sen va piangendo Alì,
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
 <result>
-28 בזמן שאני מנסה לראות הכול אצלו,
-29 הוא הביט בי ובידיו פתח את חזהו,
-30 ואמר: "עכשיו תראה איך אני קרוע!
-
 31 תראה כמה מעוות מוחמד!
 32 לפניי הולך עלי חוסיין בוכה,
 33 חתוך בפנים מהסנטר עד הציצית.
@@ -171,16 +188,23 @@ Please translate each line literally into Hebrew.
 37 Un diavolo è qua dietro che n’accisma
 38 sì crudelmente, al taglio de la spada
 39 rimettendo ciascun di questa risma,
+</prompt>
+<result>
+37 שד עומד מאחוריהם וטובח בהם
+38 באכזריות כזאת, בחיתוך החרב
+39 ומחזיר כל אחד מהחבורה הזאת,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 40/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 40 quand’ avem volta la dolente strada;
 41 però che le ferite son richiuse
 42 prima ch’altri dinanzi li rivada.
 </prompt>
 <result>
-37 שד עומד מאחוריהם וטובח בהם
-38 באכזריות כזאת, בחיתוך החרב
-39 ומחזיר כל אחד מהחבורה הזאת,
-
 40 כשאנחנו חוזרים בדרך העצובה;
 41 כי הפצעים נסגרים
 42 לפני שמישהו אחר חולף על פניהם.
@@ -209,17 +233,25 @@ Please translate each line literally into Hebrew.
 46 «Né morte ’l giunse ancor, né colpa ’l mena»,
 47 rispuose ’l mio maestro, «a tormentarlo;
 48 ma per dar lui esperïenza piena,
+</prompt>
+<result>
+46 «לא המוות הגיע אליו עדיין, ולא חטא מוביל אותו»,
+47 ענה המורה שלי, «לענות אותו;
+48 אלא כדי לתת לו חוויה מלאה,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 49/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 49 a me, che morto son, convien menarlo
 50 per lo ’nferno qua giù di giro in giro;
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
 <result>
-46 «לא המוות הביאו לכאן, ולא חטא הביאו לענות אותו»,
-47 ענה המורה שלי, «אלא כדי לתת לו חוויה מלאה,
-
-48 אני, שכבר מת, חייב להוביל אותו
-49 דרך הגיהינום כאן למטה, מסביב מסביב;
+49 לי, שכבר מתתי, מוטל להוביל אותו
+50 דרך הגיהינום כאן למטה מסביב מסביב;
 51 וזה נכון כמו שאני מדבר איתך».
 </result>
 </query>
@@ -246,16 +278,23 @@ Please translate each line literally into Hebrew.
 55 «Or dì a fra Dolcin dunque che s’armi,
 56 tu che forse vedra’ il sole in breve,
 57 s’ello non vuol qui tosto seguitarmi,
+</prompt>
+<result>
+55 «אז אמור לאח דולצ'ינו שיתחמש,
+56 אתה שאולי תראה בקרוב את השמש,
+57 אם הוא לא רוצה לעקוב אחריי לכאן בקרוב,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 58/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 58 sì di vivanda, che stretta di neve
 59 non rechi la vittoria al Noarese,
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55 «אז אמור לאח דולצ'ינו שיתחמש,
-56 אתה שאולי תראה בקרוב את השמש,
-57 אם הוא לא רוצה לעקוב אחריי לכאן בקרוב,
-
 58 עם מספיק מזון, כדי שהשלג הכבד
 59 לא יביא ניצחון לנוארזה,
 60 אחרת יהיה קשה להשיג ניצחון».
@@ -284,32 +323,53 @@ Please translate each line literally into Hebrew.
 64 Un altro, che forata avea la gola
 65 e tronco ’l naso infin sotto le ciglia,
 66 e non avea mai ch’una orecchia sola,
+</prompt>
+<result>
+64 אחר, שהיה לו גרון מחורר
+65 ואף קטוע עד מתחת לגבות,
+66 ולא הייתה לו אלא אוזן אחת,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 67/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 67 ristato a riguardar per maraviglia
 68 con li altri, innanzi a li altri aprì la canna,
 69 ch’era di fuor d’ogne parte vermiglia,
+</prompt>
+<result>
+67 נעצר להסתכל בתדהמה
+68 עם האחרים, ולפני האחרים פתח את גרונו,
+69 שהיה אדום מבחוץ מכל צד,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 70/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 70 e disse: «O tu cui colpa non condanna
 71 e cu’ io vidi su in terra latina,
 72 se troppa simiglianza non m’inganna,
+</prompt>
+<result>
+70 ואמר: «הו אתה, שלא נידון על ידי חטא
+71 ושאותו ראיתי בארץ הלטינית,
+72 אם דמיון רב מדי לא מטעה אותי,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 73/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 73 rimembriti di Pier da Medicina,
 74 se mai torni a veder lo dolce piano
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64 אחר, שהיה לו גרון מחורר
-65 ואף קטוע עד מתחת לגבות,
-66 ולא הייתה לו אלא אוזן אחת,
-
-67 נעצר להסתכל בתדהמה
-68 עם האחרים, ולפני האחרים פתח את גרונו,
-69 שהיה אדום מבחוץ מכל צד,
-
-70 ואמר: «הו אתה, שלא נידון על ידי חטא
-71 ושאותו ראיתי בארץ הלטינית,
-72 אם דמיון רב מדי לא מטעה אותי,
-
 73 זכור את פייר דה מדיצ'ינה,
 74 אם אי פעם תחזור לראות את המישור המתוק
 75 שיורד מוורצ'לי למרקאבו.
@@ -323,16 +383,23 @@ Please translate each line literally into Hebrew.
 76 E fa saper a’ due miglior da Fano,
 77 a messer Guido e anco ad Angiolello,
 78 che, se l’antiveder qui non è vano,
+</prompt>
+<result>
+76 והודע לשניים הטובים ביותר מפאנו,
+77 למסייה גווידו וגם לאנג'ולו,
+78 שאם הצפייה מראש כאן אינה לשווא,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 79/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 79 gittati saran fuor di lor vasello
 80 e mazzerati presso a la Cattolica
 81 per tradimento d’un tiranno fello.
 </prompt>
 <result>
-76 והודע לשניים הטובים ביותר מפאנו,
-77 למסייה גווידו וגם לאנג'ולו,
-78 שאם הצפייה מראש כאן אינה לשווא,
-
 79 הם ייזרקו מספינתם
 80 ויוכו למוות ליד קאטוליקה
 81 בגלל בגידתו של טיראן אכזר.
@@ -361,16 +428,23 @@ Please translate each line literally into Hebrew.
 85 Quel traditor che vede pur con l’uno,
 86 e tien la terra che tale qui meco
 87 vorrebbe di vedere esser digiuno,
+</prompt>
+<result>
+85 הבוגד ההוא שרואה רק בעין אחת,
+86 ושולט בארץ שכזאת איתי כאן
+87 היה רוצה לראות אותה רעבה,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 88/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 88 farà venirli a parlamento seco;
 89 poi farà sì, ch’al vento di Focara
 90 non sarà lor mestier voto né preco».
 </prompt>
 <result>
-85 הבוגד ההוא שרואה רק בעין אחת,
-86 ושולט בארץ שכזאת איתי כאן
-87 היה רוצה לראות אותה רעבה,
-
 88 יזמן אותם לדבר איתו;
 89 ואז יעשה כך שברוח של פוקרה
 90 הם לא יצטרכו נדרים או תפילות».
@@ -429,27 +503,41 @@ Please translate each line literally into Hebrew.
 100 Oh quanto mi pareva sbigottito
 101 con la lingua tagliata ne la strozza
 102 Curïo, ch’a dir fu così ardito!
+</prompt>
+<result>
+100 אוי כמה נראה לי מבוהל
+101 עם הלשון החתוכה בגרונו
+102 קוריוס, שהיה כל כך נועז בדיבורו!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 103/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 103 E un ch’avea l’una e l’altra man mozza,
 104 levando i moncherin per l’aura fosca,
 105 sì che ’l sangue facea la faccia sozza,
+</prompt>
+<result>
+103 ואחד שהיו לו שתי הידיים קטועות,
+104 מרים את הגדם באוויר האפל,
+105 כך שהדם לכלוך את פניו,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 106/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 106 gridò: «Ricordera’ti anche del Mosca,
 107 che disse, lasso!, “Capo ha cosa fatta”,
 108 che fu mal seme per la gente tosca».
 </prompt>
 <result>
-100 כמה נראה לי מבוהל
-101 עם הלשון חתוכה בגרונו
-קוריו, שהיה כל כך נועז בדיבורו!
-
-103 ואחד שהייתה לו יד אחת קטועה,
-104 מרים את הגדם באוויר האפל,
-105 כך שהדם לכלוך את פניו,
-
-106 צעק: «זכור גם את מוסקה,
-107 שאמר, אוי לו!, "מעשה עשוי",
-108 שהיה זרע רע לעם הטוסקני».
+106 צעק: «תזכור גם את מוסקה,
+107 שאמר, “ראש יש למעשה שנעשה”,
+108 שהיה רע לאנשים הגסים».
 </result>
 </query>
 <query>
@@ -475,16 +563,23 @@ Please translate each line literally into Hebrew.
 112 Ma io rimasi a riguardar lo stuolo,
 113 e vidi cosa ch’io avrei paura,
 114 sanza più prova, di contarla solo;
+</prompt>
+<result>
+112 אבל נשארתי להסתכל על הקבוצה,
+113 וראיתי דבר שהייתי מפחד,
+114 בלי עוד הוכחה, לספר עליו לבד;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 115/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 115 se non che coscïenza m’assicura,
 116 la buona compagnia che l’uom francheggia
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112 אבל נשארתי להסתכל על הקבוצה,
-113 וראיתי דבר שהייתי מפחד,
-114 בלי עוד הוכחה, לספר עליו לבד;
-
 115 אם לא שהמצפון שלי מרגיע אותי,
 116 החברה הטובה שמעודדת את האדם
 117 תחת השריון של ההרגשה הטהורה.
@@ -498,16 +593,23 @@ Please translate each line literally into Hebrew.
 118 Io vidi certo, e ancor par ch’io ’l veggia,
 119 un busto sanza capo andar sì come
 120 andavan li altri de la trista greggia;
+</prompt>
+<result>
+118 ראיתי בוודאות, ועדיין נדמה לי שאני רואה את זה,
+119 גוף בלי ראש הולך כמו
+120 שהלכו האחרים מהעדר העצוב;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 121/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 121 e ’l capo tronco tenea per le chiome,
 122 pesol con mano a guisa di lanterna:
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118 ראיתי בוודאות, ועדיין נדמה לי שאני רואה את זה,
-119 גוף בלי ראש הולך כמו
-120 שהלכו האחרים מהעדר העצוב;
-
 121 והראש הכרות החזיק בשיער,
 122 תלוי בידו כמו פנס:
 123 והוא הביט עלינו ואמר: «הו, אני!».
@@ -536,16 +638,23 @@ Please translate each line literally into Hebrew.
 127 Quando diritto al piè del ponte fue,
 128 levò ’l braccio alto con tutta la testa
 129 per appressarne le parole sue,
+</prompt>
+<result>
+127 כשהגיע ישר לרגלי הגשר,
+128 הוא הרים את זרועו הגבוהה עם כל הראש
+129 כדי להתקרב אל דבריו,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 130/142</info>
+<prompt>
+Please translate each line literally into Hebrew.
 
 130 che fuoro: «Or vedi la pena molesta,
 131 tu che, spirando, vai veggendo i morti:
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127 כשהגיע ישר לרגלי הגשר,
-128 הוא הרים את זרועו הגבוהה עם כל הראש
-129 כדי להתקרב אל דבריו,
-
 130 שהיו: «עכשיו ראה את העונש המטריד,
 131 אתה שמבקר את המתים בזמן שאתה נושם:
 132 ראה אם יש עונש גדול מזה.

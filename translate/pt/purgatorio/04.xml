@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="47">
 <query>
 <info>[Purgatorio Canto 4] 1/139</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Portuguese.
 1 Quando per dilettanze o ver per doglie,
 2 che alcuna virtù nostra comprenda,
 3 l’anima bene ad essa si raccoglie,
+</prompt>
+<result>
+1 Quando por prazeres ou por dores,
+2 que alguma virtude nossa compreenda,
+3 a alma bem a ela se recolhe,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 4/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 4 par ch’a nulla potenza più intenda;
 5 e questo è contra quello error che crede
 6 ch’un’anima sovr’ altra in noi s’accenda.
 </prompt>
 <result>
-1 Quando por prazeres ou por dores,
-2 que alguma virtude nossa compreenda,
-3 a alma bem a ela se recolhe,
-
 4 parece que a nenhuma potência mais atende;
 5 e isto é contra aquele erro que crê
 6 que uma alma sobre outra em nós se acenda.
@@ -31,16 +38,23 @@ Please translate each line literally into Portuguese.
 7 E però, quando s’ode cosa o vede
 8 che tegna forte a sé l’anima volta,
 9 vassene ’l tempo e l’uom non se n’avvede;
+</prompt>
+<result>
+7 E por isso, quando se ouve ou vê algo
+8 que mantém a alma fortemente voltada para si,
+9 o tempo passa e o homem não se apercebe;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 10/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 10 ch’altra potenza è quella che l’ascolta,
 11 e altra è quella c’ha l’anima intera:
 12 questa è quasi legata e quella è sciolta.
 </prompt>
 <result>
-7 E por isso, quando se ouve ou vê algo
-8 que mantém a alma fortemente voltada para si,
-9 o tempo passa e o homem não se apercebe;
-
 10 porque outra é a potência que o escuta,
 11 e outra é aquela que tem a alma inteira:
 12 esta está quase atada e aquela está solta.
@@ -54,16 +68,23 @@ Please translate each line literally into Portuguese.
 13 Di ciò ebb’ io esperïenza vera,
 14 udendo quello spirto e ammirando;
 15 ché ben cinquanta gradi salito era
+</prompt>
+<result>
+13 Disso tive eu experiência verdadeira,
+14 ouvindo aquele espírito e admirando-me;
+15 porque bem cinquenta graus subira
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 16/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 16 lo sole, e io non m’era accorto, quando
 17 venimmo ove quell’ anime ad una
 18 gridaro a noi: «Qui è vostro dimando».
 </prompt>
 <result>
-13 Disso tive eu experiência verdadeira,
-14 ouvindo aquele espírito e admirando-me;
-15 porque bem cinquenta graus subira
-
 16 o sol, e eu não me apercebera, quando
 17 chegamos onde aquelas almas em uníssono
 18 gritaram para nós: «Aqui é o que vocês pediram».
@@ -77,16 +98,23 @@ Please translate each line literally into Portuguese.
 19 Maggiore aperta molte volte impruna
 20 con una forcatella di sue spine
 21 l’uom de la villa quando l’uva imbruna,
+</prompt>
+<result>
+19 Aperta maior muitas vezes uma sebe
+20 com uma forquilha dos seus espinhos
+21 o homem da aldeia quando a uva escurece,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 22/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 22 che non era la calla onde salìne
 23 lo duca mio, e io appresso, soli,
 24 come da noi la schiera si partìne.
 </prompt>
 <result>
-19 Aperta maior muitas vezes uma sebe
-20 com uma forquilha dos seus espinhos
-21 o homem da aldeia quando a uva escurece,
-
 22 do que era a passagem por onde subiu
 23 o meu guia, e eu atrás, sozinhos,
 24 quando a multidão se afastou de nós.
@@ -100,16 +128,23 @@ Please translate each line literally into Portuguese.
 25 Vassi in Sanleo e discendesi in Noli,
 26 montasi su in Bismantova e ’n Cacume
 27 con esso i piè; ma qui convien ch’om voli;
+</prompt>
+<result>
+25 Vai-se a Sanleo e desce-se em Noli,
+26 sobe-se a Bismantova e ao Cacume
+27 com os pés; mas aqui é preciso que o homem voe;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 28/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 28 dico con l’ale snelle e con le piume
 29 del gran disio, di retro a quel condotto
 30 che speranza mi dava e facea lume.
 </prompt>
 <result>
-25 Vai-se a Sanleo e desce-se em Noli,
-26 sobe-se a Bismantova e ao Cacume
-27 com os pés; mas aqui é preciso que o homem voe;
-
 28 digo com as asas ligeiras e com as penas
 29 do grande desejo, atrás daquele guia
 30 que me dava esperança e me iluminava.
@@ -214,32 +249,6 @@ Please translate each line literally into Portuguese.
 50 ch’i’ mi sforzai carpando appresso lui,
 51 tanto che ’l cinghio sotto i piè mi fue.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "49 As suas palavras tanto me estimularam,\n50 que eu me esforcei a subir atrás dele,\n51 até que o cinto ficou sob os meus pés."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 49 As suas palavras tanto me estimularam,
 50 que eu me esforcei a subir atrás dele,
@@ -299,16 +308,23 @@ Please translate each line literally into Portuguese.
 61 Ond’ elli a me: «Se Castore e Poluce
 62 fossero in compagnia di quello specchio
 63 che sù e giù del suo lume conduce,
+</prompt>
+<result>
+61 Donde ele a mim: «Se Castor e Pólux
+62 estivessem em companhia daquele espelho
+63 que conduz para cima e para baixo a sua luz,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 64/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 64 tu vedresti il Zodïaco rubecchio
 65 ancora a l’Orse più stretto rotare,
 66 se non uscisse fuor del cammin vecchio.
 </prompt>
 <result>
-61 Donde ele a mim: «Se Castor e Pólux
-62 estivessem em companhia daquele espelho
-63 que conduz para cima e para baixo a sua luz,
-
 64 verias o Zodíaco avermelhado
 65 girar ainda mais próximo das Ursas,
 66 se não saísse do velho caminho.
@@ -322,24 +338,38 @@ Please translate each line literally into Portuguese.
 67 Come ciò sia, se ’l vuoi poter pensare,
 68 dentro raccolto, imagina Sïòn
 69 con questo monte in su la terra stare
+</prompt>
+<result>
+67 Como isso seja, se quiseres poder pensar,
+68 recolhido em ti mesmo, imagina Sião
+69 estar com este monte sobre a terra
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 70/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 70 sì, ch’amendue hanno un solo orizzòn
 71 e diversi emisperi; onde la strada
 72 che mal non seppe carreggiar Fetòn,
+</prompt>
+<result>
+70 de modo que ambos tenham um só horizonte
+71 e hemisférios diferentes; donde a estrada
+72 que Faetonte não soube bem conduzir,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 73/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 73 vedrai come a costui convien che vada
 74 da l’un, quando a colui da l’altro fianco,
 75 se lo ’ntelletto tuo ben chiaro bada».
 </prompt>
 <result>
-67 Como isso seja, se quiseres poder pensar,
-68 recolhido em ti mesmo, imagina Sião
-69 estar com este monte sobre a terra
-
-70 de modo que ambos tenham um só horizonte
-71 e hemisférios diferentes; donde a estrada
-72 que Faetonte não soube bem conduzir,
-
 73 verás como é preciso que este vá
 74 de um lado, quando aquele do outro lado,
 75 se o teu intelecto bem claro observar.
@@ -353,24 +383,38 @@ Please translate each line literally into Portuguese.
 76 «Certo, maestro mio,» diss’ io, «unquanco
 77 non vid’ io chiaro sì com’ io discerno
 78 là dove mio ingegno parea manco,
+</prompt>
+<result>
+76 «Certamente, meu mestre», disse eu, «nunca
+77 vi tão claro como agora discerno
+78 onde o meu engenho parecia falhar,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 79/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 79 che ’l mezzo cerchio del moto superno,
 80 che si chiama Equatore in alcun’ arte,
 81 e che sempre riman tra ’l sole e ’l verno,
+</prompt>
+<result>
+79 que o meio círculo do movimento superior,
+80 que se chama Equador em alguma arte,
+81 e que sempre permanece entre o sol e o inverno,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 82/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 82 per la ragion che di’, quinci si parte
 83 verso settentrïon, quanto li Ebrei
 84 vedevan lui verso la calda parte.
 </prompt>
 <result>
-76 «Certamente, meu mestre», disse eu, «nunca
-77 vi tão claro como agora discerno
-78 onde o meu engenho parecia falhar,
-
-79 que o meio círculo do movimento superior,
-80 que se chama Equador em alguma arte,
-81 e que sempre permanece entre o sol e o inverno,
-
 82 pela razão que dizes, daqui se afasta
 83 para o setentrião, quanto os hebreus
 84 o viam para a parte quente.
@@ -414,33 +458,38 @@ Please translate each line literally into Portuguese.
 91 Però, quand’ ella ti parrà soave
 92 tanto, che sù andar ti fia leggero
 93 com’ a seconda giù andar per nave,
-
-94 allor sarai al fin d’esto sentiero;
-95 quivi di riposar l’affanno aspetta.
 </prompt>
 <result>
 91 Portanto, quando ela te parecer tão suave
 92 que subir te será tão leve
 93 como descer um rio num barco,
-
-94 então estarás no fim deste caminho;
-95 ali espera descansar do cansaço.
 </result>
 </query>
 <query>
-<info>[Purgatorio Canto 4] 96/139</info>
+<info>[Purgatorio Canto 4] 94/139</info>
 <prompt>
 Please translate each line literally into Portuguese.
 
+94 allor sarai al fin d’esto sentiero;
+95 quivi di riposar l’affanno aspetta.
 96 Più non rispondo, e questo so per vero».
+</prompt>
+<result>
+94 então estarás no fim deste caminho;
+95 ali espera descansar do cansaço.
+96 Mais não respondo, e isto sei por certo».
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 97/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 97 E com’ elli ebbe sua parola detta,
 98 una voce di presso sonò: «Forse
 99 che di sedere in pria avrai distretta!».
 </prompt>
 <result>
-96 Mais não respondo, e isto sei por certo».
-
 97 E assim que ele terminou de falar,
 98 uma voz próxima soou: «Talvez
 99 tenhas necessidade de sentar-te primeiro!».
@@ -529,16 +578,23 @@ Please translate each line literally into Portuguese.
 115 Conobbi allor chi era, e quella angoscia
 116 che m’avacciava un poco ancor la lena,
 117 non m’impedì l’andare a lui; e poscia
+</prompt>
+<result>
+115 Então reconheci quem era, e aquela angústia
+116 que me apressava um pouco mais a respiração,
+117 não me impediu de ir até ele; e depois
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 118/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 118 ch’a lui fu’ giunto, alzò la testa a pena,
 119 dicendo: «Hai ben veduto come ’l sole
 120 da l’omero sinistro il carro mena?».
 </prompt>
 <result>
-115 Então reconheci quem era, e aquela angústia
-116 que me apressava um pouco mais a respiração,
-117 não me impediu de ir até ele; e depois
-
 118 que cheguei até ele, ele mal levantou a cabeça,
 119 dizendo: «Viste bem como o sol
 120 conduz o carro do lado esquerdo?».
@@ -552,16 +608,23 @@ Please translate each line literally into Portuguese.
 121 Li atti suoi pigri e le corte parole
 122 mosser le labbra mie un poco a riso;
 123 poi cominciai: «Belacqua, a me non dole
+</prompt>
+<result>
+121 Seus atos preguiçosos e as palavras curtas
+122 moveram os meus lábios um pouco ao riso;
+123 depois comecei: «Belacqua, já não me dói
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 124/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 124 di te omai; ma dimmi: perché assiso
 125 quiritto se’? attendi tu iscorta,
 126 o pur lo modo usato t’ha’ ripriso?».
 </prompt>
 <result>
-121 Seus atos preguiçosos e as palavras curtas
-122 moveram os meus lábios um pouco ao riso;
-123 depois comecei: «Belacqua, já não me dói
-
 124 de ti; mas dize-me: por que estás sentado
 125 aqui? Estás à espera de uma escolta,
 126 ou o teu modo habitual te retomou?».
@@ -590,16 +653,23 @@ Please translate each line literally into Portuguese.
 130 Prima convien che tanto il ciel m’aggiri
 131 di fuor da essa, quanto fece in vita,
 132 per ch’io ’ndugiai al fine i buon sospiri,
+</prompt>
+<result>
+130 Primeiro é preciso que o céu me faça girar tanto
+131 fora dela, quanto fez em vida,
+132 porque eu adiei os bons suspiros para o fim,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 133/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 133 se orazïone in prima non m’aita
 134 che surga sù di cuor che in grazia viva;
 135 l’altra che val, che ’n ciel non è udita?».
 </prompt>
 <result>
-130 Primeiro é preciso que o céu me faça girar tanto
-131 fora dela, quanto fez em vida,
-132 porque eu adiei os bons suspiros para o fim,
-
 133 se a oração não me ajudar primeiro
 134 que surja de um coração que viva em graça;
 135 a outra de que vale, que no céu não é ouvida?».
@@ -613,14 +683,22 @@ Please translate each line literally into Portuguese.
 136 E già il poeta innanzi mi saliva,
 137 e dicea: «Vienne omai; vedi ch’è tocco
 138 meridïan dal sole e a la riva
+</prompt>
+<result>
+136 E já o poeta subia adiante de mim,
+137 e dizia: «Vem agora; vê que o sol já tocou
+138 o meridiano e à margem
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 4] 139/139</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 139 cuopre la notte già col piè Morrocco».
 </prompt>
 <result>
-136 E já o poeta subia à minha frente,
-137 e dizia: «Vem agora; vê que o sol tocou
-138 o meridiano e a noite já cobre
-139 Marrocos com o pé na praia».
+139 a noite já cobre Marrocos com o pé».
 </result>
 </query>
 </queries>

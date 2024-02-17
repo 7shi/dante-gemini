@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Modern Greek.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 Λέω, συνεχίζοντας, ότι πολύ πριν
+2 φτάσουμε στους πρόποδες του ψηλού πύργου,
+3 τα μάτια μας ανέβηκαν στην κορυφή
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Modern Greek.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1 Λέω, συνεχίζοντας, ότι πολύ πριν
-2 φτάσουμε στους πρόποδες του ψηλού πύργου,
-3 τα μάτια μας ανέβηκαν στην κορυφή
-
 4 για δύο φλόγες που τα είδαμε να τοποθετούνται,
 5 και μια άλλη από μακριά να κάνει νόημα,
 6 τόσο που το μάτι με δυσκολία μπορούσε να τη διακρίνει.
@@ -61,16 +68,23 @@ Please translate each line literally into Modern Greek.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 Σκοινί ποτέ δεν έσπρωξε από μόνο του βέλος
+14 που να έτρεξε τόσο γρήγορα στον αέρα,
+15 όπως είδα ένα μικρό καράβι
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Modern Greek.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 Σκοινί ποτέ δεν έσπρωξε από μόνο του βέλος
-14 που να έτρεξε τόσο γρήγορα στον αέρα,
-15 όπως είδα ένα μικρό καράβι
-
 16 να έρχεται προς εμάς στο νερό εκείνη τη στιγμή,
 17 υπό την καθοδήγηση ενός μοναδικού κωπηλάτη,
 18 που φώναζε: «Τώρα έφτασες, κακόβουλη ψυχή!».
@@ -175,32 +189,6 @@ Please translate each line literally into Modern Greek.
 38 spirito maladetto, ti rimani;
 39 ch’i’ ti conosco, ancor sie lordo tutto».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 Και εγώ σε αυτόν: «Με κλάμα και θρήνο,\n38 καταραμένο πνεύμα, μένεις εδώ.\n39 Γιατί σε γνωρίζω, αν και είσαι όλος βρώμικος»."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 37 Και εγώ σε αυτόν: «Με κλάμα και θρήνο,
 38 καταραμένο πνεύμα, μένεις εδώ.
@@ -230,16 +218,23 @@ Please translate each line literally into Modern Greek.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 Μετά με αγκάλιασε με τα χέρια του.
+44 Με φίλησε στο πρόσωπο και είπε: «Περήφανη ψυχή,
+45 ευλογημένη αυτή που σε γέννησε!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Modern Greek.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 Μετά με αγκάλιασε με τα χέρια του.
-44 Με φίλησε στο πρόσωπο και είπε: «Περήφανη ψυχή,
-45 ευλογημένη αυτή που σε γέννησε!
-
 46 Αυτός ήταν στον κόσμο υπερήφανος άνθρωπος.
 47 Δεν υπάρχει καλοσύνη που να στολίζει τη μνήμη του.
 48 Έτσι είναι η σκιά του εδώ οργισμένη.
@@ -254,32 +249,6 @@ Please translate each line literally into Modern Greek.
 50 che qui staranno come porci in brago,
 51 di sé lasciando orribili dispregi!».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "49 Πόσοι θεωρούνται εκεί ψηλά μεγάλοι βασιλιάδες\n50 που εδώ θα μείνουν σαν γουρούνια στη λάσπη,\n51 αφήνοντας πίσω τους φρικτές περιφρονήσεις!"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 49 Πόσοι θεωρούνται εκεί ψηλά μεγάλοι βασιλιάδες
 50 που εδώ θα μείνουν σαν γουρούνια στη λάσπη,
@@ -384,18 +353,25 @@ Please translate each line literally into Modern Greek.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 Και εγώ: «Δάσκαλε, ήδη τους μιναρέδες του
+71 εκεί μέσα στην κοιλάδα διακρίνω,
+72 κόκκινους σαν να βγήκαν από τη φωτιά
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Modern Greek.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
 <result>
-70 Και εγώ: «Δάσκαλε, ήδη βλέπω τους πύργους της
-71 εκεί μέσα στην κοιλάδα να είναι σίγουροι,
-72 κόκκινοι σαν να βγήκαν από τη φωτιά
-
-73». Και εκείνος μου είπε: «Η αιώνια φωτιά
-74 που την πνίγει μέσα τις δείχνει κόκκινες,
+73 να ήταν». Και εκείνος μου είπε: «Η αιώνια φωτιά
+74 που μέσα τις καίει τις δείχνει κόκκινες,
 75 όπως βλέπεις σε αυτή την κάτω κόλαση».
 </result>
 </query>
@@ -437,33 +413,38 @@ Please translate each line literally into Modern Greek.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
 82 Είδα περισσότερους από χίλιους στις πύλες
 83 να πέφτουν από τον ουρανό, οι οποίοι οργισμένα
 84 έλεγαν: «Ποιος είναι αυτός που χωρίς θάνατο
-
-85 πηγαίνει στο βασίλειο των νεκρών;».
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into Modern Greek.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 πηγαίνει στο βασίλειο των νεκρών;».
+86 Και ο σοφός μου δάσκαλος έκανε νόημα
+87 ότι ήθελε να τους μιλήσει κρυφά.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Modern Greek.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 Και ο σοφός μου δάσκαλος έκανε νόημα
-87 ότι ήθελε να τους μιλήσει κρυφά.
-
 88 Τότε έκλεισαν λίγο τη μεγάλη τους οργή
 89 και είπαν: «Έλα εσύ μόνος σου, και ας φύγει εκείνος
 90 που τόσο τολμηρά μπήκε σε αυτό το βασίλειο.
@@ -507,16 +488,23 @@ Please translate each line literally into Modern Greek.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 «Ω αγαπημένε μου δούκα, που περισσότερες από επτά
+98 φορές μου έδωσες ασφάλεια και με έβγαλες
+99 από τον μεγάλο κίνδυνο που με περίμενε,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Modern Greek.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 «Ω αγαπημένε μου δούκα, που περισσότερες από επτά
-98 φορές μου έδωσες ασφάλεια και με έβγαλες
-99 από τον μεγάλο κίνδυνο που με περίμενε,
-
 100 μην με αφήσεις», είπα, «τόσο χαμένο.
 101 Και αν μας απαγορεύεται να περάσουμε παραπέρα,
 102 ας βρούμε γρήγορα μαζί τα ίχνη μας».
@@ -532,8 +520,9 @@ Please translate each line literally into Modern Greek.
 105 non ci può tòrre alcun: da tal n’è dato.
 </prompt>
 <result>
-103 Και εκείνος ο κύριος που με είχε φέρει εκεί,
-104 μου είπε: «Μην φοβάσαι. Γιατί κανείς δεν μπορεί να μας πάρει το πέρασμά μας. Από τέτοιον μας δίνεται.
+103 Και εκείνος ο κύριος που με είχε οδηγήσει εκεί,
+104 μου είπε: «Μη φοβάσαι. γιατί το πέρασμά μας
+105 κανείς δεν μπορεί να μας το πάρει. από τέτοιον μας δόθηκε.
 </result>
 </query>
 <query>
@@ -649,14 +638,21 @@ Please translate each line literally into Modern Greek.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 Πάνω της είδες την νεκρή επιγραφή.
 128 Και ήδη από εδώ και πέρα κατεβαίνει η ανηφόρα,
 129 περνώντας μέσα από τους κύκλους χωρίς συνοδεία,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Modern Greek.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 έτσι ώστε γι' αυτόν θα ανοίξει η γη».
 </result>
 </query>

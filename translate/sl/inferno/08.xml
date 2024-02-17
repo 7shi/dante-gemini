@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries error="0" count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Slovene.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 Jaz pravim, nadaljujoč, da precej preden
+2 sva prišla do vznožja visokega stolpa,
+3 so se naše oči dvignile k vrhu,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1 Jaz pravim, nadaljujoč, da precej preden
-2 sva prišla do vznožja visokega stolpa,
-3 so se naše oči dvignile k vrhu,
-
 4 zaradi dveh plamenčkov, ki sva jih videla prižgati,
 5 in še enega v daljavi, ki je dajal znak,
 6 tako da ga je oko komaj lahko zaznalo.
@@ -61,16 +68,23 @@ Please translate each line literally into Slovene.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 Še nikoli vrv ni izstrelila puščice,
+14 ki bi tako hitro letela po zraku,
+15 kot sem videl majhno ladjo
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 Še nikoli vrv ni izstrelila puščice,
-14 ki bi tako hitro letela po zraku,
-15 kot sem videl majhno ladjo
-
 16 prihajati po vodi proti nam v tistem trenutku,
 17 pod upravljanjem enega samega veslača,
 18 ki je vpil: »Zdaj si prispela, hudobna duša!«
@@ -175,32 +189,6 @@ Please translate each line literally into Slovene.
 38 spirito maladetto, ti rimani;
 39 ch’i’ ti conosco, ancor sie lordo tutto».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 In jaz njemu: »S jokom in žalovanjem,\n38 preklet duh, ostani tu;\n39 saj te poznam, čeprav si ves umazan.«"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 37 In jaz njemu: »S jokom in žalovanjem,
 38 preklet duh, ostani tu;
@@ -230,16 +218,23 @@ Please translate each line literally into Slovene.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 Nato me je objel okoli vratu z rokami;
+44 poljubil me je na obraz in rekel: »Oponesna duša,
+45 blagoslovljena je tista, ki se je spočela s teboj!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 Nato me je objel okoli vratu z rokami;
-44 poljubil me je na obraz in rekel: »Oponesna duša,
-45 blagoslovljena je tista, ki se je spočela s teboj!
-
 46 Ta je bil na svetu ošaben človek;
 47 ni dobrote, ki bi krasila njegov spomin:
 48 zato je njegova senca tukaj tako besna.
@@ -358,16 +353,23 @@ Please translate each line literally into Slovene.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 In jaz: »Mojster, že vidim njegove mošeje
+71 tam v dolini,
+72 rdeče, kot da bi prišle iz ognja.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
 <result>
-70 In jaz: »Mojster, že vidim njegove mošeje
-71 tam v dolini,
-72 rdeče, kot da bi prišle iz ognja.
-
 73 In on mi je rekel: »Večni ogenj,
 74 ki jih peče v sebi, jih kaže rdeče,
 75 kot vidiš v tem spodnjem peklu.«
@@ -411,33 +413,38 @@ Please translate each line literally into Slovene.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
 82 Videl sem več kot tisoč na vratih,
 83 ki so padli z neba in jezno
 84 govorili: »Kdo je ta, ki brez smrti
-
-85 hodi po kraljestvu mrtvih ljudi?«
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into Slovene.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 hodi po kraljestvu mrtvih ljudi?«
+86 In moj modri učitelj je dal znak,
+87 da bi z njimi govoril na samem.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 In moj modri učitelj je dal znak,
-87 da bi z njimi govoril na samem.
-
 88 Takrat so nekoliko utišali svoje veliko ogorčenje
 89 in rekli: »Pridi sam, in naj gre tisti,
 90 ki je tako drzno vstopil v to kraljestvo.
@@ -481,16 +488,23 @@ Please translate each line literally into Slovene.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 »O moj dragi vodnik, ki si mi več kot sedemkrat
+98 dal občutek varnosti in me rešil
+99 iz velike nevarnosti, ki me je čakala,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Slovene.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 »O moj dragi vodnik, ki si mi več kot sedemkrat
-98 dal občutek varnosti in me rešil
-99 iz velike nevarnosti, ki me je čakala,
-
 100 ne zapusti me,« sem rekel, »tako obupanega;
 101 in če nam je nadaljnja pot onemogočena,
 102 hitro skupaj poiščiva najine sledi.«
@@ -624,14 +638,21 @@ Please translate each line literally into Slovene.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 Nad njo si videl mrtev napis:
 128 in že od tukaj navzdol vodi strma pot,
 129 ki gre skozi kroge brez vodnika,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Slovene.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 tako da se bo zaradi njega odprla zemlja.«
 </result>
 </query>

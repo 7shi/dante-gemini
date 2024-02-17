@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="41">
+<queries error="0" count="48">
 <query>
 <info>[Inferno Canto 5] 1/142</info>
 <prompt>
@@ -38,16 +38,23 @@ Please translate each line literally into Bulgarian.
 7 Dico che quando l’anima mal nata
 8 li vien dinanzi, tutta si confessa;
 9 e quel conoscitor de le peccata
+</prompt>
+<result>
+7 Казвам, че когато злеродената душа
+8 застане пред него, тя напълно се изповядва;
+9 и този познавач на греховете
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 10/142</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 10 vede qual loco d’inferno è da essa;
 11 cignesi con la coda tante volte
 12 quantunque gradi vuol che giù sia messa.
 </prompt>
 <result>
-7 Казвам, че когато злеродената душа
-8 застане пред него, тя напълно се изповядва;
-9 и този познавач на греховете
-
 10 вижда кое място в ада е отредено за нея;
 11 увива опашката си толкова пъти,
 12 колкото кръга иска да слезе надолу.
@@ -76,33 +83,38 @@ Please translate each line literally into Bulgarian.
 16 «O tu che vieni al doloroso ospizio»,
 17 disse Minòs a me quando mi vide,
 18 lasciando l’atto di cotanto offizio,
-
-19 «guarda com’ entri e di cui tu ti fide;
-20 non t’inganni l’ampiezza de l’intrare!».
 </prompt>
 <result>
 16 „О, ти, който идваш в болезнения приют“,
 17 каза ми Минос, когато ме видя,
 18 оставяйки действията на толкова голяма служба,
-
-19 „внимавай как влизаш и на кого се доверяваш;
-20 да не те измами ширината на входа!“.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 5] 21/142</info>
+<info>[Inferno Canto 5] 19/142</info>
 <prompt>
 Please translate each line literally into Bulgarian.
 
+19 «guarda com’ entri e di cui tu ti fide;
+20 non t’inganni l’ampiezza de l’intrare!».
 21 E ’l duca mio a lui: «Perché pur gride?
+</prompt>
+<result>
+19 „внимавай как влизаш и на кого се доверяваш;
+20 да не те измами ширината на входа!“.
+21 А моят водач му каза: „Защо крещиш?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 22/142</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 22 Non impedir lo suo fatale andare:
 23 vuolsi così colà dove si puote
 24 ciò che si vuole, e più non dimandare».
 </prompt>
 <result>
-21 А моят водач му каза: „Защо крещиш?
-
 22 Не пречи на съдбовното му пътуване:
 23 така се иска там, където може
 24 това, което се иска, и не питай повече“.
@@ -191,16 +203,23 @@ Please translate each line literally into Bulgarian.
 40 E come li stornei ne portan l’ali
 41 nel freddo tempo, a schiera larga e piena,
 42 così quel fiato li spiriti mali
+</prompt>
+<result>
+40 И както скорците носят крилата си
+41 в студеното време, в широка и пълна ято,
+42 така този вятър злите духове
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 43/142</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 43 di qua, di là, di giù, di sù li mena;
 44 nulla speranza li conforta mai,
 45 non che di posa, ma di minor pena.
 </prompt>
 <result>
-40 И както скорците носят крилата си
-41 в студеното време, в широка и пълна ято,
-42 така този вятър злите духове
-
 43 оттук, оттам, отдолу, отгоре ги отвежда;
 44 никаква надежда никога не ги утешава,
 45 не само за почивка, но и за по-малко страдание.
@@ -214,16 +233,23 @@ Please translate each line literally into Bulgarian.
 46 E come i gru van cantando lor lai,
 47 faccendo in aere di sé lunga riga,
 48 così vid’ io venir, traendo guai,
+</prompt>
+<result>
+46 И както жеравите пеят своите жални песни,
+47 образувайки във въздуха дълга редица,
+48 така видях да идват, издавайки вопли,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 49/142</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 49 ombre portate da la detta briga;
 50 per ch’i’ dissi: «Maestro, chi son quelle
 51 genti che l’aura nera sì gastiga?».
 </prompt>
 <result>
-46 И както жеравите пеят своите жални песни,
-47 образувайки във въздуха дълга редица,
-48 така видях да идват, издавайки вопли,
-
 49 сенки, носени от споменатия вятър;
 50 затова казах: „Учителю, кои са тези
 51 хора, които черният вятър така наказва?“.
@@ -253,32 +279,6 @@ Please translate each line literally into Bulgarian.
 56 che libito fé licito in sua legge,
 57 per tòrre il biasmo in che era condotta.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "55 Беше толкова развратена от похот,\n56 че направи похотта законна в своя закон,\n57 за да премахне упрека, в който беше въвлечена."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 55 Беше толкова развратена от похот,
 56 че направи похотта законна в своя закон,
@@ -413,16 +413,23 @@ Please translate each line literally into Bulgarian.
 82 Quali colombe dal disio chiamate
 83 con l’ali alzate e ferme al dolce nido
 84 vegnon per l’aere, dal voler portate;
+</prompt>
+<result>
+82 Както гълъбите, повикани от желанието,
+83 с вдигнати и неподвижни крила към сладкото гнездо
+84 идват през въздуха, носени от волята;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 85/142</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 85 cotali uscir de la schiera ov’ è Dido,
 86 a noi venendo per l’aere maligno,
 87 sì forte fu l’affettüoso grido.
 </prompt>
 <result>
-82 Както гълъбите, повикани от желанието,
-83 с вдигнати и неподвижни крила към сладкото гнездо
-84 идват през въздуха, носени от волята;
-
 85 така излязоха от групата, където е Дидона,
 86 идвайки към нас през злокобния въздух,
 87 толкова силен беше любящият вик.
@@ -436,16 +443,23 @@ Please translate each line literally into Bulgarian.
 88 «O animal grazïoso e benigno
 89 che visitando vai per l’aere perso
 90 noi che tignemmo il mondo di sanguigno,
+</prompt>
+<result>
+88 „О, милостиво и добро животно,
+89 което ни посещаваш, летейки през тъмния въздух,
+90 нас, които оцветихме света в кърваво,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 91/142</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 91 se fosse amico il re de l’universo,
 92 noi pregheremmo lui de la tua pace,
 93 poi c’hai pietà del nostro mal perverso.
 </prompt>
 <result>
-88 „О, милостиво и добро животно,
-89 което ни посещаваш, летейки през тъмния въздух,
-90 нас, които оцветихме света в кърваво,
-
 91 ако царят на вселената беше приятел,
 92 щяхме да го помолим за твоя мир,
 93 след като имаш състрадание към нашата порочна болка.
@@ -654,33 +668,38 @@ Please translate each line literally into Bulgarian.
 133 Quando leggemmo il disïato riso
 134 esser basciato da cotanto amante,
 135 questi, che mai da me non fia diviso,
-
-136 la bocca mi basciò tutto tremante.
 </prompt>
 <result>
 133 Когато прочетохме, че желаната усмивка
 134 е целуната от толкова голям любовник,
 135 този, който никога няма да бъде разделен от мен,
-
-136 целуна устата ми цял треперещ.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 5] 137/142</info>
+<info>[Inferno Canto 5] 136/142</info>
 <prompt>
 Please translate each line literally into Bulgarian.
 
+136 la bocca mi basciò tutto tremante.
 137 Galeotto fu ’l libro e chi lo scrisse:
 138 quel giorno più non vi leggemmo avante».
+</prompt>
+<result>
+136 целуна устата ми цял треперещ.
+137 Галеото беше книгата и този, който я написа:
+138 този ден вече не четяхме напред“.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 139/142</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 139 Mentre che l’uno spirto questo disse,
 140 l’altro piangëa; sì che di pietade
 141 io venni men così com’ io morisse.
 </prompt>
 <result>
-137 Галеото беше книгата и този, който я написа:
-138 този ден вече не четяхме напред“.
-
 139 Докато единият дух каза това,
 140 другият плачеше; така че от състрадание
 141 аз припаднах сякаш умирам.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="51">
 <query>
 <info>[Purgatorio Canto 20] 1/151</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into Slovak.
 4 Mossimi; e ’l duca mio si mosse per li
 5 luoghi spediti pur lungo la roccia,
 6 come si va per muro stretto a’ merli;
+</prompt>
+<result>
+4 Pohyboval som sa; a môj vodca sa pohyboval po
+5 voľných miestach popri skale,
+6 ako sa ide po úzkej stene k cimburiu;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 7/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 7 ché la gente che fonde a goccia a goccia
 8 per li occhi il mal che tutto ’l mondo occupa,
 9 da l’altra parte in fuor troppo s’approccia.
 </prompt>
 <result>
-4 Pohyboval som sa; a môj vodca sa pohyboval po
-5 voľných miestach popri skale,
-6 ako sa ide po úzkej stene k cimburiu;
-
 7 pretože ľudia, ktorí kvapkajú z očí
 8 zlo, ktoré zaplavuje celý svet,
 9 sa z druhej strany príliš približujú.
@@ -46,66 +53,68 @@ Please translate each line literally into Slovak.
 10 Maladetta sie tu, antica lupa,
 11 che più che tutte l’altre bestie hai preda
 12 per la tua fame sanza fine cupa!
+</prompt>
+<result>
+10 Prekliata buď ty, stará vlčica,
+11 ktorá viac ako všetky ostatné zvieratá lovíš
+12 pre svoj nekonečný hlad!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 13/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 13 O ciel, nel cui girar par che si creda
 14 le condizion di qua giù trasmutarsi,
 15 quando verrà per cui questa disceda?
+</prompt>
+<result>
+13 Ó, nebo, v ktorého otáčaní sa zdá, že sa verí,
+14 že sa podmienky tu dole zmenia,
+15 kedy príde ten, kvôli ktorému táto zmizne?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 16/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 16 Noi andavam con passi lenti e scarsi,
 17 e io attento a l’ombre, ch’i’ sentia
 18 pietosamente piangere e lagnarsi;
+</prompt>
+<result>
+16 Kráčali sme pomalými a krátkymi krokmi,
+17 a ja som dával pozor na tiene, ktoré som počul
+18 úpenlivo plakať a nariekať;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 19/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 19 e per ventura udi’ «Dolce Maria!»
 20 dinanzi a noi chiamar così nel pianto
 21 come fa donna che in parturir sia;
+</prompt>
+<result>
+19 a náhodou som počul „Sladká Mária!“
+20 pred nami niekto takto volal v plači
+21 ako žena, ktorá rodí;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 22/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 22 e seguitar: «Povera fosti tanto,
 23 quanto veder si può per quello ospizio
 24 dove sponesti il tuo portato santo».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 Prekliata buď ty, stará vlčica,\n11 ktorá viac ako všetky ostatné zvieratá lovíš\n12 pre svoj nekonečný hlad!\n\n13 Ó, nebo, v ktorého otáčaní sa zdá, že sa verí,\n14 že sa podmienky tu dole zmenia,\n15 kedy príde ten, kvôli ktorému táto zmizne?\n\n16 Kráčali sme pomalými a krátkymi krokmi,\n17 a ja som dával pozor na tiene, ktoré som počul\n18 úpenlivo plakať a nariekať;\n\n19 a náhodou som počul „Sladká Mária!“\n20 pred nami niekto takto volal v plači\n21 ako žena, ktorá rodí;\n\n22 a pokračoval: „Bola si taká chudobná,\n23 ako sa dá vidieť z toho prístrešku,\n24 kde si porodila svoje sväté dieťa“."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-10 Prekliata buď ty, stará vlčica,
-11 ktorá viac ako všetky ostatné zvieratá lovíš
-12 pre svoj nekonečný hlad!
-
-13 Ó, nebo, v ktorého otáčaní sa zdá, že sa verí,
-14 že sa podmienky tu dole zmenia,
-15 kedy príde ten, kvôli ktorému táto zmizne?
-
-16 Kráčali sme pomalými a krátkymi krokmi,
-17 a ja som dával pozor na tiene, ktoré som počul
-18 úpenlivo plakať a nariekať;
-
-19 a náhodou som počul „Sladká Mária!“
-20 pred nami niekto takto volal v plači
-21 ako žena, ktorá rodí;
-
 22 a pokračoval: „Bola si taká chudobná,
 23 ako sa dá vidieť z toho prístrešku,
 24 kde si porodila svoje sväté dieťa“.
@@ -254,25 +263,41 @@ Please translate each line literally into Slovak.
 52 Figliuol fu’ io d’un beccaio di Parigi:
 53 quando li regi antichi venner meno
 54 tutti, fuor ch’un renduto in panni bigi,
+</prompt>
+<result>
+52 Bol som synom mäsiara z Paríža:
+53 keď starí králi prišli o moc
+54 všetci, okrem jedného, ktorý sa obliekol do sivého rúcha,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 55/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 55 trova’mi stretto ne le mani il freno
 56 del governo del regno, e tanta possa
 57 di nuovo acquisto, e sì d’amici pieno,
+</prompt>
+<result>
+55 našiel som v rukách opraty
+56 vlády kráľovstva a takú moc
+57 novozískanú a taký plný priateľov,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 58/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 58 ch’a la corona vedova promossa
 59 la testa di mio figlio fu, dal quale
 60 cominciar di costor le sacrate ossa.
 </prompt>
 <result>
-52 Bol som synom mäsiara z Paríža:
-53 keď starí králi všetci vymreli,
-54 okrem jedného, ktorý bol oblečený do sivého rúcha,
-
-55 ocitol som sa s opratami vlády kráľovstva pevne v rukách a s takou mocou
-56 z nového získania a s toľkými priateľmi,
-
-58 že hlava môjho syna bola povýšená na vdovskú korunu, od ktorého
-59 začali posvätné kosti týchto.
+58 že na vdovskú korunu povýšená
+59 bola hlava môjho syna, od ktorého
+60 začali týchto posvätné kosti.
 </result>
 </query>
 <query>
@@ -374,32 +399,6 @@ Please translate each line literally into Slovak.
 80 veggio vender sua figlia e patteggiarne
 81 come fanno i corsar de l’altre schiave.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "79 Druhý, ktorý už vyšiel zajatý z lode,\n80 vidím predávať svoju dcéru a vyjednávať o nej\n81 ako korzári o iné otrokyne."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 79 Druhý, ktorý už vyšiel zajatý z lode,
 80 vidím predávať svoju dcéru a vyjednávať o nej
@@ -414,16 +413,23 @@ Please translate each line literally into Slovak.
 82 O avarizia, che puoi tu più farne,
 83 poscia c’ha’ il mio sangue a te sì tratto,
 84 che non si cura de la propria carne?
+</prompt>
+<result>
+82 Ó, lakomstvo, čo viac môžeš urobiť,
+83 keď si moju krv tak pritiahla k sebe,
+84 že sa nestará o vlastné telo?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 85/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 85 Perché men paia il mal futuro e ’l fatto,
 86 veggio in Alagna intrar lo fiordaliso,
 87 e nel vicario suo Cristo esser catto.
 </prompt>
 <result>
-82 Ó, lakomstvo, čo viac môžeš urobiť,
-83 keď si moju krv tak pritiahla k sebe,
-84 že sa nestará o vlastné telo?
-
 85 Aby sa mi budúce a spáchané zlo zdalo menšie,
 86 vidím, ako do Anagni vstupuje ľalia
 87 a v jeho miestodržiteľovi je Kristus zajatý.
@@ -467,27 +473,41 @@ Please translate each line literally into Slovak.
 94 O Segnor mio, quando sarò io lieto
 95 a veder la vendetta che, nascosa,
 96 fa dolce l’ira tua nel tuo secreto?
+</prompt>
+<result>
+94 Ó, môj Pane, kedy budem šťastný
+95 vidieť pomstu, ktorá skrytá,
+96 robí tvoj hnev sladkým vo tvojom tajomstve?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 97/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 97 Ciò ch’io dicea di quell’ unica sposa
 98 de lo Spirito Santo e che ti fece
 99 verso me volger per alcuna chiosa,
+</prompt>
+<result>
+97 To, čo som hovoril o tej jedinej neveste
+98 Ducha Svätého, a čo ťa prinútilo
+99 obrátiť sa ku mne pre nejaký výklad,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 100/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 100 tanto è risposto a tutte nostre prece
 101 quanto ’l dì dura; ma com’ el s’annotta,
 102 contrario suon prendemo in quella vece.
 </prompt>
 <result>
-94 Ó, môj Pane, kedy budem šťastný,
-95 keď uvidím pomstu, ktorá, skrytá,
-96 robí tvoj hnev sladkým vo tvojom tajomstve?
-
-97 To, čo som hovoril o tej jedinej neveste
-98 Ducha Svätého a ktorá ťa prinútila
-99 obrátiť sa ku mne kvôli nejakému výkladu,
-
-100 je odpoveďou na všetky naše prosby
-101, kým trvá deň; ale keď sa zotmie,
-102 namiesto toho prijímame opačný zvuk.
+100 toľko je odpovedané na všetky naše prosby,
+101 kým trvá deň; ale keď sa zotmie,
+102 opačný zvuk vtedy vydávame.
 </result>
 </query>
 <query>
@@ -498,18 +518,26 @@ Please translate each line literally into Slovak.
 103 Noi repetiam Pigmalïon allotta,
 104 cui traditore e ladro e paricida
 105 fece la voglia sua de l’oro ghiotta;
+</prompt>
+<result>
+103 My opakujeme Pygmaliona veľa,
+104 ktorého jeho túžba po zlate lakomca
+105 urobila zradcom, zlodejom a vrahom;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 106/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 106 e la miseria de l’avaro Mida,
 107 che seguì a la sua dimanda gorda,
 108 per la qual sempre convien che si rida.
 </prompt>
 <result>
-103 Opakovali sme Pygmaliona,
-104 ktorého jeho túžba po zlatej chamtivosti urobila zradcom, zlodejom a vrahom;
-
-106 a biedu lakomého Midasa,
+106 a bieda lakomca Midasa,
 107 ktorý nasledoval svoju chamtivú žiadosť,
-108 za ktorú sa vždy treba smiať.
+108 pre ktorú sa vždy treba smiať.
 </result>
 </query>
 <query>
@@ -535,16 +563,23 @@ Please translate each line literally into Slovak.
 112 Indi accusiam col marito Saffira;
 113 lodiam i calci ch’ebbe Elïodoro;
 114 e in infamia tutto ’l monte gira
+</prompt>
+<result>
+112 Potom sme obvinili Safiru s manželom;
+113 chválili sme kopy, ktoré dostal Heliodorus;
+114 a v hanbe sa točí celý vrch
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 115/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 115 Polinestòr ch’ancise Polidoro;
 116 ultimamente ci si grida: “Crasso,
 117 dilci, che ’l sai: di che sapore è l’oro?”.
 </prompt>
 <result>
-112 Potom sme obvinili Safiru s manželom;
-113 chválili sme kopy, ktoré dostal Heliodorus;
-114 a v hanbe sa točí celý vrch
-
 115 Polymnestor, ktorý zabil Polydora;
 116 nakoniec na nás kričia: „Crassus,
 117 povedz nám, keď to vieš: akú chuť má zlato?“.
@@ -558,16 +593,23 @@ Please translate each line literally into Slovak.
 118 Talor parla l’uno alto e l’altro basso,
 119 secondo l’affezion ch’ad ir ci sprona
 120 ora a maggiore e ora a minor passo:
+</prompt>
+<result>
+118 Niekedy hovorí jeden vysoko a druhý nízko,
+119 podľa náklonnosti, ktorá nás pobáda k hnevu,
+120 teraz rýchlejšie a teraz pomalšie:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 121/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 121 però al ben che ’l dì ci si ragiona,
 122 dianzi non era io sol; ma qui da presso
 123 non alzava la voce altra persona».
 </prompt>
 <result>
-118 Niekedy hovorí jeden vysoko a druhý nízko,
-119 podľa náklonnosti, ktorá nás pobáda k hnevu,
-120 teraz rýchlejšie a teraz pomalšie:
-
 121 preto pri dobre, o ktorom sa cez deň rozprávame,
 122 predtým som nebol sám; ale tu nablízku
 123 nikto iný nezdvihol hlas“.
@@ -581,19 +623,26 @@ Please translate each line literally into Slovak.
 124 Noi eravam partiti già da esso,
 125 e brigavam di soverchiar la strada
 126 tanto quanto al poder n’era permesso,
+</prompt>
+<result>
+124 Už sme od neho odišli,
+125 a snažili sme sa prekonať cestu
+126 natoľko, nakoľko nám to bolo dovolené,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 127/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
 127 quand’ io senti’, come cosa che cada,
 128 tremar lo monte; onde mi prese un gelo
 129 qual prender suol colui ch’a morte vada.
 </prompt>
 <result>
-124 Už sme sa od neho oddelili
-125 a snažili sme sa prekonať cestu
-126, koľko nám to bolo dovolené,
-
 127 keď som začul, ako niečo padá,
-128 hora sa triasla; a tak ma zachvátila zima,
-129 aká zvykne zachvátiť toho, kto ide na smrť.
+128 triasť sa hora; vtedy ma zachvátila taká zima,
+129 aká zvyčajne chytá toho, kto ide na smrť.
 </result>
 </query>
 <query>
@@ -606,9 +655,9 @@ Please translate each line literally into Slovak.
 132 a parturir li due occhi del cielo.
 </prompt>
 <result>
-130 Určite sa Delos tak silno ne otriasol,
-131 skôr ako v nej Latona urobila hniezdo
-132, aby porodila dve oči neba.
+130 Určite sa tak silno netrasie Delo,
+131 kde Latona v nej urobila hniezdo
+132 a porodila dve oči neba.
 </result>
 </query>
 <query>
@@ -679,22 +728,36 @@ Please translate each line literally into Slovak.
 145 Nulla ignoranza mai con tanta guerra
 146 mi fé desideroso di sapere,
 147 se la memoria mia in ciò non erra,
-
-148 quanta pareami allor, pensando, avere;
-149 né per la fretta dimandare er’ oso,
-150 né per me lì potea cosa vedere:
-
-151 così m’andava timido e pensoso.
 </prompt>
 <result>
 145 Nikdy ma žiadna nevedomosť s takou vojnou
 146 neurobila túžiacim po poznaní,
 147 ak sa moja pamäť v tom nemýli,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 148/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
+148 quanta pareami allor, pensando, avere;
+149 né per la fretta dimandare er’ oso,
+150 né per me lì potea cosa vedere:
+</prompt>
+<result>
 148 koľko sa mi vtedy zdalo, že mám;
 149 ale pre ponáhľanie som sa neodvážil pýtať,
 150 a sám som tam nič nemohol vidieť:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 151/151</info>
+<prompt>
+Please translate each line literally into Slovak.
 
+151 così m’andava timido e pensoso.
+</prompt>
+<result>
 151 tak som kráčal bojazlivo a zamyslene.
 </result>
 </query>

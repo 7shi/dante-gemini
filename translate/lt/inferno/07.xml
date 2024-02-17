@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries error="0" count="44">
 <query>
 <info>[Inferno Canto 7] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Lithuanian.
 1 «Pape Satàn, pape Satàn aleppe!»,
 2 cominciò Pluto con la voce chioccia;
 3 e quel savio gentil, che tutto seppe,
+</prompt>
+<result>
+1 „Popei Šėtone, popei Šėtone alepe!“,
+2 pradėjo Plutonas kimiu balsu;
+3 o tas išmintingasis kilnusis, kuris viską žinojo,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 4/130</info>
+<prompt>
+Please translate each line literally into Lithuanian.
 
 4 disse per confortarmi: «Non ti noccia
 5 la tua paura; ché, poder ch’elli abbia,
 6 non ci torrà lo scender questa roccia».
 </prompt>
 <result>
-1 „Popei Šėtone, popei Šėtone alepe!“,
-2 pradėjo Plutonas kimiu balsu;
-3 o tas išmintingasis kilnusis, kuris viską žinojo,
-
 4 pasakė, norėdamas mane paguosti: „Tenebijok
 5 savo baimės; nes, kad ir kokią galią jis turėtų,
 6 jis nesutrukdys mums nusileisti šia uola“.
@@ -32,32 +39,6 @@ Please translate each line literally into Lithuanian.
 8 e disse: «Taci, maladetto lupo!
 9 consuma dentro te con la tua rabbia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "7 Paskui jis atsisuko į tą išpūstą lūpą,\n8 ir tarė: „Nutilk, prakeiktas vilke!\n9 Sudegink savyje savo įniršį."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 7 Paskui jis atsisuko į tą išpūstą lūpą,
 8 ir tarė: „Nutilk, prakeiktas vilke!
@@ -117,16 +98,23 @@ Please translate each line literally into Lithuanian.
 19 Ahi giustizia di Dio! tante chi stipa
 20 nove travaglie e pene quant’ io viddi?
 21 e perché nostra colpa sì ne scipa?
+</prompt>
+<result>
+19 O, Dievo teisybe! Kiek čia sugrūsta
+20 naujų kančių ir bausmių, kiek aš pamačiau?
+21 Ir kodėl mūsų kaltė taip mus žaloja?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 22/130</info>
+<prompt>
+Please translate each line literally into Lithuanian.
 
 22 Come fa l’onda là sovra Cariddi,
 23 che si frange con quella in cui s’intoppa,
 24 così convien che qui la gente riddi.
 </prompt>
 <result>
-19 O, Dievo teisybe! Kiek čia sugrūsta
-20 naujų kančių ir bausmių, kiek aš pamačiau?
-21 Ir kodėl mūsų kaltė taip mus žaloja?
-
 22 Kaip banga ten virš Charibdės,
 23 kuri lūžta su ta, į kurią atsitrenkia,
 24 taip ir čia žmonės turi suktis rate.
@@ -170,33 +158,38 @@ Please translate each line literally into Lithuanian.
 31 Così tornavan per lo cerchio tetro
 32 da ogne mano a l’opposito punto,
 33 gridandosi anche loro ontoso metro;
-
-34 poi si volgea ciascun, quand’ era giunto,
-35 per lo suo mezzo cerchio a l’altra giostra.
 </prompt>
 <result>
 31 Taip jie grįždavo per niūrų ratą
 32 nuo kiekvieno mano taško iki priešingo taško,
 33 šaukdami vienas kitam taip pat gėdingus žodžius;
-
-34 paskui kiekvienas apsisukdavo, kai pasiekdavo,
-35 per savo pusę rato į kitą kovą.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 36/130</info>
+<info>[Inferno Canto 7] 34/130</info>
 <prompt>
 Please translate each line literally into Lithuanian.
 
+34 poi si volgea ciascun, quand’ era giunto,
+35 per lo suo mezzo cerchio a l’altra giostra.
 36 E io, ch’avea lo cor quasi compunto,
+</prompt>
+<result>
+34 paskui kiekvienas apsisukdavo, kai pasiekdavo,
+35 per savo pusę rato į kitą kovą.
+36 O aš, kurio širdis buvo beveik persmelkta,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 37/130</info>
+<prompt>
+Please translate each line literally into Lithuanian.
 
 37 dissi: «Maestro mio, or mi dimostra
 38 che gente è questa, e se tutti fuor cherci
 39 questi chercuti a la sinistra nostra».
 </prompt>
 <result>
-36 O aš, kurio širdis buvo beveik persmelkta,
-
 37 pasakiau: „Mano mokytojau, dabar parodyk man,
 38 kokie žmonės čia yra, ir ar visi buvo dvasininkai
 39 šie nuskusti kairėje mūsų pusėje“.
@@ -315,16 +308,23 @@ Please translate each line literally into Lithuanian.
 61 Or puoi, figliuol, veder la corta buffa
 62 d’i ben che son commessi a la fortuna,
 63 per che l’umana gente si rabbuffa;
+</prompt>
+<result>
+61 Dabar, sūnau, gali pamatyti trumpą komediją
+62 gėrybių, kurios patikėtos likimui,
+63 dėl ko žmonės pykstasi;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 64/130</info>
+<prompt>
+Please translate each line literally into Lithuanian.
 
 64 ché tutto l’oro ch’è sotto la luna
 65 e che già fu, di quest’ anime stanche
 66 non poterebbe farne posare una».
 </prompt>
 <result>
-61 Dabar, sūnau, gali pamatyti trumpą komediją
-62 gėrybių, kurios patikėtos likimui,
-63 dėl ko žmonės pykstasi;
-
 64 nes visas auksas, kuris yra po mėnuliu
 65 ir kuris kada nors buvo, šių pavargusių sielų
 66 negalėtų priversti nė vienos pailsėti“.
@@ -354,32 +354,6 @@ Please translate each line literally into Lithuanian.
 71 quanta ignoranza è quella che v’offende!
 72 Or vo’ che tu mia sentenza ne ’mbocche.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 O jis man: „O kvailos būtybės,\n71 kiek daug nežinojimo jus žeidžia!\n72 Dabar noriu, kad tu mano sprendimą įsidėmėtum."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 70 O jis man: „O kvailos būtybės,
 71 kiek daug nežinojimo jus žeidžia!
@@ -394,41 +368,53 @@ Please translate each line literally into Lithuanian.
 73 Colui lo cui saver tutto trascende,
 74 fece li cieli e diè lor chi conduce
 75 sì, ch’ogne parte ad ogne parte splende,
-
-76 distribuendo igualmente la luce.
 </prompt>
 <result>
 73 Tas, kurio žinojimas viską pranoksta,
 74 sukūrė dangus ir davė jiems tą, kuris juos veda,
 75 taip, kad kiekviena dalis šviečia į kiekvieną dalį,
-
-76 tolygiai paskirstydamas šviesą.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 77/130</info>
+<info>[Inferno Canto 7] 76/130</info>
 <prompt>
 Please translate each line literally into Lithuanian.
 
+76 distribuendo igualmente la luce.
 77 Similemente a li splendor mondani
 78 ordinò general ministra e duce
+</prompt>
+<result>
+76 tolygiai paskirstydamas šviesą.
+77 Panašiai ir pasaulietiniams spindesiams
+78 jis paskyrė bendrą ministrą ir vadą,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 79/130</info>
+<prompt>
+Please translate each line literally into Lithuanian.
 
 79 che permutasse a tempo li ben vani
 80 di gente in gente e d’uno in altro sangue,
 81 oltre la difension d’i senni umani;
+</prompt>
+<result>
+79 kuris laiku pakeistų tuščias gėrybes
+80 iš tautos į tautą ir iš vieno kraujo į kitą,
+81 nepaisant žmonių proto gynybos;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 82/130</info>
+<prompt>
+Please translate each line literally into Lithuanian.
 
 82 per ch’una gente impera e l’altra langue,
 83 seguendo lo giudicio di costei,
 84 che è occulto come in erba l’angue.
 </prompt>
 <result>
-77 Panašiai ir pasaulietiniams spindesiams
-78 jis paskyrė bendrą ministrą ir vadą,
-
-79 kuris laiku pakeistų tuščias gėrybes
-80 iš tautos į tautą ir iš vieno kraujo į kitą,
-81 nepaisant žmonių proto gynybos;
-
 82 todėl viena tauta valdo, o kita kenčia,
 83 sekdama šios moters sprendimu,
 84 kuris yra paslėptas kaip angis žolėje.
@@ -472,16 +458,23 @@ Please translate each line literally into Lithuanian.
 91 Quest’ è colei ch’è tanto posta in croce
 92 pur da color che le dovrien dar lode,
 93 dandole biasmo a torto e mala voce;
+</prompt>
+<result>
+91 Ji yra ta, kuri yra taip nukryžiuota
+92 būtent tų, kurie turėtų ją girti,
+93 neteisingai ją kaltindami ir blogai apie ją kalbėdami;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 94/130</info>
+<prompt>
+Please translate each line literally into Lithuanian.
 
 94 ma ella s’è beata e ciò non ode:
 95 con l’altre prime creature lieta
 96 volve sua spera e beata si gode.
 </prompt>
 <result>
-91 Ji yra ta, kuri yra taip nukryžiuota
-92 būtent tų, kurie turėtų ją girti,
-93 neteisingai ją kaltindami ir blogai apie ją kalbėdami;
-
 94 bet ji yra palaiminta ir to negirdi:
 95 su kitomis pirmosiomis būtybėmis laiminga
 96 suka savo sferą ir laiminga džiaugiasi.
@@ -585,16 +578,23 @@ Please translate each line literally into Lithuanian.
 115 Lo buon maestro disse: «Figlio, or vedi
 116 l’anime di color cui vinse l’ira;
 117 e anche vo’ che tu per certo credi
+</prompt>
+<result>
+115 Gerasis mokytojas tarė: „Sūnau, dabar matai
+116 tų sielas, kurias nugalėjo pyktis;
+117 ir taip pat noriu, kad tu tikrai tikėtum,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 118/130</info>
+<prompt>
+Please translate each line literally into Lithuanian.
 
 118 che sotto l’acqua è gente che sospira,
 119 e fanno pullular quest’ acqua al summo,
 120 come l’occhio ti dice, u’ che s’aggira.
 </prompt>
 <result>
-115 Gerasis mokytojas tarė: „Sūnau, dabar matai
-116 tų sielas, kurias nugalėjo pyktis;
-117 ir taip pat noriu, kad tu tikrai tikėtum,
-
 118 kad po vandeniu yra žmonių, kurie dejuoja,
 119 ir verčia šį vandenį burbuliuoti paviršiuje,
 120 kaip tau sako akis, kur ji klaidžioja.
@@ -608,33 +608,38 @@ Please translate each line literally into Lithuanian.
 121 Fitti nel limo dicon: “Tristi fummo
 122 ne l’aere dolce che dal sol s’allegra,
 123 portando dentro accidïoso fummo:
-
-124 or ci attristiam ne la belletta negra”.
 </prompt>
 <result>
 121 Įstrigę dumbluose, jie sako: „Buvome liūdni
 122 saldžiame ore, kurį džiugina saulė,
 123 nešiodami viduje rūstų dūmą:
-
-124 dabar mes liūdime juodame purve“.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 125/130</info>
+<info>[Inferno Canto 7] 124/130</info>
 <prompt>
 Please translate each line literally into Lithuanian.
 
+124 or ci attristiam ne la belletta negra”.
 125 Quest’ inno si gorgoglian ne la strozza,
 126 ché dir nol posson con parola integra».
+</prompt>
+<result>
+124 dabar mes liūdime juodame purve“.
+125 Šį himną jie gergždžia gerklėje,
+126 nes negali jo pasakyti ištisais žodžiais“.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 127/130</info>
+<prompt>
+Please translate each line literally into Lithuanian.
 
 127 Così girammo de la lorda pozza
 128 grand’ arco tra la ripa secca e ’l mézzo,
 129 con li occhi vòlti a chi del fango ingozza.
 </prompt>
 <result>
-125 Šį himną jie gergždžia gerklėje,
-126 nes negali jo pasakyti ištisais žodžiais“.
-
 127 Taip mes apėjome purviną balą
 128 didelę arką tarp sauso kranto ir vidurio,
 129 akimis nukreiptomis į tuos, kurie ryja purvą.

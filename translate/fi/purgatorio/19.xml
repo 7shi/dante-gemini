@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries error="0" count="49">
 <query>
 <info>[Purgatorio Canto 19] 1/145</info>
 <prompt>
@@ -8,24 +8,38 @@ Please translate each line literally into Finnish.
 1 Ne l’ora che non può ’l calor dïurno
 2 intepidar più ’l freddo de la luna,
 3 vinto da terra, e talor da Saturno
+</prompt>
+<result>
+1 Siihen aikaan, jolloin päivän kuumuus ei enää
+2 lämmitä kuutamon kylmyyttä,
+3 maan ja joskus Saturnuksen voittamana
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 4/145</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 4 —quando i geomanti lor Maggior Fortuna
 5 veggiono in orïente, innanzi a l’alba,
 6 surger per via che poco le sta bruna—,
+</prompt>
+<result>
+4 —kun geomantit näkevät Suuren Onnensa
+5 idässä, ennen aamunkoittoa,
+6 nousevan tiellä, joka on sille vähän tumma—,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 7/145</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 7 mi venne in sogno una femmina balba,
 8 ne li occhi guercia, e sovra i piè distorta,
 9 con le man monche, e di colore scialba.
 </prompt>
 <result>
-1 Siihen aikaan, jolloin päivän kuumuus ei enää
-2 lämmitä kuutamon kylmyyttä,
-3 maan ja joskus Saturnuksen voittamana
-
-4 —kun geomantit näkevät Suuren Onnensa
-5 idässä, ennen aamunkoittoa,
-6 nousevan tiellä, joka on sille vähän tumma—,
-
 7 minulle ilmestyi unessa änkyttävä nainen,
 8 silmät kierossa ja jalat vääntyneet,
 9 kädet puuttuivat ja väri oli kalpea.
@@ -39,16 +53,23 @@ Please translate each line literally into Finnish.
 10 Io la mirava; e come ’l sol conforta
 11 le fredde membra che la notte aggrava,
 12 così lo sguardo mio le facea scorta
+</prompt>
+<result>
+10 Minä katsoin häntä; ja kuten aurinko lämmittää
+11 kylmiä jäseniä, joita yö rasittaa,
+12 niin katseeni teki hänen
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 13/145</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 13 la lingua, e poscia tutta la drizzava
 14 in poco d’ora, e lo smarrito volto,
 15 com’ amor vuol, così le colorava.
 </prompt>
 <result>
-10 Minä katsoin häntä; ja kuten aurinko lämmittää
-11 kylmiä jäseniä, joita yö rasittaa,
-12 niin katseeni teki hänen
-
 13 kielensä ketteräksi, ja sitten suoristi hänet kokonaan
 14 lyhyessä ajassa, ja hänen kalpea kasvonsa,
 15 rakkauden tahdon mukaan, sai värinsä takaisin.
@@ -77,16 +98,23 @@ Please translate each line literally into Finnish.
 19 «Io son», cantava, «io son dolce serena,
 20 che ’ marinari in mezzo mar dismago;
 21 tanto son di piacere a sentir piena!
+</prompt>
+<result>
+19 "Minä olen", hän lauloi, "minä olen suloinen seireeni,
+20 joka saan merimiehet epätoivoon keskellä merta;
+21 niin täynnä nautintoa olen kuunneltavaksi!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 22/145</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 22 Io volsi Ulisse del suo cammin vago
 23 al canto mio; e qual meco s’ausa,
 24 rado sen parte; sì tutto l’appago!».
 </prompt>
 <result>
-19 "Minä olen", hän lauloi, "minä olen suloinen seireeni,
-20 joka saan merimiehet epätoivoon keskellä merta;
-21 niin täynnä nautintoa olen kuunneltavaksi!
-
 22 Minä käännytin Odysseuksen pois hänen haluamaltaan matkalta
 23 laulullani; ja kuka uskaltaa minun kanssani,
 24 hän saa osansa; niin täysin minä hänet tyydytän!".
@@ -131,32 +159,6 @@ Please translate each line literally into Finnish.
 32 fendendo i drappi, e mostravami ’l ventre;
 33 quel mi svegliò col puzzo che n’uscia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 Toinen otti hänet ja avasi hänen etupuolensa\n32 repimällä vaatteet ja näytti minulle hänen vatsansa;\n33 se herätti minut sieltä tulevaan hajuun."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 31 Toinen otti hänet ja avasi hänen etupuolensa
 32 repimällä vaatteet ja näytti minulle hänen vatsansa;
@@ -201,16 +203,23 @@ Please translate each line literally into Finnish.
 40 Seguendo lui, portava la mia fronte
 41 come colui che l’ha di pensier carca,
 42 che fa di sé un mezzo arco di ponte;
+</prompt>
+<result>
+40 Häntä seuratessani pääni oli painunut
+41 kuin sillä, jonka ajatukset ovat raskaat,
+42 joka tekee itsestään puolikkaan kaaren sillalla;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 43/145</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 43 quand’ io udi’ «Venite; qui si varca»
 44 parlare in modo soave e benigno,
 45 qual non si sente in questa mortal marca.
 </prompt>
 <result>
-40 Häntä seuratessani pääni oli painunut
-41 kuin sillä, jonka ajatukset ovat raskaat,
-42 joka tekee itsestään puolikkaan kaaren sillalla;
-
 43 kun kuulin "Tulkaa; täältä kuljetaan läpi"
 44 puhuttavan lempeällä ja ystävällisellä tavalla,
 45 sellaista ei kuule tässä kuolevaisten maailmassa.
@@ -314,16 +323,23 @@ Please translate each line literally into Finnish.
 64 Quale ’l falcon, che prima a’ pié si mira,
 65 indi si volge al grido e si protende
 66 per lo disio del pasto che là il tira,
+</prompt>
+<result>
+64 Kuten haukka, joka ensin katsoo jalkojaan,
+65 sitten kääntyy huutoon ja ojentautuu
+66 halusta saaliiseen, joka vetää sitä sinne,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 67/145</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 67 tal mi fec’ io; e tal, quanto si fende
 68 la roccia per dar via a chi va suso,
 69 n’andai infin dove ’l cerchiar si prende.
 </prompt>
 <result>
-64 Kuten haukka, joka ensin katsoo jalkojaan,
-65 sitten kääntyy huutoon ja ojentautuu
-66 halusta saaliiseen, joka vetää sitä sinne,
-
 67 niin minä tein; ja niin, niin pitkälle kuin kallio halkeaa
 68 antaakseen tien ylös nousevalle,
 69 menin sinne, missä ympyrä alkaa.
@@ -397,16 +413,23 @@ Please translate each line literally into Finnish.
 82 Così pregò ’l poeta, e sì risposto
 83 poco dinanzi a noi ne fu; per ch’io
 84 nel parlare avvisai l’altro nascosto,
+</prompt>
+<result>
+82 Näin runoilija pyysi, ja näin vastattiin
+83 vähän edessämme; joten minä
+84 ymmärsin puheesta toisen olevan piilossa,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 85/145</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 85 e volsi li occhi a li occhi al segnor mio:
 86 ond’ elli m’assentì con lieto cenno
 87 ciò che chiedea la vista del disio.
 </prompt>
 <result>
-82 Näin runoilija pyysi, ja näin vastattiin
-83 vähän edessämme; joten minä
-84 ymmärsin puheesta toisen olevan piilossa,
-
 85 ja käännyin katsomaan herrani silmiin:
 86 ja hän suostui iloisella nyökkäyksellä
 87 siihen, mitä katseeni halusi kysyä.
@@ -420,16 +443,23 @@ Please translate each line literally into Finnish.
 88 Poi ch’io potei di me fare a mio senno,
 89 trassimi sovra quella creatura
 90 le cui parole pria notar mi fenno,
+</prompt>
+<result>
+88 Kun sain tehdä itsestäni mieleni mukaan,
+89 vedin itseni sen olennon luo,
+90 jonka sanat saivat minut ensin huomaamaan hänet,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 91/145</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 91 dicendo: «Spirto in cui pianger matura
 92 quel sanza ’l quale a Dio tornar non pòssi,
 93 sosta un poco per me tua maggior cura.
 </prompt>
 <result>
-88 Kun sain tehdä itsestäni mieleni mukaan,
-89 vedin itseni sen olennon luo,
-90 jonka sanat saivat minut ensin huomaamaan hänet,
-
 91 sanoen: "Henki, jossa itku kypsyttää
 92 sen, ilman jota ei voi palata Jumalan luo,
 93 pysähdy hetkeksi minun vuoksi suuresta huolestasi.
@@ -578,16 +608,23 @@ Please translate each line literally into Finnish.
 121 Come avarizia spense a ciascun bene
 122 lo nostro amore, onde operar perdési,
 123 così giustizia qui stretti ne tene,
+</prompt>
+<result>
+121 Kuten ahneus sammutti jokaisen hyvän
+122 rakkautemme, minkä vuoksi toiminta lakkasi,
+123 niin oikeus pitää meidät täällä sidottuina,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 124/145</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 124 ne’ piedi e ne le man legati e presi;
 125 e quanto fia piacer del giusto Sire,
 126 tanto staremo immobili e distesi».
 </prompt>
 <result>
-121 Kuten ahneus sammutti jokaisen hyvän
-122 rakkautemme, minkä vuoksi toiminta lakkasi,
-123 niin oikeus pitää meidät täällä sidottuina,
-
 124 jalat ja kädet sidottuina ja vangittuina;
 125 ja niin kauan kuin oikeudenmukaisen Herran mielihyvä on,
 126 niin kauan pysymme liikkumattomina ja maassa makaavina».
@@ -601,33 +638,38 @@ Please translate each line literally into Finnish.
 127 Io m’era inginocchiato e volea dire;
 128 ma com’ io cominciai ed el s’accorse,
 129 solo ascoltando, del mio reverire,
-
-130 «Qual cagion», disse, «in giù così ti torse?».
 </prompt>
 <result>
 127 Olin polvistunut ja halusin puhua;
 128 mutta kun aloitin ja hän huomasi,
 129 vain kuunnellen, kunnioitukseni,
-
-130 "Mikä syy", hän sanoi, "käänsi sinut näin alas?".
 </result>
 </query>
 <query>
-<info>[Purgatorio Canto 19] 131/145</info>
+<info>[Purgatorio Canto 19] 130/145</info>
 <prompt>
 Please translate each line literally into Finnish.
 
+130 «Qual cagion», disse, «in giù così ti torse?».
 131 E io a lui: «Per vostra dignitate
 132 mia coscïenza dritto mi rimorse».
+</prompt>
+<result>
+130 "Mikä syy", hän sanoi, "käänsi sinut näin alas?".
+131 Ja minä hänelle: "Teidän arvokkuutenne vuoksi
+132 omatuntoni moitti minua oikein".
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 133/145</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 133 «Drizza le gambe, lèvati sù, frate!»,
 134 rispuose; «non errar: conservo sono
 135 teco e con li altri ad una podestate.
 </prompt>
 <result>
-131 Ja minä hänelle: "Teidän arvokkuutenne vuoksi
-132 omatuntoni moitti minua oikein".
-
 133 "Ojenna jalkasi, nouse ylös, veli!",
 134 hän vastasi; "älä erehdy: olen palvelija
 135 sinun ja muiden kanssa samassa vallassa.
@@ -671,14 +713,21 @@ Please translate each line literally into Finnish.
 142 Nepote ho io di là c’ha nome Alagia,
 143 buona da sé, pur che la nostra casa
 144 non faccia lei per essempro malvagia;
-
-145 e questa sola di là m’è rimasa».
 </prompt>
 <result>
 142 Minulla on siellä veljenpoika nimeltä Alagia,
 143 hyvä itsessään, kunhan meidän sukomme
 144 ei tee hänestä esimerkkiä pahuudesta;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 145/145</info>
+<prompt>
+Please translate each line literally into Finnish.
 
+145 e questa sola di là m’è rimasa».
+</prompt>
+<result>
 145 ja hän on ainoa, joka on minulle jäänyt siellä».
 </result>
 </query>

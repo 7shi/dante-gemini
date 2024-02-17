@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="33">
+<queries count="51">
 <query>
 <info>[Purgatorio Canto 14] 1/151</info>
 <prompt>
@@ -38,24 +38,38 @@ Please translate each line literally into Hungarian.
 7 Così due spirti, l’uno a l’altro chini,
 8 ragionavan di me ivi a man dritta;
 9 poi fer li visi, per dirmi, supini;
+</prompt>
+<result>
+7 Így két lélek, egymáshoz hajolva,
+8 ott, jobbra tőlem, rólam beszélt;
+9 majd felemelték arcukat, hogy megszólítsanak;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 10/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 10 e disse l’uno: «O anima che fitta
 11 nel corpo ancora inver’ lo ciel ten vai,
 12 per carità ne consola e ne ditta
+</prompt>
+<result>
+10 és az egyik így szólt: „Ó, lélek, aki még
+11 testedben az ég felé tartasz,
+12 könyörülj rajtunk, és mondd el nekünk,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 13/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 13 onde vieni e chi se’; ché tu ne fai
 14 tanto maravigliar de la tua grazia,
 15 quanto vuol cosa che non fu più mai».
 </prompt>
 <result>
-7 Így két lélek, egymáshoz hajolva,
-8 ott, jobbra tőlem, rólam beszélt;
-9 majd felemelték arcukat, hogy megszólítsanak;
-
-10 és az egyik így szólt: „Ó, lélek, aki még
-11 testedben az ég felé tartasz,
-12 könyörülj rajtunk, és mondd el nekünk,
-
 13 honnan jössz és ki vagy; mert annyira
 14 elámulunk kegyelmed láttán,
 15 mint valami olyanon, ami soha nem volt még.”
@@ -129,41 +143,70 @@ Please translate each line literally into Hungarian.
 28 E l’ombra che di ciò domandata era,
 29 si sdebitò così: «Non so; ma degno
 30 ben è che ’l nome di tal valle pèra;
+</prompt>
+<result>
+28 És az árnyék, akit erről kérdeztek,
+29 így szólt: „Nem tudom; de méltó,
+30 hogy az ilyen völgyből eltűnjön;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 31/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 31 ché dal principio suo, ov’ è sì pregno
 32 l’alpestro monte ond’ è tronco Peloro,
 33 che ’n pochi luoghi passa oltra quel segno,
+</prompt>
+<result>
+31 mert az ő területéről, ahol oly
+32 sziklás, ahonnan Pelorus le van vágva,
+33 helyenként túlmegy ezen a határon,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 34/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 34 infin là ’ve si rende per ristoro
 35 di quel che ’l ciel de la marina asciuga,
 36 ond’ hanno i fiumi ciò che va con loro,
+</prompt>
+<result>
+34 egészen odáig, ahol megpihen,
+35 hogy pótolja azt, amit az ég a tengerből kiszárít,
+36 ahonnan a folyók azt kapják, amit magukkal visznek,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 37/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 37 vertù così per nimica si fuga
 38 da tutti come biscia, o per sventura
 39 del luogo, o per mal uso che li fruga:
+</prompt>
+<result>
+37 Az erényt így ellenségként kerülik
+38 mindenki, mint a kígyót, vagy a hely balszerencséje miatt,
+39 vagy a rossz szokás miatt, ami gyötri őket:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 40/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 40 ond’ hanno sì mutata lor natura
 41 li abitator de la misera valle,
 42 che par che Circe li avesse in pastura.
 </prompt>
 <result>
-28 És az árnyék, akit erről kérdeztek,
-29 így válaszolt: „Nem tudom; de méltó lenne,
-30 hogy e völgy neve elvesszen;
-
-31 mert kezdetétől fogva, ahol oly bővizű
-32 a hegyes hegy, ahonnan Pelorus leválik,
-33 és csak kevés helyen haladja meg azt a határt,
-
-34 egészen addig a helyig, ahol a tenger kiszáradása miatt
-35 kárpótlást kap, és ahonnan a folyók azt kapják, amit magukkal visznek,
-
-37 az erény olyannyira elmenekül mindenkitől,
-38 mint a kígyó, akár a hely szerencsétlensége miatt,
-39 akár a rossz szokás miatt, amely gyötri őket:
-
-40 ezért változott meg annyira a természete
-41 a szerencsétlen völgy lakóinak,
+40 ahonnan annyira megváltoztatták természetüket
+41 a nyomorult völgy lakói,
 42 hogy úgy tűnik, mintha Kirké legeltette volna őket.
 </result>
 </query>
@@ -266,32 +309,6 @@ Please translate each line literally into Hungarian.
 62 poscia li ancide come antica belva;
 63 molti di vita e sé di pregio priva.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "61 Élve adja el a húsukat;\n62 aztán megöli őket, mint egy ősi vadállat;\n63 sokakat megfoszt az életüktől és önmagát a becsületétől."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: HIGH
-}
-</error>
 <result>
 61 Élve adja el a húsukat;
 62 aztán megöli őket, mint egy ősi vadállat;
@@ -321,16 +338,23 @@ Please translate each line literally into Hungarian.
 67 Com’ a l’annunzio di dogliosi danni
 68 si turba il viso di colui ch’ascolta,
 69 da qual che parte il periglio l’assanni,
+</prompt>
+<result>
+67 Amint a szomorú károk hírére
+68 megzavarodik annak az arca, aki hallgatja,
+69 bárhonnan is támadja őt a veszély,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 70/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 70 così vid’ io l’altr’ anima, che volta
 71 stava a udir, turbarsi e farsi trista,
 72 poi ch’ebbe la parola a sé raccolta.
 </prompt>
 <result>
-67 Amint a szomorú károk hírére
-68 megzavarodik annak az arca, aki hallgatja,
-69 bárhonnan is támadja őt a veszély,
-
 70 úgy láttam a másik lelket, aki megfordulva
 71 állt, hogy hallgassa, megzavarodni és elszomorodni,
 72 miután magába szívta a szavakat.
@@ -344,16 +368,23 @@ Please translate each line literally into Hungarian.
 73 Lo dir de l’una e de l’altra la vista
 74 mi fer voglioso di saper lor nomi,
 75 e dimanda ne fei con prieghi mista;
+</prompt>
+<result>
+73 Az egyik és a másik látványa
+74 kíváncsivá tesz arra, hogy megtudjam a nevüket,
+75 és kéréssel kevert kérdéssel tettem fel nekik;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 76/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 76 per che lo spirto che di pria parlòmi
 77 ricominciò: «Tu vuo’ ch’io mi deduca
 78 nel fare a te ciò che tu far non vuo’mi.
 </prompt>
 <result>
-73 Az egyik és a másik látványa
-74 kíváncsivá tesz arra, hogy megtudjam a nevüket,
-75 és kéréssel kevert kérdéssel tettem fel nekik;
-
 76 mire a szellem, aki először beszélt hozzám,
 77 így kezdett újra: „Azt akarod, hogy eláruljam magam
 78 azzal, hogy megteszem neked azt, amit te nem akarsz megtenni nekem.
@@ -397,18 +428,26 @@ Please translate each line literally into Hungarian.
 85 Di mia semente cotal paglia mieto;
 86 o gente umana, perché poni ’l core
 87 là ’v’ è mestier di consorte divieto?
+</prompt>
+<result>
+85 Saját magam vetettem ezt a szalmát;
+86 ó, emberi faj, miért helyezed szívedet
+87 oda, ahol tilos a társ?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 88/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 88 Questi è Rinier; questi è ’l pregio e l’onore
 89 de la casa da Calboli, ove nullo
 90 fatto s’è reda poi del suo valore.
 </prompt>
 <result>
-85 Sajátmagamból aratok ilyen szalmát;
-86 ó, emberi faj, miért helyezed szívedet
-87 oda, ahol tiltott a társ?
-
-88 Ez Rinier; ő a Calboli-ház büszkesége és dicsősége, ahol senki
-89 nem örökölte az ő értékét.
+88 Ő Rinier; ő a dicsőség és a becsület
+89 a Calboli házából, ahol senki
+90 sem örökölte az ő értékét.
 </result>
 </query>
 <query>
@@ -419,16 +458,23 @@ Please translate each line literally into Hungarian.
 91 E non pur lo suo sangue è fatto brullo,
 92 tra ’l Po e ’l monte e la marina e ’l Reno,
 93 del ben richesto al vero e al trastullo;
+</prompt>
+<result>
+91 És nemcsak a vére apadt el
+92 a Pó, a hegyek és a tenger és a Rajna között,
+93 amely gazdag volt igazi és mulatságos javakban;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 94/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 94 ché dentro a questi termini è ripieno
 95 di venenosi sterpi, sì che tardi
 96 per coltivare omai verrebber meno.
 </prompt>
 <result>
-91 És nemcsak a vére apadt el
-92 a Pó, a hegyek és a tenger és a Rajna között,
-93 amely gazdag volt igazi és mulatságos javakban;
-
 94 mert ezen határokon belül tele van
 95 mérgező növényekkel, úgyhogy későn
 96 jönnének már, hogy megműveljék.
@@ -442,40 +488,68 @@ Please translate each line literally into Hungarian.
 97 Ov’ è ’l buon Lizio e Arrigo Mainardi?
 98 Pier Traversaro e Guido di Carpigna?
 99 Oh Romagnuoli tornati in bastardi!
+</prompt>
+<result>
+97 Hol van a jó Lizio és Arrigo Mainardi?
+98 Pier Traversaro és Guido di Carpigna?
+99 Ó, elfajult romagnolik!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 100/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 100 Quando in Bologna un Fabbro si ralligna?
 101 quando in Faenza un Bernardin di Fosco,
 102 verga gentil di picciola gramigna?
+</prompt>
+<result>
+100 Mikor születik újra egy Fabbro Bolognában?
+101 Mikor születik újra egy Bernardin di Fosco Faenzában,
+102 a kis gaz gyenge hajtása?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 103/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 103 Non ti maravigliar s’io piango, Tosco,
 104 quando rimembro, con Guido da Prata,
 105 Ugolin d’Azzo che vivette nosco,
+</prompt>
+<result>
+103 Ne csodálkozz, ha sírok, toszkán,
+104 amikor Guido da Pratára emlékezem,
+105 Ugolin d’Azzóra, aki velünk élt,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 106/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 106 Federigo Tignoso e sua brigata,
 107 la casa Traversara e li Anastagi
 108 (e l’una gente e l’altra è diretata),
+</prompt>
+<result>
+106 Federigo Tignosóra és társaira,
+107 a Traversara-házra és az Anastagikra
+108 (és az egyik és a másik család is kihalt),
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 109/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 109 le donne e ’ cavalier, li affanni e li agi
 110 che ne ’nvogliava amore e cortesia
 111 là dove i cuor son fatti sì malvagi.
 </prompt>
 <result>
-97 Hol van a jó Lizio és Arrigo Mainardi?
-98 Pier Traversaro és Guido di Carpigna?
-99 Ó, elfajult romagnolik!
-
-100 Mikor születik újra egy Fabbro Bolognában?
-101 Mikor születik újra egy Bernardin di Fosco Faenzában,
-102 a kis gaz gyenge hajtása?
-
-103 Ne csodálkozz, ha sírok, toszkán,
-104 amikor Guido da Pratára emlékezem,
-105 Ugolin d’Azzóra, aki velünk élt,
-
-106 Federigo Tignosóra és társaira,
-107 a Traversara-házra és az Anastagikra
-108 (és az egyik és a másik család is kihalt),
-
 109 a hölgyekre és a lovagokra, a szenvedésekre és az örömökre,
 110 amelyekre a szerelem és a lovagiasság vágyakoztatott minket
 111 ott, ahol a szívek oly gonoszak.
@@ -489,16 +563,23 @@ Please translate each line literally into Hungarian.
 112 O Bretinoro, ché non fuggi via,
 113 poi che gita se n’è la tua famiglia
 114 e molta gente per non esser ria?
+</prompt>
+<result>
+112 Ó, Bretinoro, miért nem menekülsz el,
+113 miután elment a családod
+114 és sok ember, hogy ne legyen gonosz?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 115/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 115 Ben fa Bagnacaval, che non rifiglia;
 116 e mal fa Castrocaro, e peggio Conio,
 117 che di figliar tai conti più s’impiglia.
 </prompt>
 <result>
-112 Ó, Bretinoro, miért nem menekülsz el,
-113 miután elment a családod
-114 és sok ember, hogy ne legyen gonosz?
-
 115 Jól teszi Bagnacaval, hogy nem szaporodik;
 116 és rosszul teszi Castrocaro, és még rosszabbul Conio,
 117 amelyik ilyen grófok szaporításával bajlódik.
@@ -572,16 +653,23 @@ Please translate each line literally into Hungarian.
 130 Poi fummo fatti soli procedendo,
 131 folgore parve quando l’aere fende,
 132 voce che giunse di contra dicendo:
+</prompt>
+<result>
+130 Aztán egyedül haladtunk tovább,
+131 villámnak tűnt, ahogy a levegőt hasítja,
+132 egy hang, amely szembejövet ezt mondta:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 133/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 133 ‘Anciderammi qualunque m’apprende’;
 134 e fuggì come tuon che si dilegua,
 135 se sùbito la nuvola scoscende.
 </prompt>
 <result>
-130 Aztán egyedül haladtunk tovább,
-131 villámnak tűnt, ahogy a levegőt hasítja,
-132 egy hang, amely szembejövet ezt mondta:
-
 133 „Aki elkap, megöl”;
 134 és elmenekült, mint a mennydörgés, amely eloszlik,
 135 ha hirtelen eloszlik a felhő.
@@ -595,16 +683,23 @@ Please translate each line literally into Hungarian.
 136 Come da lei l’udir nostro ebbe triegua,
 137 ed ecco l’altra con sì gran fracasso,
 138 che somigliò tonar che tosto segua:
+</prompt>
+<result>
+136 Amikor a hallásunk pihenőt kapott tőle,
+137 és íme, a másik olyan nagy robajjal,
+138 amely olyan volt, mint a mennydörgés, amely azonnal követi:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 139/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
 139 «Io sono Aglauro che divenni sasso»;
 140 e allor, per ristrignermi al poeta,
 141 in destro feci, e non innanzi, il passo.
 </prompt>
 <result>
-136 Amikor a hallásunk pihenőt kapott tőle,
-137 és íme, a másik olyan nagy robajjal,
-138 amely olyan volt, mint a mennydörgés, amely azonnal követi:
-
 139 „Én vagyok Aglaurusz, aki kővé változtam”;
 140 és akkor, hogy a költőhöz szorosan tartsam magam,
 141 jobbra léptem, és nem előre.
@@ -648,14 +743,21 @@ Please translate each line literally into Hungarian.
 148 Chiamavi ’l cielo e ’ntorno vi si gira,
 149 mostrandovi le sue bellezze etterne,
 150 e l’occhio vostro pur a terra mira;
-
-151 onde vi batte chi tutto discerne».
 </prompt>
 <result>
 148 Az ég hív titeket, és körülöttetek forog,
 149 megmutatva nektek örök szépségeit,
 150 és a ti szemetek mégis csak a földre néz;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 14] 151/151</info>
+<prompt>
+Please translate each line literally into Hungarian.
 
+151 onde vi batte chi tutto discerne».
+</prompt>
+<result>
 151 ezért ver benneteket az, aki mindent lát.
 </result>
 </query>

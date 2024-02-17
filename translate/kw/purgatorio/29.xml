@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries error="0" count="52">
 <query>
 <info>[Purgatorio Canto 29] 1/154</info>
 <prompt>
@@ -9,16 +9,16 @@ Please translate each line literally into English and Cornish.
 2 continüò col fin di sue parole:
 3 ‘Beati quorum tecta sunt peccata!’.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 1 Singing like a woman in love,
 2 she continued with the end of her words:
-3 ‘Blessed are those whose sins are covered!’**Cornish:**
-
-1 Yn kanna mardh karow,
-2 hi a leveris gans diwettha y ger,
-3 ‘Syw benowgas an re beudh y pechodhow gwiskys!’
+3 ‘Blessed are those whose sins are covered!’.
+</error>
+<result>
+1 Canjyans avel benen carantek,
+2 hi a leveris gans diwedh y ger,
+3 ‘Benygys re beu’th eus gwres an pehas!’
 </result>
 </query>
 <query>
@@ -29,55 +29,38 @@ Please translate each line literally into English and Cornish.
 4 E come ninfe che si givan sole
 5 per le salvatiche ombre, disïando
 6 qual di veder, qual di fuggir lo sole,
+</prompt>
+<error result="true">
+**English:**
+4 And like nymphs who give themselves up alone
+5 to the wild shadows, desiring
+6 some to see, some to flee the sun,
+</error>
+<result>
+4 Ha vel nymphes re a wra ow thyn
+5 rag an scouthow gwyls, ow tesyr
+6 peth owth gweles, peth owth foga'n howl,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 7/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 7 allor si mosse contra ’l fiume, andando
 8 su per la riva; e io pari di lei,
 9 picciol passo con picciol seguitando.
 </prompt>
 <error result="true">
-index: 0
-content {
-  parts {
-    text: "**English:**\n\n4 And like nymphs who wander alone\n5 through the wild shadows, desiring\n6 one to see, one to flee the sun,\n\n7 then she moved against the river, walking\n8 along the bank; and I beside her,\n9 following with small steps her small steps.**Cornish:**\n\n4 Ha kepar nymphys ow tos onan\n5 a-dreus an scouthow gwyls, ow tos karow\n6 onan rag gweles, onan rag kerdhes an howl,\n\n7 henna prys hi a gavas orth an avon, ow tos\n8 war an glann; ha my a-dhyworth ythoma,\n9 ow sywya byghan gans byghan ow sywya."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
+**English:**
+7 then she moved towards the river, walking
+8 along the bank; and I, beside her,
+9 following with small steps her small steps.
 </error>
 <result>
-**English:**
-
-4 And like nymphs who wander alone
-5 through the wild shadows, desiring
-6 one to see, one to flee the sun,
-
-7 then she moved against the river, walking
-8 along the bank; and I beside her,
-9 following with small steps her small steps.**Cornish:**
-
-4 Ha kepar nymphys ow tos onan
-5 a-dreus an scouthow gwyls, ow tos karow
-6 onan rag gweles, onan rag kerdhes an howl,
-
-7 henna prys hi a gavas orth an avon, ow tos
-8 war an glann; ha my a-dhyworth ythoma,
-9 ow sywya byghan gans byghan ow sywya.
+7 wosa henna hi a gafas war an avon, ow mos,
+8 war an glann; ha my avel ytho,
+9 an pas byghan ow sewya an pas byghan.
 </result>
 </query>
 <query>
@@ -89,16 +72,16 @@ Please translate each line literally into English and Cornish.
 11 quando le ripe igualmente dier volta,
 12 per modo ch’a levante mi rendei.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-10 There were not a hundred between his steps and mine,
+10 My steps and hers were not a hundred,
 11 when the banks turned equally,
-12 so that I turned to the east.**Cornish:**
-
-10 Na veu kans ugans yntra y gammow ha’m,
-11 pan wrug an glannow yn keth dhe dro,
-12 rag fordh ow thrug y’n est.
+12 so that I turned towards the east.
+</error>
+<result>
+10 Na wra cans tre’gans passy ha’y,
+11 pan wra an reppyow owrewheyl dro,
+12 rag modh aga dhe’n est my a rendy.
 </result>
 </query>
 <query>
@@ -110,16 +93,16 @@ Please translate each line literally into English and Cornish.
 14 quando la donna tutta a me si torse,
 15 dicendo: «Frate mio, guarda e ascolta».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 13 Nor had our way been so long,
-14 when the lady turned completely to me,
-15 saying: “My brother, look and listen.”**Cornish:**
-
-13 Ha na veu an fordh henna mor a’gan fordh,
-14 pan wrug an wragh yn keth dhe’m,
-15 ow leverel: “Froder vy, sel ha klev.”
+14 when the woman turned all towards me,
+15 saying: "My brother, look and listen".
+</error>
+<result>
+13 Na wra gensi ow folla meur,
+14 pan wra an venen oll dhe’m dro,
+15 ow leverel: “Froder vy, sel ha klev”.
 </result>
 </query>
 <query>
@@ -131,15 +114,13 @@ Please translate each line literally into English and Cornish.
 17 da tutte parti per la gran foresta,
 18 tal che di balenar mi mise in forse.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 16 And behold, a sudden brightness flashed
 17 from every side through the great forest,
 18 so that it made me uncertain whether it was lightning.
-
-**Cornish:**
-
+</error>
+<result>
 16 Ha gwel, golowder a-dhryskens,
 17 a-dro dhe bub tu dhe'n koedh bras,
 18 hemma a wrug dhymm dheus dhe wodha golowder.
@@ -154,15 +135,13 @@ Please translate each line literally into English and Cornish.
 20 e quel, durando, più e più splendeva,
 21 nel mio pensier dicea: ‘Che cosa è questa?’.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 19 But why does lightning, as soon as it comes, cease,
 20 and that, enduring, shines more and more brightly,
 21 in my thoughts I said: ‘What is this?’.
-
-**Cornish:**
-
+</error>
+<result>
 19 Mes, ragadha'n golowder, dell yw hedha, a wra,
 20 ha henna, ow trwa, moy ha moy a splanna,
 21 yn y fedhansow, me a leveris: ‘Pyth yw henna?’.
@@ -176,40 +155,56 @@ Please translate each line literally into English and Cornish.
 22 E una melodia dolce correva
 23 per l’aere luminoso; onde buon zelo
 24 mi fé riprender l’ardimento d’Eva,
+</prompt>
+<error result="true">
+**English:**
+22 And a sweet melody flowed
+23 through the luminous air; whence a good zeal
+24 made me take up again the daring of Eve,
+</error>
+<result>
+22 Ha son meur a redegyas
+23 a-dreus an ebron golow, ragadha da vad gel
+24 a wrug dhymm kemer an feth Eva,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 25/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 25 che là dove ubidia la terra e ’l cielo,
 26 femmina, sola e pur testé formata,
 27 non sofferse di star sotto alcun velo;
+</prompt>
+<error result="true">
+**English:**
+25 who there where earth and heaven obeyed,
+26 a woman, alone and only just created,
+27 did not endure to remain under any veil;
+</error>
+<result>
+25 neb ena, le mayth an nor ha'n nef,
+26 benen, onan ha nowydh furvys,
+27 ny wodha soffrya dhe vos sewyth dan nen gorhel;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 28/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 28 sotto ’l qual se divota fosse stata,
 29 avrei quelle ineffabili delizie
 30 sentite prima e più lunga fïata.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-22 And a sweet melody flowed
-23 through the luminous air; whence a good zeal
-24 made me take up again the daring of Eve,
-
-25 who there where earth and heaven obeyed,
-26 a woman, alone and only just created,
-27 did not endure to remain under any veil;
-
 28 under which if she had been devout,
 29 I would have felt those ineffable delights
 30 earlier and for a longer time.
-
-**Cornish:**
-
-22 Ha son meur a redegyas
-23 a-dreus an ebron golow, ragadha da vad gel
-24 a wrug dhymm kemer an feth Eva,
-
-25 neb ena, le mayth an nor ha'n nef,
-26 benen, onan ha nowydh furvys,
-27 ny wodha soffrya dhe vos sewyth dan nen gorhel;
-
+</error>
+<result>
 28 dan henna, pub travia devos o ve,
 29 vyth ow feusa an nebesow diwydh hynwys
 30 moy a-var ha moy hirra prys.
@@ -223,28 +218,35 @@ Please translate each line literally into English and Cornish.
 31 Mentr’ io m’andava tra tante primizie
 32 de l’etterno piacer tutto sospeso,
 33 e disïoso ancora a più letizie,
+</prompt>
+<error result="true">
+**English:**
+31 While I was going among so many first-fruits
+32 of eternal pleasure, all in suspense,
+33 and still desiring more joys,
+</error>
+<result>
+31 Tra ve'm o mos ow tos ha tressa kynsa
+32 a'n pleser sempiternel, oll owth omset,
+33 ha owth owsynna moy a lowena,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 34/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 34 dinanzi a noi, tal quale un foco acceso,
 35 ci si fé l’aere sotto i verdi rami;
 36 e ’l dolce suon per canti era già inteso.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-31 While I was going among so many first-fruits
-32 of eternal pleasure, all in suspense,
-33 and still desiring more joys,
-
 34 before us, like a burning fire,
 35 the air became beneath the green boughs;
 36 and the sweet sound was already heard as songs.
-
-**Cornish:**
-
-31 Tra ve'm o mos ow tos ha tressa kynsa
-32 a'n pleser sempiternel, oll owth omset,
-33 ha owth owsynna moy a lowena,
-
+</error>
+<result>
 34 rag y'n kensa, kepar tan tan owth omloskys,
 35 an ebron a wrug dhymm dan an geyn gwyrdh;
 36 ha'n son meur a veu klevys kepar kana.
@@ -259,15 +261,13 @@ Please translate each line literally into English and Cornish.
 38 freddi o vigilie mai per voi soffersi,
 39 cagion mi sprona ch’io mercé vi chiami.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 37 O sacred Virgins, if I ever suffered
 38 cold or vigils for you,
 39 the reason spurs me to call on you for mercy.
-
-**Cornish:**
-
+</error>
+<result>
 37 O Wyrgynysi sans, pub travia vy
 38 oergwelyow po gwylyow rag y'n keveris,
 39 an achos a wra'm ow spronya dhe galwas tru.
@@ -282,15 +282,13 @@ Please translate each line literally into English and Cornish.
 41 e Uranìe m’aiuti col suo coro
 42 forti cose a pensar mettere in versi.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 40 Now it is fitting that Helicon pour forth for me,
 41 and Urania help me with her choir
 42 to think of strong things to put into verse.
-
-**Cornish:**
-
+</error>
+<result>
 40 Mes lemmyn wra Elikona ow tos dhe vesi,
 41 hag Ourania ow skoedha dhymm gans y gan,
 42 dhe fedha kres dhe vos ow pos dhe vers.
@@ -304,40 +302,56 @@ Please translate each line literally into English and Cornish.
 43 Poco più oltre, sette alberi d’oro
 44 falsava nel parere il lungo tratto
 45 del mezzo ch’era ancor tra noi e loro;
+</prompt>
+<error result="true">
+**English:**
+43 A little further on, seven trees of gold
+44 falsified in appearance the long stretch
+45 of the middle that was still between us and them;
+</error>
+<result>
+43 Bys vythenn moy a-ves, seyth pren a our
+44 a wrug an golwg falsya an hir bell
+45 a'n kres o veu bynnertha ni ha henna;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 46/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 46 ma quand’ i’ fui sì presso di lor fatto,
 47 che l’obietto comun, che ’l senso inganna,
 48 non perdea per distanza alcun suo atto,
+</prompt>
+<error result="true">
+**English:**
+46 but when I had come so near to them,
+47 that the common object, which deceives the sense,
+48 did not lose any of its form through distance,
+</error>
+<result>
+46 mes pan veu ow tos owth omset dhe'n kres,
+47 an gweladow kemmyn, neb a drueth an golwg,
+48 ny wodha kolli neb onan a'y furv,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 49/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 49 la virtù ch’a ragion discorso ammanna,
 50 sì com’ elli eran candelabri apprese,
 51 e ne le voci del cantare ‘Osanna’.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-43 A little further on, seven trees of gold
-44 falsified in appearance the long stretch
-45 of the middle that was still between us and them;
-
-46 but when I had come so near to them,
-47 that the common object, which deceives the sense,
-48 did not lose any of its form through distance,
-
 49 the power that rightly prepares discourse,
 50 perceived that they were candelabra,
 51 and in the voices of the song ‘Hosanna’.
-
-**Cornish:**
-
-43 Bys vythenn moy a-ves, seyth pren a our
-44 a wrug an golwg falsya an hir bell
-45 a'n kres o veu bynnertha ni ha henna;
-
-46 mes pan veu ow tos owth omset dhe'n kres,
-47 an gweladow kemmyn, neb a drueth an golwg,
-48 ny wodha kolli neb onan a'y furv,
-
+</error>
+<result>
 49 an gallos owth ow tos dhe reson galwas,
 50 a welas ow tos kandelabrow,
 51 ha'n leusow a'n kana 'Osanna'.
@@ -352,15 +366,13 @@ Please translate each line literally into English and Cornish.
 53 più chiaro assai che luna per sereno
 54 di mezza notte nel suo mezzo mese.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 52 Above, the beautiful harness was blazing
 53 much brighter than the moon in the clear
 54 of midnight in the middle of its month.
-
-**Cornish:**
-
+</error>
+<result>
 52 A-ugh an arnes meur a veu ow flammia,
 53 moy klerhe ages an loer yn serenn
 54 a-ves nos ow kresel y mis ow kres.
@@ -375,15 +387,13 @@ Please translate each line literally into English and Cornish.
 56 al buon Virgilio, ed esso mi rispuose
 57 con vista carca di stupor non meno.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 55 I turned to him, full of amazement,
 56 to the good Virgil, and he answered me
 57 with a gaze no less laden with astonishment.
-
-**Cornish:**
-
+</error>
+<result>
 55 Me a droas dhe'n kres, leun a omset,
 56 dhe Virgili meur da, ha henna a leveris
 57 gans golwg leun a omset, pub tra.
@@ -398,15 +408,13 @@ Please translate each line literally into English and Cornish.
 59 che si movieno incontr’ a noi sì tardi,
 60 che foran vinte da novelle spose.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 58 Then I turned my gaze back to the lofty things
 59 that were moving towards us so slowly,
 60 that they would have been overtaken by new brides.
-
-**Cornish:**
-
+</error>
+<result>
 58 Wosa henna me a droas y'm golwg dhe'n traow meur
 59 ow tos ow tos dhe'n kres owth omset a-hwel,
 60 ow tos ow fe vethens gans pridow nowydh.
@@ -421,15 +429,13 @@ Please translate each line literally into English and Cornish.
 62 sì ne l’affetto de le vive luci,
 63 e ciò che vien di retro a lor non guardi?».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 61 The lady scolded me: "Why do you burn so
 62 in the affection of the living lights,
 63 and do not look at what comes behind them?".
-
-**Cornish:**
-
+</error>
+<result>
 61 An venen a'm kerghas: "Perag orth agan
 62 yn karanteth an golow bew,
 63 ha'n wra vyth orth an pyth a dheu?".
@@ -444,15 +450,13 @@ Please translate each line literally into English and Cornish.
 65 venire appresso, vestite di bianco;
 66 e tal candor di qua già mai non fuci.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 64 I saw people then, as it seemed to me,
 65 coming after them, dressed in white;
 66 and such whiteness was never seen here before.
-
-**Cornish:**
-
+</error>
+<result>
 64 Gweles vyth tus a dus, dell orth aga,
 65 ow tos yn ke dheu, gwyn o aga dilla;
 66 ha'n wynn gwynvel avel henna nyns yw gwelys erbynn.
@@ -467,15 +471,13 @@ Please translate each line literally into English and Cornish.
 68 e rendea me la mia sinistra costa,
 69 s’io riguardava in lei, come specchio anco.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 67 The water began on the left flank,
 68 and it gave back to me my left side,
 69 if I looked into it, like a mirror also.
-
-**Cornish:**
-
+</error>
+<result>
 67 An dowr a dhallathas war an tu klew,
 68 ha'n dhallathas dhe'm ow tu klew,
 69 mar ke'm gwelasen y'nni, dell orth yn jynn.
@@ -489,40 +491,56 @@ Please translate each line literally into English and Cornish.
 70 Quand’ io da la mia riva ebbi tal posta,
 71 che solo il fiume mi facea distante,
 72 per veder meglio ai passi diedi sosta,
+</prompt>
+<error result="true">
+**English:**
+70 When I had reached such a position from my bank,
+71 that only the river made me distant,
+72 to see better I paused in my steps,
+</error>
+<result>
+70 Pan wosa vyth ow pos dhe'm ow tu klew,
+71 mar an avon hep ow tos dhe'm,
+72 rag gwell gweles ow tos ow sosta,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 73/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 73 e vidi le fiammelle andar davante,
 74 lasciando dietro a sé l’aere dipinto,
 75 e di tratti pennelli avean sembiante;
+</prompt>
+<error result="true">
+**English:**
+73 and I saw the little flames go before,
+74 leaving the air painted behind them,
+75 and they had the appearance of drawn brushes;
+</error>
+<result>
+73 ha gweles vyth an flamow ow tos orth,
+74 ow tos an ayr ow peynti dhe'u,
+75 ha'ga semlant pennow trehes aga;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 76/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 76 sì che lì sopra rimanea distinto
 77 di sette liste, tutte in quei colori
 78 onde fa l’arco il Sole e Delia il cinto.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-70 When I had reached such a position from my bank,
-71 that only the river made me distant,
-72 to see better I paused in my steps,
-
-73 and I saw the little flames go before,
-74 leaving the air painted behind them,
-75 and they had the appearance of drawn brushes;
-
 76 so that above them remained distinct
 77 seven bands, all in those colors
 78 from which the Sun makes the rainbow and the Moon her belt.
-
-**Cornish:**
-
-70 Pan wosa vyth ow pos dhe'm ow tu klew,
-71 mar an avon hep ow tos dhe'm,
-72 rag gwell gweles ow tos ow sosta,
-
-73 ha gweles vyth an flamow ow tos orth,
-74 ow tos an ayr ow peynti dhe'u,
-75 ha'ga semlant pennow trehes aga;
-
+</error>
+<result>
 76 mar war aga ow tos ow remanath
 77 seyth list, oll yn aga liwow,
 78 orth aga liwow an Howl a wra an Dell an gwregys.
@@ -537,15 +555,13 @@ Please translate each line literally into English and Cornish.
 80 che la mia vista; e, quanto a mio avviso,
 81 diece passi distavan quei di fori.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 79 These banners behind were larger
 80 than my sight; and, as far as I could tell,
 81 those on the outside were ten paces apart.
-
-**Cornish:**
-
+</error>
+<result>
 79 An ostendali ma ow tos ow moy ages
 80 ages ow gweles; ha, mar ow tysons,
 81 deg pas ow tos aga orth an mes.
@@ -560,15 +576,13 @@ Please translate each line literally into English and Cornish.
 83 ventiquattro seniori, a due a due,
 84 coronati venien di fiordaliso.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 82 Under such a beautiful sky as I have described,
 83 twenty-four elders, two by two,
 84 crowned with fleur-de-lis, were coming.
-
-**Cornish:**
-
+</error>
+<result>
 82 Danow an keth bel avel dell ow tysons,
 83 dew ha ugens ugans, dew ha dew,
 84 ow tos coronys gans flordaliso.
@@ -583,15 +597,13 @@ Please translate each line literally into English and Cornish.
 86 ne le figlie d’Adamo, e benedette
 87 sieno in etterno le bellezze tue!».
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 85 All sang: "Blessed art thou
 86 among the daughters of Adam, and blessed
 87 be thy beauties forever!".
-
-**Cornish:**
-
+</error>
+<result>
 85 Oll ow kanas: "Benedicta thu
 86 y'mysk mergh Adam, ha benedicta
 87 byth fytho an jynn bewow thu!".
@@ -605,28 +617,35 @@ Please translate each line literally into English and Cornish.
 88 Poscia che i fiori e l’altre fresche erbette
 89 a rimpetto di me da l’altra sponda
 90 libere fuor da quelle genti elette,
+</prompt>
+<error result="true">
+**English:**
+88 After the flowers and the other fresh grasses
+89 opposite me on the other bank
+90 were free from those chosen people,
+</error>
+<result>
+88 Wosa an bleujow ha'n erel erbow fres
+89 orth ow tos dhe'm war an tu aral,
+90 ow tos dibris dhe'u an dus an dus ethol,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 91/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 91 sì come luce luce in ciel seconda,
 92 vennero appresso lor quattro animali,
 93 coronati ciascun di verde fronda.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-88 After the flowers and the other fresh grasses
-89 opposite me on the other bank
-90 were free from those chosen people,
-
 91 just as one light follows another in the sky,
 92 four animals came after them,
 93 each crowned with a green branch.
-
-**Cornish:**
-
-88 Wosa an bleujow ha'n erel erbow fres
-89 orth ow tos dhe'm war an tu aral,
-90 ow tos dibris dhe'u an dus an dus ethol,
-
+</error>
+<result>
 91 dell orth golow golow yn keth nessa,
 92 peswar anvales ow tos dhe'u,
 93 coronys pub onan gans frondow gwer.
@@ -641,15 +660,13 @@ Please translate each line literally into English and Cornish.
 95 le penne piene d’occhi; e li occhi d’Argo,
 96 se fosser vivi, sarebber cotali.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 94 Each one was feathered with six wings;
 95 the feathers full of eyes; and the eyes of Argus,
 96 if they were alive, would be like these.
-
-**Cornish:**
-
+</error>
+<result>
 94 Pub onan ow tos pennys gans whegh esel;
 95 an pennow leun gans lagha; ha lagha Argo,
 96 mar aga ow tos bew, aga ow tos cothel.
@@ -663,40 +680,56 @@ Please translate each line literally into English and Cornish.
 97 A descriver lor forme più non spargo
 98 rime, lettor; ch’altra spesa mi strigne,
 99 tanto ch’a questa non posso esser largo;
+</prompt>
+<error result="true">
+**English:**
+97 To describe their forms I will not spend more
+98 rhymes, reader; for another task constrains me,
+99 so that I cannot be generous with this one;
+</error>
+<result>
+97 Rag dyscryvya aga furv nyns ow sparja
+98 rymow, lenor; rag erel trevas ow'm strig,
+99 mar bel orth hemma nyns ow pos bos;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 100/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 100 ma leggi Ezechïel, che li dipigne
 101 come li vide da la fredda parte
 102 venir con vento e con nube e con igne;
+</prompt>
+<error result="true">
+**English:**
+100 but read Ezekiel, who depicts them
+101 as he saw them coming from the cold region
+102 with wind and cloud and fire;
+</error>
+<result>
+100 mes len Ezechiel, ow'n dyscrif,
+101 dell ow'n gwelas ow tos dhe'u an tu yen
+102 ow tos gans gwyns ha gans kov ha gans tan;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 103/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 103 e quali i troverai ne le sue carte,
 104 tali eran quivi, salvo ch’a le penne
 105 Giovanni è meco e da lui si diparte.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-97 To describe their forms I will not spend more
-98 rhymes, reader; for another task constrains me,
-99 so that I cannot be generous with this one;
-
-100 but read Ezekiel, who depicts them
-101 as he saw them coming from the cold region
-102 with wind and cloud and fire;
-
 103 and as you will find them in his writings,
 104 such were they here, except that for the wings
 105 John is with me and he differs from him.
-
-**Cornish:**
-
-97 Rag dyscryvya aga furv nyns ow sparja
-98 rymow, lenor; rag erel trevas ow'm strig,
-99 mar bel orth hemma nyns ow pos bos;
-
-100 mes len Ezechiel, ow'n dyscrif,
-101 dell ow'n gwelas ow tos dhe'u an tu yen
-102 ow tos gans gwyns ha gans kov ha gans tan;
-
+</error>
+<result>
 103 ha dell ow'n kavos y'n aga kartow,
 104 cothel aga ow tos ena, mes rag an pennow
 105 Jowan yw gansow ha dhe'u ow'n dibarth.
@@ -711,15 +744,13 @@ Please translate each line literally into English and Cornish.
 107 un carro, in su due rote, trïunfale,
 108 ch’al collo d’un grifon tirato venne.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 106 The space within them contained
 107 a triumphal chariot, on two wheels,
 108 which was drawn by the neck of a griffin.
-
-**Cornish:**
-
+</error>
+<result>
 106 An spys ynter aga peswar a gomprehendyas
 107 on kar, warbarth dew roda, tryumfal,
 108 ow a veu tynnerghys on gryffyn.
@@ -734,15 +765,13 @@ Please translate each line literally into English and Cornish.
 110 tra la mezzana e le tre e tre liste,
 111 sì ch’a nulla, fendendo, facea male.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 109 It stretched upwards on one wing and the other
 110 between the middle list and the three and three,
 111 so that, cleaving through, it harmed nothing.
-
-**Cornish:**
-
+</error>
+<result>
 109 Ev a estendas warbarth an eyl ha'n eyl aral
 110 ynter an list kentrek ha'n tri ha tri,
 111 marnas dhefendya, na wrug ev drok dhe nagon.
@@ -757,15 +786,13 @@ Please translate each line literally into English and Cornish.
 113 le membra d’oro avea quant’ era uccello,
 114 e bianche l’altre, di vermiglio miste.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 112 They flew so high that they could not be seen;
 113 the parts of it that were like a bird were of gold,
 114 and the other parts were white, mixed with vermilion.
-
-**Cornish:**
-
+</error>
+<result>
 112 Ev a hedhas mar ughel na veuir ev;
 113 an ranniow a-our o ev a veu avel orth ethen,
 114 ha'n remenans o veu gwyn, meskys gans rudh.
@@ -779,28 +806,35 @@ Please translate each line literally into English and Cornish.
 115 Non che Roma di carro così bello
 116 rallegrasse Affricano, o vero Augusto,
 117 ma quel del Sol saria pover con ello;
+</prompt>
+<error result="true">
+**English:**
+115 Not even Rome, with such a beautiful chariot,
+116 gladdened Africanus or Augustus,
+117 but the chariot of the Sun would be poor compared to it;
+</error>
+<result>
+115 Nyns yw Rom a garras mar dha veur,
+116 a wrahas Afrikan po August,
+117 mes an Howl a'n Howl a veu bover gans an garras na;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 118/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 118 quel del Sol che, svïando, fu combusto
 119 per l’orazion de la Terra devota,
 120 quando fu Giove arcanamente giusto.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-115 Not even Rome, with such a beautiful chariot,
-116 gladdened Africanus or Augustus,
-117 but the chariot of the Sun would be poor compared to it;
-
 118 the chariot of the Sun, which, straying, was burnt up
 119 by the prayers of the devout Earth,
 120 when Jove was secretly just.
-
-**Cornish:**
-
-115 Nyns yw Rom a garras mar dha veur,
-116 a wrahas Afrikan po August,
-117 mes an Howl a'n Howl a veu bover gans an garras na;
-
+</error>
+<result>
 118 an Howl a'n Howl, ow a veu devyes,
 119 gans pednow an Norvys devos,
 120 pan veu Yow gwir yn-dann dhegudhis.
@@ -814,40 +848,56 @@ Please translate each line literally into English and Cornish.
 121 Tre donne in giro da la destra rota
 122 venian danzando; l’una tanto rossa
 123 ch’a pena fora dentro al foco nota;
+</prompt>
+<error result="true">
+**English:**
+121 Three women were dancing in a circle around the right wheel;
+122 one was so red
+123 that she would hardly have been noticed inside a fire;
+</error>
+<result>
+121 Tri benen y’n dro dhe'n rota dhe dhehu,
+122 ow tos o dansya; unn o veu mar rudh
+123 marnas ev a veu merghys y’n tan.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 124/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 124 l’altr’ era come se le carni e l’ossa
 125 fossero state di smeraldo fatte;
 126 la terza parea neve testé mossa;
+</prompt>
+<error result="true">
+**English:**
+124 the second was as if her flesh and bones
+125 had been made of emerald;
+126 the third seemed like snow that had just fallen;
+</error>
+<result>
+124 An nessa o veu mar avel henna e'y kig hag eskern
+125 o veu gwres gans smaragd;
+126 an nessa nessa o seblans ergh nowydh.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 127/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 127 e or parëan da la bianca tratte,
 128 or da la rossa; e dal canto di questa
 129 l’altre toglien l’andare e tarde e ratte.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-121 Three women were dancing in a circle around the right wheel;
-122 one was so red
-123 that she would hardly have been noticed inside a fire;
-
-124 the second was as if her flesh and bones
-125 had been made of emerald;
-126 the third seemed like snow that had just fallen;
-
 127 and now they seemed to be led by the white one,
 128 now by the red one; and from the song of this one
 129 the others took their steps, slow and fast.
-
-**Cornish:**
-
-121 Tri benen y’n dro dhe'n rota dhe dhehu,
-122 ow tos o dansya; unn o veu mar rudh
-123 marnas ev a veu merghys y’n tan.
-
-124 An nessa o veu mar avel henna e'y kig hag eskern
-125 o veu gwres gans smaragd;
-126 an nessa nessa o seblans ergh nowydh.
-
+</error>
+<result>
 127 Ha lemmyn ev a seblans dhe ledyes gans an wenn,
 128 lemmyn gans an rudh; ha gans kan an nessa na
 129 an nessa nessa a gemereth aga kerdhes, araf ha bys.
@@ -862,15 +912,13 @@ Please translate each line literally into English and Cornish.
 131 in porpore vestite, dietro al modo
 132 d’una di lor ch’avea tre occhi in testa.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 130 On the left, four were making merry,
 131 dressed in purple, following the fashion
 132 of one of them who had three eyes in her head.
-
-**Cornish:**
-
+</error>
+<result>
 130 Warbarth an klew, peswar o wrug festa,
 131 ow wiska gans purpur, wosa'n fordh
 132 unn aga honan tri lagha y’n fen.
@@ -885,15 +933,13 @@ Please translate each line literally into English and Cornish.
 134 vidi due vecchi in abito dispari,
 135 ma pari in atto e onesto e sodo.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 133 After all the aforementioned group
 134 I saw two old men in different clothing,
 135 but similar in their dignified and serious bearing.
-
-**Cornish:**
-
+</error>
+<result>
 133 Wosa henna oll an pertrattas knot,
 134 y’m gwelas dew gogh yn wiskogh dyffrans,
 135 mes par yn aga gweyth, onest ha sodho.
@@ -907,28 +953,35 @@ Please translate each line literally into English and Cornish.
 136 L’un si mostrava alcun de’ famigliari
 137 di quel sommo Ipocràte che natura
 138 a li animali fé ch’ell’ ha più cari;
+</prompt>
+<error result="true">
+**English:**
+136 One of them appeared to be one of the disciples
+137 of that great Hippocrates whom nature
+138 made dearer to her than all other animals;
+</error>
+<result>
+136 Unn aga o wrug diskwedhes onan a'n servansow
+137 a henna Ipokratis meur, ow a wrug natur
+138 dhe wul an enevalow mar dha garas.
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 139/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 139 mostrava l’altro la contraria cura
 140 con una spada lucida e aguta,
 141 tal che di qua dal rio mi fé paura.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-136 One of them appeared to be one of the disciples
-137 of that great Hippocrates whom nature
-138 made dearer to her than all other animals;
-
 139 the other showed the opposite concern
 140 with a shining and sharp sword,
 141 such that it frightened me on this side of the river.
-
-**Cornish:**
-
-136 Unn aga o wrug diskwedhes onan a'n servansow
-137 a henna Ipokratis meur, ow a wrug natur
-138 dhe wul an enevalow mar dha garas.
-
+</error>
+<result>
 139 An nessa o wrug diskwedhes an gowsans contrar
 140 gans kledha skler ha lemm,
 141 marnas ev a wrug ow a-dhelergh dhe'n avon na.
@@ -943,15 +996,13 @@ Please translate each line literally into English and Cornish.
 143 e di retro da tutti un vecchio solo
 144 venir, dormendo, con la faccia arguta.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 142 Then I saw four in humble guise;
 143 and behind them all, an old man alone
 144 came, sleeping, with a sharp face.
-
-**Cornish:**
-
+</error>
+<result>
 142 Wosa henna y’m gwelas peswar yn paruta goen,
 143 ha wosa aga oll, onan koth a-unnik
 144 ow tos, ow kouskya, gans an fas arguta.
@@ -965,28 +1016,35 @@ Please translate each line literally into English and Cornish.
 145 E questi sette col primaio stuolo
 146 erano abitüati, ma di gigli
 147 dintorno al capo non facëan brolo,
+</prompt>
+<error result="true">
+**English:**
+145 And these seven, with the first group,
+146 were garlanded, but they did not make a garland
+147 of lilies around their heads,
+</error>
+<result>
+145 Ha'n seyth na, gans an kynsa studh,
+146 o veu wiskes, mes na wrug ev brolo
+147 a-dro dhe'n pen gans lilys,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 148/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
 148 anzi di rose e d’altri fior vermigli;
 149 giurato avria poco lontano aspetto
 150 che tutti ardesser di sopra da’ cigli.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
-145 And these seven, with the first group,
-146 were garlanded, but they did not make a garland
-147 of lilies around their heads,
-
 148 but of roses and other red flowers;
 149 one who saw them from a distance would have sworn
 150 that they were all burning from their eyebrows up.
-
-**Cornish:**
-
-145 Ha'n seyth na, gans an kynsa studh,
-146 o veu wiskes, mes na wrug ev brolo
-147 a-dro dhe'n pen gans lilys,
-
+</error>
+<result>
 148 mes gans rosow ha bleujyn vermil erel;
 149 ow a veu lowen, ow a veu dhe wul dhelergh,
 150 ev oll o veu ow tos ow kovya a-ugh dhe'n lagha.
@@ -1000,25 +1058,31 @@ Please translate each line literally into English and Cornish.
 151 E quando il carro a me fu a rimpetto,
 152 un tuon s’udì, e quelle genti degne
 153 parvero aver l’andar più interdetto,
-
-154 fermandosi ivi con le prime insegne.
 </prompt>
-<result>
+<error result="true">
 **English:**
-
 151 And when the chariot was opposite me,
 152 a thunderclap was heard, and those worthy people
 153 seemed to have their progress further impeded,
-
-154 stopping there with the foremost banners.
-
-
-**Cornish:**
-
+</error>
+<result>
 151 Ha pan vynns an karros dhe'm,
 152 un ton a veu klevys, ha'n dus dus
 153 a welas kyn fe an fordh moy es,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 29] 154/154</info>
+<prompt>
+Please translate each line literally into English and Cornish.
 
+154 fermandosi ivi con le prime insegne.
+</prompt>
+<error result="true">
+**English:**
+154 stopping there with the foremost banners.
+</error>
+<result>
 154 ow talleth ena gans an kynsa baner.
 </result>
 </query>

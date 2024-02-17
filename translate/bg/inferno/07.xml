@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries error="0" count="44">
 <query>
 <info>[Inferno Canto 7] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Bulgarian.
 1 «Pape Satàn, pape Satàn aleppe!»,
 2 cominciò Pluto con la voce chioccia;
 3 e quel savio gentil, che tutto seppe,
+</prompt>
+<result>
+1 „Папе Сатан, папе Сатан алепе!“,
+2 започна Плутон с крякащ глас;
+3 а онзи мъдър благородник, който знаеше всичко,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 4/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 4 disse per confortarmi: «Non ti noccia
 5 la tua paura; ché, poder ch’elli abbia,
 6 non ci torrà lo scender questa roccia».
 </prompt>
 <result>
-1 „Папе Сатан, папе Сатан алепе!“,
-2 започна Плутон с крякащ глас;
-3 а онзи мъдър благородник, който знаеше всичко,
-
 4 каза, за да ме успокои: „Нека не те плаши
 5 твоят страх; защото, каквато и власт да има той,
 6 няма да ни попречи да слезем по тази скала“.
@@ -32,32 +39,6 @@ Please translate each line literally into Bulgarian.
 8 e disse: «Taci, maladetto lupo!
 9 consuma dentro te con la tua rabbia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "7 После се обърна към онова надуто лице,\n8 и каза: „Млъкни, прокълнат вълку!\n9 Изгори се отвътре със собствената си ярост."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 7 После се обърна към онова надуто лице,
 8 и каза: „Млъкни, прокълнат вълку!
@@ -117,16 +98,23 @@ Please translate each line literally into Bulgarian.
 19 Ahi giustizia di Dio! tante chi stipa
 20 nove travaglie e pene quant’ io viddi?
 21 e perché nostra colpa sì ne scipa?
+</prompt>
+<result>
+19 О, божествена справедливост! Толкова много хора ли натъпкваш
+20 в нови мъки и страдания, колкото видях аз?
+21 И защо нашата вина ни погубва така?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 22/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 22 Come fa l’onda là sovra Cariddi,
 23 che si frange con quella in cui s’intoppa,
 24 così convien che qui la gente riddi.
 </prompt>
 <result>
-19 О, божествена справедливост! Толкова много хора ли натъпкваш
-20 в нови мъки и страдания, колкото видях аз?
-21 И защо нашата вина ни погубва така?
-
 22 Както прави вълната там над Харибда,
 23 която се разбива в тази, в която се блъска,
 24 така трябва хората тук да се въртят в кръг.
@@ -170,33 +158,38 @@ Please translate each line literally into Bulgarian.
 31 Così tornavan per lo cerchio tetro
 32 da ogne mano a l’opposito punto,
 33 gridandosi anche loro ontoso metro;
-
-34 poi si volgea ciascun, quand’ era giunto,
-35 per lo suo mezzo cerchio a l’altra giostra.
 </prompt>
 <result>
 31 Така се връщаха по мрачния кръг
 32 от всяка страна до противоположната точка,
 33 като си крещяха и обидни думи;
-
-34 после всеки се обръщаше, когато стигаше,
-35 през своята половина от кръга към другата надпревара.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 36/130</info>
+<info>[Inferno Canto 7] 34/130</info>
 <prompt>
 Please translate each line literally into Bulgarian.
 
+34 poi si volgea ciascun, quand’ era giunto,
+35 per lo suo mezzo cerchio a l’altra giostra.
 36 E io, ch’avea lo cor quasi compunto,
+</prompt>
+<result>
+34 после всеки се обръщаше, когато стигаше,
+35 през своята половина от кръга към другата надпревара.
+36 А аз, чието сърце беше почти прободено,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 37/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 37 dissi: «Maestro mio, or mi dimostra
 38 che gente è questa, e se tutti fuor cherci
 39 questi chercuti a la sinistra nostra».
 </prompt>
 <result>
-36 А аз, чието сърце беше почти прободено,
-
 37 казах: „Учителю мой, сега ми покажи
 38 какви хора са тези и дали всички бяха духовници
 39 тези остригани отляво от нас“.
@@ -286,32 +279,6 @@ Please translate each line literally into Bulgarian.
 56 questi resurgeranno del sepulcro
 57 col pugno chiuso, e questi coi crin mozzi.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "55 Вечно ще идват до двата сблъсъка:\n56 тези ще възкръснат от гроба\n57 със стиснат юмрук, а тези с отрязани коси."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 55 Вечно ще идват до двата сблъсъка:
 56 тези ще възкръснат от гроба
@@ -341,16 +308,23 @@ Please translate each line literally into Bulgarian.
 61 Or puoi, figliuol, veder la corta buffa
 62 d’i ben che son commessi a la fortuna,
 63 per che l’umana gente si rabbuffa;
+</prompt>
+<result>
+61 Сега, сине, можеш да видиш кратката комедия
+62 на благата, които са поверени на съдбата,
+63 заради които човешкият род се кара;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 64/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 64 ché tutto l’oro ch’è sotto la luna
 65 e che già fu, di quest’ anime stanche
 66 non poterebbe farne posare una».
 </prompt>
 <result>
-61 Сега, сине, можеш да видиш кратката комедия
-62 на благата, които са поверени на съдбата,
-63 заради които човешкият род се кара;
-
 64 защото цялото злато, което е под луната
 65 и което някога е било, не би могло
 66 да накара нито една от тези уморени души да си почине.
@@ -380,32 +354,6 @@ Please translate each line literally into Bulgarian.
 71 quanta ignoranza è quella che v’offende!
 72 Or vo’ che tu mia sentenza ne ’mbocche.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 А той ми каза: „О, глупави създания,\n71 колко голямо невежество е това, което ви обижда!\n72 Сега искам да приемеш моето решение."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 70 А той ми каза: „О, глупави създания,
 71 колко голямо невежество е това, което ви обижда!
@@ -420,41 +368,53 @@ Please translate each line literally into Bulgarian.
 73 Colui lo cui saver tutto trascende,
 74 fece li cieli e diè lor chi conduce
 75 sì, ch’ogne parte ad ogne parte splende,
-
-76 distribuendo igualmente la luce.
 </prompt>
 <result>
 73 Онзи, чието знание надхвърля всичко,
 74 създаде небесата и им даде водач,
 75 така че всяка част блести на всяка част,
-
-76 разпределяйки светлината еднакво.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 77/130</info>
+<info>[Inferno Canto 7] 76/130</info>
 <prompt>
 Please translate each line literally into Bulgarian.
 
+76 distribuendo igualmente la luce.
 77 Similemente a li splendor mondani
 78 ordinò general ministra e duce
+</prompt>
+<result>
+76 разпределяйки светлината еднакво.
+77 Подобно на това за светските блясъци
+78 той определи общ управител и водач,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 79/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 79 che permutasse a tempo li ben vani
 80 di gente in gente e d’uno in altro sangue,
 81 oltre la difension d’i senni umani;
+</prompt>
+<result>
+79 който да разменя навреме суетните блага
+80 от народ на народ и от една кръв в друга,
+81 отвъд защитата на човешкия разум;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 82/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 82 per ch’una gente impera e l’altra langue,
 83 seguendo lo giudicio di costei,
 84 che è occulto come in erba l’angue.
 </prompt>
 <result>
-77 Подобно на това за светските блясъци
-78 той определи общ управител и водач,
-
-79 който да разменя навреме суетните блага
-80 от народ на народ и от една кръв в друга,
-81 отвъд защитата на човешкия разум;
-
 82 поради което един народ властва, а друг страда,
 83 следвайки преценката на тази жена,
 84 която е скрита като змия в тревата.
@@ -498,16 +458,23 @@ Please translate each line literally into Bulgarian.
 91 Quest’ è colei ch’è tanto posta in croce
 92 pur da color che le dovrien dar lode,
 93 dandole biasmo a torto e mala voce;
+</prompt>
+<result>
+91 Тя е тази, която е толкова разпъната на кръст
+92 тъкмо от онези, които би трябвало да я хвалят,
+93 като несправедливо я хулят и говорят лошо за нея;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 94/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 94 ma ella s’è beata e ciò non ode:
 95 con l’altre prime creature lieta
 96 volve sua spera e beata si gode.
 </prompt>
 <result>
-91 Тя е тази, която е толкова разпъната на кръст
-92 тъкмо от онези, които би трябвало да я хвалят,
-93 като несправедливо я хулят и говорят лошо за нея;
-
 94 но тя е блажена и не чува това:
 95 заедно с другите първи създания щастлива
 96 върти своята сфера и се наслаждава на блаженството си.
@@ -611,16 +578,23 @@ Please translate each line literally into Bulgarian.
 115 Lo buon maestro disse: «Figlio, or vedi
 116 l’anime di color cui vinse l’ira;
 117 e anche vo’ che tu per certo credi
+</prompt>
+<result>
+115 Добрият учител каза: „Сине, сега виждаш
+116 душите на онези, които гневът победи;
+117 и също искам да повярваш със сигурност,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 118/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 118 che sotto l’acqua è gente che sospira,
 119 e fanno pullular quest’ acqua al summo,
 120 come l’occhio ti dice, u’ che s’aggira.
 </prompt>
 <result>
-115 Добрият учител каза: „Сине, сега виждаш
-116 душите на онези, които гневът победи;
-117 и също искам да повярваш със сигурност,
-
 118 че под водата има хора, които въздишат,
 119 и карат тази вода да кипи на повърхността,
 120 както ти казва окото, където се движи.
@@ -634,33 +608,38 @@ Please translate each line literally into Bulgarian.
 121 Fitti nel limo dicon: “Tristi fummo
 122 ne l’aere dolce che dal sol s’allegra,
 123 portando dentro accidïoso fummo:
-
-124 or ci attristiam ne la belletta negra”.
 </prompt>
 <result>
 121 Забити в тинята, те казват: „Тъжни бяхме
 122 във въздуха, който се радва от слънцето,
 123 носейки вътре в себе си злобен дим:
-
-124 сега се тъжим в черната боя“.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 125/130</info>
+<info>[Inferno Canto 7] 124/130</info>
 <prompt>
 Please translate each line literally into Bulgarian.
 
+124 or ci attristiam ne la belletta negra”.
 125 Quest’ inno si gorgoglian ne la strozza,
 126 ché dir nol posson con parola integra».
+</prompt>
+<result>
+124 сега се тъжим в черната боя“.
+125 Тези думи гърголят в гърлото им,
+126 защото не могат да ги изрекат с цяла дума“.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 127/130</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 127 Così girammo de la lorda pozza
 128 grand’ arco tra la ripa secca e ’l mézzo,
 129 con li occhi vòlti a chi del fango ingozza.
 </prompt>
 <result>
-125 Тези думи гърголят в гърлото им,
-126 защото не могат да ги изрекат с цяла дума“.
-
 127 Така обиколихме голяма дъга от мръсната локва
 128 между сухия бряг и средата,
 129 с очи, обърнати към тези, които се давят в калта.

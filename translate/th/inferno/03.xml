@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries count="46">
 <query>
 <info>[Inferno Canto 3] 1/136</info>
 <prompt>
@@ -25,8 +25,9 @@ Please translate each line literally into Thai.
 6 la somma sapïenza e ’l primo amore.
 </prompt>
 <result>
-4 ความยุติธรรมผลักดันผู้สร้างอันประเสริฐของข้า
-5 อำนาจอันศักดิ์สิทธิ์ ความรอบรู้สูงสุด และความรักแรกสร้างข้าขึ้นมา
+4 ความยุติธรรมกระตุ้นให้ผู้สร้างอันประเสริฐของข้า
+5 พระผู้เป็นเจ้าทรงสร้างข้าขึ้น
+6 ด้วยปัญญาอันสูงส่งและความรักอันแรกเริ่ม
 </result>
 </query>
 <query>
@@ -68,32 +69,6 @@ Please translate each line literally into Thai.
 14 «Qui si convien lasciare ogne sospetto;
 15 ogne viltà convien che qui sia morta.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "13 และท่านตอบข้าราวกับเป็นผู้รอบรู้\n14 \"ที่นี่ เราต้องละทิ้งความสงสัยทั้งปวง\n15 ความขลาดเขลาทั้งมวลต้องตายที่นี่"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 13 และท่านตอบข้าราวกับเป็นผู้รอบรู้
 14 "ที่นี่ เราต้องละทิ้งความสงสัยทั้งปวง
@@ -153,16 +128,23 @@ Please translate each line literally into Thai.
 25 Diverse lingue, orribili favelle,
 26 parole di dolore, accenti d’ira,
 27 voci alte e fioche, e suon di man con elle
+</prompt>
+<result>
+25 ภาษาต่างๆ คำพูดที่น่ากลัว
+26 คำพูดแห่งความเจ็บปวด สำเนียงแห่งความโกรธ
+27 เสียงดังและเสียงแหบพร่า และเสียงตบมือพร้อมกับเสียงเหล่านั้น
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 28/136</info>
+<prompt>
+Please translate each line literally into Thai.
 
 28 facevano un tumulto, il qual s’aggira
 29 sempre in quell’ aura sanza tempo tinta,
 30 come la rena quando turbo spira.
 </prompt>
 <result>
-25 ภาษาต่างๆ คำพูดที่น่ากลัว
-26 คำพูดแห่งความเจ็บปวด สำเนียงแห่งความโกรธ
-27 เสียงดังและเสียงแหบพร่า และเสียงตบมือพร้อมกับเสียงเหล่านั้น
-
 28 ก่อให้เกิดความโกลาหล ซึ่งวนเวียนอยู่เสมอ
 29 ในอากาศที่ไร้กาลเวลาแห่งนั้น
 30 เหมือนกับผืนทรายเมื่อเกิดพายุ
@@ -281,18 +263,26 @@ Please translate each line literally into Thai.
 52 E io, che riguardai, vidi una ’nsegna
 53 che girando correva tanto ratta,
 54 che d’ogne posa mi parea indegna;
+</prompt>
+<result>
+52 และข้าผู้เฝ้าดูแล เห็นธงหนึ่ง
+53 ที่หมุนเวียนวิ่งเร็วมาก
+54 จนดูเหมือนไม่คู่ควรกับการหยุดพักใดๆ
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 55/136</info>
+<prompt>
+Please translate each line literally into Thai.
 
 55 e dietro le venìa sì lunga tratta
 56 di gente, ch’i’ non averei creduto
 57 che morte tanta n’avesse disfatta.
 </prompt>
 <result>
-52 และข้าผู้เฝ้ามอง เห็นธงหนึ่ง
-53 ที่หมุนเวียนและวิ่งอย่างรวดเร็ว
-54 จนดูเหมือนว่ามันไม่คู่ควรกับการหยุดพักใดๆ เลย
-
-55 และตามหลังธงนั้น มีผู้คนจำนวนมากมายมหาศาล
-56 จนข้าไม่เชื่อเลยว่าความตายจะทำลายพวกเขาได้มากมายขนาดนี้
+55 และเบื้องหลังนางมีผู้ติดตามมาเป็นแถวยาวเหยียด
+56 ผู้คนมากมายจนข้าไม่เชื่อ
+57 ว่าความตายจะพรากชีวิตผู้คนไปได้มากมายปานนี้
 </result>
 </query>
 <query>
@@ -319,32 +309,6 @@ Please translate each line literally into Thai.
 62 che questa era la setta d’i cattivi,
 63 a Dio spiacenti e a’ nemici sui.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "61 ทันใดนั้น ข้าก็เข้าใจและแน่ใจว่า\n62 นี่คือกลุ่มคนชั่ว\n63 ผู้ที่พระเจ้าไม่พอพระทัยและศัตรูของพระองค์"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 61 ทันใดนั้น ข้าก็เข้าใจและแน่ใจว่า
 62 นี่คือกลุ่มคนชั่ว
@@ -360,32 +324,6 @@ Please translate each line literally into Thai.
 65 erano ignudi e stimolati molto
 66 da mosconi e da vespe ch’eran ivi.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "64 ผู้โชคร้ายเหล่านี้ที่ไม่เคยมีชีวิตอยู่เลย\n65 เปลือยกายและถูกกระตุ้นอย่างมาก\n66 โดยแมลงวันและตัวต่อที่อยู่ที่นั่น"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 64 ผู้โชคร้ายเหล่านี้ที่ไม่เคยมีชีวิตอยู่เลย
 65 เปลือยกายและถูกกระตุ้นอย่างมาก
@@ -401,32 +339,6 @@ Please translate each line literally into Thai.
 68 che, mischiato di lagrime, a’ lor piedi
 69 da fastidiosi vermi era ricolto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "67 พวกนางราดเลือดลงบนใบหน้าของพวกเขา\n68 ซึ่งผสมกับน้ำตา ไหลลงไปที่เท้าของพวกเขา\n69 และถูกหนอนชอนไชที่น่ารำคาญกิน"
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 67 พวกนางราดเลือดลงบนใบหน้าของพวกเขา
 68 ซึ่งผสมกับน้ำตา ไหลลงไปที่เท้าของพวกเขา
@@ -441,17 +353,26 @@ Please translate each line literally into Thai.
 70 E poi ch’a riguardar oltre mi diedi,
 71 vidi genti a la riva d’un gran fiume;
 72 per ch’io dissi: «Maestro, or mi concedi
+</prompt>
+<result>
+70 และเมื่อข้าเงยหน้าขึ้นมองไปข้างหน้า
+71 ข้าเห็นผู้คนอยู่ริมฝั่งแม่น้ำสายใหญ่
+72 ด้วยเหตุนี้ ข้าจึงกล่าวว่า "อาจารย์ ขอพระองค์โปรดประทานแก่ข้าเถิด
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 73/136</info>
+<prompt>
+Please translate each line literally into Thai.
 
 73 ch’i’ sappia quali sono, e qual costume
 74 le fa di trapassar parer sì pronte,
 75 com’ i’ discerno per lo fioco lume».
 </prompt>
 <result>
-70 และหลังจากที่ข้าหันไปมองอีกครั้ง
-71 ข้าก็เห็นผู้คนอยู่ริมฝั่งแม่น้ำสายใหญ่
-72 ด้วยเหตุนี้ ข้าจึงกล่าวว่า "อาจารย์ ขอให้ข้าทราบเถิดว่าพวกเขาคือใคร และอะไรเป็นธรรมเนียม
-73 ที่ทำให้พวกเขาดูรีบร้อนที่จะข้ามไปเช่นนั้น
-74 อย่างที่ข้าสังเกตเห็นได้จากแสงสลัว"
+73 เพื่อข้าจะได้รู้ว่าพวกเขาเป็นใคร และขนบธรรมเนียมใด
+74 ทำให้พวกเขาดูรีบร้อนที่จะข้ามฟากเช่นนั้น
+75 ดังที่ข้าสังเกตเห็นจากแสงสลัวๆ"
 </result>
 </query>
 <query>
@@ -492,16 +413,23 @@ Please translate each line literally into Thai.
 82 Ed ecco verso noi venir per nave
 83 un vecchio, bianco per antico pelo,
 84 gridando: «Guai a voi, anime prave!
+</prompt>
+<result>
+82 และทันใดนั้น ก็มีชายชราคนหนึ่งพายเรือมาหาเรา
+83 ผมขาวโพลนด้วยความชรา
+84 ร้องตะโกนว่า "วิบัติแก่พวกเจ้า วิญญาณชั่วร้าย!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 85/136</info>
+<prompt>
+Please translate each line literally into Thai.
 
 85 Non isperate mai veder lo cielo:
 86 i’ vegno per menarvi a l’altra riva
 87 ne le tenebre etterne, in caldo e ’n gelo.
 </prompt>
 <result>
-82 และทันใดนั้น ก็มีชายชราคนหนึ่งพายเรือมาหาเรา
-83 ผมขาวโพลนด้วยความชรา
-84 ร้องตะโกนว่า "วิบัติแก่พวกเจ้า วิญญาณชั่วร้าย!
-
 85 อย่าหวังเลยว่าจะได้เห็นสวรรค์
 86 ข้ามาเพื่อนำพวกเจ้าไปยังอีกฝั่งหนึ่ง
 87 ในความมืดมิดชั่วนิรันดร์ ในความร้อนและความหนาวเย็น"
@@ -515,17 +443,26 @@ Please translate each line literally into Thai.
 88 E tu che se’ costì, anima viva,
 89 pàrtiti da cotesti che son morti».
 90 Ma poi che vide ch’io non mi partiva,
+</prompt>
+<result>
+88 และเจ้าที่อยู่ที่นี่ วิญญาณที่มีชีวิต
+89 จงออกไปจากพวกเขาเหล่านั้นที่ตายแล้ว
+90 แต่เมื่อเขาเห็นว่าข้าไม่จากไป
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 91/136</info>
+<prompt>
+Please translate each line literally into Thai.
 
 91 disse: «Per altra via, per altri porti
 92 verrai a piaggia, non qui, per passare:
 93 più lieve legno convien che ti porti».
 </prompt>
 <result>
-88 และเจ้าที่อยู่ที่นั่น วิญญาณที่มีชีวิต
-89 จงแยกตัวออกจากพวกที่ตายแล้วเหล่านี้"
-90 แต่เมื่อท่านเห็นว่าข้าไม่ยอมแยกตัวออกไป
-91 ท่านก็กล่าวว่า "เจ้าจะมาถึงฝั่งโดยทางอื่น ผ่านท่าเรืออื่น
-92 ไม่ใช่ที่นี่ เพื่อที่จะข้ามไป เรือที่เบากว่านี้จำเป็นต้องนำพาเจ้าไป"
+91 กล่าวว่า "ด้วยหนทางอื่น ด้วยท่าเรืออื่น
+92 เจ้าจะมาถึงฝั่ง ไม่ใช่ที่นี่ เพื่อผ่านไป
+93 เรือที่เบากว่าจะต้องนำพาเจ้าไป"
 </result>
 </query>
 <query>
@@ -553,8 +490,9 @@ Please translate each line literally into Thai.
 99 che ’ntorno a li occhi avea di fiamme rote.
 </prompt>
 <result>
-97 จากนั้น แก้มอันมีขนดกของคนพายเรือแห่งหนองน้ำอันมืดมัวก็สงบลง
-98 ซึ่งมีเปลวไฟสีแดงอยู่รอบดวงตาของเขา
+97 ที่นั่นเงียบสงบแก้มที่เปียกชุ่ม
+98 แก่นายท้ายเรือแห่งหนองน้ำอันมืดมัว
+99 ที่รอบดวงตาของเขามีเปลวไฟสีแดง
 </result>
 </query>
 <query>
@@ -625,16 +563,23 @@ Please translate each line literally into Thai.
 112 Come d’autunno si levan le foglie
 113 l’una appresso de l’altra, fin che ’l ramo
 114 vede a la terra tutte le sue spoglie,
+</prompt>
+<result>
+112 เมื่อถึงฤดูใบไม้ร่วง ใบไม้ก็ร่วงหล่น
+113 ใบหนึ่งตามอีกใบหนึ่ง จนกระทั่งกิ่งก้าน
+114 เห็นใบไม้ทั้งหมดของมันร่วงหล่นลงสู่พื้นดิน
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 115/136</info>
+<prompt>
+Please translate each line literally into Thai.
 
 115 similemente il mal seme d’Adamo
 116 gittansi di quel lito ad una ad una,
 117 per cenni come augel per suo richiamo.
 </prompt>
 <result>
-112 เมื่อถึงฤดูใบไม้ร่วง ใบไม้ก็ร่วงหล่น
-113 ใบหนึ่งตามอีกใบหนึ่ง จนกระทั่งกิ่งก้าน
-114 เห็นใบไม้ทั้งหมดของมันร่วงหล่นลงสู่พื้นดิน
-
 115 เช่นเดียวกัน เชื้อสายชั่วร้ายของอาดัม
 116 ก็โยนตัวเองลงจากฝั่งนั้น ทีละคน
 117 ตามสัญญาณเหมือนนกตามเสียงเรียกของมัน
@@ -663,16 +608,23 @@ Please translate each line literally into Thai.
 121 «Figliuol mio», disse ’l maestro cortese,
 122 «quelli che muoion ne l’ira di Dio
 123 tutti convegnon qui d’ogne paese;
+</prompt>
+<result>
+121 "ลูกชายของข้า" อาจารย์ผู้สุภาพกล่าวว่า
+122 "ผู้ที่ตายด้วยพระพิโรธของพระเจ้า
+123 ทั้งหมดมารวมตัวกันที่นี่จากทุกประเทศ
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 124/136</info>
+<prompt>
+Please translate each line literally into Thai.
 
 124 e pronti sono a trapassar lo rio,
 125 ché la divina giustizia li sprona,
 126 sì che la tema si volve in disio.
 </prompt>
 <result>
-121 "ลูกชายของข้า" อาจารย์ผู้สุภาพกล่าวว่า
-122 "ผู้ที่ตายด้วยพระพิโรธของพระเจ้า
-123 ทั้งหมดมารวมตัวกันที่นี่จากทุกประเทศ
-
 124 และพวกเขาก็พร้อมที่จะข้ามแม่น้ำ
 125 เพราะความยุติธรรมอันศักดิ์สิทธิ์กระตุ้นพวกเขา
 126 จนความกลัวกลายเป็นความปรารถนา"
@@ -716,14 +668,21 @@ Please translate each line literally into Thai.
 133 La terra lagrimosa diede vento,
 134 che balenò una luce vermiglia
 135 la qual mi vinse ciascun sentimento;
-
-136 e caddi come l’uom cui sonno piglia.
 </prompt>
 <result>
 133 แผ่นดินที่เปียกโชกด้วยน้ำตานั้นพัดลม
 134 ซึ่งเปล่งประกายแสงสีแดง
 135 ซึ่งทำให้ข้าสูญเสียความรู้สึกทั้งหมด
+</result>
+</query>
+<query>
+<info>[Inferno Canto 3] 136/136</info>
+<prompt>
+Please translate each line literally into Thai.
 
+136 e caddi come l’uom cui sonno piglia.
+</prompt>
+<result>
 136 และข้าก็ล้มลงเหมือนคนที่ถูกครอบงำด้วยความง่วง
 </result>
 </query>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries error="0" count="50">
 <query>
 <info>[Paradiso Canto 7] 1/148</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into Romanian.
 4 Così, volgendosi a la nota sua,
 5 fu viso a me cantare essa sustanza,
 6 sopra la qual doppio lume s’addua;
+</prompt>
+<result>
+4 Astfel, întorcându-se la melodia sa,
+5 mi s-a părut că acea ființă cântă,
+6 deasupra căreia străluceau cele două lumini;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 7/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 7 ed essa e l’altre mossero a sua danza,
 8 e quasi velocissime faville
 9 mi si velar di sùbita distanza.
 </prompt>
 <result>
-4 Astfel, întorcându-se la melodia sa,
-5 mi s-a părut că acea ființă cântă,
-6 deasupra căreia străluceau cele două lumini;
-
 7 și ea și celelalte s-au mișcat în dansul lor,
 8 și ca niște scântei foarte rapide
 9 s-au ascuns de mine dintr-o dată, din cauza distanței.
@@ -62,32 +69,6 @@ Please translate each line literally into Romanian.
 14 di tutto me, pur per Be e per ice,
 15 mi richinava come l’uom ch’assonna.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "13 Dar acea venerație care m-a cuprins\n14 în întregime, atât pentru Beatrice, cât și pentru ice,\n15 mă făcea să mă plec ca un om adormit."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 13 Dar acea venerație care m-a cuprins
 14 în întregime, atât pentru Beatrice, cât și pentru ice,
@@ -102,24 +83,38 @@ Please translate each line literally into Romanian.
 16 Poco sofferse me cotal Beatrice
 17 e cominciò, raggiandomi d’un riso
 18 tal, che nel foco faria l’uom felice:
+</prompt>
+<result>
+16 Beatrice m-a lăsat să sufăr puțin așa
+17 și a început, luminându-mă cu un zâmbet
+18 care l-ar face fericit pe om chiar și în foc:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 19/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 19 «Secondo mio infallibile avviso,
 20 come giusta vendetta giustamente
 21 punita fosse, t’ha in pensier miso;
+</prompt>
+<result>
+19 „După părerea mea infailibilă,
+20 cum o răzbunare dreaptă a fost pedepsită pe drept,
+21 te-a pus pe gânduri;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 22/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 22 ma io ti solverò tosto la mente;
 23 e tu ascolta, ché le mie parole
 24 di gran sentenza ti faran presente.
 </prompt>
 <result>
-16 Beatrice m-a lăsat să sufăr puțin așa
-17 și a început, luminându-mă cu un zâmbet
-18 care l-ar face fericit pe om chiar și în foc:
-
-19 „După părerea mea infailibilă,
-20 cum o răzbunare dreaptă a fost pedepsită pe drept,
-21 te-a pus pe gânduri;
-
 22 dar eu îți voi elibera imediat mintea;
 23 și tu ascultă, căci cuvintele mele
 24 îți vor aduce o mare învățătură.
@@ -133,24 +128,38 @@ Please translate each line literally into Romanian.
 25 Per non soffrire a la virtù che vole
 26 freno a suo prode, quell’ uom che non nacque,
 27 dannando sé, dannò tutta sua prole;
+</prompt>
+<result>
+25 Pentru a nu suferi virtutea care vrea
+26 o frână pentru binele ei, acel om care nu s-a născut,
+27 damnându-se pe sine, și-a damnat toată progenitura;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 28/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 28 onde l’umana specie inferma giacque
 29 giù per secoli molti in grande errore,
 30 fin ch’al Verbo di Dio discender piacque
+</prompt>
+<result>
+28 de unde specia umană bolnavă a zăcut
+29 timp de multe secole în mare eroare,
+30 până când Cuvântului lui Dumnezeu i-a plăcut să coboare
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 31/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 31 u’ la natura, che dal suo fattore
 32 s’era allungata, unì a sé in persona
 33 con l’atto sol del suo etterno amore.
 </prompt>
 <result>
-25 Pentru a nu suferi virtutea care vrea
-26 o frână pentru binele ei, acel om care nu s-a născut,
-27 damnându-se pe sine, și-a damnat toată progenitura;
-
-28 de unde specia umană bolnavă a zăcut
-29 timp de multe secole în mare eroare,
-30 până când Cuvântului lui Dumnezeu i-a plăcut să coboare
-
 31 unde natura, care se îndepărtase de Creatorul ei,
 32 s-a unit cu El în persoană
 33 doar prin actul iubirii Sale eterne.
@@ -164,16 +173,23 @@ Please translate each line literally into Romanian.
 34 Or drizza il viso a quel ch’or si ragiona:
 35 questa natura al suo fattore unita,
 36 qual fu creata, fu sincera e buona;
+</prompt>
+<result>
+34 Acum îndreaptă-ți privirea spre ceea ce se discută acum:
+35 această natură unită cu Creatorul ei,
+36 așa cum a fost creată, a fost sinceră și bună;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 37/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 37 ma per sé stessa pur fu ella sbandita
 38 di paradiso, però che si torse
 39 da via di verità e da sua vita.
 </prompt>
 <result>
-34 Acum îndreaptă-ți privirea spre ceea ce se discută acum:
-35 această natură unită cu Creatorul ei,
-36 așa cum a fost creată, a fost sinceră și bună;
-
 37 dar prin ea însăși a fost totuși izgonită
 38 din paradis, pentru că s-a abătut
 39 de la calea adevărului și de la viața sa.
@@ -187,16 +203,23 @@ Please translate each line literally into Romanian.
 40 La pena dunque che la croce porse
 41 s’a la natura assunta si misura,
 42 nulla già mai sì giustamente morse;
+</prompt>
+<result>
+40 Prin urmare, pedeapsa pe care a adus-o crucea
+41 dacă se măsoară la natura asumată,
+42 niciodată nu a mai existat una atât de justă;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 43/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 43 e così nulla fu di tanta ingiura,
 44 guardando a la persona che sofferse,
 45 in che era contratta tal natura.
 </prompt>
 <result>
-40 Prin urmare, pedeapsa pe care a adus-o crucea
-41 dacă se măsoară la natura asumată,
-42 niciodată nu a mai existat una atât de justă;
-
 43 și astfel nimic nu a fost o atât de mare nedreptate,
 44 privind la persoana care a suferit,
 45 în care era cuprinsă o astfel de natură.
@@ -375,16 +398,23 @@ Please translate each line literally into Romanian.
 79 Solo il peccato è quel che la disfranca
 80 e falla dissimìle al sommo bene,
 81 per che del lume suo poco s’imbianca;
+</prompt>
+<result>
+79 Numai păcatul este cel care o dezavantajează
+80 și o face diferită de binele suprem,
+81 pentru că din lumina sa se îmbogățește puțin;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 82/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 82 e in sua dignità mai non rivene,
 83 se non rïempie, dove colpa vòta,
 84 contra mal dilettar con giuste pene.
 </prompt>
 <result>
-79 Numai păcatul este cel care o dezavantajează
-80 și o face diferită de binele suprem,
-81 pentru că din lumina sa se îmbogățește puțin;
-
 82 și nu își recapătă niciodată demnitatea,
 83 decât dacă umple, acolo unde păcatul a golit,
 84 plăcerea rea cu pedepse drepte.
@@ -398,24 +428,38 @@ Please translate each line literally into Romanian.
 85 Vostra natura, quando peccò tota
 86 nel seme suo, da queste dignitadi,
 87 come di paradiso, fu remota;
+</prompt>
+<result>
+85 Natura voastră, când a păcătuit toată
+86 în sămânța sa, de aceste demnități,
+87 ca de paradis, a fost îndepărtată;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 88/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 88 né ricovrar potiensi, se tu badi
 89 ben sottilmente, per alcuna via,
 90 sanza passar per un di questi guadi:
+</prompt>
+<result>
+88 și nu le puteți recăpăta, dacă nu observați
+89 foarte atent, prin nicio cale,
+90 fără să treceți prin una dintre aceste vami:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 91/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 91 o che Dio solo per sua cortesia
 92 dimesso avesse, o che l’uom per sé isso
 93 avesse sodisfatto a sua follia.
 </prompt>
 <result>
-85 Natura voastră, când a păcătuit toată
-86 în sămânța sa, de aceste demnități,
-87 ca de paradis, a fost îndepărtată;
-
-88 și nu le puteți recăpăta, dacă nu observați
-89 foarte atent, prin nicio cale,
-90 fără să treceți prin una dintre aceste vami:
-
 91 fie ca Dumnezeu singur, prin bunătatea Sa,
 92 să fi iertat, fie ca omul însuși
 93 să fi satisfăcut pentru nebunia sa.
@@ -444,16 +488,23 @@ Please translate each line literally into Romanian.
 97 Non potea l’uomo ne’ termini suoi
 98 mai sodisfar, per non potere ir giuso
 99 con umiltate obedïendo poi,
+</prompt>
+<result>
+97 Omul nu putea în termenii săi
+98 să satisfacă niciodată, pentru că nu putea merge în jos
+99 cu umilință, supunându-se apoi,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 100/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 100 quanto disobediendo intese ir suso;
 101 e questa è la cagion per che l’uom fue
 102 da poter sodisfar per sé dischiuso.
 </prompt>
 <result>
-97 Omul nu putea în termenii săi
-98 să satisfacă niciodată, pentru că nu putea merge în jos
-99 cu umilință, supunându-se apoi,
-
 100 cât de mult a intenționat să urce neascultând;
 101 și acesta este motivul pentru care omul a fost
 102 deschis să poată satisface pentru sine.
@@ -482,16 +533,23 @@ Please translate each line literally into Romanian.
 106 Ma perché l’ovra tanto è più gradita
 107 da l’operante, quanto più appresenta
 108 de la bontà del core ond’ ell’ è uscita,
+</prompt>
+<result>
+106 Dar pentru că lucrarea este cu atât mai plăcută
+107 de către cel care o face, cu cât mai mult prezintă
+108 din bunătatea inimii din care a ieșit,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 109/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 109 la divina bontà che ’l mondo imprenta,
 110 di proceder per tutte le sue vie,
 111 a rilevarvi suso, fu contenta.
 </prompt>
 <result>
-106 Dar pentru că lucrarea este cu atât mai plăcută
-107 de către cel care o face, cu cât mai mult prezintă
-108 din bunătatea inimii din care a ieșit,
-
 109 bunătatea divină care imprimă lumea,
 110 de a proceda pe toate căile sale,
 111 pentru a vă ridica sus, a fost mulțumită.
@@ -505,24 +563,38 @@ Please translate each line literally into Romanian.
 112 Né tra l’ultima notte e ’l primo die
 113 sì alto o sì magnifico processo,
 114 o per l’una o per l’altra, fu o fie:
+</prompt>
+<result>
+112 Nici între ultima noapte și prima zi
+113 un proces atât de înalt sau atât de măreț,
+114 fie prin una, fie prin cealaltă, nu a fost sau nu va fi:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 115/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 115 ché più largo fu Dio a dar sé stesso
 116 per far l’uom sufficiente a rilevarsi,
 117 che s’elli avesse sol da sé dimesso;
+</prompt>
+<result>
+115 căci Dumnezeu a fost mai generos să se dea pe Sine
+116 pentru a-l face pe om capabil să se ridice,
+117 decât dacă ar fi iertat doar de la Sine;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 118/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 118 e tutti li altri modi erano scarsi
 119 a la giustizia, se ’l Figliuol di Dio
 120 non fosse umilïato ad incarnarsi.
 </prompt>
 <result>
-112 Nici între ultima noapte și prima zi
-113 un proces atât de înalt sau atât de măreț,
-114 fie prin una, fie prin cealaltă, nu a fost sau nu va fi:
-
-115 căci Dumnezeu a fost mai generos să se dea pe Sine
-116 pentru a-l face pe om capabil să se ridice,
-117 decât dacă ar fi iertat doar de la Sine;
-
 118 și toate celelalte moduri erau insuficiente
 119 pentru dreptate, dacă Fiul lui Dumnezeu
 120 nu s-ar fi smerit să se întrupeze.
@@ -551,16 +623,23 @@ Please translate each line literally into Romanian.
 124 Tu dici: “Io veggio l’acqua, io veggio il foco,
 125 l’aere e la terra e tutte lor misture
 126 venire a corruzione, e durar poco;
+</prompt>
+<result>
+124 Tu spui: „Văd apa, văd focul,
+125 aerul și pământul și toate amestecurile lor
+126 venind la corupție și durând puțin;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 127/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 127 e queste cose pur furon creature;
 128 per che, se ciò ch’è detto è stato vero,
 129 esser dovrien da corruzion sicure”.
 </prompt>
 <result>
-124 Tu spui: „Văd apa, văd focul,
-125 aerul și pământul și toate amestecurile lor
-126 venind la corupție și durând puțin;
-
 127 și aceste lucruri au fost totuși create;
 128 de aceea, dacă ceea ce s-a spus a fost adevărat,
 129 ar trebui să fie în siguranță de corupție”.
@@ -574,16 +653,23 @@ Please translate each line literally into Romanian.
 130 Li angeli, frate, e ’l paese sincero
 131 nel qual tu se’, dir si posson creati,
 132 sì come sono, in loro essere intero;
+</prompt>
+<result>
+130 Îngerii, frate, și țara sinceră
+131 în care te afli, se pot spune că au fost create,
+132 așa cum sunt, în ființa lor întreagă;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 133/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 133 ma li alimenti che tu hai nomati
 134 e quelle cose che di lor si fanno
 135 da creata virtù sono informati.
 </prompt>
 <result>
-130 Îngerii, frate, și țara sinceră
-131 în care te afli, se pot spune că au fost create,
-132 așa cum sunt, în ființa lor întreagă;
-
 133 dar alimentele pe care le-ai numit
 134 și acele lucruri care se fac din ele
 135 sunt informate de virtutea creată.
@@ -612,16 +698,23 @@ Please translate each line literally into Romanian.
 139 L’anima d’ogne bruto e de le piante
 140 di complession potenzïata tira
 141 lo raggio e ’l moto de le luci sante;
+</prompt>
+<result>
+139 Sufletul fiecărei fiare și al plantelor
+140 trage din complexiunea potențată
+141 raza și mișcarea luminilor sfinte;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 142/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 142 ma vostra vita sanza mezzo spira
 143 la somma beninanza, e la innamora
 144 di sé sì che poi sempre la disira.
 </prompt>
 <result>
-139 Sufletul fiecărei fiare și al plantelor
-140 trage din complexiunea potențată
-141 raza și mișcarea luminilor sfinte;
-
 142 dar viața voastră respiră fără mijloc
 143 bunătatea supremă și o îndrăgostește
 144 de sine, astfel încât apoi o dorește mereu.
@@ -635,14 +728,21 @@ Please translate each line literally into Romanian.
 145 E quinci puoi argomentare ancora
 146 vostra resurrezion, se tu ripensi
 147 come l’umana carne fessi allora
-
-148 che li primi parenti intrambo fensi».
 </prompt>
 <result>
 145 Și de aici poți argumenta încă
 146 învierea voastră, dacă te gândești
 147 cum s-a făcut carnea umană atunci
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 7] 148/148</info>
+<prompt>
+Please translate each line literally into Romanian.
 
+148 che li primi parenti intrambo fensi».
+</prompt>
+<result>
 148 când primii părinți s-au făcut amândoi”.
 </result>
 </query>

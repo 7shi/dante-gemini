@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries error="0" count="50">
 <query>
 <info>[Paradiso Canto 15] 1/148</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Czech.
 1 Benigna volontade in che si liqua
 2 sempre l’amor che drittamente spira,
 3 come cupidità fa ne la iniqua,
+</prompt>
+<result>
+1 Laskavá vůle, ve které se rozplývá
+2 láska, jež vždy správně vane,
+3 jako žádostivost činí v nespravedlivé,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 4/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 4 silenzio puose a quella dolce lira,
 5 e fece quïetar le sante corde
 6 che la destra del cielo allenta e tira.
 </prompt>
 <result>
-1 Laskavá vůle, ve které se rozplývá
-2 láska, jež vždy správně vane,
-3 jako žádostivost činí v nespravedlivé,
-
 4 způsobila ticho v té sladké lyře,
 5 a utišila svaté struny,
 6 které pravice nebes povoluje a napíná.
@@ -31,16 +38,23 @@ Please translate each line literally into Czech.
 7 Come saranno a’ giusti preghi sorde
 8 quelle sustanze che, per darmi voglia
 9 ch’io le pregassi, a tacer fur concorde?
+</prompt>
+<result>
+7 Jak budou hluché k spravedlivým prosbám
+8 ty substance, které, aby ve mně vzbudily touhu,
+9 abych je prosil, byly jednomyslně tiché?
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 10/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 10 Bene è che sanza termine si doglia
 11 chi, per amor di cosa che non duri
 12 etternalmente, quello amor si spoglia.
 </prompt>
 <result>
-7 Jak budou hluché k spravedlivým prosbám
-8 ty substance, které, aby ve mně vzbudily touhu,
-9 abych je prosil, byly jednomyslně tiché?
-
 10 Dobře je, že bez konce truchlí
 11 ten, kdo kvůli lásce k něčemu, co netrvá
 12 věčně, se té lásky zbavuje.
@@ -54,32 +68,53 @@ Please translate each line literally into Czech.
 13 Quale per li seren tranquilli e puri
 14 discorre ad ora ad or sùbito foco,
 15 movendo li occhi che stavan sicuri,
+</prompt>
+<result>
+13 Jako po klidných a čistých nebesích
+14 občas rychle proběhne oheň,
+15 pohybující očima, které byly klidné,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 16/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 16 e pare stella che tramuti loco,
 17 se non che da la parte ond’ e’ s’accende
 18 nulla sen perde, ed esso dura poco:
+</prompt>
+<result>
+16 a vypadá jako hvězda, která mění místo,
+17 kdyby jen z té strany, odkud se rozsvítí,
+18 nic nezmizelo a ono netrvalo krátce:
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 19/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 19 tale dal corno che ’n destro si stende
 20 a piè di quella croce corse un astro
 21 de la costellazion che lì resplende;
+</prompt>
+<result>
+19 tak od rohu, který se táhne vpravo
+20 k úpatí toho kříže, běželo nebeské těleso
+21 ze souhvězdí, které tam září;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 22/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 22 né si partì la gemma dal suo nastro,
 23 ma per la lista radïal trascorse,
 24 che parve foco dietro ad alabastro.
 </prompt>
 <result>
-13 Jako po klidných a čistých nebesích
-14 občas rychle proběhne oheň,
-15 pohybující očima, které byly klidné,
-
-16 a vypadá jako hvězda, která mění místo,
-17 kdyby jen z té strany, odkud se rozsvítí,
-18 nic nezmizelo a ono netrvalo krátce:
-
-19 tak od rohu, který se táhne vpravo
-20 k úpatí toho kříže, běželo nebeské těleso
-21 ze souhvězdí, které tam září;
-
 22 a drahokam se neoddělil od své stuhy,
 23 ale prošel po paprskující čáře,
 24 která vypadala jako oheň za alabastrem.
@@ -123,42 +158,23 @@ Please translate each line literally into Czech.
 31 Così quel lume: ond’ io m’attesi a lui;
 32 poscia rivolsi a la mia donna il viso,
 33 e quinci e quindi stupefatto fui;
+</prompt>
+<result>
+31 Takto to světlo: od kterého jsem očekával a jemu;
+32 pak jsem obrátil tvář k mé paní,
+33 a tady i tam jsem byl ohromen;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 34/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 34 ché dentro a li occhi suoi ardeva un riso
 35 tal, ch’io pensai co’ miei toccar lo fondo
 36 de la mia gloria e del mio paradiso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 Takto to světlo: od kterého jsem očekával a jemu;\n32 pak jsem obrátil tvář k mé paní,\n33 a tady i tam jsem byl ohromen;\n\n34 protože v jejích očích zářil úsměv\n35 takový, že jsem si myslel, že se svými dotýkám dna\n36 své slávy a svého ráje."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-31 Takto to světlo: od kterého jsem očekával a jemu;
-32 pak jsem obrátil tvář k mé paní,
-33 a tady i tam jsem byl ohromen;
-
 34 protože v jejích očích zářil úsměv
 35 takový, že jsem si myslel, že se svými dotýkám dna
 36 své slávy a svého ráje.
@@ -172,16 +188,23 @@ Please translate each line literally into Czech.
 37 Indi, a udire e a veder giocondo,
 38 giunse lo spirto al suo principio cose,
 39 ch’io non lo ’ntesi, sì parlò profondo;
+</prompt>
+<result>
+37 Pak duch, radostný z toho, že slyší a vidí,
+38 dospěl ve své řeči k počátečním věcem,
+39 kterým jsem nerozuměl, tak hluboce mluvil;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 40/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 40 né per elezïon mi si nascose,
 41 ma per necessità, ché ’l suo concetto
 42 al segno d’i mortal si soprapuose.
 </prompt>
 <result>
-37 Pak duch, radostný z toho, že slyší a vidí,
-38 dospěl ve své řeči k počátečním věcem,
-39 kterým jsem nerozuměl, tak hluboce mluvil;
-
 40 a neskrýval se mi z vlastní vůle,
 41 ale z nutnosti, protože jeho myšlenka
 42 převyšovala chápání smrtelníků.
@@ -195,16 +218,23 @@ Please translate each line literally into Czech.
 43 E quando l’arco de l’ardente affetto
 44 fu sì sfogato, che ’l parlar discese
 45 inver’ lo segno del nostro intelletto,
+</prompt>
+<result>
+43 A když se oblouk jeho vroucího citu
+44 tak uvolnil, že jeho řeč sestoupila
+45 k úrovni našeho chápání,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 46/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 46 la prima cosa che per me s’intese,
 47 «Benedetto sia tu», fu, «trino e uno,
 48 che nel mio seme se’ tanto cortese!».
 </prompt>
 <result>
-43 A když se oblouk jeho vroucího citu
-44 tak uvolnil, že jeho řeč sestoupila
-45 k úrovni našeho chápání,
-
 46 první věc, které jsem porozuměl, byla:
 47 „Požehnaný buď ty“, řekl, „trojjediný a jeden,
 48 který jsi tak laskavý k mému potomstvu!“
@@ -218,16 +248,23 @@ Please translate each line literally into Czech.
 49 E seguì: «Grato e lontano digiuno,
 50 tratto leggendo del magno volume
 51 du’ non si muta mai bianco né bruno,
+</prompt>
+<result>
+49 A pokračoval: „Příjemný a dlouhý půst,
+50 strávený čtením velké knihy,
+51 kde se nikdy nemění bílá ani černá,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 52/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 52 solvuto hai, figlio, dentro a questo lume
 53 in ch’io ti parlo, mercè di colei
 54 ch’a l’alto volo ti vestì le piume.
 </prompt>
 <result>
-49 A pokračoval: „Příjemný a dlouhý půst,
-50 strávený čtením velké knihy,
-51 kde se nikdy nemění bílá ani černá,
-
 52 jsi ukončil, synu, uvnitř tohoto světla,
 53 ve kterém s tebou mluvím, díky té,
 54 která ti oblékla křídla pro vysoký let.
@@ -241,16 +278,23 @@ Please translate each line literally into Czech.
 55 Tu credi che a me tuo pensier mei
 56 da quel ch’è primo, così come raia
 57 da l’un, se si conosce, il cinque e ’l sei;
+</prompt>
+<result>
+55 Věříš, že mé myšlenky přicházejí ke mně
+56 od toho, co je prvotní, stejně jako vychází
+57 z jedné, pokud je známa, pětka a šestka;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 58/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 58 e però ch’io mi sia e perch’ io paia
 59 più gaudïoso a te, non mi domandi,
 60 che alcun altro in questa turba gaia.
 </prompt>
 <result>
-55 Věříš, že mé myšlenky přicházejí ke mně
-56 od toho, co je prvotní, stejně jako vychází
-57 z jedné, pokud je známa, pětka a šestka;
-
 58 a proto se mě neptáš, proč jsem a proč se ti jevím
 59 radostnější než kdokoli jiný v tomto veselém davu,
 60 protože to víš.
@@ -264,24 +308,38 @@ Please translate each line literally into Czech.
 61 Tu credi ’l vero; ché i minori e ’ grandi
 62 di questa vita miran ne lo speglio
 63 in che, prima che pensi, il pensier pandi;
+</prompt>
+<result>
+61 Věříš pravdě; protože menší i větší
+62 z tohoto života hledí do zrcadla,
+63 ve kterém, ještě než pomyslíš, myšlenku rozvineš;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 64/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 64 ma perché ’l sacro amore in che io veglio
 65 con perpetüa vista e che m’asseta
 66 di dolce disïar, s’adempia meglio,
+</prompt>
+<result>
+64 ale aby se lépe naplnila posvátná láska, ve které bdím
+65 s věčným pohledem a která mě žízní
+66 po sladké touze,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 67/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 67 la voce tua sicura, balda e lieta
 68 suoni la volontà, suoni ’l disio,
 69 a che la mia risposta è già decreta!».
 </prompt>
 <result>
-61 Věříš pravdě; protože menší i větší
-62 z tohoto života hledí do zrcadla,
-63 ve kterém, ještě než pomyslíš, myšlenku rozvineš;
-
-64 ale aby se lépe naplnila posvátná láska, ve které bdím
-65 s věčným pohledem a která mě žízní
-66 po sladké touze,
-
 67 ať tvé sebejisté, smělé a radostné
 68 slovo zazní vůlí, zazní touhou,
 69 na kterou je má odpověď již určena!“
@@ -310,16 +368,23 @@ Please translate each line literally into Czech.
 73 Poi cominciai così: «L’affetto e ’l senno,
 74 come la prima equalità v’apparse,
 75 d’un peso per ciascun di voi si fenno,
+</prompt>
+<result>
+73 Pak jsem začal takto: „Náklonnost a rozum,
+74 jakmile se vám zjevila první rovnost,
+75 staly se pro každého z vás stejnou zátěží,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 76/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 76 però che ’l sol che v’allumò e arse,
 77 col caldo e con la luce è sì iguali,
 78 che tutte simiglianze sono scarse.
 </prompt>
 <result>
-73 Pak jsem začal takto: „Náklonnost a rozum,
-74 jakmile se vám zjevila první rovnost,
-75 staly se pro každého z vás stejnou zátěží,
-
 76 protože slunce, které vás osvítilo a spálilo,
 77 je teplem a světlem tak vyrovnané,
 78 že všechna podobenství jsou nedostatečná.
@@ -333,16 +398,23 @@ Please translate each line literally into Czech.
 79 Ma voglia e argomento ne’ mortali,
 80 per la cagion ch’a voi è manifesta,
 81 diversamente son pennuti in ali;
+</prompt>
+<result>
+79 Ale touha a úsudek u smrtelníků,
+80 z důvodu, který je vám zřejmý,
+81 jsou různě opeřeni na křídlech;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 82/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 82 ond’ io, che son mortal, mi sento in questa
 83 disagguaglianza, e però non ringrazio
 84 se non col core a la paterna festa.
 </prompt>
 <result>
-79 Ale touha a úsudek u smrtelníků,
-80 z důvodu, který je vám zřejmý,
-81 jsou různě opeřeni na křídlech;
-
 82 a proto já, který jsem smrtelný, cítím v sobě tuto
 83 nerovnost, a proto nepoděkuji
 84 jinak než srdcem za otcovskou hostinu.
@@ -386,16 +458,23 @@ Please translate each line literally into Czech.
 91 Poscia mi disse: «Quel da cui si dice
 92 tua cognazione e che cent’ anni e piùe
 93 girato ha ’l monte in la prima cornice,
+</prompt>
+<result>
+91 Pak mi řekl: „Ten, od kterého se odvozuje
+92 tvé příbuzenství a který sto let a více
+93 obcházel horu v prvním kruhu,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 94/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 94 mio figlio fu e tuo bisavol fue:
 95 ben si convien che la lunga fatica
 96 tu li raccorci con l’opere tue.
 </prompt>
 <result>
-91 Pak mi řekl: „Ten, od kterého se odvozuje
-92 tvé příbuzenství a který sto let a více
-93 obcházel horu v prvním kruhu,
-
 94 byl můj syn a tvůj pradědeček:
 95 je vhodné, abys mu zkrátil dlouhé trápení
 96 svými skutky.
@@ -484,16 +563,23 @@ Please translate each line literally into Czech.
 112 Bellincion Berti vid’ io andar cinto
 113 di cuoio e d’osso, e venir da lo specchio
 114 la donna sua sanza ’l viso dipinto;
+</prompt>
+<result>
+112 Viděl jsem Bellinciona Bertiho chodit
+113 opásaného kůží a kostí a přicházet od zrcadla
+114 jeho ženu bez namalovaného obličeje;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 115/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 115 e vidi quel d’i Nerli e quel del Vecchio
 116 esser contenti a la pelle scoperta,
 117 e le sue donne al fuso e al pennecchio.
 </prompt>
 <result>
-112 Viděl jsem Bellinciona Bertiho chodit
-113 opásaného kůží a kostí a přicházet od zrcadla
-114 jeho ženu bez namalovaného obličeje;
-
 115 a viděl jsem toho z Nerli a toho z Vecchio
 116 být spokojeni s odkrytou kůží
 117 a jeho ženy s kolovrátkem a přeslicí.
@@ -522,16 +608,23 @@ Please translate each line literally into Czech.
 121 L’una vegghiava a studio de la culla,
 122 e, consolando, usava l’idïoma
 123 che prima i padri e le madri trastulla;
+</prompt>
+<result>
+121 Jedna bděla a studovala u kolébky
+122 a utěšovala, používala řeč,
+123 která dříve bavila otce a matky;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 124/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 124 l’altra, traendo a la rocca la chioma,
 125 favoleggiava con la sua famiglia
 126 d’i Troiani, di Fiesole e di Roma.
 </prompt>
 <result>
-121 Jedna bděla a studovala u kolébky
-122 a utěšovala, používala řeč,
-123 která dříve bavila otce a matky;
-
 124 druhá, přitahujíc k přeslici vlasy,
 125 vyprávěla pohádky své rodině
 126 o Trojanech, Fiesole a Římu.
@@ -560,16 +653,23 @@ Please translate each line literally into Czech.
 130 A così riposato, a così bello
 131 viver di cittadini, a così fida
 132 cittadinanza, a così dolce ostello,
+</prompt>
+<result>
+130 A tak odpočatý a tak krásný
+131 život občanů, tak věrné
+132 občanství, tak sladké přístřeší,
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 133/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
 133 Maria mi diè, chiamata in alte grida;
 134 e ne l’antico vostro Batisteo
 135 insieme fui cristiano e Cacciaguida.
 </prompt>
 <result>
-130 A tak odpočatý a tak krásný
-131 život občanů, tak věrné
-132 občanství, tak sladké přístřeší,
-
 133 dala mi Maria, volaná nahlas;
 134 a ve vašem starobylém baptisteriu
 135 jsem byl pokřtěn a stal se křesťanem a Cacciaguida.
@@ -628,14 +728,21 @@ Please translate each line literally into Czech.
 145 Quivi fu’ io da quella gente turpa
 146 disviluppato dal mondo fallace,
 147 lo cui amor molt’ anime deturpa;
-
-148 e venni dal martiro a questa pace».
 </prompt>
 <result>
 145 Tam jsem byl tou ohavnou rasou
 146 vyproštěn z klamného světa,
 147 jehož láska znetvořuje mnoho duší;
+</result>
+</query>
+<query>
+<info>[Paradiso Canto 15] 148/148</info>
+<prompt>
+Please translate each line literally into Czech.
 
+148 e venni dal martiro a questa pace».
+</prompt>
+<result>
 148 a přišel jsem z mučednictví k tomuto pokoji.“
 </result>
 </query>

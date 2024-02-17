@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="45">
 <query>
 <info>[Inferno Canto 19] 1/133</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Vietnamese.
 1 O Simon mago, o miseri seguaci
 2 che le cose di Dio, che di bontate
 3 deon essere spose, e voi rapaci
+</prompt>
+<result>
+1 Hỡi Simon Magus, hỡi những kẻ theo gót khốn khổ
+2 Những kẻ biến của cải của Chúa, vốn là lòng tốt
+3 Thành của hồi môn, còn các ngươi thì tham lam
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 4/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 4 per oro e per argento avolterate,
 5 or convien che per voi suoni la tromba,
 6 però che ne la terza bolgia state.
 </prompt>
 <result>
-1 Hỡi Simon Magus, hỡi những kẻ theo gót khốn khổ
-2 Những kẻ biến của cải của Chúa, vốn là lòng tốt
-3 Thành của hồi môn, còn các ngươi thì tham lam
-
 4 Đổi chúng lấy vàng và bạc,
 5 Giờ đây tiếng kèn sẽ vang lên vì các ngươi,
 6 Bởi vì các ngươi đang ở trong vòng địa ngục thứ ba.
@@ -46,16 +53,23 @@ Please translate each line literally into Vietnamese.
 10 O somma sapïenza, quanta è l’arte
 11 che mostri in cielo, in terra e nel mal mondo,
 12 e quanto giusto tua virtù comparte!
+</prompt>
+<result>
+10 Hỡi sự khôn ngoan vô biên, thật vĩ đại biết bao
+11 Nghệ thuật mà Người thể hiện trên trời, dưới đất và trong thế giới tội lỗi này,
+12 Và công lý của Người phân chia thật công bằng biết bao!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 13/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 13 Io vidi per le coste e per lo fondo
 14 piena la pietra livida di fóri,
 15 d’un largo tutti e ciascun era tondo.
 </prompt>
 <result>
-10 Hỡi sự khôn ngoan vô biên, thật vĩ đại biết bao
-11 Nghệ thuật mà Người thể hiện trên trời, dưới đất và trong thế giới tội lỗi này,
-12 Và công lý của Người phân chia thật công bằng biết bao!
-
 13 Tôi thấy dọc theo các sườn và dưới đáy
 14 Của tảng đá xám xịt đầy những lỗ hổng,
 15 Tất cả đều lớn và tròn.
@@ -69,16 +83,23 @@ Please translate each line literally into Vietnamese.
 16 Non mi parean men ampi né maggiori
 17 che que’ che son nel mio bel San Giovanni,
 18 fatti per loco d’i battezzatori;
+</prompt>
+<result>
+16 Tôi không nghĩ chúng rộng hơn hay lớn hơn
+17 So với những cái có ở nhà thờ San Giovanni xinh đẹp của tôi,
+18 Được làm ra để làm nơi rửa tội;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 19/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 19 l’un de li quali, ancor non è molt’ anni,
 20 rupp’ io per un che dentro v’annegava:
 21 e questo sia suggel ch’ogn’ omo sganni.
 </prompt>
 <result>
-16 Tôi không nghĩ chúng rộng hơn hay lớn hơn
-17 So với những cái có ở nhà thờ San Giovanni xinh đẹp của tôi,
-18 Được làm ra để làm nơi rửa tội;
-
 19 Một trong số chúng, cách đây chưa lâu,
 20 Tôi đã đập vỡ vì một người bị chết đuối bên trong:
 21 Và điều này hãy là bằng chứng để mọi người hiểu rõ.
@@ -258,32 +279,6 @@ Please translate each line literally into Vietnamese.
 56 per lo qual non temesti tòrre a ’nganno
 57 la bella donna, e poi di farne strazio?».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "55 Ngươi đã sớm chán ngấy món của cải đó rồi sao,\n56 Thứ mà ngươi không ngại dùng thủ đoạn gian trá\n57 Để cướp đoạt người phụ nữ xinh đẹp, rồi sau đó tàn sát nàng?\"."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 55 Ngươi đã sớm chán ngấy món của cải đó rồi sao,
 56 Thứ mà ngươi không ngại dùng thủ đoạn gian trá
@@ -328,24 +323,38 @@ Please translate each line literally into Vietnamese.
 64 Per che lo spirto tutti storse i piedi;
 65 poi, sospirando e con voce di pianto,
 66 mi disse: «Dunque che a me richiedi?
+</prompt>
+<result>
+64 Vì thế, linh hồn đó co rúm hết cả chân lại;
+65 Rồi, thở dài và bằng giọng đầy ai oán,
+66 Hắn nói với tôi: "Vậy ngươi muốn hỏi ta điều gì?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 67/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 67 Se di saper ch’i’ sia ti cal cotanto,
 68 che tu abbi però la ripa corsa,
 69 sappi ch’i’ fui vestito del gran manto;
+</prompt>
+<result>
+67 Nếu ngươi khao khát biết ta là ai đến thế,
+68 Đến nỗi ngươi đã băng qua bờ vực này,
+69 Hãy biết rằng ta đã từng khoác trên mình chiếc áo choàng vĩ đại;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 70/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 70 e veramente fui figliuol de l’orsa,
 71 cupido sì per avanzar li orsatti,
 72 che sù l’avere e qui me misi in borsa.
 </prompt>
 <result>
-64 Vì thế, linh hồn đó co rúm hết cả chân lại;
-65 Rồi, thở dài và bằng giọng đầy ai oán,
-66 Hắn nói với tôi: "Vậy ngươi muốn hỏi ta điều gì?
-
-67 Nếu ngươi khao khát biết ta là ai đến thế,
-68 Đến nỗi ngươi đã băng qua bờ vực này,
-69 Hãy biết rằng ta đã từng khoác trên mình chiếc áo choàng vĩ đại;
-
 70 Và thực sự ta là con trai của con gấu cái,
 71 Tham lam đến mức để thăng tiến bầy gấu con,
 72 Ta đã nhét đầy túi tiền của mình cả ở trên đời lẫn ở đây.
@@ -389,16 +398,23 @@ Please translate each line literally into Vietnamese.
 79 Ma più è ’l tempo già che i piè mi cossi
 80 e ch’i’ son stato così sottosopra,
 81 ch’el non starà piantato coi piè rossi:
+</prompt>
+<result>
+79 Nhưng thời gian ta phải chịu đựng hình phạt này đã lâu hơn
+80 Và ta đã phải treo ngược như thế này lâu hơn,
+81 So với thời gian hắn phải đứng với đôi chân đỏ rực:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 82/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 82 ché dopo lui verrà di più laida opra,
 83 di ver’ ponente, un pastor sanza legge,
 84 tal che convien che lui e me ricuopra.
 </prompt>
 <result>
-79 Nhưng thời gian ta phải chịu đựng hình phạt này đã lâu hơn
-80 Và ta đã phải treo ngược như thế này lâu hơn,
-81 So với thời gian hắn phải đứng với đôi chân đỏ rực:
-
 82 Bởi vì sau hắn sẽ đến một kẻ làm điều còn tồi tệ hơn,
 83 Từ phương tây thực sự, một mục sư vô pháp,
 84 Đến nỗi hắn và ta đều phải khuất phục hắn.
@@ -427,18 +443,26 @@ Please translate each line literally into Vietnamese.
 88 Io non so s’i’ mi fui qui troppo folle,
 89 ch’i’ pur rispuosi lui a questo metro:
 90 «Deh, or mi dì: quanto tesoro volle
+</prompt>
+<result>
+88 Tôi không biết mình có quá điên rồ ở đây không,
+89 vì tôi đã trả lời anh ta bằng câu thơ này:
+90 "Nào, hãy nói cho tôi biết: anh ta muốn có bao nhiêu kho báu
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 91/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 91 Nostro Segnore in prima da san Pietro
 92 ch’ei ponesse le chiavi in sua balìa?
 93 Certo non chiese se non “Viemmi retro”.
 </prompt>
 <result>
-88 Tôi không biết mình có quá điên rồ ở đây không,
-89 Vì tôi đã trả lời hắn bằng những câu thơ này:
-90 "Này, hãy nói cho ta biết: Chúa chúng ta đã đòi hỏi bao nhiêu của cải
-
-91 Từ thánh Phêrô trước khi trao cho ông ta quyền cai quản chìa khóa?
-92 Chắc chắn Người không đòi hỏi gì ngoài câu nói "Hãy theo Ta".
+91 Chúa chúng ta trước tiên đã nói với thánh Phêrô
+92 rằng Người sẽ trao chìa khóa cho ông ta sao?
+93 Chắc chắn Người không yêu cầu gì ngoài "Hãy theo Ta".
 </result>
 </query>
 <query>
@@ -479,18 +503,27 @@ Please translate each line literally into Vietnamese.
 100 E se non fosse ch’ancor lo mi vieta
 101 la reverenza de le somme chiavi
 102 che tu tenesti ne la vita lieta,
+</prompt>
+<result>
+100 Và nếu không phải vì sự tôn kính
+101 đối với những chìa khóa tối cao
+102 mà ngươi nắm giữ trong cuộc sống sung sướng,
+vẫn còn ngăn cản ta,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 103/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 103 io userei parole ancor più gravi;
 104 ché la vostra avarizia il mondo attrista,
 105 calcando i buoni e sollevando i pravi.
 </prompt>
 <result>
-100 Và nếu không phải vì sự tôn kính đối với những chiếc chìa khóa tối cao
-101 Mà ngươi đã nắm giữ trong cuộc sống sung sướng,
-102 Ta sẽ dùng những lời lẽ nghiêm khắc hơn nữa;
-
-103 Vì lòng tham của các ngươi làm thế gian đau khổ,
-104 Đạp đổ những người tốt và nâng đỡ những kẻ xấu xa.
+103 ta sẽ kể cho ngươi nghe những điều nghiêm trọng hơn nữa;
+104 lòng tham của các ngươi làm đau buồn Người,
+105 chà đạp kẻ tốt và nâng đỡ kẻ xấu.
 </result>
 </query>
 <query>
@@ -501,16 +534,23 @@ Please translate each line literally into Vietnamese.
 106 Di voi pastor s’accorse il Vangelista,
 107 quando colei che siede sopra l’acque
 108 puttaneggiar coi regi a lui fu vista;
+</prompt>
+<result>
+106 Các mục sư của các ngươi đã được Nhà truyền giáo nhận ra,
+107 Khi người đàn bà ngồi trên mặt nước
+108 Được nhìn thấy đang hành nghề mại dâm với các vị vua;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 109/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 109 quella che con le sette teste nacque,
 110 e da le diece corna ebbe argomento,
 111 fin che virtute al suo marito piacque.
 </prompt>
 <result>
-106 Các mục sư của các ngươi đã được Nhà truyền giáo nhận ra,
-107 Khi người đàn bà ngồi trên mặt nước
-108 Được nhìn thấy đang hành nghề mại dâm với các vị vua;
-
 109 Kẻ được sinh ra với bảy cái đầu,
 110 Và có mười cái sừng làm bằng chứng,
 111 Cho đến khi đức hạnh làm hài lòng chồng của ả.
@@ -524,16 +564,23 @@ Please translate each line literally into Vietnamese.
 112 Fatto v’avete dio d’oro e d’argento;
 113 e che altro è da voi a l’idolatre,
 114 se non ch’elli uno, e voi ne orate cento?
+</prompt>
+<result>
+112 Các ngươi đã biến vàng bạc thành thần của mình;
+113 Và các ngươi khác gì những kẻ thờ thần tượng,
+114 Ngoại trừ việc họ thờ một thần, còn các ngươi thì thờ hàng trăm thần?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 19] 115/133</info>
+<prompt>
+Please translate each line literally into Vietnamese.
 
 115 Ahi, Costantin, di quanto mal fu matre,
 116 non la tua conversion, ma quella dote
 117 che da te prese il primo ricco patre!».
 </prompt>
 <result>
-112 Các ngươi đã biến vàng bạc thành thần của mình;
-113 Và các ngươi khác gì những kẻ thờ thần tượng,
-114 Ngoại trừ việc họ thờ một thần, còn các ngươi thì thờ hàng trăm thần?
-
 115 Hỡi Constantine, ngươi đã gây ra bao nhiêu điều xấu,
 116 Không phải vì sự cải đạo của ngươi, mà vì của hồi môn
 117 Mà ngươi đã trao cho vị Giáo hoàng giàu có đầu tiên!".
@@ -548,32 +595,6 @@ Please translate each line literally into Vietnamese.
 119 o ira o coscïenza che ’l mordesse,
 120 forte spingava con ambo le piote.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "118 Và trong khi tôi hát cho hắn nghe những lời lẽ như vậy,\n119 Hoặc vì giận dữ hoặc vì lương tâm cắn rứt,\n120 Hắn đạp mạnh bằng cả hai chân."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 118 Và trong khi tôi hát cho hắn nghe những lời lẽ như vậy,
 119 Hoặc vì giận dữ hoặc vì lương tâm cắn rứt,

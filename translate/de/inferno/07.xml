@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries error="0" count="44">
 <query>
 <info>[Inferno Canto 7] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into German.
 1 «Pape Satàn, pape Satàn aleppe!»,
 2 cominciò Pluto con la voce chioccia;
 3 e quel savio gentil, che tutto seppe,
+</prompt>
+<result>
+1 „Papst Satan, Papst Satan Aleppe!“,
+2 begann Pluto mit krächzender Stimme;
+3 und jener weise Edle, der alles wusste,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 4/130</info>
+<prompt>
+Please translate each line literally into German.
 
 4 disse per confortarmi: «Non ti noccia
 5 la tua paura; ché, poder ch’elli abbia,
 6 non ci torrà lo scender questa roccia».
 </prompt>
 <result>
-1 „Papst Satan, Papst Satan Aleppe!“,
-2 begann Pluto mit krächzender Stimme;
-3 und jener weise Edle, der alles wusste,
-
 4 sagte, um mich zu trösten: „Deine Angst soll dir
 5 nicht schaden; denn welche Macht er auch haben mag,
 6 er wird uns nicht daran hindern, diesen Felsen hinabzusteigen.“
@@ -91,16 +98,23 @@ Please translate each line literally into German.
 19 Ahi giustizia di Dio! tante chi stipa
 20 nove travaglie e pene quant’ io viddi?
 21 e perché nostra colpa sì ne scipa?
+</prompt>
+<result>
+19 Ach, Gerechtigkeit Gottes! Wie viele drängt
+20 neue Qualen und Strafen, wie ich sie sah?
+21 Und warum vernichtet uns unsere Schuld so?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 22/130</info>
+<prompt>
+Please translate each line literally into German.
 
 22 Come fa l’onda là sovra Cariddi,
 23 che si frange con quella in cui s’intoppa,
 24 così convien che qui la gente riddi.
 </prompt>
 <result>
-19 Ach, Gerechtigkeit Gottes! Wie viele drängt
-20 neue Qualen und Strafen, wie ich sie sah?
-21 Und warum vernichtet uns unsere Schuld so?
-
 22 Wie die Welle dort oben bei Charybdis,
 23 die sich an der bricht, auf die sie trifft,
 24 so muss hier die Menge tanzen.
@@ -144,33 +158,38 @@ Please translate each line literally into German.
 31 Così tornavan per lo cerchio tetro
 32 da ogne mano a l’opposito punto,
 33 gridandosi anche loro ontoso metro;
-
-34 poi si volgea ciascun, quand’ era giunto,
-35 per lo suo mezzo cerchio a l’altra giostra.
 </prompt>
 <result>
 31 So kehrten sie durch den düsteren Kreis
 32 von jeder Seite zum gegenüberliegenden Punkt zurück,
 33 wobei sie sich gegenseitig schimpfliche Worte zuriefen;
-
-34 dann drehte sich jeder um, wenn er angekommen war,
-35 durch seinen Halbkreis zum anderen Wettkampf.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 36/130</info>
+<info>[Inferno Canto 7] 34/130</info>
 <prompt>
 Please translate each line literally into German.
 
+34 poi si volgea ciascun, quand’ era giunto,
+35 per lo suo mezzo cerchio a l’altra giostra.
 36 E io, ch’avea lo cor quasi compunto,
+</prompt>
+<result>
+34 dann drehte sich jeder um, wenn er angekommen war,
+35 durch seinen Halbkreis zum anderen Wettkampf.
+36 Und ich, dessen Herz fast gebrochen war,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 37/130</info>
+<prompt>
+Please translate each line literally into German.
 
 37 dissi: «Maestro mio, or mi dimostra
 38 che gente è questa, e se tutti fuor cherci
 39 questi chercuti a la sinistra nostra».
 </prompt>
 <result>
-36 Und ich, dessen Herz fast gebrochen war,
-
 37 sagte: „Meister, zeige mir jetzt,
 38 was für Leute das sind, und ob alle Geistliche waren
 39 diese Tonsurierten zu unserer Linken.“
@@ -289,16 +308,23 @@ Please translate each line literally into German.
 61 Or puoi, figliuol, veder la corta buffa
 62 d’i ben che son commessi a la fortuna,
 63 per che l’umana gente si rabbuffa;
+</prompt>
+<result>
+61 Nun kannst du, mein Sohn, die kurze Posse sehen
+62 der Güter, die dem Glück anvertraut sind,
+63 weswegen sich die Menschheit streitet;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 64/130</info>
+<prompt>
+Please translate each line literally into German.
 
 64 ché tutto l’oro ch’è sotto la luna
 65 e che già fu, di quest’ anime stanche
 66 non poterebbe farne posare una».
 </prompt>
 <result>
-61 Nun kannst du, mein Sohn, die kurze Posse sehen
-62 der Güter, die dem Glück anvertraut sind,
-63 weswegen sich die Menschheit streitet;
-
 64 denn alles Gold, das unter dem Mond ist
 65 und das es je gab, könnte diese müden Seelen
 66 nicht eine einzige zur Ruhe bringen.
@@ -328,32 +354,6 @@ Please translate each line literally into German.
 71 quanta ignoranza è quella che v’offende!
 72 Or vo’ che tu mia sentenza ne ’mbocche.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 Und er zu mir: „Oh, ihr törichten Geschöpfe,\n71 wie viel Unwissenheit ist es, die euch beleidigt!\n72 Nun will ich, dass du meinen Urteilsspruch in dich aufnimmst."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 70 Und er zu mir: „Oh, ihr törichten Geschöpfe,
 71 wie viel Unwissenheit ist es, die euch beleidigt!
@@ -368,41 +368,53 @@ Please translate each line literally into German.
 73 Colui lo cui saver tutto trascende,
 74 fece li cieli e diè lor chi conduce
 75 sì, ch’ogne parte ad ogne parte splende,
-
-76 distribuendo igualmente la luce.
 </prompt>
 <result>
 73 Derjenige, dessen Wissen alles übersteigt,
 74 schuf die Himmel und gab ihnen jemanden, der sie führt,
 75 so dass jeder Teil jedem anderen Teil leuchtet,
-
-76 wobei er das Licht gleichmäßig verteilt.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 77/130</info>
+<info>[Inferno Canto 7] 76/130</info>
 <prompt>
 Please translate each line literally into German.
 
+76 distribuendo igualmente la luce.
 77 Similemente a li splendor mondani
 78 ordinò general ministra e duce
+</prompt>
+<result>
+76 wobei er das Licht gleichmäßig verteilt.
+77 Ebenso ordnete er für die weltlichen Glanzlichter
+78 eine allgemeine Verwalterin und Führerin an,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 79/130</info>
+<prompt>
+Please translate each line literally into German.
 
 79 che permutasse a tempo li ben vani
 80 di gente in gente e d’uno in altro sangue,
 81 oltre la difension d’i senni umani;
+</prompt>
+<result>
+79 die die nichtigen Güter
+80 von Volk zu Volk und von einem Geschlecht zum anderen vertauschen sollte,
+81 jenseits der Verteidigung der menschlichen Sinne;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 82/130</info>
+<prompt>
+Please translate each line literally into German.
 
 82 per ch’una gente impera e l’altra langue,
 83 seguendo lo giudicio di costei,
 84 che è occulto come in erba l’angue.
 </prompt>
 <result>
-77 Ebenso ordnete er für die weltlichen Glanzlichter
-78 eine allgemeine Verwalterin und Führerin an,
-
-79 die die nichtigen Güter
-80 von Volk zu Volk und von einem Geschlecht zum anderen vertauschen sollte,
-81 jenseits der Verteidigung der menschlichen Sinne;
-
 82 weshalb ein Volk herrscht und das andere leidet,
 83 indem es dem Urteil dieser folgt,
 84 das so verborgen ist wie eine Schlange im Gras.
@@ -446,16 +458,23 @@ Please translate each line literally into German.
 91 Quest’ è colei ch’è tanto posta in croce
 92 pur da color che le dovrien dar lode,
 93 dandole biasmo a torto e mala voce;
+</prompt>
+<result>
+91 Das ist sie, die so sehr ans Kreuz geschlagen wird,
+92 gerade von denen, die sie loben sollten,
+93 indem sie ihr zu Unrecht Tadel und böse Worte geben;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 94/130</info>
+<prompt>
+Please translate each line literally into German.
 
 94 ma ella s’è beata e ciò non ode:
 95 con l’altre prime creature lieta
 96 volve sua spera e beata si gode.
 </prompt>
 <result>
-91 Das ist sie, die so sehr ans Kreuz geschlagen wird,
-92 gerade von denen, die sie loben sollten,
-93 indem sie ihr zu Unrecht Tadel und böse Worte geben;
-
 94 aber sie ist selig und hört das nicht:
 95 Zusammen mit den anderen ersten Geschöpfen
 96 dreht sie ihre Sphäre und erfreut sich ihrer Seligkeit.
@@ -530,32 +549,6 @@ Please translate each line literally into German.
 110 vidi genti fangose in quel pantano,
 111 ignude tutte, con sembiante offeso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 Und ich, der ich aufmerksam hinsah,\n110 sah schlammige Menschen in diesem Sumpf,\n111 alle nackt, mit verletztem Aussehen."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 109 Und ich, der ich aufmerksam hinsah,
 110 sah schlammige Menschen in diesem Sumpf,
@@ -585,16 +578,23 @@ Please translate each line literally into German.
 115 Lo buon maestro disse: «Figlio, or vedi
 116 l’anime di color cui vinse l’ira;
 117 e anche vo’ che tu per certo credi
+</prompt>
+<result>
+115 Der gute Meister sagte: „Sohn, nun siehst du
+116 die Seelen derer, die der Zorn besiegt hat;
+117 und ich möchte auch, dass du mit Sicherheit glaubst,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 118/130</info>
+<prompt>
+Please translate each line literally into German.
 
 118 che sotto l’acqua è gente che sospira,
 119 e fanno pullular quest’ acqua al summo,
 120 come l’occhio ti dice, u’ che s’aggira.
 </prompt>
 <result>
-115 Der gute Meister sagte: „Sohn, nun siehst du
-116 die Seelen derer, die der Zorn besiegt hat;
-117 und ich möchte auch, dass du mit Sicherheit glaubst,
-
 118 dass unter dem Wasser Menschen sind, die seufzen,
 119 und sie lassen dieses Wasser an der Oberfläche sprudeln,
 120 wie dein Auge dir sagt, wo es sich bewegt.“
@@ -608,33 +608,38 @@ Please translate each line literally into German.
 121 Fitti nel limo dicon: “Tristi fummo
 122 ne l’aere dolce che dal sol s’allegra,
 123 portando dentro accidïoso fummo:
-
-124 or ci attristiam ne la belletta negra”.
 </prompt>
 <result>
 121 Im Schlamm versunken, sagen sie: „Traurig waren wir
 122 in der süßen Luft, die sich an der Sonne erfreut,
 123 wobei wir neidischen Rauch in uns trugen:
-
-124 nun sind wir traurig in der schwarzen Schminke.“
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 125/130</info>
+<info>[Inferno Canto 7] 124/130</info>
 <prompt>
 Please translate each line literally into German.
 
+124 or ci attristiam ne la belletta negra”.
 125 Quest’ inno si gorgoglian ne la strozza,
 126 ché dir nol posson con parola integra».
+</prompt>
+<result>
+124 nun sind wir traurig in der schwarzen Schminke.“
+125 Diese Hymne gurgeln sie in der Kehle,
+126 denn sie können sie nicht mit ganzen Worten sagen.“
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 127/130</info>
+<prompt>
+Please translate each line literally into German.
 
 127 Così girammo de la lorda pozza
 128 grand’ arco tra la ripa secca e ’l mézzo,
 129 con li occhi vòlti a chi del fango ingozza.
 </prompt>
 <result>
-125 Diese Hymne gurgeln sie in der Kehle,
-126 denn sie können sie nicht mit ganzen Worten sagen.“
-
 127 So umrundeten wir den schmutzigen Sumpf
 128 in einem großen Bogen zwischen dem trockenen Ufer und der Mitte,
 129 wobei wir unsere Augen auf diejenigen richteten, die den Schlamm verschlingen.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="51">
 <query>
 <info>[Purgatorio Canto 20] 1/151</info>
 <prompt>
@@ -23,16 +23,23 @@ Please translate each line literally into Bulgarian.
 4 Mossimi; e ’l duca mio si mosse per li
 5 luoghi spediti pur lungo la roccia,
 6 come si va per muro stretto a’ merli;
+</prompt>
+<result>
+4 Тръгнах; и моят водач тръгна през
+5 свободните места покрай скалата,
+6 както се върви по тесен зид до бойниците;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 7/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 7 ché la gente che fonde a goccia a goccia
 8 per li occhi il mal che tutto ’l mondo occupa,
 9 da l’altra parte in fuor troppo s’approccia.
 </prompt>
 <result>
-4 Тръгнах; и моят водач тръгна през
-5 свободните места покрай скалата,
-6 както се върви по тесен зид до бойниците;
-
 7 защото хората, които изливат капка по капка
 8 през очите злото, което обхваща целия свят,
 9 от другата страна твърде много се приближават.
@@ -46,66 +53,68 @@ Please translate each line literally into Bulgarian.
 10 Maladetta sie tu, antica lupa,
 11 che più che tutte l’altre bestie hai preda
 12 per la tua fame sanza fine cupa!
+</prompt>
+<result>
+10 Проклета да си ти, стара вълчице,
+11 която повече от всички други зверове имаш плячка
+12 заради твоя ненаситен глад!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 13/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 13 O ciel, nel cui girar par che si creda
 14 le condizion di qua giù trasmutarsi,
 15 quando verrà per cui questa disceda?
+</prompt>
+<result>
+13 О, небе, в чието въртене изглежда, че се вярва,
+14 че условията тук долу се променят,
+15 кога ще дойде този, заради когото тя ще си отиде?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 16/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 16 Noi andavam con passi lenti e scarsi,
 17 e io attento a l’ombre, ch’i’ sentia
 18 pietosamente piangere e lagnarsi;
+</prompt>
+<result>
+16 Ние вървяхме с бавни и редки стъпки,
+17 а аз внимавах за сенките, които чувах
+18 да плачат и да се оплакват жално;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 19/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 19 e per ventura udi’ «Dolce Maria!»
 20 dinanzi a noi chiamar così nel pianto
 21 come fa donna che in parturir sia;
+</prompt>
+<result>
+19 и случайно чух „Сладка Мария!“
+20 пред нас някой да извика така в плача,
+21 както прави жена, която ражда;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 22/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 22 e seguitar: «Povera fosti tanto,
 23 quanto veder si può per quello ospizio
 24 dove sponesti il tuo portato santo».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 Проклета да си ти, стара вълчице,\n11 която повече от всички други зверове имаш плячка\n12 заради твоя ненаситен глад!\n\n13 О, небе, в чието въртене изглежда, че се вярва,\n14 че условията тук долу се променят,\n15 кога ще дойде този, заради когото тя ще си отиде?\n\n16 Ние вървяхме с бавни и редки стъпки,\n17 а аз внимавах за сенките, които чувах\n18 да плачат и да се оплакват жално;\n\n19 и случайно чух „Сладка Мария!“\n20 пред нас някой да извика така в плача,\n21 както прави жена, която ражда;\n\n22 и продължи: „Беше толкова бедна,\n23 колкото може да се види от онова място,\n24 където роди твоето свято дете“."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-10 Проклета да си ти, стара вълчице,
-11 която повече от всички други зверове имаш плячка
-12 заради твоя ненаситен глад!
-
-13 О, небе, в чието въртене изглежда, че се вярва,
-14 че условията тук долу се променят,
-15 кога ще дойде този, заради когото тя ще си отиде?
-
-16 Ние вървяхме с бавни и редки стъпки,
-17 а аз внимавах за сенките, които чувах
-18 да плачат и да се оплакват жално;
-
-19 и случайно чух „Сладка Мария!“
-20 пред нас някой да извика така в плача,
-21 както прави жена, която ражда;
-
 22 и продължи: „Беше толкова бедна,
 23 колкото може да се види от онова място,
 24 където роди твоето свято дете“.
@@ -254,26 +263,41 @@ Please translate each line literally into Bulgarian.
 52 Figliuol fu’ io d’un beccaio di Parigi:
 53 quando li regi antichi venner meno
 54 tutti, fuor ch’un renduto in panni bigi,
+</prompt>
+<result>
+52 Син бях на един касапин от Париж:
+53 когато древните крале всички загинаха,
+54 освен един, облечен в сиви дрехи,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 55/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 55 trova’mi stretto ne le mani il freno
 56 del governo del regno, e tanta possa
 57 di nuovo acquisto, e sì d’amici pieno,
+</prompt>
+<result>
+55 намерих в ръцете си здраво юздите
+56 на управлението на кралството и такава мощ
+57 от ново придобиване и толкова пълен с приятели,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 58/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 58 ch’a la corona vedova promossa
 59 la testa di mio figlio fu, dal quale
 60 cominciar di costor le sacrate ossa.
 </prompt>
 <result>
-52 Син бях на един касапин от Париж:
-53 когато древните крале изчезнаха
-54 всички, освен един, облечен в сиви дрехи,
-
-55 намерих се здраво стиснал юздите
-56 на управлението на кралството и толкова власт
-57 от новото придобиване и толкова пълен с приятели,
-
-58 че главата на сина ми беше издигната до вдовишката корона, от когото
-59 започнаха свещените кости на тези.
+58 че към вдовишката корона бе издигната
+59 главата на моя син, от когото
+60 започнаха свещените кости на тези.
 </result>
 </query>
 <query>
@@ -375,32 +399,6 @@ Please translate each line literally into Bulgarian.
 80 veggio vender sua figlia e patteggiarne
 81 come fanno i corsar de l’altre schiave.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "79 Другият, който вече излезе заловен от кораб,\n80 виждам да продава дъщеря си и да се пазари за нея\n81 както правят корсарите с другите робини."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 79 Другият, който вече излезе заловен от кораб,
 80 виждам да продава дъщеря си и да се пазари за нея
@@ -415,16 +413,23 @@ Please translate each line literally into Bulgarian.
 82 O avarizia, che puoi tu più farne,
 83 poscia c’ha’ il mio sangue a te sì tratto,
 84 che non si cura de la propria carne?
+</prompt>
+<result>
+82 О, алчност, какво повече можеш да направиш,
+83 след като си привлякла кръвта ми към себе си,
+84 че не се грижи за собствената си плът?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 85/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 85 Perché men paia il mal futuro e ’l fatto,
 86 veggio in Alagna intrar lo fiordaliso,
 87 e nel vicario suo Cristo esser catto.
 </prompt>
 <result>
-82 О, алчност, какво повече можеш да направиш,
-83 след като си привлякла кръвта ми към себе си,
-84 че не се грижи за собствената си плът?
-
 85 За да ми се струва по-малко злото в бъдеще и в миналото,
 86 виждам как френският кралски герб влиза в Аланя,
 87 и неговият наместник да е католик.
@@ -439,32 +444,6 @@ Please translate each line literally into Bulgarian.
 89 veggio rinovellar l’aceto e ’l fiele,
 90 e tra vivi ladroni esser anciso.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "88 Виждам го отново да бъде осмиван;\n89 виждам как се подновяват оцетът и жлъчката,\n90 и да бъде убит сред живи разбойници."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 88 Виждам го отново да бъде осмиван;
 89 виждам как се подновяват оцетът и жлъчката,
@@ -494,24 +473,38 @@ Please translate each line literally into Bulgarian.
 94 O Segnor mio, quando sarò io lieto
 95 a veder la vendetta che, nascosa,
 96 fa dolce l’ira tua nel tuo secreto?
+</prompt>
+<result>
+94 О, Господи мой, кога ще се зарадвам
+95 да видя отмъщението, което, скрито,
+96 прави гнева Ти сладък в тайната Ти?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 97/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 97 Ciò ch’io dicea di quell’ unica sposa
 98 de lo Spirito Santo e che ti fece
 99 verso me volger per alcuna chiosa,
+</prompt>
+<result>
+97 Това, което казах за тази единствена съпруга
+98 на Светия Дух и която те накара
+99 да се обърнеш към мен за някакво тълкуване,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 100/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 100 tanto è risposto a tutte nostre prece
 101 quanto ’l dì dura; ma com’ el s’annotta,
 102 contrario suon prendemo in quella vece.
 </prompt>
 <result>
-94 О, Господи мой, кога ще се зарадвам
-95 да видя отмъщението, което, скрито,
-96 прави гнева Ти сладък в тайната Ти?
-
-97 Това, което казах за тази единствена съпруга
-98 на Светия Дух и която те накара
-99 да се обърнеш към мен за някакво тълкуване,
-
 100 е отговорено на всички наши молби
 101 колкото трае денят; но щом се стъмни,
 102 приемаме обратен звук вместо това.
@@ -525,16 +518,23 @@ Please translate each line literally into Bulgarian.
 103 Noi repetiam Pigmalïon allotta,
 104 cui traditore e ladro e paricida
 105 fece la voglia sua de l’oro ghiotta;
+</prompt>
+<result>
+103 Тогава повтаряхме за Пигмалион,
+104 когото алчността му към златото направи
+105 предател, крадец и детоубиец;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 106/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 106 e la miseria de l’avaro Mida,
 107 che seguì a la sua dimanda gorda,
 108 per la qual sempre convien che si rida.
 </prompt>
 <result>
-103 Тогава повтаряхме за Пигмалион,
-104 когото алчността му към златото направи
-105 предател, крадец и детоубиец;
-
 106 и мизерията на скъперника Мида,
 107 който последва алчната си молба,
 108 заради която винаги трябва да се смеем.
@@ -549,32 +549,6 @@ Please translate each line literally into Bulgarian.
 110 come furò le spoglie, sì che l’ira
 111 di Iosüè qui par ch’ancor lo morda.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "109 Всеки си спомня за глупавия Ахан,\n110 как открадна плячката, така че гневът\n111 на Исус Навин тук изглежда, че все още го хапе."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 109 Всеки си спомня за глупавия Ахан,
 110 как открадна плячката, така че гневът
@@ -589,16 +563,23 @@ Please translate each line literally into Bulgarian.
 112 Indi accusiam col marito Saffira;
 113 lodiam i calci ch’ebbe Elïodoro;
 114 e in infamia tutto ’l monte gira
+</prompt>
+<result>
+112 След това обвинявахме Сапфира заедно със съпруга ѝ;
+113 хвалехме ритниците, които получи Хелиодор;
+114 и целият хълм обикаля в позор
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 115/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 115 Polinestòr ch’ancise Polidoro;
 116 ultimamente ci si grida: “Crasso,
 117 dilci, che ’l sai: di che sapore è l’oro?”.
 </prompt>
 <result>
-112 След това обвинявахме Сапфира заедно със съпруга ѝ;
-113 хвалехме ритниците, които получи Хелиодор;
-114 и целият хълм обикаля в позор
-
 115 Полинестор, който уби Полидор;
 116 накрая ни се вика: „Красе,
 117 кажи ни, че знаеш: какъв е вкусът на златото?“.
@@ -612,16 +593,23 @@ Please translate each line literally into Bulgarian.
 118 Talor parla l’uno alto e l’altro basso,
 119 secondo l’affezion ch’ad ir ci sprona
 120 ora a maggiore e ora a minor passo:
+</prompt>
+<result>
+118 Понякога единият говори високо, а другият ниско,
+119 според привързаността, която ни подтиква да вървим
+120 ту с по-бърза, ту с по-бавна крачка:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 121/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 121 però al ben che ’l dì ci si ragiona,
 122 dianzi non era io sol; ma qui da presso
 123 non alzava la voce altra persona».
 </prompt>
 <result>
-118 Понякога единият говори високо, а другият ниско,
-119 според привързаността, която ни подтиква да вървим
-120 ту с по-бърза, ту с по-бавна крачка:
-
 121 затова за доброто, за което говорим през деня,
 122 преди това не бях сам; но тук наблизо
 123 никой друг не вдигаше глас“.
@@ -635,16 +623,23 @@ Please translate each line literally into Bulgarian.
 124 Noi eravam partiti già da esso,
 125 e brigavam di soverchiar la strada
 126 tanto quanto al poder n’era permesso,
+</prompt>
+<result>
+124 Вече бяхме тръгнали от него,
+125 и се борехме да изминем пътя
+126 толкова, колкото ни позволяваше силата,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 127/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
 127 quand’ io senti’, come cosa che cada,
 128 tremar lo monte; onde mi prese un gelo
 129 qual prender suol colui ch’a morte vada.
 </prompt>
 <result>
-124 Вече бяхме тръгнали от него,
-125 и се борехме да изминем пътя
-126 толкова, колкото ни позволяваше силата,
-
 127 когато чух, като нещо, което пада,
 128 планината да трепери; от което ме обхвана студ
 129 какъвто обикновено обхваща този, който отива на смърт.
@@ -733,22 +728,36 @@ Please translate each line literally into Bulgarian.
 145 Nulla ignoranza mai con tanta guerra
 146 mi fé desideroso di sapere,
 147 se la memoria mia in ciò non erra,
-
-148 quanta pareami allor, pensando, avere;
-149 né per la fretta dimandare er’ oso,
-150 né per me lì potea cosa vedere:
-
-151 così m’andava timido e pensoso.
 </prompt>
 <result>
 145 Никога невежеството не ме е карало с толкова голяма страст
 146 да желая да знам,
 147 ако паметта ми не греши в това,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 148/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
+148 quanta pareami allor, pensando, avere;
+149 né per la fretta dimandare er’ oso,
+150 né per me lì potea cosa vedere:
+</prompt>
+<result>
 148 колкото ми се струваше тогава, като си помисля, че имам;
 149 нито пък смеех да попитам заради бързането,
 150 нито пък там можех да видя нещо за себе си:
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 20] 151/151</info>
+<prompt>
+Please translate each line literally into Bulgarian.
 
+151 così m’andava timido e pensoso.
+</prompt>
+<result>
 151 така вървях плахо и замислен.
 </result>
 </query>

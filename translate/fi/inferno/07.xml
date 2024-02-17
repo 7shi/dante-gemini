@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="35">
+<queries count="44">
 <query>
 <info>[Inferno Canto 7] 1/130</info>
 <prompt>
@@ -8,18 +8,26 @@ Please translate each line literally into Finnish.
 1 «Pape Satàn, pape Satàn aleppe!»,
 2 cominciò Pluto con la voce chioccia;
 3 e quel savio gentil, che tutto seppe,
+</prompt>
+<result>
+1 "Paavi Saatana, paavi Saatana aleppe!",
+2 aloitti Pluto käheällä äänellään;
+3 ja se viisas herrasmies, joka tiesi kaiken,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 4/130</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 4 disse per confortarmi: «Non ti noccia
 5 la tua paura; ché, poder ch’elli abbia,
 6 non ci torrà lo scender questa roccia».
 </prompt>
 <result>
-1 "Pape Satàn, pape Satàn aleppe!",
-2 aloitti Pluto käheällä äänellään;
-3 ja se viisas ja jalos runoilija, joka tiesi kaiken,
-
-4 sanoi lohduttaakseen minua: "Älä anna pelkosi häiritä; sillä vaikka hänellä onkin valtaa,
-5 se ei estä meitä laskeutumasta tältä kalliolta".
+4 sanoi lohduttaakseen minua: "Älä anna
+5 pelkosi vahingoittaa sinua; sillä vaikka hänellä on valtaa,
+6 hän ei estä meitä laskeutumasta tältä kalliolta".
 </result>
 </query>
 <query>
@@ -31,32 +39,6 @@ Please translate each line literally into Finnish.
 8 e disse: «Taci, maladetto lupo!
 9 consuma dentro te con la tua rabbia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "7 Sitten hän kääntyi tuohon turvonneeseen suuhun\n8 ja sanoi: \"Ole hiljaa, kirottu susi!\n9 Kuluta itsesi loppuun raivossasi."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 7 Sitten hän kääntyi tuohon turvonneeseen suuhun
 8 ja sanoi: "Ole hiljaa, kirottu susi!
@@ -116,18 +98,26 @@ Please translate each line literally into Finnish.
 19 Ahi giustizia di Dio! tante chi stipa
 20 nove travaglie e pene quant’ io viddi?
 21 e perché nostra colpa sì ne scipa?
+</prompt>
+<result>
+19 Voi Jumalan oikeudenmukaisuutta! Kuinka monta uutta
+20 kärsimystä ja rangaistusta näin siellä?
+21 Ja miksi meidän syntimme niin tuhoavat meidät?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 22/130</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 22 Come fa l’onda là sovra Cariddi,
 23 che si frange con quella in cui s’intoppa,
 24 così convien che qui la gente riddi.
 </prompt>
 <result>
-19 Voi, Jumalan oikeudenmukaisuus! Kuinka monta uutta kärsimystä ja rangaistusta näin siellä ahdettuna?
-20 Ja miksi meidän rikkomuksemme niin tuhoaa meidät?
-
-22 Kuten aalto siellä ylhäällä Karybdiksessa,
-23 joka törmää vastakkaiseen aaltoon ja särkyy,
-24 niin on täällä ihmisten pyörittävä kehää.
+22 Kuten aalto tekee siellä Karybdiksen yllä,
+23 joka murtuu siihen, johon se törmää,
+24 niin on täällä ihmisten pyörittävä.
 </result>
 </query>
 <query>
@@ -168,35 +158,41 @@ Please translate each line literally into Finnish.
 31 Così tornavan per lo cerchio tetro
 32 da ogne mano a l’opposito punto,
 33 gridandosi anche loro ontoso metro;
-
-34 poi si volgea ciascun, quand’ era giunto,
-35 per lo suo mezzo cerchio a l’altra giostra.
 </prompt>
 <result>
 31 Näin he palasivat synkän kehän ympäri
 32 kummaltakin puolelta vastakkaiseen pisteeseen,
 33 huutaen toisilleen myös häpeällisiä sanoja;
-
-34 sitten he kääntyivät kukin, kun he olivat saapuneet,
-35 oman puolensa kautta toiselle kierrokselle.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 36/130</info>
+<info>[Inferno Canto 7] 34/130</info>
 <prompt>
 Please translate each line literally into Finnish.
 
+34 poi si volgea ciascun, quand’ era giunto,
+35 per lo suo mezzo cerchio a l’altra giostra.
 36 E io, ch’avea lo cor quasi compunto,
+</prompt>
+<result>
+34 sitten kukin kääntyi, kun oli saapunut,
+35 omaa puoliskoaan pitkin toiselle kierrokselle.
+36 Ja minä, jonka sydän oli lähes särkynyt,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 37/130</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 37 dissi: «Maestro mio, or mi dimostra
 38 che gente è questa, e se tutti fuor cherci
 39 questi chercuti a la sinistra nostra».
 </prompt>
 <result>
-36 Ja minä, jonka sydän oli lähes särkynyt,
-
-37 sanoin: "Opettajani, osoita minulle nyt,
-38 keitä nämä ihmiset ovat, ja olivatko kaikki nämä vasemmalla puolellamme olevat leikattuja pappeja".
+37 sanoin: «Opettajani, osoita minulle nyt,
+38 keitä nämä ihmiset ovat, ja olivatko kaikki munkkeja
+39 nämä meidän vasemmalla puolellamme olevat haavoitetut».
 </result>
 </query>
 <query>
@@ -312,16 +308,23 @@ Please translate each line literally into Finnish.
 61 Or puoi, figliuol, veder la corta buffa
 62 d’i ben che son commessi a la fortuna,
 63 per che l’umana gente si rabbuffa;
+</prompt>
+<result>
+61 Nyt voit, poikani, nähdä lyhyen pilailun
+62 onnesta, joka on uskottu onnelle,
+63 minkä vuoksi ihmiset riitelevät keskenään;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 64/130</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 64 ché tutto l’oro ch’è sotto la luna
 65 e che già fu, di quest’ anime stanche
 66 non poterebbe farne posare una».
 </prompt>
 <result>
-61 Nyt voit, poikani, nähdä lyhyen pilailun
-62 onnesta, joka on uskottu onnelle,
-63 minkä vuoksi ihmiset riitelevät keskenään;
-
 64 sillä kaikki kulta, joka on kuun alla
 65 ja joka on ollut, ei voisi saada yhtäkään näistä väsyneistä sieluista
 66 lepäämään.
@@ -351,32 +354,6 @@ Please translate each line literally into Finnish.
 71 quanta ignoranza è quella che v’offende!
 72 Or vo’ che tu mia sentenza ne ’mbocche.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "70 Ja hän minulle: \"Oi te tyhmät olennot,\n71 kuinka paljon tietämättömyyttä teitä loukkaakaan!\n72 Nyt haluan, että otat vastaan minun tuomioni."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 70 Ja hän minulle: "Oi te tyhmät olennot,
 71 kuinka paljon tietämättömyyttä teitä loukkaakaan!
@@ -391,41 +368,53 @@ Please translate each line literally into Finnish.
 73 Colui lo cui saver tutto trascende,
 74 fece li cieli e diè lor chi conduce
 75 sì, ch’ogne parte ad ogne parte splende,
-
-76 distribuendo igualmente la luce.
 </prompt>
 <result>
 73 Hän, jonka tieto ylittää kaiken,
 74 loi taivaat ja antoi niille johtajan,
 75 niin että jokainen osa loistaa jokaista osaa kohti,
-
-76 jakamalla valon tasaisesti.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 77/130</info>
+<info>[Inferno Canto 7] 76/130</info>
 <prompt>
 Please translate each line literally into Finnish.
 
+76 distribuendo igualmente la luce.
 77 Similemente a li splendor mondani
 78 ordinò general ministra e duce
+</prompt>
+<result>
+76 jakamalla valon tasaisesti.
+77 Samoin hän määräsi maallisten loistojen
+78 yleisen palvelijan ja johtajan,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 79/130</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 79 che permutasse a tempo li ben vani
 80 di gente in gente e d’uno in altro sangue,
 81 oltre la difension d’i senni umani;
+</prompt>
+<result>
+79 joka vaihtaisi ajoittain turhat hyvät
+80 kansasta kansaan ja verestä toiseen,
+81 ihmisten järjen puolustuksen ulkopuolella;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 82/130</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 82 per ch’una gente impera e l’altra langue,
 83 seguendo lo giudicio di costei,
 84 che è occulto come in erba l’angue.
 </prompt>
 <result>
-77 Samoin hän määräsi maallisten loistojen
-78 yleisen palvelijan ja johtajan,
-
-79 joka vaihtaisi ajoittain turhat hyvät
-80 kansasta kansaan ja verestä toiseen,
-81 ihmisten järjen puolustuksen ulkopuolella;
-
 82 siksi yksi kansa hallitsee ja toinen kärsii,
 83 seuraten tämän naisen tuomiota,
 84 joka on piilossa kuin käärme ruohossa.
@@ -469,16 +458,23 @@ Please translate each line literally into Finnish.
 91 Quest’ è colei ch’è tanto posta in croce
 92 pur da color che le dovrien dar lode,
 93 dandole biasmo a torto e mala voce;
+</prompt>
+<result>
+91 Tämä on se, joka on niin paljon ristiinnaulittu
+92 juuri niiden toimesta, joiden pitäisi ylistää häntä,
+93 antamalla hänelle syytökset väärin ja huonon maineen;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 94/130</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 94 ma ella s’è beata e ciò non ode:
 95 con l’altre prime creature lieta
 96 volve sua spera e beata si gode.
 </prompt>
 <result>
-91 Tämä on se, joka on niin paljon ristiinnaulittu
-92 juuri niiden toimesta, joiden pitäisi ylistää häntä,
-93 antamalla hänelle syytökset väärin ja huonon maineen;
-
 94 mutta hän on autuas eikä kuule sitä:
 95 iloisena muiden ensimmäisten olentojen kanssa
 96 hän pyörittää palloaan ja nauttii autuudestaan.
@@ -582,16 +578,23 @@ Please translate each line literally into Finnish.
 115 Lo buon maestro disse: «Figlio, or vedi
 116 l’anime di color cui vinse l’ira;
 117 e anche vo’ che tu per certo credi
+</prompt>
+<result>
+115 Hyvä opettaja sanoi: "Poikani, nyt näet
+116 niiden sielut, jotka viha voitti;
+117 ja haluan myös, että uskot varmasti,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 118/130</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 118 che sotto l’acqua è gente che sospira,
 119 e fanno pullular quest’ acqua al summo,
 120 come l’occhio ti dice, u’ che s’aggira.
 </prompt>
 <result>
-115 Hyvä opettaja sanoi: "Poikani, nyt näet
-116 niiden sielut, jotka viha voitti;
-117 ja haluan myös, että uskot varmasti,
-
 118 että veden alla on ihmisiä, jotka huokailevat,
 119 ja saavat tämän veden kuplimaan pinnalla,
 120 kuten silmäsi kertovat sinulle, missä se liikkuu.
@@ -605,33 +608,38 @@ Please translate each line literally into Finnish.
 121 Fitti nel limo dicon: “Tristi fummo
 122 ne l’aere dolce che dal sol s’allegra,
 123 portando dentro accidïoso fummo:
-
-124 or ci attristiam ne la belletta negra”.
 </prompt>
 <result>
 121 Tiheässä limassa he sanovat: "Olimme surullisia
 122 suloisessa ilmassa, jota aurinko ilahduttaa,
 123 kantaen sisällämme onnetonta savua:
-
-124 nyt olemme surullisia mustassa liejussa".
 </result>
 </query>
 <query>
-<info>[Inferno Canto 7] 125/130</info>
+<info>[Inferno Canto 7] 124/130</info>
 <prompt>
 Please translate each line literally into Finnish.
 
+124 or ci attristiam ne la belletta negra”.
 125 Quest’ inno si gorgoglian ne la strozza,
 126 ché dir nol posson con parola integra».
+</prompt>
+<result>
+124 nyt olemme surullisia mustassa liejussa".
+125 Tämän virren he kurlaavat kurkussaan,
+126 sillä he eivät voi sanoa sitä kokonaisilla sanoilla».
+</result>
+</query>
+<query>
+<info>[Inferno Canto 7] 127/130</info>
+<prompt>
+Please translate each line literally into Finnish.
 
 127 Così girammo de la lorda pozza
 128 grand’ arco tra la ripa secca e ’l mézzo,
 129 con li occhi vòlti a chi del fango ingozza.
 </prompt>
 <result>
-125 Tämän virren he kurlaavat kurkussaan,
-126 sillä he eivät voi sanoa sitä kokonaisilla sanoilla».
-
 127 Niin kiersimme likaisen lammikon
 128 suuren kaaren kuivan rannan ja keskiosan välillä,
 129 katseemme kohdistuneena niihin, jotka nielevät mutaa.

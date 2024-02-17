@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="32">
+<queries count="45">
 <query>
 <info>[Inferno Canto 9] 1/133</info>
 <prompt>
@@ -17,17 +17,18 @@ Please translate each line literally into Portuguese.
 </query>
 <query>
 <info>[Inferno Canto 9] 4/133</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Portuguese.
 
 4 Attento si fermò com’ uom ch’ascolta;
 5 ché l’occhio nol potea menare a lunga
 6 per l’aere nero e per la nebbia folta.
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+4 Atento se deteve como um homem que escuta;
+5 porque o olho não o podia levar longe
+6 pelo ar e pela nevoa densa.
+</result>
 </query>
 <query>
 <info>[Inferno Canto 9] 7/133</info>
@@ -52,16 +53,23 @@ Please translate each line literally into Portuguese.
 10 I’ vidi ben sì com’ ei ricoperse
 11 lo cominciar con l’altro che poi venne,
 12 che fur parole a le prime diverse;
+</prompt>
+<result>
+10 Eu vi bem como ele encobriu
+11 o começo com o outro que depois veio,
+12 que foram palavras diferentes das primeiras;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 13/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 13 ma nondimen paura il suo dir dienne,
 14 perch’ io traeva la parola tronca
 15 forse a peggior sentenzia che non tenne.
 </prompt>
 <result>
-10 Eu vi bem como ele encobriu
-11 o começo com o outro que depois veio,
-12 que foram palavras diferentes das primeiras;
-
 13 mas, no entanto, o seu dizer causou-me medo,
 14 porque eu interpretava a palavra truncada
 15 talvez para uma sentença pior do que ele não disse.
@@ -121,32 +129,6 @@ Please translate each line literally into Portuguese.
 26 ch’ella mi fece intrar dentr’ a quel muro,
 27 per trarne un spirto del cerchio di Giuda.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 Pouco tempo fazia que minha carne estava nua,\n26 quando ela me fez entrar naquele muro,\n27 para tirar um espírito do círculo de Judas."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 Pouco tempo fazia que minha carne estava nua,
 26 quando ela me fez entrar naquele muro,
@@ -191,50 +173,38 @@ Please translate each line literally into Portuguese.
 34 E altro disse, ma non l’ho a mente;
 35 però che l’occhio m’avea tutto tratto
 36 ver’ l’alta torre a la cima rovente,
+</prompt>
+<result>
+34 E disse outras coisas, mas não as tenho em mente;
+35 porque o meu olhar tinha-me atraído todo
+36 para a alta torre com o topo incandescente,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 37/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 37 dove in un punto furon dritte ratto
 38 tre furïe infernal di sangue tinte,
 39 che membra feminine avieno e atto,
+</prompt>
+<result>
+37 onde num instante se ergueram de repente
+38 três fúrias infernais tintas de sangue,
+39 que tinham membros e gestos femininos,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 40/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 40 e con idre verdissime eran cinte;
 41 serpentelli e ceraste avien per crine,
 42 onde le fiere tempie erano avvinte.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "34 E disse outras coisas, mas não as tenho em mente;\n35 porque o meu olhar tinha-me atraído todo\n36 para a alta torre com o topo incandescente,\n\n37 onde num instante se ergueram de repente\n38 três fúrias infernais tintas de sangue,\n39 que tinham membros e gestos femininos,\n\n40 e estavam cingidas com hidras verdejantes;\n41 tinham serpentinhas e víboras como cabelos,\n42 com as quais as suas têmporas ferozes estavam enroladas."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-34 E disse outras coisas, mas não as tenho em mente;
-35 porque o meu olhar tinha-me atraído todo
-36 para a alta torre com o topo incandescente,
-
-37 onde num instante se ergueram de repente
-38 três fúrias infernais tintas de sangue,
-39 que tinham membros e gestos femininos,
-
 40 e estavam cingidas com hidras verdejantes;
 41 tinham serpentinhas e víboras como cabelos,
 42 com as quais as suas têmporas ferozes estavam enroladas.
@@ -353,24 +323,38 @@ Please translate each line literally into Portuguese.
 64 E già venìa su per le torbide onde
 65 un fracasso d’un suon, pien di spavento,
 66 per cui tremavano amendue le sponde,
+</prompt>
+<result>
+64 E já vinha sobre as ondas turvas
+65 um estrondo de um som, cheio de espanto,
+66 pelo qual tremiam ambas as margens,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 67/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 67 non altrimenti fatto che d’un vento
 68 impetüoso per li avversi ardori,
 69 che fier la selva e sanz’ alcun rattento
+</prompt>
+<result>
+67 não diferente do que um vento
+68 impetuoso pelos calores adversos,
+69 que fere a selva e sem qualquer contenção
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 70/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 70 li rami schianta, abbatte e porta fori;
 71 dinanzi polveroso va superbo,
 72 e fa fuggir le fiere e li pastori.
 </prompt>
 <result>
-64 E já vinha sobre as ondas turvas
-65 um estrondo de um som, cheio de espanto,
-66 pelo qual tremiam ambas as margens,
-
-67 não diferente do que um vento
-68 impetuoso pelos calores adversos,
-69 que fere a selva e sem qualquer contenção
-
 70 quebra os ramos, derruba e leva para fora;
 71 à sua frente vai orgulhoso e empoeirado,
 72 e faz fugir as feras e os pastores.
@@ -399,16 +383,23 @@ Please translate each line literally into Portuguese.
 76 Come le rane innanzi a la nimica
 77 biscia per l’acqua si dileguan tutte,
 78 fin ch’a la terra ciascuna s’abbica,
+</prompt>
+<result>
+76 Como as rãs diante da inimiga
+77 cobra d'água se espalham todas,
+78 até que cada uma se agarra à terra,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 79/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 79 vid’ io più di mille anime distrutte
 80 fuggir così dinanzi ad un ch’al passo
 81 passava Stige con le piante asciutte.
 </prompt>
 <result>
-76 Como as rãs diante da inimiga
-77 cobra d'água se espalham todas,
-78 até que cada uma se agarra à terra,
-
 79 vi mais de mil almas destruídas
 80 fugindo assim diante de alguém que a passos
 81 atravessava o Estige com as plantas secas.
@@ -467,24 +458,38 @@ Please translate each line literally into Portuguese.
 91 «O cacciati del ciel, gente dispetta»,
 92 cominciò elli in su l’orribil soglia,
 93 «ond’ esta oltracotanza in voi s’alletta?
+</prompt>
+<result>
+91 "Ó expulsos do céu, gente desprezada",
+92 começou ele no limiar horrível,
+93 "de onde esta arrogância se alegra em vós?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 94/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 94 Perché recalcitrate a quella voglia
 95 a cui non puote il fin mai esser mozzo,
 96 e che più volte v’ha cresciuta doglia?
+</prompt>
+<result>
+94 Por que recalcitrais contra aquela vontade
+95 a qual nunca pode ter o fim cortado,
+96 e que muitas vezes vos aumentou a dor?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 97/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 97 Che giova ne le fata dar di cozzo?
 98 Cerbero vostro, se ben vi ricorda,
 99 ne porta ancor pelato il mento e ’l gozzo».
 </prompt>
 <result>
-91 "Ó expulsos do céu, gente desprezada",
-92 começou ele no limiar horrível,
-93 "de onde esta arrogância se alegra em vós?
-
-94 Por que recalcitrais contra aquela vontade
-95 a qual nunca pode ter o fim cortado,
-96 e que muitas vezes vos aumentou a dor?
-
 97 De que adianta dar coices no destino?
 98 Cérbero, vosso cão, se bem vos lembrais,
 99 ainda traz o queixo e a garganta pelados por causa disso".
@@ -498,16 +503,23 @@ Please translate each line literally into Portuguese.
 100 Poi si rivolse per la strada lorda,
 101 e non fé motto a noi, ma fé sembiante
 102 d’omo cui altra cura stringa e morda
+</prompt>
+<result>
+100 Depois voltou-se pela estrada suja,
+101 e não nos disse nada, mas fez semblante
+102 de homem a quem outro cuidado aperta e morde
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 103/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 103 che quella di colui che li è davante;
 104 e noi movemmo i piedi inver’ la terra,
 105 sicuri appresso le parole sante.
 </prompt>
 <result>
-100 Depois voltou-se pela estrada suja,
-101 e não nos disse nada, mas fez semblante
-102 de homem a quem outro cuidado aperta e morde
-
 103 que aquele de quem está à sua frente;
 104 e nós movemos os pés em direção à terra,
 105 seguros após as palavras santas.
@@ -521,16 +533,23 @@ Please translate each line literally into Portuguese.
 106 Dentro li ’ntrammo sanz’ alcuna guerra;
 107 e io, ch’avea di riguardar disio
 108 la condizion che tal fortezza serra,
+</prompt>
+<result>
+106 Entramos lá sem qualquer guerra;
+107 e eu, que tinha desejo de observar
+108 a condição que tal fortaleza encerra,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 109/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 109 com’ io fui dentro, l’occhio intorno invio:
 110 e veggio ad ogne man grande campagna,
 111 piena di duolo e di tormento rio.
 </prompt>
 <result>
-106 Entramos lá sem qualquer guerra;
-107 e eu, que tinha desejo de observar
-108 a condição que tal fortaleza encerra,
-
 109 assim que entrei, lancei o olhar ao redor:
 110 e vejo a cada lado uma grande planície,
 111 cheia de dor e de tormento cruel.
@@ -544,24 +563,38 @@ Please translate each line literally into Portuguese.
 112 Sì come ad Arli, ove Rodano stagna,
 113 sì com’ a Pola, presso del Carnaro
 114 ch’Italia chiude e suoi termini bagna,
+</prompt>
+<result>
+112 Assim como em Arles, onde o Ródano estagna,
+113 assim como em Pula, perto do Carnaro
+114 que fecha a Itália e banha os seus limites,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 115/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 115 fanno i sepulcri tutt’ il loco varo,
 116 così facevan quivi d’ogne parte,
 117 salvo che ’l modo v’era più amaro;
+</prompt>
+<result>
+115 os sepulcros fazem todo o lugar variado,
+116 assim faziam aqui de todas as partes,
+117 salvo que o modo era mais amargo;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 118/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 118 ché tra li avelli fiamme erano sparte,
 119 per le quali eran sì del tutto accesi,
 120 che ferro più non chiede verun’ arte.
 </prompt>
 <result>
-112 Assim como em Arles, onde o Ródano estagna,
-113 assim como em Pula, perto do Carnaro
-114 que fecha a Itália e banha os seus limites,
-
-115 os sepulcros fazem todo o lugar variado,
-116 assim faziam aqui de todas as partes,
-117 salvo que o modo era mais amargo;
-
 118 porque entre os túmulos havia chamas espalhadas,
 119 pelas quais estavam tão completamente acesos,
 120 que o ferro não pede mais nenhuma arte.
@@ -620,14 +653,21 @@ Please translate each line literally into Portuguese.
 130 Simile qui con simile è sepolto,
 131 e i monimenti son più e men caldi».
 132 E poi ch’a la man destra si fu vòlto,
-
-133 passammo tra i martìri e li alti spaldi.
 </prompt>
 <result>
 130 Semelhante aqui com semelhante é sepultado,
 131 e os monumentos são mais ou menos quentes".
 132 E depois que se voltou para a mão direita,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 9] 133/133</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
+133 passammo tra i martìri e li alti spaldi.
+</prompt>
+<result>
 133 passamos entre os martírios e as altas muralhas.
 </result>
 </query>

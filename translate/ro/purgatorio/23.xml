@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="31">
+<queries count="45">
 <query>
 <info>[Purgatorio Canto 23] 1/133</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Romanian.
 1 Mentre che li occhi per la fronda verde
 2 ficcava ïo sì come far suole
 3 chi dietro a li uccellin sua vita perde,
+</prompt>
+<result>
+1 În timp ce ochii mei priveau frunzișul verde,
+2 așa cum face de obicei
+3 cine își pierde viața urmărind păsările,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 4/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 4 lo più che padre mi dicea: «Figliuole,
 5 vienne oramai, ché ’l tempo che n’è imposto
 6 più utilmente compartir si vuole».
 </prompt>
 <result>
-1 În timp ce ochii mei priveau frunzișul verde,
-2 așa cum face de obicei
-3 cine își pierde viața urmărind păsările,
-
 4 tatăl meu mi-a spus: „Fiule,
 5 hai acum, căci timpul care ne-a fost dat
 6 trebuie împărțit mai util”.
@@ -47,32 +54,6 @@ Please translate each line literally into Romanian.
 11 ‘Labïa mëa, Domine’ per modo
 12 tal, che diletto e doglia parturìe.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 Și iată că se auzea plâns și cântare,\n11 „Labia mea, Domine” într-un fel\n12 care aducea atât plăcere, cât și durere."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 10 Și iată că se auzea plâns și cântare,
 11 „Labia mea, Domine” într-un fel
@@ -102,16 +83,23 @@ Please translate each line literally into Romanian.
 16 Sì come i peregrin pensosi fanno,
 17 giugnendo per cammin gente non nota,
 18 che si volgono ad essa e non restanno,
+</prompt>
+<result>
+16 Așa cum fac pelerinii gânditori,
+17 întâlnind pe drum oameni necunoscuți,
+18 care se întorc spre ei și nu rămân,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 19/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 19 così di retro a noi, più tosto mota,
 20 venendo e trapassando ci ammirava
 21 d’anime turba tacita e devota.
 </prompt>
 <result>
-16 Așa cum fac pelerinii gânditori,
-17 întâlnind pe drum oameni necunoscuți,
-18 care se întorc spre ei și nu rămân,
-
 19 tot așa, în spatele nostru, mai degrabă o mulțime,
 20 venind și trecând, ne admira
 21 o mulțime de suflete tăcute și devote.
@@ -142,8 +130,9 @@ Please translate each line literally into Romanian.
 27 per digiunar, quando più n’ebbe tema.
 </prompt>
 <result>
-25 Nu cred că Erisihthon a fost atât de slab
-26 când a secat de foame, când a avut cea mai mare teamă.
+25 Nu cred că așa, cu pielea lipită de oase
+26 Erisittone a fost făcut uscat,
+27 din cauza postului, când mai multă teamă a avut de el.
 </result>
 </query>
 <query>
@@ -154,16 +143,23 @@ Please translate each line literally into Romanian.
 28 Io dicea fra me stesso pensando: ‘Ecco
 29 la gente che perdé Ierusalemme,
 30 quando Maria nel figlio diè di becco!’
+</prompt>
+<result>
+28 Îmi spuneam în gând: „Iată
+29 oamenii care au pierdut Ierusalimul,
+30 când Maria a dat cu ciocul în fiul ei!”
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 31/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 31 Parean l’occhiaie anella sanza gemme:
 32 chi nel viso de li uomini legge ‘omo’
 33 ben avria quivi conosciuta l’emme.
 </prompt>
 <result>
-28 Îmi spuneam în gând: „Iată
-29 oamenii care au pierdut Ierusalimul,
-30 când Maria a dat cu ciocul în fiul ei!”
-
 31 Orbitele lor păreau inele fără pietre prețioase:
 32 cine citește „om” pe fața oamenilor
 33 ar fi cunoscut aici litera „m”.
@@ -177,24 +173,38 @@ Please translate each line literally into Romanian.
 34 Chi crederebbe che l’odor d’un pomo
 35 sì governasse, generando brama,
 36 e quel d’un’acqua, non sappiendo como?
+</prompt>
+<result>
+34 Cine ar crede că mirosul unui măr
+35 ar putea guverna, generând poftă,
+36 și cel al unei ape, fără să știe cum?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 37/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 37 Già era in ammirar che sì li affama,
 38 per la cagione ancor non manifesta
 39 di lor magrezza e di lor trista squama,
+</prompt>
+<result>
+37 Eram deja uimit de ceea ce îi înfometează atât de tare,
+38 din cauza încă necunoscută
+39 a slăbiciunii lor și a solzilor lor triști,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 40/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 40 ed ecco del profondo de la testa
 41 volse a me li occhi un’ombra e guardò fiso;
 42 poi gridò forte: «Qual grazia m’è questa?».
 </prompt>
 <result>
-34 Cine ar crede că mirosul unui măr
-35 ar putea guverna, generând poftă,
-36 și cel al unei ape, fără să știe cum?
-
-37 Eram deja uimit de ceea ce îi înfometează atât de tare,
-38 din cauza încă necunoscută
-39 a slăbiciunii lor și a solzilor lor triști,
-
 40 și iată că din adâncul capului
 41 o umbră și-a întors ochii spre mine și s-a uitat fix;
 42 apoi a strigat tare: „Ce har este acesta pentru mine?”.
@@ -238,18 +248,26 @@ Please translate each line literally into Romanian.
 49 «Deh, non contendere a l’asciutta scabbia
 50 che mi scolora», pregava, «la pelle,
 51 né a difetto di carne ch’io abbia;
+</prompt>
+<result>
+49 «Ah, nu te certa cu scabia uscată
+50 care îmi decolorează», ruga, «pielea,
+51 nici cu lipsa de carne pe care o am;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 52/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 52 ma dimmi il ver di te, dì chi son quelle
 53 due anime che là ti fanno scorta;
 54 non rimaner che tu non mi favelle!».
 </prompt>
 <result>
-49 „Te rog, nu disprețui scabia uscată
-50 care îmi decolorează pielea”, ruga el, „nici defectul de carne pe care îl am;
-
-51 ci spune-mi adevărul despre tine, spune-mi cine sunt acele
-52 două suflete care te însoțesc acolo;
-54 nu rămâne fără să-mi vorbești!”.
+52 dar spune-mi adevărul despre tine, ale cui sunt acele
+53 două suflete care te însoțesc acolo;
+54 nu mai aștepta, spune-mi!”.
 </result>
 </query>
 <query>
@@ -335,16 +353,23 @@ Please translate each line literally into Romanian.
 70 E non pur una volta, questo spazzo
 71 girando, si rinfresca nostra pena:
 72 io dico pena, e dovria dir sollazzo,
+</prompt>
+<result>
+70 Și nu doar o dată, înconjurând acest spațiu,
+71 se răcorește pedeapsa noastră:
+72 spun pedeapsă, dar ar trebui să spun plăcere,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 73/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 73 ché quella voglia a li alberi ci mena
 74 che menò Cristo lieto a dire ‘Elì’,
 75 quando ne liberò con la sua vena».
 </prompt>
 <result>
-70 Și nu doar o dată, înconjurând acest spațiu,
-71 se răcorește pedeapsa noastră:
-72 spun pedeapsă, dar ar trebui să spun plăcere,
-
 73 căci acea poftă ne duce la copaci
 74 care l-au dus pe Hristos bucuros să spună „Eli”,
 75 când ne-a eliberat cu sângele său”.
@@ -373,18 +398,26 @@ Please translate each line literally into Romanian.
 79 Se prima fu la possa in te finita
 80 di peccar più, che sovvenisse l’ora
 81 del buon dolor ch’a Dio ne rimarita,
+</prompt>
+<result>
+79 Dacă mai întâi ți s-a terminat puterea
+80 de a mai păcătui, astfel încât să-ți vină în minte ceasul
+81 al durerii bune care ne recăsătorește cu Dumnezeu,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 82/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 82 come se’ tu qua sù venuto ancora?
 83 Io ti credea trovar là giù di sotto,
 84 dove tempo per tempo si ristora».
 </prompt>
 <result>
-79 Dacă puterea de a mai păcătui s-a terminat prima dată în tine,
-80 încât a sosit ora durerii bune care ne recăsătorește cu Dumnezeu,
-
-82 cum ai ajuns tu aici sus din nou?
+82 cum de ai ajuns tu aici sus deja?
 83 Credeam că te voi găsi acolo jos,
-84 unde timpul se restabilește din când în când”.
+84 unde timpul se reface mereu”.
 </result>
 </query>
 <query>
@@ -397,9 +430,9 @@ Please translate each line literally into Romanian.
 87 la Nella mia con suo pianger dirotto.
 </prompt>
 <result>
-85 Atunci el mi-a spus: „Atât de repede m-a condus
+85 De unde el mie: „Atât de repede m-a condus
 86 să beau dulce amărăciune a martirilor
-88 Nella mea cu plânsul ei nesfârșit.
+87 La Nella cu plânsul ei în hohote.
 </result>
 </query>
 <query>
@@ -425,17 +458,26 @@ Please translate each line literally into Romanian.
 91 Tanto è a Dio più cara e più diletta
 92 la vedovella mia, che molto amai,
 93 quanto in bene operare è più soletta;
+</prompt>
+<result>
+91 Atât de dragă și iubită îi este lui Dumnezeu
+92 văduva mea, pe care am iubit-o mult,
+93 cu cât este mai singură în a face bine;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 94/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 94 ché la Barbagia di Sardigna assai
 95 ne le femmine sue più è pudica
 96 che la Barbagia dov’ io la lasciai.
 </prompt>
 <result>
-91 Atât de mult este văduva mea mai dragă și mai iubită de Dumnezeu, pe care am iubit-o mult,
-92 cu cât este mai singură în a face bine;
-
-93 căci Barbagia din Sardinia este mult mai pudică
-94 în femeile sale decât Barbagia unde am lăsat-o.
+94 Căci Barbagia din Sardinia, cu mult
+95 în femeile sale este mai pudică
+96 decât Barbagia unde am lăsat-o.
 </result>
 </query>
 <query>
@@ -446,42 +488,23 @@ Please translate each line literally into Romanian.
 97 O dolce frate, che vuo’ tu ch’io dica?
 98 Tempo futuro m’è già nel cospetto,
 99 cui non sarà quest’ ora molto antica,
+</prompt>
+<result>
+97 O dulce frate, ce vrei să-ți spun?
+98 Timpul viitor este deja în fața mea,
+99 pentru care această oră nu va fi foarte veche,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 100/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 100 nel qual sarà in pergamo interdetto
 101 a le sfacciate donne fiorentine
 102 l’andar mostrando con le poppe il petto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "97 O dulce frate, ce vrei să-ți spun?\n98 Timpul viitor este deja în fața mea,\n99 pentru care această oră nu va fi foarte veche,\n\n100 în care va fi interzis pe amvon\n101 femeilor nerușinate din Florența\n102 să meargă arătându-și pieptul cu sânii."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-97 O dulce frate, ce vrei să-ți spun?
-98 Timpul viitor este deja în fața mea,
-99 pentru care această oră nu va fi foarte veche,
-
 100 în care va fi interzis pe amvon
 101 femeilor nerușinate din Florența
 102 să meargă arătându-și pieptul cu sânii.
@@ -495,24 +518,38 @@ Please translate each line literally into Romanian.
 103 Quai barbare fuor mai, quai saracine,
 104 cui bisognasse, per farle ir coperte,
 105 o spiritali o altre discipline?
+</prompt>
+<result>
+103 Ce barbare au fost vreodată, ce saracine,
+104 care să aibă nevoie, pentru a le face să se acopere,
+105 de discipline spirituale sau de alt fel?
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 106/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 106 Ma se le svergognate fosser certe
 107 di quel che ’l ciel veloce loro ammanna,
 108 già per urlare avrian le bocche aperte;
+</prompt>
+<result>
+106 Dar dacă nerușinatele ar fi sigure
+107 de ceea ce cerul le pregătește cu repeziciune,
+108 deja și-ar fi deschis gurile pentru a urla;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 109/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 109 ché, se l’antiveder qui non m’inganna,
 110 prima fien triste che le guance impeli
 111 colui che mo si consola con nanna.
 </prompt>
 <result>
-103 Ce barbare au fost vreodată, ce saracine,
-104 care să aibă nevoie, pentru a le face să se acopere,
-105 de discipline spirituale sau de alt fel?
-
-106 Dar dacă nerușinatele ar fi sigure
-107 de ceea ce cerul le pregătește cu repeziciune,
-108 deja și-ar fi deschis gurile pentru a urla;
-
 109 căci, dacă previziunea nu mă înșală aici,
 110 vor fi triste înainte ca obrajii
 111 celui care acum se consolează cu cântece de leagăn să se umple de păr.
@@ -556,16 +593,23 @@ Please translate each line literally into Romanian.
 118 Di quella vita mi volse costui
 119 che mi va innanzi, l’altr’ ier, quando tonda
 120 vi si mostrò la suora di colui»,
+</prompt>
+<result>
+118 De la acea viață m-a întors
+119 cel care merge înaintea mea, alaltăieri, când
+120 sora celui s-a arătat rotundă vouă”,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 121/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
 121 e ’l sol mostrai; «costui per la profonda
 122 notte menato m’ha d’i veri morti
 123 con questa vera carne che ’l seconda.
 </prompt>
 <result>
-118 De la acea viață m-a întors
-119 cel care merge înaintea mea, alaltăieri, când
-120 sora celui s-a arătat rotundă vouă”,
-
 121 și am arătat spre soare; „acesta m-a condus prin
 122 noaptea adâncă a morților adevărați
 123 cu această carne adevărată care îl urmează.
@@ -609,14 +653,21 @@ Please translate each line literally into Romanian.
 130 Virgilio è questi che così mi dice»,
 131 e addita’lo; «e quest’ altro è quell’ ombra
 132 per cuï scosse dianzi ogne pendice
-
-133 lo vostro regno, che da sé lo sgombra».
 </prompt>
 <result>
 130 Virgiliu este cel care îmi spune așa”,
 131 și l-a arătat; „și celălalt este acea umbră
 132 pentru care mai devreme a zguduit fiecare pantă
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 23] 133/133</info>
+<prompt>
+Please translate each line literally into Romanian.
 
+133 lo vostro regno, che da sé lo sgombra».
+</prompt>
+<result>
 133 regatul vostru, care îl îndepărtează de la sine”.
 </result>
 </query>

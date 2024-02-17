@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries error="0" count="49">
 <query>
 <info>[Purgatorio Canto 19] 1/145</info>
 <prompt>
@@ -8,24 +8,38 @@ Please translate each line literally into Swahili.
 1 Ne l’ora che non può ’l calor dïurno
 2 intepidar più ’l freddo de la luna,
 3 vinto da terra, e talor da Saturno
+</prompt>
+<result>
+1 Wakati ambapo joto la mchana halinaweza tena
+2 kuipasha joto baridi ya mwezi,
+3 iliyoshindwa na dunia, na wakati mwingine na Zohali
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 4/145</info>
+<prompt>
+Please translate each line literally into Swahili.
 
 4 —quando i geomanti lor Maggior Fortuna
 5 veggiono in orïente, innanzi a l’alba,
 6 surger per via che poco le sta bruna—,
+</prompt>
+<result>
+4 —wakati wachawi wanaona Bahati yao Kuu
+5 mashariki, kabla ya mapambazuko,
+6 ikichomoza kwa njia ambayo giza haliko tena—,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 7/145</info>
+<prompt>
+Please translate each line literally into Swahili.
 
 7 mi venne in sogno una femmina balba,
 8 ne li occhi guercia, e sovra i piè distorta,
 9 con le man monche, e di colore scialba.
 </prompt>
 <result>
-1 Wakati ambapo joto la mchana halinaweza tena
-2 kuipasha joto baridi ya mwezi,
-3 iliyoshindwa na dunia, na wakati mwingine na Zohali
-
-4 —wakati wachawi wanaona Bahati yao Kuu
-5 mashariki, kabla ya mapambazuko,
-6 ikichomoza kwa njia ambayo giza haliko tena—,
-
 7 niliota mwanamke mwenye kigugumizi,
 8 mwenye macho ya kinyonga, na miguu iliyopotoka,
 9 mwenye mikono iliyokatwa, na rangi ya ngozi iliyokuwa hafifu.
@@ -33,42 +47,29 @@ Please translate each line literally into Swahili.
 </query>
 <query>
 <info>[Purgatorio Canto 19] 10/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Swahili.
 
 10 Io la mirava; e come ’l sol conforta
 11 le fredde membra che la notte aggrava,
 12 così lo sguardo mio le facea scorta
+</prompt>
+<result>
+10 Niliitazama; na kama jua linavyofariji
+11 viungo vilivyopoa ambavyo usiku unavitia uzito,
+12 ndivyo mtazamo wangu ulivyomfanya aonekane
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 13/145</info>
+<prompt>
+Please translate each line literally into Swahili.
 
 13 la lingua, e poscia tutta la drizzava
 14 in poco d’ora, e lo smarrito volto,
 15 com’ amor vuol, così le colorava.
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-10 Niliitazama; na kama jua linavyofariji
-11 viungo vilivyopoa ambavyo usiku unavitia uzito,
-12 ndivyo mtazamo wangu ulivyomfanya aonekane
-
 13 ulimi, na kisha mwili wake wote ukasimama
 14 kwa muda mfupi, na uso wake uliokuwa umepotea,
 15 kama upendo unavyotaka, ndivyo ulivyompa rangi.
@@ -97,16 +98,23 @@ Please translate each line literally into Swahili.
 19 «Io son», cantava, «io son dolce serena,
 20 che ’ marinari in mezzo mar dismago;
 21 tanto son di piacere a sentir piena!
+</prompt>
+<result>
+19 "Mimi ni," aliimba, "mimi ni mrembo mwenye utulivu,
+20 ambaye huwapa matumaini mabaharia katikati ya bahari yenye dhoruba;
+21 mimi hujaa raha nyingi za kusikilizwa!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 22/145</info>
+<prompt>
+Please translate each line literally into Swahili.
 
 22 Io volsi Ulisse del suo cammin vago
 23 al canto mio; e qual meco s’ausa,
 24 rado sen parte; sì tutto l’appago!».
 </prompt>
 <result>
-19 "Mimi ni," aliimba, "mimi ni mrembo mwenye utulivu,
-20 ambaye huwapa matumaini mabaharia katikati ya bahari yenye dhoruba;
-21 mimi hujaa raha nyingi za kusikilizwa!
-
 22 Nilimgeuza Ulisses kutoka kwenye safari yake isiyo na uhakika
 23 kwa wimbo wangu; na yeyote aliyethubutu kuwa nami,
 24 huwa nadra kuondoka; ndivyo ninavyomridhisha kabisa!"
@@ -151,32 +159,6 @@ Please translate each line literally into Swahili.
 32 fendendo i drappi, e mostravami ’l ventre;
 33 quel mi svegliò col puzzo che n’uscia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 Yule mwingine alimshika, na mbele yake akamfungua\n32 akipasua mavazi, na kunionyesha tumbo lake;\n33 harufu mbaya iliyotoka hapo ilinifanya niamke."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 31 Yule mwingine alimshika, na mbele yake akamfungua
 32 akipasua mavazi, na kunionyesha tumbo lake;
@@ -185,33 +167,13 @@ safety_ratings {
 </query>
 <query>
 <info>[Purgatorio Canto 19] 34/145</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Swahili.
 
 34 Io mossi li occhi, e ’l buon maestro: «Almen tre
 35 voci t’ho messe!», dicea, «Surgi e vieni;
 36 troviam l’aperta per la qual tu entre».
 </prompt>
-<error result="true">
-index: 0
-finish_reason: OTHER
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 34 Niliinua macho yangu, na mwalimu mwema akasema: "Angalau sauti tatu
 35 nimekupa! Simama na njoo;
@@ -241,16 +203,23 @@ Please translate each line literally into Swahili.
 40 Seguendo lui, portava la mia fronte
 41 come colui che l’ha di pensier carca,
 42 che fa di sé un mezzo arco di ponte;
+</prompt>
+<result>
+40 Nikimfuata, paji la uso wangu lilikuwa
+41 kama la mtu ambaye ana mawazo mengi,
+42 anayejifanya kama nusu ya daraja la daraja;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 43/145</info>
+<prompt>
+Please translate each line literally into Swahili.
 
 43 quand’ io udi’ «Venite; qui si varca»
 44 parlare in modo soave e benigno,
 45 qual non si sente in questa mortal marca.
 </prompt>
 <result>
-40 Nikimfuata, paji la uso wangu lilikuwa
-41 kama la mtu ambaye ana mawazo mengi,
-42 anayejifanya kama nusu ya daraja la daraja;
-
 43 wakati niliposikia "Njoo; hapa ndipo unapita"
 44 ikisemwa kwa upole na fadhili,
 45 ambayo haisikiki katika ulimwengu huu wa kufa.
@@ -354,16 +323,23 @@ Please translate each line literally into Swahili.
 64 Quale ’l falcon, che prima a’ pié si mira,
 65 indi si volge al grido e si protende
 66 per lo disio del pasto che là il tira,
+</prompt>
+<result>
+64 Kama vile mwewe, ambaye kwanza hujiangalia miguuni,
+65 kisha hugeuka kwenye kilio na kujinyoosha
+66 kwa hamu ya chakula kinachomvuta huko,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 67/145</info>
+<prompt>
+Please translate each line literally into Swahili.
 
 67 tal mi fec’ io; e tal, quanto si fende
 68 la roccia per dar via a chi va suso,
 69 n’andai infin dove ’l cerchiar si prende.
 </prompt>
 <result>
-64 Kama vile mwewe, ambaye kwanza hujiangalia miguuni,
-65 kisha hugeuka kwenye kilio na kujinyoosha
-66 kwa hamu ya chakula kinachomvuta huko,
-
 67 ndivyo nilivyofanya; na hivyo, kadri mwamba unavyopasuka
 68 ili kutoa njia kwa yule anayepanda juu,
 69 nilikwenda mpaka pale ambapo mzunguko unachukuliwa.
@@ -437,16 +413,23 @@ Please translate each line literally into Swahili.
 82 Così pregò ’l poeta, e sì risposto
 83 poco dinanzi a noi ne fu; per ch’io
 84 nel parlare avvisai l’altro nascosto,
+</prompt>
+<result>
+82 Hivyo mshairi aliomba, na hivyo kujibu
+83 kidogo mbele yetu; kwa hiyo mimi
+84 niliona mwingine amejificha kwenye mazungumzo,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 85/145</info>
+<prompt>
+Please translate each line literally into Swahili.
 
 85 e volsi li occhi a li occhi al segnor mio:
 86 ond’ elli m’assentì con lieto cenno
 87 ciò che chiedea la vista del disio.
 </prompt>
 <result>
-82 Hivyo mshairi aliomba, na hivyo kujibu
-83 kidogo mbele yetu; kwa hiyo mimi
-84 niliona mwingine amejificha kwenye mazungumzo,
-
 85 nikageuza macho yangu kwenye macho ya bwana wangu:
 86 ndipo akanikubalia kwa ishara ya furaha
 87 kile ambacho maono ya tamaa yalikuwa yakiomba.
@@ -460,16 +443,23 @@ Please translate each line literally into Swahili.
 88 Poi ch’io potei di me fare a mio senno,
 89 trassimi sovra quella creatura
 90 le cui parole pria notar mi fenno,
+</prompt>
+<result>
+88 Baada ya mimi kuweza kujifanya mwenyewe kwa mapenzi yangu,
+89 nilijirusha juu ya kiumbe hicho
+90 ambaye maneno yake yalinifanya nimtambue hapo awali,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 91/145</info>
+<prompt>
+Please translate each line literally into Swahili.
 
 91 dicendo: «Spirto in cui pianger matura
 92 quel sanza ’l quale a Dio tornar non pòssi,
 93 sosta un poco per me tua maggior cura.
 </prompt>
 <result>
-88 Baada ya mimi kuweza kujifanya mwenyewe kwa mapenzi yangu,
-89 nilijirusha juu ya kiumbe hicho
-90 ambaye maneno yake yalinifanya nimtambue hapo awali,
-
 91 nikisema: "Roho ambayo ndani yake kulia kunaiva
 92 yule ambaye bila yeye huwezi kurudi kwa Mungu,
 93 simama kidogo kwa ajili yangu wasiwasi wako mkubwa.
@@ -618,16 +608,23 @@ Please translate each line literally into Swahili.
 121 Come avarizia spense a ciascun bene
 122 lo nostro amore, onde operar perdési,
 123 così giustizia qui stretti ne tene,
+</prompt>
+<result>
+121 Kama vile uchoyo ulivyoua kwa kila mema
+122 upendo wetu, ambapo kufanya kazi kulikopotea,
+123 ndivyo haki hapa inavyotufunga,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 124/145</info>
+<prompt>
+Please translate each line literally into Swahili.
 
 124 ne’ piedi e ne le man legati e presi;
 125 e quanto fia piacer del giusto Sire,
 126 tanto staremo immobili e distesi».
 </prompt>
 <result>
-121 Kama vile uchoyo ulivyoua kwa kila mema
-122 upendo wetu, ambapo kufanya kazi kulikopotea,
-123 ndivyo haki hapa inavyotufunga,
-
 124 miguuni na mikononi imefungwa na kukamatwa;
 125 na kadri itakavyokuwa radhi ya Bwana mwenye haki,
 126 ndivyo tutakavyobaki bila kusonga na kulala."
@@ -641,33 +638,38 @@ Please translate each line literally into Swahili.
 127 Io m’era inginocchiato e volea dire;
 128 ma com’ io cominciai ed el s’accorse,
 129 solo ascoltando, del mio reverire,
-
-130 «Qual cagion», disse, «in giù così ti torse?».
 </prompt>
 <result>
 127 Nilikuwa nimepiga magoti na nilitaka kusema;
 128 lakini nilipoanza na yeye akagundua,
 129 kwa kusikiliza tu, heshima yangu,
-
-130 "Ni sababu gani," akasema, "inayokugeuza chini hivyo?"
 </result>
 </query>
 <query>
-<info>[Purgatorio Canto 19] 131/145</info>
+<info>[Purgatorio Canto 19] 130/145</info>
 <prompt>
 Please translate each line literally into Swahili.
 
+130 «Qual cagion», disse, «in giù così ti torse?».
 131 E io a lui: «Per vostra dignitate
 132 mia coscïenza dritto mi rimorse».
+</prompt>
+<result>
+130 "Ni sababu gani," akasema, "inayokugeuza chini hivyo?"
+131 Nami nikamwambia: "Kwa heshima yenu
+132 dhamiri yangu ilinilaumu moja kwa moja."
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 133/145</info>
+<prompt>
+Please translate each line literally into Swahili.
 
 133 «Drizza le gambe, lèvati sù, frate!»,
 134 rispuose; «non errar: conservo sono
 135 teco e con li altri ad una podestate.
 </prompt>
 <result>
-131 Nami nikamwambia: "Kwa heshima yenu
-132 dhamiri yangu ilinilaumu moja kwa moja."
-
 133 "Nyosha miguu yako, simama, ndugu!"
 134 akajibu; "usikosee: mimi ni mlinzi
 135 pamoja nawe na wengine kwa mamlaka moja.
@@ -711,14 +713,21 @@ Please translate each line literally into Swahili.
 142 Nepote ho io di là c’ha nome Alagia,
 143 buona da sé, pur che la nostra casa
 144 non faccia lei per essempro malvagia;
-
-145 e questa sola di là m’è rimasa».
 </prompt>
 <result>
 142 Nina mjukuu huko anayeitwa Alagia,
 143 mwema kwa nafsi yake, mradi tu nyumba yetu
 144 isimfanye yeye kuwa mbaya kwa mfano;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 145/145</info>
+<prompt>
+Please translate each line literally into Swahili.
 
+145 e questa sola di là m’è rimasa».
+</prompt>
+<result>
 145 na huyu pekee ndiye aliyenibakia huko."
 </result>
 </query>

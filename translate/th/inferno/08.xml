@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,17 +8,26 @@ Please translate each line literally into Thai.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 ข้ากล่าวต่อไปว่า ก่อนหน้านั้นมาก
+2 ก่อนที่เราจะอยู่ที่เชิงหอคอยสูง
+3 สายตาของเราได้มองขึ้นไปที่ยอดหอคอย
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Thai.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1 ข้าพเจ้ากล่าวต่อไปว่า ก่อนที่เราจะมาถึงเชิงหอคอยสูงนั้นมาก
-2 ดวงตาของเราได้มองขึ้นไปที่ยอดหอคอย
-3 เพื่อดูเปลวไฟสองดวงที่เราเห็นวางไว้
-4 และอีกดวงหนึ่งที่อยู่ไกลออกไปส่งสัญญาณ
-5 มากจนแทบมองไม่เห็นด้วยตาเปล่า
+4 เพราะเปลวไฟสองดวงที่เราเห็นวางอยู่
+5 และอีกดวงหนึ่งจากที่ไกลส่งสัญญาณ
+6 มากจนแทบจะมองไม่เห็น
 </result>
 </query>
 <query>
@@ -59,18 +68,26 @@ Please translate each line literally into Thai.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 เชือกไม่เคยดีดลูกศรออกไปด้วยตัวมันเอง
+14 ที่วิ่งผ่านอากาศได้รวดเร็วเช่นนั้น
+15 ดังที่ข้าเห็นเรือลำเล็กๆลำหนึ่ง
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Thai.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 เชือกไม่เคยดีดลูกศรออกไป
-14 ที่พุ่งทะยานไปในอากาศได้รวดเร็วเช่นนั้น
-15 ดังที่ข้าพเจ้าเห็นเรือลำเล็กๆลำหนึ่ง
-16 แล่นมาในน้ำตรงมายังเราในเวลานั้น
-17 ภายใต้การบังคับของคนพายเรือเพียงคนเดียว
-18 ที่ตะโกนว่า "เจ้ามาถึงแล้ว วิญญาณชั่วร้าย!"
+16 แล่นมาในน้ำตรงมาหาเราในเวลานั้น
+17 ภายใต้การควบคุมของคนพายเรือเพียงคนเดียว
+18 ที่ตะโกนว่า: "ตอนนี้เจ้ามาถึงแล้ว วิญญาณชั่วร้าย!"
 </result>
 </query>
 <query>
@@ -172,32 +189,6 @@ Please translate each line literally into Thai.
 38 spirito maladetto, ti rimani;
 39 ch’i’ ti conosco, ancor sie lordo tutto».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 และข้าพเจ้าก็พูดกับเขาว่า \"ด้วยการร้องไห้และความโศกเศร้า\n38 วิญญาณที่ถูกสาปแช่ง เจ้าจงอยู่ที่นี่เถิด\n39 เพราะข้าพเจ้ารู้จักเจ้า แม้ว่าเจ้าจะสกปรกไปทั้งตัว\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 37 และข้าพเจ้าก็พูดกับเขาว่า "ด้วยการร้องไห้และความโศกเศร้า
 38 วิญญาณที่ถูกสาปแช่ง เจ้าจงอยู่ที่นี่เถิด
@@ -227,16 +218,23 @@ Please translate each line literally into Thai.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 จากนั้นท่านก็โอบกอดข้าพเจ้าด้วยแขนของท่าน
+44 จูบใบหน้าของข้าพเจ้าและกล่าวว่า "วิญญาณผู้หยิ่งผยอง
+45 จงสรรเสริญผู้ที่ทำให้เจ้าเกิดมา!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Thai.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 จากนั้นท่านก็โอบกอดข้าพเจ้าด้วยแขนของท่าน
-44 จูบใบหน้าของข้าพเจ้าและกล่าวว่า "วิญญาณผู้หยิ่งผยอง
-45 จงสรรเสริญผู้ที่ทำให้เจ้าเกิดมา!
-
 46 บุรุษผู้นี้เป็นผู้หยิ่งผยองในโลก
 47 ไม่มีคุณงามความดีใดๆที่จะประดับประดาความทรงจำของเขาได้
 48 ดังนั้นวิญญาณของเขาจึงโกรธเกรี้ยวที่นี่
@@ -266,35 +264,10 @@ Please translate each line literally into Thai.
 53 di vederlo attuffare in questa broda
 54 prima che noi uscissimo del lago».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "52 และข้าพเจ้าก็กล่าวว่า \"อาจารย์ ข้าพเจ้าอยากเห็นเขาจมลงไปในน้ำโคลนนี้จริงๆ\n53 ก่อนที่เราจะออกจากทะเลสาบ\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-52 และข้าพเจ้าก็กล่าวว่า "อาจารย์ ข้าพเจ้าอยากเห็นเขาจมลงไปในน้ำโคลนนี้จริงๆ
-53 ก่อนที่เราจะออกจากทะเลสาบ"
+52 และข้าก็ว่า "อาจารย์ ข้าอยากเห็นนัก
+53 ที่จะเห็นมันจมลงไปในน้ำซุปนี้
+54 ก่อนที่เราจะออกจากทะเลสาบ"
 </result>
 </query>
 <query>
@@ -380,18 +353,25 @@ Please translate each line literally into Thai.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 และข้าก็ว่า "อาจารย์ มัสยิดของมัน
+71 อยู่ในหุบเขานั่นแน่ๆ ข้าเห็นแล้ว
+72 แดงฉานราวกับเพิ่งออกมาจากกองไฟ
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Thai.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
 <result>
-70 และข้าพเจ้าก็กล่าวว่า "อาจารย์ครับ มัสยิดของเมืองนั้น
-71 อยู่ในหุบเขาเบื้องล่างนั่น
-72 สีแดงราวกับว่าเพิ่งออกมาจากกองไฟ
-
-73" และท่านก็ตรัสกับข้าพเจ้าว่า "ไฟนรกชั่วนิรันดร์
-74 ที่แผดเผาพวกมันอยู่ภายใน ทำให้พวกมันดูแดง
+73 อยู่" และท่านก็บอกข้าว่า "ไฟนิรันดร์
+74 ที่แผดเผามันอยู่ภายในทำให้มันแดงฉาน
 75 อย่างที่เจ้าเห็นในนรกขุมนี้"
 </result>
 </query>
@@ -433,33 +413,38 @@ Please translate each line literally into Thai.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
 82 ข้าพเจ้าเห็นคนมากกว่าหนึ่งพันคนอยู่ที่ประตู
 83 ที่ตกลงมาจากสวรรค์ พวกเขาพูดด้วยความโกรธว่า
 84 "ใครคือผู้นี้ที่ยังไม่ตาย
-
-85 แต่กลับมาที่อาณาจักรของคนตาย?"
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into Thai.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 แต่กลับมาที่อาณาจักรของคนตาย?"
+86 และอาจารย์ผู้รอบรู้ของข้าพเจ้าก็ทำสัญญาณ
+87 เพื่อต้องการพูดกับพวกเขาเป็นการส่วนตัว
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Thai.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 และอาจารย์ผู้รอบรู้ของข้าพเจ้าก็ทำสัญญาณ
-87 เพื่อต้องการพูดกับพวกเขาเป็นการส่วนตัว
-
 88 จากนั้นพวกเขาก็ระงับความโกรธเกรี้ยวไว้ชั่วครู่
 89 และกล่าวว่า "เจ้ามาคนเดียวเถอะ ส่วนคนนั้น
 90 ที่กล้าบุกเข้ามาในอาณาจักรนี้ ให้เขาไป"
@@ -474,32 +459,6 @@ Please translate each line literally into Thai.
 92 pruovi, se sa; ché tu qui rimarrai,
 93 che li ha’ iscorta sì buia contrada».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "91 ให้เขากลับไปทางเดิมที่โง่เขลาเถอะ\n92 ลองดูสิว่าเขาทำได้ไหม เพราะเจ้าจะต้องอยู่ที่นี่\n93 เพราะเจ้าได้นำทางเขาผ่านดินแดนที่มืดมิดเช่นนี้\""
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 91 ให้เขากลับไปทางเดิมที่โง่เขลาเถอะ
 92 ลองดูสิว่าเขาทำได้ไหม เพราะเจ้าจะต้องอยู่ที่นี่
@@ -529,17 +488,26 @@ Please translate each line literally into Thai.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 "โอ้ท่านดยุคผู้เป็นที่รักของข้า ผู้ที่มากกว่าเจ็ด
+98 ครั้งที่ท่านได้ทำให้ข้าปลอดภัยและช่วยข้า
+99 จากอันตรายใหญ่หลวงที่ข้าเผชิญ"
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Thai.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 "โอ้ ท่านผู้นำที่รักของข้าพเจ้า ผู้ที่ได้มอบความปลอดภัยและช่วยข้าพเจ้า
-98 จากอันตรายร้ายแรงที่ข้าพเจ้าเผชิญมากกว่าเจ็ดครั้ง
-99 อย่าทอดทิ้งข้าพเจ้าไว้เช่นนี้
-100 และหากเราไม่สามารถเดินทางต่อไปได้อีกแล้ว
-101 ขอให้เราหันหลังกลับไปตามรอยเท้าของเราโดยเร็ว"
+100 อย่าทอดทิ้งข้าไว้เช่นนี้ ข้ากล่าว ขณะที่รู้สึกสิ้นหวัง
+101 และหากเราไม่สามารถเดินทางต่อไปได้อีกแล้ว
+102 ขอให้เราหาวิธีกลับไปยังเส้นทางเดิมของเราโดยเร็ว
 </result>
 </query>
 <query>
@@ -567,8 +535,9 @@ Please translate each line literally into Thai.
 108 ch’i’ non ti lascerò nel mondo basso».
 </prompt>
 <result>
-106 แต่จงรอข้าพเจ้าอยู่ที่นี่ และปลอบโยนจิตวิญญาณที่อ่อนล้า
-107 ด้วยความหวังที่ดี เพราะว่าข้าพเจ้าจะไม่ทิ้งเจ้าไว้ในโลกเบื้องล่าง"
+106 แต่จงรอข้าอยู่ที่นี่ และจิตวิญญาณ
+107 จงปลอบโยนและหล่อเลี้ยงด้วยความหวังที่ดี
+108 เพราะข้าจะไม่ทิ้งเจ้าไว้ในโลกเบื้องล่าง
 </result>
 </query>
 <query>
@@ -669,14 +638,21 @@ Please translate each line literally into Thai.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 เหนือประตูนั้น เจ้าได้เห็นคำจารึกที่ตายแล้ว
 128 และจากจุดนี้ไป ทางขึ้นก็เริ่มสูงชันขึ้น
 129 ผ่านวงกลมต่างๆ โดยไม่มีผู้นำทาง
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Thai.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 จนกระทั่งแผ่นดินเปิดออกให้เขาผ่านไปได้"
 </result>
 </query>

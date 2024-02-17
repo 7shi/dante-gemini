@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="40">
+<queries count="46">
 <query>
 <info>[Inferno Canto 10] 1/136</info>
 <prompt>
@@ -25,8 +25,9 @@ Please translate each line literally into Turkish.
 6 parlami, e sodisfammi a’ miei disiri.
 </prompt>
 <result>
-4 "Ey günahlarım yüzünden beni bu zorlu yola sokan yüce erdem," diye başladım, "istediğin gibi,
-5 bana konuş ve arzularımı gider."
+4 "Ey en yüce erdem, beni kötü girişimlerimden dolayı döndüren,
+5 başladım, "istediğin gibi,
+6 bana konuş ve arzularımı tatmin et.
 </result>
 </query>
 <query>
@@ -39,7 +40,9 @@ Please translate each line literally into Turkish.
 9 tutt’ i coperchi, e nessun guardia face».
 </prompt>
 <result>
-7 Mezarlarda yatan insanlar görülebilir mi? Zaten tüm kapaklar kaldırılmış ve kimse nöbet tutmuyor."
+7 Mezarlarda yatan insanlar
+8 Görülebilirmi? Zaten kaldırıldı
+9 Tüm kapaklar ve hiç kimse nöbet tutmuyor."
 </result>
 </query>
 <query>
@@ -51,34 +54,10 @@ Please translate each line literally into Turkish.
 11 quando di Iosafàt qui torneranno
 12 coi corpi che là sù hanno lasciati.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "10 Onlar da bana şöyle dedi: \"Hepsi, yukarıda bıraktıkları bedenleriyle birlikte buraya, Yehoşafat Vadisi\'ne döndüklerinde kapatılacaklar."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-10 Onlar da bana şöyle dedi: "Hepsi, yukarıda bıraktıkları bedenleriyle birlikte buraya, Yehoşafat Vadisi'ne döndüklerinde kapatılacaklar.
+10 Ve onlar bana: "Hepsi sıkışık bir şekilde toplanacaklar,
+11 Yehoşafat Vadisi'ne döndüklerinde
+12 Yukarıda bıraktıkları bedenleriyle.
 </result>
 </query>
 <query>
@@ -121,8 +100,9 @@ Please translate each line literally into Turkish.
 21 e tu m’hai non pur mo a ciò disposto».
 </prompt>
 <result>
-19 Ve ben: "İyi önderim, sana kalbimi saklamıyorum,
-20 sadece az konuşuyorum ve sen beni şimdi buna hazırladın."
+19 Ve ben: "İyi önder, kalbimi senden saklı tutmuyorum,
+20 sana az şey söylemek için değil,
+21 ve sen beni şimdi buna hazırladın."
 </result>
 </query>
 <query>
@@ -135,8 +115,9 @@ Please translate each line literally into Turkish.
 24 piacciati di restare in questo loco.
 </prompt>
 <result>
-22 "Ey ateş şehrinden dürüstçe konuşarak geçen Toskalı,
-23 bu yerde kalmayı kabul et.
+22 Ey ateş şehrinden gelen Toskalı,
+23 Dürüstçe konuşarak canlı bir şekilde ilerliyorsun,
+24 Bu yerde kalmak hoşuna gitsin.
 </result>
 </query>
 <query>
@@ -149,8 +130,9 @@ Please translate each line literally into Turkish.
 27 a la qual forse fui troppo molesto».
 </prompt>
 <result>
-25 Konuşman seni o asil vatanın çocuğu olarak belli ediyor,
-26 belki de ben ona fazla eziyet ettim."
+25 Konuşman seni açıkça gösteriyor
+26 O asil vatanın çocuğu olarak,
+27 Belki de sana çok fazla sıkıntı verdim.
 </result>
 </query>
 <query>
@@ -236,18 +218,26 @@ Please translate each line literally into Turkish.
 43 Io ch’era d’ubidir disideroso,
 44 non gliel celai, ma tutto gliel’ apersi;
 45 ond’ ei levò le ciglia un poco in suso;
+</prompt>
+<result>
+43 Ben ki itaat etmeye hevesliydim,
+44 Bunu ondan saklamadım, ama her şeyi ona açtım;
+45 Bunun üzerine o kaşlarını biraz yukarı kaldırdı;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 10] 46/136</info>
+<prompt>
+Please translate each line literally into Turkish.
 
 46 poi disse: «Fieramente furo avversi
 47 a me e a miei primi e a mia parte,
 48 sì che per due fïate li dispersi».
 </prompt>
 <result>
-43 Ben itaat etmeye hevesliydim,
-44 ondan saklamadım, her şeyi anlattım;
-45 bunun üzerine kaşlarını biraz yukarı kaldırdı;
-
-46 sonra dedi ki: "Bana, atalarıma ve partizanlarıma şiddetle karşı çıktılar,
-47 öyle ki onları iki kez dağıttım."
+46 Sonra dedi ki: "Şiddetle karşı çıktılar
+47 Bana ve ilk atalarıma ve benim tarafıma,
+48 Öyle ki iki kez onları dağıttım".
 </result>
 </query>
 <query>
@@ -288,16 +278,23 @@ Please translate each line literally into Turkish.
 55 Dintorno mi guardò, come talento
 56 avesse di veder s’altri era meco;
 57 e poi che ’l sospecciar fu tutto spento,
+</prompt>
+<result>
+55 Etrafıma baktı, sanki
+56 benimle başkalarının da olup olmadığını görmek istiyordu;
+57 ve şüphesi tamamen ortadan kalkınca,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 10] 58/136</info>
+<prompt>
+Please translate each line literally into Turkish.
 
 58 piangendo disse: «Se per questo cieco
 59 carcere vai per altezza d’ingegno,
 60 mio figlio ov’ è? e perché non è teco?».
 </prompt>
 <result>
-55 Etrafıma baktı, sanki
-56 benimle başkalarının da olup olmadığını görmek istiyordu;
-57 ve şüphesi tamamen ortadan kalkınca,
-
 58 ağlayarak dedi ki: "Eğer bu karanlık hapishanede
 59 yüksek zekânla dolaşıyorsan,
 60 oğlum nerede? Ve neden seninle değil?"
@@ -358,8 +355,9 @@ Please translate each line literally into Turkish.
 72 supin ricadde e più non parve fora.
 </prompt>
 <result>
-70 Cevaptan önce biraz duraksadığımı fark ettiğinde,
-71 sırtüstü düştü ve bir daha görünmedi.
+70 Cevaptan önce yaptığm bir duraklamaya
+71 Dikkat ettiğinde,
+72 Sırtüstü düştü ve bir daha görünmedi.
 </result>
 </query>
 <query>
@@ -370,18 +368,26 @@ Please translate each line literally into Turkish.
 73 Ma quell’ altro magnanimo, a cui posta
 74 restato m’era, non mutò aspetto,
 75 né mosse collo, né piegò sua costa;
+</prompt>
+<result>
+73 Ama orada kalan o diğer yüce kişi,
+74 Görünüşünü değiştirmedi,
+75 Ne başını oynattı ne de belini büktü;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 10] 76/136</info>
+<prompt>
+Please translate each line literally into Turkish.
 
 76 e sé continüando al primo detto,
 77 «S’elli han quell’ arte», disse, «male appresa,
 78 ciò mi tormenta più che questo letto.
 </prompt>
 <result>
-73 Ama orada kalan o diğer yüce gönüllü,
-74 görünüşünü değiştirmedi,
-75 ne başını oynattı ne de belini büktü;
-
-76 ve ilk sözüne devam ederek,
-77 "Eğer o sanatı kötü öğrendilerse," dedi, "bu beni bu yataktan daha çok işkence ediyor.
+76 Ve ilk sözüne devam ederek,
+77 "Eğer onlar o sanatı kötü öğrendilerse," dedi,
+78 "Bu beni bu yataktan daha çok rahatsız ediyor.
 </result>
 </query>
 <query>
@@ -529,8 +535,9 @@ Please translate each line literally into Turkish.
 108 che del futuro fia chiusa la porta».
 </prompt>
 <result>
-106 "Bu nedenle anlayabilirsin ki tüm bilgimiz
-107 geleceğin kapısı kapandığında sona erecek."
+106 Bu nedenle, tüm bilgisinin o noktadan itibaren
+107 Ölecek olduğunu anlamak gerekir,
+108 Çünkü geleceğe giden kapı kapanacaktır».
 </result>
 </query>
 <query>
@@ -541,16 +548,23 @@ Please translate each line literally into Turkish.
 109 Allor, come di mia colpa compunto,
 110 dissi: «Or direte dunque a quel caduto
 111 che ’l suo nato è co’ vivi ancor congiunto;
+</prompt>
+<result>
+109 Sonra, sanki suçumdan pişman olmuş gibi,
+110 dedim ki: "Şimdi o düşmüş adama söyleyin ki
+111 oğlu hâlâ yaşayanlarla birlikte;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 10] 112/136</info>
+<prompt>
+Please translate each line literally into Turkish.
 
 112 e s’i’ fui, dianzi, a la risposta muto,
 113 fate i saper che ’l fei perché pensava
 114 già ne l’error che m’avete soluto».
 </prompt>
 <result>
-109 Sonra, sanki suçumdan pişman olmuş gibi,
-110 dedim ki: "Şimdi o düşmüş adama söyleyin ki
-111 oğlu hâlâ yaşayanlarla birlikte;
-
 112 ve eğer daha önce cevaba sessiz kaldıysam,
 113 bunun nedeninin, şimdi bana açıkladığınız
 114 yanılgıda olduğumu düşünmem olduğunu bildirin."
@@ -624,18 +638,26 @@ Please translate each line literally into Turkish.
 127 «La mente tua conservi quel ch’udito
 128 hai contra te», mi comandò quel saggio;
 129 «e ora attendi qui», e drizzò ’l dito:
+</prompt>
+<result>
+127 «Karşıtın olarak duyduğun şeyi aklında tut»,
+128 O bilge bana emretti;
+129 «Ve şimdi burada bekle», ve parmağını doğrulttu:
+</result>
+</query>
+<query>
+<info>[Inferno Canto 10] 130/136</info>
+<prompt>
+Please translate each line literally into Turkish.
 
 130 «quando sarai dinanzi al dolce raggio
 131 di quella il cui bell’ occhio tutto vede,
 132 da lei saprai di tua vita il vïaggio».
 </prompt>
 <result>
-127 "Zihnin, sana karşı duyduğun şeyi saklasın," diye emretti o bilge;
-128 "ve şimdi burada bekle," ve parmağını doğrulttu:
-
-130 "O güzel gözü her şeyi görenin
-131 tatlı ışığının önüne geldiğinde,
-132 hayat yolculuğunu ondan öğreneceksin."
+130 "O tatlı ışığın önüne çıktığında,
+131 Her şeyi gören o güzel gözün,
+132 Ondan hayat yolculuğunu öğreneceksin."
 </result>
 </query>
 <query>
@@ -646,14 +668,21 @@ Please translate each line literally into Turkish.
 133 Appresso mosse a man sinistra il piede:
 134 lasciammo il muro e gimmo inver’ lo mezzo
 135 per un sentier ch’a una valle fiede,
-
-136 che ’nfin là sù facea spiacer suo lezzo.
 </prompt>
 <result>
 133 Sonra sol ayağını hareket ettirdi:
 134 duvarı terk ettik ve bir vadiye ulaşan
 135 bir patikadan oraya doğru yürüdük,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 10] 136/136</info>
+<prompt>
+Please translate each line literally into Turkish.
 
+136 che ’nfin là sù facea spiacer suo lezzo.
+</prompt>
+<result>
 136 ki oraya kadar kokusuyla rahatsızlık veriyordu.
 </result>
 </query>

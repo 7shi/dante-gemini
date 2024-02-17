@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="38">
+<queries count="49">
 <query>
 <info>[Purgatorio Canto 19] 1/145</info>
 <prompt>
@@ -8,24 +8,38 @@ Please translate each line literally into Estonian.
 1 Ne l’ora che non può ’l calor dïurno
 2 intepidar più ’l freddo de la luna,
 3 vinto da terra, e talor da Saturno
+</prompt>
+<result>
+1 Tunnil, mil päevane kuumus ei suuda enam
+2 leevendada kuu külma,
+3 mida on alistanud maa ja vahel ka Saturn,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 4/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 4 —quando i geomanti lor Maggior Fortuna
 5 veggiono in orïente, innanzi a l’alba,
 6 surger per via che poco le sta bruna—,
+</prompt>
+<result>
+4 —kui geomandijad näevad oma Suurt Õnne
+5 idas, enne koitu,
+6 tõusmas teel, mis on talle pisut hämar—,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 7/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 7 mi venne in sogno una femmina balba,
 8 ne li occhi guercia, e sovra i piè distorta,
 9 con le man monche, e di colore scialba.
 </prompt>
 <result>
-1 Tunnil, mil päevane kuumus ei suuda enam
-2 leevendada kuu külma,
-3 mida on alistanud maa ja vahel ka Saturn,
-
-4 —kui geomandijad näevad oma Suurt Õnne
-5 idas, enne koitu,
-6 tõusmas teel, mis on talle pisut hämar—,
-
 7 ilmus mulle unes üks lonkav naine,
 8 kelle silmad olid viltused ja jalad kõverad,
 9 kelle käed olid moondunud ja värvus kahvatu.
@@ -39,18 +53,26 @@ Please translate each line literally into Estonian.
 10 Io la mirava; e come ’l sol conforta
 11 le fredde membra che la notte aggrava,
 12 così lo sguardo mio le facea scorta
+</prompt>
+<result>
+10 Mina vaatasin teda; ja nagu päike soojendab
+11 külmi jäsemeid, mida öö koormab,
+12 nii juhatas mu pilk teda
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 13/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 13 la lingua, e poscia tutta la drizzava
 14 in poco d’ora, e lo smarrito volto,
 15 com’ amor vuol, così le colorava.
 </prompt>
 <result>
-10 Ma vaatasin teda; ja nagu päike soojendab
-11 külmi jäsemeid, mida öö on koormanud,
-12 nii mu pilk tegi tema
-13 keele vabaks ja seejärel sirutas ta kogu keha
-14 lühikese aja jooksul ning andis tema kahvatule näole
-15 värvi, nagu armastus seda nõuab.
+13 keele ja seejärel kogu keha
+14 lühikese aja jooksul sirgu, ja tema nägu,
+15 nagu armastus tahab, nii värvis ta.
 </result>
 </query>
 <query>
@@ -76,16 +98,23 @@ Please translate each line literally into Estonian.
 19 «Io son», cantava, «io son dolce serena,
 20 che ’ marinari in mezzo mar dismago;
 21 tanto son di piacere a sentir piena!
+</prompt>
+<result>
+19 „Mina olen,“ laulis ta, „mina olen magus sireen,
+20 kes paneb meremehed avamerel meelt heitma;
+21 nii täis olen ma naudingut kuulata!
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 22/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 22 Io volsi Ulisse del suo cammin vago
 23 al canto mio; e qual meco s’ausa,
 24 rado sen parte; sì tutto l’appago!».
 </prompt>
 <result>
-19 „Mina olen,“ laulis ta, „mina olen magus sireen,
-20 kes paneb meremehed avamerel meelt heitma;
-21 nii täis olen ma naudingut kuulata!
-
 22 Mina pöördasin Odysseuse tema sihikindlalt teelt kõrvale
 23 oma lauluga; ja kes julgeb minuga kaasa tulla,
 24 see lahkub harva; nii väga ma teda rahuldan!“
@@ -130,32 +159,6 @@ Please translate each line literally into Estonian.
 32 fendendo i drappi, e mostravami ’l ventre;
 33 quel mi svegliò col puzzo che n’uscia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "31 Teine haaras ta ja avas ta ees\n32 rebestades riided ning näitas mulle ta kõhtu;\n33 see äratas mu üles sealt tuleva haisu tõttu."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 31 Teine haaras ta ja avas ta ees
 32 rebestades riided ning näitas mulle ta kõhtu;
@@ -187,8 +190,9 @@ Please translate each line literally into Estonian.
 39 e andavam col sol novo a le reni.
 </prompt>
 <result>
-37 Ma tõusin püsti ja kõik püha mäe nõlvad olid juba täis
-38 kõrgest päevast ning me kõndisime uue päikesega seljas.
+37 Siis tõusin mina ja kõik olid juba
+38 püha mäe kõrge päeva ringid,
+39 ja me läksime uue päikesega seljas.
 </result>
 </query>
 <query>
@@ -199,16 +203,23 @@ Please translate each line literally into Estonian.
 40 Seguendo lui, portava la mia fronte
 41 come colui che l’ha di pensier carca,
 42 che fa di sé un mezzo arco di ponte;
+</prompt>
+<result>
+40 Teda järgides kandsin oma laupa
+41 nagu keegi, kellel see on mõtteid täis,
+42 kes teeb endast silla poole kaare;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 43/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 43 quand’ io udi’ «Venite; qui si varca»
 44 parlare in modo soave e benigno,
 45 qual non si sente in questa mortal marca.
 </prompt>
 <result>
-40 Teda järgides kandsin oma laupa
-41 nagu keegi, kellel see on mõtteid täis,
-42 kes teeb endast silla poole kaare;
-
 43 kui ma kuulsin „Tulge; siit minnakse läbi“
 44 öeldavat leebe ja lahke häälega,
 45 millist ei kuule siin surelikus maailmas.
@@ -312,16 +323,23 @@ Please translate each line literally into Estonian.
 64 Quale ’l falcon, che prima a’ pié si mira,
 65 indi si volge al grido e si protende
 66 per lo disio del pasto che là il tira,
+</prompt>
+<result>
+64 Nagu pistrik, kes kõigepealt vaatab oma jalgu,
+65 seejärel pöörab pilgu karjele ja sirutab end
+66 söögiisu tõttu, mis teda sinna tõmbab,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 67/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 67 tal mi fec’ io; e tal, quanto si fende
 68 la roccia per dar via a chi va suso,
 69 n’andai infin dove ’l cerchiar si prende.
 </prompt>
 <result>
-64 Nagu pistrik, kes kõigepealt vaatab oma jalgu,
-65 seejärel pöörab pilgu karjele ja sirutab end
-66 söögiisu tõttu, mis teda sinna tõmbab,
-
 67 nii tegin mina; ja nii, kui palju lõheneb
 68 kalju, et anda teed sellele, kes läheb üles,
 69 läksin ma lõpuks sinna, kus algab ringkäik.
@@ -395,16 +413,23 @@ Please translate each line literally into Estonian.
 82 Così pregò ’l poeta, e sì risposto
 83 poco dinanzi a noi ne fu; per ch’io
 84 nel parlare avvisai l’altro nascosto,
+</prompt>
+<result>
+82 Nii palus luuletaja ja nii vastati
+83 meie eespool pisut; sest ma
+84 märkasin kõnes teist peidus olevat,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 85/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 85 e volsi li occhi a li occhi al segnor mio:
 86 ond’ elli m’assentì con lieto cenno
 87 ciò che chiedea la vista del disio.
 </prompt>
 <result>
-82 Nii palus luuletaja ja nii vastati
-83 meie eespool pisut; sest ma
-84 märkasin kõnes teist peidus olevat,
-
 85 ja pöörasin oma silmad oma isanda silmade poole:
 86 mille peale ta andis mulle rõõmsa märgiga nõusoleku
 87 sellele, mida soovi pilk küsis.
@@ -418,16 +443,23 @@ Please translate each line literally into Estonian.
 88 Poi ch’io potei di me fare a mio senno,
 89 trassimi sovra quella creatura
 90 le cui parole pria notar mi fenno,
+</prompt>
+<result>
+88 Kui ma sain teha endast seda, mida ise tahtsin,
+89 tõmbasin end selle olendi juurde,
+90 kelle sõnad panid mind esmalt tähele panema,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 91/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 91 dicendo: «Spirto in cui pianger matura
 92 quel sanza ’l quale a Dio tornar non pòssi,
 93 sosta un poco per me tua maggior cura.
 </prompt>
 <result>
-88 Kui ma sain teha endast seda, mida ise tahtsin,
-89 tõmbasin end selle olendi juurde,
-90 kelle sõnad panid mind esmalt tähele panema,
-
 91 öeldes: „Hing, kelle jaoks on küps nutma
 92 selle järele, ilma kelleta ei saa Jumala juurde naasta,
 93 peata oma suurem mure minu jaoks veidiks ajaks.
@@ -533,7 +565,8 @@ Please translate each line literally into Estonian.
 114 or, come vedi, qui ne son punita.
 </prompt>
 <result>
-112 Kuni selleni hetkeni olin ma Jumalast lahutatud ja õnnetu hing, täiesti ahnus;
+112 Kuni selleni välja vilets ja lahus
+113 Jumalast olin ma hing, täiesti ahnus;
 114 nüüd, nagu sa näed, olen ma siin selle eest karistatud.
 </result>
 </query>
@@ -575,16 +608,23 @@ Please translate each line literally into Estonian.
 121 Come avarizia spense a ciascun bene
 122 lo nostro amore, onde operar perdési,
 123 così giustizia qui stretti ne tene,
+</prompt>
+<result>
+121 Nii nagu ahnus kustutas igasuguse hüve vastu
+122 meie armastuse, mille tõttu tegutsemine kadus,
+123 nii hoiab õiglus meid siin kinni,
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 124/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 124 ne’ piedi e ne le man legati e presi;
 125 e quanto fia piacer del giusto Sire,
 126 tanto staremo immobili e distesi».
 </prompt>
 <result>
-121 Nii nagu ahnus kustutas igasuguse hüve vastu
-122 meie armastuse, mille tõttu tegutsemine kadus,
-123 nii hoiab õiglus meid siin kinni,
-
 124 jalad ja käed seotud ja kinni püütud;
 125 ja kui kaua õiglase Isanda meele järgi on,
 126 nii kaua jääme me liikumatuteks ja pikali.“
@@ -598,35 +638,41 @@ Please translate each line literally into Estonian.
 127 Io m’era inginocchiato e volea dire;
 128 ma com’ io cominciai ed el s’accorse,
 129 solo ascoltando, del mio reverire,
-
-130 «Qual cagion», disse, «in giù così ti torse?».
 </prompt>
 <result>
 127 Ma olin põlvili langenud ja tahtsin öelda;
 128 aga kui ma alustasin ja tema märkas,
 129 ainult kuulates, minu austust,
-
-130 ütles ta: „Mis põhjus sind nii allapoole painutab?“
 </result>
 </query>
 <query>
-<info>[Purgatorio Canto 19] 131/145</info>
+<info>[Purgatorio Canto 19] 130/145</info>
 <prompt>
 Please translate each line literally into Estonian.
 
+130 «Qual cagion», disse, «in giù così ti torse?».
 131 E io a lui: «Per vostra dignitate
 132 mia coscïenza dritto mi rimorse».
+</prompt>
+<result>
+130 «Mis põhjusel,» ütles ta, «sind nii allapoole painab?»
+131 Ja mina temale: «Teie väärikuse pärast
+132 piinab mind mu südametunnistus õiglaselt.»
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 133/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
 133 «Drizza le gambe, lèvati sù, frate!»,
 134 rispuose; «non errar: conservo sono
 135 teco e con li altri ad una podestate.
 </prompt>
 <result>
-131 Ja mina temale: „Teie väärikuse pärast
-132 piinas mu südametunnistus mind õiglaselt.“
-
-133 „Siruta jalad sirgu, tõuse püsti, vend!“
-134 vastas ta; „ära eksi: ma olen sinu ja teistega ühe võimu all.
+133 „Tõsta jalad sirgu, tõuse püsti, vend!“,
+134 Ta vastas: «Ära eksi: mina olen säilitaja
+135 sinuga ja teistega koos ühe võimu all.
 </result>
 </query>
 <query>
@@ -667,14 +713,21 @@ Please translate each line literally into Estonian.
 142 Nepote ho io di là c’ha nome Alagia,
 143 buona da sé, pur che la nostra casa
 144 non faccia lei per essempro malvagia;
-
-145 e questa sola di là m’è rimasa».
 </prompt>
 <result>
 142 Mul on seal lapselaps, kelle nimi on Alagia,
 143 iseenesest hea, kui ainult meie suguvõsa
 144 ei tee temast oma halva eeskujuga paha;
+</result>
+</query>
+<query>
+<info>[Purgatorio Canto 19] 145/145</info>
+<prompt>
+Please translate each line literally into Estonian.
 
+145 e questa sola di là m’è rimasa».
+</prompt>
+<result>
 145 ja tema on ainus, kes mul sealt on jäänud.“
 </result>
 </query>

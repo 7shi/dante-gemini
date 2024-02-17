@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="29">
+<queries count="48">
 <query>
 <info>[Inferno Canto 28] 1/142</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Russian.
 1 Chi poria mai pur con parole sciolte
 2 dicer del sangue e de le piaghe a pieno
 3 ch’i’ ora vidi, per narrar più volte?
+</prompt>
+<result>
+1 Кто бы мог когда-нибудь простыми словами
+2 рассказать о крови и ранах в полной мере,
+3 которые я сейчас увидел, чтобы поведать много раз?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 4/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 4 Ogne lingua per certo verria meno
 5 per lo nostro sermone e per la mente
 6 c’hanno a tanto comprender poco seno.
 </prompt>
 <result>
-1 Кто бы мог когда-нибудь простыми словами
-2 рассказать о крови и ранах в полной мере,
-3 которые я сейчас увидел, чтобы поведать много раз?
-
 4 Любой язык, конечно, обессилел бы
 5 из-за нашего рассказа и из-за разума,
 6 которые имеют слишком мало понимания для этого.
@@ -31,40 +38,68 @@ Please translate each line literally into Russian.
 7 S’el s’aunasse ancor tutta la gente
 8 che già, in su la fortunata terra
 9 di Puglia, fu del suo sangue dolente
+</prompt>
+<result>
+7 Если бы собрались вместе все люди,
+8 которые когда-то на благословенной земле
+9 Апулии страдали от своей крови
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 10/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 10 per li Troiani e per la lunga guerra
 11 che de l’anella fé sì alte spoglie,
 12 come Livïo scrive, che non erra,
+</prompt>
+<result>
+10 из-за троянцев и из-за долгой войны,
+11 которая принесла такие богатые трофеи в виде колец,
+12 как пишет Ливий, который не ошибается,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 13/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 13 con quella che sentio di colpi doglie
 14 per contastare a Ruberto Guiscardo;
 15 e l’altra il cui ossame ancor s’accoglie
+</prompt>
+<result>
+13 вместе с теми, кто испытывал боль от ударов,
+14 чтобы противостоять Роберту Гвискару;
+15 и другие, чьи кости до сих пор собирают
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 16/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 16 a Ceperan, là dove fu bugiardo
 17 ciascun Pugliese, e là da Tagliacozzo,
 18 dove sanz’ arme vinse il vecchio Alardo;
+</prompt>
+<result>
+16 в Чеперано, где каждый апулиец солгал,
+17 и там, в Тальякоццо,
+18 где безоружный победил старый Алардо;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 19/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 19 e qual forato suo membro e qual mozzo
 20 mostrasse, d’aequar sarebbe nulla
 21 il modo de la nona bolgia sozzo.
 </prompt>
 <result>
-7 Если бы собрались вместе все люди,
-8 которые когда-то на благословенной земле
-9 Апулии страдали от своей крови
-
-10 из-за троянцев и из-за долгой войны,
-11 которая принесла такие богатые трофеи в виде колец,
-12 как пишет Ливий, который не ошибается,
-
-13 вместе с теми, кто испытывал боль от ударов,
-14 чтобы противостоять Роберту Гвискару;
-15 и другие, чьи кости до сих пор собирают
-
-16 в Чеперано, где каждый апулиец солгал,
-17 и там, в Тальякоццо,
-18 где безоружный победил старый Алардо;
-
 19 и кто бы ни показывал свои пронзенные или отрезанные члены,
 20 это было бы ничто по сравнению
 21 с грязным видом девятого круга.
@@ -94,32 +129,6 @@ Please translate each line literally into Russian.
 26 la corata pareva e ’l tristo sacco
 27 che merda fa di quel che si trangugia.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "25 Между ног свисали внутренности;\n26 казались легкие и злосчастный желудок,\n27 который превращает в дерьмо то, что проглатывается."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 25 Между ног свисали внутренности;
 26 казались легкие и злосчастный желудок,
@@ -134,42 +143,23 @@ Please translate each line literally into Russian.
 28 Mentre che tutto in lui veder m’attacco,
 29 guardommi e con le man s’aperse il petto,
 30 dicendo: «Or vedi com’ io mi dilacco!
+</prompt>
+<result>
+28 Пока я пристально смотрел на него,
+29 он посмотрел на меня и руками разорвал себе грудь,
+30 говоря: «Теперь смотри, как я разорван!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 31/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 31 vedi come storpiato è Mäometto!
 32 Dinanzi a me sen va piangendo Alì,
 33 fesso nel volto dal mento al ciuffetto.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "28 Пока я пристально смотрел на него,\n29 он посмотрел на меня и руками разорвал себе грудь,\n30 говоря: «Теперь смотри, как я разорван!\n\n31 Смотри, как изуродован Магомет!\n32 Передо мной плача идет Али,\n33 рассеченный в лице от подбородка до чуба."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: MEDIUM
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-28 Пока я пристально смотрел на него,
-29 он посмотрел на меня и руками разорвал себе грудь,
-30 говоря: «Теперь смотри, как я разорван!
-
 31 Смотри, как изуродован Магомет!
 32 Передо мной плача идет Али,
 33 рассеченный в лице от подбородка до чуба.
@@ -198,42 +188,23 @@ Please translate each line literally into Russian.
 37 Un diavolo è qua dietro che n’accisma
 38 sì crudelmente, al taglio de la spada
 39 rimettendo ciascun di questa risma,
+</prompt>
+<result>
+37 Дьявол стоит здесь сзади и убивает их
+38 так жестоко, ударом меча
+39 отправляя каждого из этой толпы,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 40/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 40 quand’ avem volta la dolente strada;
 41 però che le ferite son richiuse
 42 prima ch’altri dinanzi li rivada.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 Дьявол стоит здесь сзади и убивает их\n38 так жестоко, ударом меча\n39 отправляя каждого из этой толпы,\n\n40 когда мы проходим по печальной дороге;\n41 потому что раны затягиваются\n42 прежде, чем другой пройдет перед ним."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
-37 Дьявол стоит здесь сзади и убивает их
-38 так жестоко, ударом меча
-39 отправляя каждого из этой толпы,
-
 40 когда мы проходим по печальной дороге;
 41 потому что раны затягиваются
 42 прежде, чем другой пройдет перед ним.
@@ -262,16 +233,23 @@ Please translate each line literally into Russian.
 46 «Né morte ’l giunse ancor, né colpa ’l mena»,
 47 rispuose ’l mio maestro, «a tormentarlo;
 48 ma per dar lui esperïenza piena,
+</prompt>
+<result>
+46 «Его еще не настигла смерть, и не вина привела его сюда»,
+47 ответил мой учитель, «чтобы мучить его;
+48 но чтобы дать ему полный опыт,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 49/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 49 a me, che morto son, convien menarlo
 50 per lo ’nferno qua giù di giro in giro;
 51 e quest’ è ver così com’ io ti parlo».
 </prompt>
 <result>
-46 «Его еще не настигла смерть, и не вина привела его сюда»,
-47 ответил мой учитель, «чтобы мучить его;
-48 но чтобы дать ему полный опыт,
-
 49 мне, который мертв, следует вести его
 50 по кругам ада здесь, внизу;
 51 и это правда, как я тебе говорю».
@@ -300,16 +278,23 @@ Please translate each line literally into Russian.
 55 «Or dì a fra Dolcin dunque che s’armi,
 56 tu che forse vedra’ il sole in breve,
 57 s’ello non vuol qui tosto seguitarmi,
+</prompt>
+<result>
+55 «Итак, скажи брату Дольчину, чтобы он вооружился,
+56 ты, который, возможно, скоро увидишь солнце,
+57 если он не хочет вскоре последовать за мной сюда,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 58/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 58 sì di vivanda, che stretta di neve
 59 non rechi la vittoria al Noarese,
 60 ch’altrimenti acquistar non saria leve».
 </prompt>
 <result>
-55 «Итак, скажи брату Дольчину, чтобы он вооружился,
-56 ты, который, возможно, скоро увидишь солнце,
-57 если он не хочет вскоре последовать за мной сюда,
-
 58 с таким запасом провизии, чтобы суровая зима
 59 не принесла победу новарезам,
 60 которую иначе было бы нелегко одержать».
@@ -338,32 +323,53 @@ Please translate each line literally into Russian.
 64 Un altro, che forata avea la gola
 65 e tronco ’l naso infin sotto le ciglia,
 66 e non avea mai ch’una orecchia sola,
+</prompt>
+<result>
+64 Другой, у которого была проколота шея
+65 и нос отрезан до самых бровей,
+66 и у которого было только одно ухо,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 67/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 67 ristato a riguardar per maraviglia
 68 con li altri, innanzi a li altri aprì la canna,
 69 ch’era di fuor d’ogne parte vermiglia,
+</prompt>
+<result>
+67 остановился, чтобы посмотреть с удивлением
+68 вместе с другими, перед другими он открыл горло,
+69 которое снаружи было красным со всех сторон,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 70/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 70 e disse: «O tu cui colpa non condanna
 71 e cu’ io vidi su in terra latina,
 72 se troppa simiglianza non m’inganna,
+</prompt>
+<result>
+70 и сказал: «О ты, которого не осуждает вина
+71 и которого я видел на земле в Италии,
+72 если слишком большое сходство меня не обманывает,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 73/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 73 rimembriti di Pier da Medicina,
 74 se mai torni a veder lo dolce piano
 75 che da Vercelli a Marcabò dichina.
 </prompt>
 <result>
-64 Другой, у которого была проколота шея
-65 и нос отрезан до самых бровей,
-66 и у которого было только одно ухо,
-
-67 остановился, чтобы посмотреть с удивлением
-68 вместе с другими, перед другими он открыл горло,
-69 которое снаружи было красным со всех сторон,
-
-70 и сказал: «О ты, которого не осуждает вина
-71 и которого я видел на земле в Италии,
-72 если слишком большое сходство меня не обманывает,
-
 73 вспомни Пьера из Медичины,
 74 если когда-нибудь вернешься увидеть прекрасную равнину,
 75 которая спускается от Верчелли до Маркабо.
@@ -377,16 +383,23 @@ Please translate each line literally into Russian.
 76 E fa saper a’ due miglior da Fano,
 77 a messer Guido e anco ad Angiolello,
 78 che, se l’antiveder qui non è vano,
+</prompt>
+<result>
+76 И дай знать двум лучшим из Фано,
+77 мессеру Гвидо и также Анджолелло,
+78 что, если предвидение здесь не напрасно,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 79/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 79 gittati saran fuor di lor vasello
 80 e mazzerati presso a la Cattolica
 81 per tradimento d’un tiranno fello.
 </prompt>
 <result>
-76 И дай знать двум лучшим из Фано,
-77 мессеру Гвидо и также Анджолелло,
-78 что, если предвидение здесь не напрасно,
-
 79 они будут выброшены из своего корабля
 80 и убиты возле Каттолики
 81 из-за предательства жестокого тирана.
@@ -415,16 +428,23 @@ Please translate each line literally into Russian.
 85 Quel traditor che vede pur con l’uno,
 86 e tien la terra che tale qui meco
 87 vorrebbe di vedere esser digiuno,
+</prompt>
+<result>
+85 Этот предатель, который видит только одним глазом,
+86 и владеет землей, которую такой же, как я здесь,
+87 хотел бы видеть голодной,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 88/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 88 farà venirli a parlamento seco;
 89 poi farà sì, ch’al vento di Focara
 90 non sarà lor mestier voto né preco».
 </prompt>
 <result>
-85 Этот предатель, который видит только одним глазом,
-86 и владеет землей, которую такой же, как я здесь,
-87 хотел бы видеть голодной,
-
 88 заставит их прийти к нему на переговоры;
 89 затем сделает так, что на ветру Фокары
 90 им не понадобятся ни обеты, ни молитвы».
@@ -483,27 +503,41 @@ Please translate each line literally into Russian.
 100 Oh quanto mi pareva sbigottito
 101 con la lingua tagliata ne la strozza
 102 Curïo, ch’a dir fu così ardito!
+</prompt>
+<result>
+100 О, как мне показался испуганным
+101 С отрезанным языком в горле
+102 Курио, который был так смел в словах!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 103/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 103 E un ch’avea l’una e l’altra man mozza,
 104 levando i moncherin per l’aura fosca,
 105 sì che ’l sangue facea la faccia sozza,
+</prompt>
+<result>
+103 И один, у которого были отрублены обе руки,
+104 поднимая обрубки в темном воздухе,
+105 так что кровь пачкала его лицо,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 106/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 106 gridò: «Ricordera’ti anche del Mosca,
 107 che disse, lasso!, “Capo ha cosa fatta”,
 108 che fu mal seme per la gente tosca».
 </prompt>
 <result>
-100 О, как мне казался испуганным
-101 с отрезанным языком в горле
-Курион, который был так смел в своих речах!
-
-103 И один, у которого были отрезаны обе руки,
-104 поднимая обрубки в темном воздухе,
-105 так что кровь пачкала его лицо,
-
-106 закричал: «Вспомни также о Моске,
-107 который сказал, увы!, “Сделанное дело — главное”,
-108 что стало дурным семенем для тосканского народа».
+106 закричал: «Вспомни и о Моске,
+107 который сказал, увы!, “Голова сделала дело”,
+108 что стало дурным семенем для тосканцев».
 </result>
 </query>
 <query>
@@ -529,16 +563,23 @@ Please translate each line literally into Russian.
 112 Ma io rimasi a riguardar lo stuolo,
 113 e vidi cosa ch’io avrei paura,
 114 sanza più prova, di contarla solo;
+</prompt>
+<result>
+112 Но я остался смотреть на толпу,
+113 и увидел то, о чем я бы побоялся,
+114 без дальнейших доказательств, рассказать в одиночку;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 115/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 115 se non che coscïenza m’assicura,
 116 la buona compagnia che l’uom francheggia
 117 sotto l’asbergo del sentirsi pura.
 </prompt>
 <result>
-112 Но я остался смотреть на толпу,
-113 и увидел то, о чем я бы побоялся,
-114 без дальнейших доказательств, рассказать в одиночку;
-
 115 если бы не моя совесть, которая меня успокаивает,
 116 хорошая компания, которая освобождает человека
 117 под защитой ощущения своей чистоты.
@@ -552,16 +593,23 @@ Please translate each line literally into Russian.
 118 Io vidi certo, e ancor par ch’io ’l veggia,
 119 un busto sanza capo andar sì come
 120 andavan li altri de la trista greggia;
+</prompt>
+<result>
+118 Я точно видел, и мне все еще кажется, что я вижу,
+119 туловище без головы, идущее так же, как
+120 шли другие из печального стада;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 121/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 121 e ’l capo tronco tenea per le chiome,
 122 pesol con mano a guisa di lanterna:
 123 e quel mirava noi e dicea: «Oh me!».
 </prompt>
 <result>
-118 Я точно видел, и мне все еще кажется, что я вижу,
-119 туловище без головы, идущее так же, как
-120 шли другие из печального стада;
-
 121 а отрубленную голову он держал за волосы,
 122 неся ее в руке, как фонарь:
 123 и он смотрел на нас и говорил: «О, я!».
@@ -590,16 +638,23 @@ Please translate each line literally into Russian.
 127 Quando diritto al piè del ponte fue,
 128 levò ’l braccio alto con tutta la testa
 129 per appressarne le parole sue,
+</prompt>
+<result>
+127 Когда он подошел прямо к подножию моста,
+128 он поднял руку высоко вместе со всей головой,
+129 чтобы приблизить свои слова,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 28] 130/142</info>
+<prompt>
+Please translate each line literally into Russian.
 
 130 che fuoro: «Or vedi la pena molesta,
 131 tu che, spirando, vai veggendo i morti:
 132 vedi s’alcuna è grande come questa.
 </prompt>
 <result>
-127 Когда он подошел прямо к подножию моста,
-128 он поднял руку высоко вместе со всей головой,
-129 чтобы приблизить свои слова,
-
 130 которые были: «Теперь смотри на мучительное наказание,
 131 ты, который, дыша, видишь мертвых:
 132 посмотри, есть ли какое-нибудь большее, чем это.

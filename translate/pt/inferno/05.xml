@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="41">
+<queries count="48">
 <query>
 <info>[Inferno Canto 5] 1/142</info>
 <prompt>
@@ -38,16 +38,23 @@ Please translate each line literally into Portuguese.
 7 Dico che quando l’anima mal nata
 8 li vien dinanzi, tutta si confessa;
 9 e quel conoscitor de le peccata
+</prompt>
+<result>
+7 Digo que quando a alma mal nascida
+8 chega diante dele, confessa-se toda;
+9 e aquele conhecedor dos pecados
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 10/142</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 10 vede qual loco d’inferno è da essa;
 11 cignesi con la coda tante volte
 12 quantunque gradi vuol che giù sia messa.
 </prompt>
 <result>
-7 Digo que quando a alma mal nascida
-8 chega diante dele, confessa-se toda;
-9 e aquele conhecedor dos pecados
-
 10 vê qual lugar do inferno é para ela;
 11 enrola-se com a cauda tantas vezes
 12 quantos círculos quer que ela desça.
@@ -76,33 +83,38 @@ Please translate each line literally into Portuguese.
 16 «O tu che vieni al doloroso ospizio»,
 17 disse Minòs a me quando mi vide,
 18 lasciando l’atto di cotanto offizio,
-
-19 «guarda com’ entri e di cui tu ti fide;
-20 non t’inganni l’ampiezza de l’intrare!».
 </prompt>
 <result>
 16 "Ó tu que vens ao doloroso hospício",
 17 disse-me Minos quando me viu,
 18 deixando o ato de tão grande ofício,
-
-19 "vê como entras e em quem confias;
-20 não te engane a amplitude da entrada!".
 </result>
 </query>
 <query>
-<info>[Inferno Canto 5] 21/142</info>
+<info>[Inferno Canto 5] 19/142</info>
 <prompt>
 Please translate each line literally into Portuguese.
 
+19 «guarda com’ entri e di cui tu ti fide;
+20 non t’inganni l’ampiezza de l’intrare!».
 21 E ’l duca mio a lui: «Perché pur gride?
+</prompt>
+<result>
+19 "vê como entras e em quem confias;
+20 não te engane a amplitude da entrada!".
+21 E o meu guia a ele: "Por que gritas tanto?
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 22/142</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 22 Non impedir lo suo fatale andare:
 23 vuolsi così colà dove si puote
 24 ciò che si vuole, e più non dimandare».
 </prompt>
 <result>
-21 E o meu guia a ele: "Por que gritas tanto?
-
 22 Não impeças o seu andar fatal:
 23 assim se quer lá onde se pode
 24 o que se quer, e não perguntes mais".
@@ -191,16 +203,23 @@ Please translate each line literally into Portuguese.
 40 E come li stornei ne portan l’ali
 41 nel freddo tempo, a schiera larga e piena,
 42 così quel fiato li spiriti mali
+</prompt>
+<result>
+40 E como os estorninhos levam as asas
+41 no tempo frio, em bando largo e cheio,
+42 assim aquele vento os espíritos maus
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 43/142</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 43 di qua, di là, di giù, di sù li mena;
 44 nulla speranza li conforta mai,
 45 non che di posa, ma di minor pena.
 </prompt>
 <result>
-40 E como os estorninhos levam as asas
-41 no tempo frio, em bando largo e cheio,
-42 assim aquele vento os espíritos maus
-
 43 daqui, dali, de baixo, de cima os leva;
 44 nenhuma esperança os conforta jamais,
 45 não que de repouso, mas de menor pena.
@@ -208,21 +227,33 @@ Please translate each line literally into Portuguese.
 </query>
 <query>
 <info>[Inferno Canto 5] 46/142</info>
-<prompt retry="true">
+<prompt>
 Please translate each line literally into Portuguese.
 
 46 E come i gru van cantando lor lai,
 47 faccendo in aere di sé lunga riga,
 48 così vid’ io venir, traendo guai,
+</prompt>
+<result>
+46 E como os grous vão cantando seu lai,
+47 fazendo no ar de si longa fila,
+48 assim vi eu vir, trazendo lamentos,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 49/142</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 49 ombre portate da la detta briga;
 50 per ch’i’ dissi: «Maestro, chi son quelle
 51 genti che l’aura nera sì gastiga?».
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+49 Homens levados pela briga;
+50 Por isso eu disse: "Mestre, quem são aqueles
+51 Pessoas que o vento escuro castiga?".
+</result>
 </query>
 <query>
 <info>[Inferno Canto 5] 52/142</info>
@@ -248,32 +279,6 @@ Please translate each line literally into Portuguese.
 56 che libito fé licito in sua legge,
 57 per tòrre il biasmo in che era condotta.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "55 Ao vício da luxúria foi tão entregue,\n56 que fez do desejo sexual algo lícito em sua lei,\n57 para tirar a culpa em que estava conduzida."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 55 Ao vício da luxúria foi tão entregue,
 56 que fez do desejo sexual algo lícito em sua lei,
@@ -408,16 +413,23 @@ Please translate each line literally into Portuguese.
 82 Quali colombe dal disio chiamate
 83 con l’ali alzate e ferme al dolce nido
 84 vegnon per l’aere, dal voler portate;
+</prompt>
+<result>
+82 Como pombas pelo desejo chamadas
+83 com as asas abertas e firmes para o doce ninho
+84 vêm pelo ar, levadas pela vontade;
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 85/142</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 85 cotali uscir de la schiera ov’ è Dido,
 86 a noi venendo per l’aere maligno,
 87 sì forte fu l’affettüoso grido.
 </prompt>
 <result>
-82 Como pombas pelo desejo chamadas
-83 com as asas abertas e firmes para o doce ninho
-84 vêm pelo ar, levadas pela vontade;
-
 85 assim saíram da multidão onde está Dido,
 86 vindo até nós pelo ar maligno,
 87 tão forte foi o grito afetuoso.
@@ -431,16 +443,23 @@ Please translate each line literally into Portuguese.
 88 «O animal grazïoso e benigno
 89 che visitando vai per l’aere perso
 90 noi che tignemmo il mondo di sanguigno,
+</prompt>
+<result>
+88 «Ó animal gracioso e benigno
+89 que vais visitando pelo ar escuro
+90 nós que tingimos o mundo de sangue,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 91/142</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 91 se fosse amico il re de l’universo,
 92 noi pregheremmo lui de la tua pace,
 93 poi c’hai pietà del nostro mal perverso.
 </prompt>
 <result>
-88 «Ó animal gracioso e benigno
-89 que vais visitando pelo ar escuro
-90 nós que tingimos o mundo de sangue,
-
 91 se o rei do universo fosse amigo,
 92 nós lhe rogaríamos por tua paz,
 93 pois tens piedade de nosso mal perverso.
@@ -649,59 +668,38 @@ Please translate each line literally into Portuguese.
 133 Quando leggemmo il disïato riso
 134 esser basciato da cotanto amante,
 135 questi, che mai da me non fia diviso,
-
-136 la bocca mi basciò tutto tremante.
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "133 Quando lemos o desejado riso\n134 ser beijado por tão grande amante,\n135 este, que nunca de mim será separado,\n\n136 beijou minha boca todo trêmulo."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 133 Quando lemos o desejado riso
 134 ser beijado por tão grande amante,
 135 este, que nunca de mim será separado,
-
-136 beijou minha boca todo trêmulo.
 </result>
 </query>
 <query>
-<info>[Inferno Canto 5] 137/142</info>
+<info>[Inferno Canto 5] 136/142</info>
 <prompt>
 Please translate each line literally into Portuguese.
 
+136 la bocca mi basciò tutto tremante.
 137 Galeotto fu ’l libro e chi lo scrisse:
 138 quel giorno più non vi leggemmo avante».
+</prompt>
+<result>
+136 beijou minha boca todo trêmulo.
+137 Galeoto foi o livro e quem o escreveu:
+138 naquele dia não lemos mais adiante».
+</result>
+</query>
+<query>
+<info>[Inferno Canto 5] 139/142</info>
+<prompt>
+Please translate each line literally into Portuguese.
 
 139 Mentre che l’uno spirto questo disse,
 140 l’altro piangëa; sì che di pietade
 141 io venni men così com’ io morisse.
 </prompt>
 <result>
-137 Galeoto foi o livro e quem o escreveu:
-138 naquele dia não lemos mais adiante».
-
 139 Enquanto um espírito dizia isto,
 140 o outro chorava; de modo que de piedade
 141 desmaiei como se morresse.

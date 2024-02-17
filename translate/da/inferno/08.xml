@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<queries count="37">
+<queries count="44">
 <query>
 <info>[Inferno Canto 8] 1/130</info>
 <prompt>
@@ -8,16 +8,23 @@ Please translate each line literally into Danish.
 1 Io dico, seguitando, ch’assai prima
 2 che noi fossimo al piè de l’alta torre,
 3 li occhi nostri n’andar suso a la cima
+</prompt>
+<result>
+1 Jeg siger, idet jeg fortsætter, at længe før
+2 vi var ved foden af det høje tårn,
+3 løftede vores øjne sig op mod toppen
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 4/130</info>
+<prompt>
+Please translate each line literally into Danish.
 
 4 per due fiammette che i vedemmo porre,
 5 e un’altra da lungi render cenno,
 6 tanto ch’a pena il potea l’occhio tòrre.
 </prompt>
 <result>
-1 Jeg siger, idet jeg fortsætter, at længe før
-2 vi var ved foden af det høje tårn,
-3 løftede vores øjne sig op mod toppen
-
 4 på grund af to flammer, som vi så blive sat,
 5 og en anden langt væk give tegn,
 6 så langt væk, at øjet næsten ikke kunne opfange det.
@@ -61,16 +68,23 @@ Please translate each line literally into Danish.
 13 Corda non pinse mai da sé saetta
 14 che sì corresse via per l’aere snella,
 15 com’ io vidi una nave piccioletta
+</prompt>
+<result>
+13 Reb snurrede aldrig en pil af sted
+14 så hurtigt gennem luften,
+15 som jeg så en lille båd
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 16/130</info>
+<prompt>
+Please translate each line literally into Danish.
 
 16 venir per l’acqua verso noi in quella,
 17 sotto ’l governo d’un sol galeoto,
 18 che gridava: «Or se’ giunta, anima fella!».
 </prompt>
 <result>
-13 Reb snurrede aldrig en pil af sted
-14 så hurtigt gennem luften,
-15 som jeg så en lille båd
-
 16 komme hen over vandet mod os,
 17 styret af en enkelt roer,
 18 der råbte: »Nu er du kommet, din onde sjæl!«
@@ -175,32 +189,6 @@ Please translate each line literally into Danish.
 38 spirito maladetto, ti rimani;
 39 ch’i’ ti conosco, ancor sie lordo tutto».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "37 Og jeg til ham: »Med gråd og sorg,\n38 forbandede ånd, bliver du;\n39 for jeg kender dig, selvom du er helt beskidt«."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 37 Og jeg til ham: »Med gråd og sorg,
 38 forbandede ånd, bliver du;
@@ -230,16 +218,23 @@ Please translate each line literally into Danish.
 43 Lo collo poi con le braccia mi cinse;
 44 basciommi ’l volto e disse: «Alma sdegnosa,
 45 benedetta colei che ’n te s’incinse!
+</prompt>
+<result>
+43 Så lagde han sine arme om min hals;
+44 han kyssede mig på kinden og sagde: »Stolte sjæl,
+45 velsignet være hun, der blev gravid med dig!
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 46/130</info>
+<prompt>
+Please translate each line literally into Danish.
 
 46 Quei fu al mondo persona orgogliosa;
 47 bontà non è che sua memoria fregi:
 48 così s’è l’ombra sua qui furïosa.
 </prompt>
 <result>
-43 Så lagde han sine arme om min hals;
-44 han kyssede mig på kinden og sagde: »Stolte sjæl,
-45 velsignet være hun, der blev gravid med dig!
-
 46 Han var en hovmodig person i verden;
 47 der er ingen godhed, der pryder hans minde:
 48 derfor er hans skygge så rasende her.
@@ -358,19 +353,26 @@ Please translate each line literally into Danish.
 70 E io: «Maestro, già le sue meschite
 71 là entro certe ne la valle cerno,
 72 vermiglie come se di foco uscite
+</prompt>
+<result>
+70 Og jeg: "Mester, allerede kan jeg skimte dens moskeer
+71 derinde i dalen,
+72 røde, som om de var kommet ud af ilden
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 73/130</info>
+<prompt>
+Please translate each line literally into Danish.
 
 73 fossero». Ed ei mi disse: «Il foco etterno
 74 ch’entro l’affoca le dimostra rosse,
 75 come tu vedi in questo basso inferno».
 </prompt>
 <result>
-70 Og jeg: »Mester, jeg kan allerede se dens moskeer
-71 derinde i dalen,
-72 røde, som om de var kommet ud af ilden
-
-73«. Og han sagde til mig: »Den evige ild,
-74 der brænder indeni, får dem til at se røde ud,
-75 som du kan se i dette nederste helvede«.
+73 var». Og han sagde ikke til mig: «Den evige ild,
+74 som brænder dem indeni, viser dem røde,
+75 som du ser det i dette nederste helvede».
 </result>
 </query>
 <query>
@@ -411,33 +413,38 @@ Please translate each line literally into Danish.
 82 Io vidi più di mille in su le porte
 83 da ciel piovuti, che stizzosamente
 84 dicean: «Chi è costui che sanza morte
-
-85 va per lo regno de la morta gente?».
 </prompt>
 <result>
 82 Jeg så mere end tusind ved portene,
 83 nedregnet fra himlen, som vrede sagde:
 84 »Hvem er han, der går gennem de dødes rige
-
-85 uden at være død?«
 </result>
 </query>
 <query>
-<info>[Inferno Canto 8] 86/130</info>
+<info>[Inferno Canto 8] 85/130</info>
 <prompt>
 Please translate each line literally into Danish.
 
+85 va per lo regno de la morta gente?».
 86 E ’l savio mio maestro fece segno
 87 di voler lor parlar segretamente.
+</prompt>
+<result>
+85 uden at være død?«
+86 Og min vise mester gav tegn
+87 til, at han ville tale med dem i hemmelighed.
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 88/130</info>
+<prompt>
+Please translate each line literally into Danish.
 
 88 Allor chiusero un poco il gran disdegno
 89 e disser: «Vien tu solo, e quei sen vada
 90 che sì ardito intrò per questo regno.
 </prompt>
 <result>
-86 Og min vise mester gav tegn
-87 til, at han ville tale med dem i hemmelighed.
-
 88 Så lagde de lidt låg på deres store foragt
 89 og sagde: »Kom du alene, og lad ham gå,
 90 der så dristigt gik ind i dette rige.
@@ -452,32 +459,6 @@ Please translate each line literally into Danish.
 92 pruovi, se sa; ché tu qui rimarrai,
 93 che li ha’ iscorta sì buia contrada».
 </prompt>
-<error result="true">
-index: 0
-content {
-  parts {
-    text: "91 Lad ham vende tilbage ad den tåbelige vej:\n92 lad ham prøve, om han kan; for du vil blive her,\n93 siden du har vist ham vej gennem så mørkt et land«."
-  }
-  role: "model"
-}
-finish_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
 <result>
 91 Lad ham vende tilbage ad den tåbelige vej:
 92 lad ham prøve, om han kan; for du vil blive her,
@@ -507,16 +488,23 @@ Please translate each line literally into Danish.
 97 «O caro duca mio, che più di sette
 98 volte m’hai sicurtà renduta e tratto
 99 d’alto periglio che ’ncontra mi stette,
+</prompt>
+<result>
+97 »Oh, min kære fører, som mere end syv
+98 gange har givet mig tryghed og reddet mig
+99 fra stor fare, der stod foran mig,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 100/130</info>
+<prompt>
+Please translate each line literally into Danish.
 
 100 non mi lasciar», diss’ io, «così disfatto;
 101 e se ’l passar più oltre ci è negato,
 102 ritroviam l’orme nostre insieme ratto».
 </prompt>
 <result>
-97 »Oh, min kære fører, som mere end syv
-98 gange har givet mig tryghed og reddet mig
-99 fra stor fare, der stod foran mig,
-
 100 forlad mig ikke,« sagde jeg, »sådan ødelagt;
 101 og hvis det er os nægtet at gå videre,
 102 så lad os hurtigt finde tilbage til vores egne spor«.
@@ -650,14 +638,21 @@ Please translate each line literally into Danish.
 127 Sovr’ essa vedestù la scritta morta:
 128 e già di qua da lei discende l’erta,
 129 passando per li cerchi sanza scorta,
-
-130 tal che per lui ne fia la terra aperta».
 </prompt>
 <result>
 127 Over den kan du se den døde indskrift:
 128 og allerede herfra går vejen nedad,
 129 gennem kredsene uden eskorte,
+</result>
+</query>
+<query>
+<info>[Inferno Canto 8] 130/130</info>
+<prompt>
+Please translate each line literally into Danish.
 
+130 tal che per lui ne fia la terra aperta».
+</prompt>
+<result>
 130 så jorden vil åbne sig for ham«.
 </result>
 </query>
