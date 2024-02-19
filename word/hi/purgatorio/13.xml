@@ -2,39 +2,41 @@
 <queries count="52">
 <query>
 <info>[Purgatorio Canto 13] 1/154</info>
-<prompt>
+<prompt retry="true">
 Create a word table.
 
 1 हम सीढ़ी के शीर्ष पर थे,
 2 जहाँ दूसरी बार चढ़ाई की जाती है
 3 उस पहाड़ पर जो चढ़ने वालों को थका देता है।
 </prompt>
+<error result="true">
+list index out of range
+</error>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | हम | ham | हम | ham | pronoun | m. | nominative | pl. | 1 | | | |
-| सीढ़ी | seedhee | सीढ़ी | seedhee | noun | f. | genitive | sg. | | | | |
+| सीढ़ी | seedhee | सीढ़ी | seedhee | noun | f. | nominative | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | शीर्ष | shirsh | शीर्ष | shirsh | noun | m. | locative | sg. | | | | |
 | पर | par | पर | par | postposition | | | | | | | |
-| थे | the | होना | honaa | verb | m. | past | pl. | 3 | | | |
+| थे | the | होना | honaa | verb | m. | past | pl. | 1 | | | |
 | जहाँ | jahaan | जहां | jahaan | adverb | | | | | | | |
 | दूसरी | doosrii | दूसरा | doosraa | adjective | f. | nominative | sg. | | | | |
-| बार | baar | बार | baar | noun | m. | nominative | sg. | | | | |
-| चढ़ाई | charhaaii | चढ़ाई | charhaaii | noun | f. | nominative | sg. | | | | |
-| की | kee | का | kaa | postposition | | | | | | | |
+| बार | baar | बार | baar | noun | f. | nominative | sg. | | | | |
+| चढ़ाई | chadhai | चढ़ाई | chadhai | noun | f. | nominative | sg. | | | | |
+| की | kii | का | kaa | postposition | | | | | | | |
 | जाती | jaatii | जाना | jaanaa | verb | f. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | f. | present | sg. | 3 | | | |
-| उस | us | वह | vah | pronoun | m. | genitive | sg. | 3 | | | |
-| पहाड़ | pahaar | पहाड़ | pahaar | noun | m. | locative | sg. | | | | |
+| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| उस | us | वह | vah | pronoun | m. | accusative | sg. | 3 | | | |
+| पहाड़ | pahaar | पहाड़ | pahaar | noun | m. | accusative | sg. | | | | |
 | पर | par | पर | par | postposition | | | | | | | |
 | जो | jo | जो | jo | relative pronoun | m. | nominative | sg. | 3 | | | |
-| चढ़ने | charhne | चढ़ना | charhnaa | verb | m. | infinitive | | | | | | |
-| वालों | vaalon | वाला | vaalaa | adjective | m. | dative | pl. | | | | |
+| चढ़ने | chadne | चढ़ना | chadhanaa | verb | m. | infinitive | | | | | | |
+| वालों | vaalon | वाला | vaalaa | adjective | m. | accusative | pl. | | | | |
 | को | ko | को | ko | postposition | | | | | | | |
-| थका | thakaa | थका | thakaa | adjective | m. | accusative | sg. | | | | |
-| देता | detaa | देना | denaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| थका | thakaa | थकाना | thakaanaa | verb | m. | past participle | sg. | | | | |
+| देता | deta | देना | denaa | verb | m. | present | sg. | 3 | | | |
 </result>
 </query>
 <query>
@@ -50,16 +52,16 @@ Create a word table.
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | वहाँ | vahaan | वहां | vahaan | adverb | | | | | | | |
-| एक | ek | एक | ek | numeral | | | sg. | | | | |
+| एक | ek | एक | ek | numeral | | | | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | कंगनी | kangnii | कंगनी | kangnii | noun | f. | nominative | sg. | | | | |
-| इसी | isee | इस | is | demonstrative adjective | | | sg. | | | | |
+| इसी | isee | यह | yah | pronoun | m. | dative | sg. | 3 | | | |
 | तरह | tarah | तरह | tarah | noun | f. | nominative | sg. | | | | |
-| पहाड़ी | pahaarii | पहाड़ी | pahaarii | noun | f. | nominative | sg. | | | | |
+| पहाड़ी | pahadii | पहाड़ी | pahadii | noun | f. | nominative | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
-| चारों | chaaron | चारों | chaaron | numeral | | | pl. | | | | |
-| ओर | or | ओर | or | noun | f. | locative | pl. | | | | |
-| घेरे | ghere | घेरना | ghernaa | verb | m. | past | pl. | | | | |
+| चारों | chaaron | चारों | chaaron | numeral | | | | | | | |
+| ओर | or | ओर | or | noun | f. | accusative | pl. | | | | |
+| घेरे | ghere | घेरना | ghernaa | verb | m. | past participle | pl. | | | | |
 | हुए | hue | होना | honaa | verb | m. | past | pl. | | | | |
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | पहली | pahlii | पहला | pahlaa | adjective | f. | nominative | sg. | | | | |
@@ -69,14 +71,13 @@ Create a word table.
 | सिवाय | sivaay | सिवाय | sivaay | postposition | | | | | | | |
 | इसके | iske | यह | yah | pronoun | m. | genitive | sg. | 3 | | | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
-| उसका | uska | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
+| उसका | uska | वह | vah | pronoun | m. | genitive | sg. | 3 | | | |
 | चाप | chaap | चाप | chaap | noun | m. | nominative | sg. | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
-| अधिक | adhik | अधिक | adhik | adjective | | | sg. | | | | |
+| अधिक | adhik | अधिक | adhik | adjective | | | | | | | |
 | तेजी | teji | तेजी | teji | noun | f. | nominative | sg. | | | | |
 | से | se | से | se | postposition | | | | | | | |
 | मुड़ता | mudtaa | मुड़ना | mudnaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 </result>
 </query>
 <query>
@@ -92,37 +93,37 @@ Create a word table.
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | वहाँ | vahaan | वहां | vahaan | adverb | | | | | | | |
-| कोई | koi | कोई | koi | indefinite pronoun | | | sg. | | | | |
+| कोई | koyii | कोई | koyii | indefinite pronoun | | | | | | | |
 | छाया | chaayaa | छाया | chaayaa | noun | f. | nominative | sg. | | | | |
 | नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
-| न | na | न | na | negation | | | | | | | |
+| न | na | नहीं | nahin | adverb | | | | | | | |
 | ही | hii | ही | hii | emphatic particle | | | | | | | |
-| कोई | koi | कोई | koi | indefinite pronoun | | | sg. | | | | |
+| कोई | koyii | कोई | koyii | indefinite pronoun | | | | | | | |
 | निशान | nishaan | निशान | nishaan | noun | m. | nominative | sg. | | | | |
 | जो | jo | जो | jo | relative pronoun | m. | nominative | sg. | 3 | | | |
-| जोड़े | jode | जोड़ा | joda | noun | m. | locative | pl. | | | | |
+| जोड़े | jode | जोड़ा | joraa | noun | m. | nominative | pl. | | | | |
 | में | men | में | men | postposition | | | | | | | |
 | हो | ho | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | किनारा | kinaara | किनारा | kinaara | noun | m. | nominative | sg. | | | | |
 | सीधा | seedhaa | सीधा | seedhaa | adjective | m. | nominative | sg. | | | | |
-| दिखाई | dikhaaii | दिखाई देना | dikhaaii denaa | verb | m. | past | sg. | | | | |
+| दिखाई | dikhaaii | दिखाई देना | dikhaaii denaa | verb | m. | past participle | sg. | | | | |
 | देता | deta | देना | denaa | verb | m. | present | sg. | 3 | | | |
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | रास्ता | rastaa | रास्ता | rastaa | noun | m. | nominative | sg. | | | | |
 | भी | bhii | भी | bhii | emphatic particle | | | | | | | |
 | सीधा | seedhaa | सीधा | seedhaa | adjective | m. | nominative | sg. | | | | |
-| दिखाई | dikhaaii | दिखाई देना | dikhaaii denaa | verb | m. | past | sg. | | | | |
+| दिखाई | dikhaaii | दिखाई देना | dikhaaii denaa | verb | m. | past participle | sg. | | | | |
 | देता | deta | देना | denaa | verb | m. | present | sg. | 3 | | | |
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | पत्थरों | pattharon | पत्थर | patthar | noun | m. | genitive | pl. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
-| पीले | peele | पीला | peelaa | adjective | m. | instrumental | pl. | | | | |
-| रंग | rang | रंग | rang | noun | m. | instrumental | sg. | | | | |
+| पीले | peele | पीला | peelaa | adjective | m. | nominative | pl. | | | | |
+| रंग | rang | रंग | rang | noun | m. | nominative | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
-| साथ | saath | साथ | saath | noun | m. | instrumental | sg. | | | | |
+| साथ | saath | साथ | saath | noun | m. | nominative | sg. | | | | |
 </result>
 </query>
 <query>
@@ -138,10 +139,10 @@ Create a word table.
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | यदि | yadi | यदि | yadi | conjunction | | | | | | | |
-| यहाँ | yahaan | यहाँ | yahaan | adverb | | | | | | | |
-| लोगों | logon | लोग | log | noun | m. | locative | pl. | | | | |
+| यहाँ | yahaan | यहां | yahaan | adverb | | | | | | | |
+| लोगों | logon | लोग | log | noun | m. | genitive | pl. | | | | |
 | से | se | से | se | postposition | | | | | | | |
-| पूछने | puuchhne | पूछना | puuchhnaa | verb | m. | infinitive | | | | | |
+| पूछने | puuchhne | पूछना | puuchhnaa | verb | m. | infinitive | | | | | | |
 | की | kii | का | kaa | postposition | | | | | | | |
 | अपेक्षा | apekshaa | अपेक्षा | apekshaa | noun | f. | nominative | sg. | | | | |
 | की | kii | का | kaa | postposition | | | | | | | |
@@ -149,16 +150,16 @@ Create a word table.
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | कवि | kavi | कवि | kavi | noun | m. | nominative | sg. | | | | |
 | तर्क | tark | तर्क | tark | noun | m. | nominative | sg. | | | | |
-| कर | kar | करना | karnaa | verb | m. | present | sg. | 3 | | | |
-| रहा | rahaa | रहना | rahnaa | verb | m. | imperfect | sg. | 3 | | | |
-| था | thaa | होना | honaa | verb | m. | past | sg. | 3 | | | |
+| कर | kar | करना | karnaa | verb | m. | present participle | sg. | | | | |
+| रहा | rahaa | रहना | rahnaa | verb | m. | imperfect | sg. | | | | |
+| था | thaa | होना | honaa | verb | m. | past | sg. | | | | |
 | मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
 | डर | dar | डर | dar | noun | m. | nominative | sg. | | | | |
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
 | शायद | shaayad | शायद | shaayad | adverb | | | | | | | |
-| हमारे | hamaare | हमारा | hamaaraa | possessive adjective | m. | locative | pl. | 1 | | | |
-| चुनाव | chunav | चुनाव | chunav | noun | m. | locative | sg. | | | | |
+| हमारे | hamaare | हमारा | hamaaraa | possessive adjective | m. | genitive | pl. | 1 | | | |
+| चुनाव | chunaav | चुनाव | chunaav | noun | m. | genitive | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
 | बहुत | bahut | बहुत | bahut | adverb | | | | | | | |
 | देरी | deri | देरी | deri | noun | f. | nominative | sg. | | | | |
@@ -183,26 +184,26 @@ Create a word table.
 | आँखें | aankhen | आँख | aankh | noun | f. | accusative | pl. | | | | |
 | सूर्य | surya | सूर्य | surya | noun | m. | genitive | sg. | | | | |
 | की | kii | का | kaa | postposition | | | | | | | |
-| ओर | or | ओर | or | noun | f. | locative | sg. | | | | |
-| टिका | tikaa | टिकाना | tikaanaa | verb | m. | past | sg. | 3 | | | |
+| ओर | or | ओर | or | noun | f. | accusative | sg. | | | | |
+| टिका | tikaa | टिकाना | tikaanaa | verb | m. | past | sg. | | | | |
 | दीं | diin | देना | denaa | verb | f. | past | pl. | 3 | | | |
 | उसने | usne | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
 | अपने | apne | अपना | apnaa | possessive adjective | m. | accusative | sg. | 3 | | | |
-| दाहिने | daahine | दाहिना | daahinaa | adjective | m. | accusative | sg. | | | | |
+| दाहिने | daaHine | दाहिना | daaHinaa | adjective | m. | accusative | sg. | | | | |
 | हाथ | haath | हाथ | haath | noun | m. | accusative | sg. | | | | |
 | को | ko | को | ko | postposition | | | | | | | |
-| केंद्र | kendra | केंद्र | kendra | noun | m. | accusative | sg. | | | | |
-| बनाकर | banaakar | बनाना | banaanaa | verb | m. | converb | sg. | | | | |
-| घूमना | ghoomnaa | घूमना | ghoomnaa | verb | m. | infinitive | | | | | |
+| केंद्र | kendr | केंद्र | kendr | noun | m. | accusative | sg. | | | | |
+| बनाकर | banaakar | बनाना | banaanaa | verb | m. | past participle | sg. | | | | |
+| घूमना | ghoomnaa | घूमना | ghoomnaa | verb | m. | infinitive | | | | | | | |
 | शुरू | shuruu | शुरू | shuruu | noun | m. | accusative | sg. | | | | |
-| किया | kiyaa | करना | karnaa | verb | m. | past | sg. | 3 | | | |
+| किया | kiyaa | करना | karnaa | verb | m. | past | sg. | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | अपने | apne | अपना | apnaa | possessive adjective | m. | accusative | sg. | 3 | | | |
-| बाएँ | baaeen | बायाँ | baayaan | adjective | m. | accusative | sg. | | | | |
+| बाएँ | baaeN | बायाँ | baaaN | adjective | m. | accusative | sg. | | | | |
 | हाथ | haath | हाथ | haath | noun | m. | accusative | sg. | | | | |
 | को | ko | को | ko | postposition | | | | | | | |
-| मोड़ | mod | मोड़ना | modnaa | verb | m. | past | sg. | 3 | | | |
-| लिया | liyaa | लेना | lenaa | verb | m. | past | sg. | 3 | | | |
+| मोड़ | mor | मोड़ना | mornaa | verb | m. | past | sg. | | | | |
+| लिया | liyaa | लेना | lenaa | verb | m. | past | sg. | | | | |
 </result>
 </query>
 <query>
@@ -220,28 +221,28 @@ Create a word table.
 | हे | he | हे | he | interjection | | | | | | | |
 | मधुर | madhur | मधुर | madhur | adjective | m. | nominative | sg. | | | | |
 | प्रकाश | prakash | प्रकाश | prakash | noun | m. | nominative | sg. | | | | |
-| जिस | jis | जो | jo | relative pronoun | m. | locative | sg. | 3 | | | |
+| जिस | jis | जो | jo | relative pronoun | m. | accusative | sg. | 3 | | | |
 | पर | par | पर | par | postposition | | | | | | | |
-| भरोसा | bharosaa | भरोसा | bharosaa | noun | m. | instrumental | sg. | | | | |
-| करके | karke | करना | karnaa | verb | m. | converb | sg. | | | | |
+| भरोसा | bharosaa | भरोसा | bharosaa | noun | m. | accusative | sg. | | | | |
+| करके | karke | करना | karnaa | verb | m. | past participle | sg. | | | | |
 | मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| नए | naee | नया | naayaa | adjective | m. | locative | sg. | | | | |
-| रास्ते | raaste | रास्ता | rastaa | noun | m. | locative | sg. | | | | |
+| नए | na.e | नया | na.aa | adjective | m. | accusative | pl. | | | | |
+| रास्ते | raaste | रास्ता | rastaa | noun | m. | accusative | sg. | | | | |
 | पर | par | पर | par | postposition | | | | | | | |
 | चल | chal | चलना | chalnaa | verb | m. | imperative | sg. | 2 | | | |
-| रहा | rahaa | रहना | rahnaa | verb | m. | imperfect | sg. | 1 | | | |
-| हूँ | huun | होना | honaa | verb | m. | present | sg. | 1 | | | |
+| रहा | rahaa | रहना | rahnaa | verb | m. | imperfect | sg. | | | | |
+| हूँ | hooN | होना | honaa | verb | m. | present | sg. | 1 | | | |
 | तू | tuu | तू | tuu | pronoun | m. | nominative | sg. | 2 | | | |
 | हमें | hamen | हम | ham | pronoun | m. | accusative | pl. | 1 | | | |
 | ले | le | लेना | lenaa | verb | m. | imperative | sg. | 2 | | | |
 | चल | chal | चलना | chalnaa | verb | m. | imperative | sg. | 2 | | | |
 | उसने | usne | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
-| कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 3 | | | |
-| जैसा | jaisaa | जैसा | jaisaa | relative pronoun | m. | nominative | sg. | | | | |
+| कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | | | | |
+| जैसा | jaisaa | जैसा | jaisaa | conjunction | | | | | | | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
-| यहाँ | yahaan | यहाँ | yahaan | adverb | | | | | | | |
+| यहाँ | yahaan | यहां | yahaan | adverb | | | | | | | |
 | से | se | से | se | postposition | | | | | | | |
-| गुजरने | gujarne | गुजरना | gujarnaa | verb | m. | infinitive | | | | | |
+| गुजरने | gujarne | गुजरना | gujarnaa | verb | m. | infinitive | | | | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | लिए | liye | लिए | liye | postposition | | | | | | | |
 | आवश्यक | aavashyak | आवश्यक | aavashyak | adjective | m. | nominative | sg. | | | | |
@@ -274,8 +275,8 @@ Create a word table.
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | यदि | yadi | यदि | yadi | conjunction | | | | | | | |
 | इसके | iske | यह | yah | pronoun | m. | genitive | sg. | 3 | | | |
-| विपरीत | vipareet | विपरीत | vipareet | noun | m. | locative | sg. | | | | |
-| कोई | koi | कोई | koi | indefinite pronoun | | | sg. | | | | |
+| विपरीत | viparit | विपरीत | viparit | noun | m. | nominative | sg. | | | | |
+| कोई | koyii | कोई | koyii | indefinite pronoun | | | | | | | |
 | अन्य | anya | अन्य | anya | adjective | m. | nominative | sg. | | | | |
 | कारण | kaaran | कारण | kaaran | noun | m. | nominative | sg. | | | | |
 | नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
@@ -286,7 +287,7 @@ Create a word table.
 | हमेशा | hameshaa | हमेशा | hameshaa | adverb | | | | | | | |
 | मार्गदर्शक | maargdarshak | मार्गदर्शक | maargdarshak | adjective | m. | nominative | pl. | | | | |
 | होनी | honii | होना | honaa | verb | f. | future | pl. | 3 | | | |
-| चाहिए | chaahiye | चाहिए | chaahiye | modal verb | | | | | | | |
+| चाहिए | chaahiye | चाहिए | chaahiye | verb | m. | present | sg. | 3 | | | |
 </result>
 </query>
 <query>
@@ -302,12 +303,12 @@ Create a word table.
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | जितना | jitnaa | जितना | jitnaa | pronoun | m. | nominative | sg. | | | | |
-| यहाँ | yahaan | यहाँ | yahaan | adverb | | | | | | | |
-| एक | ek | एक | ek | numeral | | | sg. | | | | |
-| मील | miil | मील | miil | noun | m. | locative | sg. | | | | |
+| यहाँ | yahaan | यहां | yahaan | adverb | | | | | | | |
+| एक | ek | एक | ek | numeral | | | | | | | |
+| मील | miil | मील | miil | noun | m. | genitive | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | लिए | liye | लिए | liye | postposition | | | | | | | |
-| गिना | ginaa | गिनना | ginnaa | verb | m. | past | sg. | 3 | | | |
+| गिना | ginaa | गिनना | ginnaa | verb | m. | past | sg. | | | | |
 | जाता | jaataa | जाना | jaanaa | verb | m. | present | sg. | 3 | | | |
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | उतना | utnaa | उतना | utnaa | pronoun | m. | nominative | sg. | | | | |
@@ -315,18 +316,18 @@ Create a word table.
 | हम | ham | हम | ham | pronoun | m. | nominative | pl. | 1 | | | |
 | पहले | pahle | पहले | pahle | adverb | | | | | | | |
 | ही | hii | ही | hii | emphatic particle | | | | | | | |
-| वहाँ | vahaan | वहाँ | vahaan | adverb | | | | | | | |
+| वहाँ | vahaan | वहां | vahaan | adverb | | | | | | | |
 | से | se | से | se | postposition | | | | | | | |
 | चले | chale | चलना | chalnaa | verb | m. | past | pl. | 1 | | | |
-| गए | gaye | जाना | jaanaa | verb | m. | past | pl. | 1 | | | |
+| गए | gae | जाना | jaanaa | verb | m. | past | pl. | 1 | | | |
 | थे | the | होना | honaa | verb | m. | past | pl. | 1 | | | |
-| थोड़े | thode | थोड़ा | thodaa | adjective | m. | locative | pl. | | | | |
-| समय | samay | समय | samay | noun | m. | locative | sg. | | | | |
+| थोड़े | tho.e | थोड़ा | tho.aa | adjective | m. | accusative | pl. | | | | |
+| समय | samay | समय | samay | noun | m. | accusative | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
 | तत्पर | tatpar | तत्पर | tatpar | adjective | m. | nominative | sg. | | | | |
 | इच्छा | ichchhaa | इच्छा | ichchhaa | noun | f. | nominative | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
-| कारण | kaaran | कारण | kaaran | noun | m. | locative | sg. | | | | |
+| कारण | kaaran | कारण | kaaran | noun | m. | nominative | sg. | | | | |
 </result>
 </query>
 <query>
@@ -342,26 +343,26 @@ Create a word table.
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | और | aur | और | aur | conjunction | | | | | | | |
-| हमारी | hamaarii | हमारा | hamaaraa | possessive adjective | f. | locative | sg. | 1 | | | |
-| ओर | or | ओर | or | noun | f. | locative | sg. | | | | |
-| उड़ते | udte | उड़ना | udnaa | verb | m. | present | pl. | | | | |
+| हमारी | hamaarii | हमारा | hamaaraa | possessive adjective | f. | genitive | sg. | 1 | | | |
+| ओर | or | ओर | or | noun | f. | accusative | sg. | | | | |
+| उड़ते | u.ate | उड़ना | u.anaa | verb | m. | present participle | pl. | | | | |
 | हुए | hue | होना | honaa | verb | m. | past | pl. | | | | |
-| सुनाई | sunaaii | सुनाई देना | sunaaii denaa | verb | f. | past | pl. | | | | |
+| सुनाई | sunaaii | सुनाई देना | sunaaii denaa | verb | f. | past | pl. | 3 | | | |
 | दिए | diye | देना | denaa | verb | m. | past | pl. | | | | |
 | हालाँकि | halaanki | हालाँकि | halaanki | conjunction | | | | | | | |
-| दिखाई | dikhaaii | दिखाई देना | dikhaaii denaa | verb | m. | past | pl. | | | | |
+| दिखाई | dikhaaii | दिखाई देना | dikhaaii denaa | verb | m. | past participle | pl. | | | | |
 | नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
 | दिए | diye | देना | denaa | verb | m. | past | pl. | | | | |
 | आत्माएँ | aatmaaen | आत्मा | aatmaa | noun | f. | nominative | pl. | | | | |
-| बोल | bol | बोलना | bolnaa | verb | m. | present | pl. | 3 | | | |
+| बोल | bol | बोलना | bolnaa | verb | m. | imperative | sg. | 2 | | | |
 | रही | rahii | रहना | rahnaa | verb | f. | imperfect | pl. | 3 | | | |
-| थीं | theen | होना | honaa | verb | f. | past | pl. | 3 | | | |
+| थीं | thiin | होना | honaa | verb | f. | past | pl. | 3 | | | |
 | प्रेम | prem | प्रेम | prem | noun | m. | genitive | sg. | | | | |
 | की | kii | का | kaa | postposition | | | | | | | |
-| मेज | mej | मेज | mej | noun | f. | locative | sg. | | | | |
+| मेज | mez | मेज | mez | noun | f. | accusative | sg. | | | | |
 | पर | par | पर | par | postposition | | | | | | | |
-| विनम्र | vinamr | विनम्र | vinamr | adjective | m. | nominative | sg. | | | | |
-| निमंत्रण | nimantran | निमंत्रण | nimantran | noun | m. | nominative | sg. | | | | |
+| विनम्र | vinamr | विनम्र | vinamr | adjective | m. | accusative | sg. | | | | |
+| निमंत्रण | nimantran | निमंत्रण | nimantran | noun | m. | accusative | sg. | | | | |
 </result>
 </query>
 <query>
@@ -379,24 +380,9 @@ Create a word table.
 | पहली | pahlii | पहला | pahlaa | adjective | f. | nominative | sg. | | | | |
 | आवाज़ | aavaaz | आवाज़ | aavaaz | noun | f. | nominative | sg. | | | | |
 | जो | jo | जो | jo | relative pronoun | m. | nominative | sg. | 3 | | | |
-| उड़ती | udtii | उड़ना | udnaa | verb | f. | present | sg. | 3 | | | |
-| हुई | huee | होना | honaa | verb | f. | past | sg. | 3 | | | |
-| निकली | niklii | निकलना | nikalnaa | verb | f. | past | sg. | 3 | | | |
-| उनके | unke | वह | vah | pronoun | m. | genitive | pl. | 3 | | | |
-| पास | paas | पास | paas | noun | m. | locative | sg. | | | | |
-| शराब | sharaab | शराब | sharaab | noun | f. | nominative | sg. | | | | |
-| नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
-| जोर | zor | जोर | zor | noun | m. | instrumental | sg. | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 3 | | | |
-| और | aur | और | aur | conjunction | | | | | | | |
-| हमारे | hamaare | हमारा | hamaaraa | possessive adjective | m. | locative | pl. | 1 | | | |
-| पीछे | peechhe | पीछे | peechhe | noun | m. | locative | sg. | | | | |
-| उसे | use | वह | vah | pronoun | m. | accusative | sg. | 3 | | | |
-| दोहराती | dohraatii | दोहराना | dohraanaa | verb | f. | present | sg. | 3 | | | |
-| चली | chalii | चलना | chalnaa | verb | f. | imperfect | sg. | 3 | | | |
-| गई | gayii | जाना | jaanaa | verb | f. | past | sg. | 3 | | | |
+| उड़ती | u.atii | उड़ना | u.anaa | verb | f. | present | sg. | 3 | | | |
+| हुई | huii | होना | honaa | verb | f. | past | sg. | 3 | | | |
+| निकली | niklii | निकलना | nikal
 </result>
 </query>
 <query>
@@ -412,31 +398,30 @@ Create a word table.
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | और | aur | और | aur | conjunction | | | | | | | |
-| इससे | isse | यह | yah | pronoun | m. | instrumental | sg. | 3 | | | |
-| पहले | pahle | पहले | pahle | adverb | | | | | | | |
+| इससे | isse | यह | yah | pronoun | | ablative | sg. | 3 | | | |
+| पहले | pahale | पहले | pahale | adverb | | | | | | | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
-| यह | yah | यह | yah | pronoun | m. | nominative | sg. | 3 | | | |
-| पूरी | poori | पूरा | pooraa | adjective | f. | nominative | sg. | | | | |
-| तरह | tarah | तरह | tarah | noun | f. | locative | sg. | | | | |
+| यह | yah | यह | yah | pronoun | | nominative | sg. | 3 | | | |
+| पूरी तरह | poori tarah | पूरा | pooraa | adverb | | | | | | | |
 | से | se | से | se | postposition | | | | | | | |
-| सुनाई | sunaaii | सुनाई देना | sunaaii denaa | verb | f. | past | sg. | 3 | | | |
-| न | na | न | na | negation | | | | | | | |
-| दे | de | देना | denaa | verb | m. | imperative | sg. | 2 | | | |
+| सुनाई | sunaaii | सुनाना | sunaanaa | verb | f. | nominative | sg. | | past | passive | |
+| न | na | नहीं | nahin | particle | | | | | | | |
+| दे | de | देना | denaa | verb | | imperative | sg. | 2 | | | |
 | लंबा | lambaa | लंबा | lambaa | adjective | m. | nominative | sg. | | | | |
-| होने | hone | होना | honaa | verb | m. | infinitive | | | | | |
+| होने | honae | होना | honaa | verb | | infinitive | | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | लिए | liye | लिए | liye | postposition | | | | | | | |
-| एक | ek | एक | ek | numeral | | | sg. | | | | |
+| एक | ek | एक | ek | numeral | | nominative | sg. | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | 'मैं | 'main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | ओरेस्टेस | orestes | ओरेस्टेस | orestes | noun | m. | nominative | sg. | | | | |
-| हूँ' | 'huun | होना | honaa | verb | m. | present | sg. | 1 | | | |
-| चिल्लाता | chillaataa | चिल्लाना | chillaanaa | verb | m. | present | sg. | | | | |
+| हूँ' | huun | होना | honaa | verb | m. | present | sg. | 1 | | indicative | |
+| चिल्लाता | chillaataa | चिल्लाना | chillaanaa | verb | m. | nominative | sg. | | present | active | |
 | हुआ | huaa | होना | honaa | verb | m. | past | sg. | | | | |
 | निकला | niklaa | निकलना | nikalnaa | verb | m. | past | sg. | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | फिर | phir | फिर | phir | adverb | | | | | | | |
-| भी | bhii | भी | bhii | emphatic particle | | | | | | | |
+| भी | bhii | भी | bhii | particle | | | | | | | |
 | नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
 | रुका | rukaa | रुकना | ruknaa | verb | m. | past | sg. | | | | |
 </result>
@@ -453,33 +438,33 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| ओह | oh | ओह | oh | interjection | | | | | | | |
+| "ओह!" | "oh!" | ओह | oh | interjection | | | | | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 1 | | | |
-| पिताजी | pitaajii | पिताजी | pitaajii | noun | m. | vocative | sg. | 2 | | | |
-| ये | ye | यह | yah | pronoun | m. | nominative | pl. | 3 | | | |
-| कौन | kaun | कौन | kaun | interrogative pronoun | m. | nominative | sg. | 3 | | | |
+| कहा | kahaa | कहना | kahnaa | verb | | past | sg. | 1 | | | |
+| "पिताजी" | "pitaajii" | पिताजी | pitaajii | noun | m. | vocative | sg. | 2 | | | |
+| ये | ye | यह | yah | pronoun | | nominative | pl. | 3 | | | |
+| कौन | kaun | कौन | kaun | interrogative pronoun | | nominative | pl. | | | | |
 | सी | sii | सा | saa | postposition | | | | | | | |
 | आवाजें | aavaazen | आवाज | aavaaz | noun | f. | nominative | pl. | | | | |
-| हैं | hain | होना | honaa | verb | m. | present | pl. | 3 | | | |
+| हैं?" | hain?" | होना | honaa | verb | | present | pl. | 3 | | indicative | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | जैसे | jaise | जैसे | jaise | conjunction | | | | | | | |
-| ही | hii | ही | hii | emphatic particle | | | | | | | |
+| ही | hii | ही | hii | particle | | | | | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| पूछा | puuchhaa | पूछना | puuchhnaa | verb | m. | past | sg. | 1 | | | |
-| तीसरी | teesarii | तीसरा | teesraa | adjective | f. | nominative | sg. | | | | |
+| पूछा | puuchhaa | पूछना | puuchhnaa | verb | | past | sg. | 1 | | | |
+| तीसरी | teesarii | तीसरा | teesraa | numeral | f. | nominative | sg. | | | | |
 | आवाज | aavaaz | आवाज | aavaaz | noun | f. | nominative | sg. | | | | |
-| आई | aayii | आना | aanaa | verb | f. | past | sg. | | | | |
-| यह | yah | यह | yah | pronoun | m. | nominative | sg. | 3 | | | |
-| कहते | kahate | कहना | kahnaa | verb | m. | present | pl. | 3 | | | |
-| हुए | hue | होना | honaa | verb | m. | past | pl. | | | | |
-| जिससे | jisase | जिससे | jisase | relative pronoun | m. | instrumental | sg. | 3 | | | |
+| आई | aaii | आना | aanaa | verb | f. | past | sg. | | | | |
+| यह | yah | यह | yah | pronoun | | nominative | sg. | 3 | | | |
+| कहते | kahate | कहना | kahnaa | verb | | present | pl. | 3 | | active | |
+| हुए | hue | होना | honaa | verb | | past | pl. | 3 | | | |
+| 'जिससे | 'jisase | जिससे | jisase | relative pronoun | | | | | | | |
 | तुम्हें | tumhein | तुम | tum | pronoun | m. | dative | sg. | 2 | | | |
 | बुराई | buraaii | बुराई | buraaii | noun | f. | nominative | sg. | | | | |
 | मिली | milii | मिलना | milnaa | verb | f. | past | sg. | | | | |
-| उससे | usase | वह | vah | pronoun | m. | instrumental | sg. | 3 | | | |
+| उससे | usse | वह | vah | pronoun | m. | ablative | sg. | 3 | | | |
 | प्यार | pyaar | प्यार | pyaar | noun | m. | accusative | sg. | | | | |
-| करो | karo | करना | karnaa | verb | m. | imperative | pl. | 2 | | | |
+| करो' | karo' | करना | karnaa | verb | | imperative | pl. | 2 | | | |
 </result>
 </query>
 <query>
@@ -497,17 +482,17 @@ Create a word table.
 | और | aur | और | aur | conjunction | | | | | | | |
 | अच्छे | achche | अच्छा | achchaa | adjective | m. | nominative | sg. | | | | |
 | गुरु | guru | गुरु | guru | noun | m. | nominative | sg. | | | | |
-| ने | ne | ने | ne | case marker | | | | | | | |
-| कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 3 | | | |
-| यह | yah | यह | yah | pronoun | m. | nominative | sg. | 3 | | | |
+| ने | ne | ने | ne | particle | | | | | | | |
+| कहा | kahaa | कहना | kahnaa | verb | | past | sg. | 3 | | | |
+| "यह | "yah | यह | yah | pronoun | | nominative | sg. | 3 | | | |
 | पट्टा | pattaa | पट्टा | pattaa | noun | m. | nominative | sg. | | | | |
-| ईर्ष्या | iirshaa | ईर्ष्या | iirshaa | noun | f. | nominative | sg. | | | | |
+| ईर्ष्या | irsha | ईर्ष्या | irsha | noun | f. | nominative | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | अपराध | apraadh | अपराध | apraadh | noun | m. | accusative | sg. | | | | |
 | को | ko | को | ko | postposition | | | | | | | |
 | कोड़े | kode | कोड़ा | koraa | noun | m. | accusative | pl. | | | | |
-| मारता | maartaa | मारना | maarnaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| मारता | maartaa | मारना | maarnaa | verb | m. | present | sg. | 3 | | active | |
+| है | hai | होना | honaa | verb | | present | sg. | 3 | | indicative | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | इसलिए | isliye | इसलिए | isliye | adverb | | | | | | | |
 | कोड़े | kode | कोड़ा | koraa | noun | m. | nominative | pl. | | | | |
@@ -515,9 +500,9 @@ Create a word table.
 | डोरियाँ | doriyaan | डोरी | dori | noun | f. | nominative | pl. | | | | |
 | प्रेम | prem | प्रेम | prem | noun | m. | instrumental | sg. | | | | |
 | से | se | से | se | postposition | | | | | | | |
-| खींची | kheenchii | खींचना | kheenchnaa | verb | f. | past | sg. | | | | |
-| जाती | jaatii | जाना | jaanaa | verb | f. | present | sg. | 3 | | | |
-| हैं | hain | होना | honaa | verb | m. | present | pl. | 3 | | | |
+| खींची | kheenchii | खींचना | kheenchnaa | verb | f. | past | sg. | 3 | | | |
+| जाती | jaatii | जाना | jaanaa | verb | f. | present | sg. | 3 | | passive | |
+| हैं | hain | होना | honaa | verb | | present | pl. | 3 | | indicative | |
 </result>
 </query>
 <query>
@@ -534,26 +519,26 @@ Create a word table.
 |---|---|---|---|---|---|---|---|---|---|---|
 | लगाम | lagaam | लगाम | lagaam | noun | f. | accusative | sg. | | | | |
 | को | ko | को | ko | postposition | | | | | | | |
-| विपरीत | vipareet | विपरीत | vipareet | adjective | m. | nominative | sg. | | | | |
+| विपरीत | viparit | विपरीत | viparit | adjective | m. | nominative | sg. | | | | |
 | ध्वनि | dhvani | ध्वनि | dhvani | noun | f. | nominative | sg. | | | | |
 | का | kaa | का | kaa | postposition | | | | | | | |
-| होना | honaa | होना | honaa | verb | m. | infinitive | | | | | | |
+| होना | honaa | होना | honaa | verb | | infinitive | | | | | |
 | चाहिए | chaahiye | चाहिए | chaahiye | modal verb | | | | | | | |
 | मेरा | meraa | मेरा | meraa | possessive adjective | m. | nominative | sg. | 1 | | | |
-| मानना | maannaa | मानना | maannaa | verb | m. | present | sg. | 1 | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| मानना | maannaa | मानना | maannaa | verb | | infinitive | | | | | |
+| है | hai | होना | honaa | verb | | present | sg. | 3 | | indicative | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
 | तुम | tum | तुम | tum | pronoun | m. | nominative | sg. | 2 | | | |
-| इसे | ise | यह | yah | pronoun | m. | accusative | sg. | 3 | | | |
+| इसे | ise | यह | yah | pronoun | | accusative | sg. | 3 | | | |
 | सुनोगे | sunoge | सुनना | sunnaa | verb | m. | future | sg. | 2 | | | |
 | मेरी | merii | मेरा | meraa | possessive adjective | f. | nominative | sg. | 1 | | | |
-| राय | raay | राय | raay | noun | f. | instrumental | sg. | | | | |
+| राय | raay | राय | raay | noun | f. | nominative | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
 | क्षमा | kshamaa | क्षमा | kshamaa | noun | f. | nominative | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | मार्ग | maarg | मार्ग | maarg | noun | m. | locative | sg. | | | | |
 | पर | par | पर | par | postposition | | | | | | | |
-| पहुँचने | pahunchane | पहुँचना | pahunchnaa | verb | m. | infinitive | | | | | | |
+| पहुँचने | pahunchane | पहुँचना | pahunchnaa | verb | | infinitive | | | | | |
 | से | se | से | se | postposition | | | | | | | |
 | पहले | pahale | पहले | pahale | adverb | | | | | | | |
 </result>
@@ -578,24 +563,24 @@ Create a word table.
 | अच्छी | achchii | अच्छा | achchaa | adjective | f. | accusative | pl. | | | | |
 | तरह | tarah | तरह | tarah | noun | f. | accusative | sg. | | | | |
 | से | se | से | se | postposition | | | | | | | |
-| लगाओ | lagaao | लगाना | lagaanaa | verb | m. | imperative | pl. | 2 | | | |
+| लगाओ | lagaao | लगाना | lagaanaa | verb | | imperative | pl. | 2 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
-| तुम | tum | तुम | tum | pronoun | m. | nominative | pl. | 2 | | | |
-| हमारे | hamaare | हमारा | hamaaraa | possessive adjective | m. | accusative | pl. | 1 | | | |
+| तुम | tum | तुम | tum | pronoun | m. | nominative | sg. | 2 | | | |
+| हमारे | hamaare | हमारा | hamaaraa | possessive adjective | m. | nominative | pl. | 1 | | | |
 | सामने | saamane | सामने | saamane | noun | m. | locative | sg. | | | | |
 | लोगों | logon | लोग | log | noun | m. | accusative | pl. | | | | |
 | को | ko | को | ko | postposition | | | | | | | |
-| बैठे | baithe | बैठना | baithnaa | verb | m. | present | pl. | | | | |
+| बैठे | baithe | बैठना | baithnaa | verb | m. | present | pl. | | | active | |
 | हुए | hue | होना | honaa | verb | m. | past | pl. | | | | |
-| देखोगे | dekhoge | देखना | dekhnaa | verb | m. | future | pl. | 2 | | | |
+| देखोगे | dekhoge | देखना | dekhnaa | verb | m. | future | sg. | 2 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | हर | har | हर | har | adjective | m. | nominative | sg. | | | | |
-| कोई | koi | कोई | koi | pronoun | m. | nominative | sg. | 3 | | | |
+| कोई | koi | कोई | koi | indefinite pronoun | | nominative | sg. | | | | |
 | गुफा | gufaa | गुफा | gufaa | noun | f. | nominative | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
-| किनारे | kinaare | किनारा | kinaara | noun | m. | locative | sg. | | | | |
-| बैठा | baitthaa | बैठना | baithnaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| किनारे | kinaare | किनारा | kinaaraa | noun | m. | locative | sg. | | | | |
+| बैठा | baitthaa | बैठना | baithnaa | verb | m. | present | sg. | | | active | |
+| है | hai | होना | honaa | verb | | present | sg. | 3 | | indicative | |
 </result>
 </query>
 <query>
@@ -603,36 +588,34 @@ Create a word table.
 <prompt>
 Create a word table.
 
-46 तब मैंने पहले से कहीं अधिक अपनी आँखें खोलीं;
-47 मैंने अपने सामने देखा, और पत्थर के रंग से अलग नहीं, लबादे वाली छायाएँ देखीं।
+46 तबमैंनेपहलेसेज्यादाअपनीआँखेंखोलीं;
+47 अपनेसामनेदेखा,औरलोगोंकोलबादेपहनेदेखा
+48 पत्थर के रंग से अलग नहीं।
 </prompt>
 <result>
-| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+| Word | Roman (Word) | ष | Roman (ष) | Part of Speech | ष | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| तब | tab | तब | tab | adverb | | | | | | | |
-| मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| पहले | pahale | पहले | pahale | adverb | | | | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| कहीं | kahii | कहीं | kahii | adverb | | | | | | | |
-| अधिक | adhik | अधिक | adhik | adjective | m. | accusative | sg. | | | | |
-| अपनी | apnii | अपना | apnaa | possessive adjective | f. | accusative | pl. | 1 | | | |
-| आँखें | aankhen | आँख | aankh | noun | f. | accusative | pl. | | | | |
-| खोलीं | kholiiN | खोलना | kholnaa | verb | f. | past | pl. | 1 | | | |
-| मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| अपने | apne | अपना | apnaa | possessive adjective | m. | accusative | sg. | 1 | | | |
-| सामने | saamane | सामने | saamane | noun | m. | locative | sg. | | | | |
-| देखा | dekhaa | देखना | dekhnaa | verb | m. | past | sg. | 1 | | | |
-| और | aur | और | aur | conjunction | | | | | | | |
-| पत्थर | patthar | पत्थर | patthar | noun | m. | instrumental | sg. | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| रंग | rang | रंग | rang | noun | m. | instrumental | sg. | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| अलग | alag | अलग | alag | adjective | m. | nominative | sg. | | | | |
-| नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| लबादे | labaade | लबादा | labaadaa | noun | m. | nominative | pl. | | | | |
-| वाली | vaalii | वाला | vaalaa | adjective | f. | nominative | pl. | | | | |
-| छायाएँ | chaayaaen | छाया | chaayaa | noun | f. | accusative | pl. | | | | |
-| देखीं | dekhiiN | देखना | dekhnaa | verb | f. | past | pl. | 1 | | | |
+| तब | tab | तब | tab | adverb | | | | | | |
+| मैं | main | मैं | main | pronoun | m. | षative | ष. | 1 | | | |
+| ने | ne | ष | ne | ष | | | | | | | |
+| पहचाना | pahchaanaa | पहचानना | pahchaannaa | ष | | past | ष. | 1 | | | |
+| षज्या | shayya | षज्या | shayya | ष | f. | षative | ष. | | | | |
+| अपनी | apni | अपना | apnaa | possessive adjective | f. | षative | ष. | 1 | | | |
+| आँखें | aankhen | आँख | aankh | ष | f. | षative | pl. | | | | |
+| खोलीं | kholiiं | खोलना | kholnaa | ष | f. | past | pl. | 1 | | | |
+| षस | usne | ष | vah | pronoun | m. | षative | ष. | 3 | | | |
+| ने | ne | ष | ne | ष | | | | | | | |
+| देखा | dekhaa | देखना | dekhnaa | ष | | past | ष. | 3 | | | |
+| और | ष | और | ष | ष | | | | | | | |
+| लोगों | logon | लोग | log | ष | m. | षative | pl. | | | | |
+| षलबषे | labषe | लबष | labष | ष | m. | षative | pl. | | | | |
+| पहने | pahne | पहनना | pahannaa | ष | | past | pl. | | | | |
+| देखा | dekhaa | देखना | dekhnaa | ष | | past | ष. | 3 | | | |
+| पषथर | pathar | पषथर | pathar | ष | m. | षative | ष. | | | | |
+| के | ke | का | kaa | postposition | | | | | | |
+| रंग | rang | रंग | rang | ष | m. | षative | ष. | | | | |
+| से | se | से | se | postposition | | | | | | |
+| अलग | alag | अलग | alag | adjective | m. | षative | ष. | | | | |
 </result>
 </query>
 <query>
@@ -655,26 +638,26 @@ Create a word table.
 | आगे | aage | आगे | aage | adverb | | | | | | | |
 | बढ़े | badhe | बढ़ना | badhnaa | verb | m. | past | pl. | | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| सुना | sunaa | सुनना | sunnaa | verb | m. | past | sg. | 1 | | | |
+| सुना | sunaa | सुनना | sunnaa | verb | | past | sg. | 1 | | | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
-| चिल्लाया | chillaayaa | चिल्लाना | chillaanaa | verb | m. | passive | sg. | | | | |
-| जा | jaa | जाना | jaanaa | verb | m. | infinitive | | | | | | |
-| रहा | rahaa | रहना | rahnaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
-| मैरी | maarii | मैरी | maarii | noun | f. | nominative | sg. | | | | |
+| चिल्लाया | chillaayaa | चिल्लाना | chillaanaa | verb | m. | past | passive | | | | |
+| जा | jaa | जाना | jaanaa | verb | | infinitive | | | | | |
+| रहा | rahaa | रहना | rahnaa | verb | m. | past | sg. | | | | |
+| है | hai | होना | honaa | verb | | present | sg. | 3 | | indicative | |
+| 'मैरी | 'mairii | मैरी | mairii | noun | f. | nominative | sg. | | | | |
 | हमारे | hamaare | हमारा | hamaaraa | possessive adjective | m. | dative | pl. | 1 | | | |
 | लिए | liye | लिए | liye | postposition | | | | | | | |
 | प्रार्थना | prarthanaa | प्रार्थना | prarthanaa | noun | f. | accusative | sg. | | | | |
-| करो | karo | करना | karnaa | verb | m. | imperative | pl. | 2 | | | |
-| माइकल | maikaal | माइकल | maikaal | noun | m. | nominative | sg. | | | | |
+| करो | karo | करना | karnaa | verb | | imperative | pl. | 2 | | | |
+| 'माइकल' | 'maikael' | माइकल | 'maikael' | noun | m. | nominative | sg. | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
-| पीटर | piitar | पीटर | piitar | noun | m. | nominative | sg. | | | | |
+| 'पीटर' | 'piitar' | पीटर | 'piitar' | noun | m. | nominative | sg. | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
-| सभी | sabhii | सभी | sabhii | adjective | m. | nominative | pl. | | | | |
-| संत | sant | संत | sant | noun | m. | nominative | pl. | | | | |
-| चिल्ला | chillaa | चिल्लाना | chillaanaa | verb | m. | present | pl. | 3 | | | |
-| रहे | rahe | रहना | rahnaa | verb | m. | present | pl. | 3 | | | |
-| हैं | hain | होना | honaa | verb | m. | present | pl. | 3 | | | |
+| 'सभी | 'sabhii | सभी | 'sabhii | pronoun | m. | nominative | pl. | | | | |
+| संत' | 'sant' | संत | 'sant' | noun | m. | nominative | pl. | | | | |
+| चिल्ला | chillaa | चिल्लाना | chillaanaa | verb | | present | pl. | | | active | |
+| रहे | rahe | रहना | rahnaa | verb | m. | present | pl. | | | | |
+| हैं | hain | होना | honaa | verb | | present | pl. | 3 | | indicative | |
 </result>
 </query>
 <query>
@@ -691,25 +674,25 @@ Create a word table.
 |---|---|---|---|---|---|---|---|---|---|---|
 | मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
 | नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| लगता | lagtaa | लगना | lagnaa | verb | m. | present | sg. | 3 | | | |
+| लगता | lagtaa | लगना | lagnaa | verb | m. | present | sg. | 1 | | active | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
 | आज | aaj | आज | aaj | adverb | | | | | | | |
-| पृथ्वी | prithvii | पृथ्वी | prithvii | noun | f. | locative | sg. | | | | |
+| पृथ्वी | prthvii | पृथ्वी | prthvii | noun | f. | locative | sg. | | | | |
 | पर | par | पर | par | postposition | | | | | | | |
-| कोई | koi | कोई | koi | pronoun | m. | nominative | sg. | 3 | | | |
-| इतना | itnaa | इतना | itnaa | adjective | m. | accusative | sg. | | | | |
+| कोई | koi | कोई | koi | indefinite pronoun | | nominative | sg. | | | | |
+| इतना | itnaa | इतना | itnaa | adjective | m. | nominative | sg. | | | | |
 | कठोर | kathor | कठोर | kathor | adjective | m. | nominative | sg. | | | | |
 | व्यक्ति | vyakti | व्यक्ति | vyakti | noun | m. | nominative | sg. | | | | |
 | होगा | hogaa | होना | honaa | verb | m. | future | sg. | 3 | | | |
-| जिसे | jise | जिस | jis | relative pronoun | m. | accusative | sg. | 3 | | | |
-| छुआ | chhuaa | छूना | chhoonaa | verb | m. | past | sg. | | | | |
+| जिसे | jise | जिस | jis | relative pronoun | | accusative | sg. | 3 | | | |
+| छुआ | chhuaa | छूना | chhoonaa | verb | m. | past | passive | | | | |
 | नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| गया | gayaa | जाना | jaanaa | verb | m. | past | sg. | | | | |
+| गया | gayaa | जाना | jaanaa | verb | m. | past | passive | | | | |
 | होगा | hogaa | होना | honaa | verb | m. | future | sg. | 3 | | | |
-| उस | us | वह | vah | pronoun | m. | instrumental | sg. | 3 | | | |
-| करुणा | karunaa | करुणा | karunaa | noun | f. | instrumental | sg. | | | | |
+| उस | us | वह | vah | pronoun | m. | ablative | sg. | 3 | | | |
+| करुणा | karunaa | करुणा | karunaa | noun | f. | ablative | sg. | | | | |
 | से | se | से | se | postposition | | | | | | | |
-| जो | jo | जो | jo | relative pronoun | m. | accusative | sg. | 3 | | | |
+| जो | jo | जो | jo | relative pronoun | | nominative | sg. | 3 | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | बाद | baad | बाद | baad | noun | f. | locative | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
@@ -734,15 +717,15 @@ Create a word table.
 | उनके | unke | वह | vah | pronoun | m. | genitive | pl. | 3 | | | |
 | इतने | itne | इतना | itnaa | adjective | m. | accusative | pl. | | | | |
 | करीब | kareeb | करीब | kareeb | adjective | m. | accusative | pl. | | | | |
-| पहुँच | pahunch | पहुँचना | pahunchnaa | verb | m. | past | sg. | 1 | | | |
+| पहुँच | pahunch | पहुँचना | pahunchnaa | verb | f. | accusative | sg. | | past | | |
 | गया | gayaa | जाना | jaanaa | verb | m. | past | sg. | 1 | | | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
 | उनके | unke | वह | vah | pronoun | m. | genitive | pl. | 3 | | | |
 | कार्य | kaary | कार्य | kaary | noun | m. | nominative | pl. | | | | |
-| मेरे | mere | मेरा | meraa | possessive adjective | m. | dative | sg. | 1 | | | |
+| मेरे | mere | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
 | लिए | liye | लिए | liye | postposition | | | | | | | |
 | निश्चित | nishchit | निश्चित | nishchit | adjective | m. | nominative | pl. | | | | |
-| हो | ho | होना | honaa | verb | m. | subjunctive | pl. | 3 | | | |
+| हो | ho | होना | honaa | verb | | present | pl. | 3 | | subjunctive | |
 | गए | gaye | जाना | jaanaa | verb | m. | past | pl. | | | | |
 | मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | गहरे | gahare | गहरा | gaहराa | adjective | m. | instrumental | sg. | | | | |
@@ -768,32 +751,32 @@ Create a word table.
 |---|---|---|---|---|---|---|---|---|---|---|
 | वे | ve | वह | vah | pronoun | m. | nominative | pl. | 3 | | | |
 | मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
-| खुरदरे | khuradare | खुरदरा | khuradaraa | adjective | m. | nominative | pl. | | | | |
-| सिलिसी | silisii | सिलिसी | silisii | adjective | f. | nominative | pl. | | | | |
+| खुरदरे | khuradare | खुरदरा | khuradaraa | adjective | m. | instrumental | pl. | | | | |
+| सिलिसी | silisii | सिलिसी | silisii | noun | f. | instrumental | sg. | | | | |
 | कपड़े | kapde | कपड़ा | kapdaa | noun | m. | instrumental | pl. | | | | |
 | से | se | से | se | postposition | | | | | | | |
 | ढके | dhake | ढकना | dhaknaa | verb | m. | past | pl. | | | | |
 | हुए | hue | होना | honaa | verb | m. | past | pl. | | | | |
-| लग | lag | लगना | lagnaa | verb | m. | present | pl. | 3 | | | |
-| रहे | rahe | रहना | rahnaa | verb | m. | present | pl. | 3 | | | |
+| लग | lag | लगना | lagnaa | verb | | present | pl. | | | active | |
+| रहे | rahe | रहना | rahnaa | verb | m. | present | pl. | | | | |
 | थे | the | होना | honaa | verb | m. | past | pl. | 3 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
-| एक | ek | एक | ek | numeral | m. | nominative | sg. | | | | |
-| दूसरे | dusre | दूसरा | dusraa | adjective | m. | dative | sg. | | | | |
+| एक | ek | एक | ek | numeral | | nominative | sg. | | | | |
+| दूसरे | dusre | दूसरा | dusraa | numeral | m. | instrumental | sg. | | | | |
 | को | ko | को | ko | postposition | | | | | | | |
-| कंधे | kandhe | कंधा | kandhaa | noun | m. | dative | sg. | | | | |
+| कंधे | kandhe | कंधा | kandhaa | noun | m. | instrumental | sg. | | | | |
 | से | se | से | se | postposition | | | | | | | |
-| सह | sah | सहना | sahnaa | verb | m. | present | sg. | 3 | | | |
-| रहा | rahaa | रहना | rahnaa | verb | m. | present | sg. | 3 | | | |
+| सह | sah | सहना | sahanaa | verb | | present | sg. | | | active | |
+| रहा | rahaa | रहना | rahnaa | verb | m. | past | sg. | | | | |
 | था | thaa | होना | honaa | verb | m. | past | sg. | 3 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
-| सभी | sabhii | सभी | sabhii | adjective | m. | nominative | pl. | | | | |
-| किनारे | kinaare | किनारा | kinaara | noun | m. | instrumental | pl. | | | | |
+| सभी | sabhii | सभी | sabhii | pronoun | m. | nominative | pl. | | | | |
+| किनारे | kinaare | किनारा | kinaaraa | noun | m. | instrumental | pl. | | | | |
 | से | se | से | se | postposition | | | | | | | |
-| सहन | sahan | सहन करना | sahan karnaa | verb | m. | passive | pl. | | | | |
+| सहन | sahan | सहन | sahan | verb | | present | passive | | | | |
 | किए | kiye | करना | karnaa | verb | m. | past | pl. | | | | |
-| जा | jaa | जाना | jaanaa | verb | m. | infinitive | | | | | | |
-| रहे | rahe | रहना | rahnaa | verb | m. | present | pl. | 3 | | | |
+| जा | jaa | जाना | jaanaa | verb | | infinitive | | | | | |
+| रहे | rahe | रहना | rahnaa | verb | m. | present | pl. | | | | |
 | थे | the | होना | honaa | verb | m. | past | pl. | 3 | | | |
 </result>
 </query>
@@ -809,34 +792,34 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| इसी | isii | यह | yah | demonstrative pronoun | m. | instrumental | sg. | | | | |
-| तरह | tarah | तरह | tarah | noun | f. | instrumental | sg. | | | | |
-| वे | ve | वह | vah | pronoun | m. | nominative | pl. | 3 | | | |
-| अंधे | andhe | अंधा | andhaa | adjective | m. | nominative | pl. | | | | |
-| जिनके | jinhonke | जिसका | jiskaa | relative pronoun | m. | genitive | pl. | 3 | | | |
-| पास | paas | पास | paas | noun | m. | locative | sg. | | | | |
-| धन | dhan | धन | dhan | noun | m. | nominative | sg. | | | | |
-| नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
-| अपनी | apnii | अपना | apnaa | possessive adjective | f. | accusative | pl. | 1 | | | |
-| ज़रूरत | zarurat | ज़रूरत | zarurat | noun | f. | accusative | sg. | | | | |
-| मांगने | maangane | माँगना | maangnaa | verb | m. | infinitive | | | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| लिए | liye | लिए | liye | postposition | | | | | | | |
-| क्षमादान | kshamadaan | क्षमादान | kshamadaan | noun | m. | locative | sg. | | | | |
-| पर | par | पर | par | postposition | | | | | | | |
-| खड़े | khade | खड़ा | khadaa | adjective | m. | nominative | pl. | | | | |
-| रहते | rahte | रहना | rahnaa | verb | m. | present | pl. | 3 | | | |
-| हैं | hain | होना | honaa | verb | m. | present | pl. | 3 | | | |
-| और | aur | और | aur | conjunction | | | | | | | |
-| एक | ek | एक | ek | numeral | m. | nominative | sg. | | | | |
-| दूसरे | dusre | दूसरा | dusraa | adjective | m. | genitive | sg. | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| सिर | sir | सिर | sir | noun | m. | locative | sg. | | | | |
-| पर | par | पर | par | postposition | | | | | | | |
-| सिर | sir | सिर | sir | noun | m. | accusative | sg. | | | | |
-| रखता | rakhttaa | रखना | rakhtnaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| इसी | isee | यह | yah | demonstrative pronoun | m. | ablative | sg. | 3 |  |  |  |
+| तरह | tarah | तरह | tarah | noun | f. | ablative | sg. | 3 |  |  |  |
+| वे | ve | वह | vah | pronoun | m. | nominative | pl. | 3 |  |  |  |
+| अंधे | andhe | अंधा | andhaa | adjective | m. | nominative | pl. | 3 |  |  |  |
+| जिनके | jinke | जिसका | jiskaa | relative pronoun | m. | genitive | pl. | 3 |  |  |  |
+| पास | paas | पास | paas | postposition |  |  |  |  |  |  |  |
+| धन | dhan | धन | dhan | noun | m. | nominative | sg. | 3 |  |  |  |
+| नहीं | nahin | नहीं | nahin | adverb |  |  |  |  |  |  |  |
+| है | hai | होना | honaa | verb |  |  | sg. | 3 | present | indicative |  |
+| अपनी | apnii | अपना | apnaa | possessive adjective | f. | accusative | sg. | 3 |  |  |  |
+| ज़रूरत | zarurat | ज़रूरत | zarurat | noun | f. | accusative | sg. | 3 |  |  |  |
+| मांगने | maangne | मांगना | maangnaa | verb |  |  |  | 3 | infinitive |  |  |
+| के | ke | का | kaa | postposition |  |  |  |  |  |  |  |
+| लिए | liye | लिए | liye | postposition |  |  |  |  |  |  |  |
+| क्षमादान | kshamadaan | क्षमादान | kshamadaan | noun | m. | locative | sg. | 3 |  |  |  |
+| पर | par | पर | par | postposition |  |  |  |  |  |  |  |
+| खड़े | khade | खड़ा | khadaa | adjective | m. | nominative | pl. | 3 |  |  |  |
+| रहते | rahate | रहना | rahnaa | verb |  |  | pl. | 3 | present | indicative |  |
+| हैं | hain | होना | honaa | verb |  |  | pl. | 3 | present | indicative |  |
+| और | aur | और | aur | conjunction |  |  |  |  |  |  |  |
+| एक | ek | एक | ek | numeral |  |  | sg. | 3 |  |  |  |
+| दूसरे | doosre | दूसरा | doosraa | adjective | m. | genitive | sg. | 3 |  |  |  |
+| के | ke | का | kaa | postposition |  |  |  |  |  |  |  |
+| सिर | sir | सिर | sir | noun | m. | locative | sg. | 3 |  |  |  |
+| पर | par | पर | par | postposition |  |  |  |  |  |  |  |
+| सिर | sir | सिर | sir | noun | m. | accusative | sg. | 3 |  |  |  |
+| रखता | rakhtaa | रखना | rakhnaa | verb | m. | present | sg. | 3 |  | indicative |  |
+| है | hai | होना | honaa | verb |  |  | sg. | 3 | present | indicative |  |
 </result>
 </query>
 <query>
@@ -851,21 +834,32 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| क्योंकि | kyonki | क्योंकि | kyonki | conjunction | | | | | | | |
-| दूसरों | doosron | दूसरा | doosraa | pronoun | m. | genitive | pl. | 3 | | | |
-| की | kii | का | kaa | postposition | | | | | | | |
-| दया | daya | दया | daya | noun | f. | nominative | sg. | | | | |
-| जल्दी | jaldii | जल्दी | jaldii | adverb | | | | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| जागृत | jaagrat | जागृत | jaagrat | adjective | m. | nominative | sg. | | | | |
-| हो | ho | होना | honaa | verb | | infinitive | | | | | |
-| जाती | jaatii | जाना | jaanaa | verb | f. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
-| न | na | नहीं | nahin | adverb | | | | | | | |
-| केवल | keval | केवल | keval | adverb | | | | | | | |
-| शब्दों | shabdon | शब्द | shabd | noun | m. | genitive | pl. | | | | |
-| की | kii | का | kaa | postposition | | | | | | | |
-| आवाज़ | aawaa
+| क्योंकि | kyonki | क्योंकि | kyonki | conjunction |  |  |  |  |  |  |  |
+| दूसरों | doosron | दूसरा | doosraa | pronoun | m. | genitive | pl. | 3 |  |  |  |
+| की | kee | का | kaa | postposition |  |  |  |  |  |  |  |
+| दया | daya | दया | daya | noun | f. | nominative | sg. | 3 |  |  |  |
+| जल्दी | jaldii | जल्दी | jaldii | adverb |  |  |  |  |  |  |  |
+| से | se | से | se | postposition |  |  |  |  |  |  |  |
+| जागृत | jaagrut | जागृत | jaagrut | adjective | m. | nominative | sg. | 3 |  |  |  |
+| हो | ho | होना | honaa | verb |  |  | sg. | 3 | present | subjunctive |  |
+| जाती | jaatii | जाना | jaanaa | verb | f. | present | sg. | 3 |  | indicative |  |
+| है | hai | होना | honaa | verb |  |  | sg. | 3 | present | indicative |  |
+| न | na | नहीं | nahin | negation |  |  |  |  |  |  |  |
+| केवल | keval | केवल | keval | adverb |  |  |  |  |  |  |  |
+| शब्दों | shabdon | शब्द | shabd | noun | m. | genitive | pl. | 3 |  |  |  |
+| की | kee | का | kaa | postposition |  |  |  |  |  |  |  |
+| आवाज़ | aavaaz | आवाज़ | aavaaz | noun | f. | genitive | sg. | 3 |  |  |  |
+| के | ke | का | kaa | postposition |  |  |  |  |  |  |  |
+| लिए | liye | लिए | liye | postposition |  |  |  |  |  |  |  |
+| बल्कि | balki | बल्कि | balki | conjunction |  |  |  |  |  |  |  |
+| उस | us | वह | vah | pronoun | m. | genitive | sg. | 3 |  |  |  |
+| दृष्टि | drishti | दृष्टि | drishti | noun | f. | genitive | sg. | 3 |  |  |  |
+| के | ke | का | kaa | postposition |  |  |  |  |  |  |  |
+| लिए | liye | लिए | liye | postposition |  |  |  |  |  |  |  |
+| जो | jo | जो | jo | relative pronoun | m. | nominative | sg. | 3 |  |  |  |
+| कम | kam | कम | kam | adjective |  |  |  |  |  |  |  |
+| नहीं | nahin | नहीं | nahin | negation |  |  |  |  |  |  |  |
+| चाहती | chaahatii | चाहना | chaahnaa | verb | f. | present | sg. | 3 |  | indicative |  |
 </result>
 </query>
 <query>
@@ -880,39 +874,39 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| और | aur | और | aur | conjunction | | | | | | | |
-| जैसे | jaise | जैसे | jaise | conjunction | | | | | | | |
-| सूर्य | surya | सूर्य | surya | noun | m. | nominative | sg. | | | | |
-| अंधों | andhon | अंधा | andhaa | noun | m. | genitive | pl. | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| लिए | liye | लिए | liye | postposition | | | | | | | |
-| अनुकूल | anukool | अनुकूल | anukool | adjective | m. | nominative | sg. | | | | |
-| नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
-| इसी | isii | यह | yah | pronoun | m. | genitive | sg. | 3 | | | |
-| तरह | tarah | तरह | tarah | noun | f. | nominative | sg. | | | | |
-| यहाँ | yahaan | यहां | yahaan | adverb | | | | | | | |
-| की | kii | का | kaa | postposition | | | | | | | |
-| छायाओं | chaayaaon | छाया | chaayaa | noun | f. | genitive | pl. | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| लिए | liye | लिए | liye | postposition | | | | | | | |
-| जिनके | jinke | जिसका | jiskaa | pronoun | m. | genitive | pl. | 3 | | | |
-| बारे | baare | बारे | baare | noun | m. | accusative | sg. | | | | |
-| में | men | में | men | postposition | | | | | | | |
-| अभी | abhii | अभी | abhii | adverb | | | | | | | |
-| बात | baat | बात | baat | noun | f. | nominative | sg. | | | | |
-| कर | kar | करना | karnaa | verb | | infinitive | | | | | |
-| रहा | rahaa | रहना | rahnaa | verb | m. | imperfect | sg. | 1 | | | |
-| हूँ | hoon | होना | honaa | verb | m. | present | sg. | 1 | | | |
-| स्वर्ग | swarga | स्वर्ग | swarga | noun | m. | nominative | sg. | | | | |
-| का | kaa | का | kaa | postposition | | | | | | | |
-| प्रकाश | prakash | प्रकाश | prakash | noun | m. | nominative | sg. | | | | |
-| स्वयं | swayam | स्वयं | swayam | pronoun | m. | nominative | sg. | 3 | | | |
-| को | ko | को | ko | postposition | | | | | | | |
-| प्रदान | pradaan | प्रदान | pradaan | noun | m. | accusative | sg. | | | | |
-| नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| करना | karnaa | करना | karnaa | verb | m. | infinitive | | | | | | |
-| चाहता | chaahataa | चाहना | chaahnaa | verb | m. | present | sg. | 3 | | | |
+| और | aur | और | aur | conjunction |  |  |  |  |  |  |  |
+| जैसे | jaise | जैसे | jaise | conjunction |  |  |  |  |  |  |  |
+| सूर्य | surya | सूर्य | surya | noun | m. | nominative | sg. | 3 |  |  |  |
+| अंधों | andhon | अंधा | andhaa | adjective | m. | genitive | pl. | 3 |  |  |  |
+| के | ke | का | kaa | postposition |  |  |  |  |  |  |  |
+| लिए | liye | लिए | liye | postposition |  |  |  |  |  |  |  |
+| अनुकूल | anukool | अनुकूल | anukool | adjective | m. | nominative | sg. | 3 |  |  |  |
+| नहीं | nahin | नहीं | nahin | negation |  |  |  |  |  |  |  |
+| है | hai | होना | honaa | verb |  |  | sg. | 3 | present | indicative |  |
+| इसी | isee | यह | yah | demonstrative pronoun | m. | ablative | sg. | 3 |  |  |  |
+| तरह | tarah | तरह | tarah | noun | f. | ablative | sg. | 3 |  |  |  |
+| यहाँ | yahaan | यहाँ | yahaan | adverb |  |  |  |  |  |  |  |
+| की | kee | का | kaa | postposition |  |  |  |  |  |  |  |
+| छायाओं | chaayaon | छाया | chaayaa | noun | f. | genitive | pl. | 3 |  |  |  |
+| के | ke | का | kaa | postposition |  |  |  |  |  |  |  |
+| लिए | liye | लिए | liye | postposition |  |  |  |  |  |  |  |
+| जिनके | jiske | जिसका | jiskaa | relative pronoun | m. | genitive | pl. | 3 |  |  |  |
+| बारे | baare | बारे | baare | noun | m. | accusative | sg. | 3 |  |  |  |
+| में | men | में | men | postposition |  |  |  |  |  |  |  |
+| अभी | abhii | अभी | abhii | adverb |  |  |  |  |  |  |  |
+| बात | baat | बात | baat | noun | f. | accusative | sg. | 3 |  |  |  |
+| कर | kar | करना | karnaa | verb |  |  |  | 1 | present | participle |  |
+| रहा | rahaa | रहना | rahnaa | verb | m. | past | sg. | 3 |  | indicative |  |
+| हूँ | hoon | होना | honaa | verb | m. | present | sg. | 1 |  | indicative |  |
+| स्वर्ग | svarg | स्वर्ग | svarg | noun | m. | nominative | sg. | 3 |  |  |  |
+| का | kaa | का | kaa | postposition |  |  |  |  |  |  |  |
+| प्रकाश | prakash | प्रकाश | prakash | noun | m. | nominative | sg. | 3 |  |  |  |
+| स्वयं | svayam | स्वयं | svayam | pronoun | m. | nominative | sg. | 3 |  |  |  |
+| को | ko | को | ko | postposition |  |  |  |  |  |  |  |
+| प्रदान | pradaan | प्रदान | pradaan | noun | m. | accusative | sg. | 3 |  |  |  |
+| नहीं | nahin | नहीं | nahin | negation |  |  |  |  |  |  |  |
+| करना | karnaa | करना | karnaa | verb |  |  |  | 3 | infinitive |  |  |
+| चाहता | chaahataa | चाहना | chaahnaa | verb | m. | present | sg. | 3 |  | indicative |  |
 </result>
 </query>
 <query>
@@ -925,38 +919,7 @@ Create a word table.
 72 इसलिए कि वह चुपचाप न रहे।
 </prompt>
 <result>
-| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
-|---|---|---|---|---|---|---|---|---|---|---|
-| क्योंकि | kyonki | क्योंकि | kyonki | conjunction | | | | | | | |
-| सभी | sabhii | सभी | sabhii | pronoun | m. | genitive | pl. | 3 | | | |
-| की | kii | का | kaa | postposition | | | | | | | |
-| पलकों | palakon | पलक | palak | noun | f. | accusative | pl. | | | | |
-| को | ko | को | ko | postposition | | | | | | | |
-| लोहे | lohe | लोहा | lohaa | noun | m. | genitive | sg. | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| तार | taar | तार | taar | noun | m. | instrumental | sg. | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| सिल | sil | सिलना | silnaa | verb | | infinitive | | | | | |
-| दिया | diyaa | देना | denaa | verb | m. | past | sg. | 3 | | | |
-| जाता | jaataa | जाना | jaanaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
-| और | aur | और | aur | conjunction | | | | | | | |
-| पलकें | palaken | पलक | palak | noun | f. | nominative | pl. | | | | |
-| भी | bhii | भी | bhii | particle | | | | | | | |
-| जैसे | jaise | जैसे | jaise | conjunction | | | | | | | |
-| जंगली | janglii | जंगली | janglii | adjective | m. | instrumental | sg. | | | | |
-| बाज | baaj | बाज | baaj | noun | m. | instrumental | sg. | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| साथ | saath | साथ | saath | noun | m. | instrumental | sg. | | | | |
-| किया | kiyaa | करना | karnaa | verb | m. | past | sg. | 3 | | | |
-| जाता | jaataa | जाना | jaanaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
-| इसलिए | isliye | इसलिए | isliye | conjunction | | | | | | | |
-| कि | ki | कि | ki | conjunction | | | | | | | |
-| वह | vah | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
-| चुपचाप | chupchaap | चुपचाप | chupchaap | adverb | | | | | | | |
-| न | na | नहीं | nahin | adverb | | | | | | | |
-| रहे | rahe | रहना | rahnaa | verb | m. | subjunctive | sg. | 3 | | | |
+| 1
 </result>
 </query>
 <query>
@@ -971,33 +934,34 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| चलते-चलते | chalte-chalte | चलना | chalnaa | verb | m. | instrumental | sg. | 1 | imperfect | | progressive |
-| मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
-| लगा | lagaa | लगना | lagnaa | verb | m. | past | sg. | 1 | | | |
-| कि | ki | कि | ki | conjunction | | | | | | | |
-| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| अपमान | apmaan | अपमान | apmaan | noun | m. | accusative | sg. | | | | |
-| कर | kar | करना | karnaa | verb | | infinitive | | | | | |
-| रहा | rahaa | रहना | rahnaa | verb | m. | imperfect | sg. | 1 | | | |
-| हूँ | hoon | होना | honaa | verb | m. | present | sg. | 1 | | | |
-| दूसरों | doosron | दूसरा | doosraa | pronoun | m. | accusative | pl. | 3 | | | |
-| को | ko | को | ko | postposition | | | | | | | |
-| देखकर | dekhkar | देखना | dekhnaa | verb | | instrumental | | | | | | |
-| खुद | khud | खुद | khud | pronoun | m. | accusative | sg. | 1 | | | |
-| को | ko | को | ko | postposition | | | | | | | |
-| न | na | नहीं | nahin | adverb | | | | | | | |
-| देख | dekh | देखना | dekhnaa | verb | | infinitive | | | | | |
-| पाने | paane | पाना | paanaa | verb | m. | infinitive | | | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| कारण | kaaran | कारण | kaaran | noun | m. | nominative | sg. | | | | |
-| इसलिए | isliye | इसलिए | isliye | conjunction | | | | | | | |
-| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| अपनी | apnii | अपना | apnaa | possessive adjective | f. | accusative | sg. | 1 | | | |
-| बुद्धिमान | buddhimaan | बुद्धिमान | buddhimaan | adjective | m. | accusative | sg. | | | | |
-| सलाह | salaah | सलाह | salaah | noun | f. | accusative | sg. | | | | |
-| की | kii | का | kaa | postposition | | | | | | | |
-| ओर | or | ओर | or | noun | f. | accusative | sg. | | | | |
-| मुड़ा | mudaa | मुड़ना | mudnaa | verb | m. | past | sg. | 1 | | | |
+| चलते | chalte | चलना | chalnaa | verb |  |  |  | 1 | present | participle |  |
+| चलते | chalte | चलना | chalnaa | verb |  |  |  | 1 | present | participle |  |
+| मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 |  |  |  |
+| लगा | lagaa | लगना | lagnaa | verb | m. | past | sg. | 3 |  | indicative |  |
+| कि | ki | कि | ki | conjunction |  |  |  |  |  |  |  |
+| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 |  |  |  |
+| अपमान | apmaan | अपमान | apmaan | noun | m. | accusative | sg. | 3 |  |  |  |
+| कर | kar | करना | karnaa | verb |  |  |  | 1 | present | participle |  |
+| रहा | rahaa | रहना | rahnaa | verb | m. | past | sg. | 3 |  | indicative |  |
+| हूँ | hoon | होना | honaa | verb | m. | present | sg. | 1 |  | indicative |  |
+| दूसरों | doosron | दूसरा | doosraa | pronoun | m. | accusative | pl. | 3 |  |  |  |
+| को | ko | को | ko | postposition |  |  |  |  |  |  |  |
+| देखकर | dekhkar | देखना | dekhnaa | verb |  |  |  | 1 | present | participle |  |
+| खुद | khud | खुद | khud | pronoun | m. | accusative | sg. | 3 |  |  |  |
+| को | ko | को | ko | postposition |  |  |  |  |  |  |  |
+| न | na | नहीं | nahin | negation |  |  |  |  |  |  |  |
+| देख | dekh | देखना | dekhnaa | verb |  |  |  | 2 | imperative |  |  |
+| पाने | paane | पाना | paanaa | verb |  |  |  | 1 | infinitive |  |  |
+| के | ke | का | kaa | postposition |  |  |  |  |  |  |  |
+| कारण | kaaran | कारण | kaaran | noun | m. | ablative | sg. | 3 |  |  |  |
+| इसलिए | isliye | इसलिए | isliye | conjunction |  |  |  |  |  |  |  |
+| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 |  |  |  |
+| अपनी | apnii | अपना | apnaa | possessive adjective | f. | accusative | sg. | 1 |  |  |  |
+| बुद्धिमान | buddhimaan | बुद्धिमान | buddhimaan | adjective | m. | accusative | sg. | 3 |  |  |  |
+| सलाह | salaah | सलाह | salaah | noun | f. | accusative | sg. | 3 |  |  |  |
+| की | kee | का | kaa | postposition |  |  |  |  |  |  |  |
+| ओर | or | ओर | or | noun | f. | accusative | sg. | 3 |  |  |  |
+| मुड़ा | mudaa | मुड़ना | mudnaa | verb | m. | past | sg. | 3 |  | indicative |  |
 </result>
 </query>
 <query>
@@ -1012,32 +976,35 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| वह | vah | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
-| अच्छी | achchhii | अच्छा | achchhaa | adjective | f. | nominative | sg. | | | | |
-| तरह | tarah | तरह | tarah | noun | f. | nominative | sg. | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| जानता | jaantaa | जानना | jaannaa | verb | m. | present | sg. | 3 | | | |
-| था | thaa | होना | honaa | verb | m. | past | sg. | 3 | | | |
-| कि | ki | कि | ki | conjunction | | | | | | | |
-| मूक | mook | मूक | mook | noun | m. | nominative | sg. | | | | |
-| क्या | kya | क्या | kya | interrogative pronoun | | | | | | | |
-| कहना | kahnaa | कहना | kahnaa | verb | m. | infinitive | | | | | | |
-| चाहता | chaahataa | चाहना | chaahnaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
-| और | aur | और | aur | conjunction | | | | | | | |
-| इसलिए | isliye | इसलिए | isliye | conjunction | | | | | | | |
-| उसने | usne | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
-| मेरी | merii | मेरा | meraa | possessive adjective | f. | genitive | sg. | 1 | | | |
-| मांग | maang | मांग | maang | noun | f. | genitive | sg. | | | | |
-| का | kaa | का | kaa | postposition | | | | | | | |
-| इंतजार | intezaar | इंतजार | intezaar | noun | m. | accusative | sg. | | | | |
-| नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| किया | kiyaa | करना | karnaa | verb | m. | past | sg. | 3 | | | |
-| लेकिन | lekin | लेकिन | lekin | conjunction | | | | | | | |
-| कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 3 | | | |
-| बोलो | bolo | बोलना | bolnaa | verb | m. | imperative | sg. | 2 | | | |
-| और | aur | और | aur | conjunction | | | | | | | |
-| संक्षिप्त | sank
+| वह | vah | वह | vah | pronoun | m. | nominative | sg. | 3 |  |  |  |
+| अच्छी | achchhii | अच्छा | achchhaa | adjective | f. | nominative | sg. | 3 |  |  |  |
+| तरह | tarah | तरह | tarah | noun | f. | ablative | sg. | 3 |  |  |  |
+| से | se | से | se | postposition |  |  |  |  |  |  |  |
+| जानता | jaantaa | जानना | jaannaa | verb | m. | present | sg. | 3 |  | indicative |  |
+| था | thaa | होना | honaa | verb | m. | past | sg. | 3 |  | indicative |  |
+| कि | ki | कि | ki | conjunction |  |  |  |  |  |  |  |
+| मूक | mook | मूक | mook | adjective | m. | nominative | sg. | 3 |  |  |  |
+| क्या | kya | क्या | kya | interrogative pronoun |  |  |  |  |  |  |  |
+| कहना | kahnaa | कहना | kahnaa | verb |  |  |  | 3 | infinitive |  |  |
+| चाहता | chaahataa | चाहना | chaahnaa | verb | m. | present | sg. | 3 |  | indicative |  |
+| है | hai | होना | honaa | verb |  |  | sg. | 3 | present | indicative |  |
+| और | aur | और | aur | conjunction |  |  |  |  |  |  |  |
+| इसलिए | isliye | इसलिए | isliye | conjunction |  |  |  |  |  |  |  |
+| उसने | usne | वह | vah | pronoun | m. | nominative | sg. | 3 |  |  |  |
+| मेरी | merii | मेरा | meraa | possessive adjective | f. | genitive | sg. | 1 |  |  |  |
+| मांग | maang | मांग | maang | noun | f. | genitive | sg. | 3 |  |  |  |
+| का | kaa | का | kaa | postposition |  |  |  |  |  |  |  |
+| इंतजार | intezaar | इंतजार | intezaar | noun | m. | accusative | sg. | 3 |  |  |  |
+| नहीं | nahin | नहीं | nahin | negation |  |  |  |  |  |  |  |
+| किया | kiyaa | करना | karnaa | verb | m. | past | sg. | 3 |  | indicative |  |
+| लेकिन | lekin | लेकिन | lekin | conjunction |  |  |  |  |  |  |  |
+| कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 3 |  | indicative |  |
+| बोलो | bolo | बोलना | bolnaa | verb |  |  |  | 2 | imperative |  |  |
+| और | aur | और | aur | conjunction |  |  |  |  |  |  |  |
+| संक्षिप्त | sankshipt | संक्षिप्त | sankshipt | adjective | m. | nominative | sg. | 3 |  |  |  |
+| और | aur | और | aur | conjunction |  |  |  |  |  |  |  |
+| तर्कपूर्ण | tarkpun | तर्कपूर्ण | tarkpun | adjective | m. | nominative | sg. | 3 |  |  |  |
+| बनो | bano | बनना | bannaa | verb |  |  |  | 2 | imperative |  |  |
 </result>
 </query>
 <query>
@@ -1052,57 +1019,66 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| वर्जिल | varjil | वर्जिल | varjil | noun | m. | nominative | sg. | | | | |
-| मेरे | mere | मेरा | meraa | possessive adjective | m. | genitive | sg. | 1 | | | |
-| पास | paas | पास | paas | noun | m. | locative | sg. | | | | |
-| उस | us | वह | vah | pronoun | m. | ablative | sg. | 3 | | | |
-| ओर | or | ओर | or | noun | f. | ablative | sg. | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| आया | aayaa | आना | aanaa | verb | m. | past | sg. | 3 | | | |
-| था | thaa | होना | honaa | verb | m. | past | sg. | 3 | | | |
-| कंगनी | kangnii | कंगनी | kangnii | noun | f. | genitive | sg. | | | | |
-| का | kaa | का | kaa | postposition | | | | | | | |
-| जहाँ | jahaan | जहां | jahaan | adverb | | | | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| गिरना | girnaa | गिरना | girnaa | verb | m. | infinitive | | | | | | |
-| संभव | sambhav | संभव | sambhav | adjective | m. | nominative | sg. | | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
-| क्योंकि | kyonki | क्योंकि | kyonki | conjunction | | | | | | | |
-| कोई | koii | कोई | koii | pronoun | m. | nominative | sg. | | | | |
-| किनारा | kinaara | किनारा | kinaara | noun | m. | nominative | sg. | | | | |
-| माला | maalaa | माला | maalaa | noun | f. | instrumental | sg. | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| सजा | sajaa | सजाना | sajaanaa | verb | m. | past | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
+| वर्जिल | varjil | वर्जिल | varjil | noun | m. | nominative | sg. | 3 |  |  |  |
+| मेरे | mere | मेरा | meraa | possessive adjective | m. | genitive | sg. | 1 |  |  |  |
+| पास | paas | पास | paas | postposition |  |  |  |  |  |  |  |
+| उस | us | वह | vah | pronoun | m. | ablative | sg. | 3 |  |  |  |
+| ओर | or | ओर | or | noun | f. | ablative | sg. | 3 |  |  |  |
+| से | se | से | se | postposition |  |  |  |  |  |  |  |
+| आया | aayaa | आना | aanaa | verb | m. | past | sg. | 3 |  | indicative |  |
+| था | thaa | होना | honaa | verb | m. | past | sg. | 3 |  | indicative |  |
+| कंगनी | kangnii | कंगनी | kangnii | noun | f. | genitive | sg. | 3 |  |  |  |
+| का | kaa | का | kaa | postposition |  |  |  |  |  |  |  |
+| जहाँ | jahaan | जहाँ | jahaan | adverb |  |  |  |  |  |  |  |
+| से | se | से | se | postposition |  |  |  |  |  |  |  |
+| गिरना | girnaa | गिरना | girnaa | verb |  |  |  | 3 | infinitive |  |  |
+| संभव | sambhav | संभव | sambhav | adjective | m. | nominative | sg. | 3 |  |  |  |
+| है | hai | होना | honaa | verb |  |  | sg. | 3 | present | indicative |  |
+| क्योंकि | kyonki | क्योंकि | kyonki | conjunction |  |  |  |  |  |  |  |
+| कोई | koyii | कोई | koyii | indefinite pronoun | m. | nominative | sg. | 3 |  |  |  |
+| किनारा | kinaara | किनारा | kinaara | noun | m. | nominative | sg. | 3 |  |  |  |
+| माला | maalaa | माला | maalaa | noun | f. | ablative | sg. | 3 |  |  |  |
+| से | se | से | se | postposition |  |  |  |  |  |  |  |
+| नहीं | nahin | नहीं | nahin | negation |  |  |  |  |  |  |  |
+| सजा | sajaa | सजाना | sajaanaa | verb | f. | past | sg. | 3 |  | indicative |  |
+| है | hai | होना | honaa | verb |  |  | sg. | 3 | present | indicative |  |
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 13] 82/154</info>
-<prompt>
+<prompt retry="true">
 Create a word table.
 
 82 दूसरी तरफ मेरे पास भक्त थे
 83 छायाएँ, जो भयानक सिलाई के कारण
 84 इतना दबाया कि उनके गाल भीग गए।
 </prompt>
+<error result="true">
+index: 0
+finish_reason: RECITATION
+</error>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| दूसरी | doosrii | दूसरा | doosraa | adjective | f. | nominative | sg. | | | | |
-| तरफ | taraf | तरफ | taraf | noun | f. | locative | sg. | | | | |
-| मेरे | mere | मेरा | meraa | possessive adjective | m. | genitive | sg. | 1 | | | |
-| पास | paas | पास | paas | noun | m. | locative | sg. | | | | |
+| दूसरी | dusrii | दूसरा | dusraa | adjective | f. | nominative | sg. | | | | |
+| तरफ | taraf | तरफ | taraf | noun | f. | nominative | sg. | | | | |
+| मेरे | mere | मेरा | meraa | possessive adjective | m. | nominative | sg. | 1 | | | |
+| पास | paas | पास | paas | noun | m. | nominative | sg. | | | | |
 | भक्त | bhakt | भक्त | bhakt | noun | m. | nominative | pl. | | | | |
 | थे | the | होना | honaa | verb | m. | past | pl. | 3 | | | |
 | छायाएँ | chaayaaen | छाया | chaayaa | noun | f. | nominative | pl. | | | | |
 | जो | jo | जो | jo | relative pronoun | m. | nominative | pl. | 3 | | | |
-| भयानक | bhayaanak | भयानक | bhayaanak | adjective | m. | instrumental | pl. | | | | |
-| सिलाई | silaaii | सिलाई | silaaii | noun | f. | instrumental | sg. | | | | |
+| भयानक | bhayaanak | भयानक | bhayaanak | adjective | m. | nominative | pl. | | | | |
+| सिलाई | silaaii | सिलाई | silaaii | noun | f. | nominative | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
-| कारण | kaaran | कारण | kaaran | noun | m. | instrumental | sg. | | | | |
-| इतना | itnaa | इतना | itnaa | adverb | | | | | | | |
-| दबाया | dabaa
+| कारण | kaaran | कारण | kaaran | noun | m. | nominative | sg. | | | | |
+| इतना | itnaa | इतना | itnaa | adjective | m. | accusative | sg. | | | | |
+| दबाया | dabaayaa | दबाना | dabaanaa | verb | m. | past | sg. | | | | |
+| कि | ki | कि | ki | conjunction | | | | | | | |
+| उनके | unke | वह | vah | possessive adjective | m. | nominative | pl. | 3 | | | |
+| गाल | gaal | गाल | gaal | noun | m. | nominative | pl. | | | | |
+| भीग | bheeg | भीगना | bheegnaa | verb | m. | past | pl. | | | | |
+| गए | gaye | जाना | jaanaa | verb | m. | past | pl. | 3 | | | |
 </result>
 </query>
 <query>
@@ -1110,32 +1086,36 @@ Create a word table.
 <prompt>
 Create a word table.
 
-85 मैं उनकी ओर मुड़ा और: "हे सुरक्षित लोग",
-86 मैंने शुरू किया, "उच्च प्रकाश को देखने के लिए
-87 जिसकी देखभाल केवल आपकी इच्छा करती है,
+85 मैं उनकी ओर मुड़ा और कहा: "हे सुरक्षित लोगो",
+86 मैंने शुरू किया, "उस ऊँची रोशनी को देखने के लिए
+87 जिसकी देखभाल केवल तुम्हारी इच्छा करती है,
 </prompt>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| उनकी | unkii | वह | vah | pronoun | m. | genitive | pl. | 3 | | | |
+| उनकी | unkii | वह | vah | possessive adjective | f. | genitive | pl. | 3 | | | |
 | ओर | or | ओर | or | noun | f. | accusative | sg. | | | | |
 | मुड़ा | mudaa | मुड़ना | mudnaa | verb | m. | past | sg. | 1 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
+| कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 1 | | | |
 | हे | he | हे | he | interjection | | | | | | | |
-| सुरक्षित | surakshit | सुरक्षित | surakshit | adjective | m. | nominative | pl. | | | | |
-| लोग | log | लोग | log | noun | m. | nominative | pl. | | | | |
+| सुरक्षित | surakshit | सुरक्षित | surakshit | adjective | m. | vocative | pl. | 2 | | | |
+| लोगो | logo | लोग | log | noun | m. | vocative | pl. | 2 | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| शुरू | shuru | शुरू | shuru | verb | | infinitive | | | | | |
+| शुरू | shuruu | शुरू | shuruu | noun | m. | accusative | sg. | | | | |
 | किया | kiyaa | करना | karnaa | verb | m. | past | sg. | 1 | | | |
-| उच्च | uchch | उच्च | uchch | adjective | m. | accusative | sg. | | | | |
-| प्रकाश | prakash | प्रकाश | prakash | noun | m. | accusative | sg. | | | | |
+| उस | us | वह | vah | demonstrative pronoun | m. | accusative | sg. | | | | |
+| ऊँची | oonchii | ऊँचा | oonchaa | adjective | f. | accusative | sg. | | | | |
+| रोशनी | roshnii | रोशनी | roshnii | noun | f. | accusative | sg. | | | | |
 | को | ko | को | ko | postposition | | | | | | | |
 | देखने | dekhne | देखना | dekhnaa | verb | m. | infinitive | | | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | लिए | liye | लिए | liye | postposition | | | | | | | |
+| जिसकी | jiskii | जो | jo | relative pronoun | f. | genitive | sg. | 3 | | | |
+| देखभाल | dekhbhaाल | देखभाल | dekhbhaाल | noun | f. | nominative | sg. | | | | |
 | केवल | keval | केवल | keval | adverb | | | | | | | |
-| आपकी | aapkii | आपका | aapka | possessive adjective | f. | nominative | pl. | 2 | | | |
+| तुम्हारी | tumhaarii | तुम | tum | possessive adjective | f. | nominative | pl. | 2 | | | |
 | इच्छा | ichchhaa | इच्छा | ichchhaa | noun | f. | nominative | sg. | | | | |
 | करती | kartii | करना | karnaa | verb | f. | present | sg. | 3 | | | |
 </result>
@@ -1145,30 +1125,33 @@ Create a word table.
 <prompt>
 Create a word table.
 
-88 यदि अनुग्रह शीघ्र ही आपके विवेक के झाग को घोल देता है ताकि स्पष्ट रूप से
-90 उसके माध्यम से मन की धारा बहती है,
+88 अगर जल्द ही अनुग्रह झाग को घोल देता है
+89 आपकी चेतना का ताकि स्पष्ट रूप से
+90 उसके द्वारा मन से नदी उतर जाए,
 </prompt>
 <result>
-| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
+| Word | Roman (Word) | ष्य | Roman (ष्य) | Part of Speech | ष्य | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| यदि | yadi | यदि | yadi | conjunction | | | | | | | |
-| अनुग्रह | anugerah | अनुग्रह | anugerah | noun | m. | nominative | sg. | | | | |
-| शीघ्र | sheeghr | शीघ्र | sheeghr | adverb | | | | | | | |
-| ही | hii | ही | hii | particle | | | | | | | |
-| आपके | aapke | आपका | aapka | possessive adjective | m. | genitive | sg. | 2 | | | |
-| विवेक | vivek | विवेक | vivek | noun | m. | genitive | sg. | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| झाग | jhaag | झाग | jhaag | noun | m. | accusative | sg. | | | | |
-| को | ko | को | ko | postposition | | | | | | | |
-| घोल | ghol | घोलना | gholnaa | verb | | infinitive | | | | | |
+| अगर | agar | अगर | agar | conjunction | | | | | | |
+| जन्म | janm | जन्म | janm | noun | m. | nominative | sg. | | | | |
+| दानव | daanav | दानव | daanav | noun | m. | nominative | sg. | | | | |
+| ग्रह | grah | ग्रह | grah | noun | m. | nominative | sg. | | | | |
+| झाड़ | jhaar | झाड़ | jhaar | noun | m. | nominative | sg. | | | | |
+| को | ko | को | ko | postposition | | | | | | |
+| झाड़ | jhaar | झाड़ | jhaar | noun | m. | accusative | sg. | | | | |
 | देता | deta | देना | denaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
-| ताकि | taaki | ताकि | taaki | conjunction | | | | | | | |
-| स्पष्ट | spashta | स्पष्ट | spashta | adjective | m. | instrumental | sg. | | | | |
-| रूप | roop | रूप | roop | noun | m. | instrumental | sg. | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| उसके | uske | वह | vah | pronoun | m. | genitive | sg. | 3 | | | |
-| माध्यम | maadhy
+| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| चेतना | chetnaa | चेतना | chetnaa | noun | f. | nominative | sg. | | | | |
+| का | kaa | का | kaa | postposition | | | | | | |
+| ताप | taap | ताप | taap | noun | m. | nominative | sg. | | | | |
+| स्पर्श | sparsha | स्पर्श | sparsha | noun | m. | instrumental | sg. | | | | |
+| से | se | से | se | postposition | | | | | | |
+| उसके | uske | उस | vah | possessive adjective | m. | genitive | sg. | 3 | | | |
+| मन | man | मन | man | noun | m. | ablative | sg. | | | | |
+| से | se | से | se | postposition | | | | | | |
+| नदी | nadee | नदी | nadee | noun | f. | nominative | sg. | | | | |
+| उतर | utar | उतरना | utarnaa | verb | m. | imperative | sg. | 2 | | | |
+| जाए | jaaye | जाना | jaanaa | verb | m. | present | sg. | 3 | | | |
 </result>
 </query>
 <query>
@@ -1177,8 +1160,8 @@ Create a word table.
 Create a word table.
 
 91 मुझे बताओ, क्योंकि यह मेरे लिए सुखद और प्रिय होगा,
-92 यदि यहाँ आपके बीच कोई ऐसी आत्मा है जो लैटिन हो;
-93 और शायद वह अच्छा होगा अगर मैं उसे जानूं"।
+92 अगर यहाँ कोई आत्मा है जो लैटिन है;
+93 और शायद वह अच्छी होगी अगर मैं उसे जानूँ।
 </prompt>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
@@ -1186,33 +1169,30 @@ Create a word table.
 | मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
 | बताओ | bataao | बताना | bataanaa | verb | m. | imperative | sg. | 2 | | | |
 | क्योंकि | kyonki | क्योंकि | kyonki | conjunction | | | | | | | |
-| यह | yah | यह | yah | pronoun | m. | nominative | sg. | | | | |
+| यह | yah | यह | yah | demonstrative pronoun | m. | nominative | sg. | | | | |
 | मेरे | mere | मेरा | meraa | possessive adjective | m. | genitive | sg. | 1 | | | |
 | लिए | liye | लिए | liye | postposition | | | | | | | |
 | सुखद | sukhd | सुखद | sukhd | adjective | m. | nominative | sg. | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | प्रिय | priy | प्रिय | priy | adjective | m. | nominative | sg. | | | | |
 | होगा | hogaa | होना | honaa | verb | m. | future | sg. | 3 | | | |
-| यदि | yadi | यदि | yadi | conjunction | | | | | | | |
-| यहाँ | yahaan | यहां | yahaan | adverb | | | | | | | |
-| आपके | aapke | आपका | aapka | possessive adjective | m. | genitive | pl. | 2 | | | |
-| बीच | beech | बीच | beech | noun | m. | locative | sg. | | | | |
-| कोई | koii | कोई | koii | pronoun | m. | nominative | sg. | | | | |
-| ऐसी | aisii | ऐसा | aisaa | adjective | f. | nominative | sg. | | | | |
+| अगर | agar | अगर | agar | conjunction | | | | | | | |
+| यहाँ | yahaan | यहाँ | yahaan | adverb | | | | | | | |
+| कोई | koi | कोई | koi | indefinite pronoun | m. | nominative | sg. | | | | |
 | आत्मा | aatmaa | आत्मा | aatmaa | noun | f. | nominative | sg. | | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
+| है | hai | होना | honaa | verb | f. | present | sg. | 3 | | | |
 | जो | jo | जो | jo | relative pronoun | m. | nominative | sg. | 3 | | | |
 | लैटिन | lateen | लैटिन | lateen | adjective | m. | nominative | sg. | | | | |
-| हो | ho | होना | honaa | verb | | present | sg. | 3 | | | |
+| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | शायद | shaayad | शायद | shaayad | adverb | | | | | | | |
 | वह | vah | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
-| अच्छा | achchhaa | अच्छा | achchhaa | adjective | m. | nominative | sg. | | | | |
-| होगा | hogaa | होना | honaa | verb | m. | future | sg. | 3 | | | |
+| अच्छी | achchhii | अच्छा | achchhaa | adjective | f. | nominative | sg. | | | | |
+| होगी | hogii | होना | honaa | verb | f. | future | sg. | 3 | | | |
 | अगर | agar | अगर | agar | conjunction | | | | | | | |
 | मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | उसे | use | वह | vah | pronoun | m. | accusative | sg. | 3 | | | |
-| जानूं | jaan
+| जानूँ | jaanuuN | जानना | jaannaa | verb | m. | present | sg. | 1 | | | |
 </result>
 </query>
 <query>
@@ -1220,74 +1200,76 @@ Create a word table.
 <prompt>
 Create a word table.
 
-94 "हे मेरे भाई, प्रत्येक एक सच्चे शहर का नागरिक है; लेकिन तुम कहना चाहते हो
-96 कि वह इटली में एक विदेशी के रूप में रहती थी"।
+94 "हे मेरे भाई, प्रत्येक नागरिक है
+95 एक सच्चे शहर की; लेकिन तुम कहना चाहते हो
+96 कि वह इटली में एक तीर्थयात्री के रूप में रहती थी।
 </prompt>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | हे | he | हे | he | interjection | | | | | | | |
-| मेरे | mere | मेरा | meraa | possessive adjective | m. | nominative | sg. | 2 | | | |
-| भाई | bhaai | भाई | bhaai | noun | m. | nominative | sg. | 2 | | | |
-| प्रत्येक | pratyek | प्रत्येक | pratyek | adjective | | | | | | | |
-| एक | ek | एक | ek | numeral | | | | | | | |
-| सच्चे | sachche | सच्चा | sachchaa | adjective | m. | nominative | pl. | | | | |
-| शहर | shahar | शहर | shahar | noun | m. | nominative | sg. | | | | |
-| का | kaa | का | kaa | postposition | | | | | | | |
+| मेरे | mere | मेरा | meraa | possessive adjective | m. | vocative | sg. | 2 | | | |
+| भाई | bhaai | भाई | bhaai | noun | m. | vocative | sg. | 2 | | | |
+| प्रत्येक | pratyek | प्रत्येक | pratyek | adjective | m. | nominative | sg. | | | | |
 | नागरिक | naagrik | नागरिक | naagrik | noun | m. | nominative | sg. | | | | |
-| है | hai | होना | honaa | verb | | | | | 3 | present | |
+| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| एक | ek | एक | ek | numeral | m. | nominative | sg. | | | | |
+| सच्चे | sachche | सच्चा | sachchaa | adjective | m. | genitive | sg. | | | | |
+| शहर | shahar | शहर | shahar | noun | m. | genitive | sg. | | | | |
+| की | kii | का | kaa | postposition | | | | | | | |
 | लेकिन | lekin | लेकिन | lekin | conjunction | | | | | | | |
-| तुम | tum | तुम | tum | pronoun | | | | | 2 | | |
-| कहना | kahnaa | कहना | kahnaa | verb | | infinitive | | | 2 | | |
-| चाहते | chaahate | चाहना | chaahanaa | verb | | imperfect | pl. | 2 | | | |
-| हो | ho | होना | honaa | verb | | present | sg. | 3 | | subjunctive | |
+| तुम | tum | तुम | tum | pronoun | m. | nominative | pl. | 2 | | | |
+| कहना | kahnaa | कहना | kahnaa | verb | m. | infinitive | | | | | | | |
+| चाहते | chaahte | चाहना | chaahnaa | verb | m. | present | pl. | 2 | | | |
+| हो | ho | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
 | वह | vah | वह | vah | pronoun | f. | nominative | sg. | 3 | | | |
 | इटली | italii | इटली | italii | noun | f. | locative | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
-| एक | ek | एक | ek | numeral | | | | | | | |
-| विदेशी | videshii | विदेशी | videshii | adjective | m. | nominative | sg. | | | | |
+| एक | ek | एक | ek | numeral | f. | nominative | sg. | | | | |
+| तीर्थयात्री | teerthyaatrii | तीर्थयात्री | teerthyaatrii | noun | m. | instrumental | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
-| रूप | roop | रूप | roop | noun | m. | nominative | sg. | | | | |
+| रूप | roop | रूप | roop | noun | m. | instrumental | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
-| रहती | rahatee | रहना | rahanaa | verb | f. | imperfect | sg. | 3 | | | |
-| थी | thee | होना | honaa | verb | f. | past | sg. | 3 | | | |
+| रहती | rahtii | रहना | rahnaa | verb | f. | imperfect | sg. | 3 | | | |
 </result>
 </query>
 <query>
-<info>[Purgatorio Canto 13] 98/154</info>
+<info>[Purgatorio Canto 13] 97/154</info>
 <prompt>
 Create a word table.
 
-98 जहाँ मैं खड़ा था, वहाँ से थोड़ा आगे, मुझे यह उत्तर सुनने को मिला,
-99 जिससे मैंने खुद को और भी अधिक महसूस किया।
+97 मुझे लगा कि यह उत्तर सुन रहा हूँ
+98 जहाँ मैं खड़ा था उससे थोड़ा आगे,
+99 इसलिए मैंने खुद को और भी अधिक सुनाई दिया।
 </prompt>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| जहाँ | jahaan | जहां | jahaan | adverb | | | | | | | |
-| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| खड़ा | khadaa | खड़ा | khadaa | adjective | m. | nominative | sg. | 1 | | | |
-| था | thaa | होना | honaa | verb | m. | past | sg. | 1 | | | |
-| वहाँ | vahaan | वहां | vahaan | adverb | | | | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| थोड़ा | thodaa | थोड़ा | thodaa | adjective | m. | accusative | sg. | | | | |
-| आगे | aage | आगे | aage | adverb | | | | | | | |
 | मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
-| यह | yah | यह | yah | demonstrative pronoun | | | | | 3 | | |
+| लगा | lagaa | लगना | lagnaa | verb | m. | past | sg. | 1 | | | |
+| कि | ki | कि | ki | conjunction | | | | | | | |
+| यह | yah | यह | yah | demonstrative pronoun | m. | nominative | sg. | | | | |
 | उत्तर | uttar | उत्तर | uttar | noun | m. | accusative | sg. | | | | |
-| सुनने | sunne | सुनना | sunnaa | verb | | infinitive | | | 1 | | |
-| को | ko | को | ko | postposition | | | | | | | |
-| मिला | milaa | मिलना | milnaa | verb | m. | past | sg. | 1 | | | |
-| जिससे | jisase | जिससे | jisase | relative pronoun | | | | | 3 | | |
+| सुन | sun | सुनना | sunnaa | verb | m. | infinitive | | | | | | | |
+| रहा | rahaa | रहना | rahnaa | verb | m. | imperfect | sg. | 1 | | | |
+| हूँ | hooN | होना | honaa | verb | m. | present | sg. | 1 | | | |
+| जहाँ | jahaan | जहाँ | jahaan | adverb | | | | | | | |
+| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
+| खड़ा | khaDaa | खड़ा | khaDaa | adjective | m. | nominative | sg. | 1 | | | |
+| था | thaa | होना | honaa | verb | m. | past | sg. | 1 | | | |
+| उससे | usse | वह | vah | pronoun | m. | ablative | sg. | 3 | | | |
+| थोड़ा | thoDaa | थोड़ा | thoDaa | adjective | m. | accusative | sg. | | | | |
+| आगे | aage | आगे | aage | adverb | | | | | | | |
+| इसलिए | isliye | इसलिए | isliye | conjunction | | | | | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| खुद | khud | खुद | khud | pronoun | | | | | 1 | | reflexive |
+| खुद | khud | खुद | khud | pronoun | m. | accusative | sg. | 1 | | | |
 | को | ko | को | ko | postposition | | | | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | भी | bhii | भी | bhii | adverb | | | | | | | |
-| अधिक | adhik | अधिक | adhik | adjective | | | | | | | |
-| महसूस | mahsooss | महसूस | mahsooss | adjective | | | | | 1 | | |
-| किया | kiyaa | करना | karnaa | verb | m. | past | sg. | 1 | | | |
+| अधिक | adhik | अधिक | adhik | adjective | m. | accusative | sg. | | | | |
+| सुनाई | sunaaii | सुनाना | sunaanaa | verb | f. | past | sg. | 1 | | | |
+| दिया | diyaa | देना | denaa | verb | m. | past | sg. | 1 | | | |
 </result>
 </query>
 <query>
@@ -1302,39 +1284,38 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| दूसरों | doosaron | दूसरा | doosraa | adjective | m. | oblique | pl. | | | | |
+| दूसरों | doosron | दूसरा | doosraa | adjective | m. | genitive | pl. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | बीच | beech | बीच | beech | noun | m. | locative | sg. | | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| एक | ek | एक | ek | numeral | | | | | | | |
+| एक | ek | एक | ek | numeral | m. | accusative | sg. | | | | |
 | छाया | chaayaa | छाया | chaayaa | noun | f. | accusative | sg. | | | | |
-| देखी | dekhee | देखना | dekhnaa | verb | f. | past | sg. | 1 | | | |
-| जो | jo | जो | jo | relative pronoun | | | | | 3 | | |
-| प्रतीक्षा | prateekaa | प्रतीक्षा | prateekaa | noun | f. | nominative | sg. | | | | |
-| कर | kar | करना | karnaa | verb | | infinitive | | | | | |
-| रही | rahee | रहना | rahanaa | verb | f. | imperfect | sg. | 3 | | | |
-| थी | thee | होना | honaa | verb | f. | past | sg. | 3 | | | |
+| देखी | dekhii | देखना | dekhnaa | verb | f. | past | sg. | 1 | | | |
+| जो | jo | जो | jo | relative pronoun | m. | nominative | sg. | 3 | | | |
+| प्रतीक्षा | prateekshaa | प्रतीक्षा | prateekshaa | noun | f. | nominative | sg. | | | | |
+| कर | kar | करना | karnaa | verb | m. | infinitive | | | | | | | |
+| रही | rahii | रहना | rahnaa | verb | f. | imperfect | sg. | 3 | | | |
+| थी | thii | होना | honaa | verb | f. | past | sg. | 3 | | | |
 | दृष्टि | drishti | दृष्टि | drishti | noun | f. | locative | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | अगर | agar | अगर | agar | conjunction | | | | | | | |
-| कोई | koii | कोई | koii | indefinite pronoun | | | | | 3 | | |
-| यह | yah | यह | yah | demonstrative pronoun | | | | | 3 | | |
-| कहना | kahnaa | कहना | kahnaa | verb | | infinitive | | | 3 | | |
-| चाहे | chaahe | चाहना | chaahanaa | verb | | imperfect | sg. | 3 | | subjunctive | |
+| कोई | koi | कोई | koi | indefinite pronoun | m. | nominative | sg. | | | | |
+| यह | yah | यह | yah | demonstrative pronoun | m. | accusative | sg. | | | | |
+| कहना | kahnaa | कहना | kahnaa | verb | m. | infinitive | | | | | | | |
+| चाहे | chaahe | चाहना | chaahnaa | verb | m. | present | sg. | 3 | | | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
-| 'कैसे?' | 'kaise?' | 'कैसे?' | 'kaise?' | interrogative pronoun | | | | | | | |
+| कैसे | kaise | कैसे | kaise | interrogative pronoun | | | | | | | |
 | वह | vah | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
-| एक | ek | एक | ek | numeral | | | | | | | |
-| अंधे | andhe | अंधा | andhaa | adjective | m. | oblique | sg. | | | | |
+| एक | ek | एक | ek | numeral | m. | instrumental | sg. | | | | |
+| अंधे | andhe | अंधा | andhaa | noun | m. | instrumental | sg. | | | | |
 | की | kii | का | kaa | postposition | | | | | | | |
-| तरह | tarah | तरह | tarah | noun | f. | locative | sg. | | | | |
-| अपनी | apnii | अपना | apnaa | possessive adjective | f. | oblique | sg. | 3 | | | |
+| तरह | tarah | तरह | tarah | noun | f. | instrumental | sg. | | | | |
+| अपनी | apnii | अपना | apnaa | possessive adjective | f. | accusative | sg. | 3 | | | |
 | ठुड्डी | thuddii | ठुड्डी | thuddii | noun | f. | accusative | sg. | | | | |
 | ऊपर | oopar | ऊपर | oopar | adverb | | | | | | | |
 | उठा | uthaa | उठाना | uthaanaa | verb | m. | past | sg. | 3 | | | |
-| रहा | rahaa | रहना | rahanaa | verb | m. | imperfect | sg. | 3 | | | |
-| था | thaa | होना | honaa | verb | m. | past | sg. | 3 | | | |
+| रहा | rahaa | रहना | rahnaa | verb | m. | imperfect | sg. | 3 | | | |
 </result>
 </query>
 <query>
@@ -1349,34 +1330,33 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| "आत्मा" | "aatmaa" | आत्मा | aatmaa | noun | f. | nominative | sg. | | | | |
+| आत्मा | aatmaa | आत्मा | aatmaa | noun | f. | nominative | sg. | | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 1 | | | |
-| "जो | "jo | जो | jo | relative pronoun | | | | | 3 | | |
-| चढ़ने | charhne | चढ़ना | charhnaa | verb | | infinitive | | | | | |
+| जो | jo | जो | jo | relative pronoun | m. | nominative | sg. | 3 | | | |
+| चढ़ने | chaDhne | चढ़ना | chaDhanaa | verb | m. | infinitive | | | | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | लिए | liye | लिए | liye | postposition | | | | | | | |
-| खुद | khud | खुद | khud | pronoun | | | | | 1 | | reflexive |
+| खुद | khud | खुद | khud | pronoun | m. | accusative | sg. | 3 | | | |
 | को | ko | को | ko | postposition | | | | | | | |
 | वश | vash | वश | vash | noun | m. | accusative | sg. | | | | |
-| में | men | में | men | postposition | | | | | | | |
-| करती | karatee | करना | karnaa | verb | f. | imperfect | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
+| करती | kartii | करना | karnaa | verb | f. | present | sg. | 3 | | | |
+| है | hai | होना | honaa | verb | f. | present | sg. | 3 | | | |
 | यदि | yadi | यदि | yadi | conjunction | | | | | | | |
-| तुम | tum | तुम | tum | pronoun | | | | | 2 | | |
-| वही | vahii | वही | vahii | demonstrative pronoun | | | | | 3 | | |
-| हो | ho | होना | honaa | verb | | present | sg. | 2 | | | |
-| जिसने | jisne | जिसने | jisne | relative pronoun | | | | | 3 | | |
+| तुम | tum | तुम | tum | pronoun | m. | nominative | pl. | 2 | | | |
+| वही | vahii | वही | vahii | demonstrative pronoun | m. | nominative | sg. | | | | |
+| हो | ho | होना | honaa | verb | m. | present | sg. | 2 | | | |
+| जिसने | jisne | जो | jo | relative pronoun | m. | instrumental | sg. | 3 | | | |
 | मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
 | उत्तर | uttar | उत्तर | uttar | noun | m. | accusative | sg. | | | | |
-| दिया | diyaa | देना | denaa | verb | m. | past | sg. | 3 | | | |
+| दिया | diyaa | देना | denaa | verb | m. | past | sg. | 2 | | | |
 | मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
-| अपने | apne | अपना | apnaa | possessive adjective | m. | oblique | sg. | 1 | | | |
-| बारे | baare | बारे | baare | noun | m. | locative | sg. | | | | |
+| अपने | apne | अपना | apnaa | possessive adjective | m. | accusative | sg. | 1 | | | |
+| बारे | baare | बारे | baare | noun | m. | accusative | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
 | स्थान | sthaan | स्थान | sthaan | noun | m. | locative | sg. | | | | |
 | या | yaa | या | yaa | conjunction | | | | | | | |
-| नाम | naam | नाम | naam | noun | m. | locative | sg. | | | | |
+| नाम | naam | नाम | naam | noun | m. | instrumental | sg. | | | | |
 | से | se | से | se | postposition | | | | | | | |
 | बताओ | bataao | बताना | bataanaa | verb | m. | imperative | sg. | 2 | | | |
 </result>
@@ -1393,36 +1373,35 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| "मैं | "main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
+| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | सिएना | sienaa | सिएना | sienaa | noun | f. | nominative | sg. | | | | |
 | का | kaa | का | kaa | postposition | | | | | | | |
-| था" | thaa | होना | honaa | verb | m. | past | sg. | 1 | | | |
+| था | thaa | होना | honaa | verb | m. | past | sg. | 1 | | | |
 | उसने | usne | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
 | उत्तर | uttar | उत्तर | uttar | noun | m. | accusative | sg. | | | | |
 | दिया | diyaa | देना | denaa | verb | m. | past | sg. | 3 | | | |
-| "और | "aur | और | aur | conjunction | | | | | | | |
-| इनके | inke | यह | yah | pronoun | m. | oblique | pl. | 3 | | | |
-| साथ | saath | साथ | saath | noun | m. | locative | sg. | | | | |
-| अन्य | anya | अन्य | anya | adjective | m. | oblique | pl. | | | | |
+| और | aur | और | aur | conjunction | | | | | | | |
+| इनके | inke | यह | yah | possessive adjective | m. | genitive | pl. | 3 | | | |
+| साथ | saath | साथ | saath | noun | m. | instrumental | sg. | | | | |
+| अन्य | anya | अन्य | anya | adjective | m. | instrumental | pl. | | | | |
 | मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | यहाँ | yahaan | यहाँ | yahaan | adverb | | | | | | | |
-| दुष्ट | dushta | दुष्ट | dushta | adjective | m. | nominative | sg. | | | | |
+| दुष्ट | dushta | दुष्ट | dushta | adjective | m. | accusative | sg. | | | | |
 | जीवन | jeevan | जीवन | jeevan | noun | m. | accusative | sg. | | | | |
 | का | kaa | का | kaa | postposition | | | | | | | |
-| प्रायश्चित | praayashchitt | प्रायश्चित | praayashchitt | noun | m. | accusative | sg. | | | | |
-| कर | kar | करना | karnaa | verb | | infinitive | | | | | |
-| रहा | rahaa | रहना | rahanaa | verb | m. | imperfect | sg. | 1 | | | |
-| हूँ | hoon | होना | honaa | verb | m. | present | sg. | 1 | | | |
+| प्रायश्चित | praayashchit | प्रायश्चित | praayashchit | noun | m. | accusative | sg. | | | | |
+| कर | kar | करना | karnaa | verb | m. | infinitive | | | | | | | |
+| रहा | rahaa | रहना | rahnaa | verb | m. | imperfect | sg. | 1 | | | |
+| हूँ | hooN | होना | honaa | verb | m. | present | sg. | 1 | | | |
 | उससे | usse | वह | vah | pronoun | m. | ablative | sg. | 3 | | | |
 | आँसू | aansuu | आँसू | aansuu | noun | m. | accusative | pl. | | | | |
-| बहा | bahaa | बहाना | bahanaa | verb | m. | past | sg. | 1 | | | |
-| रहा | rahaa | रहना | rahanaa | verb | m. | imperfect | sg. | 1 | | | |
-| हूँ | hoon | होना | honaa | verb | m. | present | sg. | 1 | | | |
-| जो | jo | जो | jo | relative pronoun | | | | | 3 | | |
+| बहा | bahaa | बहाना | bahaanaa | verb | m. | past | sg. | 1 | | | |
+| रहा | rahaa | रहना | rahnaa | verb | m. | imperfect | sg. | 1 | | | |
+| हूँ | hooN | होना | honaa | verb | m. | present | sg. | 1 | | | |
+| जो | jo | जो | jo | relative pronoun | m. | nominative | sg. | 3 | | | |
 | इसे | ise | यह | yah | pronoun | m. | accusative | sg. | 3 | | | |
 | उधार | udhaar | उधार | udhaar | noun | m. | accusative | sg. | | | | |
-| लेता | leta | लेना | lenaa | verb | m. | imperfect | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
+| लेता | leta | लेना | lenaa | verb | m. | present | sg. | 3 | | | |
 </result>
 </query>
 <query>
@@ -1430,35 +1409,37 @@ Create a word table.
 <prompt>
 Create a word table.
 
-109 मैं बुद्धिमान नहीं थी, हालाँकि मुझे सपिया कहा जाता था, और मैं दूसरों के नुकसान से
-111 अपनी खुशी से कहीं अधिक खुश थी।
+109 मैं बुद्धिमान नहीं थी, हालाँकि मुझे सापिया कहा जाता था,
+110 और मैं दूसरों के नुकसान से खुश थी
+111 अपनी खुशकिस्मती से कहीं ज्यादा।
 </prompt>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
-|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|Svara |
 | मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | बुद्धिमान | buddhimaan | बुद्धिमान | buddhimaan | adjective | m. | nominative | sg. | | | | |
 | नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| थी | thee | होना | honaa | verb | f. | past | sg. | 1 | | | |
+| थी | thii | | honaa | verb | f. | past | sg. | 1 | | | |
 | हालाँकि | halaanki | हालाँकि | halaanki | conjunction | | | | | | | |
 | मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
-| सपिया | sapiyaa | सपिया | sapiyaa | noun | f. | nominative | sg. | | | | |
-| कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 3 | | | |
-| जाता | jaataa | जाना | jaanaa | verb | m. | imperfect | sg. | 3 | | | |
-| था | thaa | होना | honaa | verb | m. | past | sg. | 3 | | | |
+| सापिया | saapiaa | सापिया | saapiaa | noun | f. | nominative | sg. | | | | |
+| कहा | kahaa | | kahnaa | verb | m. | past | sg. | 3 | | | |
+| जाता | jaata | जाना | jaanaa | verb | m. | imperfect | sg. | 3 | | | |
+| था | thaa | | honaa | verb | m. | past | sg. | 3 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| दूसरों | doosaron | दूसरा | doosraa | adjective | m. | oblique | pl. | | | | |
+| दू | doo | दो | do | numeral | m. | nominative | pl. | | | | |
+| ओं | on | | | postposition | | | | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
-| नुकसान | nuksaan | नुकसान | nuksaan | noun | m. | ablative | sg. | | | | |
+| न | na | नहीं | nahin | adverb | | | | | | | |
+| सान | saan | सान | saan | noun | m. | accusative | sg. | | | | |
 | से | se | से | se | postposition | | | | | | | |
-| अपनी | apnii | अपना | apnaa | possessive adjective | f. | oblique | sg. | 1 | | | |
-| खुशी | khushii | खुशी | khushii | noun | f. | ablative | sg. | | | | |
+| खुश | khush | खुश | khush | adjective | m. | nominative | sg. | | | | |
+| थी | thii | | honaa | verb | f. | past | sg. | 1 | | | |
+| खुशकिस्मती | khushkismatii | खुशकिस्मती | khushkismatii | noun | f. | instrumental | sg. | | | | |
 | से | se | से | se | postposition | | | | | | | |
-| कहीं | kahii | कहीं | kahii | adverb | | | | | | | |
-| अधिक | adhik | अधिक | adhik | adjective | | | | | | | |
-| खुश | khush | खुश | khush | adjective | | | | | 1 | | |
-| थी | thee | होना | honaa | verb | f. | past | sg. | 1 | | | |
+| कहीं | kahiiN | कहीं | kahiiN | adverb | | | | | | | |
+| ज्यादा | jyadaa | ज्यादा | jyadaa | adjective | m. | nominative | sg. | | | | |
 </result>
 </query>
 <query>
@@ -1471,44 +1452,7 @@ Create a word table.
 114 पहले से ही अपने वर्षों के चाप से उतर रहा हूँ।
 </prompt>
 <result>
-| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
-|---|---|---|---|---|---|---|---|---|---|---|
-| और | aur | और | aur | conjunction | | | | | | | |
-| क्योंकि | kyonki | क्योंकि | kyonki | conjunction | | | | | | | |
-| तुम | tum | तुम | tum | pronoun | | | | | 2 | | |
-| यह | yah | यह | yah | demonstrative pronoun | | | | | 3 | | |
-| मत | mat | मत | mat | negative particle | | | | | | | |
-| सोचो | socho | सोचना | sochnaa | verb | | imperative | sg. | 2 | | | |
-| कि | ki | कि | ki | conjunction | | | | | | | |
-| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| तुम्हें | tumhe | तुम | tum | pronoun | m. | dative | sg. | 2 | | | |
-| धोखा | dhokhaa | धोखा | dhokhaa | noun | m. | accusative | sg. | | | | |
-| दे | de | देना | denaa | verb | | imperative | sg. | 2 | | | |
-| रहा | rahaa | रहना | rahanaa | verb | m. | imperfect | sg. | 1 | | | |
-| हूँ | hoon | होना | honaa | verb | m. | present | sg. | 1 | | | |
-| सुनो | suno | सुनना | sunnaa | verb | | imperative | sg. | 2 | | | |
-| कि | ki | कि | ki | conjunction | | | | | | | |
-| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| कैसा | kaisaa | कैसा | kaisaa | interrogative adjective | m. | nominative | sg. | | | | |
-| था | thaa | होना | honaa | verb | m. | past | sg. | 1 | | | |
-| जैसा | jaisaa | जैसा | jaisaa | relative pronoun | m. | nominative | sg. | | | | |
-| कि | ki | कि | ki | conjunction | | | | | | | |
-| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| तुमसे | tumse | तुम | tum | pronoun | m. | ablative | sg. | 2 | | | |
-| कहता | kahataa | कहना | kahnaa | verb | m. | imperfect | sg. | 1 | | | |
-| हूँ | hoon | होना | honaa | verb | m. | present | sg. | 1 | | | |
-| मूर्ख | moorakh | मूर्ख | moorakh | noun | m. | nominative | sg. | | | | |
-| पहले | pahale | पहले | pahale | adverb | | | | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| ही | hii | ही | hii | emphatic particle | | | | | | | |
-| अपने | apne | अपना | apnaa | possessive adjective | m. | oblique | sg. | 1 | | | |
-| वर्षों | varshon | वर्ष | varsh | noun | m. | oblique | pl. | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| चाप | chaap | चाप | chaap | noun | m. | ablative | sg. | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| उतर | utar | उतरना | utarnaa | verb | | infinitive | | | | | |
-| रहा | rahaa | रहना | rahanaa | verb | m. | imperfect | sg. | 1 | | | |
-| हूँ | hoon | होना | honaa | verb | m. | present | sg. | 1 | | | |
+1
 </result>
 </query>
 <query>
@@ -1523,30 +1467,29 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| मेरे | mere | मेरा | meraa | possessive adjective | m. | oblique | sg. | 1 | | | |
-| नागरिक | naagrik | नागरिक | naagrik | noun | m. | oblique | pl. | | | | |
-| कोले | kole | कोल | kol | noun | m. | oblique | pl. | | | | |
+| मेरे | mere | मेरा | meraa | possessive adjective | m. | nominative | sg. | 1 | | | |
+| नागरिक | naagarik | नागरिक | naagarik | noun | m. | nominative | pl. | | | | |
+| कोले | kole | कोल | kol | noun | m. | nominative | pl. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | पास | paas | पास | paas | noun | m. | locative | sg. | | | | |
 | थे | the | होना | honaa | verb | m. | past | pl. | 3 | | | |
-| अपने | apne | अपना | apnaa | possessive adjective | m. | oblique | pl. | 3 | | | |
-| विरोधियों | virodhiyon | विरोधी | virodhii | noun | m. | oblique | pl. | | | | |
+| अपने | apne | अपना | apnaa | possessive adjective | m. | nominative | pl. | 1 | | | |
+| विरोधियों | virodhiyon | विरोधी | virodhii | noun | m. | nominative | pl. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | साथ | saath | साथ | saath | noun | m. | locative | sg. | | | | |
 | मैदान | maidaan | मैदान | maidaan | noun | m. | locative | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
-| पहुँचे | pahunche | पहुँचना | pahunchanaa | verb | m. | past | pl. | 3 | | | |
+| पहुँचे | pahunche | पहुँचना | pahunchnaa | verb | m. | past | pl. | 3 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| ईश्वर | eeshvar | ईश्वर | eeshvar | noun | m. | ablative | sg. | | | | |
+| ईश्वर | eeshvar | ईश्वर | eeshvar | noun | m. | nominative | sg. | | | | |
 | से | se | से | se | postposition | | | | | | | |
 | प्रार्थना | prarthanaa | प्रार्थना | prarthanaa | noun | f. | accusative | sg. | | | | |
 | की | kii | करना | karnaa | verb | f. | past | sg. | 1 | | | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
 | वह | vah | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
-| क्या | kya | क्या | kya | interrogative pronoun | | | | | 3 | | |
-| चाहता | chaahataa | चाहना | chaahanaa | verb | m. | imperfect | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
+| क्या | kyaa | क्या | kyaa | interrogative pronoun | | | | | | | |
+| चाहता | chaahataa | चाहना | chaahnaa | verb | m. | present | sg. | 3 | | | |
 </result>
 </query>
 <query>
@@ -1563,25 +1506,25 @@ Create a word table.
 |---|---|---|---|---|---|---|---|---|---|---|
 | यहाँ | yahaan | यहाँ | yahaan | adverb | | | | | | | |
 | वे | ve | वह | vah | pronoun | m. | nominative | pl. | 3 | | | |
-| टूट | toot | टूटना | tootnaa | verb | | infinitive | | | 3 | | |
+| टूट | toot | टूटना | tootnaa | verb | m. | past | pl. | 3 | | | |
 | गए | gaye | जाना | jaanaa | verb | m. | past | pl. | 3 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
-| भागने | bhaagne | भागना | bhaagnaa | verb | | infinitive | | | 3 | | |
+| भागने | bhaagne | भागना | bhaagnaa | verb | m. | infinitive | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
-| कड़वे | kadve | कड़वा | kadvaa | adjective | m. | oblique | pl. | | | | |
-| कदमों | kadmon | कदम | kadam | noun | m. | oblique | pl. | | | | |
+| कड़वे | kadve | कड़वा | kadvaa | adjective | m. | nominative | pl. | | | | |
+| कदमों | kadmon | कदम | kadam | noun | m. | nominative | pl. | | | | |
 | में | men | में | men | postposition | | | | | | | |
-| बदल | badal | बदलना | badalnaa | verb | | infinitive | | | 3 | | |
+| बदल | badal | बदलना | badalnaa | verb | m. | past | pl. | 3 | | | |
 | गए | gaye | जाना | jaanaa | verb | m. | past | pl. | 3 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | शिकार | shikaar | शिकार | shikaar | noun | m. | accusative | sg. | | | | |
 | को | ko | को | ko | postposition | | | | | | | |
-| देखकर | dekhkar | देखना | dekhnaa | verb | | participle | | | 1 | | |
+| देखकर | dekhkar | देखना | dekhnaa | verb | m. | conditional | sg. | 1 | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| अन्य | anya | अन्य | anya | adjective | m. | oblique | pl. | | | | |
-| सभी | sabhii | सभी | sabhii | adjective | m. | oblique | pl. | | | | |
+| अन्य | anya | अन्य | anya | adjective | m. | accusative | pl. | | | | |
+| सभी | sabhee | सभी | sabhee | pronoun | m. | accusative | pl. | 3 | | | |
 | से | se | से | se | postposition | | | | | | | |
-| अलग | alag | अलग | alag | adjective | | | | | | | |
+| अलग | alag | अलग | alag | adjective | m. | accusative | sg. | | | | |
 | खुशी | khushii | खुशी | khushii | noun | f. | accusative | sg. | | | | |
 | ली | lii | लेना | lenaa | verb | f. | past | sg. | 1 | | | |
 </result>
@@ -1596,36 +1539,34 @@ Create a word table.
 123 जैसे थोड़ी सी शांति के लिए मर्लो ने किया।
 </prompt>
 <result>
-| Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
-|---|---|---|---|---|---|---|---|---|---|---|
-| इतना | itnaa | इतना | itnaa | adverb | | | | | | | |
-| कि | ki | कि | ki | conjunction | | | | | | | |
-| मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| अपना | apnaa | अपना | apnaa | possessive adjective | m. | accusative | sg. | 1 | | | |
-| साहसी | saahasee | साहसी | saahasee | adjective | m. | accusative | sg. | | | | |
-| चेहरा | chehraa | चेहरा | chehraa | noun | m. | accusative | sg. | | | | |
-| ऊपर | oopar | ऊपर | oopar | adverb | | | | | | | |
-| कर | kar | करना | karnaa | verb | | infinitive | | | 1 | | |
-| लिया | liyaa | लेना | lenaa | verb | m. | past | sg. | 1 | | | |
-| भगवान | bhagwaan | भगवान | bhagwaan | noun | m. | ablative | sg. | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| चिल्लाते | chillaate | चिल्लाना | chillanaa | verb | m. | imperfect | pl. | 1 | | | |
-| हुए | hue | होना | honaa | verb | m. | past | pl. | 1 | | | |
-| "अब | "ab | अब | ab | adverb | | | | | | | |
-| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| तुमसे | tumse | तुम | tum | pronoun | m. | ablative | sg. | 2 | | | |
-| नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| डरता | darataa | डरना | daranaa | verb | m. | imperfect | sg. | 1 | | | |
-| " | " | " | " | punctuation | | | | | | | |
-| जैसे | jaise | जैसे | jaise | conjunction | | | | | | | |
-| थोड़ी | thodii | थोड़ा | thodaa | adjective | f. | nominative | sg. | | | | |
-| सी | sii | सा | saa | emphatic particle | | | | | | | |
-| शांति | shaantii | शांति | shaantii | noun | f. | locative | sg. | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| लिए | liye | लिए | liye | postposition | | | | | | | |
-| मर्लो | marlo | मर्लो | marlo | noun | m. | nominative | sg. | | | | |
-| ने | ne | ने | ne | case marker | | | | | 3 | | |
-| किया | kiyaa | करना | karnaa | verb | m. | past | sg. | 3 | | | |
+| Word | Roman (Word) |Svara (Svara) | Roman (Svara) | Part of Speech | Vibhakti (Case) | Vachan (Number) | Purush (Person) | Kaal (Tense) | Artha (Meaning) | Note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| इतना | itnaa | इतना | itnaa | pronoun | | | | | | this much | |
+| कि | ki | कि | ki | conjunction | | | | | | that | |
+| मैंने | maine | मैंने | maine | pronoun | pratham purush (first person) | uttam purush (first person) | | bhutakal (past tense) | I | |
+| अपना | apnaa | अपना | apnaa | pronoun | | | | | | my own | |
+| ساہسی | saahasi | ساہسی | saahasi | noun | | | | | | bravery | |
+| चेहरा | chehraa | चेहरा | chehraa | noun | | | | | | face | |
+| उठा | uthaa | उठा | uthaa | | | | | | | picked up | |
+| लिया | liyaa | लिया | liyaa | | | | | | | took | |
+| भगवान | bhagwaan | भगवान | bhagwaan | noun | | | | | | God | |
+| से | se | से | se | postposition | | | | | | from | |
+| चैलेंज | chailenj | चैलेंज | chailenj | noun | | | | | | challenge | |
+| करते | karte | करते | karte | | | | | | | doing | |
+| "अब | "ab | "अब | "ab | | | | | | | now | |
+| तुम | tum | तुम | tum | pronoun | | | | | | you | |
+| से | se | से | se | postposition | | | | | | from | |
+| न | na | न | na | | | | | | | not | |
+| ڈرتا | dartaa | ڈرتا | dartaa | | | | | | | afraid | |
+| हुँ | hooँ | हुँ | hooँ | | | | | | | am | |
+| जैसे | jaise | जैसे | jaise | | | | | | | as | |
+| शोढ़ी | shodhi | शोढ़ी | shodhi | | | | | | | | |
+| शंक्ती | shakti | शंक्ती | shakti | | | | | | | power | |
+| के | ke | के | ke | | | | | | | of | |
+| लिये | liye | लिये | liye | | | | | | | for | |
+| मरों | maron | मरों | maron | | | | | | | I will die | |
+| न | na | न | na | | | | | | | not | |
+| ए | ae | ए | ae | | | | | | | O | |
 </result>
 </query>
 <query>
@@ -1633,36 +1574,38 @@ Create a word table.
 <prompt>
 Create a word table.
 
-124 मैं अपने जीवन के अंत में ईश्वर के साथ शांति चाहता था; और अभी भी नहीं होगा
-126 पश्चाताप के लिए मेरा कर्तव्य कम है,
+124 मैंने अंत में भगवान के साथ शांति चाही
+125 अपने जीवन के अंत में; और फिर भी यह नहीं होगा
+126 मेरा कर्तव्य तपस्या से कम नहीं होगा,
 </prompt>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
-| अपने | apne | अपना | apnaa | possessive adjective | m. | accusative | sg. | 1 | | | |
-| जीवन | jeevan | जीवन | jeevan | noun | m. | accusative | sg. | | | | |
+| मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
+| अंत | ant | अंत | ant | noun | m. | accusative | sg. | | | | |
+| में | men | में | men | postposition | | | | | | | |
+| भगवान | bhagavaan | भगवान | bhagavaan | noun | m. | nominative | sg. | | | | |
+| के | ke | का | kaa | postposition | | | | | | | |
+| साथ | saath | साथ | saath | noun | m. | locative | sg. | | | | |
+| शांति | shaanti | शांति | shaanti | noun | f. | accusative | sg. | | | | |
+| चाही | chaahii | चाहना | chaahnaa | verb | f. | past | sg. | 1 | | | |
+| अपने | apne | अपना | apnaa | possessive adjective | m. | nominative | sg. | 1 | | | |
+| जीवन | jeevan | जीवन | jeevan | noun | m. | nominative | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | अंत | ant | अंत | ant | noun | m. | locative | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
-| ईश्वर | eeshvar | ईश्वर | eeshvar | noun | m. | instrumental | sg. | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| साथ | saath | साथ | saath | noun | m. | instrumental | sg. | | | | |
-| शांति | shaanti | शांति | shaanti | noun | f. | accusative | sg. | | | | |
-| चाहता | chaahataa | चाहना | chaahanaa | verb | m. | imperfect | sg. | 1 | | | |
-| था | thaa | होना | honaa | verb | m. | past | sg. | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
-| अभी | abhii | अभी | abhii | adverb | | | | | | | |
+| फिर | phir | फिर | phir | adverb | | | | | | | |
 | भी | bhii | भी | bhii | particle | | | | | | | |
+| यह | yah | यह | yah | pronoun | m. | nominative | sg. | 3 | | | |
 | नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| होगा | hogaa | होना | honaa | verb | m. | future | sg. | | | | |
-| पश्चाताप | pashchaataap | पश्चाताप | pashchaataap | noun | m. | nominative | sg. | | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| लिए | liye | लिए | liye | postposition | | | | | | | |
+| होगा | hogaa | होना | honaa | verb | m. | future | sg. | 3 | | | |
 | मेरा | meraa | मेरा | meraa | possessive adjective | m. | nominative | sg. | 1 | | | |
 | कर्तव्य | kartavya | कर्तव्य | kartavya | noun | m. | nominative | sg. | | | | |
+| तपस्या | tapasyaa | तपस्या | tapasyaa | noun | f. | ablative | sg. | | | | |
+| से | se | से | se | postposition | | | | | | | |
 | कम | kam | कम | kam | adjective | m. | nominative | sg. | | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
 </result>
 </query>
 <query>
@@ -1670,32 +1613,34 @@ Create a word table.
 <prompt>
 Create a word table.
 
-127 यदि ऐसा नहीं होता, तो पियर पेटिनायो ने मुझे अपनी पवित्र प्रार्थनाओं में याद रखा,
-129 जिसे मुझ पर दया आई।
+127 अगर यह न होता कि पियर पेटिनायो ने मुझे याद किया
+128 अपनी पवित्र प्रार्थनाओं में,
+129 जिसे मुझ पर दया आ गई।
 </prompt>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| यदि | yadi | यदि | yadi | conjunction | | | | | | | |
-| ऐसा | aisaa | ऐसा | aisaa | adjective | m. | nominative | sg. | | | | |
-| नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
-| होता | hotaa | होना | honaa | verb | m. | imperfect | sg. | | | | |
-| तो | to | तो | to | conjunction | | | | | | | |
-| पियर | piyar | पियर | piyar | noun | m. | nominative | sg. | | | | |
+| अगर | agar | अगर | agar | conjunction | | | | | | | |
+| यह | yah | यह | yah | pronoun | m. | nominative | sg. | 3 | | | |
+| न | na | नहीं | nahin | adverb | | | | | | | |
+| होता | hotaa | होना | honaa | verb | m. | imperfect | sg. | 3 | | | |
+| कि | ki | कि | ki | conjunction | | | | | | | |
+| पियर | pier | पियर | pier | noun | m. | nominative | sg. | | | | |
 | पेटिनायो | petinaayo | पेटिनायो | petinaayo | noun | m. | nominative | sg. | | | | |
 | ने | ne | ने | ne | postposition | | | | | | | |
 | मुझे | mujhe | मैं | main | pronoun | m. | accusative | sg. | 1 | | | |
-| अपनी | apnii | अपना | apnaa | possessive adjective | f. | accusative | sg. | 1 | | | |
-| पवित्र | pavitr | पवित्र | pavitr | adjective | m. | accusative | pl. | | | | |
-| प्रार्थनाओं | prarthanaaon | प्रार्थना | prarthanaa | noun | f. | accusative | pl. | | | | |
-| में | men | में | men | postposition | | | | | | | |
 | याद | yaad | याद | yaad | noun | f. | accusative | sg. | | | | |
-| रखा | rakhaa | रखना | rakhnaa | verb | m. | past | sg. | 3 | | | |
+| किया | kiyaa | करना | karnaa | verb | m. | past | sg. | 3 | | | |
+| अपनी | apnii | अपना | apnaa | possessive adjective | f. | nominative | pl. | 1 | | | |
+| पवित्र | pavitr | पवित्र | pavitr | adjective | m. | nominative | pl. | | | | |
+| प्रार्थनाओं | prarthanaaon | प्रार्थना | prarthanaa | noun | f. | nominative | pl. | | | | |
+| में | men | में | men | postposition | | | | | | | |
 | जिसे | jise | जो | jo | relative pronoun | m. | accusative | sg. | 3 | | | |
 | मुझ | mujh | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
 | पर | par | पर | par | postposition | | | | | | | |
 | दया | daya | दया | daya | noun | f. | nominative | sg. | | | | |
-| आई | aayii | आना | aanaa | verb | f. | past | sg. | 3 | | | |
+| आ | aa | आना | aanaa | verb | f. | past | sg. | 3 | | | |
+| गई | gayii | जाना | jaanaa | verb | f. | past | sg. | 3 | | | |
 </result>
 </query>
 <query>
@@ -1703,23 +1648,24 @@ Create a word table.
 <prompt>
 Create a word table.
 
-130 लेकिन तुम कौन हो, जो हमारी स्थितियों के बारे में पूछ रहे हो, और अपनी आँखें खुली रखते हो,
-132 जैसा कि मुझे विश्वास है, और साँस लेते हुए बातें करते हो?"।
+130 लेकिन तुम कौन हो, जो हमारी स्थितियों
+131 के बारे में पूछ रहे हो, और अपनी आँखें खुली रखते हो,
+132 जैसा कि मुझे विश्वास है, और साँस लेते हुए बात कर रहे हो?"
 </prompt>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | लेकिन | lekin | लेकिन | lekin | conjunction | | | | | | | |
-| तुम | tum | तुम | tum | pronoun | m. | nominative | pl. | 2 | | | |
-| कौन | kaun | कौन | kaun | interrogative pronoun | m. | nominative | sg. | | | | |
+| तुम | tum | तुम | tum | pronoun | | | | | | | |
+| कौन | kaun | कौन | kaun | interrogative pronoun | | | | | | | |
 | हो | ho | होना | honaa | verb | m. | present | sg. | 2 | | | |
-| जो | jo | जो | jo | relative pronoun | m. | nominative | pl. | 3 | | | |
-| हमारी | hamaarii | हमारा | hamaaraa | possessive adjective | f. | genitive | pl. | 1 | | | |
-| स्थितियों | sthitiyon | स्थिति | sthiti | noun | f. | genitive | pl. | | | | |
+| जो | jo | जो | jo | relative pronoun | | | | | | | |
+| हमारी | hamaarii | हमारा | hamaaraa | possessive adjective | f. | nominative | pl. | 1 | | | |
+| स्थितियों | sthitiyon | स्थिति | sthiti | noun | f. | nominative | pl. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | बारे | baare | बारे | baare | noun | m. | accusative | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
-| पूछ | puuchh | पूछना | puuchhnaa | verb | m. | present | sg. | 2 | imperative | | |
+| पूछ | poochh | पूछना | poochhnaa | verb | m. | present | sg. | 2 | | | |
 | रहे | rahe | रहना | rahnaa | verb | m. | present | pl. | 2 | | | |
 | हो | ho | होना | honaa | verb | m. | present | sg. | 2 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
@@ -1729,7 +1675,6 @@ Create a word table.
 | रखते | rakhte | रखना | rakhnaa | verb | m. | present | pl. | 2 | | | |
 | हो | ho | होना | honaa | verb | m. | present | sg. | 2 | | | |
 | जैसा | jaisaa | जैसा | jaisaa | conjunction | | | | | | | |
-| कि | ki | कि | ki | conjunction | | | | | | | |
 | मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
 | विश्वास | vishvaas | विश्वास | vishvaas | noun | m. | nominative | sg. | | | | |
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
@@ -1737,8 +1682,9 @@ Create a word table.
 | साँस | saans | साँस | saans | noun | f. | instrumental | sg. | | | | |
 | लेते | lete | लेना | lenaa | verb | m. | present | pl. | 2 | | | |
 | हुए | hue | होना | honaa | verb | m. | past | pl. | 2 | | | |
-| बातें | baaten | बात | baat | noun | f. | accusative | pl. | | | | |
-| करते | karte | करना | karnaa | verb | m. | present | pl. | 2 | | | |
+| बात | baat | बात | baat | noun | f. | accusative | sg. | | | | |
+| कर | kar | करना | karnaa | verb | m. | present | sg. | 2 | | | |
+| रहे | rahe | रहना | rahnaa | verb | m. | present | pl. | 2 | | | |
 | हो | ho | होना | honaa | verb | m. | present | sg. | 2 | | | |
 </result>
 </query>
@@ -1747,8 +1693,9 @@ Create a word table.
 <prompt>
 Create a word table.
 
-133 "आँखें", मैंने कहा, "यहाँ से भी मुझसे छीन ली जाएँगी,
-134 लेकिन थोड़े समय के लिए, क्योंकि ईर्ष्या से भरे होने के कारण किया गया अपराध कम है।
+133 "आँखें", मैंने कहा, "यहाँ भी मुझसे छीन ली जाएँगी,
+134 लेकिन थोड़े समय के लिए, क्योंकि अपराध छोटा है
+135 ईर्ष्या से भरे होने के कारण।
 </prompt>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
@@ -1756,44 +1703,67 @@ Create a word table.
 | "आँखें" | "aankhen" | आँख | aankh | noun | f. | nominative | pl. | | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 1 | | | |
-| "यहाँ" | "yahaan" | यहाँ | yahaan | adverb | | | | | | | |
-| से | se | से | se | postposition | | | | | | | |
+| "यहाँ | "yahaan | यहाँ | yahaan | adverb | | | | | | | |
 | भी | bhii | भी | bhii | particle | | | | | | | |
 | मुझसे | mujhse | मैं | main | pronoun | m. | ablative | sg. | 1 | | | |
-| छीन | cheen | छीनना | cheennaa | verb | m. | future | sg. | 3 | passive | | |
-| ली | lii | लेना | lenaa | verb | f. | past | sg. | 3 | passive | | |
+| छीन | cheen | छीनना | cheennaa | verb | m. | future | sg. | 3 | | | |
+| ली | lii | लेना | lenaa | verb | f. | past | sg. | 3 | | | |
 | जाएँगी | jaaengee | जाना | jaanaa | verb | f. | future | pl. | 3 | | | |
 | लेकिन | lekin | लेकिन | lekin | conjunction | | | | | | | |
-| थोड़े | thode | थोड़ा | thodaa | adjective | m. | genitive | pl. | | | | |
-| समय | samay | समय | samay | noun | m. | genitive | sg. | | | | |
+| थोड़े | thode | थोड़ा | thodaa | adjective | m. | nominative | pl. | | | | |
+| समय | samay | समय | samay | noun | m. | nominative | sg. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | लिए | liye | लिए | liye | postposition | | | | | | | |
 | क्योंकि | kyonki | क्योंकि | kyonki | conjunction | | | | | | | |
-| ईर्ष्या | irsha | ईर्ष्या | irsha | noun | f. | instrumental | sg. | | | | |
-| से | se | से | se | postposition | | | | | | | |
-| भरे | bhare | भरा | bharaa | adjective | m. | instrumental | pl. | | | | |
-| होने | hone | होना | honaa | verb | m. | present | sg. | 3 | | | |
-| के | ke | का | kaa | postposition | | | | | | | |
-| कारण | kaaran | कारण | kaaran | noun | m. | instrumental | sg. | | | | |
-| किया | kiyaa | करना | karnaa | verb | m. | past | sg. | | | | |
-| गया | gayaa | जाना | jaanaa | verb | m. | past | sg. | | | | |
 | अपराध | apraadh | अपराध | apraadh | noun | m. | nominative | sg. | | | | |
-| कम | kam | कम | kam | adjective | m. | nominative | sg. | | | | |
+| छोटा | chhotaa | छोटा | chhotaa | adjective | m. | nominative | sg. | | | | |
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| ईर्ष्या | eershyaa | ईर्ष्या | eershyaa | noun | f. | instrumental | sg. | | | | |
+| से | se | से | se | postposition | | | | | | | |
+| भरे | bhare | भरना | bharnaa | verb | m. | past | pl. | | | | |
+| होने | hone | होना | honaa | verb | m. | infinitive | sg. | | | | |
+| के | ke | का | kaa | postposition | | | | | | | |
+| कारण | kaaran | कारण | kaaran | noun | m. | nominative | sg. | | | | |
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 13] 136/154</info>
-<prompt retry="true">
+<prompt>
 Create a word table.
 
-136 मेरी आत्मा नीचे की पीड़ा से अधिक भयभीत है,
-138 कि वहाँ का भार पहले से ही मुझ पर भारी पड़ रहा है"।
+136 बहुत अधिक भय है जिससे मेरी आत्मा लटक रही है
+137 नीचे की पीड़ा से,
+138 कि पहले से ही वहाँ का भार मुझ पर भारी पड़ रहा है।
 </prompt>
-<error>
-index: 0
-finish_reason: OTHER
-</error>
+<result>
+| Word | Roman (Word) | ा | Roman (ा) | Part of Speech | Vibhakti (Case) | Vachan (Number) | Purush (Person) | Kaal (Tense) | Artha (Meaning) | Note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| बहुत | bahut | बहुत | bahut | adjective | | | | | many | |
+| सा | sa | सा | sa | postposition | | | | | with | |
+| भय | bhay | भय | bhay | noun | | | | | fear | |
+| है | hai | है | hai | verb | | | | | is | |
+| जिस | jis | जिस | jis | relative pronoun | | | | | which | |
+| सा | sa | सा | sa | postposition | | | | | with | |
+| आ | aa | आ | aa | verb | | | | | come | |
+| सा | sa | सा | sa | postposition | | | | | with | |
+| लटक | latak | लटक | latak | verb | | | | | hang | |
+| रही | rahi | रहना | rahnaa | verb | | | | | is hanging | |
+| है | hai | है | hai | verb | | | | | is | |
+| नीचे | neeche | नीचे | neeche | adverb | | | | | below | |
+| की | kee | की | kee | postposition | | | | | of | |
+| पीड़ा | peedaa | पीड़ा | peedaa | noun | | | | | pain | |
+| से | se | से | se | postposition | | | | | from | |
+| कि | ki | कि | ki | conjunction | | | | | that | |
+| पहले | pahle | पहले | pahle | adverb | | | | | before | |
+| से | se | से | se | postposition | | | | | from | |
+| वहाँ | vahaan | वहाँ | vahaan | adverb | | | | | there | |
+| का | kaa | का | kaa | postposition | | | | | of | |
+| भार | bhaar | भार | bhaar | noun | | | | | weight | |
+| सा | sa | सा | sa | postposition | | | | | with | |
+| भा | bha | भा | bha | verb | | | | | become | |
+| रहा | raha | रहना | rahnaa | verb | | | | | is becoming | |
+| है | hai | है | hai | verb | | | | | is | |
+</result>
 </query>
 <query>
 <info>[Purgatorio Canto 13] 139/154</info>
@@ -1811,32 +1781,33 @@ Create a word table.
 | उसने | usne | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
 | मुझसे | mujhse | मैं | main | pronoun | m. | ablative | sg. | 1 | | | |
 | कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 3 | | | |
-| फिर | phir | फिर | phir | adverb | | | | | | | |
-| तुम्हें | tumhen | तुम | tum | pronoun | m. | accusative | sg. | 2 | | | |
-| यहाँ | yahaan | यहां | yahaan | adverb | | | | | | | |
+| "फिर | "phir | फिर | phir | adverb | | | | | | | |
+| तुम्हें | tumhe | तुम | tum | pronoun | | | | | | | |
+| यहाँ | yahaan | यहाँ | yahaan | adverb | | | | | | | |
 | हमारे | hamaare | हमारा | hamaaraa | possessive adjective | m. | nominative | pl. | 1 | | | |
 | बीच | beech | बीच | beech | noun | m. | locative | sg. | | | | |
-| कौन | kaun | कौन | kaun | interrogative pronoun | m. | nominative | sg. | | | | |
+| कौन | kaun | कौन | kaun | interrogative pronoun | | | | | | | |
 | लाया | laayaa | लाना | laanaa | verb | m. | past | sg. | 3 | | | |
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | यदि | yadi | यदि | yadi | conjunction | | | | | | | |
-| तुम | tum | तुम | tum | pronoun | m. | nominative | sg. | 2 | | | |
+| तुम | tum | तुम | tum | pronoun | | | | | | | |
 | वापस | vaapas | वापस | vaapas | adverb | | | | | | | |
-| लौटने | lautne | लौटना | lautnaa | verb | m. | infinitive | | | | | | |
+| लौटने | lautne | लौटना | lautnaa | verb | m. | infinitive | sg. | | | | |
 | का | kaa | का | kaa | postposition | | | | | | | |
 | विश्वास | vishvaas | विश्वास | vishvaas | noun | m. | nominative | sg. | | | | |
 | करते | karte | करना | karnaa | verb | m. | present | pl. | 2 | | | |
 | हो | ho | होना | honaa | verb | m. | present | sg. | 2 | | | |
+| "। | " | | | punctuation | | | | | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | मैंने | maine | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | कहा | kahaa | कहना | kahnaa | verb | m. | past | sg. | 1 | | | |
-| वह | vah | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
-| जो | jo | जो | jo | relative pronoun | m. | nominative | sg. | 3 | | | |
+| "वह | "vah | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
+| जो | jo | जो | jo | relative pronoun | | | | | | | |
 | मेरे | mere | मेरा | meraa | possessive adjective | m. | nominative | sg. | 1 | | | |
-| साथ | saath | साथ | saath | noun | m. | comitative | sg. | | | | |
+| साथ | saath | साथ | saath | noun | m. | locative | sg. | | | | |
 | है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
-| कुछ | kuchh | कुछ | kuchh | pronoun | m. | accusative | sg. | | | | |
+| कुछ | kuchh | कुछ | kuchh | pronoun | | | | | | | |
 | नहीं | nahin | नहीं | nahin | adverb | | | | | | | |
 | कहता | kahtaa | कहना | kahnaa | verb | m. | present | sg. | 3 | | | |
 </result>
@@ -1847,7 +1818,8 @@ Create a word table.
 Create a word table.
 
 142 और मैं जीवित हूँ; और इसलिए तुम मुझसे पूछते हो,
-143 चुनी हुई आत्मा, यदि तुम चाहते हो कि मैं वहाँ से तुम्हारे लिए नश्वर पैर भी हिलाऊँ"।
+143 चुने हुए आत्मा, यदि तुम चाहते हो कि मैं वहाँ से
+144 तुम्हारे लिए फिर से नश्वर कदम बढ़ाऊँ।
 </prompt>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
@@ -1855,16 +1827,16 @@ Create a word table.
 | और | aur | और | aur | conjunction | | | | | | | |
 | मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | जीवित | jeevit | जीवित | jeevit | adjective | m. | nominative | sg. | | | | |
-| हूँ | hoon | होना | honaa | verb | m. | present | sg. | 1 | | | |
+| हूँ | hooN | होना | honaa | verb | m. | present | sg. | 1 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | इसलिए | isliye | इसलिए | isliye | adverb | | | | | | | |
 | तुम | tum | तुम | tum | pronoun | m. | nominative | pl. | 2 | | | |
 | मुझसे | mujhse | मैं | main | pronoun | m. | ablative | sg. | 1 | | | |
 | पूछते | puuchhte | पूछना | puuchhnaa | verb | m. | present | pl. | 2 | | | |
 | हो | ho | होना | honaa | verb | m. | present | sg. | 2 | | | |
-| चुनी | chunii | चुनना | chunnaa | verb | f. | past | sg. | | | | |
-| हुई | huee | होना | honaa | verb | f. | past | sg. | | | | |
-| आत्मा | aatmaa | आत्मा | aatmaa | noun | f. | nominative | sg. | | | | |
+| चुने | chune | चुनना | chunnaa | verb | m. | past | pl. | | | | |
+| हुए | hue | होना | honaa | verb | m. | past | pl. | | | | |
+| आत्मा | aatmaa | आत्मा | aatmaa | noun | f. | nominative | pl. | | | | |
 | यदि | yadi | यदि | yadi | conjunction | | | | | | | |
 | तुम | tum | तुम | tum | pronoun | m. | nominative | pl. | 2 | | | |
 | चाहते | chaahte | चाहना | chaahnaa | verb | m. | present | pl. | 2 | | | |
@@ -1875,10 +1847,11 @@ Create a word table.
 | से | se | से | se | postposition | | | | | | | |
 | तुम्हारे | tumhaare | तुम्हारा | tumhaaraa | possessive adjective | m. | genitive | pl. | 2 | | | |
 | लिए | liye | लिए | liye | postposition | | | | | | | |
-| नश्वर | nashvar | नश्वर | nashvar | adjective | m. | accusative | pl. | | | | |
-| पैर | pair | पैर | pair | noun | m. | accusative | pl. | | | | |
-| भी | bhee | भी | bhee | particle | | | | | | | |
-| हिलाऊँ | hilaaun | हिलाना | hilaanaa | verb | m. | future | sg. | 1 | | | |
+| फिर | phir | फिर | phir | adverb | | | | | | | |
+| से | se | से | se | postposition | | | | | | | |
+| नश्वर | nashvar | नश्वर | nashvar | adjective | m. | accusative | sg. | | | | |
+| कदम | kadam | कदम | kadam | noun | m. | accusative | sg. | | | | |
+| बढ़ाऊँ | badhaauN | बढ़ाना | badhaanaa | verb | m. | future | sg. | 1 | | | |
 </result>
 </query>
 <query>
@@ -1894,84 +1867,88 @@ Create a word table.
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | ओह | oh | ओह | oh | interjection | | | | | | | |
-| यह | yah | यह | yah | demonstrative pronoun | m. | nominative | sg. | | | | |
-| सुनने | sunne | सुनना | sunnaa | verb | m. | infinitive | | | | | |
+| यह | yah | यह | yah | demonstrative pronoun | | | | | | | |
+| सुनने | sunne | सुनना | sunnaa | verb | | infinitive | | | | | |
 | में | men | में | men | postposition | | | | | | | |
 | बहुत | bahut | बहुत | bahut | adverb | | | | | | | |
 | नई | naee | नया | naayaa | adjective | f. | nominative | sg. | | | | |
 | बात | baat | बात | baat | noun | f. | nominative | sg. | | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
 | उसने | usne | वह | vah | pronoun | m. | nominative | sg. | 3 | | | |
 | उत्तर | uttar | उत्तर | uttar | noun | m. | accusative | sg. | | | | |
 | दिया | diyaa | देना | denaa | verb | m. | past | sg. | 3 | | | |
-| यह | yah | यह | yah | demonstrative pronoun | m. | nominative | sg. | | | | |
-| एक | ek | एक | ek | numeral | m. | nominative | sg. | | | | |
+| यह | yah | यह | yah | demonstrative pronoun | | | | | | | |
+| एक | ek | एक | ek | numeral | | | | | | | |
 | महान | mahaan | महान | mahaan | adjective | m. | nominative | sg. | | | | |
 | संकेत | sanket | संकेत | sanket | noun | m. | nominative | sg. | | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
 | ईश्वर | eeshvar | ईश्वर | eeshvar | noun | m. | nominative | sg. | | | | |
-| तुमसे | tumse | तुम | tum | pronoun | m. | ablative | sg. | 2 | | | |
+| तुमसे | tumse | तुम | tum | pronoun | m. | ablative | pl. | 2 | | | |
 | प्यार | pyaar | प्यार | pyaar | noun | m. | nominative | sg. | | | | |
-| करता | kartaa | करना | karnaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| करता | karta | करना | karnaa | verb | m. | present | sg. | 3 | | | |
+| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
 | इसलिए | isliye | इसलिए | isliye | adverb | | | | | | | |
-| कभी-कभी | kabhi-kabhi | कभी-कभी | kabhi-kabhi | adverb | | | | | | | |
+| कभी | kabhi | कभी | kabhi | adverb | | | | | | | |
+| कभी | kabhi | कभी | kabhi | adverb | | | | | | | |
 | तुम्हारी | tumhaarii | तुम्हारा | tumhaaraa | possessive adjective | f. | genitive | sg. | 2 | | | |
 | प्रार्थना | prarthanaa | प्रार्थना | prarthanaa | noun | f. | nominative | sg. | | | | |
 | से | se | से | se | postposition | | | | | | | |
 | मुझे | mujhe | मैं | main | pronoun | m. | dative | sg. | 1 | | | |
 | लाभ | laabh | लाभ | laabh | noun | m. | nominative | sg. | | | | |
 | होता | hotaa | होना | honaa | verb | m. | present | sg. | 3 | | | |
-| है | hai | होना | honaa | verb | m. | present | sg. | 3 | | | |
+| है | hai | होना | honaa | verb | | present | sg. | 3 | | | |
 </result>
 </query>
 <query>
 <info>[Purgatorio Canto 13] 148/154</info>
-<prompt>
+<prompt retry="true">
 Create a word table.
 
 148 और मैं तुमसे माँगता हूँ, जिसके लिए तुम सबसे अधिक लालायित हो,
 149 यदि तुम कभी टस्कनी की धरती पर कदम रखते हो,
 150 कि तुम मेरे परिजनों के बीच मेरी अच्छी तरह से निंदा करो।
 </prompt>
+<error result="true">
+list index out of range
+</error>
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | और | aur | और | aur | conjunction | | | | | | | |
 | मैं | main | मैं | main | pronoun | m. | nominative | sg. | 1 | | | |
 | तुमसे | tumse | तुम | tum | pronoun | m. | ablative | sg. | 2 | | | |
-| माँगता | maangtaa | माँगना | maangnaa | verb | m. | present | sg. | 1 | | | |
-| हूँ | hoon | होना | honaa | verb | m. | present | sg. | 1 | | | |
+| माँगता | maangataa | माँगना | maangnaa | verb | m. | present | sg. | 1 | | | |
+| हूँ | hooN | होना | honaa | verb | m. | present | sg. | 1 | | | |
 | जिसके | jisake | जिसका | jiskaa | relative pronoun | m. | genitive | sg. | 3 | | | |
 | लिए | liye | लिए | liye | postposition | | | | | | | |
-| तुम | tum | तुम | tum | pronoun | m. | nominative | pl. | 2 | | | |
-| सबसे | sabse | सब | sab | pronoun | m. | superlative | sg. | | | | |
-| अधिक | adhik | अधिक | adhik | adjective | m. | nominative | sg. | | | | |
+| तुम | tum | तुम | tum | pronoun | m. | nominative | sg. | 2 | | | |
+| सबसे | sabse | सब | sab | adjective | | ablative | sg. | | | | |
+| अधिक | adhik | अधिक | adhik | adjective | | | | | | | |
 | लालायित | laalaayit | लालायित | laalaayit | adjective | m. | nominative | sg. | | | | |
 | हो | ho | होना | honaa | verb | m. | present | sg. | 2 | | | |
 | यदि | yadi | यदि | yadi | conjunction | | | | | | | |
-| तुम | tum | तुम | tum | pronoun | m. | nominative | pl. | 2 | | | |
-| कभी | kabhi | कभी | kabhi | adverb | | | | | | | |
-| टस्कनी | taskanii | टस्कनी | taskanii | noun | f. | genitive | sg. | | | | |
+| तुम | tum | तुम | tum | pronoun | m. | nominative | sg. | 2 | | | |
+| कभी | kabhii | कभी | kabhii | adverb | | | | | | | |
+| टस्कनी | taskanii | टस्कनी | taskanii | noun | f. | nominative | sg. | | | | |
 | की | kii | का | kaa | postposition | | | | | | | |
-| धरती | dhartii | धरती | dhartii | noun | f. | locative | sg. | | | | |
+| धरती | dhartii | धरती | dhartii | noun | f. | nominative | sg. | | | | |
 | पर | par | पर | par | postposition | | | | | | | |
-| कदम | kadam | कदम | kadam | noun | m. | accusative | pl. | | | | |
+| कदम | kadam | कदम | kadam | noun | m. | accusative | sg. | | | | |
 | रखते | rakhte | रखना | rakhnaa | verb | m. | present | pl. | 2 | | | |
 | हो | ho | होना | honaa | verb | m. | present | sg. | 2 | | | |
 | कि | ki | कि | ki | conjunction | | | | | | | |
-| तुम | tum | तुम | tum | pronoun | m. | nominative | pl. | 2 | | | |
+| तुम | tum | तुम | tum | pronoun | m. | nominative | sg. | 2 | | | |
 | मेरे | mere | मेरा | meraa | possessive adjective | m. | genitive | sg. | 1 | | | |
-| परिजनों | parijaanon | परिजन | parijaan | noun | m. | locative | pl. | | | | |
+| परिजनों | parijaanon | परिजन | parijaan | noun | m. | genitive | pl. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | बीच | beech | बीच | beech | noun | m. | locative | sg. | | | | |
 | मेरी | merii | मेरा | meraa | possessive adjective | f. | genitive | sg. | 1 | | | |
-| अच्छी | achchhii | अच्छा | achchhaa | adjective | f. | nominative | sg. | | | | |
-| तरह | tarah | तरह | tarah | noun | f. | locative | sg. | | | | |
+| अच्छी | achchhii | अच्छा | achchhaa | adjective | f. | accusative | sg. | | | | |
+| तरह | tarah | तरह | tarah | noun | f. | accusative | sg. | | | | |
 | से | se | से | se | postposition | | | | | | | |
 | निंदा | nindaa | निंदा | nindaa | noun | f. | accusative | sg. | | | | |
-| करो | karo | करना | karnaa | verb | m. | imperative | pl. | 2 | | | |
+| करो | karo | करना | karnaa | verb | m. | imperative | sg. | 2 | | | |
 </result>
 </query>
 <query>
@@ -1986,33 +1963,32 @@ Create a word table.
 <result>
 | Word | Roman (Word) | Lemma | Roman (Lemma) | Part of Speech | Gender | Case | Number | Person | Tense | Mood | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| तुम | tum | तुम | tum | pronoun | m. | nominative | pl. | 2 | | | |
+| तुम | tum | तुम | tum | pronoun | m. | nominative | sg. | 2 | | | |
 | उन्हें | unhen | वह | vah | pronoun | m. | accusative | pl. | 3 | | | |
 | उन | un | वह | vah | pronoun | m. | accusative | pl. | 3 | | | |
-| व्यर्थ | vyarth | व्यर्थ | vyarth | adjective | m. | accusative | pl. | | | | |
-| लोगों | logon | लोग | log | noun | m. | locative | pl. | | | | |
+| व्यर्थ | vyarth | व्यर्थ | vyarth | adjective | | | | | | | |
+| लोगों | logon | लोग | log | noun | m. | genitive | pl. | | | | |
 | के | ke | का | kaa | postposition | | | | | | | |
 | बीच | beech | बीच | beech | noun | m. | locative | sg. | | | | |
-| देखोगे | dekhoge | देखना | dekhnaa | verb | m. | future | pl. | 2 | | | |
-| तुम | tum | तुम | tum | pronoun | m. | nominative | pl. | 2 | | | |
-| उन्हें | unhen | वह | vah | pronoun | m. | accusative | pl. | 3 | | | |
-| टैलामोन | taalaamon | टैलामोन | taalaamon | noun | m. | locative | sg. | | | | |
+| देखोगे | dekhoge | देखना | dekhnaa | verb | m. | future | sg. | 2 | | | |
+| जो | jo | जो | jo | relative pronoun | m. | nominative | pl. | 3 | | | |
+| टैलामोन | taillaamon | टैलामोन | taillaamon | noun | m. | locative | pl. | | | | |
 | में | men | में | men | postposition | | | | | | | |
-| आशा | aashaa | आशा | aashaa | noun | f. | locative | sg. | | | | |
+| आशा | aashaa | आशा | aashaa | noun | f. | accusative | sg. | | | | |
 | करते | karte | करना | karnaa | verb | m. | present | pl. | 3 | | | |
 | हैं | hain | होना | honaa | verb | m. | present | pl. | 3 | | | |
 | और | aur | और | aur | conjunction | | | | | | | |
 | उन्हें | unhen | वह | vah | pronoun | m. | accusative | pl. | 3 | | | |
-| खो | kho | खोना | khonaa | verb | m. | past | pl. | 3 | | | |
+| खो | kho | खोना | khonaa | verb | m. | future | sg. | 3 | | | |
 | देंगे | denge | देना | denaa | verb | m. | future | pl. | 3 | | | |
-| डायना | dyaanaa | डायना | dyaanaa | noun | f. | accusative | sg. | | | | |
+| डायना | daayanaa | डायना | daayanaa | noun | f. | accusative | sg. | | | | |
 | को | ko | को | ko | postposition | | | | | | | |
-| खोजने | khojne | खोजना | khojnaa | verb | m. | infinitive | | | | | |
+| खोजने | khojne | खोजना | khojnaa | verb | m. | infinitive | sg. | | | | |
 | की | kii | का | kaa | postposition | | | | | | | |
 | तुलना | tulanaa | तुलना | tulanaa | noun | f. | ablative | sg. | | | | |
 | में | men | में | men | postposition | | | | | | | |
-| अधिक | adhik | अधिक | adhik | adjective | m. | nominative | sg. | | | | |
-| आशा | aashaa | आशा | aashaa | noun | f. | nominative | sg. | | | | |
+| अधिक | adhik | अधिक | adhik | adjective | | | | | | | |
+| आशा | aashaa | आशा | aashaa | noun | f. | accusative | sg. | | | | |
 </result>
 </query>
 <query>
@@ -2027,11 +2003,11 @@ Create a word table.
 |---|---|---|---|---|---|---|---|---|---|---|
 | लेकिन | lekin | लेकिन | lekin | conjunction | | | | | | | |
 | वहाँ | vahaan | वहां | vahaan | adverb | | | | | | | |
-| एडमिरल | edmiral | एडमिरल | edmiral | noun | m. | nominative | sg. | | | | |
-| अधिक | adhik | अधिक | adhik | adjective | m. | nominative | sg. | | | | |
+| एडमिरल | edmiraal | एडमिरल | edmiraal | noun | m. | nominative | sg. | | | | |
+| अधिक | adhik | अधिक | adhik | adjective | | | | | | | |
 | खो | kho | खोना | khonaa | verb | m. | future | sg. | 3 | | | |
 | देंगे | denge | देना | denaa | verb | m. | future | pl. | 3 | | | |
-|"। | " | " | " | punctuation | | | | | | | |
+| " | " | " | " | punctuation | | | | | | | |
 </result>
 </query>
 </queries>

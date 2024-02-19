@@ -12,72 +12,88 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 哦 | 哦 | ó | interjection | | |
-| ， | ， | , | punctuation mark | | |
-| 西门 | 西門 | xīmén | noun | | |
-| · | · | · | punctuation mark | | |
-| 马古斯 | 馬古斯 | mǎgūsī | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 哦 | 哦 | ó | interjection | | |
-| ， | ， | , | punctuation mark | | |
-| 可怜 | 可憐 | kělián | adjective | | |
-| 的 | 的 | de | particle | | |
-| 追随者 | 追隨者 | zhuīsuízhě | noun | | |
-| 们 | 們 | men | particle | | |
-| ， | ， | , | punctuation mark | | |
-| 你们 | 你們 | nǐmen | pronoun | | |
-| 把 | 把 | bǎ | verb | present | |
-| 本应 | 本應 | běnyīng | modal verb | past | |
-| 是 | 是 | shì | verb | present | |
-| 新娘 | 新娘 | xīnniáng | noun | | |
-| 的 | 的 | de | particle | | |
-| 上帝 | 上帝 | shàngdì | noun | | |
-| 之物 | 之物 | zhīwù | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 本应 | 本應 | běnyīng | modal verb | past | |
-| 是 | 是 | shì | verb | present | |
-| 善良 | 善良 | shànliáng | adjective | | |
-| 之物 | 之物 | zhīwù | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 贪婪 | 貪婪 | tānlan | adjective | | |
-| 地 | 地 | de | adverb | | |
-| 抢夺 | 搶奪 | qiǎngduó | verb | past | |
-| 。 | 。 | . | punctuation mark | | |
+| 哦 | 哦 | ó | interjection |  |  |
+| 西门 | 西門 | xīmén | noun |  |  |
+| 马古斯 | 馬古斯 | mǎgǔsī | noun |  |  |
+| 哦 | 哦 | ó | interjection |  |  |
+| 可怜 | 可憐 | kělián | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 追随者 | 追隨者 | zhuīsuízhě | noun |  |  |
+| 们 | 們 | men | particle |  | plural |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 们 | 們 | men | particle |  | plural |
+| 把 | 把 | bǎ | preposition |  |  |
+| 本 | 本 | běn | adjective |  |  |
+| 应 | 應 | yīng | modal verb |  |  |
+| 是 | 是 | shì | verb |  |  |
+| 新娘 | 新娘 | xīnniáng | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 上帝 | 上帝 | shàngdì | noun |  |  |
+| 之 | 之 | zhī | particle |  |  |
+| 物 | 物 | wù | noun |  |  |
+| 本 | 本 | běn | adjective |  |  |
+| 应 | 應 | yīng | modal verb |  |  |
+| 是 | 是 | shì | verb |  |  |
+| 善良 | 善良 | shànliáng | adjective |  |  |
+| 之 | 之 | zhī | particle |  |  |
+| 物 | 物 | wù | noun |  |  |
+| 贪婪 | 貪婪 | tānlan | adjective |  |  |
+| 地 | 地 | de | adverbial suffix |  |  |
+| 抢夺 | 搶奪 | qiǎngduó | verb |  |  |
 </result>
 </query>
 <query>
 <info>[Inferno Canto 19] 4/133</info>
-<prompt>
+<prompt retry="true">
 Create a word table.
 
 4 为了金银，你们颠倒黑白，
 5 现在，号角必须为你们吹响，
 6 因为你们身处第三个深渊。
 </prompt>
+<error result="true">
+list index out of range
+</error>
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 为了 | 為了 | wèile | preposition | | |
-| 金银 | 金銀 | jīnyín | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 你们 | 你們 | nǐmen | pronoun | | |
-| 颠倒 | 顛倒 | diāndǎo | verb | past | |
-| 黑白 | 黑白 | hēibái | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 现在 | 現在 | xiànzài | adverb | present | |
-| ， | ， | , | punctuation mark | | |
-| 号角 | 號角 | hàogiǎo | noun | | |
-| 必须 | 必須 | bìxū | modal verb | present | |
-| 为 | 為 | wèi | preposition | | |
-| 你们 | 你們 | nǐmen | pronoun | | |
-| 吹响 | 吹響 | chuīxiǎng | verb | past | |
-| ， | ， | , | punctuation mark | | |
-| 因为 | 因為 | yīnwèi | conjunction | | |
-| 你们 | 你們 | nǐmen | pronoun | | |
-| 身处 | 身處 | shēnchù | verb | present | |
-| 第三个 | 第三個 | dìsānge | adjective | | |
-| 深渊 | 深淵 | shēnyuān | noun | | |
-| 。 | 。 | . | punctuation mark | | |
+| 为 | 為 | wèi | preposition |  |  |
+| 了 | 了 | le | particle |  |  |
+| 金 | 金 | jīn | noun |  |  |
+| 银 | 銀 | yín | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 们 | 們 | men | particle |  |  |
+| 颠 | 顛 | diān | verb |  |  |
+| 倒 | 倒 | dào | verb |  |  |
+| 黑 | 黑 | hēi | adjective |  |  |
+| 白 | 白 | bái | adjective |  |  |
+| ， | ， | , | punctuation |  |  |
+| 现 | 現 | xiàn | adverb |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| ， | ， | , | punctuation |  |  |
+| 号 | 號 | hào | noun |  |  |
+| 角 | 角 | jiǎo | noun |  |  |
+| 必 | 必 | bì | modal verb |  |  |
+| 须 | 須 | xū | modal verb |  |  |
+| 为 | 為 | wèi | preposition |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 们 | 們 | men | particle |  |  |
+| 吹 | 吹 | chuī | verb |  |  |
+| 响 | 響 | xiǎng | verb |  |  |
+| ， | ， | , | punctuation |  |  |
+| 因 | 因 | yīn | conjunction |  |  |
+| 为 | 為 | wèi | preposition |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 们 | 們 | men | particle |  |  |
+| 身 | 身 | shēn | noun |  |  |
+| 处 | 處 | chù | verb |  |  |
+| 第 | 第 | dì | ordinal number |  |  |
+| 三 | 三 | sān | number |  |  |
+| 个 | 個 | ge | classifier |  |  |
+| 深 | 深 | shēn | adjective |  |  |
+| 渊 | 淵 | yuān | noun |  |  |
+| 。 | 。 | . | punctuation |  |  |
 </result>
 </query>
 <query>
@@ -92,25 +108,42 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 我们 | 我們 | wǒmen | pronoun | | |
-| 已经 | 已經 | yǐjīng | adverb | present | |
-| 来到了 | 來到了 | láidàole | verb | past | |
-| 下一个 | 下一個 | xiàyīgè | adjective | | |
-| 坟墓 | 墳墓 | fénmù | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 从 | 從 | cóng | preposition | | |
-| 岩石 | 岩石 | yánshí | noun | | |
-| 上 | 上 | shàng | preposition | | |
-| 爬到了 | 爬到了 | pádàole | verb | past | |
-| 那个 | 那個 | nàge | pronoun | | |
-| 地方 | 地方 | dìfang | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 正好 | 正好 | zhènghǎo | adverb | | |
-| 位于 | 位於 | wèiyú | verb | present | |
-| 深渊 | 深淵 | shēnyuān | noun | | |
-| 的 | 的 | de | particle | | |
-| 正上方 | 正上方 | zhèngshàngfāng | noun | | |
-| 。 | 。 | . | punctuation mark | | |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 们 | 們 | men | particle |  |  |
+| 已 | 已 | yǐ | aspect particle | perfect |  |
+| 经 | 經 | jīng | aspect particle | perfect |  |
+| 来 | 來 | lái | verb | present |  |
+| 到 | 到 | dào | verb | present |  |
+| 了 | 了 | le | particle | past |  |
+| 下 | 下 | xià | adverb |  |  |
+| 一 | 一 | yī | number |  |  |
+| 个 | 個 | ge | classifier |  |  |
+| 坟 | 墳 | fén | noun |  |  |
+| 墓 | 墓 | mù | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 从 | 從 | cóng | preposition |  |  |
+| 岩 | 岩 | yán | noun |  |  |
+| 石 | 石 | shí | noun |  |  |
+| 上 | 上 | shàng | preposition |  |  |
+| 爬 | 爬 | pá | verb | past |  |
+| 到 | 到 | dào | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 那 | 那 | nà | demonstrative pronoun |  |  |
+| 个 | 個 | ge | classifier |  |  |
+| 地 | 地 | dì | adverbial suffix |  |  |
+| 方 | 方 | fāng | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 正 | 正 | zhèng | adverb |  |  |
+| 好 | 好 | hǎo | adjective |  |  |
+| 位 | 位 | wèi | verb |  |  |
+| 于 | 於 | yú | preposition |  |  |
+| 深 | 深 | shēn | adjective |  |  |
+| 渊 | 淵 | yuān | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 正 | 正 | zhèng | adverb |  |  |
+| 上 | 上 | shàng | preposition |  |  |
+| 方 | 方 | fāng | noun |  |  |
+| 。 | 。 | . | punctuation |  |  |
 </result>
 </query>
 <query>
@@ -123,39 +156,51 @@ Create a word table.
 12 你的美德是多么公正地分配！
 </prompt>
 <result>
-| Word | Traditional | Pinyin | Part of Speech | Tense | Note |
-|---|---|---|---|---|---|
-| 哦 | 哦 | ó | interjection | | |
-| ， | ， | , | punctuation mark | | |
-| 至高无上的 | 至高無上的 | zhìgāowúshàngde | adjective | | |
-| 智慧 | 智慧 | zhìhuì | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 展现 | 展現 | zhǎnxiàn | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 多少 | 多少 | duōshǎo | pronoun | | |
-| 艺术 | 藝術 | yìshù | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 在 | 在 | zài | preposition | | |
-| 天堂 | 天堂 | tiāntáng | noun | | |
-| 、 | 、 | , | punctuation mark | | |
-| 在 | 在 | zài | preposition | | |
-| 地上 | 地上 | dìshàng | noun | | |
-| 和 | 和 | hé | conjunction | | |
-| 在 | 在 | zài | preposition | | |
-| 邪恶 | 邪惡 | xiée | adjective | | |
-| 的 | 的 | de | particle | | |
-| 世界 | 世界 | shìjiè | noun | | |
-| 中 | 中 | zhōng | preposition | | |
-| ， | ， | , | punctuation mark | | |
-| 你的 | 你的 | nǐde | pronoun | | |
-| 美德 | 美德 | měidé | noun | | |
-| 是 | 是 | shì | verb | present | |
-| 多么 | 多麼 | duōme | adverb | | |
-| 公正 | 公正 | gōngzhèng | adjective | | |
-| 地 | 地 | de | adverb | | |
-| 分配 | 分配 | fēnpèi | verb | past | |
-| ！ | ！ | ! | punctuation mark | | |
+|
+---|---|---|---| |
+| | |
+|
+| |
+| |
+| | |
+|
+| 10|
+|
+|
+| |
+| |
+| | |
+| |
+|
+| ， | |
+|
+| 
+
+| adverbial | | |
+|
+| | |
+| |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| |
+| | |
+| | | | |
+|
+| |
+| | | |
+| |
+| | |
+| |
+|
+| | |
+|
 </result>
 </query>
 <query>
@@ -170,27 +215,41 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 我 | 我 | wǒ | pronoun | | |
-| 看到了 | 看到了 | kàndàole | verb | past | |
-| 岩石 | 岩石 | yánshí | noun | | |
-| 的 | 的 | de | particle | | |
-| 侧面 | 側面 | cèmiàn | noun | | |
-| 和 | 和 | hé | conjunction | | |
-| 底部 | 底部 | dǐbù | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 遍布着 | 遍佈著 | biànfùzhe | verb | present | |
-| 苍白的 | 蒼白的 | cāngbái | adjective | | |
-| 洞穴 | 洞穴 | dòngxué | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 每个 | 每個 | měige | pronoun | | |
-| 洞穴 | 洞穴 | dòngxué | noun | | |
-| 都 | 都 | dōu | adverb | | |
-| 很 | 很 | hěn | adverb | | |
-| 宽 | 寬 | kuān | adjective | | |
-| ， | ， | , | punctuation mark | | |
-| 都是 | 都是 | dōushì | verb | present | |
-| 圆形的 | 圓形的 | yuánxíngde | adjective | | |
-| 。 | 。 | . | punctuation mark | | |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 看 | 看 | kàn | verb | past |  |
+| 到 | 到 | dào | verb | past |  |
+| 岩 | 岩 | yán | noun |  |  |
+| 石 | 石 | shí | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 侧 | 側 | cè | noun |  |  |
+| 面 | 面 | miàn | noun |  |  |
+| 和 | 和 | hé | conjunction |  |  |
+| 底 | 底 | dǐ | noun |  |  |
+| 部 | 部 | bù | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 遍 | 遍 | biàn | adverb |  |  |
+| 布 | 布 | bù | verb | past |  |
+| 着 | 著 | zhe | aspect particle | progressive |  |
+| 苍 | 蒼 | cāng | adjective |  |  |
+| 白 | 白 | bái | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 洞 | 洞 | dòng | noun |  |  |
+| 穴 | 穴 | xué | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 每 | 每 | měi | pronoun |  |  |
+| 个 | 個 | ge | classifier |  |  |
+| 洞 | 洞 | dòng | noun |  |  |
+| 穴 | 穴 | xué | noun |  |  |
+| 都 | 都 | dōu | adverb |  |  |
+| 很 | 很 | hěn | adverb |  |  |
+| 宽 | 寬 | kuān | adjective |  |  |
+| ， | ， | , | punctuation |  |  |
+| 都 | 都 | dōu | adverb |  |  |
+| 是 | 是 | shì | verb | present |  |
+| 圆 | 圓 | yuán | adjective |  |  |
+| 形 | 形 | xíng | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 。 | 。 | . | punctuation |  |  |
 </result>
 </query>
 <query>
@@ -198,82 +257,103 @@ Create a word table.
 <prompt>
 Create a word table.
 
-16 它们看起来并不比我美丽的圣乔瓦尼教堂里的那些洞穴更大或更宽，
-17 那些洞穴是为施洗者准备的地方；
+16 它们似乎并不比我更大或更高，
+17 而是在我美丽的圣乔瓦尼中，
+18 由施洗者约翰的追随者建造；
 </prompt>
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 它们 | 它們 | tāmen | pronoun | | |
-| 看起来 | 看起來 | kànqǐlái | verb | present | |
-| 并 | 並 | bìng | conjunction | | |
-| 不 | 不 | bù | adverb | | |
-| 比 | 比 | bǐ | preposition | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 美丽的 | 美麗的 | měilìde | adjective | | |
-| 圣乔瓦尼 | 聖喬瓦尼 | shèngqiáowānì | noun | | |
-| 教堂 | 教堂 | jiàotáng | noun | | |
-| 里面的 | 裡面的 | lǐmiàn de | preposition | | |
-| 那些 | 那些 | nàxiē | pronoun | | |
-| 洞穴 | 洞穴 | dòngxué | noun | | |
-| 更大 | 更大 | gèngdà | adjective | | |
-| 或 | 或 | huò | conjunction | | |
-| 更宽 | 更寬 | gèngkuān | adjective | | |
-| ， | ， | , | punctuation mark | | |
-| 那些 | 那些 | nàxiē | pronoun | | |
-| 洞穴 | 洞穴 | dòngxué | noun | | |
-| 是 | 是 | shì | verb | present | |
-| 为 | 為 | wèi | preposition | | |
-| 施洗者 | 施洗者 | shǐxǐzhě | noun | | |
-| 准备 | 準備 | zhǔnbèi | verb | past | |
-| 的 | 的 | de | particle | | |
-| 地方 | 地方 | dìfang | noun | | |
-| ； | ； | ; | punctuation mark | | |
+| 它 | 它 | tā | pronoun |  |  |
+| 们 | 們 | men | particle |  |  |
+| 似 | 似 | sì | modal verb |  |  |
+| 乎 | 乎 | hū | modal particle |  |  |
+| 不 | 不 | bù | negative adverb |  |  |
+| 比 | 比 | bǐ | preposition |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 更 | 更 | gèng | comparative adverb |  |  |
+| 大 | 大 | dà | adjective |  |  |
+| 或 | 或 | huò | conjunction |  |  |
+| 更 | 更 | gèng | comparative adverb |  |  |
+| 高 | 高 | gāo | adjective |  |  |
+| ， | ， | , | punctuation |  |  |
+| 而 | 而 | ér | conjunction |  |  |
+| 是 | 是 | shì | verb | present |  |
+| 在 | 在 | zài | preposition |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 美 | 美 | měi | adjective |  |  |
+| 丽 | 麗 | lì | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 圣 | 聖 | shèng | noun |  |  |
+| 乔 | 喬 | qiáo | noun |  |  |
+| 瓦 | 瓦 | wǎ | noun |  |  |
+| 尼 | 尼 | ní | noun |  |  |
+| 中 | 中 | zhōng | preposition |  |  |
+| ， | ， | , | punctuation |  |  |
+| 由 | 由 | yóu | preposition |  |  |
+| 施 | 施 | shī | verb | past |  |
+| 洗 | 洗 | xǐ | verb | past |  |
+| 者 | 者 | zhě | nominal suffix |  |  |
+| 约 | 約 | yuē | noun |  |  |
+| 翰 | 翰 | hàn | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 追 | 追 | zhuī | verb | past |  |
+| 随 | 隨 | suí | verb | past |  |
+| 者 | 者 | zhě | nominal suffix |  |  |
+| 建 | 建 | jiàn | verb | past |  |
+| 造 | 造 | zào | verb | past |  |
+| ； | ； | ; | punctuation |  |  |
 </result>
 </query>
 <query>
-<info>[Inferno Canto 19] 18/133</info>
+<info>[Inferno Canto 19] 19/133</info>
 <prompt>
 Create a word table.
 
-18 其中一个，就在几年前，
-19 我为了一个溺死在里面的人而打破了它：
-20 愿这件事成为一个印记，让每个人都明白。
+19 其中一个，就在不久前，
+20 我为了一个溺水的人而打破了它：
+21 这足以让每个人都明白。
 </prompt>
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 其中 | 其中 | qízhōng | pronoun | | |
-| 一个 | 一個 | yīgè | pronoun | | |
-| ， | ， | , | punctuation mark | | |
-| 就 | 就 | jiù | adverb | | |
-| 在 | 在 | zài | preposition | | |
-| 几 | 幾 | jǐ | pronoun | | |
-| 年前 | 年前 | niánqián | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 为了 | 為了 | wèile | preposition | | |
-| 一个 | 一個 | yīgè | pronoun | | |
-| 溺死 | 溺死 | nìsǐ | verb | past | |
-| 在 | 在 | zài | preposition | | |
-| 里面 | 裡面 | lǐmiàn | noun | | |
-| 的 | 的 | de | particle | | |
-| 人 | 人 | rén | noun | | |
-| 而 | 而 | ér | conjunction | | |
-| 打破了 | 打破了 | dǎpòle | verb | past | |
-| 它 | 它 | tā | pronoun | | |
-| ： | ： | : | punctuation mark | | |
-| 愿 | 願 | yuàn | modal verb | present | |
-| 这件事 | 這件事 | zhèjiàn shì | pronoun | | |
-| 成为 | 成為 | chéngwéi | verb | past | |
-| 一个 | 一個 | yīgè | pronoun | | |
-| 印记 | 印記 | yìnjì | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 让 | 讓 | ràng | verb | present | |
-| 每个人 | 每個人 | měigèrén | pronoun | | |
-| 都 | 都 | dōu | adverb | | |
-| 明白 | 明白 | míngbái | verb | present | |
-| 。 | 。 | . | punctuation mark | | |
+| 其 | 其 | qí | pronoun |  |  |
+| 中 | 中 | zhōng | preposition |  |  |
+| 一 | 一 | yī | number |  |  |
+| 个 | 個 | ge | classifier |  |  |
+| ， | ， | , | punctuation |  |  |
+| 就 | 就 | jiù | adverb |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 不 | 不 | bù | negative adverb |  |  |
+| 久 | 久 | jiǔ | adjective |  |  |
+| 前 | 前 | qián | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 为 | 為 | wèi | preposition |  |  |
+| 了 | 了 | le | particle |  |  |
+| 一 | 一 | yī | number |  |  |
+| 个 | 個 | ge | classifier |  |  |
+| 溺 | 溺 | nì | verb | past |  |
+| 水 | 水 | shuǐ | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 人 | 人 | rén | noun |  |  |
+| 而 | 而 | ér | conjunction |  |  |
+| 打 | 打 | dǎ | verb | past |  |
+| 破 | 破 | pò | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 它 | 它 | tā | pronoun |  |  |
+| ： | ： | : | punctuation |  |  |
+| 这 | 這 | zhè | demonstrative pronoun |  |  |
+| 足 | 足 | zú | adjective |  |  |
+| 以 | 以 | yǐ | preposition |  |  |
+| 让 | 讓 | ràng | verb | present |  |
+| 每 | 每 | měi | pronoun |  |  |
+| 个 | 個 | ge | classifier |  |  |
+| 人 | 人 | rén | noun |  |  |
+| 都 | 都 | dōu | adverb |  |  |
+| 明 | 明 | míng | verb | present |  |
+| 白 | 白 | bái | verb | present |  |
+| 。 | 。 | . | punctuation |  |  |
 </result>
 </query>
 <query>
@@ -288,33 +368,49 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 在 | 在 | zài | preposition | | |
-| 每个 | 每個 | měige | pronoun | | |
-| 洞穴 | 洞穴 | dòngxué | noun | | |
-| 的 | 的 | de | particle | | |
-| 洞口 | 洞口 | dòngkǒu | noun | | |
-| 外 | 外 | wài | preposition | | |
-| ， | ， | , | punctuation mark | | |
-| 一个 | 一個 | yīgè | pronoun | | |
-| 罪人 | 罪人 | zuìrén | noun | | |
-| 的 | 的 | de | particle | | |
-| 双脚 | 雙腳 | shuāngjiǎo | noun | | |
-| 和 | 和 | hé | conjunction | | |
-| 小腿 | 小腿 | xiǎotuǐ | noun | | |
-| 露了出来 | 露了出來 | lùle chūlái | verb | past | |
-| ， | ， | , | punctuation mark | | |
-| 直到 | 直到 | zhídào | conjunction | | |
-| 小腿肚 | 小腿肚 | xiǎotuǐdǔ | noun | | |
-| ， | ， | , | punctuation mark | | |
-| 而 | 而 | ér | conjunction | | |
-| 他 | 他 | tā | pronoun | | |
-| 的 | 的 | de | particle | | |
-| 其他 | 其他 | qítā | adjective | | |
-| 部分 | 部分 | bùfen | noun | | |
-| 则 | 則 | zé | conjunction | | |
-| 在 | 在 | zài | preposition | | |
-| 里面 | 裡面 | lǐmiàn | noun | | |
-| 。 | 。 | . | punctuation mark | | |
+| 在 | 在 | zài | preposition |  |  |
+| 每 | 每 | měi | pronoun |  |  |
+| 个 | 個 | ge | classifier |  |  |
+| 洞 | 洞 | dòng | noun |  |  |
+| 穴 | 穴 | xué | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 洞 | 洞 | dòng | noun |  |  |
+| 口 | 口 | kǒu | noun |  |  |
+| 外 | 外 | wài | preposition |  |  |
+| ， | ， | , | punctuation |  |  |
+| 一 | 一 | yī | number |  |  |
+| 个 | 個 | ge | classifier |  |  |
+| 罪 | 罪 | zuì | noun |  |  |
+| 人 | 人 | rén | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 双 | 雙 | shuāng | classifier |  |  |
+| 脚 | 腳 | jiǎo | noun |  |  |
+| 和 | 和 | hé | conjunction |  |  |
+| 小 | 小 | xiǎo | adjective |  |  |
+| 腿 | 腿 | tuǐ | noun |  |  |
+| 露 | 露 | lù | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 出 | 出 | chū | verb | past |  |
+| 来 | 來 | lái | verb | past |  |
+| ， | ， | , | punctuation |  |  |
+| 直 | 直 | zhí | adverb |  |  |
+| 到 | 到 | dào | preposition |  |  |
+| 小 | 小 | xiǎo | adjective |  |  |
+| 腿 | 腿 | tuǐ | noun |  |  |
+| 肚 | 肚 | dù | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 而 | 而 | ér | conjunction |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 其 | 其 | qí | pronoun |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 部 | 部 | bù | noun |  |  |
+| 分 | 分 | fèn | noun |  |  |
+| 则 | 則 | zé | conjunction |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 里 | 裡 | lǐ | noun |  |  |
+| 面 | 面 | miàn | noun |  |  |
+| 。 | 。 | . | punctuation |  |  |
 </result>
 </query>
 <query>
@@ -329,31 +425,49 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 他们 | 他們 | tāmen | pronoun | | |
-| 的 | 的 | de | particle | | |
-| 脚底 | 腳底 | jiǎodǐ | noun | | |
-| 都 | 都 | dōu | adverb | | |
-| 燃烧着 | 燃燒著 | ránshāozhe | verb | present | |
-| 火焰 | 火焰 | huǒyàn | noun | | |
-| ； | ； | ; | punctuation mark | | |
-| 因此 | 因此 | yīncǐ | conjunction | | |
-| 他们 | 他們 | tāmen | pronoun | | |
-| 的 | 的 | de | particle | | |
-| 脚踝 | 腳踝 | jiǎohuái | noun | | |
-| 剧烈地 | 劇烈地 | jùliè de | adverb | | |
-| 抽搐 | 抽搐 | chōuchù | verb | present | |
-| ， | ， | , | punctuation mark | | |
-| 即使 | 即使 | jísǔ | conjunction | | |
-| 是 | 是 | shì | verb | present | |
-| 扭曲的 | 扭曲的 | niǔqude | adjective | | |
-| 和 | 和 | hé | conjunction | | |
-| 弯曲的 | 彎曲的 | wānqǔde | adjective | | |
-| 绳索 | 繩索 | shéngsuǒ | noun | | |
-| 也 | 也 | yě | adverb | | |
-| 会 | 會 | huì | modal verb | present | |
-| 被 | 被 | bèi | preposition | | |
-| 挣断 | 掙斷 | zhèngduàn | verb | past | |
-| 。 | 。 | . | punctuation mark | | |
+| 他 | 他 | tā | pronoun |  |  |
+| 们 | 們 | men | particle |  |  |
+| 的 | 的 | de | particle |  |  |
+| 脚 | 腳 | jiǎo | noun |  |  |
+| 底 | 底 | dǐ | noun |  |  |
+| 都 | 都 | dōu | adverb |  |  |
+| 燃 | 燃 | rán | verb | present |  |
+| 烧 | 燒 | shāo | verb | present |  |
+| 着 | 著 | zhe | aspect particle | progressive |  |
+| 火 | 火 | huǒ | noun |  |  |
+| 焰 | 焰 | yàn | noun |  |  |
+| ； | ； | ; | punctuation |  |  |
+| 因 | 因 | yīn | conjunction |  |  |
+| 此 | 此 | cǐ | pronoun |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 们 | 們 | men | particle |  |  |
+| 的 | 的 | de | particle |  |  |
+| 脚 | 腳 | jiǎo | noun |  |  |
+| 踝 | 踝 | huái | noun |  |  |
+| 剧 | 劇 | jù | adjective |  |  |
+| 烈 | 烈 | liè | adjective |  |  |
+| 地 | 地 | de | adverbial suffix |  |  |
+| 抽 | 抽 | chōu | verb | present |  |
+| 搐 | 搐 | chù | verb | present |  |
+| ， | ， | , | punctuation |  |  |
+| 即 | 即 | jí | conjunction |  |  |
+| 使 | 使 | shǐ | verb | present |  |
+| 是 | 是 | shì | verb | present |  |
+| 扭 | 扭 | niǔ | verb | past |  |
+| 曲 | 曲 | qū | verb | past |  |
+| 的 | 的 | de | particle |  |  |
+| 和 | 和 | hé | conjunction |  |  |
+| 弯 | 彎 | wān | verb | past |  |
+| 曲 | 曲 | qū | verb | past |  |
+| 的 | 的 | de | particle |  |  |
+| 绳 | 繩 | shéng | noun |  |  |
+| 索 | 索 | suǒ | noun |  |  |
+| 也 | 也 | yě | adverb |  |  |
+| 会 | 會 | huì | modal verb |  |  |
+| 被 | 被 | bèi | passive marker |  |  |
+| 挣 | 掙 | zhèng | verb | past |  |
+| 断 | 斷 | duàn | verb | past |  |
+| 。 | 。 | . | punctuation |  |  |
 </result>
 </query>
 <query>
@@ -368,36 +482,52 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 就 | 就 | jiù | adverb | | |
-| 如同 | 如同 | rútóng | preposition | | |
-| 油腻 | 油膩 | yóunì | adjective | | |
-| 的 | 的 | de | particle | | |
-| 东西 | 東西 | dōngxi | noun | | |
-| 燃烧 | 燃燒 | ránshāo | verb | present | |
-| 时 | 時 | shí | conjunction | | |
-| 火焰 | 火焰 | huǒyàn | noun | | |
-| 只 | 只 | zhǐ | adverb | | |
-| 会 | 會 | huì | auxiliary verb | future | |
-| 在 | 在 | zài | preposition | | |
-| 最 | 最 | zuì | adjective | superlative | |
-| 外 | 外 | wài | adjective | | |
-| 层 | 層 | céng | noun | | |
-| 的 | 的 | de | particle | | |
-| 表皮 | 表皮 | biǎopí | noun | | |
-| 上 | 上 | shàng | preposition | | |
-| 移动 | 移動 | yídòng | verb | future | |
-| 罪人 | 罪人 | zuìrén | noun | | |
-| 们 | 們 | men | particle | | plural |
-| 的 | 的 | de | particle | | |
-| 火焰 | 火焰 | huǒyàn | noun | | |
-| 也 | 也 | yě | conjunction | | |
-| 是 | 是 | shì | verb | present | |
-| 如此 | 如此 | rúcí | adverb | | |
-| 从 | 從 | cóng | preposition | | |
-| 脚 | 腳 | jiǎo | noun | | |
-| 后跟 | 後跟 | hòugēn | noun | | |
-| 到 | 到 | dào | preposition | | |
-| 脚尖 | 腳尖 | jiǎojiān | noun | | |
+| 就 | 就 | jiù | adverb |  |  |
+| 如 | 如 | rú | preposition |  |  |
+| 同 | 同 | tóng | preposition |  |  |
+| 油 | 油 | yóu | noun |  |  |
+| 腻 | 膩 | nì | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 东 | 東 | dōng | noun |  |  |
+| 西 | 西 | xī | noun |  |  |
+| 燃 | 燃 | rán | verb | present |  |
+| 烧 | 燒 | shāo | verb | present |  |
+| 时 | 時 | shí | noun |  |  |
+| 火 | 火 | huǒ | noun |  |  |
+| 焰 | 焰 | yàn | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 只 | 只 | zhǐ | adverb |  |  |
+| 会 | 會 | huì | modal verb |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 最 | 最 | zuì | superlative adverb |  |  |
+| 外 | 外 | wài | preposition |  |  |
+| 层 | 層 | céng | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 表 | 表 | biǎo | noun |  |  |
+| 皮 | 皮 | pí | noun |  |  |
+| 上 | 上 | shàng | preposition |  |  |
+| 移 | 移 | yí | verb | present |  |
+| 动 | 動 | dòng | verb | present |  |
+| ， | ， | , | punctuation |  |  |
+| 罪 | 罪 | zuì | noun |  |  |
+| 人 | 人 | rén | noun |  |  |
+| 们 | 們 | men | particle |  |  |
+| 的 | 的 | de | particle |  |  |
+| 火 | 火 | huǒ | noun |  |  |
+| 焰 | 焰 | yàn | noun |  |  |
+| 也 | 也 | yě | adverb |  |  |
+| 是 | 是 | shì | verb | present |  |
+| 如 | 如 | rú | preposition |  |  |
+| 此 | 此 | cǐ | pronoun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 从 | 從 | cóng | preposition |  |  |
+| 脚 | 腳 | jiǎo | noun |  |  |
+| 后 | 後 | hòu | noun |  |  |
+| 跟 | 跟 | gēn | noun |  |  |
+| 到 | 到 | dào | preposition |  |  |
+| 脚 | 腳 | jiǎo | noun |  |  |
+| 尖 | 尖 | jiān | noun |  |  |
+| 。 | 。 | . | punctuation |  |  |
 </result>
 </query>
 <query>
@@ -412,31 +542,46 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 老师 | 老師 | lǎoshī | noun | | |
-| 是 | 是 | shì | verb | present | |
-| 谁 | 誰 | shuí | interrogative pronoun | | |
-| 在 | 在 | zài | preposition | | |
-| 受苦 | 受苦 | shòukǔ | verb | present | |
-| 比 | 比 | bǐ | preposition | | |
-| 他 | 他 | tā | pronoun | | |
-| 的 | 的 | de | particle | | |
-| 其他 | 其他 | qítā | adjective | | |
-| 同伴 | 同伴 | tóngbàn | noun | | |
-| 抽搐 | 抽搐 | chōuchù | verb | present | |
-| 得 | 得 | de | particle | | |
-| 更 | 更 | gèng | adverb | comparative | |
-| 厉害 | 厲害 | lìhai | adjective | comparative | |
-| 我 | 我 | wǒ | pronoun | | |
-| 说 | 說 | shuō | verb | present | |
-| 是 | 是 | shì | verb | present | |
-| 谁 | 誰 | shuí | interrogative pronoun | | |
-| 被 | 被 | bèi | preposition | passive | |
-| 更 | 更 | gèng | adverb | comparative | |
-| 红 | 紅 | hóng | adjective | comparative | |
-| 的 | 的 | de | particle | | |
-| 火焰 | 火焰 | huǒyàn | noun | | |
-| 吞噬 | 吞噬 | tunshi | verb | present | |
-| ？ | ？ | | punctuation mark | | |
+| “ | “ | “ | punctuation |  | opening quotation mark |
+| 老 | 老 | lǎo | noun |  |  |
+| 师 | 師 | shī | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 是 | 是 | shì | verb | present |  |
+| 谁 | 誰 | shuí | pronoun |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 受 | 受 | shòu | verb | present |  |
+| 苦 | 苦 | kǔ | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 比 | 比 | bǐ | preposition |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 其 | 其 | qí | pronoun |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 同 | 同 | tóng | noun |  |  |
+| 伴 | 伴 | bàn | noun |  |  |
+| 抽 | 抽 | chōu | verb | present |  |
+| 搐 | 搐 | chù | verb | present |  |
+| 得 | 得 | de | verbal suffix |  |  |
+| 更 | 更 | gèng | comparative adverb |  |  |
+| 厉 | 厲 | lì | adjective |  |  |
+| 害 | 害 | hài | adjective |  |  |
+| ， | ， | , | punctuation |  |  |
+| ” | ” | ” | punctuation |  | closing quotation mark |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 说 | 說 | shuō | verb | present |  |
+| ， | ， | , | punctuation |  |  |
+| “ | “ | “ | punctuation |  | opening quotation mark |
+| 是 | 是 | shì | verb | present |  |
+| 谁 | 誰 | shuí | pronoun |  |  |
+| 被 | 被 | bèi | passive marker |  |  |
+| 更 | 更 | gèng | comparative adverb |  |  |
+| 红 | 紅 | hóng | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 火 | 火 | huǒ | noun |  |  |
+| 焰 | 焰 | yàn | noun |  |  |
+| 吞 | 吞 | tūn | verb | past |  |
+| 噬 | 噬 | shì | verb | past |  |
+| ？ | ？ | ? | punctuation |  | closing quotation mark |
 </result>
 </query>
 <query>
@@ -451,42 +596,42 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 他 | 他 | tā | pronoun | | |
-| 对 | 對 | duì | preposition | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 说 | 說 | shuō | verb | past | |
-| ： | ： | | punctuation mark | | |
-| 如果 | 如果 | rúguǒ | conjunction | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 想 | 想 | xiǎng | verb | present | |
-| 让 | 讓 | ràng | verb | present | |
-| 我 | 我 | wǒ | pronoun | | |
-| 带 | 帶 | dài | verb | present | |
-| 你 | 你 | nǐ | pronoun | | |
-| 到 | 到 | dào | preposition | | |
-| 那 | 那 | nà | demonstrative pronoun | | |
-| 更 | 更 | gèng | adverb | comparative | |
-| 低 | 低 | dī | adjective | comparative | |
-| 处 | 處 | chù | noun | | |
-| 的 | 的 | de | particle | | |
-| 悬崖 | 懸崖 | xuányá | noun | | |
-| 边 | 邊 | biān | noun | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 可以 | 可以 | kěyǐ | modal verb | present | |
-| 从 | 從 | cóng | preposition | | |
-| 他 | 他 | tā | pronoun | | |
-| 那里 | 那裡 | nàlǐ | adverb | | |
-| 了解 | 了解 | liǎojiě | verb | present | |
-| 到 | 到 | dào | verb | present | |
-| 他 | 他 | tā | pronoun | | |
-| 自己 | 自己 | zìjǐ | pronoun | | reflexive |
-| 和 | 和 | hé | conjunction | | |
-| 他 | 他 | tā | pronoun | | |
-| 所 | 所 | suǒ | particle | | |
-| 犯 | 犯 | fàn | verb | past | |
-| 下 | 下 | xià | verb | past | |
-| 的 | 的 | de | particle | | |
-| 罪行 | 罪行 | zuìxíng | noun | | |
+| 他 | 他 | tā | pronoun |  |  |
+| 对 | 對 | duì | preposition |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 说 | 說 | shuō | verb | past |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 想 | 想 | xiǎng | verb | present |  |
+| 让 | 讓 | ràng | verb | present |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 带 | 帶 | dài | verb | present |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 到 | 到 | dào | preposition |  |  |
+| 那 | 那 | nà | demonstrative pronoun |  |  |
+| 更 | 更 | gèng | adverb |  |  |
+| 低 | 低 | dī | adjective |  |  |
+| 处 | 處 | chù | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 悬 | 懸 | xuán | adjective |  |  |
+| 崖 | 崖 | yá | noun |  |  |
+| 边 | 邊 | biān | noun |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 可 | 可 | kě | modal verb |  |  |
+| 以 | 以 | yǐ | modal particle |  |  |
+| 从 | 從 | cóng | preposition |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 那里 | 那裡 | nàlì | adverb |  |  |
+| 了解 | 了解 | liǎojiě | verb | present |  |
+| 到 | 到 | dào | verb | present |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 和 | 和 | hé | conjunction |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 所 | 所 | suǒ | possessive pronoun |  |  |
+| 犯 | 犯 | fàn | verb | past |  |
+| 下 | 下 | xià | verb | past |  |
+| 的 | 的 | de | particle |  |  |
+| 罪 | 罪 | zuì | noun |  |  |
+| 行 | 行 | xíng | noun |  |  |
 </result>
 </query>
 <query>
@@ -501,38 +646,41 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 我 | 我 | wǒ | pronoun | | |
-| 说 | 說 | shuō | verb | present | |
-| ： | ： | | punctuation mark | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 愿意 | 願意 | yuànyì | verb | present | |
-| 做 | 做 | zuò | verb | present | |
-| 任何 | 任何 | rènhé | adjective | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 喜欢 | 喜歡 | xǐhuan | adjective | | |
-| 的 | 的 | de | particle | | |
-| 事 | 事 | shì | noun | | |
-| ： | ： | | punctuation mark | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 是 | 是 | shì | verb | present | |
-| 主人 | 主人 | zhǔrén | noun | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 知道 | 知道 | zhīdào | verb | present | |
-| 我 | 我 | wǒ | pronoun | | |
-| 不 | 不 | bù | adverb | | |
-| 会 | 會 | huì | auxiliary verb | future | |
-| 背离 | 背離 | bèilí | verb | future | |
-| 你的 | 你的 | nǐde | pronoun | | possessive |
-| 意愿 | 意願 | yìyuàn | noun | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 知道 | 知道 | zhīdào | verb | present | |
-| 我 | 我 | wǒ | pronoun | | |
-| 不 | 不 | bù | adverb | | |
-| 会 | 會 | huì | auxiliary verb | future | |
-| 说 | 說 | shuō | verb | future | |
-| 出口 | 出口 | chūkǒu | noun | | |
-| 的 | 的 | de | particle | | |
-| 话 | 話 | huà | noun | | |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 说 | 說 | shuō | verb | past |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 愿意 | 願意 | yuànyì | verb | present |  |
+| 做 | 做 | zuò | verb | present |  |
+| 任何 | 任何 | rènhé | pronoun |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 喜欢 | 喜歡 | xǐhuan | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 事 | 事 | shì | noun |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 是 | 是 | shì | verb | present |  |
+| 主 | 主 | zhǔ | noun |  |  |
+| 人 | 人 | rén | noun |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 知道 | 知道 | zhīdào | verb | present |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 不 | 不 | bù | negative particle |  |  |
+| 会 | 會 | huì | modal verb | future |  |
+| 背 | 背 | bèi | verb | future |  |
+| 离 | 離 | lí | verb | future |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 意 | 意 | yì | noun |  |  |
+| 愿 | 願 | yuàn | noun |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 知道 | 知道 | zhīdào | verb | present |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 不 | 不 | bù | negative particle |  |  |
+| 会 | 會 | huì | modal verb | future |  |
+| 说 | 說 | shuō | verb | future |  |
+| 出 | 出 | chū | verb | future |  |
+| 口 | 口 | kǒu | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 话 | 話 | huà | noun |  |  |
 </result>
 </query>
 <query>
@@ -547,31 +695,37 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 于是 | 於是 | yúshì | conjunction | | |
-| 我们 | 我們 | wǒmen | pronoun | | |
-| 来到 | 來到 | láidào | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 第四 | 第四 | dìsì | adjective | ordinal | |
-| 道 | 道 | dào | classifier | | |
-| 堤岸 | 堤岸 | dīàn | noun | | |
-| ； | ； | | punctuation mark | | |
-| 我们 | 我們 | wǒmen | pronoun | | |
-| 转过 | 轉過 | zhuǎnguò | verb | past | |
-| 身 | 身 | shēn | noun | | |
-| 沿着 | 沿著 | yánzhe | preposition | | |
-| 左手 | 左手 | zuǒshǒu | noun | | |
-| 边 | 邊 | biān | noun | | |
-| 向下 | 向下 | xiàngxià | adverb | | |
-| 走 | 走 | zǒu | verb | past | |
-| 来到 | 來到 | láidào | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 那 | 那 | nà | demonstrative pronoun | | |
-| 布满 | 布滿 | bùmǎn | verb | past | |
-| 洞穴 | 洞穴 | dòngxué | noun | | |
-| 和 | 和 | hé | conjunction | | |
-| 狭窄 | 狹窄 | xiázhǎi | adjective | | |
-| 的 | 的 | de | particle | | |
-| 底部 | 底部 | dǐbù | noun | | |
+| 于是 | 於是 | yúshì | conjunction |  |  |
+| 我们 | 我們 | w umschumen | pronoun |  |  |
+| 来 | 來 | lái | verb | past |  |
+| 到 | 到 | dào | preposition |  |  |
+| 第 | 第 | dì | numeral |  |  |
+| 四 | 四 | sì | numeral |  |  |
+| 道 | 道 | dào | noun |  |  |
+| 岸 | 岸 | àn | noun |  |  |
+| 我们 | 我們 | w umschumen | pronoun |  |  |
+| 转 | 轉 | zhuǎn | verb | past |  |
+| 过 | 過 | guò | verb | past |  |
+| 身 | 身 | shēn | noun |  |  |
+| 沿 | 沿 | yán | preposition |  |  |
+| 着 | 著 | zhuó | preposition |  |  |
+| 左 | 左 | zuǒ | adjective |  |  |
+| 手 | 手 | shǒu | noun |  |  |
+| 边 | 邊 | biān | noun |  |  |
+| 向 | 向 | xiàng | preposition |  |  |
+| 下 | 下 | xià | preposition |  |  |
+| 走 | 走 | zǒu | verb | past |  |
+| 来 | 來 | lái | verb | past |  |
+| 到 | 到 | dào | preposition |  |  |
+| 那 | 那 | nà | demonstrative pronoun |  |  |
+| 布 | 布 | bù | verb | past |  |
+| 满 | 滿 | mǎn | verb | past |  |
+| 洞 | 洞 | dòng | noun |  |  |
+| 穴 | 穴 | xué | noun |  |  |
+| 和 | 和 | hé | conjunction |  |  |
+| 狭 | 狹 | xiá | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 底 | 底 | dǐ | noun |  |  |
 </result>
 </query>
 <query>
@@ -579,40 +733,47 @@ Create a word table.
 <prompt>
 Create a word table.
 
-43 我仁慈的老师还没有把我从他的臀部放下，
-44 就带着我来到了那个用腿哭泣的人的断裂处。
+43 那位善良的导师仍然没有把我从他的臀部放下，
+44 他就这样带着我来到了
+45 那个用腿哀嚎的人的身边。
 </prompt>
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 我 | 我 | wǒ | pronoun | | |
-| 仁慈 | 仁慈 | réncí | adjective | | |
-| 的 | 的 | de | particle | | |
-| 老师 | 老師 | lǎoshī | noun | | |
-| 还 | 還 | hái | adverb | | |
-| 没有 | 沒有 | méiyǒu | verb | present | |
-| 把 | 把 | bǎ | preposition | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 从 | 從 | cóng | preposition | | |
-| 他 | 他 | tā | pronoun | | |
-| 的 | 的 | de | particle | | |
-| 臀部 | 臀部 | túnbù | noun | | |
-| 放下 | 放下 | fàngxià | verb | past | |
-| 就 | 就 | jiù | conjunction | | |
-| 带 | 帶 | dài | verb | past | |
-| 着 | 著 | zhe | aspect marker | present | |
-| 我 | 我 | wǒ | pronoun | | |
-| 来到 | 來到 | láidào | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 那个 | 那個 | nàge | demonstrative pronoun | | |
-| 用 | 用 | yòng | preposition | | |
-| 腿 | 腿 | tuǐ | noun | | |
-| 哭泣 | 哭泣 | kūqì | verb | present | |
-| 的 | 的 | de | particle | | |
-| 人 | 人 | rén | noun | | |
-| 的 | 的 | de | particle | | |
-| 断裂 | 斷裂 | duànliè | noun | | |
-| 处 | 處 | chù | noun | | |
+| 那 | 那 | nà | demonstrative pronoun |  |  |
+| 位 | 位 | wèi | classifier |  |  |
+| 善良 | 善良 | shànliáng | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 导师 | 導師 | dǎoshī | noun |  |  |
+| 仍然 | 仍然 | réngrán | adverb |  |  |
+| 没有 | 沒有 | méiyǒu | negative verb | present |  |
+| 把 | 把 | bǎ | particle |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 从 | 從 | cóng | preposition |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 臀 | 臀 | tún | noun |  |  |
+| 部 | 部 | bù | noun |  |  |
+| 放 | 放 | fàng | verb | past |  |
+| 下 | 下 | xià | verb | past |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 就 | 就 | jiù | adverb |  |  |
+| 这样 | 這樣 | zhèyàng | adverb |  |  |
+| 带 | 帶 | dài | verb | past |  |
+| 着 | 著 | zhuó | preposition |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 来 | 來 | lái | verb | past |  |
+| 到 | 到 | dào | preposition |  |  |
+| 那 | 那 | nà | demonstrative pronoun |  |  |
+| 个 | 個 | ge | classifier |  |  |
+| 用 | 用 | yòng | verb | present |  |
+| 腿 | 腿 | tuǐ | noun |  |  |
+| 哀 | 哀 | āi | verb | present |  |
+| 嚎 | 嚎 | háo | verb | present |  |
+| 的 | 的 | de | particle |  |  |
+| 人 | 人 | rén | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 身边 | 身邊 | shēnbiān | noun |  |  |
 </result>
 </query>
 <query>
@@ -627,33 +788,45 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 哦 | 哦 | ó | interjection | | |
-| 无论 | 無論 | wúlùn | conjunction | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 是 | 是 | shì | verb | present | |
-| 谁 | 誰 | shuí | interrogative pronoun | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 把 | 把 | bǎ | preposition | | |
-| 上面 | 上面 | shàngmiàn | noun | | |
-| 变成了 | 變成 | biànchéng | verb | past | |
-| 下面 | 下面 | xiàmiàn | noun | | |
-| 可怜 | 可憐 | kělián | adjective | | |
-| 的 | 的 | de | particle | | |
-| 灵魂 | 靈魂 | línghún | noun | | |
-| 就像 | 就像 | jiùxiàng | preposition | | |
-| 一根 | 一根 | yīgen | classifier | | |
-| 钉子 | 釘子 | dīngzi | noun | | |
-| 被 | 被 | bèi | preposition | passive | |
-| 钉住 | 釘住 | dīngzhù | verb | past | |
-| 一样 | 一樣 | yíyàng | adverb | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 开始 | 開始 | kāishǐ | verb | past | |
-| 说 | 說 | shuō | verb | past | |
-| 如果 | 如果 | rúguǒ | conjunction | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 能 | 能 | néng | modal verb | present | |
-| 请 | 請 | qǐng | verb | present | |
-| 说话 | 說話 | shuōhuà | verb | present | |
+| 哦 | 哦 | ó | interjection |  |  |
+| 无 | 無 | wú | negative pronoun |  |  |
+| 论 | 論 | lùn | conjunction |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 是 | 是 | shì | verb | present |  |
+| 谁 | 誰 | shuí | interrogative pronoun |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 把 | 把 | bǎ | particle |  |  |
+| 上 | 上 | shàng | preposition |  |  |
+| 面 | 面 | miàn | noun |  |  |
+| 变 | 變 | biàn | verb | past |  |
+| 成 | 成 | chéng | verb | past |  |
+| 下 | 下 | xià | preposition |  |  |
+| 面 | 面 | miàn | noun |  |  |
+| 可 | 可 | kě | modal verb |  |  |
+| 怜 | 憐 | lián | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 灵魂 | 靈魂 | línghún | noun |  |  |
+| 就 | 就 | jiù | adverb |  |  |
+| 像 | 像 | xiàng | preposition |  |  |
+| 一 | 一 | yī | numeral |  |  |
+| 根 | 根 | gēn | classifier |  |  |
+| 钉 | 釘 | dīng | noun |  |  |
+| 子 | 子 | zi | suffix |  |  |
+| 被 | 被 | bèi | passive particle |  |  |
+| 钉 | 釘 | dīng | verb | past |  |
+| 住 | 住 | zhù | verb | past |  |
+| 一 | 一 | yī | numeral |  |  |
+| 样 | 樣 | yàng | classifier |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 开始 | 開始 | kāishǐ | verb | past |  |
+| 说 | 說 | shuō | verb | past |  |
+| 如 | 如 | rú | conjunction |  |  |
+| 果 | 果 | guǒ | conjunction |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 能 | 能 | néng | modal verb | present |  |
+| 请 | 請 | qǐng | verb | present |  |
+| 说 | 說 | shuō | verb | present |  |
+| 话 | 話 | huà | noun |  |  |
 </result>
 </query>
 <query>
@@ -665,25 +838,45 @@ Create a word table.
 50 一个邪恶的刺客，当他被刺穿后，
 51 他会召回他，以便死亡停止。
 </prompt>
-<error>
-block_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: NEGLIGIBLE
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: HIGH
-}
+<error result="true">
+list index out of range
 </error>
+<result>
+| Word | Traditional | Pinyin | Part of Speech | Tense | Note |
+|---|---|---|---|---|---|
+| 我 | 我 | wǒ | pronoun |  |  |
+| 就 | 就 | jiù | adverb |  |  |
+| 像 | 像 | xiàng | preposition |  |  |
+| 一位 | 一位 | yīwèi | measure word |  |  |
+| 修士 | 修士 | xiūshì | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 正 | 正 | zhèng | adverb |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 告解 | 告解 | gàojiě | verb | present |  |
+| 一 | 一 | yī | numeral |  |  |
+| 个 | 個 | ge | measure word |  |  |
+| 邪恶 | 邪惡 | xiée | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 刺客 | 刺客 | cìkè | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 当 | 當 | dāng | conjunction |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 被 | 被 | bèi | passive voice marker |  |  |
+| 刺 | 刺 | cì | verb | past |  |
+| 穿 | 穿 | chuān | verb | past |  |
+| 后 | 後 | hòu | conjunction |  |  |
+| ， | ， | , | punctuation |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 会 | 會 | huì | modal verb |  |  |
+| 召 | 召 | zhào | verb | future |  |
+| 回 | 回 | huí | verb | future |  |
+| 他 | 他 | tā | pronoun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 以 | 以 | yǐ | preposition |  |  |
+| 便 | 便 | biàn | conjunction |  |  |
+| 死亡 | 死亡 | sǐwáng | noun |  |  |
+| 停止 | 停止 | tíngzhǐ | verb | future |  |
+</result>
 </query>
 <query>
 <info>[Inferno Canto 19] 52/133</info>
@@ -697,31 +890,44 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 他 | 他 | tā | pronoun | | |
-| 喊道 | 喊道 | hǎndiào | verb | past | |
-| 你 | 你 | nǐ | pronoun | | |
-| 已经 | 已經 | yǐjīng | adverb | present perfect | |
-| 站 | 站 | zhàn | verb | present perfect | |
-| 在 | 在 | zài | preposition | | |
-| 这里 | 這裡 | zhèlǐ | adverb | | |
-| 了 | 了 | le | particle | past | |
-| 吗 | 嗎 | ma | particle | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 已经 | 已經 | yǐjīng | adverb | present perfect | |
-| 站 | 站 | zhàn | verb | present perfect | |
-| 在 | 在 | zài | preposition | | |
-| 这里 | 這裡 | zhèlǐ | adverb | | |
-| 了 | 了 | le | particle | past | |
-| 吗 | 嗎 | ma | particle | | |
-| 博尼法斯 | 博尼法斯 | Bónǐfǎsī | noun | | |
-| 这 | 這 | zhè | demonstrative pronoun | | |
-| 份 | 份 | fèn | measure word | | |
-| 文件 | 文件 | wénjiàn | noun | | |
-| 骗 | 騙 | piàn | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 我 | 我 | wǒ | pronoun | | |
-| 很多 | 很多 | hěnduō | adjective | | |
-| 年 | 年 | nián | noun | | |
+| 他 | 他 | tā | pronoun |  |  |
+| 喊 | 喊 | hǎn | verb | past |  |
+| 道 | 道 | dào | particle |  |  |
+| ： | ： | : | punctuation |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 已 | 已 | yǐ | aspect marker | perfect |  |
+| 经 | 經 | jīng | aspect marker | perfect |  |
+| 站 | 站 | zhàn | verb | present |  |
+| 在 | 在 | zài | preposition |  |  |
+| 这 | 這 | zhè | demonstrative pronoun |  |  |
+| 里 | 裡 | lǐ | place |  |  |
+| 了 | 了 | le | particle | past |  |
+| 吗 | 嗎 | ma | question particle |  |  |
+| ， | ， | , | punctuation |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 已 | 已 | yǐ | aspect marker | perfect |  |
+| 经 | 經 | jīng | aspect marker | perfect |  |
+| 站 | 站 | zhàn | verb | present |  |
+| 在 | 在 | zài | preposition |  |  |
+| 这 | 這 | zhè | demonstrative pronoun |  |  |
+| 里 | 裡 | lǐ | place |  |  |
+| 了 | 了 | le | particle | past |  |
+| 吗 | 嗎 | ma | question particle |  |  |
+| ， | ， | , | punctuation |  |  |
+| 博 | 博 | bó | surname |  |  |
+| 尼 | 尼 | ní | surname |  |  |
+| 法 | 法 | fǎ | surname |  |  |
+| 斯 | 斯 | sī | surname |  |  |
+| ？ | ？ | ? | punctuation |  |  |
+| 这 | 這 | zhè | demonstrative pronoun |  |  |
+| 份 | 份 | fèn | measure word |  |  |
+| 文件 | 文件 | wénjiàn | noun |  |  |
+| 骗 | 騙 | piàn | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 很 | 很 | hěn | adverb |  |  |
+| 多 | 多 | duō | adjective |  |  |
+| 年 | 年 | nián | noun |  |  |
 </result>
 </query>
 <query>
@@ -736,35 +942,45 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 你 | 你 | nǐ | pronoun | | |
-| 已经 | 已經 | yǐjīng | adverb | present perfect | |
-| 厌倦 | 厭倦 | yànjuàn | verb | present perfect | |
-| 了 | 了 | le | particle | past | |
-| 那些 | 那些 | nàxiē | demonstrative pronoun | | |
-| 财富 | 財富 | cáifù | noun | | |
-| 为了 | 為了 | wèile | preposition | | |
-| 得到 | 得到 | dédào | verb | infinitive | |
-| 那些 | 那些 | nàxiē | demonstrative pronoun | | |
-| 财富 | 財富 | cáifù | noun | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 不惜 | 不惜 | bùxī | verb | | archaic |
-| 用 | 用 | yòng | verb | | |
-| 欺骗 | 欺騙 | qīpiàn | noun | | |
-| 的 | 的 | de | particle | | |
-| 手段 | 手段 | shǒuduàn | noun | | |
-| 夺取 | 奪取 | duóqǔ | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 那个 | 那個 | nàge | demonstrative pronoun | | |
-| 美丽 | 美麗 | měilì | adjective | | |
-| 的 | 的 | de | particle | | |
-| 女人 | 女人 | nǚrén | noun | | |
-| 然后 | 然後 | ránhòu | conjunction | | |
-| 对 | 對 | duì | preposition | | |
-| 她 | 她 | tā | pronoun | | |
-| 施 | 施 | shī | verb | past | |
-| 以 | 以 | yǐ | preposition | | |
-| 暴行 | 暴行 | bàoxíng | noun | | |
-| 吗 | 嗎 | ma | particle | | |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 已 | 已 | yǐ | aspect marker | perfect |  |
+| 经 | 經 | jīng | aspect marker | perfect |  |
+| 厌 | 厭 | yàn | verb | present |  |
+| 倦 | 倦 | juàn | verb | present |  |
+| 了 | 了 | le | particle | past |  |
+| 那些 | 那些 | nàxiē | demonstrative pronoun |  | plural |
+| 财富 | 財富 | cáifù | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 为 | 為 | wèi | preposition |  |  |
+| 了 | 了 | le | particle |  |  |
+| 得 | 得 | dé | verb |  |  |
+| 到 | 到 | dào | verb |  |  |
+| 那些 | 那些 | nàxiē | demonstrative pronoun |  | plural |
+| 财富 | 財富 | cáifù | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 不 | 不 | bù | negative adverb |  |  |
+| 惜 | 惜 | xī | verb |  |  |
+| 用 | 用 | yòng | verb |  |  |
+| 欺骗 | 欺騙 | qīpiàn | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 手段 | 手段 | shǒuduàn | noun |  |  |
+| 夺 | 奪 | duó | verb | past |  |
+| 取 | 取 | qǔ | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 那个 | 那個 | nàge | demonstrative pronoun |  |  |
+| 美丽 | 美麗 | měilì | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 女人 | 女人 | nǚrén | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 然后 | 然後 | ránhòu | conjunction |  |  |
+| 对 | 對 | duì | preposition |  |  |
+| 她 | 她 | tā | pronoun |  |  |
+| 施 | 施 | shī | verb | past |  |
+| 以 | 以 | yǐ | preposition |  |  |
+| 暴行 | 暴行 | bàoxíng | noun |  |  |
+| 吗 | 嗎 | ma | question particle |  |  |
+| ？ | ？ | ? | punctuation |  |  |
 </result>
 </query>
 <query>
@@ -779,29 +995,35 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 我 | 我 | wǒ | pronoun | | |
-| 就 | 就 | jiù | adverb | | |
-| 像 | 像 | xiàng | preposition | | |
-| 那些 | 那些 | nàxiē | demonstrative pronoun | | |
-| 人 | 人 | rén | noun | | |
-| 一样 | 一樣 | yīyàng | adverb | | |
-| 因为 | 因為 | yīnwèi | conjunction | | |
-| 听 | 聽 | tīng | verb | present | |
-| 不懂 | 不懂 | bùdǒng | verb | present | |
-| 别人 | 別人 | biérén | pronoun | | |
-| 对 | 對 | duì | preposition | | |
-| 他们 | 他們 | tāmen | pronoun | | |
-| 说 | 說 | shuō | verb | present | |
-| 的 | 的 | de | particle | | |
-| 话 | 話 | huà | noun | | |
-| 几乎 | 幾乎 | jīhū | adverb | | |
-| 被 | 被 | bèi | preposition | passive voice | |
-| 嘲笑 | 嘲笑 | cháoxiào | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 却 | 卻 | què | conjunction | | |
-| 不知道 | 不知道 | bùzhīdào | verb | present | |
-| 如何 | 如何 | rúhé | adverb | | |
-| 回答 | 回答 | huídá | verb | infinitive | |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 就 | 就 | jiù | adverb |  |  |
+| 像 | 像 | xiàng | preposition |  |  |
+| 那些 | 那些 | nàxiē | demonstrative pronoun |  | plural |
+| 人 | 人 | rén | noun |  |  |
+| 一 | 一 | yī | numeral |  |  |
+| 样 | 樣 | yàng | measure word |  |  |
+| ， | ， | , | punctuation |  |  |
+| 因为 | 因為 | yīnwèi | conjunction |  |  |
+| 听 | 聽 | tīng | verb | present |  |
+| 不 | 不 | bù | negative adverb |  |  |
+| 懂 | 懂 | dǒng | verb | present |  |
+| 别人 | 別人 | biérén | pronoun |  |  |
+| 对 | 對 | duì | preposition |  |  |
+| 他们 | 他們 | tāmen | pronoun |  | plural |
+| 说 | 說 | shuō | verb | present |  |
+| 的 | 的 | de | particle |  |  |
+| 话 | 話 | huà | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 几乎 | 幾乎 | jīhū | adverb |  |  |
+| 被 | 被 | bèi | passive voice marker |  |  |
+| 嘲笑 | 嘲笑 | cháoxiào | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| ， | ， | , | punctuation |  |  |
+| 却 | 卻 | què | conjunction |  |  |
+| 不 | 不 | bù | negative adverb |  |  |
+| 知道 | 知道 | zhīdào | verb | present |  |
+| 如何 | 如何 | rúhé | adverb |  |  |
+| 回答 | 回答 | huídá | verb | present |  |
 </result>
 </query>
 <query>
@@ -816,34 +1038,44 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 于是 | 於是 | yúshì | conjunction | | |
-| 维吉尔 | 維吉爾 | Wéijílǐ | noun | | |
-| 说 | 說 | shuō | verb | past | |
-| 快点 | 快點 | kuàidiǎn | adverb | | |
-| 告诉 | 告訴 | gàosu | verb | imperative | |
-| 他 | 他 | tā | pronoun | | |
-| ： | ： | : | punctuation mark | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 不是 | 不是 | bùshì | verb | present | |
-| 你 | 你 | nǐ | pronoun | | |
-| 认为 | 認為 | rènwéi | verb | present | |
-| 的 | 的 | de | particle | | |
-| 那个人 | 那個人 | nàge rén | pronoun | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 不是 | 不是 | bùshì | verb | present | |
-| 你 | 你 | nǐ | pronoun | | |
-| 认为 | 認為 | rènwéi | verb | present | |
-| 的 | 的 | de | particle | | |
-| 那个人 | 那個人 | nàge rén | pronoun | | |
-| ’ | ’ | ' | punctuation mark | | |
-| ； | ； | ; | punctuation mark | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 按照 | 按照 | ànzhao | preposition | | |
-| 他 | 他 | tā | pronoun | | |
-| 的 | 的 | de | particle | | |
-| 吩咐 | 吩咐 | fēnfù | noun | | |
-| 回答 | 回答 | huídá | verb | past | |
-| 道 | 道 | dào | particle | | |
+| 于是 | 於是 | yúshì | conjunction |  |  |
+| 维吉尔 | 維吉爾 | wéijíl | noun |  |  |
+| 说 | 說 | shuō | verb | past |  |
+| ： | ： | : | punctuation |  |  |
+| “ | “ |  | punctuation |  | opening quotation mark |
+| 快 | 快 | kuài | adverb |  |  |
+| 点 | 點 | diǎn | adverb |  |  |
+| 告诉 | 告訴 | gàosu | verb | imperative |  |
+| 他 | 他 | tā | pronoun |  |  |
+| ： | ： | : | punctuation |  |  |
+| ‘ | ‘ |  | punctuation |  | opening quotation mark |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 不 | 不 | bù | negative adverb |  |  |
+| 是 | 是 | shì | verb | present |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 认为 | 認為 | rènwéi | verb | present |  |
+| 的 | 的 | de | particle |  |  |
+| 那个 | 那個 | nàge | demonstrative pronoun |  |  |
+| 人 | 人 | rén | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 不 | 不 | bù | negative adverb |  |  |
+| 是 | 是 | shì | verb | present |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 认为 | 認為 | rènwéi | verb | present |  |
+| 的 | 的 | de | particle |  |  |
+| 那个 | 那個 | nàge | demonstrative pronoun |  |  |
+| 人 | 人 | rén | noun |  |  |
+| ’ | ’ |  | punctuation |  | closing quotation mark |
+| ” | ” |  | punctuation |  | closing quotation mark |
+| ； | ； | ; | punctuation |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 按照 | 按照 | ànzhao | preposition |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 吩咐 | 吩咐 | fēnfù | noun |  |  |
+| 回答 | 回答 | huídá | verb | past |  |
+| 道 | 道 | dào | particle |  |  |
 </result>
 </query>
 <query>
@@ -858,30 +1090,38 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 于是 | 於是 | yúshì | conjunction | | |
-| 那个 | 那個 | nàge | demonstrative pronoun | | |
-| 灵魂 | 靈魂 | línghún | noun | | |
-| 扭动 | 扭動 | niǔdòng | verb | present | |
-| 着 | 著 | zhe | aspect marker | present progressive | |
-| 他 | 他 | tā | pronoun | | |
-| 的 | 的 | de | particle | | |
-| 双脚 | 雙腳 | shuāngjiǎo | noun | | |
-| 然后 | 然後 | ránhòu | conjunction | | |
-| 他 | 他 | tā | pronoun | | |
-| 叹息 | 嘆息 | tànxī | verb | present | |
-| 着 | 著 | zhe | aspect marker | present progressive | |
-| 用 | 用 | yòng | verb | present | |
-| 哭泣 | 哭泣 | kūqì | noun | | |
-| 的 | 的 | de | particle | | |
-| 声音 | 聲音 | shēngyīn | noun | | |
-| 对 | 對 | duì | preposition | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 说 | 說 | shuō | verb | past | |
-| 那么 | 那麼 | nàme | adverb | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 问 | 問 | wèn | verb | past | |
-| 我 | 我 | wǒ | pronoun | | |
-| 什么 | 什麼 | shénme | pronoun | | |
+| 于是 | 於是 | yúshì | conjunction |  |  |
+| 那个 | 那個 | nàge | demonstrative pronoun |  |  |
+| 灵魂 | 靈魂 | línghún | noun |  |  |
+| 扭动 | 扭動 | niǔdòng | verb | present |  |
+| 着 | 著 | zhe | aspect marker | progressive |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 双 | 雙 | shuāng | measure word |  |  |
+| 脚 | 腳 | jiǎo | noun |  |  |
+| ； | ； | ; | punctuation |  |  |
+| 然后 | 然後 | ránhòu | conjunction |  |  |
+| ， | ， | , | punctuation |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 叹息 | 嘆息 | tànxī | verb | present |  |
+| 着 | 著 | zhe | aspect marker | progressive |  |
+| ， | ， | , | punctuation |  |  |
+| 用 | 用 | yòng | verb | present |  |
+| 哭泣 | 哭泣 | kūqì | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 声音 | 聲音 | shēngyīn | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 对 | 對 | duì | preposition |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 说 | 說 | shuō | verb | past |  |
+| ： | ： | : | punctuation |  |  |
+| “ | “ |  | punctuation |  | opening quotation mark |
+| 那么 | 那麼 | nàme | adverb |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 问 | 問 | wèn | verb | present |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 什么 | 什麼 | shénme | pronoun |  |  |
+| ？ | ？ | ? | punctuation |  | closing quotation mark |
 </result>
 </query>
 <query>
@@ -896,26 +1136,37 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 如果 | 如果 | rúguǒ | conjunction | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 如此 | 如此 | rúchǐ | adverb | | |
-| 渴望 | 渴望 | kěwàng | verb | present | |
-| 知道 | 知道 | zhīdào | verb | present | |
-| 我 | 我 | wǒ | pronoun | | |
-| 是 | 是 | shì | verb | present | |
-| 谁 | 誰 | shuí | pronoun | | |
-| 以至于 | 以至於 | yǐzhìyú | conjunction | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 为此 | 為此 | wèicǐ | preposition | | |
-| 走遍 | 走遍 | zǒubiàn | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 悬崖 | 懸崖 | xuányá | noun | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 要知道 | 要知道 | yàozhīdào | verb | imperative | |
-| 我 | 我 | wǒ | pronoun | | |
-| 曾 | 曾 | céng | adverb | past | |
-| 身披 | 身披 | shēnpī | verb | past | |
-| 大红袍 | 大紅袍 | dàhóngpáo | noun | | |
+| 如果 | 如果 | rúguǒ | conjunction |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 如此 | 如此 | rúcǐ | adverb |  |  |
+| 渴望 | 渴望 | kěwàng | verb | present |  |
+| 知道 | 知道 | zhīdào | verb | present |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 是 | 是 | shì | verb | present |  |
+| 谁 | 誰 | shuí | pronoun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 以 | 以 | yǐ | preposition |  |  |
+| 至于 | 至於 | zhìyú | conjunction |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 为 | 為 | wèi | preposition |  |  |
+| 此 | 此 | cǐ | pronoun |  |  |
+| 走 | 走 | zǒu | verb | past |  |
+| 遍 | 遍 | biàn | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 悬崖 | 懸崖 | xuányá | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 要 | 要 | yào | modal verb |  |  |
+| 知道 | 知道 | zhīdào | verb | imperative |  |
+| ， | ， | , | punctuation |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 曾 | 曾 | céng | adverb | past |  |
+| 身 | 身 | shēn | noun |  |  |
+| 披 | 披 | pī | verb | past |  |
+| 大 | 大 | dà | adjective |  |  |
+| 红 | 紅 | hóng | adjective |  |  |
+| 袍 | 袍 | páo | noun |  |  |
+| ； | ； | ; | punctuation |  |  |
 </result>
 </query>
 <query>
@@ -930,33 +1181,44 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 我 | 我 | wǒ | pronoun | | |
-| 确实是 | 確實是 | quèshìshì | adverb | | |
-| 母熊 | 母熊 | mǔxióng | noun | | |
-| 的 | 的 | de | particle | | |
-| 儿子 | 兒子 | érzi | noun | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 非常 | 非常 | fēicháng | adverb | | |
-| 贪婪 | 貪婪 | tānlan | adjective | | |
-| 为了 | 為了 | wèile | preposition | | |
-| 让 | 讓 | ràng | verb | infinitive | |
-| 小熊 | 小熊 | xiǎoxióng | noun | | |
-| 们 | 們 | men | particle | | plural marker |
-| 过上 | 過上 | guòshàng | verb | infinitive | |
-| 更好的 | 更好的 | gèng hǎo de | adjective | comparative | |
-| 生活 | 生活 | shēnghuó | noun | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 把 | 把 | bǎ | verb | | |
-| 钱财 | 錢財 | qiáncái | noun | | |
-| 装进 | 裝進 | zhuāngjìn | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 自己 | 自己 | zìjǐ | pronoun | | |
-| 的 | 的 | de | particle | | |
-| 口袋 | 口袋 | kǒudài | noun | | |
-| 也 | 也 | yě | conjunction | | |
-| 装进 | 裝進 | zhuāngjìn | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 这里 | 這裡 | zhèlǐ | adverb | | |
+| 我 | 我 | w黴 | pronoun |  |  |
+| 确 | 確 | què | auxiliary verb |  |  |
+| 实 | 寔 | shí | auxiliary verb |  |  |
+| 是 | 是 | shì | verb | present |  |
+| 母 | 母 | mŭ | noun |  |  |
+| 熊 | 熊 | xióng | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 儿子 | 兒子 | érzi | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 我 | 我 | w黴 | pronoun |  |  |
+| 非常 | 非常 | fēicháng | adjective |  |  |
+| 凶 | 凶 | xiōng | adjective |  |  |
+| ， | ， | , | punctuation |  |  |
+| 为 | 為 | wèi | preposition |  |  |
+| 了 | 了 | le | particle |  |  |
+| 让 | 讓 | ràng | verb |  |  |
+| 小 | 小 | xiǎo | adjective |  |  |
+| 熊 | 熊 | xióng | noun |  |  |
+| 们 | 們 | men | suffix |  | plural |
+| 过 | 過 | guò | verb |  |  |
+| 上 | 上 | shàng | preposition |  |  |
+| 更 | 更 | gèng | adjective |  | comparative |
+| 好 | 好 | hǎo | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 生活 | 生活 | shēnghuó | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 我 | 我 | w黴 | pronoun |  |  |
+| 把 | 把 | bǎ | verb |  |  |
+| 钱 | 錢 | qián | noun |  |  |
+| 财 | 財 | cái | noun |  |  |
+| 装 | 裝 | zhuāng | verb | past |  |
+| 自己的 | 自己的 | zìjǐde | pronoun |  |  |
+| 口袋 | 口袋 | kǒudài | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 也 | 也 | yě | conjunction |  |  |
+| 装 | 裝 | zhuāng | verb | past |  |
+| 这里 | 這裡 | zhèlῖ | place |  |  |
+| 。 | 。 | . | punctuation |  | period |
 </result>
 </query>
 <query>
@@ -971,27 +1233,32 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 在 | 在 | zài | preposition | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 的 | 的 | de | particle | | |
-| 脚下 | 腳下 | jiǎoxià | noun | | |
-| 还有 | 還有 | háiyǒu | adverb | | |
-| 其他 | 其他 | qítā | adjective | | |
-| 人 | 人 | rén | noun | | |
-| 在 | 在 | zài | preposition | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 之前 | 之前 | zhīqián | adverb | | |
-| 犯下 | 犯下 | fànxià | verb | past | |
-| 买卖 | 買賣 | mǎimài | noun | | |
-| 圣职 | 聖職 | shèngzhí | noun | | |
-| 罪 | 罪 | zuì | noun | | |
-| 他们 | 他們 | tāmen | pronoun | | |
-| 平躺 | 平躺 | píngtǎng | verb | present | |
-| 在 | 在 | zài | preposition | | |
-| 岩石 | 岩石 | yánshí | noun | | |
-| 的 | 的 | de | particle | | |
-| 裂缝 | 裂縫 | lièfèng | noun | | |
-| 中 | 中 | zhōng | preposition | | |
+| 在 | 在 | zài | preposition |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 脚下 | 腳下 | jiǎoxià | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 还 | 還 | hái | adverb |  |  |
+| 有 | 有 | yǒu | verb | present |  |
+| 其他 | 其他 | qítā | adjective |  |  |
+| 人 | 人 | rén | noun |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 之前 | 之前 | zhīqián | noun |  |  |
+| 犯 | 犯 | fàn | verb | past |  |
+| 下 | 下 | xià | verb | past |  |
+| 买卖 | 買賣 | mǎimài | noun |  |  |
+| 圣职 | 聖職 | shèngzhí | noun |  |  |
+| 罪 | 罪 | zuì | noun |  |  |
+| ， | ， | , | punctuation |  |  |
+| 他们 | 他們 | tāmen | pronoun |  | plural |
+| 平 | 平 | píng | adverb |  |  |
+| 躺 | 躺 | tǎng | verb | present |  |
+| 在 | 在 | zài | preposition |  |  |
+| 岩石 | 岩石 | yánshí | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 裂缝 | 裂縫 | lièfèng | noun |  |  |
+| 中 | 中 | zhōng | preposition |  |  |
 </result>
 </query>
 <query>
@@ -999,34 +1266,39 @@ Create a word table.
 <prompt>
 Create a word table.
 
-76 当我相信你就是他时，我也会掉到那里，
-78 那时我突然问了你这个问题。
+76 我也会掉到那里，
+77 当我以为是你的人出现时，
+78 那时我突然发问。
 </prompt>
 <result>
-| Word | Traditional | Pinyin | Part of Speech | Tense | Note |
-|---|---|---|---|---|---|
-| 当 | 當 | dāng | conjunction | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 相信 | 相信 | xiāngxìn | verb | past | |
-| 你 | 你 | nǐ | pronoun | | |
-| 就是 | 就是 | jiùshì | verb | present | |
-| 他 | 他 | tā | pronoun | | |
-| 时 | 時 | shí | noun | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 也 | 也 | yě | conjunction | | |
-| 会 | 會 | huì | auxiliary verb | future | |
-| 掉 | 掉 | diào | verb | future | |
-| 到 | 到 | dào | preposition | | |
-| 那里 | 那裡 | nàlǐ | adverb | | |
-| 那 | 那 | nà | demonstrative pronoun | | |
-| 时 | 時 | shí | noun | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 突然 | 突然 | tūrán | adverb | | |
-| 问 | 問 | wèn | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 你 | 你 | nǐ | pronoun | | |
-| 这个 | 這個 | zhège | demonstrative pronoun | | |
-| 问题 | 問題 | wèntí | noun | | |
+epsfig Word | Traditional | Pinyin | Part of Speech | 庸 | Note |
+庸庸庸
+庸 我 | 我 | wǒ | pronoun |  庸  庸
+庸 也 | 也 | yě | conjunction |  庸  庸
+庸 会 | 会 | huì | modal verb |  庸  庸
+庸 在 | 在 | zài | preposition |  庸  庸
+庸 那 | 那 | nà | demonstrative pronoun |  庸  庸
+庸 里 | 里 | lǐ | measure word |  庸  庸
+庸 ， | ， | , | punctuation |  庸  庸
+庸 当 | 当 | dāng | conjunction |  庸  庸
+庸 你 | 你 | nǐ | pronoun |  庸  庸
+庸 以 | 以 | yǐ | preposition |  庸  庸
+庸 为 | 为 | wéi | preposition |  庸  庸
+庸 是 | 是 | shì | verb | present |  庸  庸
+庸 你 | 你 | nǐ | pronoun |  庸  庸
+庸 的 | 的 | de | particle |  庸  庸
+庸 人 | 人 | rén | noun |  庸  庸
+庸 出 | 出 | chū | verb | present |  庸  庸
+庸 现 | 现 | xiàn | verb | present |  庸  庸
+庸 时 | 时 | shí | measure word |  庸  庸
+庸 ， | ， | , | punctuation |  庸  庸
+庸 那 | 那 | nà | demonstrative pronoun |  庸  庸
+庸 就 | 就 | jiù | particle |  庸  庸
+庸 忽 | 忽 | hū | verb | present |  庸  庸
+庸 然 | 然 | rán | conjunction |  庸  庸
+庸 惊 | 惊 | jīng | verb | past |  庸  庸
+庸 起 | 起 | qǐ | verb | past |  庸  庸
+庸 来 | 来 | lái | verb | past |  庸  庸
 </result>
 </query>
 <query>
@@ -1041,28 +1313,39 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 但 | 但 | dàn | conjunction | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 已经 | 已經 | yǐjīng | adverb | present perfect | |
-| 在这里 | 在這裡 | zhèlǐ | adverb | | |
-| 被 | 被 | bèi | preposition | passive voice | |
-| 烤 | 烤 | kǎo | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 很长时间 | 很長時間 | hěn cháng shíjiān | adverb | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 已经 | 已經 | yǐjīng | adverb | present perfect | |
-| 倒吊 | 倒吊 | dǎodiào | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 很长时间 | 很長時間 | hěn cháng shíjiān | adverb | | |
-| 以至于 | 以至於 | yǐzhìyú | conjunction | | |
-| 他 | 他 | tā | pronoun | | |
-| 不会 | 不會 | bù huì | verb | future | |
-| 再 | 再 | zài | adverb | | |
-| 站 | 站 | zhàn | verb | future | |
-| 在这里 | 在這裡 | zhèlǐ | adverb | | |
-| 双脚 | 雙腳 | shuāngjiǎo | noun | | |
-| 通红 | 通紅 | tōnghóng | adjective | | |
-| ： | ： | : | punctuation mark | | |
+| 但 | 但 | dàn | conjunction |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 已经 | 已經 | yǐjīng | adverb |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 这里 | 這裡 | zhèlǐ | adverb |  |  |
+| 被 | 被 | bèi | preposition | passive voice |  |
+| 烤 | 烤 | kǎo | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 很 | 很 | hěn | adverb |  |  |
+| 长 | 長 | cháng | adjective |  |  |
+| 时间 | 時間 | shíjiān | noun |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 已经 | 已經 | yǐjīng | adverb |  |  |
+| 倒 | 倒 | dào | verb | past |  |
+| 吊 | 吊 | diào | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 很 | 很 | hěn | adverb |  |  |
+| 长 | 長 | cháng | adjective |  |  |
+| 时间 | 時間 | shíjiān | noun |  |  |
+| 以 | 以 | yǐ | preposition |  |  |
+| 至 | 至 | zhì | conjunction |  |  |
+| 于 | 於 | yú | preposition |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 不 | 不 | bù | adverb |  |  |
+| 会 | 會 | huì | auxiliary verb |  |  |
+| 再 | 再 | zài | adverb |  |  |
+| 站 | 站 | zhàn | verb |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 这里 | 這裡 | zhèlǐ | adverb |  |  |
+| 双 | 雙 | shuāng | adjective |  |  |
+| 脚 | 腳 | jiǎo | noun |  |  |
+| 通 | 通 | tōng | adjective |  |  |
+| 红 | 紅 | hóng | adjective |  |  |
 </result>
 </query>
 <query>
@@ -1077,33 +1360,33 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 因为 | 因為 | yīnwèi | conjunction | | |
-| 在 | 在 | zài | preposition | | |
-| 他 | 他 | tā | pronoun | | |
-| 之后 | 之後 | zhīhòu | noun | | |
-| 会 | 會 | huì | auxiliary verb | future | |
-| 有 | 有 | yǒu | verb | future | |
-| 更 | 更 | gèng | adverb | | |
-| 丑陋 | 醜陋 | chǒulòu | adjective | | |
-| 的 | 的 | de | particle | | |
-| 事情 | 事情 | shìqíng | noun | | |
-| 发生 | 發生 | fāshēng | verb | future | |
-| 来自 | 來自 | láizì | preposition | | |
-| 真正 | 真正 | zhēnzhèng | adjective | | |
-| 的 | 的 | de | particle | | |
-| 西方 | 西方 | xīfāng | noun | | |
-| 一个 | 一個 | yīgè | pronoun | | |
-| 无法无天 | 无法无天 | wúfǎwútiān | adjective | | |
-| 的 | 的 | de | particle | | |
-| 牧师 | 牧師 | mùshī | noun | | |
-| 他 | 他 | tā | pronoun | | |
-| 会 | 會 | huì | auxiliary verb | future | |
-| 把 | 把 | bǎ | preposition | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 和 | 和 | hé | conjunction | | |
-| 他 | 他 | tā | pronoun | | |
-| 都 | 都 | dōu | adverb | | |
-| 掩埋 | 掩埋 | yǎnmái | verb | future | |
+| 因为 | 因為 | yīnwèi | conjunction |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 之后 | 之後 | zhīhòu | noun |  |  |
+| 会 | 會 | huì | auxiliary verb | future |  |
+| 有 | 有 | yǒu | verb | future |  |
+| 更 | 更 | gèng | adverb |  |  |
+| 丑陋 | 醜陋 | chǒulòu | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 事情 | 事情 | shìqíng | noun |  |  |
+| 发生 | 發生 | fāshēng | verb | future |  |
+| 来自 | 來自 | láizì | preposition |  |  |
+| 真正 | 真正 | zhēnzhèng | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 西方 | 西方 | xīfāng | noun |  |  |
+| 一个 | 一個 | yīgè | indefinite pronoun |  |  |
+| 无法无天 | 无法无天 | wúfǎwútiān | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 牧师 | 牧師 | mùshī | noun |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 会 | 會 | huì | auxiliary verb | future |  |
+| 把 | 把 | bǎ | preposition |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 和 | 和 | hé | conjunction |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 都 | 都 | dōu | adverb |  |  |
+| 掩埋 | 掩埋 | yǎnmái | verb | future |  |
 </result>
 </query>
 <query>
@@ -1118,34 +1401,34 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 他 | 他 | tā | pronoun | | |
-| 将 | 將 | jiāng | auxiliary verb | future | |
-| 是 | 是 | shì | verb | future | |
-| 新的 | 新的 | xīnde | adjective | | |
-| 伊阿宋 | 伊阿宋 | Yī'āsòng | noun | | |
-| 人们 | 人們 | rénmen | pronoun | | |
-| 在 | 在 | zài | preposition | | |
-| 《马加比书》 | 《馬加比書》 | Mǎjiābǐshū | noun | | |
-| 中 | 中 | zhōng | preposition | | |
-| 读 | 讀 | dú | verb | past | |
-| 到 | 到 | dào | verb | past | |
-| 过 | 過 | guò | aspect particle | past | |
-| 他 | 他 | tā | pronoun | | |
-| 就 | 就 | jiù | adverb | | |
-| 像 | 像 | xiàng | preposition | | |
-| 那个 | 那個 | nàge | pronoun | | |
-| 国王 | 國王 | guówáng | noun | | |
-| 对 | 對 | duì | preposition | | |
-| 伊阿宋 | 伊阿宋 | Yī'āsòng | noun | | |
-| 软弱 | 軟弱 | ruǎnruò | adjective | | |
-| 一样 | 一樣 | yīyàng | adverb | | |
-| 法国 | 法國 | Fàguó | noun | | |
-| 统治者 | 統治者 | tǒngzhìzhě | noun | | |
-| 也 | 也 | yě | adverb | | |
-| 会 | 會 | huì | auxiliary verb | future | |
-| 对 | 對 | duì | preposition | | |
-| 他 | 他 | tā | pronoun | | |
-| 软弱 | 軟弱 | ruǎnruò | adjective | future | |
+| 他 | 他 | tā | pronoun |  |  |
+| 将 | 將 | jiāng | auxiliary verb | future |  |
+| 是 | 是 | shì | verb | future |  |
+| 新 | 新 | xīn | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 伊阿宋 | 伊阿宋 | yī'àsòng | noun |  |  |
+| 人们 | 人們 | rénmen | pronoun |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 《马加比书》 | 《馬加比書》 | mǎjiābìshū | noun |  |  |
+| 中 | 中 | zhōng | preposition |  |  |
+| 读 | 讀 | dú | verb | past |  |
+| 到 | 到 | dào | verb | past |  |
+| 过 | 過 | guo | adverb |  |  |
+| 就 | 就 | jiù | conjunction |  |  |
+| 像 | 像 | xiàng | preposition |  |  |
+| 那个 | 那個 | nàge | demonstrative pronoun |  |  |
+| 国王 | 國王 | guówáng | noun |  |  |
+| 对 | 對 | duì | preposition |  |  |
+| 伊阿宋 | 伊阿宋 | yī'àsòng | noun |  |  |
+| 软弱 | 軟弱 | ruǎnruò | adjective |  |  |
+| 一样 | 一樣 | yīyàng | adverb |  |  |
+| 法国 | 法國 | fàguó | noun |  |  |
+| 统治者 | 統治者 | tǒngzhìzhě | noun |  |  |
+| 也 | 也 | yě | adverb |  |  |
+| 会 | 會 | huì | auxiliary verb | future |  |
+| 对 | 對 | duì | preposition |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 软弱 | 軟弱 | ruǎnruò | adjective |  |  |
 </result>
 </query>
 <query>
@@ -1153,45 +1436,40 @@ Create a word table.
 <prompt>
 Create a word table.
 
-88 我不知道我在这里是否太疯狂，
-89 因为我用同样的韵律回答了他：
-90 “啊，现在告诉我：我们的主最初向圣彼得索要了多少财宝，
+88 我不知道我是否在这里太疯狂，
+89 因为我确实用这种方式回答了他：
+90 “啊，现在告诉我：你想要多少财富
 </prompt>
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 我 | 我 | wǒ | pronoun | | |
-| 不 | 不 | bù | adverb | | |
-| 知道 | 知道 | zhīdào | verb | present | |
-| 我 | 我 | wǒ | pronoun | | |
-| 在 | 在 | zài | preposition | | |
-| 这里 | 這裡 | zhèlǐ | adverb | | |
-| 是否 | 是否 | shìfǒu | adverb | | |
-| 太 | 太 | tài | adverb | | |
-| 疯狂 | 瘋狂 | fēngkuáng | adjective | | |
-| 因为 | 因為 | yīnwèi | conjunction | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 用 | 用 | yòng | verb | past | |
-| 同样 | 同樣 | tóngyàng | adjective | | |
-| 的 | 的 | de | particle | | |
-| 韵律 | 韻律 | yùnlǜ | noun | | |
-| 回答 | 回答 | huídá | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 他 | 他 | tā | pronoun | | |
-| 啊 | 啊 | a | interjection | | |
-| 现在 | 現在 | xiànzài | adverb | | |
-| 告诉 | 告訴 | gàosu | verb | imperative | |
-| 我 | 我 | wǒ | pronoun | | |
-| 们 | 們 | men | particle | | |
-| 的 | 的 | de | particle | | |
-| 主 | 主 | zhǔ | noun | | |
-| 最初 | 最初 | zuìchū | adverb | | |
-| 向 | 向 | xiàng | preposition | | |
-| 圣彼得 | 聖彼得 | Shèng Bǐdé | noun | | |
-| 索要 | 索要 | suǒyào | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 多少 | 多少 | duōshǎo | pronoun | | |
-| 财宝 | 財寶 | cáibǎo | noun | | |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 不 | 不 | bù | adverb |  |  |
+| 知道 | 知道 | zhīdào | verb | present |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 是否 | 是否 | shìfǒu | adverb |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 这里 | 這裡 | zhèlǐ | adverb |  |  |
+| 太 | 太 | tài | adverb |  |  |
+| 疯狂 | 瘋狂 | fēngkuáng | adjective |  |  |
+| 因为 | 因為 | yīnwèi | conjunction |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 确实 | 確實 | quèshí | adverb |  |  |
+| 用 | 用 | yòng | verb | past |  |
+| 这种 | 這種 | zhèzhǒng | demonstrative pronoun |  |  |
+| 方式 | 方式 | fāngshì | noun |  |  |
+| 回答 | 回答 | huídá | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 啊 | 啊 | a | interjection |  |  |
+| 现在 | 現在 | xiànzài | adverb |  |  |
+| 告诉 | 告訴 | gàosu | verb | present |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 想 | 想 | xiǎng | verb | present |  |
+| 要 | 要 | yào | auxiliary verb |  |  |
+| 多少 | 多少 | duōshǎo | pronoun |  |  |
+| 财富 | 財富 | cáifù | noun |  |  |
 </result>
 </query>
 <query>
@@ -1199,26 +1477,35 @@ Create a word table.
 <prompt>
 Create a word table.
 
-91 以便他把钥匙交给他掌管？
-92 他当然只要求‘跟随我’。”
+91 在我们的主最初把钥匙交给他保管之前，
+92 他向圣彼得索要了多少财富？
+93 他当然只要求“跟从我”。
 </prompt>
 <result>
-| Word | Traditional | Pinyin | Part of Speech | Tense | Note |
+| Word | 疵 | Pinyin | Part of疵 | Tense | Note |
 |---|---|---|---|---|---|
-| 以便 | 以便 | yǐbiàn | conjunction | | |
-| 他 | 他 | tā | pronoun | | |
-| 把 | 把 | bǎ | preposition | | |
-| 钥匙 | 鑰匙 | yàoshi | noun | | |
-| 交 | 交 | jiāo | verb | past | |
-| 给 | 給 | gěi | preposition | | |
-| 他 | 他 | tā | pronoun | | |
-| 掌管 | 掌管 | zhǎngguǎn | verb | past | |
-| 他 | 他 | tā | pronoun | | |
-| 当然 | 當然 | dāngrán | adverb | | |
-| 只 | 只 | zhǐ | adverb | | |
-| 要求 | 要求 | yāoqiú | verb | past | |
-| ‘跟随我’ | ‘跟随我’ | ‘gēnsuí wǒ’ | quotation | | |
-| ” | ” | ” | punctuation | | |
+| 在 | 在 | zài | preposition |  |  |
+| 疵主 | 疵主 | zhǔzǎi | noun |  |  |
+| 把 | 把 | bǎ | preposition |  |  |
+| 钥匙 | 鑰匙 | yuèshì | noun |  |  |
+| 交 | 交 | jiāo | verb | past |  |
+| 给 | 給 | gěi | preposition |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 保管 | 保管 | bǎoguǎn | verb | past |  |
+| 之前 | 之前 | zhīqián | adverb |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 向 | 向 | xiàng | preposition |  |  |
+| 圣彼得 | 聖彼得 | shèngpǐdé | noun |  |  |
+| 索要 | 索要 | suǒyào | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 多少 | 多少 | duōshǎo | pronoun |  |  |
+| 财富 | 財富 | cáifù | noun |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 当然 | 當然 | dāngrán | adverb |  |  |
+| 只 | 只 | zhǐ | adverb |  |  |
+| 要求 | 要求 | yāoqiú | verb | past |  |
+| 跟 | 跟 | gēn | preposition |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
 </result>
 </query>
 <query>
@@ -1233,33 +1520,34 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 彼得 | 彼得 | Bǐdé | noun | | |
-| 和 | 和 | hé | conjunction | | |
-| 其他 | 其他 | qítā | adjective | | |
-| 使徒 | 使徒 | shǐtú | noun | | |
-| 都 | 都 | dōu | adverb | | |
-| 没有 | 沒有 | méiyǒu | verb | past | |
-| 从 | 從 | cóng | preposition | | |
-| 马提亚 | 馬提亞 | Mǎtíyà | noun | | |
-| 那里 | 那裡 | nàlǐ | adverb | | |
-| 拿走 | 拿走 | ná zǒu | verb | past | |
-| 金子 | 金子 | jīnzi | noun | | |
-| 或 | 或 | huò | conjunction | | |
-| 银子 | 銀子 | yínzi | noun | | |
-| 当 | 當 | dāng | conjunction | | |
-| 他 | 他 | tā | pronoun | | |
-| 被 | 被 | bèi | passive marker | | |
-| 选中 | 选中 | xuǎnzhòng | verb | past | |
-| 取代 | 取代 | qǔdài | verb | past | |
-| 那个 | 那個 | nàge | pronoun | | |
-| 邪恶 | 邪惡 | xiée | adjective | | |
-| 的 | 的 | de | particle | | |
-| 灵魂 | 靈魂 | línghún | noun | | |
-| 所 | 所 | suǒ | possessive particle | | |
-| 失去 | 失去 | shīqù | verb | past | |
-| 的 | 的 | de | particle | | |
-| 位置 | 位置 | wèizhì | noun | | |
-| 时 | 時 | shí | conjunction | | |
+| 彼得 | 彼得 | bǐdé | noun |  |  |
+| 和 | 和 | hé | conjunction |  |  |
+| 其他 | 其他 | qítā | adjective |  |  |
+| 使徒 | 使徒 | shǐtú | noun |  |  |
+| 都 | 都 | dōu | adverb |  |  |
+| 没有 | 沒有 | méiyǒu | verb | past |  |
+| 从 | 從 | cóng | preposition |  |  |
+| 马提亚 | 馬提亞 | mǎtíyà | noun |  |  |
+| 那里 | 那裡 | nàlǐ | adverb |  |  |
+| 拿 | 拿 | ná | verb | past |  |
+| 走 | 走 | zǒu | verb | past |  |
+| 金子 | 金子 | jīnzi | noun |  |  |
+| 或 | 或 | huò | conjunction |  |  |
+| 银子 | 銀子 | yínzi | noun |  |  |
+| 当 | 當 | dāng | conjunction |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 被 | 被 | bèi | preposition | passive voice |  |
+| 选中 | 选中 | xuǎnzhòng | verb | past |  |
+| 取代 | 取代 | qǔdài | verb | past |  |
+| 那个 | 那個 | nàge | demonstrative pronoun |  |  |
+| 邪恶 | 邪惡 | xié'è | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 灵魂 | 靈魂 | línghún | noun |  |  |
+| 所 | 所 | suǒ | particle |  |  |
+| 失去 | 失去 | shīqù | verb | past |  |
+| 的 | 的 | de | particle |  |  |
+| 位置 | 位置 | wèizhì | noun |  |  |
+| 时 | 時 | shí | conjunction |  |  |
 </result>
 </query>
 <query>
@@ -1274,24 +1562,26 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 因此 | 因此 | yīncǐ | conjunction | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 应该 | 應該 | yīnggāi | modal verb | | |
-| 受到 | 受到 | shòudào | verb | passive | |
-| 惩罚 | 懲罰 | chéngfá | noun | | |
-| 好好 | 好好 | hǎohǎo | adverb | | |
-| 看 | 看 | kàn | verb | imperative | |
-| 一看 | 一看 | yīkàn | adverb | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 贪污 | 貪污 | tānwū | verb | past | |
-| 的 | 的 | de | particle | | |
-| 钱币 | 錢幣 | qiánbì | noun | | |
-| 它 | 它 | tā | pronoun | | |
-| 让 | 讓 | ràng | verb | past | |
-| 你 | 你 | nǐ | pronoun | | |
-| 敢于 | 敢於 | gǎnyú | verb | past | |
-| 反对 | 反對 | fǎnduì | verb | past | |
-| 查理 | 查理 | Zhālǐ | noun | | |
+| 因此 | 因此 | yīncǐ | conjunction |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 应该 | 應該 | yīnggāi | auxiliary verb |  |  |
+| 受到 | 受到 | shòudào | verb | passive voice |  |
+| 惩罚 | 懲罰 | chéngfá | noun |  |  |
+| 好 | 好 | hǎo | adjective |  |  |
+| 好 | 好 | hǎo | adverb |  |  |
+| 看 | 看 | kàn | verb | present |  |
+| 一看 | 一看 | yīkàn | adverb |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 贪污 | 貪污 | tānwū | verb | present |  |
+| 的 | 的 | de | particle |  |  |
+| 钱币 | 錢幣 | qiánbì | noun |  |  |
+| 它 | 它 | tā | pronoun |  |  |
+| 让 | 讓 | ràng | verb | present |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 敢 | 敢 | gǎn | verb | present |  |
+| 于 | 於 | yú | preposition |  |  |
+| 反对 | 反對 | fǎnduì | verb | present |  |
+| 查理 | 查理 | zhālǐ | noun |  |  |
 </result>
 </query>
 <query>
@@ -1299,97 +1589,100 @@ Create a word table.
 <prompt>
 Create a word table.
 
-100 如果不是因为我对至高无上的钥匙的尊敬阻止了我，
-101 你在快乐的生活中一直持有它们，
+100 而且如果不是它仍然禁止我
+101 对至高无上钥匙的敬畏
+102 你在快乐的生活中持有，
 </prompt>
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 如果 | 如果 | rúguǒ | conjunction | | |
-| 不是 | 不是 | bùshì | verb | past | |
-| 因为 | 因為 | yīnwèi | conjunction | | |
-| 我 | 我 | wǒ | pronoun | | |
-| 对 | 對 | duì | preposition | | |
-| 至高无上 | 至高無上 | zhìgāowúshàng | adjective | | |
-| 的 | 的 | de | particle | | |
-| 钥匙 | 鑰匙 | yàoshi | noun | | |
-| 的 | 的 | de | particle | | |
-| 尊敬 | 尊敬 | zūnjìng | noun | | |
-| 阻止 | 阻止 | zǔzhǐ | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 我 | 我 | wǒ | pronoun | | |
-| 你 | 你 | nǐ | pronoun | | |
-| 在 | 在 | zài | preposition | | |
-| 快乐 | 快樂 | kuàilè | adjective | | |
-| 的 | 的 | de | particle | | |
-| 生活 | 生活 | shēnghuó | noun | | |
-| 中 | 中 | zhōng | preposition | | |
-| 一直 | 一直 | yīzhí | adverb | | |
-| 持有 | 持有 | chíyǒu | verb | past | |
-| 它们 | 它們 | tāmen | pronoun | | |
+| 而且 | 而且 | érqiě | conjunction |  |  |
+| 如果 | 如果 | rúguǒ | conjunction |  |  |
+| 不是 | 不是 | bùshì | verb | present |  |
+| 它 | 它 | tā | pronoun |  |  |
+| 仍然 | 仍然 | réngrán | adverb |  |  |
+| 禁止 | 禁止 | jìnzhǐ | verb | present |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 对 | 對 | duì | preposition |  |  |
+| 至高无上 | 至高無上 | zhìgāowúshàng | adjective |  |  |
+| 钥匙 | 鑰匙 | yuèshì | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 敬畏 | 敬畏 | jìngwèi | noun |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 在 | 在 | zài | preposition |  |  |
+| 快乐 | 快樂 | kuàilè | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 生活 | 生活 | shēnghuó | noun |  |  |
+| 中 | 中 | zhōng | preposition |  |  |
+| 持有 | 持有 | chíyǒu | verb | present |  |
 </result>
 </query>
 <query>
-<info>[Inferno Canto 19] 102/133</info>
+<info>[Inferno Canto 19] 103/133</info>
 <prompt>
 Create a word table.
 
-102 我会用更严厉的话语；
-103 因为你们的贪婪使世界变得悲伤，
-104 践踏好人，扶持恶人。
+103 我会用更严厉的言辞；
+104 因为你们的贪婪使世界悲伤，
+105 践踏好人，扶持恶人。
 </prompt>
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 我 | 我 | wǒ | pronoun | | |
-| 会 | 會 | huì | auxiliary verb | future | |
-| 用 | 用 | yòng | verb | future | |
-| 更 | 更 | gèng | adverb | | |
-| 严厉 | 嚴厲 | yánlì | adjective | | |
-| 的 | 的 | de | particle | | |
-| 话语 | 話語 | huàyǔ | noun | | |
-| 因为 | 因為 | yīnwèi | conjunction | | |
-| 你们 | 你們 | nǐmen | pronoun | | |
-| 的 | 的 | de | particle | | |
-| 贪婪 | 貪婪 | tānlan | noun | | |
-| 使 | 使 | shǐ | verb | past | |
-| 世界 | 世界 | shìjiè | noun | | |
-| 变得 | 變得 | biàn dé | verb | past | |
-| 悲伤 | 悲傷 | bēishāng | adjective | | |
-| 践踏 | 踐踏 | jiàntà | verb | past | |
-| 好人 | 好人 | hǎorén | noun | | |
-| 扶持 | 扶持 | fúchí | verb | past | |
-| 恶人 | 惡人 | èrén | noun | | |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 会 | 會 | huì | auxiliary verb | future |  |
+| 用 | 用 | yòng | verb | future |  |
+| 更 | 更 | gèng | adverb |  |  |
+| 严厉 | 嚴厲 | yánlì | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 言辞 | 言辭 | yáncí | noun |  |  |
+| 因为 | 因為 | yīnwèi | conjunction |  |  |
+| 你们 | 你們 | nǐmen | pronoun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 贪婪 | 貪婪 | tānlan | noun |  |  |
+| 使 | 使 | shǐ | verb | present |  |
+| 世界 | 世界 | shìjiè | noun |  |  |
+| 悲伤 | 悲傷 | bēishāng | adjective |  |  |
+| 践踏 | 踐踏 | jiàntà | verb | present |  |
+| 好人 | 好人 | hǎorén | noun |  |  |
+| 扶持 | 扶持 | fúchí | verb | present |  |
+| 恶人 | 惡人 | èrén | noun |  |  |
 </result>
 </query>
 <query>
 <info>[Inferno Canto 19] 106/133</info>
-<prompt retry="true">
+<prompt>
 Create a word table.
 
 106 福音书作者注意到了你们这些牧师，
 107 当他看到坐在水上的那个女人
 108 与国王们淫乱；
 </prompt>
-<error>
-block_reason: SAFETY
-safety_ratings {
-  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
-  probability: HIGH
-}
-safety_ratings {
-  category: HARM_CATEGORY_HATE_SPEECH
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_HARASSMENT
-  probability: LOW
-}
-safety_ratings {
-  category: HARM_CATEGORY_DANGEROUS_CONTENT
-  probability: NEGLIGIBLE
-}
-</error>
+<result>
+| Word | Traditional | Pinyin | Part of Speech | Tense | Note |
+|---|---|---|---|---|---|
+| 福音书 | 福音書 | fúyīnshū | noun |  |  |
+| 作者 | 作者 | zuòzhě | noun |  |  |
+| 注意 | 注意 | zhùyì | verb | past |  |
+| 到了 | 到了 | dàole | verb | past |  |
+| 你们 | 你們 | nǐmen | pronoun |  |  |
+| 这些 | 這些 | zhèxiē | demonstrative pronoun |  |  |
+| 牧师 | 牧師 | mùshī | noun |  |  |
+| 当 | 當 | dāng | conjunction |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 看 | 看 | kàn | verb | past |  |
+| 到 | 到 | dào | verb | past |  |
+| 坐 | 坐 | zuò | verb | past |  |
+| 在 | 在 | zài | preposition |  |  |
+| 水 | 水 | shuǐ | noun |  |  |
+| 上 | 上 | shàng | preposition |  |  |
+| 的 | 的 | de | particle |  |  |
+| 那个 | 那個 | nàge | demonstrative pronoun |  |  |
+| 女人 | 女人 | nǚrén | noun |  |  |
+| 与 | 與 | yǔ | preposition |  |  |
+| 国王们 | 國王們 | guówángmen | noun |  |  |
+| 淫乱 | 淫亂 | yínluàn | verb | present |  |
+</result>
 </query>
 <query>
 <info>[Inferno Canto 19] 109/133</info>
@@ -1403,28 +1696,28 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 那个 | 那個 | nàge | demonstrative pronoun | present | |
-| 女人 | 女人 | nǚrén | noun | present | |
-| 生 | 生 | shēng | verb | present | |
-| 有 | 有 | yǒu | verb | present | |
-| 七 | 七 | qī | number | present | |
-| 个 | 個 | ge | measure word | present | |
-| 头 | 頭 | tóu | noun | present | |
-| 并 | 並 | bìng | conjunction | present | |
-| 从 | 從 | cóng | preposition | present | |
-| 十 | 十 | shí | number | present | |
-| 个 | 個 | ge | measure word | present | |
-| 角 | 角 | jiǎo | noun | present | |
-| 中 | 中 | zhōng | preposition | present | |
-| 获得 | 獲得 | huòdé | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 权力 | 權力 | quánlì | noun | present | |
-| 直到 | 直到 | zhídào | conjunction | present | |
-| 她 | 她 | tā | pronoun | present | |
-| 的 | 的 | de | particle | present | |
-| 丈夫 | 丈夫 | zhàngfu | noun | present | |
-| 喜欢 | 喜歡 | xǐhuan | verb | present | |
-| 美德 | 美德 | měidé | noun | present | |
+| 那个 | 那個 | nàge | demonstrative pronoun |  |  |
+| 女人 | 女人 | nǚrén | noun |  |  |
+| 生 | 生 | shēng | verb | present |  |
+| 有 | 有 | yǒu | verb | present |  |
+| 七 | 七 | qī | number |  |  |
+| 个 | 個 | ge | measure word |  |  |
+| 头 | 頭 | tóu | noun |  |  |
+| 并 | 並 | bìng | conjunction |  |  |
+| 从 | 從 | cóng | preposition |  |  |
+| 十 | 十 | shí | number |  |  |
+| 个 | 個 | ge | measure word |  |  |
+| 角 | 角 | jiǎo | noun |  |  |
+| 中 | 中 | zhōng | preposition |  |  |
+| 获得 | 獲得 | huòdé | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 权力 | 權力 | quánlì | noun |  |  |
+| 直到 | 直到 | zhídào | conjunction |  |  |
+| 她 | 她 | tā | pronoun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 丈夫 | 丈夫 | zhàngfu | noun |  |  |
+| 喜欢 | 喜歡 | xǐhuan | verb | present |  |
+| 美德 | 美德 | měidé | noun |  |  |
 </result>
 </query>
 <query>
@@ -1432,39 +1725,38 @@ Create a word table.
 <prompt>
 Create a word table.
 
-112 你们已经把金子和银子当成了你们的上帝；
-113 你们和偶像崇拜者有什么区别，
-114 除了他们崇拜一个，而你们崇拜一百个？
+112 你们已经把金银当作了神；
+113 你们和拜偶像的人有什么区别，
+114 除了他们拜一个，而你们拜一百个？
 </prompt>
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 你们 | 你們 | nǐmen | pronoun | present | |
-| 已经 | 已經 | yǐjīng | adverb | present | |
-| 把 | 把 | bǎ | particle | present | |
-| 金子 | 金子 | jīnzi | noun | present | |
-| 和 | 和 | hé | conjunction | present | |
-| 银子 | 銀子 | yínzi | noun | present | |
-| 当成 | 當成 | dàngchéng | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 你们 | 你們 | nǐmen | pronoun | present | |
-| 的 | 的 | de | particle | present | |
-| 上帝 | 上帝 | shàngdì | noun | present | |
-| 你们 | 你們 | nǐmen | pronoun | present | |
-| 和 | 和 | hé | conjunction | present | |
-| 偶像崇拜者 | 偶像崇拜者 | xiàngdǒucháizhe | noun | present | |
-| 有 | 有 | yǒu | verb | present | |
-| 什么 | 什麼 | shénme | interrogative pronoun | present | |
-| 区别 | 區別 | qūbié | noun | present | |
-| 除了 | 除了 | chúle | preposition | present | |
-| 他们 | 他們 | tāmen | pronoun | present | |
-| 崇拜 | 崇拜 | cháobài | verb | present | |
-| 一个 | 一個 | yīgè | indefinite pronoun | present | |
-| 而 | 而 | ér | conjunction | present | |
-| 你们 | 你們 | nǐmen | pronoun | present | |
-| 崇拜 | 崇拜 | cháobài | verb | present | |
-| 一百 | 一百 | yībǎi | number | present | |
-| 个 | 個 | ge | measure word | present | |
+| 你们 | 你們 | nǐmen | pronoun |  |  |
+| 已经 | 已經 | yǐjīng | adverb |  |  |
+| 把 | 把 | bǎ | particle |  |  |
+| 金银 | 金銀 | jīnyín | noun |  |  |
+| 当作 | 當作 | dàngzuò | verb | present |  |
+| 了 | 了 | le | particle | past |  |
+| 神 | 神 | shén | noun |  |  |
+| 你们 | 你們 | nǐmen | pronoun |  |  |
+| 和 | 和 | hé | conjunction |  |  |
+| 拜偶像 | 拜偶像 | bàiǒuxiàng | noun |  |  |
+| 的 | 的 | de | particle |  |  |
+| 人 | 人 | rén | noun |  |  |
+| 有 | 有 | yǒu | verb | present |  |
+| 什么 | 什麼 | shénme | interrogative pronoun |  |  |
+| 区别 | 區別 | qūbié | noun |  |  |
+| 除 | 除 | chú | preposition |  |  |
+| 了 | 了 | le | particle |  |  |
+| 他们 | 他們 | tāmen | pronoun |  |  |
+| 拜 | 拜 | bài | verb | present |  |
+| 一个 | 一個 | yīgè | indefinite pronoun |  |  |
+| 而 | 而 | ér | conjunction |  |  |
+| 你们 | 你們 | nǐmen | pronoun |  |  |
+| 拜 | 拜 | bài | verb | present |  |
+| 一百 | 一百 | yībǎi | number |  |  |
+| 个 | 個 | ge | measure word |  |  |
 </result>
 </query>
 <query>
@@ -1472,34 +1764,42 @@ Create a word table.
 <prompt>
 Create a word table.
 
-115 啊，君士坦丁，你的皈依并不是罪恶之源，
-116 而是你给予第一位富有教皇的嫁妆！”
+115 啊，君士坦丁，你带来了多少邪恶，
+116 不仅仅是你的皈依，还有那份嫁妆，
+117 第一位富有的教皇从你那里得到了这份嫁妆！
 </prompt>
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 啊 | 啊 | a | interjection | present | |
-| 君士坦丁 | 君士坦丁 | jūnshìtāndīng | noun | present | |
-| 你 | 你 | nǐ | pronoun | present | |
-| 的 | 的 | de | particle | present | |
-| 皈依 | 皈依 | guīyī | noun | present | |
-| 并 | 並 | bìng | conjunction | present | |
-| 不是 | 不是 | bùshì | verb | present | |
-| 罪恶 | 罪惡 | zuì'è | noun | present | |
-| 之 | 之 | zhī | particle | present | |
-| 源 | 源 | yuán | noun | present | |
-| 而 | 而 | ér | conjunction | present | |
-| 是 | 是 | shì | verb | present | |
-| 你 | 你 | nǐ | pronoun | present | |
-| 给予 | 給予 | jǐyǔ | verb | past | |
-| 第 | 第 | dì | ordinal number | present | |
-| 一 | 一 | yī | number | present | |
-| 位 | 位 | wèi | measure word | present | |
-| 富有 | 富有 | fùyǒu | adjective | present | |
-| 教皇 | 教皇 | jiàohuang | noun | present | |
-| 的 | 的 | de | particle | present | |
-| 嫁妆 | 嫁妝 | jiàzhuāng | noun | present | |
-| ！ | ！ | ! | punctuation mark | present | |
+| 啊 | 啊 | a | interjection |  |  |
+| 君士坦丁 | 君士坦丁 | jūnshìtāndīng | noun |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 带 | 帶 | dài | verb | past |  |
+| 来 | 來 | lái | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 多少 | 多少 | duōshǎo | interrogative pronoun |  |  |
+| 邪恶 | 邪惡 | xié'è | noun |  |  |
+| 不 | 不 | bù | negative adverb |  |  |
+| 仅仅 | 僅僅 | jǐnjǐn | adverb |  |  |
+| 是 | 是 | shì | verb | present |  |
+| 你的 | 你的 | nǐde | pronoun |  |  |
+| 皈依 | 皈依 | guīyī | noun |  |  |
+| 还有 | 還有 | háiyǒu | conjunction |  |  |
+| 那 | 那 | nà | demonstrative pronoun |  |  |
+| 份 | 份 | fèn | measure word |  |  |
+| 嫁妆 | 嫁妝 | jiàzhuāng | noun |  |  |
+| 第一位 | 第一位 | dìyīwèi | ordinal number |  |  |
+| 富有 | 富有 | fùyǒu | adjective |  |  |
+| 的 | 的 | de | particle |  |  |
+| 教皇 | 教皇 | jiàohuang | noun |  |  |
+| 从 | 從 | cóng | preposition |  |  |
+| 你 | 你 | nǐ | pronoun |  |  |
+| 那里 | 那裡 | nàlǐ | adverb |  |  |
+| 得到 | 得到 | dédào | verb | past |  |
+| 了 | 了 | le | particle | past |  |
+| 这 | 這 | zhè | demonstrative pronoun |  |  |
+| 份 | 份 | fèn | measure word |  |  |
+| 嫁妆 | 嫁妝 | jiàzhuāng | noun |  |  |
 </result>
 </query>
 <query>
@@ -1514,30 +1814,31 @@ Create a word table.
 <result>
 | Word | Traditional | Pinyin | Part of Speech | Tense | Note |
 |---|---|---|---|---|---|
-| 当 | 當 | dāng | conjunction | present | |
-| 我 | 我 | wǒ | pronoun | present | |
-| 用 | 用 | yòng | verb | present | |
-| 这样 | 這樣 | zhèyàng | adverb | present | |
-| 的 | 的 | de | particle | present | |
-| 音符 | 音符 | yīnfú | noun | present | |
-| 唱 | 唱 | chàng | verb | present | |
-| 给 | 給 | gěi | preposition | present | |
-| 他 | 他 | tā | pronoun | present | |
-| 听 | 聽 | tīng | verb | present | |
-| 时 | 時 | shí | noun | present | |
-| 愤怒 | 憤怒 | fènnu | noun | present | |
-| 或 | 或 | huò | conjunction | present | |
-| 良心 | 良心 | liángxīn | noun | present | |
-| 让 | 讓 | ràng | verb | present | |
-| 他 | 他 | tā | pronoun | present | |
-| 感到 | 感到 | gǎndào | verb | present | |
-| 不安 | 不安 | bù'ān | adjective | present | |
-| 他 | 他 | tā | pronoun | present | |
-| 用 | 用 | yòng | verb | present | |
-| 双脚 | 雙腳 | shuāngjiǎo | noun | present | |
-| 用力地 | 用力地 | yònglìde | adverb | present | |
-| 踢打 | 踢打 | tīdǎ | verb | present | |
-| 着 | 著 | zhe | aspect particle | present | |
+| 当 | 當 | dāng | conjunction |  |  |
+| 我 | 我 | wǒ | pronoun |  |  |
+| 用 | 用 | yòng | verb | present |  |
+| 这样 | 這樣 | zhèyàng | adverb |  |  |
+| 的 | 的 | de | particle |  |  |
+| 音符 | 音符 | yīnfú | noun |  |  |
+| 唱 | 唱 | chàng | verb | present |  |
+| 给 | 給 | gěi | preposition |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 听 | 聽 | tīng | verb | present |  |
+| 时 | 時 | shí | noun |  |  |
+| 愤怒 | 憤怒 | fènnù | noun |  |  |
+| 或 | 或 | huò | conjunction |  |  |
+| 良心 | 良心 | liángxīn | noun |  |  |
+| 让 | 讓 | ràng | verb | present |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 感到 | 感到 | gǎndào | verb | present |  |
+| 不安 | 不安 | bù'ān | adjective |  |  |
+| 他 | 他 | tā | pronoun |  |  |
+| 用 | 用 | yòng | verb | present |  |
+| 双脚 | 雙腳 | shuāngjiǎo | noun |  |  |
+| 用力 | 用力 | yònglì | adverb |  |  |
+| 地 | 地 | de | adverbial suffix |  |  |
+| 踢打 | 踢打 | tīdǎ | verb | present |  |
+| 着 | 著 | zhe | aspect particle | present progressive |  |
 </result>
 </query>
 <query>
@@ -1550,32 +1851,33 @@ Create a word table.
 123 聆听我所说的真实的话语。
 </prompt>
 <result>
-| Word | Traditional | Pinyin | Part of Speech | Tense | Note |
-|---|---|---|---|---|---|
-| 我 | 我 | wǒ | pronoun | present | |
-| 相信 | 相信 | xiāngxìn | verb | present | |
-| 我 | 我 | wǒ | pronoun | present | |
-| 的 | 的 | de | particle | present | |
-| 主人 | 主人 | zhǔren | noun | present | |
-| 很 | 很 | hěn | adverb | present | |
-| 高兴 | 高興 | gāoxìng | adjective | present | |
-| 他 | 他 | tā | pronoun | present | |
-| 总 | 總 | zǒng | adverb | present | |
-| 是 | 是 | shì | verb | present | |
-| 带 | 帶 | dài | verb | present | |
-| 着 | 著 | zhe | aspect particle | present | |
-| 如此 | 如此 | rúchǐ | adverb | present | |
-| 满足 | 滿足 | mǎnzú | adjective | present | |
-| 的 | 的 | de | particle | present | |
-| 表情 | 表情 | biǎoqíng | noun | present | |
-| 聆听 | 聆聽 | língtīng | verb | present | |
-| 我 | 我 | wǒ | pronoun | present | |
-| 所 | 所 | suǒ | particle | present | |
-| 说 | 說 | shuō | verb | past | |
-| 的 | 的 | de | particle | present | |
-| 真实 | 真實 | zhēnshí | adjective | present | |
-| 的 | 的 | de | particle | present | |
-| 话语 | 話語 | huàyǔ | noun | present | |
+| Word | Traditional | Pinyin | Aspect | Note | |  | | | |  |
+|---|---|---|---|---|---|---|---|---|---|--- |
+|
+| &amp;lt;b&amp;gt; |
+| 1 | noun |
+|  | | adverbial suffix |  | | | | | | |
+|  |  |  |
+|
+|  |  |  | |
+|  |  |  |
+| |  |  |  |  |  |  |  |  |
+| |
+| | | |  |  | | |
+|
+| |
+|
+|  |
+| | | | |
+|  | |
+| |  |  |
+| |  |  |
+| | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | | | | | | | |
+| | | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 </result>
 </query>
 <query>
@@ -1588,33 +1890,32 @@ Create a word table.
 126 他沿着下山的路重新爬了上去。
 </prompt>
 <result>
-| Word | Traditional | Pinyin | Part of Speech | Tense | Note |
-|---|---|---|---|---|---|
-| 于是 | 於是 | yúshì | conjunction | present | |
-| 他 | 他 | tā | pronoun | present | |
-| 用 | 用 | yòng | verb | past | |
-| 双臂 | 雙臂 | shuāngbì | noun | present | |
-| 抱住 | 抱住 | bàozhù | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 我 | 我 | wǒ | pronoun | present | |
-| 当 | 當 | dāng | conjunction | present | |
-| 他 | 他 | tā | pronoun | present | |
-| 把 | 把 | bǎ | particle | present | |
-| 我 | 我 | wǒ | pronoun | present | |
-| 整个 | 整個 | zhěnggè | adjective | present | |
-| 抱 | 抱 | bào | verb | past | |
-| 在 | 在 | zài | preposition | present | |
-| 胸前 | 胸前 | xiōngqián | noun | present | |
-| 时 | 時 | shí | noun | present | |
-| 他 | 他 | tā | pronoun | present | |
-| 沿着 | 沿著 | yánzhe | preposition | present | |
-| 下山 | 下山 | xiàshān | noun | present | |
-| 的 | 的 | de | particle | present | |
-| 路 | 路 | lù | noun | present | |
-| 重新 | 重新 | chóngxīn | adverb | present | |
-| 爬 | 爬 | pá | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 上去 | 上去 | shàngqù | verb | past | |
+| Word | Traditional | Pinyin | Part of Speech | Note |
+|---|---|---|---|---|
+| 于是 | 於是 | yúshì | conjunction |  |
+| 他 | 他 | tā | pronoun |  |
+| 用 | 用 | yòng | verb | present |
+| 双臂 | 雙臂 | shuāngbì | noun |  |
+| 抱住 | 抱住 | bàozhù | verb | past |
+| 了 | 了 | le | particle | past |
+| 我 | 我 | wǒ | pronoun |  |
+| 当 | 當 | dāng | conjunction |  |
+| 他 | 他 | tā | pronoun |  |
+| 把 | 把 | bǎ | particle |  |
+| 我 | 我 | wǒ | pronoun |  |
+| 整个 | 整個 | zhěnggè | adjective |  |
+| 抱在 | 抱在 | bàozài | verb | present |
+| 胸前 | 胸前 | xiōngqián | noun |  |
+| 时 | 時 | shí | noun |  |
+| 他 | 他 | tā | pronoun |  |
+| 下 | 下 | xià | verb | present |
+| 山 | 山 | shān | noun |  |
+| 的 | 的 | de | particle |  |
+| 路 | 路 | lù | noun |  |
+| 重新 | 重新 | chóngxīn | adverb |  |
+| 爬 | 爬 | pá | verb | past |
+| 了 | 了 | le | particle | past |
+| 上去 | 上去 | shàngqù | verb | past |
 </result>
 </query>
 <query>
@@ -1627,39 +1928,38 @@ Create a word table.
 129 拱顶横跨在第四道和第五道堤岸之间。
 </prompt>
 <result>
-| Word | Traditional | Pinyin | Part of Speech | Tense | Note |
-|---|---|---|---|---|---|
-| 他 | 他 | tā | pronoun | present | |
-| 没有 | 沒有 | méiyǒu | verb | past | |
-| 因为 | 因為 | yīnwèi | conjunction | present | |
-| 把 | 把 | bǎ | particle | present | |
-| 我 | 我 | wǒ | pronoun | present | |
-| 紧紧地 | 緊緊地 | jǐnjǐnde | adverb | present | |
-| 抱 | 抱 | bào | verb | past | |
-| 在 | 在 | zài | preposition | present | |
-| 怀里 | 懷裡 | huáilǐ | noun | present | |
-| 而 | 而 | ér | conjunction | present | |
-| 感到 | 感到 | gǎndào | verb | past | |
-| 疲倦 | 疲倦 | píjuàn | adjective | present | |
-| 他 | 他 | tā | pronoun | present | |
-| 就 | 就 | jiù | adverb | present | |
-| 这样 | 這樣 | zhèyàng | adverb | present | |
-| 把 | 把 | bǎ | particle | present | |
-| 我 | 我 | wǒ | pronoun | present | |
-| 带 | 帶 | dài | verb | past | |
-| 到了 | 到了 | dàole | verb | past | |
-| 拱顶 | 拱頂 | gǒngdǐng | noun | present | |
-| 上 | 上 | shàng | preposition | present | |
-| 拱顶 | 拱頂 | gǒngdǐng | noun | present | |
-| 横跨 | 橫跨 | héngkuà | verb | present | |
-| 在 | 在 | zài | preposition | present | |
-| 第四 | 第四 | dìsì | ordinal number | present | |
-| 道 | 道 | dào | measure word | present | |
-| 和 | 和 | hé | conjunction | present | |
-| 第五 | 第五 | dìwǔ | ordinal number | present | |
-| 道 | 道 | dào | measure word | present | |
-| 堤岸 | 堤岸 | dī'àn | noun | present | |
-| 之间 | 之間 | zhījiān | preposition | present | |
+| Word | Traditional | Pinyin | Part of Speech | Note |
+|---|---|---|---|---|
+| 他 | 他 | tā | pronoun |  |
+| 没有 | 沒有 | méiyǒu | negative verb |  |
+| 因为 | 因為 | yīnwèi | conjunction |  |
+| 把 | 把 | bǎ | particle |  |
+| 我 | 我 | wǒ | pronoun |  |
+| 紧紧地 | 緊緊地 | jǐnjǐnde | adverb |  |
+| 抱在 | 抱在 | bàozài | verb | present |
+| 怀里 | 懷裡 | huáilǐ | noun |  |
+| 而 | 而 | ér | conjunction |  |
+| 感到 | 感到 | gǎndào | verb | present |  |
+| 疲倦 | 疲倦 | píjuàn | adjective |  |
+| 他 | 他 | tā | pronoun |  |
+| 就 | 就 | jiù | adverb |  |
+| 这样 | 這樣 | zhèyàng | adverb |  |
+| 把 | 把 | bǎ | particle |  |
+| 我 | 我 | wǒ | pronoun |  |
+| 带到 | 帶到 | dàidào | verb | past |
+| 了 | 了 | le | particle | past |
+| 拱顶 | 拱頂 | gǒngdǐng | noun |  |
+| 上 | 上 | shàng | preposition |  |
+| 拱顶 | 拱頂 | gǒngdǐng | noun |  |
+| 横跨 | 橫跨 | héngkuà | verb | present |  |
+| 在 | 在 | zài | preposition |  |
+| 第四 | 第四 | dìsì | ordinal number |  |
+| 道 | 道 | dào | measure word |  |
+| 和 | 和 | hé | conjunction |  |
+| 第五 | 第五 | dìwǔ | ordinal number |  |
+| 道 | 道 | dào | measure word |  |
+| 堤岸 | 堤岸 | dīàn | noun |  |
+| 之间 | 之間 | zhījiān | preposition |  |
 </result>
 </query>
 <query>
@@ -1672,33 +1972,33 @@ Create a word table.
 132 即使是山羊也很难通过。
 </prompt>
 <result>
-| Word | Traditional | Pinyin | Part of Speech | Tense | Note |
-|---|---|---|---|---|---|
-| 在 | 在 | zài | preposition | present | |
-| 那里 | 那裡 | nàlǐ | adverb | present | |
-| 他 | 他 | tā | pronoun | present | |
-| 轻轻地 | 輕輕地 | qīngqīngde | adverb | present | |
-| 放下 | 放下 | fàngxià | verb | past | |
-| 了 | 了 | le | particle | past | |
-| 他 | 他 | tā | pronoun | present | |
-| 的 | 的 | de | particle | present | |
-| 负担 | 負擔 | fùdān | noun | present | |
-| 沿着 | 沿著 | yánzhe | preposition | present | |
-| 那 | 那 | nà | demonstrative pronoun | present | |
-| 崎岖 | 崎嶇 | qícū | adjective | present | |
-| 陡峭 | 陡峭 | dǒuciào | adjective | present | |
-| 的 | 的 | de | particle | present | |
-| 岩石 | 岩石 | yánshí | noun | present | |
-| 轻轻地 | 輕輕地 | qīngqīngde | adverb | present | |
-| 走 | 走 | zǒu | verb | present | |
-| 着 | 著 | zhe | aspect particle | present | |
-| 即使 | 即使 | jísǔ | conjunction | present | |
-| 是 | 是 | shì | verb | present | |
-| 山羊 | 山羊 | shānyáng | noun | present | |
-| 也 | 也 | yě | conjunction | present | |
-| 很 | 很 | hěn | adverb | present | |
-| 难 | 難 | nán | adjective | present | |
-| 通过 | 通過 | tōngguò | verb | present | |
+| Word | Traditional | Pinyin | Part of Speech | Note |
+|---|---|---|---|---|
+| 在 | 在 | zài | preposition |  |
+| 那里 | 那裡 | nàlǐ | adverb |  |
+| 他 | 他 | tā | pronoun |  |
+| 轻轻地 | 輕輕地 | qīngqīngde | adverb |  |
+| 放下 | 放下 | fàngxià | verb | past |
+| 了 | 了 | le | particle | past |
+| 他 | 他 | tā | pronoun |  |
+| 的 | 的 | de | particle |  |
+| 负担 | 負擔 | fùdān | noun |  |
+| 沿着 | 沿著 | yánzhe | preposition |  |
+| 那 | 那 | nà | demonstrative pronoun |  |
+| 崎岖 | 崎嶇 | qícū | adjective |  |
+| 陡峭 | 陡峭 | dǒuciào | adjective |  |
+| 的 | 的 | de | particle |  |
+| 岩石 | 岩石 | yánshí | noun |  |
+| 轻轻地 | 輕輕地 | qīngqīngde | adverb |  |
+| 走 | 走 | zǒu | verb | present |  |
+| 着 | 著 | zhe | aspect particle | present progressive |  |
+| 即使 | 即使 | jísù | conjunction |  |
+| 是 | 是 | shì | verb | present |  |
+| 山羊 | 山羊 | shānyáng | noun |  |
+| 也 | 也 | yě | conjunction |  |
+| 很 | 很 | hěn | adverb |  |
+| 难 | 難 | nán | adjective |  |
+| 通过 | 通過 | tōngguò | verb | present |  |
 </result>
 </query>
 <query>
@@ -1709,16 +2009,15 @@ Create a word table.
 133 然后，另一个山谷出现在我眼前。
 </prompt>
 <result>
-| Word | Traditional | Pinyin | Part of Speech | Tense | Note |
-|---|---|---|---|---|---|
-| 然后 | 然後 | ránhòu | conjunction | present | |
-| 另 | 另 | lìng | adverb | present | |
-| 一个 | 一個 | yīgè | indefinite pronoun | present | |
-| 山谷 | 山谷 | shāngǔ | noun | present | |
-| 出现 | 出現 | chūxiàn | verb | past | |
-| 在 | 在 | zài | preposition | present | |
-| 我 | 我 | wǒ | pronoun | present | |
-| 眼前 | 眼前 | yǎnqián | noun | present | |
+| Word | Traditional | Pinyin | Part of Speech | Note |
+|---|---|---|---|---|
+| 然后 | 然後 | ránhòu | conjunction |  |
+| 另一个 | 另一個 | lìngyīgè | indefinite pronoun |  |
+| 山谷 | 山谷 | shāngǔ | noun |  |
+| 出现 | 出現 | chūxiàn | verb | past |
+| 在 | 在 | zài | preposition |  |
+| 我 | 我 | wǒ | pronoun |  |
+| 眼前 | 眼前 | yǎnqián | noun |  |
 </result>
 </query>
 </queries>

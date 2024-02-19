@@ -18,8 +18,8 @@ Create a word table.
 | among | among | preposition |  |  |  |
 | the | the | determiner |  |  |  |
 | beloved | beloved | adjective |  |  |  |
-| leaves | leaf | noun | plural |  |  |
-| perched | perch | verb | past participle |  |  |
+| leaves | leaf | noun |  |  | plural |
+| perched | perch | verb | past | indicative |  |
 | on | on | preposition |  |  |  |
 | the | the | determiner |  |  |  |
 | nest | nest | noun |  |  |  |
@@ -31,9 +31,9 @@ Create a word table.
 | night | night | noun |  |  |  |
 | that | that | pronoun |  |  |  |
 | hides | hide | verb | present | indicative |  |
-| things | thing | noun | plural |  |  |
+| things | thing | noun |  |  | plural |
 | from | from | preposition |  |  |  |
-| us | we | pronoun |  |  |  |
+| us | we | pronoun |  |  | objective |
 </result>
 </query>
 <query>
@@ -53,7 +53,7 @@ Create a word table.
 | see | see | verb | infinitive |  |  |
 | their | they | pronoun |  |  | possessive |
 | desired | desire | adjective |  |  |  |
-| faces | face | noun | plural |  |  |
+| faces | face | noun |  |  | plural |
 | and | and | conjunction |  |  |  |
 | to | to | preposition |  |  |  |
 | find | find | verb | infinitive |  |  |
@@ -67,9 +67,9 @@ Create a word table.
 | in | in | preposition |  |  |  |
 | which | which | pronoun |  |  |  |
 | hard | hard | adjective |  |  |  |
-| labors | labor | noun | plural |  |  |
+| labors | labor | noun |  |  | plural |
 | are | be | verb | present | indicative |  |
-| pleasing | please | adjective | present participle |  |  |
+| pleasing | please | adjective |  |  |  |
 | to | to | preposition |  |  |  |
 | them | they | pronoun |  |  | objective |
 </result>
@@ -92,7 +92,7 @@ Create a word table.
 | on | on | preposition |  |  |  |
 | the | the | determiner |  |  |  |
 | open | open | adjective |  |  |  |
-| branches | branch | noun | plural |  |  |
+| branches | branch | noun |  |  | plural |
 | and | and | conjunction |  |  |  |
 | with | with | preposition |  |  |  |
 | ardent | ardent | adjective |  |  |  |
@@ -101,7 +101,7 @@ Create a word table.
 | the | the | determiner |  |  |  |
 | sun | sun | noun |  |  |  |
 | intently | intent | adverb |  |  |  |
-| watching | watch | verb | present participle |  |  |
+| watching | watch | verb | present | participle |  |
 | for | for | preposition |  |  |  |
 | the | the | determiner |  |  |  |
 | dawn | dawn | noun |  |  |  |
@@ -119,16 +119,16 @@ Create a word table.
 12 under which the sun shows less haste:
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
+| Word | Lemma | Part of Speech | Tense | ^{-} | Note |
 |---|---|---|---|---|---|
-| thus | thus | adverb |  |  |  |
+| thus | thus | conjunction |  |  |  |
 | my | my | pronoun |  |  | possessive |
 | lady | lady | noun |  |  |  |
-| stood | stand | verb | past | indicative |  |
+| stood | stand | verb | past |^{-} |  |
 | erect | erect | adjective |  |  |  |
 | and | and | conjunction |  |  |  |
 | attentive | attentive | adjective |  |  |  |
-| turned | turn | verb | past participle |  |  |
+| turned | turn | verb | past |^{-} |  |
 | toward | toward | preposition |  |  |  |
 | the | the | determiner |  |  |  |
 | region | region | noun |  |  |  |
@@ -136,9 +136,8 @@ Create a word table.
 | which | which | pronoun |  |  |  |
 | the | the | determiner |  |  |  |
 | sun | sun | noun |  |  |  |
-| shows | show | verb | present | indicative |  |
+| shows | show | verb | present |^{-} |  |
 | less | less | adjective |  |  | comparative |
-| haste | haste | noun |  |  |  |
 </result>
 </query>
 <query>
@@ -155,23 +154,23 @@ Create a word table.
 |---|---|---|---|---|---|
 | so | so | conjunction |  |  |  |
 | that | that | conjunction |  |  |  |
-| seeing | see | verb | present participle |  |  |
+| seeing | see | verb | present | participle |  |
 | her | she | pronoun |  |  | objective |
-| suspended | suspend | verb | past participle |  |  |
+| suspended | suspend | adjective |  |  |  |
 | and | and | conjunction |  |  |  |
 | eager | eager | adjective |  |  |  |
 | I | I | pronoun |  |  |  |
 | became | become | verb | past | indicative |  |
 | like | like | preposition |  |  |  |
-| one | one | pronoun |  |  | indefinite |
-| who | who | pronoun |  |  | relative |
-| desiring | desire | verb | present participle |  |  |
-| something | something | pronoun |  |  | indefinite |
+| one | one | pronoun |  |  |  |
+| who | who | pronoun |  |  |  |
+| desiring | desire | verb | present | participle |  |
+| something | something | pronoun |  |  |  |
 | else | else | adverb |  |  |  |
 | is | be | verb | present | indicative |  |
-| satisfied | satisfy | verb | past participle |  |  |
+| satisfied | satisfy | adjective |  |  |  |
 | by | by | preposition |  |  |  |
-| hoping | hope | verb | present participle |  |  |
+| hoping | hope | verb | present | participle |  |
 </result>
 </query>
 <query>
@@ -192,10 +191,10 @@ Create a word table.
 | passed | pass | verb | past | indicative |  |
 | between | between | preposition |  |  |  |
 | the | the | determiner |  |  |  |
-| one | one | pronoun |  |  | indefinite |
+| one | one | pronoun |  |  |  |
 | and | and | conjunction |  |  |  |
 | the | the | determiner |  |  |  |
-| other | other | pronoun |  |  |  |
+| other | other | adjective |  |  |  |
 | I | I | pronoun |  |  |  |
 | mean | mean | verb | present | indicative |  |
 | between | between | preposition |  |  |  |
@@ -224,7 +223,7 @@ Create a word table.
 | Word | Lemma | Part of Speech | Tense | Mood | Note |
 |---|---|---|---|---|---|
 | and | and | conjunction |  |  |  |
-| Beatrice | Beatrice | noun |  |  | proper noun |
+| Beatrice | Beatrice | noun |  |  |  |
 | said | say | verb | past | indicative |  |
 | Behold | behold | verb | imperative |  | archaic |
 | the | the | determiner |  |  |  |
@@ -243,7 +242,7 @@ Create a word table.
 | of | of | preposition |  |  |  |
 | these | this | pronoun | plural |  |  |
 | spheres | sphere | noun | plural |  |  |
-| ! | ! | punctuation |  |  |  |
+| ! |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -263,13 +262,13 @@ Create a word table.
 | to | to | preposition |  |  |  |
 | me | me | pronoun |  |  |  |
 | that | that | conjunction |  |  |  |
-| her | she | pronoun |  |  | objective |
+| her | her | pronoun |  |  | possessive |
 | face | face | noun |  |  |  |
 | was | be | verb | past | indicative |  |
 | all | all | determiner |  |  |  |
 | aflame | aflame | adjective |  |  |  |
 | and | and | conjunction |  |  |  |
-| her | she | pronoun |  |  | objective |
+| her | her | pronoun |  |  | possessive |
 | eyes | eye | noun | plural |  |  |
 | were | be | verb | past | indicative |  |
 | so | so | adverb |  |  |  |
@@ -285,7 +284,6 @@ Create a word table.
 | without | without | preposition |  |  |  |
 | describing | describe | verb | present participle |  |  |
 | it | it | pronoun |  |  |  |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -306,13 +304,13 @@ Create a word table.
 | serene | serene | adjective |  |  |  |
 | full | full | adjective |  |  |  |
 | moons | moon | noun | plural |  |  |
-| Trivia | Trivia | noun |  |  | Roman goddess of crossroads |
+| Trivia | Trivia | noun |  |  |  |
 | smiles | smile | verb | present | indicative |  |
 | among | among | preposition |  |  |  |
 | the | the | determiner |  |  |  |
 | eternal | eternal | adjective |  |  |  |
-| nymphs | nymph | noun | plural |  | mythological female spirits of nature |
-| who | who | pronoun |  |  | relative |
+| nymphs | nymph | noun | plural |  |  |
+| who | who | pronoun |  |  |  |
 | paint | paint | verb | present | indicative |  |
 | the | the | determiner |  |  |  |
 | sky | sky | noun |  |  |  |
@@ -320,7 +318,6 @@ Create a word table.
 | all | all | determiner |  |  |  |
 | its | it | pronoun |  |  | possessive |
 | parts | part | noun | plural |  |  |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -347,14 +344,14 @@ Create a word table.
 | kindled | kindle | verb | past | indicative |  |
 | all | all | determiner |  |  |  |
 | of | of | preposition |  |  |  |
-| them | they | pronoun | objective | plural |  |
+| them | they | pronoun |  |  |  |
 | as | as | conjunction |  |  |  |
 | ours | our | pronoun |  |  | possessive |
 | kindles | kindle | verb | present | indicative |  |
 | the | the | determiner |  |  |  |
 | heavenly | heavenly | adjective |  |  |  |
 | bodies | body | noun | plural |  |  |
-| ; | ; | punctuation |  |  |  |
+| ; |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -385,11 +382,10 @@ Create a word table.
 | face | face | noun |  |  |  |
 | that | that | conjunction |  |  |  |
 | it | it | pronoun |  |  |  |
-| could | can | modal verb | past | indicative |  |
+| could | can | modal verb |  |  |  |
 | not | not | adverb |  |  |  |
 | bear | bear | verb | infinitive |  |  |
 | it | it | pronoun |  |  |  |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -405,18 +401,18 @@ Create a word table.
 | Word | Lemma | Part of Speech | Tense | Mood | Note |
 |---|---|---|---|---|---|
 | O | O | interjection |  |  |  |
-| Beatrice | Beatrice | noun |  |  | proper noun |
+| Beatrice | Beatrice | noun |  |  |  |
 | sweet | sweet | adjective |  |  |  |
 | and | and | conjunction |  |  |  |
 | dear | dear | adjective |  |  |  |
 | guide | guide | noun |  |  |  |
-| ! | ! | punctuation |  |  |  |
+| ! |  | punctuation |  |  |  |
 | She | she | pronoun |  |  |  |
 | said | say | verb | past | indicative |  |
 | to | to | preposition |  |  |  |
-| me | me | pronoun |  |  | objective |
+| me | me | pronoun |  |  |  |
 | That | that | pronoun |  |  |  |
-| which | which | pronoun |  |  | relative |
+| which | which | pronoun |  |  |  |
 | overwhelms | overwhelm | verb | present | indicative |  |
 | you | you | pronoun |  |  |  |
 | is | be | verb | present | indicative |  |
@@ -424,11 +420,10 @@ Create a word table.
 | power | power | noun |  |  |  |
 | from | from | preposition |  |  |  |
 | which | which | pronoun |  |  |  |
-| nothing | nothing | pronoun |  |  | indefinite |
+| nothing | nothing | pronoun |  |  |  |
 | can | can | modal verb |  |  |  |
 | protect | protect | verb | infinitive |  |  |
 | itself | itself | pronoun |  |  | reflexive |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -458,15 +453,15 @@ Create a word table.
 | heaven | heaven | noun |  |  |  |
 | and | and | conjunction |  |  |  |
 | earth | earth | noun |  |  |  |
-| whence | whence | adverb |  |  | archaic |
+| whence | whence | adverb |  |  |  |
 | there | there | adverb |  |  |  |
 | was | be | verb | past | indicative |  |
 | once | once | adverb |  |  |  |
-| such | such | adjective |  |  |  |
+| such | such | determiner |  |  |  |
 | a | a | determiner |  |  |  |
 | long | long | adjective |  |  |  |
 | estrangement | estrangement | noun |  |  |  |
-| . | . | punctuation |  |  |  |
+| . |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -493,7 +488,7 @@ Create a word table.
 | so | so | adverb |  |  |  |
 | that | that | conjunction |  |  |  |
 | it | it | pronoun |  |  |  |
-| cannot | can | modal verb | present | indicative | negative |
+| cannot | can | modal verb |  |  | negative |
 | fit | fit | verb | infinitive |  |  |
 | and | and | conjunction |  |  |  |
 | against | against | preposition |  |  |  |
@@ -503,7 +498,7 @@ Create a word table.
 | to | to | preposition |  |  |  |
 | the | the | determiner |  |  |  |
 | ground | ground | noun |  |  |  |
-| . | . | punctuation |  |  |  |
+| . |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -518,27 +513,28 @@ Create a word table.
 <result>
 | Word | Lemma | Part of Speech | Tense | Mood | Note |
 |---|---|---|---|---|---|
-| so | so | adverb |  |  |  |
+| so | so | conjunction |  |  |  |
 | my | my | pronoun |  |  | possessive |
 | mind | mind | noun |  |  |  |
 | among | among | preposition |  |  |  |
-| those | those | pronoun |  |  | demonstrative |
+| those | that | pronoun | plural |  |  |
 | feasts | feast | noun | plural |  |  |
 | grown | grow | verb | past participle |  |  |
 | larger | large | adjective | comparative |  |  |
 | went | go | verb | past | indicative |  |
-| out | out | adverb |  |  |  |
+| out | out | preposition |  |  |  |
 | of | of | preposition |  |  |  |
 | itself | itself | pronoun |  |  | reflexive |
 | and | and | conjunction |  |  |  |
-| how | how | interrogative adverb |  |  |  |
+| how | how | вопросительное слово |  |  |  |
 | it | it | pronoun |  |  |  |
 | did | do | verb | past | indicative |  |
 | so | so | adverb |  |  |  |
 | it | it | pronoun |  |  |  |
-| could | can | modal verb | past | indicative |  |
+| could | can | modal verb |  |  |  |
 | not | not | adverb |  |  |  |
 | recall | recall | verb | infinitive |  |  |
+| . |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -555,16 +551,16 @@ Create a word table.
 |---|---|---|---|---|---|
 | Open | open | verb | imperative |  |  |
 | your | your | pronoun |  |  | possessive |
-| eyes | eye | noun | plural |  |  |
+| eyes | eye | noun |  |  | plural |
 | and | and | conjunction |  |  |  |
 | see | see | verb | imperative |  |  |
-| who | who | interrogative pronoun |  |  |  |
+| who | who | pronoun |  |  | interrogative |
 | I | I | pronoun |  |  |  |
 | am | be | verb | present | indicative |  |
 | you | you | pronoun |  |  |  |
 | have | have | verb | present | indicative |  |
 | seen | see | verb | past participle |  |  |
-| things | thing | noun | plural |  |  |
+| things | thing | noun |  |  | plural |
 | that | that | pronoun |  |  |  |
 | have | have | verb | present | indicative |  |
 | made | make | verb | past participle |  |  |
@@ -574,7 +570,6 @@ Create a word table.
 | withstand | withstand | verb | infinitive |  |  |
 | my | my | pronoun |  |  | possessive |
 | smile | smile | noun |  |  |  |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -592,8 +587,8 @@ Create a word table.
 | I | I | pronoun |  |  |  |
 | was | be | verb | past | indicative |  |
 | like | like | preposition |  |  |  |
-| one | one | pronoun |  |  | indefinite |
-| who | who | relative pronoun |  |  |  |
+| one | one | pronoun |  |  |  |
+| who | who | pronoun |  |  |  |
 | wakes | wake | verb | present | indicative | 3rd person singular |
 | up | up | adverb |  |  |  |
 | from | from | preposition |  |  |  |
@@ -610,7 +605,6 @@ Create a word table.
 | to | to | preposition |  |  |  |
 | his | his | pronoun |  |  | possessive |
 | mind | mind | noun |  |  |  |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -628,8 +622,8 @@ Create a word table.
 | when | when | conjunction |  |  |  |
 | I | I | pronoun |  |  |  |
 | heard | hear | verb | past | indicative |  |
-| this | this | determiner |  |  | demonstrative |
-| utterance | utter | noun |  |  |  |
+| this | this | determiner |  |  |  |
+| utterance | utterance | noun |  |  |  |
 | worthy | worthy | adjective |  |  |  |
 | of | of | preposition |  |  |  |
 | such | such | determiner |  |  |  |
@@ -641,11 +635,10 @@ Create a word table.
 | from | from | preposition |  |  |  |
 | the | the | determiner |  |  |  |
 | book | book | noun |  |  |  |
-| that | that | relative pronoun |  |  |  |
+| that | that | pronoun |  |  |  |
 | reviews | review | verb | present | indicative | 3rd person singular |
 | the | the | determiner |  |  |  |
 | past | past | noun |  |  |  |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -662,25 +655,24 @@ Create a word table.
 |---|---|---|---|---|---|
 | If | if | conjunction |  |  |  |
 | all | all | determiner |  |  |  |
-| those | those | pronoun |  |  | demonstrative |
-| tongues | tongue | noun | plural |  |  |
+| those | those | determiner |  |  |  |
+| tongues | tongue | noun |  |  | plural |
 | were | be | verb | past | subjunctive |  |
-| to | to | modal verb |  | infinitive |  |
+| to | to | preposition |  |  |  |
 | sound | sound | verb | infinitive |  |  |
 | now | now | adverb |  |  |  |
 | that | that | conjunction |  |  |  |
-| Polyhymnia | Polyhymnia | noun |  |  | proper noun |
+| Polyhymnia | Polyhymnia | noun |  |  |  |
 | with | with | preposition |  |  |  |
 | her | her | pronoun |  |  | possessive |
-| sisters | sister | noun | plural |  |  |
+| sisters | sister | noun |  |  | plural |
 | made | make | verb | past | indicative |  |
-| more | more | adjective | comparative |  |  |
+| more | more | adjective |  |  | comparative |
 | rich | rich | adjective |  |  |  |
 | with | with | preposition |  |  |  |
 | their | their | pronoun |  |  | possessive |
-| sweetest | sweet | adjective | superlative |  |  |
+| sweetest | sweet | adjective |  |  | superlative |
 | milk | milk | noun |  |  |  |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -699,7 +691,7 @@ Create a word table.
 | help | help | verb | infinitive |  |  |
 | me | me | pronoun |  |  |  |
 | they | they | pronoun |  |  |  |
-| would | will | modal verb | past | conditional |  |
+| would | would | modal verb |  | conditional |  |
 | not | not | adverb |  |  |  |
 | reach | reach | verb | infinitive |  |  |
 | a | a | determiner |  |  |  |
@@ -713,14 +705,13 @@ Create a word table.
 | holy | holy | adjective |  |  |  |
 | smile | smile | noun |  |  |  |
 | and | and | conjunction |  |  |  |
-| how | how | interrogative adverb |  |  |  |
+| how | how | adverb |  |  |  |
 | clear | clear | adjective |  |  |  |
 | the | the | determiner |  |  |  |
 | holy | holy | adjective |  |  |  |
 | aspect | aspect | noun |  |  |  |
 | made | make | verb | past | indicative |  |
 | me | me | pronoun |  |  |  |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -743,18 +734,17 @@ Create a word table.
 | the | the | determiner |  |  |  |
 | sacred | sacred | adjective |  |  |  |
 | poem | poem | noun |  |  |  |
-| must | must | modal verb | present | indicative |  |
+| must | must | modal verb |  |  |  |
 | leap | leap | verb | infinitive |  |  |
 | forward | forward | adverb |  |  |  |
 | like | like | preposition |  |  |  |
-| one | one | pronoun |  |  | indefinite |
-| who | who | relative pronoun |  |  |  |
+| one | one | pronoun |  |  |  |
+| who | who | pronoun |  |  |  |
 | finds | find | verb | present | indicative | 3rd person singular |
 | his | his | pronoun |  |  | possessive |
 | path | path | noun |  |  |  |
 | cut | cut | verb | past participle |  |  |
 | off | off | adverb |  |  |  |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -770,7 +760,7 @@ Create a word table.
 | Word | Lemma | Part of Speech | Tense | Mood | Note |
 |---|---|---|---|---|---|
 | But | but | conjunction |  |  |  |
-| whoever | whoever | pronoun |  |  | indefinite |
+| whoever | whoever | pronoun |  |  |  |
 | considers | consider | verb | present | indicative | 3rd person singular |
 | the | the | determiner |  |  |  |
 | weighty | weighty | adjective |  |  |  |
@@ -778,11 +768,11 @@ Create a word table.
 | and | and | conjunction |  |  |  |
 | the | the | determiner |  |  |  |
 | mortal | mortal | adjective |  |  |  |
-| shoulders | shoulder | noun | plural |  |  |
-| that | that | relative pronoun |  |  |  |
-| bear | bear | verb | present | indicative | 3rd person plural |
+| shoulders | shoulder | noun |  |  | plural |
+| that | that | pronoun |  |  |  |
+| bear | bear | verb | present | indicative | 3rd person singular |
 | it | it | pronoun |  |  |  |
-| would | will | modal verb | past | conditional |  |
+| would | would | modal verb |  | conditional |  |
 | not | not | adverb |  |  |  |
 | blame | blame | verb | infinitive |  |  |
 | it | it | pronoun |  |  |  |
@@ -791,7 +781,6 @@ Create a word table.
 | trembles | tremble | verb | present | indicative | 3rd person singular |
 | beneath | beneath | preposition |  |  |  |
 | it | it | pronoun |  |  |  |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -813,9 +802,9 @@ Create a word table.
 | no | no | determiner |  |  |  |
 | match | match | noun |  |  |  |
 | for | for | preposition |  |  |  |
-| what | what | interrogative pronoun |  |  |  |
+| what | what | pronoun |  |  |  |
 | the | the | determiner |  |  |  |
-| daring | dare | adjective |  |  |  |
+| daring | dare | verb | present participle |  |  |
 | prow | prow | noun |  |  |  |
 | cleaves | cleave | verb | present | indicative | 3rd person singular |
 | through | through | preposition |  |  |  |
@@ -823,10 +812,9 @@ Create a word table.
 | is | be | verb | present | indicative | 3rd person singular |
 | a | a | determiner |  |  |  |
 | helmsman | helmsman | noun |  |  |  |
-| who | who | relative pronoun |  |  |  |
+| who | who | pronoun |  |  |  |
 | spares | spare | verb | present | indicative | 3rd person singular |
 | himself | himself | pronoun |  |  | reflexive |
-| . | . | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -841,7 +829,7 @@ Create a word table.
 <result>
 | Word | Lemma | Part of Speech | Tense | Mood | Note |
 |---|---|---|---|---|---|
-| Why | why | interrogative adverb |  |  |  |
+| Why | why | adverb |  |  |  |
 | does | do | verb | present | indicative | 3rd person singular |
 | my | my | pronoun |  |  | possessive |
 | face | face | noun |  |  |  |
@@ -857,14 +845,13 @@ Create a word table.
 | the | the | determiner |  |  |  |
 | beautiful | beautiful | adjective |  |  |  |
 | garden | garden | noun |  |  |  |
-| that | that | relative pronoun |  |  |  |
+| that | that | pronoun |  |  |  |
 | blossoms | blossom | verb | present | indicative | 3rd person singular |
 | beneath | beneath | preposition |  |  |  |
 | the | the | determiner |  |  |  |
-| rays | ray | noun | plural |  |  |
+| rays | ray | noun |  |  | plural |
 | of | of | preposition |  |  |  |
-| Christ | Christ | noun |  |  | proper noun |
-| ? | ? | punctuation |  |  |  |
+| Christ | Christ | noun |  |  |  |
 </result>
 </query>
 <query>
@@ -880,7 +867,7 @@ Create a word table.
 | Word | Lemma | Part of Speech | Tense | Mood | Note |
 |---|---|---|---|---|---|
 | There | there | adverb |  |  |  |
-| is | be | verb | present | indicative |  |
+| is | be | verb | present | indicative | 3rd person singular |
 | the | the | determiner |  |  |  |
 | rose | rose | noun |  |  |  |
 | in | in | preposition |  |  |  |
@@ -891,9 +878,9 @@ Create a word table.
 | became | become | verb | past | indicative |  |
 | flesh | flesh | noun |  |  |  |
 | there | there | adverb |  |  |  |
-| are | be | verb | present | indicative |  |
+| are | be | verb | present | indicative | 3rd person plural |
 | the | the | determiner |  |  |  |
-| lilies | lily | noun | plural |  |  |
+| lilies | lily | noun |  |  | plural |
 | whose | whose | pronoun |  |  | possessive |
 | fragrance | fragrance | noun |  |  |  |
 | led | lead | verb | past | indicative |  |
@@ -901,7 +888,6 @@ Create a word table.
 | the | the | determiner |  |  |  |
 | good | good | adjective |  |  |  |
 | path | path | noun |  |  |  |
-| " |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -936,7 +922,6 @@ Create a word table.
 | my | my | pronoun |  |  | possessive |
 | weak | weak | adjective |  |  |  |
 | eyes | eye | noun | plural |  |  |
-| . |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -973,7 +958,6 @@ Create a word table.
 | covered | cover | verb | past participle |  |  |
 | in | in | preposition |  |  |  |
 | shadow | shadow | noun |  |  |  |
-| ; |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -1008,7 +992,6 @@ Create a word table.
 | of | of | preposition |  |  |  |
 | the | the | determiner |  |  |  |
 | flashes | flash | noun | plural |  |  |
-| . |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -1046,7 +1029,6 @@ Create a word table.
 | within | within | preposition |  |  |  |
 | their | their | pronoun |  |  | possessive |
 | power | power | noun |  |  |  |
-| . |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -1083,7 +1065,6 @@ Create a word table.
 | the | the | determiner |  |  |  |
 | greatest | great | adjective | superlative |  |  |
 | fire | fire | noun |  |  |  |
-| ; |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -1112,7 +1093,7 @@ Create a word table.
 | quantity | quantity | noun |  |  |  |
 | of | of | preposition |  |  |  |
 | the | the | determiner |  |  |  |
-| living | live | verb | present participle |  |  |
+| living | live | adjective | present participle |  |  |
 | star | star | noun |  |  |  |
 | that | that | pronoun |  |  |  |
 | conquers | conquer | verb | present | indicative |  |
@@ -1123,7 +1104,6 @@ Create a word table.
 | conquered | conquer | verb | past | indicative |  |
 | down | down | adverb |  |  |  |
 | here | here | adverb |  |  |  |
-| . |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -1157,7 +1137,6 @@ Create a word table.
 | revolved | revolve | verb | past | indicative |  |
 | around | around | preposition |  |  |  |
 | it | it | pronoun |  |  |  |
-| . |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -1185,8 +1164,8 @@ Create a word table.
 | soul | soul | noun |  |  |  |
 | to | to | preposition |  |  |  |
 | itself | itself | pronoun |  |  | reflexive |
-| would | would | modal verb |  | conditional |  |
-| seem | seem | verb | infinitive |  |  |
+| would | would | modal verb |  |  |  |
+| seem | seem | verb | present | indicative |  |
 | like | like | preposition |  |  |  |
 | a | a | determiner |  |  |  |
 | cloud | cloud | noun |  |  |  |
@@ -1195,7 +1174,6 @@ Create a word table.
 | and | and | conjunction |  |  |  |
 | tears | tear | verb | present | indicative |  |
 | apart | apart | adverb |  |  |  |
-| . |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -1231,7 +1209,6 @@ Create a word table.
 | heaven | heaven | noun |  |  |  |
 | is | be | verb | present | indicative |  |
 | adorned | adorn | verb | past participle |  |  |
-| . |  | punctuation |  |  |  |
 </result>
 </query>
 <query>
@@ -1263,7 +1240,7 @@ Create a word table.
 | that | that | pronoun |  |  |  |
 | was | be | verb | past | indicative |  |
 | the | the | determiner |  |  |  |
-| dwelling | dwell | noun |  |  |  |
+| dwelling | dwell | verb | present participle |  |  |
 | place | place | noun |  |  |  |
 | of | of | preposition |  |  |  |
 | our | our | pronoun |  |  | possessive |
@@ -1280,36 +1257,7 @@ Create a word table.
 108 the highest sphere more divine because he enters there."
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
-|---|---|---|---|---|---|
-| and | and | conjunction |  |  |  |
-| I | I | pronoun |  |  |  |
-| will | will | modal verb | future | indicative |  |
-| circle | circle | verb | infinitive |  |  |
-| you | you | pronoun |  |  |  |
-| lady | lady | noun |  |  |  |
-| of | of | preposition |  |  |  |
-| heaven | heaven | noun |  |  |  |
-| as | as | conjunction |  |  |  |
-| long | long | adjective |  |  |  |
-| as | as | conjunction |  |  |  |
-| you | you | pronoun |  |  |  |
-| follow | follow | verb | present | subjunctive |  |
-| your | your | pronoun |  |  | possessive |
-| son | son | noun |  |  |  |
-| and | and | conjunction |  |  |  |
-| you | you | pronoun |  |  |  |
-| will | will | modal verb | future | indicative |  |
-| make | make | verb | infinitive |  |  |
-| the | the | determiner |  |  |  |
-| highest | high | adjective | superlative |  |  |
-| sphere | sphere | noun |  |  |  |
-| more | more | adjective | comparative |  |  |
-| divine | divine | adjective |  |  |  |
-| because | because | conjunction |  |  |  |
-| he | he | pronoun |  |  |  |
-| enters | enter | verb | present | indicative |  |
-| there | there | adverb |  |  |  |
+|Word|Lemma|Part of Speech|Tense|Mood|Note||---|---|---|---|---|---|and|and|conjunction||||I|I|pronoun||||will|will|modal verb|future|indicative||||circle|circle|verb||infinitive||||you|you|pronoun||||lady|lady|noun||||of|of|preposition||||heaven|heaven|noun||||as|as|preposition||||long|long|adjective||||as|as|conjunction||||you|you|pronoun||||follow|follow|verb||present|indicative||||your|your|pronoun|||possessive||||son|son|noun||||and|and|conjunction||||you|you|pronoun||||will|will|modal verb|future|indicative||||make|make|verb||infinitive||||the|the|determiner||||highest|high|adjective||||sphere|sphere|noun||||more|more|adverb||||divine|divine|adjective||||because|because|conjunction||||he|he|pronoun||||enters|enter|verb||present|indicative||||there|there|adverb||||
 </result>
 </query>
 <query>
@@ -1322,25 +1270,7 @@ Create a word table.
 111 made the name of Mary resound.
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
-|---|---|---|---|---|---|
-| Thus | thus | adverb |  |  |  |
-| the | the | determiner |  |  |  |
-| circling | circle | adjective |  |  |  |
-| melody | melody | noun |  |  |  |
-| was | be | verb | past | indicative |  |
-| sealed | seal | verb | past participle |  |  |
-| and | and | conjunction |  |  |  |
-| all | all | determiner |  |  |  |
-| the | the | determiner |  |  |  |
-| other | other | adjective |  |  |  |
-| lights | light | noun | plural |  |  |
-| made | make | verb | past | indicative |  |
-| the | the | determiner |  |  |  |
-| name | name | noun |  |  |  |
-| of | of | preposition |  |  |  |
-| Mary | Mary | noun |  |  |  |
-| resound | resound | verb | infinitive |  |  |
+|Word|Lemma|Part of Speech|Tense|Mood|Note||---|---|---|---|---|---|Thus|thus|adverb||||the|the|determiner||||circling|circle|adjective||||melody|melody|noun||||was|be|verb|past|indicative||||sealed|seal|verb|pastparticle||||and|and|conjunction||||all|all|determiner||||the|the|determiner||||other|other|adjective||||lights|light|noun|pl.||||made|make|verb|past|indicative||||the|the|determiner||||name|name|noun||||of|of|preposition||||Mary|Mary|noun||||resound|resound|verb||infinitive||||
 </result>
 </query>
 <query>
@@ -1353,32 +1283,7 @@ Create a word table.
 114 in the breath of God and in his ways,
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
-|---|---|---|---|---|---|
-| The | the | determiner |  |  |  |
-| royal | royal | adjective |  |  |  |
-| mantle | mantle | noun |  |  |  |
-| of | of | preposition |  |  |  |
-| all | all | determiner |  |  |  |
-| the | the | determiner |  |  |  |
-| volumes | volume | noun | plural |  |  |
-| of | of | preposition |  |  |  |
-| the | the | determiner |  |  |  |
-| world | world | noun |  |  |  |
-| which | which | pronoun |  |  |  |
-| glows | glow | verb | present | indicative |  |
-| and | and | conjunction |  |  |  |
-| quickens | quicken | verb | present | indicative |  |
-| most | most | adverb | superlative |  |  |
-| in | in | preposition |  |  |  |
-| the | the | determiner |  |  |  |
-| breath | breath | noun |  |  |  |
-| of | of | preposition |  |  |  |
-| God | God | noun |  |  |  |
-| and | and | conjunction |  |  |  |
-| in | in | preposition |  |  |  |
-| his | his | pronoun |  |  | possessive |
-| ways | way | noun | plural |  |  |
+|Word|Lemma|Part of Speech|Tense|Mood|Note||---|---|---|---|---|---|The|the|determiner||||royal|royal|adjective||||mantle|mantle|noun||||of|of|preposition||||all|all|determiner||||the|the|determiner||||volumes|volume|noun|pl.||||of|of|preposition||||the|the|determiner||||world|world|noun||||which|which|relative pronoun||||glows|glow|verb||present|indicative||||and|and|conjunction||||quickens|quicken|verb||present|indicative||||most|most|adverb||||in|in|preposition||||the|the|determiner||||breath|breath|noun||||of|of|preposition||||God|God|noun||||and|and|conjunction||||in|in|preposition||||his|his|pronoun|||possessive||||ways|way|noun|pl.||||
 </result>
 </query>
 <query>
@@ -1391,27 +1296,7 @@ Create a word table.
 117 where I was;
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
-|---|---|---|---|---|---|
-| had | have | verb | past | indicative |  |
-| its | its | pronoun |  |  | possessive |
-| inner | inner | adjective |  |  |  |
-| shore | shore | noun |  |  |  |
-| so | so | adverb |  |  |  |
-| distant | distant | adjective |  |  |  |
-| above | above | preposition |  |  |  |
-| us | we | pronoun |  |  | objective |
-| that | that | conjunction |  |  |  |
-| its | its | pronoun |  |  | possessive |
-| appearance | appear | noun |  |  |  |
-| did | do | verb | past | indicative |  |
-| not | not | adverb |  |  |  |
-| yet | yet | adverb |  |  |  |
-| reveal | reveal | verb | infinitive |  |  |
-| itself | itself | pronoun |  |  | reflexive |
-| where | where | adverb |  |  |  |
-| I | I | pronoun |  |  |  |
-| was | be | verb | past | indicative |  |
+|Word|Lemma|Part of Speech|Tense|Mood|Note||---|---|---|---|---|---|had|have|verb|past|indicative||||its|its|pronoun|||possessive||||inner|inner|adjective||||shore|shore|noun||||so|so|adverb||||distant|distant|adjective||||above|above|preposition||||us|we|pronoun||||that|that|conjunction||||its|its|pronoun|||possessive||||appearance|appear|noun||||did|do|verb|past|indicative||||not|not|adverb||||yet|yet|adverb||||reveal|reveal|verb||infinitive||||itself|itself|pronoun||||where|where|adverb||||I|I|pronoun||||was|be|verb|past|indicative||||
 </result>
 </query>
 <query>
@@ -1424,24 +1309,7 @@ Create a word table.
 120 that rose after its seed.
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
-|---|---|---|---|---|---|
-| therefore | therefore | adverb |  |  |  |
-| my | my | pronoun |  |  | possessive |
-| eyes | eye | noun | plural |  |  |
-| had | have | verb | past | indicative |  |
-| no | no | determiner |  |  |  |
-| power | power | noun |  |  |  |
-| to | to | preposition |  |  |  |
-| follow | follow | verb | infinitive |  |  |
-| the | the | determiner |  |  |  |
-| crowned | crown | adjective |  |  |  |
-| flame | flame | noun |  |  |  |
-| that | that | pronoun |  |  |  |
-| rose | rise | verb | past | indicative |  |
-| after | after | preposition |  |  |  |
-| its | its | pronoun |  |  | possessive |
-| seed | seed | noun |  |  |  |
+|Word|Lemma|Part of Speech|Tense|Mood|Note||---|---|---|---|---|---|therefore|therefore|adverb||||my|my|pronoun|||possessive||||eyes|eye|noun|pl.||||had|have|verb|past|indicative||||no|no|determiner||||power|power|noun||||to|to|preposition||||follow|follow|verb||infinitive||||the|the|determiner||||crowned|crown|adjective||||flame|flame|noun||||that|that|relative pronoun||||rose|rise|verb|past|indicative||||after|after|preposition||||its|its|pronoun|||possessive||||seed|seed|noun||||
 </result>
 </query>
 <query>
@@ -1454,34 +1322,7 @@ Create a word table.
 123 because its soul is kindled even outwardly;
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
-|---|---|---|---|---|---|
-| And | and | conjunction |  |  |  |
-| like | like | preposition |  |  |  |
-| a | a | determiner |  |  |  |
-| little | little | adjective |  |  |  |
-| child | child | noun |  |  |  |
-| who | who | pronoun |  |  |  |
-| stretches | stretch | verb | present | indicative |  |
-| out | out | adverb |  |  |  |
-| its | its | pronoun |  |  | possessive |
-| arms | arm | noun | plural |  |  |
-| toward | toward | preposition |  |  |  |
-| its | its | pronoun |  |  | possessive |
-| mother | mother | noun |  |  |  |
-| after | after | preposition |  |  |  |
-| it | it | pronoun |  |  |  |
-| has | have | verb | present | indicative |  |
-| taken | take | verb | past participle |  |  |
-| its | its | pronoun |  |  | possessive |
-| milk | milk | noun |  |  |  |
-| because | because | conjunction |  |  |  |
-| its | its | pronoun |  |  | possessive |
-| soul | soul | noun |  |  |  |
-| is | be | verb | present | indicative |  |
-| kindled | kindle | verb | past participle |  |  |
-| even | even | adverb |  |  |  |
-| outwardly | outward | adverb |  |  |  |
+|Word|Lemma|Part of Speech|Tense|Mood|Note|| ---| ---| ---| ---| ---| ---| And| and| conjunction|||| like| like| preposition|||| a| a| determiner|||| little| little| adjective|||| child| child| noun|||| who| who| relative| present| indicative|||| stretches| stretch| verb| present| indicative|||| out| out| adverb|||| its| its| possessive| present| indicative|||| arms| arm| noun| plural|||| toward| toward| preposition|||| its| its| possessive| present| indicative|||| mother| mother| noun|||| after| after| preposition|||| it| it| personal| present| indicative|||| has| have| verb| present| indicative|||| taken| take| verb| past| participle|||| its| its| possessive| present| indicative|||| milk| milk| noun|||| because| because| conjunction|||| its| its| possessive| present| indicative|||| soul| soul| noun|||| is| be| verb| present| indicative|||| kindled| kindle| verb| past| participle|||| even| even| adverb|||| outwardly| outwardly| adverb||||
 </result>
 </query>
 <query>
@@ -1494,32 +1335,7 @@ Create a word table.
 126 that they had for Mary was revealed to me.
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
-|---|---|---|---|---|---|
-| each | each | determiner |  |  |  |
-| of | of | preposition |  |  |  |
-| those | those | pronoun |  |  |  |
-| shining | shine | adjective |  |  |  |
-| spirits | spirit | noun | plural |  |  |
-| extended | extend | verb | past | indicative |  |
-| upward | upward | adverb |  |  |  |
-| with | with | preposition |  |  |  |
-| its | its | pronoun |  |  | possessive |
-| peak | peak | noun |  |  |  |
-| so | so | conjunction |  |  |  |
-| that | that | conjunction |  |  |  |
-| the | the | determiner |  |  |  |
-| deep | deep | adjective |  |  |  |
-| affection | affection | noun |  |  |  |
-| that | that | pronoun |  |  |  |
-| they | they | pronoun |  |  |  |
-| had | have | verb | past | indicative |  |
-| for | for | preposition |  |  |  |
-| Mary | Mary | noun |  |  |  |
-| was | be | verb | past | indicative |  |
-| revealed | reveal | verb | past participle |  |  |
-| to | to | preposition |  |  |  |
-| me | me | pronoun |  |  |  |
+|Word|Lemma|Part of Speech|Tense|Mood|Note||---|---|---|---|---|---|each|each|determiner||||of|of|preposition||||those|those|determiner||||shining|shine|adjective||||spirits|spirit|noun|plural||||extended|extend|verb|past|indicative||||upward|upward|adverb||||with|with|preposition||||its|its|pronoun|||possessive||||peak|peak|noun||||so|so|adverb||||that|that|conjunction||||the|the|determiner||||deep|deep|adjective||||affection|affection|noun||||that|that|relative pronoun||||they|they|pronoun||||had|have|verb|past|indicative||||for|for|preposition||||Mary|Mary|noun||||was|be|verb|past|indicative||||revealed|reveal|verb|past|participle||||to|to|preposition||||me|me|pronoun||||
 </result>
 </query>
 <query>
@@ -1532,25 +1348,7 @@ Create a word table.
 129 that the delight never left me.
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
-|---|---|---|---|---|---|
-| Then | then | adverb |  |  |  |
-| they | they | pronoun |  |  |  |
-| remained | remain | verb | past | indicative |  |
-| there | there | adverb |  |  |  |
-| before | before | preposition |  |  |  |
-| me | me | pronoun |  |  |  |
-| singing | sing | verb | present participle |  |  |
-| 'Regina | Regina | noun |  |  |  |
-| celi' | celi | noun |  |  |  |
-| so | so | adverb |  |  |  |
-| sweetly | sweet | adverb |  |  |  |
-| that | that | conjunction |  |  |  |
-| the | the | determiner |  |  |  |
-| delight | delight | noun |  |  |  |
-| never | never | adverb |  |  |  |
-| left | leave | verb | past | indicative |  |
-| me | me | pronoun |  |  |  |
+|Word|Lemma|Part of Speech|Tense|Mood|Note|| ---| ---| ---| ---| ---| ---| Then| then| adverb|||| they| they| pronoun|||| remained| remain| verb| past| indicative|||| there| there| adverb|||| before| before| preposition|||| me| me| pronoun|||| singing| sing| verb| present| participle|||| Regina| Regina| noun|||| celi| celi| noun|||| so| so| adverb|||| sweetly| sweetly| adverb|||| that| that| conjunction|||| the| the| determiner|||| delight| delight| noun|||| never| never| adverb|||| left| leave| verb| past| indicative|||| me| me| pronoun||||
 </result>
 </query>
 <query>
@@ -1563,28 +1361,7 @@ Create a word table.
 132 that were good sowers here below!
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
-|---|---|---|---|---|---|
-| Oh | oh | interjection |  |  |  |
-| how | how | adverb |  |  |  |
-| abundant | abundant | adjective |  |  |  |
-| is | be | verb | present | indicative |  |
-| the | the | determiner |  |  |  |
-| grace | grace | noun |  |  |  |
-| that | that | pronoun |  |  |  |
-| is | be | verb | present | indicative |  |
-| sown | sow | verb | past participle |  |  |
-| in | in | preposition |  |  |  |
-| those | those | pronoun |  |  |  |
-| most | most | adverb | superlative |  |  |
-| rich | rich | adjective |  |  |  |
-| arks | ark | noun | plural |  |  |
-| that | that | pronoun |  |  |  |
-| were | be | verb | past | indicative |  |
-| good | good | adjective |  |  |  |
-| sowers | sower | noun | plural |  |  |
-| here | here | adverb |  |  |  |
-| below | below | adverb |  |  |  |
+|Word|Lemma|Part of Speech|Tense|Mood|Note||---|---|---|---|---|---|Oh|oh|interjection||||how|how|adverb||||abundant|abundant|adjective||||is|be|verb|present|indicative||||the|the|determiner||||grace|grace|noun||||that|that|relative pronoun||||is|be|verb|present|indicative||||sown|sow|verb|past|participle||||in|in|preposition||||those|those|determiner||||most|most|superlative||||rich|rich|adjective||||arks|ark|noun|plural||||that|that|relative pronoun||||were|be|verb|past|indicative||||good|good|adjective||||sowers|sower|noun|plural||||here|here|adverb||||below|below|preposition||||
 </result>
 </query>
 <query>
@@ -1597,30 +1374,7 @@ Create a word table.
 135 of Babylon, where gold was left behind.
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
-|---|---|---|---|---|---|
-| Here | here | adverb |  |  |  |
-| one | one | pronoun |  |  |  |
-| lives | live | verb | present | indicative |  |
-| and | and | conjunction |  |  |  |
-| enjoys | enjoy | verb | present | indicative |  |
-| the | the | determiner |  |  |  |
-| treasure | treasure | noun |  |  |  |
-| that | that | pronoun |  |  |  |
-| was | be | verb | past | indicative |  |
-| acquired | acquire | verb | past participle |  |  |
-| through | through | preposition |  |  |  |
-| weeping | weep | verb | present participle |  |  |
-| in | in | preposition |  |  |  |
-| the | the | determiner |  |  |  |
-| exile | exile | noun |  |  |  |
-| of | of | preposition |  |  |  |
-| Babylon | Babylon | noun |  |  |  |
-| where | where | adverb |  |  |  |
-| gold | gold | noun |  |  |  |
-| was | be | verb | past | indicative |  |
-| left | leave | verb | past participle |  |  |
-| behind | behind | preposition |  |  |  |
+|Word|Lemma|Part of Speech|Tense|Mood|Note||---|---|---|---|---|---|Here|here|adverb||||one|one|pronoun||||lives|live|verb|present|indicative||||and|and|conjunction||||enjoys|enjoy|verb|present|indicative||||the|the|determiner||||treasure|treasure|noun||||that|that|relative pronoun||||was|be|verb|past|indicative||||acquired|acquire|verb|past|participle||||through|through|preposition||||weeping|weep|verb|present|participle||||in|in|preposition||||the|the|determiner||||exile|exile|noun||||of|of|preposition||||Babylon|Babylon|noun||||where|where|adverb||||gold|gold|noun||||was|be|verb|past|indicative||||left|leave|verb|past|participle||||behind|behind|adverb||||
 </result>
 </query>
 <query>
@@ -1666,16 +1420,19 @@ Create a word table.
 139 he who holds the keys to such glory.
 </prompt>
 <result>
-| Word | Lemma | Part of Speech | Tense | Mood | Note |
-|---|---|---|---|---|---|
-| he | he | pronoun |  |  |  |
-| who | who | pronoun |  |  |  |
-| holds | hold | verb | present | indicative |  |
-| the | the | determiner |  |  |  |
-| keys | key | noun | plural |  |  |
-| to | to | preposition |  |  |  |
-| such | such | adjective |  |  |  |
-| glory | glory | noun |  |  |  |
+FirebaseUser
+```
+| Word | Lemma | Part of Speech | Mood | Note |
+|---|---|---|---|---|
+| he | he | pronoun |  |  |
+| who | who | pronoun |  |  |
+| holds | hold | verb | present |  |
+| the | the | determiner |  |  |
+| keys | key | noun |  | plural |
+| to | to | preposition |  |  |
+| such | such | adjective |  |  |
+| glory | glory | noun |  |  |
+```
 </result>
 </query>
 </queries>
